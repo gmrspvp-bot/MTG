@@ -6,12 +6,12 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 
 | Deck | File to run | Notes |
 |---|---|---|
-| Captain America | `Captain America v2.dck` | v2: Plains fix, self-attaching equipment, AI-friendly cards |
-| Mr House | `Mr House v2.dck` | v2: 15 tapped/colourless lands → untapped duals (14% → 22.5% win rate). **Temporary:** Wyll's Reversal → General's Enforcer (Forge's AI can't use Wyll's Reversal; Enforcer makes Mr House indestructible) |
-| Doom Prevails | `Doom Prevails.dck` | original |
-| Tidus | `Tidus.dck` | original |
-| Deadpool | `Deadpool.dck` | original |
+| Captain America | `Captain America v6.dck` | Latest upgrade from the bulk collection. In Oct 2026 tests all versions (original to v6) won 16-20%, with no clear difference |
+| Mr House | `Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
+| Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
+| Tidus | `Tidus v3.dck` | bulk upgrades |
+| Deadpool | `Deadpool v3.dck` | bulk upgrades |
 
-Kept for reference (not run unless comparing): `Captain America.dck`, `Mr House.dck`, `Caelorna - Octopus Fortress.dck`.
+Older versions are kept for reference and comparisons; never delete or overwrite them. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
 Note: `scripts\convert-manabox.ps1` regenerates the *original* `.dck` files from the ManaBox exports; it never touches the v2 files.
