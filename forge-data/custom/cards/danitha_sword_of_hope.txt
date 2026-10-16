@@ -1,0 +1,10 @@
+Name:Danitha, Sword of Hope
+ManaCost:2 W
+Types:Legendary Creature Human Knight
+PT:2/2
+K:First Strike
+T:Mode$ SpellCast | ValidCard$ Equipment | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | ActivationLimit$ 1 | TriggerDescription$ Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn.
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery,Aura | TargetsValid$ Creature.YouCtrl+inZoneBattlefield | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | ActivationLimit$ 1 | Secondary$ True | TriggerDescription$ Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn.
+SVar:TrigDraw:DB$ Draw
+DeckHints:Type$Equipment
+Oracle:First strike\nWhenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn.

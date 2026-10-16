@@ -1,0 +1,16 @@
+Name:Attempted Murder
+ManaCost:X B B
+Types:Sorcery
+A:SP$ RollDice | Cost$ 8 B B | Amount$ 8 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 8 six-sided dice. (X=8; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 7 B B | Amount$ 7 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 7 six-sided dice. (X=7; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 6 B B | Amount$ 6 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 6 six-sided dice. (X=6; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 5 B B | Amount$ 5 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 5 six-sided dice. (X=5; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 4 B B | Amount$ 4 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 4 six-sided dice. (X=4; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 3 B B | Amount$ 3 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 3 six-sided dice. (X=3; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 2 B B | Amount$ 2 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 2 six-sided dice. (X=2; fixed-X split for the AI.)
+A:SP$ RollDice | Cost$ 1 B B | Amount$ 1 | Sides$ 6 | EvenOddResults$ True | AILogic$ Main2 | SubAbility$ DBPutCounter | SpellDescription$ Choose target creature. Roll 1 six-sided dice. (X=1; fixed-X split for the AI.)
+SVar:DBPutCounter:DB$ PutCounter | ValidTgts$ Creature | IsCurse$ True | CounterType$ M1M1 | CounterNum$ Y | SubAbility$ DBToken | StackDescription$ For each even result, put two -1/-1 counters on {c:Targeted}. | SpellDescription$ For each even result, put two -1/-1 counters on that creature.
+SVar:DBToken:DB$ Token | TokenAmount$ OddResults | TokenScript$ storm_crow | SpellDescription$ For each odd result, create a 1/2 blue Bird creature token with flying named Storm Crow.
+SVar:Y:SVar$EvenResults/Twice
+DeckHas:Ability$Counters|Token & Type$Bird
+Oracle:Choose target creature. Roll X six-sided dice. For each even result, put two -1/-1 counters on that creature. For each odd result, create a 1/2 blue Bird creature token with flying named Storm Crow.

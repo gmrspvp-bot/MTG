@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+activeplayer=ai
+humanlife=40
+ailife=40
+activephase=MAIN1
+humanbattlefield=Serra Angel;Craw Wurm;Forest
+aibattlefield=Swamp;Swamp;Mountain;Mountain;Swamp;Grizzly Bears
+aihand=Deadpool, Trading Card

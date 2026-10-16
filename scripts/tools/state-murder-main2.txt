@@ -1,0 +1,9 @@
+﻿[state]
+turn=8
+activeplayer=ai
+activephase=MAIN2
+humanlife=30
+ailife=30
+humanbattlefield=Serra Angel;Craw Wurm;Forest
+aibattlefield=Swamp;Swamp;Swamp;Swamp;Mountain;Mountain;Plains
+aihand=Attempted Murder

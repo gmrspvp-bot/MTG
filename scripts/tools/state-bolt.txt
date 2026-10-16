@@ -1,0 +1,9 @@
+﻿[state]
+turn=4
+humanlife=40
+ailife=40
+activeplayer=human
+activephase=END_OF_TURN
+humanbattlefield=Serra Angel;Forest;Forest
+aibattlefield=Mountain;Mountain;Mountain;Plains;Plains
+aihand=Stonesplitter Bolt

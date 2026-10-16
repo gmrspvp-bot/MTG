@@ -1,0 +1,1578 @@
+Player: Sam (HUMAN) deck=Captain America v6
+Player: Julthor (AI) deck=Doom Prevails v3
+Player: Augusta (AI) deck=Mr House v4
+Player: Kaitlyn (AI) deck=Tidus v3
+Mulligan: Sam has kept a hand of 7 cards
+Mulligan: Julthor has kept a hand of 7 cards
+Mulligan: Augusta has kept a hand of 7 cards
+Mulligan: Kaitlyn has kept a hand of 7 cards
+Turn: Turn 1 (Sam)
+Information: BOARD turn 1 (Sam) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Old Thrush(2); Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Plains(land); Furycalm Snarl(land)
+Information: BOARD turn 1 (Sam) | Julthor | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Path of Ancestry(land); Scavenger Grounds(land)
+Information: BOARD turn 1 (Sam) | Augusta | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Caves of Koilos(land); Swamp(land); Needleverge Pathway(land)
+Information: BOARD turn 1 (Sam) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Overflowing Basin(land); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: As Furycalm Snarl enters, you may reveal a Mountain or Plains card from your hand. If you don't, Furycalm Snarl enters tapped.
+Land: Sam played Furycalm Snarl (53)
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 2 (Julthor)
+Information: BOARD turn 2 (Julthor) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Old Thrush(2); Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Plains(land); Deserted Beach(land)
+Information: BOARD turn 2 (Julthor) | Julthor | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Path of Ancestry(land); Scavenger Grounds(land)
+Information: BOARD turn 2 (Julthor) | Augusta | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Caves of Koilos(land); Swamp(land); Needleverge Pathway(land)
+Information: BOARD turn 2 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Overflowing Basin(land); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Julthor played Path of Ancestry (107)
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 3 (Augusta)
+Information: BOARD turn 3 (Augusta) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Old Thrush(2); Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Plains(land); Deserted Beach(land)
+Information: BOARD turn 3 (Augusta) | Julthor | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land)
+Information: BOARD turn 3 (Augusta) | Augusta | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Caves of Koilos(land); Swamp(land); Needleverge Pathway(land)
+Information: BOARD turn 3 (Augusta) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Overflowing Basin(land); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Caves of Koilos (265)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 4 (Kaitlyn)
+Information: BOARD turn 4 (Kaitlyn) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Old Thrush(2); Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Plains(land); Deserted Beach(land)
+Information: BOARD turn 4 (Kaitlyn) | Julthor | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land)
+Information: BOARD turn 4 (Kaitlyn) | Augusta | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 4 (Kaitlyn) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Overflowing Basin(land); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn played Overflowing Basin (347)
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 5 (Sam)
+Information: BOARD turn 5 (Sam) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Old Thrush(2); Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Plains(land); Deserted Beach(land)
+Information: BOARD turn 5 (Sam) | Julthor | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land)
+Information: BOARD turn 5 (Sam) | Augusta | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 5 (Sam) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Plains (85)
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Old Thrush
+Information: BOARD cast | Old Thrush (mv 2) by Sam | open mana: Julthor 0, Augusta 3, Kaitlyn 0
+Resolve Stack: Old Thrush - Creature 1 / 2
+Add To Stack: Sam triggered Old Thrush
+Life: Life: Sam 40 > 42
+Resolve Stack: When this creature enters, you gain 2 life. You may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Old Thrush (6)]
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 6 (Julthor)
+Information: BOARD turn 6 (Julthor) | Sam | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land); Danitha, Sword of Hope(3)
+Information: BOARD turn 6 (Julthor) | Julthor | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Villainous Hideout(land); Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land)
+Information: BOARD turn 6 (Julthor) | Augusta | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 6 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Villainous Hideout (102)
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 7 (Augusta)
+Information: BOARD turn 7 (Augusta) | Sam | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land); Danitha, Sword of Hope(3)
+Information: BOARD turn 7 (Augusta) | Julthor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4)
+Information: BOARD turn 7 (Augusta) | Augusta | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Haunted Ridge(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 7 (Augusta) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Augusta played Haunted Ridge (283)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 8 (Kaitlyn)
+Information: BOARD turn 8 (Kaitlyn) | Sam | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land); Danitha, Sword of Hope(3)
+Information: BOARD turn 8 (Kaitlyn) | Julthor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4)
+Information: BOARD turn 8 (Kaitlyn) | Augusta | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Infernal Grasp(2)
+Information: BOARD turn 8 (Kaitlyn) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Island(land); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn played Island (343)
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 9 (Sam)
+Information: BOARD turn 9 (Sam) | Sam | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land); Danitha, Sword of Hope(3)
+Information: BOARD turn 9 (Sam) | Julthor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4)
+Information: BOARD turn 9 (Sam) | Augusta | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Infernal Grasp(2)
+Information: BOARD turn 9 (Sam) | Kaitlyn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Mountain (79)
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Danitha, Sword of Hope
+Information: BOARD cast | Danitha, Sword of Hope (mv 3) by Sam | open mana: Julthor 3, Augusta 3, Kaitlyn 2
+Resolve Stack: Danitha, Sword of Hope - Creature 2 / 2
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 10 (Julthor)
+Information: BOARD turn 10 (Julthor) | Sam | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land)
+Information: BOARD turn 10 (Julthor) | Julthor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Island(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4)
+Information: BOARD turn 10 (Julthor) | Augusta | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Infernal Grasp(2)
+Information: BOARD turn 10 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Island (124)
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 11 (Augusta)
+Information: BOARD turn 11 (Augusta) | Sam | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land)
+Information: BOARD turn 11 (Augusta) | Julthor | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4); Spark Double(4)
+Information: BOARD turn 11 (Augusta) | Augusta | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Ash Barrens(land); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Infernal Grasp(2)
+Information: BOARD turn 11 (Augusta) | Kaitlyn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Land: Augusta picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Mana: Caves of Koilos (265) - {T}: Add {C}.
+Add To Stack: Augusta cast Infernal Grasp targeting [Danitha, Sword of Hope (10)]
+Information: BOARD cast | Infernal Grasp (mv 2) by Augusta | open mana: Sam 0, Julthor 4, Kaitlyn 2
+Zone Change: Danitha, Sword of Hope (10) was put into Graveyard from Battlefield.
+Life: Life: Augusta 40 > 38
+Resolve Stack: Infernal Grasp (294) - Destroy Danitha, Sword of Hope (10). Augusta loses 2 life.
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Ash Barrens (269)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 12 (Kaitlyn)
+Information: BOARD turn 12 (Kaitlyn) | Sam | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land)
+Information: BOARD turn 12 (Kaitlyn) | Julthor | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4); Spark Double(4)
+Information: BOARD turn 12 (Kaitlyn) | Augusta | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 12 (Kaitlyn) | Kaitlyn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Canopy Vista(land); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Kaitlyn played Canopy Vista (385)
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 13 (Sam)
+Information: BOARD turn 13 (Sam) | Sam | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Sokka and Suki(3); Skullclamp(1); Zirda, the Dawnwaker(3); Deserted Beach(land)
+Information: BOARD turn 13 (Sam) | Julthor | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4); Spark Double(4)
+Information: BOARD turn 13 (Sam) | Augusta | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 13 (Sam) | Kaitlyn | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Sam played Deserted Beach (60)
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Sam cast Sokka and Suki
+Information: BOARD cast | Sokka and Suki (mv 3) by Sam | open mana: Julthor 4, Augusta 1, Kaitlyn 2
+Resolve Stack: Sokka and Suki - Creature 3 / 3
+Add To Stack: Sam triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Sokka and Suki (8)]
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 14 (Julthor)
+Information: BOARD turn 14 (Julthor) | Sam | life 42 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Sokka and Suki 3/3 | hand cards: Plains(land); Skullclamp(1); Zirda, the Dawnwaker(3); Spider-Bot(2)
+Information: BOARD turn 14 (Julthor) | Julthor | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Living Laser(5); Smoldering Marsh(land); Scavenger Grounds(land); Swamp(land); Doom's Time Platform(4); Spark Double(4)
+Information: BOARD turn 14 (Julthor) | Augusta | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 14 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Swamp (153)
+Land: Julthor picked {R}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Island (124) - {T}: Add {U}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Add To Stack: Julthor cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Julthor | open mana: Sam 3, Augusta 1, Kaitlyn 2
+Add To Stack: Julthor triggered Path of Ancestry
+Resolve Stack: Julthor scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Doctor Doom, King of Latveria - Creature 3 / 3]) [Card: Doctor Doom, King of Latveria (201), Activator: Julthor, SpellAbility: Doctor Doom, King of Latveria - Creature 3 / 3]
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Julthor's Beginning of Combat Step
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Julthor discards Smoldering Marsh (165).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Julthor]
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria
+Life: Life: Augusta 38 > 36
+Life: Life: Kaitlyn 40 > 38
+Life: Life: Sam 42 > 40
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Julthor, Amount: 1]
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 15 (Augusta)
+Information: BOARD turn 15 (Augusta) | Sam | life 40 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Sokka and Suki 3/3 | hand cards: Plains(land); Skullclamp(1); Zirda, the Dawnwaker(3); Spider-Bot(2)
+Information: BOARD turn 15 (Augusta) | Julthor | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Kang Prime(5); Living Laser(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Sulfur Falls(land)
+Information: BOARD turn 15 (Augusta) | Augusta | life 36 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 15 (Augusta) | Kaitlyn | life 38 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Command Tower (232)
+Land: Augusta picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Land: Augusta picked {R}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Land: Augusta picked {B}
+Damage: Caves of Koilos (265) deals 1 non-combat damage to Augusta.
+Life: Life: Augusta 36 > 35
+Mana: Caves of Koilos (265) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Add To Stack: Augusta cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Augusta | open mana: Sam 3, Julthor 0, Kaitlyn 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 16 (Kaitlyn)
+Information: BOARD turn 16 (Kaitlyn) | Sam | life 40 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Sokka and Suki 3/3 | hand cards: Plains(land); Skullclamp(1); Zirda, the Dawnwaker(3); Spider-Bot(2)
+Information: BOARD turn 16 (Kaitlyn) | Julthor | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Kang Prime(5); Living Laser(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Sulfur Falls(land)
+Information: BOARD turn 16 (Kaitlyn) | Augusta | life 35 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 16 (Kaitlyn) | Kaitlyn | life 38 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn played Brushland (411)
+Mana: Island (343) - {T}: Add {U}.
+Mana: Canopy Vista (385) - {T}: Add {W}.
+Land: Kaitlyn picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Kaitlyn 38 > 37
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Add To Stack: Kaitlyn cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Kaitlyn | open mana: Sam 3, Julthor 0, Augusta 1
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Kaitlyn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 17 (Sam)
+Information: BOARD turn 17 (Sam) | Sam | life 40 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Sokka and Suki 3/3 | hand cards: Plains(land); Skullclamp(1); Zirda, the Dawnwaker(3); Spider-Bot(2)
+Information: BOARD turn 17 (Sam) | Julthor | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Kang Prime(5); Living Laser(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Sulfur Falls(land)
+Information: BOARD turn 17 (Sam) | Augusta | life 35 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 17 (Sam) | Kaitlyn | life 37 | hand 7 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Sam cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Sam | open mana: Julthor 0, Augusta 1, Kaitlyn 0
+Resolve Stack: Skullclamp
+Add To Stack: Sam triggered Sokka and Suki
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Skullclamp (48)]
+Add To Stack: Sam triggered Sokka and Suki targeting [Skullclamp (48)]
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[Skullclamp (48)]]) [Zone Changer: Ally Token (416)]
+Zone Change: Ally Token (416) was put into Graveyard from Battlefield.
+Add To Stack: Sam triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Ally Token (416)]
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Audacious Reshapers
+Information: BOARD cast | Audacious Reshapers (mv 3) by Sam | open mana: Julthor 0, Augusta 1, Kaitlyn 0
+Resolve Stack: Audacious Reshapers - Creature 3 / 3
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 18 (Julthor)
+Information: BOARD turn 18 (Julthor) | Sam | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3 | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land)
+Information: BOARD turn 18 (Julthor) | Julthor | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Kang Prime(5); Living Laser(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Sulfur Falls(land)
+Information: BOARD turn 18 (Julthor) | Augusta | life 35 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 18 (Julthor) | Kaitlyn | life 37 | hand 7 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 18 | Sokka and Suki (Sam) 41
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Julthor played Sulfur Falls (151)
+Land: Julthor picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (124) - {T}: Add {U}.
+Land: Julthor picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Add To Stack: Julthor cast Living Laser
+Information: BOARD cast | Living Laser (mv 5) by Julthor | open mana: Sam 0, Augusta 1, Kaitlyn 0
+Add To Stack: Julthor triggered Path of Ancestry
+Resolve Stack: Julthor scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Living Laser - Creature 4 / 4]) [Card: Living Laser (196), Activator: Julthor, SpellAbility: Living Laser - Creature 4 / 4]
+Resolve Stack: Living Laser - Creature 4 / 4
+Phase: Julthor's Beginning of Combat Step
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria targeting [Living Laser (196)]
+Discard: Julthor discards Skullclamp (148).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Living Laser (196)]]) [Phase: Julthor]
+Phase: Julthor's Declare Attackers Step
+Combat: Julthor assigned Doctor Doom, King of Latveria (201) to attack Augusta.
+Julthor assigned Living Laser (196) to attack Sam.
+Information: BOARD attack | Julthor -> Augusta | attackers 1 (power 3) | defender life 35 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Information: BOARD attack | Julthor -> Sam | attackers 1 (power 5) | defender life 40 | untapped creatures 3 (power 7): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3 | open mana 0
+Add To Stack: Julthor triggered Living Laser
+Resolve Stack: Whenever Living Laser attacks, for each card you've discarded this turn, create a token that's a copy of Living Laser, except the token isn't legendary. The tokens enter tapped and attacking. Exile the tokens at the beginning of the next end step. [Attacker: Living Laser (196)]
+Phase: Julthor's Declare Blockers Step
+Combat: Augusta assigned Mr. House, President and CEO (302) to block Doctor Doom, King of Latveria (201).
+Augusta didn't block Living Laser (418).
+Combat: Sam didn't block Living Laser (196).
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Damage: Living Laser (196) deals 5 combat damage to Sam.
+Damage: Doctor Doom, King of Latveria (201) deals 3 damage to Mr. House, President and CEO (302).
+Damage: Living Laser (418) deals 4 combat damage to Augusta.
+Life: Life: Sam 40 > 35
+Life: Life: Augusta 35 > 31
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Add To Stack: Julthor triggered Living Laser
+Zone Change: Living Laser (418) was put into Exile from Battlefield.
+Resolve Stack: Exile Living Laser (418) at the beginning of the next end step. ([Living Laser (418)]) [Phase: Julthor]
+Phase: Julthor's Cleanup step
+Turn: Turn 19 (Augusta)
+Information: BOARD turn 19 (Augusta) | Sam | life 35 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3 | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land)
+Information: BOARD turn 19 (Augusta) | Julthor | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 3/3*; Living Laser 5/5* | hand cards: Kang Prime(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 19 (Augusta) | Augusta | life 31 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Idol of Oblivion(2); Blind Obedience(2); Swamp(land); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 19 (Augusta) | Kaitlyn | life 37 | hand 7 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 19 | Living Laser (Julthor) 58; Sokka and Suki (Sam) 39; Doctor Doom, King of Latveria (Julthor) 39
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Swamp (257)
+Land: Augusta picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Land: Augusta picked {R}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Mana: Swamp (257) - {T}: Add {B}.
+Add To Stack: Augusta cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Augusta | open mana: Sam 0, Julthor 0, Kaitlyn 0
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Land: Augusta picked {W}
+Damage: Caves of Koilos (265) deals 1 non-combat damage to Augusta.
+Life: Life: Augusta 31 > 30
+Mana: Caves of Koilos (265) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Augusta cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by Augusta | open mana: Sam 0, Julthor 0, Kaitlyn 0
+Resolve Stack: Blind Obedience
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 20 (Kaitlyn)
+Information: BOARD turn 20 (Kaitlyn) | Sam | life 35 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3 | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land)
+Information: BOARD turn 20 (Kaitlyn) | Julthor | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 3/3*; Living Laser 5/5* | hand cards: Kang Prime(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 20 (Kaitlyn) | Augusta | life 30 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3 | hand cards: Idol of Oblivion(2); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Swamp(land)
+Information: BOARD turn 20 (Kaitlyn) | Kaitlyn | life 37 | hand 7 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Summon: Valefor(5); Path to Exile(1); Wildwood Scourge(1); Path of Ancestry(land); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 20 | Living Laser (Julthor) 55; Sokka and Suki (Sam) 38; Doctor Doom, King of Latveria (Julthor) 37
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Mana: Canopy Vista (385) - {T}: Add {W}.
+Add To Stack: Kaitlyn cast Path to Exile targeting [Living Laser (196)]
+Information: BOARD cast | Path to Exile (mv 1) by Kaitlyn | open mana: Sam 0, Julthor 0, Augusta 0
+Zone Change: Living Laser (196) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (321) - Exile Living Laser (196). Julthor may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Kaitlyn 37 > 36
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Island (343) - {T}: Add {U}.
+Add To Stack: Kaitlyn cast Wildwood Scourge
+Information: BOARD cast | Wildwood Scourge (mv 2) by Kaitlyn | open mana: Sam 0, Julthor 0, Augusta 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Resolve Stack: Wildwood Scourge - Creature 0 / 0 (X=1)
+Phase: Kaitlyn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kaitlyn's Declare Attackers Step
+Combat: Kaitlyn assigned Tidus, Yuna's Guardian (413) to attack Julthor.
+Information: BOARD attack | Kaitlyn -> Julthor | attackers 1 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Kaitlyn's Declare Blockers Step
+Combat: Julthor didn't block Tidus, Yuna's Guardian (413).
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Julthor.
+Life: Life: Julthor 40 > 37
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Kaitlyn played Path of Ancestry (323)
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 21 (Sam)
+Information: BOARD turn 21 (Sam) | Sam | life 35 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3 | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land)
+Information: BOARD turn 21 (Sam) | Julthor | life 37 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 3/3* | hand cards: Kang Prime(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 21 (Sam) | Augusta | life 30 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3 | hand cards: Idol of Oblivion(2); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Swamp(land)
+Information: BOARD turn 21 (Sam) | Kaitlyn | life 36 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 1/1* | hand cards: Summon: Valefor(5); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2); Tireless Tracker(3)
+Information: BOARD threat | turn 21 | Sokka and Suki (Sam) 36; Doctor Doom, King of Latveria (Julthor) 36
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Zone Change: Skullclamp (48) was put into Graveyard from Battlefield.
+Add To Stack: Sam activated Audacious Reshapers
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Damage: Audacious Reshapers (89) deals 2 non-combat damage to Sam.
+Life: Life: Sam 35 > 33
+Resolve Stack: Audacious Reshapers (89) - Samreveals cards from their library until revealing an artifact card. Put that card onto the battlefield and the rest on the bottom of their library in a random order. Audacious Reshapers (89) deals 0 damage to Sam. 
+Add To Stack: Sam triggered Sokka and Suki
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Sword of Feast and Famine (93)]
+Add To Stack: Sam triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Ally Token (449)]
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Sam | open mana: Julthor 0, Augusta 0, Kaitlyn 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Sword of Feast and Famine (93)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (93)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 22 (Julthor)
+Information: BOARD turn 22 (Julthor) | Sam | life 33 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (2 untapped): Old Thrush 1/2; Sokka and Suki 3/3; Audacious Reshapers 3/3*; Ally Token 1/1*; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land); Thrór's Map(2)
+Information: BOARD turn 22 (Julthor) | Julthor | life 37 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 3/3* | hand cards: Kang Prime(5); Scavenger Grounds(land); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 22 (Julthor) | Augusta | life 30 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3 | hand cards: Idol of Oblivion(2); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Swamp(land)
+Information: BOARD turn 22 (Julthor) | Kaitlyn | life 36 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 1/1* | hand cards: Summon: Valefor(5); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2); Tireless Tracker(3)
+Information: BOARD threat | turn 22 | Sokka and Suki (Sam) 64; Doctor Doom, King of Latveria (Julthor) 34
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Scavenger Grounds (159)
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Julthor activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Julthor discards Swamp (157).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria
+Life: Life: Augusta 30 > 28
+Life: Life: Kaitlyn 36 > 34
+Life: Life: Sam 33 > 31
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Julthor, Amount: 1]
+Phase: Julthor's Beginning of Combat Step
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Julthor discards Swiftfoot Boots (146).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Julthor]
+Phase: Julthor's Declare Attackers Step
+Combat: Julthor assigned Doctor Doom, King of Latveria (201) to attack Sam.
+Information: BOARD attack | Julthor -> Sam | attackers 1 (power 4) | defender life 31 | untapped creatures 2 (power 4): Old Thrush 1/2; Sokka and Suki 3/3 | open mana 3
+Phase: Julthor's Declare Blockers Step
+Combat: Sam assigned Sokka and Suki (8) and Old Thrush (6) to block Doctor Doom, King of Latveria (201).
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 1 damage to Old Thrush (6).
+Damage: Doctor Doom, King of Latveria (201) deals 3 damage to Sokka and Suki (8).
+Damage: Sokka and Suki (8) deals 3 damage to Doctor Doom, King of Latveria (201).
+Damage: Old Thrush (6) deals 1 damage to Doctor Doom, King of Latveria (201).
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Zone Change: Sokka and Suki (8) was put into Graveyard from Battlefield.
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Land: Julthor picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Julthor picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Julthor cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Julthor | open mana: Sam 3, Augusta 0, Kaitlyn 0
+Add To Stack: Julthor triggered Path of Ancestry
+Resolve Stack: Julthor scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Superior Foes of Spider-Man - Creature 3 / 3]) [Card: Superior Foes of Spider-Man (176), Activator: Julthor, SpellAbility: Superior Foes of Spider-Man - Creature 3 / 3]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 23 (Augusta)
+Information: BOARD turn 23 (Augusta) | Sam | life 31 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (1 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Ally Token 1/1*; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land); Thrór's Map(2)
+Information: BOARD turn 23 (Augusta) | Julthor | life 37 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 3/3* | hand cards: Kang Prime(5); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 23 (Augusta) | Augusta | life 28 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3 | hand cards: Idol of Oblivion(2); Needleverge Pathway(land); Lotho, Corrupt Shirriff(2); Swamp(land)
+Information: BOARD turn 23 (Augusta) | Kaitlyn | life 34 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 1/1* | hand cards: Summon: Valefor(5); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2); Tireless Tracker(3)
+Information: BOARD threat | turn 23 | Path of Ancestry (Julthor) 37
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Needleverge Pathway (239)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Augusta cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Augusta | open mana: Sam 3, Julthor 0, Kaitlyn 0
+Add To Stack: Augusta triggered Blind Obedience
+Mana: Swamp (257) - {T}: Add {B}.
+Life: Life: Kaitlyn 34 > 33
+Life: Life: Sam 31 > 30
+Life: Life: Julthor 37 > 36
+Life: Life: Augusta 28 > 31
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Reckless Fireweaver (296), Activator: Augusta, SpellAbility: Reckless Fireweaver - Creature 1 / 3]
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Land: Augusta picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Land: Augusta picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Add To Stack: Augusta cast Lotho, Corrupt Shirriff
+Information: BOARD cast | Lotho, Corrupt Shirriff (mv 2) by Augusta | open mana: Sam 3, Julthor 0, Kaitlyn 0
+Add To Stack: Augusta triggered Blind Obedience
+Land: Augusta picked {W}
+Damage: Caves of Koilos (265) deals 1 non-combat damage to Augusta.
+Life: Life: Augusta 31 > 30
+Mana: Caves of Koilos (265) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Life: Life: Kaitlyn 33 > 32
+Life: Life: Sam 30 > 29
+Life: Life: Julthor 36 > 35
+Life: Life: Augusta 30 > 33
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Lotho, Corrupt Shirriff (204), Activator: Augusta, SpellAbility: Lotho, Corrupt Shirriff - Creature 2 / 1]
+Resolve Stack: Lotho, Corrupt Shirriff - Creature 2 / 1
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 24 (Kaitlyn)
+Information: BOARD turn 24 (Kaitlyn) | Sam | life 29 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (1 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Ally Token 1/1*; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land); Thrór's Map(2)
+Information: BOARD turn 24 (Kaitlyn) | Julthor | life 35 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 3/3* | hand cards: Kang Prime(5); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 24 (Kaitlyn) | Augusta | life 33 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Idol of Oblivion(2); Swamp(land)
+Information: BOARD turn 24 (Kaitlyn) | Kaitlyn | life 32 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 1/1* | hand cards: Summon: Valefor(5); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2); Tireless Tracker(3)
+Information: BOARD threat | turn 24 | Path of Ancestry (Julthor) 36
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Phase: Kaitlyn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kaitlyn's Declare Attackers Step
+Combat: Kaitlyn assigned Tidus, Yuna's Guardian (413) to attack Sam.
+Kaitlyn assigned Wildwood Scourge (318) to attack Julthor.
+Information: BOARD attack | Kaitlyn -> Sam | attackers 1 (power 3) | defender life 29 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 3
+Information: BOARD attack | Kaitlyn -> Julthor | attackers 1 (power 1) | defender life 35 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Kaitlyn's Declare Blockers Step
+Combat: Sam didn't block Tidus, Yuna's Guardian (413).
+Combat: Julthor didn't block Wildwood Scourge (318).
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Sam.
+Damage: Wildwood Scourge (318) deals 1 combat damage to Julthor.
+Life: Life: Sam 29 > 26
+Life: Life: Julthor 35 > 34
+Add To Stack: Kaitlyn triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Julthor, Amount: 1]
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Island (343) - {T}: Add {U}.
+Land: Kaitlyn picked {U}
+Mana: Path of Ancestry (323) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Kaitlyn cast Tireless Tracker
+Information: BOARD cast | Tireless Tracker (mv 3) by Kaitlyn | open mana: Sam 3, Julthor 0, Augusta 0
+Add To Stack: Kaitlyn triggered Path of Ancestry
+Resolve Stack: Kaitlyn scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Tireless Tracker - Creature 3 / 2]) [Card: Tireless Tracker (366), Activator: Kaitlyn, SpellAbility: Tireless Tracker - Creature 3 / 2]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Tireless Tracker - Creature 3 / 2
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Kaitlyn cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Kaitlyn | open mana: Sam 3, Julthor 0, Augusta 0
+Add To Stack: Augusta triggered Lotho, Corrupt Shirriff
+Life: Life: Augusta 33 > 32
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Sol Ring (374), Activator: Kaitlyn, SpellAbility: Sol Ring]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 26 > 25
+Life: Life: Julthor 34 > 33
+Life: Life: Kaitlyn 32 > 31
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (515)]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Sol Ring
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 25 (Sam)
+Information: BOARD turn 25 (Sam) | Sam | life 25 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (1 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Ally Token 1/1*; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Plains(land); Zirda, the Dawnwaker(3); Spider-Bot(2); Loran of the Third Path(3); Raugrin Triome(land); Thrór's Map(2)
+Information: BOARD turn 25 (Sam) | Julthor | life 33 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 3/3* | hand cards: Kang Prime(5); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 25 (Sam) | Augusta | life 32 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Idol of Oblivion(2); Swamp(land)
+Information: BOARD turn 25 (Sam) | Kaitlyn | life 31 | hand 4 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 3 (0 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 1/1*; Tireless Tracker 3/2* | hand cards: Summon: Valefor(5); Resourceful Defense(3); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 25 | Tidus, Yuna's Guardian (Kaitlyn) 46; Path of Ancestry (Julthor) 34; Reckless Fireweaver (Augusta) 32
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Plains (84)
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Sam cast Zirda, the Dawnwaker
+Information: BOARD cast | Zirda, the Dawnwaker (mv 3) by Sam | open mana: Julthor 0, Augusta 1, Kaitlyn 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Zirda, the Dawnwaker - Creature 3 / 3
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (413)]
+Damage: Captain America, First Avenger (100) deals 3 damage to Tidus, Yuna's Guardian (413).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Tidus, Yuna's Guardian (413) (3 damage).
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Sword of Feast and Famine (93)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (93)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Kaitlyn.
+Information: BOARD attack | Sam -> Kaitlyn | attackers 1 (power 6) | defender life 31 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Sam's Declare Blockers Step
+Combat: Kaitlyn didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 6 combat damage to Kaitlyn.
+Life: Life: Kaitlyn 31 > 25
+Add To Stack: Sam triggered Sword of Feast and Famine
+Discard: Kaitlyn discards Resourceful Defense (391).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (100), Damaged: Kaitlyn, Amount: 6]
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Sam cast Thrór's Map
+Information: BOARD cast | Thrór's Map (mv 2) by Sam | open mana: Julthor 0, Augusta 1, Kaitlyn 0
+Add To Stack: Augusta triggered Lotho, Corrupt Shirriff
+Life: Life: Augusta 32 > 31
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Thrór's Map (24), Activator: Sam, SpellAbility: Thrór's Map]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 25 > 24
+Life: Life: Julthor 33 > 32
+Life: Life: Kaitlyn 25 > 24
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (563)]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Thrór's Map
+Add To Stack: Sam triggered Thrór's Map
+Resolve Stack: When Thrór's Map enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle. [Zone Changer: Thrór's Map (24)]
+Zone Change: Thrór's Map (24) was put into Graveyard from Battlefield.
+Add To Stack: Sam activated Audacious Reshapers
+Replacement Effect: You may have Sword of Feast and Famine enter as a copy of any Equipment on the battlefield.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Damage: Audacious Reshapers (89) deals 1 non-combat damage to Sam.
+Life: Life: Sam 24 > 23
+Resolve Stack: Audacious Reshapers (89) - Samreveals cards from their library until revealing an artifact card. Put that card onto the battlefield and the rest on the bottom of their library in a random order. Audacious Reshapers (89) deals 0 damage to Sam. 
+Phase: Sam's End step
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Phase: Sam's Cleanup step
+Turn: Turn 26 (Julthor)
+Information: BOARD turn 26 (Julthor) | Sam | life 23 | hand 5 | lands 5 (3 untapped) | open mana 7 | commander Battlefield | creatures 5 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Ally Token 1/1; Captain America, First Avenger 6/6*[Sword of Feast and Famine]; Zirda, the Dawnwaker 3/3* | hand cards: Spider-Bot(2); Raugrin Triome(land); Loran of the Third Path(3); Auxiliary Boosters(5); Island(land)
+Information: BOARD turn 26 (Julthor) | Julthor | life 32 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 3/3* | hand cards: Kang Prime(5); Doom's Time Platform(4); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3)
+Information: BOARD turn 26 (Julthor) | Augusta | life 31 | hand 2 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Idol of Oblivion(2); Swamp(land)
+Information: BOARD turn 26 (Julthor) | Kaitlyn | life 24 | hand 3 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Wildwood Scourge 1/1*; Tireless Tracker 3/2* | hand cards: Summon: Valefor(5); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Sam) 76; Reckless Fireweaver (Augusta) 62; Path of Ancestry (Julthor) 33
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Julthor cast Chaos Warp targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Chaos Warp (mv 3) by Julthor | open mana: Sam 7, Augusta 2, Kaitlyn 0
+Replacement Effect: If a commander would be put into its owner's hand or library from anywhere, its owner may put it into the command zone instead.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Chaos Warp (173) - Shuffle Captain America, First Avenger (100) into its owner's library. Julthor reveals the top card of Sam's library.
+Phase: Julthor's Main phase, precombat
+Land: Julthor picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Julthor picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Julthor activated Villainous Hideout targeting [Superior Foes of Spider-Man (176)]
+Discard: Julthor discards Doom's Time Platform (131).
+Resolve Stack: Villainous Hideout (102) - Superior Foes of Spider-Man (176) connives.
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Combat: Julthor assigned Superior Foes of Spider-Man (176) to attack Augusta.
+Information: BOARD attack | Julthor -> Augusta | attackers 1 (power 4) | defender life 31 | untapped creatures 4 (power 6): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | open mana 2
+Phase: Julthor's Declare Blockers Step
+Combat: Augusta didn't block Superior Foes of Spider-Man (176).
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Damage: Superior Foes of Spider-Man (176) deals 4 combat damage to Augusta.
+Life: Life: Augusta 31 > 27
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 27 (Augusta)
+Information: BOARD turn 27 (Augusta) | Sam | life 23 | hand 5 | lands 5 (3 untapped) | open mana 7 | commander Command | creatures 5 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Ally Token 1/1; Zirda, the Dawnwaker 3/3*; Leonin Abunas 2/5* | hand cards: Spider-Bot(2); Raugrin Triome(land); Loran of the Third Path(3); Auxiliary Boosters(5); Island(land)
+Information: BOARD turn 27 (Augusta) | Julthor | life 32 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 4/4* | hand cards: Kang Prime(5); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 27 (Augusta) | Augusta | life 27 | hand 2 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Idol of Oblivion(2); Swamp(land)
+Information: BOARD turn 27 (Augusta) | Kaitlyn | life 24 | hand 3 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Wildwood Scourge 1/1*; Tireless Tracker 3/2* | hand cards: Summon: Valefor(5); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 27 | Reckless Fireweaver (Augusta) 60; Path of Ancestry (Julthor) 31
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Silent Clearing (216)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Combat: Augusta assigned Jan Jansen, Chaos Crafter (293) to attack Sam.
+Information: BOARD attack | Augusta -> Sam | attackers 1 (power 3) | defender life 23 | untapped creatures 2 (power 2): Old Thrush 1/2; Ally Token 1/1 | open mana 7
+Phase: Augusta's Declare Blockers Step
+Combat: Sam assigned Ally Token (449) to block Jan Jansen, Chaos Crafter (293).
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Damage: Jan Jansen, Chaos Crafter (293) deals 3 damage to Ally Token (449).
+Damage: Ally Token (449) deals 1 damage to Jan Jansen, Chaos Crafter (293).
+Zone Change: Ally Token (449) was put into Graveyard from Battlefield.
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (257) - {T}: Add {B}.
+Add To Stack: Augusta cast Idol of Oblivion
+Information: BOARD cast | Idol of Oblivion (mv 2) by Augusta | open mana: Sam 7, Julthor 0, Kaitlyn 0
+Add To Stack: Augusta triggered Blind Obedience
+Land: Augusta picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Life: Life: Kaitlyn 24 > 23
+Life: Life: Sam 23 > 22
+Life: Life: Julthor 32 > 31
+Life: Life: Augusta 27 > 30
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Idol of Oblivion (277), Activator: Augusta, SpellAbility: Idol of Oblivion]
+Resolve Stack: Idol of Oblivion
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 22 > 21
+Life: Life: Julthor 31 > 30
+Life: Life: Kaitlyn 23 > 22
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Idol of Oblivion (277)]
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 28 (Kaitlyn)
+Information: BOARD turn 28 (Kaitlyn) | Sam | life 21 | hand 5 | lands 5 (3 untapped) | open mana 7 | commander Command | creatures 4 (1 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3*; Leonin Abunas 2/5* | hand cards: Spider-Bot(2); Raugrin Triome(land); Loran of the Third Path(3); Auxiliary Boosters(5); Island(land)
+Information: BOARD turn 28 (Kaitlyn) | Julthor | life 30 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Superior Foes of Spider-Man 4/4* | hand cards: Kang Prime(5); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 28 (Kaitlyn) | Augusta | life 30 | hand 1 | lands 7 (4 untapped) | open mana 11 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Swamp(land)
+Information: BOARD turn 28 (Kaitlyn) | Kaitlyn | life 22 | hand 3 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Wildwood Scourge 1/1*; Tireless Tracker 3/2* | hand cards: Summon: Valefor(5); Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 28 | Reckless Fireweaver (Augusta) 89; Blind Obedience (Augusta) 39; Path of Ancestry (Julthor) 30
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Kaitlyn played Temple of Plenty (375)
+Add To Stack: Kaitlyn triggered Tireless Tracker
+Add To Stack: Kaitlyn triggered Temple of Plenty
+Resolve Stack: Kaitlyn scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Plenty enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Plenty (375)]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.") [Zone Changer: Temple of Plenty (375)]
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Combat: Kaitlyn assigned Tireless Tracker (366) to attack Sam.
+Information: BOARD attack | Kaitlyn -> Sam | attackers 1 (power 3) | defender life 21 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 7
+Phase: Kaitlyn's Declare Blockers Step
+Combat: Sam didn't block Tireless Tracker (366).
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Damage: Tireless Tracker (366) deals 3 combat damage to Sam.
+Life: Life: Sam 21 > 18
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Land: Kaitlyn picked {U}
+Mana: Path of Ancestry (323) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Kaitlyn cast Summon: Valefor
+Information: BOARD cast | Summon: Valefor (mv 5) by Kaitlyn | open mana: Sam 7, Julthor 0, Augusta 11
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Summon: Valefor enters with a lore counter on it.
+Resolve Stack: Summon: Valefor - Creature 5 / 4
+Add To Stack: Kaitlyn triggered Summon: Valefor
+Resolve Stack: I — Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands. [Added once: Summon: Valefor (334)]
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 29 (Sam)
+Information: BOARD turn 29 (Sam) | Sam | life 18 | hand 6 | lands 5 (3 untapped) | open mana 7 | commander Command | creatures 3 (1 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3* | hand cards: Spider-Bot(2); Raugrin Triome(land); Loran of the Third Path(3); Auxiliary Boosters(5); Island(land); Leonin Abunas(4)
+Information: BOARD turn 29 (Sam) | Julthor | life 30 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3)
+Information: BOARD turn 29 (Sam) | Augusta | life 30 | hand 2 | lands 7 (4 untapped) | open mana 11 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Swamp(land); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 29 (Sam) | Kaitlyn | life 22 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Command | creatures 3 (1 untapped): Wildwood Scourge 1/1; Tireless Tracker 3/2*; Summon: Valefor 5/4* | hand cards: Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 29 | Reckless Fireweaver (Augusta) 85; Blind Obedience (Augusta) 37; Tireless Tracker (Kaitlyn) 32
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (84) - {T}: Add {W}.
+Add To Stack: Sam cast Loran of the Third Path
+Information: BOARD cast | Loran of the Third Path (mv 3) by Sam | open mana: Julthor 0, Augusta 11, Kaitlyn 4
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Loran of the Third Path - Creature 2 / 1
+Add To Stack: Sam triggered Loran of the Third Path targeting [Summon: Valefor (334)]
+Zone Change: Summon: Valefor (334) was put into Graveyard from Battlefield.
+Resolve Stack: When Loran of the Third Path enters, destroy up to one target artifact or enchantment. (Targeting: [[Summon: Valefor (334)]]) [Zone Changer: Loran of the Third Path (51)]
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Sam played Raugrin Triome (90)
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Spider-Bot
+Information: BOARD cast | Spider-Bot (mv 2) by Sam | open mana: Julthor 0, Augusta 11, Kaitlyn 4
+Add To Stack: Augusta triggered Lotho, Corrupt Shirriff
+Life: Life: Augusta 30 > 29
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Spider-Bot (22), Activator: Sam, SpellAbility: Spider-Bot - Creature 2 / 1]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 18 > 17
+Life: Life: Julthor 30 > 29
+Life: Life: Kaitlyn 22 > 21
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (665)]
+Add To Stack: Augusta activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (277) - Augusta draws a card.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Spider-Bot - Creature 2 / 1
+Add To Stack: Sam triggered Spider-Bot
+Resolve Stack: When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Spider-Bot (22)]
+Zone Change: Spider-Bot (22) was put into Graveyard from Battlefield.
+Add To Stack: Sam activated Audacious Reshapers
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Damage: Audacious Reshapers (89) deals 3 non-combat damage to Sam.
+Life: Life: Sam 17 > 14
+Resolve Stack: Audacious Reshapers (89) - Samreveals cards from their library until revealing an artifact card. Put that card onto the battlefield and the rest on the bottom of their library in a random order. Audacious Reshapers (89) deals 0 damage to Sam. 
+Add To Stack: Sam triggered Mithril Coat targeting [Zirda, the Dawnwaker (57)]
+Resolve Stack: When Mithril Coat enters, attach it to target legendary creature you control. (Targeting: [[Zirda, the Dawnwaker (57)]]) [Zone Changer: Mithril Coat (71)]
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 30 (Julthor)
+Information: BOARD turn 30 (Julthor) | Sam | life 14 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1* | hand cards: Auxiliary Boosters(5); Island(land); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 30 (Julthor) | Julthor | life 29 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kang Prime(5); Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3)
+Information: BOARD turn 30 (Julthor) | Augusta | life 29 | hand 3 | lands 7 (4 untapped) | open mana 12 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Swamp(land); Jan Jansen, Chaos Crafter(3); Caretaker's Talent(3)
+Information: BOARD turn 30 (Julthor) | Kaitlyn | life 21 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Command | creatures 2 (1 untapped): Wildwood Scourge 1/1; Tireless Tracker 3/2* | hand cards: Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 30 | Reckless Fireweaver (Augusta) 114; Lotho, Corrupt Shirriff (Augusta) 38; Audacious Reshapers (Sam) 37; Blind Obedience (Augusta) 36; Tireless Tracker (Kaitlyn) 30
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (124) - {T}: Add {U}.
+Mana: Mountain (186) - {T}: Add {R}.
+Land: Julthor picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Julthor picked {B}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Julthor cast Kang Prime
+Information: BOARD cast | Kang Prime (mv 5) by Julthor | open mana: Sam 0, Augusta 12, Kaitlyn 4
+Add To Stack: Julthor triggered Path of Ancestry
+Resolve Stack: Julthor scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Kang Prime - Creature 3 / 5]) [Card: Kang Prime (147), Activator: Julthor, SpellAbility: Kang Prime - Creature 3 / 5]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Kang Prime - Creature 3 / 5
+Add To Stack: Julthor triggered Kang Prime
+Resolve Stack: Whenever Kang Prime enters or attacks, exile cards from the top of your library until you exile a nonland card. Put two time counters on that card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.) [Zone Changer: Kang Prime (147)]
+Phase: Julthor's End step
+Zone Change: Treasure Token (515) was put into Graveyard from Battlefield.
+Land: Treasure Token (515) picked {W}
+Mana: Treasure Token (515) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (563) was put into Graveyard from Battlefield.
+Land: Treasure Token (563) picked {W}
+Mana: Treasure Token (563) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (665) was put into Graveyard from Battlefield.
+Land: Treasure Token (665) picked {W}
+Mana: Treasure Token (665) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Add To Stack: Augusta activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Augusta triggered Mr. House, President and CEO
+Add To Stack: Augusta triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Augusta, Result: 4]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 14 > 13
+Life: Life: Julthor 29 > 28
+Life: Life: Kaitlyn 21 > 20
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (667)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Augusta, Result: 4]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 13 > 12
+Life: Life: Julthor 28 > 27
+Life: Life: Kaitlyn 20 > 19
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (669)]
+Land: Augusta picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Silent Clearing (216) was put into Graveyard from Battlefield.
+Add To Stack: Augusta activated Silent Clearing
+Resolve Stack: Silent Clearing (216) - Augusta draws a card.
+Phase: Julthor's Cleanup step
+Turn: Turn 31 (Augusta)
+Information: BOARD turn 31 (Augusta) | Sam | life 12 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1* | hand cards: Auxiliary Boosters(5); Island(land); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 31 (Augusta) | Julthor | life 27 | hand 6 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kang Prime 3/5* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3); The Frightful Four(4)
+Information: BOARD turn 31 (Augusta) | Augusta | life 29 | hand 4 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (4 untapped): Mr. House, President and CEO 0/4*; Reckless Fireweaver 1/3; Lotho, Corrupt Shirriff 2/1; Robot Token 3/3 x2 | hand cards: Swamp(land); Jan Jansen, Chaos Crafter(3); Caretaker's Talent(3); Treasure Chest(3)
+Information: BOARD turn 31 (Augusta) | Kaitlyn | life 19 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Command | creatures 2 (1 untapped): Wildwood Scourge 1/1; Tireless Tracker 3/2* | hand cards: Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 31 | Reckless Fireweaver (Augusta) 172; Mr. House, President and CEO (Augusta) 43; Path of Ancestry (Julthor) 41; Lotho, Corrupt Shirriff (Augusta) 37; Audacious Reshapers (Sam) 36
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Swamp (258)
+Land: Augusta picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Swamp (257) - {T}: Add {B}.
+Add To Stack: Augusta cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Augusta | open mana: Sam 0, Julthor 2, Kaitlyn 4
+Add To Stack: Augusta triggered Blind Obedience
+Mana: Swamp (258) - {T}: Add {B}.
+Life: Life: Kaitlyn 19 > 18
+Life: Life: Sam 12 > 11
+Life: Life: Julthor 27 > 26
+Life: Life: Augusta 29 > 32
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Jan Jansen, Chaos Crafter (293), Activator: Augusta, SpellAbility: Jan Jansen, Chaos Crafter - Creature 3 / 3]
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Augusta cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Augusta | open mana: Sam 0, Julthor 2, Kaitlyn 4
+Add To Stack: Augusta triggered Blind Obedience
+Add To Stack: Augusta triggered Lotho, Corrupt Shirriff
+Life: Life: Augusta 32 > 31
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Skullclamp (250), Activator: Augusta, SpellAbility: Skullclamp]
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 11 > 10
+Life: Life: Julthor 26 > 25
+Life: Life: Kaitlyn 18 > 17
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (677)]
+Land: Augusta picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Life: Life: Kaitlyn 17 > 16
+Life: Life: Sam 10 > 9
+Life: Life: Julthor 25 > 24
+Life: Life: Augusta 31 > 34
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Skullclamp (250), Activator: Augusta, SpellAbility: Skullclamp]
+Resolve Stack: Skullclamp
+Add To Stack: Augusta triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Sam.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Julthor.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Sam 9 > 8
+Life: Life: Julthor 24 > 23
+Life: Life: Kaitlyn 16 > 15
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Skullclamp (250)]
+Mana: Caves of Koilos (265) - {T}: Add {C}.
+Add To Stack: Augusta activated Skullclamp targeting [Lotho, Corrupt Shirriff (204)]
+Resolve Stack: Skullclamp (250) -  Attach to Lotho, Corrupt Shirriff (204)
+Zone Change: Lotho, Corrupt Shirriff (204) was put into Graveyard from Battlefield.
+Add To Stack: Augusta triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Lotho, Corrupt Shirriff (204)]
+Zone Change: Treasure Token (677) was put into Graveyard from Battlefield.
+Land: Treasure Token (677) picked {W}
+Mana: Treasure Token (677) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Augusta activated Skullclamp targeting [Robot Token (667)]
+Resolve Stack: Skullclamp (250) -  Attach to Robot Token (667)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Combat: Augusta assigned Reckless Fireweaver (296), Robot Token (667) and Robot Token (669) to attack Kaitlyn.
+Information: BOARD attack | Augusta -> Kaitlyn | attackers 3 (power 8) | defender life 15 | untapped creatures 1 (power 1): Wildwood Scourge 1/1 | open mana 4
+Phase: Augusta's Declare Blockers Step
+Combat: Kaitlyn didn't block Reckless Fireweaver (296).
+Kaitlyn assigned Wildwood Scourge (318) to block Robot Token (667).
+Kaitlyn didn't block Robot Token (669).
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 combat damage to Kaitlyn.
+Damage: Robot Token (667) deals 4 damage to Wildwood Scourge (318).
+Damage: Robot Token (669) deals 3 combat damage to Kaitlyn.
+Damage: Wildwood Scourge (318) deals 1 damage to Robot Token (667).
+Life: Life: Kaitlyn 15 > 11
+Zone Change: Wildwood Scourge (318) was put into Graveyard from Battlefield.
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Add To Stack: Augusta activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (277) - Augusta draws a card.
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 32 (Kaitlyn)
+Information: BOARD turn 32 (Kaitlyn) | Sam | life 8 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1* | hand cards: Auxiliary Boosters(5); Island(land); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 32 (Kaitlyn) | Julthor | life 23 | hand 6 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kang Prime 3/5* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3); The Frightful Four(4)
+Information: BOARD turn 32 (Kaitlyn) | Augusta | life 34 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Robot Token 3/3*; Jan Jansen, Chaos Crafter 3/3 | hand cards: Caretaker's Talent(3); Treasure Chest(3); Sundown Pass(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 32 (Kaitlyn) | Kaitlyn | life 11 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Tireless Tracker 3/2* | hand cards: Ingenious Prodigy(1); Gyre Sage(2)
+Information: BOARD threat | turn 32 | Reckless Fireweaver (Augusta) 235; Blind Obedience (Augusta) 62; Skullclamp (Augusta) 43; Mr. House, President and CEO (Augusta) 41; Path of Ancestry (Julthor) 39
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Replacement Effect: Tangled Islet enters tapped.
+Land: Kaitlyn played Tangled Islet (360)
+Add To Stack: Kaitlyn triggered Tireless Tracker
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.") [Zone Changer: Tangled Islet (360)]
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Mana: Island (343) - {T}: Add {U}.
+Land: Kaitlyn picked {W}
+Mana: Temple of Plenty (375) - {T}: Add {G} or {W}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Kaitlyn cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Kaitlyn | open mana: Sam 0, Julthor 2, Augusta 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Land: Kaitlyn picked {G}
+Mana: Path of Ancestry (323) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Kaitlyn cast Gyre Sage
+Information: BOARD cast | Gyre Sage (mv 2) by Kaitlyn | open mana: Sam 0, Julthor 2, Augusta 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Gyre Sage - Creature 1 / 2
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 33 (Sam)
+Information: BOARD turn 33 (Sam) | Sam | life 8 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (2 untapped): Old Thrush 1/2; Audacious Reshapers 3/3*; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1* | hand cards: Auxiliary Boosters(5); Island(land); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 33 (Sam) | Julthor | life 23 | hand 6 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kang Prime 3/5* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3); The Frightful Four(4)
+Information: BOARD turn 33 (Sam) | Augusta | life 34 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Robot Token 3/3*; Jan Jansen, Chaos Crafter 3/3 | hand cards: Caretaker's Talent(3); Treasure Chest(3); Sundown Pass(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 33 (Sam) | Kaitlyn | life 11 | hand 1 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Tireless Tracker 3/2; Tidus, Yuna's Guardian 3/3*; Gyre Sage 1/2* | hand cards: Ingenious Prodigy(1)
+Information: BOARD threat | turn 33 | Reckless Fireweaver (Augusta) 225; Blind Obedience (Augusta) 59; Skullclamp (Augusta) 41; Tireless Tracker (Kaitlyn) 41; Mr. House, President and CEO (Augusta) 40
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Sam | open mana: Julthor 2, Augusta 0, Kaitlyn 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Land: Sam played Island (26)
+Mana: Raugrin Triome (90) - {T}: Add {W}.
+Mana: Island (26) - {T}: Add {U}.
+Add To Stack: Sam cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Sam | open mana: Julthor 2, Augusta 0, Kaitlyn 0
+Resolve Stack: Birthright Boon (64) - Sam searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Sword of Feast and Famine (93)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (93)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 34 (Julthor)
+Information: BOARD turn 34 (Julthor) | Sam | life 8 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Old Thrush 1/2; Audacious Reshapers 3/3; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3); Excalibur, Sword of Eden(12)
+Information: BOARD turn 34 (Julthor) | Julthor | life 23 | hand 6 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kang Prime 3/5* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); Damocles Base, Sword of Kang(5); Superior Foes of Spider-Man(3); The Frightful Four(4)
+Information: BOARD turn 34 (Julthor) | Augusta | life 34 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Robot Token 3/3*; Jan Jansen, Chaos Crafter 3/3 | hand cards: Caretaker's Talent(3); Treasure Chest(3); Sundown Pass(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 34 (Julthor) | Kaitlyn | life 11 | hand 1 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Tireless Tracker 3/2; Tidus, Yuna's Guardian 3/3*; Gyre Sage 1/2* | hand cards: Ingenious Prodigy(1)
+Information: BOARD threat | turn 34 | Reckless Fireweaver (Augusta) 216; Blind Obedience (Augusta) 57; Skullclamp (Augusta) 40; Tireless Tracker (Kaitlyn) 40; Mr. House, President and CEO (Augusta) 38
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Add To Stack: Julthor triggered Age of Ultron
+Resolve Stack: At the beginning of your upkeep, if this card is suspended, remove a time counter from it [Phase: Julthor]
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Replacement Effect: As Frostboil Snarl enters, you may reveal an Island or Mountain card from your hand. If you don't, Frostboil Snarl enters tapped.
+Land: Julthor played Frostboil Snarl (105)
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Julthor activated Villainous Hideout targeting [Kang Prime (147)]
+Discard: Julthor discards Damocles Base, Sword of Kang (177).
+Resolve Stack: Villainous Hideout (102) - Kang Prime (147) connives.
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Land: Julthor picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Julthor picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Julthor cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Julthor | open mana: Sam 0, Augusta 0, Kaitlyn 0
+Add To Stack: Julthor triggered Path of Ancestry
+Resolve Stack: Julthor scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Superior Foes of Spider-Man - Creature 3 / 3]) [Card: Superior Foes of Spider-Man (176), Activator: Julthor, SpellAbility: Superior Foes of Spider-Man - Creature 3 / 3]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 35 (Augusta)
+Information: BOARD turn 35 (Augusta) | Sam | life 8 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Old Thrush 1/2; Audacious Reshapers 3/3; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3); Excalibur, Sword of Eden(12)
+Information: BOARD turn 35 (Augusta) | Julthor | life 23 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kang Prime 4/6; Superior Foes of Spider-Man 3/3* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); The Frightful Four(4); Extract Power(6)
+Information: BOARD turn 35 (Augusta) | Augusta | life 34 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Robot Token 3/3*; Jan Jansen, Chaos Crafter 3/3 | hand cards: Caretaker's Talent(3); Treasure Chest(3); Sundown Pass(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 35 (Augusta) | Kaitlyn | life 11 | hand 1 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Tireless Tracker 3/2; Tidus, Yuna's Guardian 3/3*; Gyre Sage 1/2* | hand cards: Ingenious Prodigy(1)
+Information: BOARD threat | turn 35 | Reckless Fireweaver (Augusta) 208; Blind Obedience (Augusta) 55; Path of Ancestry (Julthor) 49; Skullclamp (Augusta) 38; Tireless Tracker (Kaitlyn) 38
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Augusta played Sundown Pass (233)
+Mana: Swamp (257) - {T}: Add {B}.
+Mana: Swamp (258) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Land: Augusta picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Add To Stack: Augusta cast Skithiryx, the Blight Dragon
+Information: BOARD cast | Skithiryx, the Blight Dragon (mv 5) by Augusta | open mana: Sam 0, Julthor 0, Kaitlyn 0
+Add To Stack: Augusta triggered Blind Obedience
+Land: Augusta picked {W}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Life: Life: Kaitlyn 11 > 10
+Life: Life: Sam 8 > 7
+Life: Life: Julthor 23 > 22
+Life: Life: Augusta 34 > 37
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Skithiryx, the Blight Dragon (225), Activator: Augusta, SpellAbility: Skithiryx, the Blight Dragon - Creature 4 / 4]
+Resolve Stack: Skithiryx, the Blight Dragon - Creature 4 / 4
+Phase: Augusta's Beginning of Combat Step
+Land: Augusta picked {B}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Augusta activated Skithiryx, the Blight Dragon
+Resolve Stack: Skithiryx, the Blight Dragon (225) - Skithiryx, the Blight Dragon (225) gains haste until end of turn.
+Phase: Augusta's Declare Attackers Step
+Combat: Augusta assigned Reckless Fireweaver (296), Robot Token (667), Robot Token (669), Jan Jansen, Chaos Crafter (293) and Skithiryx, the Blight Dragon (225) to attack Kaitlyn.
+Information: BOARD attack | Augusta -> Kaitlyn | attackers 5 (power 15) | defender life 10 | untapped creatures 1 (power 3): Tireless Tracker 3/2 | open mana 0
+Phase: Augusta's Declare Blockers Step
+Combat: Kaitlyn didn't block Reckless Fireweaver (296).
+Kaitlyn assigned Tireless Tracker (366) to block Robot Token (667).
+Kaitlyn didn't block Robot Token (669).
+Kaitlyn didn't block Jan Jansen, Chaos Crafter (293).
+Kaitlyn didn't block Skithiryx, the Blight Dragon (225).
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 combat damage to Kaitlyn.
+Damage: Robot Token (667) deals 4 damage to Tireless Tracker (366).
+Damage: Robot Token (669) deals 3 combat damage to Kaitlyn.
+Damage: Jan Jansen, Chaos Crafter (293) deals 3 combat damage to Kaitlyn.
+Damage: Skithiryx, the Blight Dragon (225) deals 4 combat damage to Kaitlyn(as poison counters).
+Damage: Tireless Tracker (366) deals 3 damage to Robot Token (667).
+Life: Life: Kaitlyn 10 > 3
+Damage: Kaitlyn receives 4 poison counter from Augusta
+Zone Change: Robot Token (667) was put into Graveyard from Battlefield.
+Zone Change: Tireless Tracker (366) was put into Graveyard from Battlefield.
+Add To Stack: Augusta triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Robot Token (667)]
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Mana: Caves of Koilos (265) - {T}: Add {C}.
+Add To Stack: Augusta activated Skullclamp targeting [Robot Token (669)]
+Resolve Stack: Skullclamp (250) -  Attach to Robot Token (669)
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 36 (Kaitlyn)
+Information: BOARD turn 36 (Kaitlyn) | Sam | life 7 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Old Thrush 1/2; Audacious Reshapers 3/3; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3); Excalibur, Sword of Eden(12)
+Information: BOARD turn 36 (Kaitlyn) | Julthor | life 22 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kang Prime 4/6; Superior Foes of Spider-Man 3/3* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); The Frightful Four(4); Extract Power(6)
+Information: BOARD turn 36 (Kaitlyn) | Augusta | life 37 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Jan Jansen, Chaos Crafter 3/3*; Skithiryx, the Blight Dragon 4/4* | hand cards: Caretaker's Talent(3); Treasure Chest(3); Mondrak, Glory Dominus(4); Cathartic Reunion(2); The Soul Stone(2); Plains(land)
+Information: BOARD turn 36 (Kaitlyn) | Kaitlyn | life 3 | hand 1 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tidus, Yuna's Guardian 3/3*; Gyre Sage 1/2* | hand cards: Ingenious Prodigy(1)
+Information: BOARD threat | turn 36 | Reckless Fireweaver (Augusta) 205; Blind Obedience (Augusta) 67; Skullclamp (Augusta) 65; Path of Ancestry (Julthor) 47; Skithiryx, the Blight Dragon (Augusta) 37
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Phase: Kaitlyn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Land: Kaitlyn picked {G}
+Mana: Temple of Plenty (375) - {T}: Add {G} or {W}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Island (343) - {T}: Add {U}.
+Add To Stack: Kaitlyn cast Rampant Rejuvenator
+Information: BOARD cast | Rampant Rejuvenator (mv 4) by Kaitlyn | open mana: Sam 0, Julthor 0, Augusta 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Rampant Rejuvenator enters with two +1/+1 counters on it.
+Resolve Stack: Rampant Rejuvenator - Creature 0 / 0
+Add To Stack: Kaitlyn triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Rampant Rejuvenator (359)]
+Mana: Tangled Islet (360) - {T}: Add {U}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Land: Kaitlyn picked {W}
+Mana: Path of Ancestry (323) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Brushland (411) - {T}: Add {C}.
+Mana: Gyre Sage (322) - {T}: Add {G} for each +1/+1 counter on Gyre Sage.
+Add To Stack: Kaitlyn cast Ingenious Prodigy
+Information: BOARD cast | Ingenious Prodigy (mv 5) by Kaitlyn | open mana: Sam 0, Julthor 0, Augusta 0
+Add To Stack: Kaitlyn triggered Path of Ancestry
+Resolve Stack: Kaitlyn scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Ingenious Prodigy - Creature 0 / 1 (X=0)]) [Card: Ingenious Prodigy (376), Activator: Kaitlyn, SpellAbility: Ingenious Prodigy - Creature 0 / 1 (X=0)]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Ingenious Prodigy enters with X +1/+1 counters on it.
+Resolve Stack: Ingenious Prodigy - Creature 0 / 1 (X=4)
+Add To Stack: Kaitlyn triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Ingenious Prodigy (376)]
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 37 (Sam)
+Information: BOARD turn 37 (Sam) | Sam | life 7 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Old Thrush 1/2; Audacious Reshapers 3/3; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3); Excalibur, Sword of Eden(12)
+Information: BOARD turn 37 (Sam) | Julthor | life 22 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kang Prime 4/6; Superior Foes of Spider-Man 3/3* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); The Frightful Four(4); Extract Power(6)
+Information: BOARD turn 37 (Sam) | Augusta | life 37 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3*; Robot Token 4/2*[Skullclamp]; Jan Jansen, Chaos Crafter 3/3*; Skithiryx, the Blight Dragon 4/4* | hand cards: Caretaker's Talent(3); Treasure Chest(3); Mondrak, Glory Dominus(4); Cathartic Reunion(2); The Soul Stone(2); Plains(land)
+Information: BOARD turn 37 (Sam) | Kaitlyn | life 3 | hand 0 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Tidus, Yuna's Guardian 3/3; Gyre Sage 3/4*; Rampant Rejuvenator 2/2*; Ingenious Prodigy 4/5* | hand cards: 
+Information: BOARD threat | turn 37 | Reckless Fireweaver (Augusta) 197; Blind Obedience (Augusta) 64; Skullclamp (Augusta) 63; Path of Ancestry (Julthor) 45; Skithiryx, the Blight Dragon (Augusta) 36
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Sam played Sundown Pass (29)
+Add To Stack: Sam cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Sam | open mana: Julthor 0, Augusta 0, Kaitlyn 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Excalibur, Sword of Eden
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Sam activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Augusta, Kaitlyn]
+Damage: Captain America, First Avenger (100) deals 9 non-combat damage to Augusta.
+Damage: Captain America, First Avenger (100) deals 3 non-combat damage to Kaitlyn.
+Life: Life: Augusta 37 > 28
+Life: Life: Kaitlyn 3 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Augusta (9 damage) and Kaitlyn (3 damage).
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Sam]
+Mana: Plains (84) - {T}: Add {W}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Augusta]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Augusta.
+Life: Life: Augusta 28 > 16
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Augusta (12 damage).
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Mana: Island (26) - {T}: Add {U}.
+Add To Stack: Sam activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Augusta]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Augusta.
+Life: Life: Augusta 16 > 4
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Augusta (12 damage).
+Mana: Sundown Pass (29) - {T}: Add {R} or {W}.
+Add To Stack: Sam activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Deserted Beach (60) - {T}: Add {W} or {U}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Augusta, Julthor]
+Damage: Captain America, First Avenger (100) deals 4 non-combat damage to Augusta.
+Damage: Captain America, First Avenger (100) deals 8 non-combat damage to Julthor.
+Life: Life: Julthor 22 > 14
+Life: Life: Augusta 4 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Julthor (8 damage) and Augusta (4 damage).
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Sam activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 38 (Julthor)
+Information: BOARD turn 38 (Julthor) | Sam | life 7 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Old Thrush 1/2; Audacious Reshapers 3/3; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 16/6[Sword of Feast and Famine,Excalibur, Sword of Eden] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 38 (Julthor) | Julthor | life 14 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kang Prime 4/6; Superior Foes of Spider-Man 3/3* | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); The Frightful Four(4); Extract Power(6)
+Information: BOARD threat | turn 38 | Captain America, First Avenger (Sam) 288; Excalibur, Sword of Eden (Sam) 58; Path of Ancestry (Julthor) 44
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Add To Stack: Julthor triggered Age of Ultron
+Resolve Stack: At the beginning of your upkeep, if this card is suspended, remove a time counter from it [Phase: Julthor]
+Add To Stack: Julthor triggered Age of Ultron
+Add To Stack: Julthor cast Age of Ultron
+Information: BOARD cast | Age of Ultron (mv 5) by Julthor | open mana: Sam 0
+Resolve Stack: When the last time counter is removed from this card, if it's exiled, you may play it without paying its mana cost if able.  If you can't, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes. [Removed from: Age of Ultron (137)]
+Add To Stack: Julthor triggered Superior Foes of Spider-Man
+Resolve Stack: Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. If you do, you may play that card until you exile another card with this creature. [Card: Age of Ultron (137), Activator: Julthor, SpellAbility: Age of Ultron (without paying its mana cost)]
+Replacement Effect: Age of Ultron enters with a lore counter on it.
+Resolve Stack: Age of Ultron
+Add To Stack: Julthor triggered Age of Ultron targeting [Audacious Reshapers (89)]
+Zone Change: Audacious Reshapers (89) was put into Graveyard from Battlefield.
+Resolve Stack: I — For each opponent, destroy up to one target nonartifact creature that player controls. (Targeting: [[Audacious Reshapers (89)]]) [Added once: Age of Ultron (137)]
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Add To Stack: Julthor triggered Age of Ultron
+Resolve Stack: II — For each opponent, you create a 2/2 colorless Robot Villain artifact creature token. [Added once: Age of Ultron (137)]
+Land: Julthor played Mountain (190)
+Mana: Island (124) - {T}: Add {U}.
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Mountain (190) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Land: Julthor picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Julthor picked {U}
+Mana: Frostboil Snarl (105) - {T}: Add {U} or {R}.
+Add To Stack: Julthor cast Extract Power
+Information: BOARD cast | Extract Power (mv 6) by Julthor | open mana: Sam 0
+Add To Stack: Julthor triggered Superior Foes of Spider-Man
+Resolve Stack: Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. If you do, you may play that card until you exile another card with this creature. [Card: Extract Power (191), Activator: Julthor, SpellAbility: Look at the top card of each player's library, then exile those cards face down. You may play them without paying their mana costs for as long as they remain exiled.  ]
+Resolve Stack: Extract Power (191) - Julthor exiles the top card of their library.  
+Add To Stack: Julthor cast Containment Construct
+Information: BOARD cast | Containment Construct (mv 2) by Julthor | open mana: Sam 0
+Resolve Stack: Containment Construct - Creature 2 / 1
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Combat: Julthor assigned Kang Prime (147) to attack Sam.
+Information: BOARD attack | Julthor -> Sam | attackers 1 (power 4) | defender life 7 | untapped creatures 4 (power 22): Old Thrush 1/2; Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 16/6[Sword of Feast and Famine,Excalibur, Sword of Eden] | open mana 0
+Add To Stack: Julthor triggered Kang Prime
+Resolve Stack: Whenever Kang Prime enters or attacks, exile cards from the top of your library until you exile a nonland card. Put two time counters on that card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.) [Attacker: Kang Prime (147)]
+Phase: Julthor's Declare Blockers Step
+Combat: Sam assigned Old Thrush (6) to block Kang Prime (147).
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Damage: Kang Prime (147) deals 4 damage to Old Thrush (6).
+Damage: Old Thrush (6) deals 1 damage to Kang Prime (147).
+Zone Change: Old Thrush (6) was put into Graveyard from Battlefield.
+Land: Julthor picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Zone Change: Scavenger Grounds (159) was put into Graveyard from Battlefield.
+Add To Stack: Julthor activated Scavenger Grounds
+Resolve Stack: Scavenger Grounds (159) -  Exile all graveyards.
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 39 (Sam)
+Information: BOARD turn 39 (Sam) | Sam | life 7 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Zirda, the Dawnwaker 3/3[Mithril Coat]; Loran of the Third Path 2/1; Captain America, First Avenger 16/6[Sword of Feast and Famine,Excalibur, Sword of Eden] | hand cards: Auxiliary Boosters(5); Leonin Abunas(4); Force of Negation(3)
+Information: BOARD turn 39 (Sam) | Julthor | life 14 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 4 (3 untapped): Kang Prime 4/6*; Superior Foes of Spider-Man 3/3; Robot Villain Token 2/2; Containment Construct 2/1 | hand cards: Spark Double(4); Puppet Master, String Puller(3); Prowler, Clawed Thief(3); The Frightful Four(4)
+Information: BOARD threat | turn 39 | Captain America, First Avenger (Sam) 276; Excalibur, Sword of Eden (Sam) 55; Path of Ancestry (Julthor) 42
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Julthor]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Julthor.
+Life: Life: Julthor 14 > 2
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Julthor (12 damage).
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Sam activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Sword of Feast and Famine (42)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (42)]]) [Phase: Sam]
+Mana: Plains (84) - {T}: Add {W}.
+Add To Stack: Sam activated Captain America, First Avenger targeting [Julthor]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Julthor.
+Life: Life: Julthor 2 > -10
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Julthor (12 damage).
+Player Control: Sam has restored control over themself
+Player Control: Julthor has restored control over themself
+Player Control: Augusta has restored control over themself
+Player Control: Kaitlyn has restored control over themself
+Game Outcome: Match Duration 22m : 58s
+Game Outcome: Turn 20
+Game Outcome: Sam has won because all opponents have lost
+Game Outcome: Julthor has lost because life total reached 0
+Game Outcome: Augusta has lost because life total reached 0
+Game Outcome: Kaitlyn has lost because life total reached 0
+Match Result: Sam: 1 Julthor: 1 Augusta: 0 Kaitlyn: 0 
+
+Game Result: Sam has won

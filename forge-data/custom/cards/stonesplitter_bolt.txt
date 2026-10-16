@@ -1,0 +1,31 @@
+Name:Stonesplitter Bolt
+ManaCost:X R
+Types:Instant
+K:Bargain
+A:SP$ DealDamage | Cost$ 8 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg8 | SpellDescription$ CARDNAME deals 8 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=8; fixed-X split for the AI.)
+SVar:N8:Number$8
+SVar:Dmg8:SVar$N8/Times.Y
+A:SP$ DealDamage | Cost$ 7 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg7 | SpellDescription$ CARDNAME deals 7 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=7; fixed-X split for the AI.)
+SVar:N7:Number$7
+SVar:Dmg7:SVar$N7/Times.Y
+A:SP$ DealDamage | Cost$ 6 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg6 | SpellDescription$ CARDNAME deals 6 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=6; fixed-X split for the AI.)
+SVar:N6:Number$6
+SVar:Dmg6:SVar$N6/Times.Y
+A:SP$ DealDamage | Cost$ 5 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg5 | SpellDescription$ CARDNAME deals 5 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=5; fixed-X split for the AI.)
+SVar:N5:Number$5
+SVar:Dmg5:SVar$N5/Times.Y
+A:SP$ DealDamage | Cost$ 4 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg4 | SpellDescription$ CARDNAME deals 4 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=4; fixed-X split for the AI.)
+SVar:N4:Number$4
+SVar:Dmg4:SVar$N4/Times.Y
+A:SP$ DealDamage | Cost$ 3 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg3 | SpellDescription$ CARDNAME deals 3 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=3; fixed-X split for the AI.)
+SVar:N3:Number$3
+SVar:Dmg3:SVar$N3/Times.Y
+A:SP$ DealDamage | Cost$ 2 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg2 | SpellDescription$ CARDNAME deals 2 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=2; fixed-X split for the AI.)
+SVar:N2:Number$2
+SVar:Dmg2:SVar$N2/Times.Y
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ Dmg1 | SpellDescription$ CARDNAME deals 1 damage to target creature or planeswalker. If this spell was bargained, it deals twice that damage instead. (X=1; fixed-X split for the AI.)
+SVar:N1:Number$1
+SVar:Dmg1:SVar$N1/Times.Y
+SVar:Y:Count$Bargained.2.1
+DeckHas:Ability$Sacrifice
+Oracle:Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nStonesplitter Bolt deals X damage to target creature or planeswalker. If this spell was bargained, it deals twice X damage to that permanent instead.

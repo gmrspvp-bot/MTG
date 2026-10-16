@@ -1,0 +1,26 @@
+Name:Exsanguinate
+ManaCost:X B B
+Types:Sorcery
+A:SP$ LoseLife | Cost$ 20 B B | Defined$ Player.Opponent | LifeAmount$ 20 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 20 life. You gain life equal to the life lost this way. (X=20; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 19 B B | Defined$ Player.Opponent | LifeAmount$ 19 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 19 life. You gain life equal to the life lost this way. (X=19; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 18 B B | Defined$ Player.Opponent | LifeAmount$ 18 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 18 life. You gain life equal to the life lost this way. (X=18; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 17 B B | Defined$ Player.Opponent | LifeAmount$ 17 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 17 life. You gain life equal to the life lost this way. (X=17; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 16 B B | Defined$ Player.Opponent | LifeAmount$ 16 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 16 life. You gain life equal to the life lost this way. (X=16; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 15 B B | Defined$ Player.Opponent | LifeAmount$ 15 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 15 life. You gain life equal to the life lost this way. (X=15; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 14 B B | Defined$ Player.Opponent | LifeAmount$ 14 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 14 life. You gain life equal to the life lost this way. (X=14; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 13 B B | Defined$ Player.Opponent | LifeAmount$ 13 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 13 life. You gain life equal to the life lost this way. (X=13; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 12 B B | Defined$ Player.Opponent | LifeAmount$ 12 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 12 life. You gain life equal to the life lost this way. (X=12; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 11 B B | Defined$ Player.Opponent | LifeAmount$ 11 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 11 life. You gain life equal to the life lost this way. (X=11; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 10 B B | Defined$ Player.Opponent | LifeAmount$ 10 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 10 life. You gain life equal to the life lost this way. (X=10; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 9 B B | Defined$ Player.Opponent | LifeAmount$ 9 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 9 life. You gain life equal to the life lost this way. (X=9; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 8 B B | Defined$ Player.Opponent | LifeAmount$ 8 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 8 life. You gain life equal to the life lost this way. (X=8; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 7 B B | Defined$ Player.Opponent | LifeAmount$ 7 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 7 life. You gain life equal to the life lost this way. (X=7; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 6 B B | Defined$ Player.Opponent | LifeAmount$ 6 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 6 life. You gain life equal to the life lost this way. (X=6; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 5 B B | Defined$ Player.Opponent | LifeAmount$ 5 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 5 life. You gain life equal to the life lost this way. (X=5; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 4 B B | Defined$ Player.Opponent | LifeAmount$ 4 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 4 life. You gain life equal to the life lost this way. (X=4; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 3 B B | Defined$ Player.Opponent | LifeAmount$ 3 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 3 life. You gain life equal to the life lost this way. (X=3; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 2 B B | Defined$ Player.Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 2 life. You gain life equal to the life lost this way. (X=2; fixed-X split so the AI counts Treasures.)
+A:SP$ LoseLife | Cost$ 1 B B | Defined$ Player.Opponent | LifeAmount$ 1 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 1 life. You gain life equal to the life lost this way. (X=1; fixed-X split so the AI counts Treasures.)
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ AFLifeLost | StackDescription$ You gain life equal to the life lost this way.
+SVar:AFLifeLost:Number$0
+Oracle:Each opponent loses X life. You gain life equal to the life lost this way.

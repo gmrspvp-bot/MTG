@@ -1,0 +1,1429 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Doom (AI) deck=Doom Prevails v3
+Player: House (AI) deck=Mr House v4
+Player: Tidus (AI) deck=Tidus v3
+Mulligan: Doom has mulliganed down to 7 cards.
+Mulligan: House has mulliganed down to 7 cards.
+Mulligan: Tidus has mulliganed down to 7 cards.
+Mulligan: Doom has mulliganed down to 6 cards.
+Mulligan: House has mulliganed down to 6 cards.
+Mulligan: Doom has kept a hand of 6 cards
+Mulligan: House has kept a hand of 6 cards
+Mulligan: Tidus has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Doom)
+Information: BOARD turn 1 (Doom) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land)
+Information: BOARD turn 1 (Doom) | Doom | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Mountain(land); Night's Whisper(2); Skullclamp(1); Talisman of Indulgence(2); Villainous Hideout(land)
+Information: BOARD turn 1 (Doom) | House | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: General's Enforcer(2); "Lifetime" Pass Holder(1); Swamp(land); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3)
+Information: BOARD turn 1 (Doom) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Sol Ring(1); Command Tower(land); Fight Rigging(3); Brushland(land); Forest(land)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Villainous Hideout (102)
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Add To Stack: Doom cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Doom | open mana: Captain 0, House 0, Tidus 0
+Resolve Stack: Skullclamp
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 2 (House)
+Information: BOARD turn 2 (House) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land)
+Information: BOARD turn 2 (House) | Doom | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Mountain(land); Night's Whisper(2); Talisman of Indulgence(2); Kang, Temporal Tyrant(4)
+Information: BOARD turn 2 (House) | House | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: General's Enforcer(2); "Lifetime" Pass Holder(1); Swamp(land); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3)
+Information: BOARD turn 2 (House) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Sol Ring(1); Command Tower(land); Fight Rigging(3); Brushland(land); Forest(land)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Swamp (256)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: House cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by House | open mana: Captain 0, Doom 0, Tidus 0
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 3 (Tidus)
+Information: BOARD turn 3 (Tidus) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land)
+Information: BOARD turn 3 (Tidus) | Doom | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Mountain(land); Night's Whisper(2); Talisman of Indulgence(2); Kang, Temporal Tyrant(4)
+Information: BOARD turn 3 (Tidus) | House | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 3 (Tidus) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Sol Ring(1); Command Tower(land); Fight Rigging(3); Brushland(land); Forest(land)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Command Tower (341)
+Land: Tidus picked {G}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Tidus cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Tidus | open mana: Captain 0, Doom 0, House 0
+Resolve Stack: Sol Ring
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land)
+Information: BOARD turn 4 (Captain) | Doom | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Mountain(land); Night's Whisper(2); Talisman of Indulgence(2); Kang, Temporal Tyrant(4)
+Information: BOARD turn 4 (Captain) | House | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 4 (Captain) | Tidus | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Fight Rigging(3); Brushland(land); Forest(land); Rampant Rejuvenator(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (26)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Doom)
+Information: BOARD turn 5 (Doom) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 5 (Doom) | Doom | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Mountain(land); Night's Whisper(2); Talisman of Indulgence(2); Kang, Temporal Tyrant(4)
+Information: BOARD turn 5 (Doom) | House | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 5 (Doom) | Tidus | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Fight Rigging(3); Brushland(land); Forest(land); Rampant Rejuvenator(4)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Island (122)
+Mana: Island (122) - {T}: Add {U}.
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Add To Stack: Doom cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Doom | open mana: Captain 2, House 0, Tidus 2
+Resolve Stack: Talisman of Indulgence
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 6 (House)
+Information: BOARD turn 6 (House) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 6 (House) | Doom | life 40 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land)
+Information: BOARD turn 6 (House) | House | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Spectator Seating(land); Swiftfoot Boots(2); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 6 (House) | Tidus | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Fight Rigging(3); Brushland(land); Forest(land); Rampant Rejuvenator(4)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: House played Spectator Seating (282)
+Mana: Swamp (256) - {T}: Add {B}.
+Land: House picked {R}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Add To Stack: House cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by House | open mana: Captain 2, Doom 3, Tidus 2
+Resolve Stack: Swiftfoot Boots
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned "Lifetime" Pass Holder (263) to attack Doom.
+Information: BOARD attack | House -> Doom | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: House's Declare Blockers Step
+Combat: Doom didn't block "Lifetime" Pass Holder (263).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: "Lifetime" Pass Holder (263) deals 2 combat damage to Doom.
+Life: Life: Doom 40 > 38
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 7 (Tidus)
+Information: BOARD turn 7 (Tidus) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 7 (Tidus) | Doom | life 38 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land)
+Information: BOARD turn 7 (Tidus) | House | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Luxury Suite(land)
+Information: BOARD turn 7 (Tidus) | Tidus | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Ash Barrens(land); Fight Rigging(3); Brushland(land); Forest(land); Rampant Rejuvenator(4)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Brushland (411)
+Land: Tidus picked {G}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Tidus cast Hardened Scales
+Information: BOARD cast | Hardened Scales (mv 1) by Tidus | open mana: Captain 2, Doom 3, House 0
+Resolve Stack: Hardened Scales
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Tidus cast Fight Rigging
+Information: BOARD cast | Fight Rigging (mv 3) by Tidus | open mana: Captain 2, Doom 3, House 0
+Resolve Stack: Fight Rigging
+Add To Stack: Tidus triggered Fight Rigging
+Resolve Stack: Hideaway 5 (When this permanent enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Fight Rigging (397)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Plains(land); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 8 (Captain) | Doom | life 38 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land)
+Information: BOARD turn 8 (Captain) | House | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Luxury Suite(land)
+Information: BOARD turn 8 (Captain) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (85)
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Captain cast Bureau Headmaster
+Information: BOARD cast | Bureau Headmaster (mv 2) by Captain | open mana: Doom 3, House 0, Tidus 0
+Resolve Stack: Bureau Headmaster - Creature 2 / 2
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Doom)
+Information: BOARD turn 9 (Doom) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 9 (Doom) | Doom | life 38 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land)
+Information: BOARD turn 9 (Doom) | House | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Luxury Suite(land)
+Information: BOARD turn 9 (Doom) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Mountain (188)
+Mana: Island (122) - {T}: Add {U}.
+Land: Villainous Hideout (102) picked {B}
+Mana: Villainous Hideout (102) - {T}: Add one mana of any color. Spend this mana only to cast a Villain spell or to activate an ability of a Villain source.
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Doom cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Doom | open mana: Captain 0, House 0, Tidus 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Sol Ring (150).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 10 (House)
+Information: BOARD turn 10 (House) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 10 (House) | Doom | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land); Spark Double(4)
+Information: BOARD turn 10 (House) | House | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Luxury Suite(land)
+Information: BOARD turn 10 (House) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: House played Luxury Suite (235)
+Land: House picked {W}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Captain 0, Doom 0, Tidus 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned "Lifetime" Pass Holder (263) to attack Tidus.
+Information: BOARD attack | House -> Tidus | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 0
+Phase: House's Declare Blockers Step
+Combat: Tidus didn't block "Lifetime" Pass Holder (263).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: "Lifetime" Pass Holder (263) deals 2 combat damage to Tidus.
+Life: Life: Tidus 39 > 37
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 11 (Tidus)
+Information: BOARD turn 11 (Tidus) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 11 (Tidus) | Doom | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land); Spark Double(4)
+Information: BOARD turn 11 (Tidus) | House | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Dragonskull Summit(land)
+Information: BOARD turn 11 (Tidus) | Tidus | life 37 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus picked {G}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Tidus cast Incubation Druid
+Information: BOARD cast | Incubation Druid (mv 2) by Tidus | open mana: Captain 0, Doom 0, House 0
+Resolve Stack: Incubation Druid - Creature 0 / 2
+Land: Tidus played Ash Barrens (388)
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus triggered Fight Rigging targeting [Incubation Druid (319)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost. (Targeting: [[Incubation Druid (319)]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Web-Shooters(2); Swords to Plowshares(1); Glacial Fortress(land); Plains(land)
+Information: BOARD turn 12 (Captain) | Doom | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land); Spark Double(4)
+Information: BOARD turn 12 (Captain) | House | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Dragonskull Summit(land)
+Information: BOARD turn 12 (Captain) | Tidus | life 37 | hand 3 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Incubation Druid 2/4 | hand cards: Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Captain played Glacial Fortress (67)
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Captain cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Captain | open mana: Doom 0, House 0, Tidus 4
+Resolve Stack: Brotherhood Regalia
+Mana: Glacial Fortress (67) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Web-Shooters
+Information: BOARD cast | Web-Shooters (mv 2) by Captain | open mana: Doom 0, House 0, Tidus 4
+Resolve Stack: Web-Shooters
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Doom)
+Information: BOARD turn 13 (Doom) | Captain | life 40 | hand 4 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Swords to Plowshares(1); Plains(land)
+Information: BOARD turn 13 (Doom) | Doom | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Swamp(land); Spark Double(4)
+Information: BOARD turn 13 (Doom) | House | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Dragonskull Summit(land)
+Information: BOARD turn 13 (Doom) | Tidus | life 37 | hand 3 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Incubation Druid 2/4 | hand cards: Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Swamp (154)
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Doom activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Doom's Time Platform (131).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Damocles Base, Sword of Kang (177).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201) to attack House.
+Information: BOARD attack | Doom -> House | attackers 1 (power 6) | defender life 40 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Doom's Declare Blockers Step
+Combat: House didn't block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 6 combat damage to House.
+Life: Life: House 40 > 34
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 14 (House)
+Information: BOARD turn 14 (House) | Captain | life 40 | hand 4 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Swords to Plowshares(1); Plains(land)
+Information: BOARD turn 14 (House) | Doom | life 38 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4)
+Information: BOARD turn 14 (House) | House | life 34 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: General's Enforcer(2); Ingenious Artillerist(3); Exsanguinate(2); Dragonskull Summit(land)
+Information: BOARD turn 14 (House) | Tidus | life 37 | hand 3 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Incubation Druid 2/4 | hand cards: Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 14 | Doctor Doom, King of Latveria (Doom) 61
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: House played Dragonskull Summit (245)
+Land: House picked {W}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: House cast General's Enforcer
+Information: BOARD cast | General's Enforcer (mv 2) by House | open mana: Captain 2, Doom 3, Tidus 4
+Resolve Stack: General's Enforcer - Creature 2 / 3
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: House activated Swiftfoot Boots targeting [Mr. House, President and CEO (302)]
+Resolve Stack: Swiftfoot Boots (248) -  Attach to Mr. House, President and CEO (302)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned "Lifetime" Pass Holder (263) to attack Doom.
+Information: BOARD attack | House -> Doom | attackers 1 (power 2) | defender life 38 | untapped creatures 0 (power 0):  | open mana 3
+Phase: House's Declare Blockers Step
+Combat: Doom didn't block "Lifetime" Pass Holder (263).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: "Lifetime" Pass Holder (263) deals 2 combat damage to Doom.
+Life: Life: Doom 38 > 36
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 15 (Tidus)
+Information: BOARD turn 15 (Tidus) | Captain | life 40 | hand 4 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bureau Headmaster 2/2 | hand cards: Auxiliary Boosters(5); Plains(land); Swords to Plowshares(1); Plains(land)
+Information: BOARD turn 15 (Tidus) | Doom | life 36 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4)
+Information: BOARD turn 15 (Tidus) | House | life 34 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4[Swiftfoot Boots]; General's Enforcer 2/3 | hand cards: Ingenious Artillerist(3); Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 15 (Tidus) | Tidus | life 37 | hand 3 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Incubation Druid 2/4 | hand cards: Forest(land); Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 15 | Doctor Doom, King of Latveria (Doom) 59
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Forest (355)
+Land: Tidus picked {U}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Land: Tidus picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 37 > 36
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Forest (355) - {T}: Add {G}.
+Add To Stack: Tidus cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Tidus | open mana: Captain 2, Doom 3, House 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Mana: Incubation Druid (319) - {T}: Add one mana of any type that a land you control could produce. If Incubation Druid has a +1/+1 counter on it, add three mana of that type instead.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Tidus cast Summon: Magus Sisters
+Information: BOARD cast | Summon: Magus Sisters (mv 5) by Tidus | open mana: Captain 2, Doom 3, House 3
+Replacement Effect: Summon: Magus Sisters enters with a lore counter on it.
+Resolve Stack: Summon: Magus Sisters - Creature 5 / 5
+Add To Stack: Tidus triggered Summon: Magus Sisters
+Damage: Summon: Magus Sisters (370) deals 5 damage to Bureau Headmaster (62).
+Damage: Bureau Headmaster (62) deals 2 damage to Summon: Magus Sisters (370).
+Resolve Stack: I, II, III — Choose one at random. —
+• Combine Powers! — Put three +1/+1 counters on target creature.
+• Defense! — Put a shield counter on target creature. You gain 3 life.
+• Fight! — This creature fights up to one target creature an opponent controls. [Added once: Summon: Magus Sisters (370)]
+Zone Change: Bureau Headmaster (62) was put into Graveyard from Battlefield.
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Tidus triggered Fight Rigging targeting [Summon: Magus Sisters (370)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Add To Stack: Tidus cast Promise of Loyalty
+Information: BOARD cast | Promise of Loyalty (mv 5) by Tidus | open mana: Captain 2, Doom 3, House 3
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost. (Targeting: [[Summon: Magus Sisters (370)]]) [Phase: Tidus]
+Zone Change: Incubation Druid (319) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Zone Change: "Lifetime" Pass Holder (263) was put into Graveyard from Battlefield.
+Zone Change: General's Enforcer (204) was put into Graveyard from Battlefield.
+Resolve Stack: Promise of Loyalty (365) - Each player puts a vow counter on a creature they control and sacrifices the rest. Each of those creatures can't attack you or planeswalkers you control for as long as it has a vow counter on it. (without paying its mana cost)  
+Add To Stack: House triggered "Lifetime" Pass Holder
+Resolve Stack: When "Lifetime" Pass Holder dies, open an Attraction. [Zone Changer: "Lifetime" Pass Holder (263)]
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Summon: Magus Sisters (370) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 7) | defender life 36 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Summon: Magus Sisters (370).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Summon: Magus Sisters (370) deals 7 combat damage to Doom.
+Life: Life: Doom 36 > 29
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Captain | life 40 | hand 4 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Plains(land); Swords to Plowshares(1); Plains(land)
+Information: BOARD turn 16 (Captain) | Doom | life 29 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4)
+Information: BOARD turn 16 (Captain) | House | life 34 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Ingenious Artillerist(3); Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 16 (Captain) | Tidus | life 36 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Summon: Magus Sisters 7/7* | hand cards: Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 16 | Doctor Doom, King of Latveria (Doom) 56; Summon: Magus Sisters (Tidus) 55; Fight Rigging (Tidus) 37
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (86)
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Glacial Fortress (67) - {T}: Add {W} or {U}.
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 3, House 3, Tidus 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain activated Brotherhood Regalia targeting [Captain America, First Avenger (100)]
+Resolve Stack: Brotherhood Regalia (91) -  Attach to Captain America, First Avenger (100)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Web-Shooters (16)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Web-Shooters (16)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Doom)
+Information: BOARD turn 17 (Doom) | Captain | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Brotherhood Regalia,Web-Shooters] | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Plains(land)
+Information: BOARD turn 17 (Doom) | Doom | life 29 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4)
+Information: BOARD turn 17 (Doom) | House | life 34 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Ingenious Artillerist(3); Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 17 (Doom) | Tidus | life 36 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Summon: Magus Sisters 7/7* | hand cards: Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 17 | Doctor Doom, King of Latveria (Doom) 54; Summon: Magus Sisters (Tidus) 53; Fight Rigging (Tidus) 36
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Doom activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Doctor Octopus, Master Planner (168).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Containment Construct (183).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Doom -> Captain | attackers 1 (power 8) | defender life 40 | untapped creatures 1 (power 5): Captain America, First Avenger 5/5[Brotherhood Regalia,Web-Shooters] | open mana 0
+Phase: Doom's Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 8 combat damage to Captain.
+Life: Life: Captain 40 > 32
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 18 (House)
+Information: BOARD turn 18 (House) | Captain | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Brotherhood Regalia,Web-Shooters] | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Plains(land)
+Information: BOARD turn 18 (House) | Doom | life 29 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 8/8* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4); Prowler, Clawed Thief(3)
+Information: BOARD turn 18 (House) | House | life 34 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Ingenious Artillerist(3); Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 18 (House) | Tidus | life 36 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Summon: Magus Sisters 7/7* | hand cards: Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 18 | Doctor Doom, King of Latveria (Doom) 112; Summon: Magus Sisters (Tidus) 50; Fight Rigging (Tidus) 34
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered "Lifetime" Pass Holder
+Add To Stack: House triggered Mr. House, President and CEO
+Add To Stack: House triggered Tunnel of Love
+Zone Change: Captain America, First Avenger (100) was put into Exile from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Exile from Battlefield.
+Resolve Stack: Visit — Choose an opponent. They choose a creature they control, then you choose a creature you control. You may exile the chosen creatures. If you do, return them to the battlefield under their owners' control at the beginning of the next end step. Otherwise, the chosen creatures fight each other. [Player: House]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: House, Result: 6]
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: Whenever you roll to visit your Attractions, if you roll a 6, you may return "Lifetime" Pass Holder from your graveyard to the battlefield. [Player: House, Result: 6]
+Land: House played Battlefield Forge (274)
+Land: House picked {R}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: House cast Ingenious Artillerist
+Information: BOARD cast | Ingenious Artillerist (mv 3) by House | open mana: Captain 0, Doom 3, Tidus 1
+Resolve Stack: Ingenious Artillerist - Creature 3 / 1
+Land: House picked {B}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Add To Stack: House activated Swiftfoot Boots targeting [Ingenious Artillerist (209)]
+Resolve Stack: Swiftfoot Boots (248) -  Attach to Ingenious Artillerist (209)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Ingenious Artillerist (209) to attack Doom.
+Information: BOARD attack | House -> Doom | attackers 1 (power 3) | defender life 29 | untapped creatures 0 (power 0):  | open mana 3
+Phase: House's Declare Blockers Step
+Combat: Doom didn't block Ingenious Artillerist (209).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Ingenious Artillerist (209) deals 3 combat damage to Doom.
+Life: Life: Doom 29 > 26
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Add To Stack: House triggered Tunnel of Love
+Resolve Stack: Return exiled card to the battlefield. ([Captain America, First Avenger (100), Mr. House, President and CEO (302)]) [Phase: House]
+Phase: House's Cleanup step
+Turn: Turn 19 (Tidus)
+Information: BOARD turn 19 (Tidus) | Captain | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Plains(land)
+Information: BOARD turn 19 (Tidus) | Doom | life 26 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 8/8* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4); Prowler, Clawed Thief(3)
+Information: BOARD turn 19 (Tidus) | House | life 34 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Command | creatures 3 (1 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1*[Swiftfoot Boots] | hand cards: Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 19 (Tidus) | Tidus | life 36 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Summon: Magus Sisters 7/7* | hand cards: Rampant Rejuvenator(4); Fortified Village(land)
+Information: BOARD threat | turn 19 | Doctor Doom, King of Latveria (Doom) 108; Summon: Magus Sisters (Tidus) 48; Fight Rigging (Tidus) 33
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Add To Stack: Tidus triggered Summon: Magus Sisters
+Damage: Summon: Magus Sisters (370) deals 7 damage to Captain America, First Avenger (100).
+Damage: Captain America, First Avenger (100) deals 4 damage to Summon: Magus Sisters (370).
+Resolve Stack: I, II, III — Choose one at random. —
+• Combine Powers! — Put three +1/+1 counters on target creature.
+• Defense! — Put a shield counter on target creature. You gain 3 life.
+• Fight! — This creature fights up to one target creature an opponent controls. [Added once: Summon: Magus Sisters (370)]
+Zone Change: Captain America, First Avenger (100) was put into Graveyard from Battlefield.
+Replacement Effect: As Fortified Village enters, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters tapped.
+Land: Tidus played Fortified Village (364)
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus triggered Fight Rigging targeting [Summon: Magus Sisters (370)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost. (Targeting: [[Summon: Magus Sisters (370)]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Summon: Magus Sisters (370) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 9) | defender life 26 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Summon: Magus Sisters (370).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Summon: Magus Sisters (370) deals 9 combat damage to Doom.
+Life: Life: Doom 26 > 17
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {U}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Land: Tidus picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 36 > 35
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Tidus cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Tidus | open mana: Captain 0, Doom 3, House 4
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Captain | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Plains(land)
+Information: BOARD turn 20 (Captain) | Doom | life 17 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 8/8* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4); Prowler, Clawed Thief(3)
+Information: BOARD turn 20 (Captain) | House | life 34 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Command | creatures 3 (1 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1*[Swiftfoot Boots] | hand cards: Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 20 (Captain) | Tidus | life 35 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Summon: Magus Sisters 9/9*; Tidus, Yuna's Guardian 3/3 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 20 | Summon: Magus Sisters (Tidus) 113; Doctor Doom, King of Latveria (Doom) 104; Fight Rigging (Tidus) 46
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (82)
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Glacial Fortress (67) - {T}: Add {W} or {U}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 3, House 4, Tidus 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Brotherhood Regalia (91)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Brotherhood Regalia (91)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Doom)
+Information: BOARD turn 21 (Doom) | Captain | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Brotherhood Regalia] | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 21 (Doom) | Doom | life 17 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 8/8* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Spark Double(4); Madame Hydra(4); Prowler, Clawed Thief(3)
+Information: BOARD turn 21 (Doom) | House | life 34 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Command | creatures 3 (1 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1*[Swiftfoot Boots] | hand cards: Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 21 (Doom) | Tidus | life 35 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Summon: Magus Sisters 9/9*; Tidus, Yuna's Guardian 3/3 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 21 | Summon: Magus Sisters (Tidus) 108; Doctor Doom, King of Latveria (Doom) 99; Fight Rigging (Tidus) 44
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Terramorphic Expanse (200)
+Zone Change: Terramorphic Expanse (200) was put into Graveyard from Battlefield.
+Add To Stack: Doom activated Terramorphic Expanse
+Resolve Stack: Terramorphic Expanse (200) - Doom searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Doom activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Spark Double (149).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Talisman of Dominance (136).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201) to attack House.
+Information: BOARD attack | Doom -> House | attackers 1 (power 10) | defender life 34 | untapped creatures 1 (power 3): Robot Token 3/3 | open mana 4
+Phase: Doom's Declare Blockers Step
+Combat: House didn't block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 10 combat damage to House.
+Life: Life: House 34 > 24
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 22 (House)
+Information: BOARD turn 22 (House) | Captain | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Brotherhood Regalia] | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 22 (House) | Doom | life 17 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 10/10* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 22 (House) | House | life 24 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Command | creatures 3 (1 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1*[Swiftfoot Boots] | hand cards: Exsanguinate(2); Godless Shrine(land)
+Information: BOARD turn 22 (House) | Tidus | life 35 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Summon: Magus Sisters 9/9*; Tidus, Yuna's Guardian 3/3 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 22 | Doctor Doom, King of Latveria (Doom) 168; Summon: Magus Sisters (Tidus) 104; Fight Rigging (Tidus) 42; Villainous Hideout (Doom) 37
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: House played Godless Shrine (238)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Swamp (256) - {T}: Add {B}.
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Land: House picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Land: House picked {R}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Battlefield Forge (274) - {T}: Add {C}.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Land: Treasure Token (420) picked {W}
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: House cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by House | open mana: Captain 0, Doom 3, Tidus 1
+Life: Life: Tidus 35 > 31
+Life: Life: Captain 32 > 28
+Life: Life: Doom 17 > 13
+Life: Life: House 24 > 36
+Resolve Stack: Exsanguinate (227) - Tidus, Captain and Doom each lose 4 life. You gain life equal to the life lost this way.
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 23 (Tidus)
+Information: BOARD turn 23 (Tidus) | Captain | life 28 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Brotherhood Regalia] | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 23 (Tidus) | Doom | life 13 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 10/10* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 23 (Tidus) | House | life 36 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1; Ingenious Artillerist 3/1[Swiftfoot Boots] | hand cards: Gamble(1)
+Information: BOARD turn 23 (Tidus) | Tidus | life 31 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Summon: Magus Sisters 9/9*; Tidus, Yuna's Guardian 3/3 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 23 | Doctor Doom, King of Latveria (Doom) 161; Summon: Magus Sisters (Tidus) 100; Fight Rigging (Tidus) 41; Villainous Hideout (Doom) 36
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Add To Stack: Tidus triggered Summon: Magus Sisters
+Add To Stack: Captain triggered Captain America, First Avenger
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Resolve Stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Summon: Magus Sisters (370), Target: Captain America, First Avenger (100)]
+Damage: Summon: Magus Sisters (370) deals 9 damage to Captain America, First Avenger (100).
+Damage: Captain America, First Avenger (100) deals 4 damage to Summon: Magus Sisters (370).
+Resolve Stack: I, II, III — Choose one at random. —
+• Combine Powers! — Put three +1/+1 counters on target creature.
+• Defense! — Put a shield counter on target creature. You gain 3 life.
+• Fight! — This creature fights up to one target creature an opponent controls. [Added once: Summon: Magus Sisters (370)]
+Zone Change: Captain America, First Avenger (100) was put into Graveyard from Battlefield.
+Zone Change: Summon: Magus Sisters (370) was put into Graveyard from Battlefield.
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Tidus triggered Fight Rigging targeting [Tidus, Yuna's Guardian (413)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost. (Targeting: [[Tidus, Yuna's Guardian (413)]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 5) | defender life 13 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Tidus, Yuna's Guardian (413).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 5 combat damage to Doom.
+Life: Life: Doom 13 > 8
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Doom, Amount: 5]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {U}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Land: Tidus picked {G}
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Add To Stack: Tidus cast Dreamdew Entrancer
+Information: BOARD cast | Dreamdew Entrancer (mv 4) by Tidus | open mana: Captain 0, Doom 3, House 0
+Resolve Stack: Dreamdew Entrancer - Creature 3 / 4
+Add To Stack: Tidus triggered Dreamdew Entrancer targeting ["Lifetime" Pass Holder (263)]
+Resolve Stack: When Dreamdew Entrancer enters, tap up to one creature and put three stun counters on it. If you control that creature, draw two cards. (Targeting: [["Lifetime" Pass Holder (263)]]) [Zone Changer: Dreamdew Entrancer (401)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 24 (Captain)
+Information: BOARD turn 24 (Captain) | Captain | life 28 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Auxiliary Boosters(5); Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 24 (Captain) | Doom | life 8 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 10/10* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 24 (Captain) | House | life 36 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1[Swiftfoot Boots] | hand cards: Gamble(1)
+Information: BOARD turn 24 (Captain) | Tidus | life 31 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 5/5*; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 24 | Doctor Doom, King of Latveria (Doom) 154; Fight Rigging (Tidus) 53; Tidus, Yuna's Guardian (Tidus) 43; Villainous Hideout (Doom) 34
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played City of Brass (44)
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Glacial Fortress (67) - {T}: Add {W} or {U}.
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Auxiliary Boosters
+Information: BOARD cast | Auxiliary Boosters (mv 5) by Captain | open mana: Doom 3, House 0, Tidus 3
+Resolve Stack: Auxiliary Boosters
+Add To Stack: Captain triggered Auxiliary Boosters
+Resolve Stack: When this Equipment enters, create a 2/2 colorless Robot artifact creature token and attach this Equipment to it. [Zone Changer: Auxiliary Boosters (33)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 25 (Doom)
+Information: BOARD turn 25 (Doom) | Captain | life 28 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Robot Token 3/4[Auxiliary Boosters] | hand cards: Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 25 (Doom) | Doom | life 8 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 10/10* | hand cards: Night's Whisper(2); Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 25 (Doom) | House | life 36 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1[Swiftfoot Boots] | hand cards: Gamble(1)
+Information: BOARD turn 25 (Doom) | Tidus | life 31 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 5/5*; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 25 | Doctor Doom, King of Latveria (Doom) 148; Fight Rigging (Tidus) 51; Tidus, Yuna's Guardian (Tidus) 41; Villainous Hideout (Doom) 33
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Doom activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Tombstone, Career Criminal (193).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Age of Ultron (138).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Replacement Effect: Crumbling Necropolis enters tapped.
+Land: Doom played Crumbling Necropolis (158)
+Land: Doom picked {B}
+Damage: Talisman of Indulgence (108) deals 1 non-combat damage to Doom.
+Life: Life: Doom 8 > 7
+Mana: Talisman of Indulgence (108) - {T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you. 
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Doom cast Night's Whisper
+Information: BOARD cast | Night's Whisper (mv 2) by Doom | open mana: Captain 1, House 0, Tidus 3
+Life: Life: Doom 7 > 5
+Resolve Stack: Night's Whisper (143) - Doom draws two cards. Doom loses 2 life.
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 26 (House)
+Information: BOARD turn 26 (House) | Captain | life 28 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Robot Token 3/4[Auxiliary Boosters] | hand cards: Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 26 (House) | Doom | life 5 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 12/12 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Molecule Man(6); Chameleon, Master of Disguise(4); Command Tower(land)
+Information: BOARD turn 26 (House) | House | life 36 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1[Swiftfoot Boots] | hand cards: Gamble(1)
+Information: BOARD turn 26 (House) | Tidus | life 31 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 5/5*; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 26 | Doctor Doom, King of Latveria (Doom) 157; Fight Rigging (Tidus) 49; Villainous Hideout (Doom) 46; Tidus, Yuna's Guardian (Tidus) 40
+Phase: House's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {W}
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Land: House picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Captain 1, Doom 0, Tidus 3
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: House triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Tidus.
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Captain.
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Doom.
+Life: Life: Captain 28 > 27
+Life: Life: Doom 5 > 4
+Life: Life: Tidus 31 > 30
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Land: House picked {R}
+Damage: Battlefield Forge (274) deals 1 non-combat damage to House.
+Life: Life: House 36 > 35
+Mana: Battlefield Forge (274) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: House cast Gamble
+Information: BOARD cast | Gamble (mv 1) by House | open mana: Captain 1, Doom 0, Tidus 3
+Discard: House discards Barbarian Class (243).
+Resolve Stack: Gamble (205) - Search your library for a card, put that card into your hand, discard a card at random, then shuffle. House searches their library for a Card.namedWyll; Blade of Frontiers card, reveals it, puts it into their hand, then shuffles. House searches their library for a card, reveals it, puts it into their hand, then shuffles. House discards a card at random. House shuffles their library. 
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 27 (Tidus)
+Information: BOARD turn 27 (Tidus) | Captain | life 27 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Robot Token 3/4[Auxiliary Boosters] | hand cards: Swords to Plowshares(1); Plains(land); Champion's Helm(3)
+Information: BOARD turn 27 (Tidus) | Doom | life 4 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 12/12 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Molecule Man(6); Chameleon, Master of Disguise(4); Command Tower(land)
+Information: BOARD turn 27 (Tidus) | House | life 35 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Robot Token 3/3; "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1[Swiftfoot Boots]; Mr. House, President and CEO 0/4 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 27 (Tidus) | Tidus | life 30 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 5/5*; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Bane of Progress(6)
+Information: BOARD threat | turn 27 | Doctor Doom, King of Latveria (Doom) 150; Fight Rigging (Tidus) 47; Ingenious Artillerist (House) 44; Villainous Hideout (Doom) 44; Tidus, Yuna's Guardian (Tidus) 38
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Tidus triggered Fight Rigging targeting [Tidus, Yuna's Guardian (413)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost. (Targeting: [[Tidus, Yuna's Guardian (413)]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Mana: Forest (355) - {T}: Add {G}.
+Land: Tidus picked {G}
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Land: Tidus picked {W}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Tidus cast Bane of Progress
+Information: BOARD cast | Bane of Progress (mv 6) by Tidus | open mana: Captain 1, Doom 0, House 0
+Resolve Stack: Bane of Progress - Creature 2 / 2
+Add To Stack: Tidus triggered Bane of Progress
+Mana: City of Brass (44) - {T}: Add one mana of any color.
+Add To Stack: Captain cast Swords to Plowshares targeting [Bane of Progress (392)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Captain | open mana: Doom 0, House 0, Tidus 3
+Add To Stack: Captain triggered City of Brass
+Damage: City of Brass (44) deals 1 non-combat damage to Captain.
+Life: Life: Captain 27 > 26
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (44)]
+Zone Change: Bane of Progress (392) was put into Exile from Battlefield.
+Life: Life: Tidus 30 > 32
+Resolve Stack: Swords to Plowshares (77) - Exile Bane of Progress (392). Tidus gains life equal to its power.
+Zone Change: Sol Ring (374) was put into Graveyard from Battlefield.
+Zone Change: Hardened Scales (317) was put into Graveyard from Battlefield.
+Zone Change: Fight Rigging (397) was put into Graveyard from Battlefield.
+Zone Change: Brotherhood Regalia (91) was put into Graveyard from Battlefield.
+Zone Change: Web-Shooters (16) was put into Graveyard from Battlefield.
+Zone Change: Auxiliary Boosters (33) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (422) was put into Graveyard from Battlefield.
+Zone Change: Skullclamp (148) was put into Graveyard from Battlefield.
+Zone Change: Talisman of Indulgence (108) was put into Graveyard from Battlefield.
+Zone Change: Swiftfoot Boots (248) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (419) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Resolve Stack: When Bane of Progress enters, destroy all artifacts and enchantments. Put a +1/+1 counter on Bane of Progress for each permanent destroyed this way. [Zone Changer: Bane of Progress (392)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 26 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Champion's Helm(3)
+Information: BOARD turn 28 (Captain) | Doom | life 4 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 12/12 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Molecule Man(6); Chameleon, Master of Disguise(4); Command Tower(land)
+Information: BOARD turn 28 (Captain) | House | life 35 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 28 (Captain) | Tidus | life 32 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 7/7; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Metastatic Evangel(2)
+Information: BOARD threat | turn 28 | Doctor Doom, King of Latveria (Doom) 144; Ingenious Artillerist (House) 42; Villainous Hideout (Doom) 42; Tidus, Yuna's Guardian (Tidus) 37
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Captain | open mana: Doom 0, House 0, Tidus 3
+Resolve Stack: Arcane Signet
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Glacial Fortress (67) - {T}: Add {W} or {U}.
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Champion's Helm
+Information: BOARD cast | Champion's Helm (mv 3) by Captain | open mana: Doom 0, House 0, Tidus 3
+Resolve Stack: Champion's Helm
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Doom)
+Information: BOARD turn 29 (Doom) | Captain | life 26 | hand 1 | lands 6 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land)
+Information: BOARD turn 29 (Doom) | Doom | life 4 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 12/12 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Prowler, Clawed Thief(3); Molecule Man(6); Chameleon, Master of Disguise(4); Command Tower(land)
+Information: BOARD turn 29 (Doom) | House | life 35 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 29 (Doom) | Tidus | life 32 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 7/7; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Metastatic Evangel(2)
+Information: BOARD threat | turn 29 | Doctor Doom, King of Latveria (Doom) 139; Ingenious Artillerist (House) 41; Villainous Hideout (Doom) 41; Tidus, Yuna's Guardian (Tidus) 35
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Command Tower (120)
+Mana: Mountain (188) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Doom activated Villainous Hideout targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Batroc the Leaper (130).
+Resolve Stack: Villainous Hideout (102) - Doctor Doom, King of Latveria (201) connives.
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Mountain (185).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Doctor Doom, King of Latveria
+Life: Life: House 35 > 33
+Life: Life: Tidus 32 > 30
+Life: Life: Captain 26 > 24
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Doom, Amount: 1]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Doom -> Captain | attackers 1 (power 13) | defender life 24 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Doom's Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 13 combat damage to Captain.
+Life: Life: Captain 24 > 11
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Mana: Island (124) - {T}: Add {U}.
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Doom cast Prowler, Clawed Thief
+Information: BOARD cast | Prowler, Clawed Thief (mv 3) by Doom | open mana: House 0, Tidus 3
+Resolve Stack: Prowler, Clawed Thief - Creature 2 / 3
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 30 (House)
+Information: BOARD turn 30 (House) | Doom | life 4 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 13/13*; Prowler, Clawed Thief 2/3 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Molecule Man(6); Chameleon, Master of Disguise(4); Mysterio, Master of Illusion(4)
+Information: BOARD turn 30 (House) | House | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 30 (House) | Tidus | life 30 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 7/7; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Metastatic Evangel(2)
+Information: BOARD threat | turn 30 | Doctor Doom, King of Latveria (Doom) 237; Villainous Hideout (Doom) 53; Ingenious Artillerist (House) 39; Tidus, Yuna's Guardian (Tidus) 34
+Phase: House's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Add To Stack: House cast Vexing Puzzlebox
+Information: BOARD cast | Vexing Puzzlebox (mv 3) by House | open mana: Doom 0, Tidus 3
+Resolve Stack: Vexing Puzzlebox
+Add To Stack: House triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Tidus.
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Doom.
+Life: Life: Doom 4 > 3
+Life: Life: Tidus 30 > 29
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 31 (Tidus)
+Information: BOARD turn 31 (Tidus) | Doom | life 3 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 13/13*; Prowler, Clawed Thief 2/3 | hand cards: Kang, Temporal Tyrant(4); Madame Hydra(4); Molecule Man(6); Chameleon, Master of Disguise(4); Mysterio, Master of Illusion(4)
+Information: BOARD turn 31 (Tidus) | House | life 33 | hand 1 | lands 6 (3 untapped) | open mana 8 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 31 (Tidus) | Tidus | life 29 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 7/7; Dreamdew Entrancer 3/4 | hand cards: Rampant Rejuvenator(4); Metastatic Evangel(2)
+Information: BOARD threat | turn 31 | Doctor Doom, King of Latveria (Doom) 227; Ingenious Artillerist (House) 63; Villainous Hideout (Doom) 51; Tidus, Yuna's Guardian (Tidus) 32
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413) and Dreamdew Entrancer (401) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 2 (power 10) | defender life 3 | untapped creatures 1 (power 2): Prowler, Clawed Thief 2/3 | open mana 0
+Phase: Tidus' Declare Blockers Step
+Combat: Doom assigned Prowler, Clawed Thief (103) to block Tidus, Yuna's Guardian (413).
+Doom didn't block Dreamdew Entrancer (401).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 7 damage to Prowler, Clawed Thief (103).
+Damage: Dreamdew Entrancer (401) deals 3 combat damage to Doom.
+Damage: Prowler, Clawed Thief (103) deals 2 damage to Tidus, Yuna's Guardian (413).
+Life: Life: Doom 3 > 0
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Tidus cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Tidus | open mana: House 8
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast Ingenious Prodigy
+Information: BOARD cast | Ingenious Prodigy (mv 3) by Tidus | open mana: House 8
+Replacement Effect: Ingenious Prodigy enters with X +1/+1 counters on it.
+Resolve Stack: Ingenious Prodigy - Creature 0 / 1 (X=2)
+Add To Stack: Tidus triggered Metastatic Evangel
+Resolve Stack: Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Zone Changer: Ingenious Prodigy (376)]
+Phase: Tidus' End step
+Add To Stack: House activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (297) - Roll a d20.
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [10]]
+Phase: Tidus' Cleanup step
+Turn: Turn 32 (House)
+Information: BOARD turn 32 (House) | House | life 33 | hand 1 | lands 6 (3 untapped) | open mana 7 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Gisela, Blade of Goldnight(7)
+Information: BOARD turn 32 (House) | Tidus | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Metastatic Evangel 3/1; Ingenious Prodigy 3/4 | hand cards: Rampant Rejuvenator(4)
+Information: BOARD threat | turn 32 | Ingenious Artillerist (House) 61; Tidus, Yuna's Guardian (Tidus) 31
+Phase: House's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Godless Shrine (238) - {T}: Add {W}.
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Battlefield Forge (274) - {T}: Add {C}.
+Mana: Vexing Puzzlebox (297) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: House cast Gisela, Blade of Goldnight
+Information: BOARD cast | Gisela, Blade of Goldnight (mv 7) by House | open mana: Tidus 0
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [16]]
+Resolve Stack: Gisela, Blade of Goldnight - Creature 5 / 5
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 33 (Tidus)
+Information: BOARD turn 33 (Tidus) | House | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1; Gisela, Blade of Goldnight 5/5 | hand cards: Weftstalker Ardent(3)
+Information: BOARD turn 33 (Tidus) | Tidus | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Metastatic Evangel 3/1; Ingenious Prodigy 3/4 | hand cards: Rampant Rejuvenator(4)
+Information: BOARD threat | turn 33 | Ingenious Artillerist (House) 58; Vexing Puzzlebox (House) 42
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Add To Stack: Tidus triggered Ingenious Prodigy
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Tidus]
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Tidus cast Destroy Evil
+Information: BOARD cast | Destroy Evil (mv 2) by Tidus | open mana: House 0
+Zone Change: Gisela, Blade of Goldnight (260) was put into Graveyard from Battlefield.
+Resolve Stack: Destroy Evil (394) -  Destroy target creature with toughness 4 or greater. (Targeting: Gisela, Blade of Goldnight (260))
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413), Dreamdew Entrancer (401), Metastatic Evangel (329) and Ingenious Prodigy (376) to attack House.
+Information: BOARD attack | Tidus -> House | attackers 4 (power 16) | defender life 33 | untapped creatures 1 (power 3): Ingenious Artillerist 3/1 | open mana 0
+Phase: Tidus' Declare Blockers Step
+Combat: House didn't block Tidus, Yuna's Guardian (413).
+House didn't block Dreamdew Entrancer (401).
+House didn't block Metastatic Evangel (329).
+House didn't block Ingenious Prodigy (376).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 8 combat damage to House.
+Damage: Dreamdew Entrancer (401) deals 3 combat damage to House.
+Damage: Metastatic Evangel (329) deals 3 combat damage to House.
+Damage: Ingenious Prodigy (376) deals 2 combat damage to House.
+Life: Life: House 33 > 17
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: House, Amount: 10]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Tidus played Temple of Enlightenment (384)
+Add To Stack: Tidus triggered Temple of Enlightenment
+Resolve Stack: Tidus scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 34 (House)
+Information: BOARD turn 34 (House) | House | life 17 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1 | hand cards: Weftstalker Ardent(3)
+Information: BOARD turn 34 (House) | Tidus | life 29 | hand 1 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 4 (0 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Metastatic Evangel 3/1*; Ingenious Prodigy 2/3* | hand cards: Rampant Rejuvenator(4)
+Information: BOARD threat | turn 34 | Tidus, Yuna's Guardian (Tidus) 89; Ingenious Artillerist (House) 56; Dreamdew Entrancer (Tidus) 43; Vexing Puzzlebox (House) 40; Metastatic Evangel (Tidus) 31
+Phase: House's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Ingenious Artillerist (209) to attack Tidus.
+Information: BOARD attack | House -> Tidus | attackers 1 (power 3) | defender life 29 | untapped creatures 0 (power 0):  | open mana 6
+Phase: House's Declare Blockers Step
+Combat: Tidus didn't block Ingenious Artillerist (209).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Ingenious Artillerist (209) deals 3 combat damage to Tidus.
+Life: Life: Tidus 29 > 26
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House played Evolving Wilds (234)
+Zone Change: Evolving Wilds (234) was put into Graveyard from Battlefield.
+Add To Stack: House activated Evolving Wilds
+Resolve Stack: Evolving Wilds (234) - House searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: House cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by House | open mana: Tidus 6
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 35 (Tidus)
+Information: BOARD turn 35 (Tidus) | House | life 17 | hand 0 | lands 7 (3 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1*; Weftstalker Ardent 2/3 | hand cards: 
+Information: BOARD turn 35 (Tidus) | Tidus | life 26 | hand 1 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 4 (0 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Metastatic Evangel 3/1*; Ingenious Prodigy 2/3* | hand cards: Rampant Rejuvenator(4)
+Information: BOARD threat | turn 35 | Tidus, Yuna's Guardian (Tidus) 86; Ingenious Artillerist (House) 71; Dreamdew Entrancer (Tidus) 41; Vexing Puzzlebox (House) 39
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Add To Stack: Tidus triggered Ingenious Prodigy
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Tidus]
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413), Dreamdew Entrancer (401), Metastatic Evangel (329) and Ingenious Prodigy (376) to attack House.
+Information: BOARD attack | Tidus -> House | attackers 4 (power 15) | defender life 17 | untapped creatures 1 (power 2): Weftstalker Ardent 2/3 | open mana 8
+Phase: Tidus' Declare Blockers Step
+Combat: House didn't block Tidus, Yuna's Guardian (413).
+House didn't block Dreamdew Entrancer (401).
+House assigned Weftstalker Ardent (252) to block Metastatic Evangel (329).
+House didn't block Ingenious Prodigy (376).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 8 combat damage to House.
+Damage: Dreamdew Entrancer (401) deals 3 combat damage to House.
+Damage: Metastatic Evangel (329) deals 3 damage to Weftstalker Ardent (252).
+Damage: Ingenious Prodigy (376) deals 1 combat damage to House.
+Damage: Weftstalker Ardent (252) deals 2 damage to Metastatic Evangel (329).
+Life: Life: House 17 > 5
+Zone Change: Metastatic Evangel (329) was put into Graveyard from Battlefield.
+Zone Change: Weftstalker Ardent (252) was put into Graveyard from Battlefield.
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: House, Amount: 9]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Tidus cast Gyre Sage
+Information: BOARD cast | Gyre Sage (mv 2) by Tidus | open mana: House 8
+Resolve Stack: Gyre Sage - Creature 1 / 2
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast Rampant Rejuvenator
+Information: BOARD cast | Rampant Rejuvenator (mv 4) by Tidus | open mana: House 8
+Replacement Effect: Rampant Rejuvenator enters with two +1/+1 counters on it.
+Resolve Stack: Rampant Rejuvenator - Creature 0 / 0
+Add To Stack: Tidus triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Rampant Rejuvenator (359)]
+Phase: Tidus' End step
+Add To Stack: House activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (297) - Roll a d20.
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [8]]
+Phase: Tidus' Cleanup step
+Turn: Turn 36 (House)
+Information: BOARD turn 36 (House) | House | life 5 | hand 0 | lands 7 (3 untapped) | open mana 7 | commander Command | creatures 2 (0 untapped): "Lifetime" Pass Holder 2/1*; Ingenious Artillerist 3/1* | hand cards: 
+Information: BOARD turn 36 (House) | Tidus | life 26 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Ingenious Prodigy 1/2*; Gyre Sage 2/3; Rampant Rejuvenator 2/2 | hand cards: Damning Verdict(5)
+Information: BOARD threat | turn 36 | Tidus, Yuna's Guardian (Tidus) 143; Ingenious Artillerist (House) 68; Vexing Puzzlebox (House) 66; Dreamdew Entrancer (Tidus) 57; Ingenious Prodigy (Tidus) 44
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: House played Smoldering Marsh (267)
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Tidus 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: House triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 26 > 25
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 37 (Tidus)
+Information: BOARD turn 37 (Tidus) | House | life 5 | hand 0 | lands 8 (1 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): "Lifetime" Pass Holder 2/1; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: 
+Information: BOARD turn 37 (Tidus) | Tidus | life 25 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Tidus, Yuna's Guardian 8/8*; Dreamdew Entrancer 3/4*; Ingenious Prodigy 1/2*; Gyre Sage 2/3; Rampant Rejuvenator 2/2 | hand cards: Damning Verdict(5)
+Information: BOARD threat | turn 37 | Tidus, Yuna's Guardian (Tidus) 137; Ingenious Artillerist (House) 86; Vexing Puzzlebox (House) 63; Dreamdew Entrancer (Tidus) 54; Ingenious Prodigy (Tidus) 42
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Add To Stack: Tidus triggered Ingenious Prodigy
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Tidus]
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Brushland (411) - {T}: Add {C}.
+Mana: Gyre Sage (322) - {T}: Add {G} for each +1/+1 counter on Gyre Sage.
+Add To Stack: Tidus cast Wildwood Scourge
+Information: BOARD cast | Wildwood Scourge (mv 7) by Tidus | open mana: House 4
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Resolve Stack: Wildwood Scourge - Creature 0 / 0 (X=6)
+Add To Stack: Tidus triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Wildwood Scourge (318)]
+Add To Stack: Tidus triggered Wildwood Scourge
+Resolve Stack: Whenever one or more +1/+1 counters are put on another non-Hydra creature you control, put a +1/+1 counter on Wildwood Scourge. [Added once: Gyre Sage (322) Amount: 1]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413) and Dreamdew Entrancer (401) to attack House.
+Information: BOARD attack | Tidus -> House | attackers 2 (power 11) | defender life 5 | untapped creatures 3 (power 5): "Lifetime" Pass Holder 2/1; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | open mana 4
+Phase: Tidus' Declare Blockers Step
+Combat: House assigned Mr. House, President and CEO (302) to block Tidus, Yuna's Guardian (413).
+House assigned "Lifetime" Pass Holder (263) and Ingenious Artillerist (209) to block Dreamdew Entrancer (401).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 8 damage to Mr. House, President and CEO (302).
+Damage: Dreamdew Entrancer (401) deals 1 damage to Ingenious Artillerist (209).
+Damage: Dreamdew Entrancer (401) deals 2 damage to "Lifetime" Pass Holder (263).
+Damage: "Lifetime" Pass Holder (263) deals 2 damage to Dreamdew Entrancer (401).
+Damage: Ingenious Artillerist (209) deals 3 damage to Dreamdew Entrancer (401).
+Zone Change: Dreamdew Entrancer (401) was put into Graveyard from Battlefield.
+Zone Change: "Lifetime" Pass Holder (263) was put into Graveyard from Battlefield.
+Zone Change: Ingenious Artillerist (209) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Add To Stack: House triggered "Lifetime" Pass Holder
+Resolve Stack: When "Lifetime" Pass Holder dies, open an Attraction. [Zone Changer: "Lifetime" Pass Holder (263)]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Add To Stack: House activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (297) - Roll a d20.
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [16]]
+Phase: Tidus' Cleanup step
+Turn: Turn 38 (House)
+Information: BOARD turn 38 (House) | House | life 5 | hand 0 | lands 8 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 38 (House) | Tidus | life 25 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 8/8*; Ingenious Prodigy 0/1; Gyre Sage 3/4*; Rampant Rejuvenator 2/2; Wildwood Scourge 7/7 | hand cards: Damning Verdict(5); Plains(land)
+Information: BOARD threat | turn 38 | Tidus, Yuna's Guardian (Tidus) 132; Vexing Puzzlebox (House) 90; Ingenious Prodigy (Tidus) 55
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [3]]
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Spectator Seating (282) - {T}: Add {R} or {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Mana: Battlefield Forge (274) - {T}: Add {C}.
+Mana: Vexing Puzzlebox (297) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Tidus 0
+Add To Stack: House triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: House, Result: [6]]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 39 (Tidus)
+Information: BOARD turn 39 (Tidus) | House | life 5 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Component Pouch(3)
+Information: BOARD turn 39 (Tidus) | Tidus | life 25 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 8/8*; Ingenious Prodigy 0/1; Gyre Sage 3/4*; Rampant Rejuvenator 2/2; Wildwood Scourge 7/7 | hand cards: Damning Verdict(5); Plains(land)
+Information: BOARD threat | turn 39 | Tidus, Yuna's Guardian (Tidus) 126; Vexing Puzzlebox (House) 115; Ingenious Prodigy (Tidus) 53
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413), Wildwood Scourge (318), Gyre Sage (322) and Rampant Rejuvenator (359) to attack House.
+Information: BOARD attack | Tidus -> House | attackers 4 (power 20) | defender life 5 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Tidus' Declare Blockers Step
+Combat: House assigned Mr. House, President and CEO (302) to block Tidus, Yuna's Guardian (413).
+House didn't block Wildwood Scourge (318).
+House didn't block Gyre Sage (322).
+House didn't block Rampant Rejuvenator (359).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 8 damage to Mr. House, President and CEO (302).
+Damage: Wildwood Scourge (318) deals 7 combat damage to House.
+Damage: Gyre Sage (322) deals 3 combat damage to House.
+Damage: Rampant Rejuvenator (359) deals 2 combat damage to House.
+Life: Life: House 5 > -7
+Player Control: Captain has restored control over themself
+Player Control: Doom has restored control over themself
+Player Control: House has restored control over themself
+Player Control: Tidus has restored control over themself
+Game Outcome: Match Duration 10m : 15s
+Game Outcome: Turn 20
+Game Outcome: Captain has lost due to accumulation of 21 damage from generals
+Game Outcome: Doom has lost because life total reached 0
+Game Outcome: House has lost because life total reached 0
+Game Outcome: Tidus has won because all opponents have lost
+Match Result: Captain: 0 Doom: 0 House: 0 Tidus: 1 
+
+Game Result: Tidus has won

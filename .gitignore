@@ -1,0 +1,32 @@
+# Forge itself (downloaded installer, ~400 MB) and simulation output (~2 GB)
+/forge-installer-2.0.15/
+/results/
+
+# Build output: rebuilt from scripts/tools/*.java (see scripts/tools, agent-manifest.txt)
+*.class
+*.jar
+/scripts/tools/classes/
+
+# Forge's runtime data: keep custom cards, decks, preferences and UI settings only
+/forge-data/cache/
+/forge-data/games/
+/forge-data/quest/
+/forge-data/gauntlet/
+/forge-data/achievements/
+/forge-data/*.log
+
+# scratch: keep scripts, probes, the user's recorded games and reference data; the rest is temp
+/scratch/*
+!/scratch/*.ps1
+!/scratch/probe/
+/scratch/probe/*
+!/scratch/probe/*.java
+!/scratch/play-logs/
+/scratch/play-logs/*
+!/scratch/play-logs/game_*.log
+!/scratch/edhrec-data/
+!/scratch/upgrade-candidates.txt
+
+# Logs and crash dumps in the root
+/*.log
+/2026-10-12-00.txt

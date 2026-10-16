@@ -1,0 +1,1029 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Doom (AI) deck=Doom Prevails v3
+Player: House (AI) deck=Mr House v4
+Player: Tidus (AI) deck=Tidus v3
+Mulligan: Doom has mulliganed down to 7 cards.
+Mulligan: House has mulliganed down to 7 cards.
+Mulligan: House has mulliganed down to 6 cards.
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Doom has kept a hand of 7 cards
+Mulligan: House has kept a hand of 6 cards
+Mulligan: Tidus has kept a hand of 7 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Spectacular Spider-Man(2); Steelshaper's Gift(1); Hengegate Pathway(land); Adarkar Wastes(land); Excalibur, Sword of Eden(12)
+Information: BOARD turn 1 (Captain) | Doom | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Fetid Pools(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land)
+Information: BOARD turn 1 (Captain) | House | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3)
+Information: BOARD turn 1 (Captain) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Sazh's Chocobo(1); Endless Detour(3); Idyllic Beachfront(land); Brushland(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Hengegate Pathway (43)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Add To Stack: Captain cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Captain | open mana: Doom 0, House 0, Tidus 0
+Resolve Stack: Steelshaper's Gift (47) - Captain searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (Doom)
+Information: BOARD turn 2 (Doom) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Spectacular Spider-Man(2); Adarkar Wastes(land); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1)
+Information: BOARD turn 2 (Doom) | Doom | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Fetid Pools(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land)
+Information: BOARD turn 2 (Doom) | House | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3)
+Information: BOARD turn 2 (Doom) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Sazh's Chocobo(1); Endless Detour(3); Idyllic Beachfront(land); Brushland(land)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Replacement Effect: Fetid Pools enters tapped.
+Land: Doom played Fetid Pools (172)
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 3 (House)
+Information: BOARD turn 3 (House) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Spectacular Spider-Man(2); Adarkar Wastes(land); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1)
+Information: BOARD turn 3 (House) | Doom | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land); Lethal Scheme(4)
+Information: BOARD turn 3 (House) | House | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3)
+Information: BOARD turn 3 (House) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Sazh's Chocobo(1); Endless Detour(3); Idyllic Beachfront(land); Brushland(land)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: House played Smoldering Marsh (267)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 4 (Tidus)
+Information: BOARD turn 4 (Tidus) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Spectacular Spider-Man(2); Adarkar Wastes(land); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1)
+Information: BOARD turn 4 (Tidus) | Doom | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land); Lethal Scheme(4)
+Information: BOARD turn 4 (Tidus) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD turn 4 (Tidus) | Tidus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Sazh's Chocobo(1); Endless Detour(3); Idyllic Beachfront(land); Brushland(land)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Brushland (411)
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Add To Stack: Tidus cast Sazh's Chocobo
+Information: BOARD cast | Sazh's Chocobo (mv 1) by Tidus | open mana: Captain 0, Doom 0, House 0
+Resolve Stack: Sazh's Chocobo - Creature 0 / 1
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 5 (Captain)
+Information: BOARD turn 5 (Captain) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Spectacular Spider-Man(2); Adarkar Wastes(land); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1)
+Information: BOARD turn 5 (Captain) | Doom | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land); Lethal Scheme(4)
+Information: BOARD turn 5 (Captain) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD turn 5 (Captain) | Tidus | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Idyllic Beachfront(land); Resourceful Defense(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Adarkar Wastes (97)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Adarkar Wastes (97) - {T}: Add {C}.
+Add To Stack: Captain cast Spectacular Spider-Man
+Information: BOARD cast | Spectacular Spider-Man (mv 2) by Captain | open mana: Doom 0, House 0, Tidus 0
+Resolve Stack: Spectacular Spider-Man - Creature 3 / 2
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 6 (Doom)
+Information: BOARD turn 6 (Doom) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spectacular Spider-Man 3/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1); Puresteel Paladin(2)
+Information: BOARD turn 6 (Doom) | Doom | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Glorious Purpose(2); Puppet Master, String Puller(3); Swamp(land); Coastal Peak(land); Lethal Scheme(4)
+Information: BOARD turn 6 (Doom) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD turn 6 (Doom) | Tidus | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Idyllic Beachfront(land); Resourceful Defense(3)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Swamp (156)
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Fetid Pools (172) - {T}: Add {U}.
+Mana: Swamp (156) - {T}: Add {B}.
+Add To Stack: Doom cast Glorious Purpose
+Information: BOARD cast | Glorious Purpose (mv 2) by Doom | open mana: Captain 0, House 0, Tidus 0
+Resolve Stack: Glorious Purpose
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 7 (House)
+Information: BOARD turn 7 (House) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spectacular Spider-Man 3/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1); Puresteel Paladin(2)
+Information: BOARD turn 7 (House) | Doom | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Coastal Peak(land); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 7 (House) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ash Barrens(land); Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD turn 7 (House) | Tidus | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Idyllic Beachfront(land); Resourceful Defense(3)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Ash Barrens (269)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 8 (Tidus)
+Information: BOARD turn 8 (Tidus) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spectacular Spider-Man 3/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1); Puresteel Paladin(2)
+Information: BOARD turn 8 (Tidus) | Doom | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Coastal Peak(land); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 8 (Tidus) | House | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 8 (Tidus) | Tidus | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Idyllic Beachfront(land); Resourceful Defense(3)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Tidus played Idyllic Beachfront (333)
+Add To Stack: Tidus triggered Sazh's Chocobo
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Idyllic Beachfront (333)]
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Sazh's Chocobo (316) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Sazh's Chocobo (316).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 1 combat damage to Doom.
+Life: Life: Doom 40 > 39
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 9 (Captain)
+Information: BOARD turn 9 (Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spectacular Spider-Man 3/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Raugrin Triome(land); Colossus Hammer(1); Puresteel Paladin(2)
+Information: BOARD turn 9 (Captain) | Doom | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Coastal Peak(land); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 9 (Captain) | House | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 9 (Captain) | Tidus | life 39 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Resourceful Defense(3); Island(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Captain played Raugrin Triome (90)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Damage: Adarkar Wastes (97) deals 1 non-combat damage to Captain.
+Life: Life: Captain 40 > 39
+Mana: Adarkar Wastes (97) - {T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you. 
+Add To Stack: Captain cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Captain | open mana: Doom 0, House 2, Tidus 3
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 10 (Doom)
+Information: BOARD turn 10 (Doom) | Captain | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Colossus Hammer(1); Swords to Plowshares(1)
+Information: BOARD turn 10 (Doom) | Doom | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Coastal Peak(land); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 10 (Doom) | House | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 10 (Doom) | Tidus | life 39 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Resourceful Defense(3); Island(land)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Replacement Effect: This land enters tapped.
+Land: Doom played Coastal Peak (137)
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Swamp (156) - {T}: Add {B}.
+Add To Stack: Doom cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Doom | open mana: Captain 0, House 2, Tidus 3
+Resolve Stack: Skullclamp
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 11 (House)
+Information: BOARD turn 11 (House) | Captain | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Colossus Hammer(1); Swords to Plowshares(1)
+Information: BOARD turn 11 (House) | Doom | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 11 (House) | House | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Godless Shrine(land); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 11 (House) | Tidus | life 39 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Resourceful Defense(3); Island(land)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: House played Godless Shrine (238)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: House cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by House | open mana: Captain 0, Doom 1, Tidus 3
+Resolve Stack: Arcane Signet
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 12 (Tidus)
+Information: BOARD turn 12 (Tidus) | Captain | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Colossus Hammer(1); Swords to Plowshares(1)
+Information: BOARD turn 12 (Tidus) | Doom | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 12 (Tidus) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 12 (Tidus) | Tidus | life 39 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Guiding Hydra(1); Primal Vigor(5); Glacial Fortress(land); Endless Detour(3); Resourceful Defense(3); Island(land)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Tidus played Glacial Fortress (389)
+Add To Stack: Tidus triggered Sazh's Chocobo
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Glacial Fortress (389)]
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 39 > 38
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Land: Tidus picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Tidus cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Tidus | open mana: Captain 0, Doom 1, House 2
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Sazh's Chocobo (316) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Sazh's Chocobo (316).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 2 combat damage to Doom.
+Life: Life: Doom 39 > 37
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Doom, Amount: 2]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Captain | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Sulfur Falls(land); Codsworth, Handy Helper(3); Excalibur, Sword of Eden(12); Colossus Hammer(1); Swords to Plowshares(1)
+Information: BOARD turn 13 (Captain) | Doom | life 37 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 13 (Captain) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 13 (Captain) | Tidus | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Sazh's Chocobo 2/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land); Island(land)
+Information: BOARD threat | turn 13 | Sazh's Chocobo (Tidus) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Captain played Sulfur Falls (52)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain cast Codsworth, Handy Helper
+Information: BOARD cast | Codsworth, Handy Helper (mv 3) by Captain | open mana: Doom 1, House 2, Tidus 0
+Resolve Stack: Codsworth, Handy Helper - Creature 2 / 3
+Mana: Adarkar Wastes (97) - {T}: Add {C}.
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Doom 1, House 2, Tidus 0
+Resolve Stack: Colossus Hammer
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Colossus Hammer (40)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (Doom)
+Information: BOARD turn 14 (Doom) | Captain | life 39 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2; Codsworth, Handy Helper 2/3 | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Mountain(land)
+Information: BOARD turn 14 (Doom) | Doom | life 37 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 14 (Doom) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 14 (Doom) | Tidus | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Sazh's Chocobo 2/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land); Island(land)
+Information: BOARD threat | turn 14 | Sazh's Chocobo (Tidus) 41
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Fetid Pools (172) - {T}: Add {B}.
+Add To Stack: Doom cast Bedevil targeting [Codsworth, Handy Helper (46)]
+Information: BOARD cast | Bedevil (mv 3) by Doom | open mana: Captain 0, House 2, Tidus 0
+Zone Change: Codsworth, Handy Helper (46) was put into Graveyard from Battlefield.
+Resolve Stack: Bedevil (167) - Destroy Codsworth, Handy Helper (46).
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Replacement Effect: Crumbling Necropolis enters tapped.
+Land: Doom played Crumbling Necropolis (158)
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 15 (House)
+Information: BOARD turn 15 (House) | Captain | life 39 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Mountain(land)
+Information: BOARD turn 15 (House) | Doom | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 15 (House) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5)
+Information: BOARD turn 15 (House) | Tidus | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Sazh's Chocobo 2/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land); Island(land)
+Information: BOARD threat | turn 15 | Sazh's Chocobo (Tidus) 40
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Mana: Godless Shrine (238) - {T}: Add {W}.
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Land: House picked {R}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Captain 0, Doom 0, Tidus 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 16 (Tidus)
+Information: BOARD turn 16 (Tidus) | Captain | life 39 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Mountain(land)
+Information: BOARD turn 16 (Tidus) | Doom | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 16 (Tidus) | House | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 16 (Tidus) | Tidus | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Sazh's Chocobo 2/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land); Island(land)
+Information: BOARD threat | turn 16 | Sazh's Chocobo (Tidus) 38
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Island (342)
+Add To Stack: Tidus triggered Sazh's Chocobo
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Island (342)]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Sazh's Chocobo (316) to attack Captain.
+Tidus assigned Tidus, Yuna's Guardian (413) to attack Doom.
+Information: BOARD attack | Tidus -> Captain | attackers 1 (power 3) | defender life 39 | untapped creatures 2 (power 5): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | open mana 0
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 3) | defender life 37 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Tidus' Declare Blockers Step
+Combat: Captain didn't block Sazh's Chocobo (316).
+Combat: Doom didn't block Tidus, Yuna's Guardian (413).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 3 combat damage to Captain.
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Doom.
+Life: Life: Captain 39 > 36
+Life: Life: Doom 37 > 34
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 3]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 38 > 37
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Island (342) - {T}: Add {U}.
+Land: Tidus picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Tidus cast Kimahri, Valiant Guardian
+Information: BOARD cast | Kimahri, Valiant Guardian (mv 4) by Tidus | open mana: Captain 0, Doom 0, House 1
+Resolve Stack: Kimahri, Valiant Guardian - Creature 3 / 3
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 17 (Captain)
+Information: BOARD turn 17 (Captain) | Captain | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2 | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Mountain(land)
+Information: BOARD turn 17 (Captain) | Doom | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 17 (Captain) | House | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 17 (Captain) | Tidus | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 3/4*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land)
+Information: BOARD threat | turn 17 | Sazh's Chocobo (Tidus) 68; Tidus, Yuna's Guardian (Tidus) 44
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (79)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 0, House 1, Tidus 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (40)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Puresteel Paladin (25) to attack Doom.
+Information: BOARD attack | Captain -> Doom | attackers 1 (power 2) | defender life 34 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Doom didn't block Puresteel Paladin (25).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Puresteel Paladin (25) deals 2 combat damage to Doom.
+Life: Life: Doom 34 > 32
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 18 (Doom)
+Information: BOARD turn 18 (Doom) | Captain | life 36 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Spectacular Spider-Man 3/2; Puresteel Paladin 2/2*; Captain America, First Avenger 14/14[Colossus Hammer] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 18 (Doom) | Doom | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Lethal Scheme(4); Typhoid Mary, Fractured(3)
+Information: BOARD turn 18 (Doom) | House | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 18 (Doom) | Tidus | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 3/4*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land)
+Information: BOARD threat | turn 18 | Sazh's Chocobo (Tidus) 66; Tidus, Yuna's Guardian (Tidus) 42
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Fetid Pools (172) - {T}: Add {B}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Land: Doom picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Doom cast Lethal Scheme targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Lethal Scheme (mv 4) by Doom | open mana: Captain 4, House 1, Tidus 0
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Zone Change: Spectacular Spider-Man (37) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Spectacular Spider-Man
+Resolve Stack: Spectacular Spider-Man (37) - Creatures you control gain hexproof and indestructible until end of turn.
+Resolve Stack: Lethal Scheme ability fizzles.
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 19 (House)
+Information: BOARD turn 19 (House) | Captain | life 36 | hand 4 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Captain America, First Avenger 14/14[Colossus Hammer] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 19 (House) | Doom | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 19 (House) | House | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Losheel, Clockwork Scholar(3); Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 19 (House) | Tidus | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 3/4*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land)
+Information: BOARD threat | turn 19 | Sazh's Chocobo (Tidus) 63; Tidus, Yuna's Guardian (Tidus) 40
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Godless Shrine (238) - {T}: Add {W}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: House cast Losheel, Clockwork Scholar
+Information: BOARD cast | Losheel, Clockwork Scholar (mv 3) by House | open mana: Captain 3, Doom 0, Tidus 0
+Resolve Stack: Losheel, Clockwork Scholar - Creature 2 / 4
+Land: House picked {R}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by House | open mana: Captain 3, Doom 0, Tidus 0
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3 (Warped)
+Phase: House's End step
+Add To Stack: House triggered Weftstalker Ardent
+Zone Change: Weftstalker Ardent (252) was put into Exile from Battlefield.
+Resolve Stack: Exile Weftstalker Ardent (252) at the beginning of the next end step. ([Weftstalker Ardent (252)]) [Phase: House]
+Phase: House's Cleanup step
+Turn: Turn 20 (Tidus)
+Information: BOARD turn 20 (Tidus) | Captain | life 36 | hand 4 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Captain America, First Avenger 14/14[Colossus Hammer] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 20 (Tidus) | Doom | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 20 (Tidus) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 20 (Tidus) | Tidus | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 3/4*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 3/3 | hand cards: Guiding Hydra(1); Primal Vigor(5); Endless Detour(3); Resourceful Defense(3); Island(land)
+Information: BOARD threat | turn 20 | Sazh's Chocobo (Tidus) 60; Tidus, Yuna's Guardian (Tidus) 39
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Island (344)
+Add To Stack: Tidus triggered Sazh's Chocobo
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Island (344)]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Tidus triggered Kimahri, Valiant Guardian
+Resolve Stack: Ronso Rage — At the beginning of combat on your turn, put a +1/+1 counter on Kimahri and tap target creature an opponent controls. Then you may have Kimahri become a copy of that creature, except its name is Kimahri, Valiant Guardian and it has vigilance and this ability. (Targeting: [[Captain America, First Avenger (100)]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Sazh's Chocobo (316), Tidus, Yuna's Guardian (413) and Kimahri, Valiant Guardian (332) to attack Captain.
+Information: BOARD attack | Tidus -> Captain | attackers 3 (power 12) | defender life 36 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Tidus' Declare Blockers Step
+Combat: Captain didn't block Sazh's Chocobo (316).
+Captain didn't block Tidus, Yuna's Guardian (413).
+Captain didn't block Kimahri, Valiant Guardian (332).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 4 combat damage to Captain.
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Damage: Kimahri, Valiant Guardian (332) deals 5 combat damage to Captain.
+Life: Life: Captain 36 > 24
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 9]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 37 > 36
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Island (342) - {T}: Add {U}.
+Mana: Island (344) - {T}: Add {U}.
+Land: Tidus picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Tidus cast Primal Vigor
+Information: BOARD cast | Primal Vigor (mv 5) by Tidus | open mana: Captain 3, Doom 0, House 0
+Resolve Stack: Primal Vigor
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 21 (Captain)
+Information: BOARD turn 21 (Captain) | Captain | life 24 | hand 4 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Puresteel Paladin 2/2*; Captain America, First Avenger 14/14*[Colossus Hammer] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Web-Shooters(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 21 (Captain) | Doom | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 21 (Captain) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 21 (Captain) | Tidus | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 4/5*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 5/5 | hand cards: Guiding Hydra(1); Endless Detour(3); Resourceful Defense(3); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 21 | Sazh's Chocobo (Tidus) 95; Tidus, Yuna's Guardian (Tidus) 69; Kimahri, Valiant Guardian (Tidus) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (26)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Web-Shooters
+Information: BOARD cast | Web-Shooters (mv 2) by Captain | open mana: Doom 0, House 0, Tidus 0
+Resolve Stack: Web-Shooters
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Web-Shooters (16)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Web-Shooters (16)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Web-Shooters (16)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 22 (Doom)
+Information: BOARD turn 22 (Doom) | Captain | life 24 | hand 4 | lands 6 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (2 untapped): Puresteel Paladin 2/2; Captain America, First Avenger 15/15[Colossus Hammer,Web-Shooters] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Iron Man, Titan of Innovation(5); Syncopate(1)
+Information: BOARD turn 22 (Doom) | Doom | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 22 (Doom) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 22 (Doom) | Tidus | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 4/5*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 5/5 | hand cards: Guiding Hydra(1); Endless Detour(3); Resourceful Defense(3); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 22 | Sazh's Chocobo (Tidus) 92; Tidus, Yuna's Guardian (Tidus) 66; Kimahri, Valiant Guardian (Tidus) 41; Puresteel Paladin (Captain) 35
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Replacement Effect: As Choked Estuary enters, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters tapped.
+Land: Doom played Choked Estuary (114)
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Fetid Pools (172) - {T}: Add {U}.
+Mana: Swamp (156) - {T}: Add {B}.
+Land: Doom picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Doom cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Doom | open mana: Captain 9, House 0, Tidus 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Talisman of Dominance (136).
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Glorious Purpose
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Whenever a creature you control connives, put a +1/+1 counter on that creature and a plan counter on this enchantment. [Card: Doctor Doom, King of Latveria (201)]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 23 (House)
+Information: BOARD turn 23 (House) | Captain | life 24 | hand 4 | lands 6 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (2 untapped): Puresteel Paladin 2/2; Captain America, First Avenger 15/15[Colossus Hammer,Web-Shooters] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Iron Man, Titan of Innovation(5); Syncopate(1)
+Information: BOARD turn 23 (House) | Doom | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 7/7 | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 23 (House) | House | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); The Deck of Many Things(5); Exsanguinate(2)
+Information: BOARD turn 23 (House) | Tidus | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 4/5*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 5/5 | hand cards: Guiding Hydra(1); Endless Detour(3); Resourceful Defense(3); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 23 | Sazh's Chocobo (Tidus) 88; Tidus, Yuna's Guardian (Tidus) 64; Kimahri, Valiant Guardian (Tidus) 40; Puresteel Paladin (Captain) 33
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: House played Sundown Pass (233)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Land: House picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Land: House picked {R}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by House | open mana: Captain 9, Doom 0, Tidus 0
+Resolve Stack: The Deck of Many Things
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 24 (Tidus)
+Information: BOARD turn 24 (Tidus) | Captain | life 24 | hand 4 | lands 6 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (2 untapped): Puresteel Paladin 2/2; Captain America, First Avenger 15/15[Colossus Hammer,Web-Shooters] | hand cards: Excalibur, Sword of Eden(12); Swords to Plowshares(1); Iron Man, Titan of Innovation(5); Syncopate(1)
+Information: BOARD turn 24 (Tidus) | Doom | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 7/7 | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 24 (Tidus) | House | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); Exsanguinate(2)
+Information: BOARD turn 24 (Tidus) | Tidus | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Sazh's Chocobo 4/5*; Tidus, Yuna's Guardian 3/3*; Kimahri, Valiant Guardian 5/5 | hand cards: Guiding Hydra(1); Endless Detour(3); Resourceful Defense(3); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 24 | Sazh's Chocobo (Tidus) 84; Tidus, Yuna's Guardian (Tidus) 61; Kimahri, Valiant Guardian (Tidus) 38; Puresteel Paladin (Captain) 32
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Tidus played Canopy Vista (385)
+Add To Stack: Tidus triggered Sazh's Chocobo
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Canopy Vista (385)]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Tidus triggered Kimahri, Valiant Guardian targeting []
+Add To Stack: Tidus triggered Kimahri, Valiant Guardian
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Ronso Rage — At the beginning of combat on your turn, put a +1/+1 counter on Kimahri and tap target creature an opponent controls. Then you may have Kimahri become a copy of that creature, except its name is Kimahri, Valiant Guardian and it has vigilance and this ability. (Targeting: [[Captain America, First Avenger (100)]]) [Phase: Tidus]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Kimahri. (Targeting: [[]]) [Phase: Tidus]
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Sazh's Chocobo (316), Tidus, Yuna's Guardian (413) and Kimahri, Valiant Guardian (332) to attack Captain.
+Information: BOARD attack | Tidus -> Captain | attackers 3 (power 16) | defender life 24 | untapped creatures 1 (power 2): Puresteel Paladin 2/2 | open mana 9
+Phase: Tidus' Declare Blockers Step
+Combat: Captain didn't block Sazh's Chocobo (316).
+Captain didn't block Tidus, Yuna's Guardian (413).
+Captain didn't block Kimahri, Valiant Guardian (332).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 6 combat damage to Captain.
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Damage: Kimahri, Valiant Guardian (332) deals 7 combat damage to Captain.
+Life: Life: Captain 24 > 8
+Add To Stack: Tidus triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 13]
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Island (342) - {T}: Add {U}.
+Mana: Island (344) - {T}: Add {U}.
+Land: Tidus picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Add To Stack: Tidus cast Rampant Rejuvenator
+Information: BOARD cast | Rampant Rejuvenator (mv 4) by Tidus | open mana: Captain 9, Doom 0, House 0
+Replacement Effect: Rampant Rejuvenator enters with two +1/+1 counters on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Rampant Rejuvenator - Creature 0 / 0
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast Guiding Hydra
+Information: BOARD cast | Guiding Hydra (mv 2) by Tidus | open mana: Captain 9, Doom 0, House 0
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Swords to Plowshares targeting [Kimahri, Valiant Guardian (332)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Captain | open mana: Doom 0, House 0, Tidus 0
+Zone Change: Kimahri, Valiant Guardian (332) was put into Exile from Battlefield.
+Life: Life: Tidus 36 > 43
+Resolve Stack: Swords to Plowshares (77) - Exile Kimahri, Valiant Guardian (332). Tidus gains life equal to its power.
+Replacement Effect: Guiding Hydra enters with X +1/+1 counters on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Guiding Hydra - Creature 1 / 0 (X=1)
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 25 (Captain)
+Information: BOARD turn 25 (Captain) | Captain | life 8 | hand 3 | lands 6 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (1 untapped): Puresteel Paladin 2/2; Captain America, First Avenger 15/15*[Colossus Hammer,Web-Shooters] | hand cards: Excalibur, Sword of Eden(12); Iron Man, Titan of Innovation(5); Syncopate(1)
+Information: BOARD turn 25 (Captain) | Doom | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 7/7 | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 25 (Captain) | House | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); Exsanguinate(2)
+Information: BOARD turn 25 (Captain) | Tidus | life 43 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Sazh's Chocobo 6/7*; Tidus, Yuna's Guardian 3/3*; Rampant Rejuvenator 4/4; Guiding Hydra 3/2 | hand cards: Endless Detour(3); Resourceful Defense(3)
+Information: BOARD threat | turn 25 | Sazh's Chocobo (Tidus) 130; Tidus, Yuna's Guardian (Tidus) 90; Puresteel Paladin (Captain) 31
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain cast Iron Man, Titan of Innovation
+Information: BOARD cast | Iron Man, Titan of Innovation (mv 5) by Captain | open mana: Doom 0, House 0, Tidus 0
+Resolve Stack: Iron Man, Titan of Innovation - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Tidus.
+Information: BOARD attack | Captain -> Tidus | attackers 1 (power 15) | defender life 43 | untapped creatures 2 (power 7): Rampant Rejuvenator 4/4; Guiding Hydra 3/2 | open mana 0
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Rampant Rejuvenator (359)]
+Resolve Stack: Whenever this creature attacks, tap target creature an opponent controls. (Targeting: [[Rampant Rejuvenator (359)]]) [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Tidus didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 15 combat damage to Tidus.
+Life: Life: Tidus 43 > 28
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 26 (Doom)
+Information: BOARD turn 26 (Doom) | Captain | life 8 | hand 3 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Puresteel Paladin 2/2; Captain America, First Avenger 15/15*[Colossus Hammer,Web-Shooters]; Iron Man, Titan of Innovation 4/4 | hand cards: Excalibur, Sword of Eden(12); Syncopate(1); Conqueror's Flail(2)
+Information: BOARD turn 26 (Doom) | Doom | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 7/7 | hand cards: Superior Foes of Spider-Man(3); Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Loki's Scepter(3)
+Information: BOARD turn 26 (Doom) | House | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); Exsanguinate(2)
+Information: BOARD turn 26 (Doom) | Tidus | life 28 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Sazh's Chocobo 6/7*; Tidus, Yuna's Guardian 3/3*; Rampant Rejuvenator 4/4*; Guiding Hydra 3/2 | hand cards: Endless Detour(3); Resourceful Defense(3)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Captain) 138; Sazh's Chocobo (Tidus) 125; Tidus, Yuna's Guardian (Tidus) 87
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Swamp (156) - {T}: Add {B}.
+Land: Doom picked {U}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Add To Stack: Doom cast Loki's Scepter
+Information: BOARD cast | Loki's Scepter (mv 3) by Doom | open mana: Captain 3, House 0, Tidus 0
+Resolve Stack: Loki's Scepter
+Add To Stack: Doom triggered Loki's Scepter targeting [Captain America, First Avenger (100)]
+Resolve Stack: When Loki's Scepter enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it becomes a Villain in addition to its other types and gains haste. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Loki's Scepter (166)]
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Captain America, First Avenger targeting [Skullclamp (148)]
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Captain America, First Avenger (100)]
+Discard: Doom discards The Squadron Sinister (128).
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Captain America, First Avenger (100)]]) [Phase: Doom]
+Add To Stack: Doom triggered Glorious Purpose
+Replacement Effect: If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+Resolve Stack: Whenever a creature you control connives, put a +1/+1 counter on that creature and a plan counter on this enchantment. [Card: Captain America, First Avenger (100)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Skullclamp (148)]]) [Phase: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Captain America, First Avenger (100) and Doctor Doom, King of Latveria (201) to attack Tidus.
+Information: BOARD attack | Doom -> Tidus | attackers 2 (power 27) | defender life 28 | untapped creatures 1 (power 3): Guiding Hydra 3/2 | open mana 0
+Add To Stack: Doom triggered Captain America, First Avenger targeting [Iron Man, Titan of Innovation (31)]
+Resolve Stack: Whenever this creature attacks, tap target creature an opponent controls. (Targeting: [[Iron Man, Titan of Innovation (31)]]) [Attacker: Captain America, First Avenger (100)]
+Phase: Doom's Declare Blockers Step
+Combat: Tidus didn't block Captain America, First Avenger (100).
+Tidus didn't block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 20 combat damage to Tidus.
+Damage: Doctor Doom, King of Latveria (201) deals 7 combat damage to Tidus.
+Life: Life: Tidus 28 > 1
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Land: Doom picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Mana: Fetid Pools (172) - {T}: Add {B}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Add To Stack: Doom cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Doom | open mana: Captain 3, House 0
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 27 (House)
+Information: BOARD turn 27 (House) | Captain | life 8 | hand 3 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Puresteel Paladin 2/2; Iron Man, Titan of Innovation 4/4*; Captain America, First Avenger 20/18*[Colossus Hammer,Web-Shooters,Skullclamp] | hand cards: Excalibur, Sword of Eden(12); Syncopate(1); Conqueror's Flail(2)
+Information: BOARD turn 27 (House) | Doom | life 32 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 7/7*; Superior Foes of Spider-Man 3/3 | hand cards: Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Hobgoblin, Mantled Marauder(2)
+Information: BOARD turn 27 (House) | House | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4 | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4); Exsanguinate(2)
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Captain) 276; Doctor Doom, King of Latveria (Doom) 67
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Mountain (287)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Losheel, Clockwork Scholar (278) to attack Captain.
+Information: BOARD attack | House -> Captain | attackers 1 (power 2) | defender life 8 | untapped creatures 1 (power 2): Puresteel Paladin 2/2 | open mana 3
+Phase: House's Declare Blockers Step
+Combat: Captain didn't block Losheel, Clockwork Scholar (278).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Losheel, Clockwork Scholar (278) deals 2 combat damage to Captain.
+Life: Life: Captain 8 > 6
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Mountain (287) - {T}: Add {R}.
+Land: House picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Land: House picked {R}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by House | open mana: Captain 3, Doom 0
+Life: Life: Captain 6 > 2
+Life: Life: Doom 32 > 28
+Life: Life: House 40 > 48
+Resolve Stack: Exsanguinate (227) - Captain and Doom each lose 4 life. You gain life equal to the life lost this way.
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 2 | hand 3 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Puresteel Paladin 2/2; Iron Man, Titan of Innovation 4/4*; Captain America, First Avenger 20/18*[Colossus Hammer,Web-Shooters,Skullclamp] | hand cards: Excalibur, Sword of Eden(12); Syncopate(1); Conqueror's Flail(2)
+Information: BOARD turn 28 (Captain) | Doom | life 28 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 7/7*; Superior Foes of Spider-Man 3/3 | hand cards: Puppet Master, String Puller(3); Typhoid Mary, Fractured(3); Hobgoblin, Mantled Marauder(2)
+Information: BOARD turn 28 (Captain) | House | life 48 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Losheel, Clockwork Scholar 2/4* | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Captain) 265; Doctor Doom, King of Latveria (Doom) 64
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (82)
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Conqueror's Flail
+Information: BOARD cast | Conqueror's Flail (mv 2) by Captain | open mana: Doom 0, House 0
+Resolve Stack: Conqueror's Flail
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Conqueror's Flail (92)]
+Add To Stack: Captain cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Captain | open mana: Doom 0, House 0
+Resolve Stack: Excalibur, Sword of Eden
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Excalibur, Sword of Eden (30)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Doom.
+Information: BOARD attack | Captain -> Doom | attackers 1 (power 30) | defender life 28 | untapped creatures 1 (power 3): Superior Foes of Spider-Man 3/3 | open mana 0
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Superior Foes of Spider-Man (176)]
+Resolve Stack: Whenever this creature attacks, tap target creature an opponent controls. (Targeting: [[Superior Foes of Spider-Man (176)]]) [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Doom didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 30 combat damage to Doom.
+Life: Life: Doom 28 > -2
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Losheel, Clockwork Scholar (278), House]
+Damage: Captain America, First Avenger (100) deals 4 damage to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 4 damage to Losheel, Clockwork Scholar (278).
+Damage: Captain America, First Avenger (100) deals 4 non-combat damage to House.
+Life: Life: House 48 > 44
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Mr. House, President and CEO (302) (4 damage), Losheel, Clockwork Scholar (278) (4 damage) and House (4 damage).
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Zone Change: Losheel, Clockwork Scholar (278) was put into Graveyard from Battlefield.
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 29 (House)
+Information: BOARD turn 29 (House) | Captain | life 2 | hand 3 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Iron Man, Titan of Innovation 4/4; Captain America, First Avenger 19/19[Colossus Hammer,Web-Shooters] | hand cards: Syncopate(1); Plains(land); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 29 (House) | House | life 44 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ingenious Artillerist(3); Big Score(4)
+Information: BOARD threat | turn 29 | Captain America, First Avenger (Captain) 288; Puresteel Paladin (Captain) 55
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Land: House picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Add To Stack: House cast Ingenious Artillerist
+Information: BOARD cast | Ingenious Artillerist (mv 3) by House | open mana: Captain 4
+Resolve Stack: Ingenious Artillerist - Creature 3 / 1
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Land: House picked {R}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by House | open mana: Captain 4
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Add To Stack: House triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Captain.
+Life: Life: Captain 2 > 1
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Captain | life 1 | hand 3 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Iron Man, Titan of Innovation 4/4; Captain America, First Avenger 19/19[Colossus Hammer,Web-Shooters] | hand cards: Syncopate(1); Plains(land); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 30 (Captain) | House | life 44 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Ingenious Artillerist 3/1; Stridehangar Automaton 1/4 | hand cards: Cathartic Reunion(2); Big Score(4)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Captain) 276; Puresteel Paladin (Captain) 53
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Add To Stack: Captain activated Conqueror's Flail targeting [Captain America, First Avenger (100)]
+Resolve Stack: Conqueror's Flail (92) -  Attach to Captain America, First Avenger (100)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Hengegate Pathway (43) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Ingenious Artillerist (209), Stridehangar Automaton (219), House]
+Damage: Captain America, First Avenger (100) deals 1 damage to Ingenious Artillerist (209).
+Damage: Captain America, First Avenger (100) deals 4 damage to Stridehangar Automaton (219).
+Damage: Captain America, First Avenger (100) deals 7 non-combat damage to House.
+Life: Life: House 44 > 37
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Ingenious Artillerist (209) (1 damage), Stridehangar Automaton (219) (4 damage) and House (7 damage).
+Zone Change: Ingenious Artillerist (209) was put into Graveyard from Battlefield.
+Zone Change: Stridehangar Automaton (219) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [House]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to House.
+Life: Life: House 37 > 25
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+House (12 damage).
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100), Iron Man, Titan of Innovation (31) and Puresteel Paladin (25) to attack House.
+Information: BOARD attack | Captain -> House | attackers 3 (power 38) | defender life 25 | untapped creatures 0 (power 0):  | open mana 0
+Add To Stack: Captain triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (31)]
+Phase: Captain's Declare Blockers Step
+Combat: House didn't block Captain America, First Avenger (100).
+House didn't block Iron Man, Titan of Innovation (31).
+House didn't block Puresteel Paladin (25).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 32 combat damage to House.
+Damage: Iron Man, Titan of Innovation (31) deals 4 combat damage to House.
+Damage: Puresteel Paladin (25) deals 2 combat damage to House.
+Life: Life: House 25 > -13
+Player Control: Captain has restored control over themself
+Player Control: Doom has restored control over themself
+Player Control: House has restored control over themself
+Player Control: Tidus has restored control over themself
+Game Outcome: Match Duration 13m : 24s
+Game Outcome: Turn 15
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Doom has lost because life total reached 0
+Game Outcome: House has lost because life total reached 0
+Game Outcome: Tidus has lost due to accumulation of 21 damage from generals
+Match Result: Captain: 1 Doom: 0 House: 0 Tidus: 0 
+
+Game Result: Captain has won

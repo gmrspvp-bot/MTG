@@ -1,0 +1,1 @@
+public class PassProbe { public static void main(String[] a) throws Exception { Class<?> c = Class.forName("forge.gamemodes.match.input.InputPassPriority"); for (java.lang.reflect.Method m : c.getDeclaredMethods()) if (m.getName().startsWith("onOk")) System.out.println("METHOD " + m); System.exit(0); } }

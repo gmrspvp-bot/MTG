@@ -1,0 +1,13 @@
+Name:Gamble
+ManaCost:R
+Types:Sorcery
+A:SP$ ChangeZone | Origin$ Library | NoShuffle$ True | Destination$ Hand | ChangeType$ Card.namedBarbarian Class | ChangeNum$ 1 | Mandatory$ True | RememberChanged$ True | SubAbility$ DBFindWyll | StackDescription$ SpellDescription | SpellDescription$ Search your library for a card, put that card into your hand, discard a card at random, then shuffle. (AI choice order: Barbarian Class, then Wyll, then best card.)
+SVar:DBFindWyll:DB$ ChangeZone | Origin$ Library | NoShuffle$ True | Destination$ Hand | ChangeType$ Card.namedWyll; Blade of Frontiers | ChangeNum$ 1 | Mandatory$ True | RememberChanged$ True | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ EQ0 | SubAbility$ DBFindAny
+SVar:DBFindAny:DB$ ChangeZone | Origin$ Library | NoShuffle$ True | Destination$ Hand | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ EQ0 | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ Random | SubAbility$ DBShuffle
+SVar:DBShuffle:DB$ Shuffle | Defined$ You | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:NeedsToPlayVar:Z GE2
+SVar:Z:Count$ValidHand Card.YouOwn
+DeckHas:Ability$Discard
+Oracle:Search your library for a card, put that card into your hand, discard a card at random, then shuffle.

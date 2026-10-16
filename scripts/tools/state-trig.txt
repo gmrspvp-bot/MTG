@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+activeplayer=ai
+activephase=MAIN2
+humanlife=40
+ailife=40
+humanbattlefield=Grizzly Bears;Forest
+aibattlefield=Mr. House, President and CEO;Vexing Puzzlebox;Swamp;Swamp;Mountain
+aihand=Myrkul's Edict

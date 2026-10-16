@@ -1,0 +1,11 @@
+{
+"width": 2560,
+"height": 1440,
+"plane": "Shandalar",
+"fullScreen": true,
+"videomode": "1440p",
+"rewardCardAdj": 1,
+"cardTooltipAdj": 1,
+"rewardCardAdjLandscape": 1,
+"cardTooltipAdjLandscape": 1
+}

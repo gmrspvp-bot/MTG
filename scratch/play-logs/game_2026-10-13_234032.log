@@ -1,0 +1,2030 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Doom (AI) deck=Doom Prevails v3
+Player: House (AI) deck=Mr House v4
+Player: Tidus (AI) deck=Tidus v3
+Mulligan: Tidus has mulliganed down to 7 cards.
+Mulligan: Tidus has mulliganed down to 6 cards.
+Mulligan: Tidus has kept a hand of 6 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Doom has kept a hand of 7 cards
+Mulligan: House has kept a hand of 7 cards
+Turn: Turn 1 (Tidus)
+Information: BOARD turn 1 (Tidus) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Plains(land); Sword of Light and Shadow(3)
+Information: BOARD turn 1 (Tidus) | Doom | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Mountain(land); Frostboil Snarl(land); Sunken Hollow(land); Sol Ring(1)
+Information: BOARD turn 1 (Tidus) | House | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Luxury Suite(land); Terminate(2); Ash Barrens(land); "Lifetime" Pass Holder(1)
+Information: BOARD turn 1 (Tidus) | Tidus | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chocobo Knights(4); Island(land); Plains(land); Brushland(land); Rampant Rejuvenator(4); Metastatic Evangel(2)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Brushland (411)
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast The Ozolith
+Information: BOARD cast | The Ozolith (mv 1) by Tidus | open mana: Captain 0, Doom 0, House 0
+Resolve Stack: The Ozolith
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 2 (Captain)
+Information: BOARD turn 2 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Plains(land); Sword of Light and Shadow(3)
+Information: BOARD turn 2 (Captain) | Doom | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Mountain(land); Frostboil Snarl(land); Sunken Hollow(land); Sol Ring(1)
+Information: BOARD turn 2 (Captain) | House | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Luxury Suite(land); Terminate(2); Ash Barrens(land); "Lifetime" Pass Holder(1)
+Information: BOARD turn 2 (Captain) | Tidus | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chocobo Knights(4); Island(land); Plains(land); Rampant Rejuvenator(4); Metastatic Evangel(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (83)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 3 (Doom)
+Information: BOARD turn 3 (Doom) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 3 (Doom) | Doom | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Mountain(land); Frostboil Snarl(land); Sunken Hollow(land); Sol Ring(1)
+Information: BOARD turn 3 (Doom) | House | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Luxury Suite(land); Terminate(2); Ash Barrens(land); "Lifetime" Pass Holder(1)
+Information: BOARD turn 3 (Doom) | Tidus | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chocobo Knights(4); Island(land); Plains(land); Rampant Rejuvenator(4); Metastatic Evangel(2)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Mountain (186)
+Mana: Mountain (186) - {T}: Add {R}.
+Add To Stack: Doom cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Doom | open mana: Captain 1, House 0, Tidus 0
+Resolve Stack: Sol Ring
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 4 (House)
+Information: BOARD turn 4 (House) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 4 (House) | Doom | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Sunken Hollow(land); Path of Ancestry(land)
+Information: BOARD turn 4 (House) | House | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Luxury Suite(land); Terminate(2); Ash Barrens(land); "Lifetime" Pass Holder(1)
+Information: BOARD turn 4 (House) | Tidus | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chocobo Knights(4); Island(land); Plains(land); Rampant Rejuvenator(4); Metastatic Evangel(2)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: House played Luxury Suite (235)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: House cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by House | open mana: Captain 1, Doom 2, Tidus 0
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 5 (Tidus)
+Information: BOARD turn 5 (Tidus) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 5 (Tidus) | Doom | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Sunken Hollow(land); Path of Ancestry(land)
+Information: BOARD turn 5 (Tidus) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3)
+Information: BOARD turn 5 (Tidus) | Tidus | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chocobo Knights(4); Island(land); Plains(land); Rampant Rejuvenator(4); Metastatic Evangel(2)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Island (343)
+Phase: Tidus' Beginning of Combat Step
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Island (343) - {T}: Add {U}.
+Add To Stack: Tidus cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Tidus | open mana: Captain 1, Doom 2, House 0
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 6 (Captain)
+Information: BOARD turn 6 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Inventors' Fair(land); Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 6 (Captain) | Doom | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Sunken Hollow(land); Path of Ancestry(land)
+Information: BOARD turn 6 (Captain) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3)
+Information: BOARD turn 6 (Captain) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Chocobo Knights(4); Plains(land); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Inventors' Fair (3)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain cast Old Thrush
+Information: BOARD cast | Old Thrush (mv 2) by Captain | open mana: Doom 2, House 0, Tidus 0
+Resolve Stack: Old Thrush - Creature 1 / 2
+Add To Stack: Captain triggered Old Thrush
+Life: Life: Captain 40 > 42
+Resolve Stack: When this creature enters, you gain 2 life. You may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Old Thrush (6)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 7 (Doom)
+Information: BOARD turn 7 (Doom) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 7 (Doom) | Doom | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Sunken Hollow(land); Path of Ancestry(land)
+Information: BOARD turn 7 (Doom) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3)
+Information: BOARD turn 7 (Doom) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Chocobo Knights(4); Plains(land); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Replacement Effect: Sunken Hollow enters tapped unless you control two or more basic lands.
+Land: Doom played Sunken Hollow (118)
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 8 (House)
+Information: BOARD turn 8 (House) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 8 (House) | Doom | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land)
+Information: BOARD turn 8 (House) | House | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Plains(land); Plains(land); Reckless Fireweaver(2); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3)
+Information: BOARD turn 8 (House) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Chocobo Knights(4); Plains(land); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Plains (289)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned "Lifetime" Pass Holder (263) to attack Doom.
+Information: BOARD attack | House -> Doom | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: House's Declare Blockers Step
+Combat: Doom didn't block "Lifetime" Pass Holder (263).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: "Lifetime" Pass Holder (263) deals 2 combat damage to Doom.
+Life: Life: Doom 40 > 38
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: House cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by House | open mana: Captain 0, Doom 3, Tidus 0
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 9 (Tidus)
+Information: BOARD turn 9 (Tidus) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 9 (Tidus) | Doom | life 38 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land)
+Information: BOARD turn 9 (Tidus) | House | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Reckless Fireweaver 1/3 | hand cards: Plains(land); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 9 (Tidus) | Tidus | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Chocobo Knights(4); Plains(land); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Plains (406)
+Mana: Island (343) - {T}: Add {U}.
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 39 > 38
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Tidus | open mana: Captain 0, Doom 3, House 0
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Add To Stack: Tidus triggered Metastatic Evangel
+Resolve Stack: Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Metastatic Evangel (329) to attack Doom.
+Information: BOARD attack | Tidus -> Doom | attackers 1 (power 3) | defender life 38 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Tidus' Declare Blockers Step
+Combat: Doom didn't block Metastatic Evangel (329).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Metastatic Evangel (329) deals 3 combat damage to Doom.
+Life: Life: Doom 38 > 35
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 10 (Captain)
+Information: BOARD turn 10 (Captain) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4)
+Information: BOARD turn 10 (Captain) | Doom | life 35 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land)
+Information: BOARD turn 10 (Captain) | House | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Reckless Fireweaver 1/3 | hand cards: Plains(land); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 10 (Captain) | Tidus | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Hardened Scales(1)
+Information: BOARD threat | turn 10 | Metastatic Evangel (Tidus) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (79)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Captain | open mana: Doom 3, House 0, Tidus 0
+Resolve Stack: Birthright Boon (63) - Captain searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 11 (Doom)
+Information: BOARD turn 11 (Doom) | Captain | life 42 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5)
+Information: BOARD turn 11 (Doom) | Doom | life 35 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Crumbling Necropolis(land); Ultimate Green Goblin(3); Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land)
+Information: BOARD turn 11 (Doom) | House | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Reckless Fireweaver 1/3 | hand cards: Plains(land); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 11 (Doom) | Tidus | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Hardened Scales(1)
+Information: BOARD threat | turn 11 | Metastatic Evangel (Tidus) 30
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Replacement Effect: Crumbling Necropolis enters tapped.
+Land: Doom played Crumbling Necropolis (158)
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom cast Ultimate Green Goblin
+Information: BOARD cast | Ultimate Green Goblin (mv 3) by Doom | open mana: Captain 1, House 0, Tidus 0
+Resolve Stack: Ultimate Green Goblin - Creature 5 / 4
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 12 (House)
+Information: BOARD turn 12 (House) | Captain | life 42 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5)
+Information: BOARD turn 12 (House) | Doom | life 35 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ultimate Green Goblin 5/4 | hand cards: Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 12 (House) | House | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Reckless Fireweaver 1/3 | hand cards: Plains(land); Terminate(2); Ash Barrens(land); Ingenious Artillerist(3); Exsanguinate(2)
+Information: BOARD turn 12 (House) | Tidus | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Hardened Scales(1)
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by House | open mana: Captain 1, Doom 0, Tidus 0
+Resolve Stack: Welding Jar
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 42 > 41
+Life: Life: Doom 35 > 34
+Life: Life: Tidus 38 > 37
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Welding Jar (221)]
+Land: House played Ash Barrens (269)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Reckless Fireweaver (296) to attack Captain.
+Information: BOARD attack | House -> Captain | attackers 1 (power 1) | defender life 41 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 1
+Phase: House's Declare Blockers Step
+Combat: Captain didn't block Reckless Fireweaver (296).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 combat damage to Captain.
+Life: Life: Captain 41 > 40
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: House cast Ingenious Artillerist
+Information: BOARD cast | Ingenious Artillerist (mv 3) by House | open mana: Captain 1, Doom 0, Tidus 0
+Resolve Stack: Ingenious Artillerist - Creature 3 / 1
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 13 (Tidus)
+Information: BOARD turn 13 (Tidus) | Captain | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5)
+Information: BOARD turn 13 (Tidus) | Doom | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ultimate Green Goblin 5/4 | hand cards: Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 13 (Tidus) | House | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 13 (Tidus) | Tidus | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Hardened Scales(1)
+Information: BOARD threat | turn 13 | Reckless Fireweaver (House) 37
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Land: Tidus picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Tidus.
+Life: Life: Tidus 37 > 36
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Add To Stack: Tidus cast Hardened Scales
+Information: BOARD cast | Hardened Scales (mv 1) by Tidus | open mana: Captain 1, Doom 0, House 0
+Resolve Stack: Hardened Scales
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Combat: Tidus assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Tidus -> Captain | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 1
+Phase: Tidus' Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Life: Life: Captain 40 > 37
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Tidus played Radiant Grove (404)
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 14 (Captain)
+Information: BOARD turn 14 (Captain) | Captain | life 37 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Iron Man, Titan of Innovation(5); Danitha, Sword of Hope(3); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5)
+Information: BOARD turn 14 (Captain) | Doom | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ultimate Green Goblin 5/4 | hand cards: Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 14 (Captain) | House | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 14 (Captain) | Tidus | life 36 | hand 3 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1; Tidus, Yuna's Guardian 3/3* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 14 | Reckless Fireweaver (House) 36
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain cast Danitha, Sword of Hope
+Information: BOARD cast | Danitha, Sword of Hope (mv 3) by Captain | open mana: Doom 0, House 0, Tidus 2
+Resolve Stack: Danitha, Sword of Hope - Creature 2 / 2
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 15 (Doom)
+Information: BOARD turn 15 (Doom) | Captain | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1)
+Information: BOARD turn 15 (Doom) | Doom | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ultimate Green Goblin 5/4 | hand cards: Dragonskull Summit(land); Frostboil Snarl(land); Path of Ancestry(land); Mountain(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 15 (Doom) | House | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 15 (Doom) | Tidus | life 36 | hand 3 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1; Tidus, Yuna's Guardian 3/3* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 15 | Reckless Fireweaver (House) 35
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Add To Stack: Doom triggered Ultimate Green Goblin
+Discard: Doom discards Mountain (187).
+Resolve Stack: At the beginning of your upkeep, discard a card, then create a Treasure token. [Phase: Doom]
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Doom played Dragonskull Summit (145)
+Mana: Sunken Hollow (118) - {T}: Add {U}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Doom | open mana: Captain 0, House 0, Tidus 2
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Ultimate Green Goblin (161)]
+Discard: Doom discards Frostboil Snarl (105).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Ultimate Green Goblin (161)]]) [Phase: Doom]
+Add To Stack: Doom triggered Doctor Doom, King of Latveria
+Life: Life: House 40 > 38
+Life: Life: Tidus 36 > 34
+Life: Life: Captain 37 > 35
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Doom, Amount: 1]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Ultimate Green Goblin (161) to attack Tidus.
+Information: BOARD attack | Doom -> Tidus | attackers 1 (power 5) | defender life 34 | untapped creatures 1 (power 3): Metastatic Evangel 3/1 | open mana 2
+Phase: Doom's Declare Blockers Step
+Combat: Tidus didn't block Ultimate Green Goblin (161).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Ultimate Green Goblin (161) deals 5 combat damage to Tidus.
+Life: Life: Tidus 34 > 29
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 16 (House)
+Information: BOARD turn 16 (House) | Captain | life 35 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1)
+Information: BOARD turn 16 (House) | Doom | life 34 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Ultimate Green Goblin 5/4*; Doctor Doom, King of Latveria 3/3 | hand cards: Path of Ancestry(land); Kang, Temporal Tyrant(4); Molecule Man(6); Black Cat, Cunning Thief(5)
+Information: BOARD turn 16 (House) | House | life 38 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 16 (House) | Tidus | life 29 | hand 3 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1; Tidus, Yuna's Guardian 3/3* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 16 | Ultimate Green Goblin (Doom) 43; Reckless Fireweaver (House) 33
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Reckless Fireweaver (296) to attack Captain.
+Information: BOARD attack | House -> Captain | attackers 1 (power 1) | defender life 35 | untapped creatures 2 (power 3): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | open mana 0
+Phase: House's Declare Blockers Step
+Combat: Captain assigned Old Thrush (6) to block Reckless Fireweaver (296).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 damage to Old Thrush (6).
+Damage: Old Thrush (6) deals 1 damage to Reckless Fireweaver (296).
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House played Swamp (254)
+Mana: Plains (289) - {T}: Add {W}.
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Captain 0, Doom 5, Tidus 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: House triggered Reckless Fireweaver
+Add To Stack: House triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Tidus.
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Captain.
+Damage: Ingenious Artillerist (209) deals 1 non-combat damage to Doom.
+Life: Life: Captain 35 > 34
+Life: Life: Doom 34 > 33
+Life: Life: Tidus 29 > 28
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 34 > 33
+Life: Life: Doom 33 > 32
+Life: Life: Tidus 28 > 27
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (302)]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 17 (Tidus)
+Information: BOARD turn 17 (Tidus) | Captain | life 33 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1)
+Information: BOARD turn 17 (Tidus) | Doom | life 32 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Ultimate Green Goblin 5/4*; Doctor Doom, King of Latveria 3/3 | hand cards: Path of Ancestry(land); Kang, Temporal Tyrant(4); Molecule Man(6); Black Cat, Cunning Thief(5)
+Information: BOARD turn 17 (Tidus) | House | life 38 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 17 (Tidus) | Tidus | life 27 | hand 3 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Metastatic Evangel 3/1; Tidus, Yuna's Guardian 3/3* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 17 | Reckless Fireweaver (House) 63; Ultimate Green Goblin (Doom) 41; Ingenious Artillerist (House) 32
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast Blitzball Stadium
+Information: BOARD cast | Blitzball Stadium (mv 4) by Tidus | open mana: Captain 0, Doom 5, House 1
+Resolve Stack: Blitzball Stadium (X=3)
+Add To Stack: Tidus triggered Blitzball Stadium targeting [Tidus, Yuna's Guardian (413), Metastatic Evangel (329)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: When this artifact enters, support X. (Put a +1/+1 counter on each of up to X target creatures.) (Targeting: [[Tidus, Yuna's Guardian (413), Metastatic Evangel (329)]]) [Zone Changer: Blitzball Stadium (400)]
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 18 (Captain)
+Information: BOARD turn 18 (Captain) | Captain | life 33 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Sword of Light and Shadow(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1)
+Information: BOARD turn 18 (Captain) | Doom | life 32 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Ultimate Green Goblin 5/4*; Doctor Doom, King of Latveria 3/3 | hand cards: Path of Ancestry(land); Kang, Temporal Tyrant(4); Molecule Man(6); Black Cat, Cunning Thief(5)
+Information: BOARD turn 18 (Captain) | House | life 38 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 18 (Captain) | Tidus | life 27 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 18 | Reckless Fireweaver (House) 61; Ultimate Green Goblin (Doom) 40; Ingenious Artillerist (House) 30
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain cast Sword of Light and Shadow
+Information: BOARD cast | Sword of Light and Shadow (mv 3) by Captain | open mana: Doom 5, House 1, Tidus 0
+Add To Stack: Captain triggered Danitha, Sword of Hope
+Resolve Stack: Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn. [Card: Sword of Light and Shadow (1), Activator: Captain, SpellAbility: Sword of Light and Shadow]
+Resolve Stack: Sword of Light and Shadow
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 19 (Doom)
+Information: BOARD turn 19 (Doom) | Captain | life 33 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2)
+Information: BOARD turn 19 (Doom) | Doom | life 32 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Ultimate Green Goblin 5/4*; Doctor Doom, King of Latveria 3/3 | hand cards: Path of Ancestry(land); Kang, Temporal Tyrant(4); Molecule Man(6); Black Cat, Cunning Thief(5)
+Information: BOARD turn 19 (Doom) | House | life 38 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 19 (Doom) | Tidus | life 27 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 19 | Reckless Fireweaver (House) 59; Ultimate Green Goblin (Doom) 38
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Add To Stack: Doom triggered Ultimate Green Goblin
+Discard: Doom discards Molecule Man (116).
+Resolve Stack: At the beginning of your upkeep, discard a card, then create a Treasure token. [Phase: Doom]
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Mountain (186) - {T}: Add {R}.
+Add To Stack: Doom cast Black Cat, Cunning Thief
+Information: BOARD cast | Black Cat, Cunning Thief (mv 5) by Doom | open mana: Captain 0, House 1, Tidus 0
+Resolve Stack: Black Cat, Cunning Thief - Creature 2 / 3
+Add To Stack: Doom triggered Black Cat, Cunning Thief targeting [Tidus]
+Resolve Stack: When Black Cat enters, look at the top nine cards of target opponent's library, exile two of them face down, then put the rest on the bottom of their library in a random order. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way. (Targeting: [[Tidus]]) [Zone Changer: Black Cat, Cunning Thief (190)]
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Ultimate Green Goblin (161)]
+Discard: Doom discards Path of Ancestry (107).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Ultimate Green Goblin (161)]]) [Phase: Doom]
+Add To Stack: Doom triggered Doctor Doom, King of Latveria
+Life: Life: House 38 > 36
+Life: Life: Tidus 27 > 25
+Life: Life: Captain 33 > 31
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Doom, Amount: 1]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Ultimate Green Goblin (161) and Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Doom -> Captain | attackers 2 (power 8) | defender life 31 | untapped creatures 2 (power 3): Old Thrush 1/2; Danitha, Sword of Hope 2/2 | open mana 0
+Phase: Doom's Declare Blockers Step
+Combat: Captain didn't block Ultimate Green Goblin (161).
+Captain assigned Old Thrush (6) to block Doctor Doom, King of Latveria (201).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Ultimate Green Goblin (161) deals 5 combat damage to Captain.
+Damage: Doctor Doom, King of Latveria (201) deals 3 damage to Old Thrush (6).
+Damage: Old Thrush (6) deals 1 damage to Doctor Doom, King of Latveria (201).
+Life: Life: Captain 31 > 26
+Zone Change: Old Thrush (6) was put into Graveyard from Battlefield.
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Doom played Sulfur Falls (151)
+Land: Doom picked {B}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Land: Treasure Token (419) picked {W}
+Mana: Treasure Token (419) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {W}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Doom cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Doom | open mana: Captain 0, House 1, Tidus 0
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 20 (House)
+Information: BOARD turn 20 (House) | Captain | life 26 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2)
+Information: BOARD turn 20 (House) | Doom | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Ultimate Green Goblin 5/4*; Doctor Doom, King of Latveria 3/3*; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 3/4 | hand cards: Toxic Deluge(3)
+Information: BOARD turn 20 (House) | House | life 36 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Plains(land); Terminate(2); Exsanguinate(2)
+Information: BOARD turn 20 (House) | Tidus | life 25 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 20 | Ultimate Green Goblin (Doom) 80; Reckless Fireweaver (House) 56; Doctor Doom, King of Latveria (Doom) 53
+Phase: House's Untap step
+Phase: House's Upkeep step
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: House cast Terminate targeting [Ultimate Green Goblin (161)]
+Information: BOARD cast | Terminate (mv 2) by House | open mana: Captain 0, Doom 0, Tidus 0
+Zone Change: Ultimate Green Goblin (161) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (264) - Destroy Ultimate Green Goblin (161). It can't be regenerated.
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Plains (291)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Reckless Fireweaver (296) to attack Captain.
+Information: BOARD attack | House -> Captain | attackers 1 (power 1) | defender life 26 | untapped creatures 1 (power 2): Danitha, Sword of Hope 2/2 | open mana 0
+Phase: House's Declare Blockers Step
+Combat: Captain assigned Danitha, Sword of Hope (10) to block Reckless Fireweaver (296).
+Phase: House's First Strike Damage Step
+Damage: Danitha, Sword of Hope (10) deals 2 damage to Reckless Fireweaver (296).
+Phase: House's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 damage to Danitha, Sword of Hope (10).
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 21 (Tidus)
+Information: BOARD turn 21 (Tidus) | Captain | life 26 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2)
+Information: BOARD turn 21 (Tidus) | Doom | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 3/3*; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 3/4 | hand cards: Toxic Deluge(3)
+Information: BOARD turn 21 (Tidus) | House | life 36 | hand 2 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Norn's Annex(5)
+Information: BOARD turn 21 (Tidus) | Tidus | life 25 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5)
+Information: BOARD threat | turn 21 | Reckless Fireweaver (House) 54; Doctor Doom, King of Latveria (Doom) 51
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus cast Inspiring Call
+Information: BOARD cast | Inspiring Call (mv 3) by Tidus | open mana: Captain 0, Doom 0, House 3
+Resolve Stack: Inspiring Call (372) - Tidus draws two cards. 
+Phase: Tidus' Main phase, precombat
+Land: Tidus played Island (345)
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 22 (Captain)
+Information: BOARD turn 22 (Captain) | Captain | life 26 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 2/2 | hand cards: Iron Man, Titan of Innovation(5); Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2)
+Information: BOARD turn 22 (Captain) | Doom | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 3/3*; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 3/4 | hand cards: Toxic Deluge(3)
+Information: BOARD turn 22 (Captain) | House | life 36 | hand 2 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Norn's Annex(5)
+Information: BOARD turn 22 (Captain) | Tidus | life 25 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 22 | Reckless Fireweaver (House) 52; Doctor Doom, King of Latveria (Doom) 49
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Danitha, Sword of Hope (10)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Danitha, Sword of Hope (10)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Discard: Captain discards Iron Man, Titan of Innovation (31).
+Turn: Turn 23 (Doom)
+Information: BOARD turn 23 (Doom) | Captain | life 26 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 23 (Doom) | Doom | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 3/3*; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 3/4 | hand cards: Toxic Deluge(3)
+Information: BOARD turn 23 (Doom) | House | life 36 | hand 2 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): "Lifetime" Pass Holder 2/1; Reckless Fireweaver 1/3*; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Norn's Annex(5)
+Information: BOARD turn 23 (Doom) | Tidus | life 25 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 23 | Reckless Fireweaver (House) 50; Doctor Doom, King of Latveria (Doom) 47
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Life: Life: Doom 32 > 31
+Add To Stack: Doom cast Toxic Deluge
+Information: BOARD cast | Toxic Deluge (mv 3) by Doom | open mana: Captain 1, House 3, Tidus 4
+Resolve Stack: Toxic Deluge (109) - All creatures get -1/-1 until end of turn. (X=1; fixed-X split so the AI can evaluate it.)
+Zone Change: "Lifetime" Pass Holder (263) was put into Graveyard from Battlefield.
+Zone Change: Ingenious Artillerist (209) was put into Graveyard from Battlefield.
+Add To Stack: House triggered "Lifetime" Pass Holder
+Resolve Stack: When "Lifetime" Pass Holder dies, open an Attraction. [Zone Changer: "Lifetime" Pass Holder (263)]
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 26 > 25
+Life: Life: Doom 31 > 30
+Life: Life: Tidus 25 > 24
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clown Extruder (304)]
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Doom's Time Platform (131).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Life: Life: House 36 > 35
+Life: Life: Tidus 24 > 23
+Life: Life: Captain 25 > 24
+Life: Life: Doom 30 > 31
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201), Black Cat, Cunning Thief (190) and Kang, Temporal Tyrant (179) to attack House.
+Information: BOARD attack | Doom -> House | attackers 3 (power 6) | defender life 35 | untapped creatures 1 (power 0): Mr. House, President and CEO -1/3 | open mana 3
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Discard: Doom discards Glorious Purpose (121).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (179)]
+Phase: Doom's Declare Blockers Step
+Combat: House didn't block Doctor Doom, King of Latveria (201).
+House assigned Mr. House, President and CEO (302) to block Black Cat, Cunning Thief (190).
+House didn't block Kang, Temporal Tyrant (179).
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 3 combat damage to House.
+Damage: Black Cat, Cunning Thief (190) deals 1 damage to Mr. House, President and CEO (302).
+Damage: Kang, Temporal Tyrant (179) deals 3 combat damage to House.
+Life: Life: House 35 > 29
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Mountain (186) - {T}: Add {R}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Add To Stack: Doom cast Tromell, Seymour's Butler
+Information: BOARD cast | Tromell, Seymour's Butler (mv 3) by Doom | open mana: Captain 1, House 3, Tidus 4
+Resolve Stack: Tromell, Seymour's Butler - Creature 2 / 3
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 24 (House)
+Information: BOARD turn 24 (House) | Captain | life 24 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 24 (House) | Doom | life 31 | hand 1 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 4/5*; Tromell, Seymour's Butler 2/3 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 24 (House) | House | life 29 | hand 2 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Reckless Fireweaver 1/3*; Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Norn's Annex(5)
+Information: BOARD turn 24 (House) | Tidus | life 23 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 24 | Reckless Fireweaver (House) 79; Doctor Doom, King of Latveria (Doom) 77; Kang, Temporal Tyrant (Doom) 46
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered Clown Extruder
+Resolve Stack: Visit — Create a 1/1 white Clown Robot artifact creature token. [Player: House]
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 24 > 23
+Life: Life: Doom 31 > 30
+Life: Life: Tidus 23 > 22
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clown Robot Token (425)]
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: House cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by House | open mana: Captain 1, Doom 4, Tidus 4
+Resolve Stack: Blind Obedience
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Swamp (254) - {T}: Add {B}.
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Plains (291) - {T}: Add {W}.
+Add To Stack: House cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by House | open mana: Captain 1, Doom 4, Tidus 4
+Add To Stack: House triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Exsanguinate (227), Activator: House, SpellAbility: Each opponent loses 1 life. You gain life equal to the life lost this way. (X=1; fixed-X split so the AI counts Treasures.) ]
+Life: Life: Tidus 22 > 21
+Life: Life: Captain 23 > 22
+Life: Life: Doom 30 > 29
+Life: Life: House 29 > 32
+Resolve Stack: Exsanguinate (227) - Tidus, Captain and Doom each lose 1 life. You gain life equal to the life lost this way.
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 25 (Tidus)
+Information: BOARD turn 25 (Tidus) | Captain | life 22 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 25 (Tidus) | Doom | life 29 | hand 1 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 4/5*; Tromell, Seymour's Butler 2/3 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 25 (Tidus) | House | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1 | hand cards: Norn's Annex(5)
+Information: BOARD turn 25 (Tidus) | Tidus | life 21 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 25 | Reckless Fireweaver (House) 108; Doctor Doom, King of Latveria (Doom) 74; Kang, Temporal Tyrant (Doom) 44
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Island (345) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus activated Blitzball Stadium targeting [Metastatic Evangel (329)]
+Resolve Stack: Blitzball Stadium (400) - Metastatic Evangel (329) . 
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Replacement Effect: Temple of Mystery enters tapped.
+Land: Tidus played Temple of Mystery (315)
+Add To Stack: Tidus triggered Temple of Mystery
+Resolve Stack: Tidus scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Mystery enters, scry 1. [Zone Changer: Temple of Mystery (315)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 26 (Captain)
+Information: BOARD turn 26 (Captain) | Captain | life 22 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 26 (Captain) | Doom | life 29 | hand 1 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 4/5*; Tromell, Seymour's Butler 2/3 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 26 (Captain) | House | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1 | hand cards: Norn's Annex(5)
+Information: BOARD turn 26 (Captain) | Tidus | life 21 | hand 4 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 26 | Reckless Fireweaver (House) 104; Doctor Doom, King of Latveria (Doom) 71; Kang, Temporal Tyrant (Doom) 42
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Exotic Orchard (42)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Kellan, the Fae-Blooded
+Information: BOARD cast | Kellan, the Fae-Blooded (mv 3) by Captain | open mana: Doom 4, House 0, Tidus 4
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Kellan, the Fae-Blooded - Creature 2 / 2
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 27 (Doom)
+Information: BOARD turn 27 (Doom) | Captain | life 22 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow]; Kellan, the Fae-Blooded 2/2* | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 27 (Doom) | Doom | life 29 | hand 1 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 4/5*; Tromell, Seymour's Butler 2/3 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 27 (Doom) | House | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1 | hand cards: Norn's Annex(5)
+Information: BOARD turn 27 (Doom) | Tidus | life 21 | hand 4 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 27 | Reckless Fireweaver (House) 99; Doctor Doom, King of Latveria (Doom) 68; Kang, Temporal Tyrant (Doom) 41
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Land: Doom played Scavenger Grounds (159)
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Island (124).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Add To Stack: Doom triggered Doctor Doom, King of Latveria
+Life: Life: House 32 > 30
+Life: Life: Tidus 21 > 19
+Life: Life: Captain 22 > 20
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Doom, Amount: 1]
+Life: Life: House 30 > 29
+Life: Life: Tidus 19 > 18
+Life: Life: Captain 20 > 19
+Life: Life: Doom 29 > 30
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Doom]
+Phase: Doom's Declare Attackers Step
+Combat: Doom assigned Doctor Doom, King of Latveria (201) and Black Cat, Cunning Thief (190) to attack House.
+Doom assigned Kang, Temporal Tyrant (179) to attack Captain.
+Information: BOARD attack | Doom -> House | attackers 2 (power 6) | defender life 29 | untapped creatures 3 (power 2): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1 | open mana 0
+Information: BOARD attack | Doom -> Captain | attackers 1 (power 4) | defender life 19 | untapped creatures 1 (power 4): Danitha, Sword of Hope 4/4[Sword of Light and Shadow] | open mana 1
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Discard: Doom discards Propaganda (178).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (179)]
+Phase: Doom's Declare Blockers Step
+Combat: House didn't block Doctor Doom, King of Latveria (201).
+House assigned Clown Robot Token (425), Reckless Fireweaver (296) and Mr. House, President and CEO (302) to block Black Cat, Cunning Thief (190).
+Combat: Captain assigned Danitha, Sword of Hope (10) to block Kang, Temporal Tyrant (179).
+Zone Change: Welding Jar (221) was put into Graveyard from Battlefield.
+Add To Stack: House activated Welding Jar targeting [Clown Robot Token (425)]
+Mana: Mountain (186) - {T}: Add {R}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Zone Change: Scavenger Grounds (159) was put into Graveyard from Battlefield.
+Add To Stack: Doom activated Scavenger Grounds
+Resolve Stack: Scavenger Grounds (159) -  Exile all graveyards.
+Resolve Stack: Welding Jar (221) - Regenerate Clown Robot Token (425).
+Phase: Doom's First Strike Damage Step
+Damage: Danitha, Sword of Hope (10) deals 4 damage to Kang, Temporal Tyrant (179).
+Phase: Doom's Combat Damage Step
+Replacement Effect: Protection from black
+Damage: Doctor Doom, King of Latveria (201) deals 4 combat damage to House.
+Damage: Black Cat, Cunning Thief (190) deals 2 damage to Reckless Fireweaver (296).
+Damage: Clown Robot Token (425) deals 1 damage to Black Cat, Cunning Thief (190).
+Damage: Reckless Fireweaver (296) deals 1 damage to Black Cat, Cunning Thief (190).
+Life: Life: House 29 > 25
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 28 (House)
+Information: BOARD turn 28 (House) | Captain | life 19 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow]; Kellan, the Fae-Blooded 2/2* | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 28 (House) | Doom | life 30 | hand 1 | lands 5 (3 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 5/6*; Tromell, Seymour's Butler 2/3* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 28 (House) | House | life 25 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1 | hand cards: Norn's Annex(5)
+Information: BOARD turn 28 (House) | Tidus | life 18 | hand 4 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 28 | Doctor Doom, King of Latveria (Doom) 117; Reckless Fireweaver (House) 95; Kang, Temporal Tyrant (Doom) 68
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: House, Result: 4]
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 19 > 18
+Life: Life: Doom 30 > 29
+Life: Life: Tidus 18 > 17
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (432)]
+Land: House played Mountain (287)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Reckless Fireweaver (296) and Clown Robot Token (425) to attack Doom.
+Information: BOARD attack | House -> Doom | attackers 2 (power 2) | defender life 29 | untapped creatures 0 (power 0):  | open mana 8
+Phase: House's Declare Blockers Step
+Combat: Doom didn't block Reckless Fireweaver (296).
+Doom didn't block Clown Robot Token (425).
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Reckless Fireweaver (296) deals 1 combat damage to Doom.
+Damage: Clown Robot Token (425) deals 1 combat damage to Doom.
+Life: Life: Doom 29 > 27
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: House cast Norn's Annex
+Information: BOARD cast | Norn's Annex (mv 5) by House | open mana: Captain 1, Doom 8, Tidus 4
+Add To Stack: House triggered Blind Obedience
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Life: Life: Tidus 17 > 16
+Life: Life: Captain 18 > 17
+Life: Life: Doom 27 > 26
+Life: Life: House 25 > 28
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Norn's Annex (261), Activator: House, SpellAbility: Norn's Annex]
+Resolve Stack: Norn's Annex
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 17 > 16
+Life: Life: Doom 26 > 25
+Life: Life: Tidus 16 > 15
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Norn's Annex (261)]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 29 (Tidus)
+Information: BOARD turn 29 (Tidus) | Captain | life 16 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow]; Kellan, the Fae-Blooded 2/2* | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 29 (Tidus) | Doom | life 25 | hand 1 | lands 5 (3 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 5/6*; Tromell, Seymour's Butler 2/3* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 29 (Tidus) | House | life 28 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Reckless Fireweaver 1/3*; Mr. House, President and CEO 0/4; Clown Robot Token 1/1*; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 29 (Tidus) | Tidus | life 15 | hand 4 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4)
+Information: BOARD threat | turn 29 | Reckless Fireweaver (House) 161; Doctor Doom, King of Latveria (Doom) 112; Kang, Temporal Tyrant (Doom) 65
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Island (345) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus activated Blitzball Stadium targeting [Metastatic Evangel (329)]
+Resolve Stack: Blitzball Stadium (400) - Metastatic Evangel (329) . 
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Captain | life 16 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Danitha, Sword of Hope 4/4[Sword of Light and Shadow]; Kellan, the Fae-Blooded 2/2* | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 30 (Captain) | Doom | life 25 | hand 1 | lands 5 (3 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 5/6*; Tromell, Seymour's Butler 2/3* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 30 (Captain) | House | life 28 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Reckless Fireweaver 1/3*; Mr. House, President and CEO 0/4; Clown Robot Token 1/1*; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 30 (Captain) | Tidus | life 15 | hand 5 | lands 6 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 30 | Reckless Fireweaver (House) 154; Doctor Doom, King of Latveria (Doom) 108; Kang, Temporal Tyrant (Doom) 63; Blitzball Stadium (Tidus) 35
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Shivan Reef (20)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 8, House 0, Tidus 7
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Light and Shadow (1)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Light and Shadow (1)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 31 (Doom)
+Information: BOARD turn 31 (Doom) | Captain | life 16 | hand 7 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6*[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 31 (Doom) | Doom | life 25 | hand 1 | lands 5 (3 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Doctor Doom, King of Latveria 4/4*; Black Cat, Cunning Thief 2/3*; Kang, Temporal Tyrant 5/6*; Tromell, Seymour's Butler 2/3* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 31 (Doom) | House | life 28 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Reckless Fireweaver 1/3*; Mr. House, President and CEO 0/4; Clown Robot Token 1/1*; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 31 (Doom) | Tidus | life 15 | hand 5 | lands 6 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 31 | Reckless Fireweaver (House) 148; Doctor Doom, King of Latveria (Doom) 104; Kang, Temporal Tyrant (Doom) 60; Blitzball Stadium (Tidus) 34
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Red Ghost, Intangible Genius (170).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Life: Life: House 28 > 27
+Life: Life: Tidus 15 > 14
+Life: Life: Captain 16 > 15
+Life: Life: Doom 25 > 26
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Doom]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Land: Doom played Swamp (152)
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (152) - {T}: Add {B}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Add To Stack: Doom cast Forgotten Ancient
+Information: BOARD cast | Forgotten Ancient (mv 4) by Doom | open mana: Captain 4, House 0, Tidus 7
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Forgotten Ancient - Creature 0 / 3
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 32 (House)
+Information: BOARD turn 32 (House) | Captain | life 15 | hand 7 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6*[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 32 (House) | Doom | life 26 | hand 1 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 5 (3 untapped): Doctor Doom, King of Latveria 5/5; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 1/4* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 32 (House) | House | life 27 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Reckless Fireweaver 1/3*; Mr. House, President and CEO 0/4; Clown Robot Token 1/1*; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 32 (House) | Tidus | life 14 | hand 5 | lands 6 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 32 | Reckless Fireweaver (House) 142; Doctor Doom, King of Latveria (Doom) 114; Kang, Temporal Tyrant (Doom) 72; Blitzball Stadium (Tidus) 33
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: House, Result: 4]
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 15 > 14
+Life: Life: Doom 26 > 25
+Life: Life: Tidus 14 > 13
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (438)]
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 33 (Tidus)
+Information: BOARD turn 33 (Tidus) | Captain | life 14 | hand 7 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6*[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 33 (Tidus) | Doom | life 25 | hand 1 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 5 (3 untapped): Doctor Doom, King of Latveria 5/5; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 1/4* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 33 (Tidus) | House | life 27 | hand 1 | lands 6 (6 untapped) | open mana 8 | commander Battlefield | creatures 5 (5 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x2 | hand cards: Fountainport(land)
+Information: BOARD turn 33 (Tidus) | Tidus | life 13 | hand 5 | lands 6 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 33 | Reckless Fireweaver (House) 168; Doctor Doom, King of Latveria (Doom) 109; Kang, Temporal Tyrant (Doom) 69; Blitzball Stadium (Tidus) 31
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Island (345) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus activated Blitzball Stadium targeting [Metastatic Evangel (329)]
+Resolve Stack: Blitzball Stadium (400) - Metastatic Evangel (329) . 
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Tidus played Temple of Enlightenment (384)
+Add To Stack: Tidus triggered Temple of Enlightenment
+Resolve Stack: Tidus scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 34 (Captain)
+Information: BOARD turn 34 (Captain) | Captain | life 14 | hand 7 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6*[Sword of Light and Shadow] | hand cards: Zirda, the Dawnwaker(3); Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Puresteel Paladin(2); Force of Negation(3)
+Information: BOARD turn 34 (Captain) | Doom | life 25 | hand 1 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 5 (3 untapped): Doctor Doom, King of Latveria 5/5; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 1/4* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 34 (Captain) | House | life 27 | hand 1 | lands 6 (6 untapped) | open mana 8 | commander Battlefield | creatures 5 (5 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x2 | hand cards: Fountainport(land)
+Information: BOARD turn 34 (Captain) | Tidus | life 13 | hand 5 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 34 | Reckless Fireweaver (House) 161; Doctor Doom, King of Latveria (Doom) 105; Kang, Temporal Tyrant (Doom) 66; Blitzball Stadium (Tidus) 45
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Captain played Seachrome Coast (98)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Captain | open mana: Doom 5, House 8, Tidus 7
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Puresteel Paladin (25), Activator: Captain, SpellAbility: Puresteel Paladin - Creature 2 / 2]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Mana: Mountain (79) - {T}: Add {R}.
+Damage: Shivan Reef (20) deals 1 non-combat damage to Captain.
+Life: Life: Captain 14 > 13
+Mana: Shivan Reef (20) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain cast Zirda, the Dawnwaker
+Information: BOARD cast | Zirda, the Dawnwaker (mv 3) by Captain | open mana: Doom 5, House 8, Tidus 7
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Zirda, the Dawnwaker (57), Activator: Captain, SpellAbility: Zirda, the Dawnwaker - Creature 3 / 3]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Zirda, the Dawnwaker - Creature 3 / 3
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 35 (Doom)
+Information: BOARD turn 35 (Doom) | Captain | life 13 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Sword of Light and Shadow]; Puresteel Paladin 2/2*; Zirda, the Dawnwaker 3/3* | hand cards: Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3)
+Information: BOARD turn 35 (Doom) | Doom | life 25 | hand 1 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 5 (3 untapped): Doctor Doom, King of Latveria 5/5; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 3/6* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 35 (Doom) | House | life 27 | hand 1 | lands 6 (6 untapped) | open mana 8 | commander Battlefield | creatures 5 (5 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x2 | hand cards: Fountainport(land)
+Information: BOARD turn 35 (Doom) | Tidus | life 13 | hand 5 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 35 | Reckless Fireweaver (House) 155; Doctor Doom, King of Latveria (Doom) 101; Kang, Temporal Tyrant (Doom) 64; Blitzball Stadium (Tidus) 43
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures. [Phase: Doom]
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Iron Monger, Sadistic Tycoon (169).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Kang, Temporal Tyrant
+Life: Life: House 27 > 26
+Life: Life: Tidus 13 > 12
+Life: Life: Captain 13 > 12
+Life: Life: Doom 25 > 26
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Doom]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Swamp (152) - {T}: Add {B}.
+Mana: Mountain (186) - {T}: Add {R}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Add To Stack: Doom cast Damocles Base, Sword of Kang
+Information: BOARD cast | Damocles Base, Sword of Kang (mv 5) by Doom | open mana: Captain 0, House 8, Tidus 7
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Damocles Base, Sword of Kang (177), Activator: Doom, SpellAbility: Damocles Base, Sword of Kang]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Damocles Base, Sword of Kang
+Phase: Doom's End step
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Plains (291) - {T}: Add {W}.
+Add To Stack: House activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: House triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: House, Result: 6]
+Add To Stack: House triggered Reckless Fireweaver
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 12 > 11
+Life: Life: Doom 26 > 25
+Life: Life: Tidus 12 > 11
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (446)]
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 11 > 10
+Life: Life: Doom 25 > 24
+Life: Life: Tidus 11 > 10
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (445)]
+Phase: Doom's Cleanup step
+Turn: Turn 36 (House)
+Information: BOARD turn 36 (House) | Captain | life 10 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Sword of Light and Shadow]; Puresteel Paladin 2/2*; Zirda, the Dawnwaker 3/3* | hand cards: Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3)
+Information: BOARD turn 36 (House) | Doom | life 24 | hand 1 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 5 (4 untapped): Doctor Doom, King of Latveria 6/6; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 4/7 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 36 (House) | House | life 26 | hand 1 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 6 (5 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4*; Clown Robot Token 1/1; Robot Token 3/3 x3 | hand cards: Fountainport(land)
+Information: BOARD turn 36 (House) | Tidus | life 10 | hand 5 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 36 | Reckless Fireweaver (House) 212; Doctor Doom, King of Latveria (Doom) 111; Kang, Temporal Tyrant (Doom) 76; Forgotten Ancient (Doom) 56; Mr. House, President and CEO (House) 52
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: House cast Idol of Oblivion
+Information: BOARD cast | Idol of Oblivion (mv 2) by House | open mana: Captain 0, Doom 4, Tidus 7
+Add To Stack: House triggered Blind Obedience
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Idol of Oblivion (277), Activator: House, SpellAbility: Idol of Oblivion]
+Mana: Swamp (254) - {T}: Add {B}.
+Life: Life: Tidus 10 > 9
+Life: Life: Captain 10 > 9
+Life: Life: Doom 24 > 23
+Life: Life: House 26 > 29
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Idol of Oblivion (277), Activator: House, SpellAbility: Idol of Oblivion]
+Resolve Stack: Idol of Oblivion
+Add To Stack: House triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Captain.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Doom.
+Damage: Reckless Fireweaver (296) deals 1 non-combat damage to Tidus.
+Life: Life: Captain 9 > 8
+Life: Life: Doom 23 > 22
+Life: Life: Tidus 9 > 8
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Idol of Oblivion (277)]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 37 (Tidus)
+Information: BOARD turn 37 (Tidus) | Captain | life 8 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Sword of Light and Shadow]; Puresteel Paladin 2/2*; Zirda, the Dawnwaker 3/3* | hand cards: Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3)
+Information: BOARD turn 37 (Tidus) | Doom | life 22 | hand 1 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 5 (4 untapped): Doctor Doom, King of Latveria 6/6; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 5/8 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 37 (Tidus) | House | life 29 | hand 1 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x3 | hand cards: Fountainport(land)
+Information: BOARD turn 37 (Tidus) | Tidus | life 8 | hand 5 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (2 untapped): Metastatic Evangel 5/3; Tidus, Yuna's Guardian 5/5 | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Yuna, Grand Summoner(4); Sunscorch Regent(5)
+Information: BOARD threat | turn 37 | Reckless Fireweaver (House) 235; Doctor Doom, King of Latveria (Doom) 107; Kang, Temporal Tyrant (Doom) 73; Forgotten Ancient (Doom) 69; Mr. House, President and CEO (House) 50
+Phase: Tidus' Untap step
+Phase: Tidus' Upkeep step
+Phase: Tidus' Draw step
+Phase: Tidus' Main phase, precombat
+Mana: Island (343) - {T}: Add {U}.
+Mana: Island (345) - {T}: Add {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Tidus activated Blitzball Stadium targeting [Metastatic Evangel (329)]
+Resolve Stack: Blitzball Stadium (400) - Metastatic Evangel (329) . 
+Phase: Tidus' Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Tidus' Declare Attackers Step
+Phase: Tidus' Declare Blockers Step
+Phase: Tidus' First Strike Damage Step
+Phase: Tidus' Combat Damage Step
+Phase: Tidus' End of Combat Step
+Phase: Tidus' Main phase, postcombat
+Land: Tidus picked {U}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Land: Tidus picked {G}
+Mana: Temple of Mystery (315) - {T}: Add {U} or {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Tidus cast Yuna, Grand Summoner
+Information: BOARD cast | Yuna, Grand Summoner (mv 4) by Tidus | open mana: Captain 0, Doom 4, House 6
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Yuna, Grand Summoner (336), Activator: Tidus, SpellAbility: Yuna, Grand Summoner - Creature 1 / 5]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Yuna, Grand Summoner - Creature 1 / 5
+Add To Stack: Tidus triggered Metastatic Evangel
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Zone Changer: Yuna, Grand Summoner (336)]
+Phase: Tidus' End step
+Phase: Tidus' Cleanup step
+Turn: Turn 38 (Captain)
+Information: BOARD turn 38 (Captain) | Captain | life 8 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Sword of Light and Shadow]; Puresteel Paladin 2/2*; Zirda, the Dawnwaker 3/3* | hand cards: Desynchronization(4); Nazgûl Battle-Mace(5); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3)
+Information: BOARD turn 38 (Captain) | Doom | life 22 | hand 1 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 5 (4 untapped): Doctor Doom, King of Latveria 6/6; Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 6/9 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 38 (Captain) | House | life 29 | hand 1 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Reckless Fireweaver 1/3; Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x3 | hand cards: Fountainport(land)
+Information: BOARD turn 38 (Captain) | Tidus | life 8 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Metastatic Evangel 7/5; Tidus, Yuna's Guardian 7/7; Yuna, Grand Summoner 1/5* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 38 | Reckless Fireweaver (House) 226; Doctor Doom, King of Latveria (Doom) 102; Forgotten Ancient (Doom) 80; Kang, Temporal Tyrant (Doom) 70; Blitzball Stadium (Tidus) 52
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (29)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (29) - {T}: Add {U}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Nazgûl Battle-Mace
+Information: BOARD cast | Nazgûl Battle-Mace (mv 5) by Captain | open mana: Doom 4, House 6, Tidus 0
+Add To Stack: Captain triggered Danitha, Sword of Hope
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Nazgûl Battle-Mace (35), Activator: Captain, SpellAbility: Nazgûl Battle-Mace]
+Resolve Stack: Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn. [Card: Nazgûl Battle-Mace (35), Activator: Captain, SpellAbility: Nazgûl Battle-Mace]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Nazgûl Battle-Mace
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Nazgûl Battle-Mace (35)]
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (413), Reckless Fireweaver (296), Doctor Doom, King of Latveria (201)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Tidus, Yuna's Guardian (413).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Reckless Fireweaver (296).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Doctor Doom, King of Latveria (201).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Tidus, Yuna's Guardian (413) (1 damage), Reckless Fireweaver (296) (1 damage) and Doctor Doom, King of Latveria (201) (1 damage).
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Zone Change: Reckless Fireweaver (296) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Add To Stack: Tidus triggered The Ozolith
+Add To Stack: Tidus triggered Yuna, Grand Summoner targeting [Metastatic Evangel (329)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature. (Targeting: [[Metastatic Evangel (329)]]) [Zone Changer: Tidus, Yuna's Guardian (413)]
+Resolve Stack: Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith. [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Light and Shadow (1)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Light and Shadow (1)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 39 (Doom)
+Information: BOARD turn 39 (Doom) | Captain | life 8 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Nazgûl Battle-Mace,Sword of Light and Shadow]; Puresteel Paladin 2/2; Zirda, the Dawnwaker 3/3 | hand cards: Desynchronization(4); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Talisman of Conviction(2); Battlefield Forge(land)
+Information: BOARD turn 39 (Doom) | Doom | life 22 | hand 1 | lands 6 (1 untapped) | open mana 4 | commander Command | creatures 4 (3 untapped): Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 7/10 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 39 (Doom) | House | life 29 | hand 1 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4; Clown Robot Token 1/1; Robot Token 3/3 x3 | hand cards: Fountainport(land)
+Information: BOARD turn 39 (Doom) | Tidus | life 8 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Metastatic Evangel 12/10; Yuna, Grand Summoner 1/5* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 39 | Forgotten Ancient (Doom) 91; Kang, Temporal Tyrant (Doom) 67; Captain America, First Avenger (Captain) 51; Blitzball Stadium (Tidus) 50; Mr. House, President and CEO (House) 46
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures. [Phase: Doom]
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Doom activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (152) - {T}: Add {B}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Land: Doom picked {B}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Doom cast Lady Loki, Agent of Chaos
+Information: BOARD cast | Lady Loki, Agent of Chaos (mv 6) by Doom | open mana: Captain 0, House 6, Tidus 0
+Add To Stack: Doom triggered Forgotten Ancient
+Resolve Stack: Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient. [Card: Lady Loki, Agent of Chaos (117), Activator: Doom, SpellAbility: Lady Loki, Agent of Chaos - Creature 5 / 5]
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Lady Loki, Agent of Chaos - Creature 5 / 5
+Phase: Doom's End step
+Zone Change: Treasure Token (446) was put into Graveyard from Battlefield.
+Land: Treasure Token (446) picked {W}
+Mana: Treasure Token (446) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Mountain (287) - {T}: Add {R}.
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: House activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: House triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: House, Result: 4]
+Add To Stack: House activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (277) - House draws a card.
+Phase: Doom's Cleanup step
+Turn: Turn 40 (House)
+Information: BOARD turn 40 (House) | Captain | life 8 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Nazgûl Battle-Mace,Sword of Light and Shadow]; Puresteel Paladin 2/2; Zirda, the Dawnwaker 3/3 | hand cards: Desynchronization(4); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Talisman of Conviction(2); Battlefield Forge(land)
+Information: BOARD turn 40 (House) | Doom | life 22 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 5 (3 untapped): Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Tromell, Seymour's Butler 2/3*; Forgotten Ancient 8/11; Lady Loki, Agent of Chaos 6/6* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 40 (House) | House | life 29 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Mr. House, President and CEO 0/4*; Clown Robot Token 1/1; Robot Token 3/3 x4 | hand cards: Fountainport(land); Professional Face-Breaker(3)
+Information: BOARD turn 40 (House) | Tidus | life 8 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Metastatic Evangel 12/10; Yuna, Grand Summoner 1/5* | hand cards: Chocobo Knights(4); Rampant Rejuvenator(4); Sab-Sunen, Luxa Embodied(5); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 40 | Forgotten Ancient (Doom) 117; Mr. House, President and CEO (House) 73; Kang, Temporal Tyrant (Doom) 64; Captain America, First Avenger (Captain) 49; Blitzball Stadium (Tidus) 48
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Land: House played Fountainport (212)
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Combat: House assigned Clown Robot Token (425), Robot Token (432), Robot Token (438), Robot Token (445) and Robot Token (512) to attack Tidus.
+Information: BOARD attack | House -> Tidus | attackers 5 (power 13) | defender life 8 | untapped creatures 1 (power 12): Metastatic Evangel 12/10 | open mana 0
+Phase: House's Declare Blockers Step
+Combat: Tidus didn't block Clown Robot Token (425).
+Tidus assigned Metastatic Evangel (329) to block Robot Token (432).
+Tidus didn't block Robot Token (438).
+Tidus didn't block Robot Token (445).
+Tidus didn't block Robot Token (512).
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Zone Change: Robot Token (432) was put into Graveyard from Battlefield.
+Add To Stack: House activated Fountainport
+Resolve Stack: Fountainport (212) - House draws a card.
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Damage: Clown Robot Token (425) deals 1 combat damage to Tidus.
+Damage: Robot Token (438) deals 3 combat damage to Tidus.
+Damage: Robot Token (445) deals 3 combat damage to Tidus.
+Damage: Robot Token (512) deals 3 combat damage to Tidus.
+Life: Life: Tidus 8 > -2
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Plains (291) - {T}: Add {W}.
+Add To Stack: House cast Professional Face-Breaker
+Information: BOARD cast | Professional Face-Breaker (mv 3) by House | open mana: Captain 0, Doom 0
+Add To Stack: House triggered Blind Obedience
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Life: Life: Captain 8 > 7
+Life: Life: Doom 22 > 21
+Life: Life: House 29 > 31
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Professional Face-Breaker (218), Activator: House, SpellAbility: Professional Face-Breaker - Creature 2 / 3]
+Resolve Stack: Professional Face-Breaker - Creature 2 / 3
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 41 (Captain)
+Information: BOARD turn 41 (Captain) | Captain | life 7 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 6/6[Nazgûl Battle-Mace,Sword of Light and Shadow]; Puresteel Paladin 2/2; Zirda, the Dawnwaker 3/3 | hand cards: Desynchronization(4); Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Talisman of Conviction(2); Battlefield Forge(land)
+Information: BOARD turn 41 (Captain) | Doom | life 21 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Black Cat, Cunning Thief 2/3; Kang, Temporal Tyrant 5/6; Lady Loki, Agent of Chaos 6/6* | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 41 (Captain) | House | life 31 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Mr. House, President and CEO 0/4; Clown Robot Token 1/1*; Robot Token 3/3* x3; Professional Face-Breaker 2/3 | hand cards: Evolving Wilds(land); Command Tower(land)
+Information: BOARD threat | turn 41 | Mr. House, President and CEO (House) 70; Kang, Temporal Tyrant (Doom) 62; Captain America, First Avenger (Captain) 47; Blind Obedience (House) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Battlefield Forge (70)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain cast Talisman of Conviction
+Information: BOARD cast | Talisman of Conviction (mv 2) by Captain | open mana: Doom 0, House 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Talisman of Conviction
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Island (29) - {T}: Add {U}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Battlefield Forge (70) - {T}: Add {C}.
+Add To Stack: Captain cast Desynchronization
+Information: BOARD cast | Desynchronization (mv 4) by Captain | open mana: Doom 0, House 0
+Resolve Stack: Desynchronization (39) - Return each nonland permanent that's not historic to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Lady Loki, Agent of Chaos (117), Kang, Temporal Tyrant (179)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Lady Loki, Agent of Chaos (117).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Kang, Temporal Tyrant (179).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Mr. House, President and CEO (302) (1 damage), Lady Loki, Agent of Chaos (117) (1 damage) and Kang, Temporal Tyrant (179) (1 damage).
+Zone Change: Kang, Temporal Tyrant (179) was put into Graveyard from Battlefield.
+Zone Change: Lady Loki, Agent of Chaos (117) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Light and Shadow (1)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Light and Shadow (1)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Doom.
+Information: BOARD attack | Captain -> Doom | attackers 1 (power 6) | defender life 21 | untapped creatures 1 (power 2): Black Cat, Cunning Thief 2/3 | open mana 0
+Add To Stack: Captain triggered Captain America, First Avenger
+Zone Change: Sol Ring (150) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (100)]
+Add To Stack: Captain triggered Captain America, First Avenger
+Resolve Stack: Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life. [Sacrificed: Sol Ring (150)]
+Phase: Captain's Declare Blockers Step
+Combat: Doom didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 6 combat damage to Doom.
+Life: Life: Doom 21 > 15
+Add To Stack: Captain triggered Sword of Light and Shadow
+Life: Life: Captain 7 > 10
+Resolve Stack: Whenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand. (Targeting: [[]]) [Damage Source: Captain America, First Avenger (100), Damaged: Doom, Amount: 6]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Robot Token (512), Robot Token (445), Black Cat, Cunning Thief (190)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Robot Token (512).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Robot Token (445).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Black Cat, Cunning Thief (190).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Robot Token (512) (1 damage), Robot Token (445) (1 damage) and Black Cat, Cunning Thief (190) (1 damage).
+Zone Change: Black Cat, Cunning Thief (190) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (445) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (512) was put into Graveyard from Battlefield.
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 42 (Doom)
+Information: BOARD turn 42 (Doom) | Captain | life 10 | hand 5 | lands 8 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 4/4*[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 3/3 | hand cards: Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Hengegate Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 42 (Doom) | Doom | life 15 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 42 (Doom) | House | life 31 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Clown Robot Token 1/1*; Robot Token 3/3* | hand cards: Evolving Wilds(land); Command Tower(land); Blind Obedience(2); Professional Face-Breaker(3)
+Information: BOARD threat | turn 42 | Captain America, First Avenger (Captain) 152
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (152) - {T}: Add {B}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Land: Doom picked {U}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Doom cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Doom | open mana: Captain 3, House 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 43 (House)
+Information: BOARD turn 43 (House) | Captain | life 10 | hand 5 | lands 8 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Captain America, First Avenger 4/4*[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 3/3 | hand cards: Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Hengegate Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 43 (House) | Doom | life 15 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Mysterio, Master of Illusion(4)
+Information: BOARD turn 43 (House) | House | life 31 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Clown Robot Token 1/1*; Robot Token 3/3* | hand cards: Evolving Wilds(land); Command Tower(land); Blind Obedience(2); Professional Face-Breaker(3)
+Information: BOARD threat | turn 43 | Captain America, First Avenger (Captain) 146
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: House cast Anguished Unmaking targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by House | open mana: Captain 3, Doom 0
+Zone Change: Captain America, First Avenger (100) was put into Exile from Battlefield.
+Life: Life: House 31 > 28
+Resolve Stack: Anguished Unmaking (298) - Exile Captain America, First Avenger (100). House loses 3 life.
+Phase: House's Main phase, precombat
+Land: House played Command Tower (232)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: House cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by House | open mana: Captain 3, Doom 0
+Resolve Stack: Blind Obedience
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Land: House picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Fountainport (212) - {T}: Add {C}.
+Add To Stack: House cast Professional Face-Breaker
+Information: BOARD cast | Professional Face-Breaker (mv 3) by House | open mana: Captain 3, Doom 0
+Add To Stack: House triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Professional Face-Breaker (218), Activator: House, SpellAbility: Professional Face-Breaker - Creature 2 / 3]
+Resolve Stack: Professional Face-Breaker - Creature 2 / 3
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 44 (Captain)
+Information: BOARD turn 44 (Captain) | Captain | life 10 | hand 5 | lands 8 (1 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Danitha, Sword of Hope 2/2; Kellan, the Fae-Blooded 2/2; Zirda, the Dawnwaker 3/3 | hand cards: Path to Exile(1); Loran of the Third Path(3); Force of Negation(3); Hengegate Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 44 (Captain) | Doom | life 15 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Mysterio, Master of Illusion(4)
+Information: BOARD turn 44 (Captain) | House | life 28 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Clown Robot Token 1/1; Robot Token 3/3; Professional Face-Breaker 2/3 | hand cards: Evolving Wilds(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Captain triggered Inventors' Fair
+Life: Life: Captain 10 > 11
+Resolve Stack: At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mistgate Pathway (43)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Captain | open mana: Doom 0, House 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Loran of the Third Path
+Information: BOARD cast | Loran of the Third Path (mv 3) by Captain | open mana: Doom 0, House 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Loran of the Third Path - Creature 2 / 1
+Add To Stack: Captain triggered Loran of the Third Path targeting [Norn's Annex (261)]
+Zone Change: Norn's Annex (261) was put into Graveyard from Battlefield.
+Resolve Stack: When Loran of the Third Path enters, destroy up to one target artifact or enchantment. (Targeting: [[Norn's Annex (261)]]) [Zone Changer: Loran of the Third Path (50)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Zirda, the Dawnwaker (57)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Zirda, the Dawnwaker (57)
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Kellan, the Fae-Blooded (63)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Kellan, the Fae-Blooded (63)
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 45 (Doom)
+Information: BOARD turn 45 (Doom) | Captain | life 11 | hand 3 | lands 9 (6 untapped) | open mana 13 | commander Command | creatures 5 (3 untapped): Danitha, Sword of Hope 3/2; Kellan, the Fae-Blooded 2/2[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5[Sword of Light and Shadow]; Puresteel Paladin 3/2*; Loran of the Third Path 3/1* | hand cards: Path to Exile(1); Force of Negation(3); Inspiring Vantage(land)
+Information: BOARD turn 45 (Doom) | Doom | life 15 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Mysterio, Master of Illusion(4)
+Information: BOARD turn 45 (Doom) | House | life 28 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Clown Robot Token 1/1; Robot Token 3/3; Professional Face-Breaker 2/3 | hand cards: Evolving Wilds(land)
+Information: BOARD threat | turn 45 | Sword of Light and Shadow (Captain) 33
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Add To Stack: Doom triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Doom discards Exotic Orchard (134).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Doom]
+Add To Stack: Doom triggered Doctor Doom, King of Latveria
+Life: Life: House 28 > 26
+Life: Life: Captain 11 > 9
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Doom, Amount: 1]
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Mountain (186) - {T}: Add {R}.
+Mana: Swamp (152) - {T}: Add {B}.
+Land: Doom picked {B}
+Mana: Dragonskull Summit (145) - {T}: Add {B} or {R}.
+Add To Stack: Doom cast Mysterio, Master of Illusion
+Information: BOARD cast | Mysterio, Master of Illusion (mv 4) by Doom | open mana: Captain 13, House 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Mysterio, Master of Illusion - Creature 3 / 3
+Add To Stack: Doom triggered Mysterio, Master of Illusion
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When Mysterio enters, create a 3/3 blue Illusion Villain creature token for each nontoken Villain you control. Exile those tokens when Mysterio leaves the battlefield. [Zone Changer: Mysterio, Master of Illusion (135)]
+Mana: Sunken Hollow (118) - {T}: Add {B}.
+Land: Doom picked {B}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Doom cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Doom | open mana: Captain 13, House 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Arcane Signet
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 46 (House)
+Information: BOARD turn 46 (House) | Captain | life 9 | hand 3 | lands 9 (6 untapped) | open mana 13 | commander Command | creatures 5 (3 untapped): Danitha, Sword of Hope 3/2; Kellan, the Fae-Blooded 2/2[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5[Sword of Light and Shadow]; Puresteel Paladin 3/2*; Loran of the Third Path 3/1* | hand cards: Path to Exile(1); Force of Negation(3); Inspiring Vantage(land)
+Information: BOARD turn 46 (House) | Doom | life 15 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 3/3; Mysterio, Master of Illusion 3/3*; Illusion Villain Token 3/3* x2 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 46 (House) | House | life 26 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Clown Robot Token 1/1; Robot Token 3/3; Professional Face-Breaker 2/3 | hand cards: Evolving Wilds(land)
+Information: BOARD threat | turn 46 | Sword of Light and Shadow (Captain) 32
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Phase: House's Main phase, precombat
+Add To Stack: House triggered Clown Extruder
+Resolve Stack: Visit — Create a 1/1 white Clown Robot artifact creature token. [Player: House]
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Add To Stack: House activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (277) - House draws a card.
+Mana: Swamp (254) - {T}: Add {B}.
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: House cast Marionette Master
+Information: BOARD cast | Marionette Master (mv 6) by House | open mana: Captain 13, Doom 0
+Add To Stack: House triggered Blind Obedience
+Land: House picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Life: Life: Captain 9 > 8
+Life: Life: Doom 15 > 14
+Life: Life: House 26 > 28
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Marionette Master (223), Activator: House, SpellAbility: Marionette Master - Creature 1 / 3]
+Resolve Stack: Marionette Master - Creature 1 / 3
+Add To Stack: House triggered Marionette Master
+Resolve Stack: Fabricate 3 (When this creature enters, put three +1/+1 counters on it, or create three 1/1 colorless Servo artifact creature tokens.) [Zone Changer: Marionette Master (223)]
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 47 (Captain)
+Information: BOARD turn 47 (Captain) | Captain | life 8 | hand 3 | lands 9 (6 untapped) | open mana 13 | commander Command | creatures 5 (3 untapped): Danitha, Sword of Hope 3/2; Kellan, the Fae-Blooded 2/2[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5[Sword of Light and Shadow]; Puresteel Paladin 3/2*; Loran of the Third Path 3/1* | hand cards: Path to Exile(1); Force of Negation(3); Inspiring Vantage(land)
+Information: BOARD turn 47 (Captain) | Doom | life 14 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Doctor Doom, King of Latveria 3/3; Mysterio, Master of Illusion 3/3*; Illusion Villain Token 3/3* x2 | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 47 (Captain) | House | life 28 | hand 2 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 5 (5 untapped): Clown Robot Token 1/1 x2; Robot Token 3/3; Professional Face-Breaker 2/3; Marionette Master 4/6 | hand cards: Evolving Wilds(land); Talisman of Indulgence(2)
+Information: BOARD threat | turn 47 | Sword of Light and Shadow (Captain) 30
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Captain triggered Inventors' Fair
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain cast Path to Exile targeting [Marionette Master (223)]
+Information: BOARD cast | Path to Exile (mv 1) by Captain | open mana: Doom 0, House 1
+Zone Change: Marionette Master (223) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (11) - Exile Marionette Master (223). House may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Life: Life: Captain 8 > 9
+Resolve Stack: At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Island (29) - {T}: Add {U}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 0, House 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Captain America, First Avenger (100)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Captain America, First Avenger (100)
+Mana: Mistgate Pathway (43) - {T}: Add {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Doctor Doom, King of Latveria (201), Professional Face-Breaker (218), Mysterio, Master of Illusion (135)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Doctor Doom, King of Latveria (201).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Professional Face-Breaker (218).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mysterio, Master of Illusion (135).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Doctor Doom, King of Latveria (201) (1 damage), Professional Face-Breaker (218) (1 damage) and Mysterio, Master of Illusion (135) (1 damage).
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Zone Change: Mysterio, Master of Illusion (135) was put into Graveyard from Battlefield.
+Zone Change: Professional Face-Breaker (218) was put into Graveyard from Battlefield.
+Add To Stack: Doom triggered Mysterio, Master of Illusion (135)'s Effect
+Zone Change: Illusion Villain Token (644) was put into Exile from Battlefield.
+Zone Change: Illusion Villain Token (645) was put into Exile from Battlefield.
+Resolve Stack: Exile those tokens when Mysterio, Master of Illusion (135) leaves the battlefield. [Zone Changer: Mysterio, Master of Illusion (135)]
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Captain America, First Avenger (100)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Captain America, First Avenger (100)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Robot Token (438), Clown Robot Token (665), Clown Robot Token (425)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Robot Token (438).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Clown Robot Token (665).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Clown Robot Token (425).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Robot Token (438) (1 damage), Clown Robot Token (665) (1 damage) and Clown Robot Token (425) (1 damage).
+Zone Change: Clown Robot Token (425) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (438) was put into Graveyard from Battlefield.
+Zone Change: Clown Robot Token (665) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Kellan, the Fae-Blooded (63)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Kellan, the Fae-Blooded (63)
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Zirda, the Dawnwaker (57)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Zirda, the Dawnwaker (57)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Kellan, the Fae-Blooded (63) to attack Doom.
+Captain assigned Danitha, Sword of Hope (10), Zirda, the Dawnwaker (57) and Loran of the Third Path (50) to attack House.
+Information: BOARD attack | Captain -> Doom | attackers 1 (power 2) | defender life 14 | untapped creatures 0 (power 0):  | open mana 0
+Information: BOARD attack | Captain -> House | attackers 3 (power 12) | defender life 28 | untapped creatures 0 (power 0):  | open mana 1
+Add To Stack: Captain triggered Kellan, the Fae-Blooded
+Zone Change: Arcane Signet (144) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Kellan, the Fae-Blooded (63)]
+Add To Stack: Captain triggered Kellan, the Fae-Blooded
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life. [Sacrificed: Arcane Signet (144)]
+Phase: Captain's Declare Blockers Step
+Combat: Doom didn't block Kellan, the Fae-Blooded (63).
+Combat: House didn't block Danitha, Sword of Hope (10).
+House didn't block Zirda, the Dawnwaker (57).
+House didn't block Loran of the Third Path (50).
+Phase: Captain's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (63) deals 2 combat damage to Doom.
+Damage: Danitha, Sword of Hope (10) deals 3 combat damage to House.
+Life: Life: Doom 14 > 12
+Life: Life: House 28 > 25
+Phase: Captain's Combat Damage Step
+Damage: Kellan, the Fae-Blooded (63) deals 2 combat damage to Doom.
+Damage: Zirda, the Dawnwaker (57) deals 6 combat damage to House.
+Damage: Loran of the Third Path (50) deals 3 combat damage to House.
+Life: Life: Doom 12 > 10
+Life: Life: House 25 > 16
+Add To Stack: Captain triggered Sword of Light and Shadow
+Life: Life: Captain 9 > 12
+Resolve Stack: Whenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand. (Targeting: [[]]) [Damage Source: Zirda, the Dawnwaker (57), Damaged: House, Amount: 6]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 48 (Doom)
+Information: BOARD turn 48 (Doom) | Captain | life 12 | hand 3 | lands 9 (3 untapped) | open mana 10 | commander Battlefield | creatures 6 (2 untapped): Danitha, Sword of Hope 3/2*; Kellan, the Fae-Blooded 2/2*[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5*[Sword of Light and Shadow]; Puresteel Paladin 3/2; Loran of the Third Path 3/1; Captain America, First Avenger 5/4* | hand cards: Force of Negation(3); Inspiring Vantage(land); Command Tower(land)
+Information: BOARD turn 48 (Doom) | Doom | life 10 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Ranks of HYDRA(4)
+Information: BOARD turn 48 (Doom) | House | life 16 | hand 2 | lands 9 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Evolving Wilds(land); Talisman of Indulgence(2)
+Information: BOARD threat | turn 48 | Sword of Light and Shadow (Captain) 87; Kellan, the Fae-Blooded (Captain) 52; Nazgûl Battle-Mace (Captain) 52; Captain America, First Avenger (Captain) 43; Zirda, the Dawnwaker (Captain) 35
+Phase: Doom's Untap step
+Phase: Doom's Upkeep step
+Phase: Doom's Draw step
+Phase: Doom's Main phase, precombat
+Phase: Doom's Beginning of Combat Step
+Phase: Doom's Declare Attackers Step
+Phase: Doom's Declare Blockers Step
+Phase: Doom's First Strike Damage Step
+Phase: Doom's Combat Damage Step
+Phase: Doom's End of Combat Step
+Phase: Doom's Main phase, postcombat
+Mana: Swamp (152) - {T}: Add {B}.
+Mana: Mountain (186) - {T}: Add {R}.
+Land: Doom picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Add To Stack: Doom cast Tombstone, Career Criminal
+Information: BOARD cast | Tombstone, Career Criminal (mv 3) by Doom | open mana: Captain 10, House 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Tombstone, Career Criminal - Creature 2 / 2
+Add To Stack: Doom triggered Tombstone, Career Criminal targeting [Lady Loki, Agent of Chaos (117)]
+Resolve Stack: When Tombstone enters, return target Villain card from your graveyard to your hand. (Targeting: [[Lady Loki, Agent of Chaos (117)]]) [Zone Changer: Tombstone, Career Criminal (193)]
+Phase: Doom's End step
+Phase: Doom's Cleanup step
+Turn: Turn 49 (House)
+Information: BOARD turn 49 (House) | Captain | life 12 | hand 3 | lands 9 (3 untapped) | open mana 10 | commander Battlefield | creatures 6 (2 untapped): Danitha, Sword of Hope 3/2*; Kellan, the Fae-Blooded 2/2*[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5*[Sword of Light and Shadow]; Puresteel Paladin 3/2; Loran of the Third Path 3/1; Captain America, First Avenger 5/4* | hand cards: Force of Negation(3); Inspiring Vantage(land); Command Tower(land)
+Information: BOARD turn 49 (House) | Doom | life 10 | hand 2 | lands 6 (3 untapped) | open mana 8 | commander Command | creatures 1 (0 untapped): Tombstone, Career Criminal 2/2* | hand cards: Endless Ranks of HYDRA(4); Lady Loki, Agent of Chaos(6)
+Information: BOARD turn 49 (House) | House | life 16 | hand 2 | lands 9 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Evolving Wilds(land); Talisman of Indulgence(2)
+Information: BOARD threat | turn 49 | Sword of Light and Shadow (Captain) 83; Kellan, the Fae-Blooded (Captain) 50; Nazgûl Battle-Mace (Captain) 49; Captain America, First Avenger (Captain) 41; Zirda, the Dawnwaker (Captain) 33
+Phase: House's Untap step
+Phase: House's Upkeep step
+Phase: House's Draw step
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: House cast Infernal Grasp targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Infernal Grasp (mv 2) by House | open mana: Captain 10, Doom 8
+Add To Stack: House triggered Blind Obedience
+Mana: Swamp (253) - {T}: Add {B}.
+Life: Life: Captain 12 > 11
+Life: Life: Doom 10 > 9
+Life: Life: House 16 > 18
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Infernal Grasp (295), Activator: House, SpellAbility: Destroy target creature. You lose 2 life. ]
+Zone Change: Captain America, First Avenger (100) was put into Graveyard from Battlefield.
+Life: Life: House 18 > 16
+Resolve Stack: Infernal Grasp (295) - Destroy Captain America, First Avenger (100). House loses 2 life.
+Phase: House's Main phase, precombat
+Phase: House's Beginning of Combat Step
+Phase: House's Declare Attackers Step
+Phase: House's Declare Blockers Step
+Phase: House's First Strike Damage Step
+Phase: House's Combat Damage Step
+Phase: House's End of Combat Step
+Phase: House's Main phase, postcombat
+Land: House picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (291) - {T}: Add {W}.
+Land: House picked {W}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: House cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by House | open mana: Captain 10, Doom 8
+Add To Stack: House triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Mr. House, President and CEO (302), Activator: House, SpellAbility: Mr. House, President and CEO - Creature 0 / 4]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: House's End step
+Phase: House's Cleanup step
+Turn: Turn 50 (Captain)
+Information: BOARD turn 50 (Captain) | Captain | life 11 | hand 3 | lands 9 (3 untapped) | open mana 10 | commander Command | creatures 5 (2 untapped): Danitha, Sword of Hope 3/2*; Kellan, the Fae-Blooded 2/2*[Nazgûl Battle-Mace]; Zirda, the Dawnwaker 6/5*[Sword of Light and Shadow]; Puresteel Paladin 3/2; Loran of the Third Path 3/1 | hand cards: Force of Negation(3); Inspiring Vantage(land); Command Tower(land)
+Information: BOARD turn 50 (Captain) | Doom | life 9 | hand 2 | lands 6 (3 untapped) | open mana 8 | commander Command | creatures 1 (0 untapped): Tombstone, Career Criminal 2/2* | hand cards: Endless Ranks of HYDRA(4); Lady Loki, Agent of Chaos(6)
+Information: BOARD turn 50 (Captain) | House | life 16 | hand 2 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Evolving Wilds(land); Talisman of Indulgence(2)
+Information: BOARD threat | turn 50 | Sword of Light and Shadow (Captain) 80; Blind Obedience (House) 53; Kellan, the Fae-Blooded (Captain) 48; Nazgûl Battle-Mace (Captain) 47; Zirda, the Dawnwaker (Captain) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Captain triggered Inventors' Fair
+Life: Life: Captain 11 > 12
+Resolve Stack: At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (26)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Exotic Orchard (42) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Island (29) - {T}: Add {U}.
+Mana: Mistgate Pathway (43) - {T}: Add {U}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Doom 8, House 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Light and Shadow (1)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Light and Shadow (1)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Kellan, the Fae-Blooded (63) to attack Doom.
+Information: BOARD attack | Captain -> Doom | attackers 1 (power 2) | defender life 9 | untapped creatures 0 (power 0):  | open mana 8
+Add To Stack: Captain triggered Kellan, the Fae-Blooded
+Zone Change: Damocles Base, Sword of Kang (177) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Kellan, the Fae-Blooded (63)]
+Add To Stack: Captain triggered Kellan, the Fae-Blooded
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life. [Sacrificed: Damocles Base, Sword of Kang (177)]
+Phase: Captain's Declare Blockers Step
+Combat: Doom didn't block Kellan, the Fae-Blooded (63).
+Phase: Captain's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (63) deals 2 combat damage to Doom.
+Life: Life: Doom 9 > 7
+Phase: Captain's Combat Damage Step
+Damage: Kellan, the Fae-Blooded (63) deals 2 combat damage to Doom.
+Life: Life: Doom 7 > 5
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Tombstone, Career Criminal (193), House]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Tombstone, Career Criminal (193).
+Damage: Captain America, First Avenger (100) deals 1 non-combat damage to House.
+Life: Life: House 16 > 15
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Mr. House, President and CEO (302) (1 damage), Tombstone, Career Criminal (193) (1 damage) and House (1 damage).
+Zone Change: Tombstone, Career Criminal (193) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Mana: Arcane Signet (144) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Doom]
+Damage: Captain America, First Avenger (100) deals 5 non-combat damage to Doom.
+Life: Life: Doom 5 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+Doom (5 damage).
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Captain America, First Avenger (100)]
+Resolve Stack: Sword of Light and Shadow (1) -  Attach to Captain America, First Avenger (100)
+Mana: Command Tower (26) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [House]
+Damage: Captain America, First Avenger (100) deals 5 non-combat damage to House.
+Life: Life: House 15 > 10
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+House (5 damage).
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Mana: Talisman of Conviction (12) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [House]
+Damage: Captain America, First Avenger (100) deals 5 non-combat damage to House.
+Life: Life: House 10 > 5
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+House (5 damage).
+Add To Stack: Captain activated Nazgûl Battle-Mace targeting [Captain America, First Avenger (100)]
+Resolve Stack: Nazgûl Battle-Mace (35) -  Attach to Captain America, First Avenger (100)
+Mana: Battlefield Forge (70) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [House]
+Damage: Captain America, First Avenger (100) deals 5 non-combat damage to House.
+Life: Life: House 5 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+House (5 damage).
+Player Control: Captain has restored control over themself
+Player Control: Doom has restored control over themself
+Player Control: House has restored control over themself
+Player Control: Tidus has restored control over themself
+Game Outcome: Match Duration 34m : 34s
+Game Outcome: Turn 25
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Doom has lost because life total reached 0
+Game Outcome: House has lost because life total reached 0
+Game Outcome: Tidus has lost because life total reached 0
+Match Result: Captain: 1 Doom: 0 House: 0 Tidus: 0 
+
+Game Result: Captain has won

@@ -1,0 +1,191 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Ariannona (AI) deck=Doom Prevails v3
+Player: Gybrush (AI) deck=Mr House v4
+Player: Toma (AI) deck=Tidus v3
+Mulligan: Toma has mulliganed down to 7 cards.
+Mulligan: Toma has mulliganed down to 6 cards.
+Mulligan: Gybrush has kept a hand of 7 cards
+Mulligan: Toma has kept a hand of 6 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Ariannona has kept a hand of 7 cards
+Turn: Turn 1 (Gybrush)
+Information: BOARD turn 1 (Gybrush) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 1 (Gybrush) | Ariannona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Foreboding Ruins(land); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land)
+Information: BOARD turn 1 (Gybrush) | Gybrush | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Caesar, Legion's Emperor(4); Ash Barrens(land); The Soul Stone(2); Attempted Murder(2); Swamp(land); Plains(land)
+Information: BOARD turn 1 (Gybrush) | Toma | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sazh's Chocobo(1); Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Forest(land); Seaside Citadel(land)
+Phase: Gybrush's Untap step
+Phase: Gybrush's Upkeep step
+Phase: Gybrush's Draw step
+Phase: Gybrush's Main phase, precombat
+Land: Gybrush played Ash Barrens (269)
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Gybrush cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Gybrush | open mana: Captain 0, Ariannona 0, Toma 0
+Resolve Stack: Sol Ring
+Phase: Gybrush's Beginning of Combat Step
+Phase: Gybrush's Declare Attackers Step
+Phase: Gybrush's Declare Blockers Step
+Phase: Gybrush's First Strike Damage Step
+Phase: Gybrush's Combat Damage Step
+Phase: Gybrush's End of Combat Step
+Phase: Gybrush's Main phase, postcombat
+Phase: Gybrush's End step
+Phase: Gybrush's Cleanup step
+Turn: Turn 2 (Toma)
+Information: BOARD turn 2 (Toma) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 2 (Toma) | Ariannona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Foreboding Ruins(land); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land)
+Information: BOARD turn 2 (Toma) | Gybrush | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); The Soul Stone(2); Attempted Murder(2); Swamp(land); Plains(land); The Deck of Many Things(5)
+Information: BOARD turn 2 (Toma) | Toma | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sazh's Chocobo(1); Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Forest(land); Seaside Citadel(land)
+Phase: Toma's Untap step
+Phase: Toma's Upkeep step
+Phase: Toma's Draw step
+Phase: Toma's Main phase, precombat
+Land: Toma played Forest (355)
+Phase: Toma's Beginning of Combat Step
+Phase: Toma's Declare Attackers Step
+Phase: Toma's Declare Blockers Step
+Phase: Toma's First Strike Damage Step
+Phase: Toma's Combat Damage Step
+Phase: Toma's End of Combat Step
+Phase: Toma's Main phase, postcombat
+Mana: Forest (355) - {T}: Add {G}.
+Add To Stack: Toma cast Sazh's Chocobo
+Information: BOARD cast | Sazh's Chocobo (mv 1) by Toma | open mana: Captain 0, Ariannona 0, Gybrush 2
+Resolve Stack: Sazh's Chocobo - Creature 0 / 1
+Phase: Toma's End step
+Phase: Toma's Cleanup step
+Turn: Turn 3 (Captain)
+Information: BOARD turn 3 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 3 (Captain) | Ariannona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Foreboding Ruins(land); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land)
+Information: BOARD turn 3 (Captain) | Gybrush | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); The Soul Stone(2); Attempted Murder(2); Swamp(land); Plains(land); The Deck of Many Things(5)
+Information: BOARD turn 3 (Captain) | Toma | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Seaside Citadel(land); Wakka, Devoted Guardian(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Captain played Spectator Seating (78)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 4 (Ariannona)
+Information: BOARD turn 4 (Ariannona) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 4 (Ariannona) | Ariannona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Foreboding Ruins(land); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land)
+Information: BOARD turn 4 (Ariannona) | Gybrush | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); The Soul Stone(2); Attempted Murder(2); Swamp(land); Plains(land); The Deck of Many Things(5)
+Information: BOARD turn 4 (Ariannona) | Toma | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Seaside Citadel(land); Wakka, Devoted Guardian(4)
+Phase: Ariannona's Untap step
+Phase: Ariannona's Upkeep step
+Phase: Ariannona's Draw step
+Phase: Ariannona's Main phase, precombat
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Ariannona played Foreboding Ruins (162)
+Phase: Ariannona's Beginning of Combat Step
+Phase: Ariannona's Declare Attackers Step
+Phase: Ariannona's Declare Blockers Step
+Phase: Ariannona's First Strike Damage Step
+Phase: Ariannona's Combat Damage Step
+Phase: Ariannona's End of Combat Step
+Phase: Ariannona's Main phase, postcombat
+Phase: Ariannona's End step
+Phase: Ariannona's Cleanup step
+Turn: Turn 5 (Gybrush)
+Information: BOARD turn 5 (Gybrush) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 5 (Gybrush) | Ariannona | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 5 (Gybrush) | Gybrush | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); The Soul Stone(2); Attempted Murder(2); Swamp(land); Plains(land); The Deck of Many Things(5)
+Information: BOARD turn 5 (Gybrush) | Toma | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Seaside Citadel(land); Wakka, Devoted Guardian(4)
+Phase: Gybrush's Untap step
+Phase: Gybrush's Upkeep step
+Phase: Gybrush's Draw step
+Phase: Gybrush's Main phase, precombat
+Land: Gybrush played Swamp (255)
+Phase: Gybrush's Beginning of Combat Step
+Phase: Gybrush's Declare Attackers Step
+Phase: Gybrush's Declare Blockers Step
+Phase: Gybrush's First Strike Damage Step
+Phase: Gybrush's Combat Damage Step
+Phase: Gybrush's End of Combat Step
+Phase: Gybrush's Main phase, postcombat
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Gybrush cast The Soul Stone
+Information: BOARD cast | The Soul Stone (mv 2) by Gybrush | open mana: Captain 3, Ariannona 0, Toma 0
+Resolve Stack: The Soul Stone
+Phase: Gybrush's End step
+Phase: Gybrush's Cleanup step
+Turn: Turn 6 (Toma)
+Information: BOARD turn 6 (Toma) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 6 (Toma) | Ariannona | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 6 (Toma) | Gybrush | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); Attempted Murder(2); Plains(land); The Deck of Many Things(5); Reanimate(1)
+Information: BOARD turn 6 (Toma) | Toma | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sazh's Chocobo 0/1 | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Seaside Citadel(land); Wakka, Devoted Guardian(4)
+Phase: Toma's Untap step
+Phase: Toma's Upkeep step
+Phase: Toma's Draw step
+Phase: Toma's Main phase, precombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Toma played Seaside Citadel (395)
+Add To Stack: Toma triggered Sazh's Chocobo
+Resolve Stack: Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. [Zone Changer: Seaside Citadel (395)]
+Phase: Toma's Beginning of Combat Step
+Phase: Toma's Declare Attackers Step
+Combat: Toma assigned Sazh's Chocobo (316) to attack Gybrush.
+Information: BOARD attack | Toma -> Gybrush | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Toma's Declare Blockers Step
+Combat: Gybrush didn't block Sazh's Chocobo (316).
+Phase: Toma's First Strike Damage Step
+Phase: Toma's Combat Damage Step
+Damage: Sazh's Chocobo (316) deals 1 combat damage to Gybrush.
+Life: Life: Gybrush 40 > 39
+Phase: Toma's End of Combat Step
+Phase: Toma's Main phase, postcombat
+Phase: Toma's End step
+Phase: Toma's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 7 (Captain) | Ariannona | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 7 (Captain) | Gybrush | life 39 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); Attempted Murder(2); Plains(land); The Deck of Many Things(5); Reanimate(1)
+Information: BOARD turn 7 (Captain) | Toma | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Wakka, Devoted Guardian(4); Tireless Tracker(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (27)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (Ariannona)
+Information: BOARD turn 8 (Ariannona) | Captain | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Plains(land); Audacious Reshapers(3); Codsworth, Handy Helper(3); Hengegate Pathway(land); City of Brass(land); Sword of War and Peace(3)
+Information: BOARD turn 8 (Ariannona) | Ariannona | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Moonstone, Harsh Mistress(4); Extract Power(6); Exotic Orchard(land); Living Laser(5); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 8 (Ariannona) | Gybrush | life 39 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Caesar, Legion's Emperor(4); Attempted Murder(2); Plains(land); The Deck of Many Things(5); Reanimate(1)
+Information: BOARD turn 8 (Ariannona) | Toma | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Sazh's Chocobo 1/2* | hand cards: Destroy Evil(2); Yuna's Whistle(3); Sphere Grid(2); Wakka, Devoted Guardian(4); Tireless Tracker(3)
+Phase: Ariannona's Untap step
+Phase: Ariannona's Upkeep step
+Phase: Ariannona's Draw step
+Phase: Ariannona's Main phase, precombat
+Land: Ariannona played Scavenger Grounds (159)
+Land: Ariannona picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Ariannona cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Ariannona | open mana: Captain 4, Gybrush 3, Toma 1
+Resolve Stack: Arcane Signet
+Phase: Ariannona's Beginning of Combat Step
+Phase: Ariannona's Declare Attackers Step
+Phase: Ariannona's Declare Blockers Step
+Phase: Ariannona's First Strike Damage Step
+Phase: Ariannona's Combat Damage Step
+Phase: Ariannona's End of Combat Step
+Phase: Ariannona's Main phase, postcombat
+
+Game Result: unfinished (Forge closed mid-game)

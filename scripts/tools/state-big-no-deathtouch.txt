@@ -1,0 +1,8 @@
+[state]
+turn=5
+activeplayer=ai
+activephase=MAIN1
+humanlife=20
+ailife=20
+humanbattlefield=Craw Wurm;Serra Angel;Forest;Forest
+aibattlefield=Captain America, First Avenger|Id:1;Sword of Feast and Famine|AttachedTo:1;Plains;Plains;Plains;Island;Mountain;Mountain

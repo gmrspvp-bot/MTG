@@ -1,0 +1,14 @@
+Name:Toxic Deluge
+ManaCost:2 B
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 2 B PayLife<1> | ValidCards$ Creature | NumAtt$ -1 | NumDef$ -1 | IsCurse$ True | SpellDescription$ All creatures get -1/-1 until end of turn. (X=1; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<2> | ValidCards$ Creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SpellDescription$ All creatures get -2/-2 until end of turn. (X=2; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<3> | ValidCards$ Creature | NumAtt$ -3 | NumDef$ -3 | IsCurse$ True | SpellDescription$ All creatures get -3/-3 until end of turn. (X=3; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<4> | ValidCards$ Creature | NumAtt$ -4 | NumDef$ -4 | IsCurse$ True | SpellDescription$ All creatures get -4/-4 until end of turn. (X=4; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<5> | ValidCards$ Creature | NumAtt$ -5 | NumDef$ -5 | IsCurse$ True | SpellDescription$ All creatures get -5/-5 until end of turn. (X=5; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<6> | ValidCards$ Creature | NumAtt$ -6 | NumDef$ -6 | IsCurse$ True | SpellDescription$ All creatures get -6/-6 until end of turn. (X=6; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<7> | ValidCards$ Creature | NumAtt$ -7 | NumDef$ -7 | IsCurse$ True | SpellDescription$ All creatures get -7/-7 until end of turn. (X=7; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<8> | ValidCards$ Creature | NumAtt$ -8 | NumDef$ -8 | IsCurse$ True | SpellDescription$ All creatures get -8/-8 until end of turn. (X=8; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<9> | ValidCards$ Creature | NumAtt$ -9 | NumDef$ -9 | IsCurse$ True | SpellDescription$ All creatures get -9/-9 until end of turn. (X=9; fixed-X split so the AI can evaluate it.)
+A:SP$ PumpAll | Cost$ 2 B PayLife<10> | ValidCards$ Creature | NumAtt$ -10 | NumDef$ -10 | IsCurse$ True | SpellDescription$ All creatures get -10/-10 until end of turn. (X=10; fixed-X split so the AI can evaluate it.)
+Oracle:As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.

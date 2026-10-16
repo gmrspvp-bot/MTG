@@ -1,0 +1,10 @@
+﻿[state]
+turn=6
+activeplayer=ai
+activephase=MAIN2
+humanlife=40
+ailife=40
+humanbattlefield=Serra Angel;Forest
+aibattlefield=Island;Island;Plains;Plains;Swamp;Swamp;Mountain;Mountain
+aihand=Cathartic Reunion;Mountain;Swamp
+ailibrary=Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp;Island;Mountain;Grizzly Bears;Swamp

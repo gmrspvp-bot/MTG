@@ -1,0 +1,209 @@
+Player: Sam (HUMAN) deck=Captain America v6
+Player: Shardo (AI) deck=Doom Prevails v3
+Player: Janice (AI) deck=Mr House v4
+Player: Derik (AI) deck=Tidus v3
+Mulligan: Derik has mulliganed down to 7 cards.
+Mulligan: Sam has mulliganed down to 7 cards.
+Mulligan: Shardo has mulliganed down to 7 cards.
+Mulligan: Janice has mulliganed down to 7 cards.
+Mulligan: Derik has mulliganed down to 6 cards.
+Mulligan: Shardo has mulliganed down to 6 cards.
+Mulligan: Janice has mulliganed down to 6 cards.
+Mulligan: Derik has kept a hand of 6 cards
+Mulligan: Sam has kept a hand of 7 cards
+Mulligan: Shardo has kept a hand of 6 cards
+Mulligan: Janice has kept a hand of 6 cards
+Turn: Turn 1 (Derik)
+Information: BOARD turn 1 (Derik) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Clifftop Retreat(land); Spell Pierce(1); Spectacular Spider-Man(2)
+Information: BOARD turn 1 (Derik) | Shardo | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Sulfur Falls(land); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land)
+Information: BOARD turn 1 (Derik) | Janice | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Clifftop Retreat(land); Mountain(land); Circuits Act(3)
+Information: BOARD turn 1 (Derik) | Derik | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Radiant Grove(land); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Forest(land)
+Phase: Derik's Untap step
+Phase: Derik's Upkeep step
+Phase: Derik's Draw step
+Phase: Derik's Main phase, precombat
+Land: Derik played Forest (355)
+Phase: Derik's Beginning of Combat Step
+Phase: Derik's Declare Attackers Step
+Phase: Derik's Declare Blockers Step
+Phase: Derik's First Strike Damage Step
+Phase: Derik's Combat Damage Step
+Phase: Derik's End of Combat Step
+Phase: Derik's Main phase, postcombat
+Phase: Derik's End step
+Phase: Derik's Cleanup step
+Turn: Turn 2 (Sam)
+Information: BOARD turn 2 (Sam) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Clifftop Retreat(land); Spell Pierce(1); Spectacular Spider-Man(2)
+Information: BOARD turn 2 (Sam) | Shardo | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Sulfur Falls(land); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land)
+Information: BOARD turn 2 (Sam) | Janice | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Clifftop Retreat(land); Mountain(land); Circuits Act(3)
+Information: BOARD turn 2 (Sam) | Derik | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Radiant Grove(land); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Sam played Clifftop Retreat (51)
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 3 (Shardo)
+Information: BOARD turn 3 (Shardo) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3)
+Information: BOARD turn 3 (Shardo) | Shardo | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Sulfur Falls(land); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land)
+Information: BOARD turn 3 (Shardo) | Janice | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Clifftop Retreat(land); Mountain(land); Circuits Act(3)
+Information: BOARD turn 3 (Shardo) | Derik | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Radiant Grove(land); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3)
+Phase: Shardo's Untap step
+Phase: Shardo's Upkeep step
+Phase: Shardo's Draw step
+Phase: Shardo's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Shardo played Sulfur Falls (151)
+Phase: Shardo's Beginning of Combat Step
+Phase: Shardo's Declare Attackers Step
+Phase: Shardo's Declare Blockers Step
+Phase: Shardo's First Strike Damage Step
+Phase: Shardo's Combat Damage Step
+Phase: Shardo's End of Combat Step
+Phase: Shardo's Main phase, postcombat
+Phase: Shardo's End step
+Phase: Shardo's Cleanup step
+Turn: Turn 4 (Janice)
+Information: BOARD turn 4 (Janice) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3)
+Information: BOARD turn 4 (Janice) | Shardo | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Swamp(land)
+Information: BOARD turn 4 (Janice) | Janice | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Clifftop Retreat(land); Mountain(land); Circuits Act(3)
+Information: BOARD turn 4 (Janice) | Derik | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Radiant Grove(land); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3)
+Phase: Janice's Untap step
+Phase: Janice's Upkeep step
+Phase: Janice's Draw step
+Phase: Janice's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Janice played Clifftop Retreat (258)
+Phase: Janice's Beginning of Combat Step
+Phase: Janice's Declare Attackers Step
+Phase: Janice's Declare Blockers Step
+Phase: Janice's First Strike Damage Step
+Phase: Janice's Combat Damage Step
+Phase: Janice's End of Combat Step
+Phase: Janice's Main phase, postcombat
+Phase: Janice's End step
+Phase: Janice's Cleanup step
+Turn: Turn 5 (Derik)
+Information: BOARD turn 5 (Derik) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3)
+Information: BOARD turn 5 (Derik) | Shardo | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Swamp(land)
+Information: BOARD turn 5 (Derik) | Janice | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Haunted Ridge(land)
+Information: BOARD turn 5 (Derik) | Derik | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Radiant Grove(land); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3)
+Phase: Derik's Untap step
+Phase: Derik's Upkeep step
+Phase: Derik's Draw step
+Phase: Derik's Main phase, precombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Derik played Radiant Grove (404)
+Phase: Derik's Beginning of Combat Step
+Phase: Derik's Declare Attackers Step
+Phase: Derik's Declare Blockers Step
+Phase: Derik's First Strike Damage Step
+Phase: Derik's Combat Damage Step
+Phase: Derik's End of Combat Step
+Phase: Derik's Main phase, postcombat
+Phase: Derik's End step
+Phase: Derik's Cleanup step
+Turn: Turn 6 (Sam)
+Information: BOARD turn 6 (Sam) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Basilisk Collar(1); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3)
+Information: BOARD turn 6 (Sam) | Shardo | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Swamp(land)
+Information: BOARD turn 6 (Sam) | Janice | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Haunted Ridge(land)
+Information: BOARD turn 6 (Sam) | Derik | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3); Forgotten Ancient(4)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Sam | open mana: Shardo 0, Janice 0, Derik 1
+Resolve Stack: Basilisk Collar
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 7 (Shardo)
+Information: BOARD turn 7 (Shardo) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3); In the Trenches(3)
+Information: BOARD turn 7 (Shardo) | Shardo | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Swamp(land)
+Information: BOARD turn 7 (Shardo) | Janice | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Haunted Ridge(land)
+Information: BOARD turn 7 (Shardo) | Derik | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3); Forgotten Ancient(4)
+Phase: Shardo's Untap step
+Phase: Shardo's Upkeep step
+Phase: Shardo's Draw step
+Phase: Shardo's Main phase, precombat
+Land: Shardo played Swamp (155)
+Phase: Shardo's Beginning of Combat Step
+Phase: Shardo's Declare Attackers Step
+Phase: Shardo's Declare Blockers Step
+Phase: Shardo's First Strike Damage Step
+Phase: Shardo's Combat Damage Step
+Phase: Shardo's End of Combat Step
+Phase: Shardo's Main phase, postcombat
+Phase: Shardo's End step
+Phase: Shardo's Cleanup step
+Turn: Turn 8 (Janice)
+Information: BOARD turn 8 (Janice) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3); In the Trenches(3)
+Information: BOARD turn 8 (Janice) | Shardo | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 8 (Janice) | Janice | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Haunted Ridge(land)
+Information: BOARD turn 8 (Janice) | Derik | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3); Forgotten Ancient(4)
+Phase: Janice's Untap step
+Phase: Janice's Upkeep step
+Phase: Janice's Draw step
+Phase: Janice's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Janice played Haunted Ridge (283)
+Phase: Janice's Beginning of Combat Step
+Phase: Janice's Declare Attackers Step
+Phase: Janice's Declare Blockers Step
+Phase: Janice's First Strike Damage Step
+Phase: Janice's Combat Damage Step
+Phase: Janice's End of Combat Step
+Phase: Janice's Main phase, postcombat
+Phase: Janice's End step
+Phase: Janice's Cleanup step
+Turn: Turn 9 (Derik)
+Information: BOARD turn 9 (Derik) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3); In the Trenches(3)
+Information: BOARD turn 9 (Derik) | Shardo | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 9 (Derik) | Janice | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Terminate(2)
+Information: BOARD turn 9 (Derik) | Derik | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3); Forgotten Ancient(4)
+Phase: Derik's Untap step
+Phase: Derik's Upkeep step
+Phase: Derik's Draw step
+Phase: Derik's Main phase, precombat
+Phase: Derik's Beginning of Combat Step
+Phase: Derik's Declare Attackers Step
+Phase: Derik's Declare Blockers Step
+Phase: Derik's First Strike Damage Step
+Phase: Derik's Combat Damage Step
+Phase: Derik's End of Combat Step
+Phase: Derik's Main phase, postcombat
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Forest (355) - {T}: Add {G}.
+Add To Stack: Derik cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Derik | open mana: Sam 0, Shardo 4, Janice 3
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Phase: Derik's End step
+Phase: Derik's Cleanup step
+Turn: Turn 10 (Sam)
+Information: BOARD turn 10 (Sam) | Sam | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Audacious Reshapers(3); Danitha Capashen, Paragon(3); Excalibur, Sword of Eden(12); Spell Pierce(1); Spectacular Spider-Man(2); Whispersilk Cloak(3); In the Trenches(3)
+Information: BOARD turn 10 (Sam) | Shardo | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Baron Strucker, HYDRA Overlord(3); Patchwork Banner(3); Exotic Orchard(land); Chaos Warp(3); Frostboil Snarl(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 10 (Sam) | Janice | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Skithiryx, the Blight Dragon(5); Plains(land); Cathartic Reunion(2); Mountain(land); Circuits Act(3); Terminate(2)
+Information: BOARD turn 10 (Sam) | Derik | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Endless Detour(3); Lulu, Stern Guardian(3); Guiding Hydra(1); Everflowing Chalice(0); Bred for the Hunt(3); Forgotten Ancient(4)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

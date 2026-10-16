@@ -1,0 +1,1073 @@
+Player: Sam (HUMAN) deck=Captain America v6
+Player: Dakota (AI) deck=Doom Prevails v3
+Player: Matilda (AI) deck=Mr House v4
+Player: Hector (AI) deck=Tidus v3
+Mulligan: Dakota has mulliganed down to 7 cards.
+Mulligan: Matilda has mulliganed down to 7 cards.
+Mulligan: Hector has mulliganed down to 7 cards.
+Mulligan: Sam has kept a hand of 7 cards
+Mulligan: Dakota has kept a hand of 7 cards
+Mulligan: Matilda has kept a hand of 7 cards
+Mulligan: Hector has kept a hand of 7 cards
+Turn: Turn 1 (Sam)
+Information: BOARD turn 1 (Sam) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Port Town(land); Plains(land)
+Information: BOARD turn 1 (Sam) | Dakota | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Swamp(land); Loki's Scepter(3)
+Information: BOARD turn 1 (Sam) | Matilda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Blightstep Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4)
+Information: BOARD turn 1 (Sam) | Hector | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Idyllic Beachfront(land); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Sam played Port Town (80)
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 2 (Dakota)
+Information: BOARD turn 2 (Dakota) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 2 (Dakota) | Dakota | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Swamp(land); Loki's Scepter(3)
+Information: BOARD turn 2 (Dakota) | Matilda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Blightstep Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4)
+Information: BOARD turn 2 (Dakota) | Hector | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Idyllic Beachfront(land); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4)
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Land: Dakota played Swamp (154)
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Dakota cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Dakota | open mana: Sam 3, Matilda 0, Hector 0
+Resolve Stack: Skullclamp
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 3 (Matilda)
+Information: BOARD turn 3 (Matilda) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 3 (Matilda) | Dakota | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3)
+Information: BOARD turn 3 (Matilda) | Matilda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Blightstep Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4)
+Information: BOARD turn 3 (Matilda) | Hector | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Idyllic Beachfront(land); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4)
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Blightstep Pathway (215)
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Phase: Matilda's Declare Blockers Step
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 4 (Hector)
+Information: BOARD turn 4 (Hector) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 4 (Hector) | Dakota | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3)
+Information: BOARD turn 4 (Hector) | Matilda | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land)
+Information: BOARD turn 4 (Hector) | Hector | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Idyllic Beachfront(land); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4)
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Hector played Idyllic Beachfront (333)
+Phase: Hector's Beginning of Combat Step
+Phase: Hector's Declare Attackers Step
+Phase: Hector's Declare Blockers Step
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 5 (Sam)
+Information: BOARD turn 5 (Sam) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 5 (Sam) | Dakota | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3)
+Information: BOARD turn 5 (Sam) | Matilda | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land)
+Information: BOARD turn 5 (Sam) | Hector | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Sam played Clifftop Retreat (51)
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 6 (Dakota)
+Information: BOARD turn 6 (Dakota) | Sam | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 6 (Dakota) | Dakota | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Canyon Slough(land); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3)
+Information: BOARD turn 6 (Dakota) | Matilda | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land)
+Information: BOARD turn 6 (Dakota) | Hector | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Dakota played Canyon Slough (141)
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 7 (Matilda)
+Information: BOARD turn 7 (Matilda) | Sam | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 7 (Matilda) | Dakota | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3); Klaw, Master of Sound(3)
+Information: BOARD turn 7 (Matilda) | Matilda | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Ash Barrens(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land)
+Information: BOARD turn 7 (Matilda) | Hector | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Ash Barrens (269)
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Phase: Matilda's Declare Blockers Step
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 8 (Hector)
+Information: BOARD turn 8 (Hector) | Sam | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 8 (Hector) | Dakota | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3); Klaw, Master of Sound(3)
+Information: BOARD turn 8 (Hector) | Matilda | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2)
+Information: BOARD turn 8 (Hector) | Hector | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Replacement Effect: Hinterland Harbor enters tapped unless you control a Forest or an Island.
+Land: Hector played Hinterland Harbor (337)
+Land: Hector picked {G}
+Mana: Hinterland Harbor (337) - {T}: Add {G} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Hector cast Wildwood Scourge
+Information: BOARD cast | Wildwood Scourge (mv 2) by Hector | open mana: Sam 3, Dakota 1, Matilda 2
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Resolve Stack: Wildwood Scourge - Creature 0 / 0 (X=1)
+Phase: Hector's Beginning of Combat Step
+Phase: Hector's Declare Attackers Step
+Phase: Hector's Declare Blockers Step
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 9 (Sam)
+Information: BOARD turn 9 (Sam) | Sam | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Curiosity(1); Deathrender(4); Kellan, the Fae-Blooded(3); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5)
+Information: BOARD turn 9 (Sam) | Dakota | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3); Klaw, Master of Sound(3)
+Information: BOARD turn 9 (Sam) | Matilda | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2)
+Information: BOARD turn 9 (Sam) | Hector | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wildwood Scourge 1/1 | hand cards: Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Plains (88)
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Sam | open mana: Dakota 1, Matilda 2, Hector 0
+Resolve Stack: Birthright Boon (63) - Sam searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 10 (Dakota)
+Information: BOARD turn 10 (Dakota) | Sam | life 40 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 10 (Dakota) | Dakota | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Drowned Catacomb(land); Secluded Courtyard(land); Loki's Scepter(3); Klaw, Master of Sound(3)
+Information: BOARD turn 10 (Dakota) | Matilda | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2)
+Information: BOARD turn 10 (Dakota) | Hector | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wildwood Scourge 1/1 | hand cards: Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Replacement Effect: Drowned Catacomb enters tapped unless you control an Island or a Swamp.
+Land: Dakota played Drowned Catacomb (180)
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Dakota picked {B}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Add To Stack: Dakota cast Loki's Scepter
+Information: BOARD cast | Loki's Scepter (mv 3) by Dakota | open mana: Sam 3, Matilda 2, Hector 0
+Resolve Stack: Loki's Scepter
+Add To Stack: Dakota triggered Loki's Scepter targeting [Wildwood Scourge (318)]
+Resolve Stack: When Loki's Scepter enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it becomes a Villain in addition to its other types and gains haste. (Targeting: [[Wildwood Scourge (318)]]) [Zone Changer: Loki's Scepter (166)]
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Add To Stack: Dakota activated Skullclamp targeting [Wildwood Scourge (318)]
+Resolve Stack: Skullclamp (148) -  Attach to Wildwood Scourge (318)
+Zone Change: Wildwood Scourge (318) was put into Graveyard from Battlefield.
+Add To Stack: Dakota triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Wildwood Scourge (318)]
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 11 (Matilda)
+Information: BOARD turn 11 (Matilda) | Sam | life 40 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 11 (Matilda) | Dakota | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Secluded Courtyard(land); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6)
+Information: BOARD turn 11 (Matilda) | Matilda | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Shattered Sanctum(land); Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2)
+Information: BOARD turn 11 (Matilda) | Hector | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Matilda played Shattered Sanctum (210)
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Phase: Matilda's Declare Blockers Step
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 12 (Hector)
+Information: BOARD turn 12 (Hector) | Sam | life 40 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 12 (Hector) | Dakota | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Secluded Courtyard(land); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6)
+Information: BOARD turn 12 (Hector) | Matilda | life 40 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2)
+Information: BOARD turn 12 (Hector) | Hector | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Island(land); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2)
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Land: Hector played Island (344)
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Land: Hector picked {G}
+Mana: Hinterland Harbor (337) - {T}: Add {G} or {U}.
+Mana: Island (344) - {T}: Add {U}.
+Add To Stack: Hector cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Hector | open mana: Sam 3, Dakota 0, Matilda 5
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Hector's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Hector's Declare Attackers Step
+Phase: Hector's Declare Blockers Step
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 13 (Sam)
+Information: BOARD turn 13 (Sam) | Sam | life 40 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Plains(land); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 13 (Sam) | Dakota | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Secluded Courtyard(land); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6)
+Information: BOARD turn 13 (Sam) | Matilda | life 40 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2)
+Information: BOARD turn 13 (Sam) | Hector | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Plains (87)
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Sam cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Sam | open mana: Dakota 0, Matilda 5, Hector 0
+Resolve Stack: Commander's Plate
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Sam cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Sam | open mana: Dakota 0, Matilda 5, Hector 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 14 (Dakota)
+Information: BOARD turn 14 (Dakota) | Sam | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 14 (Dakota) | Dakota | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Secluded Courtyard(land); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6)
+Information: BOARD turn 14 (Dakota) | Matilda | life 40 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2)
+Information: BOARD turn 14 (Dakota) | Hector | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Dakota played Secluded Courtyard (104)
+Land: Dakota picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Add To Stack: Dakota cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Dakota | open mana: Sam 0, Matilda 5, Hector 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Dakota's Beginning of Combat Step
+Add To Stack: Dakota triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Dakota discards Dragonskull Summit (145).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Dakota]
+Add To Stack: Dakota triggered Doctor Doom, King of Latveria
+Life: Life: Matilda 40 > 38
+Life: Life: Hector 40 > 38
+Life: Life: Sam 40 > 38
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Dakota, Amount: 1]
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 15 (Matilda)
+Information: BOARD turn 15 (Matilda) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 15 (Matilda) | Dakota | life 40 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6); Sulfur Falls(land)
+Information: BOARD turn 15 (Matilda) | Matilda | life 38 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Reanimate(1); Mountain(land); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2)
+Information: BOARD turn 15 (Matilda) | Hector | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Mountain (286)
+Land: Matilda picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Blightstep Pathway (215) - {T}: Add {B}.
+Mana: Mountain (286) - {T}: Add {R}.
+Add To Stack: Matilda cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Matilda | open mana: Sam 0, Dakota 1, Hector 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Phase: Matilda's Declare Blockers Step
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 16 (Hector)
+Information: BOARD turn 16 (Hector) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 16 (Hector) | Dakota | life 40 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6); Sulfur Falls(land)
+Information: BOARD turn 16 (Hector) | Matilda | life 38 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2); Deadbeat Attendant(2)
+Information: BOARD turn 16 (Hector) | Hector | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Bred for the Hunt(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Land: Hector played Forest (354)
+Mana: Forest (354) - {T}: Add {G}.
+Mana: Island (344) - {T}: Add {U}.
+Land: Hector picked {G}
+Mana: Hinterland Harbor (337) - {T}: Add {G} or {U}.
+Add To Stack: Hector cast Bred for the Hunt
+Information: BOARD cast | Bred for the Hunt (mv 3) by Hector | open mana: Sam 0, Dakota 1, Matilda 1
+Resolve Stack: Bred for the Hunt
+Phase: Hector's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Hector's Declare Attackers Step
+Combat: Hector assigned Tidus, Yuna's Guardian (413) to attack Matilda.
+Information: BOARD attack | Hector -> Matilda | attackers 1 (power 3) | defender life 38 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Phase: Hector's Declare Blockers Step
+Combat: Matilda assigned Mr. House, President and CEO (302) to block Tidus, Yuna's Guardian (413).
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 damage to Mr. House, President and CEO (302).
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 17 (Sam)
+Information: BOARD turn 17 (Sam) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Colossus Hammer(1)
+Information: BOARD turn 17 (Sam) | Dakota | life 40 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6); Sulfur Falls(land)
+Information: BOARD turn 17 (Sam) | Matilda | life 38 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2); Deadbeat Attendant(2)
+Information: BOARD turn 17 (Sam) | Hector | life 38 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 3/3* | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Sam cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Sam | open mana: Dakota 1, Matilda 1, Hector 1
+Resolve Stack: Colossus Hammer
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Add To Stack: Sam activated Commander's Plate targeting [Captain America, First Avenger (100)]
+Resolve Stack: Commander's Plate (56) -  Attach to Captain America, First Avenger (100)
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (40)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Dakota.
+Information: BOARD attack | Sam -> Dakota | attackers 1 (power 17) | defender life 40 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 1
+Phase: Sam's Declare Blockers Step
+Combat: Dakota didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Dakota.
+Life: Life: Dakota 40 > 23
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 18 (Dakota)
+Information: BOARD turn 18 (Dakota) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 18 (Dakota) | Dakota | life 23 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Swiftfoot Boots(2); Loki, the Deceiver(4); Extract Power(6); Sulfur Falls(land)
+Information: BOARD turn 18 (Dakota) | Matilda | life 38 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2); Deadbeat Attendant(2)
+Information: BOARD turn 18 (Dakota) | Hector | life 38 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 3/3* | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Information: BOARD threat | turn 18 | Captain America, First Avenger (Sam) 112
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Dakota played Sulfur Falls (151)
+Land: Dakota picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Dakota picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Add To Stack: Dakota cast Loki, the Deceiver
+Information: BOARD cast | Loki, the Deceiver (mv 4) by Dakota | open mana: Sam 0, Matilda 1, Hector 1
+Resolve Stack: Loki, the Deceiver - Creature 4 / 4
+Phase: Dakota's Beginning of Combat Step
+Add To Stack: Dakota triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Dakota discards Swiftfoot Boots (146).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Dakota]
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 19 (Matilda)
+Information: BOARD turn 19 (Matilda) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 19 (Matilda) | Dakota | life 23 | hand 6 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4; Loki, the Deceiver 4/4 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Extract Power(6); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 19 (Matilda) | Matilda | life 38 | hand 7 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Swamp(land); Myrkul's Edict(2); Terminate(2); Deadbeat Attendant(2)
+Information: BOARD turn 19 (Matilda) | Hector | life 38 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 3/3* | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Sam) 108; Doctor Doom, King of Latveria (Dakota) 39
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Blightstep Pathway (215) - {T}: Add {B}.
+Add To Stack: Matilda cast Terminate targeting [Doctor Doom, King of Latveria (201)]
+Information: BOARD cast | Terminate (mv 2) by Matilda | open mana: Sam 0, Dakota 2, Hector 1
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (264) - Destroy Doctor Doom, King of Latveria (201). It can't be regenerated.
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Swamp (255)
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Phase: Matilda's Declare Blockers Step
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (255) - {T}: Add {B}.
+Land: Matilda picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Add To Stack: Matilda cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by Matilda | open mana: Sam 0, Dakota 2, Hector 1
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 20 (Hector)
+Information: BOARD turn 20 (Hector) | Sam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 20 (Hector) | Dakota | life 23 | hand 6 | lands 5 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Loki, the Deceiver 4/4 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Extract Power(6); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 20 (Hector) | Matilda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD turn 20 (Hector) | Hector | life 38 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 3/3* | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Yuna, Grand Summoner(4); Metastatic Evangel(2); Resourceful Defense(3)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Sam) 104
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Phase: Hector's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Hector's Declare Attackers Step
+Combat: Hector assigned Tidus, Yuna's Guardian (413) to attack Sam.
+Information: BOARD attack | Hector -> Sam | attackers 1 (power 3) | defender life 38 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Hector's Declare Blockers Step
+Combat: Sam didn't block Tidus, Yuna's Guardian (413).
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Sam.
+Life: Life: Sam 38 > 35
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Island (344) - {T}: Add {U}.
+Mana: Forest (354) - {T}: Add {G}.
+Land: Hector picked {G}
+Mana: Hinterland Harbor (337) - {T}: Add {G} or {U}.
+Add To Stack: Hector cast Yuna, Grand Summoner
+Information: BOARD cast | Yuna, Grand Summoner (mv 4) by Hector | open mana: Sam 0, Dakota 2, Matilda 0
+Resolve Stack: Yuna, Grand Summoner - Creature 1 / 5
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 21 (Sam)
+Information: BOARD turn 21 (Sam) | Sam | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 21 (Sam) | Dakota | life 23 | hand 6 | lands 5 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Loki, the Deceiver 4/4 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Extract Power(6); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 21 (Sam) | Matilda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD turn 21 (Sam) | Hector | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Metastatic Evangel(2); Resourceful Defense(3); Inspiring Call(3)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Sam) 99
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Sam cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Sam | open mana: Dakota 2, Matilda 0, Hector 0
+Resolve Stack: Steelshaper's Gift (47) - Sam searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Whispersilk Cloak
+Information: BOARD cast | Whispersilk Cloak (mv 3) by Sam | open mana: Dakota 2, Matilda 0, Hector 0
+Resolve Stack: Whispersilk Cloak
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Whispersilk Cloak (23)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Whispersilk Cloak (23)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Hector.
+Information: BOARD attack | Sam -> Hector | attackers 1 (power 17) | defender life 38 | untapped creatures 1 (power 1): Yuna, Grand Summoner 1/5 | open mana 0
+Phase: Sam's Declare Blockers Step
+Combat: Hector didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Hector.
+Life: Life: Hector 38 > 21
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 22 (Dakota)
+Information: BOARD turn 22 (Dakota) | Sam | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 22 (Dakota) | Dakota | life 23 | hand 6 | lands 5 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Loki, the Deceiver 4/4 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Extract Power(6); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 22 (Dakota) | Matilda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD turn 22 (Dakota) | Hector | life 21 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Metastatic Evangel(2); Resourceful Defense(3); Inspiring Call(3)
+Information: BOARD threat | turn 22 | Captain America, First Avenger (Sam) 208
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Land: Dakota played Island (125)
+Mana: Island (125) - {T}: Add {U}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Dakota picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Dakota picked {B}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Add To Stack: Dakota cast Extract Power
+Information: BOARD cast | Extract Power (mv 6) by Dakota | open mana: Sam 0, Matilda 0, Hector 0
+Resolve Stack: Extract Power (191) - Dakota exiles the top card of their library.  
+Add To Stack: Dakota cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Dakota | open mana: Sam 0, Matilda 0, Hector 0
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Add To Stack: Dakota cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by Dakota | open mana: Sam 0, Matilda 0, Hector 0
+Resolve Stack: Barbarian Class
+Add To Stack: Dakota cast Together Forever
+Information: BOARD cast | Together Forever (mv 2) by Dakota | open mana: Sam 0, Matilda 0, Hector 0
+Resolve Stack: Together Forever
+Add To Stack: Dakota triggered Together Forever targeting [Loki, the Deceiver (139), Kang, Temporal Tyrant (179)]
+Resolve Stack: When Together Forever enters, support 2. (Put a +1/+1 counter on each of up to two other target creatures.) (Targeting: [[Loki, the Deceiver (139), Kang, Temporal Tyrant (179)]]) [Zone Changer: Together Forever (324)]
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 23 (Matilda)
+Information: BOARD turn 23 (Matilda) | Sam | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 23 (Matilda) | Dakota | life 23 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Loki, the Deceiver 5/5; Kang, Temporal Tyrant 4/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 23 (Matilda) | Matilda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Needleverge Pathway(land); Reanimate(1); Comet, Stellar Pup(4); Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD turn 23 (Matilda) | Hector | life 21 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Metastatic Evangel(2); Resourceful Defense(3); Inspiring Call(3)
+Information: BOARD threat | turn 23 | Captain America, First Avenger (Sam) 199
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Needleverge Pathway (239)
+Mana: Blightstep Pathway (215) - {T}: Add {B}.
+Add To Stack: Matilda cast Reanimate targeting [Wildwood Scourge (318)]
+Information: BOARD cast | Reanimate (mv 1) by Matilda | open mana: Sam 0, Dakota 1, Hector 0
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Life: Life: Matilda 38 > 37
+Resolve Stack: Reanimate (249) - Return Wildwood Scourge (318) from the graveyard to the battlefield under your control. Matilda loses 1 life.
+Zone Change: Wildwood Scourge (318) was put into Graveyard from Battlefield.
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Combat: Matilda assigned Stridehangar Automaton (219) to attack Sam.
+Information: BOARD attack | Matilda -> Sam | attackers 1 (power 1) | defender life 35 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Matilda's Declare Blockers Step
+Combat: Sam didn't block Stridehangar Automaton (219).
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Damage: Stridehangar Automaton (219) deals 1 combat damage to Sam.
+Life: Life: Sam 35 > 34
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Land: Matilda picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Add To Stack: Matilda cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Matilda | open mana: Sam 0, Dakota 1, Hector 0
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Matilda activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (280) deals 5 damage to Loki, the Deceiver (139).
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Zone Change: Loki, the Deceiver (139) was put into Graveyard from Battlefield.
+Add To Stack: Matilda triggered Mr. House, President and CEO
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Matilda, Result: 4]
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 24 (Hector)
+Information: BOARD turn 24 (Hector) | Sam | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 24 (Hector) | Dakota | life 23 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 4/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 24 (Hector) | Matilda | life 37 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3; Thopter Token 2/2 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2); Swamp(land)
+Information: BOARD turn 24 (Hector) | Hector | life 21 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Shelinda, Yevon Acolyte(2); Metastatic Evangel(2); Resourceful Defense(3); Inspiring Call(3)
+Information: BOARD threat | turn 24 | Captain America, First Avenger (Sam) 191
+Phase: Hector's Untap step
+Phase: Hector's Upkeep step
+Phase: Hector's Draw step
+Phase: Hector's Main phase, precombat
+Phase: Hector's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Hector's Declare Attackers Step
+Phase: Hector's Declare Blockers Step
+Phase: Hector's First Strike Damage Step
+Phase: Hector's Combat Damage Step
+Phase: Hector's End of Combat Step
+Phase: Hector's Main phase, postcombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Hector played Seaside Citadel (395)
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Island (344) - {T}: Add {U}.
+Mana: Forest (354) - {T}: Add {G}.
+Add To Stack: Hector cast Endless Detour targeting [Whispersilk Cloak (23)]
+Information: BOARD cast | Endless Detour (mv 3) by Hector | open mana: Sam 0, Dakota 1, Matilda 1
+Resolve Stack: Endless Detour (326) - Sam puts Whispersilk Cloak (23) on the top or bottom of their library.
+Land: Yuna, Grand Summoner (336) picked {W}
+Mana: Yuna, Grand Summoner (336) - Grand Summon — {T}: Add one mana of any color. When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. 
+Land: Hector picked {G}
+Mana: Hinterland Harbor (337) - {T}: Add {G} or {U}.
+Add To Stack: Hector cast Shelinda, Yevon Acolyte
+Information: BOARD cast | Shelinda, Yevon Acolyte (mv 2) by Hector | open mana: Sam 0, Dakota 1, Matilda 1
+Add To Stack: Hector triggered Yuna, Grand Summoner (336)'s Effect
+Resolve Stack: When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. [Card: Shelinda, Yevon Acolyte (381), Activator: Hector, SpellAbility: Shelinda, Yevon Acolyte - Creature 2 / 2]
+Resolve Stack: Shelinda, Yevon Acolyte - Creature 2 / 2
+Phase: Hector's End step
+Phase: Hector's Cleanup step
+Turn: Turn 25 (Sam)
+Information: BOARD turn 25 (Sam) | Sam | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer] | hand cards: Curiosity(1); Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1)
+Information: BOARD turn 25 (Sam) | Dakota | life 23 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 4/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 25 (Sam) | Matilda | life 37 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3; Thopter Token 2/2 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2); Swamp(land)
+Information: BOARD turn 25 (Sam) | Hector | life 21 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5*; Shelinda, Yevon Acolyte 4/4 | hand cards: Metastatic Evangel(2); Resourceful Defense(3); Inspiring Call(3)
+Information: BOARD threat | turn 25 | Captain America, First Avenger (Sam) 184
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Add To Stack: Sam cast Whispersilk Cloak
+Information: BOARD cast | Whispersilk Cloak (mv 3) by Sam | open mana: Dakota 1, Matilda 1, Hector 0
+Resolve Stack: Whispersilk Cloak
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Curiosity targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Curiosity (mv 1) by Sam | open mana: Dakota 1, Matilda 1, Hector 0
+Resolve Stack: Curiosity (8) -  Attach to Captain America, First Avenger (100)
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting [Whispersilk Cloak (23)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Whispersilk Cloak (23)]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Hector.
+Information: BOARD attack | Sam -> Hector | attackers 1 (power 17) | defender life 21 | untapped creatures 2 (power 7): Tidus, Yuna's Guardian 3/3; Shelinda, Yevon Acolyte 4/4 | open mana 0
+Phase: Sam's Declare Blockers Step
+Combat: Hector didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Hector.
+Life: Life: Hector 21 > 4
+Add To Stack: Sam triggered Curiosity
+Resolve Stack: Whenever enchanted creature deals damage to an opponent, you may draw a card. [Damage Source: Captain America, First Avenger (100), Damaged: Hector, Amount: 17]
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 26 (Dakota)
+Information: BOARD turn 26 (Dakota) | Sam | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1); Bureau Headmaster(2)
+Information: BOARD turn 26 (Dakota) | Dakota | life 23 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 4/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Foreboding Ruins(land); Batroc the Leaper(2)
+Information: BOARD turn 26 (Dakota) | Matilda | life 37 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3; Thopter Token 2/2 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2); Swamp(land)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Sam) 288
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Dakota picked {B}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Dakota picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Add To Stack: Dakota cast Lethal Scheme targeting [Comet, Stellar Pup (280)]
+Information: BOARD cast | Lethal Scheme (mv 4) by Dakota | open mana: Sam 0, Matilda 1
+Zone Change: Comet, Stellar Pup (280) was put into Graveyard from Battlefield.
+Resolve Stack: Lethal Scheme (199) - Destroy Comet, Stellar Pup (280). 
+Phase: Dakota's Main phase, precombat
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Dakota played Foreboding Ruins (162)
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Add To Stack: Dakota activated Barbarian Class
+Resolve Stack: Barbarian Class (243) - Level 2
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 27 (Matilda)
+Information: BOARD turn 27 (Matilda) | Sam | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1); Bureau Headmaster(2)
+Information: BOARD turn 27 (Matilda) | Dakota | life 23 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 4/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 27 (Matilda) | Matilda | life 37 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3; Thopter Token 2/2 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2); Swamp(land)
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Sam) 276
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Land: Matilda played Swamp (254)
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Combat: Matilda assigned Robot Token (419), Thopter Token (420) and Stridehangar Automaton (219) to attack Sam.
+Information: BOARD attack | Matilda -> Sam | attackers 3 (power 6) | defender life 34 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Matilda's Declare Blockers Step
+Combat: Sam didn't block Robot Token (419).
+Sam didn't block Thopter Token (420).
+Sam didn't block Stridehangar Automaton (219).
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Damage: Robot Token (419) deals 3 combat damage to Sam.
+Damage: Thopter Token (420) deals 2 combat damage to Sam.
+Damage: Stridehangar Automaton (219) deals 1 combat damage to Sam.
+Life: Life: Sam 34 > 28
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Mana: Blightstep Pathway (215) - {T}: Add {B}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Swamp (254) - {T}: Add {B}.
+Land: Matilda picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Add To Stack: Matilda cast Attempted Murder
+Information: BOARD cast | Attempted Murder (mv 2) by Matilda | open mana: Sam 0, Dakota 1
+Resolve Stack: Attempted Murder (299) - Roll 5 d6. For each even result, put two -1/-1 counters on Kang, Temporal Tyrant (179). For each odd result, Matilda creates a 1/2 blue Bird creature token with flying named Storm Crow.
+Zone Change: Kang, Temporal Tyrant (179) was put into Graveyard from Battlefield.
+Add To Stack: Matilda triggered Mr. House, President and CEO
+Add To Stack: Matilda triggered Mr. House, President and CEO
+Add To Stack: Matilda triggered Mr. House, President and CEO
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Matilda, Result: 6]
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Matilda, Result: 5]
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Matilda, Result: 4]
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 28 (Sam)
+Information: BOARD turn 28 (Sam) | Sam | life 28 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Sigarda's Aid(1); Bureau Headmaster(2)
+Information: BOARD turn 28 (Sam) | Dakota | life 23 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 28 (Sam) | Matilda | life 37 | hand 2 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 12 (9 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3*; Thopter Token 2/2*; Storm Crow 1/2 x2; Robot Token 3/3 x3; Thopter Token 2/2 x3 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Sam) 265; Mr. House, President and CEO (Matilda) 55
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Sam cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Sam | open mana: Dakota 1, Matilda 1
+Resolve Stack: Sigarda's Aid
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting []
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Matilda.
+Information: BOARD attack | Sam -> Matilda | attackers 1 (power 17) | defender life 37 | untapped creatures 9 (power 17): Mr. House, President and CEO 0/4; Storm Crow 1/2 x2; Robot Token 3/3 x3; Thopter Token 2/2 x3 | open mana 1
+Phase: Sam's Declare Blockers Step
+Combat: Matilda didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Matilda.
+Life: Life: Matilda 37 > 20
+Add To Stack: Sam triggered Curiosity
+Resolve Stack: Whenever enchanted creature deals damage to an opponent, you may draw a card. [Damage Source: Captain America, First Avenger (100), Damaged: Matilda, Amount: 17]
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 29 (Dakota)
+Information: BOARD turn 29 (Dakota) | Sam | life 28 | hand 7 | lands 4 (3 untapped) | open mana 7 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Bureau Headmaster(2); Flawless Maneuver(3); Swords to Plowshares(1)
+Information: BOARD turn 29 (Dakota) | Dakota | life 23 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 29 (Dakota) | Matilda | life 20 | hand 2 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 12 (9 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Robot Token 3/3*; Thopter Token 2/2*; Storm Crow 1/2 x2; Robot Token 3/3 x3; Thopter Token 2/2 x3 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD threat | turn 29 | Captain America, First Avenger (Sam) 288; Mr. House, President and CEO (Matilda) 53
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Land: Dakota picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Island (125) - {T}: Add {U}.
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Dakota activated Barbarian Class
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Sam cast Swords to Plowshares targeting [Mr. House, President and CEO (302)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Sam | open mana: Dakota 9, Matilda 1
+Zone Change: Mr. House, President and CEO (302) was put into Exile from Battlefield.
+Resolve Stack: Swords to Plowshares (77) - Exile Mr. House, President and CEO (302). Matilda gains life equal to its power.
+Resolve Stack: Barbarian Class (243) - Level 3
+Land: Dakota picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Land: Dakota picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Mana: Secluded Courtyard (104) - {T}: Add {C}.
+Add To Stack: Dakota cast Kang Prime
+Information: BOARD cast | Kang Prime (mv 5) by Dakota | open mana: Sam 6, Matilda 1
+Resolve Stack: Kang Prime - Creature 3 / 5
+Add To Stack: Dakota triggered Kang Prime
+Resolve Stack: Whenever Kang Prime enters or attacks, exile cards from the top of your library until you exile a nonland card. Put two time counters on that card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.) [Zone Changer: Kang Prime (147)]
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 30 (Matilda)
+Information: BOARD turn 30 (Matilda) | Sam | life 28 | hand 6 | lands 4 (2 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Bureau Headmaster(2); Flawless Maneuver(3)
+Information: BOARD turn 30 (Matilda) | Dakota | life 23 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kang Prime 3/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 30 (Matilda) | Matilda | life 20 | hand 2 | lands 7 (0 untapped) | open mana 1 | commander Command | creatures 11 (8 untapped): Stridehangar Automaton 1/4*; Robot Token 3/3*; Thopter Token 2/2*; Storm Crow 1/2 x2; Robot Token 3/3 x3; Thopter Token 2/2 x3 | hand cards: Myrkul's Edict(2); Deadbeat Attendant(2)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Sam) 276
+Phase: Matilda's Untap step
+Phase: Matilda's Upkeep step
+Phase: Matilda's Draw step
+Phase: Matilda's Main phase, precombat
+Add To Stack: Matilda cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Matilda | open mana: Sam 6, Dakota 0
+Resolve Stack: Welding Jar
+Phase: Matilda's Beginning of Combat Step
+Phase: Matilda's Declare Attackers Step
+Combat: Matilda assigned Robot Token (419), Robot Token (429), Robot Token (434), Robot Token (438) and Stridehangar Automaton (219) to attack Sam.
+Information: BOARD attack | Matilda -> Sam | attackers 5 (power 13) | defender life 28 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Matilda's Declare Blockers Step
+Combat: Sam didn't block Robot Token (419).
+Sam didn't block Robot Token (429).
+Sam didn't block Robot Token (434).
+Sam didn't block Robot Token (438).
+Sam didn't block Stridehangar Automaton (219).
+Phase: Matilda's First Strike Damage Step
+Phase: Matilda's Combat Damage Step
+Damage: Robot Token (419) deals 3 combat damage to Sam.
+Damage: Robot Token (429) deals 3 combat damage to Sam.
+Damage: Robot Token (434) deals 3 combat damage to Sam.
+Damage: Robot Token (438) deals 3 combat damage to Sam.
+Damage: Stridehangar Automaton (219) deals 1 combat damage to Sam.
+Life: Life: Sam 28 > 15
+Phase: Matilda's End of Combat Step
+Phase: Matilda's Main phase, postcombat
+Land: Matilda picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Blightstep Pathway (215) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Add To Stack: Matilda cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Matilda | open mana: Sam 6, Dakota 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: Matilda cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Matilda | open mana: Sam 6, Dakota 0
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Matilda triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (279)]
+Phase: Matilda's End step
+Phase: Matilda's Cleanup step
+Turn: Turn 31 (Sam)
+Information: BOARD turn 31 (Sam) | Sam | life 15 | hand 6 | lands 4 (2 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak] | hand cards: Deathrender(4); Stroke of Midnight(3); Auxiliary Boosters(5); Syncopate(1); Bureau Headmaster(2); Flawless Maneuver(3)
+Information: BOARD turn 31 (Sam) | Dakota | life 23 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kang Prime 3/5 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 31 (Sam) | Matilda | life 20 | hand 1 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 13 (8 untapped): Stridehangar Automaton 1/4*; Robot Token 3/3* x4; Thopter Token 2/2 x4; Storm Crow 1/2 x2; Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Myrkul's Edict(2)
+Information: BOARD threat | turn 31 | Captain America, First Avenger (Sam) 265; Robot Token (Matilda) 33
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Land: Sam played Riverglide Pathway (95)
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Sam cast Bureau Headmaster
+Information: BOARD cast | Bureau Headmaster (mv 2) by Sam | open mana: Dakota 0, Matilda 1
+Resolve Stack: Bureau Headmaster - Creature 2 / 2
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Matilda.
+Information: BOARD attack | Sam -> Matilda | attackers 1 (power 17) | defender life 20 | untapped creatures 8 (power 11): Thopter Token 2/2 x4; Storm Crow 1/2 x2; Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | open mana 1
+Phase: Sam's Declare Blockers Step
+Combat: Matilda didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Matilda.
+Life: Life: Matilda 20 > 3
+Add To Stack: Sam triggered Curiosity
+Resolve Stack: Whenever enchanted creature deals damage to an opponent, you may draw a card. [Damage Source: Captain America, First Avenger (100), Damaged: Matilda, Amount: 17]
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Riverglide Pathway (95) - {T}: Add {U}.
+Mana: Port Town (80) - {T}: Add {W} or {U}.
+Add To Stack: Sam cast Stroke of Midnight targeting [Kang Prime (147)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Sam | open mana: Dakota 0
+Zone Change: Kang Prime (147) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (9) - Destroy Kang Prime (147). 
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 32 (Dakota)
+Information: BOARD turn 32 (Dakota) | Sam | life 15 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak]; Bureau Headmaster 2/2 | hand cards: Deathrender(4); Auxiliary Boosters(5); Syncopate(1); Flawless Maneuver(3); Sculpting Steel(3)
+Information: BOARD turn 32 (Dakota) | Dakota | life 23 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Typhoid Mary, Fractured(3); Black Cat, Cunning Thief(5); Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD threat | turn 32 | Captain America, First Avenger (Sam) 288; Curiosity (Sam) 38
+Phase: Dakota's Untap step
+Phase: Dakota's Upkeep step
+Add To Stack: Dakota triggered Sol Ring
+Resolve Stack: At the beginning of your upkeep, if this card is suspended, remove a time counter from it [Phase: Dakota]
+Phase: Dakota's Draw step
+Phase: Dakota's Main phase, precombat
+Land: Dakota played Swamp (152)
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Swamp (152) - {T}: Add {B}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Dakota picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Dakota picked {B}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Add To Stack: Dakota cast Black Cat, Cunning Thief
+Information: BOARD cast | Black Cat, Cunning Thief (mv 5) by Dakota | open mana: Sam 0
+Resolve Stack: Black Cat, Cunning Thief - Creature 2 / 3
+Add To Stack: Dakota triggered Black Cat, Cunning Thief targeting [Sam]
+Resolve Stack: When Black Cat enters, look at the top nine cards of target opponent's library, exile two of them face down, then put the rest on the bottom of their library in a random order. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way. (Targeting: [[Sam]]) [Zone Changer: Black Cat, Cunning Thief (190)]
+Land: Dakota picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Add To Stack: Dakota activated Skullclamp targeting [Human Token (441)]
+Resolve Stack: Skullclamp (148) -  Attach to Human Token (441)
+Zone Change: Human Token (441) was put into Graveyard from Battlefield.
+Add To Stack: Dakota triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Human Token (441)]
+Phase: Dakota's Beginning of Combat Step
+Phase: Dakota's Declare Attackers Step
+Phase: Dakota's Declare Blockers Step
+Phase: Dakota's First Strike Damage Step
+Phase: Dakota's Combat Damage Step
+Phase: Dakota's End of Combat Step
+Phase: Dakota's Main phase, postcombat
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Mana: Secluded Courtyard (104) - {T}: Add {C}.
+Add To Stack: Dakota cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Dakota | open mana: Sam 0
+Resolve Stack: Excalibur, Sword of Eden
+Phase: Dakota's End step
+Phase: Dakota's Cleanup step
+Turn: Turn 33 (Sam)
+Information: BOARD turn 33 (Sam) | Sam | life 15 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer,Whispersilk Cloak]; Bureau Headmaster 2/2 | hand cards: Deathrender(4); Auxiliary Boosters(5); Syncopate(1); Flawless Maneuver(3); Sculpting Steel(3)
+Information: BOARD turn 33 (Sam) | Dakota | life 23 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Black Cat, Cunning Thief 2/3 | hand cards: Typhoid Mary, Fractured(3); Klaw, Master of Sound(3); Batroc the Leaper(2); Scorched Geyser(land); Toxic Deluge(3)
+Information: BOARD threat | turn 33 | Captain America, First Avenger (Sam) 276; Skullclamp (Dakota) 41; Curiosity (Sam) 37
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Phase: Sam's Beginning of Combat Step
+Add To Stack: Sam triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Sam]
+Phase: Sam's Declare Attackers Step
+Combat: Sam assigned Captain America, First Avenger (100) to attack Dakota.
+Information: BOARD attack | Sam -> Dakota | attackers 1 (power 17) | defender life 23 | untapped creatures 1 (power 2): Black Cat, Cunning Thief 2/3 | open mana 0
+Phase: Sam's Declare Blockers Step
+Combat: Dakota didn't block Captain America, First Avenger (100).
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Dakota.
+Life: Life: Dakota 23 > 6
+Player Control: Sam has restored control over themself
+Player Control: Dakota has restored control over themself
+Player Control: Matilda has restored control over themself
+Player Control: Hector has restored control over themself
+Game Outcome: Match Duration 19m : 05s
+Game Outcome: Turn 17
+Game Outcome: Sam has won because all opponents have lost
+Game Outcome: Dakota has lost due to accumulation of 21 damage from generals
+Game Outcome: Matilda has lost due to accumulation of 21 damage from generals
+Game Outcome: Hector has lost due to accumulation of 21 damage from generals
+Match Result: Sam: 1 Dakota: 0 Matilda: 0 Hector: 0 
+
+Game Result: Sam has won

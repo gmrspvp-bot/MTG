@@ -1,0 +1,9 @@
+[state]
+turn=5
+activeplayer=ai
+activephase=MAIN1
+humanlife=20
+ailife=20
+humanbattlefield=Grizzly Bears;Forest;Forest
+aibattlefield=Plains;Plains;Plains;Island;Mountain;Mountain
+aihand=Captain America, First Avenger

@@ -1,0 +1,10 @@
+﻿[state]
+turn=6
+humanlife=40
+ailife=40
+activeplayer=human
+activephase=MAIN1
+humanbattlefield=Serra Angel|Id:5;Swamp;Swamp;Swamp
+aibattlefield=Mr. House, President and CEO|Id:1;Mountain;Mountain;Swamp;Plains
+aihand=Wyll's Reversal
+humanputonstack=Murder:SP->1

@@ -1,0 +1,1263 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Nathan Voidbringer (AI) deck=Doom Prevails v3
+Player: Mujarin (AI) deck=Mr House v4
+Player: Lloyanda (AI) deck=Tidus v3
+Mulligan: Nathan Voidbringer has mulliganed down to 7 cards.
+Mulligan: Nathan Voidbringer has mulliganed down to 6 cards.
+Mulligan: Mujarin has kept a hand of 7 cards
+Mulligan: Lloyanda has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Nathan Voidbringer has kept a hand of 6 cards
+Turn: Turn 1 (Mujarin)
+Information: BOARD turn 1 (Mujarin) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Colossus Hammer(1); Lightning Bolt(1)
+Information: BOARD turn 1 (Mujarin) | Nathan Voidbringer | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Villainous Hideout(land)
+Information: BOARD turn 1 (Mujarin) | Mujarin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); Fountainport(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Welding Jar(0)
+Information: BOARD turn 1 (Mujarin) | Lloyanda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Sol Ring(1); Glacial Fortress(land)
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Fountainport (212)
+Add To Stack: Mujarin cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Mujarin | open mana: Captain 0, Nathan Voidbringer 0, Lloyanda 0
+Resolve Stack: Welding Jar
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 2 (Lloyanda)
+Information: BOARD turn 2 (Lloyanda) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Colossus Hammer(1); Lightning Bolt(1)
+Information: BOARD turn 2 (Lloyanda) | Nathan Voidbringer | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Villainous Hideout(land)
+Information: BOARD turn 2 (Lloyanda) | Mujarin | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Sulfurous Springs(land)
+Information: BOARD turn 2 (Lloyanda) | Lloyanda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Sol Ring(1); Glacial Fortress(land)
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Land: Lloyanda played Brushland (411)
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Lloyanda cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 0, Mujarin 1
+Resolve Stack: Sol Ring
+Phase: Lloyanda's Beginning of Combat Step
+Phase: Lloyanda's Declare Attackers Step
+Phase: Lloyanda's Declare Blockers Step
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 3 (Captain)
+Information: BOARD turn 3 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Colossus Hammer(1); Lightning Bolt(1)
+Information: BOARD turn 3 (Captain) | Nathan Voidbringer | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Villainous Hideout(land)
+Information: BOARD turn 3 (Captain) | Mujarin | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Sulfurous Springs(land)
+Information: BOARD turn 3 (Captain) | Lloyanda | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Glacial Fortress(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Shivan Reef (20)
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Nathan Voidbringer 0, Mujarin 1, Lloyanda 2
+Resolve Stack: Colossus Hammer
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 4 (Nathan Voidbringer)
+Information: BOARD turn 4 (Nathan Voidbringer) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Lightning Bolt(1); Skullclamp(1)
+Information: BOARD turn 4 (Nathan Voidbringer) | Nathan Voidbringer | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Villainous Hideout(land)
+Information: BOARD turn 4 (Nathan Voidbringer) | Mujarin | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Sulfurous Springs(land)
+Information: BOARD turn 4 (Nathan Voidbringer) | Lloyanda | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Glacial Fortress(land)
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Land: Nathan Voidbringer played Villainous Hideout (102)
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 5 (Mujarin)
+Information: BOARD turn 5 (Mujarin) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Lightning Bolt(1); Skullclamp(1)
+Information: BOARD turn 5 (Mujarin) | Nathan Voidbringer | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 5 (Mujarin) | Mujarin | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Sulfurous Springs(land)
+Information: BOARD turn 5 (Mujarin) | Lloyanda | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Glacial Fortress(land)
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Sulfurous Springs (266)
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 6 (Lloyanda)
+Information: BOARD turn 6 (Lloyanda) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Lightning Bolt(1); Skullclamp(1)
+Information: BOARD turn 6 (Lloyanda) | Nathan Voidbringer | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 6 (Lloyanda) | Mujarin | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Mountain(land)
+Information: BOARD turn 6 (Lloyanda) | Lloyanda | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Tireless Tracker(3); Blitzball Stadium(1); Forest(land); Seaside Citadel(land); Glacial Fortress(land)
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Phase: Lloyanda's Beginning of Combat Step
+Phase: Lloyanda's Declare Attackers Step
+Phase: Lloyanda's Declare Blockers Step
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Lloyanda played Seaside Citadel (395)
+Land: Lloyanda picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Lloyanda.
+Life: Life: Lloyanda 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Add To Stack: Lloyanda cast Tireless Tracker
+Information: BOARD cast | Tireless Tracker (mv 3) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 1, Mujarin 4
+Resolve Stack: Tireless Tracker - Creature 3 / 2
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Exotic Orchard(land); Sword of War and Peace(3); Lightning Bolt(1); Skullclamp(1)
+Information: BOARD turn 7 (Captain) | Nathan Voidbringer | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 7 (Captain) | Mujarin | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Mountain(land)
+Information: BOARD turn 7 (Captain) | Lloyanda | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tireless Tracker 3/2 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Forest(land); Glacial Fortress(land); Luminous Broodmoth(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Exotic Orchard (41)
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Captain | open mana: Nathan Voidbringer 1, Mujarin 4, Lloyanda 0
+Resolve Stack: Skullclamp
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (Nathan Voidbringer)
+Information: BOARD turn 8 (Nathan Voidbringer) | Captain | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Sword of War and Peace(3); Lightning Bolt(1); Mountain(land)
+Information: BOARD turn 8 (Nathan Voidbringer) | Nathan Voidbringer | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Talisman of Indulgence(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 8 (Nathan Voidbringer) | Mujarin | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Mountain(land)
+Information: BOARD turn 8 (Nathan Voidbringer) | Lloyanda | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tireless Tracker 3/2 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Forest(land); Glacial Fortress(land); Luminous Broodmoth(4)
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Land: Nathan Voidbringer played Mountain (187)
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Add To Stack: Nathan Voidbringer cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Nathan Voidbringer | open mana: Captain 3, Mujarin 4, Lloyanda 0
+Resolve Stack: Talisman of Indulgence
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 9 (Mujarin)
+Information: BOARD turn 9 (Mujarin) | Captain | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Sword of War and Peace(3); Lightning Bolt(1); Mountain(land)
+Information: BOARD turn 9 (Mujarin) | Nathan Voidbringer | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 9 (Mujarin) | Mujarin | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Windbrisk Heights(land); Plains(land); Mountain(land)
+Information: BOARD turn 9 (Mujarin) | Lloyanda | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tireless Tracker 3/2 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Forest(land); Glacial Fortress(land); Luminous Broodmoth(4)
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: Mujarin played Windbrisk Heights (273)
+Add To Stack: Mujarin triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (273)]
+Mana: Fountainport (212) - {T}: Add {C}.
+Add To Stack: Mujarin cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Mujarin | open mana: Captain 3, Nathan Voidbringer 3, Lloyanda 0
+Resolve Stack: Skullclamp
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 10 (Lloyanda)
+Information: BOARD turn 10 (Lloyanda) | Captain | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Sword of War and Peace(3); Lightning Bolt(1); Mountain(land)
+Information: BOARD turn 10 (Lloyanda) | Nathan Voidbringer | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 10 (Lloyanda) | Mujarin | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 10 (Lloyanda) | Lloyanda | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tireless Tracker 3/2 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Forest(land); Glacial Fortress(land); Luminous Broodmoth(4)
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Land: Lloyanda played Forest (350)
+Add To Stack: Lloyanda triggered Tireless Tracker
+Resolve Stack: Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.") [Zone Changer: Forest (350)]
+Land: Lloyanda picked {U}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Land: Lloyanda picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Lloyanda.
+Life: Life: Lloyanda 39 > 38
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Lloyanda cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Lloyanda | open mana: Captain 3, Nathan Voidbringer 3, Mujarin 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: devLloyanda's Beginning of Combat Step
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tireless Tracker (366) to attack Mujarin.
+Information: BOARD attack | Lloyanda -> Mujarin | attackers 1 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Lloyanda's Declare Blockers Step
+Combat: Mujarin didn't block Tireless Tracker (366).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tireless Tracker (366) deals 3 combat damage to Mujarin.
+Life: Life: Mujarin 40 > 37
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 11 (Captain)
+Information: BOARD turn 11 (Captain) | Captain | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Danitha, Sword of Hope(3); Sword of War and Peace(3); Mountain(land); Lightning Bolt(1)
+Information: BOARD turn 11 (Captain) | Nathan Voidbringer | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 11 (Captain) | Mujarin | life 37 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 11 (Captain) | Lloyanda | life 38 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Tireless Tracker 3/2*; Tidus, Yuna's Guardian 3/3 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Glacial Fortress(land); Luminous Broodmoth(4); Voidslime(3)
+Information: BOARD threat | turn 11 | Tireless Tracker (Lloyanda) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Pillarverge Pathway (37)
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Sword of War and Peace
+Information: BOARD cast | Sword of War and Peace (mv 3) by Captain | open mana: Nathan Voidbringer 3, Mujarin 3, Lloyanda 2
+Resolve Stack: Sword of War and Peace
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 12 (Nathan Voidbringer)
+Information: BOARD turn 12 (Nathan Voidbringer) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Danitha, Sword of Hope(3); Mountain(land); Lightning Bolt(1); Commander's Plate(1)
+Information: BOARD turn 12 (Nathan Voidbringer) | Nathan Voidbringer | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Foreboding Ruins(land); Madame Hydra(4)
+Information: BOARD turn 12 (Nathan Voidbringer) | Mujarin | life 37 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 12 (Nathan Voidbringer) | Lloyanda | life 38 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Tireless Tracker 3/2*; Tidus, Yuna's Guardian 3/3 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Glacial Fortress(land); Luminous Broodmoth(4); Voidslime(3)
+Information: BOARD threat | turn 12 | Tireless Tracker (Lloyanda) 30
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Nathan Voidbringer played Foreboding Ruins (162)
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 13 (Mujarin)
+Information: BOARD turn 13 (Mujarin) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Danitha, Sword of Hope(3); Mountain(land); Lightning Bolt(1); Commander's Plate(1)
+Information: BOARD turn 13 (Mujarin) | Nathan Voidbringer | life 40 | hand 5 | lands 3 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Luxury Suite(land)
+Information: BOARD turn 13 (Mujarin) | Mujarin | life 37 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 13 (Mujarin) | Lloyanda | life 38 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Tireless Tracker 3/2*; Tidus, Yuna's Guardian 3/3 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Glacial Fortress(land); Luminous Broodmoth(4); Voidslime(3)
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Mujarin played Luxury Suite (235)
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Land: Mujarin picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Land: Mujarin picked {R}
+Damage: Sulfurous Springs (266) deals 1 non-combat damage to Mujarin.
+Life: Life: Mujarin 37 > 36
+Mana: Sulfurous Springs (266) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Mujarin cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Mujarin | open mana: Captain 0, Nathan Voidbringer 5, Lloyanda 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Zone Change: Clue Token (615) was put into Graveyard from Battlefield.
+Add To Stack: Lloyanda activated Clue Token
+Add To Stack: Lloyanda triggered Tireless Tracker
+Resolve Stack: Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker. [Sacrificed: Clue Token (615)]
+Resolve Stack: Clue Token (615) - Lloyanda draws a card.
+Phase: Mujarin's Cleanup step
+Turn: Turn 14 (Lloyanda)
+Information: BOARD turn 14 (Lloyanda) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Danitha, Sword of Hope(3); Mountain(land); Lightning Bolt(1); Commander's Plate(1)
+Information: BOARD turn 14 (Lloyanda) | Nathan Voidbringer | life 40 | hand 5 | lands 3 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Luxury Suite(land)
+Information: BOARD turn 14 (Lloyanda) | Mujarin | life 36 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 14 (Lloyanda) | Lloyanda | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tireless Tracker 4/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Vineglimmer Snarl(land); Blitzball Stadium(1); Glacial Fortress(land); Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2)
+Information: BOARD threat | turn 14 | Tireless Tracker (Lloyanda) 42
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Lloyanda played Glacial Fortress (389)
+Add To Stack: Lloyanda triggered Tireless Tracker
+Resolve Stack: Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.") [Zone Changer: Glacial Fortress (389)]
+Land: Lloyanda picked {U}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Lloyanda cast Blitzball Stadium
+Information: BOARD cast | Blitzball Stadium (mv 5) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 5, Mujarin 1
+Resolve Stack: Blitzball Stadium (X=4)
+Add To Stack: Lloyanda triggered Blitzball Stadium targeting [Tireless Tracker (366), Tidus, Yuna's Guardian (413)]
+Resolve Stack: When this artifact enters, support X. (Put a +1/+1 counter on each of up to X target creatures.) (Targeting: [[Tireless Tracker (366), Tidus, Yuna's Guardian (413)]]) [Zone Changer: Blitzball Stadium (400)]
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tireless Tracker (366) and Tidus, Yuna's Guardian (413) to attack Mujarin.
+Information: BOARD attack | Lloyanda -> Mujarin | attackers 2 (power 9) | defender life 36 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Phase: Lloyanda's Declare Blockers Step
+Combat: Mujarin didn't block Tireless Tracker (366).
+Mujarin didn't block Tidus, Yuna's Guardian (413).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tireless Tracker (366) deals 5 combat damage to Mujarin.
+Damage: Tidus, Yuna's Guardian (413) deals 4 combat damage to Mujarin.
+Life: Life: Mujarin 36 > 27
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Mujarin, Amount: 9]
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 15 (Captain)
+Information: BOARD turn 15 (Captain) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Danitha, Sword of Hope(3); Mountain(land); Lightning Bolt(1); Commander's Plate(1)
+Information: BOARD turn 15 (Captain) | Nathan Voidbringer | life 40 | hand 5 | lands 3 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Luxury Suite(land)
+Information: BOARD turn 15 (Captain) | Mujarin | life 27 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 15 (Captain) | Lloyanda | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tireless Tracker 5/4*; Tidus, Yuna's Guardian 4/4* | hand cards: Vineglimmer Snarl(land); Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2); Bane of Progress(6)
+Information: BOARD threat | turn 15 | Tireless Tracker (Lloyanda) 84; Tidus, Yuna's Guardian (Lloyanda) 37
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: devCaptain's Main phase, precombat
+Damage: Shivan Reef (20) deals 1 non-combat damage to Captain.
+Life: Life: Captain 40 > 39
+Mana: Shivan Reef (20) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Nathan Voidbringer 5, Mujarin 1, Lloyanda 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Land: Captain played Mountain (79)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of War and Peace (94)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of War and Peace (94)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 16 (Nathan Voidbringer)
+Information: BOARD turn 16 (Nathan Voidbringer) | Captain | life 39 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Danitha, Sword of Hope(3); Lightning Bolt(1); Commander's Plate(1); Curiosity(1)
+Information: BOARD turn 16 (Nathan Voidbringer) | Nathan Voidbringer | life 40 | hand 5 | lands 3 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Luxury Suite(land)
+Information: BOARD turn 16 (Nathan Voidbringer) | Mujarin | life 27 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 16 (Nathan Voidbringer) | Lloyanda | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tireless Tracker 5/4*; Tidus, Yuna's Guardian 4/4* | hand cards: Vineglimmer Snarl(land); Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2); Bane of Progress(6)
+Information: BOARD threat | turn 16 | Tireless Tracker (Lloyanda) 81; Tidus, Yuna's Guardian (Lloyanda) 36
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Nathan Voidbringer played Luxury Suite (126)
+Land: Villainous Hideout (102) picked {U}
+Mana: Villainous Hideout (102) - {T}: Add one mana of any color. Spend this mana only to cast a Villain spell or to activate an ability of a Villain source.
+Land: Nathan Voidbringer picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Mana: Mountain (187) - {T}: Add {R}.
+Land: Nathan Voidbringer picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Nathan Voidbringer cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Nathan Voidbringer | open mana: Captain 1, Mujarin 1, Lloyanda 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Add To Stack: Nathan Voidbringer triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Lightning Bolt targeting [Doctor Doom, King of Latveria (201)]
+Information: BOARD cast | Lightning Bolt (mv 1) by Captain | open mana: Nathan Voidbringer 3, Mujarin 1, Lloyanda 0
+Damage: Lightning Bolt (1) deals 3 damage to Doctor Doom, King of Latveria (201).
+Resolve Stack: Lightning Bolt (1) - Lightning Bolt (1) deals 3 damage to Doctor Doom, King of Latveria (201).
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Resolve Stack: Doctor Doom, King of Latveria ability fizzles.
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 17 (Mujarin)
+Information: BOARD turn 17 (Mujarin) | Captain | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Danitha, Sword of Hope(3); Commander's Plate(1); Curiosity(1)
+Information: BOARD turn 17 (Mujarin) | Nathan Voidbringer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Loki's Scepter(3)
+Information: BOARD turn 17 (Mujarin) | Mujarin | life 27 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Terminate(2); Needleverge Pathway(land); General's Enforcer(2); Plains(land); Mountain(land)
+Information: BOARD turn 17 (Mujarin) | Lloyanda | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Tireless Tracker 5/4*; Tidus, Yuna's Guardian 4/4* | hand cards: Vineglimmer Snarl(land); Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2); Bane of Progress(6)
+Information: BOARD threat | turn 17 | Tireless Tracker (Lloyanda) 77; Tidus, Yuna's Guardian (Lloyanda) 35
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Land: Mujarin picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Land: Mujarin picked {R}
+Damage: Sulfurous Springs (266) deals 1 non-combat damage to Mujarin.
+Life: Life: Mujarin 27 > 26
+Mana: Sulfurous Springs (266) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Mujarin cast Terminate targeting [Tireless Tracker (366)]
+Information: BOARD cast | Terminate (mv 2) by Mujarin | open mana: Captain 0, Nathan Voidbringer 3, Lloyanda 0
+Zone Change: Tireless Tracker (366) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (264) - Destroy Tireless Tracker (366). It can't be regenerated.
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Plains (288)
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 18 (Lloyanda)
+Information: BOARD turn 18 (Lloyanda) | Captain | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Danitha, Sword of Hope(3); Commander's Plate(1); Curiosity(1)
+Information: BOARD turn 18 (Lloyanda) | Nathan Voidbringer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Loki's Scepter(3)
+Information: BOARD turn 18 (Lloyanda) | Mujarin | life 26 | hand 4 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Mountain(land); Barbarian Class(1)
+Information: BOARD turn 18 (Lloyanda) | Lloyanda | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Vineglimmer Snarl(land); Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2); Bane of Progress(6)
+Information: BOARD threat | turn 18 | Tidus, Yuna's Guardian (Lloyanda) 33
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Replacement Effect: As Vineglimmer Snarl enters, you may reveal a Forest or Island card from your hand. If you don't, Vineglimmer Snarl enters tapped.
+Land: Lloyanda played Vineglimmer Snarl (335)
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Lloyanda activated Blitzball Stadium targeting [Tidus, Yuna's Guardian (413)]
+Resolve Stack: Blitzball Stadium (400) - Tidus, Yuna's Guardian (413) . 
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Lloyanda -> Captain | attackers 1 (power 4) | defender life 39 | untapped creatures 1 (power 6): Captain America, First Avenger 6/6[Sword of War and Peace] | open mana 0
+Phase: Lloyanda's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 4 combat damage to Captain.
+Life: Life: Captain 39 > 35
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 4]
+Resolve Stack: Whenever this creature deals combat damage to a player, draw a card for each kind of counter on it. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Captain, Amount: 4]
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 19 (Captain)
+Information: BOARD turn 19 (Captain) | Captain | life 35 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Danitha, Sword of Hope(3); Commander's Plate(1); Curiosity(1)
+Information: BOARD turn 19 (Captain) | Nathan Voidbringer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Loki's Scepter(3)
+Information: BOARD turn 19 (Captain) | Mujarin | life 26 | hand 4 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Mountain(land); Barbarian Class(1)
+Information: BOARD turn 19 (Captain) | Lloyanda | life 38 | hand 6 | lands 5 (3 untapped) | open mana 8 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Voidslime(3); Sphere Grid(2); Bane of Progress(6); Temple of Enlightenment(land); Fathom Mage(4)
+Information: BOARD threat | turn 19 | Tidus, Yuna's Guardian (Lloyanda) 84
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Curiosity targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Curiosity (mv 1) by Captain | open mana: Nathan Voidbringer 3, Mujarin 3, Lloyanda 8
+Resolve Stack: Curiosity (7) -  Attach to Captain America, First Avenger (100)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Land: Lloyanda picked {U}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Land: Lloyanda picked {U}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Lloyanda cast Voidslime targeting [. . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. [Phase: Captain]]
+Information: BOARD cast | Voidslime (mv 3) by Lloyanda | open mana: Captain 5, Nathan Voidbringer 3, Mujarin 3
+Resolve Stack: Voidslime (368) - Counter Captain America, First Avenger (100)'s ability.
+Phase: Captain's Declare Attackers Step
+Phase: devCaptain's Declare Attackers Step
+Information: ROLLBACK to the start of COMBAT_DECLARE_ATTACKERS (turn 19)
+Phase: devCaptain's Declare Attackers Step
+Information: ROLLBACK to the start of COMBAT_DECLARE_ATTACKERS (turn 19)
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: devCaptain's Main phase, postcombat
+Information: ROLLBACK to the start of MAIN2 (turn 19)
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Danitha, Sword of Hope
+Information: BOARD cast | Danitha, Sword of Hope (mv 3) by Captain | open mana: Nathan Voidbringer 3, Mujarin 3, Lloyanda 0
+Resolve Stack: Danitha, Sword of Hope - Creature 2 / 2
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 20 (Nathan Voidbringer)
+Information: BOARD turn 20 (Nathan Voidbringer) | Captain | life 35 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 6/6[Sword of War and Peace]; Danitha, Sword of Hope 2/2 | hand cards: Commander's Plate(1); Sword of Feast and Famine(3)
+Information: BOARD turn 20 (Nathan Voidbringer) | Nathan Voidbringer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4); Loki's Scepter(3)
+Information: BOARD turn 20 (Nathan Voidbringer) | Mujarin | life 26 | hand 4 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Mountain(land); Barbarian Class(1)
+Information: BOARD turn 20 (Nathan Voidbringer) | Lloyanda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Sphere Grid(2); Bane of Progress(6); Temple of Enlightenment(land); Fathom Mage(4)
+Information: BOARD threat | turn 20 | Tidus, Yuna's Guardian (Lloyanda) 80
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Replacement Effect: Drowned Catacomb enters tapped unless you control an Island or a Swamp.
+Land: Nathan Voidbringer played Drowned Catacomb (180)
+Mana: Mountain (187) - {T}: Add {R}.
+Land: Nathan Voidbringer picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Land: Nathan Voidbringer picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Nathan Voidbringer cast Loki's Scepter
+Information: BOARD cast | Loki's Scepter (mv 3) by Nathan Voidbringer | open mana: Captain 0, Mujarin 3, Lloyanda 0
+Resolve Stack: Loki's Scepter
+Add To Stack: Nathan Voidbringer triggered Loki's Scepter targeting [Tidus, Yuna's Guardian (413)]
+Resolve Stack: When Loki's Scepter enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it becomes a Villain in addition to its other types and gains haste. (Targeting: [[Tidus, Yuna's Guardian (413)]]) [Zone Changer: Loki's Scepter (166)]
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Nathan Voidbringer's Declare Attackers Step
+Combat: Nathan Voidbringer assigned Tidus, Yuna's Guardian (413) to attack Mujarin.
+Information: BOARD attack | Nathan Voidbringer -> Mujarin | attackers 1 (power 4) | defender life 26 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 3
+Phase: Nathan Voidbringer's Declare Blockers Step
+Combat: Mujarin didn't block Tidus, Yuna's Guardian (413).
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 4 combat damage to Mujarin.
+Life: Life: Mujarin 26 > 22
+Add To Stack: Nathan Voidbringer triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Mujarin, Amount: 4]
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 21 (Mujarin)
+Information: BOARD turn 21 (Mujarin) | Captain | life 35 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 6/6[Sword of War and Peace]; Danitha, Sword of Hope 2/2 | hand cards: Commander's Plate(1); Sword of Feast and Famine(3)
+Information: BOARD turn 21 (Mujarin) | Nathan Voidbringer | life 40 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4)
+Information: BOARD turn 21 (Mujarin) | Mujarin | life 22 | hand 4 | lands 5 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Mountain(land); Barbarian Class(1)
+Information: BOARD turn 21 (Mujarin) | Lloyanda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Sphere Grid(2); Bane of Progress(6); Temple of Enlightenment(land); Fathom Mage(4)
+Information: BOARD threat | turn 21 | Tidus, Yuna's Guardian (Lloyanda) 115
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Mountain (284)
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Mujarin cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by Mujarin | open mana: Captain 0, Nathan Voidbringer 5, Lloyanda 0
+Resolve Stack: Barbarian Class
+Land: Mujarin picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Mujarin activated Barbarian Class
+Resolve Stack: Barbarian Class (243) - Level 2
+Land: Mujarin picked {R}
+Damage: Sulfurous Springs (266) deals 1 non-combat damage to Mujarin.
+Life: Life: Mujarin 22 > 21
+Mana: Sulfurous Springs (266) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Mana: Fountainport (212) - {T}: Add {C}.
+Add To Stack: Mujarin activated Barbarian Class
+Resolve Stack: Barbarian Class (243) - Level 3
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 22 (Lloyanda)
+Information: BOARD turn 22 (Lloyanda) | Captain | life 35 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 6/6[Sword of War and Peace]; Danitha, Sword of Hope 2/2 | hand cards: Commander's Plate(1); Sword of Feast and Famine(3)
+Information: BOARD turn 22 (Lloyanda) | Nathan Voidbringer | life 40 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4)
+Information: BOARD turn 22 (Lloyanda) | Mujarin | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Pitiless Plunderer(4)
+Information: BOARD turn 22 (Lloyanda) | Lloyanda | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Sphere Grid(2); Bane of Progress(6); Temple of Enlightenment(land); Fathom Mage(4)
+Information: BOARD threat | turn 22 | Tidus, Yuna's Guardian (Lloyanda) 110
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Lloyanda activated Blitzball Stadium targeting [Tidus, Yuna's Guardian (413)]
+Resolve Stack: Blitzball Stadium (400) - Tidus, Yuna's Guardian (413) . 
+Land: Lloyanda picked {G}
+Mana: Vineglimmer Snarl (335) - {T}: Add {G} or {U}.
+Add To Stack: Lloyanda cast Hardened Scales
+Information: BOARD cast | Hardened Scales (mv 1) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 5, Mujarin 0
+Resolve Stack: Hardened Scales
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Lloyanda -> Captain | attackers 1 (power 4) | defender life 35 | untapped creatures 2 (power 8): Captain America, First Avenger 6/6[Sword of War and Peace]; Danitha, Sword of Hope 2/2 | open mana 0
+Phase: Lloyanda's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 4 combat damage to Captain.
+Life: Life: Captain 35 > 31
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 4]
+Resolve Stack: Whenever this creature deals combat damage to a player, draw a card for each kind of counter on it. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Captain, Amount: 4]
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Lloyanda played Temple of Enlightenment (384)
+Add To Stack: Lloyanda triggered Temple of Enlightenment
+Resolve Stack: Lloyanda scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Land: Lloyanda picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Land: Lloyanda picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Add To Stack: Lloyanda cast Sphere Grid
+Information: BOARD cast | Sphere Grid (mv 2) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 5, Mujarin 0
+Resolve Stack: Sphere Grid
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 23 (Captain)
+Information: BOARD turn 23 (Captain) | Captain | life 31 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 6/6[Sword of War and Peace]; Danitha, Sword of Hope 2/2 | hand cards: Commander's Plate(1); Sword of Feast and Famine(3)
+Information: BOARD turn 23 (Captain) | Nathan Voidbringer | life 40 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4)
+Information: BOARD turn 23 (Captain) | Mujarin | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Pitiless Plunderer(4)
+Information: BOARD turn 23 (Captain) | Lloyanda | life 38 | hand 4 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Damning Verdict(5)
+Information: BOARD threat | turn 23 | Tidus, Yuna's Guardian (Lloyanda) 157; Blitzball Stadium (Lloyanda) 37
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Sword of Feast and Famine
+Information: BOARD cast | Sword of Feast and Famine (mv 3) by Captain | open mana: Nathan Voidbringer 5, Mujarin 0, Lloyanda 3
+Add To Stack: Captain triggered Danitha, Sword of Hope
+Resolve Stack: Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn. [Card: Sword of Feast and Famine (93), Activator: Captain, SpellAbility: Sword of Feast and Famine]
+Resolve Stack: Sword of Feast and Famine
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (40)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Nathan Voidbringer.
+Information: BOARD attack | Captain -> Nathan Voidbringer | attackers 1 (power 16) | defender life 40 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Captain's Declare Blockers Step
+Combat: Nathan Voidbringer didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 16 combat damage to Nathan Voidbringer.
+Life: Life: Nathan Voidbringer 40 > 24
+Add To Stack: Captain triggered Sword of War and Peace
+Add To Stack: Captain triggered Curiosity
+Resolve Stack: Whenever enchanted creature deals damage to an opponent, you may draw a card. [Damage Source: Captain America, First Avenger (100), Damaged: Nathan Voidbringer, Amount: 16]
+Damage: Sword of War and Peace (94) deals 4 non-combat damage to Nathan Voidbringer.
+Life: Life: Nathan Voidbringer 24 > 20
+Life: Life: Captain 31 > 35
+Resolve Stack: Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand. [Damage Source: Captain America, First Avenger (100), Damaged: Nathan Voidbringer, Amount: 16]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Nathan Voidbringer 5, Mujarin 0, Lloyanda 3
+Resolve Stack: Basilisk Collar
+Phase: devCaptain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 24 (Nathan Voidbringer)
+Information: BOARD turn 24 (Nathan Voidbringer) | Captain | life 35 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 16/16*[Sword of War and Peace,Colossus Hammer]; Danitha, Sword of Hope 2/2 | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 24 (Nathan Voidbringer) | Nathan Voidbringer | life 20 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Kang, Temporal Tyrant(4); Madame Hydra(4)
+Information: BOARD turn 24 (Nathan Voidbringer) | Mujarin | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Pitiless Plunderer(4)
+Information: BOARD turn 24 (Nathan Voidbringer) | Lloyanda | life 38 | hand 4 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Damning Verdict(5)
+Information: BOARD threat | turn 24 | Tidus, Yuna's Guardian (Lloyanda) 151; Captain America, First Avenger (Captain) 129; Sword of War and Peace (Captain) 37; Blitzball Stadium (Lloyanda) 36
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Replacement Effect: Crumbling Necropolis enters tapped.
+Land: Nathan Voidbringer played Crumbling Necropolis (158)
+Land: Nathan Voidbringer picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Land: Nathan Voidbringer picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Mana: Mountain (187) - {T}: Add {R}.
+Land: Nathan Voidbringer picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Nathan Voidbringer cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Nathan Voidbringer | open mana: Captain 0, Mujarin 0, Lloyanda 3
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 25 (Mujarin)
+Information: BOARD turn 25 (Mujarin) | Captain | life 35 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 16/16*[Sword of War and Peace,Colossus Hammer]; Danitha, Sword of Hope 2/2 | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 25 (Mujarin) | Nathan Voidbringer | life 20 | hand 3 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 3/4 | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Madame Hydra(4)
+Information: BOARD turn 25 (Mujarin) | Mujarin | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); General's Enforcer(2); Pitiless Plunderer(4)
+Information: BOARD turn 25 (Mujarin) | Lloyanda | life 38 | hand 4 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Damning Verdict(5)
+Information: BOARD threat | turn 25 | Tidus, Yuna's Guardian (Lloyanda) 145; Captain America, First Avenger (Captain) 124; Sword of War and Peace (Captain) 36; Blitzball Stadium (Lloyanda) 34
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Needleverge Pathway (239)
+Mana: Plains (288) - {T}: Add {W}.
+Land: Mujarin picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Add To Stack: Mujarin cast General's Enforcer
+Information: BOARD cast | General's Enforcer (mv 2) by Mujarin | open mana: Captain 0, Nathan Voidbringer 5, Lloyanda 3
+Resolve Stack: General's Enforcer - Creature 2 / 3
+Land: Mujarin picked {B}
+Damage: Sulfurous Springs (266) deals 1 non-combat damage to Mujarin.
+Life: Life: Mujarin 21 > 20
+Mana: Sulfurous Springs (266) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Add To Stack: Mujarin cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Mujarin | open mana: Captain 0, Nathan Voidbringer 5, Lloyanda 3
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Combat: Mujarin assigned General's Enforcer (203) to attack Captain.
+Information: BOARD attack | Mujarin -> Captain | attackers 1 (power 2) | defender life 35 | untapped creatures 1 (power 2): Danitha, Sword of Hope 2/2 | open mana 0
+Phase: Mujarin's Declare Blockers Step
+Combat: Captain didn't block General's Enforcer (203).
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Damage: General's Enforcer (203) deals 2 combat damage to Captain.
+Life: Life: Captain 35 > 33
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 26 (Lloyanda)
+Information: BOARD turn 26 (Lloyanda) | Captain | life 33 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 16/16*[Sword of War and Peace,Colossus Hammer]; Danitha, Sword of Hope 2/2 | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 26 (Lloyanda) | Nathan Voidbringer | life 20 | hand 3 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 3/4 | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Madame Hydra(4)
+Information: BOARD turn 26 (Lloyanda) | Mujarin | life 20 | hand 1 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3*; Pitiless Plunderer 1/4 | hand cards: Deadbeat Attendant(2)
+Information: BOARD turn 26 (Lloyanda) | Lloyanda | life 38 | hand 4 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Damning Verdict(5)
+Information: BOARD threat | turn 26 | Tidus, Yuna's Guardian (Lloyanda) 139; Captain America, First Avenger (Captain) 119; Sword of War and Peace (Captain) 35; Blitzball Stadium (Lloyanda) 33
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Replacement Effect: Sunpetal Grove enters tapped unless you control a Forest or a Plains.
+Land: Lloyanda played Sunpetal Grove (378)
+Land: Lloyanda picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Land: Lloyanda picked {W}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Lloyanda cast Damning Verdict
+Information: BOARD cast | Damning Verdict (mv 5) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 5, Mujarin 1
+Zone Change: Captain America, First Avenger (100) was put into Graveyard from Battlefield.
+Zone Change: Danitha, Sword of Hope (10) was put into Graveyard from Battlefield.
+Zone Change: Kang, Temporal Tyrant (179) was put into Graveyard from Battlefield.
+Zone Change: General's Enforcer (203) was put into Graveyard from Battlefield.
+Zone Change: Pitiless Plunderer (300) was put into Graveyard from Battlefield.
+Resolve Stack: Damning Verdict (398) - Destroy all creatures with no counters on them.
+Zone Change: Curiosity (7) was put into Graveyard from Battlefield.
+Add To Stack: Mujarin triggered Pitiless Plunderer
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: General's Enforcer (203)]
+Land: Lloyanda picked {G}
+Mana: Vineglimmer Snarl (335) - {T}: Add {G} or {U}.
+Land: Lloyanda picked {G}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Land: Lloyanda picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Add To Stack: Lloyanda activated Blitzball Stadium targeting [Tidus, Yuna's Guardian (413)]
+Resolve Stack: Blitzball Stadium (400) - Tidus, Yuna's Guardian (413) . 
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tidus, Yuna's Guardian (413) to attack Mujarin.
+Information: BOARD attack | Lloyanda -> Mujarin | attackers 1 (power 4) | defender life 20 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 2
+Phase: Lloyanda's Declare Blockers Step
+Combat: Mujarin didn't block Tidus, Yuna's Guardian (413).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 4 combat damage to Mujarin.
+Life: Life: Mujarin 20 > 16
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Sphere Grid
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever a creature you control deals combat damage to a player, put a +1/+1 counter on that creature. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Mujarin, Amount: 4]
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Mujarin, Amount: 4]
+Resolve Stack: Whenever this creature deals combat damage to a player, draw a card for each kind of counter on it. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Mujarin, Amount: 4]
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 27 (Captain)
+Information: BOARD turn 27 (Captain) | Captain | life 33 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 27 (Captain) | Nathan Voidbringer | life 20 | hand 3 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Madame Hydra(4)
+Information: BOARD turn 27 (Captain) | Mujarin | life 16 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Deadbeat Attendant(2)
+Information: BOARD turn 27 (Captain) | Lloyanda | life 38 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 6/6* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Canopy Vista(land)
+Information: BOARD threat | turn 27 | Tidus, Yuna's Guardian (Lloyanda) 186; Blitzball Stadium (Lloyanda) 46; Sword of War and Peace (Captain) 33
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (83)
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Nathan Voidbringer 5, Mujarin 2, Lloyanda 3
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of War and Peace (94)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of War and Peace (94)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 28 (Nathan Voidbringer)
+Information: BOARD turn 28 (Nathan Voidbringer) | Captain | life 33 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 28 (Nathan Voidbringer) | Nathan Voidbringer | life 20 | hand 3 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Batroc the Leaper(2); Black Cat, Cunning Thief(5); Madame Hydra(4)
+Information: BOARD turn 28 (Nathan Voidbringer) | Mujarin | life 16 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Deadbeat Attendant(2)
+Information: BOARD turn 28 (Nathan Voidbringer) | Lloyanda | life 38 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 6/6* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Canopy Vista(land)
+Information: BOARD threat | turn 28 | Tidus, Yuna's Guardian (Lloyanda) 178; Blitzball Stadium (Lloyanda) 44; Sword of War and Peace (Captain) 32
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Land: Nathan Voidbringer played Island (123)
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Land: Nathan Voidbringer picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Land: Nathan Voidbringer picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Island (123) - {T}: Add {U}.
+Mana: Mountain (187) - {T}: Add {R}.
+Land: Nathan Voidbringer picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Add To Stack: Nathan Voidbringer cast Black Cat, Cunning Thief
+Information: BOARD cast | Black Cat, Cunning Thief (mv 5) by Nathan Voidbringer | open mana: Captain 0, Mujarin 2, Lloyanda 3
+Resolve Stack: Black Cat, Cunning Thief - Creature 2 / 3
+Add To Stack: Nathan Voidbringer triggered Black Cat, Cunning Thief targeting [Mujarin]
+Resolve Stack: When Black Cat enters, look at the top nine cards of target opponent's library, exile two of them face down, then put the rest on the bottom of their library in a random order. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way. (Targeting: [[Mujarin]]) [Zone Changer: Black Cat, Cunning Thief (185)]
+Land: Nathan Voidbringer picked {B}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Land: Loki's Scepter (166) picked {R}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Mana: Villainous Hideout (102) - {T}: Add {C}.
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Nathan Voidbringer cast Madame Hydra
+Information: BOARD cast | Madame Hydra (mv 4) by Nathan Voidbringer | open mana: Captain 0, Mujarin 2, Lloyanda 3
+Resolve Stack: Madame Hydra - Creature 2 / 3
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 29 (Mujarin)
+Information: BOARD turn 29 (Mujarin) | Captain | life 33 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 29 (Mujarin) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Black Cat, Cunning Thief 2/3; Madame Hydra 2/3 | hand cards: Batroc the Leaper(2)
+Information: BOARD turn 29 (Mujarin) | Mujarin | life 16 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Deadbeat Attendant(2)
+Information: BOARD turn 29 (Mujarin) | Lloyanda | life 38 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 6/6* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Canopy Vista(land)
+Information: BOARD threat | turn 29 | Tidus, Yuna's Guardian (Lloyanda) 171; Blitzball Stadium (Lloyanda) 42; Sword of War and Peace (Captain) 31
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Land: Mujarin played Caves of Koilos (265)
+Land: Mujarin picked {B}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Mujarin cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Mujarin | open mana: Captain 0, Nathan Voidbringer 0, Lloyanda 3
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Mujarin triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (279)]
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Mujarin activated Skullclamp targeting [Deadbeat Attendant (279)]
+Resolve Stack: Skullclamp (250) -  Attach to Deadbeat Attendant (279)
+Zone Change: Deadbeat Attendant (279) was put into Graveyard from Battlefield.
+Add To Stack: Mujarin triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Deadbeat Attendant (279)]
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Phase: Mujarin's Declare Blockers Step
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Fountainport (212) - {T}: Add {C}.
+Mana: Caves of Koilos (265) - {T}: Add {C}.
+Add To Stack: Mujarin cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Mujarin | open mana: Captain 0, Nathan Voidbringer 0, Lloyanda 3
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Mujarin activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Add To Stack: Mujarin triggered Barbarian Class targeting [Mr. House, President and CEO (302)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Mr. House, President and CEO (302)]]) [Player: Mujarin, Result: [3]]
+Zone Change: Treasure Token (916) was put into Graveyard from Battlefield.
+Land: Treasure Token (916) picked {W}
+Mana: Treasure Token (916) - {T}, Sacrifice this token: Add one mana of any color.
+Land: Mujarin picked {B}
+Damage: Sulfurous Springs (266) deals 1 non-combat damage to Mujarin.
+Life: Life: Mujarin 16 > 15
+Mana: Sulfurous Springs (266) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Mujarin cast General's Enforcer
+Information: BOARD cast | General's Enforcer (mv 2) by Mujarin | open mana: Captain 0, Nathan Voidbringer 0, Lloyanda 3
+Resolve Stack: General's Enforcer - Creature 2 / 3
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 30 (Lloyanda)
+Information: BOARD turn 30 (Lloyanda) | Captain | life 33 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 30 (Lloyanda) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Black Cat, Cunning Thief 2/3; Madame Hydra 2/3 | hand cards: Batroc the Leaper(2)
+Information: BOARD turn 30 (Lloyanda) | Mujarin | life 15 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3 | hand cards: Swamp(land)
+Information: BOARD turn 30 (Lloyanda) | Lloyanda | life 38 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 6/6* | hand cards: Luminous Broodmoth(4); Bane of Progress(6); Fathom Mage(4); Canopy Vista(land)
+Information: BOARD threat | turn 30 | Tidus, Yuna's Guardian (Lloyanda) 164; Blitzball Stadium (Lloyanda) 41; Barbarian Class (Mujarin) 35
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Lloyanda played Canopy Vista (385)
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Lloyanda activated Blitzball Stadium targeting [Tidus, Yuna's Guardian (413)]
+Resolve Stack: Blitzball Stadium (400) - Tidus, Yuna's Guardian (413) . 
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Lloyanda -> Captain | attackers 1 (power 6) | defender life 33 | untapped creatures 1 (power 6): Captain America, First Avenger 6/6[Sword of War and Peace] | open mana 0
+Phase: Lloyanda's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 6 combat damage to Captain.
+Life: Life: Captain 33 > 27
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Tidus, Yuna's Guardian
+Add To Stack: Lloyanda triggered Sphere Grid
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever a creature you control deals combat damage to a player, put a +1/+1 counter on that creature. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Captain, Amount: 6]
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 6]
+Resolve Stack: Whenever this creature deals combat damage to a player, draw a card for each kind of counter on it. [Damage Source: Tidus, Yuna's Guardian (413), Damaged: Captain, Amount: 6]
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Land: Lloyanda picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Land: Lloyanda picked {W}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Land: Lloyanda picked {G}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Land: Lloyanda picked {G}
+Mana: Vineglimmer Snarl (335) - {T}: Add {G} or {U}.
+Add To Stack: Lloyanda cast Luminous Broodmoth
+Information: BOARD cast | Luminous Broodmoth (mv 4) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 0, Mujarin 0
+Resolve Stack: Luminous Broodmoth - Creature 3 / 4
+Land: Lloyanda picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Brushland (411) - {T}: Add {C}.
+Add To Stack: Lloyanda cast Gyre Sage
+Information: BOARD cast | Gyre Sage (mv 2) by Lloyanda | open mana: Captain 0, Nathan Voidbringer 0, Mujarin 0
+Resolve Stack: Gyre Sage - Creature 1 / 2
+Phase: Lloyanda's End step
+Phase: Lloyanda's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Captain | life 27 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of War and Peace] | hand cards: Sokka and Suki(3); Force of Negation(3); Commander's Plate(1)
+Information: BOARD turn 31 (Captain) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Black Cat, Cunning Thief 2/3; Madame Hydra 2/3 | hand cards: Batroc the Leaper(2)
+Information: BOARD turn 31 (Captain) | Mujarin | life 15 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3 | hand cards: Swamp(land)
+Information: BOARD turn 31 (Captain) | Lloyanda | life 38 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 8/8*; Luminous Broodmoth 3/4; Gyre Sage 1/2 | hand cards: Bane of Progress(6); Fathom Mage(4); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 31 | Tidus, Yuna's Guardian (Lloyanda) 221; Blitzball Stadium (Lloyanda) 53; Barbarian Class (Mujarin) 34
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mistgate Pathway (43)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Add To Stack: Captain activated Sword of Feast and Famine targeting [Captain America, First Avenger (100)]
+Resolve Stack: Sword of Feast and Famine (93) -  Attach to Captain America, First Avenger (100)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Mistgate Pathway (43) - {T}: Add {U}.
+Add To Stack: Captain activated Basilisk Collar targeting [Captain America, First Avenger (100)]
+Resolve Stack: Basilisk Collar (14) -  Attach to Captain America, First Avenger (100)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (40)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Captain cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Captain | open mana: Nathan Voidbringer 0, Mujarin 0, Lloyanda 0
+Resolve Stack: Commander's Plate
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Nathan Voidbringer)
+Information: BOARD turn 32 (Nathan Voidbringer) | Captain | life 27 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 18/18[Sword of War and Peace,Sword of Feast and Famine,Basilisk Collar,Colossus Hammer] | hand cards: Sokka and Suki(3); Force of Negation(3)
+Information: BOARD turn 32 (Nathan Voidbringer) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Black Cat, Cunning Thief 2/3; Madame Hydra 2/3 | hand cards: Batroc the Leaper(2)
+Information: BOARD turn 32 (Nathan Voidbringer) | Mujarin | life 15 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3 | hand cards: Swamp(land)
+Information: BOARD turn 32 (Nathan Voidbringer) | Lloyanda | life 38 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 8/8*; Luminous Broodmoth 3/4; Gyre Sage 1/2 | hand cards: Bane of Progress(6); Fathom Mage(4); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 32 | Tidus, Yuna's Guardian (Lloyanda) 212; Blitzball Stadium (Lloyanda) 51; Barbarian Class (Mujarin) 32
+Phase: Nathan Voidbringer's Untap step
+Phase: Nathan Voidbringer's Upkeep step
+Phase: Nathan Voidbringer's Draw step
+Phase: Nathan Voidbringer's Main phase, precombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Island (123) - {T}: Add {U}.
+Add To Stack: Nathan Voidbringer cast Hobgoblin, Mantled Marauder
+Information: BOARD cast | Hobgoblin, Mantled Marauder (mv 2) by Nathan Voidbringer | open mana: Captain 3, Mujarin 0, Lloyanda 0
+Add To Stack: Nathan Voidbringer triggered Madame Hydra
+Resolve Stack: Whenever you cast a Villain spell, create a 2/1 black Villain creature token with menace. (It can't be blocked except by two or more creatures.) [Card: Hobgoblin, Mantled Marauder (128), Activator: Nathan Voidbringer, SpellAbility: Hobgoblin, Mantled Marauder - Creature 1 / 2]
+Resolve Stack: Hobgoblin, Mantled Marauder - Creature 1 / 2
+Land: Nathan Voidbringer picked {U}
+Mana: Drowned Catacomb (180) - {T}: Add {U} or {B}.
+Land: Nathan Voidbringer picked {R}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Land: Nathan Voidbringer picked {R}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Nathan Voidbringer activated Villainous Hideout targeting [Black Cat, Cunning Thief (185)]
+Discard: Nathan Voidbringer discards Batroc the Leaper (130).
+Resolve Stack: Villainous Hideout (102) - Black Cat, Cunning Thief (185) connives.
+Add To Stack: Nathan Voidbringer triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Batroc the Leaper (130), Cause: {3}, {T}: Target Villain you control connives. Activate only as a sorcery. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)]
+Phase: Nathan Voidbringer's Beginning of Combat Step
+Phase: Nathan Voidbringer's Declare Attackers Step
+Phase: Nathan Voidbringer's Declare Blockers Step
+Phase: Nathan Voidbringer's First Strike Damage Step
+Phase: Nathan Voidbringer's Combat Damage Step
+Phase: Nathan Voidbringer's End of Combat Step
+Phase: Nathan Voidbringer's Main phase, postcombat
+Land: Nathan Voidbringer picked {U}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Land: Loki's Scepter (166) picked {W}
+Mana: Loki's Scepter (166) - {T}: Add one mana of any color.
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Nathan Voidbringer cast Ghostly Prison
+Information: BOARD cast | Ghostly Prison (mv 3) by Nathan Voidbringer | open mana: Captain 3, Mujarin 0, Lloyanda 0
+Resolve Stack: Ghostly Prison
+Phase: Nathan Voidbringer's End step
+Phase: Nathan Voidbringer's Cleanup step
+Turn: Turn 33 (Mujarin)
+Information: BOARD turn 33 (Mujarin) | Captain | life 27 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 18/18[Sword of War and Peace,Sword of Feast and Famine,Basilisk Collar,Colossus Hammer] | hand cards: Sokka and Suki(3); Force of Negation(3)
+Information: BOARD turn 33 (Mujarin) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 4 (4 untapped): Black Cat, Cunning Thief 3/4; Madame Hydra 2/3; Villain Token 2/1; Hobgoblin, Mantled Marauder 1/2 | hand cards: Chameleon, Master of Disguise(4)
+Information: BOARD turn 33 (Mujarin) | Mujarin | life 15 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3 | hand cards: Swamp(land)
+Information: BOARD turn 33 (Mujarin) | Lloyanda | life 38 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 8/8*; Luminous Broodmoth 3/4; Gyre Sage 1/2 | hand cards: Bane of Progress(6); Fathom Mage(4); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 33 | Tidus, Yuna's Guardian (Lloyanda) 204; Blitzball Stadium (Lloyanda) 49; Barbarian Class (Mujarin) 31
+Phase: Mujarin's Untap step
+Phase: Mujarin's Upkeep step
+Phase: Mujarin's Draw step
+Phase: Mujarin's Main phase, precombat
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Add To Stack: Mujarin triggered Hall of Mirrors targeting [Mr. House, President and CEO (302)]
+Add To Stack: Mujarin triggered Barbarian Class targeting [Mr. House, President and CEO (302)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Mr. House, President and CEO (302)]]) [Player: Mujarin, Result: [2]]
+Resolve Stack: Visit — Choose target creature you control. Each other creature you control becomes a copy of that creature until end of turn, except it isn't legendary. (Targeting: [[Mr. House, President and CEO (302)]]) [Player: Mujarin]
+Land: Mujarin played Swamp (256)
+Add To Stack: Mujarin activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Damage: Comet, Stellar Pup (280) deals 4 damage to Luminous Broodmoth (390).
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Zone Change: Luminous Broodmoth (390) was put into Graveyard from Battlefield.
+Add To Stack: Mujarin triggered Mr. House, President and CEO
+Add To Stack: Mujarin triggered Mr. House, President and CEO
+Add To Stack: Mujarin triggered Barbarian Class targeting [Mr. House, President and CEO (302)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Mr. House, President and CEO (302)]]) [Player: Mujarin, Result: [5]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Mujarin, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Mujarin, Result: 5]
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Mujarin activated Skullclamp targeting [Robot Token (1049)]
+Resolve Stack: Skullclamp (250) -  Attach to Robot Token (1049)
+Phase: Mujarin's Beginning of Combat Step
+Phase: Mujarin's Declare Attackers Step
+Combat: Mujarin assigned Mr. House, President and CEO (302) to attack Lloyanda.
+Information: BOARD attack | Mujarin -> Lloyanda | attackers 1 (power 4) | defender life 38 | untapped creatures 1 (power 1): Gyre Sage 1/2 | open mana 0
+Phase: Mujarin's Declare Blockers Step
+Combat: Lloyanda didn't block Mr. House, President and CEO (302).
+Phase: Mujarin's First Strike Damage Step
+Phase: Mujarin's Combat Damage Step
+Damage: Mr. House, President and CEO (302) deals 4 combat damage to Lloyanda.
+Life: Life: Lloyanda 38 > 34
+Phase: Mujarin's End of Combat Step
+Phase: Mujarin's Main phase, postcombat
+Phase: Mujarin's End step
+Phase: Mujarin's Cleanup step
+Turn: Turn 34 (Lloyanda)
+Information: BOARD turn 34 (Lloyanda) | Captain | life 27 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 18/18[Sword of War and Peace,Sword of Feast and Famine,Basilisk Collar,Colossus Hammer] | hand cards: Sokka and Suki(3); Force of Negation(3)
+Information: BOARD turn 34 (Lloyanda) | Nathan Voidbringer | life 20 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 4 (4 untapped): Black Cat, Cunning Thief 3/4; Madame Hydra 2/3; Villain Token 2/1; Hobgoblin, Mantled Marauder 1/2 | hand cards: Chameleon, Master of Disguise(4)
+Information: BOARD turn 34 (Lloyanda) | Mujarin | life 15 | hand 1 | lands 9 (8 untapped) | open mana 14 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4*; General's Enforcer 2/3; Robot Token 4/2[Skullclamp]; Robot Token 3/3 | hand cards: Blightstep Pathway(land)
+Information: BOARD turn 34 (Lloyanda) | Lloyanda | life 34 | hand 3 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 8/8*; Gyre Sage 1/2 | hand cards: Bane of Progress(6); Fathom Mage(4); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 34 | Tidus, Yuna's Guardian (Lloyanda) 195; Barbarian Class (Mujarin) 59; Blitzball Stadium (Lloyanda) 47; Skullclamp (Mujarin) 39; Mr. House, President and CEO (Mujarin) 37
+Phase: Lloyanda's Untap step
+Phase: Lloyanda's Upkeep step
+Phase: Lloyanda's Draw step
+Phase: Lloyanda's Main phase, precombat
+Mana: Forest (350) - {T}: Add {G}.
+Land: Lloyanda picked {G}
+Mana: Vineglimmer Snarl (335) - {T}: Add {G} or {U}.
+Mana: Sol Ring (374) - {T}: Add {C}{C}.
+Land: Lloyanda picked {G}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Land: Lloyanda picked {W}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Add To Stack: Lloyanda cast Bane of Progress
+Information: BOARD cast | Bane of Progress (mv 6) by Lloyanda | open mana: Captain 3, Nathan Voidbringer 0, Mujarin 14
+Resolve Stack: Bane of Progress - Creature 2 / 2
+Add To Stack: Lloyanda triggered Bane of Progress
+Add To Stack: Lloyanda triggered Gyre Sage
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Zone Change: Robot Token (1051) was put into Graveyard from Battlefield.
+Add To Stack: Mujarin activated Fountainport
+Land: Lloyanda picked {W}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Zone Change: Clue Token (645) was put into Graveyard from Battlefield.
+Add To Stack: Lloyanda activated Clue Token
+Resolve Stack: Clue Token (645) - Lloyanda draws a card.
+Resolve Stack: Fountainport (212) - Mujarin draws a card.
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Land: Mujarin picked {R}
+Mana: Luxury Suite (235) - {T}: Add {B} or {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: Mujarin cast Wear // Tear targeting [Sword of War and Peace (94)] [Sphere Grid (327)]
+Information: BOARD cast | Wear // Tear (mv 3) by Mujarin | open mana: Captain 3, Nathan Voidbringer 0, Lloyanda 7
+Add To Stack: Captain cast Force of Negation targeting [Fuse (You may cast one or both halves of this card from your hand.) ]
+Information: BOARD cast | Force of Negation (mv 3) by Captain | open mana: Nathan Voidbringer 0, Mujarin 6, Lloyanda 7
+Zone Change: Send countered spell to Exile
+Resolve Stack: Force of Negation (15) - Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. (Targeting: Fuse (You may cast one or both halves of this card from your hand.) )
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Bane of Progress (392)]
+Zone Change: Sol Ring (374) was put into Graveyard from Battlefield.
+Zone Change: Blitzball Stadium (400) was put into Graveyard from Battlefield.
+Zone Change: Hardened Scales (317) was put into Graveyard from Battlefield.
+Zone Change: Sphere Grid (327) was put into Graveyard from Battlefield.
+Zone Change: Colossus Hammer (40) was put into Graveyard from Battlefield.
+Zone Change: Skullclamp (48) was put into Graveyard from Battlefield.
+Zone Change: Sword of War and Peace (94) was put into Graveyard from Battlefield.
+Zone Change: Sword of Feast and Famine (93) was put into Graveyard from Battlefield.
+Zone Change: Basilisk Collar (14) was put into Graveyard from Battlefield.
+Zone Change: Commander's Plate (56) was put into Graveyard from Battlefield.
+Zone Change: Talisman of Indulgence (108) was put into Graveyard from Battlefield.
+Zone Change: Loki's Scepter (166) was put into Graveyard from Battlefield.
+Zone Change: Ghostly Prison (215) was put into Graveyard from Battlefield.
+Zone Change: Welding Jar (221) was put into Graveyard from Battlefield.
+Zone Change: Skullclamp (250) was put into Graveyard from Battlefield.
+Zone Change: Barbarian Class (243) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (1049) was put into Graveyard from Battlefield.
+Resolve Stack: When Bane of Progress enters, destroy all artifacts and enchantments. Put a +1/+1 counter on Bane of Progress for each permanent destroyed this way. [Zone Changer: Bane of Progress (392)]
+Add To Stack: Mujarin triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Robot Token (1049)]
+Phase: Lloyanda's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Lloyanda's Declare Attackers Step
+Combat: Lloyanda assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Lloyanda assigned Gyre Sage (322) to attack Comet, Stellar Pup (280).
+Information: BOARD attack | Lloyanda -> Captain | attackers 1 (power 8) | defender life 27 | untapped creatures 1 (power 4): Captain America, First Avenger 4/4 | open mana 3
+Phase: Lloyanda's Declare Blockers Step
+Combat: Captain assigned Captain America, First Avenger (100) to block Tidus, Yuna's Guardian (413).
+Combat: Mujarin didn't block Gyre Sage (322).
+Phase: Lloyanda's First Strike Damage Step
+Phase: Lloyanda's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 8 damage to Captain America, First Avenger (100).
+Damage: Captain America, First Avenger (100) deals 4 damage to Tidus, Yuna's Guardian (413).
+Zone Change: Comet, Stellar Pup (280) was put into Graveyard from Battlefield.
+Zone Change: Captain America, First Avenger (100) was put into Graveyard from Battlefield.
+Phase: Lloyanda's End of Combat Step
+Phase: Lloyanda's Main phase, postcombat
+Land: Lloyanda picked {W}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Land: Lloyanda picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Lloyanda.
+Life: Life: Lloyanda 34 > 33
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Add To Stack: Lloyanda cast Shelinda, Yevon Acolyte
+Information: BOARD cast | Shelinda, Yevon Acolyte (mv 2) by Lloyanda | open mana: Captain 3, Nathan Voidbringer 0, Mujarin 6
+
+Game Result: unfinished (Forge closed mid-game)

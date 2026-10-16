@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+humanlife=40
+ailife=40
+humanbattlefield=Forest;Forest
+activeplayer=human
+activephase=END_OF_TURN
+aibattlefield=Vexing Puzzlebox;Mountain
+ailibrary=Swamp;Swamp;Swamp

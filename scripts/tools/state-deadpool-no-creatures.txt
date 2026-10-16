@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+activeplayer=ai
+humanlife=40
+ailife=40
+activephase=MAIN2
+humanbattlefield=Forest
+aibattlefield=Swamp;Swamp;Mountain;Mountain;Swamp
+aihand=Deadpool, Trading Card

@@ -1,0 +1,1 @@
+public class MatchProbe { public static void main(String[] a) throws Exception { Class<?> c = Class.forName("forge.game.Match"); for (java.lang.reflect.Method m : c.getDeclaredMethods()) if (m.getName().startsWith("startGame")) System.out.println("METHOD " + m); } }

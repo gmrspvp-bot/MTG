@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+activeplayer=ai
+activephase=MAIN2
+humanlife=40
+ailife=40
+humanbattlefield=Grizzly Bears;Serra Angel;Forest
+aibattlefield=Barbarian Class;Night Shift of the Living Dead;Swamp;Swamp;Mountain;Plains
+aihand=Myrkul's Edict

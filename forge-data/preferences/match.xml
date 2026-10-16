@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout serial="">
+	<cell x="0.0" y="0.0" w="0.2002" h="0.6166" sel="REPORT_LOG">
+		<doc>REPORT_STACK</doc>
+		<doc>REPORT_COMBAT</doc>
+		<doc>REPORT_LOG</doc>
+		<doc>REPORT_DEPENDENCIES</doc>
+	</cell>
+	<cell x="0.0" y="0.6166" w="0.2002" h="0.11567" sel="BUTTON_DOCK">
+		<doc>BUTTON_DOCK</doc>
+	</cell>
+	<cell x="0.0" y="0.73228" w="0.2002" h="0.26772" sel="REPORT_MESSAGE">
+		<doc>REPORT_MESSAGE</doc>
+		<doc>DEV_MODE</doc>
+	</cell>
+	<cell x="0.2002" y="0.0" w="0.19971" h="0.36474" sel="FIELD_1">
+		<doc>FIELD_1</doc>
+	</cell>
+	<cell x="0.2002" y="0.73228" w="0.59961" h="0.26772" sel="HAND_0">
+		<doc>HAND_0</doc>
+	</cell>
+	<cell x="0.7998" y="0.0" w="0.2002" h="0.46642" sel="CARD_DETAIL">
+		<doc>CARD_DETAIL</doc>
+	</cell>
+	<cell x="0.2002" y="0.36474" w="0.59961" h="0.36754" sel="FIELD_0">
+		<doc>FIELD_0</doc>
+	</cell>
+	<cell x="0.7998" y="0.46642" w="0.2002" h="0.53358" sel="CARD_PICTURE">
+		<doc>CARD_PICTURE</doc>
+	</cell>
+	<cell x="0.3999" y="0.0" w="0.2002" h="0.36474" sel="FIELD_2">
+		<doc>FIELD_2</doc>
+	</cell>
+	<cell x="0.6001" y="0.0" w="0.19971" h="0.36474" sel="FIELD_3">
+		<doc>FIELD_3</doc>
+	</cell>
+</layout>

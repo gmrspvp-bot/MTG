@@ -1,0 +1,9 @@
+﻿[state]
+turn=8
+activeplayer=ai
+activephase=MAIN2
+humanlife=12
+ailife=30
+humanbattlefield=Forest;Forest;Grizzly Bears
+aibattlefield=Mountain;Mountain;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac;T:c_a_treasure_sac
+aihand=Delete

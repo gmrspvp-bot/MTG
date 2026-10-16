@@ -1,0 +1,1217 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Rodney (AI) deck=Doom Prevails v3
+Player: Ohethlic (AI) deck=Mr House v4
+Player: Anfar (AI) deck=Tidus v3
+Mulligan: Ohethlic has mulliganed down to 7 cards.
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Ohethlic has mulliganed down to 6 cards.
+Mulligan: Rodney has kept a hand of 7 cards
+Mulligan: Ohethlic has kept a hand of 6 cards
+Mulligan: Anfar has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Rodney)
+Information: BOARD turn 1 (Rodney) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Seachrome Coast(land); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 1 (Rodney) | Rodney | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Superior Foes of Spider-Man(3); Island(land); Luxury Suite(land); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land)
+Information: BOARD turn 1 (Rodney) | Ohethlic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Welding Jar(0); Mountain(land); Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3)
+Information: BOARD turn 1 (Rodney) | Anfar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Canopy Vista(land); Sylvan Caryatid(2); Island(land)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Rodney played Luxury Suite (126)
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Phase: Rodney's Declare Blockers Step
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 2 (Ohethlic)
+Information: BOARD turn 2 (Ohethlic) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Seachrome Coast(land); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 2 (Ohethlic) | Rodney | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Superior Foes of Spider-Man(3); Island(land); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 2 (Ohethlic) | Ohethlic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Welding Jar(0); Mountain(land); Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3)
+Information: BOARD turn 2 (Ohethlic) | Anfar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Canopy Vista(land); Sylvan Caryatid(2); Island(land)
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Land: Ohethlic played Mountain (287)
+Add To Stack: Ohethlic cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Ohethlic | open mana: Captain 0, Rodney 3, Anfar 0
+Resolve Stack: Welding Jar
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 3 (Anfar)
+Information: BOARD turn 3 (Anfar) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Seachrome Coast(land); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 3 (Anfar) | Rodney | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Superior Foes of Spider-Man(3); Island(land); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 3 (Anfar) | Ohethlic | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 3 (Anfar) | Anfar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Canopy Vista(land); Sylvan Caryatid(2); Island(land)
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Anfar played Canopy Vista (385)
+Phase: Anfar's Beginning of Combat Step
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Seachrome Coast(land); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 4 (Captain) | Rodney | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Superior Foes of Spider-Man(3); Island(land); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 4 (Captain) | Ohethlic | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 4 (Captain) | Anfar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Captain played Seachrome Coast (98)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Rodney)
+Information: BOARD turn 5 (Rodney) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land); Spider-Bot(2)
+Information: BOARD turn 5 (Rodney) | Rodney | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Superior Foes of Spider-Man(3); Island(land); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 5 (Rodney) | Ohethlic | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 5 (Rodney) | Anfar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Land: Rodney played Island (125)
+Mana: Island (125) - {T}: Add {U}.
+Land: Rodney picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Rodney cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Rodney | open mana: Captain 3, Ohethlic 1, Anfar 0
+Resolve Stack: Arcane Signet
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Phase: Rodney's Declare Blockers Step
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Land: Rodney picked {B}
+Mana: Arcane Signet (144) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Rodney cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Rodney | open mana: Captain 3, Ohethlic 1, Anfar 0
+Resolve Stack: Sol Ring
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 6 (Ohethlic)
+Information: BOARD turn 6 (Ohethlic) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land); Spider-Bot(2)
+Information: BOARD turn 6 (Ohethlic) | Rodney | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 6 (Ohethlic) | Ohethlic | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Stridehangar Automaton(3); Wear // Tear(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 6 (Ohethlic) | Anfar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land)
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Land: Ohethlic played Needleverge Pathway (239)
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Wear targeting [Arcane Signet (144)]
+Information: BOARD cast | Wear (mv 2) by Ohethlic | open mana: Captain 3, Rodney 2, Anfar 0
+Zone Change: Arcane Signet (144) was put into Graveyard from Battlefield.
+Resolve Stack: Wear (206) - Destroy Arcane Signet (144).
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 7 (Anfar)
+Information: BOARD turn 7 (Anfar) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land); Spider-Bot(2)
+Information: BOARD turn 7 (Anfar) | Rodney | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 7 (Anfar) | Ohethlic | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5); Skullclamp(1)
+Information: BOARD turn 7 (Anfar) | Anfar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Overflowing Basin(land); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land)
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Land: Anfar played Overflowing Basin (347)
+Phase: Anfar's Beginning of Combat Step
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land); Spider-Bot(2)
+Information: BOARD turn 8 (Captain) | Rodney | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 8 (Captain) | Ohethlic | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5); Skullclamp(1)
+Information: BOARD turn 8 (Captain) | Anfar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land); Idyllic Beachfront(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (25)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Command Tower (25) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Spider-Bot
+Information: BOARD cast | Spider-Bot (mv 2) by Captain | open mana: Rodney 2, Ohethlic 0, Anfar 2
+Resolve Stack: Spider-Bot - Creature 2 / 1
+Add To Stack: Captain triggered Spider-Bot
+Resolve Stack: When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Spider-Bot (22)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Rodney)
+Information: BOARD turn 9 (Rodney) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spider-Bot 2/1 | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 9 (Rodney) | Rodney | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Secluded Courtyard(land); Molecule Man(6)
+Information: BOARD turn 9 (Rodney) | Ohethlic | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5); Skullclamp(1)
+Information: BOARD turn 9 (Rodney) | Anfar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land); Idyllic Beachfront(land)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Land: Rodney played Swamp (153)
+Mana: Island (125) - {T}: Add {U}.
+Land: Rodney picked {R}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Rodney cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Rodney | open mana: Captain 0, Ohethlic 0, Anfar 2
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Rodney's Beginning of Combat Step
+Add To Stack: Rodney triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Rodney discards Secluded Courtyard (104).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Rodney]
+Add To Stack: Rodney triggered Doctor Doom, King of Latveria
+Life: Life: Ohethlic 40 > 38
+Life: Life: Anfar 40 > 38
+Life: Life: Captain 40 > 38
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Rodney, Amount: 1]
+Phase: Rodney's Declare Attackers Step
+Phase: Rodney's Declare Blockers Step
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 10 (Ohethlic)
+Information: BOARD turn 10 (Ohethlic) | Captain | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spider-Bot 2/1 | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 10 (Ohethlic) | Rodney | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Molecule Man(6); Scorched Geyser(land)
+Information: BOARD turn 10 (Ohethlic) | Ohethlic | life 38 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5); Skullclamp(1)
+Information: BOARD turn 10 (Ohethlic) | Anfar | life 38 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land); Idyllic Beachfront(land)
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Ohethlic played Smoldering Marsh (267)
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Ohethlic | open mana: Captain 0, Rodney 0, Anfar 2
+Resolve Stack: Skullclamp
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 11 (Anfar)
+Information: BOARD turn 11 (Anfar) | Captain | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spider-Bot 2/1 | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 11 (Anfar) | Rodney | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Molecule Man(6); Scorched Geyser(land)
+Information: BOARD turn 11 (Anfar) | Ohethlic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 11 (Anfar) | Anfar | life 38 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sylvan Caryatid(2); Island(land); Sunpetal Grove(land); Idyllic Beachfront(land)
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Land: Anfar played Island (346)
+Phase: Anfar's Beginning of Combat Step
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Island (346) - {T}: Add {U}.
+Add To Stack: Anfar cast Sylvan Caryatid
+Information: BOARD cast | Sylvan Caryatid (mv 2) by Anfar | open mana: Captain 0, Rodney 0, Ohethlic 1
+Resolve Stack: Sylvan Caryatid - Creature 0 / 3
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Captain | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spider-Bot 2/1 | hand cards: Excalibur, Sword of Eden(12); Sokka and Suki(3); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 12 (Captain) | Rodney | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Molecule Man(6); Scorched Geyser(land)
+Information: BOARD turn 12 (Captain) | Ohethlic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 12 (Captain) | Anfar | life 38 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sylvan Caryatid 0/3 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sunpetal Grove(land); Idyllic Beachfront(land); Inspiring Call(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (79)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Command Tower (25) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Sokka and Suki
+Information: BOARD cast | Sokka and Suki (mv 3) by Captain | open mana: Rodney 0, Ohethlic 1, Anfar 0
+Resolve Stack: Sokka and Suki - Creature 3 / 3
+Add To Stack: Captain triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Sokka and Suki (8)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Rodney)
+Information: BOARD turn 13 (Rodney) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Spider-Bot 2/1; Sokka and Suki 3/3 | hand cards: Excalibur, Sword of Eden(12); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 13 (Rodney) | Rodney | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Doctor Octopus, Master Planner(7); Molecule Man(6); Scorched Geyser(land)
+Information: BOARD turn 13 (Rodney) | Ohethlic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 13 (Rodney) | Anfar | life 38 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sylvan Caryatid 0/3 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sunpetal Grove(land); Idyllic Beachfront(land); Inspiring Call(3)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Replacement Effect: This land enters tapped unless you control two or more basic lands.
+Land: Rodney played Scorched Geyser (181)
+Phase: Rodney's Beginning of Combat Step
+Add To Stack: Rodney triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Rodney discards Doctor Octopus, Master Planner (168).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Rodney]
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Rodney -> Captain | attackers 1 (power 4) | defender life 38 | untapped creatures 2 (power 5): Spider-Bot 2/1; Sokka and Suki 3/3 | open mana 0
+Phase: Rodney's Declare Blockers Step
+Combat: Captain assigned Sokka and Suki (8) and Spider-Bot (22) to block Doctor Doom, King of Latveria (201).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 1 damage to Spider-Bot (22).
+Damage: Doctor Doom, King of Latveria (201) deals 3 damage to Sokka and Suki (8).
+Damage: Sokka and Suki (8) deals 3 damage to Doctor Doom, King of Latveria (201).
+Damage: Spider-Bot (22) deals 2 damage to Doctor Doom, King of Latveria (201).
+Zone Change: Doctor Doom, King of Latveria (201) was put into Graveyard from Battlefield.
+Zone Change: Spider-Bot (22) was put into Graveyard from Battlefield.
+Zone Change: Sokka and Suki (8) was put into Graveyard from Battlefield.
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Island (125) - {T}: Add {U}.
+Mana: Swamp (153) - {T}: Add {B}.
+Land: Rodney picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Rodney cast Molecule Man
+Information: BOARD cast | Molecule Man (mv 6) by Rodney | open mana: Captain 0, Ohethlic 1, Anfar 0
+Resolve Stack: Molecule Man - Creature 5 / 5
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 14 (Ohethlic)
+Information: BOARD turn 14 (Ohethlic) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 14 (Ohethlic) | Rodney | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Molecule Man 5/5 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 14 (Ohethlic) | Ohethlic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); Component Pouch(3); The Deck of Many Things(5)
+Information: BOARD turn 14 (Ohethlic) | Anfar | life 38 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sylvan Caryatid 0/3 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sunpetal Grove(land); Idyllic Beachfront(land); Inspiring Call(3)
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Land: Ohethlic played Mountain (284)
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Component Pouch
+Information: BOARD cast | Component Pouch (mv 3) by Ohethlic | open mana: Captain 0, Rodney 0, Anfar 0
+Resolve Stack: Component Pouch
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 15 (Anfar)
+Information: BOARD turn 15 (Anfar) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 15 (Anfar) | Rodney | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Molecule Man 5/5 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 15 (Anfar) | Ohethlic | life 38 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); The Deck of Many Things(5)
+Information: BOARD turn 15 (Anfar) | Anfar | life 38 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sylvan Caryatid 0/3 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Sunpetal Grove(land); Idyllic Beachfront(land); Inspiring Call(3)
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Land: Sylvan Caryatid (330) picked {G}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Island (346) - {T}: Add {U}.
+Add To Stack: Anfar cast Yuna's Whistle
+Information: BOARD cast | Yuna's Whistle (mv 3) by Anfar | open mana: Captain 0, Rodney 0, Ohethlic 1
+Resolve Stack: Yuna's Whistle (339) - Anfar reveals cards from the top of their library until they reveal a creature card. Anfar puts that card into their hand and the rest on the bottom of their library in a random order. When Anfar reveals a creature card this way, they put X +1/+1 counters on target creature they control, where X is the mana value of that card.
+Add To Stack: Anfar triggered Yuna's Whistle targeting [Sylvan Caryatid (330)]
+Resolve Stack: When you reveal a creature card this way, put X +1/+1 counters on target creature you control, where X is the mana value of that card. (Targeting: [[Sylvan Caryatid (330)]])
+Phase: Anfar's Main phase, precombat
+Replacement Effect: Sunpetal Grove enters tapped unless you control a Forest or a Plains.
+Land: Anfar played Sunpetal Grove (378)
+Phase: Anfar's Beginning of Combat Step
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); In the Trenches(3); Desynchronization(4); Mithril Coat(3); Floodfarm Verge(land)
+Information: BOARD turn 16 (Captain) | Rodney | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Molecule Man 5/5 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 16 (Captain) | Ohethlic | life 38 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); The Deck of Many Things(5)
+Information: BOARD turn 16 (Captain) | Anfar | life 38 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Sylvan Caryatid 2/5* | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Inspiring Call(3); Incubation Druid(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Floodfarm Verge (63)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast In the Trenches
+Information: BOARD cast | In the Trenches (mv 3) by Captain | open mana: Rodney 0, Ohethlic 1, Anfar 4
+Resolve Stack: In the Trenches
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Rodney)
+Information: BOARD turn 17 (Rodney) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Mithril Coat(3); Nazgûl Battle-Mace(5)
+Information: BOARD turn 17 (Rodney) | Rodney | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Molecule Man 5/5 | hand cards: Superior Foes of Spider-Man(3); Moonstone, Harsh Mistress(4); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 17 (Rodney) | Ohethlic | life 38 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); The Deck of Many Things(5)
+Information: BOARD turn 17 (Rodney) | Anfar | life 38 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Sylvan Caryatid 2/5* | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Inspiring Call(3); Incubation Druid(2)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Add To Stack: Rodney triggered The Frightful Four
+Add To Stack: Rodney cast The Frightful Four
+Information: BOARD cast | The Frightful Four (mv 4) by Rodney | open mana: Captain 2, Ohethlic 1, Anfar 4
+Resolve Stack: The Frightful Four - Miracle
+Resolve Stack: The Frightful Four - Creature 4 / 4
+Phase: Rodney's Main phase, precombat
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Molecule Man (116) to attack Anfar.
+Information: BOARD attack | Rodney -> Anfar | attackers 1 (power 5) | defender life 38 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Rodney's Declare Blockers Step
+Combat: Anfar didn't block Molecule Man (116).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Molecule Man (116) deals 5 combat damage to Anfar.
+Life: Life: Anfar 38 > 33
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Island (125) - {T}: Add {U}.
+Add To Stack: Rodney cast Moonstone, Harsh Mistress
+Information: BOARD cast | Moonstone, Harsh Mistress (mv 4) by Rodney | open mana: Captain 2, Ohethlic 1, Anfar 4
+Resolve Stack: Moonstone, Harsh Mistress - Creature 2 / 4
+Phase: Rodney's End step
+Add To Stack: Ohethlic activated Component Pouch
+Resolve Stack: Component Pouch (247) - Roll a d20.
+Phase: Rodney's Cleanup step
+Turn: Turn 18 (Ohethlic)
+Information: BOARD turn 18 (Ohethlic) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Mithril Coat(3); Nazgûl Battle-Mace(5)
+Information: BOARD turn 18 (Ohethlic) | Rodney | life 40 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4; Moonstone, Harsh Mistress 2/4 | hand cards: Superior Foes of Spider-Man(3); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 18 (Ohethlic) | Ohethlic | life 38 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Stridehangar Automaton(3); The Deck of Many Things(5)
+Information: BOARD turn 18 (Ohethlic) | Anfar | life 33 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Sylvan Caryatid 2/5* | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Inspiring Call(3); Incubation Druid(2)
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Land: Ohethlic picked {W}{R}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Add To Stack: Ohethlic cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Ohethlic | open mana: Captain 2, Rodney 4, Anfar 4
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by Ohethlic | open mana: Captain 2, Rodney 4, Anfar 4
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 19 (Anfar)
+Information: BOARD turn 19 (Anfar) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Mithril Coat(3); Nazgûl Battle-Mace(5)
+Information: BOARD turn 19 (Anfar) | Rodney | life 40 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4; Moonstone, Harsh Mistress 2/4 | hand cards: Superior Foes of Spider-Man(3); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 19 (Anfar) | Ohethlic | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: The Deck of Many Things(5); Grab the Prize(2)
+Information: BOARD turn 19 (Anfar) | Anfar | life 33 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Sylvan Caryatid 2/5* | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Inspiring Call(3); Incubation Druid(2)
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Land: Anfar picked {G}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Mana: Island (346) - {T}: Add {U}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Anfar cast Inspiring Call
+Information: BOARD cast | Inspiring Call (mv 3) by Anfar | open mana: Captain 2, Rodney 4, Ohethlic 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Anfar 33 > 30
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Inspiring Call (372), Activator: Anfar, SpellAbility: Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain indestructible until end of turn. ]
+Resolve Stack: Inspiring Call (372) - Anfar draws a card. 
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Land: Anfar played Plains (405)
+Land: Sylvan Caryatid (330) picked {G}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Plains (405) - {T}: Add {W}.
+Add To Stack: Anfar cast Incubation Druid
+Information: BOARD cast | Incubation Druid (mv 2) by Anfar | open mana: Captain 2, Rodney 4, Ohethlic 0
+Resolve Stack: Incubation Druid - Creature 0 / 2
+Phase: Anfar's Beginning of Combat Step
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Mithril Coat(3); Nazgûl Battle-Mace(5)
+Information: BOARD turn 20 (Captain) | Rodney | life 40 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4; Moonstone, Harsh Mistress 2/4 | hand cards: Superior Foes of Spider-Man(3); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 20 (Captain) | Ohethlic | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: The Deck of Many Things(5); Grab the Prize(2)
+Information: BOARD turn 20 (Captain) | Anfar | life 30 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Forest(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: devCaptain's Main phase, precombat
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Add To Stack: Captain cast Mithril Coat
+Information: BOARD cast | Mithril Coat (mv 3) by Captain | open mana: Rodney 4, Ohethlic 0, Anfar 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Captain 38 > 35
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Mithril Coat (71), Activator: Captain, SpellAbility: Mithril Coat]
+Resolve Stack: Mithril Coat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Rodney)
+Information: BOARD turn 21 (Rodney) | Captain | life 35 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 21 (Rodney) | Rodney | life 40 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4; Moonstone, Harsh Mistress 2/4 | hand cards: Superior Foes of Spider-Man(3); Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 21 (Rodney) | Ohethlic | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: The Deck of Many Things(5); Grab the Prize(2)
+Information: BOARD turn 21 (Rodney) | Anfar | life 30 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Forest(land)
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Add To Stack: Rodney triggered Kang, Temporal Tyrant
+Add To Stack: Rodney cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Rodney | open mana: Captain 2, Ohethlic 0, Anfar 0
+Resolve Stack: Kang, Temporal Tyrant - Miracle
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Phase: Rodney's Main phase, precombat
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Moonstone, Harsh Mistress (110), Molecule Man (116) and The Frightful Four (171) to attack Ohethlic.
+Information: BOARD attack | Rodney -> Ohethlic | attackers 3 (power 11) | defender life 38 | untapped creatures 2 (power 1): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | open mana 0
+Phase: Rodney's Declare Blockers Step
+Combat: Ohethlic didn't block Moonstone, Harsh Mistress (110).
+Ohethlic assigned Stridehangar Automaton (220) to block Molecule Man (116).
+Ohethlic didn't block The Frightful Four (171).
+Zone Change: Welding Jar (221) was put into Graveyard from Battlefield.
+Add To Stack: Ohethlic activated Welding Jar targeting [Stridehangar Automaton (220)]
+Resolve Stack: Welding Jar (221) - Regenerate Stridehangar Automaton (220).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Moonstone, Harsh Mistress (110) deals 2 combat damage to Ohethlic.
+Damage: Molecule Man (116) deals 5 damage to Stridehangar Automaton (220).
+Damage: The Frightful Four (171) deals 4 combat damage to Ohethlic.
+Damage: Stridehangar Automaton (220) deals 1 damage to Molecule Man (116).
+Life: Life: Ohethlic 38 > 32
+Replacement Effect: Regeneration (if creature would be destroyed, regenerate it instead)
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Land: Rodney picked {R}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Rodney cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Rodney | open mana: Captain 2, Ohethlic 0, Anfar 0
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 22 (Ohethlic)
+Information: BOARD turn 22 (Ohethlic) | Captain | life 35 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 22 (Ohethlic) | Rodney | life 40 | hand 2 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 5 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | hand cards: Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 22 (Ohethlic) | Ohethlic | life 32 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4* | hand cards: The Deck of Many Things(5); Grab the Prize(2)
+Information: BOARD turn 22 (Ohethlic) | Anfar | life 30 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Forest(land)
+Information: BOARD threat | turn 22 | The Frightful Four (Rodney) 50
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Combat: Ohethlic assigned Stridehangar Automaton (220) to attack Rodney.
+Information: BOARD attack | Ohethlic -> Rodney | attackers 1 (power 1) | defender life 40 | untapped creatures 2 (power 6): Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | open mana 3
+Phase: Ohethlic's Declare Blockers Step
+Combat: Rodney assigned Superior Foes of Spider-Man (176) and Kang, Temporal Tyrant (179) to block Stridehangar Automaton (220).
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Damage: Stridehangar Automaton (220) deals 1 damage to Kang, Temporal Tyrant (179).
+Damage: Superior Foes of Spider-Man (176) deals 3 damage to Stridehangar Automaton (220).
+Damage: Kang, Temporal Tyrant (179) deals 3 damage to Stridehangar Automaton (220).
+Zone Change: Stridehangar Automaton (220) was put into Graveyard from Battlefield.
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Land: Ohethlic picked {W}{U}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Ohethlic cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by Ohethlic | open mana: Captain 2, Rodney 3, Anfar 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Ohethlic 32 > 27
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: The Deck of Many Things (301), Activator: Ohethlic, SpellAbility: The Deck of Many Things]
+Resolve Stack: The Deck of Many Things
+Phase: Ohethlic's End step
+Phase: Ohethlic's Cleanup step
+Turn: Turn 23 (Anfar)
+Information: BOARD turn 23 (Anfar) | Captain | life 35 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 23 (Anfar) | Rodney | life 40 | hand 2 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 5 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | hand cards: Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 23 (Anfar) | Ohethlic | life 27 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2); Smuggler's Share(3)
+Information: BOARD turn 23 (Anfar) | Anfar | life 30 | hand 5 | lands 5 (1 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2 | hand cards: Yuna, Grand Summoner(4); Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Forest(land)
+Information: BOARD threat | turn 23 | The Frightful Four (Rodney) 63
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Land: Anfar played Forest (353)
+Mana: Island (346) - {T}: Add {U}.
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Forest (353) - {T}: Add {G}.
+Add To Stack: Anfar cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Anfar | open mana: Captain 2, Rodney 3, Ohethlic 0
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Anfar's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Land: Sylvan Caryatid (330) picked {U}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Land: Anfar picked {W}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Incubation Druid (319) - {T}: Add one mana of any type that a land you control could produce. If Incubation Druid has a +1/+1 counter on it, add three mana of that type instead.
+Add To Stack: Anfar cast Yuna, Grand Summoner
+Information: BOARD cast | Yuna, Grand Summoner (mv 4) by Anfar | open mana: Captain 2, Rodney 3, Ohethlic 0
+Resolve Stack: Yuna, Grand Summoner - Creature 1 / 5
+Phase: Anfar's End step
+Phase: Anfar's Cleanup step
+Turn: Turn 24 (Captain)
+Information: BOARD turn 24 (Captain) | Captain | life 35 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 24 (Captain) | Rodney | life 40 | hand 2 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 5 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | hand cards: Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 24 (Captain) | Ohethlic | life 27 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2); Smuggler's Share(3)
+Information: BOARD turn 24 (Captain) | Anfar | life 30 | hand 4 | lands 6 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2*; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5 | hand cards: Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Plains(land)
+Information: BOARD threat | turn 24 | The Frightful Four (Rodney) 60
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (86)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Rodney 3, Ohethlic 0, Anfar 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Mithril Coat (71)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Mithril Coat (71)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 25 (Rodney)
+Information: BOARD turn 25 (Rodney) | Captain | life 35 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Mithril Coat] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 25 (Rodney) | Rodney | life 40 | hand 2 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 5 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | hand cards: Madame Hydra(4); Tri-Sentinel, Act of Vengeance(7)
+Information: BOARD turn 25 (Rodney) | Ohethlic | life 27 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2); Smuggler's Share(3)
+Information: BOARD turn 25 (Rodney) | Anfar | life 30 | hand 4 | lands 6 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2*; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5 | hand cards: Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Plains(land)
+Information: BOARD threat | turn 25 | The Frightful Four (Rodney) 58
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Rodney played Foreboding Ruins (162)
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Superior Foes of Spider-Man (176) to attack Ohethlic.
+Rodney assigned The Frightful Four (171), Moonstone, Harsh Mistress (110), Molecule Man (116) and Kang, Temporal Tyrant (179) to attack Anfar.
+Information: BOARD attack | Rodney -> Ohethlic | attackers 1 (power 3) | defender life 27 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Information: BOARD attack | Rodney -> Anfar | attackers 4 (power 14) | defender life 30 | untapped creatures 2 (power 4): Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5 | open mana 0
+Add To Stack: Rodney triggered Kang, Temporal Tyrant
+Discard: Rodney discards Tri-Sentinel, Act of Vengeance (115).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (179)]
+Add To Stack: Rodney triggered Kang, Temporal Tyrant
+Add To Stack: Rodney triggered Moonstone, Harsh Mistress
+Resolve Stack: Whenever you discard a card, you may exile that card from your graveyard. If you do, until the end of your next turn, you may play that card. [Discarded: Tri-Sentinel, Act of Vengeance (115), Cause: ]
+Life: Life: Ohethlic 27 > 26
+Life: Life: Anfar 30 > 29
+Life: Life: Captain 35 > 34
+Life: Life: Rodney 40 > 41
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Rodney]
+Phase: Rodney's Declare Blockers Step
+Combat: Ohethlic assigned Mr. House, President and CEO (302) to block Superior Foes of Spider-Man (176).
+Combat: Anfar didn't block The Frightful Four (171).
+Anfar didn't block Moonstone, Harsh Mistress (110).
+Anfar didn't block Molecule Man (116).
+Anfar assigned Yuna, Grand Summoner (336) to block Kang, Temporal Tyrant (179).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Superior Foes of Spider-Man (176) deals 3 damage to Mr. House, President and CEO (302).
+Damage: The Frightful Four (171) deals 4 combat damage to Anfar.
+Damage: Moonstone, Harsh Mistress (110) deals 2 combat damage to Anfar.
+Damage: Molecule Man (116) deals 5 combat damage to Anfar.
+Damage: Kang, Temporal Tyrant (179) deals 4 damage to Yuna, Grand Summoner (336).
+Damage: Yuna, Grand Summoner (336) deals 1 damage to Kang, Temporal Tyrant (179).
+Life: Life: Anfar 29 > 18
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Mana: Island (125) - {T}: Add {U}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Swamp (153) - {T}: Add {B}.
+Add To Stack: Rodney cast Mysterio, Master of Illusion
+Information: BOARD cast | Mysterio, Master of Illusion (mv 4) by Rodney | open mana: Captain 3, Ohethlic 0, Anfar 0
+Add To Stack: Rodney triggered Superior Foes of Spider-Man
+Resolve Stack: Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. If you do, you may play that card until you exile another card with this creature. [Card: Mysterio, Master of Illusion (135), Activator: Rodney, SpellAbility: Mysterio, Master of Illusion - Creature 3 / 3]
+Resolve Stack: Mysterio, Master of Illusion - Creature 3 / 3
+Add To Stack: Rodney triggered Mysterio, Master of Illusion
+Resolve Stack: When Mysterio enters, create a 3/3 blue Illusion Villain creature token for each nontoken Villain you control. Exile those tokens when Mysterio leaves the battlefield. [Zone Changer: Mysterio, Master of Illusion (135)]
+Phase: Rodney's End step
+Phase: Rodney's Cleanup step
+Turn: Turn 26 (Ohethlic)
+Information: BOARD turn 26 (Ohethlic) | Captain | life 34 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Mithril Coat] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 26 (Ohethlic) | Rodney | life 41 | hand 1 | lands 5 (2 untapped) | open mana 4 | commander Command | creatures 12 (7 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 4/5*; Superior Foes of Spider-Man 3/3*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x6 | hand cards: Madame Hydra(4)
+Information: BOARD turn 26 (Ohethlic) | Ohethlic | life 26 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2); Smuggler's Share(3)
+Information: BOARD turn 26 (Ohethlic) | Anfar | life 18 | hand 4 | lands 6 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2*; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5 | hand cards: Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Plains(land)
+Information: BOARD threat | turn 26 | The Frightful Four (Rodney) 78; Molecule Man (Rodney) 50; Moonstone, Harsh Mistress (Rodney) 36
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Ohethlic played Shattered Sanctum (210)
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Land: Ohethlic picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Mountain (287) - {T}: Add {R}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Smuggler's Share
+Information: BOARD cast | Smuggler's Share (mv 3) by Ohethlic | open mana: Captain 3, Rodney 4, Anfar 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Ohethlic 26 > 23
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Smuggler's Share (236), Activator: Ohethlic, SpellAbility: Smuggler's Share]
+Resolve Stack: Smuggler's Share
+Phase: Ohethlic's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Ohethlic]
+Phase: Ohethlic's Cleanup step
+Turn: Turn 27 (Anfar)
+Information: BOARD turn 27 (Anfar) | Captain | life 34 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Mithril Coat] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 27 (Anfar) | Rodney | life 41 | hand 1 | lands 5 (2 untapped) | open mana 4 | commander Command | creatures 12 (7 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 4/5*; Superior Foes of Spider-Man 3/3*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x6 | hand cards: Madame Hydra(4)
+Information: BOARD turn 27 (Anfar) | Ohethlic | life 23 | hand 1 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2)
+Information: BOARD turn 27 (Anfar) | Anfar | life 18 | hand 4 | lands 6 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2*; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5 | hand cards: Tireless Tracker(3); Sab-Sunen, Luxa Embodied(5); Idyllic Beachfront(land); Plains(land)
+Information: BOARD threat | turn 27 | The Frightful Four (Rodney) 90; Molecule Man (Rodney) 48; Moonstone, Harsh Mistress (Rodney) 34
+Phase: Anfar's Untap step
+Phase: Anfar's Upkeep step
+Phase: Anfar's Draw step
+Phase: Anfar's Main phase, precombat
+Land: Anfar played Plains (408)
+Phase: Anfar's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Anfar's Declare Attackers Step
+Phase: Anfar's Declare Blockers Step
+Phase: Anfar's First Strike Damage Step
+Phase: Anfar's Combat Damage Step
+Phase: Anfar's End of Combat Step
+Phase: Anfar's Main phase, postcombat
+Mana: Island (346) - {T}: Add {U}.
+Mana: Forest (353) - {T}: Add {G}.
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Plains (408) - {T}: Add {W}.
+Land: Anfar picked {G}
+Mana: Sunpetal Grove (378) - {T}: Add {G} or {W}.
+Add To Stack: Anfar cast Sab-Sunen, Luxa Embodied
+Information: BOARD cast | Sab-Sunen, Luxa Embodied (mv 5) by Anfar | open mana: Captain 3, Rodney 4, Ohethlic 2
+Resolve Stack: Sab-Sunen, Luxa Embodied - Creature 6 / 6
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Land: Sylvan Caryatid (330) picked {W}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Land: Yuna, Grand Summoner (336) picked {W}
+Mana: Yuna, Grand Summoner (336) - Grand Summon — {T}: Add one mana of any color. When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. 
+Add To Stack: Anfar cast Tireless Tracker
+Information: BOARD cast | Tireless Tracker (mv 3) by Anfar | open mana: Captain 3, Rodney 4, Ohethlic 2
+Add To Stack: Anfar triggered Yuna, Grand Summoner (336)'s Effect
+Resolve Stack: When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. [Card: Tireless Tracker (366), Activator: Anfar, SpellAbility: Tireless Tracker - Creature 3 / 2]
+Resolve Stack: Tireless Tracker - Creature 3 / 2
+Phase: Anfar's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Anfar]
+Phase: Anfar's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 34 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Mithril Coat] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Nazgûl Battle-Mace(5); Whispersilk Cloak(3)
+Information: BOARD turn 28 (Captain) | Rodney | life 41 | hand 1 | lands 5 (2 untapped) | open mana 4 | commander Command | creatures 12 (7 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 4/5*; Superior Foes of Spider-Man 3/3*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x6 | hand cards: Madame Hydra(4)
+Information: BOARD turn 28 (Captain) | Ohethlic | life 23 | hand 1 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2)
+Information: BOARD turn 28 (Captain) | Anfar | life 18 | hand 2 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 6 (4 untapped): Sylvan Caryatid 2/5*; Incubation Druid 0/2; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5*; Sab-Sunen, Luxa Embodied 6/6; Tireless Tracker 5/4 | hand cards: Idyllic Beachfront(land); Inexorable Tide(5)
+Information: BOARD threat | turn 28 | The Frightful Four (Rodney) 86; Molecule Man (Rodney) 46; Moonstone, Harsh Mistress (Rodney) 33
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Mana: Command Tower (25) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Nazgûl Battle-Mace
+Information: BOARD cast | Nazgûl Battle-Mace (mv 5) by Captain | open mana: Rodney 4, Ohethlic 2, Anfar 2
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Captain 34 > 29
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Nazgûl Battle-Mace (36), Activator: Captain, SpellAbility: Nazgûl Battle-Mace]
+Resolve Stack: Nazgûl Battle-Mace
+Phase: devCaptain's Main phase, precombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Captain played Raugrin Triome (90)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (36)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (36)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Anfar.
+Information: BOARD attack | Captain -> Anfar | attackers 1 (power 5) | defender life 18 | untapped creatures 4 (power 14): Incubation Druid 0/2; Tidus, Yuna's Guardian 3/3; Sab-Sunen, Luxa Embodied 6/6; Tireless Tracker 5/4 | open mana 2
+Add To Stack: Captain triggered Captain America, First Avenger
+Zone Change: Plains (405) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (100)]
+Add To Stack: Captain triggered Captain America, First Avenger
+Resolve Stack: Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life. [Sacrificed: Plains (405)]
+Phase: Captain's Declare Blockers Step
+Combat: Anfar assigned Incubation Druid (319) to block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 5 damage (Deathtouch) to Incubation Druid (319).
+Zone Change: Incubation Druid (319) was put into Graveyard from Battlefield.
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Rodney)
+Information: BOARD turn 29 (Rodney) | Captain | life 29 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Mithril Coat,Nazgûl Battle-Mace] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Whispersilk Cloak(3)
+Information: BOARD turn 29 (Rodney) | Rodney | life 41 | hand 1 | lands 5 (2 untapped) | open mana 4 | commander Command | creatures 12 (7 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Kang, Temporal Tyrant 4/5*; Superior Foes of Spider-Man 3/3*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x6 | hand cards: Madame Hydra(4)
+Information: BOARD turn 29 (Rodney) | Ohethlic | life 23 | hand 1 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2)
+Information: BOARD turn 29 (Rodney) | Anfar | life 18 | hand 2 | lands 6 (1 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Sylvan Caryatid 2/5*; Tidus, Yuna's Guardian 3/3; Yuna, Grand Summoner 1/5*; Sab-Sunen, Luxa Embodied 6/6; Tireless Tracker 5/4 | hand cards: Idyllic Beachfront(land); Inexorable Tide(5)
+Information: BOARD threat | turn 29 | The Frightful Four (Rodney) 97; Captain America, First Avenger (Captain) 55; Molecule Man (Rodney) 44; Smuggler's Share (Ohethlic) 41; Moonstone, Harsh Mistress (Rodney) 32
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Mana: Island (125) - {T}: Add {U}.
+Mana: Swamp (153) - {T}: Add {B}.
+Land: Rodney picked {R}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Rodney cast Loki, the Deceiver
+Information: BOARD cast | Loki, the Deceiver (mv 4) by Rodney | open mana: Captain 1, Ohethlic 3, Anfar 0
+Add To Stack: Rodney triggered Superior Foes of Spider-Man
+Resolve Stack: Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. If you do, you may play that card until you exile another card with this creature. [Card: Loki, the Deceiver (139), Activator: Rodney, SpellAbility: Loki, the Deceiver - Creature 4 / 4 by Superior Foes of Spider-Man (176)]
+Resolve Stack: Loki, the Deceiver - Creature 4 / 4
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Molecule Man (116), The Frightful Four (171), Kang, Temporal Tyrant (179), Superior Foes of Spider-Man (176), Mysterio, Master of Illusion (135), Illusion Villain Token (421), Illusion Villain Token (422), Illusion Villain Token (423), Illusion Villain Token (424), Illusion Villain Token (425), Illusion Villain Token (426) and Moonstone, Harsh Mistress (110) to attack Anfar.
+Information: BOARD attack | Rodney -> Anfar | attackers 12 (power 39) | defender life 18 | untapped creatures 3 (power 14): Tidus, Yuna's Guardian 3/3; Sab-Sunen, Luxa Embodied 6/6; Tireless Tracker 5/4 | open mana 0
+Add To Stack: Rodney triggered Kang, Temporal Tyrant
+Discard: Rodney discards Swamp (152).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (179)]
+Add To Stack: Rodney triggered Kang, Temporal Tyrant
+Add To Stack: Rodney triggered Moonstone, Harsh Mistress
+Resolve Stack: Whenever you discard a card, you may exile that card from your graveyard. If you do, until the end of your next turn, you may play that card. [Discarded: Swamp (152), Cause: ]
+Life: Life: Ohethlic 23 > 22
+Life: Life: Anfar 18 > 17
+Life: Life: Captain 29 > 28
+Life: Life: Rodney 41 > 42
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Rodney]
+Phase: Rodney's Declare Blockers Step
+Combat: Anfar assigned Tidus, Yuna's Guardian (413) to block Molecule Man (116).
+Anfar didn't block The Frightful Four (171).
+Anfar assigned Tireless Tracker (366) to block Kang, Temporal Tyrant (179).
+Anfar assigned Sab-Sunen, Luxa Embodied (349) to block Superior Foes of Spider-Man (176).
+Anfar didn't block Mysterio, Master of Illusion (135).
+Anfar didn't block Illusion Villain Token (421).
+Anfar didn't block Illusion Villain Token (422).
+Anfar didn't block Illusion Villain Token (423).
+Anfar didn't block Illusion Villain Token (424).
+Anfar didn't block Illusion Villain Token (425).
+Anfar didn't block Illusion Villain Token (426).
+Anfar didn't block Moonstone, Harsh Mistress (110).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Molecule Man (116) deals 5 damage to Tidus, Yuna's Guardian (413).
+Damage: The Frightful Four (171) deals 4 combat damage to Anfar.
+Damage: Kang, Temporal Tyrant (179) deals 4 damage to Tireless Tracker (366).
+Damage: Superior Foes of Spider-Man (176) deals 3 damage to Sab-Sunen, Luxa Embodied (349).
+Damage: Mysterio, Master of Illusion (135) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (421) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (422) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (423) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (424) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (425) deals 3 combat damage to Anfar.
+Damage: Illusion Villain Token (426) deals 3 combat damage to Anfar.
+Damage: Moonstone, Harsh Mistress (110) deals 2 combat damage to Anfar.
+Damage: Tidus, Yuna's Guardian (413) deals 3 damage to Molecule Man (116).
+Damage: Tireless Tracker (366) deals 5 damage to Kang, Temporal Tyrant (179).
+Damage: Sab-Sunen, Luxa Embodied (349) deals 6 damage to Superior Foes of Spider-Man (176).
+Life: Life: Anfar 17 > -10
+Zone Change: Kang, Temporal Tyrant (179) was put into Graveyard from Battlefield.
+Zone Change: Superior Foes of Spider-Man (176) was put into Graveyard from Battlefield.
+Add To Stack: Rodney triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Anfar, Amount: 27]
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Land: Rodney played Mountain (187)
+Mana: Mountain (187) - {T}: Add {R}.
+Land: Rodney picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Rodney cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Rodney | open mana: Captain 0, Ohethlic 3
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Phase: Rodney's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Rodney]
+Add To Stack: Ohethlic activated Component Pouch
+Resolve Stack: Component Pouch (247) - Roll a d20.
+Add To Stack: Ohethlic triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Ohethlic, Result: 14]
+Zone Change: Treasure Token (431) was put into Graveyard from Battlefield.
+Land: Treasure Token (431) picked {W}
+Mana: Treasure Token (431) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (437) was put into Graveyard from Battlefield.
+Land: Treasure Token (437) picked {W}
+Mana: Treasure Token (437) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: Ohethlic activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Phase: Rodney's Cleanup step
+Turn: Turn 30 (Ohethlic)
+Information: BOARD turn 30 (Ohethlic) | Captain | life 28 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Mithril Coat,Nazgûl Battle-Mace] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Whispersilk Cloak(3)
+Information: BOARD turn 30 (Ohethlic) | Rodney | life 42 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 12 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Mysterio, Master of Illusion 3/3*; Illusion Villain Token 3/3* x6; Loki, the Deceiver 4/4; Puppet Master, String Puller 2/4 | hand cards: Madame Hydra(4)
+Information: BOARD turn 30 (Ohethlic) | Ohethlic | life 22 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 | hand cards: Grab the Prize(2); Caesar, Legion's Emperor(4)
+Information: BOARD threat | turn 30 | The Frightful Four (Rodney) 116; Moonstone, Harsh Mistress (Rodney) 56; Smuggler's Share (Ohethlic) 54; Captain America, First Avenger (Captain) 53; Molecule Man (Rodney) 42
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Phase: Ohethlic's Main phase, precombat
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: Ohethlic activated Skullclamp targeting [Robot Token (436)]
+Resolve Stack: Skullclamp (250) -  Attach to Robot Token (436)
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Phase: Ohethlic's Declare Blockers Step
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Land: Ohethlic picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Ohethlic picked {R}{W}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Ohethlic cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Ohethlic | open mana: Captain 0, Rodney 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Ohethlic 22 > 20
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Exsanguinate (229), Activator: Ohethlic, SpellAbility: Each opponent loses 4 life. You gain life equal to the life lost this way. (X=4; fixed-X split so the AI counts Treasures.) ]
+Life: Life: Captain 28 > 24
+Life: Life: Rodney 42 > 38
+Life: Life: Ohethlic 20 > 28
+Resolve Stack: Exsanguinate (229) - Captain and Rodney each lose 4 life. You gain life equal to the life lost this way.
+Phase: Ohethlic's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Ohethlic]
+Phase: Ohethlic's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Captain | life 24 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Mithril Coat,Nazgûl Battle-Mace] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Whispersilk Cloak(3)
+Information: BOARD turn 31 (Captain) | Rodney | life 38 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 12 (2 untapped): Molecule Man 5/5*; The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Mysterio, Master of Illusion 3/3*; Illusion Villain Token 3/3* x6; Loki, the Deceiver 4/4; Puppet Master, String Puller 2/4 | hand cards: Madame Hydra(4)
+Information: BOARD turn 31 (Captain) | Ohethlic | life 28 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 4/2[Skullclamp] | hand cards: Grab the Prize(2); Caesar, Legion's Emperor(4)
+Information: BOARD threat | turn 31 | The Frightful Four (Rodney) 126; Smuggler's Share (Ohethlic) 66; Moonstone, Harsh Mistress (Rodney) 54; Captain America, First Avenger (Captain) 51; Molecule Man (Rodney) 40
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Whispersilk Cloak
+Information: BOARD cast | Whispersilk Cloak (mv 3) by Captain | open mana: Rodney 0, Ohethlic 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Captain 24 > 21
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Whispersilk Cloak (23), Activator: Captain, SpellAbility: Whispersilk Cloak]
+Resolve Stack: Whispersilk Cloak
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Whispersilk Cloak (23)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Whispersilk Cloak (23)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Rodney.
+Information: BOARD attack | Captain -> Rodney | attackers 1 (power 5) | defender life 38 | untapped creatures 2 (power 6): Loki, the Deceiver 4/4; Puppet Master, String Puller 2/4 | open mana 0
+Add To Stack: Captain triggered Captain America, First Avenger
+Zone Change: Illusion Villain Token (421) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Rodney didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 5 combat damage to Rodney.
+Life: Life: Rodney 38 > 33
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Floodfarm Verge (63) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Mana: Command Tower (25) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Molecule Man (116), Mr. House, President and CEO (302), Mysterio, Master of Illusion (135)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Molecule Man (116).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mysterio, Master of Illusion (135).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Molecule Man (116) (1 damage), Mr. House, President and CEO (302) (1 damage) and Mysterio, Master of Illusion (135) (1 damage).
+Zone Change: Molecule Man (116) was put into Graveyard from Battlefield.
+Zone Change: Mysterio, Master of Illusion (135) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Add To Stack: Rodney triggered Mysterio, Master of Illusion (135)'s Effect
+Zone Change: Illusion Villain Token (422) was put into Exile from Battlefield.
+Zone Change: Illusion Villain Token (423) was put into Exile from Battlefield.
+Zone Change: Illusion Villain Token (424) was put into Exile from Battlefield.
+Zone Change: Illusion Villain Token (425) was put into Exile from Battlefield.
+Zone Change: Illusion Villain Token (426) was put into Exile from Battlefield.
+Resolve Stack: Exile those tokens when Mysterio, Master of Illusion (135) leaves the battlefield. [Zone Changer: Mysterio, Master of Illusion (135)]
+Phase: Captain's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Rodney)
+Information: BOARD turn 32 (Rodney) | Captain | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Nazgûl Battle-Mace,Whispersilk Cloak] | hand cards: Excalibur, Sword of Eden(12); Desynchronization(4); Spell Pierce(1)
+Information: BOARD turn 32 (Rodney) | Rodney | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (2 untapped): The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Loki, the Deceiver 4/4; Puppet Master, String Puller 2/4 | hand cards: Madame Hydra(4)
+Information: BOARD turn 32 (Rodney) | Ohethlic | life 28 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Robot Token 4/2[Skullclamp] | hand cards: Grab the Prize(2); Caesar, Legion's Emperor(4)
+Information: BOARD threat | turn 32 | The Frightful Four (Rodney) 135; Captain America, First Avenger (Captain) 121; Smuggler's Share (Ohethlic) 78; Moonstone, Harsh Mistress (Rodney) 52
+Phase: Rodney's Untap step
+Phase: Rodney's Upkeep step
+Phase: Rodney's Draw step
+Phase: Rodney's Main phase, precombat
+Phase: Rodney's Beginning of Combat Step
+Phase: Rodney's Declare Attackers Step
+Combat: Rodney assigned Loki, the Deceiver (139), The Frightful Four (171), Moonstone, Harsh Mistress (110) and Puppet Master, String Puller (113) to attack Captain.
+Information: BOARD attack | Rodney -> Captain | attackers 4 (power 12) | defender life 21 | untapped creatures 0 (power 0):  | open mana 0
+Add To Stack: Rodney triggered Puppet Master, String Puller targeting [Robot Token (436)]
+Add To Stack: Rodney triggered Loki, the Deceiver targeting [The Frightful Four (171)]
+Resolve Stack: Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step. (Targeting: [[The Frightful Four (171)]]) [Attacker: Loki, the Deceiver (139)]
+Resolve Stack: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.) (Targeting: [[Robot Token (436)]]) [Number Attackers: [Loki, the Deceiver (139), The Frightful Four (171), Moonstone, Harsh Mistress (110), Puppet Master, String Puller (113)]]
+Phase: Rodney's Declare Blockers Step
+Combat: Ohethlic didn't block The Frightful Four (439).
+Combat: Captain didn't block Loki, the Deceiver (139).
+Captain didn't block The Frightful Four (171).
+Captain didn't block Moonstone, Harsh Mistress (110).
+Captain didn't block Puppet Master, String Puller (113).
+Phase: Rodney's First Strike Damage Step
+Phase: Rodney's Combat Damage Step
+Damage: Loki, the Deceiver (139) deals 4 combat damage to Captain.
+Damage: The Frightful Four (171) deals 4 combat damage to Captain.
+Damage: Moonstone, Harsh Mistress (110) deals 2 combat damage to Captain.
+Damage: Puppet Master, String Puller (113) deals 2 combat damage to Captain.
+Damage: The Frightful Four (439) deals 4 combat damage to Ohethlic.
+Life: Life: Captain 21 > 9
+Life: Life: Ohethlic 28 > 24
+Add To Stack: Rodney triggered Loki, the Deceiver
+Add To Stack: Rodney triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Ohethlic, Amount: 4]
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Captain, Amount: 12]
+Phase: Rodney's End of Combat Step
+Phase: Rodney's Main phase, postcombat
+Land: Rodney played Swamp (152)
+Mana: Island (125) - {T}: Add {U}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Swamp (152) - {T}: Add {B}.
+Add To Stack: Rodney cast Extract Power
+Information: BOARD cast | Extract Power (mv 6) by Rodney | open mana: Captain 0, Ohethlic 0
+Resolve Stack: Extract Power (191) - Rodney exiles the top card of their library.  
+Add To Stack: Rodney cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Rodney | open mana: Captain 0, Ohethlic 0
+Resolve Stack: Brotherhood Regalia
+Add To Stack: Rodney cast Syphon Mind
+Information: BOARD cast | Syphon Mind (mv 4) by Rodney | open mana: Captain 0, Ohethlic 0
+Discard: Captain discards Desynchronization (39).
+Discard: Ohethlic discards Caesar, Legion's Emperor (240).
+Resolve Stack: Syphon Mind (106) - Ohethlic and Captain discard a card. Rodney draws zero cards. 
+Mana: Scorched Geyser (181) - {T}: Add {U}.
+Land: Rodney picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Land: Rodney picked {B}
+Mana: Foreboding Ruins (162) - {T}: Add {B} or {R}.
+Add To Stack: Rodney cast Propaganda
+Information: BOARD cast | Propaganda (mv 3) by Rodney | open mana: Captain 0, Ohethlic 0
+Resolve Stack: Propaganda
+Phase: Rodney's End step
+Add To Stack: Rodney triggered Loki, the Deceiver
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Rodney]
+Zone Change: The Frightful Four (439) was put into Graveyard from Battlefield.
+Resolve Stack: Sacrifice The Frightful Four (439) at the beginning of the next end step. ([The Frightful Four (439)]) [Phase: Rodney]
+Phase: Rodney's Cleanup step
+Turn: Turn 33 (Ohethlic)
+Information: BOARD turn 33 (Ohethlic) | Captain | life 9 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Nazgûl Battle-Mace,Whispersilk Cloak] | hand cards: Excalibur, Sword of Eden(12); Spell Pierce(1)
+Information: BOARD turn 33 (Ohethlic) | Rodney | life 33 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 4 (0 untapped): The Frightful Four 4/4*; Moonstone, Harsh Mistress 2/4*; Loki, the Deceiver 4/4*; Puppet Master, String Puller 2/4* | hand cards: Madame Hydra(4); Age of Ultron(5); Coastal Peak(land); Red Ghost, Intangible Genius(4)
+Information: BOARD turn 33 (Ohethlic) | Ohethlic | life 24 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Robot Token 4/2[Skullclamp] | hand cards: Grab the Prize(2); Plains(land)
+Information: BOARD threat | turn 33 | The Frightful Four (Rodney) 153; Captain America, First Avenger (Captain) 116; Loki, the Deceiver (Rodney) 93; Smuggler's Share (Ohethlic) 89; Moonstone, Harsh Mistress (Rodney) 61
+Phase: Ohethlic's Untap step
+Phase: Ohethlic's Upkeep step
+Phase: Ohethlic's Draw step
+Land: Ohethlic picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: Ohethlic cast Terminate targeting [The Frightful Four (171)]
+Information: BOARD cast | Terminate (mv 2) by Ohethlic | open mana: Captain 0, Rodney 0
+Add To Stack: Rodney triggered The Frightful Four
+Life: Life: Ohethlic 24 > 22
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Terminate (264), Activator: Ohethlic, SpellAbility: Destroy target creature. It can't be regenerated.]
+Zone Change: The Frightful Four (171) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (264) - Destroy The Frightful Four (171). It can't be regenerated.
+Phase: Ohethlic's Main phase, precombat
+Land: Ohethlic played Plains (291)
+Phase: Ohethlic's Beginning of Combat Step
+Phase: Ohethlic's Declare Attackers Step
+Combat: Ohethlic assigned Robot Token (436) to attack Captain.
+Information: BOARD attack | Ohethlic -> Captain | attackers 1 (power 4) | defender life 9 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Ohethlic's Declare Blockers Step
+Combat: Captain didn't block Robot Token (436).
+Phase: Ohethlic's First Strike Damage Step
+Phase: Ohethlic's Combat Damage Step
+Damage: Robot Token (436) deals 4 combat damage to Captain.
+Life: Life: Captain 9 > 5
+Add To Stack: Rodney triggered Puppet Master, String Puller
+Resolve Stack: Whenever one or more goaded creatures deal combat damage to one of your opponents, create a Treasure token. [Damaged: Captain, Amount: 4]
+Phase: Ohethlic's End of Combat Step
+Phase: Ohethlic's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Mana: Needleverge Pathway (239) - {T}: Add {R}.
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Ohethlic picked {R}{W}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Ohethlic cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Ohethlic | open mana: Captain 0, Rodney 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Ohethlic's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Ohethlic]
+Phase: Ohethlic's Cleanup step
+Turn: Turn 34 (Captain)
+Information: BOARD turn 34 (Captain) | Captain | life 5 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 5/5*[Nazgûl Battle-Mace,Whispersilk Cloak] | hand cards: Excalibur, Sword of Eden(12); Spell Pierce(1)
+Information: BOARD turn 34 (Captain) | Rodney | life 33 | hand 4 | lands 7 (0 untapped) | open mana 1 | commander Command | creatures 3 (0 untapped): Moonstone, Harsh Mistress 2/4*; Loki, the Deceiver 4/4*; Puppet Master, String Puller 2/4* | hand cards: Madame Hydra(4); Age of Ultron(5); Coastal Peak(land); Red Ghost, Intangible Genius(4)
+Information: BOARD turn 34 (Captain) | Ohethlic | life 22 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Robot Token 4/2*[Skullclamp]; Mr. House, President and CEO 0/4 | hand cards: Grab the Prize(2)
+Information: BOARD threat | turn 34 | Captain America, First Avenger (Captain) 112; Smuggler's Share (Ohethlic) 100; Loki, the Deceiver (Rodney) 90; Moonstone, Harsh Mistress (Rodney) 59; Puppet Master, String Puller (Rodney) 39
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Captain | open mana: Rodney 1, Ohethlic 0
+Resolve Stack: Excalibur, Sword of Eden
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Ohethlic triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+
+Game Result: unfinished (Forge closed mid-game)

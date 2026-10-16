@@ -1,0 +1,8 @@
+[state]
+turn=5
+activeplayer=human
+activephase=END_OF_TURN
+humanlife=20
+ailife=20
+humanbattlefield=Forest;Forest;Forest
+aibattlefield=Captain America, First Avenger|Id:1;Sword of Feast and Famine|AttachedTo:1;Plains;Plains;Plains;Island;Mountain;Mountain

@@ -1,0 +1,9 @@
+[state]
+turn=9
+activeplayer=ai
+activeMAIN2=MAIN2
+humanlife=40
+ailife=40
+humanbattlefield=Grizzly Bears;Hill Giant;Forest;Forest;Forest;Forest
+aibattlefield=Llanowar Elves;Savannah Lions;Forest;Forest;Island;Island;Plains;Plains;Mountain;Mountain;Swamp;Swamp
+aihand=Hardened Scales

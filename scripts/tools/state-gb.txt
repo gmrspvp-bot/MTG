@@ -1,0 +1,8 @@
+﻿[state]
+turn=6
+activeplayer=human
+activephase=END_OF_TURN
+humanlife=20
+ailife=40
+humanbattlefield=Grizzly Bears;Llanowar Elves;Forest
+aibattlefield=Goblin Bombardment;Mr. House, President and CEO;Wyll, Blade of Frontiers;T:c_3_3_a_robot;T:c_1_1_a_thopter_flying;Mountain;Swamp;Plains

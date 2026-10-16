@@ -1,0 +1,9 @@
+﻿[state]
+turn=6
+humanlife=40
+ailife=40
+activeplayer=ai
+activephase=MAIN2
+humanbattlefield=Grizzly Bears;Forest
+aibattlefield=Plains;Plains;Swamp;Mountain
+aihand=Contraband Livestock

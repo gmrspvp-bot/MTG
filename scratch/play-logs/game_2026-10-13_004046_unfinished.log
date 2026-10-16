@@ -1,0 +1,224 @@
+Player: Sam (HUMAN) deck=Captain America v6
+Player: Julthor (AI) deck=Doom Prevails v3
+Player: Augusta (AI) deck=Mr House v4
+Player: Kaitlyn (AI) deck=Tidus v3
+Mulligan: Julthor has mulliganed down to 7 cards.
+Mulligan: Augusta has mulliganed down to 7 cards.
+Mulligan: Kaitlyn has mulliganed down to 7 cards.
+Mulligan: Sam has mulliganed down to 7 cards.
+Mulligan: Julthor has mulliganed down to 6 cards.
+Mulligan: Augusta has mulliganed down to 6 cards.
+Mulligan: Julthor has kept a hand of 6 cards
+Mulligan: Augusta has kept a hand of 6 cards
+Mulligan: Kaitlyn has kept a hand of 7 cards
+Mulligan: Sam has kept a hand of 7 cards
+Turn: Turn 1 (Julthor)
+Information: BOARD turn 1 (Julthor) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Port Town(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land)
+Information: BOARD turn 1 (Julthor) | Julthor | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Talisman of Indulgence(2); Sol Ring(1); Terminate(2); Red Ghost, Intangible Genius(4); Swamp(land); Island(land)
+Information: BOARD turn 1 (Julthor) | Augusta | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 1 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Brushland(land); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Swamp (154)
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Julthor cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Julthor | open mana: Sam 0, Augusta 0, Kaitlyn 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Julthor cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Julthor | open mana: Sam 0, Augusta 0, Kaitlyn 0
+Resolve Stack: Talisman of Indulgence
+Phase: Julthor's Beginning of Combat Step
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Julthor cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Julthor | open mana: Sam 0, Augusta 0, Kaitlyn 0
+Resolve Stack: Skullclamp
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 2 (Augusta)
+Information: BOARD turn 2 (Augusta) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Port Town(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land)
+Information: BOARD turn 2 (Augusta) | Julthor | life 40 | hand 3 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Red Ghost, Intangible Genius(4); Island(land)
+Information: BOARD turn 2 (Augusta) | Augusta | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 2 (Augusta) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Brushland(land); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Plains (289)
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 3 (Kaitlyn)
+Information: BOARD turn 3 (Kaitlyn) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Port Town(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land)
+Information: BOARD turn 3 (Kaitlyn) | Julthor | life 40 | hand 3 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Red Ghost, Intangible Genius(4); Island(land)
+Information: BOARD turn 3 (Kaitlyn) | Augusta | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Blind Obedience(2)
+Information: BOARD turn 3 (Kaitlyn) | Kaitlyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Brushland(land); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn played Brushland (411)
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 4 (Sam)
+Information: BOARD turn 4 (Sam) | Sam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Port Town(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land)
+Information: BOARD turn 4 (Sam) | Julthor | life 40 | hand 3 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Red Ghost, Intangible Genius(4); Island(land)
+Information: BOARD turn 4 (Sam) | Augusta | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Blind Obedience(2)
+Information: BOARD turn 4 (Sam) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Sam played Port Town (88)
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Turn: Turn 5 (Julthor)
+Information: BOARD turn 5 (Julthor) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land); Darksteel Plate(3)
+Information: BOARD turn 5 (Julthor) | Julthor | life 40 | hand 3 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terminate(2); Red Ghost, Intangible Genius(4); Island(land)
+Information: BOARD turn 5 (Julthor) | Augusta | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Blind Obedience(2)
+Information: BOARD turn 5 (Julthor) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Phase: Julthor's Main phase, precombat
+Land: Julthor played Island (125)
+Mana: Island (125) - {T}: Add {U}.
+Land: Julthor picked {R}
+Damage: Talisman of Indulgence (108) deals 1 non-combat damage to Julthor.
+Life: Life: Julthor 40 > 39
+Mana: Talisman of Indulgence (108) - {T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you. 
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Julthor cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Julthor | open mana: Sam 3, Augusta 1, Kaitlyn 3
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Julthor's Beginning of Combat Step
+Add To Stack: Julthor triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Julthor discards Red Ghost, Intangible Genius (170).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Julthor]
+Phase: Julthor's Declare Attackers Step
+Phase: Julthor's Declare Blockers Step
+Phase: Julthor's First Strike Damage Step
+Phase: Julthor's Combat Damage Step
+Phase: Julthor's End of Combat Step
+Phase: Julthor's Main phase, postcombat
+Phase: Julthor's End step
+Phase: Julthor's Cleanup step
+Turn: Turn 6 (Augusta)
+Information: BOARD turn 6 (Augusta) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land); Darksteel Plate(3)
+Information: BOARD turn 6 (Augusta) | Julthor | life 39 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Terminate(2); Swamp(land); Mountain(land)
+Information: BOARD turn 6 (Augusta) | Augusta | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Swamp(land); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Blind Obedience(2)
+Information: BOARD turn 6 (Augusta) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Augusta's Untap step
+Phase: Augusta's Upkeep step
+Phase: Augusta's Draw step
+Phase: Augusta's Main phase, precombat
+Land: Augusta played Swamp (255)
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Swamp (255) - {T}: Add {B}.
+Add To Stack: Augusta cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by Augusta | open mana: Sam 3, Julthor 0, Kaitlyn 3
+Resolve Stack: Blind Obedience
+Phase: Augusta's Beginning of Combat Step
+Phase: Augusta's Declare Attackers Step
+Phase: Augusta's Declare Blockers Step
+Phase: Augusta's First Strike Damage Step
+Phase: Augusta's Combat Damage Step
+Phase: Augusta's End of Combat Step
+Phase: Augusta's Main phase, postcombat
+Phase: Augusta's End step
+Phase: Augusta's Cleanup step
+Turn: Turn 7 (Kaitlyn)
+Information: BOARD turn 7 (Kaitlyn) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land); Darksteel Plate(3)
+Information: BOARD turn 7 (Kaitlyn) | Julthor | life 39 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Terminate(2); Swamp(land); Mountain(land)
+Information: BOARD turn 7 (Kaitlyn) | Augusta | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Caesar, Legion's Emperor(4)
+Information: BOARD turn 7 (Kaitlyn) | Kaitlyn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Kaitlyn's Untap step
+Phase: Kaitlyn's Upkeep step
+Phase: Kaitlyn's Draw step
+Phase: Kaitlyn's Main phase, precombat
+Land: Kaitlyn played Forest (353)
+Phase: Kaitlyn's Beginning of Combat Step
+Phase: Kaitlyn's Declare Attackers Step
+Phase: Kaitlyn's Declare Blockers Step
+Phase: Kaitlyn's First Strike Damage Step
+Phase: Kaitlyn's Combat Damage Step
+Phase: Kaitlyn's End of Combat Step
+Phase: Kaitlyn's Main phase, postcombat
+Land: Kaitlyn picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Kaitlyn.
+Life: Life: Kaitlyn 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Forest (353) - {T}: Add {G}.
+Add To Stack: Kaitlyn cast Guiding Hydra
+Information: BOARD cast | Guiding Hydra (mv 2) by Kaitlyn | open mana: Sam 3, Julthor 0, Augusta 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: Guiding Hydra enters with X +1/+1 counters on it.
+Resolve Stack: Guiding Hydra - Creature 1 / 0 (X=1)
+Phase: Kaitlyn's End step
+Phase: Kaitlyn's Cleanup step
+Turn: Turn 8 (Sam)
+Information: BOARD turn 8 (Sam) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Excalibur, Sword of Eden(12); Plains(land); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land); Darksteel Plate(3)
+Information: BOARD turn 8 (Sam) | Julthor | life 39 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Terminate(2); Swamp(land); Mountain(land)
+Information: BOARD turn 8 (Sam) | Augusta | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Caesar, Legion's Emperor(4)
+Information: BOARD turn 8 (Sam) | Kaitlyn | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Guiding Hydra 2/1* | hand cards: Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Sam's Untap step
+Phase: Sam's Upkeep step
+Phase: Sam's Draw step
+Phase: Sam's Main phase, precombat
+Phase: Sam's Beginning of Combat Step
+Phase: Sam's Declare Attackers Step
+Phase: Sam's Declare Blockers Step
+Phase: Sam's First Strike Damage Step
+Phase: Sam's Combat Damage Step
+Phase: Sam's End of Combat Step
+Phase: Sam's Main phase, postcombat
+Phase: Sam's End step
+Phase: Sam's Cleanup step
+Discard: Sam discards Plains (85).
+Turn: Turn 9 (Julthor)
+Information: BOARD turn 9 (Julthor) | Sam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Excalibur, Sword of Eden(12); Sokka and Suki(3); Deathrender(4); Needleverge Pathway(land); Darksteel Plate(3); Plains(land)
+Information: BOARD turn 9 (Julthor) | Julthor | life 39 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Terminate(2); Swamp(land); Mountain(land)
+Information: BOARD turn 9 (Julthor) | Augusta | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impact Tremors(2); Pitiless Plunderer(4); Vexing Puzzlebox(3); Lotho, Corrupt Shirriff(2); Caesar, Legion's Emperor(4)
+Information: BOARD turn 9 (Julthor) | Kaitlyn | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Guiding Hydra 2/1* | hand cards: Rampant Rejuvenator(4); Vineglimmer Snarl(land); Sab-Sunen, Luxa Embodied(5); Inspiring Call(3); Tireless Tracker(3); Radiant Grove(land)
+Phase: Julthor's Untap step
+Phase: Julthor's Upkeep step
+Phase: Julthor's Draw step
+Land: Julthor picked {R}
+Damage: Talisman of Indulgence (108) deals 1 non-combat damage to Julthor.
+Life: Life: Julthor 39 > 38
+Mana: Talisman of Indulgence (108) - {T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you. 
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Julthor cast Terminate targeting [Guiding Hydra (314)]
+Information: BOARD cast | Terminate (mv 2) by Julthor | open mana: Sam 3, Augusta 0, Kaitlyn 0
+
+Game Result: unfinished (Forge closed mid-game)

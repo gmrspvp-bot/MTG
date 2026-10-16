@@ -1,0 +1,10 @@
+﻿[state]
+turn=6
+humanlife=40
+ailife=40
+humanbattlefield=Forest;Forest
+activeplayer=ai
+activephase=MAIN1
+aibattlefield=Mountain;Mountain;Swamp
+aihand=Gamble;Plains;Swamp
+ailibrary="Lifetime" Pass Holder;Academy Manufactor;All That Glitters;Anguished Unmaking;Arcane Signet;Ash Barrens;Attempted Murder;Black Market Connections;Blood Crypt;Boros Guildgate;Caesar, Legion's Emperor;Canyon Slough;Cathartic Reunion;Clown Car;Comet, Stellar Pup;Command Tower;Component Pouch;Contraband Livestock;Cyberman Patrol;Deadbeat Attendant;Deadly Dispute;Delete;Delina, Wild Mage;Desolate Mire;Evolving Wilds;Exsanguinate;Faithless Looting;Fountainport;Ghostly Prison;Gisela, Blade of Goldnight;Goblin Bombardment;Grab the Prize;Idol of Oblivion;Illusionist's Bracers;Ingenious Artillerist;Isolated Chapel;Jagged Barrens;Jan Jansen, Chaos Crafter;Kavaron, Memorial World;Losheel, Clockwork Scholar;Lotho, Corrupt Shirriff;Memorial to Glory;Mirkwood Bats;Mondrak, Glory Dominus;Mountain;Mountain;Mountain;Mountain;Myrkul's Edict;Night Shift of the Living Dead;Norn's Annex;Ominous Asylum;Plains;Plains;Plains;Plains;Professional Face-Breaker;Reanimate;Reckless Fireweaver;Revel in Riches;Roadside Reliquary;Rogue's Passage;Ruinous Ultimatum;Scoured Barrens;Securitron Squadron;Shadowblood Ridge;Skithiryx, the Blight Dragon;Skullclamp;Smoldering Marsh;Smuggler's Share;Sol Ring;Stridehangar Automaton;Sunscorched Divide;Swamp;Swamp;Swamp;Swamp;Swamp;Swiftfoot Boots;Talisman of Conviction;Talisman of Hierarchy;Talisman of Indulgence;Temple of Triumph;Terminate;The Deck of Many Things;The Gold Saucer;Treasure Chest;Unwinding Clock;Vexing Puzzlebox;Vihaan, Goldwaker;Wand of Wonder;Wear // Tear;Welding Jar;Wind-Scarred Crag;Windbrisk Heights;Wyll's Reversal;Wyll, Blade of Frontiers

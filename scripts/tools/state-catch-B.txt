@@ -1,0 +1,8 @@
+﻿[state]
+turn=6
+activeplayer=ai
+activephase=COMBAT_BEGIN
+humanlife=40
+ailife=40
+humanbattlefield=Serra Angel;Swamp
+aibattlefield=Captain America, First Avenger|Id:1;Mithril Coat|AttachedTo:1;Colossus Hammer;Basilisk Collar;Sword of Feast and Famine;Plains;Island;Mountain

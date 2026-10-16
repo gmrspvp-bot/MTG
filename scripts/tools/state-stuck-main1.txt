@@ -1,0 +1,9 @@
+[state]
+turn=7
+activeplayer=ai
+activephase=MAIN1
+humanlife=40
+ailife=40
+humanbattlefield=Grizzly Bears;Forest;Forest;Forest;Forest
+aibattlefield=Plains;Plains;Island;Mountain
+aihand=Arcane Signet;Luck Bobblehead;Agility Bobblehead;Codsworth, Handy Helper
