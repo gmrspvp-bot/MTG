@@ -852,6 +852,18 @@ public final class AiPatches {
             }
             String why = retargetLethal(ai, sa);
             if (why != null) return why;
+            if (!throwTimingOk(ai)) return null;
+            why = decideNonLethal(ai, sa, forgeWilling);
+            if (why != null && !protectionOk(ai, sa)) return null;
+            return why;
+        }
+
+        /**
+         * Throws that aren't lethal, by style. Split out of decideThrow so the timing and
+         * protection checks apply to all of them.
+         */
+        static String decideNonLethal(Player ai, SpellAbility sa, boolean forgeWilling) {
+            String why;
             switch (MODE) {
                 case "defend":
                     return retargetAttacker(ai, sa);
@@ -968,6 +980,50 @@ public final class AiPatches {
          * opponent's face if a target slot is left, else onto the best creature.
          */
         static final boolean SPLIT = !"false".equalsIgnoreCase(System.getProperty("forge.captain.split", "true"));
+
+        /**
+         * -Dforge.captain.throwtiming=main: non-lethal throws only in our main phases, an
+         * opponent's declare attackers/blockers (defending) or the end step before our turn. The
+         * user threw 44% in main 1, 41% in main 2 and never in upkeep; the AI threw 38% in its
+         * upkeep (Forge's damage AI likes upkeep for commander kills). Default "any" = as before.
+         */
+        static final boolean MAIN_TIMING = "main".equalsIgnoreCase(System.getProperty("forge.captain.throwtiming", "any"));
+
+        static boolean throwTimingOk(Player ai) {
+            if (!MAIN_TIMING) return true;
+            forge.game.phase.PhaseHandler ph = ai.getGame().getPhaseHandler();
+            if (ph.getPlayerTurn() == ai && (ph.getPhase() == forge.game.phase.PhaseType.MAIN1
+                    || ph.getPhase() == forge.game.phase.PhaseType.MAIN2)) return true;
+            return splitWindow(ai);
+        }
+
+        /**
+         * -Dforge.captain.protthrow: whether a throw may unattach protection (hexproof/shroud/
+         * indestructible gear) when it isn't lethal.
+         *   legacy (default) - as before: only the face loop and Catch window refuse it
+         *   never - never
+         *   user - the user's rule (2026-10-16: threw Whispersilk Cloak at Tidus in main 2 while
+         *          Champion's Helm kept him hexproof; Catch put the Cloak back next combat): only
+         *          in our own main phase, and only while other protection stays on him.
+         */
+        static final String PROT_THROW = System.getProperty("forge.captain.protthrow", "legacy").toLowerCase();
+
+        static boolean protectionOk(Player ai, SpellAbility sa) {
+            if ("legacy".equals(PROT_THROW) || !throwsProtection(sa)) return true;
+            if ("never".equals(PROT_THROW)) return false;
+            forge.game.phase.PhaseHandler ph = ai.getGame().getPhaseHandler();
+            if (ph.getPlayerTurn() != ai || (ph.getPhase() != forge.game.phase.PhaseType.MAIN1
+                    && ph.getPhase() != forge.game.phase.PhaseType.MAIN2)) return false;
+            // Which piece of that mana value the cost unattaches isn't ours to pick, so assume a
+            // protective one goes: protection stays if another piece remains (Champion's Helm and
+            // Whispersilk Cloak are both mana value 3, as in the user's game).
+            int dmg = totalDamage(sa), sameValue = 0, other = 0;
+            for (Card e : sa.getHostCard().getEquippedBy()) {
+                if (!CatchAwareAttachAi.HEXPROOF.contains(e.getName()) && !CatchAwareAttachAi.OTHER_PROTECTION.contains(e.getName())) continue;
+                if (e.getCMC() == dmg) sameValue++; else other++;
+            }
+            return other + sameValue - 1 >= 1;
+        }
 
         static boolean grantsDeathtouch(Card eq) {
             String t = eq.getOracleText();
