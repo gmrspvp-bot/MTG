@@ -985,9 +985,11 @@ public final class AiPatches {
          * -Dforge.captain.throwtiming=main: non-lethal throws only in our main phases, an
          * opponent's declare attackers/blockers (defending) or the end step before our turn. The
          * user threw 44% in main 1, 41% in main 2 and never in upkeep; the AI threw 38% in its
-         * upkeep (Forge's damage AI likes upkeep for commander kills). Default "any" = as before.
+         * upkeep (Forge's damage AI likes upkeep for commander kills). Default "main" since
+         * 2026-10-17 (overnight, 760 games each: closest to the user's throws, 22.2% wins vs
+         * 20.3%); "any" = the old behaviour.
          */
-        static final boolean MAIN_TIMING = "main".equalsIgnoreCase(System.getProperty("forge.captain.throwtiming", "any"));
+        static final boolean MAIN_TIMING = "main".equalsIgnoreCase(System.getProperty("forge.captain.throwtiming", "main"));
 
         static boolean throwTimingOk(Player ai) {
             if (!MAIN_TIMING) return true;
@@ -1000,13 +1002,14 @@ public final class AiPatches {
         /**
          * -Dforge.captain.protthrow: whether a throw may unattach protection (hexproof/shroud/
          * indestructible gear) when it isn't lethal.
-         *   legacy (default) - as before: only the face loop and Catch window refuse it
+         *   legacy - before 2026-10-17: only the face loop and Catch window refuse it
          *   never - never
-         *   user - the user's rule (2026-10-16: threw Whispersilk Cloak at Tidus in main 2 while
-         *          Champion's Helm kept him hexproof; Catch put the Cloak back next combat): only
-         *          in our own main phase, and only while other protection stays on him.
+         *   user (default since 2026-10-17) - the user's rule (2026-10-16: threw Whispersilk
+         *          Cloak at Tidus in main 2 while Champion's Helm kept him hexproof; Catch put the
+         *          Cloak back next combat): only in our own main phase, and only while other
+         *          protection stays on him.
          */
-        static final String PROT_THROW = System.getProperty("forge.captain.protthrow", "legacy").toLowerCase();
+        static final String PROT_THROW = System.getProperty("forge.captain.protthrow", "user").toLowerCase();
 
         static boolean protectionOk(Player ai, SpellAbility sa) {
             if ("legacy".equals(PROT_THROW) || !throwsProtection(sa)) return true;
