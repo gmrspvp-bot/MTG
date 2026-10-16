@@ -10,9 +10,6 @@
 # desktop app reads; the originals in decks\ are never touched).
 
 param(
-    # -Modern: Forge's mobile/"Adventure" interface (libGDX) instead of the desktop window
-    # ("Play Forge (modern).cmd"). Same AI additions, decks, card fixes and game recording.
-    [switch] $Modern,
     [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave',
     [string] $AiProfile = 'Realistic',
     [int] $HeapMB = 4096
@@ -106,7 +103,6 @@ $agentArgs = "-javaagent:`"$(Join-Path $PSScriptRoot 'tools\evalcache-agent.jar'
 $logDir = Join-Path $root 'scratch\play-logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $launcher = 'SimLauncher'
-if ($Modern) { $jar = 'forge-gui-mobile-dev-2.0.15-jar-with-dependencies.jar'; $launcher = 'ModernLauncher' }
 $argLine = "-Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
            "-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')

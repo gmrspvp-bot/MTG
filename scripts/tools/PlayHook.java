@@ -170,8 +170,7 @@ public final class PlayHook {
             window.setSize(230, 44);
             java.awt.Rectangle screen = java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds();
             window.setLocation(screen.x + screen.width - 250, screen.y + screen.height - 64);
-            // Desktop UI: remember whether Forge's own window was up, so the button can go away
-            // with it (the modern UI has no Swing window; ModernLauncher exits Java instead).
+            // Remember whether Forge's own window was up, so the button can go away with it.
             final boolean hadFrame = forgeFrameVisible();
             window.setVisible(true);
             // The button was only removed at a normal game end; quitting mid-game or closing

@@ -14,7 +14,6 @@ Not in git (too big or generated): Forge itself, sim results, compiled classes, 
    `scripts\run-sims.ps1`, `scripts\play.ps1` and `scripts\build-tools.ps1` use that path).
 2. **Forge 2.0.15:** extract the Forge 2.0.15 release into `forge-installer-2.0.15\` in the repo
    root, so `forge-installer-2.0.15\forge-gui-desktop-2.0.15-jar-with-dependencies.jar` exists.
-   The modern UI (`-Modern`) also needs `forge-gui-mobile-dev-2.0.15-jar-with-dependencies.jar` there.
 3. **Copy the two changed Forge files** from `setup\forge-installer-2.0.15\` over the install:
    - `forge.profile.properties`: points Forge's user data and cache at `..\forge-data\` (repo-relative).
    - `res\ai\Realistic.ai`: our AI profile (Forge's Default tuned for 40-life Commander), used by
@@ -34,7 +33,7 @@ elsewhere. The `scripts\` ones use paths relative to the repo.
 | `manabox\` | The owner's card collection export (ManaBox CSV) and original deck lists. |
 | `forge-data\` | Forge user data: `custom\cards\` (AI fixes as custom card scripts), `decks\commander\` (copies made by play.ps1), `preferences\`. |
 | `scripts\run-sims.ps1` | Run N games of a 4-deck pod in parallel; writes `results\<timestamp>\` (summary.txt, games.csv, batch logs). |
-| `scripts\play.ps1` | Play yourself vs the AI (desktop Forge with all patches). `Play Forge.cmd` / `Play Forge (modern).cmd` launch it. |
+| `scripts\play.ps1` | Play yourself vs the AI (desktop Forge with all patches). `Play Forge.cmd` launches it. (A modern/mobile-UI launcher was tried and removed 2026-10-17: not what the owner wanted.) |
 | `scripts\tools\*.java` | The AI patches, agent hooks and launchers (below). |
 | `scripts\*.ps1` | Analysis: summarise, compare (A/B), card-stats, throw-stats, board-stats, realism-stats, stuck-cards... |
 | `scratch\` | Working area. In git: `*.ps1` helpers, `probe\*.java` test boards, `play-logs\game_*.log` (recorded human games), EDHREC data. Everything else there is temporary. |
@@ -59,7 +58,7 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
 
 ## How the AI patches work
 
-- `SimLauncher` (sims and desktop play) and `ModernLauncher` call `AiPatches.apply()`, which swaps in
+- `SimLauncher` (sims and desktop play) calls `AiPatches.apply()`, which swaps in
   our AI classes for chosen APIs. Patches are picked with `-Dforge.aipatches=catch,counterall,threat,...`.
   run-sims.ps1 and play.ps1 pass the defaults.
 - `EvalCacheAgent` (a `-javaagent`) rewrites Forge methods as classes load: the original becomes
