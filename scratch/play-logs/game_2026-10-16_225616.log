@@ -1,0 +1,1063 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Lox (AI) deck=Doom Prevails v3
+Player: Oscar (AI) deck=Mr House v4
+Player: Uneste (AI) deck=Tidus v3
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Oscar has mulliganed down to 7 cards.
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Lox has kept a hand of 7 cards
+Mulligan: Oscar has kept a hand of 7 cards
+Mulligan: Uneste has kept a hand of 7 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Plains(land); Plains(land); Sulfur Falls(land); Old Thrush(2); Deserted Beach(land); Weapons Vendor(4)
+Information: BOARD turn 1 (Captain) | Lox | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Crumbling Necropolis(land); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3)
+Information: BOARD turn 1 (Captain) | Oscar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skullclamp(1); Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Ash Barrens(land)
+Information: BOARD turn 1 (Captain) | Uneste | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Captain played Sulfur Falls (52)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (Lox)
+Information: BOARD turn 2 (Lox) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Plains(land); Plains(land); Old Thrush(2); Deserted Beach(land); Weapons Vendor(4); Plains(land)
+Information: BOARD turn 2 (Lox) | Lox | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Crumbling Necropolis(land); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3)
+Information: BOARD turn 2 (Lox) | Oscar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skullclamp(1); Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Ash Barrens(land)
+Information: BOARD turn 2 (Lox) | Uneste | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2)
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Replacement Effect: Crumbling Necropolis enters tapped.
+Land: Lox played Crumbling Necropolis (158)
+Phase: Lox's Beginning of Combat Step
+Phase: Lox's Declare Attackers Step
+Phase: Lox's Declare Blockers Step
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Phase: Lox's End step
+Phase: Lox's Cleanup step
+Turn: Turn 3 (Oscar)
+Information: BOARD turn 3 (Oscar) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Plains(land); Plains(land); Old Thrush(2); Deserted Beach(land); Weapons Vendor(4); Plains(land)
+Information: BOARD turn 3 (Oscar) | Lox | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5)
+Information: BOARD turn 3 (Oscar) | Oscar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Skullclamp(1); Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Ash Barrens(land)
+Information: BOARD turn 3 (Oscar) | Uneste | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2)
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Land: Oscar played Ash Barrens (269)
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Oscar cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Oscar | open mana: Captain 0, Lox 0, Uneste 0
+Resolve Stack: Skullclamp
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 4 (Uneste)
+Information: BOARD turn 4 (Uneste) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Plains(land); Plains(land); Old Thrush(2); Deserted Beach(land); Weapons Vendor(4); Plains(land)
+Information: BOARD turn 4 (Uneste) | Lox | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5)
+Information: BOARD turn 4 (Uneste) | Oscar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Sundown Pass(land)
+Information: BOARD turn 4 (Uneste) | Uneste | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2)
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Land: Uneste played Flooded Grove (396)
+Phase: Uneste's Beginning of Combat Step
+Phase: Uneste's Declare Attackers Step
+Phase: Uneste's Declare Blockers Step
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 5 (Captain)
+Information: BOARD turn 5 (Captain) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Plains(land); Plains(land); Old Thrush(2); Deserted Beach(land); Weapons Vendor(4); Plains(land)
+Information: BOARD turn 5 (Captain) | Lox | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5)
+Information: BOARD turn 5 (Captain) | Oscar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Sundown Pass(land)
+Information: BOARD turn 5 (Captain) | Uneste | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2); Brushland(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (86)
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Old Thrush
+Information: BOARD cast | Old Thrush (mv 2) by Captain | open mana: Lox 0, Oscar 0, Uneste 5
+Resolve Stack: Old Thrush - Creature 1 / 2
+Add To Stack: Captain triggered Old Thrush
+Life: Life: Captain 40 > 42
+Resolve Stack: When this creature enters, you gain 2 life. You may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Old Thrush (6)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 6 (Lox)
+Information: BOARD turn 6 (Lox) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Champion's Helm(3); Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 6 (Lox) | Lox | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5)
+Information: BOARD turn 6 (Lox) | Oscar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Sundown Pass(land)
+Information: BOARD turn 6 (Lox) | Uneste | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2); Brushland(land)
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Land: Lox played Island (122)
+Phase: Lox's Beginning of Combat Step
+Phase: Lox's Declare Attackers Step
+Phase: Lox's Declare Blockers Step
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Phase: Lox's End step
+Phase: Lox's Cleanup step
+Turn: Turn 7 (Oscar)
+Information: BOARD turn 7 (Oscar) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Champion's Helm(3); Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 7 (Oscar) | Lox | life 40 | hand 7 | lands 2 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3)
+Information: BOARD turn 7 (Oscar) | Oscar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Talisman of Hierarchy(2); "Lifetime" Pass Holder(1); Godless Shrine(land); Evolving Wilds(land); Sundown Pass(land)
+Information: BOARD turn 7 (Oscar) | Uneste | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2); Brushland(land)
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Life: Life: Oscar 40 > 38
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Oscar played Godless Shrine (238)
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Add To Stack: Oscar cast Talisman of Hierarchy
+Information: BOARD cast | Talisman of Hierarchy (mv 2) by Oscar | open mana: Captain 0, Lox 5, Uneste 5
+Resolve Stack: Talisman of Hierarchy
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Land: Oscar picked {B}
+Damage: Talisman of Hierarchy (217) deals 1 non-combat damage to Oscar.
+Life: Life: Oscar 38 > 37
+Mana: Talisman of Hierarchy (217) - {T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you. 
+Add To Stack: Oscar cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by Oscar | open mana: Captain 0, Lox 5, Uneste 5
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 8 (Uneste)
+Information: BOARD turn 8 (Uneste) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Champion's Helm(3); Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 8 (Uneste) | Lox | life 40 | hand 7 | lands 2 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3)
+Information: BOARD turn 8 (Uneste) | Oscar | life 37 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3)
+Information: BOARD turn 8 (Uneste) | Uneste | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Three Visits(2); Brushland(land)
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Land: Uneste played Brushland (411)
+Land: Uneste picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Uneste.
+Life: Life: Uneste 40 > 39
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Uneste cast Three Visits
+Information: BOARD cast | Three Visits (mv 2) by Uneste | open mana: Captain 0, Lox 5, Oscar 0
+Replacement Effect: Radiant Grove enters tapped.
+Resolve Stack: Three Visits (361) - Uneste searches their library for a Forest card, puts it onto the battlefield, then shuffles.
+Phase: Uneste's Beginning of Combat Step
+Phase: Uneste's Declare Attackers Step
+Phase: Uneste's Declare Blockers Step
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 9 (Captain)
+Information: BOARD turn 9 (Captain) | Captain | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Champion's Helm(3); Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 9 (Captain) | Lox | life 40 | hand 7 | lands 2 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3)
+Information: BOARD turn 9 (Captain) | Oscar | life 37 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3)
+Information: BOARD turn 9 (Captain) | Uneste | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (79)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Champion's Helm
+Information: BOARD cast | Champion's Helm (mv 3) by Captain | open mana: Lox 5, Oscar 0, Uneste 0
+Resolve Stack: Champion's Helm
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 10 (Lox)
+Information: BOARD turn 10 (Lox) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 10 (Lox) | Lox | life 40 | hand 7 | lands 2 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Island(land); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3)
+Information: BOARD turn 10 (Lox) | Oscar | life 37 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3)
+Information: BOARD turn 10 (Lox) | Uneste | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Land: Lox played Island (124)
+Phase: Lox's Beginning of Combat Step
+Phase: Lox's Declare Attackers Step
+Phase: Lox's Declare Blockers Step
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Phase: Lox's End step
+Phase: Lox's Cleanup step
+Turn: Turn 11 (Oscar)
+Information: BOARD turn 11 (Oscar) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 11 (Oscar) | Lox | life 40 | hand 7 | lands 3 (3 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Chaos Warp(3); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3); Spark Double(4)
+Information: BOARD turn 11 (Oscar) | Oscar | life 37 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3)
+Information: BOARD turn 11 (Oscar) | Uneste | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Land: Oscar played Mountain (285)
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Godless Shrine (238) - {T}: Add {W}.
+Land: Oscar picked {B}
+Damage: Talisman of Hierarchy (217) deals 1 non-combat damage to Oscar.
+Life: Life: Oscar 37 > 36
+Mana: Talisman of Hierarchy (217) - {T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you. 
+Add To Stack: Oscar cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Oscar | open mana: Captain 0, Lox 6, Uneste 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Oscar activated Skullclamp targeting ["Lifetime" Pass Holder (263)]
+Resolve Stack: Skullclamp (250) -  Attach to "Lifetime" Pass Holder (263)
+Zone Change: "Lifetime" Pass Holder (263) was put into Graveyard from Battlefield.
+Add To Stack: Oscar triggered "Lifetime" Pass Holder
+Add To Stack: Oscar triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: "Lifetime" Pass Holder (263)]
+Resolve Stack: When "Lifetime" Pass Holder dies, open an Attraction. [Zone Changer: "Lifetime" Pass Holder (263)]
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Phase: Oscar's End step
+Land: Lox picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Mana: Island (122) - {T}: Add {U}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Lox cast Chaos Warp targeting [Mr. House, President and CEO (302)]
+Information: BOARD cast | Chaos Warp (mv 3) by Lox | open mana: Captain 0, Oscar 0, Uneste 0
+Replacement Effect: If a commander would be put into its owner's hand or library from anywhere, its owner may put it into the command zone instead.
+Resolve Stack: Chaos Warp (173) - Shuffle Mr. House, President and CEO (302) into its owner's library. Lox reveals the top card of Oscar's library.
+Phase: Oscar's Cleanup step
+Turn: Turn 12 (Uneste)
+Information: BOARD turn 12 (Uneste) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 12 (Uneste) | Lox | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3); Spark Double(4)
+Information: BOARD turn 12 (Uneste) | Oscar | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6); Silent Clearing(land)
+Information: BOARD turn 12 (Uneste) | Uneste | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grateful Apparition(2); Island(land); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Land: Uneste played Island (345)
+Mana: Island (345) - {T}: Add {U}.
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Land: Uneste picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Uneste.
+Life: Life: Uneste 39 > 38
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Add To Stack: Uneste cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Uneste | open mana: Captain 0, Lox 0, Oscar 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Phase: Uneste's Declare Blockers Step
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Plains(land); Sundown Pass(land)
+Information: BOARD turn 13 (Captain) | Lox | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3); Spark Double(4)
+Information: BOARD turn 13 (Captain) | Oscar | life 36 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6); Silent Clearing(land)
+Information: BOARD turn 13 (Captain) | Uneste | life 38 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Grateful Apparition(2); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land); Path to Exile(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (87)
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Lox 0, Oscar 3, Uneste 5
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Champion's Helm (76)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Champion's Helm (76)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (Lox)
+Information: BOARD turn 14 (Lox) | Captain | life 42 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6[Champion's Helm] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land); Whispersilk Cloak(3)
+Information: BOARD turn 14 (Lox) | Lox | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Black Cat, Cunning Thief(5); Ultimate Green Goblin(3); Spark Double(4)
+Information: BOARD turn 14 (Lox) | Oscar | life 36 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6); Silent Clearing(land)
+Information: BOARD turn 14 (Lox) | Uneste | life 38 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Grateful Apparition(2); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land); Path to Exile(1)
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Land: Lox played Swamp (154)
+Land: Lox picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Lox cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Lox | open mana: Captain 1, Oscar 3, Uneste 5
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Lox's Beginning of Combat Step
+Add To Stack: Lox triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Lox discards Black Cat, Cunning Thief (185).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Lox]
+Phase: Lox's Declare Attackers Step
+Phase: Lox's Declare Blockers Step
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Phase: Lox's End step
+Phase: Lox's Cleanup step
+Turn: Turn 15 (Oscar)
+Information: BOARD turn 15 (Oscar) | Captain | life 42 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6[Champion's Helm] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land); Whispersilk Cloak(3)
+Information: BOARD turn 15 (Oscar) | Lox | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4)
+Information: BOARD turn 15 (Oscar) | Oscar | life 36 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Jan Jansen, Chaos Crafter(3); Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6); Silent Clearing(land)
+Information: BOARD turn 15 (Oscar) | Uneste | life 38 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Grateful Apparition(2); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land); Path to Exile(1)
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Land: Oscar played Silent Clearing (216)
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Godless Shrine (238) - {T}: Add {W}.
+Land: Oscar picked {B}
+Damage: Talisman of Hierarchy (217) deals 1 non-combat damage to Oscar.
+Life: Life: Oscar 36 > 35
+Mana: Talisman of Hierarchy (217) - {T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you. 
+Add To Stack: Oscar cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Oscar | open mana: Captain 1, Lox 0, Uneste 5
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Life: Life: Oscar 35 > 34
+Land: Oscar picked {B}
+Mana: Silent Clearing (216) - {T}, Pay 1 life: Add {W} or {B}.
+Add To Stack: Oscar cast Idol of Oblivion
+Information: BOARD cast | Idol of Oblivion (mv 2) by Oscar | open mana: Captain 1, Lox 0, Uneste 5
+Resolve Stack: Idol of Oblivion
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 16 (Uneste)
+Information: BOARD turn 16 (Uneste) | Captain | life 42 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6[Champion's Helm] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land); Whispersilk Cloak(3)
+Information: BOARD turn 16 (Uneste) | Lox | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4)
+Information: BOARD turn 16 (Uneste) | Oscar | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Jan Jansen, Chaos Crafter 3/3 | hand cards: Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6)
+Information: BOARD turn 16 (Uneste) | Uneste | life 38 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Grateful Apparition(2); Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land); Path to Exile(1)
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Add To Stack: Uneste cast Path to Exile targeting [Jan Jansen, Chaos Crafter (293)]
+Information: BOARD cast | Path to Exile (mv 1) by Uneste | open mana: Captain 1, Lox 0, Oscar 3
+Zone Change: Jan Jansen, Chaos Crafter (293) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (321) - Exile Jan Jansen, Chaos Crafter (293). Oscar may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Land: Uneste played Forest (350)
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Combat: Uneste assigned Tidus, Yuna's Guardian (413) to attack Oscar.
+Information: BOARD attack | Uneste -> Oscar | attackers 1 (power 3) | defender life 34 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Uneste's Declare Blockers Step
+Combat: Oscar didn't block Tidus, Yuna's Guardian (413).
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Oscar.
+Life: Life: Oscar 34 > 31
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Land: Uneste picked {W}
+Damage: Brushland (411) deals 1 non-combat damage to Uneste.
+Life: Life: Uneste 38 > 37
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Uneste cast Grateful Apparition
+Information: BOARD cast | Grateful Apparition (mv 2) by Uneste | open mana: Captain 1, Lox 0, Oscar 3
+Resolve Stack: Grateful Apparition - Creature 1 / 1
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 17 (Captain)
+Information: BOARD turn 17 (Captain) | Captain | life 42 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6[Champion's Helm] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land); Whispersilk Cloak(3)
+Information: BOARD turn 17 (Captain) | Lox | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4)
+Information: BOARD turn 17 (Captain) | Oscar | life 31 | hand 4 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6)
+Information: BOARD turn 17 (Captain) | Uneste | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Captain played Glacial Fortress (66)
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain cast Whispersilk Cloak
+Information: BOARD cast | Whispersilk Cloak (mv 3) by Captain | open mana: Lox 0, Oscar 3, Uneste 6
+Resolve Stack: Whispersilk Cloak
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Whispersilk Cloak (23)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Whispersilk Cloak (23)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Oscar.
+Information: BOARD attack | Captain -> Oscar | attackers 1 (power 6) | defender life 31 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Captain's Declare Blockers Step
+Combat: Oscar didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 6 combat damage to Oscar.
+Life: Life: Oscar 31 > 25
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 18 (Lox)
+Information: BOARD turn 18 (Lox) | Captain | life 42 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land)
+Information: BOARD turn 18 (Lox) | Lox | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Doom's Time Platform(4); Red Ghost, Intangible Genius(4); Loki, the Deceiver(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4)
+Information: BOARD turn 18 (Lox) | Oscar | life 25 | hand 4 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6)
+Information: BOARD turn 18 (Lox) | Uneste | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Information: BOARD threat | turn 18 | Captain America, First Avenger (Captain) 61
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Land: Lox picked {R}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Island (122) - {T}: Add {U}.
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Lox cast Loki, the Deceiver
+Information: BOARD cast | Loki, the Deceiver (mv 4) by Lox | open mana: Captain 6, Oscar 3, Uneste 6
+Resolve Stack: Loki, the Deceiver - Creature 4 / 4
+Phase: Lox's Beginning of Combat Step
+Add To Stack: Lox triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Lox discards Doom's Time Platform (131).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Lox]
+Phase: Lox's Declare Attackers Step
+Combat: Lox assigned Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Lox -> Captain | attackers 1 (power 5) | defender life 42 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 6
+Phase: Lox's Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (201).
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 5 combat damage to Captain.
+Life: Life: Captain 42 > 37
+Add To Stack: Lox triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Captain, Amount: 5]
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Lox played Path of Ancestry (107)
+Phase: Lox's End step
+Phase: Lox's Cleanup step
+Turn: Turn 19 (Oscar)
+Information: BOARD turn 19 (Oscar) | Captain | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land)
+Information: BOARD turn 19 (Oscar) | Lox | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4 | hand cards: Red Ghost, Intangible Genius(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Mountain(land)
+Information: BOARD turn 19 (Oscar) | Oscar | life 25 | hand 4 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Evolving Wilds(land); Sundown Pass(land); Circuits Act(3); Marionette Master(6)
+Information: BOARD turn 19 (Oscar) | Uneste | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Captain) 59; Doctor Doom, King of Latveria (Lox) 55
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Oscar played Sundown Pass (233)
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Land: Oscar picked {B}
+Damage: Talisman of Hierarchy (217) deals 1 non-combat damage to Oscar.
+Life: Life: Oscar 25 > 24
+Mana: Talisman of Hierarchy (217) - {T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you. 
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Land: Oscar picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Add To Stack: Oscar cast Marionette Master
+Information: BOARD cast | Marionette Master (mv 6) by Oscar | open mana: Captain 6, Lox 0, Uneste 6
+Resolve Stack: Marionette Master - Creature 1 / 3
+Add To Stack: Oscar triggered Marionette Master
+Resolve Stack: Fabricate 3 (When this creature enters, put three +1/+1 counters on it, or create three 1/1 colorless Servo artifact creature tokens.) [Zone Changer: Marionette Master (223)]
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 20 (Uneste)
+Information: BOARD turn 20 (Uneste) | Captain | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land)
+Information: BOARD turn 20 (Uneste) | Lox | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4 | hand cards: Red Ghost, Intangible Genius(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Mountain(land)
+Information: BOARD turn 20 (Uneste) | Oscar | life 24 | hand 3 | lands 6 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Marionette Master 4/6 | hand cards: Evolving Wilds(land); Circuits Act(3); Reckless Fireweaver(2)
+Information: BOARD turn 20 (Uneste) | Uneste | life 37 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3); Evolving Wilds(land)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Captain) 56; Doctor Doom, King of Latveria (Lox) 53
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Land: Uneste played Evolving Wilds (348)
+Zone Change: Evolving Wilds (348) was put into Graveyard from Battlefield.
+Add To Stack: Uneste activated Evolving Wilds
+Resolve Stack: Evolving Wilds (348) - Uneste searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Combat: Uneste assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Uneste assigned Grateful Apparition (379) to attack Lox.
+Information: BOARD attack | Uneste -> Captain | attackers 1 (power 3) | defender life 37 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 6
+Information: BOARD attack | Uneste -> Lox | attackers 1 (power 1) | defender life 40 | untapped creatures 1 (power 4): Loki, the Deceiver 4/4 | open mana 0
+Phase: Uneste's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Combat: Lox didn't block Grateful Apparition (379).
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Damage: Grateful Apparition (379) deals 1 combat damage to Lox.
+Life: Life: Captain 37 > 34
+Life: Life: Lox 40 > 39
+Add To Stack: Uneste triggered Grateful Apparition
+Resolve Stack: Whenever Grateful Apparition deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Damage Source: Grateful Apparition (379), Damaged: Lox, Amount: 1]
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Mana: Island (345) - {T}: Add {U}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Add To Stack: Uneste cast Lulu, Stern Guardian
+Information: BOARD cast | Lulu, Stern Guardian (mv 3) by Uneste | open mana: Captain 6, Lox 0, Oscar 6
+Resolve Stack: Lulu, Stern Guardian - Creature 2 / 3
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 21 (Captain)
+Information: BOARD turn 21 (Captain) | Captain | life 34 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak] | hand cards: Plains(land); Deserted Beach(land); Weapons Vendor(4); Sundown Pass(land)
+Information: BOARD turn 21 (Captain) | Lox | life 39 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4 | hand cards: Red Ghost, Intangible Genius(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Mountain(land)
+Information: BOARD turn 21 (Captain) | Oscar | life 24 | hand 3 | lands 6 (1 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Marionette Master 4/6 | hand cards: Evolving Wilds(land); Circuits Act(3); Reckless Fireweaver(2)
+Information: BOARD turn 21 (Captain) | Uneste | life 37 | hand 3 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1*; Lulu, Stern Guardian 2/3 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Captain) 54; Doctor Doom, King of Latveria (Lox) 51; Tidus, Yuna's Guardian (Uneste) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Exotic Orchard (41)
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Weapons Vendor
+Information: BOARD cast | Weapons Vendor (mv 4) by Captain | open mana: Lox 0, Oscar 6, Uneste 8
+Resolve Stack: Weapons Vendor - Creature 2 / 2
+Add To Stack: Captain triggered Weapons Vendor
+Resolve Stack: When this creature enters, draw a card. [Zone Changer: Weapons Vendor (59)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Weapons Vendor
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: devCaptain's Beginning of Combat Step
+Resolve Stack: At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control. [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Lox.
+Information: BOARD attack | Captain -> Lox | attackers 1 (power 6) | defender life 39 | untapped creatures 1 (power 4): Loki, the Deceiver 4/4 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Lox didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 6 combat damage to Lox.
+Life: Life: Lox 39 > 33
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 22 (Lox)
+Information: BOARD turn 22 (Lox) | Captain | life 34 | hand 4 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 22 (Lox) | Lox | life 33 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4 | hand cards: Red Ghost, Intangible Genius(4); Ultimate Green Goblin(3); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Mountain(land)
+Information: BOARD turn 22 (Lox) | Oscar | life 24 | hand 3 | lands 6 (1 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Marionette Master 4/6 | hand cards: Evolving Wilds(land); Circuits Act(3); Reckless Fireweaver(2)
+Information: BOARD turn 22 (Lox) | Uneste | life 37 | hand 3 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1*; Lulu, Stern Guardian 2/3 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3)
+Information: BOARD threat | turn 22 | Captain America, First Avenger (Captain) 101; Doctor Doom, King of Latveria (Lox) 49; Tidus, Yuna's Guardian (Uneste) 31
+Phase: Lox's Untap step
+Phase: Lox's Upkeep step
+Phase: Lox's Draw step
+Phase: Lox's Main phase, precombat
+Land: Lox played Mountain (189)
+Phase: Lox's Beginning of Combat Step
+Add To Stack: Lox triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Lox discards Mountain (187).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Lox]
+Add To Stack: Lox triggered Doctor Doom, King of Latveria
+Life: Life: Oscar 24 > 22
+Life: Life: Uneste 37 > 35
+Life: Life: Captain 34 > 32
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Lox, Amount: 1]
+Phase: Lox's Declare Attackers Step
+Combat: Lox assigned Loki, the Deceiver (139) and Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Lox -> Captain | attackers 2 (power 9) | defender life 32 | untapped creatures 2 (power 3): Old Thrush 1/2; Weapons Vendor 2/2 | open mana 6
+Add To Stack: Lox triggered Loki, the Deceiver targeting [Doctor Doom, King of Latveria (201)]
+Resolve Stack: Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step. (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Attacker: Loki, the Deceiver (139)]
+Phase: Lox's Declare Blockers Step
+Combat: Uneste didn't block Doctor Doom, King of Latveria (553).
+Combat: Captain didn't block Loki, the Deceiver (139).
+Captain didn't block Doctor Doom, King of Latveria (201).
+Phase: Lox's First Strike Damage Step
+Phase: Lox's Combat Damage Step
+Damage: Loki, the Deceiver (139) deals 4 combat damage to Captain.
+Damage: Doctor Doom, King of Latveria (201) deals 5 combat damage to Captain.
+Damage: Doctor Doom, King of Latveria (553) deals 3 combat damage to Uneste.
+Life: Life: Captain 32 > 23
+Life: Life: Uneste 35 > 32
+Add To Stack: Lox triggered Loki, the Deceiver
+Add To Stack: Lox triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Uneste, Amount: 3]
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Captain, Amount: 9]
+Phase: Lox's End of Combat Step
+Phase: Lox's Main phase, postcombat
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Island (122) - {T}: Add {U}.
+Add To Stack: Lox cast Ultimate Green Goblin
+Information: BOARD cast | Ultimate Green Goblin (mv 3) by Lox | open mana: Captain 6, Oscar 6, Uneste 8
+Resolve Stack: Ultimate Green Goblin - Creature 5 / 4
+Mana: Island (124) - {T}: Add {U}.
+Add To Stack: Lox cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Lox | open mana: Captain 6, Oscar 6, Uneste 8
+Resolve Stack: Skullclamp
+Land: Lox picked {U}
+Mana: Crumbling Necropolis (158) - {T}: Add {U}, {B}, or {R}.
+Add To Stack: Lox activated Skullclamp targeting [Doctor Doom, King of Latveria (553)]
+Resolve Stack: Skullclamp (148) -  Attach to Doctor Doom, King of Latveria (553)
+Phase: Lox's End step
+Add To Stack: Lox triggered Loki, the Deceiver
+Mana: Talisman of Hierarchy (217) - {T}: Add {C}.
+Zone Change: Silent Clearing (216) was put into Graveyard from Battlefield.
+Add To Stack: Oscar activated Silent Clearing
+Resolve Stack: Silent Clearing (216) - Oscar draws a card.
+Zone Change: Doctor Doom, King of Latveria (553) was put into Graveyard from Battlefield.
+Resolve Stack: Sacrifice Doctor Doom, King of Latveria (553) at the beginning of the next end step. ([Doctor Doom, King of Latveria (553)]) [Phase: Lox]
+Add To Stack: Lox triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: Doctor Doom, King of Latveria (553)]
+Phase: Lox's Cleanup step
+Discard: Lox discards Dragonskull Summit (145).
+Add To Stack: Lox triggered Doctor Doom, King of Latveria
+Life: Life: Oscar 22 > 20
+Life: Life: Uneste 32 > 30
+Life: Life: Captain 23 > 21
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Lox, Amount: 1]
+Phase: RepeatLox's Cleanup step
+Turn: Turn 23 (Oscar)
+Information: BOARD turn 23 (Oscar) | Captain | life 21 | hand 4 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 23 (Oscar) | Lox | life 33 | hand 7 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4*; Ultimate Green Goblin 5/4 | hand cards: Red Ghost, Intangible Genius(4); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Secluded Courtyard(land); Terramorphic Expanse(land); Villainous Hideout(land)
+Information: BOARD turn 23 (Oscar) | Oscar | life 20 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marionette Master 4/6 | hand cards: Evolving Wilds(land); Circuits Act(3); Reckless Fireweaver(2); Plains(land)
+Information: BOARD turn 23 (Oscar) | Uneste | life 30 | hand 3 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1*; Lulu, Stern Guardian 2/3 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3)
+Information: BOARD threat | turn 23 | Doctor Doom, King of Latveria (Lox) 119; Captain America, First Avenger (Captain) 97; Loki, the Deceiver (Lox) 93
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Land: Oscar played Plains (289)
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Combat: Oscar assigned Marionette Master (223) to attack Lox.
+Information: BOARD attack | Oscar -> Lox | attackers 1 (power 4) | defender life 33 | untapped creatures 1 (power 5): Ultimate Green Goblin 5/4 | open mana 2
+Phase: Oscar's Declare Blockers Step
+Combat: Lox didn't block Marionette Master (223).
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Damage: Marionette Master (223) deals 4 combat damage to Lox.
+Life: Life: Lox 33 > 29
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Oscar cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Oscar | open mana: Captain 6, Lox 2, Uneste 8
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Land: Oscar picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Talisman of Hierarchy (217) - {T}: Add {C}.
+Add To Stack: Oscar cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Oscar | open mana: Captain 6, Lox 2, Uneste 8
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 24 (Uneste)
+Information: BOARD turn 24 (Uneste) | Captain | life 21 | hand 4 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 24 (Uneste) | Lox | life 29 | hand 7 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4*; Ultimate Green Goblin 5/4 | hand cards: Red Ghost, Intangible Genius(4); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Secluded Courtyard(land); Terramorphic Expanse(land); Villainous Hideout(land)
+Information: BOARD turn 24 (Uneste) | Oscar | life 20 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Marionette Master 4/6*; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3 | hand cards: Evolving Wilds(land); Circuits Act(3); Cathartic Reunion(2)
+Information: BOARD turn 24 (Uneste) | Uneste | life 30 | hand 3 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1*; Lulu, Stern Guardian 2/3 | hand cards: Inexorable Tide(5); Temple of Enlightenment(land); Inspiring Call(3)
+Information: BOARD threat | turn 24 | Doctor Doom, King of Latveria (Lox) 114; Captain America, First Avenger (Captain) 93; Loki, the Deceiver (Lox) 89; Marionette Master (Oscar) 35
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Combat: Uneste assigned Tidus, Yuna's Guardian (413) and Lulu, Stern Guardian (373) to attack Captain.
+Information: BOARD attack | Uneste -> Captain | attackers 2 (power 5) | defender life 21 | untapped creatures 2 (power 3): Old Thrush 1/2; Weapons Vendor 2/2 | open mana 6
+Phase: Uneste's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Captain didn't block Lulu, Stern Guardian (373).
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Damage: Lulu, Stern Guardian (373) deals 2 combat damage to Captain.
+Life: Life: Captain 21 > 16
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Uneste played Temple of Enlightenment (384)
+Add To Stack: Uneste triggered Temple of Enlightenment
+Resolve Stack: Uneste scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Island (345) - {T}: Add {U}.
+Add To Stack: Uneste cast Luminous Broodmoth
+Information: BOARD cast | Luminous Broodmoth (mv 4) by Uneste | open mana: Captain 6, Lox 2, Oscar 3
+Resolve Stack: Luminous Broodmoth - Creature 3 / 4
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 25 (Captain)
+Information: BOARD turn 25 (Captain) | Captain | life 16 | hand 4 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 6/6*[Champion's Helm,Whispersilk Cloak]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 25 (Captain) | Lox | life 29 | hand 7 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Doctor Doom, King of Latveria 5/5*; Loki, the Deceiver 4/4*; Ultimate Green Goblin 5/4 | hand cards: Red Ghost, Intangible Genius(4); Spark Double(4); Endless Ranks of HYDRA(4); Damocles Base, Sword of Kang(5); Secluded Courtyard(land); Terramorphic Expanse(land); Villainous Hideout(land)
+Information: BOARD turn 25 (Captain) | Oscar | life 20 | hand 3 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Marionette Master 4/6*; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3 | hand cards: Evolving Wilds(land); Circuits Act(3); Cathartic Reunion(2)
+Information: BOARD turn 25 (Captain) | Uneste | life 30 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4 | hand cards: Inexorable Tide(5); Inspiring Call(3)
+Information: BOARD threat | turn 25 | Doctor Doom, King of Latveria (Lox) 110; Captain America, First Avenger (Captain) 89; Loki, the Deceiver (Lox) 86; Tidus, Yuna's Guardian (Uneste) 44; Marionette Master (Oscar) 34
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Captain | open mana: Lox 2, Oscar 3, Uneste 8
+Resolve Stack: Steelshaper's Gift (47) - Captain searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Lox 2, Oscar 3, Uneste 8
+Resolve Stack: Colossus Hammer
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Weapons Vendor
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (40)]]) [Phase: Captain]
+Phase: devCaptain's Beginning of Combat Step
+Resolve Stack: At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control. [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Lox.
+Information: BOARD attack | Captain -> Lox | attackers 1 (power 16) | defender life 29 | untapped creatures 1 (power 5): Ultimate Green Goblin 5/4 | open mana 2
+Phase: Captain's Declare Blockers Step
+Combat: Lox didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 16 combat damage to Lox.
+Life: Life: Lox 29 > 13
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 26 (Oscar)
+Information: BOARD turn 26 (Oscar) | Captain | life 16 | hand 4 | lands 6 (4 untapped) | open mana 8 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 16/16*[Champion's Helm,Whispersilk Cloak,Colossus Hammer]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 26 (Oscar) | Oscar | life 20 | hand 3 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Marionette Master 4/6*; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3 | hand cards: Evolving Wilds(land); Circuits Act(3); Cathartic Reunion(2)
+Information: BOARD turn 26 (Oscar) | Uneste | life 30 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4 | hand cards: Inexorable Tide(5); Inspiring Call(3)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Captain) 192; Tidus, Yuna's Guardian (Uneste) 43; Weapons Vendor (Captain) 39; Marionette Master (Oscar) 33
+Phase: Oscar's Untap step
+Phase: Oscar's Upkeep step
+Phase: Oscar's Draw step
+Phase: Oscar's Main phase, precombat
+Add To Stack: Oscar triggered "Lifetime" Pass Holder
+Add To Stack: Oscar triggered Mr. House, President and CEO
+Add To Stack: Oscar triggered Hall of Mirrors targeting [Marionette Master (223)]
+Resolve Stack: Visit — Choose target creature you control. Each other creature you control becomes a copy of that creature until end of turn, except it isn't legendary. (Targeting: [[Marionette Master (223)]]) [Player: Oscar]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Oscar, Result: 6]
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: Whenever you roll to visit your Attractions, if you roll a 6, you may return "Lifetime" Pass Holder from your graveyard to the battlefield. [Player: Oscar, Result: 6]
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Oscar played Haunted Ridge (283)
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Oscar activated Skullclamp targeting ["Lifetime" Pass Holder (263)]
+Resolve Stack: Skullclamp (250) -  Attach to "Lifetime" Pass Holder (263)
+Zone Change: "Lifetime" Pass Holder (263) was put into Graveyard from Battlefield.
+Add To Stack: Oscar triggered "Lifetime" Pass Holder
+Add To Stack: Oscar triggered Skullclamp
+Resolve Stack: Whenever equipped creature dies, draw two cards. [Zone Changer: "Lifetime" Pass Holder (263)]
+Resolve Stack: When "Lifetime" Pass Holder dies, open an Attraction. [Zone Changer: "Lifetime" Pass Holder (263)]
+Add To Stack: Oscar cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Oscar | open mana: Captain 8, Uneste 8
+Resolve Stack: Welding Jar
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Oscar activated Skullclamp targeting [Robot Token (648)]
+Resolve Stack: Skullclamp (250) -  Attach to Robot Token (648)
+Phase: Oscar's Beginning of Combat Step
+Phase: Oscar's Declare Attackers Step
+Phase: Oscar's Declare Blockers Step
+Phase: Oscar's First Strike Damage Step
+Phase: Oscar's Combat Damage Step
+Phase: Oscar's End of Combat Step
+Phase: Oscar's Main phase, postcombat
+Add To Stack: Oscar activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (277) - Oscar draws a card.
+Land: Oscar picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Land: Oscar picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Talisman of Hierarchy (217) - {T}: Add {C}.
+Zone Change: Treasure Token (649) was put into Graveyard from Battlefield.
+Land: Treasure Token (649) picked {W}
+Mana: Treasure Token (649) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Oscar cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Oscar | open mana: Captain 8, Uneste 8
+Add To Stack: Oscar triggered Marionette Master targeting [Uneste]
+Add To Stack: Oscar triggered Marionette Master targeting [Uneste]
+Add To Stack: Oscar triggered Marionette Master targeting [Uneste]
+Life: Life: Uneste 30 > 29
+Resolve Stack: Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to Marionette Master's power. (Targeting: [[Uneste]]) [Zone Changer: Treasure Token (649)]
+Life: Life: Uneste 29 > 28
+Resolve Stack: Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to Marionette Master's power. (Targeting: [[Uneste]]) [Zone Changer: Treasure Token (649)]
+Life: Life: Uneste 28 > 24
+Resolve Stack: Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to Marionette Master's power. (Targeting: [[Uneste]]) [Zone Changer: Treasure Token (649)]
+Life: Life: Uneste 24 > 19
+Life: Life: Captain 16 > 11
+Life: Life: Oscar 20 > 30
+Resolve Stack: Exsanguinate (229) - Uneste and Captain each lose 5 life. You gain life equal to the life lost this way.
+Phase: Oscar's End step
+Phase: Oscar's Cleanup step
+Turn: Turn 27 (Uneste)
+Information: BOARD turn 27 (Uneste) | Captain | life 11 | hand 4 | lands 6 (4 untapped) | open mana 8 | commander Battlefield | creatures 3 (2 untapped): Old Thrush 1/2; Captain America, First Avenger 16/16*[Champion's Helm,Whispersilk Cloak,Colossus Hammer]; Weapons Vendor 2/2 | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 27 (Uneste) | Oscar | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Marionette Master 4/6; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3; Robot Token 4/2[Skullclamp] | hand cards: Evolving Wilds(land); Circuits Act(3); Cathartic Reunion(2); Ingenious Artillerist(3)
+Information: BOARD turn 27 (Uneste) | Uneste | life 19 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 3/3*; Grateful Apparition 1/1; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4 | hand cards: Inexorable Tide(5); Inspiring Call(3)
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Captain) 185; Skullclamp (Oscar) 59; Marionette Master (Oscar) 46; Tidus, Yuna's Guardian (Uneste) 41; Weapons Vendor (Captain) 37
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Combat: Uneste assigned Luminous Broodmoth (390) and Lulu, Stern Guardian (373) to attack Captain.
+Information: BOARD attack | Uneste -> Captain | attackers 2 (power 5) | defender life 11 | untapped creatures 2 (power 3): Old Thrush 1/2; Weapons Vendor 2/2 | open mana 8
+Phase: Uneste's Declare Blockers Step
+Combat: Captain assigned Old Thrush (6) to block Luminous Broodmoth (390).
+Captain assigned Weapons Vendor (59) to block Lulu, Stern Guardian (373).
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Damage: Luminous Broodmoth (390) deals 3 damage to Old Thrush (6).
+Damage: Lulu, Stern Guardian (373) deals 2 damage to Weapons Vendor (59).
+Damage: Old Thrush (6) deals 1 damage to Luminous Broodmoth (390).
+Damage: Weapons Vendor (59) deals 2 damage to Lulu, Stern Guardian (373).
+Zone Change: Old Thrush (6) was put into Graveyard from Battlefield.
+Zone Change: Weapons Vendor (59) was put into Graveyard from Battlefield.
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Mana: Island (345) - {T}: Add {U}.
+Land: Uneste picked {U}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Add To Stack: Uneste cast Inexorable Tide
+Information: BOARD cast | Inexorable Tide (mv 5) by Uneste | open mana: Captain 8, Oscar 3
+Resolve Stack: Inexorable Tide
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 11 | hand 4 | lands 6 (4 untapped) | open mana 8 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 16/16*[Champion's Helm,Whispersilk Cloak,Colossus Hammer] | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Shivan Reef(land)
+Information: BOARD turn 28 (Captain) | Oscar | life 30 | hand 4 | lands 7 (0 untapped) | open mana 3 | commander Battlefield | creatures 4 (4 untapped): Marionette Master 4/6; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3; Robot Token 4/2[Skullclamp] | hand cards: Evolving Wilds(land); Circuits Act(3); Cathartic Reunion(2); Ingenious Artillerist(3)
+Information: BOARD turn 28 (Captain) | Uneste | life 19 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 3/3; Grateful Apparition 1/1; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4* | hand cards: Inspiring Call(3); Altered Ego(4)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Captain) 177; Skullclamp (Oscar) 56; Marionette Master (Oscar) 44; Tidus, Yuna's Guardian (Uneste) 39
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Shivan Reef (20)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Oscar.
+Information: BOARD attack | Captain -> Oscar | attackers 1 (power 16) | defender life 30 | untapped creatures 4 (power 9): Marionette Master 4/6; Mr. House, President and CEO 0/4; Reckless Fireweaver 1/3; Robot Token 4/2[Skullclamp] | open mana 3
+Phase: Captain's Declare Blockers Step
+Combat: Oscar didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 16 combat damage to Oscar.
+Life: Life: Oscar 30 > 14
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Mountain (79) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (413)]
+Damage: Captain America, First Avenger (100) deals 3 damage to Tidus, Yuna's Guardian (413).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Tidus, Yuna's Guardian (413) (3 damage).
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Add To Stack: Uneste triggered Luminous Broodmoth
+Resolve Stack: Whenever a creature you control without flying dies, return it to the battlefield under its owner's control with a flying counter on it. [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Uneste)
+Information: BOARD turn 29 (Uneste) | Captain | life 11 | hand 4 | lands 7 (4 untapped) | open mana 10 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 16/16*[Champion's Helm,Colossus Hammer] | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Needleverge Pathway(land)
+Information: BOARD turn 29 (Uneste) | Uneste | life 19 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): Grateful Apparition 1/1; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4* | hand cards: Inspiring Call(3); Altered Ego(4)
+Information: BOARD threat | turn 29 | Captain America, First Avenger (Captain) 288
+Phase: Uneste's Untap step
+Phase: Uneste's Upkeep step
+Phase: Uneste's Draw step
+Phase: Uneste's Main phase, precombat
+Mana: Island (345) - {T}: Add {U}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Plains (405) - {T}: Add {W}.
+Land: Uneste picked {W}
+Mana: Temple of Enlightenment (384) - {T}: Add {W} or {U}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Add To Stack: Uneste cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Uneste | open mana: Captain 10
+Add To Stack: Uneste triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Tidus, Yuna's Guardian (413), Activator: Uneste, SpellAbility: Tidus, Yuna's Guardian - Creature 3 / 3]
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Uneste's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Uneste's Declare Attackers Step
+Combat: Uneste assigned Luminous Broodmoth (390), Lulu, Stern Guardian (373) and Grateful Apparition (379) to attack Captain.
+Information: BOARD attack | Uneste -> Captain | attackers 3 (power 6) | defender life 11 | untapped creatures 0 (power 0):  | open mana 10
+Phase: Uneste's Declare Blockers Step
+Combat: Captain didn't block Luminous Broodmoth (390).
+Captain didn't block Lulu, Stern Guardian (373).
+Captain didn't block Grateful Apparition (379).
+Phase: Uneste's First Strike Damage Step
+Phase: Uneste's Combat Damage Step
+Damage: Luminous Broodmoth (390) deals 3 combat damage to Captain.
+Damage: Lulu, Stern Guardian (373) deals 2 combat damage to Captain.
+Damage: Grateful Apparition (379) deals 1 combat damage to Captain.
+Life: Life: Captain 11 > 5
+Add To Stack: Uneste triggered Grateful Apparition
+Resolve Stack: Whenever Grateful Apparition deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Damage Source: Grateful Apparition (379), Damaged: Captain, Amount: 1]
+Phase: Uneste's End of Combat Step
+Phase: Uneste's Main phase, postcombat
+Phase: Uneste's End step
+Phase: Uneste's Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Captain | life 5 | hand 4 | lands 7 (4 untapped) | open mana 10 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 16/16*[Champion's Helm,Colossus Hammer] | hand cards: Plains(land); Deserted Beach(land); Sundown Pass(land); Needleverge Pathway(land)
+Information: BOARD turn 30 (Captain) | Uneste | life 19 | hand 3 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (1 untapped): Grateful Apparition 1/1*; Lulu, Stern Guardian 2/3*; Luminous Broodmoth 3/4*; Tidus, Yuna's Guardian 3/3 | hand cards: Inspiring Call(3); Altered Ego(4); Rampant Rejuvenator(4)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Captain) 276; Grateful Apparition (Uneste) 34; Luminous Broodmoth (Uneste) 31
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (79) - {T}: Add {R}.
+Add To Stack: Captain cast Blacksmith's Talent
+Information: BOARD cast | Blacksmith's Talent (mv 1) by Captain | open mana: Uneste 8
+Resolve Stack: Blacksmith's Talent
+Add To Stack: Captain triggered Blacksmith's Talent
+Resolve Stack: When Blacksmith's Talent enters, create a colorless Equipment artifact token named Sword with "Equipped creature gets +1/+1" and equip {2}. [Zone Changer: Blacksmith's Talent (65)]
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain activated Blacksmith's Talent
+Resolve Stack: Blacksmith's Talent (65) - Level 2
+Land: Captain played Needleverge Pathway (37)
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Mana: Exotic Orchard (41) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Glacial Fortress (66) - {T}: Add {W} or {U}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain activated Blacksmith's Talent
+Resolve Stack: Blacksmith's Talent (65) - Level 3
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Blacksmith's Talent targeting [Sword (684)] [Captain America, First Avenger (100)]
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Whispersilk Cloak (23)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Whispersilk Cloak (23)]]) [Phase: Captain]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Sword (684)], []]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Uneste.
+Information: BOARD attack | Captain -> Uneste | attackers 1 (power 16) | defender life 19 | untapped creatures 1 (power 3): Tidus, Yuna's Guardian 3/3 | open mana 8
+Phase: Captain's Declare Blockers Step
+Combat: Uneste didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Damage: Captain America, First Avenger (100) deals 16 combat damage to Uneste.
+Life: Life: Uneste 19 > 3
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 16 combat damage to Uneste.
+Life: Life: Uneste 3 > -13
+Player Control: Captain has restored control over themself
+Player Control: Lox has restored control over themself
+Player Control: Oscar has restored control over themself
+Player Control: Uneste has restored control over themself
+Game Outcome: Match Duration 20m : 59s
+Game Outcome: Turn 15
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Lox has lost due to accumulation of 21 damage from generals
+Game Outcome: Oscar has lost due to accumulation of 21 damage from generals
+Game Outcome: Uneste has lost because life total reached 0
+Match Result: Captain: 1 Lox: 0 Oscar: 0 Uneste: 0 
+
+Game Result: Captain has won
