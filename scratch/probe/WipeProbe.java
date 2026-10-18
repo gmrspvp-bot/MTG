@@ -42,6 +42,8 @@ public class WipeProbe {
         game.getAction().invoke(() -> { plate.attachToEntity(cap, null); game.getAction().checkStaticAbilities(); });
         Thread.sleep(800);
         System.out.println("Blasphemous Act, Cap + Darksteel Plate -> " + ai.canPlaySa(actSa));
+        game.getAction().invoke(() -> { plate.unattachFromEntity(cap); game.getAction().checkStaticAbilities(); }); Thread.sleep(500); play(game, opp, "Hill Giant"); play(game, opp, "Goblin Piker");
+        System.out.println("Blasphemous Act, bare Cap vs 5 of theirs -> " + ai.canPlaySa(actSa));
         System.exit(0);
     }
     static Card play(Game game, Player p, String name) throws Exception {

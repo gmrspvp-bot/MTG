@@ -644,7 +644,31 @@ public final class AiPatches {
         protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
             forge.ai.AiAbilityDecision ov = OneSidedOverload.decide(ai, sa);
             if (ov != null) return ov;
+            forge.ai.AiAbilityDecision sfm = putEquipmentFromHand(ai, sa);
+            if (sfm != null) return sfm;
             return ThreatRetarget.apply(ai, sa, super.checkApiLogic(ai, sa), true);
+        }
+
+        /**
+         * Stoneforge Mystic's "{1}{W}, {T}: put an Equipment card from your hand onto the
+         * battlefield" (any such hand-to-battlefield Equipment ability): Forge's AI refused it
+         * even with Kaldra Compleat in hand (2 uses in 15 Stoneforge casts, while Kaldra and
+         * Excalibur were discarded to hand size). Use it in our main phase whenever an Equipment
+         * in hand costs more than the activation; Forge already picks the most expensive one.
+         */
+        static forge.ai.AiAbilityDecision putEquipmentFromHand(Player ai, SpellAbility sa) {
+            if (!sa.isActivatedAbility() || !"Hand".equals(sa.getParam("Origin")) || !"Battlefield".equals(sa.getParam("Destination"))
+                    || !sa.getParamOrDefault("ChangeType", "").contains("Equipment")) return null;
+            forge.game.phase.PhaseHandler ph = ai.getGame().getPhaseHandler();
+            if (ph.getPlayerTurn() != ai || !ph.getPhase().isMain()) return null;
+            int cost = sa.getPayCosts() == null || sa.getPayCosts().getTotalMana() == null ? 0 : sa.getPayCosts().getTotalMana().getCMC();
+            Card best = null;
+            for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Hand)) {
+                if (c.isEquipment() && c.getCMC() > cost && (best == null || c.getCMC() > best.getCMC())) best = c;
+            }
+            if (best == null) return null;
+            System.out.println("EQUIPAI " + sa.getHostCard().getName() + " puts " + best.getName() + " onto the battlefield");
+            return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
         }
 
         @Override
@@ -1733,6 +1757,18 @@ public final class AiPatches {
             // "serious" = the board could kill us: the mild check fired even at 40 life.
             if (forge.ai.ComputerUtil.aiLifeInDanger(ai, true, 0)) {
                 System.out.println("WIPEAI " + ai.getName() + ": " + sa.getHostCard().getName() + " although it kills Captain America (life in danger)");
+                return d;
+            }
+            // Clearly behind on board: the trade is worth losing him (his Equipment stays for the
+            // recast). Holding it for a safe Cap left it in hand until discarded (7 times in 120 games).
+            int dmg = forge.game.ability.AbilityUtils.calculateAmount(sa.getHostCard(), sa.getParamOrDefault("NumDmg", "0"), sa);
+            int theirs = 0, ours = 0;
+            for (Card c : ai.getGame().getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                if (!c.isCreature() || c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) || c.getNetToughness() - c.getDamage() > dmg) continue;
+                if (c.getController() == ai) ours++; else theirs++;
+            }
+            if (theirs >= 4 && ours <= 2) {
+                System.out.println("WIPEAI " + ai.getName() + ": " + sa.getHostCard().getName() + " although it kills Captain America (" + theirs + " of theirs vs " + ours + " of ours)");
                 return d;
             }
             System.out.println("WIPEAI " + ai.getName() + ": " + sa.getHostCard().getName() + " held (would kill Captain America)");
