@@ -1072,24 +1072,17 @@ public final class AiPatches {
                     if (need > 0 && need <= dmg) cands.add(c);
                 }
             }
-            if (cands.size() < 2) return null;
+            // Face slot (the user's Basilisk Collar + Excalibur throws, 2026-10-18): a big throw
+            // kills the best one or two creatures and puts the rest on one player's face, rather
+            // than spending every target on creatures and dumping the leftover on one of them.
+            Player face = FACE_SLOT && dmg >= FACE_SLOT_MIN ? faceTarget(ai, sa) : null;
+            int minSize = face != null ? 1 : 2, maxSize = face != null ? slots - 1 : slots;
+            int budget = face != null ? dmg - 1 : dmg;
+            if (cands.size() < minSize) return null;
             final int myLife = ai.getLife();
             cands.sort((a, b) -> Double.compare(splitValue(b, myLife), splitValue(a, myLife)));
             if (cands.size() > 12) cands = cands.subList(0, 12);
-            int n = cands.size();
-            Card[] best = null;
-            double bestValue = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = i + 1; j < n; j++) {
-                    for (int k = (slots >= 3 ? j + 1 : n); k <= n; k++) {
-                        Card[] set = k < n ? new Card[] { cands.get(i), cands.get(j), cands.get(k) } : new Card[] { cands.get(i), cands.get(j) };
-                        int need = 0;
-                        double value = 0;
-                        for (Card c : set) { need += killNeed(c, dt); value += splitValue(c, myLife); }
-                        if (need <= dmg && value > bestValue) { bestValue = value; best = set; }
-                    }
-                }
-            }
+            Card[] best = bestKillSet(cands, dt, budget, minSize, maxSize, myLife);
             if (best == null) return null;
             // Small tokens alone aren't worth unattaching gear for; with deathtouch the user did
             // wipe three 3/3 Robot tokens (one mana a throw with Zirda + Puresteel).
@@ -1107,8 +1100,7 @@ public final class AiPatches {
                 names.append(names.length() > 0 ? ", " : "").append(c.getName());
             }
             if (left > 0) {
-                Player face = null;
-                if (best.length < slots) {
+                if (face == null && best.length < slots) {
                     for (Player p : ai.getOpponents()) {
                         if (!p.hasLost() && sa.canTarget(p) && (face == null || p.getLife() < face.getLife())) face = p;
                     }
@@ -1122,6 +1114,49 @@ public final class AiPatches {
                 }
             }
             return (dt ? "split kill (deathtouch) " : "split kill ") + names;
+        }
+
+        /**
+         * -Dforge.captain.faceslot=true: throws of FACE_SLOT_MIN+ damage keep one target for a
+         * player's face (see splitKill). Default false until tested.
+         */
+        static final boolean FACE_SLOT = "true".equalsIgnoreCase(System.getProperty("forge.captain.faceslot", "false"));
+        static final int FACE_SLOT_MIN = 6;
+
+        /** Face for a split throw's leftover: the most threatening opponent it can hit. */
+        static Player faceTarget(Player ai, SpellAbility sa) {
+            Player best = null;
+            double bestThreat = -1;
+            for (Player p : ai.getOpponents()) {
+                if (p.hasLost() || !sa.canTarget(p)) continue;
+                double t = HumanHooks.threat(p);
+                if (t > bestThreat || (t == bestThreat && best != null && p.getLife() < best.getLife())) { bestThreat = t; best = p; }
+            }
+            return best;
+        }
+
+        /** Most valuable set of minSize..maxSize (at most 3) creatures killable within budget damage. */
+        static Card[] bestKillSet(List<Card> cands, boolean dt, int budget, int minSize, int maxSize, int myLife) {
+            int n = cands.size();
+            Card[] best = null;
+            double bestValue = 0;
+            for (int i = 0; i < n; i++) {
+                for (int j = i; j < n; j++) {
+                    for (int k = j; k < n; k++) {
+                        // i == j: a single card; j == k: a pair (k loop runs once for it).
+                        Card[] set;
+                        if (i == j) { if (k != j) break; set = new Card[] { cands.get(i) }; }
+                        else if (j == k) set = new Card[] { cands.get(i), cands.get(j) };
+                        else set = new Card[] { cands.get(i), cands.get(j), cands.get(k) };
+                        if (set.length < minSize || set.length > maxSize) continue;
+                        int need = 0;
+                        double value = 0;
+                        for (Card c : set) { need += killNeed(c, dt); value += splitValue(c, myLife); }
+                        if (need <= budget && value > bestValue) { bestValue = value; best = set; }
+                    }
+                }
+            }
+            return best;
         }
 
         /**
