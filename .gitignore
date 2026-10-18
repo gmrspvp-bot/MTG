@@ -30,3 +30,6 @@
 # Logs and crash dumps in the root
 /*.log
 /2026-10-12-00.txt
+
+# Copies of decks\*.dck that play.ps1 makes on every start (the originals in decks\ are the source)
+/forge-data/decks/commander/
