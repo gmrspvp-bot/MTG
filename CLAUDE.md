@@ -83,6 +83,33 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
     (throw at faces, re-equip); throws in main phase 1 when Catch will re-attach the gear.
   - **Attacks:** goes for commander-damage kills.
 
+### Captain America switches (state on 2026-10-18)
+
+| Switch | Default | Meaning |
+|---|---|---|
+| `forge.captain.split` | `true` | Split throws kill 2-3 creatures; deathtouch-aware (1 damage each). |
+| `forge.captain.protthrow` | `user` | A throw may unattach protection only in our main phase while other protection stays on (`legacy` / `never` = old behaviour / never). |
+| `forge.captain.throwtiming` | `main` | Non-lethal throws only in our main phases, an opponent's attack, or the end step before our turn (`any` = old: the AI threw 38% in its upkeep). |
+| `forge.captain.faceslot` | `false` | **Under test.** Throws of 6+ damage kill the best 1-2 creatures and put the rest on a face. Overnight A/B started 2026-10-18 19:40 (`scratch\faceslot-night-runs.txt`). |
+
+Test results behind these defaults (Cap v6 vs Doom v3 / House v4 / Tidus v3):
+- **Split on/off** (440 games each): 17.7% vs 19.3% wins (±3.6), so no real difference, but split ON
+  plays far more like the owner. Kept on.
+- **Overnight 2026-10-16/17** (760 games each): A = split 20.3%, B = + protthrow 21.7%,
+  C = + main timing 22.2% (±3). C was closest to the owner, so it became the default.
+- **All Cap versions, original to v6** (160 games each, 2026-10-14): 16-20%, no clear difference.
+
+**The owner's throw style** (16 recorded games, `scratch\throw-style.ps1`): 3.0 throws/game,
+54% multi-target, 48% face-only, 31% at commanders, 42% deathtouch splits, main 1 44% / main 2 35%,
+never in upkeep. The AI default throws about 1.5 per game with about 24% face-only; that gap is
+what `faceslot` targets. Compare a run with:
+`scratch\throw-style.ps1 -Files <batch logs> -Player "Captain America v6"`, or no `-Player` for
+recorded games (it reads the `(HUMAN)` header).
+
+When learning from the owner's games: a **misclick** (they meant something else) means learning
+the intended play; a **misplay** (meant, but a mistake) must not be copied into the AI. Before
+judging their blocks or attacks, check flying, menace, goad and similar.
+
 ## Playing and recorded games
 
 `Play Forge.cmd` → `scripts\play.ps1`: copies decks into forge-data, sets prefs (Realistic AI,
@@ -113,6 +140,10 @@ Don't use the GRID multiplayer layout: it crashes Forge with "Gap was not filled
 - Test boards: `scratch\probe\*.java` (set up a board with `GameState`, then call AI code directly).
   Run them from `forge-installer-2.0.15\` with the Forge jar and `scripts\tools\classes` on the
   classpath.
+- PowerShell splits `-Dforge.x.y=z` at the dots when it is passed bare to `java`. Put it in a variable
+  (`$d = '-Dforge.captain.faceslot=true'; & java $d ...`).
+- In Windows PowerShell 5.1, double quotes inside a here-string passed to `git commit -m` break the
+  arguments. Write the message to a file and use `git commit -F <file>`.
 
 ## Git workflow
 
@@ -124,3 +155,8 @@ Don't use the GRID multiplayer layout: it crashes Forge with "Gap was not filled
   or playing.
 - Results stay out of git. Put conclusions (win rates, what changed) in commit messages or in this
   file.
+- Forge rewrites `forge-data\preferences\*` whenever UI settings change, which blocks
+  `pull --rebase`. On a machine where that gets in the way, run
+  `git update-index --skip-worktree forge-data/preferences/forge.preferences forge-data/preferences/match.xml`
+  (undo with `--no-skip-worktree`).
+- New recorded games (`scratch\play-logs\game_*.log`) are committed so both Claudes can analyse them.
