@@ -1,0 +1,1383 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Rhysling (AI) deck=Doom Prevails v3
+Player: Valerie (AI) deck=Mr House v4
+Player: Miguel (AI) deck=Tidus v3
+Mulligan: Miguel has mulliganed down to 7 cards.
+Mulligan: Valerie has kept a hand of 7 cards
+Mulligan: Miguel has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Rhysling has kept a hand of 7 cards
+Turn: Turn 1 (Valerie)
+Information: BOARD turn 1 (Valerie) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Commander's Plate(1); Clifftop Retreat(land); Seachrome Coast(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1)
+Information: BOARD turn 1 (Valerie) | Rhysling | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Sulfur Falls(land); Skullclamp(1); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land)
+Information: BOARD turn 1 (Valerie) | Valerie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Silent Clearing(land); Swamp(land)
+Information: BOARD turn 1 (Valerie) | Miguel | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Silent Clearing (216)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 2 (Miguel)
+Information: BOARD turn 2 (Miguel) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Commander's Plate(1); Clifftop Retreat(land); Seachrome Coast(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1)
+Information: BOARD turn 2 (Miguel) | Rhysling | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Sulfur Falls(land); Skullclamp(1); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land)
+Information: BOARD turn 2 (Miguel) | Valerie | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Mountain(land)
+Information: BOARD turn 2 (Miguel) | Miguel | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flooded Grove(land); Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3)
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Land: Miguel played Flooded Grove (396)
+Phase: Miguel's Beginning of Combat Step
+Phase: Miguel's Declare Attackers Step
+Phase: Miguel's Declare Blockers Step
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 3 (Captain)
+Information: BOARD turn 3 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Commander's Plate(1); Clifftop Retreat(land); Seachrome Coast(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1)
+Information: BOARD turn 3 (Captain) | Rhysling | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Sulfur Falls(land); Skullclamp(1); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land)
+Information: BOARD turn 3 (Captain) | Valerie | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Mountain(land)
+Information: BOARD turn 3 (Captain) | Miguel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Captain played Seachrome Coast (98)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Captain | open mana: Rhysling 0, Valerie 3, Miguel 5
+Resolve Stack: Commander's Plate
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 4 (Rhysling)
+Information: BOARD turn 4 (Rhysling) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1); Swords to Plowshares(1)
+Information: BOARD turn 4 (Rhysling) | Rhysling | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Sulfur Falls(land); Skullclamp(1); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land)
+Information: BOARD turn 4 (Rhysling) | Valerie | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Mountain(land)
+Information: BOARD turn 4 (Rhysling) | Miguel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3)
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Land: Rhysling played Command Tower (120)
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Land: Rhysling picked {R}
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Rhysling cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Rhysling | open mana: Captain 0, Valerie 3, Miguel 5
+Resolve Stack: Skullclamp
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 5 (Valerie)
+Information: BOARD turn 5 (Valerie) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1); Swords to Plowshares(1)
+Information: BOARD turn 5 (Valerie) | Rhysling | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land); Choked Estuary(land)
+Information: BOARD turn 5 (Valerie) | Valerie | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Mountain(land)
+Information: BOARD turn 5 (Valerie) | Miguel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Mountain (284)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 6 (Miguel)
+Information: BOARD turn 6 (Miguel) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1); Swords to Plowshares(1)
+Information: BOARD turn 6 (Miguel) | Rhysling | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land); Choked Estuary(land)
+Information: BOARD turn 6 (Miguel) | Valerie | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Plains(land)
+Information: BOARD turn 6 (Miguel) | Miguel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Idyllic Beachfront(land); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3)
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Miguel played Idyllic Beachfront (333)
+Phase: Miguel's Beginning of Combat Step
+Phase: Miguel's Declare Attackers Step
+Phase: Miguel's Declare Blockers Step
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Furycalm Snarl(land); Basilisk Collar(1); Swords to Plowshares(1)
+Information: BOARD turn 7 (Captain) | Rhysling | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land); Choked Estuary(land)
+Information: BOARD turn 7 (Captain) | Valerie | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Plains(land)
+Information: BOARD turn 7 (Captain) | Miguel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: As Furycalm Snarl enters, you may reveal a Mountain or Plains card from your hand. If you don't, Furycalm Snarl enters tapped.
+Land: Captain played Furycalm Snarl (53)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Rhysling 0, Valerie 4, Miguel 5
+Resolve Stack: Basilisk Collar
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (Rhysling)
+Information: BOARD turn 8 (Rhysling) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Swords to Plowshares(1); Adaptive Omnitool(2)
+Information: BOARD turn 8 (Rhysling) | Rhysling | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Swamp(land); Choked Estuary(land)
+Information: BOARD turn 8 (Rhysling) | Valerie | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Plains(land)
+Information: BOARD turn 8 (Rhysling) | Miguel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Land: Rhysling played Swamp (155)
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 9 (Valerie)
+Information: BOARD turn 9 (Valerie) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Swords to Plowshares(1); Adaptive Omnitool(2)
+Information: BOARD turn 9 (Valerie) | Rhysling | life 40 | hand 6 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 9 (Valerie) | Valerie | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Swamp(land); Plains(land)
+Information: BOARD turn 9 (Valerie) | Miguel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Swamp (256)
+Life: Life: Valerie 40 > 39
+Land: Valerie picked {W}
+Mana: Silent Clearing (216) - {T}, Pay 1 life: Add {W} or {B}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Valerie cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Valerie | open mana: Captain 0, Rhysling 3, Miguel 5
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 10 (Miguel)
+Information: BOARD turn 10 (Miguel) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Swords to Plowshares(1); Adaptive Omnitool(2)
+Information: BOARD turn 10 (Miguel) | Rhysling | life 40 | hand 6 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 10 (Miguel) | Valerie | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 10 (Miguel) | Miguel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Miguel played Seaside Citadel (395)
+Phase: Miguel's Beginning of Combat Step
+Phase: Miguel's Declare Attackers Step
+Phase: Miguel's Declare Blockers Step
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Miguel cast Guiding Hydra
+Information: BOARD cast | Guiding Hydra (mv 2) by Miguel | open mana: Captain 0, Rhysling 3, Valerie 0
+Replacement Effect: Guiding Hydra enters with X +1/+1 counters on it.
+Resolve Stack: Guiding Hydra - Creature 1 / 0 (X=1)
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 11 (Captain)
+Information: BOARD turn 11 (Captain) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Clifftop Retreat(land); Syncopate(1); Swords to Plowshares(1); Adaptive Omnitool(2)
+Information: BOARD turn 11 (Captain) | Rhysling | life 40 | hand 6 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 11 (Captain) | Valerie | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 11 (Captain) | Miguel | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Guiding Hydra 2/1 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Captain played Clifftop Retreat (50)
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Captain | open mana: Rhysling 3, Valerie 0, Miguel 0
+Resolve Stack: Sol Ring
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Captain | open mana: Rhysling 3, Valerie 0, Miguel 0
+Resolve Stack: Arcane Signet
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Adaptive Omnitool
+Information: BOARD cast | Adaptive Omnitool (mv 2) by Captain | open mana: Rhysling 3, Valerie 0, Miguel 0
+Resolve Stack: Adaptive Omnitool
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 12 (Rhysling)
+Information: BOARD turn 12 (Rhysling) | Captain | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Syncopate(1); Swords to Plowshares(1)
+Information: BOARD turn 12 (Rhysling) | Rhysling | life 40 | hand 6 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 12 (Rhysling) | Valerie | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 12 (Rhysling) | Miguel | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Guiding Hydra 2/1 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Rhysling played Sulfur Falls (151)
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {B}
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Rhysling cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Rhysling | open mana: Captain 0, Valerie 0, Miguel 0
+Resolve Stack: Talisman of Indulgence
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 13 (Valerie)
+Information: BOARD turn 13 (Valerie) | Captain | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Syncopate(1); Swords to Plowshares(1)
+Information: BOARD turn 13 (Valerie) | Rhysling | life 40 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 13 (Valerie) | Valerie | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Caesar, Legion's Emperor(4); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 13 (Valerie) | Miguel | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Guiding Hydra 2/1 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Fountainport (212)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Life: Life: Valerie 39 > 38
+Land: Valerie picked {W}
+Mana: Silent Clearing (216) - {T}, Pay 1 life: Add {W} or {B}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Fountainport (212) - {T}: Add {C}.
+Add To Stack: Valerie cast Caesar, Legion's Emperor
+Information: BOARD cast | Caesar, Legion's Emperor (mv 4) by Valerie | open mana: Captain 0, Rhysling 3, Miguel 0
+Resolve Stack: Caesar, Legion's Emperor - Creature 4 / 4
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 14 (Miguel)
+Information: BOARD turn 14 (Miguel) | Captain | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Syncopate(1); Swords to Plowshares(1)
+Information: BOARD turn 14 (Miguel) | Rhysling | life 40 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 14 (Miguel) | Valerie | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 14 (Miguel) | Miguel | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Guiding Hydra 2/1 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Land: Miguel played Forest (350)
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Land: Miguel picked {U}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Miguel cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Miguel | open mana: Captain 0, Rhysling 3, Valerie 0
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Miguel's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Miguel triggered Guiding Hydra
+Resolve Stack: At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control. [Phase: Miguel]
+Phase: Miguel's Declare Attackers Step
+Combat: Miguel assigned Guiding Hydra (314) to attack Captain.
+Information: BOARD attack | Miguel -> Captain | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Miguel's Declare Blockers Step
+Combat: Captain didn't block Guiding Hydra (314).
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Damage: Guiding Hydra (314) deals 2 combat damage to Captain.
+Life: Life: Captain 40 > 38
+Add To Stack: Miguel triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 2]
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 15 (Captain)
+Information: BOARD turn 15 (Captain) | Captain | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Syncopate(1); Swords to Plowshares(1)
+Information: BOARD turn 15 (Captain) | Rhysling | life 40 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 15 (Captain) | Valerie | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 15 (Captain) | Miguel | life 40 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Rhysling 3, Valerie 0, Miguel 5
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Commander's Plate (56)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (56)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 16 (Rhysling)
+Information: BOARD turn 16 (Rhysling) | Captain | life 38 | hand 3 | lands 3 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Weapons Vendor(4)
+Information: BOARD turn 16 (Rhysling) | Rhysling | life 40 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Choked Estuary(land); Kang, Temporal Tyrant(4)
+Information: BOARD turn 16 (Rhysling) | Valerie | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 16 (Rhysling) | Miguel | life 40 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Replacement Effect: As Choked Estuary enters, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters tapped.
+Land: Rhysling played Choked Estuary (114)
+Land: Rhysling picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Rhysling picked {R}
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Rhysling cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Rhysling | open mana: Captain 4, Valerie 0, Miguel 5
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Rhysling's Beginning of Combat Step
+Add To Stack: Rhysling triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Rhysling discards Magmakin Artillerist (174).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Rhysling]
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 17 (Valerie)
+Information: BOARD turn 17 (Valerie) | Captain | life 38 | hand 3 | lands 3 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Weapons Vendor(4)
+Information: BOARD turn 17 (Valerie) | Rhysling | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Withering Torment(3)
+Information: BOARD turn 17 (Valerie) | Valerie | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4 | hand cards: Blightstep Pathway(land); Delete(2); General's Enforcer(2); Grab the Prize(2); Plains(land); Evolving Wilds(land)
+Information: BOARD turn 17 (Valerie) | Miguel | life 40 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Plains (290)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Combat: Valerie assigned Caesar, Legion's Emperor (240) to attack Miguel.
+Information: BOARD attack | Valerie -> Miguel | attackers 1 (power 4) | defender life 40 | untapped creatures 1 (power 3): Tidus, Yuna's Guardian 3/3 | open mana 5
+Add To Stack: Valerie triggered Caesar, Legion's Emperor
+Resolve Stack: Whenever you attack, you may sacrifice another creature. When you do, choose two modes. [Number Attackers: [Caesar, Legion's Emperor (240)]]
+Phase: Valerie's Declare Blockers Step
+Combat: Miguel didn't block Caesar, Legion's Emperor (240).
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Damage: Caesar, Legion's Emperor (240) deals 4 combat damage to Miguel.
+Life: Life: Miguel 40 > 36
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: Valerie cast General's Enforcer
+Information: BOARD cast | General's Enforcer (mv 2) by Valerie | open mana: Captain 4, Rhysling 0, Miguel 5
+Resolve Stack: General's Enforcer - Creature 2 / 3
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Fountainport (212) - {T}: Add {C}.
+Discard: Valerie discards Swamp (257).
+Add To Stack: Valerie cast Grab the Prize
+Information: BOARD cast | Grab the Prize (mv 2) by Valerie | open mana: Captain 4, Rhysling 0, Miguel 5
+Resolve Stack: Grab the Prize (208) - Valerie draws two cards. Grab the Prize (208) deals 0 damage to something.
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 18 (Miguel)
+Information: BOARD turn 18 (Miguel) | Captain | life 38 | hand 3 | lands 3 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Weapons Vendor(4)
+Information: BOARD turn 18 (Miguel) | Rhysling | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Withering Torment(3)
+Information: BOARD turn 18 (Miguel) | Valerie | life 38 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4*; General's Enforcer 2/3 | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Anguished Unmaking(3); Command Tower(land)
+Information: BOARD turn 18 (Miguel) | Miguel | life 36 | hand 6 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3 | hand cards: Tireless Tracker(3); Sylvan Caryatid(2); Summon: Valefor(5); Lulu, Stern Guardian(3); Bred for the Hunt(3); Auron, Venerated Guardian(4)
+Information: BOARD threat | turn 18 | Caesar, Legion's Emperor (Valerie) 37
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Land: Miguel played Island (346)
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Island (346) - {T}: Add {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Miguel cast Bred for the Hunt
+Information: BOARD cast | Bred for the Hunt (mv 3) by Miguel | open mana: Captain 4, Rhysling 0, Valerie 3
+Resolve Stack: Bred for the Hunt
+Phase: Miguel's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Miguel triggered Guiding Hydra
+Resolve Stack: At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control. [Phase: Miguel]
+Phase: Miguel's Declare Attackers Step
+Combat: Miguel assigned Tidus, Yuna's Guardian (413) to attack Valerie.
+Information: BOARD attack | Miguel -> Valerie | attackers 1 (power 3) | defender life 38 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; General's Enforcer 2/3 | open mana 3
+Phase: Miguel's Declare Blockers Step
+Combat: Valerie assigned Mr. House, President and CEO (302) to block Tidus, Yuna's Guardian (413).
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 damage to Mr. House, President and CEO (302).
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Land: Miguel picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Miguel cast Sylvan Caryatid
+Information: BOARD cast | Sylvan Caryatid (mv 2) by Miguel | open mana: Captain 4, Rhysling 0, Valerie 3
+Resolve Stack: Sylvan Caryatid - Creature 0 / 3
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 19 (Captain)
+Information: BOARD turn 19 (Captain) | Captain | life 38 | hand 3 | lands 3 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Weapons Vendor(4)
+Information: BOARD turn 19 (Captain) | Rhysling | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Withering Torment(3)
+Information: BOARD turn 19 (Captain) | Valerie | life 38 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4*; General's Enforcer 2/3 | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Anguished Unmaking(3); Command Tower(land)
+Information: BOARD turn 19 (Captain) | Miguel | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Guiding Hydra 2/1; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3 | hand cards: Tireless Tracker(3); Summon: Valefor(5); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4)
+Information: BOARD threat | turn 19 | Guiding Hydra (Miguel) 36; Caesar, Legion's Emperor (Valerie) 36
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Floodfarm Verge (63)
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Weapons Vendor
+Information: BOARD cast | Weapons Vendor (mv 4) by Captain | open mana: Rhysling 0, Valerie 3, Miguel 0
+Resolve Stack: Weapons Vendor - Creature 2 / 2
+Add To Stack: Captain triggered Weapons Vendor
+Resolve Stack: When this creature enters, draw a card. [Zone Changer: Weapons Vendor (59)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Weapons Vendor
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Adaptive Omnitool (61)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Adaptive Omnitool (61)]]) [Phase: Captain]
+Phase: devCaptain's Beginning of Combat Step
+Resolve Stack: At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control. [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Rhysling.
+Information: BOARD attack | Captain -> Rhysling | attackers 1 (power 12) | defender life 40 | untapped creatures 1 (power 4): Doctor Doom, King of Latveria 4/4 | open mana 0
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Rhysling didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 12 combat damage to Rhysling.
+Life: Life: Rhysling 40 > 28
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 20 (Rhysling)
+Information: BOARD turn 20 (Rhysling) | Captain | life 38 | hand 4 | lands 4 (2 untapped) | open mana 8 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 12/12*[Commander's Plate,Adaptive Omnitool]; Weapons Vendor 2/2 | hand cards: Syncopate(1); Swords to Plowshares(1); Needleverge Pathway(land); Sword of Light and Shadow(3)
+Information: BOARD turn 20 (Rhysling) | Rhysling | life 28 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Withering Torment(3)
+Information: BOARD turn 20 (Rhysling) | Valerie | life 38 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4*; General's Enforcer 2/3 | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Anguished Unmaking(3); Command Tower(land)
+Information: BOARD turn 20 (Rhysling) | Miguel | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Guiding Hydra 2/1; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3 | hand cards: Tireless Tracker(3); Summon: Valefor(5); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Captain) 96; Guiding Hydra (Miguel) 35; Caesar, Legion's Emperor (Valerie) 35
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Phase: Rhysling's Beginning of Combat Step
+Add To Stack: Rhysling triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Rhysling discards Doom's Time Platform (131).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Rhysling]
+Phase: Rhysling's Declare Attackers Step
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Rhysling picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Add To Stack: Rhysling cast Withering Torment targeting [Weapons Vendor (59)]
+Information: BOARD cast | Withering Torment (mv 3) by Rhysling | open mana: Captain 8, Valerie 3, Miguel 0
+Zone Change: Weapons Vendor (59) was put into Graveyard from Battlefield.
+Life: Life: Rhysling 28 > 26
+Resolve Stack: Withering Torment (142) - Destroy Weapons Vendor (59). Rhysling loses 2 life.
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 21 (Valerie)
+Information: BOARD turn 21 (Valerie) | Captain | life 38 | hand 4 | lands 4 (2 untapped) | open mana 8 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 12/12*[Commander's Plate,Adaptive Omnitool] | hand cards: Syncopate(1); Swords to Plowshares(1); Needleverge Pathway(land); Sword of Light and Shadow(3)
+Information: BOARD turn 21 (Valerie) | Rhysling | life 26 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 21 (Valerie) | Valerie | life 38 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4*; General's Enforcer 2/3 | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Anguished Unmaking(3); Command Tower(land)
+Information: BOARD turn 21 (Valerie) | Miguel | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Guiding Hydra 2/1; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3 | hand cards: Tireless Tracker(3); Summon: Valefor(5); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Captain) 92; Guiding Hydra (Miguel) 34; Caesar, Legion's Emperor (Valerie) 33
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Valerie cast Anguished Unmaking targeting [Doctor Doom, King of Latveria (201)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Valerie | open mana: Captain 8, Rhysling 5, Miguel 0
+Zone Change: Doctor Doom, King of Latveria (201) was put into Exile from Battlefield.
+Life: Life: Valerie 38 > 35
+Resolve Stack: Anguished Unmaking (298) - Exile Doctor Doom, King of Latveria (201). Valerie loses 3 life.
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Command Tower (232)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Combat: Valerie assigned Caesar, Legion's Emperor (240) and General's Enforcer (203) to attack Captain.
+Information: BOARD attack | Valerie -> Captain | attackers 2 (power 6) | defender life 38 | untapped creatures 0 (power 0):  | open mana 8
+Add To Stack: Valerie triggered Caesar, Legion's Emperor
+Resolve Stack: Whenever you attack, you may sacrifice another creature. When you do, choose two modes. [Number Attackers: [Caesar, Legion's Emperor (240), General's Enforcer (203)]]
+Phase: Valerie's Declare Blockers Step
+Combat: Captain didn't block Caesar, Legion's Emperor (240).
+Captain didn't block General's Enforcer (203).
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Damage: Caesar, Legion's Emperor (240) deals 4 combat damage to Captain.
+Damage: General's Enforcer (203) deals 2 combat damage to Captain.
+Life: Life: Captain 38 > 32
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 22 (Miguel)
+Information: BOARD turn 22 (Miguel) | Captain | life 32 | hand 4 | lands 4 (2 untapped) | open mana 8 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 12/12*[Commander's Plate,Adaptive Omnitool] | hand cards: Syncopate(1); Swords to Plowshares(1); Needleverge Pathway(land); Sword of Light and Shadow(3)
+Information: BOARD turn 22 (Miguel) | Rhysling | life 26 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 22 (Miguel) | Valerie | life 35 | hand 4 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 3 (1 untapped): Mr. House, President and CEO 0/4; Caesar, Legion's Emperor 4/4*; General's Enforcer 2/3* | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9)
+Information: BOARD turn 22 (Miguel) | Miguel | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Guiding Hydra 2/1; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3 | hand cards: Tireless Tracker(3); Summon: Valefor(5); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4)
+Information: BOARD threat | turn 22 | Captain America, First Avenger (Captain) 88; Caesar, Legion's Emperor (Valerie) 69; Guiding Hydra (Miguel) 32
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Phase: Miguel's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Miguel triggered Guiding Hydra
+Resolve Stack: At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control. [Phase: Miguel]
+Phase: Miguel's Declare Attackers Step
+Combat: Miguel assigned Tidus, Yuna's Guardian (413) and Guiding Hydra (314) to attack Captain.
+Information: BOARD attack | Miguel -> Captain | attackers 2 (power 5) | defender life 32 | untapped creatures 0 (power 0):  | open mana 8
+Phase: Miguel's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Captain didn't block Guiding Hydra (314).
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Damage: Guiding Hydra (314) deals 2 combat damage to Captain.
+Life: Life: Captain 32 > 27
+Add To Stack: Miguel triggered Bred for the Hunt
+Add To Stack: Miguel triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 2]
+Resolve Stack: Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card. [Damage Source: Guiding Hydra (314), Damaged: Captain, Amount: 2]
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Mana: Island (346) - {T}: Add {U}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Land: Miguel picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Miguel cast Summon: Valefor
+Information: BOARD cast | Summon: Valefor (mv 5) by Miguel | open mana: Captain 8, Rhysling 5, Valerie 6
+Replacement Effect: Summon: Valefor enters with a lore counter on it.
+Resolve Stack: Summon: Valefor - Creature 5 / 4
+Add To Stack: Miguel triggered Summon: Valefor
+Replacement Effect: If a commander would be put into its owner's hand or library from anywhere, its owner may put it into the command zone instead.
+Resolve Stack: I — Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands. [Added once: Summon: Valefor (334)]
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 23 (Captain)
+Information: BOARD turn 23 (Captain) | Captain | life 27 | hand 4 | lands 4 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Syncopate(1); Swords to Plowshares(1); Needleverge Pathway(land); Sword of Light and Shadow(3)
+Information: BOARD turn 23 (Captain) | Rhysling | life 26 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 23 (Captain) | Valerie | life 35 | hand 5 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3* | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4)
+Information: BOARD turn 23 (Captain) | Miguel | life 36 | hand 5 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Summon: Valefor 5/4 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4); Forgotten Ancient(4); Gyre Sage(2)
+Information: BOARD threat | turn 23 | Guiding Hydra (Miguel) 57; Tidus, Yuna's Guardian (Miguel) 42
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Needleverge Pathway (37)
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Rhysling 5, Valerie 6, Miguel 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Commander's Plate (56)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (56)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 24 (Rhysling)
+Information: BOARD turn 24 (Rhysling) | Captain | life 27 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Sword of Light and Shadow(3); Spell Pierce(1)
+Information: BOARD turn 24 (Rhysling) | Rhysling | life 26 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 24 (Rhysling) | Valerie | life 35 | hand 5 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3* | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4)
+Information: BOARD turn 24 (Rhysling) | Miguel | life 36 | hand 5 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Summon: Valefor 5/4 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4); Forgotten Ancient(4); Gyre Sage(2)
+Information: BOARD threat | turn 24 | Guiding Hydra (Miguel) 55; Tidus, Yuna's Guardian (Miguel) 40
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Land: Rhysling picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Land: Rhysling picked {B}
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Talisman of Indulgence (108) - {T}: Add {C}.
+Add To Stack: Rhysling cast Green Goblin, Revenant
+Information: BOARD cast | Green Goblin, Revenant (mv 5) by Rhysling | open mana: Captain 6, Valerie 6, Miguel 1
+Resolve Stack: Green Goblin, Revenant - Creature 3 / 3
+Phase: Rhysling's End step
+Land: Valerie picked {R}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Silent Clearing (216) was put into Graveyard from Battlefield.
+Add To Stack: Valerie activated Silent Clearing
+Resolve Stack: Silent Clearing (216) - Valerie draws a card.
+Phase: Rhysling's Cleanup step
+Turn: Turn 25 (Valerie)
+Information: BOARD turn 25 (Valerie) | Captain | life 27 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Sword of Light and Shadow(3); Spell Pierce(1)
+Information: BOARD turn 25 (Valerie) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Green Goblin, Revenant 3/3 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 25 (Valerie) | Valerie | life 35 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3* | hand cards: Blightstep Pathway(land); Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 25 (Valerie) | Miguel | life 36 | hand 5 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Summon: Valefor 5/4 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4); Forgotten Ancient(4); Gyre Sage(2)
+Information: BOARD threat | turn 25 | Guiding Hydra (Miguel) 52; Tidus, Yuna's Guardian (Miguel) 39
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Blightstep Pathway (214)
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Valerie picked {R}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Valerie cast Skithiryx, the Blight Dragon
+Information: BOARD cast | Skithiryx, the Blight Dragon (mv 5) by Valerie | open mana: Captain 6, Rhysling 0, Miguel 1
+Resolve Stack: Skithiryx, the Blight Dragon - Creature 4 / 4
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 26 (Miguel)
+Information: BOARD turn 26 (Miguel) | Captain | life 27 | hand 4 | lands 5 (2 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Syncopate(1); Swords to Plowshares(1); Sword of Light and Shadow(3); Spell Pierce(1)
+Information: BOARD turn 26 (Miguel) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Green Goblin, Revenant 3/3 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 26 (Miguel) | Valerie | life 35 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4 | hand cards: Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 26 (Miguel) | Miguel | life 36 | hand 5 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Guiding Hydra 2/1*; Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Summon: Valefor 5/4 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Auron, Venerated Guardian(4); Forgotten Ancient(4); Gyre Sage(2)
+Information: BOARD threat | turn 26 | Guiding Hydra (Miguel) 50; Tidus, Yuna's Guardian (Miguel) 37
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Add To Stack: Miguel triggered Summon: Valefor targeting [Captain America, First Avenger (100)]
+Resolve Stack: II, III, IV — Tap up to one target creature and put a stun counter on it. (Targeting: [[Captain America, First Avenger (100)]]) [Added once: Summon: Valefor (334)]
+Land: Miguel played Brushland (411)
+Phase: Miguel's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Miguel triggered Guiding Hydra
+Resolve Stack: At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control. [Phase: Miguel]
+Phase: Miguel's Declare Attackers Step
+Combat: Miguel assigned Summon: Valefor (334), Tidus, Yuna's Guardian (413) and Guiding Hydra (314) to attack Captain.
+Information: BOARD attack | Miguel -> Captain | attackers 3 (power 10) | defender life 27 | untapped creatures 0 (power 0):  | open mana 6
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Swords to Plowshares targeting [Tidus, Yuna's Guardian (413)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Captain | open mana: Rhysling 0, Valerie 1, Miguel 16
+Zone Change: Tidus, Yuna's Guardian (413) was put into Exile from Battlefield.
+Life: Life: Miguel 36 > 39
+Resolve Stack: Swords to Plowshares (77) - Exile Tidus, Yuna's Guardian (413). Miguel gains life equal to its power.
+Phase: Miguel's Declare Blockers Step
+Combat: Captain didn't block Summon: Valefor (334).
+Captain didn't block Guiding Hydra (314).
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Damage: Summon: Valefor (334) deals 5 combat damage to Captain.
+Damage: Guiding Hydra (314) deals 2 combat damage to Captain.
+Life: Life: Captain 27 > 20
+Add To Stack: Miguel triggered Bred for the Hunt
+Resolve Stack: Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card. [Damage Source: Guiding Hydra (314), Damaged: Captain, Amount: 2]
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Island (346) - {T}: Add {U}.
+Land: Miguel picked {G}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Add To Stack: Miguel cast Auron, Venerated Guardian
+Information: BOARD cast | Auron, Venerated Guardian (mv 4) by Miguel | open mana: Captain 3, Rhysling 0, Valerie 1
+Phase: devMiguel's Main phase, postcombat
+Phase: devMiguel's Main phase, postcombat
+Phase: devMiguel's Main phase, postcombat
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Add To Stack: Captain cast Syncopate targeting [Auron, Venerated Guardian - Creature 2 / 5]
+Information: BOARD cast | Syncopate (mv 2) by Captain | open mana: Rhysling 0, Valerie 1, Miguel 9
+Mana: Brushland (411) - {T}: Add {C}.
+Resolve Stack: Syncopate (21) - Counter Auron, Venerated Guardian (331) unless its controller pays {X}. (X=1)
+Resolve Stack: Auron, Venerated Guardian - Creature 2 / 5
+Land: Sylvan Caryatid (330) picked {G}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Miguel cast Gyre Sage
+Information: BOARD cast | Gyre Sage (mv 2) by Miguel | open mana: Captain 0, Rhysling 0, Valerie 1
+Resolve Stack: Gyre Sage - Creature 1 / 2
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 27 (Captain)
+Information: BOARD turn 27 (Captain) | Captain | life 20 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 7/7*[Commander's Plate] | hand cards: Sword of Light and Shadow(3); Spell Pierce(1)
+Information: BOARD turn 27 (Captain) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Green Goblin, Revenant 3/3 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 27 (Captain) | Valerie | life 35 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4 | hand cards: Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 27 (Captain) | Miguel | life 39 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 5 (2 untapped): Guiding Hydra 2/1*; Sylvan Caryatid 0/3*; Summon: Valefor 5/4*; Auron, Venerated Guardian 2/5; Gyre Sage 1/2 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Forgotten Ancient(4); Plains(land)
+Information: BOARD threat | turn 27 | Guiding Hydra (Miguel) 74; Summon: Valefor (Miguel) 55
+Phase: Captain's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Battlefield Forge (70)
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Add To Stack: Captain cast Sword of Light and Shadow
+Information: BOARD cast | Sword of Light and Shadow (mv 3) by Captain | open mana: Rhysling 0, Valerie 1, Miguel 0
+Resolve Stack: Sword of Light and Shadow
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Sword of Light and Shadow targeting [Captain America, First Avenger (100)]
+Resolve Stack: Sword of Light and Shadow (2) -  Attach to Captain America, First Avenger (100)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Basilisk Collar (14)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Basilisk Collar (14)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 28 (Rhysling)
+Information: BOARD turn 28 (Rhysling) | Captain | life 20 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Sword of Light and Shadow,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 28 (Rhysling) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Green Goblin, Revenant 3/3 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Kang, Temporal Tyrant(4); Baron Strucker, HYDRA Overlord(3)
+Information: BOARD turn 28 (Rhysling) | Valerie | life 35 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4 | hand cards: Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 28 (Rhysling) | Miguel | life 39 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 5 (2 untapped): Guiding Hydra 2/1*; Sylvan Caryatid 0/3*; Summon: Valefor 5/4*; Auron, Venerated Guardian 2/5; Gyre Sage 1/2 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Forgotten Ancient(4); Plains(land)
+Information: BOARD threat | turn 28 | Guiding Hydra (Miguel) 71; Summon: Valefor (Miguel) 53
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Land: Rhysling picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Land: Rhysling picked {B}
+Mana: Command Tower (120) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Rhysling cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Rhysling | open mana: Captain 9, Valerie 1, Miguel 0
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 29 (Valerie)
+Information: BOARD turn 29 (Valerie) | Captain | life 20 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Sword of Light and Shadow,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 29 (Valerie) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Green Goblin, Revenant 3/3; Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 29 (Valerie) | Valerie | life 35 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4 | hand cards: Delete(2); Evolving Wilds(land); Chiss-Goria, Forge Tyrant(9); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 29 (Valerie) | Miguel | life 39 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 5 (2 untapped): Guiding Hydra 2/1*; Sylvan Caryatid 0/3*; Summon: Valefor 5/4*; Auron, Venerated Guardian 2/5; Gyre Sage 1/2 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Forgotten Ancient(4); Plains(land)
+Information: BOARD threat | turn 29 | Guiding Hydra (Miguel) 68; Summon: Valefor (Miguel) 51
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Land: Valerie played Evolving Wilds (234)
+Zone Change: Evolving Wilds (234) was put into Graveyard from Battlefield.
+Add To Stack: Valerie activated Evolving Wilds
+Resolve Stack: Evolving Wilds (234) - Valerie searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Add To Stack: Valerie cast Caesar, Legion's Emperor
+Information: BOARD cast | Caesar, Legion's Emperor (mv 4) by Valerie | open mana: Captain 9, Rhysling 3, Miguel 0
+Resolve Stack: Caesar, Legion's Emperor - Creature 4 / 4
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 30 (Miguel)
+Information: BOARD turn 30 (Miguel) | Captain | life 20 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Sword of Light and Shadow,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 30 (Miguel) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Green Goblin, Revenant 3/3; Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 30 (Miguel) | Valerie | life 35 | hand 4 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4; Caesar, Legion's Emperor 4/4 | hand cards: Delete(2); Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 30 (Miguel) | Miguel | life 39 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 5 (2 untapped): Guiding Hydra 2/1*; Sylvan Caryatid 0/3*; Summon: Valefor 5/4*; Auron, Venerated Guardian 2/5; Gyre Sage 1/2 | hand cards: Tireless Tracker(3); Lulu, Stern Guardian(3); Forgotten Ancient(4); Plains(land)
+Information: BOARD threat | turn 30 | Guiding Hydra (Miguel) 66; Summon: Valefor (Miguel) 49
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Add To Stack: Miguel triggered Summon: Valefor targeting [Skithiryx, the Blight Dragon (225)]
+Resolve Stack: II, III, IV — Tap up to one target creature and put a stun counter on it. (Targeting: [[Skithiryx, the Blight Dragon (225)]]) [Added once: Summon: Valefor (334)]
+Land: Miguel played Plains (405)
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Island (346) - {T}: Add {U}.
+Mana: Plains (405) - {T}: Add {W}.
+Add To Stack: Miguel cast Tireless Tracker
+Information: BOARD cast | Tireless Tracker (mv 3) by Miguel | open mana: Captain 9, Rhysling 3, Valerie 3
+Resolve Stack: Tireless Tracker - Creature 3 / 2
+Add To Stack: Miguel triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Tireless Tracker (366)]
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Land: Miguel picked {W}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Land: Sylvan Caryatid (330) picked {G}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Mana: Gyre Sage (322) - {T}: Add {G} for each +1/+1 counter on Gyre Sage.
+Add To Stack: Miguel cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Miguel | open mana: Captain 9, Rhysling 3, Valerie 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Add To Stack: Miguel triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Miguel's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Miguel triggered Guiding Hydra
+Resolve Stack: At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control. [Phase: Miguel]
+Phase: Miguel's Declare Attackers Step
+Combat: Miguel assigned Auron, Venerated Guardian (331), Guiding Hydra (314) and Summon: Valefor (334) to attack Captain.
+Information: BOARD attack | Miguel -> Captain | attackers 3 (power 9) | defender life 20 | untapped creatures 0 (power 0):  | open mana 9
+Add To Stack: Miguel triggered Auron, Venerated Guardian
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Guiding Hydra (314), Summon: Valefor (334), Auron, Venerated Guardian (331)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Guiding Hydra (314).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Summon: Valefor (334).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Auron, Venerated Guardian (331).
+Life: Life: Captain 20 > 23
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Guiding Hydra (314) (1 damage), Summon: Valefor (334) (1 damage) and Auron, Venerated Guardian (331) (1 damage).
+Zone Change: Guiding Hydra (314) was put into Graveyard from Battlefield.
+Zone Change: Summon: Valefor (334) was put into Graveyard from Battlefield.
+Zone Change: Auron, Venerated Guardian (331) was put into Graveyard from Battlefield.
+Resolve Stack: Shooting Star — Whenever Auron attacks, put a +1/+1 counter on it. When you do, exile target creature defending player controls with power less than Auron's power until Auron leaves the battlefield. [Attacker: Auron, Venerated Guardian (331)]
+Phase: Miguel's Declare Blockers Step
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Phase: Miguel's End step
+Phase: Miguel's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Captain | life 23 | hand 1 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 7/7*[Commander's Plate,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 31 (Captain) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Green Goblin, Revenant 3/3; Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 31 (Captain) | Valerie | life 35 | hand 4 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4*; Caesar, Legion's Emperor 4/4 | hand cards: Delete(2); Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 31 (Captain) | Miguel | life 39 | hand 3 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Sylvan Caryatid 0/3*; Gyre Sage 3/4*; Tireless Tracker 3/2; Tidus, Yuna's Guardian 3/3 | hand cards: Lulu, Stern Guardian(3); Forgotten Ancient(4); Grateful Apparition(2)
+Information: BOARD threat | turn 31 | Captain America, First Avenger (Captain) 38
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Captain | open mana: Rhysling 3, Valerie 3, Miguel 3
+Resolve Stack: Excalibur, Sword of Eden
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Tidus, Yuna's Guardian (413), Miguel]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Tidus, Yuna's Guardian (413).
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Miguel.
+Life: Life: Captain 23 > 35
+Life: Life: Miguel 39 > 29
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Mr. House, President and CEO (302) (1 damage), Tidus, Yuna's Guardian (413) (1 damage) and Miguel (10 damage).
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Rhysling)
+Information: BOARD turn 32 (Rhysling) | Captain | life 35 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 17/7[Commander's Plate,Basilisk Collar,Excalibur, Sword of Eden] | hand cards: Spell Pierce(1)
+Information: BOARD turn 32 (Rhysling) | Rhysling | life 26 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Green Goblin, Revenant 3/3; Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Superior Foes of Spider-Man(3); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 32 (Rhysling) | Valerie | life 35 | hand 4 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4*; Caesar, Legion's Emperor 4/4 | hand cards: Delete(2); Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 32 (Rhysling) | Miguel | life 29 | hand 3 | lands 7 (1 untapped) | open mana 3 | commander Command | creatures 3 (1 untapped): Sylvan Caryatid 0/3*; Gyre Sage 3/4*; Tireless Tracker 3/2 | hand cards: Lulu, Stern Guardian(3); Forgotten Ancient(4); Grateful Apparition(2)
+Information: BOARD threat | turn 32 | Captain America, First Avenger (Captain) 123
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Phase: Rhysling's Declare Blockers Step
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Land: Rhysling picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Add To Stack: Rhysling cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Rhysling | open mana: Captain 9, Valerie 3, Miguel 3
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 33 (Valerie)
+Information: BOARD turn 33 (Valerie) | Captain | life 35 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 17/7[Commander's Plate,Basilisk Collar,Excalibur, Sword of Eden] | hand cards: Spell Pierce(1)
+Information: BOARD turn 33 (Valerie) | Rhysling | life 26 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 3 (3 untapped): Green Goblin, Revenant 3/3; Kang, Temporal Tyrant 3/4; Superior Foes of Spider-Man 3/3 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3)
+Information: BOARD turn 33 (Valerie) | Valerie | life 35 | hand 4 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; General's Enforcer 2/3; Skithiryx, the Blight Dragon 4/4*; Caesar, Legion's Emperor 4/4 | hand cards: Delete(2); Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 33 (Valerie) | Miguel | life 29 | hand 3 | lands 7 (1 untapped) | open mana 3 | commander Command | creatures 3 (1 untapped): Sylvan Caryatid 0/3*; Gyre Sage 3/4*; Tireless Tracker 3/2 | hand cards: Lulu, Stern Guardian(3); Forgotten Ancient(4); Grateful Apparition(2)
+Information: BOARD threat | turn 33 | Captain America, First Avenger (Captain) 118
+Phase: Valerie's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Valerie played Blood Crypt (213)
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Valerie picked {R}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Valerie cast Delete
+Information: BOARD cast | Delete (mv 2) by Valerie | open mana: Captain 9, Rhysling 5, Miguel 3
+Damage: Delete (272) deals 3 damage to Captain America, First Avenger (100).
+Damage: Delete (272) deals 3 damage to Green Goblin, Revenant (195).
+Damage: Delete (272) deals 3 damage to Kang, Temporal Tyrant (179).
+Damage: Delete (272) deals 3 damage to Superior Foes of Spider-Man (176).
+Damage: Delete (272) deals 3 damage to General's Enforcer (203).
+Damage: Delete (272) deals 3 damage to Skithiryx, the Blight Dragon (225).
+Damage: Delete (272) deals 3 damage to Caesar, Legion's Emperor (240).
+Damage: Delete (272) deals 3 damage to Sylvan Caryatid (330).
+Damage: Delete (272) deals 3 damage to Gyre Sage (322).
+Damage: Delete (272) deals 3 damage to Tireless Tracker (366).
+Damage: Delete (272) deals 3 non-combat damage to Captain.
+Damage: Delete (272) deals 3 non-combat damage to Rhysling.
+Damage: Delete (272) deals 3 non-combat damage to Valerie.
+Damage: Delete (272) deals 3 non-combat damage to Miguel.
+Life: Life: Captain 35 > 32
+Life: Life: Rhysling 26 > 23
+Life: Life: Valerie 35 > 32
+Life: Life: Miguel 29 > 26
+Resolve Stack: Delete (272) - Deals 3 damage to each nonartifact creature and each player.
+Zone Change: General's Enforcer (203) was put into Graveyard from Battlefield.
+Zone Change: Sylvan Caryatid (330) was put into Graveyard from Battlefield.
+Zone Change: Tireless Tracker (366) was put into Graveyard from Battlefield.
+Zone Change: Green Goblin, Revenant (195) was put into Graveyard from Battlefield.
+Zone Change: Superior Foes of Spider-Man (176) was put into Graveyard from Battlefield.
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 34 (Miguel)
+Information: BOARD turn 34 (Miguel) | Captain | life 32 | hand 1 | lands 6 (3 untapped) | open mana 9 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 17/7[Commander's Plate,Basilisk Collar,Excalibur, Sword of Eden] | hand cards: Spell Pierce(1)
+Information: BOARD turn 34 (Miguel) | Rhysling | life 23 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3)
+Information: BOARD turn 34 (Miguel) | Valerie | life 32 | hand 3 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Skithiryx, the Blight Dragon 4/4*; Caesar, Legion's Emperor 4/4 | hand cards: Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 34 (Miguel) | Miguel | life 26 | hand 3 | lands 7 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Gyre Sage 3/4* | hand cards: Lulu, Stern Guardian(3); Forgotten Ancient(4); Grateful Apparition(2)
+Information: BOARD threat | turn 34 | Captain America, First Avenger (Captain) 113
+Phase: Miguel's Untap step
+Phase: Miguel's Upkeep step
+Phase: Miguel's Draw step
+Phase: Miguel's Main phase, precombat
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Island (346) - {T}: Add {U}.
+Land: Miguel picked {W}
+Mana: Seaside Citadel (395) - {T}: Add {G}, {W}, or {U}.
+Add To Stack: Miguel cast Sunscorch Regent
+Information: BOARD cast | Sunscorch Regent (mv 5) by Miguel | open mana: Captain 9, Rhysling 5, Valerie 2
+Resolve Stack: Sunscorch Regent - Creature 4 / 3
+Add To Stack: Miguel triggered Gyre Sage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Sunscorch Regent (399)]
+Phase: Miguel's Beginning of Combat Step
+Phase: Miguel's Declare Attackers Step
+Phase: Miguel's Declare Blockers Step
+Phase: Miguel's First Strike Damage Step
+Phase: Miguel's Combat Damage Step
+Phase: Miguel's End of Combat Step
+Phase: Miguel's Main phase, postcombat
+Land: Miguel picked {G}
+Damage: Brushland (411) deals 1 non-combat damage to Miguel.
+Life: Life: Miguel 26 > 25
+Mana: Brushland (411) - {T}: Add {G} or {W}. Brushland deals 1 damage to you. 
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Mana: Gyre Sage (322) - {T}: Add {G} for each +1/+1 counter on Gyre Sage.
+Add To Stack: Miguel cast Forgotten Ancient
+Information: BOARD cast | Forgotten Ancient (mv 4) by Miguel | open mana: Captain 9, Rhysling 5, Valerie 2
+Resolve Stack: Forgotten Ancient - Creature 0 / 3
+Phase: Miguel's End step
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Sunscorch Regent (399), Miguel]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Sunscorch Regent (399).
+Damage: Captain America, First Avenger (100) deals 11 non-combat damage to Miguel.
+Life: Life: Captain 32 > 44
+Life: Life: Miguel 25 > 14
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Sunscorch Regent (399) (1 damage) and Miguel (11 damage).
+Zone Change: Sunscorch Regent (399) was put into Graveyard from Battlefield.
+Phase: Miguel's Cleanup step
+Turn: Turn 35 (Captain)
+Information: BOARD turn 35 (Captain) | Captain | life 44 | hand 1 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 35 (Captain) | Rhysling | life 23 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3)
+Information: BOARD turn 35 (Captain) | Valerie | life 32 | hand 3 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Skithiryx, the Blight Dragon 4/4*; Caesar, Legion's Emperor 4/4 | hand cards: Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD turn 35 (Captain) | Miguel | life 14 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Gyre Sage 4/5*; Forgotten Ancient 0/3 | hand cards: Lulu, Stern Guardian(3); Grateful Apparition(2)
+Information: BOARD threat | turn 35 | Captain America, First Avenger (Captain) 186; Gyre Sage (Miguel) 39
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mistgate Pathway (43)
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Mana: Mistgate Pathway (43) - {T}: Add {U}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Miguel, Mr. House, President and CEO (302), Caesar, Legion's Emperor (240)]
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Miguel.
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Caesar, Legion's Emperor (240).
+Life: Life: Captain 44 > 56
+Life: Life: Miguel 14 > 4
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Mr. House, President and CEO (302) (1 damage), Caesar, Legion's Emperor (240) (1 damage) and Miguel (10 damage).
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Zone Change: Caesar, Legion's Emperor (240) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Miguel, Skithiryx, the Blight Dragon (225), Rhysling]
+Damage: Captain America, First Avenger (100) deals 4 non-combat damage to Miguel.
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Skithiryx, the Blight Dragon (225).
+Damage: Captain America, First Avenger (100) deals 7 non-combat damage to Rhysling.
+Life: Life: Captain 56 > 68
+Life: Life: Rhysling 23 > 16
+Life: Life: Miguel 4 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Skithiryx, the Blight Dragon (225) (1 damage), Rhysling (7 damage) and Miguel (4 damage).
+Zone Change: Skithiryx, the Blight Dragon (225) was put into Graveyard from Battlefield.
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Valerie.
+Information: BOARD attack | Captain -> Valerie | attackers 1 (power 7) | defender life 32 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Captain's Declare Blockers Step
+Combat: Valerie didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 7 combat damage to Valerie.
+Life: Life: Captain 68 > 75
+Life: Life: Valerie 32 > 25
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 36 (Rhysling)
+Information: BOARD turn 36 (Rhysling) | Captain | life 75 | hand 1 | lands 7 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 7/7*[Commander's Plate,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 36 (Rhysling) | Rhysling | life 16 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kang, Temporal Tyrant 3/4 | hand cards: Puppet Master, String Puller(3); Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3)
+Information: BOARD turn 36 (Rhysling) | Valerie | life 25 | hand 3 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD threat | turn 36 | Captain America, First Avenger (Captain) 288
+Phase: Rhysling's Untap step
+Phase: Rhysling's Upkeep step
+Phase: Rhysling's Draw step
+Phase: Rhysling's Main phase, precombat
+Phase: Rhysling's Beginning of Combat Step
+Phase: Rhysling's Declare Attackers Step
+Combat: Rhysling assigned Kang, Temporal Tyrant (179) to attack Captain.
+Information: BOARD attack | Rhysling -> Captain | attackers 1 (power 3) | defender life 75 | untapped creatures 0 (power 0):  | open mana 5
+Add To Stack: Rhysling triggered Kang, Temporal Tyrant
+Discard: Rhysling discards Living Laser (196).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (179)]
+Add To Stack: Rhysling triggered Kang, Temporal Tyrant
+Life: Life: Valerie 25 > 24
+Life: Life: Captain 75 > 74
+Life: Life: Rhysling 16 > 17
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Rhysling]
+Phase: Rhysling's Declare Blockers Step
+Combat: Captain didn't block Kang, Temporal Tyrant (179).
+Phase: Rhysling's First Strike Damage Step
+Phase: Rhysling's Combat Damage Step
+Damage: Kang, Temporal Tyrant (179) deals 4 combat damage to Captain.
+Life: Life: Captain 74 > 70
+Phase: Rhysling's End of Combat Step
+Phase: Rhysling's Main phase, postcombat
+Land: Rhysling picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Land: Rhysling picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Add To Stack: Rhysling cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Rhysling | open mana: Captain 5, Valerie 2
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Phase: Rhysling's End step
+Phase: Rhysling's Cleanup step
+Turn: Turn 37 (Valerie)
+Information: BOARD turn 37 (Valerie) | Captain | life 70 | hand 1 | lands 7 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 7/7*[Commander's Plate,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 37 (Valerie) | Rhysling | life 17 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Kang, Temporal Tyrant 4/5*; Puppet Master, String Puller 2/4 | hand cards: Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3); Endless Ranks of HYDRA(4)
+Information: BOARD turn 37 (Valerie) | Valerie | life 24 | hand 3 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Chiss-Goria, Forge Tyrant(9); Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD threat | turn 37 | Captain America, First Avenger (Captain) 276; Kang, Temporal Tyrant (Rhysling) 52
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Valerie played Isolated Chapel (237)
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Blood Crypt (213) - {T}: Add {R}.
+Land: Valerie picked {R}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Land: Valerie picked {W}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Mana: Fountainport (212) - {T}: Add {C}.
+Add To Stack: Valerie cast Chiss-Goria, Forge Tyrant
+Information: BOARD cast | Chiss-Goria, Forge Tyrant (mv 9) by Valerie | open mana: Captain 5, Rhysling 5
+Resolve Stack: Chiss-Goria, Forge Tyrant - Creature 5 / 4
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Combat: Valerie assigned Chiss-Goria, Forge Tyrant (228) to attack Captain.
+Information: BOARD attack | Valerie -> Captain | attackers 1 (power 5) | defender life 70 | untapped creatures 0 (power 0):  | open mana 5
+Add To Stack: Valerie triggered Chiss-Goria, Forge Tyrant
+Resolve Stack: Whenever Chiss-Goria, Forge Tyrant attacks, exile the top five cards of your library. You may cast an artifact spell from among them this turn. If you do, it has affinity for artifacts. [Attacker: Chiss-Goria, Forge Tyrant (228)]
+Phase: Valerie's Declare Blockers Step
+Combat: Captain didn't block Chiss-Goria, Forge Tyrant (228).
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Damage: Chiss-Goria, Forge Tyrant (228) deals 5 combat damage to Captain.
+Life: Life: Captain 70 > 65
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 38 (Captain)
+Information: BOARD turn 38 (Captain) | Captain | life 65 | hand 1 | lands 7 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 7/7*[Commander's Plate,Basilisk Collar] | hand cards: Spell Pierce(1)
+Information: BOARD turn 38 (Captain) | Rhysling | life 17 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Kang, Temporal Tyrant 4/5*; Puppet Master, String Puller 2/4 | hand cards: Syphon Mind(4); Baron Strucker, HYDRA Overlord(3); Tombstone, Career Criminal(3); Ultron, Unlimited(3); Endless Ranks of HYDRA(4)
+Information: BOARD turn 38 (Captain) | Valerie | life 24 | hand 2 | lands 9 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Chiss-Goria, Forge Tyrant 5/4* | hand cards: Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD threat | turn 38 | Captain America, First Avenger (Captain) 265; Kang, Temporal Tyrant (Rhysling) 50; Chiss-Goria, Forge Tyrant (Valerie) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Mana: Mistgate Pathway (43) - {T}: Add {U}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Puppet Master, String Puller (113), Valerie]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Puppet Master, String Puller (113).
+Damage: Captain America, First Avenger (100) deals 11 non-combat damage to Valerie.
+Life: Life: Captain 65 > 77
+Life: Life: Valerie 24 > 13
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Puppet Master, String Puller (113) (1 damage) and Valerie (11 damage).
+Zone Change: Puppet Master, String Puller (113) was put into Graveyard from Battlefield.
+Mana: Clifftop Retreat (50) - {T}: Add {R} or {W}.
+Mana: Seachrome Coast (98) - {T}: Add {W} or {U}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Floodfarm Verge (63) - {T}: Add {W}.
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (70) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Chiss-Goria, Forge Tyrant (228), Valerie]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Chiss-Goria, Forge Tyrant (228).
+Damage: Captain America, First Avenger (100) deals 11 non-combat damage to Valerie.
+Life: Life: Captain 77 > 89
+Life: Life: Valerie 13 > 2
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Chiss-Goria, Forge Tyrant (228) (1 damage) and Valerie (11 damage).
+Zone Change: Chiss-Goria, Forge Tyrant (228) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Rhysling.
+Information: BOARD attack | Captain -> Rhysling | attackers 1 (power 17) | defender life 17 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Captain's Declare Blockers Step
+Combat: Rhysling didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 17 combat damage to Rhysling.
+Life: Life: Captain 89 > 106
+Life: Life: Rhysling 17 > 0
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 39 (Valerie)
+Information: BOARD turn 39 (Valerie) | Captain | life 106 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 17/7[Commander's Plate,Basilisk Collar,Excalibur, Sword of Eden] | hand cards: Spell Pierce(1); Leonin Abunas(4)
+Information: BOARD turn 39 (Valerie) | Valerie | life 2 | hand 2 | lands 9 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Delina, Wild Mage(4); Comet, Stellar Pup(4)
+Information: BOARD threat | turn 39 | Captain America, First Avenger (Captain) 288; Excalibur, Sword of Eden (Captain) 52
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Valerie cast Delina, Wild Mage
+Information: BOARD cast | Delina, Wild Mage (mv 4) by Valerie | open mana: Captain 0
+Resolve Stack: Delina, Wild Mage - Creature 3 / 2
+Mana: Blood Crypt (213) - {T}: Add {R}.
+Mana: Plains (288) - {T}: Add {W}.
+Land: Valerie picked {W}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Land: Valerie picked {R}
+Mana: Command Tower (232) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Valerie cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Valerie | open mana: Captain 0
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Valerie activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Add To Stack: Valerie activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (280) deals 6 damage to Captain America, First Avenger (100).
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Add To Stack: Valerie activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (280) - Roll a d6.
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 40 (Captain)
+Information: BOARD turn 40 (Captain) | Captain | life 106 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 17/7[Commander's Plate,Basilisk Collar,Excalibur, Sword of Eden] | hand cards: Spell Pierce(1); Leonin Abunas(4)
+Information: BOARD turn 40 (Captain) | Valerie | life 2 | hand 2 | lands 9 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Delina, Wild Mage 3/2 | hand cards: Weftstalker Ardent(3); General's Enforcer(2)
+Information: BOARD threat | turn 40 | Captain America, First Avenger (Captain) 276; Excalibur, Sword of Eden (Captain) 50; Comet, Stellar Pup (Valerie) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Needleverge Pathway (37) - {T}: Add {R}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Valerie]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Valerie.
+Life: Life: Captain 106 > 118
+Life: Life: Valerie 2 > -10
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Valerie (12 damage).
+Player Control: Captain has restored control over themself
+Player Control: Rhysling has restored control over themself
+Player Control: Valerie has restored control over themself
+Player Control: Miguel has restored control over themself
+Game Outcome: Match Duration 19m : 13s
+Game Outcome: Turn 20
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Rhysling has lost because life total reached 0
+Game Outcome: Valerie has lost because life total reached 0
+Game Outcome: Miguel has lost because life total reached 0
+Match Result: Captain: 1 Rhysling: 0 Valerie: 0 Miguel: 0 
+
+Game Result: Captain has won
