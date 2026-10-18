@@ -48,8 +48,10 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
 
 - Current deck versions to run: **Captain America v7, Doom Prevails v3, Mr House v4, Tidus v3,
   Deadpool v3**, plus the second owner's Angels, Olivia, Scion and Tinybones. Captain America v7
-  became the default on 2026-10-18 at the owner's request, before any v6 vs v7 test; results up
-  to then (below) used v6. Never delete or overwrite an original deck. Improvements go in a new
+  became the default on 2026-10-18; on 2026-10-19 10:55 the owner had the first v7 deleted and
+  the v8 deck renamed to v7. So "Captain America v7" in results before that moment (e.g. the
+  2026-10-19 overnight league, 22.3%) is the **first** v7 (in git history), and "v8" results are
+  today's v7. Results before 2026-10-18 used v6. Never delete or overwrite an original deck. Improvements go in a new
   `vN` file.
 - `-JvmArgs "-Dforge.x=y"` passes switches (e.g. `-Dforge.captain.split=false`). `scratch\run-until.ps1`
   rotates pods until a deadline (`-PodJvmArgs` for A/B switches, `-Light` = 4 threads at idle priority).

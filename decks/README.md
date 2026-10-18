@@ -6,7 +6,7 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 
 | Deck | File to run | Notes |
 |---|---|---|
-| Captain America | `Captain America v7.dck` | **Default since 2026-10-18** (owner's choice). v6 + 17 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver...); most of these cards aren't owned yet. Not yet tested against v6. Full list in the deck's Description |
+| Captain America | `Captain America v7.dck` | **Default.** Since 2026-10-19 10:55 this is the former v8 (the owner had the first v7 replaced): v6 + 25 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver, Genji Glove, Leyline Axe, Captain America's Shield, Blasphemous Act, Winds of Abandon...); most of these cards aren't owned yet. Full list in the deck's Description. Results logged as "Captain America v7" before that time are the first v7 (kept in git history) |
 | Mr House | `Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
 | Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
 | Tidus | `Tidus v3.dck` | bulk upgrades |
