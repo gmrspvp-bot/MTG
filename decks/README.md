@@ -14,6 +14,7 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 | Angels | `Angels.dck` | Seluma, Light of Aysen. Added Oct 2026 from the second owner's collection; no upgrades yet |
 | Olivia | `Olivia.dck` | Olivia, Opulent Outlaw. Added Oct 2026 from the second owner's collection; no upgrades yet |
 | Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Tinybones | `Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
 
 Older versions are kept for reference and comparisons; never delete or overwrite them. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
