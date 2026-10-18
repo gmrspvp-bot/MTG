@@ -116,17 +116,20 @@ public final class AiPatches {
          * would kill 2+ opposing creatures at 1 damage each (the user's repeated wipe).
          */
         static boolean deathtouchWipeReady(Player ai, Card eq) {
-            if (!CaptainPolicy.SPLIT || eq.getCMC() < 2 || CaptainPolicy.grantsDeathtouch(eq)) return false;
-            boolean dt = false;
+            if (!CaptainPolicy.SPLIT || eq.getCMC() < 2 || CaptainPolicy.grantsDeathtouch(eq) || "Sword of Kaldra".equals(eq.getName())) return false;
+            boolean dt = false, sword = false;
             for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
                 if (!CaptainPolicy.isCaptain(c)) continue;
-                for (Card e : c.getEquippedBy()) { if (CaptainPolicy.grantsDeathtouch(e)) dt = true; }
+                for (Card e : c.getEquippedBy()) {
+                    if (CaptainPolicy.grantsDeathtouch(e)) dt = true;
+                    if ("Sword of Kaldra".equals(e.getName()) && eq.getCMC() != 4) sword = true;   // throws of this piece keep the Sword
+                }
             }
-            if (!dt) return false;
+            if (!dt && !sword) return false;
             int killable = 0;
             for (Player opp : ai.getOpponents()) {
                 for (Card c : opp.getCreaturesInPlay()) {
-                    if (!c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) && (!c.isToken() || c.getNetPower() >= 2)) killable++;
+                    if ((sword || !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) && (!c.isToken() || c.getNetPower() >= 2)) killable++;
                 }
             }
             return killable >= 2;
@@ -1099,6 +1102,19 @@ public final class AiPatches {
             return !anyGearGrants || fromOtherGear || thrownPieceClean;
         }
 
+        /**
+         * Sword of Kaldra stays on him through this throw ("whenever equipped creature deals
+         * damage to a creature, exile that creature"): the throw is damage from Captain America,
+         * so 1 damage exiles each creature hit - indestructible ones and Angels that would come
+         * back included. The cost unattaches gear of the throw's mana value, so a 4-damage throw
+         * might take the Sword itself.
+         */
+        static boolean keepsSwordOfKaldra(SpellAbility sa) {
+            if (totalDamage(sa) == 4) return false;
+            for (Card e : sa.getHostCard().getEquippedBy()) { if ("Sword of Kaldra".equals(e.getName())) return true; }
+            return false;
+        }
+
         /** Damage this throw needs to kill c (1 with deathtouch). */
         static int killNeed(Card c, boolean deathtouch) {
             int need = c.getNetToughness() - c.getDamage();
@@ -1110,11 +1126,12 @@ public final class AiPatches {
             int dmg = totalDamage(sa);
             int slots = Math.min(3, dmg);
             if (slots < 2) return null;
-            final boolean dt = keepsDeathtouch(sa);
+            final boolean exile = keepsSwordOfKaldra(sa);
+            final boolean dt = keepsDeathtouch(sa) || exile;   // either way 1 damage removes it
             List<Card> cands = new java.util.ArrayList<>();
             for (Player opp : ai.getOpponents()) {
                 for (Card c : opp.getCreaturesInPlay()) {
-                    if (c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) || !sa.canTarget(c)) continue;
+                    if ((!exile && c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) || !sa.canTarget(c)) continue;
                     int need = killNeed(c, dt);
                     if (need > 0 && need <= dmg) cands.add(c);
                 }
@@ -1160,7 +1177,7 @@ public final class AiPatches {
                     sa.addDividedAllocation(best[0], killNeed(best[0], dt) + left);
                 }
             }
-            return (dt ? "split kill (deathtouch) " : "split kill ") + names;
+            return (exile ? "split exile (Sword of Kaldra) " : dt ? "split kill (deathtouch) " : "split kill ") + names;
         }
 
         /**
