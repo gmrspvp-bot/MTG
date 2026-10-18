@@ -1,0 +1,1426 @@
+Player: Eiridan (HUMAN) deck=Angels
+Player: Captain (AI) deck=Captain America v6
+Player: Nuwolf (AI) deck=Doom Prevails v3
+Player: Atgur (AI) deck=Mr House v4
+Mulligan: Nuwolf has kept a hand of 7 cards
+Mulligan: Atgur has kept a hand of 7 cards
+Mulligan: Eiridan has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Nuwolf)
+Information: BOARD turn 1 (Nuwolf) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Liesa, Forgotten Archangel(5)
+Information: BOARD turn 1 (Nuwolf) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Stroke of Midnight(3); Inspiring Vantage(land); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land)
+Information: BOARD turn 1 (Nuwolf) | Nuwolf | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Pools(land); The Frightful Four(4); Chaos Warp(3); Foreboding Ruins(land); Smoldering Marsh(land); Vandalblast(1); Dragonskull Summit(land)
+Information: BOARD turn 1 (Nuwolf) | Atgur | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Weftstalker Ardent(3); Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land)
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Nuwolf played Foreboding Ruins (263)
+Phase: Nuwolf's Beginning of Combat Step
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 2 (Atgur)
+Information: BOARD turn 2 (Atgur) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Liesa, Forgotten Archangel(5)
+Information: BOARD turn 2 (Atgur) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Stroke of Midnight(3); Inspiring Vantage(land); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land)
+Information: BOARD turn 2 (Atgur) | Nuwolf | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Pools(land); The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Vandalblast(1); Dragonskull Summit(land); Ultimate Green Goblin(3)
+Information: BOARD turn 2 (Atgur) | Atgur | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Weftstalker Ardent(3); Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land)
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Atgur played Luxury Suite (336)
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Add To Stack: Atgur cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by Atgur | open mana: Eiridan 0, Captain 0, Nuwolf 3
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3 (Warped)
+Phase: Atgur's End step
+Add To Stack: Atgur triggered Weftstalker Ardent
+Zone Change: Weftstalker Ardent (353) was put into Exile from Battlefield.
+Resolve Stack: Exile Weftstalker Ardent (353) at the beginning of the next end step. ([Weftstalker Ardent (353)]) [Phase: Atgur]
+Phase: Atgur's Cleanup step
+Turn: Turn 3 (Eiridan)
+Information: BOARD turn 3 (Eiridan) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Liesa, Forgotten Archangel(5)
+Information: BOARD turn 3 (Eiridan) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Stroke of Midnight(3); Inspiring Vantage(land); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land)
+Information: BOARD turn 3 (Eiridan) | Nuwolf | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Pools(land); The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Vandalblast(1); Dragonskull Summit(land); Ultimate Green Goblin(3)
+Information: BOARD turn 3 (Eiridan) | Atgur | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Discard: Eiridan discards Liesa, Forgotten Archangel (46).
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Stroke of Midnight(3); Inspiring Vantage(land); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land)
+Information: BOARD turn 4 (Captain) | Nuwolf | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Pools(land); The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Vandalblast(1); Dragonskull Summit(land); Ultimate Green Goblin(3)
+Information: BOARD turn 4 (Captain) | Atgur | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Inspiring Vantage enters tapped unless you control two or fewer other lands.
+Land: Captain played Inspiring Vantage (155)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Land: Captain picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Eiridan 0, Nuwolf 3, Atgur 0
+Resolve Stack: Basilisk Collar
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Nuwolf)
+Information: BOARD turn 5 (Nuwolf) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4)
+Information: BOARD turn 5 (Nuwolf) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 5 (Nuwolf) | Nuwolf | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Pools(land); The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Vandalblast(1); Dragonskull Summit(land); Ultimate Green Goblin(3)
+Information: BOARD turn 5 (Nuwolf) | Atgur | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Replacement Effect: Fetid Pools enters tapped.
+Land: Nuwolf played Fetid Pools (273)
+Land: Nuwolf picked {R}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Add To Stack: Nuwolf cast Vandalblast targeting [Basilisk Collar (115)]
+Information: BOARD cast | Vandalblast (mv 1) by Nuwolf | open mana: Eiridan 0, Captain 0, Atgur 0
+Zone Change: Basilisk Collar (115) was put into Graveyard from Battlefield.
+Resolve Stack: Vandalblast (262) - Destroy Basilisk Collar (115).
+Phase: Nuwolf's Beginning of Combat Step
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 6 (Atgur)
+Information: BOARD turn 6 (Atgur) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4)
+Information: BOARD turn 6 (Atgur) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 6 (Atgur) | Nuwolf | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Dragonskull Summit(land); Ultimate Green Goblin(3); Talisman of Indulgence(2)
+Information: BOARD turn 6 (Atgur) | Atgur | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goblin Bombardment(2); Plains(land); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Plains (390)
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Plains (390) - {T}: Add {W}.
+Add To Stack: Atgur cast Wyll, Blade of Frontiers
+Information: BOARD cast | Wyll, Blade of Frontiers (mv 2) by Atgur | open mana: Eiridan 0, Captain 0, Nuwolf 0
+Resolve Stack: Wyll, Blade of Frontiers - Creature 1 / 1
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 7 (Eiridan)
+Information: BOARD turn 7 (Eiridan) | Eiridan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Emeria, the Sky Ruin(land); Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4)
+Information: BOARD turn 7 (Eiridan) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 7 (Eiridan) | Nuwolf | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Dragonskull Summit(land); Ultimate Green Goblin(3); Talisman of Indulgence(2)
+Information: BOARD turn 7 (Eiridan) | Atgur | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Replacement Effect: Emeria, the Sky Ruin enters tapped.
+Land: Eiridan played Emeria, the Sky Ruin (96)
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Eiridan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4); Mind Stone(2)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 8 (Captain) | Nuwolf | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Dragonskull Summit(land); Ultimate Green Goblin(3); Talisman of Indulgence(2)
+Information: BOARD turn 8 (Captain) | Atgur | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Captain played Sulfur Falls (153)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Nuwolf)
+Information: BOARD turn 9 (Nuwolf) | Eiridan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4); Mind Stone(2)
+Information: BOARD turn 9 (Nuwolf) | Captain | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 9 (Nuwolf) | Nuwolf | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Smoldering Marsh(land); Dragonskull Summit(land); Ultimate Green Goblin(3); Talisman of Indulgence(2)
+Information: BOARD turn 9 (Nuwolf) | Atgur | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Nuwolf played Smoldering Marsh (266)
+Phase: Nuwolf's Beginning of Combat Step
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Add To Stack: Nuwolf cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Nuwolf | open mana: Eiridan 0, Captain 3, Atgur 0
+Resolve Stack: Talisman of Indulgence
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 10 (Atgur)
+Information: BOARD turn 10 (Atgur) | Eiridan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4); Mind Stone(2)
+Information: BOARD turn 10 (Atgur) | Captain | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 10 (Atgur) | Nuwolf | life 40 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Dragonskull Summit(land); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD turn 10 (Atgur) | Atgur | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Mountain(land); Plains(land)
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Mountain (385)
+Mana: Plains (390) - {T}: Add {W}.
+Land: Atgur picked {B}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Mountain (385) - {T}: Add {R}.
+Add To Stack: Atgur cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Atgur | open mana: Eiridan 0, Captain 3, Nuwolf 3
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Combat: Atgur assigned Wyll, Blade of Frontiers (377) to attack Nuwolf.
+Information: BOARD attack | Atgur -> Nuwolf | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Atgur's Declare Blockers Step
+Combat: Nuwolf didn't block Wyll, Blade of Frontiers (377).
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Damage: Wyll, Blade of Frontiers (377) deals 1 combat damage to Nuwolf.
+Life: Life: Nuwolf 40 > 39
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 11 (Eiridan)
+Information: BOARD turn 11 (Eiridan) | Eiridan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Restoration Angel(4); Mind Stone(2)
+Information: BOARD turn 11 (Eiridan) | Captain | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 11 (Eiridan) | Nuwolf | life 39 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Dragonskull Summit(land); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD turn 11 (Eiridan) | Atgur | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Plains(land); Ghostly Prison(3)
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Discard: Eiridan discards Restoration Angel (95).
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Eiridan | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Mind Stone(2); Sun Titan(6)
+Information: BOARD turn 12 (Captain) | Captain | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Wraith, Vicious Vigilante(3); Spectator Seating(land); Island(land); Needleverge Pathway(land); Puresteel Paladin(2)
+Information: BOARD turn 12 (Captain) | Nuwolf | life 39 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Dragonskull Summit(land); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD turn 12 (Captain) | Atgur | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Plains(land); Ghostly Prison(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (128)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Land: Captain picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Mana: Island (128) - {T}: Add {U}.
+Land: Captain picked {U}
+Mana: Sulfur Falls (153) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Wraith, Vicious Vigilante
+Information: BOARD cast | Wraith, Vicious Vigilante (mv 3) by Captain | open mana: Eiridan 1, Nuwolf 3, Atgur 0
+Resolve Stack: Wraith, Vicious Vigilante - Creature 1 / 1
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Nuwolf)
+Information: BOARD turn 13 (Nuwolf) | Eiridan | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Mind Stone(2); Sun Titan(6)
+Information: BOARD turn 13 (Nuwolf) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wraith, Vicious Vigilante 1/1 | hand cards: Stroke of Midnight(3); Spectator Seating(land); Needleverge Pathway(land); Puresteel Paladin(2); Monk's Fist(2)
+Information: BOARD turn 13 (Nuwolf) | Nuwolf | life 39 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Frightful Four(4); Chaos Warp(3); Dragonskull Summit(land); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD turn 13 (Nuwolf) | Atgur | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Plains(land); Ghostly Prison(3)
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Nuwolf played Sulfur Falls (252)
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Land: Nuwolf picked {R}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Add To Stack: Nuwolf cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Nuwolf | open mana: Eiridan 1, Captain 0, Atgur 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Dragonskull Summit (246).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria
+Life: Life: Atgur 40 > 38
+Life: Life: Eiridan 40 > 38
+Life: Life: Captain 40 > 38
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Nuwolf, Amount: 1]
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 14 (Atgur)
+Information: BOARD turn 14 (Atgur) | Eiridan | life 38 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Mind Stone(2); Sun Titan(6)
+Information: BOARD turn 14 (Atgur) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wraith, Vicious Vigilante 1/1 | hand cards: Stroke of Midnight(3); Spectator Seating(land); Needleverge Pathway(land); Puresteel Paladin(2); Monk's Fist(2)
+Information: BOARD turn 14 (Atgur) | Nuwolf | life 39 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: The Frightful Four(4); Chaos Warp(3); Ultimate Green Goblin(3); Swamp(land); Withering Torment(3)
+Information: BOARD turn 14 (Atgur) | Atgur | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5); Plains(land); Ghostly Prison(3)
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Plains (389)
+Land: Atgur picked {B}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Mountain (385) - {T}: Add {R}.
+Add To Stack: Atgur cast The Soul Stone
+Information: BOARD cast | The Soul Stone (mv 2) by Atgur | open mana: Eiridan 1, Captain 0, Nuwolf 3
+Resolve Stack: The Soul Stone
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Combat: Atgur assigned Wyll, Blade of Frontiers (377) to attack Eiridan.
+Information: BOARD attack | Atgur -> Eiridan | attackers 1 (power 1) | defender life 38 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Atgur's Declare Blockers Step
+Combat: Eiridan didn't block Wyll, Blade of Frontiers (377).
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Damage: Wyll, Blade of Frontiers (377) deals 1 combat damage to Eiridan.
+Life: Life: Eiridan 38 > 37
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Mana: The Soul Stone (363) - {T}: Add {B}.
+Add To Stack: Atgur cast Ghostly Prison
+Information: BOARD cast | Ghostly Prison (mv 3) by Atgur | open mana: Eiridan 1, Captain 0, Nuwolf 3
+Resolve Stack: Ghostly Prison
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 15 (Eiridan)
+Information: BOARD turn 15 (Eiridan) | Eiridan | life 37 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Plains(land); Mind Stone(2); Sun Titan(6)
+Information: BOARD turn 15 (Eiridan) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wraith, Vicious Vigilante 1/1 | hand cards: Stroke of Midnight(3); Spectator Seating(land); Needleverge Pathway(land); Puresteel Paladin(2); Monk's Fist(2)
+Information: BOARD turn 15 (Eiridan) | Nuwolf | life 39 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: The Frightful Four(4); Chaos Warp(3); Ultimate Green Goblin(3); Swamp(land); Withering Torment(3)
+Information: BOARD turn 15 (Eiridan) | Atgur | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5)
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (75)
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Add To Stack: Eiridan cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Eiridan | open mana: Captain 0, Nuwolf 3, Atgur 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Eiridan cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Eiridan | open mana: Captain 0, Nuwolf 3, Atgur 0
+Resolve Stack: Mind Stone
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Eiridan | life 37 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Sun Titan(6)
+Information: BOARD turn 16 (Captain) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wraith, Vicious Vigilante 1/1 | hand cards: Stroke of Midnight(3); Spectator Seating(land); Needleverge Pathway(land); Puresteel Paladin(2); Monk's Fist(2)
+Information: BOARD turn 16 (Captain) | Nuwolf | life 39 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: The Frightful Four(4); Chaos Warp(3); Ultimate Green Goblin(3); Swamp(land); Withering Torment(3)
+Information: BOARD turn 16 (Captain) | Atgur | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Captain played Spectator Seating (179)
+Mana: Island (128) - {T}: Add {U}.
+Land: Captain picked {U}
+Mana: Sulfur Falls (153) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Monk's Fist
+Information: BOARD cast | Monk's Fist (mv 2) by Captain | open mana: Eiridan 2, Nuwolf 3, Atgur 0
+Resolve Stack: Monk's Fist
+Add To Stack: Captain triggered Monk's Fist
+Resolve Stack: Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) [Zone Changer: Monk's Fist (169)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Wraith, Vicious Vigilante (119) to attack Nuwolf.
+Information: BOARD attack | Captain -> Nuwolf | attackers 1 (power 1) | defender life 39 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 3
+Phase: Captain's Declare Blockers Step
+Combat: Nuwolf didn't block Wraith, Vicious Vigilante (119).
+Phase: Captain's First Strike Damage Step
+Damage: Wraith, Vicious Vigilante (119) deals 1 combat damage to Nuwolf.
+Life: Life: Nuwolf 39 > 38
+Phase: Captain's Combat Damage Step
+Damage: Wraith, Vicious Vigilante (119) deals 1 combat damage to Nuwolf.
+Life: Life: Nuwolf 38 > 37
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Land: Captain picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Captain picked {W}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Captain | open mana: Eiridan 2, Nuwolf 3, Atgur 0
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Nuwolf)
+Information: BOARD turn 17 (Nuwolf) | Eiridan | life 37 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Sun Titan(6)
+Information: BOARD turn 17 (Nuwolf) | Captain | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Wraith, Vicious Vigilante 1/1*; Hero Token 2/1[Monk's Fist]; Puresteel Paladin 2/2 | hand cards: Stroke of Midnight(3); Needleverge Pathway(land); Spectacular Spider-Man(2)
+Information: BOARD turn 17 (Nuwolf) | Nuwolf | life 37 | hand 5 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: The Frightful Four(4); Chaos Warp(3); Ultimate Green Goblin(3); Swamp(land); Withering Torment(3)
+Information: BOARD turn 17 (Nuwolf) | Atgur | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5)
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Land: Nuwolf picked {R}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Add To Stack: Nuwolf cast Chaos Warp targeting [Wraith, Vicious Vigilante (119)]
+Information: BOARD cast | Chaos Warp (mv 3) by Nuwolf | open mana: Eiridan 2, Captain 0, Atgur 0
+Resolve Stack: Chaos Warp (274) - Shuffle Wraith, Vicious Vigilante (119) into its owner's library. Nuwolf reveals the top card of Captain's library.
+Add To Stack: Captain triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Brotherhood Regalia (192)]
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Land: Nuwolf played Swamp (258)
+Mana: Swamp (258) - {T}: Add {B}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Mana: Talisman of Indulgence (209) - {T}: Add {C}.
+Add To Stack: Nuwolf cast Withering Torment targeting [Puresteel Paladin (129)]
+Information: BOARD cast | Withering Torment (mv 3) by Nuwolf | open mana: Eiridan 2, Captain 0, Atgur 0
+Zone Change: Puresteel Paladin (129) was put into Graveyard from Battlefield.
+Life: Life: Nuwolf 37 > 35
+Resolve Stack: Withering Torment (243) - Destroy Puresteel Paladin (129). Nuwolf loses 2 life.
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Mysterio, Master of Illusion (236).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Phase: Nuwolf's Declare Attackers Step
+Combat: Nuwolf assigned Doctor Doom, King of Latveria (302) to attack Captain.
+Information: BOARD attack | Nuwolf -> Captain | attackers 1 (power 4) | defender life 38 | untapped creatures 1 (power 2): Hero Token 2/1[Monk's Fist] | open mana 0
+Phase: Nuwolf's Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (302).
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (302) deals 4 combat damage to Captain.
+Life: Life: Captain 38 > 34
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 18 (Atgur)
+Information: BOARD turn 18 (Atgur) | Eiridan | life 37 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Sun Titan(6)
+Information: BOARD turn 18 (Atgur) | Captain | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Needleverge Pathway(land); Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 18 (Atgur) | Nuwolf | life 35 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 4/4* | hand cards: The Frightful Four(4); Ultimate Green Goblin(3); Kang Prime(5)
+Information: BOARD turn 18 (Atgur) | Atgur | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2); The Deck of Many Things(5)
+Information: BOARD threat | turn 18 | Doctor Doom, King of Latveria (Nuwolf) 62
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Sulfurous Springs (367)
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Combat: Atgur assigned Wyll, Blade of Frontiers (377) to attack Nuwolf.
+Information: BOARD attack | Atgur -> Nuwolf | attackers 1 (power 1) | defender life 35 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Atgur's Declare Blockers Step
+Combat: Nuwolf didn't block Wyll, Blade of Frontiers (377).
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Damage: Wyll, Blade of Frontiers (377) deals 1 combat damage to Nuwolf.
+Life: Life: Nuwolf 35 > 34
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Mana: Mountain (385) - {T}: Add {R}.
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Sulfurous Springs (367) - {T}: Add {C}.
+Add To Stack: Atgur cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by Atgur | open mana: Eiridan 2, Captain 0, Nuwolf 0
+Resolve Stack: The Deck of Many Things
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 19 (Eiridan)
+Information: BOARD turn 19 (Eiridan) | Eiridan | life 37 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Island(land); Plains(land); Sun Titan(6)
+Information: BOARD turn 19 (Eiridan) | Captain | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Needleverge Pathway(land); Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 19 (Eiridan) | Nuwolf | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 4/4* | hand cards: The Frightful Four(4); Ultimate Green Goblin(3); Kang Prime(5)
+Information: BOARD turn 19 (Eiridan) | Atgur | life 38 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 19 | Doctor Doom, King of Latveria (Nuwolf) 59
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (68)
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Eiridan cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Eiridan | open mana: Captain 0, Nuwolf 0, Atgur 1
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Eiridan | life 37 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Island(land); Plains(land); Sun Titan(6); Bruna, the Fading Light(7)
+Information: BOARD turn 20 (Captain) | Captain | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Needleverge Pathway(land); Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 20 (Captain) | Nuwolf | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 4/4* | hand cards: The Frightful Four(4); Ultimate Green Goblin(3); Kang Prime(5)
+Information: BOARD turn 20 (Captain) | Atgur | life 38 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 20 | Doctor Doom, King of Latveria (Nuwolf) 57
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Land: Captain picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Mana: Island (128) - {T}: Add {U}.
+Land: Captain picked {W}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Stroke of Midnight targeting [Seluma, Light of Aysen (100)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Captain | open mana: Eiridan 1, Nuwolf 0, Atgur 1
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (110) - Destroy Seluma, Light of Aysen (100). 
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Needleverge Pathway (138)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Hero Token (420) to attack Nuwolf.
+Information: BOARD attack | Captain -> Nuwolf | attackers 1 (power 2) | defender life 34 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Nuwolf didn't block Hero Token (420).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Hero Token (420) deals 2 combat damage to Nuwolf.
+Life: Life: Nuwolf 34 > 32
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Land: Captain picked {U}
+Mana: Sulfur Falls (153) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Thought Vessel
+Information: BOARD cast | Thought Vessel (mv 2) by Captain | open mana: Eiridan 1, Nuwolf 0, Atgur 1
+Resolve Stack: Thought Vessel
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Nuwolf)
+Information: BOARD turn 21 (Nuwolf) | Eiridan | life 37 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Plains(land); Island(land); Plains(land); Sun Titan(6); Bruna, the Fading Light(7)
+Information: BOARD turn 21 (Nuwolf) | Captain | life 34 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist] | hand cards: Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 21 (Nuwolf) | Nuwolf | life 32 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 4/4* | hand cards: The Frightful Four(4); Ultimate Green Goblin(3); Kang Prime(5)
+Information: BOARD turn 21 (Nuwolf) | Atgur | life 38 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 21 | Doctor Doom, King of Latveria (Nuwolf) 55
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Killmonger, Ruthless Usurper (298).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Phase: Nuwolf's Declare Attackers Step
+Mana: Swamp (258) - {T}: Add {B}.
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Combat: Nuwolf assigned Doctor Doom, King of Latveria (302) to attack Atgur.
+Information: BOARD attack | Nuwolf -> Atgur | attackers 1 (power 5) | defender life 38 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Phase: Nuwolf's Declare Blockers Step
+Combat: Atgur didn't block Doctor Doom, King of Latveria (302).
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (302) deals 5 combat damage to Atgur.
+Life: Life: Atgur 38 > 33
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Mana: Talisman of Indulgence (209) - {T}: Add {C}.
+Add To Stack: Nuwolf cast The Frightful Four
+Information: BOARD cast | The Frightful Four (mv 4) by Nuwolf | open mana: Eiridan 1, Captain 1, Atgur 1
+Resolve Stack: The Frightful Four - Creature 4 / 4
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 22 (Atgur)
+Information: BOARD turn 22 (Atgur) | Eiridan | life 37 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Plains(land); Island(land); Plains(land); Sun Titan(6); Bruna, the Fading Light(7)
+Information: BOARD turn 22 (Atgur) | Captain | life 34 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist] | hand cards: Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 22 (Atgur) | Nuwolf | life 32 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; The Frightful Four 4/4 | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 22 (Atgur) | Atgur | life 33 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 22 | Doctor Doom, King of Latveria (Nuwolf) 96
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Combat: Atgur assigned Wyll, Blade of Frontiers (377) to attack Captain.
+Information: BOARD attack | Atgur -> Captain | attackers 1 (power 1) | defender life 34 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Atgur's Declare Blockers Step
+Combat: Captain didn't block Wyll, Blade of Frontiers (377).
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Damage: Wyll, Blade of Frontiers (377) deals 1 combat damage to Captain.
+Life: Life: Captain 34 > 33
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Mana: Mountain (385) - {T}: Add {R}.
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Add To Stack: Atgur cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by Atgur | open mana: Eiridan 1, Captain 1, Nuwolf 0
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Sulfurous Springs (367) - {T}: Add {C}.
+Mana: The Soul Stone (363) - {T}: Add {B}.
+Add To Stack: Atgur cast Component Pouch
+Information: BOARD cast | Component Pouch (mv 3) by Atgur | open mana: Eiridan 1, Captain 1, Nuwolf 0
+Add To Stack: Nuwolf triggered The Frightful Four
+Life: Life: Atgur 33 > 30
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Component Pouch (348), Activator: Atgur, SpellAbility: Component Pouch]
+Resolve Stack: Component Pouch
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 37 > 36
+Life: Life: Captain 33 > 32
+Life: Life: Nuwolf 32 > 31
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Component Pouch (348)]
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 23 (Eiridan)
+Information: BOARD turn 23 (Eiridan) | Eiridan | life 36 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Plains(land); Island(land); Plains(land); Sun Titan(6); Bruna, the Fading Light(7)
+Information: BOARD turn 23 (Eiridan) | Captain | life 32 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist] | hand cards: Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 23 (Eiridan) | Nuwolf | life 31 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; The Frightful Four 4/4 | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 23 (Eiridan) | Atgur | life 30 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 23 | Doctor Doom, King of Latveria (Nuwolf) 92; Weftstalker Ardent (Atgur) 32
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Phase: Eiridan's Declare Blockers Step
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (74)
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mind Stone (29) - {T}: Add {C}.
+Add To Stack: Eiridan cast Bruna, the Fading Light
+Information: BOARD cast | Bruna, the Fading Light (mv 7) by Eiridan | open mana: Captain 1, Nuwolf 0, Atgur 0
+Add To Stack: Eiridan triggered Bruna, the Fading Light targeting [Liesa, Forgotten Archangel (46)]
+Resolve Stack: When you cast Bruna, the Fading Light, you may return target Angel or Human creature card from your graveyard to the battlefield. (Targeting: [[Liesa, Forgotten Archangel (46)]]) [Card: Bruna, the Fading Light (55), Activator: Eiridan, SpellAbility: Bruna, the Fading Light - Creature 5 / 7]
+Resolve Stack: Bruna, the Fading Light - Creature 5 / 7
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 24 (Captain)
+Information: BOARD turn 24 (Captain) | Eiridan | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5; Bruna, the Fading Light 5/7 | hand cards: Plains(land); Island(land); Sun Titan(6); Oreskos Explorer(2)
+Information: BOARD turn 24 (Captain) | Captain | life 32 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist] | hand cards: Spectacular Spider-Man(2); Force of Negation(3)
+Information: BOARD turn 24 (Captain) | Nuwolf | life 31 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; The Frightful Four 4/4 | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 24 (Captain) | Atgur | life 30 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 24 | Doctor Doom, King of Latveria (Nuwolf) 88; Weftstalker Ardent (Atgur) 30
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Thought Vessel (133) - {T}: Add {C}.
+Land: Captain picked {R}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Captain picked {R}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Brotherhood Regalia targeting [Hero Token (420)]
+Resolve Stack: Brotherhood Regalia (192) -  Attach to Hero Token (420)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Hero Token (420) to attack Nuwolf.
+Information: BOARD attack | Captain -> Nuwolf | attackers 1 (power 2) | defender life 31 | untapped creatures 1 (power 4): The Frightful Four 4/4 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Nuwolf didn't block Hero Token (420).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Hero Token (420) deals 2 combat damage to Nuwolf.
+Life: Life: Nuwolf 31 > 29
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 25 (Nuwolf)
+Information: BOARD turn 25 (Nuwolf) | Eiridan | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5; Bruna, the Fading Light 5/7 | hand cards: Plains(land); Island(land); Sun Titan(6); Oreskos Explorer(2)
+Information: BOARD turn 25 (Nuwolf) | Captain | life 32 | hand 3 | lands 5 (3 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3)
+Information: BOARD turn 25 (Nuwolf) | Nuwolf | life 29 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 5/5*; The Frightful Four 4/4 | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 25 (Nuwolf) | Atgur | life 30 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Wyll, Blade of Frontiers 1/1*; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 25 | Doctor Doom, King of Latveria (Nuwolf) 85
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Land: Nuwolf played Terramorphic Expanse (301)
+Zone Change: Terramorphic Expanse (301) was put into Graveyard from Battlefield.
+Add To Stack: Nuwolf activated Terramorphic Expanse
+Resolve Stack: Terramorphic Expanse (301) - Nuwolf searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Living Laser (297).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Phase: Nuwolf's Declare Attackers Step
+Mana: Swamp (258) - {T}: Add {B}.
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Combat: Nuwolf assigned Doctor Doom, King of Latveria (302) and The Frightful Four (272) to attack Atgur.
+Information: BOARD attack | Nuwolf -> Atgur | attackers 2 (power 10) | defender life 30 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | open mana 0
+Phase: Nuwolf's Declare Blockers Step
+Combat: Atgur didn't block Doctor Doom, King of Latveria (302).
+Atgur didn't block The Frightful Four (272).
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (302) deals 6 combat damage to Atgur.
+Damage: The Frightful Four (272) deals 4 combat damage to Atgur.
+Life: Life: Atgur 30 > 20
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Phase: Nuwolf's End step
+Add To Stack: Atgur activated Component Pouch
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (348) - Roll a d20.
+Add To Stack: Atgur triggered Mr. House, President and CEO
+Add To Stack: Atgur triggered Wyll, Blade of Frontiers
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Atgur, Result: [11]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Atgur, Result: 11]
+Add To Stack: Atgur triggered Weftstalker Ardent
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 36 > 35
+Life: Life: Captain 32 > 31
+Life: Life: Nuwolf 29 > 28
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (432)]
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 35 > 34
+Life: Life: Captain 31 > 30
+Life: Life: Nuwolf 28 > 27
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (431)]
+Phase: Nuwolf's Cleanup step
+Turn: Turn 26 (Atgur)
+Information: BOARD turn 26 (Atgur) | Eiridan | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5; Bruna, the Fading Light 5/7 | hand cards: Plains(land); Island(land); Sun Titan(6); Oreskos Explorer(2)
+Information: BOARD turn 26 (Atgur) | Captain | life 30 | hand 3 | lands 5 (3 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3)
+Information: BOARD turn 26 (Atgur) | Nuwolf | life 27 | hand 3 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 6/6*; The Frightful Four 4/4* | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 26 (Atgur) | Atgur | life 20 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Wyll, Blade of Frontiers 2/2*; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | hand cards: Goblin Bombardment(2); Cathartic Reunion(2)
+Information: BOARD threat | turn 26 | Doctor Doom, King of Latveria (Nuwolf) 130; Weftstalker Ardent (Atgur) 91; The Frightful Four (Nuwolf) 36; Wyll, Blade of Frontiers (Atgur) 31
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Mana: Mountain (385) - {T}: Add {R}.
+Add To Stack: Atgur cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by Atgur | open mana: Eiridan 0, Captain 5, Nuwolf 4
+Add To Stack: Nuwolf triggered The Frightful Four
+Life: Life: Atgur 20 > 19
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Barbarian Class (344), Activator: Atgur, SpellAbility: Barbarian Class]
+Resolve Stack: Barbarian Class
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: Plains (390) - {T}: Add {W}.
+Add To Stack: Atgur activated Barbarian Class
+Resolve Stack: Barbarian Class (344) - Level 2
+Land: Atgur picked {R}
+Damage: Sulfurous Springs (367) deals 1 non-combat damage to Atgur.
+Life: Life: Atgur 19 > 18
+Mana: Sulfurous Springs (367) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Plains (389) - {T}: Add {W}.
+Mana: The Soul Stone (363) - {T}: Add {B}.
+Add To Stack: Atgur activated Barbarian Class
+Resolve Stack: Barbarian Class (344) - Level 3
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Zone Change: Treasure Token (432) was put into Graveyard from Battlefield.
+Land: Treasure Token (432) picked {R}
+Mana: Treasure Token (432) - {T}, Sacrifice this token: Add one mana of any color.
+Land: Atgur picked {R}{W}
+Mana: Component Pouch (348) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Atgur cast Goblin Bombardment
+Information: BOARD cast | Goblin Bombardment (mv 2) by Atgur | open mana: Eiridan 0, Captain 5, Nuwolf 4
+Resolve Stack: Goblin Bombardment
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 27 (Eiridan)
+Information: BOARD turn 27 (Eiridan) | Eiridan | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5; Bruna, the Fading Light 5/7 | hand cards: Plains(land); Island(land); Sun Titan(6); Oreskos Explorer(2)
+Information: BOARD turn 27 (Eiridan) | Captain | life 30 | hand 3 | lands 5 (3 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3)
+Information: BOARD turn 27 (Eiridan) | Nuwolf | life 27 | hand 3 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 6/6*; The Frightful Four 4/4* | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 27 (Eiridan) | Atgur | life 18 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 27 | Doctor Doom, King of Latveria (Nuwolf) 125; Weftstalker Ardent (Atgur) 88; The Frightful Four (Nuwolf) 49
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Combat: Eiridan assigned Liesa, Forgotten Archangel (46) and Bruna, the Fading Light (55) to attack Nuwolf.
+Information: BOARD attack | Eiridan -> Nuwolf | attackers 2 (power 9) | defender life 27 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Eiridan's Declare Blockers Step
+Combat: Nuwolf didn't block Liesa, Forgotten Archangel (46).
+Nuwolf didn't block Bruna, the Fading Light (55).
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Damage: Liesa, Forgotten Archangel (46) deals 4 combat damage to Nuwolf.
+Life: Life: Eiridan 34 > 38
+Damage: Bruna, the Fading Light (55) deals 5 combat damage to Nuwolf.
+Life: Life: Nuwolf 27 > 18
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (90)
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add To Stack: Eiridan cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Eiridan | open mana: Captain 5, Nuwolf 4, Atgur 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: devEiridan's Main phase, postcombat
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Eiridan | life 38 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Island(land); Oreskos Explorer(2); Sun Titan(6)
+Information: BOARD turn 28 (Captain) | Captain | life 30 | hand 3 | lands 5 (3 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3)
+Information: BOARD turn 28 (Captain) | Nuwolf | life 18 | hand 3 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 6/6*; The Frightful Four 4/4* | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 28 (Captain) | Atgur | life 18 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 28 | Doctor Doom, King of Latveria (Nuwolf) 120; Weftstalker Ardent (Atgur) 84; The Frightful Four (Nuwolf) 47
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Mana: Thought Vessel (133) - {T}: Add {C}.
+Land: Captain picked {R}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Combat: Captain assigned Hero Token (420) to attack Atgur.
+Information: BOARD attack | Captain -> Atgur | attackers 1 (power 2) | defender life 18 | untapped creatures 4 (power 7): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Atgur didn't block Hero Token (420).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Hero Token (420) deals 2 combat damage to Atgur.
+Life: Life: Atgur 18 > 16
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Nuwolf)
+Information: BOARD turn 29 (Nuwolf) | Eiridan | life 38 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Island(land); Oreskos Explorer(2); Sun Titan(6)
+Information: BOARD turn 29 (Nuwolf) | Captain | life 30 | hand 4 | lands 5 (4 untapped) | open mana 8 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3); Curiosity(1)
+Information: BOARD turn 29 (Nuwolf) | Nuwolf | life 18 | hand 3 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 2 (0 untapped): Doctor Doom, King of Latveria 6/6*; The Frightful Four 4/4* | hand cards: Ultimate Green Goblin(3); Kang Prime(5); Endless Ranks of HYDRA(4)
+Information: BOARD turn 29 (Nuwolf) | Atgur | life 16 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 29 | Doctor Doom, King of Latveria (Nuwolf) 115; Weftstalker Ardent (Atgur) 81; The Frightful Four (Nuwolf) 45
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Madame Hydra (265).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Phase: Nuwolf's Declare Attackers Step
+Mana: Island (224) - {T}: Add {U}.
+Mana: Swamp (258) - {T}: Add {B}.
+Combat: Nuwolf assigned Doctor Doom, King of Latveria (302) to attack Atgur.
+Information: BOARD attack | Nuwolf -> Atgur | attackers 1 (power 7) | defender life 16 | untapped creatures 4 (power 7): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | open mana 0
+Phase: Nuwolf's Declare Blockers Step
+Combat: Atgur assigned Wyll, Blade of Frontiers (377) to block Doctor Doom, King of Latveria (302).
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (302) deals 7 damage to Wyll, Blade of Frontiers (377).
+Damage: Wyll, Blade of Frontiers (377) deals 2 damage to Doctor Doom, King of Latveria (302).
+Zone Change: Wyll, Blade of Frontiers (377) was put into Exile from Battlefield.
+Replacement Effect: If a creature an opponent controls would die, exile it instead.
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Mana: Talisman of Indulgence (209) - {T}: Add {C}.
+Add To Stack: Nuwolf cast Kang Prime
+Information: BOARD cast | Kang Prime (mv 5) by Nuwolf | open mana: Eiridan 1, Captain 8, Atgur 0
+Resolve Stack: Kang Prime - Creature 3 / 5
+Add To Stack: Nuwolf triggered Kang Prime
+Resolve Stack: Whenever Kang Prime enters or attacks, exile cards from the top of your library until you exile a nonland card. Put two time counters on that card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.) [Zone Changer: Kang Prime (248)]
+Phase: Nuwolf's End step
+Phase: Nuwolf's Cleanup step
+Turn: Turn 30 (Atgur)
+Information: BOARD turn 30 (Atgur) | Eiridan | life 38 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Island(land); Oreskos Explorer(2); Sun Titan(6)
+Information: BOARD turn 30 (Atgur) | Captain | life 30 | hand 4 | lands 5 (4 untapped) | open mana 8 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3); Curiosity(1)
+Information: BOARD turn 30 (Atgur) | Nuwolf | life 18 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 7/7*; The Frightful Four 4/4; Kang Prime 3/5 | hand cards: Ultimate Green Goblin(3); Endless Ranks of HYDRA(4); Klaw, Master of Sound(3)
+Information: BOARD turn 30 (Atgur) | Atgur | life 16 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 30 | Doctor Doom, King of Latveria (Nuwolf) 125; Weftstalker Ardent (Atgur) 78; The Frightful Four (Nuwolf) 43
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Mana: Mountain (385) - {T}: Add {R}.
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Add To Stack: Atgur cast Professional Face-Breaker
+Information: BOARD cast | Professional Face-Breaker (mv 3) by Atgur | open mana: Eiridan 1, Captain 8, Nuwolf 0
+Resolve Stack: Professional Face-Breaker - Creature 2 / 3
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 38 > 37
+Life: Life: Captain 30 > 29
+Life: Life: Nuwolf 18 > 17
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Professional Face-Breaker (319)]
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 31 (Eiridan)
+Information: BOARD turn 31 (Eiridan) | Eiridan | life 37 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Human Token 1/1; Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Island(land); Oreskos Explorer(2); Sun Titan(6)
+Information: BOARD turn 31 (Eiridan) | Captain | life 29 | hand 4 | lands 5 (4 untapped) | open mana 8 | commander Command | creatures 1 (0 untapped): Hero Token 2/1*[Monk's Fist,Brotherhood Regalia] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3); Curiosity(1)
+Information: BOARD turn 31 (Eiridan) | Nuwolf | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 7/7*; The Frightful Four 4/4; Kang Prime 3/5 | hand cards: Ultimate Green Goblin(3); Endless Ranks of HYDRA(4); Klaw, Master of Sound(3)
+Information: BOARD turn 31 (Eiridan) | Atgur | life 16 | hand 1 | lands 5 (2 untapped) | open mana 11 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Robot Token 3/3; Professional Face-Breaker 2/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 31 | Doctor Doom, King of Latveria (Nuwolf) 120; Weftstalker Ardent (Atgur) 106; The Frightful Four (Nuwolf) 41
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Combat: Eiridan assigned Seluma, Light of Aysen (100), Bruna, the Fading Light (55) and Liesa, Forgotten Archangel (46) to attack Captain.
+Information: BOARD attack | Eiridan -> Captain | attackers 3 (power 13) | defender life 29 | untapped creatures 0 (power 0):  | open mana 8
+Phase: Eiridan's Declare Blockers Step
+Combat: Captain didn't block Seluma, Light of Aysen (100).
+Captain didn't block Bruna, the Fading Light (55).
+Captain didn't block Liesa, Forgotten Archangel (46).
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to Captain.
+Damage: Bruna, the Fading Light (55) deals 5 combat damage to Captain.
+Damage: Liesa, Forgotten Archangel (46) deals 4 combat damage to Captain.
+Life: Life: Eiridan 37 > 41
+Life: Life: Captain 29 > 16
+Add To Stack: Eiridan triggered Seluma, Light of Aysen targeting [Restoration Angel (95)]
+Zone Change: Robot Token (431) was put into Exile from Battlefield.
+Replacement Effect: If a creature an opponent controls would die, exile it instead.
+Add To Stack: Atgur activated Goblin Bombardment targeting [Hero Token (420)]
+Add To Stack: Captain triggered Hero Token
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: The Soul Stone (363) - {T}: Add {B}.
+Resolve Stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Goblin Bombardment (332), Target: Hero Token (420)]
+Damage: Goblin Bombardment (332) deals 1 damage to Hero Token (420).
+Resolve Stack: Goblin Bombardment (332) - Goblin Bombardment (332) deals 1 damage to Hero Token (420).
+Zone Change: Hero Token (420) was put into Exile from Battlefield.
+Replacement Effect: If a creature an opponent controls would die, exile it instead.
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Restoration Angel (95)]]) [Damage Source: Seluma, Light of Aysen (100), Damaged: Captain, Amount: 4]
+Add To Stack: Eiridan triggered Restoration Angel targeting [Human Token (422)]
+Zone Change: Human Token (422) was put into Exile from Battlefield.
+Resolve Stack: When Restoration Angel enters, you may exile target non-Angel creature you control, then return that creature to the battlefield under your control. (Targeting: [[Human Token (422)]]) [Zone Changer: Restoration Angel (95)]
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (88)
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Eiridan cast Oreskos Explorer
+Information: BOARD cast | Oreskos Explorer (mv 2) by Eiridan | open mana: Captain 8, Nuwolf 0, Atgur 7
+Resolve Stack: Oreskos Explorer - Creature 2 / 2
+Add To Stack: Eiridan triggered Oreskos Explorer
+Resolve Stack: When Oreskos Explorer enters, search your library for up to X Plains cards, where X is the number of players who control more lands than you. Reveal those cards, put them into your hand, then shuffle. [Zone Changer: Oreskos Explorer (53)]
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 32 (Captain)
+Information: BOARD turn 32 (Captain) | Eiridan | life 41 | hand 3 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (3 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Oreskos Explorer 2/2 | hand cards: Island(land); Sun Titan(6); Plains(land)
+Information: BOARD turn 32 (Captain) | Captain | life 16 | hand 4 | lands 5 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3); Curiosity(1)
+Information: BOARD turn 32 (Captain) | Nuwolf | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 7/7*; The Frightful Four 4/4; Kang Prime 3/5 | hand cards: Ultimate Green Goblin(3); Endless Ranks of HYDRA(4); Klaw, Master of Sound(3)
+Information: BOARD turn 32 (Captain) | Atgur | life 16 | hand 1 | lands 5 (1 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 32 | Doctor Doom, King of Latveria (Nuwolf) 115; Weftstalker Ardent (Atgur) 102; Bruna, the Fading Light (Eiridan) 53; Liesa, Forgotten Archangel (Eiridan) 43; The Frightful Four (Nuwolf) 40
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (126)
+Land: Captain picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Captain picked {U}
+Mana: Command Tower (126) - {T}: Add one mana of any color in your commander's color identity.
+Land: Captain picked {R}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Eiridan 6, Nuwolf 0, Atgur 7
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Mana: Thought Vessel (133) - {T}: Add {C}.
+Add To Stack: Captain activated Brotherhood Regalia targeting [Captain America, First Avenger (201)]
+Resolve Stack: Brotherhood Regalia (192) -  Attach to Captain America, First Avenger (201)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Monk's Fist (169)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Monk's Fist (169)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 33 (Nuwolf)
+Information: BOARD turn 33 (Nuwolf) | Eiridan | life 41 | hand 3 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (3 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Oreskos Explorer 2/2 | hand cards: Island(land); Sun Titan(6); Plains(land)
+Information: BOARD turn 33 (Nuwolf) | Captain | life 16 | hand 4 | lands 6 (3 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/4[Brotherhood Regalia,Monk's Fist] | hand cards: Spectacular Spider-Man(2); Force of Negation(3); Propaganda(3); Curiosity(1)
+Information: BOARD turn 33 (Nuwolf) | Nuwolf | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Doctor Doom, King of Latveria 7/7*; The Frightful Four 4/4; Kang Prime 3/5 | hand cards: Ultimate Green Goblin(3); Endless Ranks of HYDRA(4); Klaw, Master of Sound(3)
+Information: BOARD turn 33 (Nuwolf) | Atgur | life 16 | hand 1 | lands 5 (1 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 33 | Doctor Doom, King of Latveria (Nuwolf) 111; Weftstalker Ardent (Atgur) 98; Bruna, the Fading Light (Eiridan) 51; Liesa, Forgotten Archangel (Eiridan) 41; The Frightful Four (Nuwolf) 38
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Add To Stack: Nuwolf triggered Magmakin Artillerist
+Resolve Stack: At the beginning of your upkeep, if this card is suspended, remove a time counter from it [Phase: Nuwolf]
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Containment Construct (283).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Mana: Swamp (258) - {T}: Add {B}.
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Mana: Island (224) - {T}: Add {U}.
+Add To Stack: Nuwolf cast Ultimate Green Goblin
+Information: BOARD cast | Ultimate Green Goblin (mv 3) by Nuwolf | open mana: Eiridan 6, Captain 5, Atgur 7
+Resolve Stack: Ultimate Green Goblin - Creature 5 / 4
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Mana: Talisman of Indulgence (209) - {T}: Add {C}.
+Add To Stack: Nuwolf cast Endless Ranks of HYDRA
+Information: BOARD cast | Endless Ranks of HYDRA (mv 4) by Nuwolf | open mana: Eiridan 6, Captain 5, Atgur 7
+Mana: Island (128) - {T}: Add {U}.
+Land: Captain picked {U}
+Mana: Sulfur Falls (153) - {T}: Add {U} or {R}.
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Add To Stack: Captain cast Force of Negation targeting [For each opponent, you create a 2/1 black Villain creature token with menace.]
+Information: BOARD cast | Force of Negation (mv 3) by Captain | open mana: Eiridan 6, Nuwolf 0, Atgur 7
+Add To Stack: Nuwolf triggered The Frightful Four
+Life: Life: Captain 16 > 13
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Force of Negation (116), Activator: Captain, SpellAbility: Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.]
+Zone Change: Send countered spell to Exile
+Resolve Stack: Force of Negation (116) - Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. (Targeting: For each opponent, you create a 2/1 black Villain creature token with menace.)
+Phase: Nuwolf's End step
+Add To Stack: Atgur activated Component Pouch
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (348) - Roll a d20.
+Add To Stack: Atgur triggered Mr. House, President and CEO
+Add To Stack: Atgur triggered Barbarian Class targeting [Weftstalker Ardent (353)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Weftstalker Ardent (353)]]) [Player: Atgur, Result: [19]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Atgur, Result: 19]
+Add To Stack: Atgur triggered Weftstalker Ardent
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 41 > 40
+Life: Life: Captain 13 > 12
+Life: Life: Nuwolf 17 > 16
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (442)]
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 40 > 39
+Life: Life: Captain 12 > 11
+Life: Life: Nuwolf 16 > 15
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (441)]
+Mana: Sulfurous Springs (367) - {T}: Add {C}.
+Zone Change: Treasure Token (442) was put into Graveyard from Battlefield.
+Land: Treasure Token (442) picked {W}
+Mana: Treasure Token (442) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Atgur activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (402) - Roll a d20.
+Add To Stack: Atgur triggered Mr. House, President and CEO
+Add To Stack: Atgur triggered Barbarian Class targeting [Weftstalker Ardent (353)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Weftstalker Ardent (353)]]) [Player: Atgur, Result: [18]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Atgur, Result: 18]
+Add To Stack: Atgur triggered Weftstalker Ardent
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 39 > 38
+Life: Life: Captain 11 > 10
+Life: Life: Nuwolf 15 > 14
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (446)]
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 38 > 37
+Life: Life: Captain 10 > 9
+Life: Life: Nuwolf 14 > 13
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (445)]
+Phase: Nuwolf's Cleanup step
+Turn: Turn 34 (Atgur)
+Information: BOARD turn 34 (Atgur) | Eiridan | life 37 | hand 3 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (3 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Oreskos Explorer 2/2 | hand cards: Island(land); Sun Titan(6); Plains(land)
+Information: BOARD turn 34 (Atgur) | Captain | life 9 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/4[Brotherhood Regalia,Monk's Fist] | hand cards: Spectacular Spider-Man(2); Propaganda(3); Curiosity(1)
+Information: BOARD turn 34 (Atgur) | Nuwolf | life 13 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4 | hand cards: Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 34 (Atgur) | Atgur | life 16 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x2 | hand cards: Cathartic Reunion(2); Treasure Chest(3); Fountainport(land)
+Information: BOARD threat | turn 34 | Weftstalker Ardent (Atgur) 221; Doctor Doom, King of Latveria (Nuwolf) 121; The Frightful Four (Nuwolf) 51; Barbarian Class (Atgur) 50; Bruna, the Fading Light (Eiridan) 49
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Fountainport (313)
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Mana: Mountain (385) - {T}: Add {R}.
+Add To Stack: Atgur cast Treasure Chest
+Information: BOARD cast | Treasure Chest (mv 3) by Atgur | open mana: Eiridan 6, Captain 0, Nuwolf 0
+Add To Stack: Nuwolf triggered The Frightful Four
+Life: Life: Atgur 16 > 13
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Treasure Chest (360), Activator: Atgur, SpellAbility: Treasure Chest]
+Resolve Stack: Treasure Chest
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 37 > 36
+Life: Life: Captain 9 > 8
+Life: Life: Nuwolf 13 > 12
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Chest (360)]
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 35 (Eiridan)
+Information: BOARD turn 35 (Eiridan) | Eiridan | life 36 | hand 3 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (3 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Oreskos Explorer 2/2 | hand cards: Island(land); Sun Titan(6); Plains(land)
+Information: BOARD turn 35 (Eiridan) | Captain | life 8 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/4[Brotherhood Regalia,Monk's Fist] | hand cards: Spectacular Spider-Man(2); Propaganda(3); Curiosity(1)
+Information: BOARD turn 35 (Eiridan) | Nuwolf | life 12 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4 | hand cards: Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 35 (Eiridan) | Atgur | life 13 | hand 2 | lands 6 (3 untapped) | open mana 13 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x2 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD threat | turn 35 | Weftstalker Ardent (Atgur) 244; Doctor Doom, King of Latveria (Nuwolf) 116; The Frightful Four (Nuwolf) 63; Barbarian Class (Atgur) 48; Bruna, the Fading Light (Eiridan) 47
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Combat: Eiridan assigned Liesa, Forgotten Archangel (46) and Bruna, the Fading Light (55) to attack Captain.
+Information: BOARD attack | Eiridan -> Captain | attackers 2 (power 9) | defender life 8 | untapped creatures 1 (power 5): Captain America, First Avenger 5/4[Brotherhood Regalia,Monk's Fist] | open mana 0
+Land: Atgur picked {R}
+Mana: Luxury Suite (336) - {T}: Add {B} or {R}.
+Mana: The Soul Stone (363) - {T}: Add {B}.
+Mana: Sulfurous Springs (367) - {T}: Add {C}.
+Zone Change: Treasure Token (446) was put into Graveyard from Battlefield.
+Land: Treasure Token (446) picked {W}
+Mana: Treasure Token (446) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Atgur activated Fountainport
+Resolve Stack: Fountainport (313) - Atgur creates a Treasure token.
+Add To Stack: Atgur triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Eiridan.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Eiridan 36 > 35
+Life: Life: Captain 8 > 7
+Life: Life: Nuwolf 12 > 11
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (473)]
+Phase: Eiridan's Declare Blockers Step
+Combat: Captain didn't block Liesa, Forgotten Archangel (46).
+Captain didn't block Bruna, the Fading Light (55).
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Damage: Liesa, Forgotten Archangel (46) deals 4 combat damage to Captain.
+Life: Life: Eiridan 35 > 39
+Damage: Bruna, the Fading Light (55) deals 5 combat damage to Captain.
+Life: Life: Captain 7 > -2
+Phase: Eiridan's End of Combat Step
+Phase: Eiridan's Main phase, postcombat
+Land: Eiridan played Plains (91)
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add To Stack: Eiridan cast Serra's Emissary
+Information: BOARD cast | Serra's Emissary (mv 7) by Eiridan | open mana: Nuwolf 0, Atgur 5
+Replacement Effect: As Serra's Emissary enters, choose a card type.
+Resolve Stack: Serra's Emissary - Creature 7 / 7
+Phase: Eiridan's End step
+Phase: Eiridan's Cleanup step
+Turn: Turn 36 (Nuwolf)
+Information: BOARD turn 36 (Nuwolf) | Eiridan | life 39 | hand 2 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 6 (5 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4; Restoration Angel 3/4; Oreskos Explorer 2/2; Serra's Emissary 7/7 | hand cards: Island(land); Sun Titan(6)
+Information: BOARD turn 36 (Nuwolf) | Nuwolf | life 11 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4 | hand cards: Klaw, Master of Sound(3); Batroc the Leaper(2)
+Information: BOARD turn 36 (Nuwolf) | Atgur | life 13 | hand 2 | lands 6 (0 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x2 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD threat | turn 36 | Weftstalker Ardent (Atgur) 265; Doctor Doom, King of Latveria (Nuwolf) 111; Bruna, the Fading Light (Eiridan) 74; The Frightful Four (Nuwolf) 61; Liesa, Forgotten Archangel (Eiridan) 59
+Phase: Nuwolf's Untap step
+Phase: Nuwolf's Upkeep step
+Add To Stack: Nuwolf triggered Magmakin Artillerist
+Add To Stack: Nuwolf triggered Ultimate Green Goblin
+Discard: Nuwolf discards Batroc the Leaper (231).
+Resolve Stack: At the beginning of your upkeep, discard a card, then create a Treasure token. [Phase: Nuwolf]
+Resolve Stack: At the beginning of your upkeep, if this card is suspended, remove a time counter from it [Phase: Nuwolf]
+Add To Stack: Nuwolf triggered Magmakin Artillerist
+Add To Stack: Nuwolf cast Magmakin Artillerist
+Information: BOARD cast | Magmakin Artillerist (mv 3) by Nuwolf | open mana: Eiridan 3, Atgur 5
+Resolve Stack: When the last time counter is removed from this card, if it's exiled, you may play it without paying its mana cost if able.  If you can't, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes. [Removed from: Magmakin Artillerist (275)]
+Resolve Stack: Magmakin Artillerist - Creature 1 / 4
+Phase: Nuwolf's Draw step
+Phase: Nuwolf's Main phase, precombat
+Phase: Nuwolf's Beginning of Combat Step
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (302)]
+Discard: Nuwolf discards Mountain (287).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (302)]]) [Phase: Nuwolf]
+Add To Stack: Nuwolf triggered Doctor Doom, King of Latveria
+Add To Stack: Nuwolf triggered Magmakin Artillerist
+Replacement Effect: Protection:Creature
+Damage: Magmakin Artillerist (275) deals 1 non-combat damage to Atgur.
+Life: Life: Atgur 13 > 12
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Nuwolf, Amount: 1]
+Life: Life: Atgur 12 > 10
+Life: Life: Eiridan 39 > 37
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Nuwolf, Amount: 1]
+Phase: Nuwolf's Declare Attackers Step
+Phase: Nuwolf's Declare Blockers Step
+Phase: Nuwolf's First Strike Damage Step
+Phase: Nuwolf's Combat Damage Step
+Phase: Nuwolf's End of Combat Step
+Phase: Nuwolf's Main phase, postcombat
+Mana: Swamp (258) - {T}: Add {B}.
+Mana: Island (224) - {T}: Add {U}.
+Land: Nuwolf picked {B}
+Mana: Foreboding Ruins (263) - {T}: Add {B} or {R}.
+Add To Stack: Nuwolf cast Klaw, Master of Sound
+Information: BOARD cast | Klaw, Master of Sound (mv 3) by Nuwolf | open mana: Eiridan 3, Atgur 5
+Resolve Stack: Klaw, Master of Sound - Creature 3 / 3
+Land: Nuwolf picked {U}
+Mana: Sulfur Falls (252) - {T}: Add {U} or {R}.
+Mana: Fetid Pools (273) - {T}: Add {B}.
+Mana: Smoldering Marsh (266) - {T}: Add {R}.
+Mana: Talisman of Indulgence (209) - {T}: Add {C}.
+Add To Stack: Nuwolf cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Nuwolf | open mana: Eiridan 3, Atgur 5
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Phase: Nuwolf's End step
+Add To Stack: Atgur activated Component Pouch
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (348) - Roll a d20.
+Add To Stack: Atgur triggered Mr. House, President and CEO
+Add To Stack: Atgur triggered Barbarian Class targeting [Weftstalker Ardent (353)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Weftstalker Ardent (353)]]) [Player: Atgur, Result: [14]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Atgur, Result: 14]
+Add To Stack: Atgur triggered Weftstalker Ardent
+Add To Stack: Atgur triggered Weftstalker Ardent
+Replacement Effect: Protection:Creature
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Nuwolf 11 > 10
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (480)]
+Replacement Effect: Protection:Creature
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Nuwolf 10 > 9
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (479)]
+Zone Change: Treasure Token (480) was put into Graveyard from Battlefield.
+Land: Treasure Token (480) picked {W}
+Mana: Treasure Token (480) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (473) was put into Graveyard from Battlefield.
+Land: Treasure Token (473) picked {W}
+Mana: Treasure Token (473) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Atgur activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (402) - Roll a d20.
+Add To Stack: Atgur triggered Mr. House, President and CEO
+Add To Stack: Atgur triggered Barbarian Class targeting [Weftstalker Ardent (353)]
+Resolve Stack: Whenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn. (Targeting: [[Weftstalker Ardent (353)]]) [Player: Atgur, Result: [4]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Atgur, Result: 4]
+Add To Stack: Atgur triggered Weftstalker Ardent
+Replacement Effect: Protection:Creature
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Nuwolf 9 > 8
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (482)]
+Phase: Nuwolf's Cleanup step
+Turn: Turn 37 (Atgur)
+Information: BOARD turn 37 (Atgur) | Eiridan | life 37 | hand 2 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 6 (5 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4; Restoration Angel 3/4; Oreskos Explorer 2/2; Serra's Emissary 7/7 | hand cards: Island(land); Sun Titan(6)
+Information: BOARD turn 37 (Atgur) | Nuwolf | life 8 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4; Magmakin Artillerist 1/4; Klaw, Master of Sound 3/3; Kang, Temporal Tyrant 3/4 | hand cards: 
+Information: BOARD turn 37 (Atgur) | Atgur | life 10 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD threat | turn 37 | Weftstalker Ardent (Atgur) 288; Doctor Doom, King of Latveria (Nuwolf) 136; Barbarian Class (Atgur) 73; Bruna, the Fading Light (Eiridan) 71; Mr. House, President and CEO (Atgur) 63
+Phase: Atgur's Untap step
+Phase: Atgur's Upkeep step
+Phase: Atgur's Draw step
+Phase: Atgur's Main phase, precombat
+Land: Atgur played Swamp (356)
+Phase: Atgur's Beginning of Combat Step
+Phase: Atgur's Declare Attackers Step
+Phase: Atgur's Declare Blockers Step
+Phase: Atgur's First Strike Damage Step
+Phase: Atgur's Combat Damage Step
+Phase: Atgur's End of Combat Step
+Phase: Atgur's Main phase, postcombat
+Phase: Atgur's End step
+Phase: Atgur's Cleanup step
+Turn: Turn 38 (Eiridan)
+Information: BOARD turn 38 (Eiridan) | Eiridan | life 37 | hand 2 | lands 7 (2 untapped) | open mana 3 | commander Battlefield | creatures 6 (5 untapped): Liesa, Forgotten Archangel 4/5*; Bruna, the Fading Light 5/7; Seluma, Light of Aysen 4/4; Restoration Angel 3/4; Oreskos Explorer 2/2; Serra's Emissary 7/7 | hand cards: Island(land); Sun Titan(6)
+Information: BOARD turn 38 (Eiridan) | Nuwolf | life 8 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4; Magmakin Artillerist 1/4; Klaw, Master of Sound 3/3; Kang, Temporal Tyrant 3/4 | hand cards: 
+Information: BOARD turn 38 (Eiridan) | Atgur | life 10 | hand 2 | lands 7 (7 untapped) | open mana 16 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x4 | hand cards: Cathartic Reunion(2); Sundown Pass(land)
+Information: BOARD threat | turn 38 | Weftstalker Ardent (Atgur) 276; Doctor Doom, King of Latveria (Nuwolf) 130; Barbarian Class (Atgur) 70; Bruna, the Fading Light (Eiridan) 68; Mr. House, President and CEO (Atgur) 61
+Phase: Eiridan's Untap step
+Phase: Eiridan's Upkeep step
+Phase: Eiridan's Draw step
+Phase: Eiridan's Main phase, precombat
+Phase: Eiridan's Beginning of Combat Step
+Phase: Eiridan's Declare Attackers Step
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Combat: Eiridan assigned Bruna, the Fading Light (55), Liesa, Forgotten Archangel (46) and Restoration Angel (95) to attack Nuwolf.
+Eiridan assigned Seluma, Light of Aysen (100) and Serra's Emissary (40) to attack Atgur.
+Information: BOARD attack | Eiridan -> Nuwolf | attackers 3 (power 12) | defender life 8 | untapped creatures 7 (power 27): Doctor Doom, King of Latveria 8/8; The Frightful Four 4/4; Kang Prime 3/5; Ultimate Green Goblin 5/4; Magmakin Artillerist 1/4; Klaw, Master of Sound 3/3; Kang, Temporal Tyrant 3/4 | open mana 1
+Information: BOARD attack | Eiridan -> Atgur | attackers 2 (power 11) | defender life 10 | untapped creatures 7 (power 16): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Professional Face-Breaker 2/3; Robot Token 3/3 x4 | open mana 16
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (389) - {T}: Add {W}.
+Mana: Swamp (356) - {T}: Add {B}.
+Mana: Mountain (385) - {T}: Add {R}.
+Add To Stack: Atgur activated Fountainport
+Resolve Stack: Fountainport (313) - Atgur creates a Treasure token.
+Add To Stack: Atgur triggered Weftstalker Ardent
+Replacement Effect: Protection:Creature
+Damage: Weftstalker Ardent (353) deals 1 non-combat damage to Nuwolf.
+Life: Life: Nuwolf 8 > 7
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (510)]
+Phase: Eiridan's Declare Blockers Step
+Combat: Nuwolf didn't block Bruna, the Fading Light (55).
+Nuwolf didn't block Liesa, Forgotten Archangel (46).
+Nuwolf didn't block Restoration Angel (95).
+Combat: Atgur didn't block Seluma, Light of Aysen (100).
+Atgur didn't block Serra's Emissary (40).
+Phase: Eiridan's First Strike Damage Step
+Phase: Eiridan's Combat Damage Step
+Damage: Bruna, the Fading Light (55) deals 5 combat damage to Nuwolf.
+Damage: Liesa, Forgotten Archangel (46) deals 4 combat damage to Nuwolf.
+Life: Life: Eiridan 37 > 41
+Damage: Restoration Angel (95) deals 3 combat damage to Nuwolf.
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to Atgur.
+Damage: Serra's Emissary (40) deals 7 combat damage to Atgur.
+Life: Life: Nuwolf 7 > -5
+Life: Life: Atgur 10 > -1
+Player Control: Eiridan has restored control over themself
+Player Control: Captain has restored control over themself
+Player Control: Nuwolf has restored control over themself
+Player Control: Atgur has restored control over themself
+Game Outcome: Match Duration 15m : 51s
+Game Outcome: Turn 19
+Game Outcome: Eiridan has won because all opponents have lost
+Game Outcome: Captain has lost because life total reached 0
+Game Outcome: Nuwolf has lost because life total reached 0
+Game Outcome: Atgur has lost because life total reached 0
+Match Result: Eiridan: 1 Captain: 0 Nuwolf: 0 Atgur: 0 
+
+Game Result: Eiridan has won

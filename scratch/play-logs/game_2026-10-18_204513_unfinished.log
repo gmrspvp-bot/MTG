@@ -1,0 +1,1305 @@
+Player: Xenil (HUMAN) deck=Tinybones
+Player: Captain (AI) deck=Olivia
+Player: Airen (AI) deck=Angels
+Player: Calden (AI) deck=Scion
+Mulligan: Airen has mulliganed down to 7 cards.
+Mulligan: Calden has mulliganed down to 7 cards.
+Mulligan: Calden has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Airen has kept a hand of 7 cards
+Mulligan: Calden has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Leechridden Swamp(land); Necrogoyf(5)
+Information: BOARD turn 1 (Xenil) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Sulfurous Springs(land); Trailblazer's Boots(2)
+Information: BOARD turn 1 (Xenil) | Airen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2)
+Information: BOARD turn 1 (Xenil) | Calden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Turbulent Wetlands(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: devXenil's Main phase, precombat
+Replacement Effect: Leechridden Swamp enters tapped.
+Land: Xenil played Leechridden Swamp (83)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Captain)
+Information: BOARD turn 2 (Captain) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Swamp(land); Necrogoyf(5)
+Information: BOARD turn 2 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Sulfurous Springs(land); Trailblazer's Boots(2)
+Information: BOARD turn 2 (Captain) | Airen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2)
+Information: BOARD turn 2 (Captain) | Calden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Turbulent Wetlands(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Sulfurous Springs (171)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 3 (Airen)
+Information: BOARD turn 3 (Airen) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Swamp(land); Necrogoyf(5)
+Information: BOARD turn 3 (Airen) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Canyon Slough(land)
+Information: BOARD turn 3 (Airen) | Airen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2)
+Information: BOARD turn 3 (Airen) | Calden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Turbulent Wetlands(land)
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Land: Airen played Plains (281)
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Phase: Airen's Declare Blockers Step
+Phase: Airen's First Strike Damage Step
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 4 (Calden)
+Information: BOARD turn 4 (Calden) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Swamp(land); Necrogoyf(5)
+Information: BOARD turn 4 (Calden) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Canyon Slough(land)
+Information: BOARD turn 4 (Calden) | Airen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7)
+Information: BOARD turn 4 (Calden) | Calden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Turbulent Wetlands(land)
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Calden played Turbulent Wetlands (356)
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Phase: Calden's End step
+Phase: Calden's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Swamp(land); Necrogoyf(5)
+Information: BOARD turn 5 (Xenil) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Canyon Slough(land)
+Information: BOARD turn 5 (Xenil) | Airen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7)
+Information: BOARD turn 5 (Xenil) | Calden | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Abrade(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (38)
+Mana: Swamp (38) - {T}: Add {B}.
+Add To Stack: Xenil cast Tinybones, the Pickpocket
+Information: BOARD cast | Tinybones, the Pickpocket (mv 1) by Xenil | open mana: Captain 3, Airen 1, Calden 0
+Resolve Stack: Tinybones, the Pickpocket - Creature 1 / 1
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 6 (Captain)
+Information: BOARD turn 6 (Captain) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Necrogoyf(5)
+Information: BOARD turn 6 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Canyon Slough(land)
+Information: BOARD turn 6 (Captain) | Airen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7)
+Information: BOARD turn 6 (Captain) | Calden | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Abrade(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Captain played Canyon Slough (145)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 7 (Airen)
+Information: BOARD turn 7 (Airen) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Necrogoyf(5)
+Information: BOARD turn 7 (Airen) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Aurelia, the Warleader(6)
+Information: BOARD turn 7 (Airen) | Airen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Plains(land); Mind Stone(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7)
+Information: BOARD turn 7 (Airen) | Calden | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Abrade(2)
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Land: Airen played Plains (288)
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Airen cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Airen | open mana: Xenil 1, Captain 3, Calden 0
+Resolve Stack: Mind Stone
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Phase: Airen's Declare Blockers Step
+Phase: Airen's First Strike Damage Step
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 8 (Calden)
+Information: BOARD turn 8 (Calden) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Necrogoyf(5)
+Information: BOARD turn 8 (Calden) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Aurelia, the Warleader(6)
+Information: BOARD turn 8 (Calden) | Airen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7); Thought Vessel(2)
+Information: BOARD turn 8 (Calden) | Calden | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Ancient Copper Dragon(6); Mountain(land); Scorned Villager(2); Gruul Guildgate(land); Abrade(2)
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Land: Calden played Mountain (396)
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Add To Stack: Calden cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Calden | open mana: Xenil 1, Captain 3, Airen 1
+Resolve Stack: Arcane Signet
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Phase: Calden's End step
+Phase: Calden's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Swamp(land); Everflowing Chalice(0); Necrogoyf(5)
+Information: BOARD turn 9 (Xenil) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Aurelia, the Warleader(6)
+Information: BOARD turn 9 (Xenil) | Airen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7); Thought Vessel(2)
+Information: BOARD turn 9 (Xenil) | Calden | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Gruul Guildgate(land); Abrade(2); The Ur-Dragon(9)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (64)
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Leechridden Swamp (83) - {T}: Add {B}.
+Phase: devXenil's Main phase, precombat
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Leechridden Swamp (83) - {T}: Add {B}.
+Add To Stack: Xenil cast Necrogen Mists
+Information: BOARD cast | Necrogen Mists (mv 3) by Xenil | open mana: Captain 3, Airen 1, Calden 2
+Resolve Stack: Necrogen Mists
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Tinybones, the Pickpocket (6) to attack Captain.
+Information: BOARD attack | Xenil -> Captain | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Xenil's Declare Blockers Step
+Combat: Captain didn't block Tinybones, the Pickpocket (6).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Tinybones, the Pickpocket (6) deals 1 combat damage to Captain.
+Life: Life: Captain 40 > 39
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 10 (Captain)
+Information: BOARD turn 10 (Captain) | Xenil | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Necrogoyf(5); Everflowing Chalice(0)
+Information: BOARD turn 10 (Captain) | Captain | life 39 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Exsanguinate(2); Shoot the Sheriff(2); Trailblazer's Boots(2); Aurelia, the Warleader(6)
+Information: BOARD turn 10 (Captain) | Airen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7); Thought Vessel(2)
+Information: BOARD turn 10 (Captain) | Calden | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Gruul Guildgate(land); Abrade(2); The Ur-Dragon(9)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Captain discards Aurelia, the Warleader (135).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Tainted Peak (189)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Canyon Slough (145) - {T}: Add {B}.
+Land: Captain picked {B}
+Mana: Tainted Peak (189) - {T}: Add {B} or {R}. Activate only if you control a Swamp.
+Mana: Sulfurous Springs (171) - {T}: Add {C}.
+Add To Stack: Captain cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Captain | open mana: Xenil 0, Airen 1, Calden 2
+Life: Life: Airen 40 > 39
+Life: Life: Calden 40 > 39
+Life: Life: Xenil 40 > 39
+Life: Life: Captain 39 > 42
+Resolve Stack: Exsanguinate (126) - Airen, Calden and Xenil each lose 1 life. You gain life equal to the life lost this way.
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 11 (Airen)
+Information: BOARD turn 11 (Airen) | Xenil | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Necrogoyf(5); Everflowing Chalice(0)
+Information: BOARD turn 11 (Airen) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Shoot the Sheriff(2); Trailblazer's Boots(2)
+Information: BOARD turn 11 (Airen) | Airen | life 39 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Knight of the White Orchid(2); Plains(land); Gleaming Splendor(2); Angel of Serenity(7); Thought Vessel(2)
+Information: BOARD turn 11 (Airen) | Calden | life 39 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Gruul Guildgate(land); Abrade(2); The Ur-Dragon(9)
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Airen discards Angel of Serenity (266).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Land: Airen played Plains (290)
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Phase: Airen's Declare Blockers Step
+Phase: Airen's First Strike Damage Step
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Airen cast Knight of the White Orchid
+Information: BOARD cast | Knight of the White Orchid (mv 2) by Airen | open mana: Xenil 0, Captain 0, Calden 2
+Resolve Stack: Knight of the White Orchid - Creature 2 / 2
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mind Stone (232) - {T}: Add {C}.
+Add To Stack: Airen cast Nim Deathmantle
+Information: BOARD cast | Nim Deathmantle (mv 2) by Airen | open mana: Xenil 0, Captain 0, Calden 2
+Resolve Stack: Nim Deathmantle
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 12 (Calden)
+Information: BOARD turn 12 (Calden) | Xenil | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Necrogoyf(5); Everflowing Chalice(0)
+Information: BOARD turn 12 (Calden) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Shoot the Sheriff(2); Trailblazer's Boots(2)
+Information: BOARD turn 12 (Calden) | Airen | life 39 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Gleaming Splendor(2); Thought Vessel(2); Sevinne's Reclamation(3)
+Information: BOARD turn 12 (Calden) | Calden | life 39 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Gruul Guildgate(land); Abrade(2); The Ur-Dragon(9)
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Add To Stack: Calden cast Abrade
+Information: BOARD cast | Abrade (mv 2) by Calden | open mana: Xenil 0, Captain 0, Airen 0
+Damage: Abrade (360) deals 3 damage to Tinybones, the Pickpocket (6).
+Resolve Stack: Abrade (360) -  Abrade deals 3 damage to target creature. (Targeting: Tinybones, the Pickpocket (6))
+Zone Change: Tinybones, the Pickpocket (6) was put into Graveyard from Battlefield.
+Discard: Calden discards The Ur-Dragon (315).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Calden played Gruul Guildgate (305)
+Phase: Calden's End step
+Phase: Calden's Cleanup step
+Turn: Turn 13 (Xenil)
+Information: BOARD turn 13 (Xenil) | Xenil | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Asylum Visitor(2); Necrogoyf(5); Everflowing Chalice(0)
+Information: BOARD turn 13 (Xenil) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Shoot the Sheriff(2); Trailblazer's Boots(2)
+Information: BOARD turn 13 (Xenil) | Airen | life 39 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Gleaming Splendor(2); Thought Vessel(2); Sevinne's Reclamation(3)
+Information: BOARD turn 13 (Xenil) | Calden | life 39 | hand 3 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Mountain(land)
+Information: BOARD threat | turn 13 | Necrogen Mists (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Replacement Effect: Madness {1}{B}: If you discard this card, discard it into exile.
+Discard: Xenil discards Asylum Visitor (82).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Add To Stack: Xenil triggered Asylum Visitor
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Add To Stack: Xenil cast Asylum Visitor
+Information: BOARD cast | Asylum Visitor (mv 2) by Xenil | open mana: Captain 0, Airen 0, Calden 2
+Resolve Stack: Play Madness {1}{B}  - Asylum Visitor [Exiled: Asylum Visitor (82)]
+Resolve Stack: Asylum Visitor - Creature 3 / 1
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (53)
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Leechridden Swamp (83) - {T}: Add {B}.
+Add To Stack: Xenil cast Tinybones, Trinket Thief
+Information: BOARD cast | Tinybones, Trinket Thief (mv 2) by Xenil | open mana: Captain 0, Airen 0, Calden 2
+Resolve Stack: Tinybones, Trinket Thief - Creature 1 / 2
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 14 (Captain)
+Information: BOARD turn 14 (Captain) | Xenil | life 39 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Asylum Visitor 3/1; Tinybones, Trinket Thief 1/2 | hand cards: Swamp(land); Necrogoyf(5); Everflowing Chalice(0); Oppression(3)
+Information: BOARD turn 14 (Captain) | Captain | life 42 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Temple of Triumph(land); Mountain(land); Shoot the Sheriff(2); Trailblazer's Boots(2)
+Information: BOARD turn 14 (Captain) | Airen | life 39 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Gleaming Splendor(2); Thought Vessel(2); Sevinne's Reclamation(3)
+Information: BOARD turn 14 (Captain) | Calden | life 39 | hand 3 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Mountain(land)
+Information: BOARD threat | turn 14 | Necrogen Mists (Xenil) 54
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Captain discards Temple of Triumph (184).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Mana: Canyon Slough (145) - {T}: Add {B}.
+Mana: Tainted Peak (189) - {T}: Add {C}.
+Add To Stack: Captain cast Shoot the Sheriff targeting [Asylum Visitor (82)]
+Information: BOARD cast | Shoot the Sheriff (mv 2) by Captain | open mana: Xenil 0, Airen 0, Calden 2
+Zone Change: Asylum Visitor (82) was put into Graveyard from Battlefield.
+Resolve Stack: Shoot the Sheriff (136) - Destroy Asylum Visitor (82).
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (187)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Sulfurous Springs (171) - {T}: Add {C}.
+Add To Stack: Captain cast Trailblazer's Boots
+Information: BOARD cast | Trailblazer's Boots (mv 2) by Captain | open mana: Xenil 0, Airen 0, Calden 2
+Resolve Stack: Trailblazer's Boots
+Phase: Captain's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 39 > 38
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 15 (Airen)
+Information: BOARD turn 15 (Airen) | Xenil | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Swamp(land); Necrogoyf(5); Everflowing Chalice(0); Oppression(3); Creeping Dread(4)
+Information: BOARD turn 15 (Airen) | Captain | life 42 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Vandalblast(1)
+Information: BOARD turn 15 (Airen) | Airen | life 39 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Gleaming Splendor(2); Thought Vessel(2); Sevinne's Reclamation(3)
+Information: BOARD turn 15 (Airen) | Calden | life 39 | hand 3 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Mountain(land)
+Information: BOARD threat | turn 15 | Necrogen Mists (Xenil) 66
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Airen discards Sevinne's Reclamation (301).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Land: Airen played Island (231)
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Island (231) - {T}: Add {U}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mind Stone (232) - {T}: Add {C}.
+Add To Stack: Airen cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Airen | open mana: Xenil 0, Captain 0, Calden 2
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Knight of the White Orchid (300) to attack Xenil.
+Information: BOARD attack | Airen -> Xenil | attackers 1 (power 2) | defender life 38 | untapped creatures 1 (power 1): Tinybones, Trinket Thief 1/2 | open mana 0
+Phase: Airen's Declare Blockers Step
+Combat: Xenil didn't block Knight of the White Orchid (300).
+Phase: Airen's First Strike Damage Step
+Damage: Knight of the White Orchid (300) deals 2 combat damage to Xenil.
+Life: Life: Xenil 38 > 36
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 36 > 35
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Airen]
+Phase: Airen's Cleanup step
+Turn: Turn 16 (Calden)
+Information: BOARD turn 16 (Calden) | Xenil | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Swamp(land); Necrogoyf(5); Everflowing Chalice(0); Oppression(3); Creeping Dread(4); Burnished Hart(3)
+Information: BOARD turn 16 (Calden) | Captain | life 42 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Vandalblast(1)
+Information: BOARD turn 16 (Calden) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Knight of the White Orchid 2/2*; Seluma, Light of Aysen 4/4 | hand cards: Gleaming Splendor(2); Thought Vessel(2)
+Information: BOARD turn 16 (Calden) | Calden | life 39 | hand 3 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ancient Copper Dragon(6); Scorned Villager(2); Mountain(land)
+Information: BOARD threat | turn 16 | Necrogen Mists (Xenil) 78
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Calden discards Ancient Copper Dragon (313).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Land: Calden picked {W}
+Mana: Arcane Signet (352) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (396) - {T}: Add {R}.
+Land: Calden picked {G}
+Mana: Gruul Guildgate (305) - {T}: Add {R} or {G}.
+Add To Stack: Calden cast Make Your Move targeting [Seluma, Light of Aysen (302)]
+Information: BOARD cast | Make Your Move (mv 3) by Calden | open mana: Xenil 0, Captain 0, Airen 0
+Zone Change: Seluma, Light of Aysen (302) was put into Graveyard from Battlefield.
+Resolve Stack: Make Your Move (389) - Destroy Seluma, Light of Aysen (302).
+Add To Stack: Airen triggered Nim Deathmantle
+Resolve Stack: Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it. [Zone Changer: Seluma, Light of Aysen (302)]
+Phase: Calden's Main phase, precombat
+Land: Calden played Mountain (395)
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Phase: Calden's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 35 > 34
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Calden]
+Phase: Calden's Cleanup step
+Turn: Turn 17 (Xenil)
+Information: BOARD turn 17 (Xenil) | Xenil | life 34 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Swamp(land); Necrogoyf(5); Everflowing Chalice(0); Oppression(3); Creeping Dread(4); Burnished Hart(3); Hostile Investigator(4)
+Information: BOARD turn 17 (Xenil) | Captain | life 42 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Vandalblast(1)
+Information: BOARD turn 17 (Xenil) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 2/2* | hand cards: Gleaming Splendor(2); Thought Vessel(2)
+Information: BOARD turn 17 (Xenil) | Calden | life 39 | hand 1 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Scorned Villager(2)
+Information: BOARD threat | turn 17 | Necrogen Mists (Xenil) 89; Tinybones, Trinket Thief (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Xenil discards Burnished Hart (7).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (65)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Swamp (65) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Leechridden Swamp (83) - {T}: Add {B}.
+Add To Stack: Xenil cast Oppression
+Information: BOARD cast | Oppression (mv 3) by Xenil | open mana: Captain 0, Airen 0, Calden 2
+Resolve Stack: Oppression
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Add To Stack: Xenil cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Xenil | open mana: Captain 0, Airen 0, Calden 2
+Add To Stack: Xenil triggered Oppression
+Discard: Xenil discards Hostile Investigator (28).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Everflowing Chalice (23), Activator: Xenil, SpellAbility: Everflowing Chalice]
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Everflowing Chalice
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 18 (Captain)
+Information: BOARD turn 18 (Captain) | Xenil | life 34 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Necrogoyf(5); Swamp(land); Creeping Dread(4)
+Information: BOARD turn 18 (Captain) | Captain | life 42 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dictate of Erebos(5); Vandalblast(1)
+Information: BOARD turn 18 (Captain) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 2/2* | hand cards: Gleaming Splendor(2); Thought Vessel(2)
+Information: BOARD turn 18 (Captain) | Calden | life 39 | hand 1 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Scorned Villager(2)
+Information: BOARD threat | turn 18 | Necrogen Mists (Xenil) 100; Tinybones, Trinket Thief (Xenil) 40
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Captain discards Dictate of Erebos (141).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Mountain (187) - {T}: Add {R}.
+Add To Stack: Captain cast Ragavan, Nimble Pilferer
+Information: BOARD cast | Ragavan, Nimble Pilferer (mv 1) by Captain | open mana: Xenil 1, Airen 0, Calden 2
+Add To Stack: Xenil triggered Oppression
+Discard: Captain discards Vandalblast (161).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Ragavan, Nimble Pilferer (168), Activator: Captain, SpellAbility: Ragavan, Nimble Pilferer - Creature 2 / 1]
+Resolve Stack: Ragavan, Nimble Pilferer - Creature 2 / 1
+Mana: Canyon Slough (145) - {T}: Add {R}.
+Mana: Tainted Peak (189) - {T}: Add {C}.
+Add To Stack: Captain activated Trailblazer's Boots targeting [Ragavan, Nimble Pilferer (168)]
+Resolve Stack: Trailblazer's Boots (199) -  Attach to Ragavan, Nimble Pilferer (168)
+Phase: Captain's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 34 > 33
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 19 (Airen)
+Information: BOARD turn 19 (Airen) | Xenil | life 33 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Necrogoyf(5); Swamp(land); Creeping Dread(4); Mind Stone(2)
+Information: BOARD turn 19 (Airen) | Captain | life 42 | hand 0 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ragavan, Nimble Pilferer 2/1[Trailblazer's Boots] | hand cards: 
+Information: BOARD turn 19 (Airen) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 2/2* | hand cards: Gleaming Splendor(2); Thought Vessel(2)
+Information: BOARD turn 19 (Airen) | Calden | life 39 | hand 1 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Scorned Villager(2)
+Information: BOARD threat | turn 19 | Necrogen Mists (Xenil) 111; Tinybones, Trinket Thief (Xenil) 53
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Airen discards Thought Vessel (235).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Mana: Island (231) - {T}: Add {U}.
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Airen activated Nim Deathmantle targeting [Knight of the White Orchid (300)]
+Resolve Stack: Nim Deathmantle (203) -  Attach to Knight of the White Orchid (300)
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Knight of the White Orchid (300) to attack Xenil.
+Information: BOARD attack | Airen -> Xenil | attackers 1 (power 4) | defender life 33 | untapped creatures 1 (power 1): Tinybones, Trinket Thief 1/2 | open mana 1
+Phase: Airen's Declare Blockers Step
+Combat: Xenil didn't block Knight of the White Orchid (300).
+Phase: Airen's First Strike Damage Step
+Damage: Knight of the White Orchid (300) deals 4 combat damage to Xenil.
+Life: Life: Xenil 33 > 29
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 29 > 28
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Airen]
+Phase: Airen's Cleanup step
+Turn: Turn 20 (Calden)
+Information: BOARD turn 20 (Calden) | Xenil | life 28 | hand 5 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Necrogoyf(5); Swamp(land); Creeping Dread(4); Mind Stone(2); Stronghold Rats(3)
+Information: BOARD turn 20 (Calden) | Captain | life 42 | hand 0 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ragavan, Nimble Pilferer 2/1[Trailblazer's Boots] | hand cards: 
+Information: BOARD turn 20 (Calden) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Gleaming Splendor(2); Bruna, the Fading Light(7)
+Information: BOARD turn 20 (Calden) | Calden | life 39 | hand 1 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Scorned Villager(2)
+Information: BOARD threat | turn 20 | Necrogen Mists (Xenil) 121; Tinybones, Trinket Thief (Xenil) 65; Knight of the White Orchid (Airen) 33
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Calden discards Scorned Villager (312).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Phase: Calden's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 28 > 27
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Calden]
+Phase: Calden's Cleanup step
+Turn: Turn 21 (Xenil)
+Information: BOARD turn 21 (Xenil) | Xenil | life 27 | hand 6 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Necrogoyf(5); Swamp(land); Creeping Dread(4); Mind Stone(2); Stronghold Rats(3); Swamp(land)
+Information: BOARD turn 21 (Xenil) | Captain | life 42 | hand 0 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ragavan, Nimble Pilferer 2/1[Trailblazer's Boots] | hand cards: 
+Information: BOARD turn 21 (Xenil) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Gleaming Splendor(2); Bruna, the Fading Light(7)
+Information: BOARD turn 21 (Xenil) | Calden | life 39 | hand 1 | lands 4 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Lathliss, Dragon Queen(6)
+Information: BOARD threat | turn 21 | Necrogen Mists (Xenil) 130; Tinybones, Trinket Thief (Xenil) 77; Knight of the White Orchid (Airen) 32
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Xenil discards Mind Stone (20).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (59)
+Mana: Swamp (65) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (59) - {T}: Add {B}.
+Add To Stack: Xenil cast Stronghold Rats
+Information: BOARD cast | Stronghold Rats (mv 3) by Xenil | open mana: Captain 3, Airen 1, Calden 8
+Add To Stack: Xenil triggered Oppression
+Replacement Effect: Madness {1}{B}{B}: If you discard this card, discard it into exile.
+Discard: Xenil discards Necrogoyf (73).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Stronghold Rats (78), Activator: Xenil, SpellAbility: Stronghold Rats - Creature 2 / 1]
+Add To Stack: Xenil triggered Necrogoyf
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Leechridden Swamp (83) - {T}: Add {B}.
+Add To Stack: Xenil cast Necrogoyf
+Information: BOARD cast | Necrogoyf (mv 5) by Xenil | open mana: Captain 3, Airen 1, Calden 8
+Resolve Stack: Play Madness {1}{B}{B}  - Necrogoyf [Exiled: Necrogoyf (73)]
+Add To Stack: Xenil triggered Oppression
+Discard: Xenil discards Swamp (69).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Necrogoyf (73), Activator: Xenil, SpellAbility: Necrogoyf - Creature * / 4]
+Resolve Stack: Necrogoyf - Creature * / 4
+Resolve Stack: Stronghold Rats - Creature 2 / 1
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 22 (Captain)
+Information: BOARD turn 22 (Captain) | Xenil | life 27 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 9/4; Stronghold Rats 2/1 | hand cards: Creeping Dread(4); Abyssal Specter(4)
+Information: BOARD turn 22 (Captain) | Captain | life 42 | hand 0 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ragavan, Nimble Pilferer 2/1[Trailblazer's Boots] | hand cards: 
+Information: BOARD turn 22 (Captain) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Gleaming Splendor(2); Bruna, the Fading Light(7)
+Information: BOARD turn 22 (Captain) | Calden | life 39 | hand 1 | lands 4 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Lathliss, Dragon Queen(6)
+Information: BOARD threat | turn 22 | Necrogen Mists (Xenil) 139; Tinybones, Trinket Thief (Xenil) 74; Oppression (Xenil) 54; Knight of the White Orchid (Airen) 30
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogoyf
+Add To Stack: Xenil triggered Necrogen Mists
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Captain played Smoldering Marsh (172)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Ragavan, Nimble Pilferer (168) to attack Xenil.
+Information: BOARD attack | Captain -> Xenil | attackers 1 (power 2) | defender life 27 | untapped creatures 3 (power 12): Tinybones, Trinket Thief 1/2; Necrogoyf 9/4; Stronghold Rats 2/1 | open mana 1
+Phase: Captain's Declare Blockers Step
+Combat: Xenil didn't block Ragavan, Nimble Pilferer (168).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Ragavan, Nimble Pilferer (168) deals 2 combat damage to Xenil.
+Life: Life: Xenil 27 > 25
+Add To Stack: Captain triggered Ragavan, Nimble Pilferer
+Resolve Stack: Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card. [Damage Source: Ragavan, Nimble Pilferer (168), Damaged: Xenil, Amount: 2]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Zone Change: Treasure Token (407) was put into Graveyard from Battlefield.
+Land: Treasure Token (407) picked {W}
+Mana: Treasure Token (407) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Canyon Slough (145) - {T}: Add {B}.
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Tainted Peak (189) - {T}: Add {C}.
+Add To Stack: Captain cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Captain | open mana: Xenil 1, Airen 1, Calden 8
+Add To Stack: Xenil triggered Oppression
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Olivia, Opulent Outlaw (201), Activator: Captain, SpellAbility: Olivia, Opulent Outlaw - Creature 3 / 3]
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 23 (Airen)
+Information: BOARD turn 23 (Airen) | Xenil | life 25 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 9/4; Stronghold Rats 2/1 | hand cards: Creeping Dread(4); Abyssal Specter(4)
+Information: BOARD turn 23 (Airen) | Captain | life 42 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Ragavan, Nimble Pilferer 2/1*[Trailblazer's Boots]; Olivia, Opulent Outlaw 3/3 | hand cards: 
+Information: BOARD turn 23 (Airen) | Airen | life 39 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Gleaming Splendor(2); Bruna, the Fading Light(7)
+Information: BOARD turn 23 (Airen) | Calden | life 39 | hand 1 | lands 4 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Lathliss, Dragon Queen(6)
+Information: BOARD threat | turn 23 | Necrogen Mists (Xenil) 148; Tinybones, Trinket Thief (Xenil) 71; Oppression (Xenil) 66
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogoyf
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Airen discards Bruna, the Fading Light (259).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Discard: Airen discards Gleaming Splendor (249).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Knight of the White Orchid (300) to attack Xenil.
+Information: BOARD attack | Airen -> Xenil | attackers 1 (power 4) | defender life 25 | untapped creatures 3 (power 13): Tinybones, Trinket Thief 1/2; Necrogoyf 10/4; Stronghold Rats 2/1 | open mana 1
+Phase: Airen's Declare Blockers Step
+Combat: Xenil didn't block Knight of the White Orchid (300).
+Phase: Airen's First Strike Damage Step
+Damage: Knight of the White Orchid (300) deals 4 combat damage to Xenil.
+Life: Life: Xenil 25 > 21
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 21 > 20
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Airen]
+Phase: Airen's Cleanup step
+Turn: Turn 24 (Calden)
+Information: BOARD turn 24 (Calden) | Xenil | life 20 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 10/4; Stronghold Rats 2/1 | hand cards: Creeping Dread(4); Abyssal Specter(4); Pestilence(4)
+Information: BOARD turn 24 (Calden) | Captain | life 42 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Ragavan, Nimble Pilferer 2/1*[Trailblazer's Boots]; Olivia, Opulent Outlaw 3/3 | hand cards: 
+Information: BOARD turn 24 (Calden) | Airen | life 39 | hand 1 | lands 4 (4 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Serra's Emissary(7)
+Information: BOARD turn 24 (Calden) | Calden | life 39 | hand 1 | lands 4 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Lathliss, Dragon Queen(6)
+Information: BOARD threat | turn 24 | Necrogen Mists (Xenil) 157; Tinybones, Trinket Thief (Xenil) 82; Oppression (Xenil) 63; Knight of the White Orchid (Airen) 51
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogoyf
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Calden discards Lathliss, Dragon Queen (354).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Land: Calden picked {G}
+Mana: Gruul Guildgate (305) - {T}: Add {R} or {G}.
+Add To Stack: Calden cast Delighted Halfling
+Information: BOARD cast | Delighted Halfling (mv 1) by Calden | open mana: Xenil 1, Captain 3, Airen 5
+Add To Stack: Xenil triggered Oppression
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Delighted Halfling (384), Activator: Calden, SpellAbility: Delighted Halfling - Creature 1 / 2]
+Resolve Stack: Delighted Halfling - Creature 1 / 2
+Phase: Calden's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 20 > 19
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Calden]
+Phase: Calden's Cleanup step
+Turn: Turn 25 (Xenil)
+Information: BOARD turn 25 (Xenil) | Xenil | life 19 | hand 4 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 11/4; Stronghold Rats 2/1 | hand cards: Creeping Dread(4); Abyssal Specter(4); Pestilence(4); Swamp(land)
+Information: BOARD turn 25 (Xenil) | Captain | life 42 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Ragavan, Nimble Pilferer 2/1*[Trailblazer's Boots]; Olivia, Opulent Outlaw 3/3 | hand cards: 
+Information: BOARD turn 25 (Xenil) | Airen | life 39 | hand 1 | lands 4 (4 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Serra's Emissary(7)
+Information: BOARD turn 25 (Xenil) | Calden | life 39 | hand 0 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: 
+Information: BOARD threat | turn 25 | Necrogen Mists (Xenil) 165; Tinybones, Trinket Thief (Xenil) 93; Oppression (Xenil) 75; Knight of the White Orchid (Airen) 49; Necrogoyf (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Necrogoyf
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Xenil discards Pestilence (72).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Discard: Xenil discards Swamp (57).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Swamp (59) - {T}: Add {B}.
+Add To Stack: Xenil cast Shrieking Affliction
+Information: BOARD cast | Shrieking Affliction (mv 1) by Xenil | open mana: Captain 3, Airen 5, Calden 5
+Add To Stack: Xenil triggered Oppression
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (65) - {T}: Add {B}.
+Discard: Xenil discards Creeping Dread (14).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Shrieking Affliction (11), Activator: Xenil, SpellAbility: Shrieking Affliction]
+Resolve Stack: Shrieking Affliction
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Stronghold Rats (78) to attack Airen.
+Information: BOARD attack | Xenil -> Airen | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Xenil's Declare Blockers Step
+Combat: Airen didn't block Stronghold Rats (78).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Stronghold Rats (78) deals 2 combat damage to Airen.
+Life: Life: Airen 39 > 37
+Add To Stack: Xenil triggered Stronghold Rats
+Discard: Xenil discards Abyssal Specter (35).
+Discard: Airen discards Serra's Emissary (243).
+Resolve Stack: Whenever Stronghold Rats deals combat damage to a player, each player discards a card. [Damage Source: Stronghold Rats (78), Damaged: Airen, Amount: 2]
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 19 > 18
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Xenil]
+Phase: Xenil's Cleanup step
+Turn: Turn 26 (Captain)
+Information: BOARD turn 26 (Captain) | Xenil | life 18 | hand 1 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4; Stronghold Rats 2/1* | hand cards: Swamp(land)
+Information: BOARD turn 26 (Captain) | Captain | life 42 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Ragavan, Nimble Pilferer 2/1*[Trailblazer's Boots]; Olivia, Opulent Outlaw 3/3 | hand cards: 
+Information: BOARD turn 26 (Captain) | Airen | life 37 | hand 0 | lands 4 (4 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 26 (Captain) | Calden | life 39 | hand 0 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: 
+Information: BOARD threat | turn 26 | Necrogen Mists (Xenil) 173; Tinybones, Trinket Thief (Xenil) 104; Oppression (Xenil) 87; Necrogoyf (Xenil) 54; Knight of the White Orchid (Airen) 47
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Life: Life: Captain 42 > 39
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Captain]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Tainted Peak (189) - {T}: Add {C}.
+Mana: Sulfurous Springs (171) - {T}: Add {C}.
+Add To Stack: Captain activated Trailblazer's Boots targeting [Olivia, Opulent Outlaw (201)]
+Resolve Stack: Trailblazer's Boots (199) -  Attach to Olivia, Opulent Outlaw (201)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Ragavan, Nimble Pilferer (168) to attack Airen.
+Captain assigned Olivia, Opulent Outlaw (201) to attack Xenil.
+Information: BOARD attack | Captain -> Airen | attackers 1 (power 2) | defender life 37 | untapped creatures 0 (power 0):  | open mana 5
+Information: BOARD attack | Captain -> Xenil | attackers 1 (power 3) | defender life 18 | untapped creatures 2 (power 14): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4 | open mana 2
+Phase: Captain's Declare Blockers Step
+Combat: Airen didn't block Ragavan, Nimble Pilferer (168).
+Combat: Xenil didn't block Olivia, Opulent Outlaw (201).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (201) deals 3 combat damage to Xenil.
+Life: Life: Captain 39 > 42
+Damage: Ragavan, Nimble Pilferer (168) deals 2 combat damage to Airen.
+Life: Life: Xenil 18 > 15
+Life: Life: Airen 37 > 35
+Add To Stack: Captain triggered Ragavan, Nimble Pilferer
+Add To Stack: Captain triggered Olivia, Opulent Outlaw
+Add To Stack: Captain triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Airen, Amount: 2]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Xenil, Amount: 3]
+Resolve Stack: Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card. [Damage Source: Ragavan, Nimble Pilferer (168), Damaged: Airen, Amount: 2]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Canyon Slough (145) - {T}: Add {R}.
+Mana: Smoldering Marsh (172) - {T}: Add {R}.
+Add To Stack: Captain cast Crime Novelist
+Information: BOARD cast | Crime Novelist (mv 3) by Captain | open mana: Xenil 2, Airen 5, Calden 5
+Add To Stack: Xenil triggered Oppression
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Crime Novelist (152), Activator: Captain, SpellAbility: Crime Novelist - Creature 1 / 3]
+Resolve Stack: Crime Novelist - Creature 1 / 3
+Phase: Captain's End step
+Mana: Plains (281) - {T}: Add {W}.
+Zone Change: Mind Stone (232) was put into Graveyard from Battlefield.
+Add To Stack: Airen activated Mind Stone
+Resolve Stack: Mind Stone (232) - Airen draws a card.
+Phase: Captain's Cleanup step
+Turn: Turn 27 (Airen)
+Information: BOARD turn 27 (Airen) | Xenil | life 15 | hand 1 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4; Stronghold Rats 2/1* | hand cards: Swamp(land)
+Information: BOARD turn 27 (Airen) | Captain | life 42 | hand 0 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 27 (Airen) | Airen | life 35 | hand 1 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: Emeria, the Sky Ruin(land)
+Information: BOARD turn 27 (Airen) | Calden | life 39 | hand 0 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: 
+Information: BOARD threat | turn 27 | Necrogen Mists (Xenil) 180; Tinybones, Trinket Thief (Xenil) 100; Oppression (Xenil) 98; Necrogoyf (Xenil) 66; Ragavan, Nimble Pilferer (Captain) 48
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Discard: Airen discards Emeria, the Sky Ruin (299).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Life: Life: Airen 35 > 32
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Airen]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Land: Airen played Plains (275)
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Knight of the White Orchid (300) to attack Xenil.
+Information: BOARD attack | Airen -> Xenil | attackers 1 (power 4) | defender life 15 | untapped creatures 2 (power 14): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4 | open mana 2
+Phase: Airen's Declare Blockers Step
+Combat: Xenil didn't block Knight of the White Orchid (300).
+Phase: Airen's First Strike Damage Step
+Damage: Knight of the White Orchid (300) deals 4 combat damage to Xenil.
+Life: Life: Xenil 15 > 11
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 11 > 10
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Airen]
+Phase: Airen's Cleanup step
+Turn: Turn 28 (Calden)
+Information: BOARD turn 28 (Calden) | Xenil | life 10 | hand 2 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4; Stronghold Rats 2/1* | hand cards: Swamp(land); Swamp(land)
+Information: BOARD turn 28 (Calden) | Captain | life 42 | hand 0 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 28 (Calden) | Airen | life 32 | hand 0 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 28 (Calden) | Calden | life 39 | hand 0 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: 
+Information: BOARD threat | turn 28 | Necrogen Mists (Xenil) 187; Tinybones, Trinket Thief (Xenil) 110; Oppression (Xenil) 94; Necrogoyf (Xenil) 78; Knight of the White Orchid (Airen) 66
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Life: Life: Calden 39 > 36
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Calden]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Land: Calden picked {W}
+Mana: Arcane Signet (352) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Turbulent Wetlands (356) - {T}: Add {U}.
+Land: Delighted Halfling (384) picked {B}
+Mana: Delighted Halfling (384) - {T}: Add one mana of any color. Spend this mana only to cast a legendary spell, and that spell can't be countered.
+Land: Calden picked {G}
+Mana: Gruul Guildgate (305) - {T}: Add {R} or {G}.
+Mana: Mountain (396) - {T}: Add {R}.
+Add To Stack: Calden cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Calden | open mana: Xenil 2, Captain 3, Airen 5
+Add To Stack: Xenil triggered Oppression
+Discard: Calden discards Zombify (366).
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Scion of the Ur-Dragon (403), Activator: Calden, SpellAbility: Scion of the Ur-Dragon - Creature 4 / 4]
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Phase: Calden's Declare Blockers Step
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Phase: Calden's End step
+Add To Stack: Xenil triggered Tinybones, Trinket Thief
+Life: Life: Xenil 10 > 9
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Calden]
+Phase: Calden's Cleanup step
+Turn: Turn 29 (Xenil)
+Information: BOARD turn 29 (Xenil) | Xenil | life 9 | hand 3 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4; Stronghold Rats 2/1* | hand cards: Swamp(land); Swamp(land); Bandit's Talent(2)
+Information: BOARD turn 29 (Xenil) | Captain | life 42 | hand 0 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 29 (Xenil) | Airen | life 32 | hand 0 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 29 (Xenil) | Calden | life 36 | hand 0 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: 
+Information: BOARD threat | turn 29 | Necrogen Mists (Xenil) 194; Tinybones, Trinket Thief (Xenil) 120; Oppression (Xenil) 104; Necrogoyf (Xenil) 89; Knight of the White Orchid (Airen) 64
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Necrogoyf
+Add To Stack: Xenil triggered Necrogen Mists
+Discard: Xenil discards Swamp (47).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Discard: Xenil discards Bandit's Talent (15).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (50)
+Mana: Swamp (65) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (50) - {T}: Add {B}.
+Mana: Swamp (59) - {T}: Add {B}.
+Add To Stack: Xenil activated Tinybones, Trinket Thief
+Life: Life: Captain 42 > 32
+Life: Life: Airen 32 > 22
+Life: Life: Calden 36 > 26
+Resolve Stack: Tinybones, Trinket Thief (100) - Captain, Airen and Calden each lose 10 life.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Necrogoyf (73) to attack Captain.
+Information: BOARD attack | Xenil -> Captain | attackers 1 (power 13) | defender life 32 | untapped creatures 1 (power 1): Crime Novelist 1/3 | open mana 3
+Phase: Xenil's Declare Blockers Step
+Combat: Captain didn't block Necrogoyf (73).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Necrogoyf (73) deals 13 combat damage to Captain.
+Life: Life: Captain 32 > 19
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Xenil | life 9 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4*; Stronghold Rats 2/1 | hand cards: Sadistic Hypnotist(5)
+Information: BOARD turn 30 (Captain) | Captain | life 19 | hand 0 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 30 (Captain) | Airen | life 22 | hand 0 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 30 (Captain) | Calden | life 26 | hand 0 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: 
+Information: BOARD threat | turn 30 | Necrogen Mists (Xenil) 201; Necrogoyf (Xenil) 175; Tinybones, Trinket Thief (Xenil) 130; Oppression (Xenil) 100; Knight of the White Orchid (Airen) 61
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Life: Life: Captain 19 > 16
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Captain]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Rugged Prairie (149)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Olivia, Opulent Outlaw (201) to attack Xenil.
+Information: BOARD attack | Captain -> Xenil | attackers 1 (power 3) | defender life 9 | untapped creatures 2 (power 3): Tinybones, Trinket Thief 1/2; Stronghold Rats 2/1 | open mana 2
+Phase: Captain's Declare Blockers Step
+Combat: Xenil didn't block Olivia, Opulent Outlaw (201).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (201) deals 3 combat damage to Xenil.
+Life: Life: Captain 16 > 19
+Life: Life: Xenil 9 > 6
+Add To Stack: Captain triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Xenil, Amount: 3]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 31 (Airen)
+Information: BOARD turn 31 (Airen) | Xenil | life 6 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4*; Stronghold Rats 2/1 | hand cards: Sadistic Hypnotist(5)
+Information: BOARD turn 31 (Airen) | Captain | life 19 | hand 0 | lands 6 (6 untapped) | open mana 18 | commander Battlefield | creatures 3 (2 untapped): Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 31 (Airen) | Airen | life 22 | hand 0 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 31 (Airen) | Calden | life 26 | hand 0 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: 
+Information: BOARD threat | turn 31 | Necrogen Mists (Xenil) 207; Necrogoyf (Xenil) 183; Tinybones, Trinket Thief (Xenil) 125; Oppression (Xenil) 96; Olivia, Opulent Outlaw (Captain) 71
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Life: Life: Airen 22 > 19
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Airen]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Airen]
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Island (231) - {T}: Add {U}.
+Add To Stack: Airen cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Airen | open mana: Xenil 2, Captain 18, Calden 1
+Add To Stack: Xenil triggered Oppression
+Resolve Stack: Whenever a player casts a spell, that player discards a card. [Card: Everflowing Chalice (236), Activator: Airen, SpellAbility: Everflowing Chalice]
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Everflowing Chalice
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Knight of the White Orchid (300) to attack Xenil.
+Information: BOARD attack | Airen -> Xenil | attackers 1 (power 4) | defender life 6 | untapped creatures 2 (power 3): Tinybones, Trinket Thief 1/2; Stronghold Rats 2/1 | open mana 2
+Phase: Airen's Declare Blockers Step
+Combat: Xenil didn't block Knight of the White Orchid (300).
+Phase: Airen's First Strike Damage Step
+Damage: Knight of the White Orchid (300) deals 4 combat damage to Xenil.
+Life: Life: Xenil 6 > 2
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 32 (Calden)
+Information: BOARD turn 32 (Calden) | Xenil | life 2 | hand 1 | lands 7 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tinybones, Trinket Thief 1/2; Necrogoyf 13/4*; Stronghold Rats 2/1 | hand cards: Sadistic Hypnotist(5)
+Information: BOARD turn 32 (Calden) | Captain | life 19 | hand 0 | lands 6 (6 untapped) | open mana 18 | commander Battlefield | creatures 3 (2 untapped): Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 32 (Calden) | Airen | life 19 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 32 (Calden) | Calden | life 26 | hand 0 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: 
+Information: BOARD threat | turn 32 | Necrogen Mists (Xenil) 213; Necrogoyf (Xenil) 190; Tinybones, Trinket Thief (Xenil) 120; Oppression (Xenil) 107; Knight of the White Orchid (Airen) 79
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Add To Stack: Xenil triggered Necrogen Mists
+Add To Stack: Xenil triggered Shrieking Affliction
+Add To Stack: Xenil triggered Necrogoyf
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Life: Life: Calden 26 > 23
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Calden]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Calden]
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Land: Calden played Plains (397)
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Combat: Calden assigned Scion of the Ur-Dragon (403) and Delighted Halfling (384) to attack Xenil.
+Information: BOARD attack | Calden -> Xenil | attackers 2 (power 5) | defender life 2 | untapped creatures 2 (power 3): Tinybones, Trinket Thief 1/2; Stronghold Rats 2/1 | open mana 2
+Phase: Calden's Declare Blockers Step
+Combat: Xenil didn't block Scion of the Ur-Dragon (403).
+Xenil didn't block Delighted Halfling (384).
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Damage: Scion of the Ur-Dragon (403) deals 4 combat damage to Xenil.
+Damage: Delighted Halfling (384) deals 1 combat damage to Xenil.
+Life: Life: Xenil 2 > -3
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (395) - {T}: Add {R}.
+Add To Stack: Calden activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (403) - Calden searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (403) becomes a copy of Ancient Silver Dragon (403).
+Phase: Calden's End step
+Phase: Calden's Cleanup step
+Turn: Turn 33 (Captain)
+Information: BOARD turn 33 (Captain) | Captain | life 19 | hand 0 | lands 6 (6 untapped) | open mana 18 | commander Battlefield | creatures 3 (2 untapped): Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 33 (Captain) | Airen | life 19 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Knight of the White Orchid 4/4*[Nim Deathmantle] | hand cards: 
+Information: BOARD turn 33 (Captain) | Calden | life 23 | hand 0 | lands 5 (3 untapped) | open mana 7 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: 
+Information: BOARD threat | turn 33 | Knight of the White Orchid (Airen) 76; Olivia, Opulent Outlaw (Captain) 65; Ragavan, Nimble Pilferer (Captain) 38; Scion of the Ur-Dragon (Calden) 37
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Olivia, Opulent Outlaw (201), Ragavan, Nimble Pilferer (168) and Crime Novelist (152) to attack Calden.
+Information: BOARD attack | Captain -> Calden | attackers 3 (power 6) | defender life 23 | untapped creatures 0 (power 0):  | open mana 7
+Phase: Captain's Declare Blockers Step
+Combat: Calden didn't block Olivia, Opulent Outlaw (201).
+Calden didn't block Ragavan, Nimble Pilferer (168).
+Calden didn't block Crime Novelist (152).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (201) deals 3 combat damage to Calden.
+Life: Life: Captain 19 > 22
+Damage: Ragavan, Nimble Pilferer (168) deals 2 combat damage to Calden.
+Damage: Crime Novelist (152) deals 1 combat damage to Calden.
+Life: Life: Calden 23 > 17
+Add To Stack: Captain triggered Ragavan, Nimble Pilferer
+Add To Stack: Captain triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Calden, Amount: 5]
+Resolve Stack: Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card. [Damage Source: Ragavan, Nimble Pilferer (168), Damaged: Calden, Amount: 2]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Zone Change: Treasure Token (428) was put into Graveyard from Battlefield.
+Mana: Treasure Token (428) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Canyon Slough (145) - {T}: Add {B}.
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Smoldering Marsh (172) - {T}: Add {R}.
+Add To Stack: Captain cast Utter End targeting [Knight of the White Orchid (300)]
+Information: BOARD cast | Utter End (mv 4) by Captain | open mana: Airen 3, Calden 7
+Add To Stack: Captain triggered Crime Novelist
+Mana: Plains (397) - {T}: Add {W}.
+Mana: Gruul Guildgate (305) - {T}: Add {R} or {G}.
+Add To Stack: Calden activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Gold Dragon (403) - Calden searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Gold Dragon (403) becomes a copy of Ancient Gold Dragon (403).
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (428)]
+Zone Change: Knight of the White Orchid (300) was put into Exile from Battlefield.
+Resolve Stack: Utter End (349) - Exile Knight of the White Orchid (300).
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 34 (Airen)
+Information: BOARD turn 34 (Airen) | Captain | life 22 | hand 1 | lands 6 (3 untapped) | open mana 16 | commander Battlefield | creatures 3 (0 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 2/4* | hand cards: Exotic Orchard(land)
+Information: BOARD turn 34 (Airen) | Airen | life 19 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 34 (Airen) | Calden | life 17 | hand 0 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: 
+Information: BOARD threat | turn 34 | Olivia, Opulent Outlaw (Captain) 94; Ragavan, Nimble Pilferer (Captain) 62; Scion of the Ur-Dragon (Calden) 50
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Phase: Airen's Declare Blockers Step
+Phase: Airen's First Strike Damage Step
+Phase: Airen's Combat Damage Step
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Island (231) - {T}: Add {U}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Plains (275) - {T}: Add {W}.
+Mana: Everflowing Chalice (236) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Airen cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Airen | open mana: Captain 16, Calden 3
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Mana: Arcane Signet (352) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Calden activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Bronze Dragon (403) - Calden searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Bronze Dragon (403) becomes a copy of Ancient Bronze Dragon (403).
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 35 (Calden)
+Information: BOARD turn 35 (Calden) | Captain | life 22 | hand 1 | lands 6 (3 untapped) | open mana 16 | commander Battlefield | creatures 3 (0 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 2/4* | hand cards: Exotic Orchard(land)
+Information: BOARD turn 35 (Calden) | Airen | life 19 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angelic Renewal(2)
+Information: BOARD turn 35 (Calden) | Calden | life 17 | hand 0 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: 
+Information: BOARD threat | turn 35 | Olivia, Opulent Outlaw (Captain) 91; Scion of the Ur-Dragon (Calden) 63; Ragavan, Nimble Pilferer (Captain) 59
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Mana: Arcane Signet (352) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (395) - {T}: Add {R}.
+Add To Stack: Calden cast Dread Return targeting [The Ur-Dragon (315)]
+Information: BOARD cast | Dread Return (mv 4) by Calden | open mana: Captain 16, Airen 0
+Resolve Stack: Dread Return (375) - Return The Ur-Dragon (315) from the graveyard to the battlefield.
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Combat: Calden assigned Scion of the Ur-Dragon (403) and Delighted Halfling (384) to attack Captain.
+Information: BOARD attack | Calden -> Captain | attackers 2 (power 5) | defender life 22 | untapped creatures 0 (power 0):  | open mana 16
+Add To Stack: Calden triggered The Ur-Dragon
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Scion of the Ur-Dragon (403)]]
+Zone Change: Fabled Passage (377) was put into Graveyard from Battlefield.
+Add To Stack: Calden activated Fabled Passage
+Resolve Stack: Fabled Passage (377) - Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.  
+Phase: Calden's Declare Blockers Step
+Combat: Captain didn't block Scion of the Ur-Dragon (403).
+Captain didn't block Delighted Halfling (384).
+Phase: Calden's First Strike Damage Step
+Phase: Calden's Combat Damage Step
+Damage: Scion of the Ur-Dragon (403) deals 4 combat damage to Captain.
+Damage: Delighted Halfling (384) deals 1 combat damage to Captain.
+Life: Life: Captain 22 > 17
+Phase: Calden's End of Combat Step
+Phase: Calden's Main phase, postcombat
+Mana: Plains (397) - {T}: Add {W}.
+Mana: Forest (340) - {T}: Add {G}.
+Add To Stack: Calden activated Scion of the Ur-Dragon
+Resolve Stack: Dragonlord Dromoka (403) - Calden searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Dragonlord Dromoka (403) becomes a copy of Dragonlord Dromoka (403).
+Phase: Calden's End step
+Phase: Calden's Cleanup step
+Turn: Turn 36 (Captain)
+Information: BOARD turn 36 (Captain) | Captain | life 17 | hand 1 | lands 6 (3 untapped) | open mana 16 | commander Battlefield | creatures 3 (0 untapped): Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 2/4* | hand cards: Exotic Orchard(land)
+Information: BOARD turn 36 (Captain) | Airen | life 19 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angelic Renewal(2)
+Information: BOARD turn 36 (Captain) | Calden | life 17 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10 | hand cards: 
+Information: BOARD threat | turn 36 | Scion of the Ur-Dragon (Calden) 98; Olivia, Opulent Outlaw (Captain) 87; Ragavan, Nimble Pilferer (Captain) 57
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Canyon Slough (145) - {T}: Add {R}.
+Mana: Smoldering Marsh (172) - {T}: Add {R}.
+Mana: Tainted Peak (189) - {T}: Add {C}.
+Add To Stack: Captain cast Knuckles the Echidna
+Information: BOARD cast | Knuckles the Echidna (mv 4) by Captain | open mana: Airen 0, Calden 3
+Resolve Stack: Knuckles the Echidna - Creature 2 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Olivia, Opulent Outlaw (201) to attack Calden.
+Information: BOARD attack | Captain -> Calden | attackers 1 (power 3) | defender life 17 | untapped creatures 1 (power 10): The Ur-Dragon 10/10 | open mana 3
+Phase: Captain's Declare Blockers Step
+Combat: Calden didn't block Olivia, Opulent Outlaw (201).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (201) deals 3 combat damage to Calden.
+Life: Life: Captain 17 > 20
+Life: Life: Calden 17 > 14
+Add To Stack: Captain triggered Olivia, Opulent Outlaw
+Add To Stack: Captain triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Calden, Amount: 3]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Calden, Amount: 3]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 37 (Airen)
+Information: BOARD turn 37 (Airen) | Captain | life 20 | hand 1 | lands 6 (2 untapped) | open mana 15 | commander Battlefield | creatures 4 (3 untapped): Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 2/4; Knuckles the Echidna 2/4 | hand cards: Exotic Orchard(land)
+Information: BOARD turn 37 (Airen) | Airen | life 19 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angelic Renewal(2)
+Information: BOARD turn 37 (Airen) | Calden | life 14 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10 | hand cards: 
+Information: BOARD threat | turn 37 | Olivia, Opulent Outlaw (Captain) 115; Scion of the Ur-Dragon (Calden) 94; Ragavan, Nimble Pilferer (Captain) 55
+Phase: Airen's Untap step
+Phase: Airen's Upkeep step
+Phase: Airen's Draw step
+Phase: Airen's Main phase, precombat
+Mana: Island (231) - {T}: Add {U}.
+Mana: Plains (281) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Airen activated Nim Deathmantle targeting [Seluma, Light of Aysen (302)]
+Resolve Stack: Nim Deathmantle (203) -  Attach to Seluma, Light of Aysen (302)
+Phase: Airen's Beginning of Combat Step
+Phase: Airen's Declare Attackers Step
+Combat: Airen assigned Seluma, Light of Aysen (302) to attack Captain.
+Information: BOARD attack | Airen -> Captain | attackers 1 (power 6) | defender life 20 | untapped creatures 3 (power 6): Ragavan, Nimble Pilferer 2/1; Crime Novelist 2/4; Knuckles the Echidna 2/4 | open mana 15
+Phase: Airen's Declare Blockers Step
+Combat: Captain didn't block Seluma, Light of Aysen (302).
+Phase: Airen's First Strike Damage Step
+Phase: Airen's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 6 combat damage to Captain.
+Life: Life: Captain 20 > 14
+Add To Stack: Airen triggered Seluma, Light of Aysen targeting [Serra's Emissary (243)]
+Replacement Effect: As Serra's Emissary enters, choose a card type.
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Serra's Emissary (243)]]) [Damage Source: Seluma, Light of Aysen (302), Damaged: Captain, Amount: 6]
+Phase: Airen's End of Combat Step
+Phase: Airen's Main phase, postcombat
+Mana: Plains (275) - {T}: Add {W}.
+Mana: Everflowing Chalice (236) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Airen cast Angelic Renewal
+Information: BOARD cast | Angelic Renewal (mv 2) by Airen | open mana: Captain 15, Calden 3
+Resolve Stack: Angelic Renewal
+Phase: Airen's End step
+Phase: Airen's Cleanup step
+Turn: Turn 38 (Calden)
+Information: BOARD turn 38 (Calden) | Captain | life 14 | hand 1 | lands 6 (2 untapped) | open mana 15 | commander Battlefield | creatures 4 (3 untapped): Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3*[Trailblazer's Boots]; Crime Novelist 2/4; Knuckles the Echidna 2/4 | hand cards: Exotic Orchard(land)
+Information: BOARD turn 38 (Calden) | Airen | life 19 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 6/6*[Nim Deathmantle]; Serra's Emissary 7/7 | hand cards: Mazemind Tome(2)
+Information: BOARD turn 38 (Calden) | Calden | life 14 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10 | hand cards: 
+Information: BOARD threat | turn 38 | Olivia, Opulent Outlaw (Captain) 111; Scion of the Ur-Dragon (Calden) 90; Ragavan, Nimble Pilferer (Captain) 53; Seluma, Light of Aysen (Airen) 49
+Phase: Calden's Untap step
+Phase: Calden's Upkeep step
+Phase: Calden's Draw step
+Phase: Calden's Main phase, precombat
+Land: Calden played Fetid Heath (314)
+Phase: Calden's Beginning of Combat Step
+Phase: Calden's Declare Attackers Step
+Combat: Calden assigned The Ur-Dragon (315), Scion of the Ur-Dragon (403) and Delighted Halfling (384) to attack Captain.
+Information: BOARD attack | Calden -> Captain | attackers 3 (power 15) | defender life 14 | untapped creatures 3 (power 6): Ragavan, Nimble Pilferer 2/1; Crime Novelist 2/4; Knuckles the Echidna 2/4 | open mana 15
+Add To Stack: Calden triggered The Ur-Dragon
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [The Ur-Dragon (315), Scion of the Ur-Dragon (403)]]
+Add To Stack: Calden triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (342)]
+Phase: Calden's Declare Blockers Step
+Combat: Captain didn't block The Ur-Dragon (315).
+Captain didn't block Scion of the Ur-Dragon (403).
+Captain assigned Ragavan, Nimble Pilferer (168) and Crime Novelist (152) to block Delighted Halfling (384).
+
+Game Result: unfinished (Forge closed mid-game)
