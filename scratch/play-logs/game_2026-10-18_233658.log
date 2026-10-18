@@ -1,0 +1,784 @@
+Player: Captain (HUMAN) deck=Captain America v7
+Player: Etar (AI) deck=Doom Prevails v3
+Player: Fickfylo (AI) deck=Mr House v4
+Player: Kiden (AI) deck=Tidus v3
+Mulligan: Fickfylo has mulliganed down to 7 cards.
+Mulligan: Kiden has mulliganed down to 7 cards.
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Fickfylo has mulliganed down to 6 cards.
+Mulligan: Kiden has mulliganed down to 6 cards.
+Mulligan: Etar has kept a hand of 7 cards
+Mulligan: Fickfylo has kept a hand of 6 cards
+Mulligan: Kiden has kept a hand of 6 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Etar)
+Information: BOARD turn 1 (Etar) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Path of Ancestry(land); Sundown Pass(land); Plains(land); Commander's Plate(1)
+Information: BOARD turn 1 (Etar) | Etar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Coastal Peak(land); Scavenger Grounds(land)
+Information: BOARD turn 1 (Etar) | Fickfylo | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Plains(land); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3)
+Information: BOARD turn 1 (Etar) | Kiden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Overflowing Basin(land); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land)
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Replacement Effect: This land enters tapped.
+Land: Etar played Coastal Peak (137)
+Phase: Etar's Beginning of Combat Step
+Phase: Etar's Declare Attackers Step
+Phase: Etar's Declare Blockers Step
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 2 (Fickfylo)
+Information: BOARD turn 2 (Fickfylo) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Path of Ancestry(land); Sundown Pass(land); Plains(land); Commander's Plate(1)
+Information: BOARD turn 2 (Fickfylo) | Etar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Canyon Slough(land)
+Information: BOARD turn 2 (Fickfylo) | Fickfylo | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Plains(land); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3)
+Information: BOARD turn 2 (Fickfylo) | Kiden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Overflowing Basin(land); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land)
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Land: Fickfylo played Plains (289)
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Phase: Fickfylo's Declare Blockers Step
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 3 (Kiden)
+Information: BOARD turn 3 (Kiden) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Path of Ancestry(land); Sundown Pass(land); Plains(land); Commander's Plate(1)
+Information: BOARD turn 3 (Kiden) | Etar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Canyon Slough(land)
+Information: BOARD turn 3 (Kiden) | Fickfylo | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3); Wear // Tear(3)
+Information: BOARD turn 3 (Kiden) | Kiden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Overflowing Basin(land); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land)
+Phase: Kiden's Untap step
+Phase: Kiden's Upkeep step
+Phase: Kiden's Draw step
+Phase: Kiden's Main phase, precombat
+Land: Kiden played Overflowing Basin (347)
+Phase: Kiden's Beginning of Combat Step
+Phase: Kiden's Declare Attackers Step
+Phase: Kiden's Declare Blockers Step
+Phase: Kiden's First Strike Damage Step
+Phase: Kiden's Combat Damage Step
+Phase: Kiden's End of Combat Step
+Phase: Kiden's Main phase, postcombat
+Phase: Kiden's End step
+Phase: Kiden's Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Path of Ancestry(land); Sundown Pass(land); Plains(land); Commander's Plate(1)
+Information: BOARD turn 4 (Captain) | Etar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Canyon Slough(land)
+Information: BOARD turn 4 (Captain) | Fickfylo | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3); Wear // Tear(3)
+Information: BOARD turn 4 (Captain) | Kiden | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Prairie Stream(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Captain played Path of Ancestry (12)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Etar)
+Information: BOARD turn 5 (Etar) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Plains(land); Commander's Plate(1); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 5 (Etar) | Etar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Canyon Slough(land)
+Information: BOARD turn 5 (Etar) | Fickfylo | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3); Wear // Tear(3)
+Information: BOARD turn 5 (Etar) | Kiden | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Prairie Stream(land)
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Etar played Canyon Slough (141)
+Phase: Etar's Beginning of Combat Step
+Phase: Etar's Declare Attackers Step
+Phase: Etar's Declare Blockers Step
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 6 (Fickfylo)
+Information: BOARD turn 6 (Fickfylo) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Plains(land); Commander's Plate(1); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 6 (Fickfylo) | Etar | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 6 (Fickfylo) | Fickfylo | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Weftstalker Ardent(3); Wear // Tear(3)
+Information: BOARD turn 6 (Fickfylo) | Kiden | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Prairie Stream(land)
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Land: Fickfylo played Mountain (286)
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Phase: Fickfylo's Declare Blockers Step
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Mana: Mountain (286) - {T}: Add {R}.
+Add To Stack: Fickfylo cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by Fickfylo | open mana: Captain 0, Etar 1, Kiden 0
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3 (Warped)
+Phase: Fickfylo's End step
+Add To Stack: Fickfylo triggered Weftstalker Ardent
+Zone Change: Weftstalker Ardent (252) was put into Exile from Battlefield.
+Resolve Stack: Exile Weftstalker Ardent (252) at the beginning of the next end step. ([Weftstalker Ardent (252)]) [Phase: Fickfylo]
+Phase: Fickfylo's Cleanup step
+Turn: Turn 7 (Kiden)
+Information: BOARD turn 7 (Kiden) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Plains(land); Commander's Plate(1); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 7 (Kiden) | Etar | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 7 (Kiden) | Fickfylo | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Wear // Tear(3)
+Information: BOARD turn 7 (Kiden) | Kiden | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Prairie Stream(land)
+Phase: Kiden's Untap step
+Phase: Kiden's Upkeep step
+Phase: Kiden's Draw step
+Phase: Kiden's Main phase, precombat
+Replacement Effect: Prairie Stream enters tapped unless you control two or more basic lands.
+Land: Kiden played Prairie Stream (403)
+Phase: Kiden's Beginning of Combat Step
+Phase: Kiden's Declare Attackers Step
+Phase: Kiden's Declare Blockers Step
+Phase: Kiden's First Strike Damage Step
+Phase: Kiden's Combat Damage Step
+Phase: Kiden's End of Combat Step
+Phase: Kiden's Main phase, postcombat
+Phase: Kiden's End step
+Phase: Kiden's Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Colossus Hammer(1); Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Plains(land); Commander's Plate(1); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 8 (Captain) | Etar | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 8 (Captain) | Fickfylo | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Wear // Tear(3)
+Information: BOARD turn 8 (Captain) | Kiden | life 40 | hand 6 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Evolving Wilds(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (83)
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Etar 1, Fickfylo 1, Kiden 0
+Resolve Stack: Colossus Hammer
+Mana: Path of Ancestry (12) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Captain cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Captain | open mana: Etar 1, Fickfylo 1, Kiden 0
+Resolve Stack: Commander's Plate
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Etar)
+Information: BOARD turn 9 (Etar) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 9 (Etar) | Etar | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Scavenger Grounds(land); Withering Torment(3)
+Information: BOARD turn 9 (Etar) | Fickfylo | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Wear // Tear(3)
+Information: BOARD turn 9 (Etar) | Kiden | life 40 | hand 6 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Evolving Wilds(land)
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Land: Etar played Scavenger Grounds (159)
+Phase: Etar's Beginning of Combat Step
+Phase: Etar's Declare Attackers Step
+Phase: Etar's Declare Blockers Step
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Add To Stack: Etar cast Containment Construct
+Information: BOARD cast | Containment Construct (mv 2) by Etar | open mana: Captain 0, Fickfylo 1, Kiden 0
+Resolve Stack: Containment Construct - Creature 2 / 1
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 10 (Fickfylo)
+Information: BOARD turn 10 (Fickfylo) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 10 (Fickfylo) | Etar | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Containment Construct 2/1 | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 10 (Fickfylo) | Fickfylo | life 40 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Plains(land); Godless Shrine(land); Wear // Tear(3)
+Information: BOARD turn 10 (Fickfylo) | Kiden | life 40 | hand 6 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Evolving Wilds(land)
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Wear targeting [Containment Construct (182)]
+Information: BOARD cast | Wear (mv 2) by Fickfylo | open mana: Captain 0, Etar 1, Kiden 0
+Zone Change: Containment Construct (182) was put into Graveyard from Battlefield.
+Resolve Stack: Wear (206) - Destroy Containment Construct (182).
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Land: Fickfylo played Plains (290)
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Phase: Fickfylo's Declare Blockers Step
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 11 (Kiden)
+Information: BOARD turn 11 (Kiden) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 11 (Kiden) | Etar | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 11 (Kiden) | Fickfylo | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Godless Shrine(land); Cathartic Reunion(2)
+Information: BOARD turn 11 (Kiden) | Kiden | life 40 | hand 6 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Fortified Village(land); Evolving Wilds(land)
+Phase: Kiden's Untap step
+Phase: Kiden's Upkeep step
+Phase: Kiden's Draw step
+Phase: Kiden's Main phase, precombat
+Replacement Effect: As Fortified Village enters, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters tapped.
+Land: Kiden played Fortified Village (364)
+Phase: Kiden's Beginning of Combat Step
+Phase: Kiden's Declare Attackers Step
+Phase: Kiden's Declare Blockers Step
+Phase: Kiden's First Strike Damage Step
+Phase: Kiden's Combat Damage Step
+Phase: Kiden's End of Combat Step
+Phase: Kiden's Main phase, postcombat
+Phase: Kiden's End step
+Phase: Kiden's Cleanup step
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 12 (Captain) | Etar | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 12 (Captain) | Fickfylo | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Godless Shrine(land); Cathartic Reunion(2)
+Information: BOARD turn 12 (Captain) | Kiden | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Captain played Glacial Fortress (70)
+Mana: Path of Ancestry (12) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Etar 1, Fickfylo 1, Kiden 2
+Add To Stack: Captain triggered Path of Ancestry
+Resolve Stack: Captain scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Captain America, First Avenger - Creature 4 / 4]) [Card: Captain America, First Avenger (100), Activator: Captain, SpellAbility: Captain America, First Avenger - Creature 4 / 4]
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Commander's Plate (55)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (55)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Etar)
+Information: BOARD turn 13 (Etar) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 13 (Etar) | Etar | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Terramorphic Expanse(land); Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 13 (Etar) | Fickfylo | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Godless Shrine(land); Cathartic Reunion(2)
+Information: BOARD turn 13 (Etar) | Kiden | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Land: Etar played Terramorphic Expanse (200)
+Zone Change: Terramorphic Expanse (200) was put into Graveyard from Battlefield.
+Add To Stack: Etar activated Terramorphic Expanse
+Resolve Stack: Terramorphic Expanse (200) - Etar searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Phase: Etar's Beginning of Combat Step
+Phase: Etar's Declare Attackers Step
+Phase: Etar's Declare Blockers Step
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Canyon Slough (141) - {T}: Add {R}.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Etar cast Electro, Assaulting Battery
+Information: BOARD cast | Electro, Assaulting Battery (mv 3) by Etar | open mana: Captain 0, Fickfylo 1, Kiden 2
+Resolve Stack: Electro, Assaulting Battery - Creature 2 / 3
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 14 (Fickfylo)
+Information: BOARD turn 14 (Fickfylo) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 14 (Fickfylo) | Etar | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Electro, Assaulting Battery 2/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 14 (Fickfylo) | Fickfylo | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyberman Patrol(2); Exsanguinate(2); Godless Shrine(land); Cathartic Reunion(2)
+Information: BOARD turn 14 (Fickfylo) | Kiden | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Fickfylo played Godless Shrine (238)
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by Fickfylo | open mana: Captain 0, Etar 0, Kiden 2
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Phase: Fickfylo's Declare Blockers Step
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 15 (Kiden)
+Information: BOARD turn 15 (Kiden) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 15 (Kiden) | Etar | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Electro, Assaulting Battery 2/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 15 (Kiden) | Fickfylo | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weftstalker Ardent 2/3 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 15 (Kiden) | Kiden | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Phase: Kiden's Untap step
+Phase: Kiden's Upkeep step
+Phase: Kiden's Draw step
+Phase: Kiden's Main phase, precombat
+Land: Kiden played Command Tower (341)
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Land: Kiden picked {W}
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Land: Kiden picked {G}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Kiden cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Kiden | open mana: Captain 0, Etar 0, Fickfylo 0
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Kiden's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kiden's Declare Attackers Step
+Phase: Kiden's Declare Blockers Step
+Phase: Kiden's First Strike Damage Step
+Phase: Kiden's Combat Damage Step
+Phase: Kiden's End of Combat Step
+Phase: Kiden's Main phase, postcombat
+Phase: Kiden's End step
+Phase: Kiden's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Sword of Feast and Famine(3); Sword of War and Peace(3); Sundown Pass(land); Kellan, the Fae-Blooded(3); Champion's Helm(3)
+Information: BOARD turn 16 (Captain) | Etar | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Electro, Assaulting Battery 2/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 16 (Captain) | Fickfylo | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weftstalker Ardent 2/3 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 16 (Captain) | Kiden | life 40 | hand 6 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Port Town(land); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Captain played Sundown Pass (26)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Mana: Sundown Pass (26) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Sword of Feast and Famine
+Information: BOARD cast | Sword of Feast and Famine (mv 3) by Captain | open mana: Etar 0, Fickfylo 0, Kiden 0
+Resolve Stack: Sword of Feast and Famine
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Feast and Famine (93)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (93)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Kiden.
+Information: BOARD attack | Captain -> Kiden | attackers 1 (power 9) | defender life 40 | untapped creatures 1 (power 3): Tidus, Yuna's Guardian 3/3 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Kiden didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 9 combat damage to Kiden.
+Life: Life: Kiden 40 > 31
+Add To Stack: Captain triggered Sword of Feast and Famine
+Discard: Kiden discards Port Town (409).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (100), Damaged: Kiden, Amount: 9]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Mana: Sundown Pass (26) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Champion's Helm
+Information: BOARD cast | Champion's Helm (mv 3) by Captain | open mana: Etar 0, Fickfylo 0, Kiden 0
+Resolve Stack: Champion's Helm
+Mana: Path of Ancestry (12) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Captain activated Champion's Helm targeting [Captain America, First Avenger (100)]
+Resolve Stack: Champion's Helm (76) -  Attach to Captain America, First Avenger (100)
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Etar)
+Information: BOARD turn 17 (Etar) | Captain | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 11/11*[Commander's Plate,Sword of Feast and Famine,Champion's Helm] | hand cards: Sword of War and Peace(3); Kellan, the Fae-Blooded(3); Island(land)
+Information: BOARD turn 17 (Etar) | Etar | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Electro, Assaulting Battery 2/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Bedevil(3); Withering Torment(3)
+Information: BOARD turn 17 (Etar) | Fickfylo | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weftstalker Ardent 2/3 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 17 (Etar) | Kiden | life 31 | hand 5 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Information: BOARD threat | turn 17 | Captain America, First Avenger (Captain) 78
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Canyon Slough (141) - {T}: Add {B}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Add To Stack: Etar cast Bedevil targeting [Sword of Feast and Famine (93)]
+Information: BOARD cast | Bedevil (mv 3) by Etar | open mana: Captain 0, Fickfylo 0, Kiden 0
+Add To Stack: Etar triggered Electro, Assaulting Battery
+Resolve Stack: Whenever you cast an instant or sorcery spell, add {R}. [Card: Bedevil (167), Activator: Etar, SpellAbility: Destroy target artifact, creature or planeswalker.]
+Zone Change: Sword of Feast and Famine (93) was put into Graveyard from Battlefield.
+Resolve Stack: Bedevil (167) - Destroy Sword of Feast and Famine (93).
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Land: Etar played Island (123)
+Phase: Etar's Beginning of Combat Step
+Phase: Etar's Declare Attackers Step
+Combat: Etar assigned Electro, Assaulting Battery (132) to attack Captain.
+Information: BOARD attack | Etar -> Captain | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Etar's Declare Blockers Step
+Combat: Captain didn't block Electro, Assaulting Battery (132).
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Damage: Electro, Assaulting Battery (132) deals 2 combat damage to Captain.
+Life: Life: Captain 40 > 38
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 18 (Fickfylo)
+Information: BOARD turn 18 (Fickfylo) | Captain | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Champion's Helm] | hand cards: Sword of War and Peace(3); Kellan, the Fae-Blooded(3); Island(land)
+Information: BOARD turn 18 (Fickfylo) | Etar | life 40 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Electro, Assaulting Battery 2/3* | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 18 (Fickfylo) | Fickfylo | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weftstalker Ardent 2/3 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5)
+Information: BOARD turn 18 (Fickfylo) | Kiden | life 31 | hand 5 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Information: BOARD threat | turn 18 | Captain America, First Avenger (Captain) 75
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Fickfylo | open mana: Captain 0, Etar 3, Kiden 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: Fickfylo triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Etar.
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Kiden.
+Life: Life: Captain 38 > 37
+Life: Life: Etar 40 > 39
+Life: Life: Kiden 31 > 30
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (302)]
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Combat: Fickfylo assigned Weftstalker Ardent (252) to attack Captain.
+Information: BOARD attack | Fickfylo -> Captain | attackers 1 (power 2) | defender life 37 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Fickfylo's Declare Blockers Step
+Combat: Captain didn't block Weftstalker Ardent (252).
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Damage: Weftstalker Ardent (252) deals 2 combat damage to Captain.
+Life: Life: Captain 37 > 35
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 19 (Kiden)
+Information: BOARD turn 19 (Kiden) | Captain | life 35 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Champion's Helm] | hand cards: Sword of War and Peace(3); Kellan, the Fae-Blooded(3); Island(land)
+Information: BOARD turn 19 (Kiden) | Etar | life 39 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Electro, Assaulting Battery 2/3* | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 19 (Kiden) | Fickfylo | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Weftstalker Ardent 2/3*; Mr. House, President and CEO 0/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5); Caretaker's Talent(3)
+Information: BOARD turn 19 (Kiden) | Kiden | life 30 | hand 5 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Wildwood Scourge(1); Blitzball Stadium(1); Auron, Venerated Guardian(4); Evolving Wilds(land); Luminous Broodmoth(4)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Captain) 72; Weftstalker Ardent (Fickfylo) 43
+Phase: Kiden's Untap step
+Phase: Kiden's Upkeep step
+Phase: Kiden's Draw step
+Phase: Kiden's Main phase, precombat
+Land: Kiden played Evolving Wilds (348)
+Zone Change: Evolving Wilds (348) was put into Graveyard from Battlefield.
+Add To Stack: Kiden activated Evolving Wilds
+Resolve Stack: Evolving Wilds (348) - Kiden searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Land: Kiden picked {G}
+Mana: Fortified Village (364) - {T}: Add {G} or {W}.
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Land: Kiden picked {W}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Kiden cast Wildwood Scourge
+Information: BOARD cast | Wildwood Scourge (mv 3) by Kiden | open mana: Captain 0, Etar 3, Fickfylo 1
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Resolve Stack: Wildwood Scourge - Creature 0 / 0 (X=2)
+Phase: Kiden's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Kiden's Declare Attackers Step
+Combat: Kiden assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Kiden -> Captain | attackers 1 (power 3) | defender life 35 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Kiden's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Kiden's First Strike Damage Step
+Phase: Kiden's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Life: Life: Captain 35 > 32
+Phase: Kiden's End of Combat Step
+Phase: Kiden's Main phase, postcombat
+Phase: Kiden's End step
+Phase: Kiden's Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Captain | life 32 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Commander's Plate,Champion's Helm] | hand cards: Sword of War and Peace(3); Kellan, the Fae-Blooded(3); Island(land)
+Information: BOARD turn 20 (Captain) | Etar | life 39 | hand 4 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Electro, Assaulting Battery 2/3* | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 20 (Captain) | Fickfylo | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Weftstalker Ardent 2/3*; Mr. House, President and CEO 0/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5); Caretaker's Talent(3)
+Information: BOARD turn 20 (Captain) | Kiden | life 30 | hand 4 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 3/3*; Wildwood Scourge 2/2 | hand cards: Blitzball Stadium(1); Auron, Venerated Guardian(4); Luminous Broodmoth(4); Farseek(2)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Captain) 69; Weftstalker Ardent (Fickfylo) 41
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (28)
+Mana: Sundown Pass (26) - {T}: Add {R} or {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Captain cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Captain | open mana: Etar 3, Fickfylo 1, Kiden 0
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Mana: Island (28) - {T}: Add {U}.
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Mana: Path of Ancestry (12) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Captain cast Sword of War and Peace
+Information: BOARD cast | Sword of War and Peace (mv 3) by Captain | open mana: Etar 3, Fickfylo 1, Kiden 0
+Resolve Stack: Sword of War and Peace
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Colossus Hammer (38)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (38)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Kiden.
+Information: BOARD attack | Captain -> Kiden | attackers 1 (power 19) | defender life 30 | untapped creatures 1 (power 2): Wildwood Scourge 2/2 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Kiden didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 19 combat damage to Kiden.
+Life: Life: Kiden 30 > 11
+Add To Stack: Captain triggered Kediss, Emberclaw Familiar
+Damage: Captain America, First Avenger (100) deals 19 non-combat damage to Etar.
+Damage: Captain America, First Avenger (100) deals 19 non-combat damage to Fickfylo.
+Life: Life: Etar 39 > 20
+Life: Life: Fickfylo 40 > 21
+Resolve Stack: Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent. [Damage Source: Captain America, First Avenger (100), Damaged: Kiden, Amount: 19]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Etar)
+Information: BOARD turn 21 (Etar) | Captain | life 32 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 19/19*[Commander's Plate,Champion's Helm,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Kellan, the Fae-Blooded(3)
+Information: BOARD turn 21 (Etar) | Etar | life 20 | hand 4 | lands 5 (1 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Electro, Assaulting Battery 2/3* | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 21 (Etar) | Fickfylo | life 21 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Weftstalker Ardent 2/3*; Mr. House, President and CEO 0/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5); Caretaker's Talent(3)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Captain) 288; Weftstalker Ardent (Fickfylo) 40
+Phase: Etar's Untap step
+Phase: Etar's Upkeep step
+Phase: Etar's Draw step
+Phase: Etar's Main phase, precombat
+Land: Etar played Swamp (156)
+Mana: Island (123) - {T}: Add {U}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Add To Stack: Etar cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Etar | open mana: Captain 0, Fickfylo 1
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Etar's Beginning of Combat Step
+Add To Stack: Etar triggered Doctor Doom, King of Latveria targeting [Electro, Assaulting Battery (132)]
+Discard: Etar discards Command Tower (120).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Electro, Assaulting Battery (132)]]) [Phase: Etar]
+Add To Stack: Etar triggered Doctor Doom, King of Latveria
+Life: Life: Fickfylo 21 > 19
+Life: Life: Captain 32 > 30
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Etar, Amount: 1]
+Phase: Etar's Declare Attackers Step
+Combat: Etar assigned Electro, Assaulting Battery (132) to attack Captain.
+Information: BOARD attack | Etar -> Captain | attackers 1 (power 2) | defender life 30 | untapped creatures 1 (power 1): Kediss, Emberclaw Familiar 1/1 | open mana 0
+Phase: Etar's Declare Blockers Step
+Combat: Captain didn't block Electro, Assaulting Battery (132).
+Phase: Etar's First Strike Damage Step
+Phase: Etar's Combat Damage Step
+Damage: Electro, Assaulting Battery (132) deals 2 combat damage to Captain.
+Life: Life: Captain 30 > 28
+Phase: Etar's End of Combat Step
+Phase: Etar's Main phase, postcombat
+Phase: Etar's End step
+Phase: Etar's Cleanup step
+Turn: Turn 22 (Fickfylo)
+Information: BOARD turn 22 (Fickfylo) | Captain | life 28 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 19/19*[Commander's Plate,Champion's Helm,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Kellan, the Fae-Blooded(3)
+Information: BOARD turn 22 (Fickfylo) | Etar | life 20 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Electro, Assaulting Battery 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 22 (Fickfylo) | Fickfylo | life 19 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Weftstalker Ardent 2/3*; Mr. House, President and CEO 0/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Skithiryx, the Blight Dragon(5); Caretaker's Talent(3)
+Information: BOARD threat | turn 22 | Captain America, First Avenger (Captain) 276; Weftstalker Ardent (Fickfylo) 38; Electro, Assaulting Battery (Etar) 34
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Fickfylo played Isolated Chapel (237)
+Land: Fickfylo picked {B}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Skithiryx, the Blight Dragon
+Information: BOARD cast | Skithiryx, the Blight Dragon (mv 5) by Fickfylo | open mana: Captain 0, Etar 3
+Resolve Stack: Skithiryx, the Blight Dragon - Creature 4 / 4
+Add To Stack: Fickfylo triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Captain.
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Etar.
+Life: Life: Captain 28 > 27
+Life: Life: Etar 20 > 19
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Skithiryx, the Blight Dragon (225)]
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Phase: Fickfylo's Declare Blockers Step
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 23 (Captain)
+Information: BOARD turn 23 (Captain) | Captain | life 27 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 19/19*[Commander's Plate,Champion's Helm,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Kellan, the Fae-Blooded(3)
+Information: BOARD turn 23 (Captain) | Etar | life 19 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Electro, Assaulting Battery 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Loki, the Deceiver(4); Kang Prime(5); Black Cat, Cunning Thief(5); Withering Torment(3)
+Information: BOARD turn 23 (Captain) | Fickfylo | life 19 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Weftstalker Ardent 2/3; Mr. House, President and CEO 0/4; Skithiryx, the Blight Dragon 4/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Caretaker's Talent(3)
+Information: BOARD threat | turn 23 | Captain America, First Avenger (Captain) 265; Weftstalker Ardent (Fickfylo) 63; Electro, Assaulting Battery (Etar) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: devCaptain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of War and Peace (94)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of War and Peace (94)]]) [Phase: Captain]
+Mana: Canyon Slough (141) - {T}: Add {B}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Etar cast Withering Torment targeting [Kediss, Emberclaw Familiar (41)]
+Information: BOARD cast | Withering Torment (mv 3) by Etar | open mana: Captain 10, Fickfylo 0
+Add To Stack: Etar triggered Electro, Assaulting Battery
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Electro, Assaulting Battery (132)]
+Damage: Captain America, First Avenger (100) deals 3 damage to Electro, Assaulting Battery (132).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Electro, Assaulting Battery (132) (3 damage).
+Zone Change: Electro, Assaulting Battery (132) was put into Graveyard from Battlefield.
+Add To Stack: Etar triggered Electro, Assaulting Battery
+Resolve Stack: When Electro leaves the battlefield, you may pay {X}. When you do, he deals X damage to target player. [Zone Changer: Electro, Assaulting Battery (132)]
+Add To Stack: Etar triggered Electro, Assaulting Battery targeting [Fickfylo]
+Resolve Stack: When you do, he deals X damage to target player. (Targeting: [[Fickfylo]])
+Resolve Stack: Whenever you cast an instant or sorcery spell, add {R}. [Card: Withering Torment (142), Activator: Etar, SpellAbility: Destroy target creature or enchantment. You lose 2 life. ]
+Zone Change: Kediss, Emberclaw Familiar (41) was put into Graveyard from Battlefield.
+Life: Life: Etar 19 > 17
+Resolve Stack: Withering Torment (142) - Destroy Kediss, Emberclaw Familiar (41). Etar loses 2 life.
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Etar.
+Information: BOARD attack | Captain -> Etar | attackers 1 (power 19) | defender life 17 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Etar didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 19 combat damage to Etar.
+Life: Life: Etar 17 > -2
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Sundown Pass (26) - {T}: Add {R} or {W}.
+Mana: Path of Ancestry (12) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Captain cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Captain | open mana: Fickfylo 0
+Resolve Stack: Birthright Boon (65) - Captain searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 24 (Fickfylo)
+Information: BOARD turn 24 (Fickfylo) | Captain | life 27 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 19/19*[Commander's Plate,Champion's Helm,Colossus Hammer] | hand cards: Embercleave(6); Brotherhood Regalia(2)
+Information: BOARD turn 24 (Fickfylo) | Fickfylo | life 19 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Weftstalker Ardent 2/3; Mr. House, President and CEO 0/4; Skithiryx, the Blight Dragon 4/4 | hand cards: Cyberman Patrol(2); Exsanguinate(2); Cathartic Reunion(2); Caretaker's Talent(3)
+Information: BOARD threat | turn 24 | Captain America, First Avenger (Captain) 288; Weftstalker Ardent (Fickfylo) 60
+Phase: Fickfylo's Untap step
+Phase: Fickfylo's Upkeep step
+Phase: Fickfylo's Draw step
+Phase: Fickfylo's Main phase, precombat
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Cyberman Patrol
+Information: BOARD cast | Cyberman Patrol (mv 2) by Fickfylo | open mana: Captain 0
+Resolve Stack: Cyberman Patrol - Creature 2 / 2
+Add To Stack: Fickfylo triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (252) deals 1 non-combat damage to Captain.
+Life: Life: Captain 27 > 26
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Cyberman Patrol (222)]
+Phase: Fickfylo's Beginning of Combat Step
+Phase: Fickfylo's Declare Attackers Step
+Combat: Fickfylo assigned Skithiryx, the Blight Dragon (225) and Weftstalker Ardent (252) to attack Captain.
+Information: BOARD attack | Fickfylo -> Captain | attackers 2 (power 6) | defender life 26 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Fickfylo's Declare Blockers Step
+Combat: Captain didn't block Skithiryx, the Blight Dragon (225).
+Captain didn't block Weftstalker Ardent (252).
+Phase: Fickfylo's First Strike Damage Step
+Phase: Fickfylo's Combat Damage Step
+Damage: Skithiryx, the Blight Dragon (225) deals 4 combat damage to Captain(as poison counters).
+Damage: Weftstalker Ardent (252) deals 2 combat damage to Captain.
+Life: Life: Captain 26 > 24
+Damage: Captain receives 4 poison counter from Fickfylo
+Phase: Fickfylo's End of Combat Step
+Phase: Fickfylo's Main phase, postcombat
+Land: Fickfylo picked {B}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Mana: Godless Shrine (238) - {T}: Add {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Fickfylo cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Fickfylo | open mana: Captain 0
+Life: Life: Captain 24 > 23
+Life: Life: Fickfylo 19 > 20
+Resolve Stack: Exsanguinate (229) - Captain loses 1 life. You gain life equal to the life lost this way.
+Phase: Fickfylo's End step
+Phase: Fickfylo's Cleanup step
+Turn: Turn 25 (Captain)
+Information: BOARD turn 25 (Captain) | Captain | life 23 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 19/19*[Commander's Plate,Champion's Helm,Colossus Hammer] | hand cards: Embercleave(6); Brotherhood Regalia(2)
+Information: BOARD turn 25 (Captain) | Fickfylo | life 20 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Weftstalker Ardent 2/3*; Mr. House, President and CEO 0/4; Skithiryx, the Blight Dragon 4/4*; Cyberman Patrol 2/2 | hand cards: Cathartic Reunion(2); Caretaker's Talent(3); Faithless Looting(1)
+Information: BOARD threat | turn 25 | Captain America, First Avenger (Captain) 276; Weftstalker Ardent (Fickfylo) 89
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (84)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Add To Stack: Captain cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Captain | open mana: Fickfylo 0
+Resolve Stack: Brotherhood Regalia
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Brotherhood Regalia (91)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Brotherhood Regalia (91)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Fickfylo.
+Information: BOARD attack | Captain -> Fickfylo | attackers 1 (power 19) | defender life 20 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Fickfylo didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 19 combat damage to Fickfylo.
+Life: Life: Fickfylo 20 > 1
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Glacial Fortress (70) - {T}: Add {W} or {U}.
+Mana: Sundown Pass (26) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Fickfylo]
+Damage: Captain America, First Avenger (100) deals 3 non-combat damage to Fickfylo.
+Life: Life: Fickfylo 1 > -2
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 3 damage divided to 
+Fickfylo (3 damage).
+Player Control: Captain has restored control over themself
+Player Control: Etar has restored control over themself
+Player Control: Fickfylo has restored control over themself
+Player Control: Kiden has restored control over themself
+Game Outcome: Match Duration 14m : 30s
+Game Outcome: Turn 13
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Etar has lost because life total reached 0
+Game Outcome: Fickfylo has lost because life total reached 0
+Game Outcome: Kiden has lost due to accumulation of 21 damage from generals
+Match Result: Captain: 1 Etar: 0 Fickfylo: 0 Kiden: 0 
+
+Game Result: Captain has won
