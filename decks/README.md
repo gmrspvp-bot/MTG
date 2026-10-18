@@ -11,6 +11,9 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 | Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
 | Tidus | `Tidus v3.dck` | bulk upgrades |
 | Deadpool | `Deadpool v3.dck` | bulk upgrades |
+| Angels | `Angels.dck` | Seluma, Light of Aysen. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Olivia | `Olivia.dck` | Olivia, Opulent Outlaw. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
 
 Older versions are kept for reference and comparisons; never delete or overwrite them. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
