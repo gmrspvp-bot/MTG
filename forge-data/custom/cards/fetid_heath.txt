@@ -1,0 +1,7 @@
+Name:Fetid Heath
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ WB T | Produced$ Combo W B | Amount$ 2 | SpellDescription$ Add {W}{W}, {W}{B}, or {B}{B}.
+# Filter land. AI still taps it for {C}; the filter mode is a bonus.
+Oracle:{T}: Add {C}.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.
