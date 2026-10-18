@@ -642,6 +642,8 @@ public final class AiPatches {
     public static class ThreatChangeZoneAi extends forge.ai.ability.ChangeZoneAi {
         @Override
         protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            forge.ai.AiAbilityDecision ov = OneSidedOverload.decide(ai, sa);
+            if (ov != null) return ov;
             return ThreatRetarget.apply(ai, sa, super.checkApiLogic(ai, sa), true);
         }
 
@@ -1657,6 +1659,87 @@ public final class AiPatches {
         }
     }
 
+    /**
+     * One-sided overload removal (Winds of Abandon; works for any overload spell whose
+     * battlefield-leaving effect only hits "Creature.YouDontCtrl"). Forge's AI always turned the
+     * overloaded version down and cast the single-target one (11 of 11 casts in v8's first
+     * games), wasting an exile-everything-of-theirs wipe. With 3+ opposing creatures (or 2 worth
+     * 500+ by Forge's evaluation), cast it overloaded and hold back the single-target version.
+     */
+    static final class OneSidedOverload {
+        static final int MIN_CREATURES = 3, MIN_VALUE_FOR_TWO = 500;
+
+        static boolean oneSided(SpellAbility sa) {
+            String valid = sa.getParamOrDefault("ValidTgts", "") + "|" + sa.getParamOrDefault("Defined", "");
+            return "Battlefield".equals(sa.getParam("Origin")) && valid.contains("Creature.YouDontCtrl");
+        }
+
+        static SpellAbility overloadOf(Card host) {
+            for (SpellAbility s : host.getAllSpellAbilities()) {
+                if (s.isAlternativeCost(forge.game.spellability.AlternativeCost.Overload)) return s;
+            }
+            return null;
+        }
+
+        static boolean worthIt(Player ai) {
+            int n = 0, value = 0;
+            for (Player opp : ai.getOpponents()) {
+                for (Card c : opp.getCreaturesInPlay()) { n++; value += forge.ai.ComputerUtilCard.evaluateCreature(c); }
+            }
+            return n >= MIN_CREATURES || (n >= 2 && value >= MIN_VALUE_FOR_TWO);
+        }
+
+        /** A decision for this spell ability, or null to leave it to Forge. */
+        static forge.ai.AiAbilityDecision decide(Player ai, SpellAbility sa) {
+            Card host = sa.getHostCard();
+            if (host == null || !sa.isSpell() || !oneSided(sa)) return null;
+            SpellAbility over = overloadOf(host);
+            if (over == null) return null;
+            if (sa.isAlternativeCost(forge.game.spellability.AlternativeCost.Overload)) {
+                if (!worthIt(ai)) return null;
+                System.out.println("WIPEAI " + ai.getName() + ": " + host.getName() + " overloaded (one-sided)");
+                return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+            }
+            // Single-target version: hold it if the overload is worth it and affordable now.
+            over.setActivatingPlayer(ai);
+            if (worthIt(ai) && forge.ai.ComputerUtilCost.canPayCost(over, ai, false)) {
+                return new forge.ai.AiAbilityDecision(0, forge.ai.AiPlayDecision.CantPlayAi);
+            }
+            return null;
+        }
+    }
+
+    /**
+     * Board-damage wipes (Blasphemous Act) for the Captain America player: Forge's AI cast it
+     * while it killed our own Captain America (3 of 6 casts in v8's first games). Only cast it
+     * when he survives (indestructible, or toughness left above the damage) or isn't on the
+     * battlefield - unless our life is in danger anyway.
+     */
+    public static class CaptainSafeDamageAllAi extends forge.ai.ability.DamageAllAi {
+        static boolean capDies(Player ai, SpellAbility sa) {
+            int dmg = forge.game.ability.AbilityUtils.calculateAmount(sa.getHostCard(), sa.getParamOrDefault("NumDmg", "0"), sa);
+            for (Card c : ai.getCreaturesInPlay()) {
+                if (!CaptainPolicy.isCaptain(c)) continue;
+                if (c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) return false;
+                return c.getNetToughness() - c.getDamage() <= dmg;
+            }
+            return false;
+        }
+
+        @Override
+        protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            forge.ai.AiAbilityDecision d = super.checkApiLogic(ai, sa);
+            if (!CaptainPolicy.enabled || !d.willingToPlay() || !capDies(ai, sa)) return d;
+            // "serious" = the board could kill us: the mild check fired even at 40 life.
+            if (forge.ai.ComputerUtil.aiLifeInDanger(ai, true, 0)) {
+                System.out.println("WIPEAI " + ai.getName() + ": " + sa.getHostCard().getName() + " although it kills Captain America (life in danger)");
+                return d;
+            }
+            System.out.println("WIPEAI " + ai.getName() + ": " + sa.getHostCard().getName() + " held (would kill Captain America)");
+            return new forge.ai.AiAbilityDecision(0, forge.ai.AiPlayDecision.CantPlayAi);
+        }
+    }
+
     @SuppressWarnings("unchecked")
     public static void apply() {
         List<String> wanted = Arrays.asList(System.getProperty("forge.aipatches", "").toLowerCase().split(","));
@@ -1704,6 +1787,7 @@ public final class AiPatches {
                 instances.put(ApiType.DealDamage, new ThrowAwareDamageAi());
                 instances.put(ApiType.Pump, new EquipHelperPumpAi());   // Codsworth / Weapons Vendor attach
                 instances.put(ApiType.PumpAll, new SavingPumpAllAi());   // Flawless Maneuver only when it saves something
+                instances.put(ApiType.DamageAll, new CaptainSafeDamageAllAi());   // Blasphemous Act: don't kill our own Cap
                 System.out.println("AiPatches: captain (Throw saved for attackers or lethal; attacks only when it pays off)");
             }
             if (wanted.contains("deploy")) {
