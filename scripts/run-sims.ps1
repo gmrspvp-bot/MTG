@@ -1,4 +1,4 @@
-﻿# Runs Forge four-player Commander simulations in parallel batches, rotating
+# Runs Forge four-player Commander simulations in parallel batches, rotating
 # seat order between batches, then summarises win rates.
 #
 # Usage:
@@ -42,6 +42,11 @@ $root     = Split-Path -Parent $PSScriptRoot
 $forgeDir = Join-Path $root 'forge-installer-2.0.15'
 $deckDir  = Join-Path $root 'decks'
 $java     = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\java.exe'
+# Fall back to the JDK on PATH when Liberica 17 is not installed (JDK 21 works too).
+if (-not (Test-Path $java)) {
+    $c = Get-Command java -ErrorAction SilentlyContinue
+    if ($c) { $java = $c.Source } else { throw "No java.exe found (install BellSoft Liberica JDK 17 or put a JDK on PATH)." }
+}
 $jar      = 'forge-gui-desktop-2.0.15-jar-with-dependencies.jar'
 # SimLauncher applies runtime AI additions (scripts\tools\AiPatches.java) and then
 # starts Forge as usual. Running from -cp loses the jar manifest's Add-Opens, so

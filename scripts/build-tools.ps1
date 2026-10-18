@@ -16,7 +16,12 @@ $forge = Join-Path $root 'forge-installer-2.0.15\forge-gui-desktop-2.0.15-jar-wi
 $tools = Join-Path $PSScriptRoot 'tools'
 $out   = Join-Path $tools 'classes'
 
-if (-not (Test-Path "$jdk\javac.exe")) { throw "JDK 17 not found at $jdk (install BellSoft Liberica JDK 17 or edit `$jdk)." }
+# Fall back to the JDK on PATH when Liberica 17 is not installed (JDK 21 works too).
+if (-not (Test-Path "$jdk\javac.exe")) {
+    $c = Get-Command javac -ErrorAction SilentlyContinue
+    if ($c) { $jdk = Split-Path $c.Source }
+}
+if (-not (Test-Path "$jdk\javac.exe")) { throw "No javac found (install BellSoft Liberica JDK 17 or put a JDK on PATH)." }
 if (-not (Test-Path $forge)) { throw "Forge 2.0.15 not found at $forge (see CLAUDE.md, Setup)." }
 New-Item -ItemType Directory -Force $out | Out-Null
 

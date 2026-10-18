@@ -20,6 +20,11 @@ Add-Type -AssemblyName System.Windows.Forms
 $root     = Split-Path -Parent $PSScriptRoot
 $forgeDir = Join-Path $root 'forge-installer-2.0.15'
 $java     = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\java.exe'
+# Fall back to the JDK on PATH when Liberica 17 is not installed (JDK 21 works too).
+if (-not (Test-Path $java)) {
+    $c = Get-Command java -ErrorAction SilentlyContinue
+    if ($c) { $java = $c.Source } else { throw "No java.exe found (install BellSoft Liberica JDK 17 or put a JDK on PATH)." }
+}
 $jar      = 'forge-gui-desktop-2.0.15-jar-with-dependencies.jar'
 $toolClasses = Join-Path $PSScriptRoot 'tools\classes'
 
