@@ -1,22 +1,22 @@
 [metadata]
-Name=Captain America v7
-Description=Captain America v7 (2026-10-18): v6 with 17 swaps picked with the owner. In: Sram, Geist of Saint Thalia, Kediss, Cloudsteel Kirin, Stoneforge Mystic, Kaldra Compleat, Dalakos, Akiri, The Reaver Cleaver (owner's picks); Embercleave, Swiftfoot Boots, Akroma's Will, Boros Charm, Counterspell, Fighter Class, Generous Gift, Rogue's Passage. Out: Danitha Sword of Hope, Old Thrush, Madame Web, Propaganda, Loyal Inventor, Monk's Fist, Iroas, Curiosity, Web-Shooters, Deathrender, Spider-Bot, In the Trenches, Lightning Bolt, Syncopate, Thought Vessel, Thror's Map, 1 Plains.
+Name=Captain America v8
+Description=Captain America v8 (2026-10-19): v7 + the owner's picks Enthusiastic Mechanaut, Leonin Shikari, Shuri Wakandan Inventor, Captain America's Shield, Genji Glove, Leyline Axe, and two board wipes Blasphemous Act (owned) and Winds of Abandon. Out: Desynchronization, Spell Pierce, Auxiliary Boosters, Loran of the Third Path, Sculpting Steel, Bureau Headmaster, Audacious Reshapers, Weapons Vendor.
 [commander]
 1 Captain America, First Avenger
 [main]
 1 Generous Gift
 1 Swiftfoot Boots
 1 Geist of Saint Thalia
-1 Weapons Vendor
+1 Leonin Shikari
 1 Sokka and Suki
 1 Adaptive Omnitool
 1 Arcane Signet
-1 Audacious Reshapers
-1 Auxiliary Boosters
+1 Shuri, Wakandan Inventor
+1 Genji Glove
 1 Basilisk Collar
 1 Blacksmith's Talent
 1 Brotherhood Regalia
-1 Bureau Headmaster
+1 Enthusiastic Mechanaut
 1 Champion's Helm
 1 Codsworth, Handy Helper
 1 Colossus Hammer
@@ -30,7 +30,7 @@ Description=Captain America v7 (2026-10-18): v6 with 17 swaps picked with the ow
 1 Iron Man, Titan of Innovation
 1 Kellan, the Fae-Blooded
 1 Leonin Abunas
-1 Loran of the Third Path
+1 Leyline Axe
 1 Stoneforge Mystic
 1 Kediss, Emberclaw Familiar
 1 Mana Drain
@@ -42,11 +42,11 @@ Description=Captain America v7 (2026-10-18): v6 with 17 swaps picked with the ow
 1 Path to Exile
 1 Cloudsteel Kirin
 1 Puresteel Paladin
-1 Sculpting Steel
+1 Captain America's Shield
 1 Sigarda's Aid
 1 Skullclamp
 1 Sol Ring
-1 Spell Pierce
+1 Winds of Abandon
 1 Sword of Feast and Famine
 1 Sword of Light and Shadow
 1 Sword of War and Peace
@@ -95,4 +95,4 @@ Description=Captain America v7 (2026-10-18): v6 with 17 swaps picked with the ow
 1 Akroma's Will
 1 Akiri, Fearless Voyager
 1 Dalakos, Crafter of Wonders
-1 Desynchronization
+1 Blasphemous Act
