@@ -55,7 +55,11 @@ public final class AiPatches {
         static final List<String> HEXPROOF = Arrays.asList("Whispersilk Cloak", "Champion's Helm",
             "Lightning Greaves", "Swiftfoot Boots");
         static final List<String> OTHER_PROTECTION = Arrays.asList("Mithril Coat", "Darksteel Plate",
-            "Commander's Plate", "Sword of Feast and Famine", "Sword of Light and Shadow", "Sword of War and Peace");
+            "Commander's Plate", "Sword of Feast and Famine", "Sword of Light and Shadow", "Sword of War and Peace",
+            "Kaldra Compleat", "Cloudsteel Kirin");   // Kaldra: indestructible; Kirin: "you can't lose" (v7)
+
+        /** Cloudsteel Kirin goes on first at or below this life: "you can't lose the game". */
+        static final int KIRIN_LIFE = 15;
 
         static Card pick(List<String> names, List<Card> candidates) {
             for (String name : names) {
@@ -224,7 +228,10 @@ public final class AiPatches {
                 if (OTHER_PROTECTION.contains(e.getName())) { hasAnyProtection = true; }
             }
             Card choice = null;
-            if (!hasHexproof) choice = pick(HEXPROOF, candidates);
+            // Low on life, "you can't lose the game" beats hexproof (the owner lost on 2 life to
+            // unblockable flyers).
+            if (ai.getLife() <= KIRIN_LIFE) choice = pick(Arrays.asList("Cloudsteel Kirin"), candidates);
+            if (choice == null && !hasHexproof) choice = pick(HEXPROOF, candidates);
             if (choice == null && !hasAnyProtection) choice = pick(OTHER_PROTECTION, candidates);
             if (choice == null) {
                 for (Card c : candidates) {
@@ -845,7 +852,21 @@ public final class AiPatches {
         }
 
         /** Whether (and why) to throw now under the current style; sets the targets. */
+        /**
+         * The throw's cost could unattach Cloudsteel Kirin (mana value 3) while we're low on
+         * life and it's what keeps us in the game.
+         */
+        static boolean kirinAtRisk(Player ai, SpellAbility sa) {
+            if (ai.getLife() > CatchAwareAttachAi.KIRIN_LIFE || totalDamage(sa) != 3) return false;
+            for (Card e : sa.getHostCard().getEquippedBy()) { if ("Cloudsteel Kirin".equals(e.getName())) return true; }
+            return false;
+        }
+
         static String decideThrow(Player ai, SpellAbility sa, boolean forgeWilling) {
+            int left = 0;
+            for (Player p : ai.getOpponents()) { if (!p.hasLost()) left++; }
+            // Keep Kirin on unless this throw can end the game (one opponent left).
+            if (kirinAtRisk(ai, sa) && left > 1) return null;
             if (forgeWilling) {
                 String why = throwReason(ai, sa);
                 if (why != null && why.startsWith("lethal")) return why;

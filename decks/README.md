@@ -7,6 +7,7 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 | Deck | File to run | Notes |
 |---|---|---|
 | Captain America | `Captain America v6.dck` | Latest upgrade from the bulk collection. In Oct 2026 tests all versions (original to v6) won 16-20%, with no clear difference |
+| Captain America (planned) | `Captain America v7.dck` | 2026-10-18: v6 + 17 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver...). Cards not owned yet; not tested yet. See the deck's Description for the full list |
 | Mr House | `Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
 | Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
 | Tidus | `Tidus v3.dck` | bulk upgrades |
