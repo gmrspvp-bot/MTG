@@ -1,0 +1,1921 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Macon (AI) deck=Doom Prevails v3
+Player: Nathaniel (AI) deck=Mr House v4
+Player: Ava (AI) deck=Tidus v3
+Mulligan: Nathaniel has mulliganed down to 7 cards.
+Mulligan: Nathaniel has mulliganed down to 6 cards.
+Mulligan: Nathaniel has mulliganed down to 5 cards.
+Mulligan: Macon has kept a hand of 7 cards
+Mulligan: Nathaniel has kept a hand of 5 cards
+Mulligan: Ava has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Macon)
+Information: BOARD turn 1 (Macon) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Sigarda's Aid(1); Spectator Seating(land); Loran of the Third Path(3); Propaganda(3)
+Information: BOARD turn 1 (Macon) | Macon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Swamp(land); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Scorched Geyser(land)
+Information: BOARD turn 1 (Macon) | Nathaniel | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Brightclimb Pathway(land); Attempted Murder(2); Shattered Sanctum(land)
+Information: BOARD turn 1 (Macon) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Radiant Grove(land); Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Land: Macon played Swamp (153)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 2 (Nathaniel)
+Information: BOARD turn 2 (Nathaniel) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Sigarda's Aid(1); Spectator Seating(land); Loran of the Third Path(3); Propaganda(3)
+Information: BOARD turn 2 (Nathaniel) | Macon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Scorched Geyser(land); Magmakin Artillerist(3)
+Information: BOARD turn 2 (Nathaniel) | Nathaniel | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Brightclimb Pathway(land); Attempted Murder(2); Shattered Sanctum(land)
+Information: BOARD turn 2 (Nathaniel) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Radiant Grove(land); Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Brightclimb Pathway (219)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 3 (Ava)
+Information: BOARD turn 3 (Ava) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Sigarda's Aid(1); Spectator Seating(land); Loran of the Third Path(3); Propaganda(3)
+Information: BOARD turn 3 (Ava) | Macon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Scorched Geyser(land); Magmakin Artillerist(3)
+Information: BOARD turn 3 (Ava) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 3 (Ava) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Radiant Grove(land); Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Ava played Radiant Grove (404)
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Sigarda's Aid(1); Spectator Seating(land); Loran of the Third Path(3); Propaganda(3)
+Information: BOARD turn 4 (Captain) | Macon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Scorched Geyser(land); Magmakin Artillerist(3)
+Information: BOARD turn 4 (Captain) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 4 (Captain) | Ava | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land); Prime Speaker Zegana(6)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Captain played Spectator Seating (78)
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Captain | open mana: Macon 1, Nathaniel 1, Ava 0
+Resolve Stack: Sigarda's Aid
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Macon)
+Information: BOARD turn 5 (Macon) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 5 (Macon) | Macon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Scorched Geyser(land); Magmakin Artillerist(3)
+Information: BOARD turn 5 (Macon) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 5 (Macon) | Ava | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land); Prime Speaker Zegana(6)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: This land enters tapped unless you control two or more basic lands.
+Land: Macon played Scorched Geyser (181)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 6 (Nathaniel)
+Information: BOARD turn 6 (Nathaniel) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 6 (Nathaniel) | Macon | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Magmakin Artillerist(3); Scavenger Grounds(land)
+Information: BOARD turn 6 (Nathaniel) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 6 (Nathaniel) | Ava | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land); Prime Speaker Zegana(6)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Plains (290)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 7 (Ava)
+Information: BOARD turn 7 (Ava) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 7 (Ava) | Macon | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Magmakin Artillerist(3); Scavenger Grounds(land)
+Information: BOARD turn 7 (Ava) | Nathaniel | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 7 (Ava) | Ava | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Three Visits(2); Summon: Yojimbo(4); Ash Barrens(land); Prairie Stream(land); Prime Speaker Zegana(6)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Land: Ava played Ash Barrens (388)
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Ava cast Three Visits
+Information: BOARD cast | Three Visits (mv 2) by Ava | open mana: Captain 0, Macon 1, Nathaniel 2
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Resolve Stack: Three Visits (361) - Ava searches their library for a Forest card, puts it onto the battlefield, then shuffles.
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 8 (Captain) | Macon | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Magmakin Artillerist(3); Scavenger Grounds(land)
+Information: BOARD turn 8 (Captain) | Nathaniel | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 8 (Captain) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (27)
+Mana: Island (27) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Old Thrush
+Information: BOARD cast | Old Thrush (mv 2) by Captain | open mana: Macon 1, Nathaniel 2, Ava 0
+Resolve Stack: Old Thrush - Creature 1 / 2
+Add To Stack: Captain triggered Old Thrush
+Life: Life: Captain 40 > 42
+Resolve Stack: When this creature enters, you gain 2 life. You may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Old Thrush (6)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Macon)
+Information: BOARD turn 9 (Macon) | Captain | life 42 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 9 (Macon) | Macon | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Magmakin Artillerist(3); Scavenger Grounds(land)
+Information: BOARD turn 9 (Macon) | Nathaniel | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 9 (Macon) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Land: Macon played Scavenger Grounds (159)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Macon cast Magmakin Artillerist
+Information: BOARD cast | Magmakin Artillerist (mv 3) by Macon | open mana: Captain 0, Nathaniel 2, Ava 0
+Resolve Stack: Magmakin Artillerist - Creature 1 / 4
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 10 (Nathaniel)
+Information: BOARD turn 10 (Nathaniel) | Captain | life 42 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 10 (Nathaniel) | Macon | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 10 (Nathaniel) | Nathaniel | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Ghostly Prison(3); Attempted Murder(2); Shattered Sanctum(land); Smoldering Marsh(land)
+Information: BOARD turn 10 (Nathaniel) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Nathaniel played Shattered Sanctum (210)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Add To Stack: Nathaniel cast Ghostly Prison
+Information: BOARD cast | Ghostly Prison (mv 3) by Nathaniel | open mana: Captain 0, Macon 0, Ava 0
+Resolve Stack: Ghostly Prison
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 11 (Ava)
+Information: BOARD turn 11 (Ava) | Captain | life 42 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 11 (Ava) | Macon | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 11 (Ava) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Smoldering Marsh(land); Exsanguinate(2)
+Information: BOARD turn 11 (Ava) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Land: Ava played Forest (352)
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Ava cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Ava | open mana: Captain 0, Macon 0, Nathaniel 0
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Everflowing Chalice
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Captain | life 42 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Propaganda(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 12 (Captain) | Macon | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 12 (Captain) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Smoldering Marsh(land); Exsanguinate(2)
+Information: BOARD turn 12 (Captain) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (86)
+Mana: Island (27) - {T}: Add {U}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Propaganda
+Information: BOARD cast | Propaganda (mv 3) by Captain | open mana: Macon 0, Nathaniel 0, Ava 2
+Resolve Stack: Propaganda
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Macon)
+Information: BOARD turn 13 (Macon) | Captain | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 13 (Macon) | Macon | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 13 (Macon) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Smoldering Marsh(land); Exsanguinate(2)
+Information: BOARD turn 13 (Macon) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Combat: Macon assigned Magmakin Artillerist (174) to attack Captain.
+Information: BOARD attack | Macon -> Captain | attackers 1 (power 1) | defender life 42 | untapped creatures 1 (power 1): Old Thrush 1/2 | open mana 0
+Phase: Macon's Declare Blockers Step
+Combat: Captain assigned Old Thrush (6) to block Magmakin Artillerist (174).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Magmakin Artillerist (174) deals 1 damage to Old Thrush (6).
+Damage: Old Thrush (6) deals 1 damage to Magmakin Artillerist (174).
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Macon played Path of Ancestry (107)
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 14 (Nathaniel)
+Information: BOARD turn 14 (Nathaniel) | Captain | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 14 (Nathaniel) | Macon | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Magmakin Artillerist 1/4* | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 14 (Nathaniel) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Smoldering Marsh(land); Exsanguinate(2)
+Information: BOARD turn 14 (Nathaniel) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Nathaniel played Smoldering Marsh (267)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 15 (Ava)
+Information: BOARD turn 15 (Ava) | Captain | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 15 (Ava) | Macon | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Magmakin Artillerist 1/4* | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 15 (Ava) | Nathaniel | life 40 | hand 4 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Ash Barrens(land)
+Information: BOARD turn 15 (Ava) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Caryatid(2); Summon: Yojimbo(4); Prairie Stream(land); Prime Speaker Zegana(6); Court of Garenbrig(3)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Replacement Effect: Prairie Stream enters tapped unless you control two or more basic lands.
+Land: Ava played Prairie Stream (403)
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Ava cast Summon: Yojimbo
+Information: BOARD cast | Summon: Yojimbo (mv 4) by Ava | open mana: Captain 0, Macon 1, Nathaniel 5
+Replacement Effect: Summon: Yojimbo enters with a lore counter on it.
+Resolve Stack: Summon: Yojimbo - Creature 5 / 5
+Add To Stack: Ava triggered Summon: Yojimbo targeting [Magmakin Artillerist (174)]
+Zone Change: Magmakin Artillerist (174) was put into Exile from Battlefield.
+Resolve Stack: I — Exile target artifact, enchantment, or tapped creature an opponent controls. (Targeting: [[Magmakin Artillerist (174)]]) [Added once: Summon: Yojimbo (393)]
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Captain | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Old Thrush 1/2 | hand cards: Sulfur Falls(land); Zirda, the Dawnwaker(3); Loran of the Third Path(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 16 (Captain) | Macon | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 16 (Captain) | Nathaniel | life 40 | hand 4 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Ash Barrens(land)
+Information: BOARD turn 16 (Captain) | Ava | life 40 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Summon: Yojimbo 5/5 | hand cards: Sylvan Caryatid(2); Prime Speaker Zegana(6); Court of Garenbrig(3); Idyllic Beachfront(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Captain played Sulfur Falls (52)
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Loran of the Third Path
+Information: BOARD cast | Loran of the Third Path (mv 3) by Captain | open mana: Macon 1, Nathaniel 5, Ava 2
+Resolve Stack: Loran of the Third Path - Creature 2 / 1
+Add To Stack: Captain triggered Loran of the Third Path targeting [Ghostly Prison (215)]
+Zone Change: Ghostly Prison (215) was put into Graveyard from Battlefield.
+Resolve Stack: When Loran of the Third Path enters, destroy up to one target artifact or enchantment. (Targeting: [[Ghostly Prison (215)]]) [Zone Changer: Loran of the Third Path (51)]
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Macon 1, Nathaniel 5, Ava 2
+Resolve Stack: Basilisk Collar
+Add To Stack: Captain triggered Sigarda's Aid targeting [Old Thrush (6)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Old Thrush (6)]]) [Zone Changer: Basilisk Collar (14)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Old Thrush (6) to attack Macon.
+Information: BOARD attack | Captain -> Macon | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Captain's Declare Blockers Step
+Combat: Macon didn't block Old Thrush (6).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Old Thrush (6) deals 1 combat damage to Macon.
+Life: Life: Captain 42 > 43
+Life: Life: Macon 40 > 39
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Macon)
+Information: BOARD turn 17 (Macon) | Captain | life 43 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Old Thrush 1/2*[Basilisk Collar]; Loran of the Third Path 2/1 | hand cards: Zirda, the Dawnwaker(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 17 (Macon) | Macon | life 39 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); Choked Estuary(land); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 17 (Macon) | Nathaniel | life 40 | hand 4 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Ash Barrens(land)
+Information: BOARD turn 17 (Macon) | Ava | life 40 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Summon: Yojimbo 5/5 | hand cards: Sylvan Caryatid(2); Prime Speaker Zegana(6); Court of Garenbrig(3); Idyllic Beachfront(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: As Choked Estuary enters, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters tapped.
+Land: Macon played Choked Estuary (114)
+Mana: Scorched Geyser (181) - {T}: Add {U}.
+Land: Macon picked {R}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Macon cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Macon | open mana: Captain 0, Nathaniel 5, Ava 2
+Add To Stack: Macon triggered Path of Ancestry
+Resolve Stack: Macon scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Doctor Doom, King of Latveria - Creature 3 / 3]) [Card: Doctor Doom, King of Latveria (201), Activator: Macon, SpellAbility: Doctor Doom, King of Latveria - Creature 3 / 3]
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards Abomination, World Ravager (183).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 18 (Nathaniel)
+Information: BOARD turn 18 (Nathaniel) | Captain | life 43 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Old Thrush 1/2*[Basilisk Collar]; Loran of the Third Path 2/1 | hand cards: Zirda, the Dawnwaker(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 18 (Nathaniel) | Macon | life 39 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5); Skullclamp(1)
+Information: BOARD turn 18 (Nathaniel) | Nathaniel | life 40 | hand 4 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Ash Barrens(land)
+Information: BOARD turn 18 (Nathaniel) | Ava | life 40 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Summon: Yojimbo 5/5 | hand cards: Sylvan Caryatid(2); Prime Speaker Zegana(6); Court of Garenbrig(3); Idyllic Beachfront(land)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Ash Barrens (269)
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Add To Stack: Nathaniel cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Nathaniel | open mana: Captain 0, Macon 0, Ava 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 19 (Ava)
+Information: BOARD turn 19 (Ava) | Captain | life 43 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Old Thrush 1/2*[Basilisk Collar]; Loran of the Third Path 2/1 | hand cards: Zirda, the Dawnwaker(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 19 (Ava) | Macon | life 39 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5); Skullclamp(1)
+Information: BOARD turn 19 (Ava) | Nathaniel | life 40 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 19 (Ava) | Ava | life 40 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Summon: Yojimbo 5/5 | hand cards: Sylvan Caryatid(2); Prime Speaker Zegana(6); Court of Garenbrig(3); Idyllic Beachfront(land)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Add To Stack: Ava triggered Summon: Yojimbo
+Resolve Stack: II, III — Until your next turn, creatures can't attack you unless their controller pays {2} for each of those creatures. [Added once: Summon: Yojimbo (393)]
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Ava played Idyllic Beachfront (333)
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Forest (352) - {T}: Add {G}.
+Add To Stack: Ava cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Ava | open mana: Captain 0, Macon 0, Nathaniel 2
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Combat: Ava assigned Summon: Yojimbo (393) to attack Macon.
+Information: BOARD attack | Ava -> Macon | attackers 1 (power 5) | defender life 39 | untapped creatures 1 (power 4): Doctor Doom, King of Latveria 4/4 | open mana 0
+Phase: Ava's Declare Blockers Step
+Combat: Macon didn't block Summon: Yojimbo (393).
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Damage: Summon: Yojimbo (393) deals 5 combat damage to Macon.
+Life: Life: Macon 39 > 34
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Macon, Amount: 5]
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Ava cast Sylvan Caryatid
+Information: BOARD cast | Sylvan Caryatid (mv 2) by Ava | open mana: Captain 0, Macon 0, Nathaniel 2
+Resolve Stack: Sylvan Caryatid - Creature 0 / 3
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Captain | life 43 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Old Thrush 1/2*[Basilisk Collar]; Loran of the Third Path 2/1 | hand cards: Zirda, the Dawnwaker(3); Madame Web, Clairvoyant(6)
+Information: BOARD turn 20 (Captain) | Macon | life 34 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5); Skullclamp(1)
+Information: BOARD turn 20 (Captain) | Nathaniel | life 40 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 20 (Captain) | Ava | life 40 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Summon: Yojimbo 5/5; Tidus, Yuna's Guardian 3/3; Sylvan Caryatid 0/3 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 20 | Summon: Yojimbo (Ava) 55
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain activated Loran of the Third Path targeting [Nathaniel]
+Resolve Stack: Loran of the Third Path (51) - Captain and Nathaniel each draw a card.
+Land: Captain played Plains (80)
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Add To Stack: Captain cast Zirda, the Dawnwaker
+Information: BOARD cast | Zirda, the Dawnwaker (mv 3) by Captain | open mana: Macon 0, Nathaniel 2, Ava 2
+Resolve Stack: Zirda, the Dawnwaker - Creature 3 / 3
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Macon)
+Information: BOARD turn 21 (Macon) | Captain | life 43 | hand 2 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 3 (2 untapped): Old Thrush 1/2[Basilisk Collar]; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3 | hand cards: Madame Web, Clairvoyant(6); Swords to Plowshares(1)
+Information: BOARD turn 21 (Macon) | Macon | life 34 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Chameleon, Master of Disguise(4); Vandalblast(1); The Squadron Sinister(7); Madame Hydra(4); Damocles Base, Sword of Kang(5); Skullclamp(1)
+Information: BOARD turn 21 (Macon) | Nathaniel | life 40 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 21 (Macon) | Ava | life 40 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Summon: Yojimbo 5/5; Tidus, Yuna's Guardian 3/3; Sylvan Caryatid 0/3 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 21 | Summon: Yojimbo (Ava) 53
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Land: Macon played Island (125)
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Macon picked {U}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Land: Macon picked {U}
+Mana: Path of Ancestry (107) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Macon cast Vandalblast
+Information: BOARD cast | Vandalblast (mv 1) by Macon | open mana: Captain 6, Nathaniel 2, Ava 2
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Zone Change: Everflowing Chalice (358) was put into Graveyard from Battlefield.
+Zone Change: Basilisk Collar (14) was put into Graveyard from Battlefield.
+Resolve Stack: Vandalblast (161) - Destroy each artifact you don't control.
+Mana: Scavenger Grounds (159) - {T}: Add {C}.
+Add To Stack: Macon cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Macon | open mana: Captain 6, Nathaniel 2, Ava 0
+Resolve Stack: Skullclamp
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards The Squadron Sinister (129).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 22 (Nathaniel)
+Information: BOARD turn 22 (Nathaniel) | Captain | life 43 | hand 2 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 3 (2 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3 | hand cards: Madame Web, Clairvoyant(6); Swords to Plowshares(1)
+Information: BOARD turn 22 (Nathaniel) | Macon | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6)
+Information: BOARD turn 22 (Nathaniel) | Nathaniel | life 40 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Attempted Murder(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 22 (Nathaniel) | Ava | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Summon: Yojimbo 5/5; Tidus, Yuna's Guardian 3/3; Sylvan Caryatid 0/3 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 22 | Summon: Yojimbo (Ava) 51
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Nathaniel played Dragonskull Summit (245)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Land: Nathaniel picked {B}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: Nathaniel cast Attempted Murder
+Information: BOARD cast | Attempted Murder (mv 2) by Nathaniel | open mana: Captain 6, Macon 0, Ava 0
+Resolve Stack: Attempted Murder (299) - Roll 4 d6. For each even result, put two -1/-1 counters on Summon: Yojimbo (393). For each odd result, Nathaniel creates a 1/2 blue Bird creature token with flying named Storm Crow.
+Zone Change: Summon: Yojimbo (393) was put into Graveyard from Battlefield.
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 23 (Ava)
+Information: BOARD turn 23 (Ava) | Captain | life 43 | hand 2 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 3 (2 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3 | hand cards: Madame Web, Clairvoyant(6); Swords to Plowshares(1)
+Information: BOARD turn 23 (Ava) | Macon | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6)
+Information: BOARD turn 23 (Ava) | Nathaniel | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Storm Crow 1/2 | hand cards: Cathartic Reunion(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 23 (Ava) | Ava | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 3/3; Sylvan Caryatid 0/3 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Combat: Ava assigned Tidus, Yuna's Guardian (413) to attack Nathaniel.
+Information: BOARD attack | Ava -> Nathaniel | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 1): Storm Crow 1/2 | open mana 0
+Phase: Ava's Declare Blockers Step
+Combat: Nathaniel didn't block Tidus, Yuna's Guardian (413).
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Nathaniel.
+Life: Life: Nathaniel 40 > 37
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Canopy Vista (385) - {T}: Add {W}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Add To Stack: Ava cast Sunscorch Regent
+Information: BOARD cast | Sunscorch Regent (mv 5) by Ava | open mana: Captain 6, Macon 0, Nathaniel 0
+Resolve Stack: Sunscorch Regent - Creature 4 / 3
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 24 (Captain)
+Information: BOARD turn 24 (Captain) | Captain | life 43 | hand 2 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 3 (2 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3 | hand cards: Madame Web, Clairvoyant(6); Swords to Plowshares(1)
+Information: BOARD turn 24 (Captain) | Macon | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6)
+Information: BOARD turn 24 (Captain) | Nathaniel | life 37 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Storm Crow 1/2 | hand cards: Cathartic Reunion(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 24 (Captain) | Ava | life 40 | hand 3 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 4/3 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: devCaptain's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Leonin Abunas
+Information: BOARD cast | Leonin Abunas (mv 4) by Captain | open mana: Macon 0, Nathaniel 0, Ava 2
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 40 > 41
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Leonin Abunas (97), Activator: Captain, SpellAbility: Leonin Abunas - Creature 2 / 5]
+Resolve Stack: Leonin Abunas - Creature 2 / 5
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 25 (Macon)
+Information: BOARD turn 25 (Macon) | Captain | life 43 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 4 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6)
+Information: BOARD turn 25 (Macon) | Macon | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6)
+Information: BOARD turn 25 (Macon) | Nathaniel | life 37 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Storm Crow 1/2 | hand cards: Cathartic Reunion(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 25 (Macon) | Ava | life 41 | hand 3 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 5/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (125) - {T}: Add {U}.
+Zone Change: Scavenger Grounds (159) was put into Graveyard from Battlefield.
+Add To Stack: Macon activated Scavenger Grounds
+Resolve Stack: Scavenger Grounds (159) -  Exile all graveyards.
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards Talisman of Indulgence (108).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Doctor Doom, King of Latveria (201) to attack Ava.
+Information: BOARD attack | Macon -> Ava | attackers 1 (power 6) | defender life 41 | untapped creatures 2 (power 5): Sylvan Caryatid 0/3; Sunscorch Regent 5/4 | open mana 2
+Phase: Macon's Declare Blockers Step
+Combat: Ava didn't block Doctor Doom, King of Latveria (201).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 6 combat damage to Ava.
+Life: Life: Ava 41 > 35
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 26 (Nathaniel)
+Information: BOARD turn 26 (Nathaniel) | Captain | life 43 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 4 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6)
+Information: BOARD turn 26 (Nathaniel) | Macon | life 34 | hand 5 | lands 5 (3 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 26 (Nathaniel) | Nathaniel | life 37 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Storm Crow 1/2 | hand cards: Cathartic Reunion(2); Exsanguinate(2); Blightstep Pathway(land); Deadbeat Attendant(2)
+Information: BOARD turn 26 (Nathaniel) | Ava | life 35 | hand 3 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 5/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 26 | Doctor Doom, King of Latveria (Macon) 72
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Blightstep Pathway (214)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Combat: Nathaniel assigned Storm Crow (417) to attack Macon.
+Information: BOARD attack | Nathaniel -> Macon | attackers 1 (power 1) | defender life 34 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Nathaniel's Declare Blockers Step
+Combat: Macon didn't block Storm Crow (417).
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Damage: Storm Crow (417) deals 1 combat damage to Macon.
+Life: Life: Macon 34 > 33
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Nathaniel picked {B}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: Nathaniel cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Nathaniel | open mana: Captain 3, Macon 6, Ava 2
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 35 > 36
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Exsanguinate (229), Activator: Nathaniel, SpellAbility: Each opponent loses 5 life. You gain life equal to the life lost this way. (X=5; fixed-X split so the AI counts Treasures.) ]
+Life: Life: Ava 36 > 31
+Life: Life: Captain 43 > 38
+Life: Life: Macon 33 > 28
+Life: Life: Nathaniel 37 > 52
+Resolve Stack: Exsanguinate (229) - Ava, Captain and Macon each lose 5 life. You gain life equal to the life lost this way.
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 27 (Ava)
+Information: BOARD turn 27 (Ava) | Captain | life 38 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 4 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6)
+Information: BOARD turn 27 (Ava) | Macon | life 28 | hand 5 | lands 5 (3 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 27 (Ava) | Nathaniel | life 52 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Storm Crow 1/2* | hand cards: Cathartic Reunion(2); Deadbeat Attendant(2); Caesar, Legion's Emperor(4)
+Information: BOARD turn 27 (Ava) | Ava | life 31 | hand 3 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 6/5 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 27 | Doctor Doom, King of Latveria (Macon) 69
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Combat: Ava assigned Tidus, Yuna's Guardian (413) and Sunscorch Regent (399) to attack Macon.
+Information: BOARD attack | Ava -> Macon | attackers 2 (power 9) | defender life 28 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Ava's Declare Blockers Step
+Combat: Macon didn't block Tidus, Yuna's Guardian (413).
+Macon didn't block Sunscorch Regent (399).
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Macon.
+Damage: Sunscorch Regent (399) deals 6 combat damage to Macon.
+Life: Life: Macon 28 > 19
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Macon, Amount: 6]
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Ava cast The Earth King
+Information: BOARD cast | The Earth King (mv 4) by Ava | open mana: Captain 3, Macon 6, Nathaniel 0
+Resolve Stack: The Earth King - Creature 2 / 2
+Add To Stack: Ava triggered The Earth King
+Resolve Stack: When The Earth King enters, create a 4/4 green Bear creature token. [Zone Changer: The Earth King (382)]
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 38 | hand 2 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 4 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6)
+Information: BOARD turn 28 (Captain) | Macon | life 19 | hand 5 | lands 5 (3 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 28 (Captain) | Nathaniel | life 52 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Storm Crow 1/2* | hand cards: Cathartic Reunion(2); Deadbeat Attendant(2); Caesar, Legion's Emperor(4)
+Information: BOARD turn 28 (Captain) | Ava | life 31 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 6/5*; The Earth King 2/2; Bear Token 4/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 28 | Doctor Doom, King of Latveria (Macon) 66; Sunscorch Regent (Ava) 61; Tidus, Yuna's Guardian (Ava) 57
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain activated Loran of the Third Path targeting [Nathaniel]
+Resolve Stack: Loran of the Third Path (51) - Captain and Nathaniel each draw a card.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add To Stack: Captain cast Loyal Inventor
+Information: BOARD cast | Loyal Inventor (mv 3) by Captain | open mana: Macon 6, Nathaniel 0, Ava 3
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 31 > 32
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Loyal Inventor (72), Activator: Captain, SpellAbility: Loyal Inventor - Creature 2 / 3]
+Resolve Stack: Loyal Inventor - Creature 2 / 3
+Add To Stack: Captain triggered Loyal Inventor
+Resolve Stack: When Loyal Inventor enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library. [Zone Changer: Loyal Inventor (72)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Macon)
+Information: BOARD turn 29 (Macon) | Captain | life 38 | hand 3 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 29 (Macon) | Macon | life 19 | hand 5 | lands 5 (3 untapped) | open mana 6 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 6/6* | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 29 (Macon) | Nathaniel | life 52 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Storm Crow 1/2* | hand cards: Cathartic Reunion(2); Deadbeat Attendant(2); Caesar, Legion's Emperor(4); The Deck of Many Things(5)
+Information: BOARD turn 29 (Macon) | Ava | life 32 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 7/6*; The Earth King 2/2; Bear Token 4/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 29 | Sunscorch Regent (Ava) 73; Doctor Doom, King of Latveria (Macon) 63; Tidus, Yuna's Guardian (Ava) 54; Loran of the Third Path (Captain) 34
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards Swamp (157).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Life: Life: Nathaniel 52 > 50
+Life: Life: Ava 32 > 30
+Life: Life: Captain 38 > 36
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Macon picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast The Frightful Four
+Information: BOARD cast | The Frightful Four (mv 4) by Macon | open mana: Captain 6, Nathaniel 0, Ava 3
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 30 > 31
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: The Frightful Four (171), Activator: Macon, SpellAbility: The Frightful Four - Creature 4 / 4]
+Resolve Stack: The Frightful Four - Creature 4 / 4
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 30 (Nathaniel)
+Information: BOARD turn 30 (Nathaniel) | Captain | life 36 | hand 3 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 30 (Nathaniel) | Macon | life 19 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 30 (Nathaniel) | Nathaniel | life 50 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Storm Crow 1/2* | hand cards: Cathartic Reunion(2); Deadbeat Attendant(2); Caesar, Legion's Emperor(4); The Deck of Many Things(5)
+Information: BOARD turn 30 (Nathaniel) | Ava | life 31 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 8/7*; The Earth King 2/2; Bear Token 4/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 30 | Doctor Doom, King of Latveria (Macon) 90; Sunscorch Regent (Ava) 85; Tidus, Yuna's Guardian (Ava) 52; Loran of the Third Path (Captain) 32
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Combat: Nathaniel assigned Storm Crow (417) to attack Ava.
+Information: BOARD attack | Nathaniel -> Ava | attackers 1 (power 1) | defender life 31 | untapped creatures 3 (power 6): Sylvan Caryatid 0/3; The Earth King 2/2; Bear Token 4/4 | open mana 3
+Phase: Nathaniel's Declare Blockers Step
+Combat: Ava didn't block Storm Crow (417).
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Damage: Storm Crow (417) deals 1 combat damage to Ava.
+Life: Life: Ava 31 > 30
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Nathaniel cast Caesar, Legion's Emperor
+Information: BOARD cast | Caesar, Legion's Emperor (mv 4) by Nathaniel | open mana: Captain 6, Macon 2, Ava 3
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 30 > 31
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Caesar, Legion's Emperor (240), Activator: Nathaniel, SpellAbility: Caesar, Legion's Emperor - Creature 4 / 4]
+Resolve Stack: Caesar, Legion's Emperor - Creature 4 / 4
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Nathaniel cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Nathaniel | open mana: Captain 6, Macon 2, Ava 3
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 31 > 32
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Deadbeat Attendant (279), Activator: Nathaniel, SpellAbility: Deadbeat Attendant - Creature 1 / 1]
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Nathaniel triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (279)]
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Add To Stack: Nathaniel cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Nathaniel | open mana: Captain 6, Macon 2, Ava 3
+Add To Stack: Ava triggered Sunscorch Regent
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Nathaniel 50 > 49
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Sol Ring (251), Activator: Nathaniel, SpellAbility: Sol Ring]
+Life: Life: Ava 32 > 33
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Sol Ring (251), Activator: Nathaniel, SpellAbility: Sol Ring]
+Resolve Stack: Sol Ring
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 31 (Ava)
+Information: BOARD turn 31 (Ava) | Captain | life 36 | hand 3 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 31 (Ava) | Macon | life 19 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 31 (Ava) | Nathaniel | life 49 | hand 2 | lands 7 (0 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); The Deck of Many Things(5)
+Information: BOARD turn 31 (Ava) | Ava | life 33 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 3/3*; Sylvan Caryatid 0/3; Sunscorch Regent 11/10*; The Earth King 2/2; Bear Token 4/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3); Inexorable Tide(5)
+Information: BOARD threat | turn 31 | Sunscorch Regent (Ava) 124; Doctor Doom, King of Latveria (Macon) 86; Tidus, Yuna's Guardian (Ava) 50; Loran of the Third Path (Captain) 31
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Canopy Vista (385) - {T}: Add {W}.
+Add To Stack: Ava cast Together Forever
+Information: BOARD cast | Together Forever (mv 2) by Ava | open mana: Captain 6, Macon 2, Nathaniel 2
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Ava 33 > 31
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Together Forever (324), Activator: Ava, SpellAbility: Together Forever]
+Resolve Stack: Together Forever
+Add To Stack: Ava triggered Together Forever targeting [Sunscorch Regent (399), Tidus, Yuna's Guardian (413)]
+Resolve Stack: When Together Forever enters, support 2. (Put a +1/+1 counter on each of up to two other target creatures.) (Targeting: [[Sunscorch Regent (399), Tidus, Yuna's Guardian (413)]]) [Zone Changer: Together Forever (324)]
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Combat: Ava assigned Sunscorch Regent (399) to attack Macon.
+Information: BOARD attack | Ava -> Macon | attackers 1 (power 12) | defender life 19 | untapped creatures 2 (power 10): Doctor Doom, King of Latveria 6/6; The Frightful Four 4/4 | open mana 2
+Add To Stack: Ava triggered The Earth King
+Resolve Stack: Whenever one or more creatures you control with power 4 or greater attack, search your library for up to that many basic land cards, put them onto the battlefield tapped, then shuffle. [Number Attackers: [Sunscorch Regent (399)]]
+Phase: Ava's Declare Blockers Step
+Combat: Macon didn't block Sunscorch Regent (399).
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Damage: Sunscorch Regent (399) deals 12 combat damage to Macon.
+Life: Life: Macon 19 > 7
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Macon, Amount: 12]
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Forest (352) - {T}: Add {G}.
+Land: Sylvan Caryatid (330) picked {W}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Add To Stack: Ava cast Inexorable Tide
+Information: BOARD cast | Inexorable Tide (mv 5) by Ava | open mana: Captain 6, Macon 2, Nathaniel 2
+Resolve Stack: Inexorable Tide
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 32 (Captain)
+Information: BOARD turn 32 (Captain) | Captain | life 36 | hand 3 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2; Loran of the Third Path 2/1*; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 32 (Captain) | Macon | life 7 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 32 (Captain) | Nathaniel | life 49 | hand 2 | lands 7 (0 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); The Deck of Many Things(5)
+Information: BOARD turn 32 (Captain) | Ava | life 31 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (3 untapped): Tidus, Yuna's Guardian 4/4; Sylvan Caryatid 0/3*; Sunscorch Regent 12/11*; The Earth King 2/2; Bear Token 4/4 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3)
+Information: BOARD threat | turn 32 | Sunscorch Regent (Ava) 189; Doctor Doom, King of Latveria (Macon) 83; Tidus, Yuna's Guardian (Ava) 63
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Nazgûl Battle-Mace
+Information: BOARD cast | Nazgûl Battle-Mace (mv 5) by Captain | open mana: Macon 2, Nathaniel 2, Ava 0
+Add To Stack: Macon triggered The Frightful Four
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 31 > 32
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Nazgûl Battle-Mace (36), Activator: Captain, SpellAbility: Nazgûl Battle-Mace]
+Life: Life: Captain 36 > 31
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Nazgûl Battle-Mace (36), Activator: Captain, SpellAbility: Nazgûl Battle-Mace]
+Resolve Stack: Nazgûl Battle-Mace
+Add To Stack: Captain triggered Sigarda's Aid targeting [Old Thrush (6)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Old Thrush (6)]]) [Zone Changer: Nazgûl Battle-Mace (36)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Old Thrush (6) to attack Ava.
+Information: BOARD attack | Captain -> Ava | attackers 1 (power 1) | defender life 32 | untapped creatures 3 (power 10): Tidus, Yuna's Guardian 4/4; The Earth King 2/2; Bear Token 4/4 | open mana 0
+Add To Stack: Captain triggered Old Thrush
+Zone Change: Bear Token (421) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Old Thrush (6)]
+Phase: Captain's Declare Blockers Step
+Combat: Ava didn't block Old Thrush (6).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Old Thrush (6) deals 1 combat damage to Ava.
+Life: Life: Ava 32 > 31
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 33 (Macon)
+Information: BOARD turn 33 (Macon) | Captain | life 31 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2*[Nazgûl Battle-Mace]; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 33 (Macon) | Macon | life 7 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Damocles Base, Sword of Kang(5); Molecule Man(6); Coastal Peak(land)
+Information: BOARD turn 33 (Macon) | Nathaniel | life 49 | hand 2 | lands 7 (0 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); The Deck of Many Things(5)
+Information: BOARD turn 33 (Macon) | Ava | life 31 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Tidus, Yuna's Guardian 4/4; Sylvan Caryatid 0/3*; Sunscorch Regent 13/12*; The Earth King 2/2 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3)
+Information: BOARD threat | turn 33 | Sunscorch Regent (Ava) 195; Doctor Doom, King of Latveria (Macon) 79; Tidus, Yuna's Guardian (Ava) 60; The Frightful Four (Macon) 41
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards Damocles Base, Sword of Kang (177).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Mana: Swamp (153) - {T}: Add {B}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Macon picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Add To Stack: Macon cast Withering Torment targeting [Sunscorch Regent (399)]
+Information: BOARD cast | Withering Torment (mv 3) by Macon | open mana: Captain 0, Nathaniel 2, Ava 0
+Add To Stack: Ava triggered Sunscorch Regent
+Life: Life: Ava 31 > 32
+Resolve Stack: Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life. [Card: Withering Torment (142), Activator: Macon, SpellAbility: Destroy target creature or enchantment. You lose 2 life. ]
+Zone Change: Sunscorch Regent (399) was put into Graveyard from Battlefield.
+Life: Life: Macon 7 > 5
+Resolve Stack: Withering Torment (142) - Destroy Sunscorch Regent (399). Macon loses 2 life.
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 34 (Nathaniel)
+Information: BOARD turn 34 (Nathaniel) | Captain | life 31 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2*[Nazgûl Battle-Mace]; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 34 (Nathaniel) | Macon | life 5 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Molecule Man(6); Coastal Peak(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 34 (Nathaniel) | Nathaniel | life 49 | hand 2 | lands 7 (0 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); The Deck of Many Things(5)
+Information: BOARD turn 34 (Nathaniel) | Ava | life 32 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 4/4; Sylvan Caryatid 0/3*; The Earth King 2/2 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3)
+Information: BOARD threat | turn 34 | Doctor Doom, King of Latveria (Macon) 90; Tidus, Yuna's Guardian (Ava) 58; The Frightful Four (Macon) 40
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Combat: Nathaniel assigned Caesar, Legion's Emperor (240) to attack Captain.
+Nathaniel assigned Storm Crow (417) to attack Macon.
+Information: BOARD attack | Nathaniel -> Captain | attackers 1 (power 4) | defender life 31 | untapped creatures 4 (power 9): Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | open mana 0
+Information: BOARD attack | Nathaniel -> Macon | attackers 1 (power 1) | defender life 5 | untapped creatures 2 (power 11): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4 | open mana 3
+Add To Stack: Nathaniel triggered Caesar, Legion's Emperor
+Resolve Stack: Whenever you attack, you may sacrifice another creature. When you do, choose two modes. [Number Attackers: [Caesar, Legion's Emperor (240), Storm Crow (417)]]
+Phase: Nathaniel's Declare Blockers Step
+Combat: Captain didn't block Caesar, Legion's Emperor (240).
+Combat: Macon didn't block Storm Crow (417).
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Damage: Caesar, Legion's Emperor (240) deals 4 combat damage to Captain.
+Damage: Storm Crow (417) deals 1 combat damage to Macon.
+Life: Life: Captain 31 > 27
+Life: Life: Macon 5 > 4
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Land: Nathaniel picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Add To Stack: Nathaniel cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by Nathaniel | open mana: Captain 0, Macon 3, Ava 0
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Nathaniel 49 > 44
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: The Deck of Many Things (301), Activator: Nathaniel, SpellAbility: The Deck of Many Things]
+Resolve Stack: The Deck of Many Things
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 35 (Ava)
+Information: BOARD turn 35 (Ava) | Captain | life 27 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2*[Nazgûl Battle-Mace]; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 35 (Ava) | Macon | life 4 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Molecule Man(6); Coastal Peak(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 35 (Ava) | Nathaniel | life 44 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4*; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Component Pouch(3)
+Information: BOARD turn 35 (Ava) | Ava | life 32 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Tidus, Yuna's Guardian 4/4; Sylvan Caryatid 0/3*; The Earth King 2/2 | hand cards: Prime Speaker Zegana(6); Court of Garenbrig(3)
+Information: BOARD threat | turn 35 | Doctor Doom, King of Latveria (Macon) 87; Tidus, Yuna's Guardian (Ava) 55; The Frightful Four (Macon) 53; Caesar, Legion's Emperor (Nathaniel) 37
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Mana: Island (346) - {T}: Add {U}.
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Ava cast Prime Speaker Zegana
+Information: BOARD cast | Prime Speaker Zegana (mv 6) by Ava | open mana: Captain 0, Macon 3, Nathaniel 1
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Prime Speaker Zegana (367), Activator: Ava, SpellAbility: Prime Speaker Zegana - Creature 1 / 1]
+Replacement Effect: Prime Speaker Zegana enters with X +1/+1 counters on it, where X is the greatest power among other creatures you control.
+Resolve Stack: Prime Speaker Zegana - Creature 1 / 1
+Add To Stack: Ava triggered Prime Speaker Zegana
+Resolve Stack: When Prime Speaker Zegana enters, draw cards equal to its power. [Zone Changer: Prime Speaker Zegana (367)]
+Land: Ava played Flooded Grove (396)
+Land: Sylvan Caryatid (330) picked {U}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Ava cast Chasm Skulker
+Information: BOARD cast | Chasm Skulker (mv 3) by Ava | open mana: Captain 0, Macon 3, Nathaniel 1
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Chasm Skulker (363), Activator: Ava, SpellAbility: Chasm Skulker - Creature 1 / 1]
+Resolve Stack: Chasm Skulker - Creature 1 / 1
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 36 (Captain)
+Information: BOARD turn 36 (Captain) | Captain | life 27 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Old Thrush 1/2*[Nazgûl Battle-Mace]; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 36 (Captain) | Macon | life 4 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Molecule Man(6); Coastal Peak(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 36 (Captain) | Nathaniel | life 44 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4*; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Component Pouch(3)
+Information: BOARD turn 36 (Captain) | Ava | life 32 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Tidus, Yuna's Guardian 6/6; Sylvan Caryatid 0/3*; The Earth King 2/2; Prime Speaker Zegana 7/7; Chasm Skulker 1/1 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Luminous Broodmoth(4); Forest(land); Brushland(land); Chocobo Knights(4)
+Information: BOARD threat | turn 36 | Doctor Doom, King of Latveria (Macon) 83; Tidus, Yuna's Guardian (Ava) 53; The Frightful Four (Macon) 51; Caesar, Legion's Emperor (Nathaniel) 36
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Battlefield Forge (70)
+Mana: Island (27) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Macon 3, Nathaniel 1, Ava 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (36)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (36)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (80) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (413), Doctor Doom, King of Latveria (201), The Frightful Four (171)]
+Damage: Captain America, First Avenger (100) deals 2 damage to Tidus, Yuna's Guardian (413).
+Damage: Captain America, First Avenger (100) deals 2 damage to Doctor Doom, King of Latveria (201).
+Damage: Captain America, First Avenger (100) deals 1 damage to The Frightful Four (171).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+Tidus, Yuna's Guardian (413) (2 damage), Doctor Doom, King of Latveria (201) (2 damage) and The Frightful Four (171) (1 damage).
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 37 (Macon)
+Information: BOARD turn 37 (Macon) | Captain | life 27 | hand 3 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 37 (Macon) | Macon | life 4 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4 | hand cards: Chameleon, Master of Disguise(4); Madame Hydra(4); Molecule Man(6); Coastal Peak(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 37 (Macon) | Nathaniel | life 44 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4*; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Component Pouch(3)
+Information: BOARD turn 37 (Macon) | Ava | life 32 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Tidus, Yuna's Guardian 6/6; Sylvan Caryatid 0/3*; The Earth King 2/2; Prime Speaker Zegana 7/7; Chasm Skulker 1/1 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Luminous Broodmoth(4); Forest(land); Brushland(land); Chocobo Knights(4)
+Information: BOARD threat | turn 37 | Doctor Doom, King of Latveria (Macon) 80; Tidus, Yuna's Guardian (Ava) 51; The Frightful Four (Macon) 49; Caesar, Legion's Emperor (Nathaniel) 35
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Macon discards Coastal Peak (137).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Macon]
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Life: Life: Nathaniel 44 > 42
+Life: Life: Ava 32 > 30
+Life: Life: Captain 27 > 25
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Mana: Island (125) - {T}: Add {U}.
+Mana: Swamp (153) - {T}: Add {B}.
+Land: Macon picked {B}
+Mana: Choked Estuary (114) - {T}: Add {U} or {B}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast Chameleon, Master of Disguise
+Information: BOARD cast | Chameleon, Master of Disguise (mv 4) by Macon | open mana: Captain 6, Nathaniel 1, Ava 0
+Replacement Effect: You may have Chameleon enter as a copy of a creature you control, except his name is Chameleon, Master of Disguise.
+Resolve Stack: Chameleon, Master of Disguise - Creature 2 / 3
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 38 (Nathaniel)
+Information: BOARD turn 38 (Nathaniel) | Captain | life 25 | hand 3 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 38 (Nathaniel) | Macon | life 4 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4; Chameleon, Master of Disguise 3/3 | hand cards: Madame Hydra(4); Molecule Man(6); Tombstone, Career Criminal(3); Batroc the Leaper(2); Fetid Pools(land)
+Information: BOARD turn 38 (Nathaniel) | Nathaniel | life 42 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Storm Crow 1/2*; Caesar, Legion's Emperor 4/4*; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Component Pouch(3)
+Information: BOARD turn 38 (Nathaniel) | Ava | life 30 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Tidus, Yuna's Guardian 6/6; Sylvan Caryatid 0/3*; The Earth King 2/2; Prime Speaker Zegana 7/7; Chasm Skulker 1/1 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Luminous Broodmoth(4); Forest(land); Brushland(land); Chocobo Knights(4)
+Information: BOARD threat | turn 38 | Doctor Doom, King of Latveria (Macon) 106; Tidus, Yuna's Guardian (Ava) 49; The Frightful Four (Macon) 47; Caesar, Legion's Emperor (Nathaniel) 33
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Add To Stack: Nathaniel triggered Hall of Mirrors targeting [Caesar, Legion's Emperor (240)]
+Resolve Stack: Visit — Choose target creature you control. Each other creature you control becomes a copy of that creature until end of turn, except it isn't legendary. (Targeting: [[Caesar, Legion's Emperor (240)]]) [Player: Nathaniel]
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Add To Stack: Nathaniel cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Nathaniel | open mana: Captain 6, Macon 2, Ava 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Plains (290) - {T}: Add {W}.
+Land: Nathaniel picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Add To Stack: Nathaniel cast Component Pouch
+Information: BOARD cast | Component Pouch (mv 3) by Nathaniel | open mana: Captain 6, Macon 2, Ava 0
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Nathaniel 42 > 39
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Component Pouch (247), Activator: Nathaniel, SpellAbility: Component Pouch]
+Resolve Stack: Component Pouch
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 39 (Ava)
+Information: BOARD turn 39 (Ava) | Captain | life 25 | hand 3 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 39 (Ava) | Macon | life 4 | hand 5 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4; Chameleon, Master of Disguise 3/3 | hand cards: Madame Hydra(4); Molecule Man(6); Tombstone, Career Criminal(3); Batroc the Leaper(2); Fetid Pools(land)
+Information: BOARD turn 39 (Ava) | Nathaniel | life 39 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 39 (Ava) | Ava | life 30 | hand 6 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Tidus, Yuna's Guardian 6/6; Sylvan Caryatid 0/3*; The Earth King 2/2; Prime Speaker Zegana 7/7; Chasm Skulker 1/1 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Luminous Broodmoth(4); Forest(land); Brushland(land); Chocobo Knights(4)
+Information: BOARD threat | turn 39 | Doctor Doom, King of Latveria (Macon) 101; The Frightful Four (Macon) 59; Tidus, Yuna's Guardian (Ava) 47; Caesar, Legion's Emperor (Nathaniel) 32
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Add To Stack: Ava cast Path to Exile targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Path to Exile (mv 1) by Ava | open mana: Captain 6, Macon 2, Nathaniel 1
+Add To Stack: Ava triggered Inexorable Tide
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Ava 30 > 29
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Path to Exile (321), Activator: Ava, SpellAbility: Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle. ]
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Path to Exile (321), Activator: Ava, SpellAbility: Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle. ]
+Zone Change: Captain America, First Avenger (100) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (321) - Exile Captain America, First Avenger (100). Captain may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Ava's Main phase, precombat
+Land: Ava played Brushland (411)
+Mana: Canopy Vista (385) - {T}: Add {W}.
+Mana: Prairie Stream (403) - {T}: Add {W}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Island (346) - {T}: Add {U}.
+Add To Stack: Ava cast Luminous Broodmoth
+Information: BOARD cast | Luminous Broodmoth (mv 4) by Ava | open mana: Captain 6, Macon 2, Nathaniel 1
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Luminous Broodmoth (390), Activator: Ava, SpellAbility: Luminous Broodmoth - Creature 3 / 4]
+Resolve Stack: Luminous Broodmoth - Creature 3 / 4
+Mana: Idyllic Beachfront (333) - {T}: Add {W}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Add To Stack: Ava cast Chocobo Knights
+Information: BOARD cast | Chocobo Knights (mv 4) by Ava | open mana: Captain 6, Macon 2, Nathaniel 1
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Chocobo Knights (356), Activator: Ava, SpellAbility: Chocobo Knights - Creature 3 / 3]
+Resolve Stack: Chocobo Knights - Creature 3 / 3
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Combat: Ava assigned Prime Speaker Zegana (367) and Tidus, Yuna's Guardian (413) to attack Macon.
+Information: BOARD attack | Ava -> Macon | attackers 2 (power 19) | defender life 4 | untapped creatures 3 (power 14): Doctor Doom, King of Latveria 7/7; The Frightful Four 4/4; Chameleon, Master of Disguise 3/3 | open mana 2
+Add To Stack: Ava triggered The Earth King
+Add To Stack: Ava triggered Chocobo Knights
+Resolve Stack: Whenever you attack, creatures you control with counters on them gain double strike until end of turn. [Number Attackers: [Prime Speaker Zegana (367), Tidus, Yuna's Guardian (413)]]
+Resolve Stack: Whenever one or more creatures you control with power 4 or greater attack, search your library for up to that many basic land cards, put them onto the battlefield tapped, then shuffle. [Number Attackers: [Prime Speaker Zegana (367), Tidus, Yuna's Guardian (413)]]
+Phase: Ava's Declare Blockers Step
+Combat: Macon didn't block Prime Speaker Zegana (367).
+Macon didn't block Tidus, Yuna's Guardian (413).
+Phase: Ava's First Strike Damage Step
+Damage: Prime Speaker Zegana (367) deals 10 combat damage to Macon.
+Damage: Tidus, Yuna's Guardian (413) deals 9 combat damage to Macon.
+Life: Life: Macon 4 > -15
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Macon, Amount: 19]
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 40 (Captain)
+Information: BOARD turn 40 (Captain) | Captain | life 25 | hand 3 | lands 7 (2 untapped) | open mana 6 | commander Command | creatures 5 (5 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5)
+Information: BOARD turn 40 (Captain) | Nathaniel | life 39 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 40 (Captain) | Ava | life 29 | hand 3 | lands 11 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (5 untapped): Tidus, Yuna's Guardian 9/9*; Sylvan Caryatid 0/3; The Earth King 2/2; Prime Speaker Zegana 10/10*; Chasm Skulker 5/5; Luminous Broodmoth 3/4; Chocobo Knights 3/3 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Forest(land)
+Information: BOARD threat | turn 40 | Tidus, Yuna's Guardian (Ava) 111; Prime Speaker Zegana (Ava) 70; Inexorable Tide (Ava) 68; The Earth King (Ava) 34; Caesar, Legion's Emperor (Nathaniel) 31
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Island (27) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (26) - {T}: Add {U}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Nathaniel 1, Ava 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (36)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (36)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Nathaniel activated Component Pouch
+Resolve Stack: Component Pouch (247) - Roll a d20.
+Phase: Captain's Cleanup step
+Turn: Turn 41 (Nathaniel)
+Information: BOARD turn 41 (Nathaniel) | Captain | life 25 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace] | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5); Stroke of Midnight(3)
+Information: BOARD turn 41 (Nathaniel) | Nathaniel | life 39 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 41 (Nathaniel) | Ava | life 29 | hand 3 | lands 11 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (5 untapped): Tidus, Yuna's Guardian 9/9*; Sylvan Caryatid 0/3; The Earth King 2/2; Prime Speaker Zegana 10/10*; Chasm Skulker 5/5; Luminous Broodmoth 3/4; Chocobo Knights 3/3 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Forest(land)
+Information: BOARD threat | turn 41 | Tidus, Yuna's Guardian (Ava) 107; Prime Speaker Zegana (Ava) 67; Inexorable Tide (Ava) 65; The Earth King (Ava) 32
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Add To Stack: Nathaniel triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Nathaniel, Result: 5]
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Add To Stack: Nathaniel cast Norn's Annex
+Information: BOARD cast | Norn's Annex (mv 5) by Nathaniel | open mana: Captain 6, Ava 1
+Resolve Stack: Norn's Annex
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 42 (Ava)
+Information: BOARD turn 42 (Ava) | Captain | life 25 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace] | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5); Stroke of Midnight(3)
+Information: BOARD turn 42 (Ava) | Nathaniel | life 39 | hand 2 | lands 7 (4 untapped) | open mana 12 | commander Battlefield | creatures 5 (5 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 42 (Ava) | Ava | life 29 | hand 3 | lands 11 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (5 untapped): Tidus, Yuna's Guardian 9/9*; Sylvan Caryatid 0/3; The Earth King 2/2; Prime Speaker Zegana 10/10*; Chasm Skulker 5/5; Luminous Broodmoth 3/4; Chocobo Knights 3/3 | hand cards: Court of Garenbrig(3); Ingenious Prodigy(1); Forest(land)
+Information: BOARD threat | turn 42 | Tidus, Yuna's Guardian (Ava) 103; Prime Speaker Zegana (Ava) 64; Inexorable Tide (Ava) 62; The Earth King (Ava) 31
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Main phase, precombat
+Land: Ava played Forest (355)
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Add To Stack: Ava cast Court of Garenbrig
+Information: BOARD cast | Court of Garenbrig (mv 3) by Ava | open mana: Captain 6, Nathaniel 12
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Court of Garenbrig (410), Activator: Ava, SpellAbility: Court of Garenbrig]
+Resolve Stack: Court of Garenbrig
+Add To Stack: Ava triggered Court of Garenbrig
+Resolve Stack: When Court of Garenbrig enters, you become the monarch. [Zone Changer: Court of Garenbrig (410)]
+Mana: Island (346) - {T}: Add {U}.
+Mana: Forest (351) - {T}: Add {G}.
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Brushland (411) - {T}: Add {C}.
+Mana: Flooded Grove (396) - {T}: Add {C}.
+Land: Sylvan Caryatid (330) picked {W}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Add To Stack: Ava cast Ingenious Prodigy
+Information: BOARD cast | Ingenious Prodigy (mv 10) by Ava | open mana: Captain 6, Nathaniel 12
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Ingenious Prodigy (376), Activator: Ava, SpellAbility: Ingenious Prodigy - Creature 0 / 1 (X=0)]
+Replacement Effect: Ingenious Prodigy enters with X +1/+1 counters on it.
+Resolve Stack: Ingenious Prodigy - Creature 0 / 1 (X=9)
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Add To Stack: Ava triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Ava]
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Cleanup step
+Turn: Turn 43 (Captain)
+Information: BOARD turn 43 (Captain) | Captain | life 25 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace] | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Auxiliary Boosters(5); Stroke of Midnight(3)
+Information: BOARD turn 43 (Captain) | Nathaniel | life 39 | hand 2 | lands 7 (4 untapped) | open mana 12 | commander Battlefield | creatures 5 (5 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 43 (Captain) | Ava | life 29 | hand 2 | lands 12 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (7 untapped): Tidus, Yuna's Guardian 11/11; Sylvan Caryatid 0/3*; The Earth King 2/2; Prime Speaker Zegana 12/12; Chasm Skulker 9/9; Luminous Broodmoth 3/4; Chocobo Knights 3/3; Ingenious Prodigy 9/10 | hand cards: Tangled Islet(land); Temple of Enlightenment(land)
+Information: BOARD threat | turn 43 | Tidus, Yuna's Guardian (Ava) 99; Inexorable Tide (Ava) 89; Prime Speaker Zegana (Ava) 62; Chasm Skulker (Ava) 42
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Auxiliary Boosters
+Information: BOARD cast | Auxiliary Boosters (mv 5) by Captain | open mana: Nathaniel 12, Ava 0
+Resolve Stack: Auxiliary Boosters
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Add To Stack: Captain triggered Auxiliary Boosters
+Resolve Stack: When this Equipment enters, create a 2/2 colorless Robot artifact creature token and attach this Equipment to it. [Zone Changer: Auxiliary Boosters (33)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Auxiliary Boosters (33)]
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Luminous Broodmoth (390), Robot Token (425), Tidus, Yuna's Guardian (413)]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Luminous Broodmoth (390).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Robot Token (425).
+Damage: Captain America, First Avenger (100) deals 3 damage (Deathtouch) to Tidus, Yuna's Guardian (413).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+Luminous Broodmoth (390) (1 damage), Robot Token (425) (1 damage) and Tidus, Yuna's Guardian (413) (3 damage).
+Zone Change: Robot Token (425) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Zone Change: Luminous Broodmoth (390) was put into Graveyard from Battlefield.
+Add To Stack: Ava triggered Luminous Broodmoth
+Resolve Stack: Whenever a creature you control without flying dies, return it to the battlefield under its owner's control with a flying counter on it. [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Auxiliary Boosters (33)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Auxiliary Boosters (33)]]) [Phase: Captain]
+Mana: Battlefield Forge (70) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Prime Speaker Zegana (367)]
+Damage: Captain America, First Avenger (100) deals 2 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 3 damage (Deathtouch) to Prime Speaker Zegana (367).
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+Mr. House, President and CEO (302) (2 damage) and Prime Speaker Zegana (367) (3 damage).
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Zone Change: Prime Speaker Zegana (367) was put into Graveyard from Battlefield.
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Nathaniel activated Component Pouch
+Resolve Stack: Component Pouch (247) - Roll a d20.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Land: Nathaniel picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Add To Stack: Nathaniel activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (301) - Roll a d20.
+Phase: Captain's Cleanup step
+Turn: Turn 44 (Nathaniel)
+Information: BOARD turn 44 (Nathaniel) | Captain | life 25 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace]; Robot Token 2/2 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Stroke of Midnight(3); Thought Vessel(2)
+Information: BOARD turn 44 (Nathaniel) | Nathaniel | life 39 | hand 3 | lands 7 (2 untapped) | open mana 4 | commander Command | creatures 3 (3 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Swamp(land); Exsanguinate(2)
+Information: BOARD turn 44 (Nathaniel) | Ava | life 29 | hand 2 | lands 12 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Sylvan Caryatid 0/3*; The Earth King 2/2; Chasm Skulker 9/9; Chocobo Knights 3/3; Ingenious Prodigy 9/10 | hand cards: Tangled Islet(land); Temple of Enlightenment(land)
+Information: BOARD threat | turn 44 | Inexorable Tide (Ava) 85; Captain America, First Avenger (Captain) 56; Chasm Skulker (Ava) 40
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Add To Stack: Nathaniel triggered Hall of Mirrors targeting [Caesar, Legion's Emperor (240)]
+Resolve Stack: Visit — Choose target creature you control. Each other creature you control becomes a copy of that creature until end of turn, except it isn't legendary. (Targeting: [[Caesar, Legion's Emperor (240)]]) [Player: Nathaniel]
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Nathaniel played Sundown Pass (233)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Land: Nathaniel picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Land: Nathaniel picked {R}{W}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Nathaniel cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Nathaniel | open mana: Captain 0, Ava 0
+Life: Life: Ava 29 > 19
+Life: Life: Captain 25 > 15
+Life: Life: Nathaniel 39 > 59
+Resolve Stack: Exsanguinate (229) - Ava and Captain each lose 10 life. You gain life equal to the life lost this way.
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 45 (Ava)
+Information: BOARD turn 45 (Ava) | Captain | life 15 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace]; Robot Token 2/2 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Stroke of Midnight(3); Thought Vessel(2)
+Information: BOARD turn 45 (Ava) | Nathaniel | life 59 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 45 (Ava) | Ava | life 19 | hand 2 | lands 12 (0 untapped) | open mana 0 | commander Command | creatures 5 (4 untapped): Sylvan Caryatid 0/3*; The Earth King 2/2; Chasm Skulker 9/9; Chocobo Knights 3/3; Ingenious Prodigy 9/10 | hand cards: Tangled Islet(land); Temple of Enlightenment(land)
+Information: BOARD threat | turn 45 | Inexorable Tide (Ava) 82; Captain America, First Avenger (Captain) 54; Chasm Skulker (Ava) 38
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Add To Stack: Ava triggered Ingenious Prodigy
+Add To Stack: Ava triggered Court of Garenbrig targeting [Ingenious Prodigy (376), Chasm Skulker (363)]
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Ingenious Prodigy (376), Chasm Skulker (363)]]) [Phase: Ava]
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Ava]
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Draw step
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Main phase, precombat
+Land: Ava played Island (343)
+Mana: Island (346) - {T}: Add {U}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Island (343) - {T}: Add {U}.
+Add To Stack: Ava cast Lulu, Stern Guardian
+Information: BOARD cast | Lulu, Stern Guardian (mv 3) by Ava | open mana: Captain 0, Nathaniel 0
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Lulu, Stern Guardian (373), Activator: Ava, SpellAbility: Lulu, Stern Guardian - Creature 2 / 3]
+Resolve Stack: Lulu, Stern Guardian - Creature 2 / 3
+Mana: Prairie Stream (403) - {T}: Add {U}.
+Mana: Radiant Grove (404) - {T}: Add {W}.
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Forest (350) - {T}: Add {G}.
+Mana: Forest (351) - {T}: Add {G}.
+Add To Stack: Ava cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Ava | open mana: Captain 0, Nathaniel 0
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Tidus, Yuna's Guardian (413), Activator: Ava, SpellAbility: Tidus, Yuna's Guardian - Creature 3 / 3]
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Add To Stack: Ava triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Ava]
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Cleanup step
+Turn: Turn 46 (Captain)
+Information: BOARD turn 46 (Captain) | Captain | life 15 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 4/4[Nazgûl Battle-Mace]; Robot Token 2/2 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Stroke of Midnight(3); Thought Vessel(2)
+Information: BOARD turn 46 (Captain) | Nathaniel | life 59 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 46 (Captain) | Ava | life 19 | hand 3 | lands 13 (5 untapped) | open mana 12 | commander Battlefield | creatures 7 (7 untapped): Sylvan Caryatid 0/3; The Earth King 2/2; Chasm Skulker 24/24; Chocobo Knights 3/3; Ingenious Prodigy 21/22; Lulu, Stern Guardian 2/3; Tidus, Yuna's Guardian 3/3 | hand cards: Tangled Islet(land); Temple of Enlightenment(land); Maester Seymour(3)
+Information: BOARD threat | turn 46 | Inexorable Tide (Ava) 107; Chasm Skulker (Ava) 80; Captain America, First Avenger (Captain) 52
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Add To Stack: Captain cast Codsworth, Handy Helper
+Information: BOARD cast | Codsworth, Handy Helper (mv 3) by Captain | open mana: Nathaniel 0, Ava 12
+Resolve Stack: Codsworth, Handy Helper - Creature 2 / 3
+Mana: Island (26) - {T}: Add {U}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Damage: Battlefield Forge (70) deals 1 non-combat damage to Captain.
+Life: Life: Captain 15 > 14
+Mana: Battlefield Forge (70) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: Captain cast Stroke of Midnight targeting [Ingenious Prodigy (376)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Captain | open mana: Nathaniel 0, Ava 12
+Zone Change: Ingenious Prodigy (376) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (9) - Destroy Ingenious Prodigy (376). 
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Auxiliary Boosters (33)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Auxiliary Boosters (33)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Ava.
+Information: BOARD attack | Captain -> Ava | attackers 1 (power 5) | defender life 19 | untapped creatures 7 (power 35): Sylvan Caryatid 0/3; The Earth King 2/2; Chasm Skulker 24/24; Chocobo Knights 3/3; Lulu, Stern Guardian 2/3; Tidus, Yuna's Guardian 3/3; Human Token 1/1 | open mana 12
+Add To Stack: Captain triggered Captain America, First Avenger
+Add To Stack: Ava triggered Lulu, Stern Guardian targeting [Captain America, First Avenger (100)]
+Add To Stack: Captain triggered Captain America, First Avenger
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Resolve Stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Lulu, Stern Guardian (373), Target: Captain America, First Avenger (100)]
+Resolve Stack: Whenever an opponent attacks you, choose target creature attacking you. Put a stun counter on that creature. (Targeting: [[Captain America, First Avenger (100)]]) [Number Attackers: [Captain America, First Avenger (100)]]
+Zone Change: Human Token (430) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Ava didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 5 combat damage to Ava.
+Life: Life: Ava 19 > 14
+Add To Stack: Ava triggered The Monarch
+Resolve Stack: Whenever a creature deals combat damage to you, its controller becomes the monarch. [Damage Source: Captain America, First Avenger (100), Damaged: Ava, Amount: 5]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Captain triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 47 (Nathaniel)
+Information: BOARD turn 47 (Nathaniel) | Captain | life 14 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 8 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 5/6*[Nazgûl Battle-Mace,Auxiliary Boosters]; Robot Token 2/2; Codsworth, Handy Helper 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Thought Vessel(2); Inventors' Fair(land)
+Information: BOARD turn 47 (Nathaniel) | Nathaniel | life 59 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 47 (Nathaniel) | Ava | life 14 | hand 3 | lands 13 (3 untapped) | open mana 10 | commander Battlefield | creatures 6 (6 untapped): Sylvan Caryatid 0/3; The Earth King 2/2; Chasm Skulker 24/24; Chocobo Knights 3/3; Lulu, Stern Guardian 2/3; Tidus, Yuna's Guardian 3/3 | hand cards: Tangled Islet(land); Temple of Enlightenment(land); Maester Seymour(3)
+Information: BOARD threat | turn 47 | Captain America, First Avenger (Captain) 121; Inexorable Tide (Ava) 103; Chasm Skulker (Ava) 77
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Add To Stack: Nathaniel triggered Hall of Mirrors targeting [Caesar, Legion's Emperor (240)]
+Resolve Stack: Visit — Choose target creature you control. Each other creature you control becomes a copy of that creature until end of turn, except it isn't legendary. (Targeting: [[Caesar, Legion's Emperor (240)]]) [Player: Nathaniel]
+Land: Nathaniel played Caves of Koilos (265)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Nathaniel cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Nathaniel | open mana: Captain 3, Ava 10
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 48 (Ava)
+Information: BOARD turn 48 (Ava) | Captain | life 14 | hand 4 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 8 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 5/6*[Nazgûl Battle-Mace,Auxiliary Boosters]; Robot Token 2/2; Codsworth, Handy Helper 2/3 | hand cards: Swords to Plowshares(1); Madame Web, Clairvoyant(6); Thought Vessel(2); Inventors' Fair(land)
+Information: BOARD turn 48 (Ava) | Nathaniel | life 59 | hand 2 | lands 9 (4 untapped) | open mana 14 | commander Battlefield | creatures 4 (4 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 48 (Ava) | Ava | life 14 | hand 3 | lands 13 (3 untapped) | open mana 10 | commander Battlefield | creatures 6 (6 untapped): Sylvan Caryatid 0/3; The Earth King 2/2; Chasm Skulker 24/24; Chocobo Knights 3/3; Lulu, Stern Guardian 2/3; Tidus, Yuna's Guardian 3/3 | hand cards: Tangled Islet(land); Temple of Enlightenment(land); Maester Seymour(3)
+Information: BOARD threat | turn 48 | Captain America, First Avenger (Captain) 117; Inexorable Tide (Ava) 99; Chasm Skulker (Ava) 74; Hall of Mirrors (Nathaniel) 37
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Add To Stack: Ava triggered Court of Garenbrig targeting [Chasm Skulker (363), Chocobo Knights (356)]
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Chasm Skulker (363), Chocobo Knights (356)]]) [Phase: Ava]
+Phase: Ava's Draw step
+Add To Stack: Ava triggered Chasm Skulker
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Ava]
+Phase: Ava's Main phase, precombat
+Mana: Forest (352) - {T}: Add {G}.
+Mana: Ash Barrens (388) - {T}: Add {C}.
+Mana: Forest (350) - {T}: Add {G}.
+Add To Stack: Ava cast Maester Seymour
+Information: BOARD cast | Maester Seymour (mv 3) by Ava | open mana: Captain 3, Nathaniel 14
+Add To Stack: Ava triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Maester Seymour (386), Activator: Ava, SpellAbility: Maester Seymour - Creature 1 / 3]
+Resolve Stack: Maester Seymour - Creature 1 / 3
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Ava triggered Maester Seymour targeting [Chasm Skulker (363)]
+Resolve Stack: At the beginning of combat on your turn, put a number of +1/+1 counters equal to Maester Seymour's power on another target creature you control. (Targeting: [[Chasm Skulker (363)]]) [Phase: Ava]
+Phase: Ava's Declare Attackers Step
+Mana: Island (346) - {T}: Add {U}.
+Mana: Forest (351) - {T}: Add {G}.
+Mana: Forest (355) - {T}: Add {G}.
+Mana: Island (343) - {T}: Add {U}.
+Combat: Ava assigned Chasm Skulker (363) and Chocobo Knights (356) to attack Captain.
+Information: BOARD attack | Ava -> Captain | attackers 2 (power 33) | defender life 14 | untapped creatures 7 (power 14): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Robot Token 2/2; Codsworth, Handy Helper 2/3 | open mana 3
+Add To Stack: Ava triggered The Earth King
+Add To Stack: Ava triggered Chocobo Knights
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Swords to Plowshares targeting [Chasm Skulker (363)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Captain | open mana: Nathaniel 14, Ava 13
+Zone Change: Chasm Skulker (363) was put into Exile from Battlefield.
+Life: Life: Ava 14 > 42
+Resolve Stack: Swords to Plowshares (77) - Exile Chasm Skulker (363). Ava gains life equal to its power.
+Resolve Stack: Whenever you attack, creatures you control with counters on them gain double strike until end of turn. [Number Attackers: [Chasm Skulker (363), Chocobo Knights (356)]]
+Resolve Stack: Whenever one or more creatures you control with power 4 or greater attack, search your library for up to that many basic land cards, put them onto the battlefield tapped, then shuffle. [Number Attackers: [Chasm Skulker (363), Chocobo Knights (356)]]
+Phase: Ava's Declare Blockers Step
+Combat: Captain didn't block Chocobo Knights (356).
+Phase: Ava's First Strike Damage Step
+Damage: Chocobo Knights (356) deals 5 combat damage to Captain.
+Life: Life: Captain 14 > 9
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Add To Stack: Captain triggered The Monarch
+Resolve Stack: Whenever a creature deals combat damage to you, its controller becomes the monarch. [Damage Source: Chocobo Knights (356), Damaged: Captain, Amount: 5]
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 5]
+Phase: Ava's Combat Damage Step
+Damage: Chocobo Knights (356) deals 5 combat damage to Captain.
+Life: Life: Captain 9 > 4
+Add To Stack: Ava triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Captain, Amount: 5]
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ava played Temple of Enlightenment (384)
+Add To Stack: Ava triggered Temple of Enlightenment
+Resolve Stack: Ava scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Phase: Ava's End step
+Add To Stack: Ava triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Ava]
+Phase: Ava's Cleanup step
+Turn: Turn 49 (Captain)
+Information: BOARD turn 49 (Captain) | Captain | life 4 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (7 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 5/6*[Nazgûl Battle-Mace,Auxiliary Boosters]; Robot Token 2/2; Codsworth, Handy Helper 2/3 | hand cards: Madame Web, Clairvoyant(6); Thought Vessel(2); Inventors' Fair(land)
+Information: BOARD turn 49 (Captain) | Nathaniel | life 59 | hand 2 | lands 9 (4 untapped) | open mana 14 | commander Battlefield | creatures 4 (4 untapped): Storm Crow 1/2; Caesar, Legion's Emperor 4/4; Deadbeat Attendant 1/1; Mr. House, President and CEO 0/4 | hand cards: Cathartic Reunion(2); Swamp(land)
+Information: BOARD turn 49 (Captain) | Ava | life 42 | hand 3 | lands 16 (6 untapped) | open mana 13 | commander Battlefield | creatures 6 (5 untapped): Sylvan Caryatid 0/3; The Earth King 2/2; Chocobo Knights 5/5*; Lulu, Stern Guardian 2/3; Tidus, Yuna's Guardian 3/3; Maester Seymour 1/3 | hand cards: Tangled Islet(land); Port Town(land); Dreamdew Entrancer(4)
+Information: BOARD threat | turn 49 | Captain America, First Avenger (Captain) 112; Inexorable Tide (Ava) 109; Chocobo Knights (Ava) 82; Court of Garenbrig (Ava) 38; The Earth King (Ava) 38
+Phase: Captain's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Inventors' Fair (3)
+Add To Stack: Captain cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Captain | open mana: Nathaniel 14, Ava 13
+Resolve Stack: Excalibur, Sword of Eden
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Excalibur, Sword of Eden (30)]
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Lulu, Stern Guardian (373), Chocobo Knights (356), Ava]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Lulu, Stern Guardian (373).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Chocobo Knights (356).
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Ava.
+Life: Life: Ava 42 > 32
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Lulu, Stern Guardian (373) (1 damage), Chocobo Knights (356) (1 damage) and Ava (10 damage).
+Zone Change: Chocobo Knights (356) was put into Graveyard from Battlefield.
+Zone Change: Lulu, Stern Guardian (373) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Codsworth, Handy Helper targeting [Excalibur, Sword of Eden (30)] [Captain America, First Avenger (100)]
+Resolve Stack: Codsworth, Handy Helper (46) - Excalibur, Sword of Eden (30)  until end of turn.  Attach to Captain America, First Avenger (100)
+Phase: devCaptain's Main phase, precombat
+Mana: Plains (80) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Caesar, Legion's Emperor (240), Tidus, Yuna's Guardian (413), Ava]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Caesar, Legion's Emperor (240).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Tidus, Yuna's Guardian (413).
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Ava.
+Life: Life: Ava 32 > 22
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Caesar, Legion's Emperor (240) (1 damage), Tidus, Yuna's Guardian (413) (1 damage) and Ava (10 damage).
+Zone Change: Caesar, Legion's Emperor (240) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (413) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Mana: Island (27) - {T}: Add {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Mr. House, President and CEO (302), Maester Seymour (386), Ava]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Mr. House, President and CEO (302).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Maester Seymour (386).
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Ava.
+Life: Life: Ava 22 > 12
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Mr. House, President and CEO (302) (1 damage), Maester Seymour (386) (1 damage) and Ava (10 damage).
+Zone Change: Mr. House, President and CEO (302) was put into Graveyard from Battlefield.
+Zone Change: Maester Seymour (386) was put into Graveyard from Battlefield.
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Island (26) - {T}: Add {U}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Ava]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Ava.
+Life: Life: Ava 12 > 0
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Ava (12 damage).
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Inventors' Fair (3) - {T}: Add {C}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Storm Crow (417), Deadbeat Attendant (279), Nathaniel]
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Storm Crow (417).
+Damage: Captain America, First Avenger (100) deals 1 damage (Deathtouch) to Deadbeat Attendant (279).
+Damage: Captain America, First Avenger (100) deals 10 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 59 > 49
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Storm Crow (417) (1 damage), Deadbeat Attendant (279) (1 damage) and Nathaniel (10 damage).
+Zone Change: Storm Crow (417) was put into Graveyard from Battlefield.
+Zone Change: Deadbeat Attendant (279) was put into Graveyard from Battlefield.
+Phase: Captain's End step
+Add To Stack: Captain triggered The Monarch
+Add To Stack: Nathaniel activated Component Pouch
+Resolve Stack: Component Pouch (247) - Roll a d20.
+Land: Nathaniel picked {W}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Add To Stack: Nathaniel activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (301) - Roll a d20.
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 50 (Nathaniel)
+Information: BOARD turn 50 (Nathaniel) | Captain | life 4 | hand 3 | lands 8 (1 untapped) | open mana 3 | commander Battlefield | creatures 8 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 5/6*[Nazgûl Battle-Mace,Auxiliary Boosters]; Robot Token 2/2; Codsworth, Handy Helper 2/3* | hand cards: Madame Web, Clairvoyant(6); Thought Vessel(2); Riverglide Pathway(land)
+Information: BOARD turn 50 (Nathaniel) | Nathaniel | life 49 | hand 3 | lands 9 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Cathartic Reunion(2); Swamp(land); Deadbeat Attendant(2)
+Information: BOARD threat | turn 50 | Captain America, First Avenger (Captain) 288; Sigarda's Aid (Captain) 37; Component Pouch (Nathaniel) 36; Hall of Mirrors (Nathaniel) 34
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Swamp (256)
+Land: Nathaniel picked {R}
+Mana: Sundown Pass (233) - {T}: Add {R} or {W}.
+Mana: Brightclimb Pathway (219) - {T}: Add {W}.
+Mana: Blightstep Pathway (214) - {T}: Add {B}.
+Add To Stack: Nathaniel cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Nathaniel | open mana: Captain 3
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel picked {R}
+Mana: Dragonskull Summit (245) - {T}: Add {B} or {R}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Sol Ring (251) - {T}: Add {C}{C}.
+Land: Nathaniel picked {B}
+Mana: Shattered Sanctum (210) - {T}: Add {W} or {B}.
+Mana: Smoldering Marsh (267) - {T}: Add {R}.
+Mana: Caves of Koilos (265) - {T}: Add {C}.
+Add To Stack: Nathaniel cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Nathaniel | open mana: Captain 3
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Land: Nathaniel picked {B}{R}
+Mana: Component Pouch (247) - {T}, Remove a component counter from Component Pouch: Add two mana of different colors.
+Add To Stack: Nathaniel cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Nathaniel | open mana: Captain 3
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Nathaniel triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (279)]
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 51 (Captain)
+Information: BOARD turn 51 (Captain) | Captain | life 4 | hand 3 | lands 8 (1 untapped) | open mana 3 | commander Battlefield | creatures 8 (6 untapped): Old Thrush 1/2; Loran of the Third Path 2/1; Zirda, the Dawnwaker 3/3; Leonin Abunas 2/5; Loyal Inventor 2/3; Captain America, First Avenger 5/6*[Nazgûl Battle-Mace,Auxiliary Boosters]; Robot Token 2/2; Codsworth, Handy Helper 2/3* | hand cards: Madame Web, Clairvoyant(6); Thought Vessel(2); Riverglide Pathway(land)
+Information: BOARD turn 51 (Captain) | Nathaniel | life 49 | hand 1 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Cathartic Reunion(2)
+Information: BOARD threat | turn 51 | Captain America, First Avenger (Captain) 276; Sigarda's Aid (Captain) 35; Component Pouch (Nathaniel) 34; Hall of Mirrors (Nathaniel) 33
+Phase: Captain's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Captain's Upkeep step
+Add To Stack: Captain triggered Inventors' Fair
+Life: Life: Captain 4 > 5
+Resolve Stack: At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Riverglide Pathway (95)
+Add To Stack: Captain activated Codsworth, Handy Helper targeting [Excalibur, Sword of Eden (30)] [Captain America, First Avenger (100)]
+Resolve Stack: Codsworth, Handy Helper (46) - Excalibur, Sword of Eden (30)  until end of turn.  Attach to Captain America, First Avenger (100)
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Nathaniel]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 49 > 37
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Nathaniel (12 damage).
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (30)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Excalibur, Sword of Eden (30)]]) [Phase: Captain]
+Mana: Plains (80) - {T}: Add {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Nathaniel]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 37 > 25
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Nathaniel (12 damage).
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Island (27) - {T}: Add {U}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Island (26) - {T}: Add {U}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Nathaniel]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 25 > 13
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Nathaniel (12 damage).
+Mana: Riverglide Pathway (95) - {T}: Add {U}.
+Add To Stack: Captain activated Excalibur, Sword of Eden targeting [Captain America, First Avenger (100)]
+Resolve Stack: Excalibur, Sword of Eden (30) -  Attach to Captain America, First Avenger (100)
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Nathaniel]
+Damage: Captain America, First Avenger (100) deals 12 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 13 > 1
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 12 damage divided to 
+Nathaniel (12 damage).
+Phase: devCaptain's Main phase, postcombat
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Nathaniel]
+Damage: Captain America, First Avenger (100) deals 5 non-combat damage to Nathaniel.
+Life: Life: Nathaniel 1 > -4
+Resolve Stack: Captain America, First Avenger (100) - Captain America, First Avenger (100) deals 5 damage divided to 
+Nathaniel (5 damage).
+Player Control: Captain has restored control over themself
+Player Control: Macon has restored control over themself
+Player Control: Nathaniel has restored control over themself
+Player Control: Ava has restored control over themself
+Game Outcome: Match Duration 32m : 33s
+Game Outcome: Turn 26
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Macon has lost because life total reached 0
+Game Outcome: Nathaniel has lost because life total reached 0
+Game Outcome: Ava has lost because life total reached 0
+Match Result: Captain: 1 Macon: 0 Nathaniel: 0 Ava: 0 
+
+Game Result: Captain has won

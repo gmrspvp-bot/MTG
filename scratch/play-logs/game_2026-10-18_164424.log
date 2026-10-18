@@ -1,0 +1,1213 @@
+Player: Captain (HUMAN) deck=Captain America v6
+Player: Macon (AI) deck=Doom Prevails v3
+Player: Nathaniel (AI) deck=Mr House v4
+Player: Ava (AI) deck=Tidus v3
+Mulligan: Macon has mulliganed down to 7 cards.
+Mulligan: Nathaniel has mulliganed down to 7 cards.
+Mulligan: Ava has mulliganed down to 7 cards.
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Macon has mulliganed down to 6 cards.
+Mulligan: Nathaniel has mulliganed down to 6 cards.
+Mulligan: Macon has mulliganed down to 5 cards.
+Mulligan: Macon has kept a hand of 5 cards
+Mulligan: Nathaniel has kept a hand of 6 cards
+Mulligan: Ava has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Turn: Turn 1 (Macon)
+Information: BOARD turn 1 (Macon) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Spectator Seating(land); Plains(land); Sigarda's Aid(1); Adaptive Omnitool(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 1 (Macon) | Macon | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Coastal Peak(land); Luxury Suite(land); Night's Whisper(2)
+Information: BOARD turn 1 (Macon) | Nathaniel | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Swamp(land); Mountain(land); Swamp(land); Reanimate(1); Welding Jar(0)
+Information: BOARD turn 1 (Macon) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Forest(land); Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: This land enters tapped.
+Land: Macon played Coastal Peak (137)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 2 (Nathaniel)
+Information: BOARD turn 2 (Nathaniel) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Spectator Seating(land); Plains(land); Sigarda's Aid(1); Adaptive Omnitool(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 2 (Nathaniel) | Macon | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Luxury Suite(land); Night's Whisper(2); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 2 (Nathaniel) | Nathaniel | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Swamp(land); Mountain(land); Swamp(land); Reanimate(1); Welding Jar(0)
+Information: BOARD turn 2 (Nathaniel) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Forest(land); Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Swamp (257)
+Add To Stack: Nathaniel cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Nathaniel | open mana: Captain 0, Macon 0, Ava 0
+Resolve Stack: Welding Jar
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 3 (Ava)
+Information: BOARD turn 3 (Ava) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Spectator Seating(land); Plains(land); Sigarda's Aid(1); Adaptive Omnitool(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 3 (Ava) | Macon | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Luxury Suite(land); Night's Whisper(2); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 3 (Ava) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1); Isolated Chapel(land)
+Information: BOARD turn 3 (Ava) | Ava | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hardened Scales(1); Forest(land); Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Land: Ava played Forest (354)
+Mana: Forest (354) - {T}: Add {G}.
+Add To Stack: Ava cast Hardened Scales
+Information: BOARD cast | Hardened Scales (mv 1) by Ava | open mana: Captain 0, Macon 0, Nathaniel 1
+Resolve Stack: Hardened Scales
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Spectator Seating(land); Plains(land); Sigarda's Aid(1); Adaptive Omnitool(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 4 (Captain) | Macon | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Luxury Suite(land); Night's Whisper(2); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 4 (Captain) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1); Isolated Chapel(land)
+Information: BOARD turn 4 (Captain) | Ava | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Captain played Spectator Seating (78)
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Captain | open mana: Macon 0, Nathaniel 1, Ava 0
+Resolve Stack: Sigarda's Aid
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (Macon)
+Information: BOARD turn 5 (Macon) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Plains(land); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 5 (Macon) | Macon | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Luxury Suite(land); Night's Whisper(2); Damocles Base, Sword of Kang(5)
+Information: BOARD turn 5 (Macon) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1); Isolated Chapel(land)
+Information: BOARD turn 5 (Macon) | Ava | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Macon played Luxury Suite (126)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Add To Stack: Macon cast Night's Whisper
+Information: BOARD cast | Night's Whisper (mv 2) by Macon | open mana: Captain 0, Nathaniel 1, Ava 0
+Life: Life: Macon 40 > 38
+Resolve Stack: Night's Whisper (143) - Macon draws two cards. Macon loses 2 life.
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 6 (Nathaniel)
+Information: BOARD turn 6 (Nathaniel) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Plains(land); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 6 (Nathaniel) | Macon | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 6 (Nathaniel) | Nathaniel | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1); Isolated Chapel(land)
+Information: BOARD turn 6 (Nathaniel) | Ava | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Nathaniel played Isolated Chapel (237)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Swamp (257) - {T}: Add {B}.
+Land: Nathaniel picked {B}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Add To Stack: Nathaniel cast Talisman of Hierarchy
+Information: BOARD cast | Talisman of Hierarchy (mv 2) by Nathaniel | open mana: Captain 0, Macon 0, Ava 0
+Resolve Stack: Talisman of Hierarchy
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 7 (Ava)
+Information: BOARD turn 7 (Ava) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Plains(land); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 7 (Ava) | Macon | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 7 (Ava) | Nathaniel | life 40 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1)
+Information: BOARD turn 7 (Ava) | Ava | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Idyllic Beachfront(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Ava played Idyllic Beachfront (333)
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 8 (Captain)
+Information: BOARD turn 8 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Mana Drain(2); Plains(land); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 8 (Captain) | Macon | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 8 (Captain) | Nathaniel | life 40 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1)
+Information: BOARD turn 8 (Captain) | Ava | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (87)
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Monk's Fist
+Information: BOARD cast | Monk's Fist (mv 2) by Captain | open mana: Macon 0, Nathaniel 3, Ava 1
+Resolve Stack: Monk's Fist
+Add To Stack: Captain triggered Monk's Fist
+Resolve Stack: Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) [Zone Changer: Monk's Fist (68)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 9 (Macon)
+Information: BOARD turn 9 (Macon) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Mana Drain(2); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 9 (Macon) | Macon | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 9 (Macon) | Nathaniel | life 40 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1)
+Information: BOARD turn 9 (Macon) | Ava | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: Fetid Pools enters tapped.
+Land: Macon played Fetid Pools (172)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 10 (Nathaniel)
+Information: BOARD turn 10 (Nathaniel) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Mana Drain(2); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 10 (Nathaniel) | Macon | life 38 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 10 (Nathaniel) | Nathaniel | life 40 | hand 4 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Anguished Unmaking(3); Mountain(land); Swamp(land); Reanimate(1)
+Information: BOARD turn 10 (Nathaniel) | Ava | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Land: Nathaniel played Mountain (284)
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Nathaniel picked {W}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Mana: Swamp (257) - {T}: Add {B}.
+Add To Stack: Nathaniel cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Nathaniel | open mana: Captain 0, Macon 4, Ava 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 11 (Ava)
+Information: BOARD turn 11 (Ava) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Mana Drain(2); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 11 (Ava) | Macon | life 38 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 11 (Ava) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Anguished Unmaking(3); Swamp(land); Reanimate(1); Cyberman Patrol(2)
+Information: BOARD turn 11 (Ava) | Ava | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Ava played Port Town (409)
+Mana: Forest (354) - {T}: Add {G}.
+Land: Ava picked {W}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Ava cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Ava | open mana: Captain 0, Macon 4, Nathaniel 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 12 (Captain)
+Information: BOARD turn 12 (Captain) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Hero Token 2/1[Monk's Fist] | hand cards: Stroke of Midnight(3); Mana Drain(2); Adaptive Omnitool(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 12 (Captain) | Macon | life 38 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 12 (Captain) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Anguished Unmaking(3); Swamp(land); Reanimate(1); Cyberman Patrol(2)
+Information: BOARD turn 12 (Captain) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: As Furycalm Snarl enters, you may reveal a Mountain or Plains card from your hand. If you don't, Furycalm Snarl enters tapped.
+Land: Captain played Furycalm Snarl (53)
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Adaptive Omnitool
+Information: BOARD cast | Adaptive Omnitool (mv 2) by Captain | open mana: Macon 4, Nathaniel 3, Ava 0
+Resolve Stack: Adaptive Omnitool
+Add To Stack: Captain triggered Sigarda's Aid targeting [Hero Token (416)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Hero Token (416)]]) [Zone Changer: Adaptive Omnitool (61)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Hero Token (416) to attack Macon.
+Information: BOARD attack | Captain -> Macon | attackers 1 (power 4) | defender life 38 | untapped creatures 0 (power 0):  | open mana 4
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Hero Token (416)]
+Phase: Captain's Declare Blockers Step
+Combat: Macon didn't block Hero Token (416).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Hero Token (416) deals 4 combat damage to Macon.
+Life: Life: Macon 38 > 34
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 13 (Macon)
+Information: BOARD turn 13 (Macon) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hero Token 4/3*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 13 (Macon) | Macon | life 34 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Magmakin Artillerist(3); Baron Strucker, HYDRA Overlord(3); Damocles Base, Sword of Kang(5); Propaganda(3); Scorched Geyser(land); The Squadron Sinister(7)
+Information: BOARD turn 13 (Macon) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Anguished Unmaking(3); Swamp(land); Reanimate(1); Cyberman Patrol(2)
+Information: BOARD turn 13 (Macon) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: This land enters tapped unless you control two or more basic lands.
+Land: Macon played Scorched Geyser (181)
+Phase: Macon's Beginning of Combat Step
+Phase: Macon's Declare Attackers Step
+Phase: Macon's Declare Blockers Step
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Fetid Pools (172) - {T}: Add {B}.
+Add To Stack: Macon cast Baron Strucker, HYDRA Overlord
+Information: BOARD cast | Baron Strucker, HYDRA Overlord (mv 3) by Macon | open mana: Captain 0, Nathaniel 3, Ava 0
+Resolve Stack: Baron Strucker, HYDRA Overlord - Creature 2 / 2
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 14 (Nathaniel)
+Information: BOARD turn 14 (Nathaniel) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hero Token 4/3*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 14 (Nathaniel) | Macon | life 34 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Baron Strucker, HYDRA Overlord 2/2 | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Propaganda(3); The Squadron Sinister(7); Sulfur Falls(land)
+Information: BOARD turn 14 (Nathaniel) | Nathaniel | life 40 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Anguished Unmaking(3); Swamp(land); Reanimate(1); Cyberman Patrol(2)
+Information: BOARD turn 14 (Nathaniel) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land)
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Swamp (256)
+Land: Nathaniel picked {W}
+Mana: Isolated Chapel (237) - {T}: Add {W} or {B}.
+Mana: Swamp (257) - {T}: Add {B}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Nathaniel cast Anguished Unmaking targeting [Tidus, Yuna's Guardian (413)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Nathaniel | open mana: Captain 0, Macon 0, Ava 0
+Zone Change: Tidus, Yuna's Guardian (413) was put into Exile from Battlefield.
+Life: Life: Nathaniel 40 > 37
+Resolve Stack: Anguished Unmaking (298) - Exile Tidus, Yuna's Guardian (413). Nathaniel loses 3 life.
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Talisman of Hierarchy (217) - {T}: Add {C}.
+Add To Stack: Nathaniel cast Cyberman Patrol
+Information: BOARD cast | Cyberman Patrol (mv 2) by Nathaniel | open mana: Captain 0, Macon 0, Ava 0
+Resolve Stack: Cyberman Patrol - Creature 2 / 2
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 15 (Ava)
+Information: BOARD turn 15 (Ava) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hero Token 4/3*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 15 (Ava) | Macon | life 34 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Baron Strucker, HYDRA Overlord 2/2 | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Propaganda(3); The Squadron Sinister(7); Sulfur Falls(land)
+Information: BOARD turn 15 (Ava) | Nathaniel | life 37 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | hand cards: Reanimate(1); Goblin Bombardment(2)
+Information: BOARD turn 15 (Ava) | Ava | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tromell, Seymour's Butler(3); Primal Vigor(5); Canopy Vista(land); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land)
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Ava played Canopy Vista (385)
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Mana: Forest (354) - {T}: Add {G}.
+Land: Ava picked {W}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Ava cast Tromell, Seymour's Butler
+Information: BOARD cast | Tromell, Seymour's Butler (mv 3) by Ava | open mana: Captain 0, Macon 0, Nathaniel 0
+Resolve Stack: Tromell, Seymour's Butler - Creature 2 / 3
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hero Token 4/3*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 16 (Captain) | Macon | life 34 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Baron Strucker, HYDRA Overlord 2/2 | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Propaganda(3); The Squadron Sinister(7); Sulfur Falls(land)
+Information: BOARD turn 16 (Captain) | Nathaniel | life 37 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | hand cards: Reanimate(1); Goblin Bombardment(2)
+Information: BOARD turn 16 (Captain) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tromell, Seymour's Butler 2/3 | hand cards: Primal Vigor(5); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land); Tangled Islet(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Captain | open mana: Macon 0, Nathaniel 0, Ava 0
+Resolve Stack: Arcane Signet
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Hero Token (416) to attack Nathaniel.
+Information: BOARD attack | Captain -> Nathaniel | attackers 1 (power 5) | defender life 37 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | open mana 0
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Hero Token (416)]
+Phase: Captain's Declare Blockers Step
+Combat: Nathaniel assigned Cyberman Patrol (222) to block Hero Token (416).
+Zone Change: Welding Jar (221) was put into Graveyard from Battlefield.
+Add To Stack: Nathaniel activated Welding Jar targeting [Cyberman Patrol (222)]
+Resolve Stack: Welding Jar (221) - Regenerate Cyberman Patrol (222).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Hero Token (416) deals 5 damage to Cyberman Patrol (222).
+Damage: Cyberman Patrol (222) deals 2 damage to Hero Token (416).
+Replacement Effect: Regeneration (if creature would be destroyed, regenerate it instead)
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Captain | open mana: Macon 0, Nathaniel 0, Ava 0
+Resolve Stack: Sol Ring
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (Macon)
+Information: BOARD turn 17 (Macon) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Hero Token 6/5*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 17 (Macon) | Macon | life 34 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Baron Strucker, HYDRA Overlord 2/2 | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Propaganda(3); The Squadron Sinister(7); Sulfur Falls(land)
+Information: BOARD turn 17 (Macon) | Nathaniel | life 37 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2* | hand cards: Reanimate(1); Goblin Bombardment(2)
+Information: BOARD turn 17 (Macon) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tromell, Seymour's Butler 2/3 | hand cards: Primal Vigor(5); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land); Tangled Islet(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Macon played Sulfur Falls (151)
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Land: Macon picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Coastal Peak (137) - {T}: Add {U}.
+Add To Stack: Macon cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Macon | open mana: Captain 4, Nathaniel 0, Ava 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Add To Stack: Macon triggered Baron Strucker, HYDRA Overlord
+Discard: Macon discards The Squadron Sinister (129).
+Resolve Stack: Whenever another Villain you control enters, you may have it connive. Do this only once each turn. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) [Zone Changer: Doctor Doom, King of Latveria (201)]
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast Hobgoblin, Mantled Marauder
+Information: BOARD cast | Hobgoblin, Mantled Marauder (mv 2) by Macon | open mana: Captain 4, Nathaniel 0, Ava 0
+Resolve Stack: Hobgoblin, Mantled Marauder - Creature 1 / 2
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Baron Strucker, HYDRA Overlord (175)]
+Discard: Macon discards Propaganda (178).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Baron Strucker, HYDRA Overlord (175)]]) [Phase: Macon]
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Propaganda (178), Cause: ]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Baron Strucker, HYDRA Overlord (175) and Hobgoblin, Mantled Marauder (128) to attack Captain.
+Information: BOARD attack | Macon -> Captain | attackers 2 (power 6) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Macon's Declare Blockers Step
+Combat: Captain didn't block Baron Strucker, HYDRA Overlord (175).
+Captain didn't block Hobgoblin, Mantled Marauder (128).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Baron Strucker, HYDRA Overlord (175) deals 3 combat damage to Captain.
+Damage: Hobgoblin, Mantled Marauder (128) deals 3 combat damage to Captain.
+Life: Life: Captain 40 > 34
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 18 (Nathaniel)
+Information: BOARD turn 18 (Nathaniel) | Captain | life 34 | hand 4 | lands 3 (0 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Hero Token 6/5*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 18 (Nathaniel) | Macon | life 34 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Baron Strucker, HYDRA Overlord 3/3*; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2* | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Spark Double(4); Puppet Master, String Puller(3)
+Information: BOARD turn 18 (Nathaniel) | Nathaniel | life 37 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2* | hand cards: Reanimate(1); Goblin Bombardment(2)
+Information: BOARD turn 18 (Nathaniel) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tromell, Seymour's Butler 2/3 | hand cards: Primal Vigor(5); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land); Tangled Islet(land)
+Information: BOARD threat | turn 18 | Baron Strucker, HYDRA Overlord (Macon) 32; Hobgoblin, Mantled Marauder (Macon) 32
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Nathaniel played Luxury Suite (235)
+Mana: Swamp (257) - {T}: Add {B}.
+Add To Stack: Nathaniel cast Reanimate targeting [The Squadron Sinister (129)]
+Information: BOARD cast | Reanimate (mv 1) by Nathaniel | open mana: Captain 4, Macon 1, Ava 0
+Life: Life: Nathaniel 37 > 30
+Resolve Stack: Reanimate (249) - Return The Squadron Sinister (129) from the graveyard to the battlefield under your control. Nathaniel loses 7 life.
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Combat: Nathaniel assigned Cyberman Patrol (222) to attack Captain.
+Nathaniel assigned The Squadron Sinister (129) to attack Macon.
+Information: BOARD attack | Nathaniel -> Captain | attackers 1 (power 2) | defender life 34 | untapped creatures 0 (power 0):  | open mana 4
+Information: BOARD attack | Nathaniel -> Macon | attackers 1 (power 5) | defender life 34 | untapped creatures 1 (power 4): Doctor Doom, King of Latveria 4/4 | open mana 1
+Phase: Nathaniel's Declare Blockers Step
+Combat: Captain didn't block Cyberman Patrol (222).
+Combat: Macon didn't block The Squadron Sinister (129).
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Damage: Cyberman Patrol (222) deals 2 combat damage to Captain.
+Damage: The Squadron Sinister (129) deals 5 combat damage to Macon.
+Life: Life: Captain 34 > 32
+Life: Life: Macon 34 > 29
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Add To Stack: Nathaniel cast Goblin Bombardment
+Information: BOARD cast | Goblin Bombardment (mv 2) by Nathaniel | open mana: Captain 4, Macon 1, Ava 0
+Resolve Stack: Goblin Bombardment
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 19 (Ava)
+Information: BOARD turn 19 (Ava) | Captain | life 32 | hand 4 | lands 3 (0 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Hero Token 6/5*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 19 (Ava) | Macon | life 29 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Baron Strucker, HYDRA Overlord 3/3*; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2* | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Spark Double(4); Puppet Master, String Puller(3)
+Information: BOARD turn 19 (Ava) | Nathaniel | life 30 | hand 0 | lands 5 (2 untapped) | open mana 9 | commander Battlefield | creatures 3 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2*; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 19 (Ava) | Ava | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tromell, Seymour's Butler 2/3 | hand cards: Primal Vigor(5); Inspiring Call(3); Sphere Grid(2); Temple of Plenty(land); Tangled Islet(land)
+Information: BOARD threat | turn 19 | Baron Strucker, HYDRA Overlord (Macon) 30; Hobgoblin, Mantled Marauder (Macon) 30
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Replacement Effect: Tangled Islet enters tapped.
+Land: Ava played Tangled Islet (360)
+Mana: Forest (354) - {T}: Add {G}.
+Land: Ava picked {W}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Add To Stack: Ava cast Sylvan Caryatid
+Information: BOARD cast | Sylvan Caryatid (mv 2) by Ava | open mana: Captain 4, Macon 1, Nathaniel 9
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Sylvan Caryatid - Creature 0 / 3
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Ava cast Sphere Grid
+Information: BOARD cast | Sphere Grid (mv 2) by Ava | open mana: Captain 4, Macon 1, Nathaniel 9
+Resolve Stack: Sphere Grid
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 20 (Captain)
+Information: BOARD turn 20 (Captain) | Captain | life 32 | hand 4 | lands 3 (0 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Hero Token 6/5*[Monk's Fist,Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sokka and Suki(3)
+Information: BOARD turn 20 (Captain) | Macon | life 29 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Baron Strucker, HYDRA Overlord 3/3*; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2* | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Spark Double(4); Puppet Master, String Puller(3)
+Information: BOARD turn 20 (Captain) | Nathaniel | life 30 | hand 0 | lands 5 (2 untapped) | open mana 9 | commander Battlefield | creatures 3 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2*; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 20 (Captain) | Ava | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tromell, Seymour's Butler 2/3; Sylvan Caryatid 2/5 | hand cards: Primal Vigor(5); Inspiring Call(3); Temple of Plenty(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain cast Sokka and Suki
+Information: BOARD cast | Sokka and Suki (mv 3) by Captain | open mana: Macon 1, Nathaniel 9, Ava 0
+Resolve Stack: Sokka and Suki - Creature 3 / 3
+Add To Stack: Captain triggered Sokka and Suki targeting [Adaptive Omnitool (61)]
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[Adaptive Omnitool (61)]]) [Zone Changer: Sokka and Suki (8)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: devCaptain's Declare Attackers Step
+Information: ROLLBACK to the start of COMBAT_DECLARE_ATTACKERS (turn 20)
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 21 (Macon)
+Information: BOARD turn 21 (Macon) | Captain | life 32 | hand 4 | lands 3 (1 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7[Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Leonin Abunas(4)
+Information: BOARD turn 21 (Macon) | Macon | life 29 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Baron Strucker, HYDRA Overlord 3/3*; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2* | hand cards: Magmakin Artillerist(3); Damocles Base, Sword of Kang(5); Spark Double(4); Puppet Master, String Puller(3)
+Information: BOARD turn 21 (Macon) | Nathaniel | life 30 | hand 0 | lands 5 (2 untapped) | open mana 9 | commander Battlefield | creatures 3 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2*; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 21 (Macon) | Ava | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tromell, Seymour's Butler 2/3; Sylvan Caryatid 2/5 | hand cards: Primal Vigor(5); Inspiring Call(3); Temple of Plenty(land)
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Land: Macon played Exotic Orchard (134)
+Mana: Exotic Orchard (134) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Macon cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Macon | open mana: Captain 5, Nathaniel 9, Ava 0
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Add To Stack: Macon triggered Baron Strucker, HYDRA Overlord
+Discard: Macon discards Damocles Base, Sword of Kang (177).
+Resolve Stack: Whenever another Villain you control enters, you may have it connive. Do this only once each turn. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) [Zone Changer: Puppet Master, String Puller (113)]
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Damocles Base, Sword of Kang (177), Cause: ]
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (128)]
+Discard: Macon discards Foreboding Ruins (162).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (128)]]) [Phase: Macon]
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Foreboding Ruins (162), Cause: ]
+Life: Life: Nathaniel 30 > 28
+Life: Life: Ava 40 > 38
+Life: Life: Captain 32 > 30
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Hobgoblin, Mantled Marauder (128) to attack Nathaniel.
+Information: BOARD attack | Macon -> Nathaniel | attackers 1 (power 5) | defender life 28 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 9
+Add To Stack: Macon triggered Puppet Master, String Puller targeting [Sokka and Suki (8)]
+Resolve Stack: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.) (Targeting: [[Sokka and Suki (8)]]) [Number Attackers: [Hobgoblin, Mantled Marauder (128)]]
+Phase: Macon's Declare Blockers Step
+Combat: Nathaniel didn't block Hobgoblin, Mantled Marauder (128).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (128) deals 5 combat damage to Nathaniel.
+Life: Life: Nathaniel 28 > 23
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Land: Macon picked {R}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast Magmakin Artillerist
+Information: BOARD cast | Magmakin Artillerist (mv 3) by Macon | open mana: Captain 5, Nathaniel 9, Ava 0
+Resolve Stack: Magmakin Artillerist - Creature 1 / 4
+Phase: Macon's End step
+Phase: Macon's Cleanup step
+Turn: Turn 22 (Nathaniel)
+Information: BOARD turn 22 (Nathaniel) | Captain | life 30 | hand 4 | lands 3 (1 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7[Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Leonin Abunas(4)
+Information: BOARD turn 22 (Nathaniel) | Macon | life 29 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (4 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4 | hand cards: Spark Double(4); Molecule Man(6)
+Information: BOARD turn 22 (Nathaniel) | Nathaniel | life 23 | hand 0 | lands 5 (2 untapped) | open mana 9 | commander Battlefield | creatures 3 (1 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2*; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 22 (Nathaniel) | Ava | life 38 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tromell, Seymour's Butler 2/3; Sylvan Caryatid 2/5 | hand cards: Primal Vigor(5); Inspiring Call(3); Temple of Plenty(land)
+Information: BOARD threat | turn 22 | Hobgoblin, Mantled Marauder (Macon) 85; Baron Strucker, HYDRA Overlord (Macon) 41; Doctor Doom, King of Latveria (Macon) 41
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Mountain (285)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Combat: Nathaniel assigned The Squadron Sinister (129) to attack Macon.
+Information: BOARD attack | Nathaniel -> Macon | attackers 1 (power 5) | defender life 29 | untapped creatures 4 (power 11): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4 | open mana 1
+Phase: Nathaniel's Declare Blockers Step
+Combat: Macon didn't block The Squadron Sinister (129).
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Damage: The Squadron Sinister (129) deals 5 combat damage to Macon.
+Life: Life: Macon 29 > 24
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 23 (Ava)
+Information: BOARD turn 23 (Ava) | Captain | life 30 | hand 4 | lands 3 (1 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7[Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Leonin Abunas(4)
+Information: BOARD turn 23 (Ava) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (4 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4 | hand cards: Spark Double(4); Molecule Man(6)
+Information: BOARD turn 23 (Ava) | Nathaniel | life 23 | hand 0 | lands 6 (6 untapped) | open mana 13 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 23 (Ava) | Ava | life 38 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tromell, Seymour's Butler 2/3; Sylvan Caryatid 2/5 | hand cards: Primal Vigor(5); Inspiring Call(3); Temple of Plenty(land)
+Information: BOARD threat | turn 23 | Hobgoblin, Mantled Marauder (Macon) 81; The Squadron Sinister (Nathaniel) 53; Baron Strucker, HYDRA Overlord (Macon) 40; Doctor Doom, King of Latveria (Macon) 39
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Mana: Forest (354) - {T}: Add {G}.
+Land: Ava picked {W}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Add To Stack: Ava cast Inspiring Call
+Information: BOARD cast | Inspiring Call (mv 3) by Ava | open mana: Captain 5, Macon 1, Nathaniel 13
+Resolve Stack: Inspiring Call (372) - Ava draws a card. 
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Ava activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Ava played Temple of Plenty (375)
+Add To Stack: Ava triggered Temple of Plenty
+Resolve Stack: Ava scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Plenty enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Plenty (375)]
+Land: Sylvan Caryatid (330) picked {W}
+Mana: Sylvan Caryatid (330) - {T}: Add one mana of any color.
+Mana: Tangled Islet (360) - {T}: Add {G}.
+Add To Stack: Ava cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Ava | open mana: Captain 5, Macon 1, Nathaniel 13
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 24 (Captain)
+Information: BOARD turn 24 (Captain) | Captain | life 30 | hand 4 | lands 3 (1 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7[Adaptive Omnitool] | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Leonin Abunas(4)
+Information: BOARD turn 24 (Captain) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (4 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4 | hand cards: Spark Double(4); Molecule Man(6)
+Information: BOARD turn 24 (Captain) | Nathaniel | life 23 | hand 0 | lands 6 (6 untapped) | open mana 13 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 24 (Captain) | Ava | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 2/5*; Metastatic Evangel 5/3 | hand cards: Primal Vigor(5); Forgotten Ancient(4)
+Information: BOARD threat | turn 24 | Hobgoblin, Mantled Marauder (Macon) 78; The Squadron Sinister (Nathaniel) 51; Baron Strucker, HYDRA Overlord (Macon) 38; Doctor Doom, King of Latveria (Macon) 38
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Captain played Sulfur Falls (52)
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Leonin Abunas
+Information: BOARD cast | Leonin Abunas (mv 4) by Captain | open mana: Macon 1, Nathaniel 13, Ava 0
+Resolve Stack: Leonin Abunas - Creature 2 / 5
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Sokka and Suki (8) to attack Nathaniel.
+Information: BOARD attack | Captain -> Nathaniel | attackers 1 (power 7) | defender life 23 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | open mana 13
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Sokka and Suki (8)]
+Phase: Captain's Declare Blockers Step
+Combat: Nathaniel didn't block Sokka and Suki (8).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Sokka and Suki (8) deals 7 combat damage to Nathaniel.
+Life: Life: Nathaniel 23 > 16
+Add To Stack: Macon triggered Puppet Master, String Puller
+Resolve Stack: Whenever one or more goaded creatures deal combat damage to one of your opponents, create a Treasure token. [Damaged: Nathaniel, Amount: 7]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 25 (Macon)
+Information: BOARD turn 25 (Macon) | Captain | life 30 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 3 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2)
+Information: BOARD turn 25 (Macon) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 5 (4 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 1/2*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4 | hand cards: Spark Double(4); Molecule Man(6)
+Information: BOARD turn 25 (Macon) | Nathaniel | life 16 | hand 0 | lands 6 (6 untapped) | open mana 13 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5* | hand cards: 
+Information: BOARD turn 25 (Macon) | Ava | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 2/5*; Metastatic Evangel 5/3 | hand cards: Primal Vigor(5); Forgotten Ancient(4)
+Information: BOARD threat | turn 25 | Hobgoblin, Mantled Marauder (Macon) 75; Sokka and Suki (Captain) 53; The Squadron Sinister (Nathaniel) 49; Baron Strucker, HYDRA Overlord (Macon) 37; Doctor Doom, King of Latveria (Macon) 36
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Phase: Macon's Main phase, precombat
+Mana: Exotic Orchard (134) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Land: Macon picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast Molecule Man
+Information: BOARD cast | Molecule Man (mv 6) by Macon | open mana: Captain 5, Nathaniel 13, Ava 0
+Resolve Stack: Molecule Man - Creature 5 / 5
+Add To Stack: Macon triggered Baron Strucker, HYDRA Overlord
+Discard: Macon discards Swamp (152).
+Resolve Stack: Whenever another Villain you control enters, you may have it connive. Do this only once each turn. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) [Zone Changer: Molecule Man (116)]
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Add To Stack: Macon triggered Magmakin Artillerist
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Swamp (152), Cause: ]
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Nathaniel.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Ava.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Captain.
+Life: Life: Captain 30 > 29
+Life: Life: Nathaniel 16 > 15
+Life: Life: Ava 38 > 37
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Macon, Amount: 1]
+Life: Life: Nathaniel 15 > 13
+Life: Life: Ava 37 > 35
+Life: Life: Captain 29 > 27
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (128)]
+Discard: Macon discards Spark Double (149).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (128)]]) [Phase: Macon]
+Add To Stack: Macon triggered Magmakin Artillerist
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Spark Double (149), Cause: ]
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Nathaniel.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Ava.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Captain.
+Life: Life: Captain 27 > 26
+Life: Life: Nathaniel 13 > 12
+Life: Life: Ava 35 > 34
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Macon, Amount: 1]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Hobgoblin, Mantled Marauder (128) to attack Nathaniel.
+Information: BOARD attack | Macon -> Nathaniel | attackers 1 (power 6) | defender life 12 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2 | open mana 13
+Add To Stack: Macon triggered Puppet Master, String Puller targeting [Sokka and Suki (8)]
+Resolve Stack: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.) (Targeting: [[Sokka and Suki (8)]]) [Number Attackers: [Hobgoblin, Mantled Marauder (128)]]
+Phase: Macon's Declare Blockers Step
+Combat: Nathaniel didn't block Hobgoblin, Mantled Marauder (128).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (128) deals 6 combat damage to Nathaniel.
+Life: Life: Nathaniel 12 > 6
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Phase: Macon's End step
+Mana: Swamp (257) - {T}: Add {B}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Swamp (256) - {T}: Add {B}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Nathaniel activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Nathaniel triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Nathaniel, Result: 4]
+Phase: Macon's Cleanup step
+Turn: Turn 26 (Nathaniel)
+Information: BOARD turn 26 (Nathaniel) | Captain | life 26 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 3 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2)
+Information: BOARD turn 26 (Nathaniel) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 2/3*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4; Molecule Man 5/5 | hand cards: The Frightful Four(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 26 (Nathaniel) | Nathaniel | life 6 | hand 0 | lands 6 (2 untapped) | open mana 9 | commander Battlefield | creatures 4 (2 untapped): Mr. House, President and CEO 0/4*; Cyberman Patrol 2/2; The Squadron Sinister 5/5*; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 26 (Nathaniel) | Ava | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 2/5*; Metastatic Evangel 5/3 | hand cards: Primal Vigor(5); Forgotten Ancient(4)
+Information: BOARD threat | turn 26 | Hobgoblin, Mantled Marauder (Macon) 135; Doctor Doom, King of Latveria (Macon) 64; Magmakin Artillerist (Macon) 63; Sokka and Suki (Captain) 50; Baron Strucker, HYDRA Overlord (Macon) 49
+Phase: Nathaniel's Untap step
+Phase: Nathaniel's Upkeep step
+Phase: Nathaniel's Draw step
+Phase: Nathaniel's Main phase, precombat
+Land: Nathaniel played Caves of Koilos (265)
+Phase: Nathaniel's Beginning of Combat Step
+Phase: Nathaniel's Declare Attackers Step
+Phase: Nathaniel's Declare Blockers Step
+Phase: Nathaniel's First Strike Damage Step
+Phase: Nathaniel's Combat Damage Step
+Phase: Nathaniel's End of Combat Step
+Phase: Nathaniel's Main phase, postcombat
+Phase: Nathaniel's End step
+Phase: Nathaniel's Cleanup step
+Turn: Turn 27 (Ava)
+Information: BOARD turn 27 (Ava) | Captain | life 26 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 3 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2)
+Information: BOARD turn 27 (Ava) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 2/3*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4; Molecule Man 5/5 | hand cards: The Frightful Four(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 27 (Ava) | Nathaniel | life 6 | hand 0 | lands 7 (7 untapped) | open mana 16 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 27 (Ava) | Ava | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 2/5*; Metastatic Evangel 5/3 | hand cards: Primal Vigor(5); Forgotten Ancient(4)
+Information: BOARD threat | turn 27 | Hobgoblin, Mantled Marauder (Macon) 130; Doctor Doom, King of Latveria (Macon) 61; Magmakin Artillerist (Macon) 61; Sokka and Suki (Captain) 48; Baron Strucker, HYDRA Overlord (Macon) 48
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Mana: Forest (354) - {T}: Add {G}.
+Add To Stack: Ava activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Land: Ava picked {U}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Land: Ava picked {W}
+Mana: Temple of Plenty (375) - {T}: Add {G} or {W}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Mana: Idyllic Beachfront (333) - {T}: Add {U}.
+Mana: Tangled Islet (360) - {T}: Add {G}.
+Add To Stack: Ava cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Ava | open mana: Captain 5, Macon 2, Nathaniel 16
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Add To Stack: Ava triggered Metastatic Evangel
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Zone Changer: Tidus, Yuna's Guardian (413)]
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 28 (Captain)
+Information: BOARD turn 28 (Captain) | Captain | life 26 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 3 (2 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2)
+Information: BOARD turn 28 (Captain) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 2/3*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4; Molecule Man 5/5 | hand cards: The Frightful Four(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 28 (Captain) | Nathaniel | life 6 | hand 0 | lands 7 (7 untapped) | open mana 16 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 28 (Captain) | Ava | life 34 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 4/7; Metastatic Evangel 7/5; Tidus, Yuna's Guardian 7/7 | hand cards: Primal Vigor(5); Forgotten Ancient(4); Prime Speaker Zegana(6)
+Information: BOARD threat | turn 28 | Hobgoblin, Mantled Marauder (Macon) 125; Doctor Doom, King of Latveria (Macon) 59; Magmakin Artillerist (Macon) 58; Sokka and Suki (Captain) 46; Baron Strucker, HYDRA Overlord (Macon) 46
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Macon 2, Nathaniel 16, Ava 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Sokka and Suki (8) to attack Ava.
+Information: BOARD attack | Captain -> Ava | attackers 1 (power 7) | defender life 34 | untapped creatures 3 (power 18): Sylvan Caryatid 4/7; Metastatic Evangel 7/5; Tidus, Yuna's Guardian 7/7 | open mana 1
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Sokka and Suki (8)]
+Phase: Captain's Declare Blockers Step
+Combat: Ava didn't block Sokka and Suki (8).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Sokka and Suki (8) deals 7 combat damage to Ava.
+Life: Life: Ava 34 > 27
+Add To Stack: Macon triggered Puppet Master, String Puller
+Resolve Stack: Whenever one or more goaded creatures deal combat damage to one of your opponents, create a Treasure token. [Damaged: Ava, Amount: 7]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 29 (Macon)
+Information: BOARD turn 29 (Macon) | Captain | life 26 | hand 6 | lands 4 (1 untapped) | open mana 7 | commander Battlefield | creatures 4 (3 untapped): Hero Token 2/1[Monk's Fist]; Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5; Captain America, First Avenger 4/4 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2); Colossus Hammer(1); Sword of Forge and Frontier(3)
+Information: BOARD turn 29 (Macon) | Macon | life 24 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 6 (5 untapped): Baron Strucker, HYDRA Overlord 3/3; Doctor Doom, King of Latveria 4/4; Hobgoblin, Mantled Marauder 2/3*; Puppet Master, String Puller 3/5; Magmakin Artillerist 1/4; Molecule Man 5/5 | hand cards: The Frightful Four(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 29 (Macon) | Nathaniel | life 6 | hand 0 | lands 7 (7 untapped) | open mana 16 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5; Robot Token 3/3 | hand cards: 
+Information: BOARD turn 29 (Macon) | Ava | life 27 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 4/7; Metastatic Evangel 7/5; Tidus, Yuna's Guardian 7/7 | hand cards: Primal Vigor(5); Forgotten Ancient(4); Prime Speaker Zegana(6)
+Information: BOARD threat | turn 29 | Hobgoblin, Mantled Marauder (Macon) 120; Sokka and Suki (Captain) 85; Doctor Doom, King of Latveria (Macon) 56; Magmakin Artillerist (Macon) 56; Puppet Master, String Puller (Macon) 50
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Add To Stack: Macon triggered Doctor Octopus, Master Planner
+Add To Stack: Macon cast Doctor Octopus, Master Planner
+Information: BOARD cast | Doctor Octopus, Master Planner (mv 7) by Macon | open mana: Captain 7, Nathaniel 16, Ava 1
+Resolve Stack: Doctor Octopus, Master Planner - Miracle
+Resolve Stack: Doctor Octopus, Master Planner - Creature 4 / 8
+Add To Stack: Macon triggered Baron Strucker, HYDRA Overlord
+Discard: Macon discards Command Tower (120).
+Resolve Stack: Whenever another Villain you control enters, you may have it connive. Do this only once each turn. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) [Zone Changer: Doctor Octopus, Master Planner (168)]
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Add To Stack: Macon triggered Magmakin Artillerist
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Command Tower (120), Cause: ]
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Nathaniel.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Ava.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Captain.
+Life: Life: Captain 26 > 25
+Life: Life: Nathaniel 6 > 5
+Life: Life: Ava 27 > 26
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Macon, Amount: 1]
+Life: Life: Nathaniel 5 > 3
+Life: Life: Ava 26 > 24
+Life: Life: Captain 25 > 23
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Zone Change: Robot Token (422) was put into Graveyard from Battlefield.
+Add To Stack: Nathaniel activated Goblin Bombardment targeting [Hero Token (416)]
+Damage: Goblin Bombardment (231) deals 1 damage to Hero Token (416).
+Resolve Stack: Goblin Bombardment (231) - Goblin Bombardment (231) deals 1 damage to Hero Token (416).
+Zone Change: Hero Token (416) was put into Graveyard from Battlefield.
+Phase: Macon's Main phase, precombat
+Mana: Exotic Orchard (134) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Macon picked {U}
+Mana: Sulfur Falls (151) - {T}: Add {U} or {R}.
+Land: Macon picked {B}
+Mana: Luxury Suite (126) - {T}: Add {B} or {R}.
+Add To Stack: Macon cast The Frightful Four
+Information: BOARD cast | The Frightful Four (mv 4) by Macon | open mana: Captain 7, Nathaniel 16, Ava 1
+Resolve Stack: The Frightful Four - Creature 4 / 4
+Mana: Fetid Pools (172) - {T}: Add {B}.
+Mana: Coastal Peak (137) - {T}: Add {R}.
+Mana: Scorched Geyser (181) - {T}: Add {R}.
+Add To Stack: Macon cast Moonstone, Harsh Mistress
+Information: BOARD cast | Moonstone, Harsh Mistress (mv 4) by Macon | open mana: Captain 7, Nathaniel 16, Ava 1
+Resolve Stack: Moonstone, Harsh Mistress - Creature 2 / 4
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (128)]
+Discard: Macon discards Glorious Purpose (121).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (128)]]) [Phase: Macon]
+Add To Stack: Macon triggered Moonstone, Harsh Mistress
+Add To Stack: Macon triggered Magmakin Artillerist
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Glorious Purpose (121), Cause: ]
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Nathaniel.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Ava.
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Captain.
+Life: Life: Captain 23 > 22
+Life: Life: Nathaniel 3 > 2
+Life: Life: Ava 24 > 23
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Macon, Amount: 1]
+Resolve Stack: Whenever you discard a card, you may exile that card from your graveyard. If you do, until the end of your next turn, you may play that card. [Discarded: Glorious Purpose (121), Cause: ]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Hobgoblin, Mantled Marauder (128), Molecule Man (116), Doctor Doom, King of Latveria (201), Baron Strucker, HYDRA Overlord (175), Puppet Master, String Puller (113) and Magmakin Artillerist (174) to attack Nathaniel.
+Information: BOARD attack | Macon -> Nathaniel | attackers 6 (power 33) | defender life 2 | untapped creatures 3 (power 7): Mr. House, President and CEO 0/4; Cyberman Patrol 2/2; The Squadron Sinister 5/5 | open mana 16
+Add To Stack: Macon triggered Puppet Master, String Puller targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.) (Targeting: [[Captain America, First Avenger (100)]]) [Number Attackers: [Hobgoblin, Mantled Marauder (128), Molecule Man (116), Doctor Doom, King of Latveria (201), Baron Strucker, HYDRA Overlord (175), Puppet Master, String Puller (113), Magmakin Artillerist (174)]]
+Phase: Macon's Declare Blockers Step
+Combat: Nathaniel didn't block Hobgoblin, Mantled Marauder (128).
+Nathaniel assigned Cyberman Patrol (222) to block Molecule Man (116).
+Nathaniel assigned Mr. House, President and CEO (302) to block Doctor Doom, King of Latveria (201).
+Nathaniel assigned The Squadron Sinister (129) to block Baron Strucker, HYDRA Overlord (175).
+Nathaniel didn't block Puppet Master, String Puller (113).
+Nathaniel didn't block Magmakin Artillerist (174).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (128) deals 9 combat damage to Nathaniel.
+Damage: Molecule Man (116) deals 7 damage to Cyberman Patrol (222).
+Damage: Doctor Doom, King of Latveria (201) deals 6 damage to Mr. House, President and CEO (302).
+Damage: Baron Strucker, HYDRA Overlord (175) deals 5 damage to The Squadron Sinister (129).
+Damage: Puppet Master, String Puller (113) deals 5 combat damage to Nathaniel.
+Damage: Magmakin Artillerist (174) deals 1 combat damage to Nathaniel.
+Damage: Cyberman Patrol (222) deals 2 damage to Molecule Man (116).
+Damage: The Squadron Sinister (129) deals 5 damage to Baron Strucker, HYDRA Overlord (175).
+Life: Life: Nathaniel 2 > -13
+Zone Change: The Squadron Sinister (129) was put into Exile from Battlefield.
+Zone Change: Baron Strucker, HYDRA Overlord (175) was put into Graveyard from Battlefield.
+Phase: Macon's End of Combat Step
+Phase: Macon's Main phase, postcombat
+Zone Change: Treasure Token (425) was put into Graveyard from Battlefield.
+Land: Treasure Token (425) picked {U}
+Mana: Treasure Token (425) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Land: Treasure Token (420) picked {W}
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Macon cast Glorious Purpose
+Information: BOARD cast | Glorious Purpose (mv 2) by Macon | open mana: Captain 7, Ava 1
+Resolve Stack: Glorious Purpose
+Phase: Macon's End step
+Add To Stack: Macon triggered Doctor Octopus, Master Planner
+Resolve Stack: At the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference. [Phase: Macon]
+Phase: Macon's Cleanup step
+Turn: Turn 30 (Ava)
+Information: BOARD turn 30 (Ava) | Captain | life 22 | hand 6 | lands 4 (1 untapped) | open mana 7 | commander Battlefield | creatures 3 (2 untapped): Sokka and Suki 7/7*[Adaptive Omnitool]; Leonin Abunas 2/5; Captain America, First Avenger 4/4 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Brotherhood Regalia(2); Colossus Hammer(1); Sword of Forge and Frontier(3)
+Information: BOARD turn 30 (Ava) | Macon | life 24 | hand 8 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (3 untapped): Doctor Doom, King of Latveria 6/6*; Hobgoblin, Mantled Marauder 5/6*; Puppet Master, String Puller 5/7*; Magmakin Artillerist 1/4*; Molecule Man 7/7*; Doctor Octopus, Master Planner 4/8; The Frightful Four 6/6; Moonstone, Harsh Mistress 4/6 | hand cards: Endless Ranks of HYDRA(4); Swamp(land); Frostboil Snarl(land); Canyon Slough(land); Tombstone, Career Criminal(3); Kang Prime(5); Drowned Catacomb(land); Swamp(land)
+Information: BOARD turn 30 (Ava) | Ava | life 23 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 4/7; Metastatic Evangel 7/5; Tidus, Yuna's Guardian 7/7 | hand cards: Primal Vigor(5); Forgotten Ancient(4); Prime Speaker Zegana(6)
+Information: BOARD threat | turn 30 | Hobgoblin, Mantled Marauder (Macon) 195; Magmakin Artillerist (Macon) 123; Puppet Master, String Puller (Macon) 91; Doctor Doom, King of Latveria (Macon) 83; Sokka and Suki (Captain) 82
+Phase: Ava's Untap step
+Phase: Ava's Upkeep step
+Mana: Forest (354) - {T}: Add {G}.
+Add To Stack: Ava activated Tromell, Seymour's Butler
+Resolve Stack: Tromell, Seymour's Butler (387) - Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Phase: Ava's Draw step
+Phase: Ava's Main phase, precombat
+Phase: Ava's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Ava's Declare Attackers Step
+Phase: Ava's Declare Blockers Step
+Phase: Ava's First Strike Damage Step
+Phase: Ava's Combat Damage Step
+Phase: Ava's End of Combat Step
+Phase: Ava's Main phase, postcombat
+Land: Ava picked {G}
+Mana: Temple of Plenty (375) - {T}: Add {G} or {W}.
+Land: Ava picked {W}
+Mana: Port Town (409) - {T}: Add {W} or {U}.
+Mana: Canopy Vista (385) - {T}: Add {G}.
+Add To Stack: Ava cast Maester Seymour
+Information: BOARD cast | Maester Seymour (mv 3) by Ava | open mana: Captain 7, Macon 0
+Replacement Effect: Each other nontoken creature you control enters with an additional +1/+1 counter on it.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Maester Seymour - Creature 1 / 3
+Add To Stack: Ava triggered Metastatic Evangel
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Captain | open mana: Macon 0, Ava 3
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Captain 22 > 20
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Brotherhood Regalia (91), Activator: Captain, SpellAbility: Brotherhood Regalia]
+Resolve Stack: Brotherhood Regalia
+Add To Stack: Captain triggered Sokka and Suki
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Brotherhood Regalia (91)]
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Brotherhood Regalia (91)]
+Add To Stack: Captain triggered Sokka and Suki targeting [Monk's Fist (68)]
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[Monk's Fist (68)]]) [Zone Changer: Ally Token (428)]
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Macon 0, Ava 3
+Resolve Stack: Colossus Hammer
+Add To Stack: Captain triggered Sokka and Suki
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Colossus Hammer (40)]
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Colossus Hammer (40)]
+Add To Stack: Captain triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Ally Token (430)]
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Replacement Effect: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+Resolve Stack: Whenever another nontoken creature you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Zone Changer: Maester Seymour (386)]
+Phase: Ava's End step
+Phase: Ava's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Captain | life 20 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 5 (4 untapped): Sokka and Suki 9/9*[Adaptive Omnitool]; Leonin Abunas 2/5; Captain America, First Avenger 14/14[Brotherhood Regalia,Colossus Hammer]; Ally Token 2/1[Monk's Fist]; Ally Token 1/1 | hand cards: Stroke of Midnight(3); Mana Drain(2); Excalibur, Sword of Eden(12); Sword of Forge and Frontier(3)
+Information: BOARD turn 31 (Captain) | Macon | life 24 | hand 8 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (3 untapped): Doctor Doom, King of Latveria 6/6*; Hobgoblin, Mantled Marauder 5/6*; Puppet Master, String Puller 5/7*; Magmakin Artillerist 1/4*; Molecule Man 7/7*; Doctor Octopus, Master Planner 4/8; The Frightful Four 6/6; Moonstone, Harsh Mistress 4/6 | hand cards: Endless Ranks of HYDRA(4); Swamp(land); Frostboil Snarl(land); Canyon Slough(land); Tombstone, Career Criminal(3); Kang Prime(5); Drowned Catacomb(land); Swamp(land)
+Information: BOARD turn 31 (Captain) | Ava | life 23 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Battlefield | creatures 5 (4 untapped): Tromell, Seymour's Butler 2/3*; Sylvan Caryatid 6/9; Metastatic Evangel 9/7; Tidus, Yuna's Guardian 9/9; Maester Seymour 5/7 | hand cards: Primal Vigor(5); Forgotten Ancient(4); Prime Speaker Zegana(6)
+Information: BOARD threat | turn 31 | Hobgoblin, Mantled Marauder (Macon) 188; Sokka and Suki (Captain) 136; Magmakin Artillerist (Macon) 118; Puppet Master, String Puller (Macon) 88; Doctor Doom, King of Latveria (Macon) 80
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Captain | open mana: Macon 0, Ava 3
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Captain 20 > 8
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Excalibur, Sword of Eden (30), Activator: Captain, SpellAbility: Excalibur, Sword of Eden]
+Phase: devCaptain's Main phase, precombat
+Resolve Stack: Excalibur, Sword of Eden
+Add To Stack: Captain triggered Sokka and Suki
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Excalibur, Sword of Eden (30)]
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Excalibur, Sword of Eden (30)]
+Add To Stack: Captain triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Ally Token (432)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Adaptive Omnitool (61)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Adaptive Omnitool (61)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Ava.
+Information: BOARD attack | Captain -> Ava | attackers 1 (power 31) | defender life 23 | untapped creatures 4 (power 29): Sylvan Caryatid 6/9; Metastatic Evangel 9/7; Tidus, Yuna's Guardian 9/9; Maester Seymour 5/7 | open mana 3
+Add To Stack: Captain triggered Adaptive Omnitool
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Captain America, First Avenger (100)]
+Phase: Captain's Declare Blockers Step
+Combat: Ava didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 31 combat damage to Ava.
+Life: Life: Ava 23 > -8
+Add To Stack: Macon triggered Puppet Master, String Puller
+Resolve Stack: Whenever one or more goaded creatures deal combat damage to one of your opponents, create a Treasure token. [Damaged: Ava, Amount: 31]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain cast Sword of Forge and Frontier
+Information: BOARD cast | Sword of Forge and Frontier (mv 3) by Captain | open mana: Macon 1
+Resolve Stack: Sword of Forge and Frontier
+Add To Stack: Captain triggered Sokka and Suki
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (100)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Sword of Forge and Frontier (34)]
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Sword of Forge and Frontier (34)]
+Add To Stack: Captain triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Ally Token (437)]
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Macon)
+Information: BOARD turn 32 (Macon) | Captain | life 8 | hand 4 | lands 4 (3 untapped) | open mana 11 | commander Battlefield | creatures 7 (7 untapped): Sokka and Suki 3/3; Leonin Abunas 2/5; Captain America, First Avenger 34/24[Brotherhood Regalia,Colossus Hammer,Excalibur, Sword of Eden,Adaptive Omnitool,Sword of Forge and Frontier]; Ally Token 2/1[Monk's Fist]; Ally Token 1/1 x3 | hand cards: Stroke of Midnight(3); Mana Drain(2); Iroas, God of Victory(4); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 32 (Macon) | Macon | life 24 | hand 8 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (3 untapped): Doctor Doom, King of Latveria 6/6*; Hobgoblin, Mantled Marauder 5/6*; Puppet Master, String Puller 5/7*; Magmakin Artillerist 1/4*; Molecule Man 7/7*; Doctor Octopus, Master Planner 4/8; The Frightful Four 6/6; Moonstone, Harsh Mistress 4/6 | hand cards: Endless Ranks of HYDRA(4); Swamp(land); Frostboil Snarl(land); Canyon Slough(land); Tombstone, Career Criminal(3); Kang Prime(5); Drowned Catacomb(land); Swamp(land)
+Information: BOARD threat | turn 32 | Captain America, First Avenger (Captain) 206; Sokka and Suki (Captain) 188; Hobgoblin, Mantled Marauder (Macon) 180; Magmakin Artillerist (Macon) 113; Puppet Master, String Puller (Macon) 99
+Phase: Macon's Untap step
+Phase: Macon's Upkeep step
+Phase: Macon's Draw step
+Add To Stack: Macon triggered Bedevil
+Add To Stack: Macon cast Bedevil targeting [Sokka and Suki (8)]
+Information: BOARD cast | Bedevil (mv 3) by Macon | open mana: Captain 11
+Resolve Stack: Bedevil - Miracle
+Zone Change: Sokka and Suki (8) was put into Graveyard from Battlefield.
+Resolve Stack: Bedevil (167) - Destroy Sokka and Suki (8).
+Phase: Macon's Main phase, precombat
+Replacement Effect: Drowned Catacomb enters tapped unless you control an Island or a Swamp.
+Land: Macon played Drowned Catacomb (180)
+Phase: Macon's Beginning of Combat Step
+Add To Stack: Macon triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (128)]
+Discard: Macon discards Swamp (157).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (128)]]) [Phase: Macon]
+Add To Stack: Macon triggered Moonstone, Harsh Mistress
+Add To Stack: Macon triggered Doctor Doom, King of Latveria
+Add To Stack: Macon triggered Magmakin Artillerist
+Add To Stack: Macon triggered Glorious Purpose
+Add To Stack: Macon triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Swamp (157), Cause: ]
+Resolve Stack: Whenever a creature you control connives, put a +1/+1 counter on that creature and a plan counter on this enchantment. [Card: Hobgoblin, Mantled Marauder (128)]
+Damage: Magmakin Artillerist (174) deals 1 non-combat damage to Captain.
+Life: Life: Captain 8 > 7
+Resolve Stack: Whenever you discard one or more cards, this creature deals that much damage to each opponent. [Player: Macon, Amount: 1]
+Life: Life: Captain 7 > 5
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Macon, Amount: 1]
+Resolve Stack: Whenever you discard a card, you may exile that card from your graveyard. If you do, until the end of your next turn, you may play that card. [Discarded: Swamp (157), Cause: ]
+Phase: Macon's Declare Attackers Step
+Combat: Macon assigned Hobgoblin, Mantled Marauder (128), Molecule Man (116), Doctor Doom, King of Latveria (201), The Frightful Four (171), Puppet Master, String Puller (113), Doctor Octopus, Master Planner (168), Moonstone, Harsh Mistress (110) and Magmakin Artillerist (174) to attack Captain.
+Information: BOARD attack | Macon -> Captain | attackers 8 (power 41) | defender life 5 | untapped creatures 6 (power 41): Leonin Abunas 2/5; Captain America, First Avenger 34/24[Brotherhood Regalia,Colossus Hammer,Excalibur, Sword of Eden,Adaptive Omnitool,Sword of Forge and Frontier]; Ally Token 2/1[Monk's Fist]; Ally Token 1/1 x3 | open mana 11
+Mana: Spectator Seating (78) - {T}: Add {R} or {W}.
+Mana: Furycalm Snarl (53) - {T}: Add {R} or {W}.
+Mana: Sulfur Falls (52) - {T}: Add {U} or {R}.
+Add To Stack: Captain cast Stroke of Midnight targeting [Hobgoblin, Mantled Marauder (128)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Captain | open mana: Macon 14
+Add To Stack: Macon triggered The Frightful Four
+Life: Life: Captain 5 > 2
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Stroke of Midnight (9), Activator: Captain, SpellAbility: Destroy target nonland permanent. Its controller creates a 1/1 white Human creature token. ]
+Zone Change: Hobgoblin, Mantled Marauder (128) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (9) - Destroy Hobgoblin, Mantled Marauder (128). 
+Phase: Macon's Declare Blockers Step
+Combat: Captain assigned Ally Token (428) to block Molecule Man (116).
+Captain didn't block Doctor Doom, King of Latveria (201).
+Captain didn't block The Frightful Four (171).
+Captain didn't block Puppet Master, String Puller (113).
+Captain didn't block Doctor Octopus, Master Planner (168).
+Captain didn't block Moonstone, Harsh Mistress (110).
+Captain didn't block Magmakin Artillerist (174).
+Phase: Macon's First Strike Damage Step
+Phase: Macon's Combat Damage Step
+Damage: Molecule Man (116) deals 7 damage to Ally Token (428).
+Damage: Doctor Doom, King of Latveria (201) deals 6 combat damage to Captain.
+Damage: The Frightful Four (171) deals 6 combat damage to Captain.
+Damage: Puppet Master, String Puller (113) deals 5 combat damage to Captain.
+Damage: Doctor Octopus, Master Planner (168) deals 4 combat damage to Captain.
+Damage: Moonstone, Harsh Mistress (110) deals 4 combat damage to Captain.
+Damage: Magmakin Artillerist (174) deals 1 combat damage to Captain.
+Damage: Ally Token (428) deals 2 damage to Molecule Man (116).
+Life: Life: Captain 2 > -24
+Player Control: Captain has restored control over themself
+Player Control: Macon has restored control over themself
+Player Control: Nathaniel has restored control over themself
+Player Control: Ava has restored control over themself
+Game Outcome: Match Duration 24m : 47s
+Game Outcome: Turn 16
+Game Outcome: Captain has lost because life total reached 0
+Game Outcome: Macon has won because all opponents have lost
+Game Outcome: Nathaniel has lost because life total reached 0
+Game Outcome: Ava has lost because life total reached 0
+Match Result: Captain: 0 Macon: 1 Nathaniel: 0 Ava: 0 
+
+Game Result: Macon has won
