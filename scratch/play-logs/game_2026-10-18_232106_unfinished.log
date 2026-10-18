@@ -1,0 +1,635 @@
+Player: Captain (HUMAN) deck=Captain America v7
+Player: Lucas (AI) deck=Doom Prevails v3
+Player: Markard (AI) deck=Mr House v4
+Player: Zakarn (AI) deck=Tidus v3
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Lucas has mulliganed down to 7 cards.
+Mulligan: Markard has mulliganed down to 7 cards.
+Mulligan: Zakarn has mulliganed down to 7 cards.
+Mulligan: Zakarn has mulliganed down to 6 cards.
+Mulligan: Zakarn has mulliganed down to 5 cards.
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Lucas has kept a hand of 7 cards
+Mulligan: Markard has kept a hand of 7 cards
+Mulligan: Zakarn has kept a hand of 5 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Shivan Reef(land); Spell Pierce(1); Swiftfoot Boots(2); Island(land); Riverglide Pathway(land); Raugrin Triome(land)
+Information: BOARD turn 1 (Captain) | Lucas | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Smoldering Marsh(land)
+Information: BOARD turn 1 (Captain) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Silent Clearing(land); Plains(land); Arcane Signet(2)
+Information: BOARD turn 1 (Captain) | Zakarn | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Captain played Raugrin Triome (90)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (Lucas)
+Information: BOARD turn 2 (Lucas) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Shivan Reef(land); Spell Pierce(1); Swiftfoot Boots(2); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2)
+Information: BOARD turn 2 (Lucas) | Lucas | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Smoldering Marsh(land)
+Information: BOARD turn 2 (Lucas) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Silent Clearing(land); Plains(land); Arcane Signet(2)
+Information: BOARD turn 2 (Lucas) | Zakarn | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Plains(land)
+Phase: Lucas' Untap step
+Phase: Lucas' Upkeep step
+Phase: Lucas' Draw step
+Phase: Lucas' Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Lucas played Smoldering Marsh (165)
+Phase: Lucas' Beginning of Combat Step
+Phase: Lucas' Declare Attackers Step
+Phase: Lucas' Declare Blockers Step
+Phase: Lucas' First Strike Damage Step
+Phase: Lucas' Combat Damage Step
+Phase: Lucas' End of Combat Step
+Phase: Lucas' Main phase, postcombat
+Phase: Lucas' End step
+Phase: Lucas' Cleanup step
+Turn: Turn 3 (Markard)
+Information: BOARD turn 3 (Markard) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Shivan Reef(land); Spell Pierce(1); Swiftfoot Boots(2); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2)
+Information: BOARD turn 3 (Markard) | Lucas | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 3 (Markard) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Silent Clearing(land); Plains(land); Arcane Signet(2)
+Information: BOARD turn 3 (Markard) | Zakarn | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Plains(land)
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Land: Markard played Silent Clearing (216)
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 4 (Zakarn)
+Information: BOARD turn 4 (Zakarn) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Shivan Reef(land); Spell Pierce(1); Swiftfoot Boots(2); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2)
+Information: BOARD turn 4 (Zakarn) | Lucas | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 4 (Zakarn) | Markard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land)
+Information: BOARD turn 4 (Zakarn) | Zakarn | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Plains(land)
+Phase: Zakarn's Untap step
+Phase: Zakarn's Upkeep step
+Phase: Zakarn's Draw step
+Phase: Zakarn's Main phase, precombat
+Land: Zakarn played Plains (406)
+Phase: Zakarn's Beginning of Combat Step
+Phase: Zakarn's Declare Attackers Step
+Phase: Zakarn's Declare Blockers Step
+Phase: Zakarn's First Strike Damage Step
+Phase: Zakarn's Combat Damage Step
+Phase: Zakarn's End of Combat Step
+Phase: Zakarn's Main phase, postcombat
+Phase: Zakarn's End step
+Phase: Zakarn's Cleanup step
+Turn: Turn 5 (Captain)
+Information: BOARD turn 5 (Captain) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Shivan Reef(land); Spell Pierce(1); Swiftfoot Boots(2); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2)
+Information: BOARD turn 5 (Captain) | Lucas | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 5 (Captain) | Markard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land)
+Information: BOARD turn 5 (Captain) | Zakarn | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Canopy Vista(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Shivan Reef (20)
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Captain | open mana: Lucas 0, Markard 3, Zakarn 1
+Resolve Stack: Swiftfoot Boots
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 6 (Lucas)
+Information: BOARD turn 6 (Lucas) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 6 (Lucas) | Lucas | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 6 (Lucas) | Markard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land)
+Information: BOARD turn 6 (Lucas) | Zakarn | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Canopy Vista(land)
+Phase: Lucas' Untap step
+Phase: Lucas' Upkeep step
+Phase: Lucas' Draw step
+Phase: Lucas' Main phase, precombat
+Replacement Effect: This land enters tapped unless you control two or more basic lands.
+Land: Lucas played Scorched Geyser (181)
+Phase: Lucas' Beginning of Combat Step
+Phase: Lucas' Declare Attackers Step
+Phase: Lucas' Declare Blockers Step
+Phase: Lucas' First Strike Damage Step
+Phase: Lucas' Combat Damage Step
+Phase: Lucas' End of Combat Step
+Phase: Lucas' Main phase, postcombat
+Phase: Lucas' End step
+Phase: Lucas' Cleanup step
+Turn: Turn 7 (Markard)
+Information: BOARD turn 7 (Markard) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 7 (Markard) | Lucas | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 7 (Markard) | Markard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Haunted Ridge(land); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land)
+Information: BOARD turn 7 (Markard) | Zakarn | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Canopy Vista(land)
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Markard played Haunted Ridge (283)
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 8 (Zakarn)
+Information: BOARD turn 8 (Zakarn) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 8 (Zakarn) | Lucas | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 8 (Zakarn) | Markard | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land); Exsanguinate(2)
+Information: BOARD turn 8 (Zakarn) | Zakarn | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resourceful Defense(3); Glacial Fortress(land); Ingenious Prodigy(1); Radiant Grove(land); Canopy Vista(land)
+Phase: Zakarn's Untap step
+Phase: Zakarn's Upkeep step
+Phase: Zakarn's Draw step
+Phase: Zakarn's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Zakarn played Glacial Fortress (389)
+Phase: Zakarn's Beginning of Combat Step
+Phase: Zakarn's Declare Attackers Step
+Phase: Zakarn's Declare Blockers Step
+Phase: Zakarn's First Strike Damage Step
+Phase: Zakarn's Combat Damage Step
+Phase: Zakarn's End of Combat Step
+Phase: Zakarn's Main phase, postcombat
+Land: Zakarn picked {U}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Zakarn cast Ingenious Prodigy
+Information: BOARD cast | Ingenious Prodigy (mv 2) by Zakarn | open mana: Captain 0, Lucas 1, Markard 3
+Replacement Effect: Ingenious Prodigy enters with X +1/+1 counters on it.
+Resolve Stack: Ingenious Prodigy - Creature 0 / 1 (X=1)
+Phase: Zakarn's End step
+Phase: Zakarn's Cleanup step
+Turn: Turn 9 (Captain)
+Information: BOARD turn 9 (Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 9 (Captain) | Lucas | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 9 (Captain) | Markard | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land); Exsanguinate(2)
+Information: BOARD turn 9 (Captain) | Zakarn | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Resourceful Defense(3); Radiant Grove(land); Canopy Vista(land); Wakka, Devoted Guardian(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Inspiring Vantage enters tapped unless you control two or fewer other lands.
+Land: Captain played Inspiring Vantage (53)
+Mana: Inspiring Vantage (53) - {T}: Add {R} or {W}.
+Mana: Raugrin Triome (90) - {T}: Add {U}.
+Damage: Shivan Reef (20) deals 1 non-combat damage to Captain.
+Life: Life: Captain 40 > 39
+Mana: Shivan Reef (20) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Lucas 1, Markard 3, Zakarn 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: devCaptain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Swiftfoot Boots (47)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Swiftfoot Boots (47)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Lucas.
+Information: BOARD attack | Captain -> Lucas | attackers 1 (power 4) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Captain's Declare Blockers Step
+Combat: Lucas didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 4 combat damage to Lucas.
+Life: Life: Lucas 40 > 36
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 10 (Lucas)
+Information: BOARD turn 10 (Lucas) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 4/4*[Swiftfoot Boots] | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 10 (Lucas) | Lucas | life 36 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Archnemesis(3); Mountain(land); Extract Power(6); Mountain(land); Unclaimed Territory(land); Loki, the Deceiver(4)
+Information: BOARD turn 10 (Lucas) | Markard | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land); Exsanguinate(2)
+Information: BOARD turn 10 (Lucas) | Zakarn | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Resourceful Defense(3); Radiant Grove(land); Canopy Vista(land); Wakka, Devoted Guardian(4)
+Information: BOARD threat | turn 10 | Captain America, First Avenger (Captain) 37
+Phase: Lucas' Untap step
+Phase: Lucas' Upkeep step
+Phase: Lucas' Draw step
+Phase: Lucas' Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Lucas played Unclaimed Territory (140)
+Mana: Scorched Geyser (181) - {T}: Add {U}.
+Mana: Smoldering Marsh (165) - {T}: Add {B}.
+Mana: Unclaimed Territory (140) - {T}: Add {C}.
+Add To Stack: Lucas cast Archnemesis targeting [Captain]
+Information: BOARD cast | Archnemesis (mv 3) by Lucas | open mana: Captain 0, Markard 3, Zakarn 0
+Resolve Stack: Archnemesis (192) -  Attach to Captain
+Phase: Lucas' Beginning of Combat Step
+Phase: Lucas' Declare Attackers Step
+Phase: Lucas' Declare Blockers Step
+Phase: Lucas' First Strike Damage Step
+Phase: Lucas' Combat Damage Step
+Phase: Lucas' End of Combat Step
+Phase: Lucas' Main phase, postcombat
+Phase: Lucas' End step
+Phase: Lucas' Cleanup step
+Turn: Turn 11 (Markard)
+Information: BOARD turn 11 (Markard) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 4/4*[Swiftfoot Boots] | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 11 (Markard) | Lucas | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mountain(land); Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2)
+Information: BOARD turn 11 (Markard) | Markard | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Arcane Signet(2); Windbrisk Heights(land); Exsanguinate(2)
+Information: BOARD turn 11 (Markard) | Zakarn | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Resourceful Defense(3); Radiant Grove(land); Canopy Vista(land); Wakka, Devoted Guardian(4)
+Information: BOARD threat | turn 11 | Captain America, First Avenger (Captain) 36
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: Markard played Windbrisk Heights (273)
+Add To Stack: Markard triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (273)]
+Land: Markard picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Life: Life: Markard 40 > 39
+Land: Markard picked {W}
+Mana: Silent Clearing (216) - {T}, Pay 1 life: Add {W} or {B}.
+Add To Stack: Markard cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Markard | open mana: Captain 0, Lucas 0, Zakarn 0
+Resolve Stack: Arcane Signet
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 12 (Zakarn)
+Information: BOARD turn 12 (Zakarn) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 4/4*[Swiftfoot Boots] | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 12 (Zakarn) | Lucas | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mountain(land); Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2)
+Information: BOARD turn 12 (Zakarn) | Markard | life 39 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 12 (Zakarn) | Zakarn | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Resourceful Defense(3); Radiant Grove(land); Canopy Vista(land); Wakka, Devoted Guardian(4)
+Information: BOARD threat | turn 12 | Captain America, First Avenger (Captain) 35
+Phase: Zakarn's Untap step
+Phase: Zakarn's Upkeep step
+Add To Stack: Zakarn triggered Ingenious Prodigy
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Zakarn]
+Phase: Zakarn's Draw step
+Phase: Zakarn's Main phase, precombat
+Phase: Zakarn's Beginning of Combat Step
+Phase: Zakarn's Declare Attackers Step
+Phase: Zakarn's Declare Blockers Step
+Phase: Zakarn's First Strike Damage Step
+Phase: Zakarn's Combat Damage Step
+Phase: Zakarn's End of Combat Step
+Phase: Zakarn's Main phase, postcombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Zakarn played Radiant Grove (404)
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Zakarn cast The Ozolith
+Information: BOARD cast | The Ozolith (mv 1) by Zakarn | open mana: Captain 0, Lucas 0, Markard 2
+Resolve Stack: The Ozolith
+Phase: Zakarn's End step
+Phase: Zakarn's Cleanup step
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 4/4*[Swiftfoot Boots] | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Island(land); Riverglide Pathway(land); Sram, Senior Edificer(2); Danitha Capashen, Paragon(3)
+Information: BOARD turn 13 (Captain) | Lucas | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mountain(land); Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2)
+Information: BOARD turn 13 (Captain) | Markard | life 39 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 13 (Captain) | Zakarn | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Resourceful Defense(3); Canopy Vista(land); Wakka, Devoted Guardian(4); Incubation Druid(2)
+Information: BOARD threat | turn 13 | Captain America, First Avenger (Captain) 33
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Island (27)
+Mana: Inspiring Vantage (53) - {T}: Add {R} or {W}.
+Mana: Island (27) - {T}: Add {U}.
+Add To Stack: Captain cast Sram, Senior Edificer
+Information: BOARD cast | Sram, Senior Edificer (mv 2) by Captain | open mana: Lucas 0, Markard 2, Zakarn 3
+Resolve Stack: Sram, Senior Edificer - Creature 2 / 2
+Mana: Raugrin Triome (90) - {T}: Add {W}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Add To Stack: Captain cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Captain | open mana: Lucas 0, Markard 2, Zakarn 3
+Resolve Stack: Birthright Boon (65) - Captain searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (Lucas)
+Information: BOARD turn 14 (Lucas) | Captain | life 39 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4[Swiftfoot Boots]; Sram, Senior Edificer 2/2 | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Riverglide Pathway(land); Danitha Capashen, Paragon(3); The Reaver Cleaver(3)
+Information: BOARD turn 14 (Lucas) | Lucas | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mountain(land); Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2)
+Information: BOARD turn 14 (Lucas) | Markard | life 39 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 14 (Lucas) | Zakarn | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Resourceful Defense(3); Canopy Vista(land); Wakka, Devoted Guardian(4); Incubation Druid(2)
+Information: BOARD threat | turn 14 | Captain America, First Avenger (Captain) 46
+Phase: Lucas' Untap step
+Phase: Lucas' Upkeep step
+Phase: Lucas' Draw step
+Phase: Lucas' Main phase, precombat
+Land: Lucas played Mountain (189)
+Mana: Scorched Geyser (181) - {T}: Add {U}.
+Mana: Smoldering Marsh (165) - {T}: Add {B}.
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Unclaimed Territory (140) - {T}: Add {C}.
+Add To Stack: Lucas cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Lucas | open mana: Captain 0, Markard 2, Zakarn 3
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Lucas' Beginning of Combat Step
+Add To Stack: Lucas triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Lucas discards Mountain (190).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Lucas]
+Add To Stack: Lucas triggered Doctor Doom, King of Latveria
+Life: Life: Markard 39 > 37
+Life: Life: Zakarn 40 > 38
+Life: Life: Captain 39 > 37
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Lucas, Amount: 1]
+Phase: Lucas' Declare Attackers Step
+Phase: Lucas' Declare Blockers Step
+Phase: Lucas' First Strike Damage Step
+Phase: Lucas' Combat Damage Step
+Phase: Lucas' End of Combat Step
+Phase: Lucas' Main phase, postcombat
+Phase: Lucas' End step
+Phase: Lucas' Cleanup step
+Turn: Turn 15 (Markard)
+Information: BOARD turn 15 (Markard) | Captain | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4[Swiftfoot Boots]; Sram, Senior Edificer 2/2 | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Riverglide Pathway(land); Danitha Capashen, Paragon(3); The Reaver Cleaver(3)
+Information: BOARD turn 15 (Markard) | Lucas | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2); Arcane Signet(2); The Squadron Sinister(7)
+Information: BOARD turn 15 (Markard) | Markard | life 37 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Mountain(land); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 15 (Markard) | Zakarn | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Resourceful Defense(3); Canopy Vista(land); Wakka, Devoted Guardian(4); Incubation Druid(2)
+Information: BOARD threat | turn 15 | Captain America, First Avenger (Captain) 44
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Land: Markard played Mountain (287)
+Land: Markard picked {W}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Land: Markard picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: Markard cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Markard | open mana: Captain 0, Lucas 0, Zakarn 3
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 16 (Zakarn)
+Information: BOARD turn 16 (Zakarn) | Captain | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4[Swiftfoot Boots]; Sram, Senior Edificer 2/2 | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Riverglide Pathway(land); Danitha Capashen, Paragon(3); The Reaver Cleaver(3)
+Information: BOARD turn 16 (Zakarn) | Lucas | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2); Arcane Signet(2); The Squadron Sinister(7)
+Information: BOARD turn 16 (Zakarn) | Markard | life 37 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 16 (Zakarn) | Zakarn | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Resourceful Defense(3); Canopy Vista(land); Wakka, Devoted Guardian(4); Incubation Druid(2)
+Information: BOARD threat | turn 16 | Captain America, First Avenger (Captain) 43
+Phase: Zakarn's Untap step
+Phase: Zakarn's Upkeep step
+Phase: Zakarn's Draw step
+Phase: Zakarn's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Zakarn played Canopy Vista (385)
+Land: Zakarn picked {U}
+Mana: Glacial Fortress (389) - {T}: Add {W} or {U}.
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Zakarn cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Zakarn | open mana: Captain 0, Lucas 0, Markard 4
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Zakarn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Zakarn's Declare Attackers Step
+Phase: Zakarn's Declare Blockers Step
+Phase: Zakarn's First Strike Damage Step
+Phase: Zakarn's Combat Damage Step
+Phase: Zakarn's End of Combat Step
+Phase: Zakarn's Main phase, postcombat
+Phase: Zakarn's End step
+Phase: Zakarn's Cleanup step
+Turn: Turn 17 (Captain)
+Information: BOARD turn 17 (Captain) | Captain | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4[Swiftfoot Boots]; Sram, Senior Edificer 2/2 | hand cards: Sword of Forge and Frontier(3); Spell Pierce(1); Riverglide Pathway(land); Danitha Capashen, Paragon(3); The Reaver Cleaver(3)
+Information: BOARD turn 17 (Captain) | Lucas | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2); Arcane Signet(2); The Squadron Sinister(7)
+Information: BOARD turn 17 (Captain) | Markard | life 37 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 17 (Captain) | Zakarn | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Resourceful Defense(3); Wakka, Devoted Guardian(4); Incubation Druid(2); Temple of Enlightenment(land)
+Information: BOARD threat | turn 17 | Captain America, First Avenger (Captain) 41
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Inspiring Vantage (53) - {T}: Add {R} or {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain cast The Reaver Cleaver
+Information: BOARD cast | The Reaver Cleaver (mv 3) by Captain | open mana: Lucas 0, Markard 4, Zakarn 0
+Add To Stack: Captain triggered Sram, Senior Edificer
+Resolve Stack: Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card. [Card: The Reaver Cleaver (24), Activator: Captain, SpellAbility: The Reaver Cleaver]
+Resolve Stack: The Reaver Cleaver
+Land: Captain played Plains (88)
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [The Reaver Cleaver (24)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[The Reaver Cleaver (24)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (100) to attack Lucas.
+Information: BOARD attack | Captain -> Lucas | attackers 1 (power 5) | defender life 36 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 0
+Add To Stack: Lucas triggered Archnemesis
+Resolve Stack: Whenever a player attacks you, you may attach this Aura to that player. [Number Attackers: [Captain America, First Avenger (100)]]
+Phase: Captain's Declare Blockers Step
+Combat: Lucas didn't block Captain America, First Avenger (100).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (100) deals 5 combat damage to Lucas.
+Life: Life: Lucas 36 > 31
+Add To Stack: Captain triggered Captain America, First Avenger
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Captain America, First Avenger (100), Damaged: Lucas, Amount: 5]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Zone Change: Treasure Token (422) was put into Graveyard from Battlefield.
+Mana: Treasure Token (422) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Captain | open mana: Lucas 0, Markard 4, Zakarn 0
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Zone Change: Treasure Token (421) was put into Graveyard from Battlefield.
+Mana: Treasure Token (421) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Sword of Forge and Frontier
+Information: BOARD cast | Sword of Forge and Frontier (mv 3) by Captain | open mana: Lucas 0, Markard 4, Zakarn 0
+Add To Stack: Captain triggered Sram, Senior Edificer
+Resolve Stack: Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card. [Card: Sword of Forge and Frontier (33), Activator: Captain, SpellAbility: Sword of Forge and Frontier]
+Resolve Stack: Sword of Forge and Frontier
+Phase: devCaptain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 18 (Lucas)
+Information: BOARD turn 18 (Lucas) | Captain | life 37 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Captain America, First Avenger 5/5*[Swiftfoot Boots,The Reaver Cleaver]; Sram, Senior Edificer 2/2; Danitha Capashen, Paragon 2/2 | hand cards: Spell Pierce(1); Riverglide Pathway(land); Mjölnir, Storm Hammer(4); Leonin Abunas(4)
+Information: BOARD turn 18 (Lucas) | Lucas | life 31 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Extract Power(6); Mountain(land); Loki, the Deceiver(4); Psychic Frog(2); Arcane Signet(2); The Squadron Sinister(7)
+Information: BOARD turn 18 (Lucas) | Markard | life 37 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 18 (Lucas) | Zakarn | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Resourceful Defense(3); Wakka, Devoted Guardian(4); Incubation Druid(2); Temple of Enlightenment(land)
+Information: BOARD threat | turn 18 | Captain America, First Avenger (Captain) 97
+Phase: Lucas' Untap step
+Phase: Lucas' Upkeep step
+Phase: Lucas' Draw step
+Phase: Lucas' Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Lucas played Secluded Courtyard (104)
+Mana: Scorched Geyser (181) - {T}: Add {U}.
+Mana: Smoldering Marsh (165) - {T}: Add {B}.
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Unclaimed Territory (140) - {T}: Add {C}.
+Add To Stack: Lucas cast Loki, the Deceiver
+Information: BOARD cast | Loki, the Deceiver (mv 4) by Lucas | open mana: Captain 2, Markard 4, Zakarn 0
+Resolve Stack: Loki, the Deceiver - Creature 4 / 4
+Phase: Lucas' Beginning of Combat Step
+Add To Stack: Lucas triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (201)]
+Discard: Lucas discards The Squadron Sinister (129).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (201)]]) [Phase: Lucas]
+Phase: Lucas' Declare Attackers Step
+Combat: Lucas assigned Doctor Doom, King of Latveria (201) to attack Captain.
+Information: BOARD attack | Lucas -> Captain | attackers 1 (power 4) | defender life 37 | untapped creatures 2 (power 4): Sram, Senior Edificer 2/2; Danitha Capashen, Paragon 2/2 | open mana 2
+Add To Stack: Lucas triggered Archnemesis
+Life: Life: Captain 37 > 35
+Life: Life: Lucas 31 > 33
+Resolve Stack: Whenever you attack enchanted player, that player loses 2 life. You draw a card and gain 2 life. [Number Attackers: [Doctor Doom, King of Latveria (201)]]
+Phase: Lucas' Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (201).
+Phase: Lucas' First Strike Damage Step
+Phase: Lucas' Combat Damage Step
+Damage: Doctor Doom, King of Latveria (201) deals 4 combat damage to Captain.
+Life: Life: Captain 35 > 31
+Add To Stack: Lucas triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Captain, Amount: 4]
+Phase: Lucas' End of Combat Step
+Phase: Lucas' Main phase, postcombat
+Phase: Lucas' End step
+Phase: Lucas' Cleanup step
+Turn: Turn 19 (Markard)
+Information: BOARD turn 19 (Markard) | Captain | life 31 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Captain America, First Avenger 5/5*[Swiftfoot Boots,The Reaver Cleaver]; Sram, Senior Edificer 2/2; Danitha Capashen, Paragon 2/2 | hand cards: Spell Pierce(1); Riverglide Pathway(land); Mjölnir, Storm Hammer(4); Leonin Abunas(4)
+Information: BOARD turn 19 (Markard) | Lucas | life 33 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Loki, the Deceiver 4/4 | hand cards: Extract Power(6); Mountain(land); Psychic Frog(2); Arcane Signet(2); Loki's Scepter(3); Containment Construct(2); Bedevil(3)
+Information: BOARD turn 19 (Markard) | Markard | life 37 | hand 6 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Plains(land); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 19 (Markard) | Zakarn | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Resourceful Defense(3); Wakka, Devoted Guardian(4); Incubation Druid(2); Temple of Enlightenment(land)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Captain) 93; Doctor Doom, King of Latveria (Lucas) 62
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Land: Markard picked {B}
+Mana: Haunted Ridge (283) - {T}: Add {B} or {R}.
+Mana: Mountain (287) - {T}: Add {R}.
+Add To Stack: Markard cast Terminate targeting [Danitha Capashen, Paragon (99)]
+Information: BOARD cast | Terminate (mv 2) by Markard | open mana: Captain 2, Lucas 1, Zakarn 0
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Mana: Treasure Token (419) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Spell Pierce targeting [Destroy target creature. It can't be regenerated.]
+Information: BOARD cast | Spell Pierce (mv 1) by Captain | open mana: Lucas 1, Markard 6, Zakarn 0
+Land: Markard picked {W}
+Mana: Arcane Signet (244) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Windbrisk Heights (273) - {T}: Add {W}.
+Resolve Stack: Spell Pierce (57) - Counter Terminate (264) unless its controller pays {2}.
+Zone Change: Danitha Capashen, Paragon (99) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (264) - Destroy Danitha Capashen, Paragon (99). It can't be regenerated.
+Phase: Markard's Main phase, precombat
+Land: Markard played Plains (290)
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 20 (Zakarn)
+Information: BOARD turn 20 (Zakarn) | Captain | life 31 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 5/5*[Swiftfoot Boots,The Reaver Cleaver]; Sram, Senior Edificer 2/2 | hand cards: Riverglide Pathway(land); Mjölnir, Storm Hammer(4); Leonin Abunas(4)
+Information: BOARD turn 20 (Zakarn) | Lucas | life 33 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Loki, the Deceiver 4/4 | hand cards: Extract Power(6); Mountain(land); Psychic Frog(2); Arcane Signet(2); Loki's Scepter(3); Containment Construct(2); Bedevil(3)
+Information: BOARD turn 20 (Zakarn) | Markard | life 37 | hand 5 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 20 (Zakarn) | Zakarn | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Resourceful Defense(3); Wakka, Devoted Guardian(4); Incubation Druid(2); Temple of Enlightenment(land)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Captain) 89; Doctor Doom, King of Latveria (Lucas) 59
+Phase: Zakarn's Untap step
+Phase: Zakarn's Upkeep step
+Phase: Zakarn's Draw step
+Phase: Zakarn's Main phase, precombat
+Mana: Radiant Grove (404) - {T}: Add {G}.
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Zakarn cast Incubation Druid
+Information: BOARD cast | Incubation Druid (mv 2) by Zakarn | open mana: Captain 1, Lucas 1, Markard 4
+Resolve Stack: Incubation Druid - Creature 0 / 2
+Phase: Zakarn's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (413) - [Couldn't add to stack, failed to target] - 
+Phase: Zakarn's Declare Attackers Step
+Combat: Zakarn assigned Tidus, Yuna's Guardian (413) to attack Captain.
+Information: BOARD attack | Zakarn -> Captain | attackers 1 (power 3) | defender life 31 | untapped creatures 1 (power 2): Sram, Senior Edificer 2/2 | open mana 1
+Phase: Zakarn's Declare Blockers Step
+Combat: Captain didn't block Tidus, Yuna's Guardian (413).
+Phase: Zakarn's First Strike Damage Step
+Phase: Zakarn's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (413) deals 3 combat damage to Captain.
+Life: Life: Captain 31 > 28
+Phase: Zakarn's End of Combat Step
+Phase: Zakarn's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Zakarn played Temple of Enlightenment (384)
+Add To Stack: Zakarn triggered Temple of Enlightenment
+Resolve Stack: Zakarn scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Enlightenment enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Enlightenment (384)]
+Phase: Zakarn's End step
+Phase: Zakarn's Cleanup step
+Turn: Turn 21 (Captain)
+Information: BOARD turn 21 (Captain) | Captain | life 28 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 5/5*[Swiftfoot Boots,The Reaver Cleaver]; Sram, Senior Edificer 2/2 | hand cards: Riverglide Pathway(land); Mjölnir, Storm Hammer(4); Leonin Abunas(4)
+Information: BOARD turn 21 (Captain) | Lucas | life 33 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Loki, the Deceiver 4/4 | hand cards: Extract Power(6); Mountain(land); Psychic Frog(2); Arcane Signet(2); Loki's Scepter(3); Containment Construct(2); Bedevil(3)
+Information: BOARD turn 21 (Captain) | Markard | life 37 | hand 5 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Losheel, Clockwork Scholar(3); Exsanguinate(2); Mondrak, Glory Dominus(4); Ghostly Prison(3)
+Information: BOARD turn 21 (Captain) | Zakarn | life 38 | hand 3 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3*; Incubation Druid 0/2 | hand cards: Resourceful Defense(3); Wakka, Devoted Guardian(4); Damning Verdict(5)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Captain) 86; Doctor Doom, King of Latveria (Lucas) 57
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Inspiring Vantage (53) - {T}: Add {R} or {W}.
+Mana: Raugrin Triome (90) - {T}: Add {R}.
+Add To Stack: Captain cast Leonin Abunas
+Information: BOARD cast | Leonin Abunas (mv 4) by Captain | open mana: Lucas 1, Markard 4, Zakarn 4
+Resolve Stack: Leonin Abunas - Creature 2 / 5
+Land: Captain played Riverglide Pathway (95)
+Mana: Riverglide Pathway (95) - {T}: Add {U}.
+Mana: Shivan Reef (20) - {T}: Add {C}.
+Zone Change: Treasure Token (418) was put into Graveyard from Battlefield.
+Mana: Treasure Token (418) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Mithril Coat
+Information: BOARD cast | Mithril Coat (mv 3) by Captain | open mana: Lucas 1, Markard 4, Zakarn 4
+Add To Stack: Captain triggered Sram, Senior Edificer
+Resolve Stack: Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card. [Card: Mithril Coat (72), Activator: Captain, SpellAbility: Mithril Coat]
+Resolve Stack: Mithril Coat
+Add To Stack: Captain triggered Mithril Coat targeting [Captain America, First Avenger (100)]
+Resolve Stack: When Mithril Coat enters, attach it to target legendary creature you control. (Targeting: [[Captain America, First Avenger (100)]]) [Zone Changer: Mithril Coat (72)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Sword of Forge and Frontier (33)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Forge and Frontier (33)]]) [Phase: Captain]
+Phase: devCaptain's Beginning of Combat Step
+Information: ROLLBACK to the start of COMBAT_BEGIN (turn 21)
+Zone Change: Archnemesis (192) was put into Graveyard from Battlefield.
+Phase: Captain's Declare Attackers Step
+
+Game Result: unfinished (Forge closed mid-game)

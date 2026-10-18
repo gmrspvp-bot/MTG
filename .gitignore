@@ -33,3 +33,6 @@
 
 # Copies of decks\*.dck that play.ps1 makes on every start (the originals in decks\ are the source)
 /forge-data/decks/commander/
+
+# Forge's network play logs
+/forge-data/networklogs/
