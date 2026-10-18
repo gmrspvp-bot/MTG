@@ -6,8 +6,7 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 
 | Deck | File to run | Notes |
 |---|---|---|
-| Captain America | `Captain America v6.dck` | Latest upgrade from the bulk collection. In Oct 2026 tests all versions (original to v6) won 16-20%, with no clear difference |
-| Captain America (planned) | `Captain America v7.dck` | 2026-10-18: v6 + 17 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver...). Cards not owned yet; not tested yet. See the deck's Description for the full list |
+| Captain America | `Captain America v7.dck` | **Default since 2026-10-18** (owner's choice). v6 + 17 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver...); most of these cards aren't owned yet. Not yet tested against v6. Full list in the deck's Description |
 | Mr House | `Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
 | Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
 | Tidus | `Tidus v3.dck` | bulk upgrades |
@@ -17,6 +16,6 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 | Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
 | Tinybones | `Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
 
-Older versions are kept for reference and comparisons; never delete or overwrite them. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
+Older versions are kept for reference and comparisons; never delete or overwrite them. Captain America v6 (previous default; all Oct 2026 tests up to 2026-10-18 used it) stays for comparison. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
 Note: `scripts\convert-manabox.ps1` regenerates the *original* `.dck` files from the ManaBox exports; it never touches the v2 files.

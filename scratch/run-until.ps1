@@ -3,11 +3,11 @@
 # (children inherit the affinity) at idle priority. Run folders -> scratch\<Label>-runs.txt
 param([string]$LastStart = '16:40', [string]$Deadline = '17:00', [int]$Parallel = 3, [switch]$Light, [string]$Label = 'afternoon',
       [string[]]$Pods = @(
-        'Captain America v6,Mr House v4,Doom Prevails v3,Tidus v3',
+        'Captain America v7,Mr House v4,Doom Prevails v3,Tidus v3',
         'Deadpool v3,Mr House v4,Doom Prevails v3,Tidus v3',
-        'Deadpool v3,Captain America v6,Doom Prevails v3,Tidus v3',
-        'Deadpool v3,Captain America v6,Mr House v4,Tidus v3',
-        'Deadpool v3,Captain America v6,Mr House v4,Doom Prevails v3'),
+        'Deadpool v3,Captain America v7,Doom Prevails v3,Tidus v3',
+        'Deadpool v3,Captain America v7,Mr House v4,Tidus v3',
+        'Deadpool v3,Captain America v7,Mr House v4,Doom Prevails v3'),
       # Optional JVM options per pod (same rotation as -Pods), e.g. for A/B tests of a -D switch.
       [string[]]$PodJvmArgs = @())
 $ErrorActionPreference = 'Stop'

@@ -43,11 +43,14 @@ elsewhere. The `scripts\` ones use paths relative to the repo.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
-  -Decks "Captain America v6,Doom Prevails v3,Mr House v4,Tidus v3" -Games 40 -Parallel 6
+  -Decks "Captain America v7,Doom Prevails v3,Mr House v4,Tidus v3" -Games 40 -Parallel 6
 ```
 
-- Current deck versions to run: **Captain America v6, Doom Prevails v3, Mr House v4, Tidus v3,
-  Deadpool v3**. Never delete or overwrite an original deck. Improvements go in a new `vN` file.
+- Current deck versions to run: **Captain America v7, Doom Prevails v3, Mr House v4, Tidus v3,
+  Deadpool v3**, plus the second owner's Angels, Olivia, Scion and Tinybones. Captain America v7
+  became the default on 2026-10-18 at the owner's request, before any v6 vs v7 test; results up
+  to then (below) used v6. Never delete or overwrite an original deck. Improvements go in a new
+  `vN` file.
 - `-JvmArgs "-Dforge.x=y"` passes switches (e.g. `-Dforge.captain.split=false`). `scratch\run-until.ps1`
   rotates pods until a deadline (`-PodJvmArgs` for A/B switches, `-Light` = 4 threads at idle priority).
 - **PC load:** on the owner's PC (6 cores / 12 threads) never exceed `-Parallel 6` (about 75% CPU,
@@ -103,7 +106,7 @@ Test results behind these defaults (Cap v6 vs Doom v3 / House v4 / Tidus v3):
 54% multi-target, 48% face-only, 31% at commanders, 42% deathtouch splits, main 1 44% / main 2 35%,
 never in upkeep. The AI default throws about 1.5 per game with about 24% face-only; that gap is
 what `faceslot` targets. Compare a run with:
-`scratch\throw-style.ps1 -Files <batch logs> -Player "Captain America v6"`, or no `-Player` for
+`scratch\throw-style.ps1 -Files <batch logs> -Player "Captain America v7"`, or no `-Player` for
 recorded games (it reads the `(HUMAN)` header).
 
 When learning from the owner's games: a **misclick** (they meant something else) means learning
