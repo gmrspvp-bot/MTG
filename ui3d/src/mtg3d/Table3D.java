@@ -280,6 +280,10 @@ public final class Table3D extends ApplicationAdapter {
         if (s != null) snap = s;
         if (cues != null) cues.update(snap);
         if (art != null) art.update();   // GL objects may only be made on this thread
+        // The heartbeat Handoff watches. A window that has stopped drawing cannot answer a
+        // decision, and this is what lets the game thread find that out in a frame or two rather
+        // than sitting out the whole timeout.
+        Handoff.alive();
 
         handleInput();
         updateCamera(Gdx.graphics.getDeltaTime());
@@ -372,6 +376,12 @@ public final class Table3D extends ApplicationAdapter {
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
+        // H gives the decision the game is waiting on back to Forge's window. Harmless when
+        // nothing has been taken over, which is the case until step 3.
+        if (Gdx.input.isKeyJustPressed(Input.Keys.H)) {
+            Handoff.handBack();
+            System.out.println("UI3D: handing the current decision back to Forge");
+        }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
         if (Gdx.input.isKeyJustPressed(Input.Keys.M) && cues != null) cues.toggleMute();
         if (Gdx.input.isKeyJustPressed(Input.Keys.TAB)) {
@@ -1248,7 +1258,7 @@ public final class Table3D extends ApplicationAdapter {
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
         font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
-            + "      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound "
+            + "      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
             + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.

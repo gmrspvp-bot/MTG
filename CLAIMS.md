@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - step 2 second half: `Handoff`, a way out of a blocked game thread | Xenil's Claude | 2026-10-21 | New `Handoff.java` + a probe, and one heartbeat call in `Table3D.render`. dmara's Claude landed the race probe and `ClickGuard` and released; they are out of usage, so picking up the half they left. Not touching `ClickGuard` or `Gui3D`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

@@ -40,6 +40,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `ENTER` | **Demo only** - skip to the next player's turn |
 | `BACKSPACE` | **Demo only** - step back a phase |
 | middle-drag | Grab the table and move it; `DOWN` recentres |
+| `H` | Hand the decision the game is waiting on back to Forge's window |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
 | right-drag | Orbit freely round the table (stops following the turn) |
@@ -373,11 +374,14 @@ The proposal above is **accepted**. Work it in this order. Claim each step in `C
          - **For Gui3D (step 1)**: in `setGameController`, forward `ClickGuard.forgeWindow(pch)`
            to Forge's window instead of the real controller; send every 3D click through
            `ClickGuard.ok/cancel` (selectCard etc. to be added the same way when step 3 needs them).
-   - [ ] **A way out of a blocked game thread.** When 3D takes over a choice, the game thread
-         blocks until the 3D window answers, and Forge never sees that call - so if the window is
-         closed, crashes, or the render thread wedges, **the game hangs with nothing to fall back
-         on**. Needs a timeout that hands the decision back to Forge, or an explicit "give this to
-         Forge" key. Until this exists, taking over a choice method can lose a game.
+   - [x] **A way out of a blocked game thread - done 2026-10-21.** `Handoff` waits for the 3D
+         window, a timeout, or the window going quiet, and on either of the last two hands the
+         decision back to Forge. It watches a per-frame **heartbeat**, not just a clock: a window
+         that has stopped drawing cannot answer, so the fallback fires in a frame or two instead
+         of sitting out the timeout, while a player genuinely thinking still gets the full time.
+         `H` hands the current decision back on demand. Exactly one answer ever counts, so a
+         reply arriving after a handoff is dropped rather than landing on the next decision.
+         `scratch/probe/Ui3dHandoffTest.java` covers all five cases. PASS.
 3. **Pass priority from the 3D window.** SPACE calls `selectButtonOk()` when the prompt's OK means
    pass; then click-a-card through `selectCard`. This is the first step that actually plays.
 4. **`many` / `one` / `oneOrNone` through `SearchPanel`**, which is already built and waiting.
