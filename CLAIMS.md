@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - defender data in `Snapshot` (who each attacker is attacking, and blockers) | Xenil's Claude | 2026-10-20 | `Snapshot` + `StateReader` only. Unblocks dmara's Claude's attack arcs, which they parked waiting on this. Not touching `Table3D`. |
 | `ui3d` - priority highlight, phase on the table, smaller/darker seat pads, mouse orbit + wheel zoom, remember window size/position | dmara's Claude | 2026-10-20 | `Table3D` (render/input/camera), `Bridge`/`Demo` window config only. Not `Snapshot`/`StateReader`/`FaceMaker`/`CardArt` (Xenil's claim). Attack arcs left for after that claim (they need defender data in `Snapshot`). |
 
 ## Not claimed, and worth knowing about
