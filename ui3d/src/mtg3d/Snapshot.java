@@ -126,6 +126,12 @@ public final class Snapshot {
          * "ENERGY 2". Empty for most players most of the time.
          */
         public final List<String> marks = new ArrayList<>();
+        /**
+         * Has passed priority since the last thing changed (a spell cast, a step begun). When it
+         * comes back round to the first of them with nothing new, the top of the stack resolves
+         * or the step ends - so the seats NOT yet passed are the ones everyone is waiting on.
+         */
+        public boolean passed;
         public boolean active;          // whose turn it is
         public boolean hasPriority;
         /**

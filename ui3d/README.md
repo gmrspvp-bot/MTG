@@ -240,9 +240,7 @@ before you start, and push the claim before writing code.
 - [x] Face-down and morphed cards render as backs, and carry no identifying data at all
 - [x] **Stadium scoreboard** (2026-10-20): a jumbotron hanging over the stack (y 5.4), one 3.6 x 1.35 face turned to each seat (an n-sided ring; a body box behind them at 4 seats), each showing the turn and every player's life - active in gold on a lit band, you in cyan, "> " on priority. Phase deliberately left to the phase strip. A FrameBuffer texture redrawn only when a total changes; drawn unlit like a screen; fades out as the camera lifts, so the overhead view is clear. The four table monitors stay (they carry commander damage). `drawScoreboard` / `refreshScoreboard` in `Table3D`.
 
-- [ ] **Phase panel, next steps.** It lists the steps and carries the follow-turn tickbox; it does
-      not show priority, stack depth, or who has passed - the things you actually wait on in a
-      four-player game.
+- [x] **Phase panel, next steps** (2026-10-21): a PRIORITY block under the steps - stack depth, and a row per seat reading deciding (lit) / passed / waiting / out. `SeatV.passed` comes from Forge's private `PhaseHandler.pFirstPriority` by reflection (no getter): the players from it, in turn order, up to the current priority holder have passed. Also fixed: the panel's background was drawn AFTER its labels (88% opaque, so every label was dimmed, and it covered the hover card and game-over banner); and the header was too short for its two lines, so "your seat" overlapped Untap.
 - [ ] **A key to pass priority / advance**, so the 3D view can drive the game's pace rather than
       only watching it.
 - [ ] **Mulligan and the opening hand** are not drawn at all; the game starts mid-stride.

@@ -130,6 +130,14 @@ public final class Demo {
                 if (i == 2) v.targetSeats.add(0);
                 s.stack.add(v);
             }
+            // Priority round the table while spells are up: the seats it has already moved past
+            // have passed, so the phase panel's priority block shows all three states.
+            int prio = (active + onStack) % n;
+            for (int i = 0; i < n; i++) {
+                s.seats.get(i).hasPriority = (i == prio);
+                s.seats.get(i).passed = false;
+            }
+            for (int j = 0, p = active; j < onStack && p != prio; j++, p = (p + 1) % n) s.seats.get(p).passed = true;
             return s;
         };
         Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();

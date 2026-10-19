@@ -1208,6 +1208,9 @@ public final class Table3D extends ApplicationAdapter {
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
 
         drawCardBadges(flat);
+        // The phase panel's background, BEFORE the label pass below: drawn after it (as it was),
+        // its 88%-opaque fill covered the panel's own text and also the hover card and banner.
+        drawPhasePanelShapes(h, flat);
         ui.setProjectionMatrix(flat);
         ui.begin();
         // The turn, the phase and which seat we are at used to be printed here as well as on the
@@ -1238,7 +1241,6 @@ public final class Table3D extends ApplicationAdapter {
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
         if (hovered != null) drawDetailPanel(w, h, flat);
-        drawPhasePanelShapes(h, flat);   // filled shapes must precede the SpriteBatch pass
     }
 
     /**
@@ -1432,7 +1434,7 @@ public final class Table3D extends ApplicationAdapter {
     // are a SpriteBatch pass: two passes that cannot be interleaved and must agree to the pixel.
     private static final float PP_X = 14f, PP_W = 186f;
     private static final float PP_ROW = 21f;          // height of one step row
-    private static final float PP_HEAD = 46f;         // turn line and the rule under it
+    private static final float PP_HEAD = 62f;         // turn line, seat line and the rule under them
     private static final float PP_FOOT = 34f;         // the tickbox
     private static final float PP_GAP = 7f;           // space inserted between groups
 
@@ -1450,8 +1452,25 @@ public final class Table3D extends ApplicationAdapter {
         return top - PP_HEAD - i * PP_ROW - gaps;
     }
 
-    private static float panelHeight() {
-        return PP_HEAD + PHASES.length * PP_ROW + PP_GROUPS.length * PP_GAP + PP_FOOT;
+    private float panelHeight() {
+        return PP_HEAD + PHASES.length * PP_ROW + PP_GROUPS.length * PP_GAP + prioBlockHeight() + PP_FOOT;
+    }
+
+    // The priority block under the steps: a heading with the stack depth, then one row per seat.
+    private static final float PB_HEAD = 22f, PB_ROW = 18f;
+
+    private float prioBlockHeight() {
+        return snap.seats.isEmpty() ? 0f : PP_GAP + PB_HEAD + snap.seats.size() * PB_ROW + 4f;
+    }
+
+    /** Top of the priority block: just under the last step row. */
+    private float prioBlockTop(float top) {
+        return phaseRowY(PHASES.length - 1, top) - PP_GAP;
+    }
+
+    /** Y (bottom) of seat row k in the priority block. */
+    private float prioRowY(int k, float top) {
+        return prioBlockTop(top) - PB_HEAD - (k + 1) * PB_ROW;
     }
 
     private int currentPhase() {
@@ -1496,6 +1515,23 @@ public final class Table3D extends ApplicationAdapter {
             }
         }
 
+        // Priority block: a rule, then a square per seat - lit for whoever holds priority, filled
+        // for those who have passed, dark for those still to act. The dark ones are who you wait on.
+        if (!snap.seats.isEmpty()) {
+            float bt = prioBlockTop(top);
+            shapes.setColor(0.10f, 0.26f, 0.34f, 1f);
+            shapes.rect(PP_X + 10f, bt, PP_W - 20f, 1f);
+            for (int k = 0; k < snap.seats.size(); k++) {
+                Snapshot.SeatV s = snap.seats.get(k);
+                float y = prioRowY(k, top);
+                if (s.lost) continue;
+                if (s.hasPriority) shapes.setColor(0.45f, 0.92f, 1f, 1f);
+                else if (s.passed) shapes.setColor(0.20f, 0.42f, 0.52f, 1f);
+                else shapes.setColor(0.09f, 0.20f, 0.27f, 1f);
+                shapes.rect(PP_X + 10f, y + 4f, 10f, 10f);
+            }
+        }
+
         float by = bottom + 11f;
         followBox = new float[] { PP_X + 8f, by, PP_W - 16f, 15f };
         shapes.setColor(0.06f, 0.16f, 0.22f, 1f);
@@ -1536,6 +1572,28 @@ public final class Table3D extends ApplicationAdapter {
             else if (past) font.setColor(0.52f, 0.66f, 0.76f, 1f);
             else font.setColor(0.38f, 0.50f, 0.60f, 1f);
             font.draw(ui, PHASES[i][1], PP_X + 20f, y + PP_ROW - 7f);
+        }
+
+        if (!snap.seats.isEmpty()) {
+            float bt = prioBlockTop(top);
+            font.setColor(0.55f, 0.72f, 0.84f, 1f);
+            font.draw(ui, "PRIORITY", PP_X + 10f, bt - 5f);
+            String depth = snap.stack.isEmpty() ? "stack empty" : "stack " + snap.stack.size();
+            GlyphLayout gl = new GlyphLayout(font, depth);
+            font.setColor(snap.stack.isEmpty() ? new Color(0.40f, 0.52f, 0.62f, 1f) : new Color(1f, 0.80f, 0.40f, 1f));
+            font.draw(ui, depth, PP_X + PP_W - 10f - gl.width, bt - 5f);
+            for (int k = 0; k < snap.seats.size(); k++) {
+                Snapshot.SeatV s = snap.seats.get(k);
+                float y = prioRowY(k, top);
+                String state = s.lost ? "out" : s.hasPriority ? "deciding" : s.passed ? "passed" : "waiting";
+                if (s.lost) font.setColor(0.42f, 0.38f, 0.38f, 1f);
+                else if (s.hasPriority) font.setColor(0.70f, 0.95f, 1f, 1f);
+                else if (s.passed) font.setColor(0.48f, 0.62f, 0.72f, 1f);
+                else font.setColor(0.80f, 0.86f, 0.92f, 1f);
+                font.draw(ui, shortName(s.name), PP_X + 26f, y + PB_ROW - 4f);
+                gl.setText(font, state);
+                font.draw(ui, state, PP_X + PP_W - 10f - gl.width, y + PB_ROW - 4f);
+            }
         }
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));

@@ -106,6 +106,7 @@ public final class StateReader {
             }
 
             readStack(gv, viewer, order, s);
+            readPassed(game, s);
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.
         }
@@ -173,6 +174,38 @@ public final class StateReader {
             }
         } catch (Throwable t) {
             // no counters shown
+        }
+    }
+
+    private static java.lang.reflect.Field firstPriority;
+
+    /**
+     * Who has passed priority this round. Forge keeps the player who started the round (the one
+     * who cast the last spell, or the active player at the start of a step) in PhaseHandler's
+     * private pFirstPriority, and resolves when priority would come back round to them. So the
+     * passed players are those from that one, in turn order, up to but not including whoever holds
+     * priority now. Read by reflection because there is no getter; it is public knowledge (every
+     * player sees each pass), and if the field is ever renamed the panel just shows no passes.
+     */
+    private static void readPassed(Game game, Snapshot s) {
+        try {
+            forge.game.phase.PhaseHandler ph = game.getPhaseHandler();
+            forge.game.player.Player prio = ph.getPriorityPlayer();
+            if (firstPriority == null) {
+                firstPriority = forge.game.phase.PhaseHandler.class.getDeclaredField("pFirstPriority");
+                firstPriority.setAccessible(true);
+            }
+            forge.game.player.Player first = (forge.game.player.Player) firstPriority.get(ph);
+            if (prio == null || first == null || first == prio) return;
+            List<forge.game.player.Player> reg = game.getRegisteredPlayers();
+            forge.game.player.Player p = first;
+            for (int guard = 0; p != null && p != prio && guard < reg.size(); guard++) {
+                int seat = reg.indexOf(p);
+                if (seat >= 0 && seat < s.seats.size()) s.seats.get(seat).passed = true;
+                p = game.getNextPlayerAfter(p);
+            }
+        } catch (Throwable t) {
+            // no pass markers
         }
     }
 
