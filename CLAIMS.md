@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - step 1 of the agreed input plan: `Gui3D` forwarding proxy | Xenil's Claude | 2026-10-21 | New file `Gui3D`, plus the `setGui` call in `Bridge` and prompt/buttons/selectables fields in `Snapshot`/`StateReader`. Forwards everything, changes no behaviour. Steps 2-4 are open for either of us - see *Agreed plan* in the ui3d README. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

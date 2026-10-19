@@ -264,8 +264,11 @@ anything not yet built, so the game is always playable mid-way through the work.
       `IGuiBase` (platform: files, threads, sound). The interesting class is the mobile
       `IGuiGame`, `forge.screens.match.MatchController`, plus the UI-independent input layer in
       `forge.gamemodes.match.input` that BOTH Forge UIs share.
-- [ ] **Decide how input is routed while both UIs exist.** A proposal is written up below under
-      *Routing input: proposal*. **It is a proposal - the owners decide.** Tick this when they have.
+- [x] **How input is routed while both UIs exist - DECIDED 2026-10-21.** The owner (Xenil) has
+      **approved the proposal below**: one pass-through `IGuiGame` per local human, forwarding
+      everything by default, taking over one method at a time. Reason given: it means playing
+      sooner, and the middle man goes away gradually rather than in one jump. Two conditions
+      were attached - see *Agreed plan* below.
 
 #### How Forge asks a human for decisions (read 2026-10-21, from the 2.0.15 jars)
 
@@ -339,7 +342,34 @@ then it would leave every unimplemented decision with nothing to answer it.
 - [ ] Ordering triggers and the stack.
 - [ ] Choosing from a list (search a library, order a graveyard, modal spells). **The panel is
       already built** — `SearchPanel`, with a `min/max` pick and a `Result` callback. What is left
-      is calling it from the `IGuiGame` methods instead of letting them fall through to Forge.
+      is calling it from the `IGuiGame` methods instead of letting them fall through to Forge.
+
+#### Agreed plan (owner approved 2026-10-21)
+
+The proposal above is **accepted**. Work it in this order. Claim each step in `CLAIMS.md` first.
+
+1. **`Gui3D` forwarding everything.** Reflection `Proxy` over `IGuiGame`, installed by
+   `Bridge.attach` via `pch.setGui(...)`, plus prompt / buttons / selectables copied into the
+   `Snapshot`. **No behaviour change.** This exists to prove the wrapping is safe in a real game
+   before anything depends on it. Off switch `-Dforge.ui3d.input=false` must work from this step.
+2. **Two safeguards, before any choice method is taken over.** These were the owner's conditions:
+   - [ ] **Probe the double-click race.** The proposal argues that a stray second click is the
+         same as clicking Forge's OK twice, which Forge tolerates. That is a race between two
+         windows and the game thread, and it could silently skip a step. Prove it with a probe in
+         `scratch\probe\`, the way the window-close and eviction risks were proved - do not
+         assume it.
+   - [ ] **A way out of a blocked game thread.** When 3D takes over a choice, the game thread
+         blocks until the 3D window answers, and Forge never sees that call - so if the window is
+         closed, crashes, or the render thread wedges, **the game hangs with nothing to fall back
+         on**. Needs a timeout that hands the decision back to Forge, or an explicit "give this to
+         Forge" key. Until this exists, taking over a choice method can lose a game.
+3. **Pass priority from the 3D window.** SPACE calls `selectButtonOk()` when the prompt's OK means
+   pass; then click-a-card through `selectCard`. This is the first step that actually plays.
+4. **`many` / `one` / `oneOrNone` through `SearchPanel`**, which is already built and waiting.
+
+A note on the reflection proxy: it adapts automatically when Forge changes a method, which is the
+point - but it also means a changed signature fails at **runtime, mid-game**, rather than at
+compile time. Worth a startup check that every method the table has taken over still exists.
 
 ### Stage 4 — lobby and deck selection
 
