@@ -3,6 +3,8 @@ package mtg3d;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 
+import java.util.List;
+
 /**
  * Runs the 3D table on invented data, with no Forge behind it.
  *
@@ -53,7 +55,29 @@ public final class Demo {
             for (int i = 0; i < n; i++) {
                 for (Snapshot.CardV c : s.seats.get(i).creatures) {
                     c.attacking = s.combat && i == active && c.creature;
-            c.tapped = c.attacking;   // attackers tap, so the demo shows the tap/untap animation
+                    c.tapped = c.attacking;   // attackers tap, so the demo shows the tap/untap animation
+                    c.blocking = false;
+                }
+            }
+            // Arcs: attackers spread over the other seats; from a couple of seconds into combat the
+            // first one is blocked by the defender's first creature, so both arc colours show.
+            s.combatArcs.clear();
+            if (s.combat) {
+                int k = 0;
+                for (Snapshot.CardV c : s.seats.get(active).creatures) {
+                    if (!c.attacking) continue;
+                    Snapshot.CombatArc arc = new Snapshot.CombatArc();
+                    arc.attackerId = c.id;
+                    arc.attackerName = c.name;
+                    arc.defenderSeat = (active + 1 + k % (n - 1)) % n;
+                    arc.defenderName = s.seats.get(arc.defenderSeat).name;
+                    List<Snapshot.CardV> theirs = s.seats.get(arc.defenderSeat).creatures;
+                    if (k == 0 && (sec % 12) >= 9 && !theirs.isEmpty()) {
+                        theirs.get(0).blocking = true;
+                        arc.blockedBy.add(theirs.get(0).id);
+                    }
+                    s.combatArcs.add(arc);
+                    k++;
                 }
             }
             return s;

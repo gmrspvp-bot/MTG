@@ -225,9 +225,7 @@ before you start, and push the claim before writing code.
       generated faces already, but a cached picture has no room for them)
 - [x] Tokens marked on their generated face (they have no printing and never will)
 - [ ] The commander, shown in a command zone rather than only when on the battlefield.
-- [ ] Arcs from each attacker to what it is attacking. **The data is in** —
-      `Snapshot.combatArcs` carries attacker, defending seat, defending permanent and
-      blockers. Only the drawing is left.
+- [x] **Attack arcs** (2026-10-20): `drawCombatArcs` in `Table3D` draws a flat ribbon over the table from each attacker to its target (seat pad, or the planeswalker/battle itself), with an arrowhead and pulses running towards the target. Unblocked attacks are bright red-orange; a blocked one fades, and each blocker gets a blue arc onto its attacker. Both ends follow the eased card poses. `Demo` fills `combatArcs` (one attacker gets blocked 2 s into combat). Checked via screenshot mode.
 - [x] **Priority highlight** (2026-10-20): the seat holding priority gets a lit pad (`seatPriorityModel`) and "> priority" by its name.
 - [x] **Phase on the table** (2026-10-20): written in gold between the centre monitors and the active player's creatures (`drawPhaseOnTable`).
 - [ ] Hover panel should show the card picture at full size, not just wrapped text.

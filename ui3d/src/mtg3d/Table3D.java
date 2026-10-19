@@ -173,6 +173,7 @@ public final class Table3D extends ApplicationAdapter {
         builder = new ModelBuilder();
         ui = new SpriteBatch();
         shapes = new ShapeRenderer();
+        arcs = new com.badlogic.gdx.graphics.glutils.ImmediateModeRenderer20(4000, false, true, 0);
         font = new BitmapFont();
         fontBig = new BitmapFont();
         fontBig.getData().setScale(1.6f);
@@ -291,6 +292,7 @@ public final class Table3D extends ApplicationAdapter {
             else modelBatch.render(d.inst, env);
         }
         modelBatch.end();
+        drawCombatArcs();
 
         drawOverlay();
 
@@ -717,6 +719,108 @@ public final class Table3D extends ApplicationAdapter {
         drawn.add(d);
     }
 
+    // ---- combat arcs ----------------------------------------------------------------------------
+
+    /**
+     * Combat, drawn as arcs over the table: one from each attacker to what it is attacking (the
+     * player's seat, or the planeswalker / battle itself), with an arrowhead at the far end and
+     * pulses running along it so the direction reads even from the side.
+     *
+     * An attack that is getting through is bright red-orange. A blocked one fades, and each blocker
+     * gets its own short blue arc onto the attacker it is stopping - so at a glance you see who is
+     * really taking damage. Both ends come from `poses`, i.e. where the cards are DRAWN this frame,
+     * so the arcs follow a card while it slides or taps rather than pointing at where it will be.
+     *
+     * Ribbons lie flat (wide in the table's plane): the camera lifts overhead in combat, and from
+     * there a flat ribbon is what shows. Drawn after the cards with depth test on but depth writes
+     * off, so cards in front still hide them and overlapping arcs blend instead of cutting holes.
+     */
+    private com.badlogic.gdx.graphics.glutils.ImmediateModeRenderer20 arcs;
+    private float arcClock;
+    private static final int ARC_SEGMENTS = 28;
+    private static final float ARC_WIDTH = 0.16f, ARROW_LEN = 0.55f;
+
+    private void drawCombatArcs() {
+        if (snap.combatArcs.isEmpty() || arcs == null) return;
+        arcClock += frameDt;
+        int n = snap.seats.size();
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
+        Gdx.gl.glDepthMask(false);
+        arcs.begin(cam.combined, GL20.GL_TRIANGLES);
+        for (Snapshot.CombatArc a : snap.combatArcs) {
+            Pose from = poses.get(a.attackerId);
+            if (from == null) continue;
+            float tx, tz;
+            Pose target = a.defenderCardId >= 0 ? poses.get(a.defenderCardId) : null;
+            if (target != null) {
+                tx = target.x; tz = target.z;
+            } else if (a.defenderSeat >= 0 && a.defenderSeat < n) {
+                Vector3 s = seatPos(seatAngle(a.defenderSeat, n), SEAT_DIST);
+                tx = s.x; tz = s.z;
+            } else {
+                continue;
+            }
+            boolean blocked = !a.blockedBy.isEmpty();
+            if (blocked) ribbon(from.x, from.z, tx, tz, 0.75f, 0.45f, 0.40f, 0.30f);
+            else         ribbon(from.x, from.z, tx, tz, 1.00f, 0.35f, 0.15f, 0.95f);
+            for (int b : a.blockedBy) {
+                Pose bp = poses.get(b);
+                if (bp != null) ribbon(bp.x, bp.z, from.x, from.z, 0.35f, 0.70f, 1.00f, 0.95f);
+            }
+            if (arcs.getNumVertices() > 3600) {   // flush before the buffer fills
+                arcs.end();
+                arcs.begin(cam.combined, GL20.GL_TRIANGLES);
+            }
+        }
+        arcs.end();
+        Gdx.gl.glDepthMask(true);
+    }
+
+    /** One arc from (x0,z0) to (x1,z1): a parabola above the table, ending in an arrowhead. */
+    private void ribbon(float x0, float z0, float x1, float z1, float r, float g, float b, float alpha) {
+        float dx = x1 - x0, dz = z1 - z0;
+        float len = (float) Math.sqrt(dx * dx + dz * dz);
+        if (len < 0.3f) return;
+        float peak = 0.6f + 0.16f * len;              // longer reaches fly higher, so they clear rows
+        float sx = dz / len, sz = -dx / len;          // sideways, in the table's plane
+        float tEnd = Math.max(0.5f, 1f - ARROW_LEN / len);
+        float half = ARC_WIDTH / 2f;
+        float px = 0, py = 0, pz = 0, pc = 0;
+        for (int i = 0; i <= ARC_SEGMENTS; i++) {
+            float t = tEnd * i / ARC_SEGMENTS;
+            float x = x0 + dx * t, z = z0 + dz * t;
+            float y = 0.12f + peak * 4f * t * (1f - t);
+            // Pulses travel from attacker to target, about one and a half a second.
+            float wave = (float) Math.sin((t * len * 0.9f - arcClock * 4f) * Math.PI);
+            float c = 0.55f + 0.45f * Math.max(0f, wave);
+            if (i > 0) {
+                quad(px - sx * half, py, pz - sz * half, px + sx * half, py, pz + sz * half,
+                     x + sx * half, y, z + sz * half, x - sx * half, y, z - sz * half,
+                     r, g, b, alpha * pc, alpha * c);
+            }
+            px = x; py = y; pz = z; pc = c;
+        }
+        // Arrowhead from the end of the ribbon down to the target.
+        float aw = ARC_WIDTH * 1.9f;
+        float tipY = 0.12f;
+        vert(px - sx * aw, py, pz - sz * aw, r, g, b, alpha);
+        vert(px + sx * aw, py, pz + sz * aw, r, g, b, alpha);
+        vert(x1, tipY, z1, r, g, b, alpha);
+    }
+
+    private void quad(float ax, float ay, float az, float bx, float by, float bz,
+                      float cx, float cy, float cz, float dx, float dy, float dz,
+                      float r, float g, float b, float a0, float a1) {
+        vert(ax, ay, az, r, g, b, a0); vert(bx, by, bz, r, g, b, a0); vert(cx, cy, cz, r, g, b, a1);
+        vert(ax, ay, az, r, g, b, a0); vert(cx, cy, cz, r, g, b, a1); vert(dx, dy, dz, r, g, b, a1);
+    }
+
+    private void vert(float x, float y, float z, float r, float g, float b, float a) {
+        arcs.color(r, g, b, a);
+        arcs.vertex(x, y, z);
+    }
+
     /** Ray-pick the card under the mouse; nearest hit wins. */
     private void pick() {
         hovered = null;
@@ -973,6 +1077,7 @@ public final class Table3D extends ApplicationAdapter {
         modelBatch.dispose();
         ui.dispose();
         shapes.dispose();
+        arcs.dispose();
         font.dispose();
         fontBig.dispose();
         if (art != null) art.dispose();
