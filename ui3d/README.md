@@ -192,15 +192,8 @@ before you start, and push the claim before writing code.
 
 ### Known risks — look at these before building more on top
 
-- [ ] **Closing the 3D window may kill Forge.** `Lwjgl3Application` ends when its window closes.
-      It runs on a daemon thread, but if libGDX calls `System.exit` on shutdown it would take the
-      whole JVM — and the game — with it. **Untested.** Open a game with `-Ui3d`, close the 3D
-      window, and check Forge survives. If it does not, the window needs its own close handler.
-- [ ] **A second game in the same session.** `Bridge.start()` opens the window once per process,
-      but `attach()` subscribes a new `Listener` per game and every listener writes the same
-      `latest` field. After a match ends and another begins, the old game's listener is probably
-      still alive and fighting the new one. Needs the bridge to drop the previous listener, or to
-      ignore events from a game that is over.
+- [x] **Closing the 3D window does not kill Forge** (checked 2026-10-20). libGDX's `Lwjgl3Application` never calls `System.exit`: closing the window runs `glfwTerminate` and ends only the `mtg3d` thread. `scratch\probe\Ui3dCloseTest.java` opens the window beside a Swing frame standing in for Forge, closes it, and opens a second one in the same JVM: the frame stays up both times. `Bridge.start()` now reopens the window with the next game if the player closed it (it used to open once per process, ever).
+- [x] **A second game in the same session** (fixed 2026-10-20). Forge has no `unsubscribe`, so `Bridge` keeps the `current` game and every `Listener` ignores events from a game that is no longer current. `scratch\probe\Ui3dRematchTest.java`: after a rematch, an event from the old game leaves the new game's snapshot in place.
 - [ ] **Texture memory has a cap but no eviction.** `CardArt` stops loading at 400 textures and
       then simply shows blocks. A long session with many distinct cards will hit it. Needs LRU
       eviction keyed on what was drawn recently.
