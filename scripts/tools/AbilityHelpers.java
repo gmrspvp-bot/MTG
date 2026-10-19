@@ -176,6 +176,39 @@ public final class AbilityHelpers {
 
     // ------------------------------------------------ Loran of the Third Path
 
+    /**
+     * Soul-Guide Lantern ("{T}, sacrifice: exile each opponent's graveyard"), added to Captain
+     * America v7 against the Angels deck's recursion (Seluma reanimated 80 times, Sun Titan 21,
+     * Liesa 19, Breath of Life 12 in 120 games). Fire it when an opponent's graveyard holds 3+
+     * creature cards or one worth 300+ (any big angel); otherwise keep it. Other ChangeZoneAll
+     * effects are left to Forge.
+     */
+    public static class LanternChangeZoneAllAi extends forge.ai.ability.ChangeZoneAllAi {
+        static final int MIN_CREATURES = 3, BIG = 300;
+
+        static boolean worthExiling(Player ai) {
+            for (Player opp : ai.getOpponents()) {
+                int n = 0;
+                for (Card c : opp.getCardsIn(ZoneType.Graveyard)) {
+                    if (!c.isCreature()) continue;
+                    n++;
+                    if (forge.ai.ComputerUtilCard.evaluateCreature(c) >= BIG) return true;
+                }
+                if (n >= MIN_CREATURES) return true;
+            }
+            return false;
+        }
+
+        // ChangeZoneAllAi decides in canPlay (not checkApiLogic).
+        @Override
+        protected AiAbilityDecision canPlay(Player ai, SpellAbility sa) {
+            if (!enabled || !host(sa, "Soul-Guide Lantern")) return super.canPlay(ai, sa);
+            if (!worthExiling(ai)) return no();
+            System.out.println("ABILITYAI " + ai.getName() + ": Soul-Guide Lantern exiles opponents' graveyards");
+            return new AiAbilityDecision(100, AiPlayDecision.WillPlay);
+        }
+    }
+
     public static class HelperDrawAi extends forge.ai.ability.DrawAi {
         static boolean ours(SpellAbility sa) {
             return enabled && (host(sa, "Loran of the Third Path") || host(sa, "O'aka, Traveling Merchant"));
@@ -193,6 +226,12 @@ public final class AbilityHelpers {
 
         @Override
         protected AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            if (enabled && host(sa, "Soul-Guide Lantern")) {
+                // Its graveyard exile is the point (LanternChangeZoneAllAi); only cash it in for a
+                // card when there's nothing worth exiling and our hand is empty.
+                if (LanternChangeZoneAllAi.worthExiling(ai) || !ai.getCardsIn(ZoneType.Hand).isEmpty()) return no();
+                return super.checkApiLogic(ai, sa);
+            }
             if (enabled && host(sa, "Deadly Dispute")) {
                 // Only with a token to sacrifice (the card's AIPreference picks it). Without one
                 // Forge sacrificed Sol Ring, Academy Manufactor, Caesar etc. for two cards.

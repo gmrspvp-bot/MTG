@@ -1910,6 +1910,7 @@ public final class AiPatches {
                 instances.put(ApiType.MoveCounter, new AbilityHelpers.HelperMoveCounterAi());
                 instances.put(ApiType.CopyPermanent, new AbilityHelpers.HelperCopyPermanentAi());   // Kiki-Jiki loop guard
                 instances.put(ApiType.Pump, new EquipHelperPumpAi());
+                instances.put(ApiType.ChangeZoneAll, new AbilityHelpers.LanternChangeZoneAllAi());   // Soul-Guide Lantern
                 System.out.println("AiPatches: abilities (Face-Breaker, Blitzball Stadium, Rikku, Loran)");
             }
             if (wanted.contains("humanlike")) {
