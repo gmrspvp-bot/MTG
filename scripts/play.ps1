@@ -15,7 +15,9 @@ param(
     [int] $HeapMB = 4096,
     # Forge skin. 'Jarvis' is ours (scripts/make-jarvis-skin.ps1), built on first use.
     # -Skin Default restores Forge's own look; the skin can also be changed inside Forge.
-    [string] $Skin = 'Jarvis'
+    [string] $Skin = 'Jarvis',
+    # Opens the 3D table (ui3d\) alongside Forge's own UI. Read-only for now.
+    [switch] $Ui3d
 )
 
 $ErrorActionPreference = 'Stop'
@@ -147,8 +149,19 @@ $agentArgs = "-javaagent:`"$(Join-Path $PSScriptRoot 'tools\evalcache-agent.jar'
 $logDir = Join-Path $root 'scratch\play-logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $launcher = 'SimLauncher'
+$ui3dCp = ''
+$ui3dArg = ''
+if ($Ui3d) {
+    $ui3dClasses = Join-Path $root 'ui3d\classes'
+    if (-not (Test-Path $ui3dClasses)) {
+        & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-ui3d.ps1') | Out-Null
+    }
+    $mobileJar = Join-Path $forgeDir 'forge-gui-mobile-dev-2.0.15-jar-with-dependencies.jar'
+    $ui3dCp = ";$ui3dClasses;$mobileJar"
+    $ui3dArg = '-Dforge.ui3d=true '
+}
 $argLine = "-Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
-           "-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
+           "$ui3dArg-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar$ui3dCp`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
 Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `
     -RedirectStandardOutput $log -RedirectStandardError "$log.err" -WindowStyle Hidden | Out-Null

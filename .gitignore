@@ -36,3 +36,7 @@
 
 # Forge's network play logs
 /forge-data/networklogs/
+
+# ui3d build output and libGDX native unpack dir
+/ui3d/classes/
+/ui3d/natives/

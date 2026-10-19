@@ -56,6 +56,16 @@ public final class PlayHook {
         if (ThreatTracker.enabled) game.subscribeToEvents(new ThreatTracker(game));
         LogWriter writer = new LogWriter(game);
         game.subscribeToEvents(writer);
+        // The 3D table (ui3d folder). Reached by reflection so scripts/tools and ui3d can be
+        // built independently: this class never needs libGDX on its classpath, and a missing
+        // or unbuilt 3D view just logs a line instead of breaking the game.
+        if ("true".equals(System.getProperty("forge.ui3d"))) {
+            try {
+                Class.forName("mtg3d.Bridge").getMethod("attach", Game.class).invoke(null, game);
+            } catch (Throwable t) {
+                System.out.println("PLAYHOOK: 3D view not available (" + t + ")");
+            }
+        }
         if (!"false".equals(System.getProperty("forge.turnbanner"))) {
             game.subscribeToEvents(new TurnBanner(game));
             new ResponseWatcher(game);
