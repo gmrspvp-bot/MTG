@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` — generated card faces for anything with no cached art | Xenil's Claude | 2026-10-20 | Basic lands never appear in Forge's cache and are most of the table. Drawing a labelled face instead of a blank block, for any uncached card. |
 
 ## Not claimed, and worth knowing about
 
