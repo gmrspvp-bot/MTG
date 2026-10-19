@@ -63,9 +63,13 @@ public final class Table3D extends ApplicationAdapter {
     private ShapeRenderer shapes;
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel;
-    private Model faceModel, attackModel;
+    private Model faceModel, attackModel, backModel, zoneModel;
     private ModelInstance tableInst;
     private final List<ModelInstance> seatPads = new ArrayList<>();
+    /** Scenery with no card behind it: zone pads and other players' face-down hands. */
+    private final List<ModelInstance> props = new ArrayList<>();
+    /** How far a held card is tilted up towards its owner, in degrees. */
+    private static final float HAND_TILT = 62f;
     private CardArt art;
 
     /** One drawable card plus where it is, so the same list serves rendering and picking. */
@@ -148,6 +152,9 @@ public final class Table3D extends ApplicationAdapter {
             new Material(ColorAttribute.createDiffuse(new Color(0.10f, 0.24f, 0.34f, 1f))), attrs);
         attackModel = builder.createBox(CARD_W * 1.18f, 0.02f, CARD_H * 1.12f,
             new Material(ColorAttribute.createDiffuse(new Color(0.85f, 0.25f, 0.18f, 1f))), attrs);
+        backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
+        zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
 
         // A flat quad for the card picture. Corner order sets the UVs: libGDX puts the top of the
         // image along the corner11/corner01 edge, so that edge goes at -Z, which is "away from the
@@ -195,6 +202,7 @@ public final class Table3D extends ApplicationAdapter {
         modelBatch.begin(cam);
         modelBatch.render(tableInst, env);
         for (ModelInstance p : seatPads) modelBatch.render(p, env);
+        for (ModelInstance p : props) modelBatch.render(p, env);
         for (Drawn d : drawn) {
             if (d.marker != null) modelBatch.render(d.marker, env);
             modelBatch.render(d.inst, env);
@@ -275,9 +283,11 @@ public final class Table3D extends ApplicationAdapter {
 
         // Both poses are expressed in the viewed seat's own frame, then rotated into the world by
         // `orbit`. Interpolating before rotating keeps the lift and the walk round as one motion.
-        float eyeZ = lerp(SEAT_DIST + 5.6f, 7.0f, t);
-        float eyeY = lerp(3.1f, 17.5f, t);
-        float atZ  = lerp(SEAT_DIST - 1.6f, 0.4f, t);
+        // Seated sits back far enough, and high enough, to keep the fanned hand in frame; the
+        // look-at is pushed past the middle of your own rows so the view tilts down onto the table.
+        float eyeZ = lerp(SEAT_DIST + 8.6f, 7.0f, t);
+        float eyeY = lerp(5.0f, 17.5f, t);
+        float atZ  = lerp(SEAT_DIST - 3.0f, 0.4f, t);
 
         Vector3 eye = rotateY(0f, eyeZ, orbit);
         Vector3 at  = rotateY(0f, atZ, orbit);
@@ -310,6 +320,7 @@ public final class Table3D extends ApplicationAdapter {
     private void layout() {
         drawn.clear();
         seatPads.clear();
+        props.clear();
         if (snap.seats.isEmpty()) return;
 
         int n = snap.seats.size();
@@ -329,6 +340,8 @@ public final class Table3D extends ApplicationAdapter {
             placeRow(seat, seat.lands, angle, SEAT_DIST + 1.1f);
         }
         placeHand();
+        placeOpponentHands();
+        placeZones();
     }
 
     /**
@@ -371,13 +384,56 @@ public final class Table3D extends ApplicationAdapter {
     private void placeHand() {
         if (snap.hand.isEmpty() || snap.seats.isEmpty()) return;
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
-        float step = CARD_W * 0.72f;
+        float step = CARD_W * 0.80f;
         float width = snap.hand.size() * step;
         for (int i = 0; i < snap.hand.size(); i++) {
             Snapshot.CardV c = snap.hand.get(i);
             float along = -width / 2f + i * step + step / 2f;
-            Vector3 w = rotateY(along, SEAT_DIST + 4.3f, angle);
+            Vector3 w = rotateY(along, SEAT_DIST + 3.6f, angle);
             add(c, null, w.x, w.z, (float) Math.toDegrees(-angle));
+        }
+    }
+
+    /**
+     * Face-down cards for everyone else's hand. How many cards a player is holding is public
+     * knowledge, so it is shown; what they are is not, and the renderer is never told. Tilted away
+     * from the table so from any other seat you see only backs.
+     */
+    private void placeOpponentHands() {
+        int n = snap.seats.size();
+        int you = snap.youIndex();
+        for (int i = 0; i < n; i++) {
+            if (i == you) continue;
+            Snapshot.SeatV seat = snap.seats.get(i);
+            int shown = Math.min(seat.handSize, 12);     // a big hand stops growing the fan
+            if (shown <= 0) continue;
+            float angle = seatAngle(i, n);
+            float step = CARD_W * 0.42f;
+            float width = shown * step;
+            for (int j = 0; j < shown; j++) {
+                float along = -width / 2f + j * step + step / 2f;
+                Vector3 w = rotateY(along, SEAT_DIST + 3.4f, angle);
+                ModelInstance inst = new ModelInstance(backModel);
+                inst.transform.setToTranslation(w.x, 0.62f, w.z)
+                    .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
+                    .rotate(Vector3.X, HAND_TILT);
+                props.add(inst);
+            }
+        }
+    }
+
+    /** Library, graveyard and exile, as pads beside each seat's rows. Counts are drawn over them. */
+    private void placeZones() {
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            float angle = seatAngle(i, n);
+            for (int k = 0; k < 3; k++) {
+                Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
+                ModelInstance inst = new ModelInstance(zoneModel);
+                inst.transform.setToTranslation(w.x, 0.0f, w.z)
+                    .rotate(Vector3.Y, (float) Math.toDegrees(-angle));
+                props.add(inst);
+            }
         }
     }
 
@@ -387,8 +443,11 @@ public final class Table3D extends ApplicationAdapter {
         d.inst = new ModelInstance(m);
         d.card = c;
         d.seat = seat;
-        float y = (seat == null) ? 0.55f : 0.02f;        // hand cards float slightly above the table
+        float y = (seat == null) ? 0.62f : 0.02f;        // hand cards stand up off the table
         d.inst.transform.setToTranslation(x, y, z).rotate(Vector3.Y, yawDeg);
+        // Your hand is fanned upright facing your seat, otherwise it lies flat and edge-on and you
+        // cannot read it from a seated camera.
+        if (seat == null) d.inst.transform.rotate(Vector3.X, HAND_TILT);
         d.inst.calculateBoundingBox(d.bounds);
         d.bounds.mul(d.inst.transform);
 
@@ -458,6 +517,8 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, a, w - 190, 18);
         }
         drawSeatInfo(w, h);
+        drawZoneLabels();
+        drawCentreTracker();
         ui.end();
     }
 
@@ -478,6 +539,62 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, line, p.x - 60, p.y + 16);
             font.draw(ui, line2, p.x - 60, p.y);
         }
+    }
+
+    /** Counts printed over each seat's library / graveyard / exile pads. */
+    private void drawZoneLabels() {
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            float angle = seatAngle(i, n);
+            String[] names = { "LIB " + s.librarySize, "GY " + s.graveyardSize, "EXI " + s.exileSize };
+            for (int k = 0; k < 3; k++) {
+                Vector3 world = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
+                Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
+                if (p.z > 1f) continue;
+                font.setColor(0.58f, 0.76f, 0.88f, 1f);
+                font.draw(ui, names[k], p.x - 20, p.y + 6);
+            }
+        }
+    }
+
+    /**
+     * The tracker in the middle of the table: life, and commander damage taken from each
+     * commander. All of it is public knowledge, which is why it can sit in the open where
+     * everyone's view of it is the same.
+     */
+    private void drawCentreTracker() {
+        if (snap.seats.isEmpty()) return;
+        Vector3 p = cam.project(new Vector3(0f, 0.2f, 0f));
+        if (p.z > 1f) return;
+
+        float lineH = 15f;
+        int lines = 0;
+        for (Snapshot.SeatV s : snap.seats) lines += 1 + Math.min(s.commanderDamage.size(), 3);
+        float y = p.y + (lines * lineH) / 2f;
+
+        for (Snapshot.SeatV s : snap.seats) {
+            if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
+            else if (s.isYou) font.setColor(0.65f, 0.95f, 1f, 1f);
+            else font.setColor(0.74f, 0.82f, 0.90f, 1f);
+            String head = s.name + "   " + s.life + (s.poison > 0 ? "   poison " + s.poison : "");
+            font.draw(ui, head, p.x - 70, y);
+            y -= lineH;
+            font.setColor(0.52f, 0.64f, 0.74f, 1f);
+            int shown = 0;
+            for (Snapshot.CmdDmg d : s.commanderDamage) {
+                if (shown++ >= 3) break;
+                font.draw(ui, "  " + d.amount + " from " + shortName(d.from), p.x - 70, y);
+                y -= lineH;
+            }
+        }
+    }
+
+    /** "Captain America, First Avenger" -> "Captain America", so the tracker stays narrow. */
+    private static String shortName(String s) {
+        if (s == null) return "?";
+        int comma = s.indexOf(',');
+        return comma > 0 ? s.substring(0, comma) : s;
     }
 
     /** The enlarged, readable card panel that follows the mouse. */
@@ -559,6 +676,8 @@ public final class Table3D extends ApplicationAdapter {
         if (art != null) art.dispose();
         faceModel.dispose();
         attackModel.dispose();
+        backModel.dispose();
+        zoneModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();

@@ -44,6 +44,13 @@ public final class Snapshot {
         }
     }
 
+    /** A commander-damage entry: how much, and from whose commander. */
+    public static final class CmdDmg {
+        public final String from;
+        public final int amount;
+        public CmdDmg(String from, int amount) { this.from = from; this.amount = amount; }
+    }
+
     /** One player's seat: their totals and what is on their battlefield. */
     public static final class SeatV {
         public String name = "";
@@ -51,6 +58,10 @@ public final class Snapshot {
         public int handSize;
         public int librarySize;
         public int graveyardSize;
+        public int exileSize;
+        public int poison;
+        /** Commander damage this seat has TAKEN, by the commander that dealt it. Public knowledge. */
+        public final List<CmdDmg> commanderDamage = new ArrayList<>();
         public boolean isYou;
         public boolean active;          // whose turn it is
         public boolean hasPriority;

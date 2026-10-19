@@ -52,6 +52,17 @@ public final class StateReader {
                 seat.handSize = count(p, ZoneType.Hand);
                 seat.librarySize = count(p, ZoneType.Library);
                 seat.graveyardSize = count(p, ZoneType.Graveyard);
+                seat.exileSize = count(p, ZoneType.Exile);
+                try {
+                    seat.poison = p.getPoisonCounters();
+                    // Commander damage is public: how much this player has taken, and from whom.
+                    for (java.util.Map.Entry<Card, Integer> e : p.getCommanderDamage()) {
+                        if (e.getValue() == null || e.getValue() <= 0) continue;
+                        seat.commanderDamage.add(new Snapshot.CmdDmg(e.getKey().getName(), e.getValue()));
+                    }
+                } catch (Throwable t2) {
+                    // trackers just show less
+                }
                 for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(c);
                     v.attacking = attackers.contains(v.id);

@@ -82,9 +82,12 @@ public final class Demo {
         v.life = life;
         v.isYou = you;
         v.active = active;
-        v.handSize = 4;
+        v.handSize = you ? 4 : 3 + (name.length() % 5);
         v.librarySize = 80;
         v.graveyardSize = 6;
+        v.exileSize = 2;
+        if (!you) v.commanderDamage.add(new Snapshot.CmdDmg("Seluma, Light of Aysen", 8));
+        if (you) v.commanderDamage.add(new Snapshot.CmdDmg("Captain America, First Avenger", 11));
         int id = name.hashCode() & 0xffff;
         for (String l : lands) {
             Snapshot.CardV c = card(id++, l, "Land", false, true, "", "");

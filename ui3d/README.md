@@ -76,7 +76,8 @@ a client, so it should not begin until stages 1–2 feel right to play alongside
   cards Forge has had reason to download - a few hundred, not all of Magic, and usually no basic
   lands. A card with no cached picture stays a coloured block, by kind: land, creature, commander,
   other. The HUD prints `art N loaded / M cached`; if M is 0 the cache was not found at all.
-- Only the battlefield and your own hand are drawn; graveyard, exile and the stack are counts only.
+- Graveyard, exile and library are pads with counts beside each seat, not browsable piles. The
+  stack is not drawn at all yet.
 - Nothing is clickable. Hover shows details; all input still goes to Forge's window.
 - The camera's seated pose is a fixed position, not a true first-person head position.
 
@@ -87,3 +88,8 @@ not read anyone else's - so walking round to another seat cannot reveal their ca
 were never sent to the renderer. Your own hand stays anchored at your own seat rather than moving
 with the camera, so from another player's seat you see your cards across the table, from the back,
 and they can never be mistaken for theirs. The overlay also names whose seat you are in.
+
+Other players' hands are drawn as face-down backs, one per card. How many cards someone is
+holding is public knowledge, so it is shown; what they are is not, and the renderer is never told
+them. The centre tracker shows life, poison and commander damage, all of which are public too,
+which is why it can sit in the open where everyone's view of it is the same.
