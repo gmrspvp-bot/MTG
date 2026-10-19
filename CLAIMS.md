@@ -31,7 +31,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 | `ui3d` - designations: monarch, initiative, city's blessing, ring-bearer, speed, player counters; day/night | dmara's Claude | 2026-10-20 | Additive `SeatV.marks` + `Snapshot.dayNight` in `Snapshot`; lines in `StateReader`'s seat loop (read from `Game`/`Player` - public, but not in the view layer). `Table3D`: `drawSeatInfo`, `drawPhaseOnTable`, scoreboard header. Not the phase panel or the top-left HUD lines. |
-| `ui3d` - phase panel: vertical layout, and the HUD lines it duplicates | Xenil's Claude | 2026-10-20 | `Table3D`: `drawPhasePanel*` + the two `drawOverlay` lines that print turn/phase/seat behind it (they overlap the panel). Not target arcs or game over (dmara's claim). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

@@ -1202,19 +1202,9 @@ public final class Table3D extends ApplicationAdapter {
         drawCardBadges(flat);
         ui.setProjectionMatrix(flat);
         ui.begin();
-        font.setColor(0.70f, 0.90f, 1f, 1f);
-        font.draw(ui, snap.turnLabel + (snap.phase.isEmpty() ? "" : "   " + snap.phase), 14, h - 12);
-        // Say plainly whose seat we are in, and that their hand is not ours to see.
-        if (viewSeat >= 0 && viewSeat < snap.seats.size()) {
-            Snapshot.SeatV v = snap.seats.get(viewSeat);
-            if (v.isYou) {
-                font.setColor(0.65f, 0.95f, 1f, 1f);
-                font.draw(ui, "Your seat", 14, h - 32);
-            } else {
-                font.setColor(1f, 0.78f, 0.45f, 1f);
-                font.draw(ui, "Viewing " + v.name + "'s seat  (their hand stays hidden)", 14, h - 32);
-            }
-        }
+        // The turn, the phase and which seat we are at used to be printed here as well as on the
+        // phase panel, in the same corner, so the two drew on top of each other. The panel owns
+        // all three now.
         String mode = (lift > 0.5f ? "OVERHEAD" : "SEATED")
             + (manualOverride ? " (TAB held - ESC to follow the game)" : "")
             + "   DOWN for your seat";
@@ -1408,31 +1398,42 @@ public final class Table3D extends ApplicationAdapter {
     /** Counts printed over each seat's library / graveyard / exile pads. */
     /** Forge's phases, in order, with the short labels a phase strip wants. */
     private static final String[][] PHASES = {
-        { "UNTAP", "UN" }, { "UPKEEP", "UP" }, { "DRAW", "DR" }, { "MAIN1", "M1" },
-        { "COMBAT_BEGIN", "BC" }, { "COMBAT_DECLARE_ATTACKERS", "DA" },
-        { "COMBAT_DECLARE_BLOCKERS", "DB" }, { "COMBAT_FIRST_STRIKE_DAMAGE", "FS" },
-        { "COMBAT_DAMAGE", "CD" }, { "COMBAT_END", "EC" }, { "MAIN2", "M2" },
-        { "END_OF_TURN", "ET" }, { "CLEANUP", "CL" },
+        { "UNTAP", "Untap" }, { "UPKEEP", "Upkeep" }, { "DRAW", "Draw" },
+        { "MAIN1", "Main 1" },
+        { "COMBAT_BEGIN", "Begin combat" }, { "COMBAT_DECLARE_ATTACKERS", "Attackers" },
+        { "COMBAT_DECLARE_BLOCKERS", "Blockers" }, { "COMBAT_FIRST_STRIKE_DAMAGE", "First strike" },
+        { "COMBAT_DAMAGE", "Damage" }, { "COMBAT_END", "End combat" },
+        { "MAIN2", "Main 2" },
+        { "END_OF_TURN", "End step" }, { "CLEANUP", "Cleanup" },
     };
 
     /** Screen rect of the follow-turn tickbox, so the click test and the drawing cannot drift. */
     private float[] followBox = { 0f, 0f, 0f, 0f };
 
-    // Panel geometry. Kept in one place because the background is drawn in a ShapeRenderer pass
-    // and the labels in a SpriteBatch pass - two passes that must agree to the pixel.
-    private static final float PP_X = 14f, PP_CELL = 24f, PP_CELL_W = 20f, PP_CELL_H = 16f;
-    private static final float PP_W = PHASES.length * PP_CELL + 16f, PP_H = 108f;
+    // Panel geometry. One place, because the background is a ShapeRenderer pass and the labels
+    // are a SpriteBatch pass: two passes that cannot be interleaved and must agree to the pixel.
+    private static final float PP_X = 14f, PP_W = 186f;
+    private static final float PP_ROW = 21f;          // height of one step row
+    private static final float PP_HEAD = 46f;         // turn line and the rule under it
+    private static final float PP_FOOT = 34f;         // the tickbox
+    private static final float PP_GAP = 7f;           // space inserted between groups
+
     /**
-     * Where the turn's shape changes: beginning steps, first main, combat, second main, end.
-     * The strip leaves a gap at each of these so combat reads as a block rather than as six
-     * identical boxes, which is the thing you are actually tracking in a four-player game.
+     * Where the turn changes character: beginning steps, first main, combat, second main, end.
+     * The column leaves a gap at each, so combat reads as a block rather than six identical rows.
+     * That is what you actually track in a four-player game - before combat, in it, or past it.
      */
     private static final int[] PP_GROUPS = { 3, 4, 10, 11 };
 
-    private static float phaseCellX(int i) {
+    /** Y of row i, measured down from the top of the panel. */
+    private static float phaseRowY(int i, float top) {
         float gaps = 0f;
-        for (int g : PP_GROUPS) if (i >= g) gaps += 6f;
-        return PP_X + 8f + i * PP_CELL + gaps;
+        for (int g : PP_GROUPS) if (i >= g) gaps += PP_GAP;
+        return top - PP_HEAD - i * PP_ROW - gaps;
+    }
+
+    private static float panelHeight() {
+        return PP_HEAD + PHASES.length * PP_ROW + PP_GROUPS.length * PP_GAP + PP_FOOT;
     }
 
     private int currentPhase() {
@@ -1442,10 +1443,11 @@ public final class Table3D extends ApplicationAdapter {
         return -1;
     }
 
-    /** The panel's filled shapes: background, phase cells, the tick. Runs before the text pass. */
+    /** The panel's filled shapes. Must run before the SpriteBatch pass that writes the labels. */
     private void drawPhasePanelShapes(int h, com.badlogic.gdx.math.Matrix4 flat) {
-        float top = h - 16f, bottom = top - PP_H;
-        float stripY = top - 54f;
+        float top = h - 14f;
+        float height = panelHeight();
+        float bottom = top - height;
         int current = currentPhase();
 
         Gdx.gl.glEnable(GL20.GL_BLEND);
@@ -1453,26 +1455,31 @@ public final class Table3D extends ApplicationAdapter {
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
 
-        shapes.setColor(0.02f, 0.08f, 0.13f, 0.86f);
-        shapes.rect(PP_X, bottom, PP_W + 14f, PP_H);
+        shapes.setColor(0.02f, 0.08f, 0.13f, 0.88f);
+        shapes.rect(PP_X, bottom, PP_W, height);
         shapes.setColor(0.18f, 0.56f, 0.71f, 0.95f);
-        shapes.rect(PP_X, top - 3f, PP_W + 14f, 3f);
+        shapes.rect(PP_X, top - 3f, PP_W, 3f);
+        shapes.setColor(0.10f, 0.26f, 0.34f, 1f);
+        shapes.rect(PP_X + 10f, top - PP_HEAD + 12f, PP_W - 20f, 1f);     // rule under the turn line
 
         for (int i = 0; i < PHASES.length; i++) {
-            float cx = phaseCellX(i);
+            float y = phaseRowY(i, top);
             boolean on = (i == current);
             boolean past = current >= 0 && i < current;
-            if (on) shapes.setColor(0.95f, 0.72f, 0.22f, 1f);
-            else if (past) shapes.setColor(0.13f, 0.30f, 0.38f, 1f);
-            else shapes.setColor(0.07f, 0.17f, 0.23f, 1f);
-            shapes.rect(cx, stripY, PP_CELL_W, PP_CELL_H);
-            // The lit cell gets a foot under it, so the eye finds it without reading the labels.
-            if (on) shapes.rect(cx - 1f, stripY - 4f, PP_CELL_W + 2f, 2f);
+            if (on) {
+                shapes.setColor(0.95f, 0.72f, 0.22f, 1f);
+                shapes.rect(PP_X + 8f, y, PP_W - 16f, PP_ROW - 3f);
+            } else {
+                // A marker down the left edge: filled for steps already done, hollow for those to
+                // come, so progress through the turn reads without the text.
+                shapes.setColor(past ? new Color(0.20f, 0.42f, 0.52f, 1f)
+                                     : new Color(0.09f, 0.20f, 0.27f, 1f));
+                shapes.rect(PP_X + 8f, y + 4f, 5f, PP_ROW - 11f);
+            }
         }
 
-        // Tickbox.
-        float by = bottom + 10f;
-        followBox = new float[] { PP_X + 8f, by, 150f, 16f };
+        float by = bottom + 11f;
+        followBox = new float[] { PP_X + 8f, by, PP_W - 16f, 15f };
         shapes.setColor(0.06f, 0.16f, 0.22f, 1f);
         shapes.rect(PP_X + 8f, by, 14f, 14f);
         if (followTurn) {
@@ -1482,38 +1489,39 @@ public final class Table3D extends ApplicationAdapter {
         shapes.end();
     }
 
-    /**
-     * The phase panel, top left: which step of the turn we are on, whose turn it is, and a
-     * tickbox for walking the camera round to each player as they become active.
-     *
-     * Matched on the raw phase name from Forge rather than the prettified text, so rewording the
-     * display cannot silently stop the strip tracking.
-     */
     /** The panel's labels. The background was already drawn by drawPhasePanelShapes. */
     private void drawPhasePanel(int w, int h) {
-        float top = h - 16f, bottom = top - PP_H;
-        float stripY = top - 54f;
+        float top = h - 14f;
+        float bottom = top - panelHeight();
         int current = currentPhase();
 
-        font.setColor(0.72f, 0.86f, 0.96f, 1f);
-        font.draw(ui, snap.turnLabel, PP_X + 8f, top - 12f);
+        font.setColor(0.78f, 0.90f, 0.98f, 1f);
+        font.draw(ui, snap.turnLabel, PP_X + 10f, top - 14f);
 
-        for (int i = 0; i < PHASES.length; i++) {
-            float cx = phaseCellX(i);
-            boolean on = (i == current);
-            boolean past = current >= 0 && i < current;
-            if (on) font.setColor(0.06f, 0.09f, 0.12f, 1f);          // dark on the lit cell
-            else if (past) font.setColor(0.45f, 0.60f, 0.70f, 1f);
-            else font.setColor(0.33f, 0.45f, 0.54f, 1f);
-            font.draw(ui, PHASES[i][1], cx + 3f, stripY + 13f);
+        // Which seat we are looking from, since the camera no longer follows the turn by itself.
+        if (viewSeat >= 0 && viewSeat < snap.seats.size()) {
+            Snapshot.SeatV v = snap.seats.get(viewSeat);
+            if (v.isYou) {
+                font.setColor(0.50f, 0.68f, 0.80f, 1f);
+                font.draw(ui, "your seat", PP_X + 10f, top - 30f);
+            } else {
+                font.setColor(1f, 0.78f, 0.45f, 1f);
+                font.draw(ui, "at " + v.name + "'s seat", PP_X + 10f, top - 30f);
+            }
         }
 
-        // Two letters is not enough on its own, so the step is spelled out under the strip.
-        font.setColor(1f, 0.85f, 0.35f, 1f);
-        font.draw(ui, snap.phase, PP_X + 8f, stripY - 12f);
+        for (int i = 0; i < PHASES.length; i++) {
+            float y = phaseRowY(i, top);
+            boolean on = (i == current);
+            boolean past = current >= 0 && i < current;
+            if (on) font.setColor(0.06f, 0.09f, 0.12f, 1f);          // dark on the lit row
+            else if (past) font.setColor(0.52f, 0.66f, 0.76f, 1f);
+            else font.setColor(0.38f, 0.50f, 0.60f, 1f);
+            font.draw(ui, PHASES[i][1], PP_X + 20f, y + PP_ROW - 7f);
+        }
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));
-        font.draw(ui, "follow the turn", PP_X + 30f, bottom + 22f);
+        font.draw(ui, "follow the turn", PP_X + 30f, bottom + 23f);
     }
 
     private void drawZoneLabels() {
