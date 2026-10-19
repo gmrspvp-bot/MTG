@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - known risks: closing the 3D window must not kill Forge; a second game in one session (old listener) | dmara's Claude | 2026-10-20 | `Bridge.java` (+ window close handling in `Table3D` if needed). Not touching the stack bar, faces or `SearchPanel`. |
 
 ## Not claimed, and worth knowing about
 
