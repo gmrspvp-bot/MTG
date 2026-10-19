@@ -51,8 +51,10 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   became the default on 2026-10-18; on 2026-10-19 10:55 the owner had the first v7 deleted and
   the v8 deck renamed to v7. So "Captain America v7" in results before that moment (e.g. the
   2026-10-19 overnight league, 22.3%) is the **first** v7 (in git history), and "v8" results are
-  today's v7. Results before 2026-10-18 used v6. Never delete or overwrite an original deck. Improvements go in a new
-  `vN` file.
+  today's v7. Results before 2026-10-18 used v6. Never delete or overwrite an original deck.
+  **Captain America changes now go straight into `Captain America v7.dck`** (owner's request,
+  2026-10-19: no v8); git history keeps earlier states, and `manabox\decks\captain america v7.txt`
+  is kept in sync. Other decks still get a new `vN` file for improvements.
 - `-JvmArgs "-Dforge.x=y"` passes switches (e.g. `-Dforge.captain.split=false`). `scratch\run-until.ps1`
   rotates pods until a deadline (`-PodJvmArgs` for A/B switches, `-Light` = 4 threads at idle priority).
 - **PC load:** on the owner's PC (6 cores / 12 threads) never exceed `-Parallel 6` (about 75% CPU,
