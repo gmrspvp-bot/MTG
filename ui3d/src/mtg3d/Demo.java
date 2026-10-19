@@ -29,6 +29,10 @@ public final class Demo {
             int active = turn % n;
             for (int i = 0; i < n; i++) s.seats.get(i).active = (i == active);
             s.combat = (sec % 12) >= 7;
+            // Priority: the active player's, passing round the table once a second during combat,
+            // so the priority highlight can be seen moving.
+            int prio = (active + (s.combat ? (int) (sec % 12) - 7 : 0)) % n;
+            for (int i = 0; i < n; i++) s.seats.get(i).hasPriority = (i == prio);
             s.phase = s.combat ? "Declare attackers" : "Main phase, precombat";
             s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
             // Build the stack up during combat so the bar can be seen filling left to right.
@@ -57,7 +61,7 @@ public final class Demo {
 
         Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
         cfg.setTitle("MTG 3D table - demo data");
-        cfg.setWindowedMode(1600, 950);
+        WindowMemory.apply(cfg, 1600, 950);   // last size and position, if any
         cfg.useVsync(true);
         cfg.setForegroundFPS(60);
         new Lwjgl3Application(new Table3D(source), cfg);

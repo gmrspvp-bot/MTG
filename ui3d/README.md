@@ -37,6 +37,8 @@ camera, the overhead lift and the attack markers without a game.
 | `S` | Open the search panel on demo data (temporary, until stage 3 drives it) |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
+| right-drag | Orbit freely round the table (stops following the turn) |
+| mouse wheel | Zoom (when the search panel isn't open); `DOWN` resets |
 
 The camera follows the turn by default. Arrow keys take over; `DOWN` hands it back.
 
@@ -226,12 +228,12 @@ before you start, and push the claim before writing code.
 - [ ] Arcs from each attacker to what it is attacking. **The data is in** —
       `Snapshot.combatArcs` carries attacker, defending seat, defending permanent and
       blockers. Only the drawing is left.
-- [ ] Highlight whose priority it is — the snapshot already carries `hasPriority` and nothing uses it.
-- [ ] Phase shown on the table itself, not only in the corner text.
+- [x] **Priority highlight** (2026-10-20): the seat holding priority gets a lit pad (`seatPriorityModel`) and "> priority" by its name.
+- [x] **Phase on the table** (2026-10-20): written in gold between the centre monitors and the active player's creatures (`drawPhaseOnTable`).
 - [ ] Hover panel should show the card picture at full size, not just wrapped text.
-- [ ] Seat pads are large plain slabs that dominate the table; smaller and darker.
-- [ ] Mouse camera: drag to orbit, wheel to zoom, so the fixed poses are not the only options.
-- [ ] Remember window size and position between runs.
+- [x] **Seat pads** smaller (7.6 x 3.4, was 9.2 x 4.2) and darker (2026-10-20).
+- [x] **Mouse camera** (2026-10-20): right-drag orbits freely (left is kept for stage 3 clicks), wheel zooms 0.55-1.7x when no panel has the wheel, DOWN / HOME resets both. Not exercised by an automated test (needs real mouse input).
+- [x] **Window size and position remembered** (2026-10-20): `WindowMemory`, in the user's Java preferences (HKCU registry, nothing in the repo), saved every ~2 s on change because the window thread is a daemon and never disposes when Forge exits. Tested: moved/resized demo window reopened in the same place.
 - [x] Face-down and morphed cards render as backs, and carry no identifying data at all
 - [ ] A hanging "stadium" scoreboard, as an addition to the four centre monitors rather than a
       replacement.

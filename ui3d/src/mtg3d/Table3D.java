@@ -62,7 +62,7 @@ public final class Table3D extends ApplicationAdapter {
     private BitmapFont font, fontBig;
     private ShapeRenderer shapes;
 
-    private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel;
+    private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
     private Model faceModel, attackModel, backModel, zoneModel;
     private Model bandCreature, bandOther, bandLand, monitorModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
@@ -141,6 +141,11 @@ public final class Table3D extends ApplicationAdapter {
     private boolean followTurn = true;      // off once you step manually, back on with DOWN
     private float orbit = 0f;
     private float orbitTarget = 0f;
+    /** Mouse wheel: 1 = the designed distance, smaller is closer. Reset with DOWN / HOME. */
+    private float zoom = 1f;
+    private static final float ZOOM_MIN = 0.55f, ZOOM_MAX = 1.7f;
+    /** Right-drag: radians of orbit per pixel of horizontal mouse movement. */
+    private static final float ORBIT_PER_PIXEL = 0.006f;
     private int lastActiveSeat = -1;
 
     private Snapshot snap = new Snapshot();
@@ -188,8 +193,12 @@ public final class Table3D extends ApplicationAdapter {
         landModel     = box(new Color(0.45f, 0.63f, 0.42f, 1f), attrs);
         creatureModel = box(new Color(0.85f, 0.72f, 0.42f, 1f), attrs);
         commanderModel= box(new Color(0.92f, 0.55f, 0.25f, 1f), attrs);
-        seatModel = builder.createBox(9.2f, 0.06f, 4.2f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.10f, 0.24f, 0.34f, 1f))), attrs);
+        // Smaller and darker than they were (9.2 x 4.2, a bright slab that out-shouted the cards).
+        seatModel = builder.createBox(7.6f, 0.06f, 3.4f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.07f, 0.16f, 0.23f, 1f))), attrs);
+        // The same pad, lit, under whoever holds priority right now.
+        seatPriorityModel = builder.createBox(7.6f, 0.06f, 3.4f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.36f, 0.46f, 1f))), attrs);
         attackModel = builder.createBox(CARD_W * 1.18f, 0.02f, CARD_H * 1.12f,
             new Material(ColorAttribute.createDiffuse(new Color(0.85f, 0.25f, 0.18f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
@@ -224,8 +233,13 @@ public final class Table3D extends ApplicationAdapter {
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
             @Override public boolean scrolled(float amountX, float amountY) {
-                search.scrollBy(amountY);
-                return search.isOpen();
+                if (search.isOpen()) {
+                    search.scrollBy(amountY);
+                    return true;
+                }
+                // The wheel zooms the camera when no panel wants it; DOWN / HOME resets it.
+                zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * (1f + amountY * 0.1f)));
+                return true;
             }
         });
         snap = source.get();
@@ -285,6 +299,7 @@ public final class Table3D extends ApplicationAdapter {
             search.render(ui, shapes, font, fontBig);
         }
         maybeShoot();
+        WindowMemory.track();
     }
 
     /**
@@ -345,6 +360,16 @@ public final class Table3D extends ApplicationAdapter {
 
         int n = snap.seats.size();
         if (n == 0) return;
+        // Right-drag orbits freely round the table (left button is kept for clicking cards in
+        // stage 3). It takes over from following the turn, like the arrow keys do.
+        if (Gdx.input.isButtonPressed(Input.Buttons.RIGHT)) {
+            int dx = Gdx.input.getDeltaX();
+            if (dx != 0) {
+                followTurn = false;
+                orbit -= dx * ORBIT_PER_PIXEL;
+                orbitTarget = orbit;
+            }
+        }
         // Seats are laid out anticlockwise, so stepping +1 moves the camera to the LEFT on screen.
         // The keys are deliberately matched to the direction you see, not to the index order.
         if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(+1, n);
@@ -352,6 +377,7 @@ public final class Table3D extends ApplicationAdapter {
         // DOWN (or HOME) is the way back: your own seat, and the camera follows the turn again.
         if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
             followTurn = true;
+            zoom = 1f;
             setViewSeat(snap.youIndex(), n);
         }
     }
@@ -408,9 +434,10 @@ public final class Table3D extends ApplicationAdapter {
         // `orbit`. Interpolating before rotating keeps the lift and the walk round as one motion.
         // Seated sits back far enough, and high enough, to keep the fanned hand in frame; the
         // look-at is pushed past the middle of your own rows so the view tilts down onto the table.
-        float eyeZ = lerp(SEAT_DIST + 8.6f, 7.0f, t);
-        float eyeY = lerp(5.0f, 17.5f, t);
         float atZ  = lerp(SEAT_DIST - 3.0f, 0.4f, t);
+        // Zoom moves the eye along its line to the look-at point (which is on the table, y = 0).
+        float eyeZ = atZ + (lerp(SEAT_DIST + 8.6f, 7.0f, t) - atZ) * zoom;
+        float eyeY = lerp(5.0f, 17.5f, t) * zoom;
 
         Vector3 eye = rotateY(0f, eyeZ, orbit);
         Vector3 at  = rotateY(0f, atZ, orbit);
@@ -453,7 +480,7 @@ public final class Table3D extends ApplicationAdapter {
             // so a player's board never moves out from under them when the view changes.
             float angle = seatAngle(i, n);
 
-            ModelInstance pad = new ModelInstance(seatModel);
+            ModelInstance pad = new ModelInstance(seat.hasPriority ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
             pad.transform.setToTranslation(c.x, -0.01f, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
             seatPads.add(pad);
@@ -733,7 +760,8 @@ public final class Table3D extends ApplicationAdapter {
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
-        font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera", 14, 18);
+        font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
+            + "      right-drag  orbit      wheel  zoom", 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.
         if (art != null) {
@@ -741,6 +769,7 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, a, w - 190, 18);
         }
         drawSeatInfo(w, h);
+        drawPhaseOnTable();
         drawZoneLabels();
         drawCentreTracker();
         drawStackLabels();
@@ -763,7 +792,27 @@ public final class Table3D extends ApplicationAdapter {
             String line2 = "hand " + s.handSize + "   lib " + s.librarySize + "   gy " + s.graveyardSize;
             font.draw(ui, line, p.x - 60, p.y + 16);
             font.draw(ui, line2, p.x - 60, p.y);
+            if (s.hasPriority) {
+                // Matches the lit pad under the same seat.
+                font.setColor(0.45f, 0.92f, 1f, 1f);
+                font.draw(ui, "> priority", p.x - 60, p.y + 32);
+            }
         }
+    }
+
+    /**
+     * The phase, written on the table between the centre monitors and the active player's
+     * creatures, so where the turn is reads in the scene and not only in the corner text.
+     */
+    private void drawPhaseOnTable() {
+        int active = activeSeat();
+        if (active < 0 || snap.phase.isEmpty()) return;
+        Vector3 w = rotateY(0f, ROW_CREATURES - 1.45f, seatAngle(active, snap.seats.size()));
+        Vector3 p = cam.project(new Vector3(w.x, 0.05f, w.z));
+        if (p.z > 1f) return;
+        fontBig.setColor(1f, 0.82f, 0.32f, 0.92f);
+        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(fontBig, snap.phase);
+        fontBig.draw(ui, gl, p.x - gl.width / 2f, p.y + gl.height / 2f);
     }
 
     /** Who cast what, under each item on the stack, plus a marker on the one resolving next. */
@@ -941,5 +990,6 @@ public final class Table3D extends ApplicationAdapter {
         creatureModel.dispose();
         commanderModel.dispose();
         seatModel.dispose();
+        seatPriorityModel.dispose();
     }
 }

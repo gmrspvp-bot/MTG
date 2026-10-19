@@ -70,7 +70,7 @@ public final class Bridge {
             try {
                 Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
                 cfg.setTitle("MTG 3D table");
-                cfg.setWindowedMode(1600, 950);
+                WindowMemory.apply(cfg, 1600, 950);   // last size and position, if any
                 cfg.useVsync(true);
                 cfg.setForegroundFPS(60);
                 new Lwjgl3Application(new Table3D(() -> latest), cfg);
