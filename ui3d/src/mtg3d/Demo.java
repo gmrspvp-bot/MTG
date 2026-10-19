@@ -20,10 +20,17 @@ public final class Demo {
         final long start = System.currentTimeMillis();
 
         Table3D.Supplier source = () -> {
-            // Flip combat every eight seconds so the camera transition is visible on its own.
+            // Run a fake clock: a turn every twelve seconds, passing round the table, with combat
+            // in its second half. That exercises both the walk round to the active seat and the
+            // lift to the overhead pose, without having to play a real game to see them.
             long sec = (System.currentTimeMillis() - start) / 1000L;
-            s.combat = (sec % 16) >= 8;
+            int n = s.seats.size();
+            int turn = (int) (sec / 12);
+            int active = turn % n;
+            for (int i = 0; i < n; i++) s.seats.get(i).active = (i == active);
+            s.combat = (sec % 12) >= 7;
             s.phase = s.combat ? "Declare attackers" : "Main phase, precombat";
+            s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
             return s;
         };
 

@@ -83,6 +83,20 @@ public final class Table3D extends ApplicationAdapter {
     private boolean manualOverride = false;
     private boolean manualValue = false;
 
+    /**
+     * Whose seat we are looking from. The table itself never moves: the camera orbits around it,
+     * which is what makes stepping between players read as walking round the table rather than
+     * the world spinning.
+     *
+     * `orbit` is kept as a continuous angle rather than being wrapped into 0..2pi, so going from
+     * the last seat back to the first turns the short way instead of unwinding all the way round.
+     */
+    private int viewSeat = -1;
+    private boolean followTurn = true;      // off once you step manually, back on with DOWN
+    private float orbit = 0f;
+    private float orbitTarget = 0f;
+    private int lastActiveSeat = -1;
+
     private Snapshot snap = new Snapshot();
 
     /** Where the view gets its state. Demo supplies a fake one; the Forge bridge supplies the real one. */
@@ -171,33 +185,89 @@ public final class Table3D extends ApplicationAdapter {
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
         }
         if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) manualOverride = false;
+
+        int n = snap.seats.size();
+        if (n == 0) return;
+        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(-1, n);
+        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) step(+1, n);
+        // DOWN (or HOME) is the way back: your own seat, and the camera follows the turn again.
+        if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
+            followTurn = true;
+            setViewSeat(snap.youIndex(), n);
+        }
+    }
+
+    private void step(int delta, int n) {
+        followTurn = false;                  // stepping by hand takes over from the turn
+        if (viewSeat < 0) viewSeat = snap.youIndex();
+        setViewSeat(((viewSeat + delta) % n + n) % n, n);
+    }
+
+    /** Points the orbit at a seat, choosing whichever way round is shorter. */
+    private void setViewSeat(int seat, int n) {
+        viewSeat = seat;
+        float want = seatAngle(seat, n);
+        // Bring the target into the same turn as the current angle, then pick the nearer equivalent.
+        float twoPi = (float) (Math.PI * 2);
+        float base = orbit - ((orbit % twoPi) + twoPi) % twoPi;
+        float best = base + want;
+        for (float cand : new float[] { base + want - twoPi, base + want, base + want + twoPi }) {
+            if (Math.abs(cand - orbit) < Math.abs(best - orbit)) best = cand;
+        }
+        orbitTarget = best;
+    }
+
+    /** Seats sit at fixed, absolute angles round the table; seat 0 is the far edge of the world. */
+    private static float seatAngle(int index, int n) {
+        return (float) (index * 2 * Math.PI / n);
     }
 
     private void updateCamera(float dt) {
+        int n = snap.seats.size();
+        if (n > 0) {
+            if (viewSeat < 0) { viewSeat = snap.youIndex(); orbit = orbitTarget = seatAngle(viewSeat, n); }
+            // Follow the turn: when a new player becomes active, walk round to their seat.
+            int active = activeSeat();
+            if (followTurn && active >= 0 && active != lastActiveSeat) {
+                lastActiveSeat = active;
+                setViewSeat(active, n);
+            }
+        }
+
         boolean wantOverhead = manualOverride ? manualValue : (snap.combat || snap.targeting);
         liftTarget = wantOverhead ? 1f : 0f;
 
-        // Ease towards the target; the rate is per-second so it is frame-rate independent.
-        float rate = 2.6f;
-        lift += (liftTarget - lift) * Math.min(1f, dt * rate);
+        // Ease towards the targets; the rates are per-second, so this is frame-rate independent.
+        lift += (liftTarget - lift) * Math.min(1f, dt * 2.6f);
         if (Math.abs(liftTarget - lift) < 0.001f) lift = liftTarget;
+        orbit += (orbitTarget - orbit) * Math.min(1f, dt * 3.4f);
+        if (Math.abs(orbitTarget - orbit) < 0.0005f) orbit = orbitTarget;
 
         float t = smooth(lift);
 
-        // SEATED: just behind and above your own row, looking across the table.
-        Vector3 seatedEye = new Vector3(0f, 3.1f, SEAT_DIST + 5.6f);
-        Vector3 seatedAt  = new Vector3(0f, 0f, SEAT_DIST - 1.6f);
-        // OVERHEAD: high, slightly back, looking at the middle of the table.
-        Vector3 overEye   = new Vector3(0f, 17.5f, 7.0f);
-        Vector3 overAt    = new Vector3(0f, 0f, 0.4f);
+        // Both poses are expressed in the viewed seat's own frame, then rotated into the world by
+        // `orbit`. Interpolating before rotating keeps the lift and the walk round as one motion.
+        float eyeZ = lerp(SEAT_DIST + 5.6f, 7.0f, t);
+        float eyeY = lerp(3.1f, 17.5f, t);
+        float atZ  = lerp(SEAT_DIST - 1.6f, 0.4f, t);
 
-        Vector3 eye = new Vector3(seatedEye).lerp(overEye, t);
-        Vector3 at  = new Vector3(seatedAt).lerp(overAt, t);
+        Vector3 eye = rotateY(0f, eyeZ, orbit);
+        Vector3 at  = rotateY(0f, atZ, orbit);
 
-        cam.position.set(eye);
+        cam.position.set(eye.x, eyeY, eye.z);
         cam.up.set(0, 1, 0);
-        cam.lookAt(at);
+        cam.lookAt(at.x, 0f, at.z);
         cam.update();
+    }
+
+    private static float lerp(float a, float b, float t) {
+        return a + (b - a) * t;
+    }
+
+    /** Index of the seat whose turn it is, or -1. */
+    private int activeSeat() {
+        for (int i = 0; i < snap.seats.size(); i++) if (snap.seats.get(i).active) return i;
+        return -1;
     }
 
     /** Smoothstep, so the move eases out of one pose and into the other instead of starting abruptly. */
@@ -215,12 +285,11 @@ public final class Table3D extends ApplicationAdapter {
         if (snap.seats.isEmpty()) return;
 
         int n = snap.seats.size();
-        int youIdx = snap.youIndex();
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV seat = snap.seats.get(i);
-            // Rotate the seating so you are always at the near edge, whatever seat you really are.
-            int rel = ((i - youIdx) % n + n) % n;
-            float angle = (float) (rel * 2 * Math.PI / n);   // 0 = near edge, then anticlockwise
+            // Seats are fixed in the world. The camera orbits to whichever one we are looking from,
+            // so a player's board never moves out from under them when the view changes.
+            float angle = seatAngle(i, n);
 
             ModelInstance pad = new ModelInstance(seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
@@ -262,14 +331,25 @@ public final class Table3D extends ApplicationAdapter {
         }
     }
 
+    /**
+     * Your hand, anchored at YOUR seat rather than at whichever seat is being viewed.
+     *
+     * This is the hidden-information rule made structural. The snapshot only ever contains the
+     * hand of the player this client controls (StateReader reads no one else's), so stepping round
+     * to another seat cannot reveal their cards - there is nothing to reveal. Keeping the hand at
+     * your own seat also means it is never mistaken for the hand of the player you are looking at:
+     * from their seat you see your own cards lying across the table, from the back.
+     */
     private void placeHand() {
-        if (snap.hand.isEmpty()) return;
+        if (snap.hand.isEmpty() || snap.seats.isEmpty()) return;
+        float angle = seatAngle(snap.youIndex(), snap.seats.size());
         float step = CARD_W * 0.72f;
         float width = snap.hand.size() * step;
         for (int i = 0; i < snap.hand.size(); i++) {
             Snapshot.CardV c = snap.hand.get(i);
-            float x = -width / 2f + i * step + step / 2f;
-            add(c, null, x, SEAT_DIST + 4.3f, 0f);
+            float along = -width / 2f + i * step + step / 2f;
+            Vector3 w = rotateY(along, SEAT_DIST + 4.3f, angle);
+            add(c, null, w.x, w.z, (float) Math.toDegrees(-angle));
         }
     }
 
@@ -311,11 +391,24 @@ public final class Table3D extends ApplicationAdapter {
         ui.begin();
         font.setColor(0.70f, 0.90f, 1f, 1f);
         font.draw(ui, snap.turnLabel + (snap.phase.isEmpty() ? "" : "   " + snap.phase), 14, h - 12);
+        // Say plainly whose seat we are in, and that their hand is not ours to see.
+        if (viewSeat >= 0 && viewSeat < snap.seats.size()) {
+            Snapshot.SeatV v = snap.seats.get(viewSeat);
+            if (v.isYou) {
+                font.setColor(0.65f, 0.95f, 1f, 1f);
+                font.draw(ui, "Your seat", 14, h - 32);
+            } else {
+                font.setColor(1f, 0.78f, 0.45f, 1f);
+                font.draw(ui, "Viewing " + v.name + "'s seat  (their hand stays hidden)", 14, h - 32);
+            }
+        }
         String mode = (lift > 0.5f ? "OVERHEAD" : "SEATED")
             + (manualOverride ? " (TAB held - ESC to follow the game)" : "")
-            + "   TAB camera";
+            + (followTurn ? "   following the turn" : "   DOWN to follow again");
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
-        font.draw(ui, mode, 14, 22);
+        font.draw(ui, mode, 14, 38);
+        font.setColor(0.35f, 0.50f, 0.62f, 1f);
+        font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera", 14, 18);
         drawSeatInfo(w, h);
         ui.end();
     }
@@ -323,11 +416,9 @@ public final class Table3D extends ApplicationAdapter {
     /** Life totals and zone counts, printed near each seat so the pod reads at a glance. */
     private void drawSeatInfo(int w, int h) {
         int n = snap.seats.size();
-        int youIdx = snap.youIndex();
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            int rel = ((i - youIdx) % n + n) % n;
-            float angle = (float) (rel * 2 * Math.PI / n);
+            float angle = seatAngle(i, n);
             Vector3 world = seatPos(angle, SEAT_DIST + 2.6f);
             Vector3 p = cam.project(new Vector3(world.x, 0.4f, world.z));
             if (p.z > 1f) continue;                       // behind the camera

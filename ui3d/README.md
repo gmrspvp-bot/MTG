@@ -14,8 +14,20 @@ powershell -ExecutionPolicy Bypass -File scripts\build-ui3d.ps1    # compile onl
 .\scripts\play.ps1 -Ui3d                                           # beside a real game
 ```
 
-TAB toggles the camera between seated and overhead; ESC gives the camera back to the game. In the
-demo, combat flips on and off every eight seconds so the transition can be watched on its own.
+### Controls
+
+| Key | What |
+|---|---|
+| `LEFT` / `RIGHT` | Walk round the table to the next player's seat |
+| `DOWN` (or `HOME`) | Back to your own seat, and follow the turn again |
+| `TAB` | Toggle seated / overhead |
+| `ESC` | Give the camera back to the game (it lifts by itself for combat and targeting) |
+
+By default the camera follows the turn: as each player becomes active it walks round to their
+seat. Stepping manually with the arrow keys takes over; `DOWN` hands it back.
+
+In the demo a fake clock runs a turn every twelve seconds, passing round the table, with combat in
+its second half, so both the walk round and the lift can be watched without playing a real game.
 
 ## Why LibGDX
 
@@ -64,3 +76,11 @@ a client, so it should not begin until stages 1–2 feel right to play alongside
 - Only the battlefield and your own hand are drawn; graveyard, exile and the stack are counts only.
 - Nothing is clickable. Hover shows details; all input still goes to Forge's window.
 - The camera's seated pose is a fixed position, not a true first-person head position.
+
+## Hidden information
+
+The snapshot only ever contains the hand of the player this client controls - `StateReader` does
+not read anyone else's - so walking round to another seat cannot reveal their cards, because they
+were never sent to the renderer. Your own hand stays anchored at your own seat rather than moving
+with the camera, so from another player's seat you see your cards across the table, from the back,
+and they can never be mistaken for theirs. The overlay also names whose seat you are in.
