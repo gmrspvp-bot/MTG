@@ -1,0 +1,637 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Helen Fingermunch (AI) deck=Captain America v8
+Player: Juan (AI) deck=Mr House v4
+Player: Madeline (AI) deck=Olivia
+Mulligan: Madeline has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Helen Fingermunch has kept a hand of 7 cards
+Mulligan: Juan has kept a hand of 7 cards
+Turn: Turn 1 (Madeline)
+Information: BOARD turn 1 (Madeline) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Plains(land)
+Information: BOARD turn 1 (Madeline) | Helen Fingermunch | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Inspiring Vantage(land); Plains(land); Danitha Capashen, Paragon(3)
+Information: BOARD turn 1 (Madeline) | Juan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Swiftfoot Boots(2); Battlefield Forge(land); "Lifetime" Pass Holder(1); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land)
+Information: BOARD turn 1 (Madeline) | Madeline | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Sulfurous Springs(land); Deadly Dispute(2); Shadow the Hedgehog(4); Plains(land); Rugged Prairie(land); Dictate of Erebos(5)
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Land: Madeline played Plains (402)
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Phase: Madeline's Declare Blockers Step
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Plains(land)
+Information: BOARD turn 2 (Xenil) | Helen Fingermunch | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Inspiring Vantage(land); Plains(land); Danitha Capashen, Paragon(3)
+Information: BOARD turn 2 (Xenil) | Juan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Swiftfoot Boots(2); Battlefield Forge(land); "Lifetime" Pass Holder(1); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land)
+Information: BOARD turn 2 (Xenil) | Madeline | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Sulfurous Springs(land); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (83)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 3 (Helen Fingermunch)
+Information: BOARD turn 3 (Helen Fingermunch) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Whispersilk Cloak(3)
+Information: BOARD turn 3 (Helen Fingermunch) | Helen Fingermunch | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Inspiring Vantage(land); Plains(land); Danitha Capashen, Paragon(3)
+Information: BOARD turn 3 (Helen Fingermunch) | Juan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Swiftfoot Boots(2); Battlefield Forge(land); "Lifetime" Pass Holder(1); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land)
+Information: BOARD turn 3 (Helen Fingermunch) | Madeline | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Sulfurous Springs(land); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1)
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Replacement Effect: Inspiring Vantage enters tapped unless you control two or fewer other lands.
+Land: Helen Fingermunch played Inspiring Vantage (155)
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Phase: Helen Fingermunch's Declare Blockers Step
+Phase: Helen Fingermunch's First Strike Damage Step
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 4 (Juan)
+Information: BOARD turn 4 (Juan) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Whispersilk Cloak(3)
+Information: BOARD turn 4 (Juan) | Helen Fingermunch | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 4 (Juan) | Juan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Swiftfoot Boots(2); Battlefield Forge(land); "Lifetime" Pass Holder(1); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land)
+Information: BOARD turn 4 (Juan) | Madeline | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Sulfurous Springs(land); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1)
+Phase: Juan's Untap step
+Phase: Juan's Upkeep step
+Phase: Juan's Draw step
+Phase: Juan's Main phase, precombat
+Land: Juan played Caves of Koilos (203)
+Phase: Juan's Beginning of Combat Step
+Phase: Juan's Declare Attackers Step
+Phase: Juan's Declare Blockers Step
+Phase: Juan's First Strike Damage Step
+Phase: Juan's Combat Damage Step
+Phase: Juan's End of Combat Step
+Phase: Juan's Main phase, postcombat
+Land: Juan picked {B}
+Damage: Caves of Koilos (203) deals 1 non-combat damage to Juan.
+Life: Life: Juan 40 > 39
+Mana: Caves of Koilos (203) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Add To Stack: Juan cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by Juan | open mana: Xenil 1, Helen Fingermunch 3, Madeline 1
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: Juan's End step
+Phase: Juan's Cleanup step
+Turn: Turn 5 (Madeline)
+Information: BOARD turn 5 (Madeline) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Whispersilk Cloak(3)
+Information: BOARD turn 5 (Madeline) | Helen Fingermunch | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 5 (Madeline) | Juan | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Swiftfoot Boots(2); Battlefield Forge(land); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2)
+Information: BOARD turn 5 (Madeline) | Madeline | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Sulfurous Springs(land); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1)
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Land: Madeline played Sulfurous Springs (383)
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Phase: Madeline's Declare Blockers Step
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Plains(land); Whispersilk Cloak(3)
+Information: BOARD turn 6 (Xenil) | Helen Fingermunch | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 6 (Xenil) | Juan | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Swiftfoot Boots(2); Battlefield Forge(land); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2)
+Information: BOARD turn 6 (Xenil) | Madeline | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1); Smothering Tithe(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (79)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 7 (Helen Fingermunch)
+Information: BOARD turn 7 (Helen Fingermunch) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Whispersilk Cloak(3); Linvala, Keeper of Silence(4)
+Information: BOARD turn 7 (Helen Fingermunch) | Helen Fingermunch | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Kellan, the Fae-Blooded(3)
+Information: BOARD turn 7 (Helen Fingermunch) | Juan | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Swiftfoot Boots(2); Battlefield Forge(land); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2)
+Information: BOARD turn 7 (Helen Fingermunch) | Madeline | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1); Smothering Tithe(4)
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Land: Helen Fingermunch played Plains (188)
+Mana: Plains (188) - {T}: Add {W}.
+Land: Helen Fingermunch picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Add To Stack: Helen Fingermunch cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Helen Fingermunch | open mana: Xenil 2, Juan 0, Madeline 4
+Resolve Stack: Birthright Boon (165) - Helen Fingermunch searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Phase: Helen Fingermunch's Declare Blockers Step
+Phase: Helen Fingermunch's First Strike Damage Step
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 8 (Juan)
+Information: BOARD turn 8 (Juan) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Whispersilk Cloak(3); Linvala, Keeper of Silence(4)
+Information: BOARD turn 8 (Juan) | Helen Fingermunch | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Leonin Abunas(4); Cloudsteel Kirin(3)
+Information: BOARD turn 8 (Juan) | Juan | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Swiftfoot Boots(2); Battlefield Forge(land); Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2)
+Information: BOARD turn 8 (Juan) | Madeline | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Path to Exile(1); Smothering Tithe(4)
+Phase: Juan's Untap step
+Phase: Juan's Upkeep step
+Phase: Juan's Draw step
+Phase: Juan's Main phase, precombat
+Phase: Juan's Beginning of Combat Step
+Phase: Juan's Declare Attackers Step
+Combat: Juan assigned "Lifetime" Pass Holder (264) to attack Madeline.
+Information: BOARD attack | Juan -> Madeline | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Mana: Plains (402) - {T}: Add {W}.
+Add To Stack: Madeline cast Path to Exile targeting ["Lifetime" Pass Holder (264)]
+Information: BOARD cast | Path to Exile (mv 1) by Madeline | open mana: Xenil 2, Helen Fingermunch 0, Juan 3
+Zone Change: "Lifetime" Pass Holder (264) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (324) - Exile "Lifetime" Pass Holder (264). Juan may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Juan's Declare Blockers Step
+Phase: Juan's First Strike Damage Step
+Phase: Juan's Combat Damage Step
+Phase: Juan's End of Combat Step
+Phase: Juan's Main phase, postcombat
+Land: Juan played Battlefield Forge (300)
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Mana: Caves of Koilos (203) - {T}: Add {C}.
+Add To Stack: Juan cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Juan | open mana: Xenil 2, Helen Fingermunch 0, Madeline 3
+Resolve Stack: Swiftfoot Boots
+Phase: Juan's End step
+Phase: Juan's Cleanup step
+Turn: Turn 9 (Madeline)
+Information: BOARD turn 9 (Madeline) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Whispersilk Cloak(3); Linvala, Keeper of Silence(4)
+Information: BOARD turn 9 (Madeline) | Helen Fingermunch | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Leonin Abunas(4); Cloudsteel Kirin(3)
+Information: BOARD turn 9 (Madeline) | Juan | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 9 (Madeline) | Madeline | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Rugged Prairie(land); Dictate of Erebos(5); Smothering Tithe(4)
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Land: Madeline played Rugged Prairie (361)
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Phase: Madeline's Declare Blockers Step
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Mana: Plains (402) - {T}: Add {W}.
+Add To Stack: Madeline cast Serra Ascendant
+Information: BOARD cast | Serra Ascendant (mv 1) by Madeline | open mana: Xenil 2, Helen Fingermunch 0, Juan 0
+Resolve Stack: Serra Ascendant - Creature 1 / 1
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 10 (Xenil)
+Information: BOARD turn 10 (Xenil) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Whispersilk Cloak(3); Linvala, Keeper of Silence(4)
+Information: BOARD turn 10 (Xenil) | Helen Fingermunch | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Leonin Abunas(4); Cloudsteel Kirin(3)
+Information: BOARD turn 10 (Xenil) | Juan | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 10 (Xenil) | Madeline | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (75)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add To Stack: Xenil cast Whispersilk Cloak
+Information: BOARD cast | Whispersilk Cloak (mv 3) by Xenil | open mana: Helen Fingermunch 0, Juan 0, Madeline 8
+Resolve Stack: Whispersilk Cloak
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 11 (Helen Fingermunch)
+Information: BOARD turn 11 (Helen Fingermunch) | Xenil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4)
+Information: BOARD turn 11 (Helen Fingermunch) | Helen Fingermunch | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Plains(land); Danitha Capashen, Paragon(3); Leonin Abunas(4); Cloudsteel Kirin(3)
+Information: BOARD turn 11 (Helen Fingermunch) | Juan | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 11 (Helen Fingermunch) | Madeline | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Land: Helen Fingermunch played Plains (185)
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Phase: Helen Fingermunch's Declare Blockers Step
+Phase: Helen Fingermunch's First Strike Damage Step
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Plains (185) - {T}: Add {W}.
+Land: Helen Fingermunch picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Add To Stack: Helen Fingermunch cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Helen Fingermunch | open mana: Xenil 0, Juan 0, Madeline 8
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 12 (Juan)
+Information: BOARD turn 12 (Juan) | Xenil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4)
+Information: BOARD turn 12 (Juan) | Helen Fingermunch | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Leonin Abunas(4); Cloudsteel Kirin(3); The Reaver Cleaver(3)
+Information: BOARD turn 12 (Juan) | Juan | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 12 (Juan) | Madeline | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Phase: Juan's Untap step
+Phase: Juan's Upkeep step
+Phase: Juan's Draw step
+Phase: Juan's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Juan played Luxury Suite (236)
+Land: Juan picked {B}
+Mana: Luxury Suite (236) - {T}: Add {B} or {R}.
+Land: Juan picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Juan.
+Life: Life: Juan 39 > 38
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Juan cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Juan | open mana: Xenil 0, Helen Fingermunch 0, Madeline 8
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Caves of Koilos (203) - {T}: Add {C}.
+Add To Stack: Juan activated Swiftfoot Boots targeting [Mr. House, President and CEO (302)]
+Resolve Stack: Swiftfoot Boots (249) -  Attach to Mr. House, President and CEO (302)
+Phase: Juan's Beginning of Combat Step
+Phase: Juan's Declare Attackers Step
+Phase: Juan's Declare Blockers Step
+Phase: Juan's First Strike Damage Step
+Phase: Juan's Combat Damage Step
+Phase: Juan's End of Combat Step
+Phase: Juan's Main phase, postcombat
+Phase: Juan's End step
+Phase: Juan's Cleanup step
+Turn: Turn 13 (Madeline)
+Information: BOARD turn 13 (Madeline) | Xenil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4)
+Information: BOARD turn 13 (Madeline) | Helen Fingermunch | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Leonin Abunas(4); Cloudsteel Kirin(3); The Reaver Cleaver(3)
+Information: BOARD turn 13 (Madeline) | Juan | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 13 (Madeline) | Madeline | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Combat: Madeline assigned Serra Ascendant (332) to attack Juan.
+Information: BOARD attack | Madeline -> Juan | attackers 1 (power 6) | defender life 38 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4[Swiftfoot Boots] | open mana 0
+Phase: Madeline's Declare Blockers Step
+Combat: Juan didn't block Serra Ascendant (332).
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Damage: Serra Ascendant (332) deals 6 combat damage to Juan.
+Life: Life: Madeline 40 > 46
+Life: Life: Juan 38 > 32
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Madeline played Temple of Malice (322)
+Add To Stack: Madeline triggered Temple of Malice
+Resolve Stack: Madeline scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (322)]
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 14 (Xenil)
+Information: BOARD turn 14 (Xenil) | Xenil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4)
+Information: BOARD turn 14 (Xenil) | Helen Fingermunch | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Leonin Abunas(4); Cloudsteel Kirin(3); The Reaver Cleaver(3)
+Information: BOARD turn 14 (Xenil) | Juan | life 32 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 14 (Xenil) | Madeline | life 46 | hand 5 | lands 4 (3 untapped) | open mana 9 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6* | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Information: BOARD threat | turn 14 | Serra Ascendant (Madeline) 35
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 15 (Helen Fingermunch)
+Information: BOARD turn 15 (Helen Fingermunch) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4)
+Information: BOARD turn 15 (Helen Fingermunch) | Helen Fingermunch | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Kaldra Compleat(7); Kediss, Emberclaw Familiar(2); Plains(land); Leonin Abunas(4); Cloudsteel Kirin(3); The Reaver Cleaver(3)
+Information: BOARD turn 15 (Helen Fingermunch) | Juan | life 32 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 15 (Helen Fingermunch) | Madeline | life 46 | hand 5 | lands 4 (3 untapped) | open mana 9 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6* | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Information: BOARD threat | turn 15 | Serra Ascendant (Madeline) 33
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Land: Helen Fingermunch played Plains (187)
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Plains (185) - {T}: Add {W}.
+Add To Stack: Helen Fingermunch cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Helen Fingermunch | open mana: Xenil 3, Juan 0, Madeline 9
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Combat: Helen Fingermunch assigned Danitha Capashen, Paragon (200) to attack Madeline.
+Information: BOARD attack | Helen Fingermunch -> Madeline | attackers 1 (power 2) | defender life 46 | untapped creatures 0 (power 0):  | open mana 9
+Phase: Helen Fingermunch's Declare Blockers Step
+Combat: Madeline didn't block Danitha Capashen, Paragon (200).
+Phase: Helen Fingermunch's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 2 combat damage to Madeline.
+Life: Life: Helen Fingermunch 40 > 42
+Life: Life: Madeline 46 > 44
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Land: Helen Fingermunch picked {R}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Helen Fingermunch cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Helen Fingermunch | open mana: Xenil 3, Juan 0, Madeline 9
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 16 (Juan)
+Information: BOARD turn 16 (Juan) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4)
+Information: BOARD turn 16 (Juan) | Helen Fingermunch | life 42 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2; Kediss, Emberclaw Familiar 1/1 | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Stroke of Midnight(3)
+Information: BOARD turn 16 (Juan) | Juan | life 32 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Clown Car(0); Ruinous Ultimatum(7); Sundown Pass(land); Myrkul's Edict(2); Norn's Annex(5)
+Information: BOARD turn 16 (Juan) | Madeline | life 44 | hand 5 | lands 4 (3 untapped) | open mana 9 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6* | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Information: BOARD threat | turn 16 | Serra Ascendant (Madeline) 32
+Phase: Juan's Untap step
+Phase: Juan's Upkeep step
+Phase: Juan's Draw step
+Phase: Juan's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Juan played Sundown Pass (234)
+Phase: Juan's Beginning of Combat Step
+Phase: Juan's Declare Attackers Step
+Phase: Juan's Declare Blockers Step
+Phase: Juan's First Strike Damage Step
+Phase: Juan's Combat Damage Step
+Phase: Juan's End of Combat Step
+Phase: Juan's Main phase, postcombat
+Mana: Plains (289) - {T}: Add {W}.
+Land: Juan picked {B}
+Mana: Luxury Suite (236) - {T}: Add {B} or {R}.
+Land: Juan picked {W}
+Mana: Sundown Pass (234) - {T}: Add {R} or {W}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Mana: Caves of Koilos (203) - {T}: Add {C}.
+Add To Stack: Juan cast Clown Car
+Information: BOARD cast | Clown Car (mv 5) by Juan | open mana: Xenil 3, Helen Fingermunch 0, Madeline 9
+Resolve Stack: Clown Car (X=5)
+Add To Stack: Juan triggered Clown Car
+Resolve Stack: When Clown Car enters, roll X six-sided dice. For each odd result, create a 1/1 white Clown Robot artifact creature token. For each even result, put a +1/+1 counter on Clown Car. [Zone Changer: Clown Car (227)]
+Add To Stack: Juan triggered Mr. House, President and CEO
+Add To Stack: Juan triggered Mr. House, President and CEO
+Add To Stack: Juan triggered Mr. House, President and CEO
+Add To Stack: Juan triggered Mr. House, President and CEO
+Add To Stack: Juan triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Juan, Result: 6]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Juan, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Juan, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Juan, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Juan, Result: 4]
+Phase: Juan's End step
+Phase: Juan's Cleanup step
+Turn: Turn 17 (Madeline)
+Information: BOARD turn 17 (Madeline) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4)
+Information: BOARD turn 17 (Madeline) | Helen Fingermunch | life 42 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2; Kediss, Emberclaw Familiar 1/1 | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Stroke of Midnight(3)
+Information: BOARD turn 17 (Madeline) | Juan | life 32 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (8 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Norn's Annex(5); Comet, Stellar Pup(4)
+Information: BOARD turn 17 (Madeline) | Madeline | life 44 | hand 5 | lands 4 (3 untapped) | open mana 9 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6* | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4)
+Information: BOARD threat | turn 17 | Mr. House, President and CEO (Juan) 72; Serra Ascendant (Madeline) 31
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Mana: Plains (402) - {T}: Add {W}.
+Land: Madeline picked {B}
+Mana: Temple of Malice (322) - {T}: Add {B} or {R}.
+Land: Madeline picked {R}
+Damage: Sulfurous Springs (383) deals 1 non-combat damage to Madeline.
+Life: Life: Madeline 44 > 43
+Mana: Sulfurous Springs (383) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Rugged Prairie (361) - {T}: Add {C}.
+Add To Stack: Madeline cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Madeline | open mana: Xenil 3, Helen Fingermunch 0, Juan 1
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Combat: Madeline assigned Serra Ascendant (332) to attack Juan.
+Information: BOARD attack | Madeline -> Juan | attackers 1 (power 6) | defender life 32 | untapped creatures 8 (power 17): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | open mana 1
+Phase: Madeline's Declare Blockers Step
+Combat: Juan didn't block Serra Ascendant (332).
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Damage: Serra Ascendant (332) deals 6 combat damage to Juan.
+Life: Life: Madeline 43 > 49
+Life: Life: Juan 32 > 26
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 18 (Xenil)
+Information: BOARD turn 18 (Xenil) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Darksteel Angel(9); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4)
+Information: BOARD turn 18 (Xenil) | Helen Fingermunch | life 42 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2; Kediss, Emberclaw Familiar 1/1 | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Stroke of Midnight(3)
+Information: BOARD turn 18 (Xenil) | Juan | life 26 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (8 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Norn's Annex(5); Comet, Stellar Pup(4)
+Information: BOARD turn 18 (Xenil) | Madeline | life 49 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Serra Ascendant 6/6*; Olivia, Opulent Outlaw 3/3 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4); Lightning Greaves(2)
+Information: BOARD threat | turn 18 | Mr. House, President and CEO (Juan) 69; Serra Ascendant (Madeline) 64
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Darksteel Angel (97).
+Turn: Turn 19 (Helen Fingermunch)
+Information: BOARD turn 19 (Helen Fingermunch) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4); Swiftfoot Boots(2)
+Information: BOARD turn 19 (Helen Fingermunch) | Helen Fingermunch | life 42 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2; Kediss, Emberclaw Familiar 1/1 | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Stroke of Midnight(3)
+Information: BOARD turn 19 (Helen Fingermunch) | Juan | life 26 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (8 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Norn's Annex(5); Comet, Stellar Pup(4)
+Information: BOARD turn 19 (Helen Fingermunch) | Madeline | life 49 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Serra Ascendant 6/6*; Olivia, Opulent Outlaw 3/3 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4); Lightning Greaves(2)
+Information: BOARD threat | turn 19 | Mr. House, President and CEO (Juan) 66; Serra Ascendant (Madeline) 61
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Plains (185) - {T}: Add {W}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Helen Fingermunch cast Stroke of Midnight targeting [Serra Ascendant (332)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Helen Fingermunch | open mana: Xenil 3, Juan 1, Madeline 0
+Zone Change: Serra Ascendant (332) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (110) - Destroy Serra Ascendant (332). 
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Combat: Helen Fingermunch assigned Cloudsteel Kirin (160) to attack Juan.
+Helen Fingermunch assigned Danitha Capashen, Paragon (200) and Kediss, Emberclaw Familiar (143) to attack Xenil.
+Information: BOARD attack | Helen Fingermunch -> Juan | attackers 1 (power 3) | defender life 26 | untapped creatures 8 (power 17): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | open mana 1
+Information: BOARD attack | Helen Fingermunch -> Xenil | attackers 2 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Helen Fingermunch's Declare Blockers Step
+Combat: Juan didn't block Cloudsteel Kirin (160).
+Combat: Xenil didn't block Danitha Capashen, Paragon (200).
+Xenil didn't block Kediss, Emberclaw Familiar (143).
+Phase: Helen Fingermunch's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 2 combat damage to Xenil.
+Life: Life: Helen Fingermunch 42 > 44
+Life: Life: Xenil 40 > 38
+Phase: Helen Fingermunch's Combat Damage Step
+Damage: Cloudsteel Kirin (160) deals 3 combat damage to Juan.
+Damage: Kediss, Emberclaw Familiar (143) deals 1 combat damage to Xenil.
+Life: Life: Xenil 38 > 37
+Life: Life: Juan 26 > 23
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 20 (Juan)
+Information: BOARD turn 20 (Juan) | Xenil | life 37 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4); Swiftfoot Boots(2)
+Information: BOARD turn 20 (Juan) | Helen Fingermunch | life 44 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 3 (1 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2*; Kediss, Emberclaw Familiar 1/1* | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Sram, Senior Edificer(2)
+Information: BOARD turn 20 (Juan) | Juan | life 23 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (8 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1 x2; Robot Token 3/3 x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Norn's Annex(5); Comet, Stellar Pup(4)
+Information: BOARD turn 20 (Juan) | Madeline | life 49 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Olivia, Opulent Outlaw 3/3; Human Token 1/1 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4); Lightning Greaves(2)
+Information: BOARD threat | turn 20 | Mr. House, President and CEO (Juan) 64
+Phase: Juan's Untap step
+Phase: Juan's Upkeep step
+Phase: Juan's Draw step
+Phase: Juan's Main phase, precombat
+Phase: Juan's Beginning of Combat Step
+Add To Stack: Juan activated Clown Car
+Resolve Stack: Clown Car (227) - Clown Car (227) becomes an artifact creature until end of turn.
+Phase: Juan's Declare Attackers Step
+Combat: Juan assigned Clown Car (227) to attack Madeline.
+Juan assigned Robot Token (427), Robot Token (430), Robot Token (432), Robot Token (434) and Robot Token (436) to attack Helen Fingermunch.
+Information: BOARD attack | Juan -> Madeline | attackers 1 (power 4) | defender life 49 | untapped creatures 2 (power 4): Olivia, Opulent Outlaw 3/3; Human Token 1/1 | open mana 0
+Information: BOARD attack | Juan -> Helen Fingermunch | attackers 5 (power 15) | defender life 44 | untapped creatures 1 (power 2): Danitha Capashen, Paragon 2/2 | open mana 3
+Phase: Juan's Declare Blockers Step
+Combat: Madeline didn't block Clown Car (227).
+Combat: Helen Fingermunch didn't block Robot Token (427).
+Helen Fingermunch didn't block Robot Token (430).
+Helen Fingermunch didn't block Robot Token (432).
+Helen Fingermunch didn't block Robot Token (434).
+Helen Fingermunch didn't block Robot Token (436).
+Phase: Juan's First Strike Damage Step
+Phase: Juan's Combat Damage Step
+Damage: Robot Token (427) deals 3 combat damage to Helen Fingermunch.
+Damage: Robot Token (430) deals 3 combat damage to Helen Fingermunch.
+Damage: Robot Token (432) deals 3 combat damage to Helen Fingermunch.
+Damage: Robot Token (434) deals 3 combat damage to Helen Fingermunch.
+Damage: Robot Token (436) deals 3 combat damage to Helen Fingermunch.
+Damage: Clown Car (227) deals 4 combat damage to Madeline.
+Life: Life: Helen Fingermunch 44 > 29
+Life: Life: Madeline 49 > 45
+Phase: Juan's End of Combat Step
+Phase: Juan's Main phase, postcombat
+Mana: Plains (289) - {T}: Add {W}.
+Land: Juan picked {W}
+Mana: Sundown Pass (234) - {T}: Add {R} or {W}.
+Land: Juan picked {B}
+Mana: Luxury Suite (236) - {T}: Add {B} or {R}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Mana: Caves of Koilos (203) - {T}: Add {C}.
+Add To Stack: Juan cast Norn's Annex
+Information: BOARD cast | Norn's Annex (mv 5) by Juan | open mana: Xenil 3, Helen Fingermunch 3, Madeline 0
+Resolve Stack: Norn's Annex
+Phase: Juan's End step
+Phase: Juan's Cleanup step
+Turn: Turn 21 (Madeline)
+Information: BOARD turn 21 (Madeline) | Xenil | life 37 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4); Swiftfoot Boots(2)
+Information: BOARD turn 21 (Madeline) | Helen Fingermunch | life 29 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 3 (1 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2*; Kediss, Emberclaw Familiar 1/1* | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Sram, Senior Edificer(2)
+Information: BOARD turn 21 (Madeline) | Juan | life 23 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1* x2; Robot Token 3/3* x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Comet, Stellar Pup(4); Unwinding Clock(4)
+Information: BOARD turn 21 (Madeline) | Madeline | life 45 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Olivia, Opulent Outlaw 3/3; Human Token 1/1 | hand cards: Mirror Entity(3); Deadly Dispute(2); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4); Lightning Greaves(2)
+Information: BOARD threat | turn 21 | Mr. House, President and CEO (Juan) 61; Clown Car (Juan) 50
+Phase: Madeline's Untap step
+Phase: Madeline's Upkeep step
+Land: Madeline picked {B}
+Mana: Temple of Malice (322) - {T}: Add {B} or {R}.
+Mana: Plains (402) - {T}: Add {W}.
+Zone Change: Human Token (438) was put into Graveyard from Battlefield.
+Add To Stack: Madeline cast Deadly Dispute
+Information: BOARD cast | Deadly Dispute (mv 2) by Madeline | open mana: Xenil 3, Helen Fingermunch 3, Juan 1
+Resolve Stack: Deadly Dispute (316) - Draw two cards and create a Treasure token. 
+Phase: Madeline's Draw step
+Phase: Madeline's Main phase, precombat
+Replacement Effect: Blackcleave Cliffs enters tapped unless you control two or fewer other lands.
+Land: Madeline played Blackcleave Cliffs (355)
+Mana: Rugged Prairie (361) - {T}: Add {C}.
+Mana: Sulfurous Springs (383) - {T}: Add {C}.
+Add To Stack: Madeline cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Madeline | open mana: Xenil 3, Helen Fingermunch 3, Juan 1
+Resolve Stack: Lightning Greaves
+Add To Stack: Madeline activated Lightning Greaves targeting [Olivia, Opulent Outlaw (413)]
+Resolve Stack: Lightning Greaves (406) -  Attach to Olivia, Opulent Outlaw (413)
+Phase: Madeline's Beginning of Combat Step
+Phase: Madeline's Declare Attackers Step
+Zone Change: Treasure Token (441) was put into Graveyard from Battlefield.
+Land: Treasure Token (441) picked {W}
+Mana: Treasure Token (441) - {T}, Sacrifice this token: Add one mana of any color.
+Combat: Madeline assigned Olivia, Opulent Outlaw (413) to attack Juan.
+Information: BOARD attack | Madeline -> Juan | attackers 1 (power 3) | defender life 23 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4[Swiftfoot Boots] | open mana 1
+Phase: Madeline's Declare Blockers Step
+Combat: Juan didn't block Olivia, Opulent Outlaw (413).
+Phase: Madeline's First Strike Damage Step
+Phase: Madeline's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (413) deals 3 combat damage to Juan.
+Life: Life: Madeline 45 > 48
+Life: Life: Juan 23 > 20
+Add To Stack: Madeline triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Juan, Amount: 3]
+Phase: Madeline's End of Combat Step
+Phase: Madeline's Main phase, postcombat
+Phase: Madeline's End step
+Phase: Madeline's Cleanup step
+Turn: Turn 22 (Xenil)
+Information: BOARD turn 22 (Xenil) | Xenil | life 37 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Archaeomancer's Map(3); Quicksilver Amulet(4); Angel of Serenity(7); Linvala, Keeper of Silence(4); Shalai, Voice of Plenty(4); Swiftfoot Boots(2)
+Information: BOARD turn 22 (Xenil) | Helen Fingermunch | life 29 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 3 (1 untapped): Danitha Capashen, Paragon 2/2; Cloudsteel Kirin 3/2*; Kediss, Emberclaw Familiar 1/1* | hand cards: Kaldra Compleat(7); Leonin Abunas(4); The Reaver Cleaver(3); Sram, Senior Edificer(2)
+Information: BOARD turn 22 (Xenil) | Juan | life 20 | hand 4 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 8 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Clown Robot Token 1/1* x2; Robot Token 3/3* x5 | hand cards: Ruinous Ultimatum(7); Myrkul's Edict(2); Comet, Stellar Pup(4); Unwinding Clock(4)
+Information: BOARD turn 22 (Xenil) | Madeline | life 48 | hand 6 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Mirror Entity(3); Shadow the Hedgehog(4); Dictate of Erebos(5); Smothering Tithe(4); Arcane Signet(2); Roaming Throne(4)
+Information: BOARD threat | turn 22 | Mr. House, President and CEO (Juan) 59; Clown Car (Juan) 48; Olivia, Opulent Outlaw (Madeline) 32
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Player Control: Xenil has restored control over themself
+Player Control: Helen Fingermunch has restored control over themself
+Player Control: Juan has restored control over themself
+Player Control: Madeline has restored control over themself
+Game Outcome: Match Duration 2m : 35s
+Game Outcome: Turn 11
+Game Outcome: Xenil has conceded
+Game Outcome: Helen Fingermunch has won because all opponents have lost
+Game Outcome: Juan has won because all opponents have lost
+Game Outcome: Madeline has won because all opponents have lost
+Match Result: Xenil: 0 Helen Fingermunch: 1 Juan: 0 Madeline: 0 
+
+Game Result: Helen Fingermunch has won

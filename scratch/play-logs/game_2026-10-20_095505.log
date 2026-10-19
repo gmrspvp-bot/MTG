@@ -1,0 +1,83 @@
+Player: Xenil (HUMAN) deck=Abzan Siege
+Player: Helen Fingermunch (AI) deck=Random deck : [Random 1, Random 2]
+Mulligan: Helen Fingermunch has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Helen Fingermunch has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 20 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Plains(land); Abzan Banner(3); Carnivorous Moss-Beast(6); Swamp(land); Plains(land); High Sentinels of Arashin(4); Eternal Thirst(2)
+Information: BOARD turn 1 (Xenil) | Helen Fingermunch | life 20 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: News Helicopter(3); Bramblecrush(4); Swamp(land); Swamp(land); Forest(land); Brindle Shoat(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (7)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Helen Fingermunch)
+Information: BOARD turn 2 (Helen Fingermunch) | Xenil | life 20 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Abzan Banner(3); Carnivorous Moss-Beast(6); Swamp(land); Plains(land); High Sentinels of Arashin(4); Eternal Thirst(2)
+Information: BOARD turn 2 (Helen Fingermunch) | Helen Fingermunch | life 20 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: News Helicopter(3); Bramblecrush(4); Swamp(land); Swamp(land); Forest(land); Brindle Shoat(2)
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Land: Helen Fingermunch played Swamp (71)
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Phase: Helen Fingermunch's Declare Blockers Step
+Phase: Helen Fingermunch's First Strike Damage Step
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Phase: Helen Fingermunch's End step
+Phase: Helen Fingermunch's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 20 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Abzan Banner(3); Carnivorous Moss-Beast(6); Swamp(land); Plains(land); High Sentinels of Arashin(4); Eternal Thirst(2)
+Information: BOARD turn 3 (Xenil) | Helen Fingermunch | life 20 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: News Helicopter(3); Bramblecrush(4); Swamp(land); Forest(land); Brindle Shoat(2); Tel-Jilad Wolf(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 4 (Helen Fingermunch)
+Information: BOARD turn 4 (Helen Fingermunch) | Xenil | life 20 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Abzan Banner(3); Carnivorous Moss-Beast(6); Swamp(land); Plains(land); High Sentinels of Arashin(4); Eternal Thirst(2); Plains(land)
+Information: BOARD turn 4 (Helen Fingermunch) | Helen Fingermunch | life 20 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: News Helicopter(3); Bramblecrush(4); Swamp(land); Forest(land); Brindle Shoat(2); Tel-Jilad Wolf(3)
+Phase: Helen Fingermunch's Untap step
+Phase: Helen Fingermunch's Upkeep step
+Phase: Helen Fingermunch's Draw step
+Phase: Helen Fingermunch's Main phase, precombat
+Land: Helen Fingermunch played Forest (97)
+Phase: Helen Fingermunch's Beginning of Combat Step
+Phase: Helen Fingermunch's Declare Attackers Step
+Phase: Helen Fingermunch's Declare Blockers Step
+Phase: Helen Fingermunch's First Strike Damage Step
+Phase: Helen Fingermunch's Combat Damage Step
+Phase: Helen Fingermunch's End of Combat Step
+Phase: Helen Fingermunch's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Swamp (71) - {T}: Add {B}.
+Add To Stack: Helen Fingermunch cast Brindle Shoat
+Information: BOARD cast | Brindle Shoat (mv 2) by Helen Fingermunch | open mana: Xenil 1
+Player Control: Xenil has restored control over themself
+Player Control: Helen Fingermunch has restored control over themself
+Game Outcome: Match Duration 0m : 25s
+Game Outcome: Turn 2
+Game Outcome: Xenil has conceded
+Game Outcome: Helen Fingermunch has won because all opponents have lost
+Match Result: Xenil: 0 Helen Fingermunch: 1 
+
+Game Result: Helen Fingermunch has won

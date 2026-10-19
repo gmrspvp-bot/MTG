@@ -1,0 +1,118 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Wiltmar (AI) deck=Captain America v8
+Mulligan: Wiltmar has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Wiltmar has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Plains(land); Lightning Greaves(2); Angel of the Ruins(7)
+Information: BOARD turn 1 (Xenil) | Wiltmar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Stoneforge Mystic(2); Command Tower(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Wiltmar)
+Information: BOARD turn 2 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Plains(land); Lightning Greaves(2); Angel of the Ruins(7)
+Information: BOARD turn 2 (Wiltmar) | Wiltmar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Stoneforge Mystic(2); Command Tower(land)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Command Tower (127)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's First Strike Damage Step
+Phase: Wiltmar's Combat Damage Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Plains(land); Lightning Greaves(2); Angel of the Ruins(7)
+Information: BOARD turn 3 (Xenil) | Wiltmar | life 40 | hand 6 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Stoneforge Mystic(2); Embercleave(6)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Angel of the Ruins (8).
+Turn: Turn 4 (Wiltmar)
+Information: BOARD turn 4 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Plains(land); Lightning Greaves(2); Mesmeric Orb(2)
+Information: BOARD turn 4 (Wiltmar) | Wiltmar | life 40 | hand 6 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Stoneforge Mystic(2); Embercleave(6)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Rogue's Passage (123)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's First Strike Damage Step
+Phase: Wiltmar's Combat Damage Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Land: Wiltmar picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Wiltmar cast Stoneforge Mystic
+Information: BOARD cast | Stoneforge Mystic (mv 2) by Wiltmar | open mana: Xenil 0
+Resolve Stack: Stoneforge Mystic - Creature 1 / 2
+Add To Stack: Wiltmar triggered Stoneforge Mystic
+Resolve Stack: When Stoneforge Mystic enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle. [Zone Changer: Stoneforge Mystic (117)]
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Plains(land); Lightning Greaves(2); Mesmeric Orb(2)
+Information: BOARD turn 5 (Xenil) | Wiltmar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stoneforge Mystic 1/2 | hand cards: Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Embercleave(6); Hengegate Pathway(land); Cloudsteel Kirin(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (85).
+Turn: Turn 6 (Wiltmar)
+Information: BOARD turn 6 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Urza's Incubator(3); Wrath of the Skies(2); Path of Ancestry(land); Wand of Vertebrae(1); Lightning Greaves(2); Mesmeric Orb(2); Sephara, Sky's Blade(7)
+Information: BOARD turn 6 (Wiltmar) | Wiltmar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stoneforge Mystic 1/2 | hand cards: Sword of Light and Shadow(3); Conqueror's Flail(2); Exotic Orchard(land); Embercleave(6); Hengegate Pathway(land); Cloudsteel Kirin(3)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Island (129)
+Land: Wiltmar picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Island (129) - {T}: Add {U}.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Wiltmar cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Wiltmar | open mana: Xenil 0
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Combat: Wiltmar assigned Stoneforge Mystic (117) to attack Xenil.
+Information: BOARD attack | Wiltmar -> Xenil | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+
+Game Result: unfinished (Forge closed mid-game)

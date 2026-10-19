@@ -1,0 +1,171 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Kennedy (AI) deck=Captain America v8
+Mulligan: Kennedy has mulliganed down to 6 cards.
+Mulligan: Kennedy has kept a hand of 6 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Kennedy)
+Information: BOARD turn 1 (Kennedy) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 1 (Kennedy) | Kennedy | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Battlefield Forge(land); Arcane Signet(2); Flawless Maneuver(3)
+Phase: Kennedy's Untap step
+Phase: Kennedy's Upkeep step
+Phase: Kennedy's Draw step
+Phase: Kennedy's Main phase, precombat
+Land: Kennedy played Battlefield Forge (198)
+Phase: Kennedy's Beginning of Combat Step
+Phase: Kennedy's Declare Attackers Step
+Phase: Kennedy's Declare Blockers Step
+Phase: Kennedy's First Strike Damage Step
+Phase: Kennedy's Combat Damage Step
+Phase: Kennedy's End of Combat Step
+Phase: Kennedy's Main phase, postcombat
+Phase: Kennedy's End step
+Phase: Kennedy's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 2 (Xenil) | Kennedy | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Arcane Signet(2); Flawless Maneuver(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (74).
+Turn: Turn 3 (Kennedy)
+Information: BOARD turn 3 (Kennedy) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Sigarda, Host of Herons(5); Plains(land); Exotic Orchard(land)
+Information: BOARD turn 3 (Kennedy) | Kennedy | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Arcane Signet(2); Flawless Maneuver(3)
+Phase: Kennedy's Untap step
+Phase: Kennedy's Upkeep step
+Phase: Kennedy's Draw step
+Phase: Kennedy's Main phase, precombat
+Land: Kennedy played Rogue's Passage (123)
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Kennedy cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Kennedy | open mana: Xenil 0
+Resolve Stack: Arcane Signet
+Phase: Kennedy's Beginning of Combat Step
+Phase: Kennedy's Declare Attackers Step
+Phase: Kennedy's Declare Blockers Step
+Phase: Kennedy's First Strike Damage Step
+Phase: Kennedy's Combat Damage Step
+Phase: Kennedy's End of Combat Step
+Phase: Kennedy's Main phase, postcombat
+Phase: Kennedy's End step
+Phase: Kennedy's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Sigarda, Host of Herons(5); Plains(land); Exotic Orchard(land)
+Information: BOARD turn 4 (Xenil) | Kennedy | life 40 | hand 4 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Flawless Maneuver(3); Island(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Sigarda, Host of Herons (24).
+Turn: Turn 5 (Kennedy)
+Information: BOARD turn 5 (Kennedy) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Exotic Orchard(land); Whispersilk Cloak(3)
+Information: BOARD turn 5 (Kennedy) | Kennedy | life 40 | hand 4 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Flawless Maneuver(3); Island(land)
+Phase: Kennedy's Untap step
+Phase: Kennedy's Upkeep step
+Phase: Kennedy's Draw step
+Phase: Kennedy's Main phase, precombat
+Land: Kennedy played Island (130)
+Land: Kennedy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Island (130) - {T}: Add {U}.
+Land: Kennedy picked {R}
+Damage: Battlefield Forge (198) deals 1 non-combat damage to Kennedy.
+Life: Life: Kennedy 40 > 39
+Mana: Battlefield Forge (198) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: Kennedy cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Kennedy | open mana: Xenil 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Kennedy's Beginning of Combat Step
+Add To Stack: Kennedy triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Kennedy]
+Phase: Kennedy's Declare Attackers Step
+Phase: Kennedy's Declare Blockers Step
+Phase: Kennedy's First Strike Damage Step
+Phase: Kennedy's Combat Damage Step
+Phase: Kennedy's End of Combat Step
+Phase: Kennedy's Main phase, postcombat
+Phase: Kennedy's End step
+Phase: Kennedy's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Exotic Orchard(land); Whispersilk Cloak(3)
+Information: BOARD turn 6 (Xenil) | Kennedy | life 39 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Flawless Maneuver(3); Spectacular Spider-Man(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (71)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 7 (Kennedy)
+Information: BOARD turn 7 (Kennedy) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Exotic Orchard(land); Whispersilk Cloak(3)
+Information: BOARD turn 7 (Kennedy) | Kennedy | life 39 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Sram, Senior Edificer(2); Kellan, the Fae-Blooded(3); Flawless Maneuver(3); Spectacular Spider-Man(2)
+Phase: Kennedy's Untap step
+Phase: Kennedy's Upkeep step
+Phase: Kennedy's Draw step
+Phase: Kennedy's Main phase, precombat
+Land: Kennedy played Plains (183)
+Mana: Plains (183) - {T}: Add {W}.
+Mana: Island (130) - {T}: Add {U}.
+Add To Stack: Kennedy cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Kennedy | open mana: Xenil 1
+Resolve Stack: Birthright Boon (165) - Kennedy searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Land: Kennedy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Kennedy cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Kennedy | open mana: Xenil 1
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Kennedy's Beginning of Combat Step
+Add To Stack: Kennedy triggered Captain America, First Avenger targeting [Cloudsteel Kirin (160)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Cloudsteel Kirin (160)]]) [Phase: Kennedy]
+Phase: Kennedy's Declare Attackers Step
+Combat: Kennedy assigned Captain America, First Avenger (201) to attack Xenil.
+Information: BOARD attack | Kennedy -> Xenil | attackers 1 (power 4) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Kennedy's Declare Blockers Step
+Combat: Xenil didn't block Captain America, First Avenger (201).
+Phase: Kennedy's First Strike Damage Step
+Phase: Kennedy's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 4 combat damage to Xenil.
+Life: Life: Xenil 40 > 36
+Phase: Kennedy's End of Combat Step
+Phase: Kennedy's Main phase, postcombat
+Phase: Kennedy's End step
+Phase: Kennedy's Cleanup step
+Turn: Turn 8 (Xenil)
+Information: BOARD turn 8 (Xenil) | Xenil | life 36 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Lyra Dawnbringer(5); Sun Titan(6); Swords to Plowshares(1); Plains(land); Exotic Orchard(land); Whispersilk Cloak(3)
+Information: BOARD turn 8 (Xenil) | Kennedy | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 4/4*[Cloudsteel Kirin] | hand cards: Sram, Senior Edificer(2); Flawless Maneuver(3); Spectacular Spider-Man(2)
+Information: BOARD threat | turn 8 | Captain America, First Avenger (Kennedy) 51
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

@@ -1,0 +1,39 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Jeremiah (AI) deck=Captain America v8
+Mulligan: Jeremiah has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Jeremiah)
+Information: BOARD turn 1 (Jeremiah) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Emeria, the Sky Ruin(land); Righteous Valkyrie(3); Angel of Finality(4); Serra's Emissary(7); Smothering Tithe(4)
+Information: BOARD turn 1 (Jeremiah) | Jeremiah | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Whispersilk Cloak(3); Plains(land); Adarkar Wastes(land); Plains(land); Floodfarm Verge(land); Akroma's Will(4); Enthusiastic Mechanaut(2)
+Phase: Jeremiah's Untap step
+Phase: Jeremiah's Upkeep step
+Phase: Jeremiah's Draw step
+Phase: Jeremiah's Main phase, precombat
+Land: Jeremiah played Adarkar Wastes (158)
+Phase: Jeremiah's Beginning of Combat Step
+Phase: Jeremiah's Declare Attackers Step
+Phase: Jeremiah's Declare Blockers Step
+Phase: Jeremiah's First Strike Damage Step
+Phase: Jeremiah's Combat Damage Step
+Phase: Jeremiah's End of Combat Step
+Phase: Jeremiah's Main phase, postcombat
+Phase: Jeremiah's End step
+Phase: Jeremiah's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Emeria, the Sky Ruin(land); Righteous Valkyrie(3); Angel of Finality(4); Serra's Emissary(7); Smothering Tithe(4)
+Information: BOARD turn 2 (Xenil) | Jeremiah | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Whispersilk Cloak(3); Plains(land); Plains(land); Floodfarm Verge(land); Akroma's Will(4); Enthusiastic Mechanaut(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)
