@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - phase panel: vertical layout, and the HUD lines it duplicates | Xenil's Claude | 2026-10-20 | `Table3D`: `drawPhasePanel*` + the two `drawOverlay` lines that print turn/phase/seat behind it (they overlap the panel). Not target arcs or game over (dmara's claim). |
 | `ui3d` - spell targets (arcs from stack items to their targets) and game over (lost seats marked, game-finished banner) | dmara's Claude | 2026-10-20 | Additive: `CardV.targetIds`/`targetSeats`, `SeatV.lost`, `Snapshot.gameOver`/`winner` in `Snapshot`; the lines filling them in `StateReader`. `Table3D`: target arcs inside `drawCombatArcs`, lost-seat dimming + banner. Not the phase panel. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
