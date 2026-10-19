@@ -12,7 +12,10 @@
 param(
     [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave',
     [string] $AiProfile = 'Realistic',
-    [int] $HeapMB = 4096
+    [int] $HeapMB = 4096,
+    # Floating always-on-top copy of the prompt (see PromptWindow.java in scripts/tools).
+    # -PromptWindow:$false leaves Forge's own docked prompt as the only one.
+    [bool] $PromptWindow = $true
 )
 
 $ErrorActionPreference = 'Stop'
@@ -103,6 +106,16 @@ if (-not (Test-Path $marker3)) {
     $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
     Set-Content -Path $marker3 -Value (Get-Date -Format s) -Encoding UTF8
 }
+
+# One-time: space bar ends the turn (2026-10-20, second owner's request). 32 = VK_SPACE; the
+# previous binding was Ctrl+E (17 69), which stays available as the yield-options shortcut is
+# untouched. Applied once, so a different binding chosen inside Forge is kept.
+$marker4 = Join-Path $root 'scratch\play-prefs-spacebar.done'
+if (-not (Test-Path $marker4)) {
+    $set = [ordered]@{ SHORTCUT_ENDTURN = '32' }
+    $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
+    Set-Content -Path $marker4 -Value (Get-Date -Format s) -Encoding UTF8
+}
 [IO.File]::WriteAllLines($prefFile, [string[]]$prefs)
 
 # Same launch as run-sims.ps1, minus the "sim" arguments: SimLauncher applies the AI
@@ -120,7 +133,7 @@ $logDir = Join-Path $root 'scratch\play-logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $launcher = 'SimLauncher'
 $argLine = "-Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
-           "-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
+           "-Dforge.aipatches=$AiPatches -Dforge.promptwindow=$($PromptWindow.ToString().ToLower()) -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
 Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `
     -RedirectStandardOutput $log -RedirectStandardError "$log.err" -WindowStyle Hidden | Out-Null
