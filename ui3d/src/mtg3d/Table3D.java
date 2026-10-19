@@ -552,7 +552,7 @@ public final class Table3D extends ApplicationAdapter {
 
         // The picture, if Forge has it cached. Asking each frame is what makes it appear once the
         // background decode finishes; until then the coloured body stands in for it.
-        com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(c.name);
+        com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(c);
         if (tex != null) {
             d.face = new ModelInstance(faceModel);
             d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.03f, 0f);

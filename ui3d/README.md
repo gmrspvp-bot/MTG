@@ -57,6 +57,8 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 | `Bridge.java` | Subscribes to the game's event bus, publishes snapshots, opens the window. |
 | `CardArt.java` | Finds and loads card pictures from Forge's cache. |
 | `Table3D.java` | The view: table, seats, cards, camera, picking, hover panel, overlays. |
+| `FaceMaker.java` | Draws a card face for anything with no cached picture. Pure AWT. |
+| `FacePreview.java` | `main` that renders a sheet of generated faces to a PNG, no GL context needed. |
 | `Demo.java` | Fake data + a `main`, so the view runs without Forge. |
 
 ### Threading — read this before changing anything
@@ -125,6 +127,9 @@ Please do not rediscover these.
 - **Texture orientation.** `ModelBuilder.createRect` puts the top of the image along the
   `corner11`/`corner01` edge. That edge is placed at `-Z` so a card reads the right way up to
   whoever is sitting in front of it. Change the corner order, not the UVs.
+- **Generated faces are checked by eye, not by running the game.** `FaceMaker.draw()` is kept free
+  of libGDX so `java -cp ui3d\classes mtg3d.FacePreview out.png` renders a sheet of them to a PNG.
+  That is how the name/mana-cost collision and the overflowing watermark were caught. Use it.
 - **The art cache is sparse.** `forge-data\cache\pics\cards\<SET>\<Name>.fullborder.jpg`, only what
   Forge has had reason to download — about 420 cards, and **no basic lands**. A miss is normal and
   leaves a coloured block. The HUD prints `art N loaded / M cached`; **M = 0 means the cache was not
@@ -206,9 +211,8 @@ before you start, and push the claim before writing code.
 - [x] Opponent hands as face-down backs
 - [x] Floating stack bar — above the table centre, filling left to right in cast order, laid out
       along the viewed seat's local X so it stays broadside to the camera from every seat
-- [ ] **Basic land art.** Plains/Island/Swamp/Mountain/Forest are never cached, so they are always
-      blocks — and they are most of the table. Generate a texture per land type at startup rather
-      than shipping images.
+- [x] Generated faces for any card with no cached picture (covers basic lands, which are never
+      cached and are most of the table) — name, type line, mana cost, P/T, tinted by kind
 - [ ] **Tap/untap animation.** Currently an instant 90 degree snap. Needs `Drawn` persisted between
       frames, keyed by card id — see *Known limits*. Doing this unlocks every other animation.
 - [ ] **Card movement.** Cards teleport between zones. Once `Drawn` persists, interpolate from the

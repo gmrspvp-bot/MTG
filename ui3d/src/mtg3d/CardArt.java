@@ -95,26 +95,42 @@ public final class CardArt {
      * The texture for a card, or null if there is none yet. Asking queues a load, so calling this
      * every frame is how art arrives; it never blocks.
      */
-    public Texture get(String cardName) {
-        if (cardName == null || cardName.isEmpty() || !indexed) return null;
-        String k = key(cardName);
+    public Texture get(Snapshot.CardV card) {
+        if (card == null || card.name == null || card.name.isEmpty() || !indexed) return null;
+        String k = key(card.name);
         Texture t = ready.get(k);
         if (t != null) return t;
-        if (requested.containsKey(k)) return null;
+
         File f = index.get(k);
-        if (f == null) { requested.put(k, Boolean.TRUE); return null; }   // no art for this card
-        if (ready.size() >= MAX_TEXTURES) return null;
+        if (f == null) {
+            // No picture cached. Rather than leave a blank block - which is every basic land, and
+            // most of the table - draw a readable face from what we know about the card. Keyed on
+            // the card's own details, so two Plains share one texture but a 5/5 Angel and a 4/4
+            // one do not.
+            String gk = FaceMaker.keyFor(card);
+            Texture gen = ready.get(gk);
+            if (gen != null) return gen;
+            queue(gk, () -> FaceMaker.make(card));
+            return null;
+        }
+        queue(k, () -> new Pixmap(new com.badlogic.gdx.files.FileHandle(f)));
+        return null;
+    }
+
+    /** Decodes or draws on a worker thread, once per key; the Texture is made later, on the GL thread. */
+    private void queue(final String k, final java.util.function.Supplier<Pixmap> source) {
+        if (requested.containsKey(k)) return;
+        if (ready.size() >= MAX_TEXTURES) return;
         requested.put(k, Boolean.TRUE);
         Thread worker = new Thread(() -> {
             try {
-                decoded.add(new Loaded(k, new Pixmap(new com.badlogic.gdx.files.FileHandle(f))));
+                decoded.add(new Loaded(k, source.get()));
             } catch (Throwable e) {
                 // leave it marked as requested so we do not try again every frame
             }
         }, "mtg3d-art");
         worker.setDaemon(true);
         worker.start();
-        return null;
     }
 
     /** Call once a frame on the render thread: turns decoded images into textures, a few at a time. */
