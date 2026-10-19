@@ -7,6 +7,10 @@
 #
 #   powershell -ExecutionPolicy Bypass -File scripts\build-ui3d.ps1
 
+param(
+    [switch] $Clean      # wipe the output first; only needed after deleting a source file
+)
+
 $ErrorActionPreference = 'Stop'
 
 $root    = Split-Path -Parent $PSScriptRoot
@@ -27,7 +31,11 @@ if (-not (Test-Path $javac)) {
     if ($c) { $javac = $c.Source } else { throw "No javac found (install a JDK, or Liberica 17)." }
 }
 
-if (Test-Path $out) { Remove-Item -Recurse -Force $out }
+# Do NOT wipe the output first. javac overwrites what it rebuilds, and wiping leaves a second or
+# two where the folder is empty - long enough for a 3D window launched in that window to die with
+# NoClassDefFoundError, which happened and looks exactly like a code fault. -Clean when a class
+# whose source was deleted needs clearing out.
+if ($Clean -and (Test-Path $out)) { Remove-Item -Recurse -Force $out }
 New-Item -ItemType Directory -Force -Path $out | Out-Null
 
 $files = Get-ChildItem -Recurse -Filter *.java $src | ForEach-Object { $_.FullName }
