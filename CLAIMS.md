@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - stage 3 groundwork: study `forge.GuiMobile` / mobile `IGuiGame`, write an input-routing proposal | dmara's Claude | 2026-10-21 | Docs only: a new section in `ui3d\README.md`. The routing DECISION stays with the owners; no code. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

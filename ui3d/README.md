@@ -260,9 +260,78 @@ anything not yet built, so the game is always playable mid-way through the work.
       face-down permanent its controller may check are now the engine's ruling, not ours.
       **Only verified by compiling** - it needs a real game with `-Ui3d`, and properly a
       two-human network game, before anyone trusts it.
-- [ ] Read `forge.GuiMobile` first — it is a complete worked implementation of the same interface.
-- [ ] Decide how input is routed while both UIs exist: two windows, one game thread, and only one
-      of them should be answering a given decision.
+- [x] **Read `forge.GuiMobile` first** (2026-10-21, notes below). `GuiMobile` itself is only the
+      `IGuiBase` (platform: files, threads, sound). The interesting class is the mobile
+      `IGuiGame`, `forge.screens.match.MatchController`, plus the UI-independent input layer in
+      `forge.gamemodes.match.input` that BOTH Forge UIs share.
+- [ ] **Decide how input is routed while both UIs exist.** A proposal is written up below under
+      *Routing input: proposal*. **It is a proposal - the owners decide.** Tick this when they have.
+
+#### How Forge asks a human for decisions (read 2026-10-21, from the 2.0.15 jars)
+
+There are two quite different channels, and they need different answers:
+
+1. **Inputs** - priority, declaring attackers and blockers, choosing targets, paying mana, the
+   mulligan. `PlayerControllerHuman` puts an `Input` (`InputPassPriority`, `InputAttack`,
+   `InputBlock`, `InputSelectTargets`, `InputPayMana`, `InputConfirmMulligan`, ...) on its
+   `InputQueue` and the game thread waits for it to finish. The Input is a little state machine
+   that does not care which UI drives it: a UI only forwards clicks, through the public
+   `forge.interfaces.IGameController` that `PlayerControllerHuman` implements -
+   `selectCard(CardView, ...)`, `selectPlayer(PlayerView, ...)`, `selectAbility(SpellAbilityView)`,
+   `selectButtonOk()`, `selectButtonCancel()`, `useMana(byte)`, `alphaStrike()`, `undoLastAction()`.
+   The Input tells the UI what to show through `IGuiGame.showPromptMessage`, `updateButtons`
+   (the OK/Cancel labels) and `setSelectables` (which cards are clickable).
+2. **Choices** - `IGuiGame.one / oneOrNone / many / getChoices / order / getInteger / confirm /
+   showConfirmDialog / showOptionDialog`. These are plain method calls made ON THE GAME THREAD,
+   which simply blocks until the method returns an answer. The mobile UI does it with
+   `forge.util.WaitCallback`: the game thread calls `invokeAndWait()`, the UI thread later calls
+   `accept(answer)`.
+
+Two facts make a gradual takeover possible:
+- `PlayerControllerHuman.getGui()` / **`setGui(IGuiGame)` are public.** The human's GUI can be
+  swapped after the game has started, without touching Forge's match setup.
+- Inputs are shared. A click from the 3D window through `IGameController` is indistinguishable
+  from a click in Forge's window - both land in the same Input.
+
+#### Routing input: proposal
+
+**One pass-through `IGuiGame` in front of Forge's own window, per local human.**
+
+- When `Bridge.attach` finds the GUI player's `PlayerControllerHuman`, it takes `pch.getGui()`
+  (Forge's `CMatchUI`) and calls `pch.setGui(new Gui3D(original))`.
+- `Gui3D` forwards **every** method to the original by default, so Forge's window keeps
+  working exactly as now. Build it as a `java.lang.reflect.Proxy` over `IGuiGame` (about 100
+  methods) so it needs no change when Forge adds methods, with a table of the methods 3D has
+  taken over.
+- **Choices** (channel 2): each one is answered by exactly one UI. Once 3D implements, say,
+  `many()`, `Gui3D` shows `SearchPanel` and blocks the game thread on a `WaitCallback` until the
+  player picks; `CMatchUI` never sees that call. Not yet implemented means forwarded, so Forge's
+  dialog answers it. This is what "only one of them answers a given decision" means in practice:
+  per method, decided in one place, and the game is playable at every step of the work.
+- **Inputs** (channel 1): both windows stay live, by design. `Gui3D` copies `showPromptMessage`,
+  `updateButtons` and `setSelectables` into the snapshot (and still forwards them, so Forge's
+  prompt stays correct). The 3D window shows the prompt and an OK/Cancel pair, and forwards its
+  clicks to `IGameController`. Whichever window is clicked first wins; that is the same as
+  clicking Forge's OK twice, which Forge already handles (the second click reaches the next
+  Input, or nothing).
+- **Threads:** 3D clicks are forwarded with `SwingUtilities.invokeLater`, so they arrive on the
+  EDT exactly as Forge's own clicks do. The render thread never blocks. Blocking happens only on
+  the game thread, inside a taken-over choice method, and only until the render thread delivers
+  the answer.
+- **Hidden information** is unchanged: `Gui3D` sits on one human's controller and only ever sees
+  that human's decisions. In a network game each client wraps only its own.
+- **Off switch:** `-Dforge.ui3d.input=false` skips `setGui`, which gives today's read-only view back.
+
+**First steps, in order, once this is agreed:**
+1. `Gui3D` forwarding everything, plus prompt/buttons/selectables copied into the snapshot. No
+   behaviour change; this proves the wrapping is safe in a real game.
+2. The pass-priority key (stage 2 item): SPACE calls `selectButtonOk()` when the prompt's OK means
+   "pass". After that, click-a-card through `selectCard`.
+3. Take over `many` / `one` / `oneOrNone` with `SearchPanel` (stage 3 "choosing from a list").
+
+**Not proposed:** replacing `CMatchUI` outright with our own `IGuiGame` passed to
+`HostedMatch.startMatch`. That is stage 4 (starting a game without Forge's screens), and before
+then it would leave every unimplemented decision with nothing to answer it.
 - [ ] Click a card to select; click again to cast or activate.
 - [ ] Target selection in 3D, with the arcs already needed for combat.
 - [ ] Declare attackers and blockers by dragging.
