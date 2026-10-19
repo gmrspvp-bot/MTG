@@ -31,6 +31,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 
+
 ## Not claimed, and worth knowing about
 
 These are areas the two of us keep touching, so check here before a big change:

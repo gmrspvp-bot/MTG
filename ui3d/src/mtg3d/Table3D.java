@@ -138,7 +138,8 @@ public final class Table3D extends ApplicationAdapter {
      * the last seat back to the first turns the short way instead of unwinding all the way round.
      */
     private int viewSeat = -1;
-    private boolean followTurn = true;      // off once you step manually, back on with DOWN
+    /** Walk round to whoever is active each turn. Off unless asked for, on the phase panel. */
+    private boolean followTurn = false;
     private float orbit = 0f;
     private float orbitTarget = 0f;
     /** Mouse wheel: 1 = the designed distance, smaller is closer. Reset with DOWN / HOME. */
@@ -358,6 +359,7 @@ public final class Table3D extends ApplicationAdapter {
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
+        if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
         if (Gdx.input.isKeyJustPressed(Input.Keys.TAB)) {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
@@ -380,13 +382,25 @@ public final class Table3D extends ApplicationAdapter {
         // The keys are deliberately matched to the direction you see, not to the index order.
         if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(+1, n);
         if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) step(-1, n);
-        // DOWN (or HOME) is the way back: your own seat, and the camera follows the turn again.
+        // DOWN (or HOME) is the way back to your own seat, at the default zoom.
         if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
-            followTurn = true;
             zoom = 1f;
             setViewSeat(snap.youIndex(), n);
         }
     }
+
+    /** True on the frame the left button goes down inside the follow-turn tickbox. */
+    private boolean clickedFollowBox() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        boolean justDown = down && !leftWasDown;
+        leftWasDown = down;
+        if (!justDown) return false;
+        float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+        return mx >= followBox[0] && mx <= followBox[0] + followBox[2]
+            && my >= followBox[1] && my <= followBox[1] + followBox[3];
+    }
+
+    private boolean leftWasDown;
 
     private void step(int delta, int n) {
         followTurn = false;                  // stepping by hand takes over from the turn
@@ -418,10 +432,14 @@ public final class Table3D extends ApplicationAdapter {
         if (n > 0) {
             if (viewSeat < 0) { viewSeat = snap.youIndex(); orbit = orbitTarget = seatAngle(viewSeat, n); }
             // Follow the turn: when a new player becomes active, walk round to their seat.
+            // Off by default - it is a choice on the phase panel, not something that happens to
+            // you - and any manual move (arrow keys, right-drag) switches it back off.
             int active = activeSeat();
             if (followTurn && active >= 0 && active != lastActiveSeat) {
                 lastActiveSeat = active;
                 setViewSeat(active, n);
+            } else if (!followTurn) {
+                lastActiveSeat = active;     // so turning it on later does not jump a turn late
             }
         }
 
@@ -984,7 +1002,7 @@ public final class Table3D extends ApplicationAdapter {
         }
         String mode = (lift > 0.5f ? "OVERHEAD" : "SEATED")
             + (manualOverride ? " (TAB held - ESC to follow the game)" : "")
-            + (followTurn ? "   following the turn" : "   DOWN to follow again");
+            + "   DOWN for your seat";
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
@@ -996,6 +1014,7 @@ public final class Table3D extends ApplicationAdapter {
             String a = "art " + art.loaded() + " loaded / " + art.known() + " cached";
             font.draw(ui, a, w - 190, 18);
         }
+        drawPhasePanel(w, h);
         drawSeatInfo(w, h);
         drawPhaseOnTable();
         drawZoneLabels();
@@ -1137,6 +1156,56 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     /** Counts printed over each seat's library / graveyard / exile pads. */
+    /** Forge's phases, in order, with the short labels a phase strip wants. */
+    private static final String[][] PHASES = {
+        { "UNTAP", "UN" }, { "UPKEEP", "UP" }, { "DRAW", "DR" }, { "MAIN1", "M1" },
+        { "COMBAT_BEGIN", "BC" }, { "COMBAT_DECLARE_ATTACKERS", "DA" },
+        { "COMBAT_DECLARE_BLOCKERS", "DB" }, { "COMBAT_FIRST_STRIKE_DAMAGE", "FS" },
+        { "COMBAT_DAMAGE", "CD" }, { "COMBAT_END", "EC" }, { "MAIN2", "M2" },
+        { "END_OF_TURN", "ET" }, { "CLEANUP", "CL" },
+    };
+
+    /** Screen rect of the follow-turn tickbox, so the click test and the drawing cannot drift. */
+    private float[] followBox = { 0f, 0f, 0f, 0f };
+
+    /**
+     * The phase panel, top left: which step of the turn we are on, whose turn it is, and a
+     * tickbox for walking the camera round to each player as they become active.
+     *
+     * Matched on the raw phase name from Forge rather than the prettified text, so rewording the
+     * display cannot silently stop the strip tracking.
+     */
+    private void drawPhasePanel(int w, int h) {
+        float x = 14f, top = h - 58f, cell = 26f, cellH = 20f;
+        int current = -1;
+        for (int i = 0; i < PHASES.length; i++) {
+            if (PHASES[i][0].equals(snap.phaseKey)) { current = i; break; }
+        }
+
+        // Whose turn, above the strip.
+        font.setColor(0.60f, 0.76f, 0.88f, 1f);
+        font.draw(ui, snap.turnLabel, x, top + 34f);
+
+        for (int i = 0; i < PHASES.length; i++) {
+            float cx = x + i * cell;
+            boolean on = (i == current);
+            boolean past = current >= 0 && i < current;
+            if (on) font.setColor(1f, 0.85f, 0.35f, 1f);
+            else if (past) font.setColor(0.34f, 0.46f, 0.55f, 1f);
+            else font.setColor(0.52f, 0.64f, 0.74f, 1f);
+            font.draw(ui, PHASES[i][1], cx, top);
+        }
+        // The current phase spelled out, since two letters is not enough on its own.
+        font.setColor(1f, 0.85f, 0.35f, 1f);
+        font.draw(ui, snap.phase, x, top - 20f);
+
+        // Tickbox. Drawn as text so it needs no extra shape pass over the 3D scene.
+        float by = top - 44f;
+        followBox = new float[] { x, by - 12f, 150f, 18f };
+        font.setColor(followTurn ? new Color(0.65f, 0.95f, 1f, 1f) : new Color(0.45f, 0.58f, 0.68f, 1f));
+        font.draw(ui, (followTurn ? "[x]" : "[ ]") + " follow the turn", x, by);
+    }
+
     private void drawZoneLabels() {
         int n = snap.seats.size();
         for (int i = 0; i < n; i++) {

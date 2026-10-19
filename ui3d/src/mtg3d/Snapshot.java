@@ -130,6 +130,12 @@ public final class Snapshot {
 
     public final List<SeatV> seats = new ArrayList<>();
     public String phase = "";
+    /**
+     * The phase as Forge names it (UNTAP, UPKEEP, MAIN1, COMBAT_DECLARE_ATTACKERS...). The pretty
+     * string above is for reading; this is for matching, because a phase strip has to know which
+     * step it is on and comparing prettified text would break the moment the wording changed.
+     */
+    public String phaseKey = "";
     public String turnLabel = "";
     /** Drives the camera: combat or targeting lifts the view to look down on the whole table. */
     public boolean combat;

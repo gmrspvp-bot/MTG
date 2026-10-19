@@ -21,58 +21,74 @@ public final class Demo {
         final Snapshot s = build();
         final long start = System.currentTimeMillis();
 
+        // Forge's phases, so the demo drives the same keys the phase strip matches on.
+        final String[] phases = {
+            "UNTAP", "UPKEEP", "DRAW", "MAIN1", "COMBAT_BEGIN", "COMBAT_DECLARE_ATTACKERS",
+            "COMBAT_DECLARE_BLOCKERS", "COMBAT_FIRST_STRIKE_DAMAGE", "COMBAT_DAMAGE",
+            "COMBAT_END", "MAIN2", "END_OF_TURN", "CLEANUP",
+        };
+        final String[] pretty = {
+            "Untap", "Upkeep", "Draw", "Main phase, precombat", "Beginning of combat",
+            "Declare attackers", "Declare blockers", "First strike damage", "Combat damage",
+            "End of combat", "Main phase, postcombat", "End step", "Cleanup",
+        };
+        final int[] state = { 3, 0, 0 };    // phase index, turn number, active seat
+
         Table3D.Supplier source = () -> {
-            // Run a fake clock: a turn every twelve seconds, passing round the table, with combat
-            // in its second half. That exercises both the walk round to the active seat and the
-            // lift to the overhead pose, without having to play a real game to see them.
-            long sec = (System.currentTimeMillis() - start) / 1000L;
             int n = s.seats.size();
-            int turn = (int) (sec / 12);
-            int active = turn % n;
-            for (int i = 0; i < n; i++) s.seats.get(i).active = (i == active);
-            s.combat = (sec % 12) >= 7;
-            // Priority: the active player's, passing round the table once a second during combat,
-            // so the priority highlight can be seen moving.
-            int prio = (active + (s.combat ? (int) (sec % 12) - 7 : 0)) % n;
-            for (int i = 0; i < n; i++) s.seats.get(i).hasPriority = (i == prio);
-            s.phase = s.combat ? "Declare attackers" : "Main phase, precombat";
-            s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
-            // Build the stack up during combat so the bar can be seen filling left to right.
-            s.stack.clear();
-            int onStack = s.combat ? (int) ((sec % 12) - 6) : 0;
-            String[][] spells = {
-                { "Swords to Plowshares", "Xenil", "Exile Ancient Bronze Dragon" },
-                { "Arcane Denial", "Michael", "Counter Swords to Plowshares" },
-                { "Boros Charm", "Captain", "Deal 4 damage to Xenil" },
-            };
-            for (int i = 0; i < Math.min(onStack, spells.length); i++) {
-                Snapshot.CardV v = card(950 + i, spells[i][0], "Instant", false, false, "{W}", "");
-                v.controller = spells[i][1];
-                v.stackText = spells[i][2];
-                s.stack.add(v);
+            // Driven by keys, not by a clock. A demo that marches through turns on its own looks
+            // nothing like a game: you can never stop on the step you wanted to look at, and the
+            // board changes under you while you are reading it.
+            //   SPACE  next phase (wrapping into the next player's turn)
+            //   ENTER  skip straight to the next player's turn
+            //   BACKSPACE  previous phase
+            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.SPACE)) {
+                state[0]++;
+                if (state[0] >= phases.length) { state[0] = 0; state[1]++; state[2] = (state[2] + 1) % n; }
             }
-            // During combat, the active seat's creatures attack, so the markers show up.
+            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.ENTER)) {
+                state[0] = 3; state[1]++; state[2] = (state[2] + 1) % n;
+            }
+            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.BACKSPACE)) {
+                state[0] = Math.max(0, state[0] - 1);
+            }
+
+            int phase = state[0], turn = state[1], active = state[2];
+            String key = phases[phase];
+            s.phaseKey = key;
+            s.phase = pretty[phase];
+            s.combat = key.startsWith("COMBAT_") && !key.equals("COMBAT_END");
+            s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
+
+            for (int i = 0; i < n; i++) {
+                s.seats.get(i).active = (i == active);
+                s.seats.get(i).hasPriority = (i == active);
+            }
+
+            // Attackers from declare-attackers onwards, so stepping through combat shows them
+            // appear, tap, get blocked, and then clear at end of combat.
+            boolean attacking = s.combat && !key.equals("COMBAT_BEGIN");
             for (int i = 0; i < n; i++) {
                 for (Snapshot.CardV c : s.seats.get(i).creatures) {
-                    c.attacking = s.combat && i == active && c.creature;
-                    c.tapped = c.attacking;   // attackers tap, so the demo shows the tap/untap animation
+                    c.attacking = attacking && i == active && c.creature;
+                    c.tapped = c.attacking;
                     c.blocking = false;
                 }
             }
-            // Arcs: attackers spread over the other seats; from a couple of seconds into combat the
-            // first one is blocked by the defender's first creature, so both arc colours show.
+
             s.combatArcs.clear();
-            if (s.combat) {
+            if (attacking) {
+                boolean blocked = !key.equals("COMBAT_DECLARE_ATTACKERS");
                 int k = 0;
                 for (Snapshot.CardV c : s.seats.get(active).creatures) {
                     if (!c.attacking) continue;
                     Snapshot.CombatArc arc = new Snapshot.CombatArc();
                     arc.attackerId = c.id;
                     arc.attackerName = c.name;
-                    arc.defenderSeat = (active + 1 + k % (n - 1)) % n;
+                    arc.defenderSeat = (active + 1 + k % Math.max(1, n - 1)) % n;
                     arc.defenderName = s.seats.get(arc.defenderSeat).name;
                     List<Snapshot.CardV> theirs = s.seats.get(arc.defenderSeat).creatures;
-                    if (k == 0 && (sec % 12) >= 9 && !theirs.isEmpty()) {
+                    if (k == 0 && blocked && !theirs.isEmpty()) {
                         theirs.get(0).blocking = true;
                         arc.blockedBy.add(theirs.get(0).id);
                     }
@@ -80,9 +96,24 @@ public final class Demo {
                     k++;
                 }
             }
+
+            // The stack fills during declare blockers, so the bar can be watched growing.
+            s.stack.clear();
+            String[][] spells = {
+                { "Swords to Plowshares", "Xenil", "Exile Ancient Bronze Dragon" },
+                { "Arcane Denial", "Michael", "Counter Swords to Plowshares" },
+                { "Boros Charm", "Captain", "Deal 4 damage to Xenil" },
+            };
+            int onStack = key.equals("COMBAT_DECLARE_BLOCKERS") ? 3
+                : key.equals("COMBAT_DECLARE_ATTACKERS") ? 1 : 0;
+            for (int i = 0; i < Math.min(onStack, spells.length); i++) {
+                Snapshot.CardV v = card(950 + i, spells[i][0], "Instant", false, false, "{W}", "");
+                v.controller = spells[i][1];
+                v.stackText = spells[i][2];
+                s.stack.add(v);
+            }
             return s;
         };
-
         Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
         cfg.setTitle("MTG 3D table - demo data");
         WindowMemory.apply(cfg, 1600, 950);   // last size and position, if any

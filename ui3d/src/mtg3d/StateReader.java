@@ -40,6 +40,7 @@ public final class StateReader {
 
             PlayerView turn = gv.getPlayerTurn();
             s.phase = gv.getPhase() == null ? "" : pretty(gv.getPhase().toString());
+            s.phaseKey = gv.getPhase() == null ? "" : gv.getPhase().name();
             s.turnLabel = "Turn " + gv.getTurn() + (turn == null ? "" : " - " + turn.getName());
 
             List<PlayerView> order = new ArrayList<>();

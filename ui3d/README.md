@@ -24,9 +24,10 @@ powershell -ExecutionPolicy Bypass -File scripts\build-ui3d.ps1    # compile onl
 in about two seconds on invented data, so a rendering bug can never be confused with a bug in the
 bridge to Forge, and you never have to play to combat to see the combat camera.
 
-The demo runs a fake clock: a turn every twelve seconds passing round the table, combat in the
-second half of each turn, the active player's creatures attacking. That exercises the turn-follow
-camera, the overhead lift and the attack markers without a game.
+The demo is driven by keys, not a clock. A demo that marches through turns on its own looks
+nothing like a game: you can never stop on the step you wanted to look at, and the board changes
+under you while you are reading it. Attackers appear at declare-attackers, get blocked at
+declare-blockers, and the stack fills there too, so each part can be stopped on and studied.
 
 ### Controls
 
@@ -35,6 +36,9 @@ camera, the overhead lift and the attack markers without a game.
 | `LEFT` / `RIGHT` | Walk round the table to the next seat |
 | `DOWN` (or `HOME`) | Back to your own seat, and follow the turn again |
 | `S` | Open the search panel on demo data (temporary, until stage 3 drives it) |
+| `SPACE` | **Demo only** - step to the next phase |
+| `ENTER` | **Demo only** - skip to the next player's turn |
+| `BACKSPACE` | **Demo only** - step back a phase |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
 | right-drag | Orbit freely round the table (stops following the turn) |
@@ -236,6 +240,19 @@ before you start, and push the claim before writing code.
 - [x] Face-down and morphed cards render as backs, and carry no identifying data at all
 - [ ] A hanging "stadium" scoreboard, as an addition to the four centre monitors rather than a
       replacement.
+
+- [ ] **Phase panel, next steps.** It lists the steps and carries the follow-turn tickbox; it does
+      not show priority, stack depth, or who has passed - the things you actually wait on in a
+      four-player game.
+- [ ] **A key to pass priority / advance**, so the 3D view can drive the game's pace rather than
+      only watching it.
+- [ ] **Mulligan and the opening hand** are not drawn at all; the game starts mid-stride.
+- [ ] **Game over.** Nothing marks a player as having lost or the game as finished - dead players
+      keep their seat and their life total.
+- [ ] **Spell targets.** `Snapshot` carries combat arcs but nothing about what a spell on the
+      stack is aimed at, so a removal spell gives no hint who it is pointed at.
+- [ ] **Emblems, day/night, monarch, the ring, the initiative** - none are shown.
+- [ ] **Sound.** Nothing at all, not even a cue when priority reaches you.
 
 ### Stage 3 — taking over interaction
 
