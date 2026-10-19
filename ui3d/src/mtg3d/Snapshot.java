@@ -120,6 +120,12 @@ public final class Snapshot {
         public boolean isYou;
         /** Out of the game. The seat stays where it was, so nobody else's board moves. */
         public boolean lost;
+        /**
+         * Public designations and player counters, as short labels ready to print: "MONARCH",
+         * "INITIATIVE", "CITY'S BLESSING", "RING-BEARER: Frodo", "SPEED 3", "POISON 4",
+         * "ENERGY 2". Empty for most players most of the time.
+         */
+        public final List<String> marks = new ArrayList<>();
         public boolean active;          // whose turn it is
         public boolean hasPriority;
         /**
@@ -141,6 +147,8 @@ public final class Snapshot {
     /** The game has ended; `winner` is the winning player's name, or blank for a draw. */
     public boolean gameOver;
     public String winner = "";
+    /** "DAY", "NIGHT", or blank before anything has made it day or night. */
+    public String dayNight = "";
     public String phase = "";
     /**
      * The phase as Forge names it (UNTAP, UPKEEP, MAIN1, COMBAT_DECLARE_ATTACKERS...). The pretty

@@ -961,7 +961,7 @@ public final class Table3D extends ApplicationAdapter {
 
     /** Redraws the scoreboard texture, but only when what it shows has changed. */
     private void refreshScoreboard() {
-        StringBuilder k = new StringBuilder(snap.turnLabel);
+        StringBuilder k = new StringBuilder(snap.turnLabel).append(snap.dayNight);
         for (Snapshot.SeatV s : snap.seats) {
             k.append('|').append(s.name).append(':').append(s.life)
              .append(s.active ? 'A' : '-').append(s.isYou ? 'Y' : '-').append(s.hasPriority ? 'P' : '-')
@@ -999,6 +999,7 @@ public final class Table3D extends ApplicationAdapter {
         String turn = snap.turnLabel;
         int dash = turn.indexOf(" - ");
         if (dash > 0) turn = turn.substring(0, dash);
+        if (!snap.dayNight.isEmpty()) turn = turn + "  -  " + snap.dayNight;
         sbFont.getData().setScale(2.8f);
         sbFont.setColor(0.98f, 0.82f, 0.45f, 1f);
         gl.setText(sbFont, turn.toUpperCase());
@@ -1354,6 +1355,12 @@ public final class Table3D extends ApplicationAdapter {
             String line2 = "hand " + s.handSize + "   lib " + s.librarySize + "   gy " + s.graveyardSize;
             font.draw(ui, line, p.x - 60, p.y + 16);
             font.draw(ui, line2, p.x - 60, p.y);
+            if (!s.marks.isEmpty() && !s.lost) {
+                // Designations and player counters, one line under the totals: rare, but when the
+                // monarch or a poison count is in play it decides who gets attacked.
+                font.setColor(1f, 0.70f, 0.40f, 1f);
+                font.draw(ui, String.join("   ", s.marks), p.x - 60, p.y - 16);
+            }
             if (s.hasPriority) {
                 // Matches the lit pad under the same seat.
                 font.setColor(0.45f, 0.92f, 1f, 1f);
@@ -1373,7 +1380,10 @@ public final class Table3D extends ApplicationAdapter {
         Vector3 p = cam.project(new Vector3(w.x, 0.05f, w.z));
         if (p.z > 1f) return;
         fontBig.setColor(1f, 0.82f, 0.32f, 0.92f);
-        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(fontBig, snap.phase);
+        // Day or night rides along with the phase: both are "what time is it" at the table.
+        String text = snap.dayNight.isEmpty() ? snap.phase
+            : snap.phase + "   " + (snap.dayNight.equals("DAY") ? "- day -" : "- night -");
+        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(fontBig, text);
         fontBig.draw(ui, gl, p.x - gl.width / 2f, p.y + gl.height / 2f);
     }
 

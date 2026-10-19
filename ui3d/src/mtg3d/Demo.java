@@ -179,6 +179,12 @@ public final class Demo {
         aura.attachedToId = dragon.id;
         s.seats.get(0).others.add(aura);
 
+        // Designations and night, so the seat marks and the day/night label show.
+        s.seats.get(2).marks.add("MONARCH");
+        s.seats.get(1).marks.add("INITIATIVE");
+        s.seats.get(1).marks.add("ENERGY 3");
+        s.dayNight = "NIGHT";
+
         // Command zones: Michael's commander is at home after two casts (tax +4), Zerma's after
         // none. Captain's and Xenil's are on the battlefield, so theirs show the empty pad.
         Snapshot.CardV kaalia = card(980, "Kaalia of the Vast", "Legendary Creature - Human Cleric", true, false,

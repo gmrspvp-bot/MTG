@@ -50,6 +50,11 @@ public final class StateReader {
             List<PlayerView> order = new ArrayList<>();
             for (forge.game.player.Player p : game.getRegisteredPlayers()) order.add(p.getView());
             if (order.isEmpty()) for (PlayerView pv : gv.getPlayers()) order.add(pv);
+            try {
+                s.dayNight = game.isDay() ? "DAY" : game.isNight() ? "NIGHT" : "";
+            } catch (Throwable t) {
+                // neither
+            }
             s.gameOver = gv.isGameOver();
             if (s.gameOver) {
                 String w = gv.getWinningPlayerName();
@@ -72,6 +77,7 @@ public final class StateReader {
                 seat.exileSize = zone(pv, ZoneType.Exile);
                 seat.poison = counter(pv, "POISON");
                 readCommanderDamage(pv, order, seat);
+                readMarks(game, pv, seat);
 
                 for (CardView cv : cards(pv, ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(cv, viewer);
@@ -135,6 +141,38 @@ public final class StateReader {
             return it == null ? new ArrayList<CardView>() : it;
         } catch (Throwable t) {
             return new ArrayList<>();
+        }
+    }
+
+    /**
+     * Designations and player counters for one seat. Monarch, initiative, city's blessing, the
+     * ring-bearer and speed are not in the view layer at all, so they come from Game/Player -
+     * which is safe for the hidden-information rule only because every one of them is public:
+     * the whole table knows who the monarch is. Nothing private may be added here this way.
+     */
+    private static void readMarks(Game game, PlayerView pv, Snapshot.SeatV seat) {
+        try {
+            forge.game.player.Player p = null;
+            for (forge.game.player.Player q : game.getRegisteredPlayers()) if (q.getView() == pv) { p = q; break; }
+            if (p != null) {
+                if (p.isMonarch()) seat.marks.add("MONARCH");
+                if (p.hasInitiative()) seat.marks.add("INITIATIVE");
+                if (p.hasBlessing()) seat.marks.add("CITY'S BLESSING");
+                forge.game.card.Card bearer = p.getRingBearer();
+                // A face-down ring-bearer is still the ring-bearer, but its name is not public.
+                if (bearer != null) seat.marks.add(bearer.isFaceDown() ? "RING-BEARER" : "RING-BEARER: " + bearer.getName());
+                if (!p.noSpeed()) seat.marks.add("SPEED " + p.getSpeed());
+            }
+        } catch (Throwable t) {
+            // designations just do not show
+        }
+        try {
+            for (com.google.common.collect.Multiset.Entry<forge.game.card.CounterType> c
+                    : pv.getCounters().entrySet()) {
+                if (c.getCount() > 0) seat.marks.add(c.getElement().getName().toUpperCase() + " " + c.getCount());
+            }
+        } catch (Throwable t) {
+            // no counters shown
         }
     }
 
