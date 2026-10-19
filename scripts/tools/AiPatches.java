@@ -676,7 +676,38 @@ public final class AiPatches {
 
         @Override
         protected forge.ai.AiAbilityDecision doTriggerNoCost(Player ai, SpellAbility sa, boolean mandatory) {
+            forge.ai.AiAbilityDecision thor = thorFlicker(ai, sa);
+            if (thor != null) return thor;
             return ThreatRetarget.apply(ai, sa, super.doTriggerNoCost(ai, sa, mandatory), true);
+        }
+
+        /**
+         * The Mighty Thor, Jane Foster: "whenever Thor attacks, exile up to one target nontoken
+         * artifact or creature, then return it tapped". Forge's AI flickered its own permanents
+         * (Kaldra Compleat twice - it comes back unattached on a fresh Germ, so Captain America
+         * loses it - Mithril Coat, Leonin Abunas). Instead: the best untapped creature an
+         * opponent could block with (it returns tapped); else our own Stoneforge Mystic (its
+         * search triggers again); else nothing. Never our own Equipment.
+         */
+        static forge.ai.AiAbilityDecision thorFlicker(Player ai, SpellAbility sa) {
+            Card host = sa.getHostCard();
+            if (host == null || !"The Mighty Thor, Jane Foster".equals(host.getName()) || !"Exile".equals(sa.getParam("Destination"))) return null;
+            Card best = null;
+            for (Player opp : ai.getOpponents()) {
+                for (Card c : opp.getCreaturesInPlay()) {
+                    if (c.isTapped() || c.isToken() || !sa.canTarget(c)) continue;
+                    if (best == null || forge.ai.ComputerUtilCard.evaluateCreature(c) > forge.ai.ComputerUtilCard.evaluateCreature(best)) best = c;
+                }
+            }
+            if (best == null) {
+                for (Card c : ai.getCreaturesInPlay()) {
+                    if ("Stoneforge Mystic".equals(c.getName()) && sa.canTarget(c)) { best = c; break; }
+                }
+            }
+            sa.resetTargets();
+            if (best != null) sa.getTargets().add(best);
+            System.out.println("THORAI flicker " + (best == null ? "nothing" : best.getName() + " (" + best.getController().getName() + ")"));
+            return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
         }
     }
 
@@ -903,6 +934,9 @@ public final class AiPatches {
             String why = retargetLethal(ai, sa);
             if (why != null) return why;
             if (!throwTimingOk(ai)) return null;
+            // Sword of Kaldra is the exile engine for split throws: a non-lethal throw doesn't
+            // unattach it (with Puresteel + Zirda the AI kept re-equipping it and throwing it for 4).
+            if (throwsSwordOfKaldra(sa)) return null;
             why = decideNonLethal(ai, sa, forgeWilling);
             if (why != null && !protectionOk(ai, sa)) return null;
             return why;
@@ -1111,6 +1145,13 @@ public final class AiPatches {
          */
         static boolean keepsSwordOfKaldra(SpellAbility sa) {
             if (totalDamage(sa) == 4) return false;
+            for (Card e : sa.getHostCard().getEquippedBy()) { if ("Sword of Kaldra".equals(e.getName())) return true; }
+            return false;
+        }
+
+        /** This throw's cost could unattach Sword of Kaldra (the throw is 4 damage and he wears it). */
+        static boolean throwsSwordOfKaldra(SpellAbility sa) {
+            if (totalDamage(sa) != 4) return false;
             for (Card e : sa.getHostCard().getEquippedBy()) { if ("Sword of Kaldra".equals(e.getName())) return true; }
             return false;
         }
