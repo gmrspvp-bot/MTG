@@ -63,7 +63,7 @@ public final class Table3D extends ApplicationAdapter {
     private ShapeRenderer shapes;
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
-    private Model faceModel, attackModel, backModel, zoneModel;
+    private Model faceModel, attackModel, backModel, zoneModel, commandPadModel;
     private Model bandCreature, bandOther, bandLand, monitorModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
@@ -215,6 +215,10 @@ public final class Table3D extends ApplicationAdapter {
             new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.13f, 0.20f, 1f))), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
+        // The command zone's pad: a card's size plus a rim, in a dark bronze so it reads as
+        // a different kind of zone from the blue library/graveyard/exile pads.
+        commandPadModel = builder.createBox(CARD_W + 0.24f, 0.02f, CARD_H + 0.24f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.21f, 0.10f, 1f))), attrs);
 
         // A flat quad for the card picture. Corner order sets the UVs: libGDX puts the top of the
         // image along the corner11/corner01 edge, so that edge goes at -Z, which is "away from the
@@ -517,6 +521,7 @@ public final class Table3D extends ApplicationAdapter {
             placeRow(seat, seat.lands, angle, ROW_LANDS);
         }
         placeAttachments();
+        placeCommandZone();
         placeHand();
         placeOpponentHands();
         placeZones();
@@ -726,6 +731,45 @@ public final class Table3D extends ApplicationAdapter {
             .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
             .scale(width / BAND_UNIT, 1f, 1f);
         props.add(inst);
+    }
+
+    /** Where a seat's command zone sits, in its own frame: the other side from library/gy/exile. */
+    private static final float COMMAND_X = -5.3f, COMMAND_Z = SEAT_DIST + 0.3f;
+
+    /** True when anyone has a commander, i.e. the command zone means something this game. */
+    private boolean commanderGame() {
+        for (Snapshot.SeatV s : snap.seats) {
+            if (!s.command.isEmpty()) return true;
+            for (Snapshot.CardV c : s.creatures) if (c.commander) return true;
+            for (Snapshot.CardV c : s.others) if (c.commander) return true;
+        }
+        return false;
+    }
+
+    /**
+     * The command zone: a pad beside each seat, mirrored from the library/graveyard/exile pads,
+     * holding whatever is in that player's command zone - the commander between casts, emblems,
+     * a companion. A partner pair sits side by side, running outwards. Laid with add(), so a
+     * commander slides from here to the stack and onto the battlefield (it keeps its id), and
+     * back again when it dies or is exiled and goes home. The pad is only drawn in a commander
+     * game, so other formats are not left with an empty tray that means nothing.
+     */
+    private void placeCommandZone() {
+        if (!commanderGame()) return;
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV seat = snap.seats.get(i);
+            float angle = seatAngle(i, n);
+            float yaw = (float) Math.toDegrees(-angle);
+            Vector3 w = rotateY(COMMAND_X, COMMAND_Z, angle);
+            ModelInstance pad = new ModelInstance(commandPadModel);
+            pad.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
+            props.add(pad);
+            for (int k = 0; k < seat.command.size(); k++) {
+                Vector3 cw = rotateY(COMMAND_X - k * (CARD_W + GAP), COMMAND_Z, angle);
+                add(seat.command.get(k), seat, cw.x, cw.z, yaw);
+            }
+        }
     }
 
     /** Library, graveyard and exile, as pads beside each seat's rows. Counts are drawn over them. */
@@ -1107,6 +1151,18 @@ public final class Table3D extends ApplicationAdapter {
                 font.draw(ui, names[k], p.x - 20, p.y + 6);
             }
         }
+        // The command zone: named just below its pad, with the tax the next cast will cost.
+        if (!commanderGame()) return;
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            Vector3 world = rotateY(COMMAND_X, COMMAND_Z + CARD_H / 2f + 0.35f, seatAngle(i, n));
+            Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
+            if (p.z > 1f) continue;
+            int casts = 0;
+            for (Snapshot.CardV c : s.command) casts = Math.max(casts, c.commanderCasts);
+            font.setColor(0.92f, 0.74f, 0.42f, 1f);
+            font.draw(ui, casts > 0 ? "COMMAND  tax +" + (2 * casts) : "COMMAND", p.x - 30, p.y + 6);
+        }
     }
 
     /**
@@ -1308,6 +1364,7 @@ public final class Table3D extends ApplicationAdapter {
         attackModel.dispose();
         backModel.dispose();
         zoneModel.dispose();
+        commandPadModel.dispose();
         bandCreature.dispose();
         bandOther.dispose();
         bandLand.dispose();

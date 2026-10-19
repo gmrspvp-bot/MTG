@@ -48,6 +48,8 @@ public final class Snapshot {
         public boolean faceDown;
         /** What this is attached to, if anything: equipment, auras, fortifications. */
         public String attachedTo = "";
+        /** For a commander: times cast from the command zone so far, so its tax is 2 x this. */
+        public int commanderCasts;
         /** The host's card id, or -1: lets the table lay an attachment against the right copy. */
         public int attachedToId = -1;
         /**
@@ -119,6 +121,11 @@ public final class Snapshot {
         public final List<CardV> creatures = new ArrayList<>();
         public final List<CardV> others = new ArrayList<>();
         public final List<CardV> lands = new ArrayList<>();
+        /**
+         * The command zone: a commander between casts, plus anything else that lives there
+         * (emblems, a companion). Public knowledge, so every seat's is read.
+         */
+        public final List<CardV> command = new ArrayList<>();
     }
 
     public final List<SeatV> seats = new ArrayList<>();

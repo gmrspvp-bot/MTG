@@ -68,6 +68,16 @@ public final class StateReader {
                     else if (v.land) seat.lands.add(v);
                     else seat.others.add(v);
                 }
+                // The command zone is public, so it is read for every seat, not just the viewer's.
+                for (CardView cv : cards(pv, ZoneType.Command)) {
+                    Snapshot.CardV v = card(cv, viewer);
+                    try {
+                        if (cv.isCommander()) v.commanderCasts = pv.getCommanderCast(cv);
+                    } catch (Throwable t) {
+                        // no tax shown
+                    }
+                    seat.command.add(v);
+                }
                 s.seats.add(seat);
             }
 

@@ -130,6 +130,21 @@ public final class Demo {
         aura.attachedToId = dragon.id;
         s.seats.get(0).others.add(aura);
 
+        // Command zones: Michael's commander is at home after two casts (tax +4), Zerma's after
+        // none. Captain's and Xenil's are on the battlefield, so theirs show the empty pad.
+        Snapshot.CardV kaalia = card(980, "Kaalia of the Vast", "Legendary Creature - Human Cleric", true, false,
+            "{1}{R}{W}{B}", "Flying\nWhenever Kaalia attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.");
+        kaalia.commander = true;
+        kaalia.power = "2";
+        kaalia.toughness = "2";
+        kaalia.commanderCasts = 2;
+        s.seats.get(2).command.add(kaalia);
+        Snapshot.CardV ghost = card(981, "Sol Ring", "Artifact", false, false, "{1}", "");
+        ghost.name = "Emblem";
+        ghost.typeLine = "Emblem";
+        ghost.text = "Creatures you control get +1/+1.";
+        s.seats.get(3).command.add(ghost);
+
         s.hand.add(card(900, "Wrath of the Skies", "Sorcery", false, false,
             "{X}{W}{W}", "You get X energy, then you may pay any amount of energy. Destroy each artifact, creature, and enchantment with mana value less than or equal to the amount of energy paid this way."));
         s.hand.add(card(901, "Swords to Plowshares", "Instant", false, false,
