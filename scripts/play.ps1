@@ -92,6 +92,17 @@ if (-not (Test-Path $marker2)) {
     $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
     Set-Content -Path $marker2 -Value (Get-Date -Format s) -Encoding UTF8
 }
+# One-time "feel more like Hearthstone" settings (2026-10-20): Forge's own options, off by
+# default. Playable cards are highlighted; priority is passed automatically when there's
+# nothing you could do, but still stops for attackers, opponents' spells, targeting and board
+# wipes (when you could respond). Ctrl+E (SHORTCUT_ENDTURN) is "end turn".
+$marker3 = Join-Path $root 'scratch\play-prefs-hearthstone.done'
+if (-not (Test-Path $marker3)) {
+    $set = [ordered]@{ UI_SHOW_ACTIONABLE_HIGHLIGHTS = 'true'; YIELD_AUTO_PASS_NO_ACTIONS = 'true'; YIELD_AUTO_PASS_RESPECTS_INTERRUPTS = 'true';
+                       YIELD_INTERRUPT_ON_ATTACKERS = 'true'; YIELD_INTERRUPT_ON_OPPONENT_SPELL = 'true'; YIELD_INTERRUPT_ON_TARGETING = 'true'; YIELD_INTERRUPT_ON_MASS_REMOVAL = 'true' }
+    $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
+    Set-Content -Path $marker3 -Value (Get-Date -Format s) -Encoding UTF8
+}
 [IO.File]::WriteAllLines($prefFile, [string[]]$prefs)
 
 # Same launch as run-sims.ps1, minus the "sim" arguments: SimLauncher applies the AI
