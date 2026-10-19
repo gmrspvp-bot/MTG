@@ -214,7 +214,7 @@ before you start, and push the claim before writing code.
 - [x] Generated faces for any card with no cached picture (covers basic lands, which are never
       cached and are most of the table) — name, type line, mana cost, P/T, tinted by kind
 - [x] **Tap/untap animation** (2026-10-20). `Table3D` keeps a `Pose` per card id (where it was last drawn) and eases it towards the pose `layout()` computes from the snapshot each frame, so a tap is a quarter-turn over about 0.25 s. `layout()` is still rebuilt every frame, so the view still always converges on the true state. Rates: `TURN_RATE`, `MOVE_RATE`.
-- [ ] **Tapped cards overlap their neighbours.** Row spacing (`CARD_W + GAP`) assumes upright cards; a tapped card is `CARD_H` wide. Was true before animation too (it just snapped). Widen the slot of a tapped card in `placeRow`.
+- [x] **Tapped cards no longer overlap** (2026-10-20). `placeRow`/`placeBand` give a tapped card a `CARD_H`-wide slot.
 - [x] **Card movement** (2026-10-20). Same mechanism: a card keeps its id from hand to stack to battlefield, so it slides between them instead of teleporting. A card that leaves the view is forgotten, so one coming back appears where it is. A second copy of an id in one frame (an ability on the stack shares its source's id) is drawn at its target without disturbing the first.
 - [ ] Attachments: equipment and auras should sit visibly against what they are attached to.
       `Card.getAttachedCards()` / `getAttachedTo()`.

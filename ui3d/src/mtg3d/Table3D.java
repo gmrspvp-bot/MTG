@@ -534,11 +534,16 @@ public final class Table3D extends ApplicationAdapter {
 
     private void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
         if (cards.isEmpty()) return;
-        float step = CARD_W + GAP;
-        float width = cards.size() * step - GAP;
+        // A tapped card lies sideways, so it needs a CARD_H-wide slot, not CARD_W: with equal
+        // slots, tapped neighbours overlapped (more visibly once tapping animated).
+        float width = -GAP;
+        for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
+        float cursor = -width / 2f;
         for (int j = 0; j < cards.size(); j++) {
             Snapshot.CardV c = cards.get(j);
-            float along = -width / 2f + j * step + CARD_W / 2f;
+            float slot = c.tapped ? CARD_H : CARD_W;
+            float along = cursor + slot / 2f;
+            cursor += slot + GAP;
             Vector3 w = rotateY(along, dist, angle);
             // LibGDX's rotate(Y, deg) is the inverse of the rotation above, hence the minus.
             add(c, seat, w.x, w.z, (float) Math.toDegrees(-angle) + (c.tapped ? 90f : 0f));
@@ -610,7 +615,8 @@ public final class Table3D extends ApplicationAdapter {
      */
     private void placeBand(List<Snapshot.CardV> cards, float angle, float dist, Model band) {
         if (cards.isEmpty()) return;
-        float width = cards.size() * (CARD_W + GAP) - GAP + 0.5f;
+        float width = 0.5f - GAP;   // same slot widths as placeRow: tapped cards are CARD_H wide
+        for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
         Vector3 w = rotateY(0f, dist, angle);
         ModelInstance inst = new ModelInstance(band);
         inst.transform.setToTranslation(w.x, -0.005f, w.z)
