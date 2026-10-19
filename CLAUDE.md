@@ -173,3 +173,6 @@ Don't use the GRID multiplayer layout: it crashes Forge with "Gap was not filled
   `git update-index --skip-worktree forge-data/preferences/forge.preferences forge-data/preferences/match.xml`
   (undo with `--no-skip-worktree`).
 - New recorded games (`scratch\play-logs\game_*.log`) are committed so both Claudes can analyse them.
+- **Claim anything bigger than a quick fix in `CLAIMS.md` before writing code**, in its own
+  `claim:` commit, pushed straight away — a claim that has not reached the remote cannot be seen by
+  the other agent. Release it by deleting the row when the work lands. Full rules in that file.
