@@ -60,6 +60,7 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 | `CardArt.java` | Finds and loads card pictures from Forge's cache. |
 | `Table3D.java` | The view: table, seats, cards, camera, picking, hover panel, overlays. |
 | `SearchPanel.java` | The animated panel every search opens into. Presentation done; not yet wired to the game. |
+| `DeckLibrary.java` | Reads `decks\*.dck` for the lobby. Text parse, no card database. |
 | `FaceMaker.java` | Draws a card face for anything with no cached picture. Pure AWT. |
 | `FacePreview.java` | `main` that renders a sheet of generated faces to a PNG, no GL context needed. |
 | `Demo.java` | Fake data + a `main`, so the view runs without Forge. |
@@ -257,7 +258,9 @@ anything not yet built, so the game is always playable mid-way through the work.
 ### Stage 4 — lobby and deck selection
 
 - [ ] `IGuiBase`, enough to start a game without Forge's screens.
-- [ ] Read the existing `decks\*.dck`; Commander only, as that is all we play.
+- [x] Read the existing `decks\*.dck` — `DeckLibrary` lists name, commanders and counts
+      with no card database needed; `DeckLibrary.load()` hands a file to Forge's own
+      reader once a game is actually being started
 - [ ] Four-player pod setup with AI opponents and the `Realistic` profile.
 - [ ] Network lobby — the owners play over Radmin LAN, so a joining player needs an **OPEN** slot
       (see the root `CLAUDE.md` on multiplayer).

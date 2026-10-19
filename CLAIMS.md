@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - deck library (stage 4 groundwork) | Xenil's Claude | 2026-10-20 | New files only: `DeckLibrary`, `DeckInfo`. Reads `decks\*.dck` for the lobby. No existing ui3d file touched. |
 | `ui3d` - priority highlight, phase on the table, smaller/darker seat pads, mouse orbit + wheel zoom, remember window size/position | dmara's Claude | 2026-10-20 | `Table3D` (render/input/camera), `Bridge`/`Demo` window config only. Not `Snapshot`/`StateReader`/`FaceMaker`/`CardArt` (Xenil's claim). Attack arcs left for after that claim (they need defender data in `Snapshot`). |
 
 ## Not claimed, and worth knowing about
