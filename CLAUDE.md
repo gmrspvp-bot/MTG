@@ -105,6 +105,10 @@ Test results behind these defaults (Cap v6 vs Doom v3 / House v4 / Tidus v3):
 - **Overnight 2026-10-16/17** (760 games each): A = split 20.3%, B = + protthrow 21.7%,
   C = + main timing 22.2% (±3). C was closest to the owner, so it became the default.
 - **All Cap versions, original to v6** (160 games each, 2026-10-14): 16-20%, no clear difference.
+- **All-deck league, current Captain America v7 + the 2026-10-19 AI fixes** (24 of 36 balanced
+  pods, ~920 games): Angels 48.4%, Cap v7 35.8% (±4.7), Scion 27.5, Doom 22.3, Mr House 20.8,
+  Deadpool 20.5, Olivia 19.8, Tidus 14.3, Tinybones 14.2. On the same pods that morning the first
+  v7 had 22.5% and Angels 53.2%. Runs: `scratch\league-v7e-runs.txt`.
 
 **The owner's throw style** (16 recorded games, `scratch\throw-style.ps1`): 3.0 throws/game,
 54% multi-target, 48% face-only, 31% at commanders, 42% deathtouch splits, main 1 44% / main 2 35%,
