@@ -1,6 +1,6 @@
 [metadata]
 Name=Captain America v7
-Description=Captain America v7 (2026-10-19; was v8, renamed at the owner's request, replacing the first v7). = first v7 + Enthusiastic Mechanaut, Leonin Shikari, Shuri Wakandan Inventor, Captain America's Shield, Genji Glove, Leyline Axe, Blasphemous Act, Winds of Abandon; out Desynchronization, Spell Pierce, Auxiliary Boosters, Loran of the Third Path, Sculpting Steel, Bureau Headmaster, Audacious Reshapers, Weapons Vendor. First v7 = v6 + Sram, Geist of Saint Thalia, Kediss, Cloudsteel Kirin, Stoneforge Mystic, Kaldra Compleat, Dalakos, Akiri, The Reaver Cleaver, Swiftfoot Boots, Akroma's Will, Boros Charm, Counterspell, Fighter Class, Generous Gift, Rogue's Passage (out: Danitha Sword of Hope, Old Thrush, Madame Web, Propaganda, Loyal Inventor, Monk's Fist, Iroas, Curiosity, Web-Shooters, Deathrender, Spider-Bot, In the Trenches, Lightning Bolt, Syncopate, Thought Vessel, Thror's Map, 1 Plains). 2026-10-19 13:00: Embercleave -> Sword of Kaldra (owner). Sokka and Suki -> The Mighty Thor, Jane Foster (owner). Skullclamp -> Soul-Guide Lantern (owner, graveyard hate vs Angels).
+Description=Captain America v7 (2026-10-19; was v8, renamed at the owner's request, replacing the first v7). = first v7 + Enthusiastic Mechanaut, Leonin Shikari, Shuri Wakandan Inventor, Captain America's Shield, Genji Glove, Leyline Axe, Blasphemous Act, Winds of Abandon; out Desynchronization, Spell Pierce, Auxiliary Boosters, Loran of the Third Path, Sculpting Steel, Bureau Headmaster, Audacious Reshapers, Weapons Vendor. First v7 = v6 + Sram, Geist of Saint Thalia, Kediss, Cloudsteel Kirin, Stoneforge Mystic, Kaldra Compleat, Dalakos, Akiri, The Reaver Cleaver, Swiftfoot Boots, Akroma's Will, Boros Charm, Counterspell, Fighter Class, Generous Gift, Rogue's Passage (out: Danitha Sword of Hope, Old Thrush, Madame Web, Propaganda, Loyal Inventor, Monk's Fist, Iroas, Curiosity, Web-Shooters, Deathrender, Spider-Bot, In the Trenches, Lightning Bolt, Syncopate, Thought Vessel, Thror's Map, 1 Plains). 2026-10-19 13:00: Embercleave -> Sword of Kaldra (owner). Sokka and Suki -> The Mighty Thor, Jane Foster (owner). Skullclamp -> Soul-Guide Lantern (owner, graveyard hate vs Angels). Mjolnir -> Esper Sentinel (owner).
 [commander]
 1 Captain America, First Avenger
 [main]
@@ -36,7 +36,7 @@ Description=Captain America v7 (2026-10-19; was v8, renamed at the owner's reque
 1 Mana Drain
 1 Masterwork of Ingenuity
 1 Mithril Coat
-1 Mjölnir, Storm Hammer
+1 Esper Sentinel
 1 Kaldra Compleat
 1 Nazgûl Battle-Mace
 1 Path to Exile
