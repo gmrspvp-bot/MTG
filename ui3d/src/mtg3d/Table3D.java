@@ -144,6 +144,10 @@ public final class Table3D extends ApplicationAdapter {
     private float orbitTarget = 0f;
     /** Mouse wheel: 1 = the designed distance, smaller is closer. Reset with DOWN / HOME. */
     private float zoom = 1f;
+    /** Where the view has been dragged to, in world units on the table plane. */
+    private float panX, panZ;
+    /** How far the table can be dragged before it would leave the view entirely. */
+    private static final float PAN_LIMIT = TABLE_HALF * 1.4f;
     private static final float ZOOM_MIN = 0.55f, ZOOM_MAX = 1.7f;
     /** Right-drag: radians of orbit per pixel of horizontal mouse movement. */
     private static final float ORBIT_PER_PIXEL = 0.006f;
@@ -380,6 +384,24 @@ public final class Table3D extends ApplicationAdapter {
         if (n == 0) return;
         // Right-drag orbits freely round the table (left button is kept for clicking cards in
         // stage 3). It takes over from following the turn, like the arrow keys do.
+        // Middle button: grab the table and move it. The drag is converted into the camera's own
+        // left/right and forward directions, so it always follows the mouse whichever way round
+        // the table you are sitting, and it scales with eye height - at the overhead pose a pixel
+        // covers far more table than it does seated, and a fixed rate feels wrong at both.
+        if (Gdx.input.isButtonPressed(Input.Buttons.MIDDLE)) {
+            int dx = Gdx.input.getDeltaX(), dy = Gdx.input.getDeltaY();
+            if (dx != 0 || dy != 0) {
+                float rate = 0.004f * Math.max(1f, cam.position.y);
+                Vector3 right = rotateY(1f, 0f, orbit);
+                Vector3 fwd = rotateY(0f, -1f, orbit);
+                panX -= right.x * dx * rate;
+                panZ -= right.z * dx * rate;
+                panX += fwd.x * dy * rate;
+                panZ += fwd.z * dy * rate;
+                float d = (float) Math.sqrt(panX * panX + panZ * panZ);
+                if (d > PAN_LIMIT) { panX *= PAN_LIMIT / d; panZ *= PAN_LIMIT / d; }
+            }
+        }
         if (Gdx.input.isButtonPressed(Input.Buttons.RIGHT)) {
             int dx = Gdx.input.getDeltaX();
             if (dx != 0) {
@@ -395,6 +417,7 @@ public final class Table3D extends ApplicationAdapter {
         // DOWN (or HOME) is the way back to your own seat, at the default zoom.
         if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
             zoom = 1f;
+            panX = panZ = 0f;
             setViewSeat(snap.youIndex(), n);
         }
     }
@@ -476,9 +499,11 @@ public final class Table3D extends ApplicationAdapter {
         Vector3 eye = rotateY(0f, eyeZ, orbit);
         Vector3 at  = rotateY(0f, atZ, orbit);
 
-        cam.position.set(eye.x, eyeY, eye.z);
+        // The pan slides eye and look-at together by the same amount, so the camera moves without
+        // turning. Shifting only one of them would swing the view round instead.
+        cam.position.set(eye.x + panX, eyeY, eye.z + panZ);
         cam.up.set(0, 1, 0);
-        cam.lookAt(at.x, 0f, at.z);
+        cam.lookAt(at.x + panX, 0f, at.z + panZ);
         cam.update();
     }
 
@@ -1223,7 +1248,7 @@ public final class Table3D extends ApplicationAdapter {
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
         font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
-            + "      right-drag  orbit      wheel  zoom      M  sound "
+            + "      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound "
             + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.

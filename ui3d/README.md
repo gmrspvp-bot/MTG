@@ -39,6 +39,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `SPACE` | **Demo only** - step to the next phase |
 | `ENTER` | **Demo only** - skip to the next player's turn |
 | `BACKSPACE` | **Demo only** - step back a phase |
+| middle-drag | Grab the table and move it; `DOWN` recentres |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
 | right-drag | Orbit freely round the table (stops following the turn) |
