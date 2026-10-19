@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - stage 3 prerequisite: read through Forge's view layer | Xenil's Claude | 2026-10-20 | `StateReader` (+ `Snapshot` if needed) only. Swapping `Game`/`Player`/`Card` for `GameView`/`PlayerView`/`CardView` + `canBeShownTo`. Snapshot shape unchanged, so `Table3D` is untouched. |
 
 ## Not claimed, and worth knowing about
 
