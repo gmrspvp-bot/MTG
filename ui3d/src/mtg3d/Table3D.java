@@ -124,8 +124,12 @@ public final class Table3D extends ApplicationAdapter {
     @Override
     public void create() {
         cam = new PerspectiveCamera(60f, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-        cam.near = 0.1f;
-        cam.far = 300f;
+        // Depth precision is governed by the near/far RATIO, not the range. 0.1 to 300 is 3000:1,
+        // which leaves so little resolution at table distance that the card picture and the card
+        // body underneath it fought for the same depth and striped. Nothing on this table is
+        // nearer than about a metre or further than the far corner, so the range can be tight.
+        cam.near = 0.5f;
+        cam.far = 120f;
 
         modelBatch = new ModelBatch();
         builder = new ModelBuilder();
@@ -218,8 +222,11 @@ public final class Table3D extends ApplicationAdapter {
         for (ModelInstance p : props) modelBatch.render(p, env);
         for (Drawn d : drawn) {
             if (d.marker != null) modelBatch.render(d.marker, env);
-            modelBatch.render(d.inst, env);
+            // The coloured body is only a stand-in for missing art. Drawing it UNDER a picture
+            // put two near-coplanar surfaces in the depth buffer for no visual gain, which is
+            // what produced the stripes; with art, the picture is the whole card.
             if (d.face != null) modelBatch.render(d.face, env);
+            else modelBatch.render(d.inst, env);
         }
         modelBatch.end();
 
@@ -517,7 +524,7 @@ public final class Table3D extends ApplicationAdapter {
         com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(c.name);
         if (tex != null) {
             d.face = new ModelInstance(faceModel);
-            d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.004f, 0f);
+            d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.03f, 0f);
             d.face.materials.get(0).set(
                 com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
         }
