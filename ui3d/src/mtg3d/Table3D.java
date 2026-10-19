@@ -188,8 +188,10 @@ public final class Table3D extends ApplicationAdapter {
 
         int n = snap.seats.size();
         if (n == 0) return;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(-1, n);
-        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) step(+1, n);
+        // Seats are laid out anticlockwise, so stepping +1 moves the camera to the LEFT on screen.
+        // The keys are deliberately matched to the direction you see, not to the index order.
+        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(+1, n);
+        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) step(-1, n);
         // DOWN (or HOME) is the way back: your own seat, and the camera follows the turn again.
         if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
             followTurn = true;
