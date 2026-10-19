@@ -833,15 +833,20 @@ public final class Table3D extends ApplicationAdapter {
             float dist = hit.dst2(cam.position);
             if (dist < best) { best = dist; hovered = d; }
         }
+        // -Dforge.ui3d.hover=<card name>: with screenshot mode, checks the hover panel without
+        // anyone moving a mouse over the window.
+        if (hovered == null && FORCE_HOVER != null) {
+            for (Drawn d : drawn) if (FORCE_HOVER.equalsIgnoreCase(d.card.name)) { hovered = d; break; }
+        }
     }
+
+    private static final String FORCE_HOVER = System.getProperty("forge.ui3d.hover");
 
     // ---- 2D overlay -----------------------------------------------------------------------------
 
     private void drawOverlay() {
         int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
-
-        if (hovered != null) drawDetailPanel(w, h, flat);
 
         ui.setProjectionMatrix(flat);
         ui.begin();
@@ -878,6 +883,8 @@ public final class Table3D extends ApplicationAdapter {
         drawCentreTracker();
         drawStackLabels();
         ui.end();
+        // Last, so the hovered card sits over every label rather than having them bleed through.
+        if (hovered != null) drawDetailPanel(w, h, flat);
     }
 
     /** Life totals and zone counts, printed near each seat so the pod reads at a glance. */
@@ -1000,9 +1007,21 @@ public final class Table3D extends ApplicationAdapter {
         return comma > 0 ? s.substring(0, comma) : s;
     }
 
-    /** The enlarged, readable card panel that follows the mouse. */
+    /**
+     * The enlarged card that follows the mouse. When Forge has the real picture cached it is shown
+     * large, the way a client zooms a card on hover, with a strip under it for what the printed
+     * card cannot say:
+     * current power/toughness, counters, what it is attached to, tapped/attacking/blocking, and
+     * what a stack item is doing. A drawn face (uncached card, face-down back) or a picture still
+     * loading keeps the text panel, which reads better than small generated print blown up.
+     */
     private void drawDetailPanel(int w, int h, Matrix4 flat) {
         Snapshot.CardV c = hovered.card;
+        com.badlogic.gdx.graphics.Texture tex = art == null || !art.hasPicture(c) ? null : art.get(c);
+        if (tex != null) {
+            drawPicturePanel(c, tex, w, h, flat);
+            return;
+        }
         float panelW = 340f;
         List<String> lines = new ArrayList<>();
         lines.add(c.name + (c.manaCost.isEmpty() ? "" : "   " + c.manaCost));
@@ -1046,6 +1065,62 @@ public final class Table3D extends ApplicationAdapter {
                 font.draw(ui, lines.get(i), px + pad, y);
                 y -= lineH;
             }
+        }
+        ui.end();
+    }
+
+    /** The picture version of the hover panel; see drawDetailPanel. */
+    private void drawPicturePanel(Snapshot.CardV c, com.badlogic.gdx.graphics.Texture tex,
+                                  int w, int h, Matrix4 flat) {
+        // Card proportions (5:7), as tall as fits comfortably: big enough to read the rules text
+        // on the art, not so big it hides the board it is describing.
+        float picH = Math.min(h * 0.62f, 640f), picW = picH * 5f / 7f;
+        float pad = 10f, lineH = 18f;
+
+        List<String> lines = new ArrayList<>();
+        if (!c.stackText.isEmpty()) lines.addAll(wrap("On the stack: " + c.stackText, picW - pad * 2));
+        if (c.creature && !c.power.isEmpty()) lines.add("Now " + c.power + " / " + c.toughness);
+        if (!c.counterText.isEmpty()) lines.add("Counters: " + String.join(", ", c.counterText));
+        else if (c.counters > 0) lines.add(c.counters + " counters");
+        if (!c.attachedTo.isEmpty()) lines.addAll(wrap("Attached to " + c.attachedTo, picW - pad * 2));
+        List<String> state = new ArrayList<>();
+        if (c.attacking) state.add("attacking");
+        if (c.blocking) state.add("blocking");
+        if (c.tapped) state.add("tapped");
+        if (c.token) state.add("token");
+        if (c.faceDown) state.add("face down");
+        if (!state.isEmpty()) lines.add(String.join(", ", state));
+        float infoH = lines.isEmpty() ? 0f : pad * 2 + lines.size() * lineH - 4f;
+
+        float totalH = picH + infoH;
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        // Beside the cursor, on whichever side has room, so it never covers the card itself.
+        float px = mx + 24f + picW <= w - 8f ? mx + 24f : mx - 24f - picW;
+        px = Math.max(8f, px);
+        float py = Math.min(Math.max(my - totalH / 2f, 8f), h - totalH - 8f);
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0f, 0f, 0f, 0.55f);                       // soft shadow
+        shapes.rect(px + 6f, py - 6f, picW, totalH);
+        if (infoH > 0f) {
+            shapes.setColor(0.02f, 0.09f, 0.14f, 0.94f);
+            shapes.rect(px, py, picW, infoH);
+            shapes.setColor(0.18f, 0.56f, 0.71f, 1f);
+            shapes.rect(px, py + infoH - 2f, picW, 2f);
+        }
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        ui.setColor(Color.WHITE);
+        ui.draw(tex, px, py + infoH, picW, picH);
+        float y = py + infoH - pad;
+        font.setColor(0.78f, 0.90f, 1f, 1f);
+        for (String l : lines) {
+            font.draw(ui, l, px + pad, y);
+            y -= lineH;
         }
         ui.end();
     }

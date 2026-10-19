@@ -142,6 +142,17 @@ public final class CardArt {
         return null;
     }
 
+    /**
+     * True when this card has a real cached picture, as opposed to a face FaceMaker draws. The
+     * hover panel shows real art large but keeps its text panel for drawn faces, whose small
+     * print is less readable blown up than plain text.
+     */
+    public boolean hasPicture(Snapshot.CardV card) {
+        if (card == null || card.faceDown || !indexed) return false;
+        if (card.name == null || card.name.isEmpty()) return false;
+        return index.get(key(card.name)) != null;
+    }
+
     /** Decodes or draws on a worker thread, once per key; the Texture is made later, on the GL thread. */
     private void queue(final String k, final java.util.function.Supplier<Pixmap> source) {
         if (requested.containsKey(k)) return;
