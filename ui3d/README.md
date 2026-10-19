@@ -246,10 +246,8 @@ before you start, and push the claim before writing code.
 - [ ] **A key to pass priority / advance**, so the 3D view can drive the game's pace rather than
       only watching it.
 - [ ] **Mulligan and the opening hand** are not drawn at all; the game starts mid-stride.
-- [ ] **Game over.** Nothing marks a player as having lost or the game as finished - dead players
-      keep their seat and their life total.
-- [ ] **Spell targets.** `Snapshot` carries combat arcs but nothing about what a spell on the
-      stack is aimed at, so a removal spell gives no hint who it is pointed at.
+- [x] **Game over** (2026-10-20): a lost player's seat stays put but its pad goes dull red, its label and scoreboard row read OUT; when the game ends a translucent band says GAME OVER and who won (`GameView.isGameOver` / `getWinningPlayerName`). **Seat order now comes from `game.getRegisteredPlayers()` mapped to their views**, because `gv.getPlayers()` is `Game.getPlayers()`, which drops a player the moment they lose and would shift every seat after them. `SeatV.lost`, `Snapshot.gameOver`/`winner`. Demo: `-Dforge.ui3d.demoLost=Zerma -Dforge.ui3d.demoWinner=Xenil`.
+- [x] **Spell targets** (2026-10-20): violet arcs from each stack item to what it targets - a permanent, a player's seat, or another stack item (a counterspell hops across the bar) - drawn whenever the stack holds a targeted spell, not only in combat. `CardV.targetIds`/`targetSeats`, read from `StackItemView.getTargetCards/Players` along the whole sub-instance chain. Targets with no drawn card (graveyard, hand) get no arc. Demo: `-Dforge.ui3d.demoPhase=COMBAT_DECLARE_BLOCKERS` starts with three targeted spells on the stack.
 - [ ] **Emblems, day/night, monarch, the ring, the initiative** - none are shown.
 - [ ] **Sound.** Nothing at all, not even a cue when priority reaches you.
 

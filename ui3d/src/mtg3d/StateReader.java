@@ -43,8 +43,18 @@ public final class StateReader {
             s.phaseKey = gv.getPhase() == null ? "" : gv.getPhase().name();
             s.turnLabel = "Turn " + gv.getTurn() + (turn == null ? "" : " - " + turn.getName());
 
+            // Seats come from the REGISTERED players, not gv.getPlayers(): that one is
+            // Game.getPlayers(), which drops a player the moment they lose - their seat would
+            // vanish and every seat after it would shift round the table. Their views are the
+            // same objects the rest of the view layer hands out, so `pv == viewer` still holds.
             List<PlayerView> order = new ArrayList<>();
-            for (PlayerView pv : gv.getPlayers()) order.add(pv);
+            for (forge.game.player.Player p : game.getRegisteredPlayers()) order.add(p.getView());
+            if (order.isEmpty()) for (PlayerView pv : gv.getPlayers()) order.add(pv);
+            s.gameOver = gv.isGameOver();
+            if (s.gameOver) {
+                String w = gv.getWinningPlayerName();
+                s.winner = w == null ? "" : w;
+            }
 
             readCombat(gv, viewer, order, s);
 
@@ -53,6 +63,7 @@ public final class StateReader {
                 seat.name = pv.getName();
                 seat.life = pv.getLife();
                 seat.isYou = (viewer != null && pv == viewer);
+                seat.lost = pv.getHasLost();
                 seat.active = (pv == turn);
                 seat.hasPriority = pv.getHasPriority();
                 seat.handSize = zone(pv, ZoneType.Hand);
@@ -88,7 +99,7 @@ public final class StateReader {
                 for (CardView cv : cards(viewer, ZoneType.Hand)) s.hand.add(card(cv, viewer));
             }
 
-            readStack(gv, viewer, s);
+            readStack(gv, viewer, order, s);
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.
         }
@@ -195,7 +206,32 @@ public final class StateReader {
     }
 
     /** The stack, bottom first, so the bar fills left to right in the order things were cast. */
-    private static void readStack(GameView gv, PlayerView viewer, Snapshot s) {
+    /**
+     * What a stack item is aimed at, for the target arcs. The item and each sub-instance under it
+     * (a modal spell's second mode, a spell's follow-up ability) can carry its own targets, so the
+     * whole chain is walked. Targets are announced publicly, so nothing here is hidden information;
+     * a target card the viewer cannot see still only contributes its id.
+     */
+    private static void readTargets(StackItemView si, List<PlayerView> order, Snapshot.CardV v) {
+        try {
+            for (StackItemView it = si; it != null; it = it.getSubInstance()) {
+                if (it.getTargetCards() != null) {
+                    for (CardView t : it.getTargetCards()) if (!v.targetIds.contains(t.getId())) v.targetIds.add(t.getId());
+                }
+                if (it.getTargetPlayers() != null) {
+                    for (PlayerView p : it.getTargetPlayers()) {
+                        int seat = order.indexOf(p);
+                        if (seat >= 0 && !v.targetSeats.contains(seat)) v.targetSeats.add(seat);
+                    }
+                }
+                if (it.getSubInstance() == it) break;
+            }
+        } catch (Throwable t) {
+            // no arcs for this item
+        }
+    }
+
+    private static void readStack(GameView gv, PlayerView viewer, List<PlayerView> order, Snapshot s) {
         try {
             List<Snapshot.CardV> topFirst = new ArrayList<>();
             for (StackItemView si : gv.getStack()) {
@@ -204,6 +240,7 @@ public final class StateReader {
                 String text = si.getText();
                 if (text != null && !text.isEmpty()) v.stackText = text;
                 if (v.name == null || v.name.isEmpty()) v.name = v.stackText;
+                readTargets(si, order, v);
                 topFirst.add(v);
             }
             for (int i = topFirst.size() - 1; i >= 0; i--) s.stack.add(topFirst.get(i));

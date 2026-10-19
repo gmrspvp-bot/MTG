@@ -53,6 +53,13 @@ public final class Snapshot {
         /** The host's card id, or -1: lets the table lay an attachment against the right copy. */
         public int attachedToId = -1;
         /**
+         * For a stack item: what it is aimed at - card ids (a permanent, another spell on the
+         * stack, a card in a graveyard) and seat indices (a player). Targets are public, so these
+         * are filled for everyone's spells. Empty for a spell with no targets.
+         */
+        public final List<Integer> targetIds = new ArrayList<>();
+        public final List<Integer> targetSeats = new ArrayList<>();
+        /**
          * Counters spelled out, as "+1/+1 x3" entries, biggest first. Separate from the plain
          * `counters` total above, which Table3D already uses - that file belongs to the other
          * agent's animation work at the moment, so this is additive rather than a rename.
@@ -111,6 +118,8 @@ public final class Snapshot {
         /** Commander damage this seat has TAKEN, by the commander that dealt it. Public knowledge. */
         public final List<CmdDmg> commanderDamage = new ArrayList<>();
         public boolean isYou;
+        /** Out of the game. The seat stays where it was, so nobody else's board moves. */
+        public boolean lost;
         public boolean active;          // whose turn it is
         public boolean hasPriority;
         /**
@@ -129,6 +138,9 @@ public final class Snapshot {
     }
 
     public final List<SeatV> seats = new ArrayList<>();
+    /** The game has ended; `winner` is the winning player's name, or blank for a draw. */
+    public boolean gameOver;
+    public String winner = "";
     public String phase = "";
     /**
      * The phase as Forge names it (UNTAP, UPKEEP, MAIN1, COMBAT_DECLARE_ATTACKERS...). The pretty

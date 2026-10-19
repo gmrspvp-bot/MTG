@@ -33,6 +33,20 @@ public final class Demo {
             "End of combat", "Main phase, postcombat", "End step", "Cleanup",
         };
         final int[] state = { 3, 0, 0 };    // phase index, turn number, active seat
+        final int dragonId = find(s, "Ancient Bronze Dragon").id;
+        // For screenshot checks, which cannot press keys: start on a given phase, knock a seat
+        // out, or end the game.  -Dforge.ui3d.demoPhase=COMBAT_DECLARE_BLOCKERS
+        //   -Dforge.ui3d.demoLost=Zerma   -Dforge.ui3d.demoWinner=Xenil
+        String startPhase = System.getProperty("forge.ui3d.demoPhase");
+        if (startPhase != null) state[0] = Math.max(0, java.util.Arrays.asList(phases).indexOf(startPhase));
+        String lostName = System.getProperty("forge.ui3d.demoLost");
+        for (Snapshot.SeatV v : s.seats) {
+            if (v.name.equals(lostName)) {
+                v.lost = true; v.life = 0; v.creatures.clear(); v.others.clear(); v.lands.clear(); v.command.clear();
+            }
+        }
+        String winner = System.getProperty("forge.ui3d.demoWinner");
+        if (winner != null) { s.gameOver = true; s.winner = winner; }
 
         Table3D.Supplier source = () -> {
             int n = s.seats.size();
@@ -110,6 +124,10 @@ public final class Demo {
                 Snapshot.CardV v = card(950 + i, spells[i][0], "Instant", false, false, "{W}", "");
                 v.controller = spells[i][1];
                 v.stackText = spells[i][2];
+                // Targets, so the violet target arcs show: a permanent, a spell, a player.
+                if (i == 0) v.targetIds.add(dragonId);
+                if (i == 1) v.targetIds.add(950);
+                if (i == 2) v.targetSeats.add(0);
                 s.stack.add(v);
             }
             return s;

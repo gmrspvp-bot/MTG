@@ -63,7 +63,7 @@ public final class Table3D extends ApplicationAdapter {
     private ShapeRenderer shapes;
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
-    private Model faceModel, attackModel, backModel, zoneModel, commandPadModel;
+    private Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
     private Model bandCreature, bandOther, bandLand, monitorModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
@@ -221,6 +221,9 @@ public final class Table3D extends ApplicationAdapter {
         commandPadModel = builder.createBox(CARD_W + 0.24f, 0.02f, CARD_H + 0.24f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.21f, 0.10f, 1f))), attrs);
         createScoreboard(attrs);
+        // A seat whose player is out: the same pad, gone a dull dark red.
+        seatLostModel = builder.createBox(7.6f, 0.06f, 3.4f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.16f, 0.07f, 0.08f, 1f))), attrs);
 
         // A flat quad for the card picture. Corner order sets the UVs: libGDX puts the top of the
         // image along the corner11/corner01 edge, so that edge goes at -Z, which is "away from the
@@ -525,7 +528,8 @@ public final class Table3D extends ApplicationAdapter {
             // so a player's board never moves out from under them when the view changes.
             float angle = seatAngle(i, n);
 
-            ModelInstance pad = new ModelInstance(seat.hasPriority ? seatPriorityModel : seatModel);
+            ModelInstance pad = new ModelInstance(seat.lost ? seatLostModel
+                : seat.hasPriority ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
             pad.transform.setToTranslation(c.x, -0.01f, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
             seatPads.add(pad);
@@ -559,6 +563,7 @@ public final class Table3D extends ApplicationAdapter {
      * is the one piece of information the bar has to convey at a glance.
      */
     private void placeStack() {
+        stackAt.clear();
         if (snap.stack.isEmpty()) return;
         float step = CARD_W * 1.15f;
         float width = snap.stack.size() * step - (step - CARD_W);
@@ -569,8 +574,14 @@ public final class Table3D extends ApplicationAdapter {
             float along = -width / 2f + i * step + CARD_W / 2f;
             Vector3 w = rotateY(along, 0f, orbit);
             add(c, null, w.x, STACK_Y + (top ? 0.34f : 0f), w.z, yaw, 90f);
+            // Where a target arc starts: the bottom edge of the upright card. Kept per stack index,
+            // because an ability shares its id with its source, so poses cannot tell them apart.
+            stackAt.add(new float[] { w.x, STACK_Y + (top ? 0.34f : 0f) - CARD_H / 2f, w.z });
         }
     }
+
+    /** Per stack item, bottom first like Snapshot.stack: {x, y, z} of the bottom of its card. */
+    private final List<float[]> stackAt = new ArrayList<>();
 
     /**
      * Four small screens in the middle of the table, one per player, each tilted up and turned to
@@ -953,7 +964,8 @@ public final class Table3D extends ApplicationAdapter {
         StringBuilder k = new StringBuilder(snap.turnLabel);
         for (Snapshot.SeatV s : snap.seats) {
             k.append('|').append(s.name).append(':').append(s.life)
-             .append(s.active ? 'A' : '-').append(s.isYou ? 'Y' : '-').append(s.hasPriority ? 'P' : '-');
+             .append(s.active ? 'A' : '-').append(s.isYou ? 'Y' : '-').append(s.hasPriority ? 'P' : '-')
+             .append(s.lost ? 'L' : '-');
         }
         String key = k.toString();
         if (key.equals(sbKey)) return;
@@ -996,7 +1008,8 @@ public final class Table3D extends ApplicationAdapter {
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
             float mid = SB_TEX_H - head - i * rowH - rowH / 2f;
-            Color c = s.active ? new Color(1f, 0.85f, 0.38f, 1f)
+            Color c = s.lost ? new Color(0.45f, 0.40f, 0.40f, 1f)
+                    : s.active ? new Color(1f, 0.85f, 0.38f, 1f)
                     : s.isYou ? new Color(0.62f, 0.95f, 1f, 1f)
                     : new Color(0.80f, 0.86f, 0.92f, 1f);
             sbFont.setColor(c);
@@ -1005,7 +1018,7 @@ public final class Table3D extends ApplicationAdapter {
             gl.setText(sbFont, name);
             sbFont.draw(ui, name, 34f, mid + gl.height / 2f);
             sbFont.getData().setScale(lifeScale);
-            String life = String.valueOf(s.life);
+            String life = s.lost ? "OUT" : String.valueOf(s.life);
             gl.setText(sbFont, life);
             sbFont.draw(ui, life, SB_TEX_W - 40f - gl.width, mid + gl.height / 2f);
         }
@@ -1036,13 +1049,17 @@ public final class Table3D extends ApplicationAdapter {
     private static final float ARC_WIDTH = 0.16f, ARROW_LEN = 0.55f;
 
     private void drawCombatArcs() {
-        if (snap.combatArcs.isEmpty() || arcs == null) return;
+        if (arcs == null) return;
+        boolean anyTargets = false;
+        for (Snapshot.CardV c : snap.stack) if (!c.targetIds.isEmpty() || !c.targetSeats.isEmpty()) anyTargets = true;
+        if (snap.combatArcs.isEmpty() && !anyTargets) return;
         arcClock += frameDt;
         int n = snap.seats.size();
         Gdx.gl.glEnable(GL20.GL_BLEND);
         Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
         Gdx.gl.glDepthMask(false);
         arcs.begin(cam.combined, GL20.GL_TRIANGLES);
+        drawTargetArcs(n);
         for (Snapshot.CombatArc a : snap.combatArcs) {
             Pose from = poses.get(a.attackerId);
             if (from == null) continue;
@@ -1072,8 +1089,48 @@ public final class Table3D extends ApplicationAdapter {
         Gdx.gl.glDepthMask(true);
     }
 
-    /** One arc from (x0,z0) to (x1,z1): a parabola above the table, ending in an arrowhead. */
+    /**
+     * Spell targets: a violet arc from each stack item down to what it is aimed at - a permanent,
+     * a player's seat, or another spell on the stack (a counterspell arcs across the bar). Drawn
+     * whenever the stack holds a targeted spell or ability, not only in combat, since a removal
+     * spell is exactly the moment you want to see who it is pointed at. A target with no drawn
+     * card (one in a graveyard or a hand) has nowhere to point, so it gets no arc.
+     */
+    private void drawTargetArcs(int n) {
+        for (int i = 0; i < snap.stack.size() && i < stackAt.size(); i++) {
+            Snapshot.CardV c = snap.stack.get(i);
+            float[] from = stackAt.get(i);
+            for (int id : c.targetIds) {
+                float[] to = null;
+                // Another stack item first (a counterspell's target), then a drawn card.
+                for (int j = 0; j < snap.stack.size() && j < stackAt.size(); j++) {
+                    if (j != i && snap.stack.get(j).id == id) { to = stackAt.get(j); break; }
+                }
+                if (to == null) {
+                    Pose p = poses.get(id);
+                    if (p != null) to = new float[] { p.x, p.y + 0.1f, p.z };
+                }
+                if (to != null) ribbon(from[0], from[1], from[2], to[0], to[1], to[2], 0.78f, 0.45f, 1.0f, 0.95f);
+            }
+            for (int seat : c.targetSeats) {
+                if (seat < 0 || seat >= n) continue;
+                Vector3 s = seatPos(seatAngle(seat, n), SEAT_DIST);
+                ribbon(from[0], from[1], from[2], s.x, 0.12f, s.z, 0.78f, 0.45f, 1.0f, 0.95f);
+            }
+        }
+    }
+
+    /** One arc from (x0,z0) to (x1,z1) across the table: see the general form below. */
     private void ribbon(float x0, float z0, float x1, float z1, float r, float g, float b, float alpha) {
+        ribbon(x0, 0.12f, z0, x1, 0.12f, z1, r, g, b, alpha);
+    }
+
+    /**
+     * One arc from (x0,y0,z0) to (x1,y1,z1): a straight blend between the two heights plus a
+     * parabolic hump over it, ending in an arrowhead at the far end.
+     */
+    private void ribbon(float x0, float y0, float z0, float x1, float y1, float z1,
+                        float r, float g, float b, float alpha) {
         float dx = x1 - x0, dz = z1 - z0;
         float len = (float) Math.sqrt(dx * dx + dz * dz);
         if (len < 0.3f) return;
@@ -1085,7 +1142,7 @@ public final class Table3D extends ApplicationAdapter {
         for (int i = 0; i <= ARC_SEGMENTS; i++) {
             float t = tEnd * i / ARC_SEGMENTS;
             float x = x0 + dx * t, z = z0 + dz * t;
-            float y = 0.12f + peak * 4f * t * (1f - t);
+            float y = y0 + (y1 - y0) * t + peak * 4f * t * (1f - t);
             // Pulses travel from attacker to target, about one and a half a second.
             float wave = (float) Math.sin((t * len * 0.9f - arcClock * 4f) * Math.PI);
             float c = 0.55f + 0.45f * Math.max(0f, wave);
@@ -1098,10 +1155,9 @@ public final class Table3D extends ApplicationAdapter {
         }
         // Arrowhead from the end of the ribbon down to the target.
         float aw = ARC_WIDTH * 1.9f;
-        float tipY = 0.12f;
         vert(px - sx * aw, py, pz - sz * aw, r, g, b, alpha);
         vert(px + sx * aw, py, pz + sz * aw, r, g, b, alpha);
-        vert(x1, tipY, z1, r, g, b, alpha);
+        vert(x1, y1, z1, r, g, b, alpha);
     }
 
     private void quad(float ax, float ay, float az, float bx, float by, float bz,
@@ -1180,6 +1236,7 @@ public final class Table3D extends ApplicationAdapter {
         drawCentreTracker();
         drawStackLabels();
         ui.end();
+        if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
         if (hovered != null) drawDetailPanel(w, h, flat);
         drawPhasePanelShapes(h, flat);   // filled shapes must precede the SpriteBatch pass
@@ -1258,6 +1315,38 @@ public final class Table3D extends ApplicationAdapter {
         return up + bh + 2f;
     }
 
+    /**
+     * The end of the game: a band across the middle of the screen saying so, and who won. The
+     * board stays visible behind it (it is translucent), because the final position is worth
+     * looking at; Forge's own window still handles what happens next.
+     */
+    private void drawGameOver(int w, int h, Matrix4 flat) {
+        float bandH = 120f, y = h / 2f - bandH / 2f + 60f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.02f, 0.04f, 0.07f, 0.80f);
+        shapes.rect(0, y, w, bandH);
+        shapes.setColor(0.85f, 0.62f, 0.22f, 1f);
+        shapes.rect(0, y + bandH - 3f, w, 3f);
+        shapes.rect(0, y, w, 3f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        fontBig.getData().setScale(2.6f);
+        fontBig.setColor(0.98f, 0.82f, 0.45f, 1f);
+        gl.setText(fontBig, "GAME OVER");
+        fontBig.draw(ui, "GAME OVER", (w - gl.width) / 2f, y + bandH - 18f);
+        fontBig.getData().setScale(1.6f);       // back to its normal size for everything else
+        String who = snap.winner.isEmpty() ? "A draw" : snap.winner + " wins";
+        fontBig.setColor(0.85f, 0.93f, 1f, 1f);
+        gl.setText(fontBig, who);
+        fontBig.draw(ui, who, (w - gl.width) / 2f, y + 38f);
+        ui.end();
+    }
+
     /** Life totals and zone counts, printed near each seat so the pod reads at a glance. */
     private void drawSeatInfo(int w, int h) {
         int n = snap.seats.size();
@@ -1267,10 +1356,11 @@ public final class Table3D extends ApplicationAdapter {
             Vector3 world = seatPos(angle, SEAT_DIST + 2.6f);
             Vector3 p = cam.project(new Vector3(world.x, 0.4f, world.z));
             if (p.z > 1f) continue;                       // behind the camera
-            if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
+            if (s.lost) font.setColor(0.50f, 0.42f, 0.42f, 1f);
+            else if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
             else if (s.isYou) font.setColor(0.65f, 0.95f, 1f, 1f);
             else font.setColor(0.72f, 0.78f, 0.86f, 1f);
-            String line = s.name + "   " + s.life + " life";
+            String line = s.name + (s.lost ? "   OUT" : "   " + s.life + " life");
             String line2 = "hand " + s.handSize + "   lib " + s.librarySize + "   gy " + s.graveyardSize;
             font.draw(ui, line, p.x - 60, p.y + 16);
             font.draw(ui, line2, p.x - 60, p.y);
@@ -1654,6 +1744,7 @@ public final class Table3D extends ApplicationAdapter {
         backModel.dispose();
         zoneModel.dispose();
         commandPadModel.dispose();
+        seatLostModel.dispose();
         if (sbBuffer != null) sbBuffer.dispose();
         if (sbFaceModel != null) sbFaceModel.dispose();
         if (sbBodyModel != null) sbBodyModel.dispose();
