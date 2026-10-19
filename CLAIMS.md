@@ -40,3 +40,4 @@ These are areas the two of us keep touching, so check here before a big change:
   changing behaviour for everyone (see `-Skin`, `-Ui3d`).
 - `decks\*.dck` — never delete or overwrite someone else's deck; improvements are a new `vN`.
 - `ui3d\` — the second owner's 3D UI. Has its own TODO in `ui3d\README.md`.
+| `ui3d` - attack arcs from each attacker to what it is attacking (and blocker links) | dmara's Claude | 2026-10-20 | `Table3D` drawing only, reading `Snapshot.combatArcs`; `Demo` fills arcs. Not touching `Snapshot`/`StateReader`. |
