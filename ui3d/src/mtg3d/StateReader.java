@@ -251,7 +251,7 @@ public final class StateReader {
             v.commander = cv.isCommander();
             v.token = cv.isToken();
             CardView host = cv.getAttachedTo();
-            if (host != null) v.attachedTo = host.getName();
+            if (host != null) { v.attachedTo = host.getName(); v.attachedToId = host.getId(); }
 
             try {
                 List<com.google.common.collect.Multiset.Entry<forge.game.card.CounterType>> cs =

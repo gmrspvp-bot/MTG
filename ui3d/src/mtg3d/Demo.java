@@ -107,6 +107,29 @@ public final class Demo {
             new String[] { "Swamp", "Island", "Fetid Pools", "Command Tower", "Darkslick Shores" },
             new String[] { "Red Ghost, Intangible Genius", "Hobgoblin, Mantled Marauder" }));
 
+        // Attachments and counters: two equipment on Lyra, Lyra carrying +1/+1 counters, and an
+        // aura of Xenil's on Michael's dragon, so the table shows one sitting under an opponent's card.
+        Snapshot.CardV lyra = find(s, "Lyra Dawnbringer");
+        Snapshot.CardV dragon = find(s, "Ancient Bronze Dragon");
+        lyra.counters = 2;
+        lyra.counterText.add("+1/+1 x2");
+        lyra.power = "7";
+        lyra.toughness = "7";
+        int aid = 960;
+        for (String eq : new String[] { "Skullclamp", "Sword of Fire and Ice" }) {
+            Snapshot.CardV e = card(aid++, eq, "Artifact - Equipment", false, false, "{1}", "");
+            e.artifact = true;
+            e.attachedTo = lyra.name;
+            e.attachedToId = lyra.id;
+            s.seats.get(0).others.add(e);
+        }
+        Snapshot.CardV aura = card(aid, "Pacifism", "Enchantment - Aura", false, false, "{1}{W}",
+            "Enchant creature\nEnchanted creature can't attack or block.");
+        aura.enchantment = true;
+        aura.attachedTo = dragon.name;
+        aura.attachedToId = dragon.id;
+        s.seats.get(0).others.add(aura);
+
         s.hand.add(card(900, "Wrath of the Skies", "Sorcery", false, false,
             "{X}{W}{W}", "You get X energy, then you may pay any amount of energy. Destroy each artifact, creature, and enchantment with mana value less than or equal to the amount of energy paid this way."));
         s.hand.add(card(901, "Swords to Plowshares", "Instant", false, false,
@@ -148,6 +171,11 @@ public final class Demo {
             v.creatures.add(c);
         }
         return v;
+    }
+
+    private static Snapshot.CardV find(Snapshot s, String name) {
+        for (Snapshot.SeatV v : s.seats) for (Snapshot.CardV c : v.creatures) if (c.name.equals(name)) return c;
+        throw new IllegalStateException("demo card missing: " + name);
     }
 
     private static Snapshot.CardV card(int id, String name, String type, boolean creature, boolean land,

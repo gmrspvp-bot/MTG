@@ -476,6 +476,25 @@ public final class Table3D extends ApplicationAdapter {
         if (snap.seats.isEmpty()) return;
 
         int n = snap.seats.size();
+        // Attachments whose host is on the battlefield leave their own row and are laid under the
+        // host instead (placeAttachments), so first learn which ids are on the battlefield.
+        hostTargets.clear();
+        attachedHere.clear();
+        java.util.Set<Integer> onField = new java.util.HashSet<>();
+        for (Snapshot.SeatV seat : snap.seats) {
+            for (Snapshot.CardV c : seat.creatures) onField.add(c.id);
+            for (Snapshot.CardV c : seat.others) onField.add(c.id);
+            for (Snapshot.CardV c : seat.lands) onField.add(c.id);
+        }
+        for (Snapshot.SeatV seat : snap.seats) {
+            for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
+                for (Snapshot.CardV c : row) {
+                    if (c.attachedToId >= 0 && c.attachedToId != c.id && onField.contains(c.attachedToId)) {
+                        attachedHere.computeIfAbsent(c.attachedToId, k -> new ArrayList<>()).add(new Object[] { c, seat });
+                    }
+                }
+            }
+        }
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV seat = snap.seats.get(i);
             // Seats are fixed in the world. The camera orbits to whichever one we are looking from,
@@ -497,6 +516,7 @@ public final class Table3D extends ApplicationAdapter {
             placeRow(seat, seat.others, angle, ROW_OTHERS);
             placeRow(seat, seat.lands, angle, ROW_LANDS);
         }
+        placeAttachments();
         placeHand();
         placeOpponentHands();
         placeZones();
@@ -562,6 +582,7 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     private void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
+        cards = unattached(cards);
         if (cards.isEmpty()) return;
         // A tapped card lies sideways, so it needs a CARD_H-wide slot, not CARD_W: with equal
         // slots, tapped neighbours overlapped (more visibly once tapping animated).
@@ -575,7 +596,59 @@ public final class Table3D extends ApplicationAdapter {
             cursor += slot + GAP;
             Vector3 w = rotateY(along, dist, angle);
             // LibGDX's rotate(Y, deg) is the inverse of the rotation above, hence the minus.
-            add(c, seat, w.x, w.z, (float) Math.toDegrees(-angle) + (c.tapped ? 90f : 0f));
+            float yaw = (float) Math.toDegrees(-angle) + (c.tapped ? 90f : 0f);
+            add(c, seat, w.x, w.z, yaw);
+            if (attachedHere.containsKey(c.id)) {
+                hostTargets.put(c.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
+            }
+        }
+    }
+
+    /** The row without the cards that are laid under a host instead (see placeAttachments). */
+    private List<Snapshot.CardV> unattached(List<Snapshot.CardV> cards) {
+        if (attachedHere.isEmpty()) return cards;
+        List<Snapshot.CardV> out = new ArrayList<>(cards.size());
+        for (Snapshot.CardV c : cards) {
+            boolean under = false;
+            if (c.attachedToId >= 0) {
+                List<Object[]> l = attachedHere.get(c.attachedToId);
+                if (l != null) for (Object[] e : l) if (e[0] == c) { under = true; break; }
+            }
+            if (!under) out.add(c);
+        }
+        return out;
+    }
+
+    /** Host id -> {attachment card, its controller's seat}, rebuilt each frame by layout(). */
+    private final java.util.Map<Integer, List<Object[]>> attachedHere = new java.util.HashMap<>();
+    /** Host id -> where the host was placed this frame: {x, z, yaw, its seat's yaw}. */
+    private final java.util.Map<Integer, float[]> hostTargets = new java.util.HashMap<>();
+    /** How much of each attachment peeks out past the top edge of its host (and of the one before). */
+    private static final float ATTACH_PEEK = 0.40f;
+
+    /**
+     * Equipment, auras and fortifications sit UNDER what they are attached to, each one peeking
+     * out a little further past its top edge - the way they are laid out on a real table, and in
+     * Arena. They lie the same way as the host (so they turn with it when it taps), but always
+     * peek towards the middle of the table, in the host SEAT's frame: peeking along a tapped
+     * host's own "up" would push them sideways, under the neighbouring card, where they vanish.
+     * An aura on an opponent's creature goes to that creature, wherever it sits. Slightly lower
+     * than the host so the host covers it; the peeking strip is still pickable for the hover panel.
+     */
+    private void placeAttachments() {
+        for (java.util.Map.Entry<Integer, List<Object[]>> e : attachedHere.entrySet()) {
+            float[] host = hostTargets.get(e.getKey());
+            if (host == null) continue;
+            float seatAngle = (float) Math.toRadians(-host[3]);
+            List<Object[]> list = e.getValue();
+            for (int k = 0; k < list.size(); k++) {
+                Snapshot.CardV c = (Snapshot.CardV) list.get(k)[0];
+                Snapshot.SeatV seat = (Snapshot.SeatV) list.get(k)[1];
+                // Toward the table centre is the seat's local -Z (the top of an untapped card).
+                // Attachments lie like the host, so they are as deep as it is and only the peek shows.
+                Vector3 off = rotateY(0f, -ATTACH_PEEK * (k + 1), seatAngle);
+                add(c, seat, host[0] + off.x, -0.004f * (k + 1), host[1] + off.z, host[2], 0f);
+            }
         }
     }
 
@@ -643,6 +716,7 @@ public final class Table3D extends ApplicationAdapter {
      * an empty board stays clean rather than showing three empty trays.
      */
     private void placeBand(List<Snapshot.CardV> cards, float angle, float dist, Model band) {
+        cards = unattached(cards);
         if (cards.isEmpty()) return;
         float width = 0.5f - GAP;   // same slot widths as placeRow: tapped cards are CARD_H wide
         for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
@@ -848,6 +922,7 @@ public final class Table3D extends ApplicationAdapter {
         int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
 
+        drawCardBadges(flat);
         ui.setProjectionMatrix(flat);
         ui.begin();
         font.setColor(0.70f, 0.90f, 1f, 1f);
@@ -885,6 +960,79 @@ public final class Table3D extends ApplicationAdapter {
         ui.end();
         // Last, so the hovered card sits over every label rather than having them bleed through.
         if (hovered != null) drawDetailPanel(w, h, flat);
+    }
+
+    /**
+     * Power/toughness and counters on cards that show their real printed picture. A generated face
+     * draws these itself, but a cached picture only carries the PRINTED numbers, which go stale
+     * as soon as anything pumps the creature or puts a counter on it. So: a small chip over the
+     * bottom-right corner with the current P/T (where the printed box is), and one over the
+     * bottom-left with the counters. Pinned to the card's corners through its drawn transform, so
+     * they follow it as it taps and moves; dropped when the card is too small on screen to fit them.
+     */
+    private void drawCardBadges(Matrix4 flat) {
+        if (art == null) return;
+        List<float[]> boxes = new ArrayList<>();
+        List<String> texts = new ArrayList<>();
+        List<Color> colours = new ArrayList<>();
+        GlyphLayout gl = new GlyphLayout();
+        Vector3 a = new Vector3(), b = new Vector3();
+        for (Drawn d : drawn) {
+            Snapshot.CardV c = d.card;
+            if (d.seat == null || d.face == null || !art.hasPicture(c)) continue;   // battlefield, real art
+            if (c.attachedToId >= 0 && hostTargets.containsKey(c.attachedToId)) continue;   // under its host
+            // On-screen width of the card, to skip ones too small (or seen edge-on) for a chip.
+            cam.project(a.set(-CARD_W / 2f, 0f, 0f).mul(d.inst.transform));
+            cam.project(b.set(CARD_W / 2f, 0f, 0f).mul(d.inst.transform));
+            if (a.z > 1f || b.z > 1f || a.dst(b) < 34f) continue;
+            // Both chips stack at the bottom-right corner (counters above P/T): side by side, a
+            // counter chip on the left corner ran into the neighbouring card's P/T chip.
+            float lift = 0f;
+            if (c.creature && !c.power.isEmpty()) {
+                lift = badge(d, c.power + "/" + c.toughness, 0f, new Color(0.96f, 0.93f, 0.82f, 1f),
+                             gl, boxes, texts, colours);
+            }
+            if (c.counters > 0) {
+                String t = c.counterText.isEmpty() ? c.counters + "" : c.counterText.get(0)
+                    + (c.counterText.size() > 1 ? " +" : "");
+                badge(d, t, lift, new Color(0.55f, 0.95f, 0.65f, 1f), gl, boxes, texts, colours);
+            }
+        }
+        if (boxes.isEmpty()) return;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        for (float[] r : boxes) {
+            shapes.setColor(0.03f, 0.05f, 0.08f, 0.88f);
+            shapes.rect(r[0], r[1], r[2], r[3]);
+        }
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        for (int i = 0; i < boxes.size(); i++) {
+            float[] r = boxes.get(i);
+            font.setColor(colours.get(i));
+            font.draw(ui, texts.get(i), r[0] + 4f, r[1] + r[3] - 3f);
+        }
+        ui.end();
+    }
+
+    /**
+     * One chip over the card's bottom-right corner (where the printed P/T box is), raised `up`
+     * pixels on screen. Returns how far the next chip must be raised to sit above this one.
+     */
+    private float badge(Drawn d, String text, float up, Color colour, GlyphLayout gl,
+                        List<float[]> boxes, List<String> texts, List<Color> colours) {
+        // Bottom edge is local +Z (towards the card's owner); a little inside it, on the face.
+        Vector3 p = cam.project(new Vector3(CARD_W / 2f - 0.2f, CARD_THICK, CARD_H / 2f - 0.13f)
+            .mul(d.inst.transform));
+        if (p.z > 1f) return up;
+        gl.setText(font, text);
+        float bw = gl.width + 8f, bh = gl.height + 7f;
+        boxes.add(new float[] { p.x - bw / 2f, p.y - bh / 2f + up, bw, bh });
+        texts.add(text);
+        colours.add(colour);
+        return up + bh + 2f;
     }
 
     /** Life totals and zone counts, printed near each seat so the pod reads at a glance. */

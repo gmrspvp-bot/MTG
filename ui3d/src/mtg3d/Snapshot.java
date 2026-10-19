@@ -48,6 +48,8 @@ public final class Snapshot {
         public boolean faceDown;
         /** What this is attached to, if anything: equipment, auras, fortifications. */
         public String attachedTo = "";
+        /** The host's card id, or -1: lets the table lay an attachment against the right copy. */
+        public int attachedToId = -1;
         /**
          * Counters spelled out, as "+1/+1 x3" entries, biggest first. Separate from the plain
          * `counters` total above, which Table3D already uses - that file belongs to the other
