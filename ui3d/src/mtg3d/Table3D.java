@@ -74,6 +74,7 @@ public final class Table3D extends ApplicationAdapter {
     /** How far a held card is tilted up towards its owner, in degrees. */
     private static final float HAND_TILT = 62f;
     private CardArt art;
+    private SearchPanel search;
 
     /** One drawable card plus where it is, so the same list serves rendering and picking. */
     private static final class Drawn {
@@ -186,6 +187,15 @@ public final class Table3D extends ApplicationAdapter {
             Usage.Position | Usage.Normal | Usage.TextureCoordinates);
 
         art = new CardArt(CardArt.defaultRoot());
+        search = new SearchPanel(art);
+        // libGDX only delivers the wheel through an InputProcessor; everything else this view
+        // needs is polled, so this is the one handler.
+        Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
+            @Override public boolean scrolled(float amountX, float amountY) {
+                search.scrollBy(amountY);
+                return search.isOpen();
+            }
+        });
         snap = source.get();
     }
 
@@ -231,9 +241,34 @@ public final class Table3D extends ApplicationAdapter {
         modelBatch.end();
 
         drawOverlay();
+
+        if (search != null) {
+            search.update(Gdx.graphics.getDeltaTime());
+            search.render(ui, shapes, font, fontBig);
+        }
+    }
+
+    /**
+     * Demo trigger (S): opens the search panel over everything currently in the snapshot, so the
+     * animation and the grid can be exercised before stage 3 has anything real to search.
+     */
+    private void openDemoSearch() {
+        List<Snapshot.CardV> all = new ArrayList<>(snap.hand);
+        for (Snapshot.SeatV s : snap.seats) {
+            all.addAll(s.creatures);
+            all.addAll(s.others);
+            all.addAll(s.lands);
+        }
+        while (all.size() < 24 && !all.isEmpty()) all.addAll(new ArrayList<>(all));   // pad the grid
+        search.open("Search your library", "Choose up to two cards.", all, 0, 2,
+            chosen -> System.out.println("UI3D: search chose " + chosen.size() + " card(s)"));
     }
 
     private void handleInput() {
+        // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
+        // panel and release the camera, and a click meant for a card would also move the view.
+        if (search != null && search.isOpen()) return;
+        if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
         if (Gdx.input.isKeyJustPressed(Input.Keys.TAB)) {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
@@ -569,6 +604,7 @@ public final class Table3D extends ApplicationAdapter {
     /** Ray-pick the card under the mouse; nearest hit wins. */
     private void pick() {
         hovered = null;
+        if (search != null && search.isOpen()) return;
         Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
         float best = Float.MAX_VALUE;
         Vector3 hit = new Vector3();

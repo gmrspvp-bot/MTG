@@ -34,6 +34,7 @@ camera, the overhead lift and the attack markers without a game.
 |---|---|
 | `LEFT` / `RIGHT` | Walk round the table to the next seat |
 | `DOWN` (or `HOME`) | Back to your own seat, and follow the turn again |
+| `S` | Open the search panel on demo data (temporary, until stage 3 drives it) |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
 
@@ -57,6 +58,7 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 | `Bridge.java` | Subscribes to the game's event bus, publishes snapshots, opens the window. |
 | `CardArt.java` | Finds and loads card pictures from Forge's cache. |
 | `Table3D.java` | The view: table, seats, cards, camera, picking, hover panel, overlays. |
+| `SearchPanel.java` | The animated panel every search opens into. Presentation done; not yet wired to the game. |
 | `FaceMaker.java` | Draws a card face for anything with no cached picture. Pure AWT. |
 | `FacePreview.java` | `main` that renders a sheet of generated faces to a PNG, no GL context needed. |
 | `Demo.java` | Fake data + a `main`, so the view runs without Forge. |
@@ -248,7 +250,9 @@ anything not yet built, so the game is always playable mid-way through the work.
 - [ ] Declare attackers and blockers by dragging.
 - [ ] Mana payment, including which lands to tap.
 - [ ] Ordering triggers and the stack.
-- [ ] Choosing from a list (search a library, order a graveyard, modal spells).
+- [ ] Choosing from a list (search a library, order a graveyard, modal spells). **The panel is
+      already built** — `SearchPanel`, with a `min/max` pick and a `Result` callback. What is left
+      is calling it from the `IGuiGame` methods instead of letting them fall through to Forge.
 
 ### Stage 4 — lobby and deck selection
 
