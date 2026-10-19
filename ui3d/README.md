@@ -160,6 +160,9 @@ than following the camera, so from another seat you see your cards across the ta
 What *is* shown, because it is public: how many cards each player holds (face-down backs, one per
 card), life, poison, commander damage, and all zone counts.
 
+> **Resolved 2026-10-20** - `StateReader` now defers to `CardView.canBeShownTo(viewer)`. The
+> warning is kept because it is the reason that mattered.
+>
 > **Stage 3 warning.** The moment this starts driving decisions, "read the GUI player's hand" is no
 > longer sufficient — it must move to the engine's real per-player views (`PlayerView`). A
 > host-side or hotseat game will otherwise leak, exactly as `ConfirmPassHook` did on 2026-10-20
@@ -241,8 +244,12 @@ before you start, and push the claim before writing code.
 The large one. Implement `IGuiGame` decision by decision, falling back to Forge's Swing UI for
 anything not yet built, so the game is always playable mid-way through the work.
 
-- [ ] **Move hidden information to `PlayerView`** before anything else here. "Read the GUI player's
-      hand" is fine for a viewer and is *not* fine for a client. See the warning above.
+- [x] **Read through Forge's view layer** (done 2026-10-20). `StateReader` reads `GameView`,
+      `PlayerView` and `CardView`, and asks `CardView.canBeShownTo(viewer)` rather than applying
+      a visibility rule of its own. Revealed cards, a card an effect lets one opponent see, and a
+      face-down permanent its controller may check are now the engine's ruling, not ours.
+      **Only verified by compiling** - it needs a real game with `-Ui3d`, and properly a
+      two-human network game, before anyone trusts it.
 - [ ] Read `forge.GuiMobile` first — it is a complete worked implementation of the same interface.
 - [ ] Decide how input is routed while both UIs exist: two windows, one game thread, and only one
       of them should be answering a given decision.
