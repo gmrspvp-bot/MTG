@@ -31,7 +31,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 | `ui3d` - counters, attachments, tokens, face-down cards | Xenil's Claude | 2026-10-20 | `Snapshot`, `StateReader`, `FaceMaker`, `CardArt` only. **Not** touching `Table3D` (dmara's claim). Face-down is a hidden-information fix, not just cosmetic. |
-| `ui3d` - tap/untap animation + card movement (persist `Drawn` per card id across frames, interpolate angle and position) | dmara's Claude | 2026-10-20 | `Table3D` layout/render only. Not touching `CardArt` (Xenil's claim), the stack bar, faces or `SearchPanel`. |
 
 ## Not claimed, and worth knowing about
 

@@ -49,6 +49,7 @@ public final class Demo {
             for (int i = 0; i < n; i++) {
                 for (Snapshot.CardV c : s.seats.get(i).creatures) {
                     c.attacking = s.combat && i == active && c.creature;
+            c.tapped = c.attacking;   // attackers tap, so the demo shows the tap/untap animation
                 }
             }
             return s;

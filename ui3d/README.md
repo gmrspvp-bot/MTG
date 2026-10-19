@@ -46,6 +46,7 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 |---|---|
 | `-Dforge.ui3d=true` | Opens the 3D window (set by `play.ps1 -Ui3d`) |
 | `-Dforge.ui3d.pics=<dir>` | Override where card art is read from |
+| `-Dforge.ui3d.shots=<dir>` | Save the frame as `shotNNN.png` every `forge.ui3d.shotEvery` seconds (default 0.5). For checking the view without looking at the screen: an agent can't see the window, and Windows screen capture comes out white for this GL surface. |
 
 ---
 
@@ -212,10 +213,9 @@ before you start, and push the claim before writing code.
       along the viewed seat's local X so it stays broadside to the camera from every seat
 - [x] Generated faces for any card with no cached picture (covers basic lands, which are never
       cached and are most of the table) — name, type line, mana cost, P/T, tinted by kind
-- [ ] **Tap/untap animation.** Currently an instant 90 degree snap. Needs `Drawn` persisted between
-      frames, keyed by card id — see *Known limits*. Doing this unlocks every other animation.
-- [ ] **Card movement.** Cards teleport between zones. Once `Drawn` persists, interpolate from the
-      old position when a card changes row or zone.
+- [x] **Tap/untap animation** (2026-10-20). `Table3D` keeps a `Pose` per card id (where it was last drawn) and eases it towards the pose `layout()` computes from the snapshot each frame, so a tap is a quarter-turn over about 0.25 s. `layout()` is still rebuilt every frame, so the view still always converges on the true state. Rates: `TURN_RATE`, `MOVE_RATE`.
+- [ ] **Tapped cards overlap their neighbours.** Row spacing (`CARD_W + GAP`) assumes upright cards; a tapped card is `CARD_H` wide. Was true before animation too (it just snapped). Widen the slot of a tapped card in `placeRow`.
+- [x] **Card movement** (2026-10-20). Same mechanism: a card keeps its id from hand to stack to battlefield, so it slides between them instead of teleporting. A card that leaves the view is forgotten, so one coming back appears where it is. A second copy of an id in one frame (an ability on the stack shares its source's id) is drawn at its target without disturbing the first.
 - [ ] Attachments: equipment and auras should sit visibly against what they are attached to.
       `Card.getAttachedCards()` / `getAttachedTo()`.
 - [ ] Power, toughness and counters drawn on the card, not only in the hover panel.
@@ -276,11 +276,11 @@ right to sit in front of.
 ## Known limits right now
 
 - Nothing is clickable. Hover shows details; all input goes to Forge's window.
-- `Table3D.layout()` rebuilds every card's placement **every frame**. At these counts that is far
-  cheaper than tracking changes and means the view can never drift out of step with the snapshot —
-  but it is why there are no animations, since nothing persists between frames. Animation needs
-  `Drawn` keyed by card id across frames. Do that deliberately; do not "optimise" the rebuild away
-  without replacing the guarantee.
+- `Table3D.layout()` rebuilds every card's target placement **every frame**. At these counts that
+  is far cheaper than tracking changes and means the view can never drift out of step with the
+  snapshot. Animation sits on top without breaking that: the only thing persisted between frames
+  is each card's last drawn `Pose` (keyed by card id), eased towards the fresh target. Keep it that
+  way; do not "optimise" the rebuild away without replacing the guarantee.
 - Graveyard, exile and library are pads with counts, not browsable piles.
 - The seated camera is a fixed pose, not a true first-person head position.
 - Basic lands have no art (see TODO).

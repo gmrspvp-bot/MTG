@@ -91,6 +91,38 @@ public final class Table3D extends ApplicationAdapter {
     private final List<Drawn> drawn = new ArrayList<>();
     private Drawn hovered;
 
+    /**
+     * Animation without giving up the per-frame rebuild. layout() still works out every card's
+     * TARGET pose from the snapshot each frame, so the view always converges on the true state;
+     * what persists between frames is only where each card was last DRAWN, keyed by card id.
+     * Every frame each card eases from there towards its target. That turns tapping into a
+     * quarter-turn and makes a card slide when it changes row or zone (hand -> stack ->
+     * battlefield keeps its id), with no change-tracking anywhere else.
+     */
+    private static final class Pose {
+        float x, y, z, yaw, tilt;
+        int seen;
+    }
+
+    private final java.util.Map<Integer, Pose> poses = new java.util.HashMap<>();
+    private float frameDt;
+    private int frameNo;
+    /** Ease rates, per second: about 0.25 s to finish a tap, a little longer to cross the table. */
+    private static final float TURN_RATE = 14f, MOVE_RATE = 9f;
+
+    /** Moves p a frame's worth towards the target; returns p. Yaw takes the short way round. */
+    private Pose ease(Pose p, float x, float y, float z, float yaw, float tilt) {
+        float m = 1f - (float) Math.exp(-MOVE_RATE * frameDt);
+        float t = 1f - (float) Math.exp(-TURN_RATE * frameDt);
+        p.x += (x - p.x) * m;
+        p.y += (y - p.y) * m;
+        p.z += (z - p.z) * m;
+        float dYaw = ((yaw - p.yaw) % 360f + 540f) % 360f - 180f;
+        p.yaw += dYaw * t;
+        p.tilt += (tilt - p.tilt) * t;
+        return p;
+    }
+
     /** 0 = fully seated, 1 = fully overhead. Everything about the camera follows this. */
     private float lift = 0f;
     private float liftTarget = 0f;
@@ -219,7 +251,13 @@ public final class Table3D extends ApplicationAdapter {
 
         handleInput();
         updateCamera(Gdx.graphics.getDeltaTime());
+        frameDt = Math.min(Gdx.graphics.getDeltaTime(), 0.1f);   // a stall must not fling cards
+        frameNo++;
         layout();
+        // Cards not drawn this frame have left the view; forget them, so one that comes back
+        // (a commander recast, a card returned to hand) appears where it is instead of flying in
+        // from where it was last seen.
+        poses.values().removeIf(p -> p.seen != frameNo);
         pick();
 
         Gdx.gl.glClearColor(0.02f, 0.05f, 0.08f, 1f);
@@ -245,6 +283,36 @@ public final class Table3D extends ApplicationAdapter {
         if (search != null) {
             search.update(Gdx.graphics.getDeltaTime());
             search.render(ui, shapes, font, fontBig);
+        }
+        maybeShoot();
+    }
+
+    /**
+     * -Dforge.ui3d.shots=<dir>: save the frame as a PNG every forge.ui3d.shotEvery seconds (default
+     * 0.5). Lets a change to the view be checked without anyone looking at the screen: an agent
+     * cannot see the window, and Windows screen capture misses this GL surface (it comes out
+     * white). Off unless the property is set.
+     */
+    private static final String SHOTS = System.getProperty("forge.ui3d.shots");
+    private static final float SHOT_EVERY = Float.parseFloat(System.getProperty("forge.ui3d.shotEvery", "0.5"));
+    private float shotClock;
+    private int shotNo;
+
+    private void maybeShoot() {
+        if (SHOTS == null) return;
+        shotClock += Gdx.graphics.getDeltaTime();
+        if (shotClock < SHOT_EVERY) return;
+        shotClock = 0f;
+        try {
+            int w = Gdx.graphics.getBackBufferWidth(), h = Gdx.graphics.getBackBufferHeight();
+            com.badlogic.gdx.graphics.Pixmap pm = com.badlogic.gdx.graphics.Pixmap.createFromFrameBuffer(0, 0, w, h);
+            java.nio.ByteBuffer px = pm.getPixels();
+            for (int i = 3; i < px.limit(); i += 4) px.put(i, (byte) 255);   // the back buffer's alpha isn't meaningful
+            com.badlogic.gdx.graphics.PixmapIO.writePNG(Gdx.files.absolute(SHOTS + "/shot" + String.format("%03d", shotNo++) + ".png"),
+                pm, java.util.zip.Deflater.BEST_SPEED, true);
+            pm.dispose();
+        } catch (Throwable t) {
+            System.out.println("UI3D: screenshot failed (" + t + ")");
         }
     }
 
@@ -578,10 +646,25 @@ public final class Table3D extends ApplicationAdapter {
         d.inst = new ModelInstance(m);
         d.card = c;
         d.seat = seat;
-        d.inst.transform.setToTranslation(x, y, z).rotate(Vector3.Y, yawDeg);
+        // Where to draw it this frame: eased from where it was drawn last frame (see Pose). A new
+        // card starts at its target; a second copy of an id in the same frame (an ability on the
+        // stack shares its source's id) is drawn at its target without disturbing the first.
+        Pose p = poses.get(c.id);
+        if (p == null) {
+            p = new Pose();
+            p.x = x; p.y = y; p.z = z; p.yaw = yawDeg; p.tilt = tiltDeg;
+            poses.put(c.id, p);
+        } else if (p.seen == frameNo) {
+            p = new Pose();
+            p.x = x; p.y = y; p.z = z; p.yaw = yawDeg; p.tilt = tiltDeg;
+        } else {
+            ease(p, x, y, z, yawDeg, tiltDeg);
+        }
+        p.seen = frameNo;
+        d.inst.transform.setToTranslation(p.x, p.y, p.z).rotate(Vector3.Y, p.yaw);
         // Tilting is what makes a card readable when it is not lying on the table: the hand is
         // fanned up towards its owner, stack items stand fully upright facing the viewer.
-        if (tiltDeg != 0f) d.inst.transform.rotate(Vector3.X, tiltDeg);
+        if (Math.abs(p.tilt) > 0.01f) d.inst.transform.rotate(Vector3.X, p.tilt);
         d.inst.calculateBoundingBox(d.bounds);
         d.bounds.mul(d.inst.transform);
 
