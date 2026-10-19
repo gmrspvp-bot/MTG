@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - hanging stadium scoreboard (four-faced, above the stack, fades out overhead) | dmara's Claude | 2026-10-20 | `Table3D`: new `scoreboard` methods/models, one call in `render()`, create/dispose lines. No camera/input or phase strip (Xenil's claim) - shows turn + life only, no phase. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

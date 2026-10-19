@@ -238,8 +238,7 @@ before you start, and push the claim before writing code.
 - [x] **Mouse camera** (2026-10-20): right-drag orbits freely (left is kept for stage 3 clicks), wheel zooms 0.55-1.7x when no panel has the wheel, DOWN / HOME resets both. Not exercised by an automated test (needs real mouse input).
 - [x] **Window size and position remembered** (2026-10-20): `WindowMemory`, in the user's Java preferences (HKCU registry, nothing in the repo), saved every ~2 s on change because the window thread is a daemon and never disposes when Forge exits. Tested: moved/resized demo window reopened in the same place.
 - [x] Face-down and morphed cards render as backs, and carry no identifying data at all
-- [ ] A hanging "stadium" scoreboard, as an addition to the four centre monitors rather than a
-      replacement.
+- [x] **Stadium scoreboard** (2026-10-20): a jumbotron hanging over the stack (y 5.4), one 3.6 x 1.35 face turned to each seat (an n-sided ring; a body box behind them at 4 seats), each showing the turn and every player's life - active in gold on a lit band, you in cyan, "> " on priority. Phase deliberately left to the phase strip. A FrameBuffer texture redrawn only when a total changes; drawn unlit like a screen; fades out as the camera lifts, so the overhead view is clear. The four table monitors stay (they carry commander damage). `drawScoreboard` / `refreshScoreboard` in `Table3D`.
 
 - [ ] **Phase panel, next steps.** It lists the steps and carries the follow-turn tickbox; it does
       not show priority, stack depth, or who has passed - the things you actually wait on in a

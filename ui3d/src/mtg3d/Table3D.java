@@ -220,6 +220,7 @@ public final class Table3D extends ApplicationAdapter {
         // a different kind of zone from the blue library/graveyard/exile pads.
         commandPadModel = builder.createBox(CARD_W + 0.24f, 0.02f, CARD_H + 0.24f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.21f, 0.10f, 1f))), attrs);
+        createScoreboard(attrs);
 
         // A flat quad for the card picture. Corner order sets the UVs: libGDX puts the top of the
         // image along the corner11/corner01 edge, so that edge goes at -Z, which is "away from the
@@ -297,6 +298,7 @@ public final class Table3D extends ApplicationAdapter {
             else modelBatch.render(d.inst, env);
         }
         modelBatch.end();
+        drawScoreboard();
         drawCombatArcs();
 
         drawOverlay();
@@ -853,6 +855,163 @@ public final class Table3D extends ApplicationAdapter {
             d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
         }
         drawn.add(d);
+    }
+
+    // ---- stadium scoreboard ---------------------------------------------------------------------
+
+    /**
+     * A jumbotron hanging over the middle of the table, above the stack bar: one face turned to
+     * each seat, all showing the same board - the turn, and every player's life, the active
+     * player in gold, your own row in cyan, "> " on whoever holds priority. It adds to the four
+     * little monitors on the table (which carry commander damage too) rather than replacing them:
+     * this is the at-a-glance read from your chair, the way a scoreboard is in a stadium.
+     *
+     * The faces are a FrameBuffer texture, redrawn only when something on it changes. They are
+     * drawn unlit, like a screen, and the whole thing fades out as the camera lifts overhead -
+     * from up there it would sit right in the middle of the view, and the overhead pose already
+     * shows everything. Height chosen so the bottom clears the stack's raised top card and the top
+     * stays inside the seated camera's view.
+     */
+    private static final float SB_Y = 5.4f, SB_FACE_W = 3.6f, SB_FACE_H = 1.35f;
+    private static final int SB_TEX_W = 720, SB_TEX_H = 270;     // the face's own proportions
+    private com.badlogic.gdx.graphics.glutils.FrameBuffer sbBuffer;
+    private Model sbFaceModel, sbBodyModel;
+    private BitmapFont sbFont;
+    private String sbKey = "";
+
+    private void createScoreboard(int attrs) {
+        try {
+            sbBuffer = new com.badlogic.gdx.graphics.glutils.FrameBuffer(
+                com.badlogic.gdx.graphics.Pixmap.Format.RGBA8888, SB_TEX_W, SB_TEX_H, false);
+        } catch (Throwable t) {
+            sbBuffer = null;     // no FBO support: no scoreboard, everything else unaffected
+            return;
+        }
+        // A FrameBuffer's texture comes out upside down when sampled; the flipped region fixes it.
+        com.badlogic.gdx.graphics.g2d.TextureRegion region =
+            new com.badlogic.gdx.graphics.g2d.TextureRegion(sbBuffer.getColorBufferTexture());
+        region.flip(false, true);
+        // Corner order as for faceModel: corner11/corner01 is the top of the image.
+        sbFaceModel = builder.createRect(
+            -SB_FACE_W / 2f, -SB_FACE_H / 2f, 0f,
+             SB_FACE_W / 2f, -SB_FACE_H / 2f, 0f,
+             SB_FACE_W / 2f,  SB_FACE_H / 2f, 0f,
+            -SB_FACE_W / 2f,  SB_FACE_H / 2f, 0f,
+            0f, 0f, 1f,
+            new Material(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(region),
+                new com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute(1f)),
+            Usage.Position | Usage.Normal | Usage.TextureCoordinates);
+        sbBodyModel = builder.createBox(SB_FACE_W - 0.08f, SB_FACE_H + 0.16f, SB_FACE_W - 0.08f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.03f, 0.05f, 0.08f, 1f)),
+                new com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute(1f)), attrs);
+        sbFont = new BitmapFont();
+        sbFont.getRegion().getTexture().setFilter(
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear,
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear);
+    }
+
+    private void drawScoreboard() {
+        int n = snap.seats.size();
+        if (n == 0 || sbBuffer == null) return;
+        float alpha = 1f - smooth(lift);
+        if (alpha < 0.02f) return;
+        refreshScoreboard();
+
+        // Faces round the centre: for n seats an n-sided ring whose sides are the faces.
+        // Plus a little, so the 8-degree tip does not swing the bottom edge into the body.
+        float r = (n >= 3 ? (float) (SB_FACE_W / 2f / Math.tan(Math.PI / n)) : 0.1f) + 0.12f;
+        modelBatch.begin(cam);
+        if (n == 4) {
+            ModelInstance body = new ModelInstance(sbBodyModel);
+            body.transform.setToTranslation(0f, SB_Y, 0f);
+            opacity(body, alpha);
+            modelBatch.render(body, env);
+        }
+        for (int i = 0; i < n; i++) {
+            float angle = seatAngle(i, n);
+            Vector3 w = rotateY(0f, r, angle);
+            ModelInstance face = new ModelInstance(sbFaceModel);
+            // Turned to face the seat, and tipped a few degrees down towards a seated player.
+            face.transform.setToTranslation(w.x, SB_Y, w.z)
+                .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
+                .rotate(Vector3.X, 8f);
+            opacity(face, alpha);
+            modelBatch.render(face);      // no environment: unlit, like a screen
+        }
+        modelBatch.end();
+    }
+
+    private static void opacity(ModelInstance inst, float a) {
+        com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute b =
+            (com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute)
+                inst.materials.get(0).get(com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute.Type);
+        if (b != null) b.opacity = a;
+    }
+
+    /** Redraws the scoreboard texture, but only when what it shows has changed. */
+    private void refreshScoreboard() {
+        StringBuilder k = new StringBuilder(snap.turnLabel);
+        for (Snapshot.SeatV s : snap.seats) {
+            k.append('|').append(s.name).append(':').append(s.life)
+             .append(s.active ? 'A' : '-').append(s.isYou ? 'Y' : '-').append(s.hasPriority ? 'P' : '-');
+        }
+        String key = k.toString();
+        if (key.equals(sbKey)) return;
+        sbKey = key;
+
+        sbBuffer.begin();
+        Gdx.gl.glClearColor(0.025f, 0.055f, 0.09f, 1f);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        Matrix4 m = new Matrix4().setToOrtho2D(0, 0, SB_TEX_W, SB_TEX_H);
+
+        int n = snap.seats.size();
+        float head = 54f;
+        float rowH = (SB_TEX_H - head - 14f) / Math.max(1, n);
+        shapes.setProjectionMatrix(m);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.85f, 0.62f, 0.22f, 1f);                       // gold rim, top and bottom
+        shapes.rect(0, SB_TEX_H - 8f, SB_TEX_W, 8f);
+        shapes.rect(0, 0, SB_TEX_W, 8f);
+        for (int i = 0; i < n; i++) {                                    // a lit band for the active row
+            if (!snap.seats.get(i).active) continue;
+            shapes.setColor(0.20f, 0.15f, 0.05f, 1f);
+            shapes.rect(10f, SB_TEX_H - head - (i + 1) * rowH, SB_TEX_W - 20f, rowH - 4f);
+        }
+        shapes.end();
+
+        // Keep the texture's own alpha opaque where text is drawn, so letters do not punch holes.
+        ui.setBlendFunctionSeparate(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA, GL20.GL_ONE, GL20.GL_ONE);
+        ui.setProjectionMatrix(m);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        String turn = snap.turnLabel;
+        int dash = turn.indexOf(" - ");
+        if (dash > 0) turn = turn.substring(0, dash);
+        sbFont.getData().setScale(2.8f);
+        sbFont.setColor(0.98f, 0.82f, 0.45f, 1f);
+        gl.setText(sbFont, turn.toUpperCase());
+        sbFont.draw(ui, turn.toUpperCase(), (SB_TEX_W - gl.width) / 2f, SB_TEX_H - 13f);
+        // As big as a row allows: the face is only a couple of hundred pixels wide from the chair.
+        float nameScale = n > 4 ? 2.2f : 3.0f, lifeScale = n > 4 ? 2.6f : 3.4f;
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            float mid = SB_TEX_H - head - i * rowH - rowH / 2f;
+            Color c = s.active ? new Color(1f, 0.85f, 0.38f, 1f)
+                    : s.isYou ? new Color(0.62f, 0.95f, 1f, 1f)
+                    : new Color(0.80f, 0.86f, 0.92f, 1f);
+            sbFont.setColor(c);
+            sbFont.getData().setScale(nameScale);
+            String name = (s.hasPriority ? "> " : "   ") + s.name;
+            gl.setText(sbFont, name);
+            sbFont.draw(ui, name, 34f, mid + gl.height / 2f);
+            sbFont.getData().setScale(lifeScale);
+            String life = String.valueOf(s.life);
+            gl.setText(sbFont, life);
+            sbFont.draw(ui, life, SB_TEX_W - 40f - gl.width, mid + gl.height / 2f);
+        }
+        ui.end();
+        ui.setBlendFunction(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
+        sbBuffer.end();
     }
 
     // ---- combat arcs ----------------------------------------------------------------------------
@@ -1495,6 +1654,10 @@ public final class Table3D extends ApplicationAdapter {
         backModel.dispose();
         zoneModel.dispose();
         commandPadModel.dispose();
+        if (sbBuffer != null) sbBuffer.dispose();
+        if (sbFaceModel != null) sbFaceModel.dispose();
+        if (sbBodyModel != null) sbBodyModel.dispose();
+        if (sbFont != null) sbFont.dispose();
         bandCreature.dispose();
         bandOther.dispose();
         bandLand.dispose();
