@@ -56,7 +56,10 @@ public final class PlayHook {
         if (ThreatTracker.enabled) game.subscribeToEvents(new ThreatTracker(game));
         LogWriter writer = new LogWriter(game);
         game.subscribeToEvents(writer);
-        if (!"false".equals(System.getProperty("forge.turnbanner"))) game.subscribeToEvents(new TurnBanner(game));
+        if (!"false".equals(System.getProperty("forge.turnbanner"))) {
+            game.subscribeToEvents(new TurnBanner(game));
+            new ResponseWatcher(game);
+        }
         if (!"false".equals(System.getProperty("forge.rollback"))) {
             Rollback rb = new Rollback(game);
             game.subscribeToEvents(rb);
@@ -70,11 +73,95 @@ public final class PlayHook {
     }
 
     /**
-     * "YOUR TURN" banner: the user found it too easy to pass through their own turn by
-     * accident. At the start of each of the human player's turns a large banner shows over
-     * the Forge window for a few seconds (it doesn't take focus or need a click), with a beep.
-     * -Dforge.turnbanner=false turns it off.
+     * Forge's main window: the largest showing Frame. Banners and dialogs are placed on it
+     * rather than on the primary screen, which is where they used to appear after the game
+     * window had been dragged to a second monitor.
      */
+    public static java.awt.Window forgeFrame() {
+        java.awt.Window best = null;
+        long bestArea = -1;
+        for (java.awt.Window w : java.awt.Window.getWindows()) {
+            if (!(w instanceof java.awt.Frame) || !w.isShowing()) continue;
+            long area = (long) w.getWidth() * w.getHeight();
+            if (area > bestArea) { bestArea = area; best = w; }
+        }
+        return best;
+    }
+
+    /**
+     * The big on-screen banners. Two of them:
+     *
+     *   "YOUR TURN (n)"     at the start of each of the human's own turns, because it was too
+     *                       easy to pass through a whole turn by accident.
+     *   "YOUR RESPONSE"     when the human has held priority on someone ELSE'S turn for ten
+     *                       seconds. In four-player games it is easy not to notice the game is
+     *                       waiting on you to respond, so this says so and reminds you that
+     *                       space passes.
+     *
+     * Both are click-to-dismiss (the owner wanted to acknowledge them rather than have them
+     * vanish on their own) with a long auto-close as a safety net, and both are non-focusable,
+     * so clicking one never pulls keyboard focus away from the board.
+     */
+    static javax.swing.JWindow visibleBanner;
+
+    static void showBanner(String text, String hint, java.awt.Color bg, int autoCloseMs) {
+        try {
+            if (visibleBanner != null) { visibleBanner.dispose(); visibleBanner = null; }
+            java.awt.Toolkit.getDefaultToolkit().beep();
+            final javax.swing.JWindow w = new javax.swing.JWindow();
+            w.setFocusableWindowState(false);
+            w.setAlwaysOnTop(true);
+
+            javax.swing.JLabel label = new javax.swing.JLabel(text, javax.swing.SwingConstants.CENTER);
+            label.setFont(new java.awt.Font(java.awt.Font.SANS_SERIF, java.awt.Font.BOLD, 54));
+            label.setForeground(java.awt.Color.WHITE);
+            javax.swing.JLabel sub = new javax.swing.JLabel(hint, javax.swing.SwingConstants.CENTER);
+            sub.setFont(new java.awt.Font(java.awt.Font.SANS_SERIF, java.awt.Font.PLAIN, 16));
+            sub.setForeground(new java.awt.Color(235, 235, 210));
+
+            javax.swing.JPanel panel = new javax.swing.JPanel(new java.awt.BorderLayout(0, 6));
+            panel.setBackground(bg);
+            panel.setBorder(javax.swing.BorderFactory.createCompoundBorder(
+                javax.swing.BorderFactory.createLineBorder(new java.awt.Color(250, 210, 60), 6),
+                javax.swing.BorderFactory.createEmptyBorder(10, 16, 12, 16)));
+            panel.add(label, java.awt.BorderLayout.CENTER);
+            panel.add(sub, java.awt.BorderLayout.SOUTH);
+            w.setContentPane(panel);
+
+            java.awt.event.MouseAdapter dismiss = new java.awt.event.MouseAdapter() {
+                @Override public void mousePressed(java.awt.event.MouseEvent e) {
+                    w.dispose();
+                    if (visibleBanner == w) visibleBanner = null;
+                }
+            };
+            panel.addMouseListener(dismiss);
+            label.addMouseListener(dismiss);
+            sub.addMouseListener(dismiss);
+            panel.setCursor(java.awt.Cursor.getPredefinedCursor(java.awt.Cursor.HAND_CURSOR));
+
+            w.setSize(680, 160);
+            java.awt.Window f = forgeFrame();
+            if (f == null) {
+                java.awt.Rectangle s = java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds();
+                w.setLocation(s.x + (s.width - 680) / 2, s.y + s.height / 4);
+            } else {
+                w.setLocation(f.getX() + (f.getWidth() - 680) / 2, f.getY() + f.getHeight() / 4);
+            }
+            w.setVisible(true);
+            visibleBanner = w;
+
+            javax.swing.Timer t = new javax.swing.Timer(autoCloseMs, e -> {
+                w.dispose();
+                if (visibleBanner == w) visibleBanner = null;
+            });
+            t.setRepeats(false);
+            t.start();
+        } catch (Throwable t) {
+            // a missing banner must never break the game
+        }
+    }
+
+    /** -Dforge.turnbanner=false turns both banners off. */
     public static final class TurnBanner {
         private final Game game;
         private int ownTurns = 0;
@@ -86,40 +173,66 @@ public final class PlayHook {
             if (!(ev instanceof forge.game.event.GameEventTurnBegan)) return;
             try {
                 Player p = game.getPhaseHandler().getPlayerTurn();
-                if (p == null || p.getController() instanceof forge.ai.PlayerControllerAi) return;
+                if (p == null || !isGuiHuman(p)) return;
                 ownTurns++;
                 final String text = "YOUR TURN  (" + ownTurns + ")";
-                javax.swing.SwingUtilities.invokeLater(() -> show(text));
+                javax.swing.SwingUtilities.invokeLater(
+                    () -> showBanner(text, "click to dismiss", new java.awt.Color(25, 110, 60), 10000));
             } catch (Throwable t) {
                 // never break the game
             }
         }
+    }
 
-        private static void show(String text) {
+    /** Is this the human player THIS client is controlling (not an AI, and not the other human)? */
+    static boolean isGuiHuman(Player p) {
+        Object c = p.getController();
+        if (!(c instanceof forge.player.PlayerControllerHuman)) return false;
+        try {
+            return ((forge.player.PlayerControllerHuman) c).isGuiPlayer();
+        } catch (Throwable t) {
+            return true;
+        }
+    }
+
+    /**
+     * Watches for the human holding priority on somebody else's turn. Polling once a second is
+     * enough and avoids hooking every path that grants priority; the banner fires once per spell
+     * of waiting, and is re-armed as soon as priority moves on.
+     */
+    public static final class ResponseWatcher {
+        private final Game game;
+        private long waitingSince = 0;
+        private boolean shown = false;
+
+        ResponseWatcher(Game game) {
+            this.game = game;
+            javax.swing.Timer t = new javax.swing.Timer(1000, e -> tick());
+            t.start();
+        }
+
+        private void tick() {
             try {
-                java.awt.Toolkit.getDefaultToolkit().beep();
-                javax.swing.JWindow w = new javax.swing.JWindow();
-                w.setFocusableWindowState(false);
-                w.setAlwaysOnTop(true);
-                javax.swing.JLabel label = new javax.swing.JLabel(text, javax.swing.SwingConstants.CENTER);
-                label.setFont(new java.awt.Font(java.awt.Font.SANS_SERIF, java.awt.Font.BOLD, 54));
-                label.setForeground(java.awt.Color.WHITE);
-                label.setOpaque(true);
-                label.setBackground(new java.awt.Color(25, 110, 60));
-                label.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(250, 210, 60), 6));
-                w.getContentPane().add(label);
-                w.setSize(620, 130);
-                java.awt.Rectangle screen = java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds();
-                w.setLocation(screen.x + (screen.width - 620) / 2, screen.y + screen.height / 4);
-                w.setVisible(true);
-                javax.swing.Timer t = new javax.swing.Timer(2500, e -> w.dispose());
-                t.setRepeats(false);
-                t.start();
+                if (game.isGameOver()) return;
+                forge.game.phase.PhaseHandler ph = game.getPhaseHandler();
+                Player prio = ph.getPriorityPlayer();
+                // Only when it is NOT our turn: on our own turn the YOUR TURN banner covers it.
+                boolean ours = prio != null && isGuiHuman(prio) && ph.getPlayerTurn() != prio;
+                if (!ours) { waitingSince = 0; shown = false; return; }
+                if (waitingSince == 0) { waitingSince = System.currentTimeMillis(); return; }
+                if (shown || System.currentTimeMillis() - waitingSince < RESPONSE_DELAY_MS) return;
+                shown = true;
+                showBanner("YOUR RESPONSE", "space bar passes  ·  click to dismiss",
+                    new java.awt.Color(150, 85, 15), 15000);
             } catch (Throwable t) {
-                // a missing banner must never break the game
+                // never break the game
             }
         }
     }
+
+    /** How long the human may hold priority on another player's turn before we say so. */
+    static final long RESPONSE_DELAY_MS =
+        Long.getLong("forge.responsebanner.ms", 10000L);
 
     /**
      * "Restart this phase" button (desktop Forge's Rollback Phase only exists in the mobile UI,

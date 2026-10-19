@@ -41,8 +41,6 @@ public class EvalCacheAgent {
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
         {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
-        {"forge/screens/match/controllers/CPrompt", "setMessage",
-         "(Ljava/lang/String;Lforge/game/card/CardView;)V", "PromptHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {

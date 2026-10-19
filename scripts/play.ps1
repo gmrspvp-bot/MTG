@@ -13,9 +13,6 @@ param(
     [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave',
     [string] $AiProfile = 'Realistic',
     [int] $HeapMB = 4096,
-    # Floating always-on-top copy of the prompt (see PromptWindow.java in scripts/tools).
-    # -PromptWindow:$false leaves Forge's own docked prompt as the only one.
-    [bool] $PromptWindow = $true,
     # Forge skin. 'Jarvis' is ours (scripts/make-jarvis-skin.ps1), built on first use.
     # -Skin Default restores Forge's own look; the skin can also be changed inside Forge.
     [string] $Skin = 'Jarvis'
@@ -151,7 +148,7 @@ $logDir = Join-Path $root 'scratch\play-logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $launcher = 'SimLauncher'
 $argLine = "-Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
-           "-Dforge.aipatches=$AiPatches -Dforge.promptwindow=$($PromptWindow.ToString().ToLower()) -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
+           "-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
 Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `
     -RedirectStandardOutput $log -RedirectStandardError "$log.err" -WindowStyle Hidden | Out-Null
