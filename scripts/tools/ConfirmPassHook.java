@@ -34,7 +34,11 @@ public final class ConfirmPassHook {
         askedAbout = -1;
         try {
             forge.player.PlayerControllerHuman pc = (forge.player.PlayerControllerHuman) getController.invoke(input);
-            why = reason(pc.getPlayer());
+            // Only ever ask about the player THIS client controls. When one machine hosts a
+            // network game, inputs for the other human are built in this JVM too, so without
+            // this check the host was shown the other player's decisions - including a
+            // counterspell reminder that named a card in their opponent's hand.
+            if (pc.isGuiPlayer()) why = reason(pc.getPlayer());
         } catch (Throwable t) {
             why = null;   // never block passing because of our own error
         }
@@ -107,19 +111,16 @@ public final class ConfirmPassHook {
         return "You're about to " + where + ", but " + String.join(" and ", notes) + ".\n\nPass anyway?";
     }
 
+    /**
+     * Asked inside the floating prompt window rather than in a JOptionPane of its own. The owner
+     * did not want two different-looking prompts on screen, and a separate dialog also opened on
+     * the primary monitor instead of wherever Forge had been moved to.
+     */
     static boolean confirm(String text) {
-        final boolean[] yes = { true };
-        // Parent on Forge's own window, not null: a null parent centres the dialog on the
-        // PRIMARY monitor, so after moving the game to a second screen it kept popping up back
-        // on the main one.
-        Runnable ask = () -> yes[0] = javax.swing.JOptionPane.showConfirmDialog(PromptWindow.forgeFrame(), text, "Pass priority?",
-            javax.swing.JOptionPane.YES_NO_OPTION, javax.swing.JOptionPane.WARNING_MESSAGE) == javax.swing.JOptionPane.YES_OPTION;
         try {
-            if (javax.swing.SwingUtilities.isEventDispatchThread()) ask.run();
-            else javax.swing.SwingUtilities.invokeAndWait(ask);
+            return PromptWindow.ask(text);
         } catch (Throwable t) {
-            return true;
+            return true;   // never block passing because of our own error
         }
-        return yes[0];
     }
 }

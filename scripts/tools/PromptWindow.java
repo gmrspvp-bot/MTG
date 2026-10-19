@@ -58,6 +58,14 @@ public final class PromptWindow {
 
     private static volatile Object prompt;          // forge.screens.match.controllers.CPrompt
     private static Point dragOffset;
+
+    /**
+     * Question mode. Our own confirmations (ConfirmPassHook's "pass anyway?") are asked inside
+     * this window instead of a separate JOptionPane, so there is only ever one prompt on screen
+     * and it is always in the same place and the same style. Non-null while a question is open.
+     */
+    private static volatile java.util.concurrent.CountDownLatch askLatch;
+    private static volatile boolean askAnswer;
     /** Where we sit relative to Forge's own window, so we follow it between monitors. */
     private static Point anchor;
 
@@ -102,8 +110,8 @@ public final class PromptWindow {
 
         mirrorOk = styled(new JButton("OK"));
         mirrorCancel = styled(new JButton("Cancel"));
-        mirrorOk.addActionListener(e -> click(true));
-        mirrorCancel.addActionListener(e -> click(false));
+        mirrorOk.addActionListener(e -> { if (askLatch != null) answer(true); else click(true); });
+        mirrorCancel.addActionListener(e -> { if (askLatch != null) answer(false); else click(false); });
 
         JPanel buttons = new JPanel(new GridLayout(1, 2, 6, 0));
         buttons.setOpaque(false);
@@ -220,6 +228,48 @@ public final class PromptWindow {
         } catch (Throwable ignored) { }
     }
 
+    /**
+     * Asks a yes/no question in this window and blocks until it is answered, so our own
+     * confirmations look and sit exactly like every other prompt. Called from the game thread;
+     * falls back to a dialog parented on Forge's window if this window does not exist yet, or if
+     * we are on the EDT (where blocking would deadlock the UI).
+     */
+    public static boolean ask(String text) {
+        if (window == null || SwingUtilities.isEventDispatchThread()) {
+            return javax.swing.JOptionPane.showConfirmDialog(forgeFrame(), text, "Forge",
+                javax.swing.JOptionPane.YES_NO_OPTION,
+                javax.swing.JOptionPane.WARNING_MESSAGE) == javax.swing.JOptionPane.YES_OPTION;
+        }
+        java.util.concurrent.CountDownLatch latch = new java.util.concurrent.CountDownLatch(1);
+        askAnswer = true;                 // if anything goes wrong, behave as "yes" (pass anyway)
+        askLatch = latch;
+        String html = "<html><b>" + text.replace("&", "&amp;").replace("<", "&lt;")
+            .replace("\n\n", "<br><br>").replace("\n", "<br>") + "</b></html>";
+        SwingUtilities.invokeLater(() -> {
+            message.setText(html);
+            mirrorOk.setText("Yes");
+            mirrorCancel.setText("No");
+            mirrorOk.setEnabled(true);
+            mirrorCancel.setEnabled(true);
+            mirrorOk.setVisible(true);
+            mirrorCancel.setVisible(true);
+            paint(true);
+        });
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        return askAnswer;
+    }
+
+    private static void answer(boolean yes) {
+        askAnswer = yes;
+        java.util.concurrent.CountDownLatch latch = askLatch;
+        askLatch = null;
+        if (latch != null) latch.countDown();
+    }
+
     private static void click(boolean ok) {
         JButton real = realButton(ok);
         if (real != null && real.isEnabled()) SwingUtilities.invokeLater(real::doClick);
@@ -239,6 +289,7 @@ public final class PromptWindow {
     /** Mirror the live prompt: message text, button labels and enabled state, and track Forge. */
     private static void refresh() {
         reposition();
+        if (askLatch != null) return;     // a question is open; don't overwrite it with the prompt
         Object p = prompt;
         if (p == null) return;
         try {

@@ -36,19 +36,19 @@ Copy-Item -Recurse -Force $source $target
 # --- the palette -------------------------------------------------------------------------------
 # y position in bg_splash.png -> the colour Forge reads from it.
 $palette = [ordered]@{
-    '10'  = '#05131C'   # CLR_THEME                     main panel background
-    '30'  = '#1C5D73'   # CLR_BORDERS                   panel edges and dividers
-    '50'  = '#0A2231'   # CLR_ZEBRA                     alternating list rows
-    '70'  = '#10405A'   # CLR_HOVER                     mouse-over highlight
-    '90'  = '#6FE3FF'   # CLR_ACTIVE                    selected tab / active text
-    '110' = '#061826'   # CLR_INACTIVE                  unselected tab
-    '130' = '#9FE8FF'   # CLR_TEXT                      body text
-    '150' = '#06202E'   # CLR_PHASE_INACTIVE_ENABLED
-    '170' = '#09161D'   # CLR_PHASE_INACTIVE_DISABLED
-    '190' = '#17809E'   # CLR_PHASE_ACTIVE_ENABLED      the lit phase box
-    '210' = '#0B3242'   # CLR_PHASE_ACTIVE_DISABLED
-    '230' = '#082A3A'   # CLR_THEME2                    secondary panels
-    '250' = '#0A2634'   # CLR_OVERLAY                   dimming overlay
+    '10'  = '#0A2033'   # CLR_THEME                     main panel background
+    '30'  = '#2F8FB5'   # CLR_BORDERS                   panel edges and dividers
+    '50'  = '#10304A'   # CLR_ZEBRA                     alternating list rows
+    '70'  = '#1C5A80'   # CLR_HOVER                     mouse-over highlight
+    '90'  = '#7FE9FF'   # CLR_ACTIVE                    selected tab / active text
+    '110' = '#0B2336'   # CLR_INACTIVE                  unselected tab
+    '130' = '#BFF2FF'   # CLR_TEXT                      body text
+    '150' = '#0E3A52'   # CLR_PHASE_INACTIVE_ENABLED
+    '170' = '#0A1F2B'   # CLR_PHASE_INACTIVE_DISABLED
+    '190' = '#28B6E0'   # CLR_PHASE_ACTIVE_ENABLED      the lit phase box
+    '210' = '#124A5E'   # CLR_PHASE_ACTIVE_DISABLED
+    '230' = '#0E3550'   # CLR_THEME2                    secondary panels
+    '250' = '#0A2A3E'   # CLR_OVERLAY                   dimming overlay
     '270' = '#FFA62B'   # CLR_COMBAT_TARGETING_ARROW    amber: attacks
     '290' = '#38C6F4'   # CLR_NORMAL_TARGETING_ARROW    cyan: targeting
     '310' = '#C86BFF'   # CLR_PWATTK_TARGETING_ARROW    violet: planeswalker attacks
@@ -97,7 +97,8 @@ foreach ($file in $splashes) {
 
 # --- background textures -----------------------------------------------------------------------
 # Desaturate to luminance, then tint towards cyan and darken, so the table reads as a HUD.
-function Set-Tint([string] $path, [double] $tr, [double] $tg, [double] $tb, [double] $gain) {
+function Set-Tint([string] $path, [double] $tr, [double] $tg, [double] $tb, [double] $gain,
+                  [double] $or = 0.0, [double] $og = 0.0, [double] $ob = 0.0) {
     if (-not (Test-Path $path)) { return }
     $bytes = [IO.File]::ReadAllBytes($path)
     $ms    = New-Object IO.MemoryStream(,$bytes)
@@ -111,6 +112,9 @@ function Set-Tint([string] $path, [double] $tr, [double] $tg, [double] $tb, [dou
     $m.Matrix10 = 0.59 * $tr * $gain; $m.Matrix11 = 0.59 * $tg * $gain; $m.Matrix12 = 0.59 * $tb * $gain
     $m.Matrix20 = 0.11 * $tr * $gain; $m.Matrix21 = 0.11 * $tg * $gain; $m.Matrix22 = 0.11 * $tb * $gain
     $m.Matrix33 = 1.0; $m.Matrix44 = 1.0
+    # Row 4 is a translation: lifts the near-black source off the floor so it reads as
+    # navy rather than simply dark. Without it a luminance tint of a dark image stays dark.
+    $m.Matrix40 = $or; $m.Matrix41 = $og; $m.Matrix42 = $ob
 
     $ia = New-Object System.Drawing.Imaging.ImageAttributes
     $ia.SetColorMatrix($m)
@@ -127,7 +131,7 @@ function Set-Tint([string] $path, [double] $tr, [double] $tg, [double] $tb, [dou
 }
 
 foreach ($bg in @('bg_texture.jpg', 'bg_match.jpg', 'bg_day.jpg', 'bg_night.jpg')) {
-    Set-Tint (Join-Path $target $bg) 0.35 0.75 1.00 0.80
+    Set-Tint (Join-Path $target $bg) 0.30 0.72 1.10 1.30 0.010 0.055 0.105
 }
 
 Write-Host ""
