@@ -30,6 +30,8 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - drop the auto-follow camera; phase strip overlay | Xenil's Claude | 2026-10-20 | `Table3D` **camera/input and a new overlay method only** - not placement or decoration, which is dmara's Claude's claim on the same file. Plus `Snapshot.phaseKey` + the line setting it in `StateReader`. |
+| `ui3d` - attachments sit against their host; P/T and counter badges on real-art cards | dmara's Claude | 2026-10-20 | `Table3D` placement/decoration. Plus one additive field `CardV.attachedToId` in `Snapshot` and the line that fills it in `StateReader.card()` - nothing else in those two. |
 
 ## Not claimed, and worth knowing about
 
@@ -40,4 +42,3 @@ These are areas the two of us keep touching, so check here before a big change:
   changing behaviour for everyone (see `-Skin`, `-Ui3d`).
 - `decks\*.dck` — never delete or overwrite someone else's deck; improvements are a new `vN`.
 - `ui3d\` — the second owner's 3D UI. Has its own TODO in `ui3d\README.md`.
-| `ui3d` - attachments sit against their host; P/T and counter badges on real-art cards | dmara's Claude | 2026-10-20 | `Table3D` placement/decoration. Plus one additive field `CardV.attachedToId` in `Snapshot` and the line that fills it in `StateReader.card()` - nothing else in those two. |
