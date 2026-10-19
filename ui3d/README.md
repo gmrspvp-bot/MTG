@@ -72,7 +72,10 @@ a client, so it should not begin until stages 1–2 feel right to play alongside
 
 ## Known limits right now
 
-- Cards are coloured blocks, not card art. Colour is by kind: land, creature, commander, other.
+- Card art comes from Forge's own picture cache (`forge-data\cache\pics\cards`), which only holds
+  cards Forge has had reason to download - a few hundred, not all of Magic, and usually no basic
+  lands. A card with no cached picture stays a coloured block, by kind: land, creature, commander,
+  other. The HUD prints `art N loaded / M cached`; if M is 0 the cache was not found at all.
 - Only the battlefield and your own hand are drawn; graveyard, exile and the stack are counts only.
 - Nothing is clickable. Hover shows details; all input still goes to Forge's window.
 - The camera's seated pose is a fixed position, not a true first-person head position.

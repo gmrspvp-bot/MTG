@@ -31,6 +31,12 @@ public final class Demo {
             s.combat = (sec % 12) >= 7;
             s.phase = s.combat ? "Declare attackers" : "Main phase, precombat";
             s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
+            // During combat, the active seat's creatures attack, so the markers show up.
+            for (int i = 0; i < n; i++) {
+                for (Snapshot.CardV c : s.seats.get(i).nonlands) {
+                    c.attacking = s.combat && i == active && c.creature;
+                }
+            }
             return s;
         };
 
@@ -46,7 +52,7 @@ public final class Demo {
         Snapshot s = new Snapshot();
         s.turnLabel = "Turn 7 - Xenil";
         s.seats.add(seat("Xenil", 34, true, true,
-            new String[] { "Plains", "Plains", "Emeria, the Sky Ruin", "Sol Ring", "Secluded Courtyard" },
+            new String[] { "Plains", "Plains", "Emeria, the Sky Ruin", "Sol Ring", "Command Tower" },
             new String[] { "Seluma, Light of Aysen", "Lyra Dawnbringer", "Giada, Font of Hope", "Resplendent Angel" }));
         s.seats.add(seat("Captain", 28, false, false,
             new String[] { "Battlefield Forge", "Sacred Foundry", "Plains", "Mountain" },

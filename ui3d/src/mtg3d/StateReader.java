@@ -29,6 +29,18 @@ public final class StateReader {
             s.turnLabel = "Turn " + game.getPhaseHandler().getTurn() + (turn == null ? "" : " - " + turn.getName());
             s.combat = game.getCombat() != null;
 
+            // Who is attacking, so the table can mark them. Taken from the live Combat rather than
+            // from each card, because a card only knows it is attacking while combat exists.
+            java.util.Set<Integer> attackers = new java.util.HashSet<>();
+            try {
+                forge.game.combat.Combat combat = game.getCombat();
+                if (combat != null) {
+                    for (Card a : combat.getAttackersAndDefenders().keySet()) attackers.add(a.getId());
+                }
+            } catch (Throwable t) {
+                // no markers, rest of the view is unaffected
+            }
+
             Player you = guiPlayer(game);
             for (Player p : game.getRegisteredPlayers()) {
                 Snapshot.SeatV seat = new Snapshot.SeatV();
@@ -42,6 +54,7 @@ public final class StateReader {
                 seat.graveyardSize = count(p, ZoneType.Graveyard);
                 for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(c);
+                    v.attacking = attackers.contains(v.id);
                     if (v.land) seat.lands.add(v); else seat.nonlands.add(v);
                 }
                 s.seats.add(seat);

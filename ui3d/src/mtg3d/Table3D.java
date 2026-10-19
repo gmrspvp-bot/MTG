@@ -63,12 +63,18 @@ public final class Table3D extends ApplicationAdapter {
     private ShapeRenderer shapes;
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel;
+    private Model faceModel, attackModel;
     private ModelInstance tableInst;
     private final List<ModelInstance> seatPads = new ArrayList<>();
+    private CardArt art;
 
     /** One drawable card plus where it is, so the same list serves rendering and picking. */
     private static final class Drawn {
         ModelInstance inst;
+        /** The card picture, laid just above the body. Null when Forge has no art cached for it. */
+        ModelInstance face;
+        /** A slab under an attacking creature, so combat reads at a glance from the overhead pose. */
+        ModelInstance marker;
         BoundingBox bounds = new BoundingBox();
         Snapshot.CardV card;
         Snapshot.SeatV seat;
@@ -140,7 +146,22 @@ public final class Table3D extends ApplicationAdapter {
         commanderModel= box(new Color(0.92f, 0.55f, 0.25f, 1f), attrs);
         seatModel = builder.createBox(9.2f, 0.06f, 4.2f,
             new Material(ColorAttribute.createDiffuse(new Color(0.10f, 0.24f, 0.34f, 1f))), attrs);
+        attackModel = builder.createBox(CARD_W * 1.18f, 0.02f, CARD_H * 1.12f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.85f, 0.25f, 0.18f, 1f))), attrs);
 
+        // A flat quad for the card picture. Corner order sets the UVs: libGDX puts the top of the
+        // image along the corner11/corner01 edge, so that edge goes at -Z, which is "away from the
+        // seat" - i.e. the card reads the right way up to whoever is sitting there.
+        faceModel = builder.createRect(
+            -CARD_W / 2f, 0f,  CARD_H / 2f,
+             CARD_W / 2f, 0f,  CARD_H / 2f,
+             CARD_W / 2f, 0f, -CARD_H / 2f,
+            -CARD_W / 2f, 0f, -CARD_H / 2f,
+            0f, 1f, 0f,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE)),
+            Usage.Position | Usage.Normal | Usage.TextureCoordinates);
+
+        art = new CardArt(CardArt.defaultRoot());
         snap = source.get();
     }
 
@@ -160,6 +181,7 @@ public final class Table3D extends ApplicationAdapter {
     public void render() {
         Snapshot s = source.get();
         if (s != null) snap = s;
+        if (art != null) art.update();   // GL objects may only be made on this thread
 
         handleInput();
         updateCamera(Gdx.graphics.getDeltaTime());
@@ -173,7 +195,11 @@ public final class Table3D extends ApplicationAdapter {
         modelBatch.begin(cam);
         modelBatch.render(tableInst, env);
         for (ModelInstance p : seatPads) modelBatch.render(p, env);
-        for (Drawn d : drawn) modelBatch.render(d.inst, env);
+        for (Drawn d : drawn) {
+            if (d.marker != null) modelBatch.render(d.marker, env);
+            modelBatch.render(d.inst, env);
+            if (d.face != null) modelBatch.render(d.face, env);
+        }
         modelBatch.end();
 
         drawOverlay();
@@ -365,6 +391,20 @@ public final class Table3D extends ApplicationAdapter {
         d.inst.transform.setToTranslation(x, y, z).rotate(Vector3.Y, yawDeg);
         d.inst.calculateBoundingBox(d.bounds);
         d.bounds.mul(d.inst.transform);
+
+        // The picture, if Forge has it cached. Asking each frame is what makes it appear once the
+        // background decode finishes; until then the coloured body stands in for it.
+        com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(c.name);
+        if (tex != null) {
+            d.face = new ModelInstance(faceModel);
+            d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.004f, 0f);
+            d.face.materials.get(0).set(
+                com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
+        }
+        if (c.attacking) {
+            d.marker = new ModelInstance(attackModel);
+            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+        }
         drawn.add(d);
     }
 
@@ -411,6 +451,12 @@ public final class Table3D extends ApplicationAdapter {
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
         font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera", 14, 18);
+        // Art counter: says at a glance whether Forge's picture cache was found at all, which is
+        // the first thing to check if every card is still a coloured block.
+        if (art != null) {
+            String a = "art " + art.loaded() + " loaded / " + art.known() + " cached";
+            font.draw(ui, a, w - 190, 18);
+        }
         drawSeatInfo(w, h);
         ui.end();
     }
@@ -510,6 +556,9 @@ public final class Table3D extends ApplicationAdapter {
         shapes.dispose();
         font.dispose();
         fontBig.dispose();
+        if (art != null) art.dispose();
+        faceModel.dispose();
+        attackModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();
