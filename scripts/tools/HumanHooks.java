@@ -71,10 +71,23 @@ public final class HumanHooks {
     /** Per game: whom each player attacked in their most recent combat. */
     private static final Map<Game, Map<Player, java.util.Set<Player>>> LAST_ATTACKED = new WeakHashMap<>();
 
+    /**
+     * How threatening a player's board is. Equipment and Auras attached to a creature aren't
+     * counted again (the creature's power already includes them): a suited-up Captain America
+     * used to score far above a table of flying angels, and drew 31 of 33 retargeted attacks in
+     * the owner's games while Angels (~50% win rate in the sims) went unpunished. Evasion counts:
+     * flying / unblockable creatures 1.5x, lifelink +50% of power.
+     */
     static double threat(Player p) {
         double s = 0;
         for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
-            if (c.isCreature()) s += Math.max(0, c.getNetPower()) * 2;
+            if ((c.isEquipment() || c.isAura()) && c.isAttachedToEntity()) continue;   // already in the creature's power
+            if (c.isCreature()) {
+                int pow = Math.max(0, c.getNetPower());
+                boolean evasive = c.hasKeyword(forge.game.keyword.Keyword.FLYING) || c.hasKeyword("Unblockable") || c.hasKeyword("CARDNAME can't be blocked.");
+                s += pow * 2 * (evasive ? 1.5 : 1.0);
+                if (c.hasKeyword(forge.game.keyword.Keyword.LIFELINK)) s += pow;
+            }
             if (!c.isLand()) s += 1;
             s += ThreatTracker.score(c) / 10.0;
             if (c.isCommander()) s += 8;
