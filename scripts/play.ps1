@@ -15,7 +15,10 @@ param(
     [int] $HeapMB = 4096,
     # Floating always-on-top copy of the prompt (see PromptWindow.java in scripts/tools).
     # -PromptWindow:$false leaves Forge's own docked prompt as the only one.
-    [bool] $PromptWindow = $true
+    [bool] $PromptWindow = $true,
+    # Forge skin. 'Jarvis' is ours (scripts/make-jarvis-skin.ps1), built on first use.
+    # -Skin Default restores Forge's own look; the skin can also be changed inside Forge.
+    [string] $Skin = 'Jarvis'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -115,6 +118,21 @@ if (-not (Test-Path $marker4)) {
     $set = [ordered]@{ SHORTCUT_ENDTURN = '32' }
     $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
     Set-Content -Path $marker4 -Value (Get-Date -Format s) -Encoding UTF8
+}
+
+# Skin. The Jarvis skin is generated from Forge's default (the install is not in git), so build
+# it on first use. Applied once, like the other pref changes, so a skin chosen inside Forge wins.
+if ($Skin -and $Skin -ne 'Default') {
+    $skinDir = Join-Path $forgeDir "res\skins\$Skin"
+    if (-not (Test-Path $skinDir)) {
+        Write-Host "Building the $Skin skin..."
+        & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'make-jarvis-skin.ps1') -Name $Skin | Out-Null
+    }
+}
+$marker5 = Join-Path $root 'scratch\play-prefs-skin.done'
+if ((Test-Path (Join-Path $forgeDir "res\skins\$Skin")) -and -not (Test-Path $marker5)) {
+    $prefs = @($prefs | Where-Object { ($_ -split '=', 2)[0] -ne 'UI_SKIN' }) + "UI_SKIN=$Skin"
+    Set-Content -Path $marker5 -Value (Get-Date -Format s) -Encoding UTF8
 }
 [IO.File]::WriteAllLines($prefFile, [string[]]$prefs)
 

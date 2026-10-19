@@ -34,6 +34,7 @@ elsewhere. The `scripts\` ones use paths relative to the repo.
 | `forge-data\` | Forge user data: `custom\cards\` (AI fixes as custom card scripts), `decks\commander\` (copies made by play.ps1), `preferences\`. |
 | `scripts\run-sims.ps1` | Run N games of a 4-deck pod in parallel; writes `results\<timestamp>\` (summary.txt, games.csv, batch logs). |
 | `scripts\play.ps1` | Play yourself vs the AI (desktop Forge with all patches). `Play Forge.cmd` launches it. (A modern/mobile-UI launcher was tried and removed 2026-10-17: not what the owner wanted.) |
+| `scripts\make-jarvis-skin.ps1` | Builds the `Jarvis` skin (navy/cyan/amber) into the Forge install from `default`. Forge reads its whole palette from single pixels at x=70 in `bg_splash.png`, so this recolours the entire desktop UI without touching code. `play.ps1 -Skin Default` keeps Forge's own look. |
 | `scripts\tools\*.java` | The AI patches, agent hooks and launchers (below). |
 | `scripts\*.ps1` | Analysis: summarise, compare (A/B), card-stats, throw-stats, board-stats, realism-stats, stuck-cards... |
 | `scratch\` | Working area. In git: `*.ps1` helpers, `probe\*.java` test boards, `play-logs\game_*.log` (recorded human games), EDHREC data. Everything else there is temporary. |

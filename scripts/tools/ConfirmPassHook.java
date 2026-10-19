@@ -109,7 +109,10 @@ public final class ConfirmPassHook {
 
     static boolean confirm(String text) {
         final boolean[] yes = { true };
-        Runnable ask = () -> yes[0] = javax.swing.JOptionPane.showConfirmDialog(null, text, "Pass priority?",
+        // Parent on Forge's own window, not null: a null parent centres the dialog on the
+        // PRIMARY monitor, so after moving the game to a second screen it kept popping up back
+        // on the main one.
+        Runnable ask = () -> yes[0] = javax.swing.JOptionPane.showConfirmDialog(PromptWindow.forgeFrame(), text, "Pass priority?",
             javax.swing.JOptionPane.YES_NO_OPTION, javax.swing.JOptionPane.WARNING_MESSAGE) == javax.swing.JOptionPane.YES_OPTION;
         try {
             if (javax.swing.SwingUtilities.isEventDispatchThread()) ask.run();
