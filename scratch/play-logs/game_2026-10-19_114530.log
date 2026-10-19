@@ -1,0 +1,1207 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Philadona (AI) deck=Captain America v8
+Player: Bill (AI) deck=Scion
+Player: Samot (AI) deck=Doom Prevails v3
+Mulligan: Samot has mulliganed down to 7 cards.
+Mulligan: Philadona has mulliganed down to 7 cards.
+Mulligan: Bill has mulliganed down to 7 cards.
+Mulligan: Philadona has mulliganed down to 6 cards.
+Mulligan: Samot has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Philadona has kept a hand of 6 cards
+Mulligan: Bill has kept a hand of 7 cards
+Turn: Turn 1 (Samot)
+Information: BOARD turn 1 (Samot) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Quicksilver Amulet(4); Plains(land); Plains(land); Plains(land); Faith's Reward(4)
+Information: BOARD turn 1 (Samot) | Philadona | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Shivan Reef(land); Boros Charm(2)
+Information: BOARD turn 1 (Samot) | Bill | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Path of Ancestry(land); Rugged Highlands(land)
+Information: BOARD turn 1 (Samot) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Unclaimed Territory(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Command Tower (322)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Quicksilver Amulet(4); Plains(land); Plains(land); Plains(land); Faith's Reward(4)
+Information: BOARD turn 2 (Xenil) | Philadona | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Shivan Reef(land); Boros Charm(2)
+Information: BOARD turn 2 (Xenil) | Bill | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Path of Ancestry(land); Rugged Highlands(land)
+Information: BOARD turn 2 (Xenil) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Unclaimed Territory(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (74)
+Phase: devXenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 3 (Philadona)
+Information: BOARD turn 3 (Philadona) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4)
+Information: BOARD turn 3 (Philadona) | Philadona | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Shivan Reef(land); Boros Charm(2)
+Information: BOARD turn 3 (Philadona) | Bill | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Path of Ancestry(land); Rugged Highlands(land)
+Information: BOARD turn 3 (Philadona) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Unclaimed Territory(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Shivan Reef (122)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Phase: Philadona's Declare Blockers Step
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 4 (Bill)
+Information: BOARD turn 4 (Bill) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4)
+Information: BOARD turn 4 (Bill) | Philadona | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Boros Charm(2); Sokka and Suki(3)
+Information: BOARD turn 4 (Bill) | Bill | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Path of Ancestry(land); Rugged Highlands(land)
+Information: BOARD turn 4 (Bill) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Unclaimed Territory(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Bill played Path of Ancestry (210)
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 5 (Samot)
+Information: BOARD turn 5 (Samot) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4)
+Information: BOARD turn 5 (Samot) | Philadona | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Boros Charm(2); Sokka and Suki(3)
+Information: BOARD turn 5 (Samot) | Bill | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 5 (Samot) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Unclaimed Territory(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Samot played Unclaimed Territory (342)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Land: Samot picked {B}
+Mana: Command Tower (322) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Samot cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Samot | open mana: Xenil 1, Philadona 3, Bill 0
+Resolve Stack: Skullclamp
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4)
+Information: BOARD turn 6 (Xenil) | Philadona | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Boros Charm(2); Sokka and Suki(3)
+Information: BOARD turn 6 (Xenil) | Bill | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 6 (Xenil) | Samot | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (76)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 7 (Philadona)
+Information: BOARD turn 7 (Philadona) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 7 (Philadona) | Philadona | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Fighter Class(2); Swiftfoot Boots(2); Arcane Signet(2); Boros Charm(2); Sokka and Suki(3)
+Information: BOARD turn 7 (Philadona) | Bill | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 7 (Philadona) | Samot | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Island (130)
+Mana: Island (130) - {T}: Add {U}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Philadona cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Philadona | open mana: Xenil 2, Bill 0, Samot 1
+Resolve Stack: Arcane Signet
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Phase: Philadona's Declare Blockers Step
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 8 (Bill)
+Information: BOARD turn 8 (Bill) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 8 (Bill) | Philadona | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Sokka and Suki(3); Enthusiastic Mechanaut(2)
+Information: BOARD turn 8 (Bill) | Bill | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Dreamroot Cascade(land); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 8 (Bill) | Samot | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Replacement Effect: Dreamroot Cascade enters tapped unless you control two or more other lands.
+Land: Bill played Dreamroot Cascade (269)
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 9 (Samot)
+Information: BOARD turn 9 (Samot) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 9 (Samot) | Philadona | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Sokka and Suki(3); Enthusiastic Mechanaut(2)
+Information: BOARD turn 9 (Samot) | Bill | life 40 | hand 7 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2); Swords to Plowshares(1)
+Information: BOARD turn 9 (Samot) | Samot | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Mountain(land); Magmakin Artillerist(3); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Mountain (389)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Mana: Mountain (389) - {T}: Add {R}.
+Land: Samot picked {B}
+Mana: Command Tower (322) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Unclaimed Territory (342) - {T}: Add {C}.
+Add To Stack: Samot cast Magmakin Artillerist
+Information: BOARD cast | Magmakin Artillerist (mv 3) by Samot | open mana: Xenil 2, Philadona 2, Bill 2
+Resolve Stack: Magmakin Artillerist - Creature 1 / 4
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 10 (Xenil)
+Information: BOARD turn 10 (Xenil) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 10 (Xenil) | Philadona | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Sokka and Suki(3); Enthusiastic Mechanaut(2)
+Information: BOARD turn 10 (Xenil) | Bill | life 40 | hand 7 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2); Swords to Plowshares(1)
+Information: BOARD turn 10 (Xenil) | Samot | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land); Chaos Warp(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Exotic Orchard (36)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 11 (Philadona)
+Information: BOARD turn 11 (Philadona) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 11 (Philadona) | Philadona | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Sokka and Suki(3); Enthusiastic Mechanaut(2)
+Information: BOARD turn 11 (Philadona) | Bill | life 40 | hand 7 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2); Swords to Plowshares(1)
+Information: BOARD turn 11 (Philadona) | Samot | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Magmakin Artillerist 1/4 | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land); Chaos Warp(3)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Land: Bill picked {W}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Bill cast Swords to Plowshares targeting [Magmakin Artillerist (376)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Bill | open mana: Xenil 3, Philadona 6, Samot 0
+Zone Change: Magmakin Artillerist (376) was put into Exile from Battlefield.
+Life: Life: Samot 40 > 41
+Resolve Stack: Swords to Plowshares (285) - Exile Magmakin Artillerist (376). Samot gains life equal to its power.
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Battlefield Forge (198)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Phase: Philadona's Declare Blockers Step
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Island (130) - {T}: Add {U}.
+Land: Philadona picked {R}
+Damage: Shivan Reef (122) deals 1 non-combat damage to Philadona.
+Life: Life: Philadona 40 > 39
+Mana: Shivan Reef (122) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Add To Stack: Philadona cast Sokka and Suki
+Information: BOARD cast | Sokka and Suki (mv 3) by Philadona | open mana: Xenil 3, Bill 0, Samot 0
+Resolve Stack: Sokka and Suki - Creature 3 / 3
+Add To Stack: Philadona triggered Sokka and Suki targeting []
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[]]) [Zone Changer: Sokka and Suki (109)]
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 12 (Bill)
+Information: BOARD turn 12 (Bill) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 12 (Bill) | Philadona | life 39 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Sokka and Suki 3/3 | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 12 (Bill) | Bill | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Arcane Signet(2); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 12 (Bill) | Samot | life 41 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land); Chaos Warp(3)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Bill played Turbulent Wetlands (255)
+Land: Bill picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Turbulent Wetlands (255) - {T}: Add {B}.
+Add To Stack: Bill cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Bill | open mana: Xenil 3, Philadona 3, Samot 0
+Resolve Stack: Arcane Signet
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 13 (Samot)
+Information: BOARD turn 13 (Samot) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 13 (Samot) | Philadona | life 39 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Sokka and Suki 3/3 | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 13 (Samot) | Bill | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 13 (Samot) | Samot | life 41 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Choked Estuary(land); Terramorphic Expanse(land); Chaos Warp(3)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Replacement Effect: As Choked Estuary enters, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters tapped.
+Land: Samot played Choked Estuary (316)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 14 (Xenil)
+Information: BOARD turn 14 (Xenil) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Gisela, the Broken Blade(4)
+Information: BOARD turn 14 (Xenil) | Philadona | life 39 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Sokka and Suki 3/3 | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 14 (Xenil) | Bill | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 14 (Xenil) | Samot | life 41 | hand 5 | lands 4 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Chaos Warp(3); Tri-Sentinel, Act of Vengeance(7)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: devXenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Gisela, the Broken Blade (11).
+Turn: Turn 15 (Philadona)
+Information: BOARD turn 15 (Philadona) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Plains(land); Bruna, the Fading Light(7)
+Information: BOARD turn 15 (Philadona) | Philadona | life 39 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Sokka and Suki 3/3 | hand cards: Fighter Class(2); Swiftfoot Boots(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 15 (Philadona) | Bill | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land); Essence Scatter(2)
+Information: BOARD turn 15 (Philadona) | Samot | life 41 | hand 5 | lands 4 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Chaos Warp(3); Tri-Sentinel, Act of Vengeance(7)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Mana: Island (130) - {T}: Add {U}.
+Land: Philadona picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Philadona cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Philadona | open mana: Xenil 3, Bill 4, Samot 4
+Resolve Stack: Swiftfoot Boots
+Add To Stack: Philadona triggered Sokka and Suki
+Resolve Stack: Whenever an Equipment you control enters, create a 1/1 white Ally creature token. [Zone Changer: Swiftfoot Boots (150)]
+Add To Stack: Philadona triggered Sokka and Suki targeting [Swiftfoot Boots (150)]
+Resolve Stack: Whenever Sokka and Suki or another Ally you control enters, attach up to one target Equipment you control to that creature. (Targeting: [[Swiftfoot Boots (150)]]) [Zone Changer: Ally Token (421)]
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Sokka and Suki (109) and Ally Token (421) to attack Bill.
+Information: BOARD attack | Philadona -> Bill | attackers 2 (power 4) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Mana: Mountain (389) - {T}: Add {R}.
+Land: Samot picked {B}
+Mana: Command Tower (322) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Unclaimed Territory (342) - {T}: Add {C}.
+Add To Stack: Samot cast Chaos Warp targeting [Sokka and Suki (109)]
+Information: BOARD cast | Chaos Warp (mv 3) by Samot | open mana: Xenil 3, Philadona 6, Bill 4
+Resolve Stack: Chaos Warp (375) - Shuffle Sokka and Suki (109) into its owner's library. Samot reveals the top card of Philadona's library.
+Phase: Philadona's Declare Blockers Step
+Combat: Bill didn't block Ally Token (421).
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Damage: Ally Token (421) deals 1 combat damage to Bill.
+Life: Life: Bill 40 > 39
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {W}
+Damage: Battlefield Forge (198) deals 1 non-combat damage to Philadona.
+Life: Life: Philadona 39 > 38
+Mana: Battlefield Forge (198) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Land: Philadona picked {U}
+Damage: Shivan Reef (122) deals 1 non-combat damage to Philadona.
+Life: Life: Philadona 38 > 37
+Mana: Shivan Reef (122) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Add To Stack: Philadona cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Philadona | open mana: Xenil 3, Bill 4, Samot 0
+Land: Bill picked {U}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Bill picked {W}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Bill cast Essence Scatter targeting [Captain America, First Avenger - Creature 4 / 4]
+Information: BOARD cast | Essence Scatter (mv 2) by Bill | open mana: Xenil 3, Philadona 0, Samot 0
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Essence Scatter (264) - Counter Captain America, First Avenger (201).
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 16 (Bill)
+Information: BOARD turn 16 (Bill) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Plains(land); Bruna, the Fading Light(7)
+Information: BOARD turn 16 (Bill) | Philadona | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2); Sol Ring(1)
+Information: BOARD turn 16 (Bill) | Bill | life 39 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land)
+Information: BOARD turn 16 (Bill) | Samot | life 41 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Land: Bill played Swamp (262)
+Land: Bill picked {W}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Bill picked {R}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Land: Bill picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Turbulent Wetlands (255) - {T}: Add {U}.
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 3, Philadona 0, Samot 0
+Add To Stack: Bill triggered Path of Ancestry
+Resolve Stack: Bill scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Scion of the Ur-Dragon - Creature 4 / 4]) [Card: Scion of the Ur-Dragon (302), Activator: Bill, SpellAbility: Scion of the Ur-Dragon - Creature 4 / 4]
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 17 (Samot)
+Information: BOARD turn 17 (Samot) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Plains(land); Bruna, the Fading Light(7)
+Information: BOARD turn 17 (Samot) | Philadona | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2); Sol Ring(1)
+Information: BOARD turn 17 (Samot) | Bill | life 39 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land)
+Information: BOARD turn 17 (Samot) | Samot | life 41 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Swamp (359)
+Land: Samot picked {U}
+Mana: Choked Estuary (316) - {T}: Add {U} or {B}.
+Mana: Swamp (359) - {T}: Add {B}.
+Mana: Mountain (389) - {T}: Add {R}.
+Land: Samot picked {B}
+Mana: Command Tower (322) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Samot cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Samot | open mana: Xenil 3, Philadona 0, Bill 0
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Dragonskull Summit (347).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Life: Life: Xenil 40 > 38
+Life: Life: Philadona 37 > 35
+Life: Life: Bill 39 > 37
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 18 (Xenil)
+Information: BOARD turn 18 (Xenil) | Xenil | life 38 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Faith's Reward(4); Quicksilver Amulet(4); Plains(land); Bruna, the Fading Light(7)
+Information: BOARD turn 18 (Xenil) | Philadona | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2); Sol Ring(1)
+Information: BOARD turn 18 (Xenil) | Bill | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land)
+Information: BOARD turn 18 (Xenil) | Samot | life 41 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (68)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Exotic Orchard (36) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (68) - {T}: Add {W}.
+Add To Stack: Xenil cast Quicksilver Amulet
+Information: BOARD cast | Quicksilver Amulet (mv 4) by Xenil | open mana: Philadona 0, Bill 0, Samot 1
+Resolve Stack: Quicksilver Amulet
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 19 (Philadona)
+Information: BOARD turn 19 (Philadona) | Xenil | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 19 (Philadona) | Philadona | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2); Sol Ring(1)
+Information: BOARD turn 19 (Philadona) | Bill | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land)
+Information: BOARD turn 19 (Philadona) | Samot | life 41 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Philadona picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Philadona cast Leyline Axe
+Information: BOARD cast | Leyline Axe (mv 4) by Philadona | open mana: Xenil 0, Bill 0, Samot 1
+Resolve Stack: Leyline Axe
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Ally Token (421) to attack Xenil.
+Information: BOARD attack | Philadona -> Xenil | attackers 1 (power 1) | defender life 38 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Philadona's Declare Blockers Step
+Combat: Xenil didn't block Ally Token (421).
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Damage: Ally Token (421) deals 1 combat damage to Xenil.
+Life: Life: Xenil 38 > 37
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Philadona | open mana: Xenil 0, Bill 0, Samot 1
+Resolve Stack: Sol Ring
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 20 (Bill)
+Information: BOARD turn 20 (Bill) | Xenil | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 20 (Bill) | Philadona | life 35 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 20 (Bill) | Bill | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Rugged Highlands(land)
+Information: BOARD turn 20 (Bill) | Samot | life 41 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302) to attack Samot.
+Information: BOARD attack | Bill -> Samot | attackers 1 (power 4) | defender life 41 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 1
+Phase: Bill's Declare Blockers Step
+Combat: Samot didn't block Scion of the Ur-Dragon (302).
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Samot.
+Life: Life: Samot 41 > 37
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Bill played Rugged Highlands (215)
+Add To Stack: Bill triggered Rugged Highlands
+Life: Life: Bill 37 > 38
+Resolve Stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (215)]
+Mana: Swamp (262) - {T}: Add {B}.
+Land: Bill picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (302) becomes a copy of The Ur-Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 21 (Samot)
+Information: BOARD turn 21 (Samot) | Xenil | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 21 (Samot) | Philadona | life 35 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 21 (Samot) | Bill | life 38 | hand 4 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Blossoming Sands(land)
+Information: BOARD turn 21 (Samot) | Samot | life 37 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Endless Ranks of HYDRA(4); Terramorphic Expanse(land); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Information: BOARD threat | turn 21 | Scion of the Ur-Dragon (Bill) 37
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Samot played Secluded Courtyard (306)
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Terramorphic Expanse (402).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Life: Life: Xenil 37 > 35
+Life: Life: Philadona 35 > 33
+Life: Life: Bill 38 > 36
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Samot's Declare Attackers Step
+Combat: Samot assigned Doctor Doom, King of Latveria (403) to attack Bill.
+Information: BOARD attack | Samot -> Bill | attackers 1 (power 3) | defender life 36 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Samot's Declare Blockers Step
+Combat: Bill didn't block Doctor Doom, King of Latveria (403).
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (403) deals 3 combat damage to Bill.
+Life: Life: Bill 36 > 33
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Mana: Swamp (359) - {T}: Add {B}.
+Mana: Mountain (389) - {T}: Add {R}.
+Land: Samot picked {B}
+Mana: Choked Estuary (316) - {T}: Add {U} or {B}.
+Add To Stack: Samot cast Baron Strucker, HYDRA Overlord
+Information: BOARD cast | Baron Strucker, HYDRA Overlord (mv 3) by Samot | open mana: Xenil 0, Philadona 2, Bill 5
+Mana: Turbulent Wetlands (255) - {T}: Add {B}.
+Land: Bill picked {W}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (302) becomes a copy of Ancient Silver Dragon (302).
+Resolve Stack: Baron Strucker, HYDRA Overlord - Creature 2 / 2
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 22 (Xenil)
+Information: BOARD turn 22 (Xenil) | Xenil | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 22 (Xenil) | Philadona | life 33 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 22 (Xenil) | Bill | life 33 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Blossoming Sands(land)
+Information: BOARD turn 22 (Xenil) | Samot | life 37 | hand 3 | lands 6 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 3/3*; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Information: BOARD threat | turn 22 | Doctor Doom, King of Latveria (Samot) 71; Scion of the Ur-Dragon (Bill) 50
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (78)
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Exotic Orchard (36) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Xenil cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Xenil | open mana: Philadona 2, Bill 2, Samot 4
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 23 (Philadona)
+Information: BOARD turn 23 (Philadona) | Xenil | life 35 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 23 (Philadona) | Philadona | life 33 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Ally Token 1/1*[Swiftfoot Boots] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 23 (Philadona) | Bill | life 33 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Blossoming Sands(land)
+Information: BOARD turn 23 (Philadona) | Samot | life 37 | hand 3 | lands 6 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 3/3*; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Information: BOARD threat | turn 23 | Doctor Doom, King of Latveria (Samot) 68; Scion of the Ur-Dragon (Bill) 48
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Plains (185)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Add To Stack: Philadona activated Leyline Axe targeting [Ally Token (421)]
+Resolve Stack: Leyline Axe (149) -  Attach to Ally Token (421)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Ally Token (421) to attack Samot.
+Information: BOARD attack | Philadona -> Samot | attackers 1 (power 2) | defender life 37 | untapped creatures 1 (power 2): Baron Strucker, HYDRA Overlord 2/2 | open mana 4
+Phase: Philadona's Declare Blockers Step
+Combat: Samot didn't block Ally Token (421).
+Phase: Philadona's First Strike Damage Step
+Damage: Ally Token (421) deals 2 combat damage to Samot.
+Life: Life: Samot 37 > 35
+Phase: Philadona's Combat Damage Step
+Damage: Ally Token (421) deals 2 combat damage to Samot.
+Life: Life: Samot 35 > 33
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Mana: Plains (185) - {T}: Add {W}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Philadona picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Philadona | open mana: Xenil 0, Bill 2, Samot 4
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 24 (Bill)
+Information: BOARD turn 24 (Bill) | Xenil | life 35 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 24 (Bill) | Philadona | life 33 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ally Token 2/2*[Swiftfoot Boots,Leyline Axe]; Captain America, First Avenger 4/4 | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 24 (Bill) | Bill | life 33 | hand 4 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Slip On the Ring(2); Zombify(4); Atarka, World Render(7); Blossoming Sands(land)
+Information: BOARD turn 24 (Bill) | Samot | life 33 | hand 3 | lands 6 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 3/3*; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Information: BOARD threat | turn 24 | Doctor Doom, King of Latveria (Samot) 65; Scion of the Ur-Dragon (Bill) 46; Ally Token (Philadona) 32
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Mana: Swamp (262) - {T}: Add {B}.
+Land: Bill picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bill picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Mana: Turbulent Wetlands (255) - {T}: Add {B}.
+Add To Stack: Bill cast Zombify targeting [The Ur-Dragon (214)]
+Information: BOARD cast | Zombify (mv 4) by Bill | open mana: Xenil 0, Philadona 0, Samot 4
+Resolve Stack: Zombify (265) - Return The Ur-Dragon (214) from the graveyard to the battlefield.
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302) to attack Samot.
+Information: BOARD attack | Bill -> Samot | attackers 1 (power 4) | defender life 33 | untapped creatures 1 (power 2): Baron Strucker, HYDRA Overlord 2/2 | open mana 4
+Add To Stack: Bill triggered The Ur-Dragon
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Scion of the Ur-Dragon (302)]]
+Phase: Bill's Declare Blockers Step
+Combat: Samot didn't block Scion of the Ur-Dragon (302).
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Samot.
+Life: Life: Samot 33 > 29
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Land: Bill played Mountain (294)
+Mana: Mountain (294) - {T}: Add {R}.
+Land: Bill picked {W}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Gold Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Gold Dragon (302) becomes a copy of Ancient Gold Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 25 (Samot)
+Information: BOARD turn 25 (Samot) | Xenil | life 35 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 25 (Samot) | Philadona | life 33 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ally Token 2/2*[Swiftfoot Boots,Leyline Axe]; Captain America, First Avenger 4/4 | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 25 (Samot) | Bill | life 33 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10; Atarka, World Render 6/4 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land)
+Information: BOARD turn 25 (Samot) | Samot | life 29 | hand 3 | lands 6 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 3/3*; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4)
+Information: BOARD threat | turn 25 | Scion of the Ur-Dragon (Bill) 82; Doctor Doom, King of Latveria (Samot) 62; Ally Token (Philadona) 31
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Villainous Hideout (304)
+Mana: Mountain (389) - {T}: Add {R}.
+Mana: Swamp (359) - {T}: Add {B}.
+Land: Samot picked {B}
+Mana: Choked Estuary (316) - {T}: Add {U} or {B}.
+Add To Stack: Samot activated Villainous Hideout targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Crumbling Necropolis (360).
+Resolve Stack: Villainous Hideout (304) - Doctor Doom, King of Latveria (403) connives.
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Life: Life: Xenil 35 > 33
+Life: Life: Philadona 33 > 31
+Life: Life: Bill 33 > 31
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Tri-Sentinel, Act of Vengeance (317).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 26 (Xenil)
+Information: BOARD turn 26 (Xenil) | Xenil | life 33 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Plains(land); Bruna, the Fading Light(7); Weathered Wayfarer(1)
+Information: BOARD turn 26 (Xenil) | Philadona | life 31 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ally Token 2/2*[Swiftfoot Boots,Leyline Axe]; Captain America, First Avenger 4/4 | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 26 (Xenil) | Bill | life 31 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10; Atarka, World Render 6/4 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land)
+Information: BOARD turn 26 (Xenil) | Samot | life 29 | hand 3 | lands 7 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Syphon Mind(4); Bedevil(3)
+Information: BOARD threat | turn 26 | Doctor Doom, King of Latveria (Samot) 89; Scion of the Ur-Dragon (Bill) 79
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (93)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Exotic Orchard (36) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (68) - {T}: Add {W}.
+Add To Stack: Xenil activated Quicksilver Amulet
+Resolve Stack: Quicksilver Amulet (96) - Xenil puts a creature card from their hand onto the battlefield.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 1 (power 4) | defender life 31 | untapped creatures 1 (power 4): Captain America, First Avenger 4/4 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Seluma, Light of Aysen (100).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to Philadona.
+Life: Life: Philadona 31 > 27
+Add To Stack: Xenil triggered Seluma, Light of Aysen targeting [Gisela, the Broken Blade (11)]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Gisela, the Broken Blade (11)]]) [Damage Source: Seluma, Light of Aysen (100), Damaged: Philadona, Amount: 4]
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Add To Stack: Xenil triggered Gisela, the Broken Blade
+Zone Change: Gisela, the Broken Blade (11) was put into Exile from Battlefield.
+Zone Change: Bruna, the Fading Light (52) was put into Exile from Battlefield.
+Resolve Stack: At the beginning of your end step, if you both own and control Gisela, the Broken Blade and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares. [Phase: Xenil]
+Phase: Xenil's Cleanup step
+Turn: Turn 27 (Philadona)
+Information: BOARD turn 27 (Philadona) | Xenil | life 33 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Weathered Wayfarer(1); Smuggler's Copter(2)
+Information: BOARD turn 27 (Philadona) | Philadona | life 27 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ally Token 2/2*[Swiftfoot Boots,Leyline Axe]; Captain America, First Avenger 4/4 | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 27 (Philadona) | Bill | life 31 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10; Atarka, World Render 6/4 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land)
+Information: BOARD turn 27 (Philadona) | Samot | life 29 | hand 3 | lands 7 (3 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4; Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Syphon Mind(4); Bedevil(3)
+Information: BOARD threat | turn 27 | Doctor Doom, King of Latveria (Samot) 85; Scion of the Ur-Dragon (Bill) 76; Seluma, Light of Aysen (Xenil) 37
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Hengegate Pathway (144)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Plains (185) - {T}: Add {W}.
+Add To Stack: Philadona activated Leyline Axe targeting [Captain America, First Avenger (201)]
+Resolve Stack: Leyline Axe (149) -  Attach to Captain America, First Avenger (201)
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Land: Philadona picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Doctor Doom, King of Latveria (403)]
+Damage: Captain America, First Avenger (201) deals 4 damage to Doctor Doom, King of Latveria (403).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 4 damage divided to 
+Doctor Doom, King of Latveria (403) (4 damage).
+Zone Change: Doctor Doom, King of Latveria (403) was put into Graveyard from Battlefield.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona activated Swiftfoot Boots targeting [Captain America, First Avenger (201)]
+Resolve Stack: Swiftfoot Boots (150) -  Attach to Captain America, First Avenger (201)
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting [Leyline Axe (149)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Leyline Axe (149)]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Captain America, First Avenger (201) to attack Samot.
+Information: BOARD attack | Philadona -> Samot | attackers 1 (power 5) | defender life 29 | untapped creatures 1 (power 2): Baron Strucker, HYDRA Overlord 2/2 | open mana 4
+Phase: Philadona's Declare Blockers Step
+Combat: Samot didn't block Captain America, First Avenger (201).
+Phase: Philadona's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to Samot.
+Life: Life: Samot 29 > 24
+Phase: Philadona's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to Samot.
+Life: Life: Samot 24 > 19
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 28 (Bill)
+Information: BOARD turn 28 (Bill) | Xenil | life 33 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Weathered Wayfarer(1); Smuggler's Copter(2)
+Information: BOARD turn 28 (Bill) | Philadona | life 27 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Ally Token 1/1; Captain America, First Avenger 5/5*[Swiftfoot Boots,Leyline Axe] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 28 (Bill) | Bill | life 31 | hand 3 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10; Atarka, World Render 6/4 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land)
+Information: BOARD turn 28 (Bill) | Samot | life 19 | hand 3 | lands 7 (3 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Baron Strucker, HYDRA Overlord 2/2 | hand cards: Endless Ranks of HYDRA(4); Syphon Mind(4); Bedevil(3)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Philadona) 86; Scion of the Ur-Dragon (Bill) 73; Seluma, Light of Aysen (Xenil) 36
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302), The Ur-Dragon (214) and Atarka, World Render (275) to attack Samot.
+Information: BOARD attack | Bill -> Samot | attackers 3 (power 20) | defender life 19 | untapped creatures 1 (power 2): Baron Strucker, HYDRA Overlord 2/2 | open mana 4
+Add To Stack: Bill triggered The Ur-Dragon
+Add To Stack: Bill triggered Atarka, World Render
+Add To Stack: Bill triggered Atarka, World Render
+Add To Stack: Bill triggered Atarka, World Render
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: Atarka, World Render (275)]
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: The Ur-Dragon (214)]
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: Scion of the Ur-Dragon (302)]
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Scion of the Ur-Dragon (302), The Ur-Dragon (214), Atarka, World Render (275)]]
+Phase: Bill's Declare Blockers Step
+Combat: Samot didn't block Scion of the Ur-Dragon (302).
+Samot didn't block The Ur-Dragon (214).
+Samot didn't block Atarka, World Render (275).
+Phase: Bill's First Strike Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Samot.
+Damage: The Ur-Dragon (214) deals 10 combat damage to Samot.
+Damage: Atarka, World Render (275) deals 6 combat damage to Samot.
+Life: Life: Samot 19 > -1
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Land: Bill played Swamp (263)
+Mana: Mountain (294) - {T}: Add {R}.
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Bronze Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Bronze Dragon (302) becomes a copy of Ancient Bronze Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 29 (Xenil)
+Information: BOARD turn 29 (Xenil) | Xenil | life 33 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Plains(land); Faith's Reward(4); Weathered Wayfarer(1); Smuggler's Copter(2)
+Information: BOARD turn 29 (Xenil) | Philadona | life 27 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Ally Token 1/1; Captain America, First Avenger 5/5*[Swiftfoot Boots,Leyline Axe] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 29 (Xenil) | Bill | life 31 | hand 5 | lands 7 (5 untapped) | open mana 12 | commander Battlefield | creatures 4 (1 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10*; Atarka, World Render 6/4*; Scorned Villager 1/1 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land); Llanowar Elves(1); Hero's Downfall(3)
+Information: BOARD threat | turn 29 | Scion of the Ur-Dragon (Bill) 107; The Ur-Dragon (Bill) 84; Captain America, First Avenger (Philadona) 83; Atarka, World Render (Bill) 78; Seluma, Light of Aysen (Xenil) 35
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Bill triggered Scorned Villager
+Resolve Stack: At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (67)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Add To Stack: Xenil cast Key to the City
+Information: BOARD cast | Key to the City (mv 2) by Xenil | open mana: Philadona 2, Bill 12
+Resolve Stack: Key to the City
+Discard: Xenil discards Weathered Wayfarer (66).
+Add To Stack: Xenil activated Key to the City targeting [Brisela, Voice of Nightmares (11)]
+Resolve Stack: Key to the City (49) - Up to one target creature can't be blocked this turn. (Targeting: Brisela, Voice of Nightmares (11))
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Brisela, Voice of Nightmares (11) and Seluma, Light of Aysen (100) to attack Bill.
+Information: BOARD attack | Xenil -> Bill | attackers 2 (power 13) | defender life 31 | untapped creatures 1 (power 2): Moonscarred Werewolf 2/2 | open mana 12
+Phase: Xenil's Declare Blockers Step
+Combat: Bill didn't block Brisela, Voice of Nightmares (11).
+Bill didn't block Seluma, Light of Aysen (100).
+Phase: Xenil's First Strike Damage Step
+Damage: Brisela, Voice of Nightmares (11) deals 9 combat damage to Bill.
+Life: Life: Xenil 33 > 42
+Life: Life: Bill 31 > 22
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to Bill.
+Life: Life: Bill 22 > 18
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Swamp (263) - {T}: Add {B}.
+Land: Bill picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Dragonlord Dromoka (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Dragonlord Dromoka (302) becomes a copy of Dragonlord Dromoka (302).
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 30 (Philadona)
+Information: BOARD turn 30 (Philadona) | Xenil | life 42 | hand 3 | lands 7 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Smuggler's Copter(2)
+Information: BOARD turn 30 (Philadona) | Philadona | life 27 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Ally Token 1/1; Captain America, First Avenger 5/5*[Swiftfoot Boots,Leyline Axe] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2)
+Information: BOARD turn 30 (Philadona) | Bill | life 18 | hand 5 | lands 7 (3 untapped) | open mana 8 | commander Battlefield | creatures 4 (1 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 10/10*; Atarka, World Render 6/4*; Moonscarred Werewolf 2/2 | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land); Llanowar Elves(1); Hero's Downfall(3)
+Information: BOARD threat | turn 30 | Scion of the Ur-Dragon (Bill) 117; The Ur-Dragon (Bill) 81; Captain America, First Avenger (Philadona) 80; Atarka, World Render (Bill) 75; Seluma, Light of Aysen (Xenil) 56
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Scion of the Ur-Dragon (302)]
+Damage: Captain America, First Avenger (201) deals 4 damage to Scion of the Ur-Dragon (302).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 4 damage divided to 
+Scion of the Ur-Dragon (302) (4 damage).
+Zone Change: Scion of the Ur-Dragon (302) was put into Graveyard from Battlefield.
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Mana: Island (130) - {T}: Add {U}.
+Mana: Plains (185) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Philadona activated Leyline Axe targeting [Captain America, First Avenger (201)]
+Resolve Stack: Leyline Axe (149) -  Attach to Captain America, First Avenger (201)
+Land: Philadona picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Seluma, Light of Aysen (100)]
+Damage: Captain America, First Avenger (201) deals 4 damage to Seluma, Light of Aysen (100).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 4 damage divided to 
+Seluma, Light of Aysen (100) (4 damage).
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting [Leyline Axe (149)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Leyline Axe (149)]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Captain America, First Avenger (201) to attack Bill.
+Information: BOARD attack | Philadona -> Bill | attackers 1 (power 5) | defender life 18 | untapped creatures 1 (power 2): Moonscarred Werewolf 2/2 | open mana 8
+Phase: Philadona's Declare Blockers Step
+Combat: Bill assigned Moonscarred Werewolf (211) to block Captain America, First Avenger (201).
+Phase: Philadona's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 3 combat damage to Bill.
+Damage: Captain America, First Avenger (201) deals 2 damage to Moonscarred Werewolf (211).
+Life: Life: Bill 18 > 15
+Zone Change: Moonscarred Werewolf (211) was put into Graveyard from Battlefield.
+Phase: Philadona's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to Bill.
+Life: Life: Bill 15 > 10
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 31 (Bill)
+Information: BOARD turn 31 (Bill) | Xenil | life 42 | hand 3 | lands 7 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Smuggler's Copter(2)
+Information: BOARD turn 31 (Bill) | Philadona | life 27 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ally Token 1/1; Captain America, First Avenger 5/5*[Swiftfoot Boots,Leyline Axe] | hand cards: Fighter Class(2); Boros Charm(2); Enthusiastic Mechanaut(2); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 31 (Bill) | Bill | life 10 | hand 5 | lands 7 (3 untapped) | open mana 8 | commander Command | creatures 2 (0 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4* | hand cards: Slip On the Ring(2); Blossoming Sands(land); Gruul Guildgate(land); Llanowar Elves(1); Hero's Downfall(3)
+Information: BOARD threat | turn 31 | Captain America, First Avenger (Philadona) 166; The Ur-Dragon (Bill) 78; Atarka, World Render (Bill) 72; Brisela, Voice of Nightmares (Xenil) 50; Leyline Axe (Philadona) 38
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Land: Bill picked {W}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Bill picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bill picked {G}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Mana: Mountain (294) - {T}: Add {R}.
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Swamp (263) - {T}: Add {B}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 5, Philadona 0
+Add To Stack: Bill triggered Path of Ancestry
+Resolve Stack: Bill scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Scion of the Ur-Dragon - Creature 4 / 4]) [Card: Scion of the Ur-Dragon (302), Activator: Bill, SpellAbility: Scion of the Ur-Dragon - Creature 4 / 4]
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned Atarka, World Render (275) and The Ur-Dragon (214) to attack Philadona.
+Information: BOARD attack | Bill -> Philadona | attackers 2 (power 16) | defender life 27 | untapped creatures 1 (power 1): Ally Token 1/1 | open mana 0
+Add To Stack: Bill triggered The Ur-Dragon
+Add To Stack: Bill triggered Atarka, World Render
+Add To Stack: Bill triggered Atarka, World Render
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: The Ur-Dragon (214)]
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: Atarka, World Render (275)]
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Atarka, World Render (275), The Ur-Dragon (214)]]
+Phase: Bill's Declare Blockers Step
+Combat: Philadona didn't block Atarka, World Render (275).
+Philadona didn't block The Ur-Dragon (214).
+Phase: Bill's First Strike Damage Step
+Damage: Atarka, World Render (275) deals 6 combat damage to Philadona.
+Damage: The Ur-Dragon (214) deals 10 combat damage to Philadona.
+Life: Life: Philadona 27 > 11
+Phase: Bill's Combat Damage Step
+Damage: Atarka, World Render (275) deals 6 combat damage to Philadona.
+Damage: The Ur-Dragon (214) deals 10 combat damage to Philadona.
+Life: Life: Philadona 11 > -5
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Bill played Blossoming Sands (226)
+Add To Stack: Bill triggered Blossoming Sands
+Life: Life: Bill 10 > 11
+Resolve Stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (226)]
+Mana: Turbulent Wetlands (255) - {T}: Add {B}.
+Mana: Talisman of Progress (287) - {T}: Add {C}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Brass Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Brass Dragon (302) becomes a copy of Ancient Brass Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 32 (Xenil)
+Information: BOARD turn 32 (Xenil) | Xenil | life 42 | hand 3 | lands 7 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Smuggler's Copter(2)
+Information: BOARD turn 32 (Xenil) | Bill | life 11 | hand 6 | lands 8 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4*; Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Gruul Guildgate(land); Llanowar Elves(1); Hero's Downfall(3); Reality Ripple(2); Marvin, Murderous Mimic(2)
+Information: BOARD threat | turn 32 | The Ur-Dragon (Bill) 204; Atarka, World Render (Bill) 167; Brisela, Voice of Nightmares (Xenil) 48
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Key to the City
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Resolve Stack: Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a card. [Untapped: Key to the City (49)]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (72)
+Discard: Xenil discards Smuggler's Copter (37).
+Add To Stack: Xenil activated Key to the City targeting [Brisela, Voice of Nightmares (11)]
+Resolve Stack: Key to the City (49) - Up to one target creature can't be blocked this turn. (Targeting: Brisela, Voice of Nightmares (11))
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Brisela, Voice of Nightmares (11) to attack Bill.
+Information: BOARD attack | Xenil -> Bill | attackers 1 (power 9) | defender life 11 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 2
+Phase: Xenil's Declare Blockers Step
+Combat: Bill didn't block Brisela, Voice of Nightmares (11).
+Phase: Xenil's First Strike Damage Step
+Damage: Brisela, Voice of Nightmares (11) deals 9 combat damage to Bill.
+Life: Life: Xenil 42 > 51
+Life: Life: Bill 11 > 2
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 33 (Bill)
+Information: BOARD turn 33 (Bill) | Xenil | life 51 | hand 3 | lands 8 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Righteous Valkyrie(3)
+Information: BOARD turn 33 (Bill) | Bill | life 2 | hand 6 | lands 8 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4*; Scion of the Ur-Dragon 4/4 | hand cards: Slip On the Ring(2); Gruul Guildgate(land); Llanowar Elves(1); Hero's Downfall(3); Reality Ripple(2); Marvin, Murderous Mimic(2)
+Information: BOARD threat | turn 33 | The Ur-Dragon (Bill) 196; Atarka, World Render (Bill) 160; Brisela, Voice of Nightmares (Xenil) 98; Key to the City (Xenil) 42
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned The Ur-Dragon (214) to attack Xenil.
+Information: BOARD attack | Bill -> Xenil | attackers 1 (power 10) | defender life 51 | untapped creatures 1 (power 9): Brisela, Voice of Nightmares 9/10 | open mana 6
+Add To Stack: Bill triggered The Ur-Dragon
+Add To Stack: Bill triggered Atarka, World Render
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: The Ur-Dragon (214)]
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [The Ur-Dragon (214)]]
+Phase: Bill's Declare Blockers Step
+Combat: Xenil didn't block The Ur-Dragon (214).
+Phase: Bill's First Strike Damage Step
+Damage: The Ur-Dragon (214) deals 10 combat damage to Xenil.
+Life: Life: Xenil 51 > 41
+Phase: Bill's Combat Damage Step
+Damage: The Ur-Dragon (214) deals 10 combat damage to Xenil.
+Life: Life: Xenil 41 > 31
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Bill played Gruul Guildgate (204)
+Mana: Mountain (294) - {T}: Add {R}.
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Hellkite Tyrant (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Hellkite Tyrant (302) becomes a copy of Hellkite Tyrant (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 34 (Xenil)
+Information: BOARD turn 34 (Xenil) | Xenil | life 31 | hand 3 | lands 8 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Righteous Valkyrie(3)
+Information: BOARD turn 34 (Xenil) | Bill | life 2 | hand 6 | lands 9 (6 untapped) | open mana 18 | commander Battlefield | creatures 4 (3 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4; Scion of the Ur-Dragon 4/4; Marvin, Murderous Mimic 2/2 | hand cards: Slip On the Ring(2); Llanowar Elves(1); Hero's Downfall(3); Reality Ripple(2); Delighted Halfling(1); Broken Wings(3)
+Information: BOARD threat | turn 34 | The Ur-Dragon (Bill) 288; Atarka, World Render (Bill) 168; Brisela, Voice of Nightmares (Xenil) 94; Key to the City (Xenil) 40
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Key to the City
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Resolve Stack: Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a card. [Untapped: Key to the City (49)]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Discard: Xenil discards Emeria, the Sky Ruin (97).
+Add To Stack: Xenil activated Key to the City targeting []
+Resolve Stack: Key to the City (49) - Up to one target creature can't be blocked this turn.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Brisela, Voice of Nightmares (11) to attack Bill.
+Information: BOARD attack | Xenil -> Bill | attackers 1 (power 9) | defender life 2 | untapped creatures 3 (power 12): Atarka, World Render 6/4; Scion of the Ur-Dragon 4/4; Marvin, Murderous Mimic 2/2 | open mana 18
+Phase: Xenil's Declare Blockers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302) to block Brisela, Voice of Nightmares (11).
+Mana: Swamp (263) - {T}: Add {B}.
+Land: Bill picked {G}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Lathliss, Dragon Queen (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Lathliss, Dragon Queen (302) becomes a copy of Lathliss, Dragon Queen (302).
+Phase: Xenil's First Strike Damage Step
+Damage: Brisela, Voice of Nightmares (11) deals 9 damage to Lathliss, Dragon Queen (302).
+Life: Life: Xenil 31 > 40
+Zone Change: Lathliss, Dragon Queen (302) was put into Graveyard from Battlefield.
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 35 (Bill)
+Information: BOARD turn 35 (Bill) | Xenil | life 40 | hand 4 | lands 8 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Righteous Valkyrie(3); Resurrection(4)
+Information: BOARD turn 35 (Bill) | Bill | life 2 | hand 6 | lands 9 (4 untapped) | open mana 14 | commander Command | creatures 3 (2 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4; Marvin, Murderous Mimic 2/2 | hand cards: Slip On the Ring(2); Llanowar Elves(1); Hero's Downfall(3); Reality Ripple(2); Delighted Halfling(1); Broken Wings(3)
+Information: BOARD threat | turn 35 | The Ur-Dragon (Bill) 276; Atarka, World Render (Bill) 161; Brisela, Voice of Nightmares (Xenil) 90; Key to the City (Xenil) 67
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Land: Bill picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Bill picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bill picked {G}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Mana: Mountain (294) - {T}: Add {R}.
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Swamp (263) - {T}: Add {B}.
+Land: Bill picked {G}
+Mana: Gruul Guildgate (204) - {T}: Add {R} or {G}.
+Mana: Turbulent Wetlands (255) - {T}: Add {B}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 6
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned The Ur-Dragon (214) to attack Xenil.
+Information: BOARD attack | Bill -> Xenil | attackers 1 (power 10) | defender life 40 | untapped creatures 1 (power 9): Brisela, Voice of Nightmares 9/10 | open mana 6
+Add To Stack: Bill triggered The Ur-Dragon
+Add To Stack: Bill triggered Atarka, World Render
+Resolve Stack: Whenever a Dragon you control attacks, it gains double strike until end of turn. [Attacker: The Ur-Dragon (214)]
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [The Ur-Dragon (214)]]
+Add To Stack: Bill triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (241)]
+Phase: Bill's Declare Blockers Step
+Combat: Xenil didn't block The Ur-Dragon (214).
+Phase: Bill's First Strike Damage Step
+Damage: The Ur-Dragon (214) deals 10 combat damage to Xenil.
+Life: Life: Xenil 40 > 30
+Phase: Bill's Combat Damage Step
+Damage: The Ur-Dragon (214) deals 10 combat damage to Xenil.
+Life: Life: Xenil 30 > 20
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Land: Bill played Mystic Gate (219)
+Mana: Talisman of Progress (287) - {T}: Add {C}.
+Mana: Mystic Gate (219) - {T}: Add {C}.
+Add To Stack: Bill activated Marvin, Murderous Mimic
+Resolve Stack: Ancient Copper Dragon (229) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Copper Dragon (229) becomes a copy of Ancient Copper Dragon (229).
+Land: Bill picked {G}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Bill picked {G}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Dragonlord Kolaghan (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Dragonlord Kolaghan (302) becomes a copy of Dragonlord Kolaghan (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 36 (Xenil)
+Information: BOARD turn 36 (Xenil) | Xenil | life 20 | hand 4 | lands 8 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Brisela, Voice of Nightmares 9/10 | hand cards: Plains(land); Faith's Reward(4); Righteous Valkyrie(3); Resurrection(4)
+Information: BOARD turn 36 (Xenil) | Bill | life 2 | hand 6 | lands 11 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): The Ur-Dragon 10/10*; Atarka, World Render 6/4; Marvin, Murderous Mimic 2/2; Scion of the Ur-Dragon 4/4; Solemn Simulacrum 2/2 | hand cards: Slip On the Ring(2); Llanowar Elves(1); Hero's Downfall(3); Reality Ripple(2); Delighted Halfling(1); Broken Wings(3)
+Information: BOARD threat | turn 36 | The Ur-Dragon (Bill) 288; Atarka, World Render (Bill) 169; Brisela, Voice of Nightmares (Xenil) 86; Key to the City (Xenil) 64
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Key to the City
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Resolve Stack: Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a card. [Untapped: Key to the City (49)]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Discard: Xenil discards Plains (88).
+Add To Stack: Xenil activated Key to the City targeting [Brisela, Voice of Nightmares (11)]
+Resolve Stack: Key to the City (49) - Up to one target creature can't be blocked this turn. (Targeting: Brisela, Voice of Nightmares (11))
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Brisela, Voice of Nightmares (11) to attack Bill.
+Information: BOARD attack | Xenil -> Bill | attackers 1 (power 9) | defender life 2 | untapped creatures 4 (power 14): Atarka, World Render 6/4; Marvin, Murderous Mimic 2/2; Scion of the Ur-Dragon 4/4; Solemn Simulacrum 2/2 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Bill didn't block Brisela, Voice of Nightmares (11).
+Phase: Xenil's First Strike Damage Step
+Damage: Brisela, Voice of Nightmares (11) deals 9 combat damage to Bill.
+Life: Life: Xenil 20 > 29
+Life: Life: Bill 2 > -7
+Player Control: Xenil has restored control over themself
+Player Control: Philadona has restored control over themself
+Player Control: Bill has restored control over themself
+Player Control: Samot has restored control over themself
+Game Outcome: Match Duration 13m : 57s
+Game Outcome: Turn 18
+Game Outcome: Xenil has won because all opponents have lost
+Game Outcome: Philadona has lost because life total reached 0
+Game Outcome: Bill has lost because life total reached 0
+Game Outcome: Samot has lost because life total reached 0
+Match Result: Xenil: 1 Philadona: 0 Bill: 0 Samot: 0 
+
+Game Result: Xenil has won

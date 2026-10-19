@@ -1,0 +1,1414 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Philadona (AI) deck=Captain America v8
+Player: Bill (AI) deck=Scion
+Player: Samot (AI) deck=Doom Prevails v3
+Mulligan: Bill has mulliganed down to 7 cards.
+Mulligan: Bill has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Philadona has kept a hand of 7 cards
+Mulligan: Bill has kept a hand of 6 cards
+Mulligan: Samot has kept a hand of 7 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Smuggler's Copter(2); Plains(land); Everflowing Chalice(0); Sol Ring(1); Akroma's Will(4)
+Information: BOARD turn 1 (Xenil) | Philadona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land)
+Information: BOARD turn 1 (Xenil) | Bill | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sol Ring(1); Arcane Signet(2); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 1 (Xenil) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Luxury Suite(land); Island(land); Withering Torment(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (90)
+Mana: Plains (90) - {T}: Add {W}.
+Add To Stack: Xenil cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Xenil | open mana: Philadona 0, Bill 0, Samot 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Xenil cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Xenil | open mana: Philadona 0, Bill 0, Samot 0
+Resolve Stack: Fellwar Stone
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Philadona)
+Information: BOARD turn 2 (Philadona) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Smuggler's Copter(2); Everflowing Chalice(0); Akroma's Will(4)
+Information: BOARD turn 2 (Philadona) | Philadona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land)
+Information: BOARD turn 2 (Philadona) | Bill | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sol Ring(1); Arcane Signet(2); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 2 (Philadona) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Luxury Suite(land); Island(land); Withering Torment(3)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Command Tower (127)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Phase: Philadona's Declare Blockers Step
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 3 (Bill)
+Information: BOARD turn 3 (Bill) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Smuggler's Copter(2); Everflowing Chalice(0); Akroma's Will(4)
+Information: BOARD turn 3 (Bill) | Philadona | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land); Seachrome Coast(land)
+Information: BOARD turn 3 (Bill) | Bill | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Sol Ring(1); Arcane Signet(2); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 3 (Bill) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Luxury Suite(land); Island(land); Withering Torment(3)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Land: Bill played Battlefield Forge (300)
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Bill cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Bill | open mana: Xenil 1, Philadona 2, Samot 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Add To Stack: Bill cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Bill | open mana: Xenil 1, Philadona 2, Samot 0
+Resolve Stack: Arcane Signet
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 4 (Samot)
+Information: BOARD turn 4 (Samot) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Smuggler's Copter(2); Everflowing Chalice(0); Akroma's Will(4)
+Information: BOARD turn 4 (Samot) | Philadona | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land); Seachrome Coast(land)
+Information: BOARD turn 4 (Samot) | Bill | life 40 | hand 4 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 4 (Samot) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Luxury Suite(land); Island(land); Withering Torment(3)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Samot played Luxury Suite (328)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Smuggler's Copter(2); Everflowing Chalice(0); Akroma's Will(4)
+Information: BOARD turn 5 (Xenil) | Philadona | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land); Seachrome Coast(land)
+Information: BOARD turn 5 (Xenil) | Bill | life 40 | hand 4 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 5 (Xenil) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Island(land); Withering Torment(3); Terminate(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (75)
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Xenil cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Xenil | open mana: Philadona 2, Bill 2, Samot 3
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Everflowing Chalice
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Everflowing Chalice (33) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Xenil cast Smuggler's Copter
+Information: BOARD cast | Smuggler's Copter (mv 2) by Xenil | open mana: Philadona 2, Bill 2, Samot 3
+Resolve Stack: Smuggler's Copter
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 6 (Philadona)
+Information: BOARD turn 6 (Philadona) | Xenil | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Akroma's Will(4)
+Information: BOARD turn 6 (Philadona) | Philadona | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Sram, Senior Edificer(2); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Battlefield Forge(land); Seachrome Coast(land)
+Information: BOARD turn 6 (Philadona) | Bill | life 40 | hand 4 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 6 (Philadona) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Island(land); Withering Torment(3); Terminate(2)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Battlefield Forge (198)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Phase: Philadona's Declare Blockers Step
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Sram, Senior Edificer
+Information: BOARD cast | Sram, Senior Edificer (mv 2) by Philadona | open mana: Xenil 0, Bill 2, Samot 3
+Resolve Stack: Sram, Senior Edificer - Creature 2 / 2
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 7 (Bill)
+Information: BOARD turn 7 (Bill) | Xenil | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Akroma's Will(4)
+Information: BOARD turn 7 (Bill) | Philadona | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sram, Senior Edificer 2/2 | hand cards: Swords to Plowshares(1); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Seachrome Coast(land); Sword of Feast and Famine(3)
+Information: BOARD turn 7 (Bill) | Bill | life 40 | hand 4 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Dragon Tempest(2); Plains(land)
+Information: BOARD turn 7 (Bill) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Island(land); Withering Torment(3); Terminate(2)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Land: Bill played Forest (239)
+Land: Bill picked {R}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Add To Stack: Bill cast Dragon Tempest
+Information: BOARD cast | Dragon Tempest (mv 2) by Bill | open mana: Xenil 0, Philadona 0, Samot 3
+Resolve Stack: Dragon Tempest
+Mana: Forest (239) - {T}: Add {G}.
+Add To Stack: Bill cast Talisman of Progress
+Information: BOARD cast | Talisman of Progress (mv 2) by Bill | open mana: Xenil 0, Philadona 0, Samot 3
+Resolve Stack: Talisman of Progress
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 8 (Samot)
+Information: BOARD turn 8 (Samot) | Xenil | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Akroma's Will(4)
+Information: BOARD turn 8 (Samot) | Philadona | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sram, Senior Edificer 2/2 | hand cards: Swords to Plowshares(1); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Seachrome Coast(land); Sword of Feast and Famine(3)
+Information: BOARD turn 8 (Samot) | Bill | life 40 | hand 2 | lands 2 (1 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Plains(land)
+Information: BOARD turn 8 (Samot) | Samot | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Island(land); Withering Torment(3); Terminate(2)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Island (324)
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Key to the City(2); Weathered Wayfarer(1); Akroma's Will(4)
+Information: BOARD turn 9 (Xenil) | Philadona | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sram, Senior Edificer 2/2 | hand cards: Swords to Plowshares(1); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Seachrome Coast(land); Sword of Feast and Famine(3)
+Information: BOARD turn 9 (Xenil) | Bill | life 40 | hand 2 | lands 2 (1 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Plains(land)
+Information: BOARD turn 9 (Xenil) | Samot | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Withering Torment(3); Terminate(2); Ultimate Green Goblin(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (75) - {T}: Add {W}.
+Add To Stack: Xenil cast Weathered Wayfarer
+Information: BOARD cast | Weathered Wayfarer (mv 1) by Xenil | open mana: Philadona 0, Bill 6, Samot 4
+Resolve Stack: Weathered Wayfarer - Creature 1 / 1
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Everflowing Chalice (33) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Xenil cast Subjugator Angel
+Information: BOARD cast | Subjugator Angel (mv 6) by Xenil | open mana: Philadona 0, Bill 6, Samot 4
+Resolve Stack: Subjugator Angel - Creature 4 / 3
+Add To Stack: Xenil triggered Subjugator Angel
+Resolve Stack: When Subjugator Angel enters, tap all creatures your opponents control. [Zone Changer: Subjugator Angel (34)]
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 10 (Philadona)
+Information: BOARD turn 10 (Philadona) | Xenil | life 40 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Weathered Wayfarer 1/1; Subjugator Angel 4/3 | hand cards: Key to the City(2); Akroma's Will(4)
+Information: BOARD turn 10 (Philadona) | Philadona | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Sram, Senior Edificer 2/2* | hand cards: Swords to Plowshares(1); Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Seachrome Coast(land); Sword of Feast and Famine(3)
+Information: BOARD turn 10 (Philadona) | Bill | life 40 | hand 2 | lands 2 (1 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Plains(land)
+Information: BOARD turn 10 (Philadona) | Samot | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Withering Torment(3); Terminate(2); Ultimate Green Goblin(3)
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Philadona cast Swords to Plowshares targeting [Subjugator Angel (34)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Philadona | open mana: Xenil 0, Bill 6, Samot 4
+Zone Change: Subjugator Angel (34) was put into Exile from Battlefield.
+Life: Life: Xenil 40 > 44
+Resolve Stack: Swords to Plowshares (177) - Exile Subjugator Angel (34). Xenil gains life equal to its power.
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Philadona played Seachrome Coast (199)
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Sram, Senior Edificer (161) to attack Xenil.
+Information: BOARD attack | Philadona -> Xenil | attackers 1 (power 2) | defender life 44 | untapped creatures 1 (power 1): Weathered Wayfarer 1/1 | open mana 0
+Phase: Philadona's Declare Blockers Step
+Combat: Xenil didn't block Sram, Senior Edificer (161).
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Damage: Sram, Senior Edificer (161) deals 2 combat damage to Xenil.
+Life: Life: Xenil 44 > 42
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 11 (Bill)
+Information: BOARD turn 11 (Bill) | Xenil | life 42 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Key to the City(2); Akroma's Will(4)
+Information: BOARD turn 11 (Bill) | Philadona | life 40 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Sram, Senior Edificer 2/2* | hand cards: Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 11 (Bill) | Bill | life 40 | hand 2 | lands 2 (1 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Plains(land)
+Information: BOARD turn 11 (Bill) | Samot | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Withering Torment(3); Terminate(2); Ultimate Green Goblin(3)
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Land: Bill played Island (234)
+Land: Bill picked {B}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Land: Bill picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Bill.
+Life: Life: Bill 40 > 39
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Land: Bill picked {W}
+Damage: Talisman of Progress (287) deals 1 non-combat damage to Bill.
+Life: Life: Bill 39 > 38
+Mana: Talisman of Progress (287) - {T}: Add {W} or {U}. Talisman of Progress deals 1 damage to you. 
+Mana: Island (234) - {T}: Add {U}.
+Mana: Forest (239) - {T}: Add {G}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 0, Philadona 6, Samot 4
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Add To Stack: Bill triggered Dragon Tempest targeting [Samot]
+Add To Stack: Bill triggered Dragon Tempest
+Resolve Stack: Whenever a creature you control with flying enters, it gains haste until end of turn. [Zone Changer: Scion of the Ur-Dragon (302)]
+Damage: Scion of the Ur-Dragon (302) deals 1 non-combat damage to Samot.
+Life: Life: Samot 40 > 39
+Resolve Stack: Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control. (Targeting: [[Samot]]) [Zone Changer: Scion of the Ur-Dragon (302)]
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (302) becomes a copy of The Ur-Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 12 (Samot)
+Information: BOARD turn 12 (Samot) | Xenil | life 42 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Key to the City(2); Akroma's Will(4)
+Information: BOARD turn 12 (Samot) | Philadona | life 40 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Sram, Senior Edificer 2/2* | hand cards: Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 12 (Samot) | Bill | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 12 (Samot) | Samot | life 39 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scavenger Grounds(land); Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Withering Torment(3); Terminate(2); Ultimate Green Goblin(3)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Scavenger Grounds (361)
+Land: Samot picked {B}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Island (324) - {T}: Add {U}.
+Mana: Scavenger Grounds (361) - {T}: Add {C}.
+Add To Stack: Samot cast Withering Torment targeting [Scion of the Ur-Dragon (302)]
+Information: BOARD cast | Withering Torment (mv 3) by Samot | open mana: Xenil 0, Philadona 6, Bill 0
+Zone Change: Scion of the Ur-Dragon (302) was put into Graveyard from Battlefield.
+Life: Life: Samot 39 > 37
+Resolve Stack: Withering Torment (344) - Destroy Scion of the Ur-Dragon (302). Samot loses 2 life.
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 13 (Xenil)
+Information: BOARD turn 13 (Xenil) | Xenil | life 42 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Key to the City(2); Akroma's Will(4)
+Information: BOARD turn 13 (Xenil) | Philadona | life 40 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Sram, Senior Edificer 2/2* | hand cards: Plains(land); Danitha Capashen, Paragon(3); Spectacular Spider-Man(2); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 13 (Xenil) | Bill | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 13 (Xenil) | Samot | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Terminate(2); Ultimate Green Goblin(3); Swamp(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Add To Stack: Xenil activated Smuggler's Copter
+Resolve Stack: Smuggler's Copter (37) - Smuggler's Copter (37) becomes an artifact creature until end of turn.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Smuggler's Copter (37) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 1 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 6
+Add To Stack: Xenil triggered Smuggler's Copter
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Spectacular Spider-Man
+Information: BOARD cast | Spectacular Spider-Man (mv 2) by Philadona | open mana: Xenil 7, Bill 0, Samot 0
+Resolve Stack: Spectacular Spider-Man - Creature 3 / 2
+Discard: Xenil discards Wand of Vertebrae (13).
+Resolve Stack: Whenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card. [Attacker: Smuggler's Copter (37)]
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Smuggler's Copter (37).
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Smuggler's Copter (37) deals 3 combat damage to Philadona.
+Life: Life: Philadona 40 > 37
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Xenil cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Xenil | open mana: Philadona 0, Bill 0, Samot 0
+Resolve Stack: Arcane Signet
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Xenil cast Key to the City
+Information: BOARD cast | Key to the City (mv 2) by Xenil | open mana: Philadona 0, Bill 0, Samot 0
+Resolve Stack: Key to the City
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 14 (Philadona)
+Information: BOARD turn 14 (Philadona) | Xenil | life 42 | hand 1 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Akroma's Will(4)
+Information: BOARD turn 14 (Philadona) | Philadona | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2 | hand cards: Plains(land); Danitha Capashen, Paragon(3); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 14 (Philadona) | Bill | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 14 (Philadona) | Samot | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Terminate(2); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD threat | turn 14 | Smuggler's Copter (Xenil) 46
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Plains (186)
+Land: Philadona picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Philadona picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (186) - {T}: Add {W}.
+Add To Stack: Philadona cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Philadona | open mana: Xenil 2, Bill 0, Samot 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Spectacular Spider-Man (139) and Sram, Senior Edificer (161) to attack Xenil.
+Information: BOARD attack | Philadona -> Xenil | attackers 2 (power 5) | defender life 42 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Philadona's Declare Blockers Step
+Combat: Xenil didn't block Spectacular Spider-Man (139).
+Xenil didn't block Sram, Senior Edificer (161).
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Damage: Spectacular Spider-Man (139) deals 3 combat damage to Xenil.
+Damage: Sram, Senior Edificer (161) deals 2 combat damage to Xenil.
+Life: Life: Xenil 42 > 37
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Philadona | open mana: Xenil 2, Bill 0, Samot 0
+Resolve Stack: Sol Ring
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 15 (Bill)
+Information: BOARD turn 15 (Bill) | Xenil | life 37 | hand 1 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Akroma's Will(4)
+Information: BOARD turn 15 (Bill) | Philadona | life 37 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Captain America, First Avenger 4/4 | hand cards: Danitha Capashen, Paragon(3); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 15 (Bill) | Bill | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 15 (Bill) | Samot | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Terminate(2); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD threat | turn 15 | Smuggler's Copter (Xenil) 44
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Land: Bill picked {B}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Land: Bill picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Bill.
+Life: Life: Bill 38 > 37
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Land: Bill picked {W}
+Damage: Talisman of Progress (287) deals 1 non-combat damage to Bill.
+Life: Life: Bill 37 > 36
+Mana: Talisman of Progress (287) - {T}: Add {W} or {U}. Talisman of Progress deals 1 damage to you. 
+Mana: Island (234) - {T}: Add {U}.
+Mana: Forest (239) - {T}: Add {G}.
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 2, Philadona 2, Samot 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Add To Stack: Bill triggered Dragon Tempest targeting [Samot]
+Add To Stack: Bill triggered Dragon Tempest
+Resolve Stack: Whenever a creature you control with flying enters, it gains haste until end of turn. [Zone Changer: Scion of the Ur-Dragon (302)]
+Damage: Scion of the Ur-Dragon (302) deals 1 non-combat damage to Samot.
+Life: Life: Samot 37 > 36
+Resolve Stack: Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control. (Targeting: [[Samot]]) [Zone Changer: Scion of the Ur-Dragon (302)]
+Land: Bill played Sunken Ruins (203)
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302) to attack Philadona.
+Information: BOARD attack | Bill -> Philadona | attackers 1 (power 4) | defender life 37 | untapped creatures 1 (power 4): Captain America, First Avenger 4/4 | open mana 2
+Phase: Bill's Declare Blockers Step
+Combat: Philadona didn't block Scion of the Ur-Dragon (302).
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Philadona.
+Life: Life: Philadona 37 > 33
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 16 (Samot)
+Information: BOARD turn 16 (Samot) | Xenil | life 37 | hand 1 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Akroma's Will(4)
+Information: BOARD turn 16 (Samot) | Philadona | life 33 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Captain America, First Avenger 4/4 | hand cards: Danitha Capashen, Paragon(3); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 16 (Samot) | Bill | life 36 | hand 2 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 16 (Samot) | Samot | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Lady Loki, Agent of Chaos(6); Terminate(2); Ultimate Green Goblin(3); Swamp(land)
+Information: BOARD threat | turn 16 | Dragon Tempest (Bill) 53; Smuggler's Copter (Xenil) 42
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Swamp (358)
+Mana: Island (324) - {T}: Add {U}.
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Swamp (358) - {T}: Add {B}.
+Mana: Scavenger Grounds (361) - {T}: Add {C}.
+Add To Stack: Samot cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Samot | open mana: Xenil 2, Philadona 2, Bill 5
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Lady Loki, Agent of Chaos (319).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 17 (Xenil)
+Information: BOARD turn 17 (Xenil) | Xenil | life 37 | hand 1 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Akroma's Will(4)
+Information: BOARD turn 17 (Xenil) | Philadona | life 33 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Captain America, First Avenger 4/4 | hand cards: Danitha Capashen, Paragon(3); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 17 (Xenil) | Bill | life 36 | hand 2 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 17 (Xenil) | Samot | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Terminate(2); Ultimate Green Goblin(3); Island(land); Archnemesis(3)
+Information: BOARD threat | turn 17 | Dragon Tempest (Bill) 51; Smuggler's Copter (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: devXenil's Beginning of Combat Step
+Add To Stack: Xenil activated Smuggler's Copter
+Resolve Stack: Smuggler's Copter (37) - Smuggler's Copter (37) becomes an artifact creature until end of turn.
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Smuggler's Copter (37) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 1 (power 3) | defender life 33 | untapped creatures 1 (power 4): Captain America, First Avenger 4/4 | open mana 2
+Add To Stack: Xenil triggered Smuggler's Copter
+Discard: Xenil discards Plains (79).
+Resolve Stack: Whenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card. [Attacker: Smuggler's Copter (37)]
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Smuggler's Copter (37).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Smuggler's Copter (37) deals 3 combat damage to Philadona.
+Life: Life: Philadona 33 > 30
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (75) - {T}: Add {W}.
+Add To Stack: Xenil cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Xenil | open mana: Philadona 2, Bill 5, Samot 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 18 (Philadona)
+Information: BOARD turn 18 (Philadona) | Xenil | life 37 | hand 2 | lands 2 (0 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 18 (Philadona) | Philadona | life 30 | hand 3 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Captain America, First Avenger 4/4 | hand cards: Danitha Capashen, Paragon(3); Sword of Feast and Famine(3); Clifftop Retreat(land)
+Information: BOARD turn 18 (Philadona) | Bill | life 36 | hand 2 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Plains(land); Swords to Plowshares(1)
+Information: BOARD turn 18 (Philadona) | Samot | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Terminate(2); Ultimate Green Goblin(3); Island(land); Archnemesis(3)
+Information: BOARD threat | turn 18 | Smuggler's Copter (Xenil) 85; Dragon Tempest (Bill) 49
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Mountain (180)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Mountain (180) - {T}: Add {R}.
+Add To Stack: Philadona cast Sword of Feast and Famine
+Information: BOARD cast | Sword of Feast and Famine (mv 3) by Philadona | open mana: Xenil 4, Bill 5, Samot 0
+Add To Stack: Philadona triggered Sram, Senior Edificer
+Resolve Stack: Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card. [Card: Sword of Feast and Famine (192), Activator: Philadona, SpellAbility: Sword of Feast and Famine]
+Resolve Stack: Sword of Feast and Famine
+Mana: Plains (186) - {T}: Add {W}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Philadona activated Sword of Feast and Famine targeting [Captain America, First Avenger (201)]
+Resolve Stack: Sword of Feast and Famine (192) -  Attach to Captain America, First Avenger (201)
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Sram, Senior Edificer (161), Spectacular Spider-Man (139) and Captain America, First Avenger (201) to attack Bill.
+Information: BOARD attack | Philadona -> Bill | attackers 3 (power 11) | defender life 36 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Philadona's Declare Blockers Step
+Combat: Bill didn't block Sram, Senior Edificer (161).
+Bill didn't block Spectacular Spider-Man (139).
+Bill didn't block Captain America, First Avenger (201).
+Phase: Philadona's First Strike Damage Step
+Phase: Philadona's Combat Damage Step
+Damage: Sram, Senior Edificer (161) deals 2 combat damage to Bill.
+Damage: Spectacular Spider-Man (139) deals 3 combat damage to Bill.
+Damage: Captain America, First Avenger (201) deals 6 combat damage to Bill.
+Life: Life: Bill 36 > 25
+Add To Stack: Philadona triggered Sword of Feast and Famine
+Discard: Bill discards Plains (296).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Bill, Amount: 6]
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Mountain (180) - {T}: Add {R}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Philadona cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Philadona | open mana: Xenil 4, Bill 5, Samot 0
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 19 (Bill)
+Information: BOARD turn 19 (Bill) | Xenil | life 37 | hand 2 | lands 2 (0 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 19 (Bill) | Philadona | life 30 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Captain America, First Avenger 6/6*[Sword of Feast and Famine]; Danitha Capashen, Paragon 2/2 | hand cards: Clifftop Retreat(land); Glacial Fortress(land)
+Information: BOARD turn 19 (Bill) | Bill | life 25 | hand 1 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Scion of the Ur-Dragon 4/4* | hand cards: Swords to Plowshares(1)
+Information: BOARD turn 19 (Bill) | Samot | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Terminate(2); Ultimate Green Goblin(3); Island(land); Archnemesis(3)
+Information: BOARD threat | turn 19 | Smuggler's Copter (Xenil) 82; Captain America, First Avenger (Philadona) 61; Dragon Tempest (Bill) 47; Sram, Senior Edificer (Philadona) 44; Spectacular Spider-Man (Philadona) 32
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Land: Bill picked {W}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Bill cast Swords to Plowshares targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Bill | open mana: Xenil 4, Philadona 5, Samot 0
+Zone Change: Captain America, First Avenger (201) was put into Exile from Battlefield.
+Life: Life: Philadona 30 > 36
+Resolve Stack: Swords to Plowshares (285) - Exile Captain America, First Avenger (201). Philadona gains life equal to its power.
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Add To Stack: Bill activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (302) - Bill searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (302) becomes a copy of Ancient Silver Dragon (302).
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 20 (Samot)
+Information: BOARD turn 20 (Samot) | Xenil | life 37 | hand 2 | lands 2 (0 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 20 (Samot) | Philadona | life 36 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2 | hand cards: Clifftop Retreat(land); Glacial Fortress(land)
+Information: BOARD turn 20 (Samot) | Bill | life 25 | hand 1 | lands 4 (4 untapped) | open mana 13 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Call the Spirit Dragons(5)
+Information: BOARD turn 20 (Samot) | Samot | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: Loki, the Deceiver(4); Chaos Warp(3); Terminate(2); Ultimate Green Goblin(3); Island(land); Archnemesis(3)
+Information: BOARD threat | turn 20 | Smuggler's Copter (Xenil) 79; Dragon Tempest (Bill) 45; Sram, Senior Edificer (Philadona) 42; Scion of the Ur-Dragon (Bill) 39; Spectacular Spider-Man (Philadona) 31
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Island (324) - {T}: Add {U}.
+Mana: Swamp (358) - {T}: Add {B}.
+Add To Stack: Samot cast Chaos Warp targeting [Scion of the Ur-Dragon (302)]
+Information: BOARD cast | Chaos Warp (mv 3) by Samot | open mana: Xenil 4, Philadona 5, Bill 13
+Replacement Effect: If a commander would be put into its owner's hand or library from anywhere, its owner may put it into the command zone instead.
+Resolve Stack: Chaos Warp (375) - Shuffle Scion of the Ur-Dragon (302) into its owner's library. Samot reveals the top card of Bill's library.
+Zone Change: Fabled Passage (276) was put into Graveyard from Battlefield.
+Add To Stack: Bill activated Fabled Passage
+Resolve Stack: Fabled Passage (276) - Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.  
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Island (327)
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Arcane Signet (346).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Phase: Samot's Declare Attackers Step
+Combat: Samot assigned Doctor Doom, King of Latveria (403) to attack Xenil.
+Information: BOARD attack | Samot -> Xenil | attackers 1 (power 5) | defender life 37 | untapped creatures 1 (power 4): Seluma, Light of Aysen 4/4 | open mana 4
+Phase: Samot's Declare Blockers Step
+Combat: Xenil didn't block Doctor Doom, King of Latveria (403).
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (403) deals 5 combat damage to Xenil.
+Life: Life: Xenil 37 > 32
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 21 (Xenil)
+Information: BOARD turn 21 (Xenil) | Xenil | life 32 | hand 2 | lands 2 (0 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 21 (Xenil) | Philadona | life 36 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2 | hand cards: Clifftop Retreat(land); Glacial Fortress(land)
+Information: BOARD turn 21 (Xenil) | Bill | life 25 | hand 1 | lands 5 (5 untapped) | open mana 14 | commander Command | creatures 0 (0 untapped):  | hand cards: Call the Spirit Dragons(5)
+Information: BOARD turn 21 (Xenil) | Samot | life 36 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 5/5* | hand cards: Loki, the Deceiver(4); Terminate(2); Ultimate Green Goblin(3); Archnemesis(3); Swamp(land)
+Information: BOARD threat | turn 21 | Smuggler's Copter (Xenil) 75; Doctor Doom, King of Latveria (Samot) 55; Dragon Tempest (Bill) 43; Sram, Senior Edificer (Philadona) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Plains (75) - {T}: Add {W}.
+Add To Stack: Xenil cast Lyra Dawnbringer
+Information: BOARD cast | Lyra Dawnbringer (mv 5) by Xenil | open mana: Philadona 5, Bill 14, Samot 2
+Resolve Stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 1 (power 5) | defender life 36 | untapped creatures 1 (power 2): Danitha Capashen, Paragon 2/2 | open mana 5
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Seluma, Light of Aysen (100).
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Philadona.
+Life: Life: Xenil 32 > 37
+Life: Life: Philadona 36 > 31
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Xenil activated Weathered Wayfarer
+Resolve Stack: Weathered Wayfarer (66) - Xenil searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Land: Xenil played Plains (88)
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 22 (Philadona)
+Information: BOARD turn 22 (Philadona) | Xenil | life 37 | hand 2 | lands 3 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 22 (Philadona) | Philadona | life 31 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 3 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2 | hand cards: Clifftop Retreat(land); Glacial Fortress(land)
+Information: BOARD turn 22 (Philadona) | Bill | life 25 | hand 1 | lands 5 (5 untapped) | open mana 14 | commander Command | creatures 0 (0 untapped):  | hand cards: Call the Spirit Dragons(5)
+Information: BOARD turn 22 (Philadona) | Samot | life 36 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 5/5* | hand cards: Loki, the Deceiver(4); Terminate(2); Ultimate Green Goblin(3); Archnemesis(3); Swamp(land)
+Information: BOARD threat | turn 22 | Smuggler's Copter (Xenil) 72; Doctor Doom, King of Latveria (Samot) 53; Dragon Tempest (Bill) 42; Sram, Senior Edificer (Philadona) 39
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Philadona played Glacial Fortress (170)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Add To Stack: Philadona activated Sword of Feast and Famine targeting [Danitha Capashen, Paragon (200)]
+Resolve Stack: Sword of Feast and Famine (192) -  Attach to Danitha Capashen, Paragon (200)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Mountain (180) - {T}: Add {R}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Kaldra Compleat
+Information: BOARD cast | Kaldra Compleat (mv 7) by Philadona | open mana: Xenil 3, Bill 14, Samot 2
+Add To Stack: Philadona triggered Sram, Senior Edificer
+Resolve Stack: Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card. [Card: Kaldra Compleat (108), Activator: Philadona, SpellAbility: Kaldra Compleat]
+Resolve Stack: Kaldra Compleat
+Add To Stack: Philadona triggered Kaldra Compleat
+Resolve Stack: Living Weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.) [Zone Changer: Kaldra Compleat (108)]
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Sram, Senior Edificer (161), Spectacular Spider-Man (139) and Danitha Capashen, Paragon (200) to attack Bill.
+Philadona assigned Phyrexian Germ Token (408) to attack Xenil.
+Information: BOARD attack | Philadona -> Bill | attackers 3 (power 9) | defender life 25 | untapped creatures 0 (power 0):  | open mana 14
+Information: BOARD attack | Philadona -> Xenil | attackers 1 (power 5) | defender life 37 | untapped creatures 1 (power 5): Lyra Dawnbringer 5/5 | open mana 3
+Phase: Philadona's Declare Blockers Step
+Combat: Bill didn't block Sram, Senior Edificer (161).
+Bill didn't block Spectacular Spider-Man (139).
+Bill didn't block Danitha Capashen, Paragon (200).
+Combat: Xenil didn't block Phyrexian Germ Token (408).
+Phase: Philadona's First Strike Damage Step
+Damage: Phyrexian Germ Token (408) deals 5 combat damage to Xenil.
+Damage: Danitha Capashen, Paragon (200) deals 4 combat damage to Bill.
+Life: Life: Philadona 31 > 35
+Life: Life: Xenil 37 > 32
+Life: Life: Bill 25 > 21
+Add To Stack: Philadona triggered Sword of Feast and Famine
+Discard: Bill discards Call the Spirit Dragons (242).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Danitha Capashen, Paragon (200), Damaged: Bill, Amount: 4]
+Phase: Philadona's Combat Damage Step
+Damage: Sram, Senior Edificer (161) deals 2 combat damage to Bill.
+Damage: Spectacular Spider-Man (139) deals 3 combat damage to Bill.
+Life: Life: Bill 21 > 16
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Philadona cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Philadona | open mana: Xenil 3, Bill 14, Samot 2
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 23 (Bill)
+Information: BOARD turn 23 (Bill) | Xenil | life 32 | hand 2 | lands 3 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Weathered Wayfarer 1/1*; Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 23 (Bill) | Philadona | life 35 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (2 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat]; Captain America, First Avenger 4/4 | hand cards: Clifftop Retreat(land); Winds of Abandon(2)
+Information: BOARD turn 23 (Bill) | Bill | life 16 | hand 0 | lands 5 (5 untapped) | open mana 14 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 23 (Bill) | Samot | life 36 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 5/5* | hand cards: Loki, the Deceiver(4); Terminate(2); Ultimate Green Goblin(3); Archnemesis(3); Swamp(land)
+Information: BOARD threat | turn 23 | Smuggler's Copter (Xenil) 69; Sram, Senior Edificer (Philadona) 63; Sword of Feast and Famine (Philadona) 53; Doctor Doom, King of Latveria (Samot) 51; Spectacular Spider-Man (Philadona) 44
+Phase: Bill's Untap step
+Phase: Bill's Upkeep step
+Phase: Bill's Draw step
+Phase: Bill's Main phase, precombat
+Mana: Swamp (262) - {T}: Add {B}.
+Land: Bill picked {R}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Forest (239) - {T}: Add {G}.
+Land: Bill picked {W}
+Damage: Talisman of Progress (287) deals 1 non-combat damage to Bill.
+Life: Life: Bill 16 > 15
+Mana: Talisman of Progress (287) - {T}: Add {W} or {U}. Talisman of Progress deals 1 damage to you. 
+Mana: Island (234) - {T}: Add {U}.
+Mana: Sol Ring (258) - {T}: Add {C}{C}.
+Mana: Sunken Ruins (203) - {T}: Add {C}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Bill cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bill | open mana: Xenil 3, Philadona 3, Samot 2
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Add To Stack: Bill triggered Dragon Tempest targeting [Weathered Wayfarer (66)]
+Add To Stack: Bill triggered Dragon Tempest
+Resolve Stack: Whenever a creature you control with flying enters, it gains haste until end of turn. [Zone Changer: Scion of the Ur-Dragon (302)]
+Damage: Scion of the Ur-Dragon (302) deals 1 damage to Weathered Wayfarer (66).
+Resolve Stack: Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control. (Targeting: [[Weathered Wayfarer (66)]]) [Zone Changer: Scion of the Ur-Dragon (302)]
+Zone Change: Weathered Wayfarer (66) was put into Graveyard from Battlefield.
+Phase: Bill's Beginning of Combat Step
+Phase: Bill's Declare Attackers Step
+Phase: Bill's Declare Blockers Step
+Phase: Bill's First Strike Damage Step
+Phase: Bill's Combat Damage Step
+Phase: Bill's End of Combat Step
+Phase: Bill's Main phase, postcombat
+Phase: Bill's End step
+Phase: Bill's Cleanup step
+Turn: Turn 24 (Samot)
+Information: BOARD turn 24 (Samot) | Xenil | life 32 | hand 2 | lands 3 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 24 (Samot) | Philadona | life 35 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (2 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat]; Captain America, First Avenger 4/4 | hand cards: Clifftop Retreat(land); Winds of Abandon(2)
+Information: BOARD turn 24 (Samot) | Bill | life 15 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Delighted Halfling(1)
+Information: BOARD turn 24 (Samot) | Samot | life 36 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 5/5* | hand cards: Loki, the Deceiver(4); Terminate(2); Ultimate Green Goblin(3); Archnemesis(3); Swamp(land)
+Information: BOARD threat | turn 24 | Dragon Tempest (Bill) 67; Smuggler's Copter (Xenil) 67; Sram, Senior Edificer (Philadona) 61; Sword of Feast and Famine (Philadona) 51; Doctor Doom, King of Latveria (Samot) 49
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Swamp (358) - {T}: Add {B}.
+Add To Stack: Samot cast Terminate targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Terminate (mv 2) by Samot | open mana: Xenil 3, Philadona 3, Bill 0
+Zone Change: Captain America, First Avenger (201) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (365) - Destroy Captain America, First Avenger (201). It can't be regenerated.
+Mana: Island (324) - {T}: Add {U}.
+Mana: Island (327) - {T}: Add {U}.
+Zone Change: Scavenger Grounds (361) was put into Graveyard from Battlefield.
+Add To Stack: Samot activated Scavenger Grounds
+Resolve Stack: Scavenger Grounds (361) -  Exile all graveyards.
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Swamp (356).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Life: Life: Xenil 32 > 30
+Life: Life: Philadona 35 > 33
+Life: Life: Bill 15 > 13
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Land: Samot played Swamp (354)
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 25 (Xenil)
+Information: BOARD turn 25 (Xenil) | Xenil | life 30 | hand 2 | lands 3 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 25 (Xenil) | Philadona | life 33 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Command | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat] | hand cards: Clifftop Retreat(land); Winds of Abandon(2)
+Information: BOARD turn 25 (Xenil) | Bill | life 13 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Delighted Halfling(1)
+Information: BOARD turn 25 (Xenil) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Loki, the Deceiver(4); Ultimate Green Goblin(3); Archnemesis(3); Doom's Time Platform(4)
+Information: BOARD threat | turn 25 | Doctor Doom, King of Latveria (Samot) 76; Dragon Tempest (Bill) 65; Smuggler's Copter (Xenil) 64; Sram, Senior Edificer (Philadona) 58; Sword of Feast and Famine (Philadona) 49
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Xenil cast Sephara, Sky's Blade
+Information: BOARD cast | Sephara, Sky's Blade (mv 7) by Xenil | open mana: Philadona 3, Bill 0, Samot 1
+Resolve Stack: Sephara, Sky's Blade - Creature 7 / 7
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100) and Lyra Dawnbringer (16) to attack Bill.
+Information: BOARD attack | Xenil -> Bill | attackers 2 (power 10) | defender life 13 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Bill assigned Scion of the Ur-Dragon (302) to block Seluma, Light of Aysen (100).
+Bill didn't block Lyra Dawnbringer (16).
+Phase: Xenil's First Strike Damage Step
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Bill.
+Life: Life: Xenil 30 > 35
+Life: Life: Bill 13 > 8
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 damage to Scion of the Ur-Dragon (302).
+Life: Life: Xenil 35 > 40
+Damage: Scion of the Ur-Dragon (302) deals 4 damage to Seluma, Light of Aysen (100).
+Zone Change: Scion of the Ur-Dragon (302) was put into Graveyard from Battlefield.
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 26 (Philadona)
+Information: BOARD turn 26 (Philadona) | Xenil | life 40 | hand 2 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5*; Sephara, Sky's Blade 8/8 | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 26 (Philadona) | Philadona | life 33 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Command | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat] | hand cards: Clifftop Retreat(land); Winds of Abandon(2)
+Information: BOARD turn 26 (Philadona) | Bill | life 8 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Delighted Halfling(1)
+Information: BOARD turn 26 (Philadona) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Loki, the Deceiver(4); Ultimate Green Goblin(3); Archnemesis(3); Doom's Time Platform(4)
+Information: BOARD threat | turn 26 | Doctor Doom, King of Latveria (Samot) 73; Dragon Tempest (Bill) 62; Smuggler's Copter (Xenil) 61; Sram, Senior Edificer (Philadona) 56; Sword of Feast and Famine (Philadona) 47
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Philadona played Clifftop Retreat (153)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Add To Stack: Philadona cast Winds of Abandon targeting [Sephara, Sky's Blade (26)]
+Information: BOARD cast | Winds of Abandon (mv 2) by Philadona | open mana: Xenil 2, Bill 0, Samot 1
+Zone Change: Sephara, Sky's Blade (26) was put into Exile from Battlefield.
+Resolve Stack: Winds of Abandon (137) - Exile Sephara, Sky's Blade (26).  
+Phase: Philadona's Beginning of Combat Step
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Sram, Senior Edificer (161), Spectacular Spider-Man (139), Danitha Capashen, Paragon (200) and Phyrexian Germ Token (408) to attack Bill.
+Information: BOARD attack | Philadona -> Bill | attackers 4 (power 14) | defender life 8 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Philadona's Declare Blockers Step
+Combat: Bill didn't block Sram, Senior Edificer (161).
+Bill didn't block Spectacular Spider-Man (139).
+Bill didn't block Danitha Capashen, Paragon (200).
+Bill didn't block Phyrexian Germ Token (408).
+Phase: Philadona's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 4 combat damage to Bill.
+Life: Life: Philadona 33 > 37
+Damage: Phyrexian Germ Token (408) deals 5 combat damage to Bill.
+Life: Life: Bill 8 > -1
+Add To Stack: Philadona triggered Sword of Feast and Famine
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Danitha Capashen, Paragon (200), Damaged: Bill, Amount: 4]
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Clifftop Retreat (153) - {T}: Add {R} or {W}.
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Philadona | open mana: Xenil 2, Samot 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 27 (Samot)
+Information: BOARD turn 27 (Samot) | Xenil | life 40 | hand 2 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (0 untapped): Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5* | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 27 (Samot) | Philadona | life 37 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat]; Captain America, First Avenger 4/4 | hand cards: Plains(land)
+Information: BOARD turn 27 (Samot) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 5/5 | hand cards: Loki, the Deceiver(4); Ultimate Green Goblin(3); Archnemesis(3); Doom's Time Platform(4)
+Information: BOARD threat | turn 27 | Doctor Doom, King of Latveria (Samot) 70; Sword of Feast and Famine (Philadona) 60; Smuggler's Copter (Xenil) 59; Sram, Senior Edificer (Philadona) 54; Phyrexian Germ Token (Philadona) 53
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Island (324) - {T}: Add {U}.
+Mana: Swamp (358) - {T}: Add {B}.
+Mana: Island (327) - {T}: Add {U}.
+Add To Stack: Samot cast Loki, the Deceiver
+Information: BOARD cast | Loki, the Deceiver (mv 4) by Samot | open mana: Xenil 2, Philadona 0
+Resolve Stack: Loki, the Deceiver - Creature 4 / 4
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Archnemesis (394).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 28 (Xenil)
+Information: BOARD turn 28 (Xenil) | Xenil | life 40 | hand 2 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (0 untapped): Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5* | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 28 (Xenil) | Philadona | life 37 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat]; Captain America, First Avenger 4/4 | hand cards: Plains(land)
+Information: BOARD turn 28 (Xenil) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; Loki, the Deceiver 4/4 | hand cards: Ultimate Green Goblin(3); Doom's Time Platform(4); Puppet Master, String Puller(3); Superior Foes of Spider-Man(3)
+Information: BOARD threat | turn 28 | Doctor Doom, King of Latveria (Samot) 82; Sword of Feast and Famine (Philadona) 57; Smuggler's Copter (Xenil) 57; Sram, Senior Edificer (Philadona) 52; Phyrexian Germ Token (Philadona) 51
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Xenil cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Xenil | open mana: Philadona 0, Samot 1
+Resolve Stack: Lightning Greaves
+Add To Stack: Xenil activated Lightning Greaves targeting [Seluma, Light of Aysen (100)]
+Resolve Stack: Lightning Greaves (95) -  Attach to Seluma, Light of Aysen (100)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100) and Lyra Dawnbringer (16) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 2 (power 10) | defender life 37 | untapped creatures 2 (power 8): Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Captain America, First Avenger 4/4 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Seluma, Light of Aysen (100).
+Philadona didn't block Lyra Dawnbringer (16).
+Phase: Xenil's First Strike Damage Step
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Philadona.
+Life: Life: Xenil 40 > 45
+Life: Life: Philadona 37 > 32
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Philadona.
+Life: Life: Xenil 45 > 50
+Life: Life: Philadona 32 > 27
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 29 (Philadona)
+Information: BOARD turn 29 (Philadona) | Xenil | life 50 | hand 2 | lands 4 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (0 untapped): Seluma, Light of Aysen 5/5*[Lightning Greaves]; Lyra Dawnbringer 5/5* | hand cards: Akroma's Will(4); Resurrection(4)
+Information: BOARD turn 29 (Philadona) | Philadona | life 27 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Phyrexian Germ Token 5/5*[Kaldra Compleat]; Captain America, First Avenger 4/4 | hand cards: Plains(land)
+Information: BOARD turn 29 (Philadona) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; Loki, the Deceiver 4/4 | hand cards: Ultimate Green Goblin(3); Doom's Time Platform(4); Puppet Master, String Puller(3); Superior Foes of Spider-Man(3)
+Information: BOARD threat | turn 29 | Doctor Doom, King of Latveria (Samot) 78; Sword of Feast and Famine (Philadona) 55; Smuggler's Copter (Xenil) 54; Lyra Dawnbringer (Xenil) 54; Seluma, Light of Aysen (Xenil) 50
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Land: Philadona played Plains (188)
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting [Sword of Feast and Famine (192)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (192)]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Captain America, First Avenger (201), Phyrexian Germ Token (408), Spectacular Spider-Man (139), Sram, Senior Edificer (161) and Danitha Capashen, Paragon (200) to attack Xenil.
+Information: BOARD attack | Philadona -> Xenil | attackers 5 (power 18) | defender life 50 | untapped creatures 0 (power 0):  | open mana 9
+Phase: Philadona's Declare Blockers Step
+Combat: Xenil didn't block Captain America, First Avenger (201).
+Xenil didn't block Phyrexian Germ Token (408).
+Xenil didn't block Spectacular Spider-Man (139).
+Xenil didn't block Sram, Senior Edificer (161).
+Xenil didn't block Danitha Capashen, Paragon (200).
+Phase: Philadona's First Strike Damage Step
+Damage: Phyrexian Germ Token (408) deals 5 combat damage to Xenil.
+Damage: Danitha Capashen, Paragon (200) deals 2 combat damage to Xenil.
+Life: Life: Philadona 27 > 29
+Life: Life: Xenil 50 > 43
+Phase: Philadona's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 6 combat damage to Xenil.
+Damage: Spectacular Spider-Man (139) deals 3 combat damage to Xenil.
+Damage: Sram, Senior Edificer (161) deals 2 combat damage to Xenil.
+Life: Life: Xenil 43 > 32
+Add To Stack: Philadona triggered Sword of Feast and Famine
+Discard: Xenil discards Resurrection (55).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Xenil, Amount: 6]
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Add To Stack: Philadona activated Kaldra Compleat targeting [Captain America, First Avenger (201)]
+Resolve Stack: Kaldra Compleat (108) -  Attach to Captain America, First Avenger (201)
+Zone Change: Phyrexian Germ Token (408) was put into Graveyard from Battlefield.
+Land: Philadona picked {W}
+Mana: Clifftop Retreat (153) - {T}: Add {R} or {W}.
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Xenil]
+Damage: Captain America, First Avenger (201) deals 7 non-combat damage to Xenil.
+Life: Life: Xenil 32 > 25
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 7 damage divided to 
+Xenil (7 damage).
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 30 (Samot)
+Information: BOARD turn 30 (Samot) | Xenil | life 25 | hand 1 | lands 4 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (0 untapped): Seluma, Light of Aysen 5/5*[Lightning Greaves]; Lyra Dawnbringer 5/5* | hand cards: Akroma's Will(4)
+Information: BOARD turn 30 (Samot) | Philadona | life 29 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Akiri, Fearless Voyager(3)
+Information: BOARD turn 30 (Samot) | Samot | life 36 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 6/6; Loki, the Deceiver 4/4 | hand cards: Ultimate Green Goblin(3); Doom's Time Platform(4); Puppet Master, String Puller(3); Superior Foes of Spider-Man(3)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Philadona) 104; Doctor Doom, King of Latveria (Samot) 75; Sword of Feast and Famine (Philadona) 67; Sram, Senior Edificer (Philadona) 59; Smuggler's Copter (Xenil) 52
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot played Exotic Orchard (336)
+Phase: Samot's Beginning of Combat Step
+Add To Stack: Samot triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Discard: Samot discards Sunken Hollow (320).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Phase: Samot]
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Life: Life: Xenil 25 > 23
+Life: Life: Philadona 29 > 27
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Samot's Declare Attackers Step
+Combat: Samot assigned Doctor Doom, King of Latveria (403) and Loki, the Deceiver (341) to attack Philadona.
+Information: BOARD attack | Samot -> Philadona | attackers 2 (power 10) | defender life 27 | untapped creatures 1 (power 2): Danitha Capashen, Paragon 2/2 | open mana 0
+Add To Stack: Samot triggered Loki, the Deceiver targeting [Doctor Doom, King of Latveria (403)]
+Resolve Stack: Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step. (Targeting: [[Doctor Doom, King of Latveria (403)]]) [Attacker: Loki, the Deceiver (341)]
+Phase: Samot's Declare Blockers Step
+Combat: Xenil didn't block Doctor Doom, King of Latveria (410).
+Combat: Philadona didn't block Doctor Doom, King of Latveria (403).
+Philadona didn't block Loki, the Deceiver (341).
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (410) deals 3 combat damage to Xenil.
+Damage: Doctor Doom, King of Latveria (403) deals 6 combat damage to Philadona.
+Damage: Loki, the Deceiver (341) deals 4 combat damage to Philadona.
+Life: Life: Xenil 23 > 20
+Life: Life: Philadona 27 > 17
+Add To Stack: Samot triggered Loki, the Deceiver
+Add To Stack: Samot triggered Loki, the Deceiver
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Philadona, Amount: 10]
+Resolve Stack: Whenever one or more Villains you control deal combat damage to a player, draw a card. [Damaged: Xenil, Amount: 3]
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Mana: Swamp (358) - {T}: Add {B}.
+Mana: Swamp (354) - {T}: Add {B}.
+Mana: Island (324) - {T}: Add {U}.
+Add To Stack: Samot cast Ultimate Green Goblin
+Information: BOARD cast | Ultimate Green Goblin (mv 3) by Samot | open mana: Xenil 9, Philadona 0
+Resolve Stack: Ultimate Green Goblin - Creature 5 / 4
+Mana: Exotic Orchard (336) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Island (327) - {T}: Add {U}.
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Add To Stack: Samot cast Superior Foes of Spider-Man
+Information: BOARD cast | Superior Foes of Spider-Man (mv 3) by Samot | open mana: Xenil 9, Philadona 0
+Resolve Stack: Superior Foes of Spider-Man - Creature 3 / 3
+Phase: Samot's End step
+Add To Stack: Samot triggered Loki, the Deceiver
+Zone Change: Doctor Doom, King of Latveria (410) was put into Graveyard from Battlefield.
+Resolve Stack: Sacrifice Doctor Doom, King of Latveria (410) at the beginning of the next end step. ([Doctor Doom, King of Latveria (410)]) [Phase: Samot]
+Phase: Samot's Cleanup step
+Turn: Turn 31 (Xenil)
+Information: BOARD turn 31 (Xenil) | Xenil | life 20 | hand 1 | lands 4 (4 untapped) | open mana 9 | commander Battlefield | creatures 2 (0 untapped): Seluma, Light of Aysen 5/5*[Lightning Greaves]; Lyra Dawnbringer 5/5* | hand cards: Akroma's Will(4)
+Information: BOARD turn 31 (Xenil) | Philadona | life 17 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Akiri, Fearless Voyager(3)
+Information: BOARD turn 31 (Xenil) | Samot | life 36 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Doctor Doom, King of Latveria 6/6*; Loki, the Deceiver 4/4*; Ultimate Green Goblin 5/4; Superior Foes of Spider-Man 3/3 | hand cards: Doom's Time Platform(4); Puppet Master, String Puller(3); Swamp(land); Electro, Assaulting Battery(3)
+Information: BOARD threat | turn 31 | Doctor Doom, King of Latveria (Samot) 135; Captain America, First Avenger (Philadona) 100; Loki, the Deceiver (Samot) 81; Sword of Feast and Famine (Philadona) 64; Sram, Senior Edificer (Philadona) 57
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100) and Lyra Dawnbringer (16) to attack Philadona.
+Information: BOARD attack | Xenil -> Philadona | attackers 2 (power 10) | defender life 17 | untapped creatures 1 (power 2): Danitha Capashen, Paragon 2/2 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Seluma, Light of Aysen (100).
+Philadona didn't block Lyra Dawnbringer (16).
+Phase: Xenil's First Strike Damage Step
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Philadona.
+Life: Life: Xenil 20 > 25
+Life: Life: Philadona 17 > 12
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Philadona.
+Life: Life: Xenil 25 > 30
+Life: Life: Philadona 12 > 7
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Xenil cast Teferi's Protection
+Information: BOARD cast | Teferi's Protection (mv 3) by Xenil | open mana: Philadona 0, Samot 0
+Resolve Stack: Teferi's Protection (31) - Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.) Exile Teferi's Protection. Xenil gains protection from everything until end of turn.  phase out. Exile Teferi's Protection (31).
+Phase: Xenil's Cleanup step
+Turn: Turn 32 (Philadona)
+Information: BOARD turn 32 (Philadona) | Xenil | life 30 | hand 1 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4)
+Information: BOARD turn 32 (Philadona) | Philadona | life 7 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Sram, Senior Edificer 2/2*; Spectacular Spider-Man 3/2*; Danitha Capashen, Paragon 2/2; Captain America, First Avenger 6/6*[Sword of Feast and Famine] | hand cards: Akiri, Fearless Voyager(3)
+Information: BOARD turn 32 (Philadona) | Samot | life 36 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Doctor Doom, King of Latveria 6/6*; Loki, the Deceiver 4/4*; Ultimate Green Goblin 5/4; Superior Foes of Spider-Man 3/3 | hand cards: Doom's Time Platform(4); Puppet Master, String Puller(3); Swamp(land); Electro, Assaulting Battery(3)
+Information: BOARD threat | turn 32 | Doctor Doom, King of Latveria (Samot) 130; Captain America, First Avenger (Philadona) 96; Loki, the Deceiver (Samot) 77; Sword of Feast and Famine (Philadona) 62; Sram, Senior Edificer (Philadona) 54
+Phase: Philadona's Untap step
+Phase: Philadona's Upkeep step
+Phase: Philadona's Draw step
+Phase: Philadona's Main phase, precombat
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Add To Stack: Philadona activated Kaldra Compleat targeting [Captain America, First Avenger (201)]
+Resolve Stack: Kaldra Compleat (108) -  Attach to Captain America, First Avenger (201)
+Land: Philadona picked {W}
+Mana: Clifftop Retreat (153) - {T}: Add {R} or {W}.
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Loki, the Deceiver (341), Superior Foes of Spider-Man (378)]
+Damage: Captain America, First Avenger (201) deals 4 damage to Loki, the Deceiver (341).
+Damage: Captain America, First Avenger (201) deals 3 damage to Superior Foes of Spider-Man (378).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 7 damage divided to 
+Loki, the Deceiver (341) (4 damage) and Superior Foes of Spider-Man (378) (3 damage).
+Zone Change: Loki, the Deceiver (341) was put into Graveyard from Battlefield.
+Zone Change: Superior Foes of Spider-Man (378) was put into Graveyard from Battlefield.
+Phase: Philadona's Beginning of Combat Step
+Add To Stack: Philadona triggered Captain America, First Avenger targeting [Kaldra Compleat (108)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Kaldra Compleat (108)]]) [Phase: Philadona]
+Phase: Philadona's Declare Attackers Step
+Combat: Philadona assigned Captain America, First Avenger (201) to attack Samot.
+Information: BOARD attack | Philadona -> Samot | attackers 1 (power 11) | defender life 36 | untapped creatures 1 (power 5): Ultimate Green Goblin 5/4 | open mana 0
+Phase: Philadona's Declare Blockers Step
+Combat: Samot didn't block Captain America, First Avenger (201).
+Phase: Philadona's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 11 combat damage to Samot.
+Life: Life: Samot 36 > 25
+Add To Stack: Philadona triggered Sword of Feast and Famine
+Discard: Samot discards Swamp (355).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Samot, Amount: 11]
+Add To Stack: Samot triggered Doctor Doom, King of Latveria
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Philadona activated Captain America, First Avenger targeting [Doctor Doom, King of Latveria (403), Samot]
+Damage: Captain America, First Avenger (201) deals 6 damage to Doctor Doom, King of Latveria (403).
+Damage: Captain America, First Avenger (201) deals 1 non-combat damage to Samot.
+Life: Life: Samot 25 > 24
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 7 damage divided to 
+Doctor Doom, King of Latveria (403) (6 damage) and Samot (1 damage).
+Zone Change: Doctor Doom, King of Latveria (403) was put into Graveyard from Battlefield.
+Life: Life: Philadona 7 > 5
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Samot, Amount: 1]
+Phase: Philadona's Combat Damage Step
+Phase: Philadona's End of Combat Step
+Phase: Philadona's Main phase, postcombat
+Land: Philadona picked {R}
+Mana: Clifftop Retreat (153) - {T}: Add {R} or {W}.
+Land: Philadona picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Philadona picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Add To Stack: Philadona cast Akiri, Fearless Voyager
+Information: BOARD cast | Akiri, Fearless Voyager (mv 3) by Philadona | open mana: Xenil 0, Samot 0
+Resolve Stack: Akiri, Fearless Voyager - Creature 3 / 3
+Land: Philadona picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Land: Philadona picked {W}
+Damage: Battlefield Forge (198) deals 1 non-combat damage to Philadona.
+Life: Life: Philadona 5 > 4
+Mana: Battlefield Forge (198) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: Philadona cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Philadona | open mana: Xenil 0, Samot 0
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Add To Stack: Philadona activated Kaldra Compleat targeting [Captain America, First Avenger (201)]
+Resolve Stack: Kaldra Compleat (108) -  Attach to Captain America, First Avenger (201)
+Phase: Philadona's End step
+Phase: Philadona's Cleanup step
+Turn: Turn 33 (Samot)
+Information: BOARD turn 33 (Samot) | Xenil | life 30 | hand 1 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4)
+Information: BOARD turn 33 (Samot) | Philadona | life 4 | hand 0 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Sram, Senior Edificer 2/2; Spectacular Spider-Man 3/2; Danitha Capashen, Paragon 2/2; Captain America, First Avenger 11/11*[Sword of Feast and Famine,Kaldra Compleat]; Akiri, Fearless Voyager 3/3; Puresteel Paladin 2/2 | hand cards: 
+Information: BOARD turn 33 (Samot) | Samot | life 24 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ultimate Green Goblin 5/4 | hand cards: Doom's Time Platform(4); Puppet Master, String Puller(3); Electro, Assaulting Battery(3)
+Information: BOARD threat | turn 33 | Captain America, First Avenger (Philadona) 204; Sword of Feast and Famine (Philadona) 74; Sram, Senior Edificer (Philadona) 52; Kaldra Compleat (Philadona) 51; Spectacular Spider-Man (Philadona) 45
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Add To Stack: Samot triggered Ultimate Green Goblin
+Discard: Samot discards Doom's Time Platform (333).
+Resolve Stack: At the beginning of your upkeep, discard a card, then create a Treasure token. [Phase: Samot]
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Phase: Samot's Declare Blockers Step
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Mana: Island (324) - {T}: Add {U}.
+Mana: Swamp (358) - {T}: Add {B}.
+Mana: Island (327) - {T}: Add {U}.
+Mana: Swamp (354) - {T}: Add {B}.
+Add To Stack: Samot cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Samot | open mana: Xenil 0, Philadona 0
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Mana: Exotic Orchard (336) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Zone Change: Treasure Token (414) was put into Graveyard from Battlefield.
+Land: Treasure Token (414) picked {W}
+Mana: Treasure Token (414) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Samot cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Samot | open mana: Xenil 0, Philadona 0
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 34 (Xenil)
+Information: BOARD turn 34 (Xenil) | Xenil | life 30 | hand 1 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4)
+Information: BOARD turn 34 (Xenil) | Philadona | life 4 | hand 0 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Sram, Senior Edificer 2/2; Spectacular Spider-Man 3/2; Danitha Capashen, Paragon 2/2; Captain America, First Avenger 11/11*[Sword of Feast and Famine,Kaldra Compleat]; Akiri, Fearless Voyager 3/3; Puresteel Paladin 2/2 | hand cards: 
+Information: BOARD turn 34 (Xenil) | Samot | life 24 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Ultimate Green Goblin 5/4; Kang, Temporal Tyrant 3/4; Puppet Master, String Puller 2/4 | hand cards: Electro, Assaulting Battery(3)
+Information: BOARD threat | turn 34 | Captain America, First Avenger (Philadona) 196; Sword of Feast and Famine (Philadona) 71; Sram, Senior Edificer (Philadona) 50; Kaldra Compleat (Philadona) 49; Spectacular Spider-Man (Philadona) 43
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Discard: Xenil discards Gisela, the Broken Blade (11).
+Add To Stack: Xenil activated Key to the City targeting [Lyra Dawnbringer (16)]
+Resolve Stack: Key to the City (49) - Up to one target creature can't be blocked this turn. (Targeting: Lyra Dawnbringer (16))
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Lyra Dawnbringer (16) to attack Philadona.
+Xenil assigned Seluma, Light of Aysen (100) to attack Samot.
+Information: BOARD attack | Xenil -> Philadona | attackers 1 (power 5) | defender life 4 | untapped creatures 5 (power 12): Sram, Senior Edificer 2/2; Spectacular Spider-Man 3/2; Danitha Capashen, Paragon 2/2; Akiri, Fearless Voyager 3/3; Puresteel Paladin 2/2 | open mana 0
+Information: BOARD attack | Xenil -> Samot | attackers 1 (power 5) | defender life 24 | untapped creatures 3 (power 10): Ultimate Green Goblin 5/4; Kang, Temporal Tyrant 3/4; Puppet Master, String Puller 2/4 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Philadona didn't block Lyra Dawnbringer (16).
+Combat: Samot didn't block Seluma, Light of Aysen (100).
+Phase: Xenil's First Strike Damage Step
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Philadona.
+Life: Life: Xenil 30 > 35
+Life: Life: Philadona 4 > -1
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Samot.
+Life: Life: Xenil 35 > 40
+Life: Life: Samot 24 > 19
+Add To Stack: Xenil triggered Seluma, Light of Aysen targeting [Gisela, the Broken Blade (11)]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Gisela, the Broken Blade (11)]]) [Damage Source: Seluma, Light of Aysen (100), Damaged: Samot, Amount: 5]
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 35 (Samot)
+Information: BOARD turn 35 (Samot) | Xenil | life 40 | hand 1 | lands 4 (4 untapped) | open mana 11 | commander Battlefield | creatures 3 (1 untapped): Seluma, Light of Aysen 5/5*[Lightning Greaves]; Lyra Dawnbringer 5/5*; Gisela, the Broken Blade 5/4 | hand cards: Akroma's Will(4)
+Information: BOARD turn 35 (Samot) | Samot | life 19 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Ultimate Green Goblin 5/4; Kang, Temporal Tyrant 3/4; Puppet Master, String Puller 2/4 | hand cards: Electro, Assaulting Battery(3)
+Information: BOARD threat | turn 35 | Seluma, Light of Aysen (Xenil) 108; Lyra Dawnbringer (Xenil) 97; Smuggler's Copter (Xenil) 43
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+Add To Stack: Samot triggered Ultimate Green Goblin
+Discard: Samot discards Electro, Assaulting Battery (335).
+Resolve Stack: At the beginning of your upkeep, discard a card, then create a Treasure token. [Phase: Samot]
+Phase: Samot's Draw step
+Phase: Samot's Main phase, precombat
+Land: Samot picked {R}
+Mana: Luxury Suite (328) - {T}: Add {B} or {R}.
+Mana: Island (324) - {T}: Add {U}.
+Mana: Island (327) - {T}: Add {U}.
+Mana: Swamp (358) - {T}: Add {B}.
+Mana: Swamp (354) - {T}: Add {B}.
+Mana: Exotic Orchard (336) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {W}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Samot cast The Squadron Sinister
+Information: BOARD cast | The Squadron Sinister (mv 7) by Samot | open mana: Xenil 11
+Resolve Stack: The Squadron Sinister - Creature 5 / 5
+Phase: Samot's Beginning of Combat Step
+Phase: Samot's Declare Attackers Step
+Combat: Samot assigned Kang, Temporal Tyrant (381), Ultimate Green Goblin (363) and Puppet Master, String Puller (315) to attack Xenil.
+Information: BOARD attack | Samot -> Xenil | attackers 3 (power 16) | defender life 40 | untapped creatures 1 (power 5): Gisela, the Broken Blade 5/4 | open mana 11
+Add To Stack: Samot triggered Kang, Temporal Tyrant
+Discard: Samot discards Ultron, Unlimited (329).
+Resolve Stack: Whenever Kang attacks, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.) [Attacker: Kang, Temporal Tyrant (381)]
+Add To Stack: Samot triggered Kang, Temporal Tyrant
+Life: Life: Xenil 40 > 39
+Life: Life: Samot 19 > 20
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Samot]
+Phase: Samot's Declare Blockers Step
+Combat: Xenil didn't block Kang, Temporal Tyrant (381).
+Xenil didn't block Ultimate Green Goblin (363).
+Xenil didn't block Puppet Master, String Puller (315).
+Phase: Samot's First Strike Damage Step
+Phase: Samot's Combat Damage Step
+Damage: Kang, Temporal Tyrant (381) deals 6 combat damage to Xenil.
+Damage: Ultimate Green Goblin (363) deals 7 combat damage to Xenil.
+Damage: Puppet Master, String Puller (315) deals 4 combat damage to Xenil.
+Life: Life: Xenil 39 > 22
+Phase: Samot's End of Combat Step
+Phase: Samot's Main phase, postcombat
+Phase: Samot's End step
+Phase: Samot's Cleanup step
+Turn: Turn 36 (Xenil)
+Information: BOARD turn 36 (Xenil) | Xenil | life 22 | hand 1 | lands 4 (4 untapped) | open mana 11 | commander Battlefield | creatures 3 (1 untapped): Seluma, Light of Aysen 5/5*[Lightning Greaves]; Lyra Dawnbringer 5/5*; Gisela, the Broken Blade 5/4 | hand cards: Akroma's Will(4)
+Information: BOARD turn 36 (Xenil) | Samot | life 20 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (1 untapped): Ultimate Green Goblin 7/6*; Kang, Temporal Tyrant 6/7*; Puppet Master, String Puller 4/6*; The Squadron Sinister 5/5 | hand cards: 
+Information: BOARD threat | turn 36 | Seluma, Light of Aysen (Xenil) 104; Lyra Dawnbringer (Xenil) 93; Ultimate Green Goblin (Samot) 68; Kang, Temporal Tyrant (Samot) 63; Smuggler's Copter (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Key to the City
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Resolve Stack: Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a card. [Untapped: Key to the City (49)]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Fellwar Stone (60) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Xenil cast Akroma's Will
+Information: BOARD cast | Akroma's Will (mv 4) by Xenil | open mana: Samot 0
+Resolve Stack: Akroma's Will (15) -  Creatures you control gain flying, vigilance, and double strike until end of turn. Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
+Phase: Xenil's Declare Attackers Step
+Combat: Xenil assigned Seluma, Light of Aysen (100), Lyra Dawnbringer (16) and Gisela, the Broken Blade (11) to attack Samot.
+Information: BOARD attack | Xenil -> Samot | attackers 3 (power 15) | defender life 20 | untapped creatures 1 (power 5): The Squadron Sinister 5/5 | open mana 0
+Phase: Xenil's Declare Blockers Step
+Combat: Samot didn't block Seluma, Light of Aysen (100).
+Samot didn't block Lyra Dawnbringer (16).
+Samot didn't block Gisela, the Broken Blade (11).
+Phase: Xenil's First Strike Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Samot.
+Life: Life: Xenil 22 > 27
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Samot.
+Life: Life: Xenil 27 > 32
+Damage: Gisela, the Broken Blade (11) deals 5 combat damage to Samot.
+Life: Life: Xenil 32 > 37
+Life: Life: Samot 20 > 5
+Phase: Xenil's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Samot.
+Life: Life: Xenil 37 > 42
+Damage: Lyra Dawnbringer (16) deals 5 combat damage to Samot.
+Life: Life: Xenil 42 > 47
+Damage: Gisela, the Broken Blade (11) deals 5 combat damage to Samot.
+Life: Life: Xenil 47 > 52
+Life: Life: Samot 5 > -10
+Player Control: Xenil has restored control over themself
+Player Control: Philadona has restored control over themself
+Player Control: Bill has restored control over themself
+Player Control: Samot has restored control over themself
+Game Outcome: Match Duration 22m : 24s
+Game Outcome: Turn 18
+Game Outcome: Xenil has won because all opponents have lost
+Game Outcome: Philadona has lost because life total reached 0
+Game Outcome: Bill has lost because life total reached 0
+Game Outcome: Samot has lost because life total reached 0
+Match Result: Xenil: 1 Philadona: 0 Bill: 0 Samot: 0 
+
+Game Result: Xenil has won

@@ -1,0 +1,1028 @@
+Player: Xenil (HUMAN) deck=Tinybones
+Player: Captain (HUMAN) deck=Captain America v7
+Player: Lynessa (AI) deck=Scion
+Player: Malcolm (AI) deck=Tinybones
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Xenil has mulliganed down to 7 cards.
+Mulligan: Captain has mulliganed down to 6 cards.
+Mulligan: Captain has mulliganed down to 5 cards.
+Mulligan: Captain has kept a hand of 5 cards
+Mulligan: Lynessa has kept a hand of 7 cards
+Mulligan: Malcolm has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Swamp(land)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Riverglide Pathway(land); Plains(land); Generous Gift(3); Sword of War and Peace(3)
+Information: BOARD turn 1 (Captain) | Lynessa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Underground River(land); Ancient Bronze Dragon(7)
+Information: BOARD turn 1 (Captain) | Malcolm | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (187)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (Lynessa)
+Information: BOARD turn 2 (Lynessa) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Swamp(land)
+Information: BOARD turn 2 (Lynessa) | Captain | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 2 (Lynessa) | Lynessa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Underground River(land); Ancient Bronze Dragon(7)
+Information: BOARD turn 2 (Lynessa) | Malcolm | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Underground River (217)
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 3 (Malcolm)
+Information: BOARD turn 3 (Malcolm) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Swamp(land)
+Information: BOARD turn 3 (Malcolm) | Captain | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 3 (Malcolm) | Lynessa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 3 (Malcolm) | Malcolm | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land)
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Land: Malcolm played Swamp (355)
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Phase: Malcolm's Declare Blockers Step
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Swamp(land)
+Information: BOARD turn 4 (Xenil) | Captain | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 4 (Xenil) | Lynessa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 4 (Xenil) | Malcolm | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (60)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 5 (Captain)
+Information: BOARD turn 5 (Captain) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Blood Scrivener(2)
+Information: BOARD turn 5 (Captain) | Captain | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 5 (Captain) | Lynessa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 5 (Captain) | Malcolm | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (186)
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Captain cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Captain | open mana: Xenil 1, Lynessa 3, Malcolm 1
+Resolve Stack: Sigarda's Aid
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 6 (Lynessa)
+Information: BOARD turn 6 (Lynessa) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Blood Scrivener(2)
+Information: BOARD turn 6 (Lynessa) | Captain | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 6 (Lynessa) | Lynessa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 6 (Lynessa) | Malcolm | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Swamp (262)
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 7 (Malcolm)
+Information: BOARD turn 7 (Malcolm) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Blood Scrivener(2)
+Information: BOARD turn 7 (Malcolm) | Captain | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 7 (Malcolm) | Lynessa | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Dispelling Exhale(2); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land)
+Information: BOARD turn 7 (Malcolm) | Malcolm | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Swamp(land); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3)
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Land: Malcolm played Swamp (372)
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Add To Stack: Malcolm cast Tinybones, Trinket Thief
+Information: BOARD cast | Tinybones, Trinket Thief (mv 2) by Malcolm | open mana: Xenil 1, Captain 1, Lynessa 4
+Land: Lynessa picked {U}
+Land: Lynessa picked {U}
+Damage: Underground River (217) deals 1 non-combat damage to Lynessa.
+Life: Life: Lynessa 40 > 39
+Mana: Underground River (217) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Lynessa cast Dispelling Exhale targeting [Tinybones, Trinket Thief - Creature 1 / 2]
+Information: BOARD cast | Dispelling Exhale (mv 2) by Lynessa | open mana: Xenil 1, Captain 1, Malcolm 0
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Dispelling Exhale (237) - Counter Tinybones, Trinket Thief (403) unless its controller pays {X}.
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Phase: Malcolm's Declare Blockers Step
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 8 (Xenil)
+Information: BOARD turn 8 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Nezumi Shortfang(2); Swamp(land); Raiders' Wake(4); Blood Scrivener(2)
+Information: BOARD turn 8 (Xenil) | Captain | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 8 (Xenil) | Lynessa | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land)
+Information: BOARD turn 8 (Xenil) | Malcolm | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Tinybones, the Pickpocket(1)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (64)
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Add To Stack: Xenil cast Nezumi Shortfang
+Information: BOARD cast | Nezumi Shortfang (mv 2) by Xenil | open mana: Captain 1, Lynessa 0, Malcolm 0
+Resolve Stack: Nezumi Shortfang - Creature 1 / 1
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 9 (Captain)
+Information: BOARD turn 9 (Captain) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3)
+Information: BOARD turn 9 (Captain) | Captain | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 9 (Captain) | Lynessa | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land)
+Information: BOARD turn 9 (Captain) | Malcolm | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Tinybones, the Pickpocket(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (181)
+Mana: Mountain (181) - {T}: Add {R}.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 10 (Lynessa)
+Information: BOARD turn 10 (Lynessa) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3)
+Information: BOARD turn 10 (Lynessa) | Captain | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 10 (Lynessa) | Lynessa | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Jungle Hollow(land); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land)
+Information: BOARD turn 10 (Lynessa) | Malcolm | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Tinybones, the Pickpocket(1)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Lynessa played Jungle Hollow (286)
+Add To Stack: Lynessa triggered Jungle Hollow
+Life: Life: Lynessa 39 > 40
+Resolve Stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (286)]
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 11 (Malcolm)
+Information: BOARD turn 11 (Malcolm) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3)
+Information: BOARD turn 11 (Malcolm) | Captain | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 11 (Malcolm) | Lynessa | life 40 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land); Arcane Denial(2)
+Information: BOARD turn 11 (Malcolm) | Malcolm | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Necrogoyf(5); Mind Stone(2); Swamp(land); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Tinybones, the Pickpocket(1)
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Land: Malcolm played Swamp (363)
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Add To Stack: Malcolm cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Malcolm | open mana: Xenil 0, Captain 3, Lynessa 4
+Resolve Stack: Mind Stone
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Phase: Malcolm's Declare Blockers Step
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Mana: Swamp (363) - {T}: Add {B}.
+Add To Stack: Malcolm cast Tinybones, the Pickpocket
+Information: BOARD cast | Tinybones, the Pickpocket (mv 1) by Malcolm | open mana: Xenil 0, Captain 3, Lynessa 4
+Resolve Stack: Tinybones, the Pickpocket - Creature 1 / 1
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 12 (Xenil)
+Information: BOARD turn 12 (Xenil) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Swamp(land); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3)
+Information: BOARD turn 12 (Xenil) | Captain | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Generous Gift(3); Sword of War and Peace(3); Darksteel Plate(3)
+Information: BOARD turn 12 (Xenil) | Lynessa | life 40 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land); Arcane Denial(2)
+Information: BOARD turn 12 (Xenil) | Malcolm | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Necrogoyf(5); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Swamp(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (55)
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Add To Stack: Xenil activated Nezumi Shortfang targeting [Captain]
+Discard: Captain discards Generous Gift (103).
+Resolve Stack: Nezumi Shortfang (77) - Captain discards a card. Transform Nezumi Shortfang (77).
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Mountain (181) - {T}: Add {R}.
+Add To Stack: Captain cast Darksteel Plate
+Information: BOARD cast | Darksteel Plate (mv 3) by Captain | open mana: Xenil 1, Lynessa 4, Malcolm 1
+Resolve Stack: Darksteel Plate
+Phase: Xenil's Cleanup step
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nezumi Shortfang 1/1* | hand cards: Painful Quandary(5); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3); Gray Merchant of Asphodel(5)
+Information: BOARD turn 13 (Captain) | Captain | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sword of War and Peace(3)
+Information: BOARD turn 13 (Captain) | Lynessa | life 40 | hand 6 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land); Arcane Denial(2)
+Information: BOARD turn 13 (Captain) | Malcolm | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Necrogoyf(5); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Swamp(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Riverglide Pathway (196)
+Mana: Riverglide Pathway (196) - {T}: Add {U}.
+Mana: Mountain (181) - {T}: Add {R}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Xenil 1, Lynessa 4, Malcolm 1
+Land: Lynessa picked {U}
+Land: Lynessa picked {U}
+Damage: Underground River (217) deals 1 non-combat damage to Lynessa.
+Life: Life: Lynessa 40 > 39
+Mana: Underground River (217) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Lynessa cast Arcane Denial targeting [Captain America, First Avenger - Creature 4 / 4]
+Information: BOARD cast | Arcane Denial (mv 2) by Lynessa | open mana: Xenil 1, Captain 1, Malcolm 1
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Arcane Denial (268) - Counter Captain America, First Avenger (201). Draw a card. Draw up to two cards. 
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (Lynessa)
+Information: BOARD turn 14 (Lynessa) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nezumi Shortfang 1/1* | hand cards: Painful Quandary(5); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3); Gray Merchant of Asphodel(5)
+Information: BOARD turn 14 (Lynessa) | Captain | life 40 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3)
+Information: BOARD turn 14 (Lynessa) | Lynessa | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Reflecting Pool(land)
+Information: BOARD turn 14 (Lynessa) | Malcolm | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Necrogoyf(5); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Swamp(land)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Add To Stack: Lynessa triggered Arcane Denial
+Add To Stack: Lynessa triggered Arcane Denial
+Resolve Stack: Draw up to two cards. ([Captain]) [Phase: Lynessa]
+Resolve Stack: Draw a card. [Phase: Lynessa]
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Reflecting Pool (298)
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Swamp (262) - {T}: Add {B}.
+Land: Lynessa picked {B}
+Land: Lynessa picked {B}
+Mana: Jungle Hollow (286) - {T}: Add {B} or {G}.
+Add To Stack: Lynessa cast Broken Wings targeting [Mind Stone (323)]
+Information: BOARD cast | Broken Wings (mv 3) by Lynessa | open mana: Xenil 1, Captain 1, Malcolm 1
+Zone Change: Mind Stone (323) was put into Graveyard from Battlefield.
+Resolve Stack: Broken Wings (223) - Destroy Mind Stone (323).
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 15 (Malcolm)
+Information: BOARD turn 15 (Malcolm) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nezumi Shortfang 1/1* | hand cards: Painful Quandary(5); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3); Gray Merchant of Asphodel(5)
+Information: BOARD turn 15 (Malcolm) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Kellan, the Fae-Blooded(3); Talisman of Conviction(2)
+Information: BOARD turn 15 (Malcolm) | Lynessa | life 39 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Relic of Sauron(4)
+Information: BOARD turn 15 (Malcolm) | Malcolm | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Necrogoyf(5); Bojuka Bog(land); Swamp(land); Phyrexian Arena(3); Swamp(land)
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Combat: Malcolm assigned Tinybones, the Pickpocket (309) to attack Xenil.
+Information: BOARD attack | Malcolm -> Xenil | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Malcolm's Declare Blockers Step
+Combat: Xenil didn't block Tinybones, the Pickpocket (309).
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Damage: Tinybones, the Pickpocket (309) deals 1 combat damage to Xenil.
+Life: Life: Xenil 40 > 39
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Replacement Effect: Bojuka Bog enters tapped.
+Land: Malcolm played Bojuka Bog (332)
+Add To Stack: Malcolm triggered Bojuka Bog targeting [Lynessa]
+Resolve Stack: When Bojuka Bog enters, exile all cards from target player's graveyard. (Targeting: [[Lynessa]]) [Zone Changer: Bojuka Bog (332)]
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Mana: Swamp (363) - {T}: Add {B}.
+Add To Stack: Malcolm cast Phyrexian Arena
+Information: BOARD cast | Phyrexian Arena (mv 3) by Malcolm | open mana: Xenil 1, Captain 1, Lynessa 3
+Resolve Stack: Phyrexian Arena
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 16 (Xenil)
+Information: BOARD turn 16 (Xenil) | Xenil | life 39 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nezumi Shortfang 1/1* | hand cards: Painful Quandary(5); Swamp(land); Raiders' Wake(4); Blood Scrivener(2); Phyrexian Arena(3); Gray Merchant of Asphodel(5)
+Information: BOARD turn 16 (Xenil) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Kellan, the Fae-Blooded(3); Talisman of Conviction(2)
+Information: BOARD turn 16 (Xenil) | Lynessa | life 39 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Relic of Sauron(4)
+Information: BOARD turn 16 (Xenil) | Malcolm | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Necrogoyf(5); Swamp(land); Swamp(land); Swamp(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (67)
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (55) - {T}: Add {B}.
+Add To Stack: Xenil cast Phyrexian Arena
+Information: BOARD cast | Phyrexian Arena (mv 3) by Xenil | open mana: Captain 1, Lynessa 3, Malcolm 0
+Resolve Stack: Phyrexian Arena
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 17 (Captain)
+Information: BOARD turn 17 (Captain) | Xenil | life 39 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Exsanguinate(2)
+Information: BOARD turn 17 (Captain) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Kellan, the Fae-Blooded(3); Talisman of Conviction(2)
+Information: BOARD turn 17 (Captain) | Lynessa | life 39 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Relic of Sauron(4)
+Information: BOARD turn 17 (Captain) | Malcolm | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Necrogoyf(5); Swamp(land); Swamp(land); Swamp(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Add To Stack: Captain cast Talisman of Conviction
+Information: BOARD cast | Talisman of Conviction (mv 2) by Captain | open mana: Xenil 1, Lynessa 3, Malcolm 0
+Resolve Stack: Talisman of Conviction
+Land: Captain picked {W}
+Damage: Talisman of Conviction (112) deals 1 non-combat damage to Captain.
+Life: Life: Captain 40 > 39
+Mana: Talisman of Conviction (112) - {T}: Add {R} or {W}. Talisman of Conviction deals 1 damage to you. 
+Mana: Mountain (181) - {T}: Add {R}.
+Add To Stack: Captain cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Captain | open mana: Xenil 1, Lynessa 3, Malcolm 0
+Resolve Stack: Birthright Boon (166) - Captain searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 18 (Lynessa)
+Information: BOARD turn 18 (Lynessa) | Xenil | life 39 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Exsanguinate(2)
+Information: BOARD turn 18 (Lynessa) | Captain | life 39 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 18 (Lynessa) | Lynessa | life 39 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); Relic of Sauron(4)
+Information: BOARD turn 18 (Lynessa) | Malcolm | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Necrogoyf(5); Swamp(land); Swamp(land); Swamp(land)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Land: Lynessa picked {B}
+Land: Lynessa picked {B}
+Mana: Jungle Hollow (286) - {T}: Add {B} or {G}.
+Mana: Underground River (217) - {T}: Add {C}.
+Add To Stack: Lynessa cast Relic of Sauron
+Information: BOARD cast | Relic of Sauron (mv 4) by Lynessa | open mana: Xenil 1, Captain 1, Malcolm 0
+Resolve Stack: Relic of Sauron
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 19 (Malcolm)
+Information: BOARD turn 19 (Malcolm) | Xenil | life 39 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Exsanguinate(2)
+Information: BOARD turn 19 (Malcolm) | Captain | life 39 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 19 (Malcolm) | Lynessa | life 39 | hand 5 | lands 4 (0 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); The Ur-Dragon(9)
+Information: BOARD turn 19 (Malcolm) | Malcolm | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Necrogoyf(5); Swamp(land); Swamp(land); Swamp(land)
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Add To Stack: Malcolm triggered Phyrexian Arena
+Life: Life: Malcolm 40 > 39
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Malcolm]
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Land: Malcolm played Swamp (366)
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Combat: Malcolm assigned Tinybones, the Pickpocket (309) to attack Captain.
+Information: BOARD attack | Malcolm -> Captain | attackers 1 (power 1) | defender life 39 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Malcolm's Declare Blockers Step
+Combat: Captain didn't block Tinybones, the Pickpocket (309).
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Damage: Tinybones, the Pickpocket (309) deals 1 combat damage to Captain.
+Life: Life: Captain 39 > 38
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Mana: Swamp (363) - {T}: Add {B}.
+Mana: Bojuka Bog (332) - {T}: Add {B}.
+Mana: Swamp (366) - {T}: Add {B}.
+Add To Stack: Malcolm cast Necrogoyf
+Information: BOARD cast | Necrogoyf (mv 5) by Malcolm | open mana: Xenil 1, Captain 1, Lynessa 8
+Resolve Stack: Necrogoyf - Creature * / 4
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 20 (Xenil)
+Information: BOARD turn 20 (Xenil) | Xenil | life 39 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Painful Quandary(5); Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Exsanguinate(2)
+Information: BOARD turn 20 (Xenil) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 20 (Xenil) | Lynessa | life 39 | hand 5 | lands 4 (0 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); The Ur-Dragon(9)
+Information: BOARD turn 20 (Xenil) | Malcolm | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1*; Necrogoyf 0/4 | hand cards: Swamp(land); Swamp(land); Swamp(land); Gibbering Descent(6)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Phyrexian Arena
+Add To Stack: Malcolm triggered Necrogoyf
+Discard: Xenil discards Exsanguinate (16).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Life: Life: Xenil 39 > 38
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (65)
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (55) - {T}: Add {B}.
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Swamp (65) - {T}: Add {B}.
+Add To Stack: Xenil cast Painful Quandary
+Information: BOARD cast | Painful Quandary (mv 5) by Xenil | open mana: Captain 1, Lynessa 8, Malcolm 0
+Resolve Stack: Painful Quandary
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 21 (Captain)
+Information: BOARD turn 21 (Captain) | Xenil | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 21 (Captain) | Captain | life 38 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of War and Peace(3); Force of Negation(3); Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 21 (Captain) | Lynessa | life 39 | hand 5 | lands 4 (0 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); The Ur-Dragon(9)
+Information: BOARD turn 21 (Captain) | Malcolm | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1*; Necrogoyf 0/4 | hand cards: Swamp(land); Swamp(land); Swamp(land); Gibbering Descent(6)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Malcolm triggered Necrogoyf
+Phase: devCaptain's Upkeep step
+Discard: Captain discards Force of Negation (116).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Riverglide Pathway (196) - {T}: Add {U}.
+Add To Stack: Captain cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Captain | open mana: Xenil 0, Lynessa 8, Malcolm 0
+Add To Stack: Xenil triggered Painful Quandary
+Discard: Captain discards Sword of War and Peace (195).
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Danitha Capashen, Paragon (200), Activator: Captain, SpellAbility: Danitha Capashen, Paragon - Creature 2 / 2]
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Mana: Mountain (181) - {T}: Add {R}.
+Mana: Talisman of Conviction (112) - {T}: Add {C}.
+Add To Stack: Captain activated Darksteel Plate targeting [Danitha Capashen, Paragon (200)]
+Resolve Stack: Darksteel Plate (105) -  Attach to Danitha Capashen, Paragon (200)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 22 (Lynessa)
+Information: BOARD turn 22 (Lynessa) | Xenil | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 22 (Lynessa) | Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2[Darksteel Plate] | hand cards: Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 22 (Lynessa) | Lynessa | life 39 | hand 5 | lands 4 (0 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4); The Ur-Dragon(9)
+Information: BOARD turn 22 (Lynessa) | Malcolm | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1*; Necrogoyf 0/4 | hand cards: Swamp(land); Swamp(land); Swamp(land); Gibbering Descent(6)
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Add To Stack: Malcolm triggered Necrogoyf
+Discard: Lynessa discards The Ur-Dragon (214).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Lynessa]
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Exotic Orchard (243)
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Land: Lynessa picked {G}
+Land: Lynessa picked {G}
+Mana: Jungle Hollow (286) - {T}: Add {B} or {G}.
+Mana: Exotic Orchard (243) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Lynessa picked {U}{B}
+Land: Lynessa picked {U}{B}
+Mana: Relic of Sauron (236) - {T}: Add two mana in any combination of {U}, {B} and/or {R}.
+Add To Stack: Lynessa cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Lynessa | open mana: Xenil 0, Captain 0, Malcolm 0
+Add To Stack: Xenil triggered Painful Quandary
+Life: Life: Lynessa 39 > 34
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Scion of the Ur-Dragon (302), Activator: Lynessa, SpellAbility: Scion of the Ur-Dragon - Creature 4 / 4]
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Phase: Lynessa's Declare Blockers Step
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Underground River (217) - {T}: Add {C}.
+Add To Stack: Lynessa activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (302) - Lynessa searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (302) becomes a copy of Ancient Silver Dragon (302).
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 23 (Malcolm)
+Information: BOARD turn 23 (Malcolm) | Xenil | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 23 (Malcolm) | Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2[Darksteel Plate] | hand cards: Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 23 (Malcolm) | Lynessa | life 34 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 23 (Malcolm) | Malcolm | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1*; Necrogoyf 2/4 | hand cards: Swamp(land); Swamp(land); Swamp(land); Gibbering Descent(6)
+Information: BOARD threat | turn 23 | Necrogoyf (Malcolm) 41
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Add To Stack: Malcolm triggered Necrogoyf
+Add To Stack: Malcolm triggered Phyrexian Arena
+Life: Life: Malcolm 39 > 38
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Malcolm]
+Discard: Malcolm discards Swamp (348).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Malcolm]
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Land: Malcolm played Swamp (357)
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Combat: Malcolm assigned Necrogoyf (376) to attack Xenil.
+Information: BOARD attack | Malcolm -> Xenil | attackers 1 (power 2) | defender life 38 | untapped creatures 1 (power 1): Nezumi Shortfang 1/1 | open mana 0
+Phase: Malcolm's Declare Blockers Step
+Combat: Xenil didn't block Necrogoyf (376).
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Damage: Necrogoyf (376) deals 2 combat damage to Xenil.
+Life: Life: Xenil 38 > 36
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Mana: Swamp (363) - {T}: Add {B}.
+Mana: Bojuka Bog (332) - {T}: Add {B}.
+Mana: Swamp (366) - {T}: Add {B}.
+Mana: Swamp (357) - {T}: Add {B}.
+Add To Stack: Malcolm cast Gibbering Descent
+Information: BOARD cast | Gibbering Descent (mv 6) by Malcolm | open mana: Xenil 0, Captain 0, Lynessa 0
+Add To Stack: Xenil triggered Painful Quandary
+Discard: Malcolm discards Swamp (349).
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Gibbering Descent (305), Activator: Malcolm, SpellAbility: Gibbering Descent]
+Resolve Stack: Gibbering Descent
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 24 (Xenil)
+Information: BOARD turn 24 (Xenil) | Xenil | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nezumi Shortfang 1/1 | hand cards: Raiders' Wake(4); Blood Scrivener(2); Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 24 (Xenil) | Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2[Darksteel Plate] | hand cards: Sword of Feast and Famine(3); The Reaver Cleaver(3)
+Information: BOARD turn 24 (Xenil) | Lynessa | life 34 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 24 (Xenil) | Malcolm | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 2/4* | hand cards: Nezumi Shortfang(2); Commander's Sphere(3)
+Information: BOARD threat | turn 24 | Necrogoyf (Malcolm) 66; Painful Quandary (Xenil) 41
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Phyrexian Arena
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Discard: Xenil discards Blood Scrivener (21).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Life: Life: Xenil 36 > 35
+Discard: Xenil discards Raiders' Wake (17).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Xenil]
+Life: Life: Xenil 35 > 34
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (71)
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Swamp (64) - {T}: Add {B}.
+Mana: Swamp (55) - {T}: Add {B}.
+Mana: Swamp (67) - {T}: Add {B}.
+Add To Stack: Xenil cast Tourach, Dread Cantor
+Information: BOARD cast | Tourach, Dread Cantor (mv 2) by Xenil | open mana: Captain 0, Lynessa 0, Malcolm 0
+Resolve Stack: Tourach, Dread Cantor - Creature 2 / 1
+Add To Stack: Xenil triggered Tourach, Dread Cantor targeting [Captain]
+Discard: Captain discards Sword of Feast and Famine (194).
+Discard: Captain discards The Reaver Cleaver (125).
+Resolve Stack: When Tourach, Dread Cantor enters, if it was kicked, target opponent discards two cards at random. (Targeting: [[Captain]]) [Zone Changer: Tourach, Dread Cantor (92)]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Sword of Feast and Famine (194), Cause: ]
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: The Reaver Cleaver (125), Cause: ]
+Mana: Swamp (65) - {T}: Add {B}.
+Mana: Swamp (71) - {T}: Add {B}.
+Add To Stack: Xenil activated Nezumi Shortfang targeting [Captain]
+Resolve Stack: Stabwhisker the Odious (77) - Captain discards a card. Transform Stabwhisker the Odious (77).
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 25 (Captain)
+Information: BOARD turn 25 (Captain) | Xenil | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stabwhisker the Odious 3/3*; Tourach, Dread Cantor 4/3 | hand cards: Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 25 (Captain) | Captain | life 38 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2[Darksteel Plate] | hand cards: 
+Information: BOARD turn 25 (Captain) | Lynessa | life 34 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 25 (Captain) | Malcolm | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 3/4* | hand cards: Nezumi Shortfang(2); Commander's Sphere(3)
+Information: BOARD threat | turn 25 | Necrogoyf (Malcolm) 78; Tourach, Dread Cantor (Xenil) 43; Painful Quandary (Xenil) 40
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Add To Stack: Xenil triggered Stabwhisker the Odious
+Life: Life: Captain 38 > 35
+Resolve Stack: At the beginning of each opponent's upkeep, that player loses 1 life for each card fewer than three in their hand. [Phase: Captain]
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Captain]
+Life: Life: Captain 35 > 34
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Captain played Clifftop Retreat (152)
+Mana: Riverglide Pathway (196) - {T}: Add {U}.
+Mana: Mountain (181) - {T}: Add {R}.
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Captain picked {W}
+Mana: Clifftop Retreat (152) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Xenil 0, Lynessa 0, Malcolm 0
+Add To Stack: Xenil triggered Painful Quandary
+Life: Life: Captain 34 > 29
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Captain America, First Avenger (201), Activator: Captain, SpellAbility: Captain America, First Avenger - Creature 4 / 4]
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Darksteel Plate (105)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Darksteel Plate (105)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 26 (Lynessa)
+Information: BOARD turn 26 (Lynessa) | Xenil | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stabwhisker the Odious 3/3*; Tourach, Dread Cantor 4/3 | hand cards: Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 26 (Lynessa) | Captain | life 29 | hand 0 | lands 5 (0 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 4/4[Darksteel Plate] | hand cards: 
+Information: BOARD turn 26 (Lynessa) | Lynessa | life 34 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Dragonlord Kolaghan(6); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Desolation of Smaug(4)
+Information: BOARD turn 26 (Lynessa) | Malcolm | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 3/4* | hand cards: Nezumi Shortfang(2); Commander's Sphere(3)
+Information: BOARD threat | turn 26 | Necrogoyf (Malcolm) 89; Painful Quandary (Xenil) 53; Tourach, Dread Cantor (Xenil) 41; Stabwhisker the Odious (Xenil) 37
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Add To Stack: Xenil triggered Stabwhisker the Odious
+Resolve Stack: At the beginning of each opponent's upkeep, that player loses 1 life for each card fewer than three in their hand. [Phase: Lynessa]
+Discard: Lynessa discards Ancient Bronze Dragon (277).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Lynessa]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Ancient Bronze Dragon (277), Cause: ]
+Life: Life: Lynessa 34 > 33
+Discard: Lynessa discards Dragonlord Kolaghan (249).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Lynessa]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Dragonlord Kolaghan (249), Cause: ]
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Fetid Heath (213)
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Exotic Orchard (243) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Lynessa picked {B}
+Land: Lynessa picked {B}
+Mana: Jungle Hollow (286) - {T}: Add {B} or {G}.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Add To Stack: Lynessa cast Patriarch's Bidding
+Information: BOARD cast | Patriarch's Bidding (mv 5) by Lynessa | open mana: Xenil 0, Captain 3, Malcolm 0
+Add To Stack: Xenil triggered Painful Quandary
+Life: Life: Lynessa 33 > 28
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Patriarch's Bidding (301), Activator: Lynessa, SpellAbility: Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from their graveyard to the battlefield.  ]
+Resolve Stack: Patriarch's Bidding (301) - Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from their graveyard to the battlefield.  
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Combat: Lynessa assigned Scion of the Ur-Dragon (302), The Ur-Dragon (214), Ancient Silver Dragon (282), Ancient Bronze Dragon (277) and Dragonlord Kolaghan (249) to attack Captain.
+Information: BOARD attack | Lynessa -> Captain | attackers 5 (power 35) | defender life 29 | untapped creatures 2 (power 6): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 4/4[Darksteel Plate] | open mana 3
+Add To Stack: Lynessa triggered The Ur-Dragon
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Scion of the Ur-Dragon (302), The Ur-Dragon (214), Ancient Silver Dragon (282), Ancient Bronze Dragon (277), Dragonlord Kolaghan (249)]]
+Phase: Lynessa's Declare Blockers Step
+Combat: Captain didn't block Scion of the Ur-Dragon (302).
+Captain didn't block The Ur-Dragon (214).
+Captain didn't block Ancient Silver Dragon (282).
+Captain didn't block Ancient Bronze Dragon (277).
+Captain didn't block Dragonlord Kolaghan (249).
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Captain.
+Damage: The Ur-Dragon (214) deals 10 combat damage to Captain.
+Damage: Ancient Silver Dragon (282) deals 8 combat damage to Captain.
+Damage: Ancient Bronze Dragon (277) deals 7 combat damage to Captain.
+Damage: Dragonlord Kolaghan (249) deals 6 combat damage to Captain.
+Life: Life: Captain 29 > -6
+Add To Stack: Lynessa triggered Ancient Silver Dragon
+Add To Stack: Lynessa triggered Ancient Bronze Dragon
+Resolve Stack: Whenever Ancient Bronze Dragon deals combat damage to a player, roll a d20. When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result. [Damage Source: Ancient Bronze Dragon (277), Damaged: Captain, Amount: 7]
+Add To Stack: Lynessa triggered Ancient Bronze Dragon targeting [The Ur-Dragon (214), Ancient Silver Dragon (282)]
+Resolve Stack: When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result. ([7]) (Targeting: [[The Ur-Dragon (214), Ancient Silver Dragon (282)]])
+Resolve Stack: Whenever Ancient Silver Dragon deals combat damage to a player, roll a d20. Draw cards equal to the result. You have no maximum hand size for the rest of the game. [Damage Source: Ancient Silver Dragon (282), Damaged: Captain, Amount: 8]
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Land: Lynessa picked {R}{R}
+Mana: Relic of Sauron (236) - {T}: Add two mana in any combination of {U}, {B} and/or {R}.
+Mana: Underground River (217) - {T}: Add {C}.
+Add To Stack: Lynessa cast Burnished Hart
+Information: BOARD cast | Burnished Hart (mv 3) by Lynessa | open mana: Xenil 0, Malcolm 0
+Add To Stack: Xenil triggered Painful Quandary
+Discard: Lynessa discards Mountain (294).
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Burnished Hart (218), Activator: Lynessa, SpellAbility: Burnished Hart - Creature 2 / 2]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Mountain (294), Cause: ]
+Resolve Stack: Burnished Hart - Creature 2 / 2
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 27 (Malcolm)
+Information: BOARD turn 27 (Malcolm) | Xenil | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stabwhisker the Odious 3/3*; Tourach, Dread Cantor 7/6 | hand cards: Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 27 (Malcolm) | Lynessa | life 28 | hand 11 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 17/17*; Ancient Silver Dragon 15/15*; Ancient Bronze Dragon 7/7*; Dragonlord Kolaghan 6/5*; Harbinger of the Hunt 5/3; Burnished Hart 2/2 | hand cards: Desolation of Smaug(4); Defense of the Heart(4); Command Tower(land); Plains(land); Savage Ventmaw(6); Child of Alara(5); Slip On the Ring(2); Battlefield Forge(land); Sunken Ruins(land); Dragon Tempest(2); Reconnaissance(1)
+Information: BOARD turn 27 (Malcolm) | Malcolm | life 38 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 1/4* | hand cards: Nezumi Shortfang(2); Commander's Sphere(3)
+Information: BOARD threat | turn 27 | Necrogoyf (Malcolm) 100; Tourach, Dread Cantor (Xenil) 83; Painful Quandary (Xenil) 79; The Ur-Dragon (Lynessa) 72; Ancient Bronze Dragon (Lynessa) 69
+Phase: Malcolm's Untap step
+Phase: Malcolm's Upkeep step
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Add To Stack: Malcolm triggered Phyrexian Arena
+Add To Stack: Xenil triggered Stabwhisker the Odious
+Life: Life: Malcolm 38 > 37
+Resolve Stack: At the beginning of each opponent's upkeep, that player loses 1 life for each card fewer than three in their hand. [Phase: Malcolm]
+Life: Life: Malcolm 37 > 36
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Malcolm]
+Discard: Malcolm discards Swamp (347).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Malcolm]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Swamp (347), Cause: ]
+Life: Life: Malcolm 36 > 35
+Discard: Malcolm discards Commander's Sphere (312).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Malcolm]
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Commander's Sphere (312), Cause: ]
+Phase: Malcolm's Draw step
+Phase: Malcolm's Main phase, precombat
+Phase: Malcolm's Beginning of Combat Step
+Phase: Malcolm's Declare Attackers Step
+Phase: Malcolm's Declare Blockers Step
+Phase: Malcolm's First Strike Damage Step
+Phase: Malcolm's Combat Damage Step
+Phase: Malcolm's End of Combat Step
+Phase: Malcolm's Main phase, postcombat
+Land: Malcolm played Swamp (367)
+Mana: Swamp (355) - {T}: Add {B}.
+Mana: Swamp (372) - {T}: Add {B}.
+Mana: Swamp (363) - {T}: Add {B}.
+Mana: Bojuka Bog (332) - {T}: Add {B}.
+Add To Stack: Malcolm cast Tinybones, Trinket Thief
+Information: BOARD cast | Tinybones, Trinket Thief (mv 2) by Malcolm | open mana: Xenil 0, Lynessa 0
+Add To Stack: Xenil triggered Painful Quandary
+Life: Life: Malcolm 35 > 30
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Tinybones, Trinket Thief (403), Activator: Malcolm, SpellAbility: Tinybones, Trinket Thief - Creature 1 / 2]
+Resolve Stack: Tinybones, Trinket Thief - Creature 1 / 2
+Mana: Swamp (366) - {T}: Add {B}.
+Mana: Swamp (357) - {T}: Add {B}.
+Add To Stack: Malcolm cast Nezumi Shortfang
+Information: BOARD cast | Nezumi Shortfang (mv 2) by Malcolm | open mana: Xenil 0, Lynessa 0
+Add To Stack: Xenil triggered Painful Quandary
+Life: Life: Malcolm 30 > 25
+Resolve Stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Nezumi Shortfang (380), Activator: Malcolm, SpellAbility: Nezumi Shortfang - Creature 1 / 1]
+Resolve Stack: Nezumi Shortfang - Creature 1 / 1
+Phase: Malcolm's End step
+Phase: Malcolm's Cleanup step
+Turn: Turn 28 (Xenil)
+Information: BOARD turn 28 (Xenil) | Xenil | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stabwhisker the Odious 3/3*; Tourach, Dread Cantor 9/8 | hand cards: Gray Merchant of Asphodel(5); Swamp(land)
+Information: BOARD turn 28 (Xenil) | Lynessa | life 28 | hand 11 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 17/17*; Ancient Silver Dragon 15/15*; Ancient Bronze Dragon 7/7*; Dragonlord Kolaghan 6/5*; Harbinger of the Hunt 5/3; Burnished Hart 2/2 | hand cards: Desolation of Smaug(4); Defense of the Heart(4); Command Tower(land); Plains(land); Savage Ventmaw(6); Child of Alara(5); Slip On the Ring(2); Battlefield Forge(land); Sunken Ruins(land); Dragon Tempest(2); Reconnaissance(1)
+Information: BOARD turn 28 (Xenil) | Malcolm | life 25 | hand 0 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 1/4; Tinybones, Trinket Thief 1/2; Nezumi Shortfang 1/1 | hand cards: 
+Information: BOARD threat | turn 28 | Necrogoyf (Malcolm) 110; Tourach, Dread Cantor (Xenil) 108; Painful Quandary (Xenil) 105; The Ur-Dragon (Lynessa) 69; Ancient Bronze Dragon (Lynessa) 66
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Phyrexian Arena
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Discard: Xenil discards Swamp (48).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Xenil]
+Life: Life: Xenil 34 > 33
+Discard: Xenil discards Gray Merchant of Asphodel (86).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Xenil]
+Life: Life: Xenil 33 > 32
+Resolve Stack: At the beginning of your upkeep, you draw a card and you lose 1 life. [Phase: Xenil]
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Swamp (71) - {T}: Add {B}.
+Add To Stack: Xenil cast Quest for the Nihil Stone
+Information: BOARD cast | Quest for the Nihil Stone (mv 1) by Xenil | open mana: Lynessa 0, Malcolm 1
+Resolve Stack: Quest for the Nihil Stone
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Add To Stack: Malcolm triggered Tinybones, Trinket Thief
+Life: Life: Malcolm 25 > 24
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Xenil]
+Phase: Xenil's Cleanup step
+Turn: Turn 29 (Lynessa)
+Information: BOARD turn 29 (Lynessa) | Xenil | life 32 | hand 1 | lands 6 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Stabwhisker the Odious 3/3; Tourach, Dread Cantor 9/8 | hand cards: Rogue's Passage(land)
+Information: BOARD turn 29 (Lynessa) | Lynessa | life 28 | hand 11 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (2 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 17/17*; Ancient Silver Dragon 15/15*; Ancient Bronze Dragon 7/7*; Dragonlord Kolaghan 6/5*; Harbinger of the Hunt 5/3; Burnished Hart 2/2 | hand cards: Desolation of Smaug(4); Defense of the Heart(4); Command Tower(land); Plains(land); Savage Ventmaw(6); Child of Alara(5); Slip On the Ring(2); Battlefield Forge(land); Sunken Ruins(land); Dragon Tempest(2); Reconnaissance(1)
+Information: BOARD turn 29 (Lynessa) | Malcolm | life 24 | hand 1 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Tinybones, the Pickpocket 1/1; Necrogoyf 2/4; Tinybones, Trinket Thief 1/2; Nezumi Shortfang 1/1 | hand cards: Swamp(land)
+Information: BOARD threat | turn 29 | Necrogoyf (Malcolm) 120; Tourach, Dread Cantor (Xenil) 104; Painful Quandary (Xenil) 101; Gibbering Descent (Malcolm) 66; The Ur-Dragon (Lynessa) 66
+Phase: Lynessa's Untap step
+Phase: Lynessa's Upkeep step
+Add To Stack: Malcolm triggered Gibbering Descent
+Add To Stack: Malcolm triggered Necrogoyf
+Add To Stack: Xenil triggered Stabwhisker the Odious
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Exotic Orchard (243) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Zone Change: Burnished Hart (218) was put into Graveyard from Battlefield.
+Add To Stack: Lynessa activated Burnished Hart
+Resolve Stack: Burnished Hart (218) - Lynessa searches their library for  up to two basic land cards, puts them onto the battlefield tapped, then shuffles.
+Resolve Stack: At the beginning of each opponent's upkeep, that player loses 1 life for each card fewer than three in their hand. [Phase: Lynessa]
+Discard: Lynessa discards Plains (296).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card. [Phase: Lynessa]
+Add To Stack: Xenil triggered Quest for the Nihil Stone
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Plains (296), Cause: ]
+Resolve Stack: Whenever an opponent discards a card, you may put a quest counter on Quest for the Nihil Stone. [Discarded: Plains (296), Cause: ]
+Life: Life: Lynessa 28 > 27
+Discard: Lynessa discards Command Tower (233).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Lynessa]
+Add To Stack: Xenil triggered Quest for the Nihil Stone
+Add To Stack: Xenil triggered Tourach, Dread Cantor
+Resolve Stack: Whenever an opponent discards a card, put a +1/+1 counter on Tourach, Dread Cantor. [Discarded: Command Tower (233), Cause: ]
+Resolve Stack: Whenever an opponent discards a card, you may put a quest counter on Quest for the Nihil Stone. [Discarded: Command Tower (233), Cause: ]
+Land: Lynessa picked {R}{R}
+Mana: Relic of Sauron (236) - {T}: Add two mana in any combination of {U}, {B} and/or {R}.
+Land: Lynessa picked {B}
+Mana: Jungle Hollow (286) - {T}: Add {B} or {G}.
+Add To Stack: Lynessa activated Harbinger of the Hunt
+Damage: Harbinger of the Hunt (271) deals 1 damage to Stabwhisker the Odious (77).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Tourach, Dread Cantor (92).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Tinybones, the Pickpocket (309).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Necrogoyf (376).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Tinybones, Trinket Thief (403).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Nezumi Shortfang (380).
+Resolve Stack: Harbinger of the Hunt (271) - Deals 1 damage to each creature without flying.
+Zone Change: Tinybones, the Pickpocket (309) was put into Graveyard from Battlefield.
+Zone Change: Nezumi Shortfang (380) was put into Graveyard from Battlefield.
+Phase: Lynessa's Draw step
+Phase: Lynessa's Main phase, precombat
+Land: Lynessa played Battlefield Forge (300)
+Land: Lynessa picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Lynessa.
+Life: Life: Lynessa 27 > 26
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Mana: Underground River (217) - {T}: Add {C}.
+Add To Stack: Lynessa activated Harbinger of the Hunt
+Damage: Harbinger of the Hunt (271) deals 1 damage to Stabwhisker the Odious (77).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Tourach, Dread Cantor (92).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Necrogoyf (376).
+Damage: Harbinger of the Hunt (271) deals 1 damage to Tinybones, Trinket Thief (403).
+Resolve Stack: Harbinger of the Hunt (271) - Deals 1 damage to each creature without flying.
+Zone Change: Tinybones, Trinket Thief (403) was put into Graveyard from Battlefield.
+Phase: Lynessa's Beginning of Combat Step
+Phase: Lynessa's Declare Attackers Step
+Combat: Lynessa assigned Scion of the Ur-Dragon (302), The Ur-Dragon (214), Ancient Silver Dragon (282), Ancient Bronze Dragon (277), Dragonlord Kolaghan (249) and Harbinger of the Hunt (271) to attack Malcolm.
+Information: BOARD attack | Lynessa -> Malcolm | attackers 6 (power 54) | defender life 24 | untapped creatures 1 (power 5): Necrogoyf 5/4 | open mana 1
+Add To Stack: Lynessa triggered The Ur-Dragon
+Resolve Stack: Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield. [Number Attackers: [Scion of the Ur-Dragon (302), The Ur-Dragon (214), Ancient Silver Dragon (282), Ancient Bronze Dragon (277), Dragonlord Kolaghan (249), Harbinger of the Hunt (271)]]
+Phase: Lynessa's Declare Blockers Step
+Combat: Malcolm didn't block Scion of the Ur-Dragon (302).
+Malcolm didn't block The Ur-Dragon (214).
+Malcolm didn't block Ancient Silver Dragon (282).
+Malcolm didn't block Ancient Bronze Dragon (277).
+Malcolm didn't block Dragonlord Kolaghan (249).
+Malcolm didn't block Harbinger of the Hunt (271).
+Phase: Lynessa's First Strike Damage Step
+Phase: Lynessa's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Malcolm.
+Damage: The Ur-Dragon (214) deals 17 combat damage to Malcolm.
+Damage: Ancient Silver Dragon (282) deals 15 combat damage to Malcolm.
+Damage: Ancient Bronze Dragon (277) deals 7 combat damage to Malcolm.
+Damage: Dragonlord Kolaghan (249) deals 6 combat damage to Malcolm.
+Damage: Harbinger of the Hunt (271) deals 5 combat damage to Malcolm.
+Life: Life: Malcolm 24 > -30
+Add To Stack: Lynessa triggered Ancient Silver Dragon
+Add To Stack: Lynessa triggered Ancient Bronze Dragon
+Resolve Stack: Whenever Ancient Bronze Dragon deals combat damage to a player, roll a d20. When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result. [Damage Source: Ancient Bronze Dragon (277), Damaged: Malcolm, Amount: 7]
+Add To Stack: Lynessa triggered Ancient Bronze Dragon targeting [The Ur-Dragon (214), Ancient Silver Dragon (282)]
+Resolve Stack: When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result. ([10]) (Targeting: [[The Ur-Dragon (214), Ancient Silver Dragon (282)]])
+Resolve Stack: Whenever Ancient Silver Dragon deals combat damage to a player, roll a d20. Draw cards equal to the result. You have no maximum hand size for the rest of the game. [Damage Source: Ancient Silver Dragon (282), Damaged: Malcolm, Amount: 15]
+Phase: Lynessa's End of Combat Step
+Phase: Lynessa's Main phase, postcombat
+Phase: Lynessa's End step
+Phase: Lynessa's Cleanup step
+Turn: Turn 30 (Xenil)
+Information: BOARD turn 30 (Xenil) | Xenil | life 32 | hand 1 | lands 6 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Stabwhisker the Odious 3/3; Tourach, Dread Cantor 11/10 | hand cards: Rogue's Passage(land)
+Information: BOARD turn 30 (Xenil) | Lynessa | life 26 | hand 18 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (1 untapped): Scion of the Ur-Dragon 4/4*; The Ur-Dragon 27/27*; Ancient Silver Dragon 25/25*; Ancient Bronze Dragon 7/7*; Dragonlord Kolaghan 6/5*; Harbinger of the Hunt 5/3*; Savage Ventmaw 4/4 | hand cards: Desolation of Smaug(4); Defense of the Heart(4); Child of Alara(5); Slip On the Ring(2); Sunken Ruins(land); Dragon Tempest(2); Reconnaissance(1); Path of Ancestry(land); Llanowar Elves(1); Haystack(2); Cursed Mirror(3); Reality Ripple(2); Deserted Beach(land); Dragon's Hoard(3); Thornwood Falls(land); Rugged Highlands(land); Inkshield(5); Make Your Move(3)
+Information: BOARD threat | turn 30 | The Ur-Dragon (Lynessa) 176; Ancient Silver Dragon (Lynessa) 154; Ancient Bronze Dragon (Lynessa) 130; Tourach, Dread Cantor (Xenil) 129; Painful Quandary (Xenil) 97
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Add To Stack: Xenil triggered Phyrexian Arena
+Player Control: Xenil has restored control over themself
+Player Control: Captain has restored control over themself
+Player Control: Lynessa has restored control over themself
+Player Control: Malcolm has restored control over themself
+Game Outcome: Match Duration 22m : 09s
+Game Outcome: Turn 15
+Game Outcome: Xenil has conceded
+Game Outcome: Captain has lost because life total reached 0
+Game Outcome: Lynessa has won because all opponents have lost
+Game Outcome: Malcolm has lost because life total reached 0
+Match Result: Xenil: 0 Captain: 0 Lynessa: 1 Malcolm: 0 
+
+Game Result: Lynessa has won
