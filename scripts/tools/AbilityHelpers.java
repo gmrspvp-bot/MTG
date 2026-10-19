@@ -209,6 +209,61 @@ public final class AbilityHelpers {
         }
     }
 
+    /**
+     * Farewell ("choose one or more: exile all artifacts / creatures / enchantments /
+     * graveyards"), added to Captain America v7. Forge's charm AI scores each mode on its own and
+     * could take "exile all artifacts", wiping our Equipment. Modes picked here:
+     *   artifacts    - only if opponents have 3+ more artifacts than us (never for an Equipment deck)
+     *   creatures    - if their creatures are worth clearly more than ours, Captain America counted
+     *                  at his base value (his Equipment stays on the battlefield for the recast)
+     *   graveyards   - if an opponent's graveyard is worth exiling (LanternChangeZoneAllAi rule)
+     *   enchantments - if opponents have more enchantments than we do
+     * Nothing worth it: hold the card.
+     */
+    public static class FarewellCharmAi extends forge.ai.ability.CharmAi {
+        @Override
+        protected AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            if (!enabled || !host(sa, "Farewell")) return super.checkApiLogic(ai, sa);
+            java.util.List<forge.game.spellability.AbilitySub> options = forge.game.ability.effects.CharmEffect.makePossibleOptions(sa);
+            java.util.List<forge.game.spellability.AbilitySub> chosen = new java.util.ArrayList<>();
+            StringBuilder why = new StringBuilder();
+            for (forge.game.spellability.AbilitySub sub : options) {
+                String type = sub.getParamOrDefault("ChangeType", "");
+                boolean take = false;
+                if ("Graveyard".equals(sub.getParam("Origin"))) { take = LanternChangeZoneAllAi.worthExiling(ai); }
+                else if (type.startsWith("Artifact")) { take = count(ai, true, c -> c.isArtifact()) >= count(ai, false, c -> c.isArtifact()) + 3; }
+                else if (type.startsWith("Enchantment")) { take = count(ai, true, c -> c.isEnchantment()) > count(ai, false, c -> c.isEnchantment()); }
+                else if (type.startsWith("Creature")) { take = creatureValue(ai, true) >= Math.max(600, 1.5 * creatureValue(ai, false)); }
+                if (take) { chosen.add(sub); why.append(why.length() > 0 ? ", " : "").append("Graveyard".equals(sub.getParam("Origin")) ? "graveyards" : type.toLowerCase() + "s"); }
+            }
+            // Graveyards alone aren't worth six mana; a wipe is.
+            boolean board = false;
+            for (forge.game.spellability.AbilitySub s : chosen) { if (!"Graveyard".equals(s.getParam("Origin"))) board = true; }
+            if (!board) return no();
+            sa.setChosenList(chosen);
+            forge.game.ability.effects.CharmEffect.chainAbilities(sa, chosen);
+            System.out.println("WIPEAI " + ai.getName() + ": Farewell exiles " + why);
+            return new AiAbilityDecision(100, AiPlayDecision.WillPlay);
+        }
+
+        static int count(Player ai, boolean theirs, java.util.function.Predicate<Card> p) {
+            int n = 0;
+            for (Card c : ai.getGame().getCardsIn(ZoneType.Battlefield)) {
+                if ((c.getController() != ai) == theirs && p.test(c)) n++;
+            }
+            return n;
+        }
+
+        static double creatureValue(Player ai, boolean theirs) {
+            double v = 0;
+            for (Card c : ai.getGame().getCardsIn(ZoneType.Battlefield)) {
+                if (!c.isCreature() || (c.getController() != ai) != theirs) continue;
+                v += c.isCommander() && c.getController() == ai ? 200 : forge.ai.ComputerUtilCard.evaluateCreature(c);
+            }
+            return v;
+        }
+    }
+
     public static class HelperDrawAi extends forge.ai.ability.DrawAi {
         static boolean ours(SpellAbility sa) {
             return enabled && (host(sa, "Loran of the Third Path") || host(sa, "O'aka, Traveling Merchant"));
