@@ -194,9 +194,13 @@ before you start, and push the claim before writing code.
 
 - [x] **Closing the 3D window does not kill Forge** (checked 2026-10-20). libGDX's `Lwjgl3Application` never calls `System.exit`: closing the window runs `glfwTerminate` and ends only the `mtg3d` thread. `scratch\probe\Ui3dCloseTest.java` opens the window beside a Swing frame standing in for Forge, closes it, and opens a second one in the same JVM: the frame stays up both times. `Bridge.start()` now reopens the window with the next game if the player closed it (it used to open once per process, ever).
 - [x] **A second game in the same session** (fixed 2026-10-20). Forge has no `unsubscribe`, so `Bridge` keeps the `current` game and every `Listener` ignores events from a game that is no longer current. `scratch\probe\Ui3dRematchTest.java`: after a rematch, an event from the old game leaves the new game's snapshot in place.
-- [ ] **Texture memory has a cap but no eviction.** `CardArt` stops loading at 400 textures and
-      then simply shows blocks. A long session with many distinct cards will hit it. Needs LRU
-      eviction keyed on what was drawn recently.
+- [x] **Texture memory** (fixed 2026-10-20). `CardArt` now drops the least recently drawn
+      textures once near its cap, on the render thread, with a grace period of 600 frames so a
+      card hidden behind the search panel is not thrown away. The cap also had to be enforced
+      when the texture is *created*, not only when the load is queued: a fresh board queues
+      everything at once while the cache is still small, and the count sailed past the cap as
+      those completed. The probe `Ui3dEvictTest` asks for 500 distinct faces then only 12 -
+      peak 400, settling to 284.
 
 ### Stage 2 — presentation (current)
 
