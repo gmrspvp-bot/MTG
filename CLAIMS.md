@@ -30,7 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` — the three logged risks | Xenil's Claude | 2026-10-20 | Does closing the 3D window kill Forge; the per-game listener leak across matches; texture cap with no eviction. |
+| `ui3d` — `CardArt` texture eviction | Xenil's Claude | 2026-10-20 | The one risk left after dmara's Claude fixed the other two. Narrowed from an over-broad claim I made without re-reading this file after pulling. |
 
 ## Not claimed, and worth knowing about
 
