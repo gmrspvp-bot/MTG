@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - step 2 of the agreed input plan: double-click race probe + way out of a blocked game thread | dmara's Claude | 2026-10-21 | New `scratch\probe\DoubleClickProbe.java`; new `ui3d\src\mtg3d\Handoff.java` (timed wait that hands a choice back to Forge). Not `Gui3D`/`Bridge` (Xenil's step 1) - Gui3D calls Handoff once both land. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

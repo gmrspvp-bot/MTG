@@ -357,11 +357,22 @@ The proposal above is **accepted**. Work it in this order. Claim each step in `C
    the real UI, an exception from it arrives as itself rather than wrapped, and the prompt
    mirrors correctly. PASS. Off switch `-Dforge.ui3d.input=false` works.
 2. **Two safeguards, before any choice method is taken over.** These were the owner's conditions:
-   - [ ] **Probe the double-click race.** The proposal argues that a stray second click is the
-         same as clicking Forge's OK twice, which Forge tolerates. That is a race between two
-         windows and the game thread, and it could silently skip a step. Prove it with a probe in
-         `scratch\probe\`, the way the window-close and eviction risks were proved - do not
-         assume it.
+   - [x] **Probe the double-click race** (2026-10-21, `scratch\probe\DoubleClickProbe.java`).
+         **The race is real**: an unguarded second click passed a step the player never saw at
+         every gap tried (0, 40, 150, 400 ms) - Forge posts the next priority decision before a
+         second click can arrive. Fixed by `mtg3d.ClickGuard`, which the probe shows holding:
+         - **3D clicks**: `ClickGuard.ok/cancel(pch, token)`, where `token = ClickGuard.token(pch)`
+           is taken when the prompt is drawn. Delivered on the EDT only if that Input is still the
+           active one, otherwise dropped. Safe at every gap.
+         - **Forge's own window**: its clicks carry no token, and "the prompt Forge last showed" is
+           not one either (Forge refreshes it on the EDT as the old decision closes, after the next
+           is already active - the probe tried it). So `ClickGuard.forgeWindow(pch)` returns a
+           controller that drops clicks within `DEBOUNCE_MS` (300) of a new decision becoming
+           active (timed exactly via the `InputQueue` observer). Safe at 0/40/150 ms; a click
+           400 ms later counts as meant for the new prompt. Also stops Forge's own double click.
+         - **For Gui3D (step 1)**: in `setGameController`, forward `ClickGuard.forgeWindow(pch)`
+           to Forge's window instead of the real controller; send every 3D click through
+           `ClickGuard.ok/cancel` (selectCard etc. to be added the same way when step 3 needs them).
    - [ ] **A way out of a blocked game thread.** When 3D takes over a choice, the game thread
          blocks until the 3D window answers, and Forge never sees that call - so if the window is
          closed, crashes, or the render thread wedges, **the game hangs with nothing to fall back
