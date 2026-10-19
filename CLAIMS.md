@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` — search / choose-from-a-list panel | Xenil's Claude | 2026-10-20 | Animated panel, reusable for every search: library, graveyard browse, modal choices. Presentation now; wiring to `IGuiGame` comes in stage 3. |
 
 ## Not claimed, and worth knowing about
 
