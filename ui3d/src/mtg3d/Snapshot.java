@@ -35,6 +35,10 @@ public final class Snapshot {
         public boolean blocking;
         public boolean commander;
         public int counters;
+        /** Who controls it. Used to label stack items, since the card alone does not say. */
+        public String controller = "";
+        /** For a stack item: what it is actually doing, which may not be the card's own text. */
+        public String stackText = "";
 
         public CardV() {}
 
@@ -86,6 +90,11 @@ public final class Snapshot {
     public boolean targeting;
     /** Cards in your hand, drawn along the bottom edge. */
     public final List<CardV> hand = new ArrayList<>();
+    /**
+     * The stack, BOTTOM FIRST - the order things were put on it, so the bar fills left to right
+     * as spells are cast. Forge iterates its stack top-first, so StateReader reverses it.
+     */
+    public final List<CardV> stack = new ArrayList<>();
 
     public SeatV you() {
         for (SeatV s : seats) if (s.isYou) return s;

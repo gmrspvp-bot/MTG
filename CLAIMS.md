@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` — floating stack bar | Xenil's Claude | 2026-10-20 | `Snapshot.stack` + `StateReader` from `game.getStack()`, bar across the table centre. See the ui3d TODO. |
 
 ## Not claimed, and worth knowing about
 

@@ -204,9 +204,8 @@ before you start, and push the claim before writing code.
 - [x] Typed bands: creatures / other permanents / lands
 - [x] Per-player life monitors, zone pads with counts
 - [x] Opponent hands as face-down backs
-- [ ] **Floating stack bar** — *claimed, in progress.* Across the middle of the table, filling left
-      to right. `Snapshot.stack` filled from `game.getStack()`; items upright above the centre,
-      offset along the viewed seat's local X so the bar stays broadside to the camera.
+- [x] Floating stack bar — above the table centre, filling left to right in cast order, laid out
+      along the viewed seat's local X so it stays broadside to the camera from every seat
 - [ ] **Basic land art.** Plains/Island/Swamp/Mountain/Forest are never cached, so they are always
       blocks — and they are most of the table. Generate a texture per land type at startup rather
       than shipping images.

@@ -369,6 +369,30 @@ public final class Table3D extends ApplicationAdapter {
         placeOpponentHands();
         placeZones();
         placeMonitors();
+        placeStack();
+    }
+
+    /**
+     * The stack, floating above the middle of the table as a bar that fills left to right in the
+     * order things were cast (Snapshot.stack is bottom-first for exactly this reason).
+     *
+     * It is laid out along the VIEWED seat's local X and turned to face that seat, so the bar is
+     * always broadside to the camera and reads in the same direction from every seat. The item
+     * about to resolve - the top of the stack - is the rightmost and sits slightly higher, which
+     * is the one piece of information the bar has to convey at a glance.
+     */
+    private void placeStack() {
+        if (snap.stack.isEmpty()) return;
+        float step = CARD_W * 1.15f;
+        float width = snap.stack.size() * step - (step - CARD_W);
+        float yaw = (float) Math.toDegrees(-orbit);
+        for (int i = 0; i < snap.stack.size(); i++) {
+            Snapshot.CardV c = snap.stack.get(i);
+            boolean top = (i == snap.stack.size() - 1);
+            float along = -width / 2f + i * step + CARD_W / 2f;
+            Vector3 w = rotateY(along, 0f, orbit);
+            add(c, null, w.x, STACK_Y + (top ? 0.34f : 0f), w.z, yaw, 90f);
+        }
     }
 
     /**
@@ -436,7 +460,7 @@ public final class Table3D extends ApplicationAdapter {
             Snapshot.CardV c = snap.hand.get(i);
             float along = -width / 2f + i * step + step / 2f;
             Vector3 w = rotateY(along, SEAT_DIST + 3.6f, angle);
-            add(c, null, w.x, w.z, (float) Math.toDegrees(-angle));
+            add(c, null, w.x, 0.62f, w.z, (float) Math.toDegrees(-angle), HAND_TILT);
         }
     }
 
@@ -469,6 +493,8 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     /** How far each band sits from the middle of the table. */
+    /** How high the stack bar floats above the table. */
+    private static final float STACK_Y = 3.4f;
     /** How far each player's little screen sits from the middle of the table. */
     private static final float MONITOR_DIST = 2.0f;
     private static final float ROW_CREATURES = SEAT_DIST - 2.1f;
@@ -506,16 +532,21 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     private void add(Snapshot.CardV c, Snapshot.SeatV seat, float x, float z, float yawDeg) {
+        // On the table: flat, at table height.
+        add(c, seat, x, 0.02f, z, yawDeg, 0f);
+    }
+
+    private void add(Snapshot.CardV c, Snapshot.SeatV seat, float x, float y, float z,
+                     float yawDeg, float tiltDeg) {
         Model m = c.commander ? commanderModel : c.land ? landModel : c.creature ? creatureModel : cardModel;
         Drawn d = new Drawn();
         d.inst = new ModelInstance(m);
         d.card = c;
         d.seat = seat;
-        float y = (seat == null) ? 0.62f : 0.02f;        // hand cards stand up off the table
         d.inst.transform.setToTranslation(x, y, z).rotate(Vector3.Y, yawDeg);
-        // Your hand is fanned upright facing your seat, otherwise it lies flat and edge-on and you
-        // cannot read it from a seated camera.
-        if (seat == null) d.inst.transform.rotate(Vector3.X, HAND_TILT);
+        // Tilting is what makes a card readable when it is not lying on the table: the hand is
+        // fanned up towards its owner, stack items stand fully upright facing the viewer.
+        if (tiltDeg != 0f) d.inst.transform.rotate(Vector3.X, tiltDeg);
         d.inst.calculateBoundingBox(d.bounds);
         d.bounds.mul(d.inst.transform);
 
@@ -587,6 +618,7 @@ public final class Table3D extends ApplicationAdapter {
         drawSeatInfo(w, h);
         drawZoneLabels();
         drawCentreTracker();
+        drawStackLabels();
         ui.end();
     }
 
@@ -606,6 +638,24 @@ public final class Table3D extends ApplicationAdapter {
             String line2 = "hand " + s.handSize + "   lib " + s.librarySize + "   gy " + s.graveyardSize;
             font.draw(ui, line, p.x - 60, p.y + 16);
             font.draw(ui, line2, p.x - 60, p.y);
+        }
+    }
+
+    /** Who cast what, under each item on the stack, plus a marker on the one resolving next. */
+    private void drawStackLabels() {
+        if (snap.stack.isEmpty()) return;
+        float step = CARD_W * 1.15f;
+        float width = snap.stack.size() * step - (step - CARD_W);
+        for (int i = 0; i < snap.stack.size(); i++) {
+            Snapshot.CardV c = snap.stack.get(i);
+            boolean top = (i == snap.stack.size() - 1);
+            float along = -width / 2f + i * step + CARD_W / 2f;
+            Vector3 w = rotateY(along, 0f, orbit);
+            Vector3 p = cam.project(new Vector3(w.x, STACK_Y + (top ? 0.34f : 0f) - 0.8f, w.z));
+            if (p.z > 1f) continue;
+            font.setColor(top ? new Color(1f, 0.85f, 0.35f, 1f) : new Color(0.68f, 0.78f, 0.88f, 1f));
+            font.draw(ui, c.controller, p.x - 30, p.y);
+            if (top) font.draw(ui, "resolving next", p.x - 30, p.y - 13);
         }
     }
 
@@ -682,6 +732,9 @@ public final class Table3D extends ApplicationAdapter {
         if (c.creature && !c.power.isEmpty()) lines.add(c.power + " / " + c.toughness);
         if (c.counters > 0) lines.add(c.counters + " counters");
         if (c.tapped) lines.add("(tapped)");
+        if (!c.stackText.isEmpty()) {
+            lines.addAll(wrap("ON THE STACK: " + c.stackText, panelW - 24f));
+        }
         lines.addAll(wrap(c.text, panelW - 24f));
 
         GlyphLayout gl = new GlyphLayout();

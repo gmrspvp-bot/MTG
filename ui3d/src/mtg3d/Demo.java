@@ -31,6 +31,20 @@ public final class Demo {
             s.combat = (sec % 12) >= 7;
             s.phase = s.combat ? "Declare attackers" : "Main phase, precombat";
             s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
+            // Build the stack up during combat so the bar can be seen filling left to right.
+            s.stack.clear();
+            int onStack = s.combat ? (int) ((sec % 12) - 6) : 0;
+            String[][] spells = {
+                { "Swords to Plowshares", "Xenil", "Exile Ancient Bronze Dragon" },
+                { "Arcane Denial", "Michael", "Counter Swords to Plowshares" },
+                { "Boros Charm", "Captain", "Deal 4 damage to Xenil" },
+            };
+            for (int i = 0; i < Math.min(onStack, spells.length); i++) {
+                Snapshot.CardV v = card(950 + i, spells[i][0], "Instant", false, false, "{W}", "");
+                v.controller = spells[i][1];
+                v.stackText = spells[i][2];
+                s.stack.add(v);
+            }
             // During combat, the active seat's creatures attack, so the markers show up.
             for (int i = 0; i < n; i++) {
                 for (Snapshot.CardV c : s.seats.get(i).creatures) {

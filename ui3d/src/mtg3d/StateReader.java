@@ -77,6 +77,24 @@ public final class StateReader {
             if (you != null) {
                 for (Card c : you.getCardsIn(ZoneType.Hand)) s.hand.add(card(c));
             }
+
+            // The stack. Forge iterates it top-first; the bar fills left to right in the order
+            // things were cast, so it is reversed here rather than in the renderer.
+            try {
+                java.util.List<Snapshot.CardV> topFirst = new java.util.ArrayList<>();
+                for (forge.game.spellability.SpellAbilityStackInstance si : game.getStack()) {
+                    Card src = si.getSourceCard();
+                    Snapshot.CardV v = src == null ? new Snapshot.CardV() : card(src);
+                    if (si.getActivatingPlayer() != null) v.controller = si.getActivatingPlayer().getName();
+                    String desc = si.getStackDescription();
+                    if (desc != null && !desc.isEmpty()) v.stackText = desc;
+                    if (v.name == null || v.name.isEmpty()) v.name = v.stackText;
+                    topFirst.add(v);
+                }
+                for (int i = topFirst.size() - 1; i >= 0; i--) s.stack.add(topFirst.get(i));
+            } catch (Throwable t2) {
+                // the stack just does not show
+            }
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view just shows less.
         }
@@ -120,6 +138,7 @@ public final class StateReader {
             v.commander = c.isCommander();
             v.manaCost = c.getManaCost() == null ? "" : c.getManaCost().toString();
             v.text = c.getOracleText() == null ? "" : c.getOracleText();
+            if (c.getController() != null) v.controller = c.getController().getName();
             if (v.creature) {
                 v.power = String.valueOf(c.getNetPower());
                 v.toughness = String.valueOf(c.getNetToughness());
