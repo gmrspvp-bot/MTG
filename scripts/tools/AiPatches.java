@@ -597,6 +597,42 @@ public final class AiPatches {
             return d;
         }
 
+        // At least as big: a removed commander comes back for {2} more, an exiled creature doesn't
+        // (1.25 kept the removal on Seluma (351) next to Lyra Dawnbringer (386)).
+        static final double COMMANDER_SWAP_RATIO = 1.0;
+        static final int COMMANDER_SWAP_MIN = 300;   // Forge evaluation: a real threat (a 3/3 vanilla is ~200)
+
+        /**
+         * Captain America's player only: removal aimed at an opposing commander is moved to a
+         * non-commander creature at least as big (Forge value >= the commander's, and 300+).
+         * A removed commander is recast from the command zone; against Angels most of the AI's
+         * removal went at commanders (Doom 12, Olivia 9, Seluma 9) and only 23% at Lyra,
+         * Baneslayer, Gisela and the other angels doing the damage. Destroy-only removal skips
+         * indestructible creatures. -Dforge.captain.cmdrswap=false turns this off (A/B tests).
+         */
+        static final boolean CMDR_SWAP = !"false".equalsIgnoreCase(System.getProperty("forge.captain.cmdrswap", "true"));
+
+        static Card biggerNonCommander(Player ai, SpellAbility sa, Card chosen, boolean zoneChange) {
+            if (!CaptainPolicy.enabled || !CMDR_SWAP) return null;
+            boolean capPlayer = false;
+            for (Card c : ai.getCommanders()) { if (CaptainPolicy.isCaptain(c)) capPlayer = true; }
+            if (!capPlayer || !chosen.isCreature()) return null;
+            double need = Math.max(COMMANDER_SWAP_MIN, COMMANDER_SWAP_RATIO * forge.ai.ComputerUtilCard.evaluateCreature(chosen));
+            Card best = null;
+            double bestValue = -1;
+            for (Player opp : ai.getOpponents()) {
+                for (Card c : opp.getCreaturesInPlay()) {
+                    if (c.isCommander() || c.isToken() || !sa.canTarget(c)) continue;
+                    if (!zoneChange && c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) continue;
+                    double v = forge.ai.ComputerUtilCard.evaluateCreature(c);
+                    if (v < need) continue;
+                    v += ThreatTracker.score(c);
+                    if (v > bestValue) { bestValue = v; best = c; }
+                }
+            }
+            return best;
+        }
+
         static forge.ai.AiAbilityDecision apply(Player ai, SpellAbility sa, forge.ai.AiAbilityDecision d, boolean zoneChange) {
             if (!ThreatTracker.enabled || d == null || !d.willingToPlay() || !sa.usesTargeting()) return d;
             if (zoneChange) {
@@ -612,7 +648,15 @@ public final class AiPatches {
             if (chosen.getController() == null || !ai.isOpponentOf(chosen.getController())) return d;
             // Forge's own pick already reflects a creature's strength (and its threat, via the
             // evaluation hint), and a commander is a threat before it has done anything.
-            if (chosen.isCommander()) return d;
+            if (chosen.isCommander()) {
+                Card alt = biggerNonCommander(ai, sa, chosen, zoneChange);
+                if (alt == null) return d;
+                sa.resetTargets();
+                sa.getTargets().add(alt);
+                System.out.println("THREATAI " + sa.getHostCard().getName() + ": commander " + chosen.getName() + " -> " + alt.getName()
+                    + " (bigger non-commander threat; commanders come back)");
+                return d;
+            }
             double best = ThreatTracker.score(chosen) + (chosen.isCreature() ? 100 : RETARGET_MARGIN);
             Card pick = null;
             for (Player opp : ai.getOpponents()) {
