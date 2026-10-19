@@ -180,31 +180,80 @@ tree in this repo.
 
 ## TODO
 
-Roughly in the order the owner asked for them.
+Roughly in priority order. Claim anything bigger than a quick fix in the repo-root `CLAIMS.md`
+before you start, and push the claim before writing code.
 
-### Next up
+### Known risks — look at these before building more on top
 
-- [ ] **The stack, as a floating bar.** The owner wants it across the middle of the table, filling
-      **left to right** as spells go on. API recon is done (table above) and nothing is written yet.
-      Suggested: add `List<CardV> stack` to `Snapshot`, fill it in `StateReader` from
-      `game.getStack()`, and in `Table3D` place the items upright above the table centre, offset
-      along the viewed seat's local X so the bar is always broadside to the camera, at about
-      `y = 3.2`.
-- [ ] **Basic land art.** Plains/Island/Swamp/Mountain/Forest are never in Forge's cache, so they
-      are always blocks. Generate a simple texture per land type at startup rather than shipping
-      images.
-- [ ] **Tap/untap animation.** Tapping is currently an instant 90 degree snap. Needs a per-card
-      animated angle, which means `Drawn` has to persist between frames instead of being rebuilt —
-      see the note under *Known limits*.
+- [ ] **Closing the 3D window may kill Forge.** `Lwjgl3Application` ends when its window closes.
+      It runs on a daemon thread, but if libGDX calls `System.exit` on shutdown it would take the
+      whole JVM — and the game — with it. **Untested.** Open a game with `-Ui3d`, close the 3D
+      window, and check Forge survives. If it does not, the window needs its own close handler.
+- [ ] **A second game in the same session.** `Bridge.start()` opens the window once per process,
+      but `attach()` subscribes a new `Listener` per game and every listener writes the same
+      `latest` field. After a match ends and another begins, the old game's listener is probably
+      still alive and fighting the new one. Needs the bridge to drop the previous listener, or to
+      ignore events from a game that is over.
+- [ ] **Texture memory has a cap but no eviction.** `CardArt` stops loading at 400 textures and
+      then simply shows blocks. A long session with many distinct cards will hit it. Needs LRU
+      eviction keyed on what was drawn recently.
 
-### Then
+### Stage 2 — presentation (current)
 
-- [ ] Seat pads are large plain slabs that dominate the table; make them smaller and darker.
-- [ ] Power/toughness and counters drawn on the card itself, not only in the hover panel.
-- [ ] Arcs from attacker to the player being attacked.
-- [ ] Graveyard/exile browsable rather than just a count on a pad.
-- [ ] A hanging "stadium" scoreboard was floated as an alternative (or addition) to the four centre
-      monitors. Not exclusive — monitors for each player's own total, hanging screen for the pod.
+- [x] Card art from Forge's cache
+- [x] Typed bands: creatures / other permanents / lands
+- [x] Per-player life monitors, zone pads with counts
+- [x] Opponent hands as face-down backs
+- [ ] **Floating stack bar** — *claimed, in progress.* Across the middle of the table, filling left
+      to right. `Snapshot.stack` filled from `game.getStack()`; items upright above the centre,
+      offset along the viewed seat's local X so the bar stays broadside to the camera.
+- [ ] **Basic land art.** Plains/Island/Swamp/Mountain/Forest are never cached, so they are always
+      blocks — and they are most of the table. Generate a texture per land type at startup rather
+      than shipping images.
+- [ ] **Tap/untap animation.** Currently an instant 90 degree snap. Needs `Drawn` persisted between
+      frames, keyed by card id — see *Known limits*. Doing this unlocks every other animation.
+- [ ] **Card movement.** Cards teleport between zones. Once `Drawn` persists, interpolate from the
+      old position when a card changes row or zone.
+- [ ] Attachments: equipment and auras should sit visibly against what they are attached to.
+      `Card.getAttachedCards()` / `getAttachedTo()`.
+- [ ] Power, toughness and counters drawn on the card, not only in the hover panel.
+- [ ] Tokens visually distinct from real cards (they have no art and never will).
+- [ ] The commander, shown in a command zone rather than only when on the battlefield.
+- [ ] Arcs from each attacker to the player or planeswalker it is attacking.
+- [ ] Highlight whose priority it is — the snapshot already carries `hasPriority` and nothing uses it.
+- [ ] Phase shown on the table itself, not only in the corner text.
+- [ ] Hover panel should show the card picture at full size, not just wrapped text.
+- [ ] Seat pads are large plain slabs that dominate the table; smaller and darker.
+- [ ] Mouse camera: drag to orbit, wheel to zoom, so the fixed poses are not the only options.
+- [ ] Remember window size and position between runs.
+- [ ] Face-down and morphed cards must render as backs — a correctness issue, not cosmetic.
+- [ ] A hanging "stadium" scoreboard, as an addition to the four centre monitors rather than a
+      replacement.
+
+### Stage 3 — taking over interaction
+
+The large one. Implement `IGuiGame` decision by decision, falling back to Forge's Swing UI for
+anything not yet built, so the game is always playable mid-way through the work.
+
+- [ ] **Move hidden information to `PlayerView`** before anything else here. "Read the GUI player's
+      hand" is fine for a viewer and is *not* fine for a client. See the warning above.
+- [ ] Read `forge.GuiMobile` first — it is a complete worked implementation of the same interface.
+- [ ] Decide how input is routed while both UIs exist: two windows, one game thread, and only one
+      of them should be answering a given decision.
+- [ ] Click a card to select; click again to cast or activate.
+- [ ] Target selection in 3D, with the arcs already needed for combat.
+- [ ] Declare attackers and blockers by dragging.
+- [ ] Mana payment, including which lands to tap.
+- [ ] Ordering triggers and the stack.
+- [ ] Choosing from a list (search a library, order a graveyard, modal spells).
+
+### Stage 4 — lobby and deck selection
+
+- [ ] `IGuiBase`, enough to start a game without Forge's screens.
+- [ ] Read the existing `decks\*.dck`; Commander only, as that is all we play.
+- [ ] Four-player pod setup with AI opponents and the `Realistic` profile.
+- [ ] Network lobby — the owners play over Radmin LAN, so a joining player needs an **OPEN** slot
+      (see the root `CLAUDE.md` on multiplayer).
 
 ### Stages
 
