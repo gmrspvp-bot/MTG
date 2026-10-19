@@ -39,6 +39,21 @@ public final class Snapshot {
         public String controller = "";
         /** For a stack item: what it is actually doing, which may not be the card's own text. */
         public String stackText = "";
+        /** A token: no printing exists, so it never has cached art and should look different. */
+        public boolean token;
+        /**
+         * Face down (morph, manifest, cloaked). Nothing identifying is ever filled in for one of
+         * these - see StateReader - so there is nothing here that could leak.
+         */
+        public boolean faceDown;
+        /** What this is attached to, if anything: equipment, auras, fortifications. */
+        public String attachedTo = "";
+        /**
+         * Counters spelled out, as "+1/+1 x3" entries, biggest first. Separate from the plain
+         * `counters` total above, which Table3D already uses - that file belongs to the other
+         * agent's animation work at the moment, so this is additive rather than a rename.
+         */
+        public final List<String> counterText = new ArrayList<>();
 
         public CardV() {}
 

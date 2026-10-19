@@ -109,7 +109,19 @@ public final class CardArt {
      * every frame is how art arrives; it never blocks.
      */
     public Texture get(Snapshot.CardV card) {
-        if (card == null || card.name == null || card.name.isEmpty() || !indexed) return null;
+        if (card == null || !indexed) return null;
+        // A face-down card has no name by design, so it never looks in the cache: there is nothing
+        // to look up, and nothing of it that may be shown. It goes straight to the generated back,
+        // which every face-down card shares. Without this, the empty-name guard below would leave
+        // morphs with no texture at all.
+        if (card.faceDown) {
+            String bk = FaceMaker.keyFor(card);
+            Texture back = ready.get(bk);
+            if (back != null) { lastUsed.put(bk, frame); return back; }
+            queue(bk, () -> FaceMaker.make(card));
+            return null;
+        }
+        if (card.name == null || card.name.isEmpty()) return null;
         String k = key(card.name);
         Texture t = ready.get(k);
         if (t != null) { lastUsed.put(k, frame); return t; }

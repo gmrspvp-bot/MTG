@@ -127,6 +127,36 @@ public final class StateReader {
         Snapshot.CardV v = new Snapshot.CardV();
         try {
             v.id = c.getId();
+            // A face-down card (morph, manifest, cloak) is hidden from everyone, including its
+            // controller in most cases. Nothing identifying goes into the snapshot at all: not the
+            // name, not the type, not the text. The renderer cannot leak what it was never given,
+            // and CardArt keys its picture on the name, so a blank name also stops the real
+            // artwork being fetched.
+            if (c.isFaceDown()) {
+                v.faceDown = true;
+                v.name = "";
+                v.typeLine = "Creature";
+                v.creature = true;
+                v.tapped = c.isTapped();
+                if (c.getController() != null) v.controller = c.getController().getName();
+            v.token = c.isToken();
+            Card host = c.getAttachedTo();
+            if (host != null) v.attachedTo = host.getName();
+            try {
+                // Biggest counts first, so "+1/+1 x7" leads rather than a stray shield counter.
+                java.util.List<com.google.common.collect.Multiset.Entry<forge.game.card.CounterType>> cs =
+                    new java.util.ArrayList<>(c.getCounters().entrySet());
+                cs.sort((a, b) -> Integer.compare(b.getCount(), a.getCount()));
+                for (com.google.common.collect.Multiset.Entry<forge.game.card.CounterType> e : cs) {
+                    if (e.getCount() <= 0) continue;
+                    v.counterText.add(e.getElement().getName() + " x" + e.getCount());
+                }
+                v.counters = c.getNumAllCounters();
+            } catch (Throwable t3) {
+                // counters just do not show
+            }
+                return v;
+            }
             v.name = c.getName();
             v.typeLine = c.getType() == null ? "" : c.getType().toString();
             v.land = c.isLand();

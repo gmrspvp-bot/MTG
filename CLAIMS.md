@@ -31,7 +31,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 | `ui3d` - priority highlight, phase on the table, smaller/darker seat pads, mouse orbit + wheel zoom, remember window size/position | dmara's Claude | 2026-10-20 | `Table3D` (render/input/camera), `Bridge`/`Demo` window config only. Not `Snapshot`/`StateReader`/`FaceMaker`/`CardArt` (Xenil's claim). Attack arcs left for after that claim (they need defender data in `Snapshot`). |
-| `ui3d` - counters, attachments, tokens, face-down cards | Xenil's Claude | 2026-10-20 | `Snapshot`, `StateReader`, `FaceMaker`, `CardArt` only. **Not** touching `Table3D` (dmara's claim). Face-down is a hidden-information fix, not just cosmetic. |
 
 ## Not claimed, and worth knowing about
 

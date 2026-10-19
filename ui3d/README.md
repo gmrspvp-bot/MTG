@@ -218,8 +218,9 @@ before you start, and push the claim before writing code.
 - [x] **Card movement** (2026-10-20). Same mechanism: a card keeps its id from hand to stack to battlefield, so it slides between them instead of teleporting. A card that leaves the view is forgotten, so one coming back appears where it is. A second copy of an id in one frame (an ability on the stack shares its source's id) is drawn at its target without disturbing the first.
 - [ ] Attachments: equipment and auras should sit visibly against what they are attached to.
       `Card.getAttachedCards()` / `getAttachedTo()`.
-- [ ] Power, toughness and counters drawn on the card, not only in the hover panel.
-- [ ] Tokens visually distinct from real cards (they have no art and never will).
+- [ ] Power, toughness and counters drawn on cards that have *real* art (they are on the
+      generated faces already, but a cached picture has no room for them)
+- [x] Tokens marked on their generated face (they have no printing and never will)
 - [ ] The commander, shown in a command zone rather than only when on the battlefield.
 - [ ] Arcs from each attacker to the player or planeswalker it is attacking.
 - [ ] Highlight whose priority it is — the snapshot already carries `hasPriority` and nothing uses it.
@@ -228,7 +229,7 @@ before you start, and push the claim before writing code.
 - [ ] Seat pads are large plain slabs that dominate the table; smaller and darker.
 - [ ] Mouse camera: drag to orbit, wheel to zoom, so the fixed poses are not the only options.
 - [ ] Remember window size and position between runs.
-- [ ] Face-down and morphed cards must render as backs — a correctness issue, not cosmetic.
+- [x] Face-down and morphed cards render as backs, and carry no identifying data at all
 - [ ] A hanging "stadium" scoreboard, as an addition to the four centre monitors rather than a
       replacement.
 

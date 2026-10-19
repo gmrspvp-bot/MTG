@@ -38,6 +38,7 @@ public final class FaceMaker {
      * context - see ui3d\src\mtg3d\FacePreview.java.
      */
     public static BufferedImage draw(Snapshot.CardV c) {
+        if (c.faceDown) return drawBack();
         BufferedImage img = new BufferedImage(W, H, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g = img.createGraphics();
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
@@ -83,6 +84,30 @@ public final class FaceMaker {
             g.drawString(pt, W - 36 - pw, H - 42);
         }
 
+        // Counters, stacked up the left edge where they do not fight the type line.
+        if (!c.counterText.isEmpty()) {
+            g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 20));
+            int cy = H - 150;
+            for (int i = 0; i < Math.min(3, c.counterText.size()); i++) {
+                String s = c.counterText.get(i);
+                int sw2 = g.getFontMetrics().stringWidth(s);
+                g.setColor(new Color(0, 0, 0, 140));
+                g.fillRoundRect(30, cy - 20, sw2 + 18, 28, 10, 10);
+                g.setColor(new Color(250, 236, 190));
+                g.drawString(s, 39, cy);
+                cy -= 34;
+            }
+        }
+
+        // Tokens have no printing and never will, so say so rather than looking like a miss.
+        if (c.token) {
+            g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 18));
+            g.setColor(new Color(0, 0, 0, 120));
+            g.fillRoundRect(30, 100, 86, 26, 10, 10);
+            g.setColor(new Color(240, 240, 236));
+            g.drawString("TOKEN", 40, 119);
+        }
+
         // A watermark of the kind, so a glance at the table still groups things.
         g.setColor(new Color(ink.getRed(), ink.getGreen(), ink.getBlue(), 38));
         String mark = kindMark(c);
@@ -95,6 +120,27 @@ public final class FaceMaker {
         int mw = g.getFontMetrics().stringWidth(mark);
         g.drawString(mark, (W - mw) / 2, H / 2 + 40);
 
+        g.dispose();
+        return img;
+    }
+
+    /**
+     * A card back, for anything face down. There is nothing to draw from: StateReader does not put
+     * a face-down card's name, type or text into the snapshot at all, so this is the only thing
+     * that could be drawn even if it wanted to be clever.
+     */
+    private static BufferedImage drawBack() {
+        BufferedImage img = new BufferedImage(W, H, BufferedImage.TYPE_INT_ARGB);
+        Graphics2D g = img.createGraphics();
+        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g.setColor(new Color(18, 18, 22));
+        g.fillRect(0, 0, W, H);
+        g.setColor(new Color(44, 36, 72));
+        g.fillRoundRect(14, 14, W - 28, H - 28, 26, 26);
+        g.setColor(new Color(74, 60, 116));
+        g.fillOval(W / 2 - 110, H / 2 - 110, 220, 220);
+        g.setColor(new Color(30, 24, 50));
+        g.fillOval(W / 2 - 86, H / 2 - 86, 172, 172);
         g.dispose();
         return img;
     }
@@ -168,6 +214,9 @@ public final class FaceMaker {
         parts.add(c.typeLine == null ? "" : c.typeLine);
         parts.add(c.manaCost == null ? "" : c.manaCost);
         if (c.creature) parts.add(c.power + "/" + c.toughness);
+        if (c.token) parts.add("token");
+        parts.addAll(c.counterText);          // a card that gains a counter needs a new face
+        if (c.faceDown) return "gen:facedown";   // every face-down card shares one back
         return "gen:" + String.join("|", parts).toLowerCase();
     }
 }
