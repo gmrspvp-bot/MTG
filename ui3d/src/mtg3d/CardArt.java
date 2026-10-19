@@ -125,6 +125,16 @@ public final class CardArt {
             try {
                 Texture tex = new Texture(l.pixmap, true);
                 tex.setFilter(Texture.TextureFilter.MipMapLinearLinear, Texture.TextureFilter.Linear);
+                // Cards lie almost flat, so they are seen at a very grazing angle. That is exactly
+                // the case plain mipmapping handles badly: it picks one level for the whole quad
+                // and the card ends up striped. Anisotropic filtering samples along the direction
+                // of compression instead, which is what actually removes the shimmer.
+                try {
+                    float max = Texture.getMaxAnisotropicFilterLevel();
+                    if (max > 1f) tex.setAnisotropicFilter(Math.min(16f, max));
+                } catch (Throwable ignored) {
+                    // unsupported: the card is just softer at a distance
+                }
                 ready.put(l.key, tex);
             } catch (Throwable e) {
                 // skip this one

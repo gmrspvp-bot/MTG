@@ -33,7 +33,7 @@ public final class Demo {
             s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
             // During combat, the active seat's creatures attack, so the markers show up.
             for (int i = 0; i < n; i++) {
-                for (Snapshot.CardV c : s.seats.get(i).nonlands) {
+                for (Snapshot.CardV c : s.seats.get(i).creatures) {
                     c.attacking = s.combat && i == active && c.creature;
                 }
             }
@@ -102,7 +102,7 @@ public final class Demo {
             c.toughness = "4";
             c.commander = first && you;
             first = false;
-            v.nonlands.add(c);
+            v.creatures.add(c);
         }
         return v;
     }

@@ -66,7 +66,11 @@ public final class StateReader {
                 for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(c);
                     v.attacking = attackers.contains(v.id);
-                    if (v.land) seat.lands.add(v); else seat.nonlands.add(v);
+                    // A card can be several things at once (an artifact creature, a land that is
+                    // also a creature). It goes in the most specific row that applies.
+                    if (v.creature) seat.creatures.add(v);
+                    else if (v.land) seat.lands.add(v);
+                    else seat.others.add(v);
                 }
                 s.seats.add(seat);
             }
@@ -109,6 +113,9 @@ public final class StateReader {
             v.typeLine = c.getType() == null ? "" : c.getType().toString();
             v.land = c.isLand();
             v.creature = c.isCreature();
+            v.artifact = c.isArtifact();
+            v.enchantment = c.isEnchantment();
+            v.planeswalker = c.isPlaneswalker();
             v.tapped = c.isTapped();
             v.commander = c.isCommander();
             v.manaCost = c.getManaCost() == null ? "" : c.getManaCost().toString();

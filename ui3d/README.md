@@ -59,6 +59,13 @@ volatile field.
 `Demo` matters more than it looks: it means a rendering problem can never be confused with a
 problem in the bridge, and the view starts in two seconds instead of a whole game.
 
+## Still to do
+
+- **The stack.** Wanted as a floating bar across the middle of the table, filling left to right as
+  spells go on it. Not started.
+- Basic lands have no cached art and stay coloured blocks; a generated land texture would fix it.
+- Tap/untap is instant, not animated.
+
 ## Stages
 
 1. **Read-only table** — *done*. Renders the live game, camera modes, hover-to-inspect.

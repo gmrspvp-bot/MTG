@@ -28,6 +28,9 @@ public final class Snapshot {
         public boolean tapped;
         public boolean creature;
         public boolean land;
+        public boolean artifact;
+        public boolean enchantment;
+        public boolean planeswalker;
         public boolean attacking;
         public boolean blocking;
         public boolean commander;
@@ -65,8 +68,14 @@ public final class Snapshot {
         public boolean isYou;
         public boolean active;          // whose turn it is
         public boolean hasPriority;
+        /**
+         * The battlefield in rows, so each kind of permanent has its own band on the table.
+         * Ordered from the middle of the table outwards: creatures, then other permanents,
+         * then lands nearest their owner.
+         */
+        public final List<CardV> creatures = new ArrayList<>();
+        public final List<CardV> others = new ArrayList<>();
         public final List<CardV> lands = new ArrayList<>();
-        public final List<CardV> nonlands = new ArrayList<>();
     }
 
     public final List<SeatV> seats = new ArrayList<>();

@@ -64,6 +64,9 @@ public final class Table3D extends ApplicationAdapter {
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel;
     private Model faceModel, attackModel, backModel, zoneModel;
+    private Model bandCreature, bandOther, bandLand, monitorModel;
+    /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
+    private static final float BAND_UNIT = 1f;
     private ModelInstance tableInst;
     private final List<ModelInstance> seatPads = new ArrayList<>();
     /** Scenery with no card behind it: zone pads and other players' face-down hands. */
@@ -153,6 +156,16 @@ public final class Table3D extends ApplicationAdapter {
         attackModel = builder.createBox(CARD_W * 1.18f, 0.02f, CARD_H * 1.12f,
             new Material(ColorAttribute.createDiffuse(new Color(0.85f, 0.25f, 0.18f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
+        // Band slabs, one unit wide so placeBand can scale them to the row's length. The colours
+        // are only just off the table: enough to group, not enough to compete with the cards.
+        bandCreature = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.13f, 0.27f, 0.33f, 1f))), attrs);
+        bandOther = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.17f, 0.24f, 0.36f, 1f))), attrs);
+        bandLand = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.12f, 0.29f, 0.26f, 1f))), attrs);
+        monitorModel = builder.createBox(2.1f, 0.07f, 1.25f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.13f, 0.20f, 1f))), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
 
@@ -335,13 +348,39 @@ public final class Table3D extends ApplicationAdapter {
             pad.transform.setToTranslation(c.x, -0.01f, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
             seatPads.add(pad);
 
-            // Two rows per seat: nonlands nearer the middle of the table, lands behind them.
-            placeRow(seat, seat.nonlands, angle, SEAT_DIST - 1.0f);
-            placeRow(seat, seat.lands, angle, SEAT_DIST + 1.1f);
+            // Three bands per seat, running from the middle of the table outwards: creatures,
+            // then other permanents (artifacts, enchantments, planeswalkers), then lands nearest
+            // their owner. Each band gets a faint slab so the grouping reads without labelling it.
+            placeBand(seat.creatures, angle, ROW_CREATURES, bandCreature);
+            placeBand(seat.others, angle, ROW_OTHERS, bandOther);
+            placeBand(seat.lands, angle, ROW_LANDS, bandLand);
+            placeRow(seat, seat.creatures, angle, ROW_CREATURES);
+            placeRow(seat, seat.others, angle, ROW_OTHERS);
+            placeRow(seat, seat.lands, angle, ROW_LANDS);
         }
         placeHand();
         placeOpponentHands();
         placeZones();
+        placeMonitors();
+    }
+
+    /**
+     * Four small screens in the middle of the table, one per player, each tilted up and turned to
+     * face its own seat - the arrangement a physical life-tracker app uses, rather than one shared
+     * scoreboard that only reads correctly from one side. Everything on them is public knowledge,
+     * so there is nothing here that any seat should not see.
+     */
+    private void placeMonitors() {
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            float angle = seatAngle(i, n);
+            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
+            ModelInstance inst = new ModelInstance(monitorModel);
+            inst.transform.setToTranslation(w.x, 0.42f, w.z)
+                .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
+                .rotate(Vector3.X, 34f);
+            props.add(inst);
+        }
     }
 
     /**
@@ -408,7 +447,7 @@ public final class Table3D extends ApplicationAdapter {
             int shown = Math.min(seat.handSize, 12);     // a big hand stops growing the fan
             if (shown <= 0) continue;
             float angle = seatAngle(i, n);
-            float step = CARD_W * 0.42f;
+            float step = CARD_W * 0.62f;      // a clear gap between backs, so they count at a glance
             float width = shown * step;
             for (int j = 0; j < shown; j++) {
                 float along = -width / 2f + j * step + step / 2f;
@@ -420,6 +459,28 @@ public final class Table3D extends ApplicationAdapter {
                 props.add(inst);
             }
         }
+    }
+
+    /** How far each band sits from the middle of the table. */
+    /** How far each player's little screen sits from the middle of the table. */
+    private static final float MONITOR_DIST = 2.0f;
+    private static final float ROW_CREATURES = SEAT_DIST - 2.1f;
+    private static final float ROW_OTHERS    = SEAT_DIST - 0.5f;
+    private static final float ROW_LANDS     = SEAT_DIST + 1.3f;
+
+    /**
+     * The faint slab under a band of permanents. Only drawn when the band has something in it, so
+     * an empty board stays clean rather than showing three empty trays.
+     */
+    private void placeBand(List<Snapshot.CardV> cards, float angle, float dist, Model band) {
+        if (cards.isEmpty()) return;
+        float width = cards.size() * (CARD_W + GAP) - GAP + 0.5f;
+        Vector3 w = rotateY(0f, dist, angle);
+        ModelInstance inst = new ModelInstance(band);
+        inst.transform.setToTranslation(w.x, -0.005f, w.z)
+            .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
+            .scale(width / BAND_UNIT, 1f, 1f);
+        props.add(inst);
     }
 
     /** Library, graveyard and exile, as pads beside each seat's rows. Counts are drawn over them. */
@@ -564,28 +625,35 @@ public final class Table3D extends ApplicationAdapter {
      * everyone's view of it is the same.
      */
     private void drawCentreTracker() {
-        if (snap.seats.isEmpty()) return;
-        Vector3 p = cam.project(new Vector3(0f, 0.2f, 0f));
-        if (p.z > 1f) return;
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            float angle = seatAngle(i, n);
+            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
+            Vector3 p = cam.project(new Vector3(w.x, 0.62f, w.z));
+            if (p.z > 1f) continue;                       // behind the camera
 
-        float lineH = 15f;
-        int lines = 0;
-        for (Snapshot.SeatV s : snap.seats) lines += 1 + Math.min(s.commanderDamage.size(), 3);
-        float y = p.y + (lines * lineH) / 2f;
+            // The number is drawn in screen space rather than onto the panel, so every seat's
+            // total stays readable from wherever the camera happens to be.
+            if (s.active) fontBig.setColor(1f, 0.85f, 0.35f, 1f);
+            else if (s.isYou) fontBig.setColor(0.65f, 0.95f, 1f, 1f);
+            else fontBig.setColor(0.80f, 0.88f, 0.95f, 1f);
+            fontBig.draw(ui, String.valueOf(s.life), p.x - 16, p.y + 14);
 
-        for (Snapshot.SeatV s : snap.seats) {
-            if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
-            else if (s.isYou) font.setColor(0.65f, 0.95f, 1f, 1f);
-            else font.setColor(0.74f, 0.82f, 0.90f, 1f);
-            String head = s.name + "   " + s.life + (s.poison > 0 ? "   poison " + s.poison : "");
-            font.draw(ui, head, p.x - 70, y);
-            y -= lineH;
-            font.setColor(0.52f, 0.64f, 0.74f, 1f);
+            font.setColor(0.52f, 0.66f, 0.78f, 1f);
+            font.draw(ui, s.name, p.x - 16, p.y + 30);
+            float y = p.y - 6;
+            if (s.poison > 0) {
+                font.setColor(0.60f, 0.85f, 0.45f, 1f);
+                font.draw(ui, "poison " + s.poison, p.x - 16, y);
+                y -= 13f;
+            }
+            font.setColor(0.70f, 0.52f, 0.46f, 1f);
             int shown = 0;
             for (Snapshot.CmdDmg d : s.commanderDamage) {
-                if (shown++ >= 3) break;
-                font.draw(ui, "  " + d.amount + " from " + shortName(d.from), p.x - 70, y);
-                y -= lineH;
+                if (shown++ >= 2) break;                  // two is enough to see a threat building
+                font.draw(ui, d.amount + " " + shortName(d.from), p.x - 16, y);
+                y -= 13f;
             }
         }
     }
@@ -678,6 +746,10 @@ public final class Table3D extends ApplicationAdapter {
         attackModel.dispose();
         backModel.dispose();
         zoneModel.dispose();
+        bandCreature.dispose();
+        bandOther.dispose();
+        bandLand.dispose();
+        monitorModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();
