@@ -4,7 +4,10 @@ import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -27,12 +30,22 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 public final class CardArt {
 
     private static final int TEXTURES_PER_FRAME = 2;
-    /** Enough for several full boards; past this we stop loading rather than exhaust video memory. */
+    /** Enough for several full boards. Past this, the least recently drawn are let go. */
     private static final int MAX_TEXTURES = 400;
+    /**
+     * A texture is only evicted once it has not been asked for in this many frames. The renderer
+     * rebuilds its card list every frame and fetches every visible texture, so "not asked for
+     * recently" means "not on screen"; the grace period covers a card that is briefly hidden
+     * behind the search panel or off the edge of an overhead sweep.
+     */
+    private static final long EVICT_AFTER_FRAMES = 600;      // about ten seconds at 60fps
 
     private final File root;
     private final Map<String, File> index = new ConcurrentHashMap<>();
     private final Map<String, Texture> ready = new HashMap<>();
+    /** Frame number each texture was last asked for, which is what drives eviction. */
+    private final Map<String, Long> lastUsed = new HashMap<>();
+    private long frame;
     private final Map<String, Boolean> requested = new ConcurrentHashMap<>();
     private final ConcurrentLinkedQueue<Loaded> decoded = new ConcurrentLinkedQueue<>();
     private volatile boolean indexed = false;
@@ -99,7 +112,7 @@ public final class CardArt {
         if (card == null || card.name == null || card.name.isEmpty() || !indexed) return null;
         String k = key(card.name);
         Texture t = ready.get(k);
-        if (t != null) return t;
+        if (t != null) { lastUsed.put(k, frame); return t; }
 
         File f = index.get(k);
         if (f == null) {
@@ -109,7 +122,7 @@ public final class CardArt {
             // one do not.
             String gk = FaceMaker.keyFor(card);
             Texture gen = ready.get(gk);
-            if (gen != null) return gen;
+            if (gen != null) { lastUsed.put(gk, frame); return gen; }
             queue(gk, () -> FaceMaker.make(card));
             return null;
         }
@@ -135,9 +148,20 @@ public final class CardArt {
 
     /** Call once a frame on the render thread: turns decoded images into textures, a few at a time. */
     public void update() {
+        frame++;
+        evict();
         for (int i = 0; i < TEXTURES_PER_FRAME; i++) {
             Loaded l = decoded.poll();
             if (l == null) return;
+            // The cap has to be enforced HERE as well as at queue time. A burst of requests is
+            // queued while `ready` is still small - a fresh board asks for everything at once -
+            // so checking only on the way in let the count sail past the cap as they completed.
+            if (ready.size() >= MAX_TEXTURES) evict();
+            if (ready.size() >= MAX_TEXTURES) {
+                l.pixmap.dispose();
+                requested.remove(l.key);      // so it can be asked for again when there is room
+                continue;
+            }
             try {
                 Texture tex = new Texture(l.pixmap, true);
                 tex.setFilter(Texture.TextureFilter.MipMapLinearLinear, Texture.TextureFilter.Linear);
@@ -152,10 +176,37 @@ public final class CardArt {
                     // unsupported: the card is just softer at a distance
                 }
                 ready.put(l.key, tex);
+                lastUsed.put(l.key, frame);
             } catch (Throwable e) {
                 // skip this one
             } finally {
                 l.pixmap.dispose();
+            }
+        }
+    }
+
+    /**
+     * Drops the textures nobody has looked at for a while, oldest first, once we are near the cap.
+     * Runs on the render thread because disposing a Texture is a GL call. A dropped card simply
+     * reloads the next time it is drawn - the file or the generated face is still available - so
+     * the cost of being wrong here is a brief blank card, not a broken one.
+     */
+    private void evict() {
+        if (ready.size() < MAX_TEXTURES * 9 / 10) return;
+        List<Map.Entry<String, Long>> old = new ArrayList<>();
+        for (Map.Entry<String, Long> e : lastUsed.entrySet()) {
+            if (frame - e.getValue() > EVICT_AFTER_FRAMES) old.add(e);
+        }
+        if (old.isEmpty()) return;
+        old.sort(Comparator.comparingLong(Map.Entry::getValue));
+        int target = Math.max(1, ready.size() - MAX_TEXTURES * 7 / 10);
+        for (int i = 0; i < Math.min(target, old.size()); i++) {
+            String k = old.get(i).getKey();
+            Texture tex = ready.remove(k);
+            lastUsed.remove(k);
+            requested.remove(k);          // let it load again if it comes back on screen
+            if (tex != null) {
+                try { tex.dispose(); } catch (Throwable ignored) { }
             }
         }
     }
@@ -169,6 +220,7 @@ public final class CardArt {
             try { t.dispose(); } catch (Throwable ignored) { }
         }
         ready.clear();
+        lastUsed.clear();
         for (Loaded l : decoded) {
             try { l.pixmap.dispose(); } catch (Throwable ignored) { }
         }

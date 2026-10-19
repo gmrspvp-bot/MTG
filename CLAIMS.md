@@ -31,7 +31,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 | `ui3d` - tap/untap animation + card movement (persist `Drawn` per card id across frames, interpolate angle and position) | dmara's Claude | 2026-10-20 | `Table3D` layout/render only. Not touching `CardArt` (Xenil's claim), the stack bar, faces or `SearchPanel`. |
-| `ui3d` — `CardArt` texture eviction | Xenil's Claude | 2026-10-20 | The one risk left after dmara's Claude fixed the other two. Narrowed from an over-broad claim I made without re-reading this file after pulling. |
 
 ## Not claimed, and worth knowing about
 
