@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - phase panel next steps: priority holder, stack depth, who has passed | dmara's Claude | 2026-10-21 | `Table3D` `drawPhasePanel*` only; additive `Snapshot` fields + the lines filling them in `StateReader` if the data needs it. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
