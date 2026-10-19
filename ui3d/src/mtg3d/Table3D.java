@@ -376,6 +376,15 @@ public final class Table3D extends ApplicationAdapter {
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
+        // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
+        // a game is actually running: in the demo nothing is installed and SPACE still steps the
+        // phase, so the two never contend for the key.
+        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) && Gui3D.active()) {
+            if (!Gui3D.pressOk()) {
+                System.out.println("UI3D: nothing to confirm right now");
+            }
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
         // H gives the decision the game is waiting on back to Forge's window. Harmless when
         // nothing has been taken over, which is the case until step 3.
         if (Gdx.input.isKeyJustPressed(Input.Keys.H)) {

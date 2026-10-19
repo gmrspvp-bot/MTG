@@ -102,10 +102,12 @@ public class Ui3dGuiProxyTest {
 
     /** Builds the wrapper the same way Gui3D.install does, without needing a running game. */
     private static IGuiGame wrap(IGuiGame real) throws Exception {
+        // Null controller: this probe tests forwarding, not the guarded-click path, which needs a
+        // real PlayerControllerHuman and therefore a real game.
         java.lang.reflect.Constructor<?> ctor = Class.forName("mtg3d.Gui3D")
-            .getDeclaredConstructor(IGuiGame.class);
+            .getDeclaredConstructor(IGuiGame.class, forge.player.PlayerControllerHuman.class);
         ctor.setAccessible(true);
-        InvocationHandler h = (InvocationHandler) ctor.newInstance(real);
+        InvocationHandler h = (InvocationHandler) ctor.newInstance(real, null);
         return (IGuiGame) Proxy.newProxyInstance(
             Ui3dGuiProxyTest.class.getClassLoader(), new Class<?>[] { IGuiGame.class }, h);
     }

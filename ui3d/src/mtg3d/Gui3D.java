@@ -45,10 +45,15 @@ public final class Gui3D implements InvocationHandler {
     private static final Set<String> TAKEN_OVER = new LinkedHashSet<>();
 
     private final IGuiGame original;
+    private final forge.player.PlayerControllerHuman pch;
 
-    private Gui3D(IGuiGame original) {
+    private Gui3D(IGuiGame original, forge.player.PlayerControllerHuman pch) {
         this.original = original;
+        this.pch = pch;
     }
+
+    /** The local human's controller, for sending guarded clicks back. Null until installed. */
+    private static volatile forge.player.PlayerControllerHuman controller;
 
     /** What the engine last asked of us, mirrored for the 3D window. */
     public static final class Prompt {
@@ -58,6 +63,12 @@ public final class Gui3D implements InvocationHandler {
         public volatile boolean okEnabled, cancelEnabled, allowEnter;
         /** Card ids Forge says may be clicked right now; empty when nothing is selectable. */
         public volatile List<Integer> selectable = new ArrayList<>();
+        /**
+         * The decision this prompt belongs to, captured when the prompt was drawn. A click from
+         * the 3D window carries it, and ClickGuard drops the click if the game has moved on - the
+         * race the probe proved is real.
+         */
+        public volatile Object token;
     }
 
     public static final Prompt PROMPT = new Prompt();
@@ -84,8 +95,10 @@ public final class Gui3D implements InvocationHandler {
                 IGuiGame wrapped = (IGuiGame) Proxy.newProxyInstance(
                     Gui3D.class.getClassLoader(),
                     new Class<?>[] { IGuiGame.class },
-                    new Gui3D(current));
+                    new Gui3D(current, pch));
                 pch.setGui(wrapped);
+                controller = pch;
+                ClickGuard.watch(pch);
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
                 return true;
@@ -123,11 +136,51 @@ public final class Gui3D implements InvocationHandler {
         } catch (Throwable ignored) {
             // the mirror is cosmetic
         }
+        // Forge's own window is given a debounced controller rather than the real one. Its
+        // clicks carry no token, so the probe's other ordering - 3D key first, then Forge's OK -
+        // can only be closed on the way in. Everything that is not a click passes straight
+        // through (see ClickGuard.forgeWindow).
+        if ("setGameController".equals(method.getName()) && args != null && args.length == 2
+                && args[1] != null && pch != null) {
+            try {
+                args = new Object[] { args[0], ClickGuard.forgeWindow(pch) };
+            } catch (Throwable ignored) {
+                // leave the original controller in place rather than break the game
+            }
+        }
         try {
             return method.invoke(original, args);
         } catch (InvocationTargetException e) {
             throw e.getCause();          // let the engine see the real exception, not the wrapper's
         }
+    }
+
+    /**
+     * Pass priority / confirm, sent from the 3D window.
+     *
+     * Carries the token captured when the prompt was drawn, so if the game has moved on to the
+     * next decision in the meantime the click is dropped rather than silently answering something
+     * the player never saw. Returns false when there is nothing to confirm, so the caller can
+     * leave the key doing nothing instead of guessing.
+     */
+    public static boolean pressOk() {
+        forge.player.PlayerControllerHuman c = controller;
+        if (c == null || !PROMPT.okEnabled || PROMPT.token == null) return false;
+        ClickGuard.ok(c, PROMPT.token);
+        return true;
+    }
+
+    /** Cancel, with the same guard. */
+    public static boolean pressCancel() {
+        forge.player.PlayerControllerHuman c = controller;
+        if (c == null || !PROMPT.cancelEnabled || PROMPT.token == null) return false;
+        ClickGuard.cancel(c, PROMPT.token);
+        return true;
+    }
+
+    /** True once a game is running with the wrapper installed. */
+    public static boolean active() {
+        return controller != null;
     }
 
     /** Copies prompt, buttons and selectables into PROMPT for the 3D window to draw. */
@@ -137,6 +190,7 @@ public final class Gui3D implements InvocationHandler {
                 if (args != null && args.length >= 2 && args[1] instanceof String) {
                     PROMPT.message = (String) args[1];
                 }
+                PROMPT.token = ClickGuard.token(pch);
                 break;
             case "updateButtons":
                 // (PlayerView, String okLabel, String cancelLabel, boolean ok, boolean cancel, boolean focus)
@@ -152,6 +206,7 @@ public final class Gui3D implements InvocationHandler {
                     PROMPT.cancelEnabled = Boolean.TRUE.equals(args[2]);
                     PROMPT.allowEnter = Boolean.TRUE.equals(args[3]);
                 }
+                PROMPT.token = ClickGuard.token(pch);
                 break;
             case "setSelectables": {
                 List<Integer> ids = new ArrayList<>();

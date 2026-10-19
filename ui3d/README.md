@@ -40,6 +40,8 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `ENTER` | **Demo only** - skip to the next player's turn |
 | `BACKSPACE` | **Demo only** - step back a phase |
 | middle-drag | Grab the table and move it; `DOWN` recentres |
+| `SPACE` | **In a game** - pass priority / confirm (guarded) |
+| `X` | **In a game** - cancel (guarded) |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
@@ -382,8 +384,12 @@ The proposal above is **accepted**. Work it in this order. Claim each step in `C
          `H` hands the current decision back on demand. Exactly one answer ever counts, so a
          reply arriving after a handoff is dropped rather than landing on the next decision.
          `scratch/probe/Ui3dHandoffTest.java` covers all five cases. PASS.
-3. **Pass priority from the 3D window.** SPACE calls `selectButtonOk()` when the prompt's OK means
-   pass; then click-a-card through `selectCard`. This is the first step that actually plays.
+3. [x] **Pass priority from the 3D window - done 2026-10-21.** `SPACE` sends a guarded OK, `X` a
+   guarded cancel, both carrying the `ClickGuard` token captured when the prompt was drawn, so a
+   click is dropped if the game has moved on. `Gui3D` also hands Forge's own window a debounced
+   controller (`ClickGuard.forgeWindow`) - without that only one ordering of the race was
+   closed. In the demo nothing is installed, so `SPACE` still steps the phase and the two never
+   contend for the key. **Not yet played in a real game.**
 4. **`many` / `one` / `oneOrNone` through `SearchPanel`**, which is already built and waiting.
 
 A note on the reflection proxy: it adapts automatically when Forge changes a method, which is the

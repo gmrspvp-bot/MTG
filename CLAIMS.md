@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - step 3: pass priority from the 3D window | Xenil's Claude | 2026-10-21 | `Gui3D` (keep the controller, capture the ClickGuard token, guard Forge's own window via `ClickGuard.forgeWindow`), `Snapshot` prompt token field, `Table3D` SPACE handler. Not `ClickGuard`/`Handoff` themselves. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
