@@ -32,13 +32,44 @@ public final class StateReader {
             // Who is attacking, so the table can mark them. Taken from the live Combat rather than
             // from each card, because a card only knows it is attacking while combat exists.
             java.util.Set<Integer> attackers = new java.util.HashSet<>();
+            java.util.Set<Integer> blockers = new java.util.HashSet<>();
+            java.util.List<Player> order = new java.util.ArrayList<>();
+            for (Player p : game.getRegisteredPlayers()) order.add(p);
             try {
                 forge.game.combat.Combat combat = game.getCombat();
                 if (combat != null) {
-                    for (Card a : combat.getAttackersAndDefenders().keySet()) attackers.add(a.getId());
+                    for (java.util.Map.Entry<Card, forge.game.GameEntity> e
+                            : combat.getAttackersAndDefenders().entrySet()) {
+                        Card a = e.getKey();
+                        attackers.add(a.getId());
+
+                        Snapshot.CombatArc arc = new Snapshot.CombatArc();
+                        arc.attackerId = a.getId();
+                        arc.attackerName = a.getName();
+                        forge.game.GameEntity def = e.getValue();
+                        // The far end of an attack is either a seat or a permanent. A planeswalker
+                        // or a battle is a Card, not a Player, so both cases have to be carried;
+                        // a flag on the attacking card could not express the difference.
+                        if (def instanceof Player) {
+                            arc.defenderSeat = order.indexOf((Player) def);
+                            arc.defenderName = ((Player) def).getName();
+                        } else if (def instanceof Card) {
+                            Card dc = (Card) def;
+                            arc.defenderCardId = dc.getId();
+                            arc.defenderName = dc.getName();
+                            if (dc.getController() != null) {
+                                arc.defenderSeat = order.indexOf(dc.getController());
+                            }
+                        }
+                        for (Card b : combat.getBlockers(a)) {
+                            arc.blockedBy.add(b.getId());
+                            blockers.add(b.getId());
+                        }
+                        s.combatArcs.add(arc);
+                    }
                 }
             } catch (Throwable t) {
-                // no markers, rest of the view is unaffected
+                // no arcs; the rest of the view is unaffected
             }
 
             Player you = guiPlayer(game);
@@ -66,6 +97,7 @@ public final class StateReader {
                 for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(c);
                     v.attacking = attackers.contains(v.id);
+                    v.blocking = blockers.contains(v.id);
                     // A card can be several things at once (an artifact creature, a land that is
                     // also a creature). It goes in the most specific row that applies.
                     if (v.creature) seat.creatures.add(v);

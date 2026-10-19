@@ -73,6 +73,28 @@ public final class Snapshot {
         public CmdDmg(String from, int amount) { this.from = from; this.amount = amount; }
     }
 
+    /**
+     * One attack: who is swinging, at whom, and what is in the way.
+     *
+     * Kept as its own list rather than as fields scattered over the attacking cards, because this
+     * is the shape a renderer wants - an arc has two ends, and the far end may be a player's seat
+     * or a permanent (a planeswalker or a battle), which a flag on the attacker cannot express.
+     */
+    public static final class CombatArc {
+        public int attackerId;
+        public String attackerName = "";
+        /** Seat index being attacked, or -1 when the target is a permanent. */
+        public int defenderSeat = -1;
+        /** Card id being attacked (planeswalker, battle), or -1 when the target is a player. */
+        public int defenderCardId = -1;
+        public String defenderName = "";
+        /** Card ids blocking this attacker. Empty means it is getting through. */
+        public final List<Integer> blockedBy = new ArrayList<>();
+    }
+
+    /** Every attack this combat, empty outside combat. */
+    public final List<CombatArc> combatArcs = new ArrayList<>();
+
     /** One player's seat: their totals and what is on their battlefield. */
     public static final class SeatV {
         public String name = "";

@@ -222,7 +222,9 @@ before you start, and push the claim before writing code.
       generated faces already, but a cached picture has no room for them)
 - [x] Tokens marked on their generated face (they have no printing and never will)
 - [ ] The commander, shown in a command zone rather than only when on the battlefield.
-- [ ] Arcs from each attacker to the player or planeswalker it is attacking.
+- [ ] Arcs from each attacker to what it is attacking. **The data is in** —
+      `Snapshot.combatArcs` carries attacker, defending seat, defending permanent and
+      blockers. Only the drawing is left.
 - [ ] Highlight whose priority it is — the snapshot already carries `hasPriority` and nothing uses it.
 - [ ] Phase shown on the table itself, not only in the corner text.
 - [ ] Hover panel should show the card picture at full size, not just wrapped text.
