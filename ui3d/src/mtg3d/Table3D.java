@@ -221,6 +221,9 @@ public final class Table3D extends ApplicationAdapter {
         commandPadModel = builder.createBox(CARD_W + 0.24f, 0.02f, CARD_H + 0.24f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.21f, 0.10f, 1f))), attrs);
         createScoreboard(attrs);
+        // -Dforge.ui3d.sound=false starts muted (M toggles either way).
+        cues = new Cues();
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.sound"))) cues.toggleMute();
         // A seat whose player is out: the same pad, gone a dull dark red.
         seatLostModel = builder.createBox(7.6f, 0.06f, 3.4f,
             new Material(ColorAttribute.createDiffuse(new Color(0.16f, 0.07f, 0.08f, 1f))), attrs);
@@ -271,6 +274,7 @@ public final class Table3D extends ApplicationAdapter {
     public void render() {
         Snapshot s = source.get();
         if (s != null) snap = s;
+        if (cues != null) cues.update(snap);
         if (art != null) art.update();   // GL objects may only be made on this thread
 
         handleInput();
@@ -365,6 +369,7 @@ public final class Table3D extends ApplicationAdapter {
         if (search != null && search.isOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.M) && cues != null) cues.toggleMute();
         if (Gdx.input.isKeyJustPressed(Input.Keys.TAB)) {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
@@ -888,6 +893,8 @@ public final class Table3D extends ApplicationAdapter {
     private com.badlogic.gdx.graphics.glutils.FrameBuffer sbBuffer;
     private Model sbFaceModel, sbBodyModel;
     private BitmapFont sbFont;
+    /** Sound cues for the moments that need you (see Cues). */
+    private Cues cues;
     private String sbKey = "";
 
     private void createScoreboard(int attrs) {
@@ -1213,7 +1220,8 @@ public final class Table3D extends ApplicationAdapter {
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
         font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
-            + "      right-drag  orbit      wheel  zoom", 14, 18);
+            + "      right-drag  orbit      wheel  zoom      M  sound "
+            + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.
         if (art != null) {
@@ -1762,6 +1770,7 @@ public final class Table3D extends ApplicationAdapter {
         backModel.dispose();
         zoneModel.dispose();
         commandPadModel.dispose();
+        if (cues != null) cues.dispose();
         seatLostModel.dispose();
         if (sbBuffer != null) sbBuffer.dispose();
         if (sbFaceModel != null) sbFaceModel.dispose();

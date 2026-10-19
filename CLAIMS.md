@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - sound cues (your turn, opponent spell you can answer, you are attacked, game over), M to mute | dmara's Claude | 2026-10-20 | New file `Cues.java` (synthesised tones, no assets). `Table3D`: one call per frame, dispose, and an M key in `handleInput`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
