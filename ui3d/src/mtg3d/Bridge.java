@@ -29,6 +29,9 @@ public final class Bridge {
             current = game;
             latest = StateReader.read(game);
             game.subscribeToEvents(new Listener(game));
+            // Step 1 of the input plan: wrap the local human's GUI so the 3D window can see
+            // what the engine is asking. Forwards everything, so Forge is unaffected.
+            Gui3D.install(game);
             start();
         } catch (Throwable t) {
             System.out.println("UI3D: could not attach (" + t + ")");

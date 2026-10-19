@@ -106,6 +106,17 @@ public final class StateReader {
             }
 
             readStack(gv, viewer, order, s);
+
+            // What the engine is asking, as the input wrapper saw it on its way to Forge's
+            // window. Read here rather than pushed from Gui3D, so the renderer still receives
+            // everything in one finished snapshot instead of some of it arriving out of band.
+            Gui3D.Prompt p = Gui3D.PROMPT;
+            s.promptText = p.message;
+            s.okLabel = p.okLabel;
+            s.cancelLabel = p.cancelLabel;
+            s.okEnabled = p.okEnabled;
+            s.cancelEnabled = p.cancelEnabled;
+            s.selectableIds.addAll(p.selectable);
             readPassed(game, s);
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.

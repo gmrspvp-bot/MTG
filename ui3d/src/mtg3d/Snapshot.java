@@ -162,6 +162,21 @@ public final class Snapshot {
      * step it is on and comparing prettified text would break the moment the wording changed.
      */
     public String phaseKey = "";
+
+    /**
+     * What the engine is currently asking of us, mirrored by Gui3D on its way to Forge's window.
+     *
+     * Carried here so the 3D view can show the same prompt without asking Forge's UI anything,
+     * and so a later step can answer from this window. Empty while the input wrapper is off
+     * (-Dforge.ui3d.input=false) or in an all-AI game.
+     */
+    public String promptText = "";
+    public String okLabel = "OK";
+    public String cancelLabel = "Cancel";
+    public boolean okEnabled;
+    public boolean cancelEnabled;
+    /** Card ids Forge says may be clicked right now. */
+    public final List<Integer> selectableIds = new ArrayList<>();
     public String turnLabel = "";
     /** Drives the camera: combat or targeting lifts the view to look down on the whole table. */
     public boolean combat;

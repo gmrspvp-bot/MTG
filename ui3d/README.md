@@ -348,10 +348,13 @@ then it would leave every unimplemented decision with nothing to answer it.
 
 The proposal above is **accepted**. Work it in this order. Claim each step in `CLAIMS.md` first.
 
-1. **`Gui3D` forwarding everything.** Reflection `Proxy` over `IGuiGame`, installed by
-   `Bridge.attach` via `pch.setGui(...)`, plus prompt / buttons / selectables copied into the
-   `Snapshot`. **No behaviour change.** This exists to prove the wrapping is safe in a real game
-   before anything depends on it. Off switch `-Dforge.ui3d.input=false` must work from this step.
+1. [x] **`Gui3D` forwarding everything - done 2026-10-21.** Reflection `Proxy` over `IGuiGame`,
+   installed by `Bridge.attach` through `pch.setGui(...)`; prompt, button labels and selectable
+   card ids are mirrored on the way past and read into the `Snapshot`. No behaviour change, and
+   nothing is taken over yet (`Gui3D.TAKEN_OVER` is empty, by design).
+   `scratch/probe/Ui3dGuiProxyTest.java`: all **105** interface methods forward, every call reaches
+   the real UI, an exception from it arrives as itself rather than wrapped, and the prompt
+   mirrors correctly. PASS. Off switch `-Dforge.ui3d.input=false` works.
 2. **Two safeguards, before any choice method is taken over.** These were the owner's conditions:
    - [ ] **Probe the double-click race.** The proposal argues that a stray second click is the
          same as clicking Forge's OK twice, which Forge tolerates. That is a race between two
