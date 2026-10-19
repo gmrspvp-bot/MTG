@@ -13,6 +13,7 @@
 //   forge.ai.ComputerUtil.choosePermanentsToSacrifice           -> SacrificeHook (tokens before real cards, commander last)
 //   forge.gamemodes.match.input.InputPassPriority.onOk          -> ConfirmPassHook (desktop: "Pass anyway?", counterspell reminder)
 //   forge.gamemodes.match.input.InputAttack.onOk                -> AttackConfirmHook (desktop: "Skip combat anyway?")
+//   forge.game.phase.PhaseHandler.onPhaseBegin                  -> CombatGuardHook (no crash if a rollback left no Combat)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -39,6 +40,7 @@ public class EvalCacheAgent {
          "SacrificeHook", "static"},
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
+        {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {
