@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - each player's floating mana pool at their seat | dmara's Claude | 2026-10-21 | Additive `SeatV.mana` in `Snapshot`, its read in `StateReader`; `TableHud.drawSeatInfo`; `Demo` sample. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
