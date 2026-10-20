@@ -431,6 +431,8 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 - [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode, no pick) - needs only a
       click target on the existing pads.
 - [ ] Show what a spell on the stack is targeting; `Snapshot` carries target ids already.
+- [x] Draw what Forge is asking - prompt bar above the hand, with clickable OK/Cancel
+      carrying their real labels and enabled state (done 2026-10-21).
 - [ ] Show *why* a card cannot be played, when Forge refuses a click.
 - [ ] A visible log of recent events, so a missed trigger can be read back.
 

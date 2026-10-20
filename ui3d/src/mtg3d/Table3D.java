@@ -429,6 +429,17 @@ public final class Table3D extends ApplicationAdapter {
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
+        // The prompt bar's buttons take the click before the board does, or pressing OK would
+        // also try to play whatever card happens to be behind it.
+        if (Gui3D.active() && Gui3D.pendingAsk() == null) {
+            float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+            if (inRect(okBtn, mx, my) || inRect(cancelBtn, mx, my)) {
+                if (clickedCard()) {
+                    if (inRect(okBtn, mx, my)) Gui3D.pressOk(); else Gui3D.pressCancel();
+                }
+                return;
+            }
+        }
         if (clickedCard() && Gui3D.active()) {
             if (hovered != null) {
                 if (!Gui3D.clickCard(hovered.card.id)) {
@@ -1380,6 +1391,7 @@ public final class Table3D extends ApplicationAdapter {
         }
         drawPhasePanel(w, h);
         bug.drawCogText(ui, font, w, h);
+        drawPromptBar(w, h);
         drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {
             // Just the name. It used to read "click to choose X", which implied a choice was
@@ -1579,6 +1591,68 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, c.controller, p.x - 30, p.y);
             if (top) font.draw(ui, "resolving next", p.x - 30, p.y - 13);
         }
+    }
+
+    /** Screen rects of the prompt bar's two buttons, so drawing and hit-testing cannot drift. */
+    private final float[] okBtn = { 0f, 0f, 0f, 0f }, cancelBtn = { 0f, 0f, 0f, 0f };
+
+    /**
+     * What Forge is asking, drawn where you are already looking.
+     *
+     * All of this - the question, the button labels, whether each is enabled - has been in the
+     * Snapshot since the wrapper went in, and nothing drew it. That is why clicking a seat felt
+     * like nothing happened and the mulligan appeared only in Forge's window: the 3D side knew
+     * both and said nothing. Sits above the hand, where the eye already is.
+     */
+    private void drawPromptBar(int w, int h) {
+        okBtn[2] = cancelBtn[2] = 0f;                      // nothing clickable unless drawn
+        // Drawn whenever the snapshot carries a prompt, so the demo can exercise it too;
+        // only the buttons need a live game behind them.
+        if (Gui3D.pendingAsk() != null) return;
+        String msg = snap.promptText == null ? "" : snap.promptText.trim();
+        if (msg.isEmpty()) return;
+
+        float bw = Math.min(w - 80f, 900f), bh = 62f, x = (w - bw) / 2f, y = 96f;
+        boolean waiting = snap.okEnabled || snap.cancelEnabled;
+
+        ui.end();
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        com.badlogic.gdx.math.Matrix4 flat = new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.02f, 0.08f, 0.13f, 0.93f);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(waiting ? 0.95f : 0.18f, waiting ? 0.72f : 0.56f, waiting ? 0.24f : 0.71f, 1f);
+        shapes.rect(x, y + bh - 3f, bw, 3f);
+
+        float bx = x + bw - 230f;
+        if (snap.okEnabled) {
+            okBtn[0] = bx; okBtn[1] = y + 14f; okBtn[2] = 100f; okBtn[3] = 34f;
+            shapes.setColor(0.16f, 0.46f, 0.30f, 1f);
+            shapes.rect(okBtn[0], okBtn[1], okBtn[2], okBtn[3]);
+        }
+        if (snap.cancelEnabled) {
+            cancelBtn[0] = bx + 112f; cancelBtn[1] = y + 14f; cancelBtn[2] = 100f; cancelBtn[3] = 34f;
+            shapes.setColor(0.40f, 0.18f, 0.16f, 1f);
+            shapes.rect(cancelBtn[0], cancelBtn[1], cancelBtn[2], cancelBtn[3]);
+        }
+        shapes.end();
+        ui.begin();
+
+        font.setColor(waiting ? new Color(1f, 0.92f, 0.70f, 1f) : new Color(0.68f, 0.80f, 0.90f, 1f));
+        font.draw(ui, msg, x + 18f, y + bh - 18f, bw - 260f, -1, true);
+        if (snap.okEnabled) {
+            font.setColor(0.80f, 1f, 0.84f, 1f);
+            font.draw(ui, snap.okLabel + "  (SPACE)", okBtn[0] + 10f, okBtn[1] + 22f);
+        }
+        if (snap.cancelEnabled) {
+            font.setColor(1f, 0.82f, 0.78f, 1f);
+            font.draw(ui, snap.cancelLabel + "  (X)", cancelBtn[0] + 10f, cancelBtn[1] + 22f);
+        }
+    }
+
+    private static boolean inRect(float[] r, float mx, float my) {
+        return r[2] > 0f && mx >= r[0] && mx <= r[0] + r[2] && my >= r[1] && my <= r[1] + r[3];
     }
 
     /**
