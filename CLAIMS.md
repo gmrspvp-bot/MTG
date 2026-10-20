@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - prompt staleness, and take over `reveal` | Xenil's Claude | 2026-10-21 | `Table3D` reads `Gui3D.PROMPT` live instead of the snapshot (the bar lagged a whole decision); `Gui3D` takes over `reveal` so Forge's card-list dialogs show in 3D. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
