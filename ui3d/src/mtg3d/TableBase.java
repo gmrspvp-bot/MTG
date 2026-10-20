@@ -128,7 +128,61 @@ abstract class TableBase extends ApplicationAdapter {
     }
 
     Targeting targeting;
-    Model targetModel, pickedModel;
+    Model targetModel, pickedModel, blockModel;
+
+    /**
+     * Declaring attackers or blockers by dragging (look only until wired to Forge's InputAttack /
+     * InputBlock). Attacking: drag one of `mine` onto an opponent (their monitor, pad or one of
+     * their cards). Blocking: drag one of `mine` onto one of `attackers`. Drop it back on itself,
+     * or anywhere else, to take the assignment off. SPACE confirms, ESC cancels.
+     */
+    static final class CombatPlan {
+        final boolean blocking;
+        final java.util.Set<Integer> mine = new java.util.HashSet<>();
+        final java.util.Set<Integer> attackers = new java.util.HashSet<>();
+        final java.util.Map<Integer, Integer> attackSeat = new java.util.LinkedHashMap<>();
+        final java.util.Map<Integer, Integer> blockOn = new java.util.LinkedHashMap<>();
+        int dragging = Integer.MIN_VALUE;
+        CombatPlan(boolean blocking) { this.blocking = blocking; }
+    }
+
+    CombatPlan combatPlan;
+
+    /** Where the mouse ray meets the table top (y = 0) as {x, z}, or null if it misses. */
+    float[] mouseOnTable() {
+        Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
+        if (Math.abs(ray.direction.y) < 1e-4f) return null;
+        float k = -ray.origin.y / ray.direction.y;
+        if (k <= 0f) return null;
+        return new float[] { ray.origin.x + ray.direction.x * k, ray.origin.z + ray.direction.z * k };
+    }
+
+    /** The seat whose side of the table (x, z) is on, by direction from the centre; -1 near the middle. */
+    int seatAt(float x, float z) {
+        int n = snap.seats.size();
+        if (n == 0 || x * x + z * z < 2.5f * 2.5f) return -1;
+        int best = -1;
+        float bestDot = -Float.MAX_VALUE;
+        for (int i = 0; i < n; i++) {
+            Vector3 d = rotateY(0f, 1f, seatAngle(i, n));
+            float dot = d.x * x + d.z * z;
+            if (dot > bestDot) { bestDot = dot; best = i; }
+        }
+        return best;
+    }
+
+    /**
+     * Paying a cost by choosing lands (look only until wired to Forge's InputPayMana): lands that
+     * can pay glow, a click taps one (gold), and the banner counts the cost down. ESC cancels.
+     */
+    static final class ManaPlan {
+        String cost = "";
+        int total;
+        final java.util.Set<Integer> usable = new java.util.HashSet<>();
+        final java.util.List<Integer> tapped = new ArrayList<>();
+    }
+
+    ManaPlan manaPlan;
     /** Shared, never mutated: the card picture at full brightness, and dimmed for a non-target. */
     static final ColorAttribute FACE_LIT = ColorAttribute.createDiffuse(Color.WHITE);
     static final ColorAttribute FACE_DIM = ColorAttribute.createDiffuse(new Color(0.38f, 0.38f, 0.42f, 1f));

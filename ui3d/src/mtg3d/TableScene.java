@@ -174,6 +174,7 @@ abstract class TableScene extends TableLayout {
      * gold arc to each target already picked. The "aiming" half of a spell, before Forge has it.
      */
     void drawAimArc() {
+        drawPlanArcs();
         if (targeting == null) return;
         Pose from = poses.get(targeting.sourceId);
         if (from == null) return;
@@ -196,11 +197,37 @@ abstract class TableScene extends TableLayout {
         ribbon(from.x, from.y + 0.1f, from.z, tx, ty, tz, 0.70f, 0.45f, 1f, 0.90f);
     }
 
+    /**
+     * Declaring attackers / blockers: an arc for every assignment made so far - red from attacker
+     * to the defending seat's pad, blue from blocker onto attacker - and a lighter one from the
+     * creature being dragged to the mouse, so the drop reads before it happens.
+     */
+    void drawPlanArcs() {
+        if (combatPlan == null) return;
+        int n = snap.seats.size();
+        for (java.util.Map.Entry<Integer, Integer> e : combatPlan.attackSeat.entrySet()) {
+            Pose p = poses.get(e.getKey());
+            if (p == null || e.getValue() >= n) continue;
+            Vector3 s = seatPos(seatAngle(e.getValue(), n), SEAT_DIST);
+            ribbon(p.x, p.z, s.x, s.z, 1.00f, 0.35f, 0.15f, 0.95f);
+        }
+        for (java.util.Map.Entry<Integer, Integer> e : combatPlan.blockOn.entrySet()) {
+            Pose b = poses.get(e.getKey()), a = poses.get(e.getValue());
+            if (b != null && a != null) ribbon(b.x, b.z, a.x, a.z, 0.35f, 0.70f, 1.00f, 0.95f);
+        }
+        Pose d = poses.get(combatPlan.dragging);
+        float[] m = mouseOnTable();
+        if (d != null && m != null) {
+            if (combatPlan.blocking) ribbon(d.x, d.z, m[0], m[1], 0.55f, 0.80f, 1.00f, 0.70f);
+            else ribbon(d.x, d.z, m[0], m[1], 1.00f, 0.55f, 0.35f, 0.70f);
+        }
+    }
+
     void drawCombatArcs() {
         if (arcs == null) return;
         boolean anyTargets = false;
         for (Snapshot.CardV c : snap.stack) if (!c.targetIds.isEmpty() || !c.targetSeats.isEmpty()) anyTargets = true;
-        if (snap.combatArcs.isEmpty() && !anyTargets && targeting == null) return;
+        if (snap.combatArcs.isEmpty() && !anyTargets && targeting == null && combatPlan == null) return;
         arcClock += frameDt;
         int n = snap.seats.size();
         Gdx.gl.glEnable(GL20.GL_BLEND);

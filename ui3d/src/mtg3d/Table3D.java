@@ -109,6 +109,9 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.62f, 0.38f, 0.95f, 1f))), attrs);
         pickedModel = builder.createBox(CARD_W * 1.24f, 0.02f, CARD_H * 1.16f,
             new Material(ColorAttribute.createDiffuse(new Color(0.98f, 0.76f, 0.25f, 1f))), attrs);
+        // Declaring blockers: a creature assigned to block, in the blue of the block arcs.
+        blockModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.62f, 1f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,
@@ -358,6 +361,7 @@ public final class Table3D extends TableInput {
         selectModel.dispose();
         targetModel.dispose();
         pickedModel.dispose();
+        blockModel.dispose();
         hoverModel.dispose();
         seatGlowModel.dispose();
         stackFrameModel.dispose();

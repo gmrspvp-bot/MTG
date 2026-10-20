@@ -730,17 +730,35 @@ abstract class TableHud extends TableScene {
 
     /** Targeting mode's instruction line, top centre, in the arc's violet. Inside the label pass. */
     void drawTargetBanner(int w, int h) {
-        if (targeting == null) return;
+        String line, sub;
+        Color c;
+        if (targeting != null) {
+            line = "Choose " + (targeting.max == 1 ? "a " : targeting.max + " ") + targeting.what
+                + "   (" + targeting.picked.size() + " of " + targeting.max + ")";
+            sub = "click a glowing card   -   ESC cancels";
+            c = new Color(0.80f, 0.62f, 1f, 1f);
+        } else if (combatPlan != null && !combatPlan.blocking) {
+            line = "Declare attackers   (" + combatPlan.attackSeat.size() + " attacking)";
+            sub = "drag a glowing creature onto a player   -   drop it back to take it off   -   SPACE confirms   ESC cancels";
+            c = new Color(1f, 0.55f, 0.40f, 1f);
+        } else if (combatPlan != null) {
+            line = "Declare blockers   (" + combatPlan.blockOn.size() + " blocking)";
+            sub = "drag a glowing creature onto an attacker   -   SPACE confirms   ESC cancels";
+            c = new Color(0.55f, 0.80f, 1f, 1f);
+        } else if (manaPlan != null) {
+            line = "Pay " + manaPlan.cost + "   (" + manaPlan.tapped.size() + " of " + manaPlan.total + " paid)";
+            sub = "click a glowing land to tap it   -   ESC cancels";
+            c = new Color(0.60f, 0.92f, 0.62f, 1f);
+        } else {
+            return;
+        }
         GlyphLayout gl = new GlyphLayout();
-        String line = "Choose " + (targeting.max == 1 ? "a " : targeting.max + " ") + targeting.what
-            + "   (" + targeting.picked.size() + " of " + targeting.max + ")";
         fontBig.getData().setScale(2.0f);
-        fontBig.setColor(0.80f, 0.62f, 1f, 1f);
+        fontBig.setColor(c);
         gl.setText(fontBig, line);
         fontBig.draw(ui, line, (w - gl.width) / 2f, h - 30f);
         fontBig.getData().setScale(1.6f);
-        font.setColor(0.62f, 0.52f, 0.80f, 1f);
-        String sub = "click a glowing card   -   ESC cancels";
+        font.setColor(c.r * 0.78f, c.g * 0.78f, c.b * 0.78f, 1f);
         gl.setText(font, sub);
         font.draw(ui, sub, (w - gl.width) / 2f, h - 72f);
     }

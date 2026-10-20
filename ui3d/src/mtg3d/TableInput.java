@@ -60,6 +60,49 @@ abstract class TableInput extends TableHud {
         });
     }
 
+    boolean planLeftWas;
+
+    /**
+     * Declaring attackers / blockers by drag. Press on a glowing creature to pick it up, release
+     * over the target: an opponent's monitor, pad or card (attacking - which player is worked out
+     * from the side of the table), or an attacker (blocking). Releasing anywhere else, or back on
+     * the creature, takes its assignment off. Returns true when the frame's input is used up.
+     */
+    boolean handleCombatPlan() {
+        CombatPlan p = combatPlan;
+        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { combatPlan = null; return true; }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+            System.out.println("UI3D: " + (p.blocking ? "blocks " + p.blockOn : "attacks " + p.attackSeat) + " (not wired yet)");
+            combatPlan = null;
+            return true;
+        }
+        clickedCard();                       // eat the click edge: no card is played meanwhile
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        if (down && !planLeftWas && hovered != null && hovered.seat != null && p.mine.contains(hovered.card.id)) {
+            p.dragging = hovered.card.id;
+        }
+        if (!down && planLeftWas && p.dragging != Integer.MIN_VALUE) {
+            int id = p.dragging;
+            p.dragging = Integer.MIN_VALUE;
+            if (p.blocking) {
+                if (hovered != null && p.attackers.contains(hovered.card.id)) p.blockOn.put(id, hovered.card.id);
+                else p.blockOn.remove(id);
+            } else {
+                int seat = -1;
+                if (hoveredSeat >= 0) seat = hoveredSeat;
+                else if (hovered != null && hovered.card.id != id && hovered.seat != null) seat = snap.seats.indexOf(hovered.seat);
+                else {
+                    float[] m = mouseOnTable();
+                    if (m != null && (hovered == null || hovered.card.id != id)) seat = seatAt(m[0], m[1]);
+                }
+                if (seat >= 0 && seat < snap.seats.size() && !snap.seats.get(seat).isYou) p.attackSeat.put(id, seat);
+                else p.attackSeat.remove(id);
+            }
+        }
+        planLeftWas = down;
+        return false;
+    }
+
     static final String OPEN_PANEL = System.getProperty("forge.ui3d.openPanel");
     boolean panelShown;
 
@@ -166,6 +209,39 @@ abstract class TableInput extends TableHud {
                 targeting = tg;
                 break;
             }
+            case "attack": {
+                CombatPlan cp = new CombatPlan(false);
+                Snapshot.SeatV me = snap.you();
+                for (Snapshot.CardV c : me.creatures) if (!c.tapped) cp.mine.add(c.id);
+                // Two already assigned, so the look shows arcs without anyone dragging.
+                int k = 0;
+                for (Snapshot.CardV c : me.creatures) {
+                    if (k == 0) cp.attackSeat.put(c.id, 1);
+                    if (k == 1) cp.attackSeat.put(c.id, 2);
+                    k++;
+                }
+                combatPlan = cp;
+                break;
+            }
+            case "block": {
+                CombatPlan cp = new CombatPlan(true);
+                for (Snapshot.CardV c : snap.you().creatures) cp.mine.add(c.id);
+                for (Snapshot.CardV c : snap.seats.get(1).creatures) cp.attackers.add(c.id);
+                if (!snap.you().creatures.isEmpty() && !snap.seats.get(1).creatures.isEmpty()) {
+                    cp.blockOn.put(snap.you().creatures.get(0).id, snap.seats.get(1).creatures.get(0).id);
+                }
+                combatPlan = cp;
+                break;
+            }
+            case "mana": {
+                ManaPlan mp = new ManaPlan();
+                mp.cost = "{2}{W}{W}";
+                mp.total = 4;
+                for (Snapshot.CardV c : snap.you().lands) if (!c.tapped) mp.usable.add(c.id);
+                if (!mp.usable.isEmpty()) mp.tapped.add(mp.usable.iterator().next());
+                manaPlan = mp;
+                break;
+            }
             case "damage": {
                 Snapshot.SeatV me = snap.you();
                 Snapshot.CardV lyra = null;
@@ -209,6 +285,19 @@ abstract class TableInput extends TableHud {
         // Targeting mode owns clicks and ESC: a click on a glowing card picks (or unpicks) it, the
         // last pick finishes, ESC cancels. It consumes the click edge, so nothing below can also
         // play a card from the same click; camera keys further down still work.
+        if (combatPlan != null && handleCombatPlan()) return;
+        if (manaPlan != null) {
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { manaPlan = null; return; }
+            if (clickedCard() && hovered != null && manaPlan.usable.contains(hovered.card.id)) {
+                Integer id = hovered.card.id;
+                if (manaPlan.tapped.contains(id)) manaPlan.tapped.remove(id);
+                else if (manaPlan.tapped.size() < manaPlan.total) manaPlan.tapped.add(id);
+                if (manaPlan.tapped.size() >= manaPlan.total) {
+                    System.out.println("UI3D: paid with " + manaPlan.tapped + " (not wired yet)");
+                    manaPlan = null;
+                }
+            }
+        }
         if (targeting != null) {
             if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { targeting = null; return; }
             if (clickedCard() && hovered != null && targeting.legal.contains(hovered.card.id)) {

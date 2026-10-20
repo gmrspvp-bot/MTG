@@ -165,6 +165,14 @@ abstract class TableLayout extends TableCamera {
         placeDying();
     }
 
+    /**
+     * How far a marker slab (playable, attacking, blocking, target, paid) sits below its card. It was
+     * -CARD_THICK, which put the slab's top under the row's band slab (top at y 0.001), so every
+     * marker was hidden; at this drop its rim (top y 0.016) clears the band and stays under the
+     * card picture (y 0.07).
+     */
+    static final float MARKER_DROP = -0.014f;
+
     // ---- zone-change animations ------------------------------------------------------------------
 
     /** A card on its way into a graveyard or exile pile: drawn sliding onto the pad for a moment. */
@@ -545,7 +553,27 @@ abstract class TableLayout extends TableCamera {
         // Targeting mode outranks the other markers: legal targets violet, picked ones gold.
         if (targeting != null && seat != null && targeting.legal.contains(c.id)) {
             d.marker = inst(targeting.picked.contains(c.id) ? pickedModel : targetModel);
-            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
+            drawn.add(d);
+            return;
+        }
+        // Declaring attackers / blockers: a creature that may act glows green until assigned, then
+        // red (attacking) or blue (blocking); the attackers being blocked keep their red slab.
+        Model planMarker = null;
+        if (combatPlan != null && seat != null) {
+            if (combatPlan.attackSeat.containsKey(c.id)) planMarker = attackModel;
+            else if (combatPlan.blockOn.containsKey(c.id)) planMarker = blockModel;
+            else if (combatPlan.attackers.contains(c.id)) planMarker = attackModel;
+            else if (combatPlan.mine.contains(c.id)) planMarker = selectModel;
+        }
+        // Paying mana: lands that can pay glow green, chosen ones gold.
+        if (manaPlan != null && seat != null) {
+            if (manaPlan.tapped.contains(c.id)) planMarker = pickedModel;
+            else if (manaPlan.usable.contains(c.id)) planMarker = selectModel;
+        }
+        if (planMarker != null) {
+            d.marker = inst(planMarker);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
             drawn.add(d);
             return;
         }
@@ -555,10 +583,10 @@ abstract class TableLayout extends TableCamera {
         // card", which is a narrower and more honest claim than "you can play this".
         if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) {
             d.marker = inst(selectModel);
-            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
         } else if (c.attacking) {
             d.marker = inst(attackModel);
-            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
         }
         drawn.add(d);
     }
