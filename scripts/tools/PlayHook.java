@@ -232,6 +232,9 @@ public final class PlayHook {
                 if (waitingSince == 0) { waitingSince = System.currentTimeMillis(); return; }
                 if (shown || System.currentTimeMillis() - waitingSince < RESPONSE_DELAY_MS) return;
                 shown = true;
+                // With the 3D table on, the reminder is drawn in the 3D window (TableHud), where the
+                // player is looking - this Swing one sat on Forge's window (owner, 2026-10-20).
+                if ("true".equals(System.getProperty("forge.ui3d"))) return;
                 showBanner("YOUR RESPONSE", "space bar passes  ·  click to dismiss",
                     new java.awt.Color(150, 85, 15), 15000);
             } catch (Throwable t) {

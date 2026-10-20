@@ -459,10 +459,11 @@ to know before starting:
       turn"*. `PlayHook.TurnBanner` is Swing on Forge's window — doing this in the 3D window
       instead would avoid pulling focus, which is the standing complaint.)
 
-- [ ] **Bug (owner, 2026-10-20): the "YOUR RESPONSE" pop-up shows on Forge's window, not in 3D.**
-      It is `PlayHook.ResponseWatcher` -> `showBanner`, a Swing window over Forge's frame. With the
-      3D table on it should be drawn in the 3D window instead (like the turn banners), and the
-      Swing one skipped. Not fixed yet - noted only.
+- [x] **Bug (owner, 2026-10-20): the "YOUR RESPONSE" pop-up showed on Forge's window, not in 3D.**
+      Fixed 2026-10-21 (Stoneforge): with `forge.ui3d=true`, `PlayHook.ResponseWatcher` no longer
+      shows its Swing banner; `TableHud.drawResponseBanner` draws an amber YOUR RESPONSE band in the
+      3D window after the same 10 s (`forge.responsebanner.ms`) of holding priority on someone
+      else's turn, gone as soon as you act. Not screenshotted (the demo has no such moment).
 
 **Revealing hands when a player is out** *(attended — needs care)*
 

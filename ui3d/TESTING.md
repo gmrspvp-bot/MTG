@@ -31,6 +31,13 @@ Each line: **what to do** -> what should happen.
 ## 2. A normal turn
 
 - [ ] **YOUR TURN** gold banner sweeps across when your turn starts, with a short sound.
+- [ ] **Other players' turns:** "CAPTAIN'S TURN" (blue band) when the turn passes; on your own
+      turn a small gold strip names each step (upkeep, draw, main 1, combat, main 2, end step).
+- [ ] **YOUR RESPONSE:** hold priority on someone else's turn for 10 seconds -> an amber band in
+      the 3D window (and nothing pops up on Forge's window).
+- [ ] **Piles:** library, graveyard and exile are piles that grow; a creature dying lands on top of
+      its graveyard pile.
+- [ ] **An ability on the stack** marks its card on the table in teal.
 - [ ] **Drawing:** the drawn card slides from your library into your hand.
 - [ ] **Hand hover:** the card under the mouse rises; the big card picture shows on the left with
       keyword explanations underneath (flying, lifelink...).

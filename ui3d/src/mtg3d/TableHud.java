@@ -100,6 +100,7 @@ abstract class TableHud extends TableScene {
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
         if (turnBannerAge >= 0f) drawTurnBanner(w, h, flat);
         if (phaseBannerAge >= 0f) drawPhaseBanner(w, h, flat);
+        if (respondAge >= 0f) drawResponseBanner(w, h, flat);
         drawToast(w, flat);
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
@@ -799,6 +800,18 @@ abstract class TableHud extends TableScene {
             phaseBannerAge = -1f;
         }
         if (activeName != null) lastActiveName = activeName;
+        // YOUR RESPONSE: holding priority on someone else's turn for RESPONSE_AFTER seconds - easy
+        // not to notice in a four-player game. Once per wait; re-armed when priority moves on.
+        // (Was a Swing banner on Forge's window - PlayHook.ResponseWatcher - which now stays quiet
+        // when the 3D table is on.)
+        Snapshot.SeatV you = snap.you();
+        boolean waitingOnYou = you != null && you.hasPriority && !you.active && !snap.gameOver;
+        if (!waitingOnYou) { respondWait = 0f; respondShown = false; }
+        else if (!respondShown) {
+            respondWait += frameDt;
+            if (respondWait >= RESPONSE_AFTER) { respondShown = true; respondAge = 0f; }
+        }
+        if (respondAge >= 0f) { respondAge += frameDt; if (respondAge > RESPONSE_LIFE || !waitingOnYou) respondAge = -1f; }
         String key = snap.phaseKey == null ? "" : snap.phaseKey;
         if (momentsPrimed && youActive && !key.equals(lastPhaseKey)) {
             String label = PHASE_BANNERS.get(key);
@@ -806,6 +819,42 @@ abstract class TableHud extends TableScene {
         }
         lastPhaseKey = key;
         if (!snap.seats.isEmpty()) momentsPrimed = true;
+    }
+
+    float respondWait, respondAge = -1f;
+    boolean respondShown;
+    /** Seconds of holding priority on another player's turn before YOUR RESPONSE shows (as PlayHook's). */
+    static final float RESPONSE_AFTER = Long.getLong("forge.responsebanner.ms", 10000L) / 1000f, RESPONSE_LIFE = 6f;
+
+    /** YOUR RESPONSE, in amber, the YOUR TURN band's shape; it stays until you act or 6 s pass. */
+    void drawResponseBanner(int w, int h, Matrix4 flat) {
+        float t = respondAge / RESPONSE_LIFE;
+        float in = Math.min(1f, respondAge / 0.25f);
+        float a = t < 0.8f ? 1f : Math.max(0f, 1f - (t - 0.8f) / 0.2f);
+        float slide = (1f - smooth(in)) * -w;
+        float bandH = 84f, y = h * 0.58f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.08f, 0.05f, 0.02f, 0.75f * a);
+        shapes.rect(slide, y, w, bandH);
+        shapes.setColor(0.95f, 0.55f, 0.15f, a);
+        shapes.rect(slide, y, w, 3f);
+        shapes.rect(slide, y + bandH - 3f, w, 3f);
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        fontBig.getData().setScale(2.8f);
+        fontBig.setColor(1f, 0.70f, 0.30f, a);
+        gl.setText(fontBig, "YOUR RESPONSE");
+        fontBig.draw(ui, "YOUR RESPONSE", slide + (w - gl.width) / 2f, y + bandH / 2f + gl.height / 2f + 8f);
+        fontBig.getData().setScale(1.6f);
+        String sub = "the game is waiting on you   -   SPACE passes";
+        font.setColor(0.95f, 0.80f, 0.60f, a);
+        gl.setText(font, sub);
+        font.draw(ui, sub, slide + (w - gl.width) / 2f, y + 18f);
+        ui.end();
     }
 
     String lastActiveName, lastPhaseKey = "";
