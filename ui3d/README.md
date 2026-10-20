@@ -372,6 +372,64 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 ---
 
+### Owner's list, 2026-10-21 — not started
+
+Asked for during the first four-player game played from the 3D table. Written down as given,
+with where each one lands. Nothing here is claimed yet.
+
+**Abilities — say which one, everywhere it appears** *(attended wiring, unattended look)*
+
+- [ ] Activating an ability on a card with more than one: a small drop-down at the card,
+      highlighting the ability under the cursor. Forge asks this through `getAbilityToPlay`,
+      which is **not taken over yet** — it is one of the few non-void `IGuiGame` methods still
+      falling through, so today it opens Forge's own list.
+- [ ] While it is on the stack, show *which* ability is resolving — not just the card's name.
+      `CardV.stackText` / `stackIsAbility` already carry this; the stack panel does not use it.
+- [ ] Highlight the source card on the battlefield, and the specific ability on it, while that
+      ability is on the stack or being chosen.
+
+**Cosmetics** *(unattended)*
+
+- [ ] Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
+      pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
+      `exileSize`; this is geometry, not new data.
+- [ ] Raise each battlefield a little off the felt.
+- [ ] Make it obvious which battlefield the command zone, exile, graveyard and library belong
+      to. *(Partly in hand: owner-named zone pads and coloured seat frames are written but not
+      yet built — see `CLAIMS.md`. The stacks above should carry the same colour.)*
+- [ ] **Overhead (birds-eye) mode: keep your hand visible and usable** — move it to the side
+      rather than dropping it. Today the hand is anchored at your own seat and is edge-on or
+      off-screen from above, which makes the overhead pose read-only.
+- [ ] **The centre monitors**: make them look like actual screens, and put the public numbers
+      on them — library, graveyard and exile counts alongside life.
+- [ ] **Card pictures that never arrive**: either fix the fetch or draw a better stand-in.
+      `CardArt` already falls back to a generated face (`FaceMaker`); the plain SPELL / CREATURE
+      placeholders are what is being seen. Worth finding out *why* a given card has no art
+      before improving the fallback — a fresh clone has no `forge-data\cache`, so the first
+      games of any new install are mostly placeholders.
+
+**Turn and phase banners** *(unattended to build, attended to judge)*
+
+- [ ] A change-of-turn banner for **every** player's turn, not only your own.
+- [ ] On your own turn, show the banner **per phase**, so the turn's progress is unmissable.
+      (Relates to the earlier bug report, *"please signify more significantly change of player
+      turn"*. `PlayHook.TurnBanner` is Swing on Forge's window — doing this in the 3D window
+      instead would avoid pulling focus, which is the standing complaint.)
+
+**Revealing hands when a player is out** *(attended — needs care)*
+
+- [ ] When a player dies, make every remaining hand public knowledge **to them**.
+
+> This is the one item that cuts against *Hidden information* above. The rule is that another
+> player's hand is never put into the `Snapshot` at all, which is what makes a leak impossible
+> rather than merely unlikely. Doing this means the reader must pass hands for a viewer who is
+> **eliminated**, and only then — so it has to key off the engine's own view of who is out, not
+> off anything the UI believes. On a host JVM running two humans this is exactly the shape of
+> the `ConfirmPassHook` leak of 2026-10-20. Build it with a probe that asserts a *living*
+> viewer still gets nothing.
+
+---
+
 ### Attended - needs someone playing
 
 > **Hooked up 2026-10-21 (owner asked), not yet play-tested - see `ui3d\TESTING.md`.**
