@@ -83,6 +83,7 @@ public class HouseCardsProbe {
             case "wardenother": bf = "Soul Warden;" + lands; hand = ""; break;
             case "clown": bf = lands; hand = "Clown Car"; break;
             case "house": bf = "Mr. House, President and CEO;" + lands; hand = "Clown Car"; break;
+            case "houseability": bf = "Mr. House, President and CEO;Wyll, Blade of Frontiers;" + lands; hand = ""; break;
             default: bf = "Mr. House, President and CEO;Wyll, Blade of Frontiers;" + lands; hand = "Clown Car"; break;
         }
         GameState st = new GameState();
@@ -106,10 +107,24 @@ public class HouseCardsProbe {
             Thread.sleep(800);
             System.out.println("SNAPSHOT: " + mode);
         }
+        // Sixth argument "high": every die rolls 4-6, so an ignored die is one Mr. House cares about.
+        if (a.length > 5 && a[5].equals("high")) {
+            forge.util.MyRandom.setRandom(new java.util.Random() {
+                @Override public int nextInt(int bound) { return bound == 6 ? 3 + super.nextInt(3) : super.nextInt(bound); }
+            });
+        }
         int life0 = me.getLife();
         Player caster = otherCasts ? game.getPlayers().get(1) : me;
         List<Card> inHand = new ArrayList<>(caster.getCardsIn(ZoneType.Hand));
         for (Card c : inHand) cast(game, caster, c, c.getName().equals("Clown Car") ? 4 : 0);
+        if (which.equals("houseability")) {
+            // Mr. House's own {4},{T}: roll a die (Wyll makes it two and ignores the lower).
+            for (Card c : new ArrayList<>(me.getCardsIn(ZoneType.Battlefield))) {   // a copy: the roll adds tokens
+                if (!c.getName().startsWith("Mr. House")) continue;
+                c.setSickness(false);
+                for (SpellAbility ab : c.getSpellAbilities()) if (ab.isActivatedAbility() && ab.getApi() == forge.game.ability.ApiType.RollDice) activate(game, me, ab);
+            }
+        }
         System.out.println("RESULT " + which + ": life " + life0 + " -> " + me.getLife()
             + " | treasures " + count(me, "Treasure") + " | clown robots " + count(me, "Clown Robot")
             + " | 3/3 robots " + (count(me, "Robot") - count(me, "Clown Robot")) + carCounters(me));
@@ -136,10 +151,14 @@ public class HouseCardsProbe {
     }
 
     static void cast(Game game, Player p, Card c, int x) throws Exception {
+        SpellAbility sa = c.getSpells().get(0);
+        if (x > 0) sa.setXManaCostPaid(x);
+        activate(game, p, sa);
+    }
+
+    static void activate(Game game, Player p, SpellAbility sa) throws Exception {
         game.getAction().invoke(() -> {
-            SpellAbility sa = c.getSpells().get(0);
             sa.setActivatingPlayer(p);
-            if (x > 0) sa.setXManaCostPaid(x);
             forge.ai.ComputerUtil.handlePlayingSpellAbility(p, sa, null);
             for (int i = 0; i < 30; i++) {
                 game.getTriggerHandler().runWaitingTriggers();

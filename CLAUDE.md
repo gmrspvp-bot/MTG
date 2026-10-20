@@ -73,7 +73,9 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
 - `EvalCacheAgent` (a `-javaagent`) rewrites Forge methods as classes load: the original becomes
   `<name>$orig` and calls go to a hook class. The table is `EvalCacheAgent.HOOKS`: board-eval cache,
   AttackHook, BlockHook, HumanHooks (mulligans), SacrificeHook, PlayHook (desktop games),
-  ConfirmPassHook and AttackConfirmHook (human misclick safeguards). Logs show
+  ConfirmPassHook and AttackConfirmHook (human misclick safeguards), DiceIgnoreHook (house rule:
+  a die an "ignore the lowest" effect drops still triggers "whenever you roll" cards, except the
+  card whose own ability rolled; see `CARD-MECHANICS.md`). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.

@@ -29,11 +29,16 @@ claim it in `CLAIMS.md` first.
 - **Clown Car's "SVar 'EvenResults' not found" console lines**: harmless - Forge builds the
   stack text before the dice are rolled. Even results do put +1/+1 counters on the car.
 
-## Open - needs the owner's call
+## House rules (owner's call)
 
-- [ ] **Mr. House and the die Wyll ignores.** With Wyll, Blade of Frontiers out, Clown Car's X
-      dice become X+1 with the lowest ignored. Forge triggers Mr. House only for the kept dice
-      (probe: 5 rolled, 4 kept, House triggered for the kept 4s only). The owner expects the
-      ignored die to count too. As far as can be told, Forge follows the rules here (an ignored
-      roll is treated as not rolled), so changing it would be a house rule - only if the owner
-      wants that.
+- [x] **Ignored dice are still seen by "whenever you roll" cards** (owner, 2026-10-21; done by
+      Stoneforge). A die that an "ignore the lowest" effect throws away (Wyll, Blade of
+      Frontiers, or any card like it) still triggers every "whenever you roll" card (Mr. House,
+      or any card like it) - **except** the card whose own ability made the roll. So Clown Car
+      with Wyll: Clown Car uses the 4 dice it keeps, Mr. House triggers on all 5. Mr. House's own
+      {4},{T}: Wyll's extra die stays ignored for House. Forge itself (and, as far as can be told,
+      the rules) never counts an ignored die, so this is `scripts\tools\DiceIgnoreHook.java`
+      (three agent hooks on RollDiceEffect / TriggerRolledDie). Applies to sims too.
+      `-Dforge.dice.seeignored=false` turns it off. Test: `scratch\probe\HouseCardsProbe.java`
+      `housewyll` / `houseability` with `none ai x x high` (dice forced to 4-6): Clown Car 4 kept
+      + 1 ignored -> 5 House triggers; House's own roll 1 kept + 1 ignored -> 1.

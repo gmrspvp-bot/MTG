@@ -14,6 +14,8 @@
 //   forge.gamemodes.match.input.InputPassPriority.onOk          -> ConfirmPassHook (desktop: "Pass anyway?", counterspell reminder)
 //   forge.gamemodes.match.input.InputAttack.onOk                -> AttackConfirmHook (desktop: "Skip combat anyway?")
 //   forge.game.phase.PhaseHandler.onPhaseBegin                  -> CombatGuardHook (no crash if a rollback left no Combat)
+//   forge.game.ability.effects.RollDiceEffect.rollDiceForPlayer
+//     / rollAction, forge.game.trigger.TriggerRolledDie.performTest -> DiceIgnoreHook (house rule: ignored dice still seen)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -43,6 +45,13 @@ public class EvalCacheAgent {
         {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
         // Joining someone else's game: lets the 3D table wrap the client's GUI (ClientHook).
         {"forge/GuiDesktop", "getNewGuiGame", "()Lforge/gui/interfaces/IGuiGame;", "ClientHook", "instance"},
+        // House rule: a die an "ignore the lowest" effect throws away still triggers roll watchers (DiceIgnoreHook).
+        {"forge/game/ability/effects/RollDiceEffect", "rollDiceForPlayer",
+         "(Lforge/game/spellability/SpellAbility;Lforge/game/player/Player;IIIILjava/util/List;Z)I", "DiceIgnoreHook", "static"},
+        {"forge/game/ability/effects/RollDiceEffect", "rollAction",
+         "(IIILjava/util/List;Ljava/util/List;Ljava/util/Map;Ljava/util/Set;Lforge/game/player/Player;Ljava/util/Map;)Ljava/util/List;",
+         "DiceIgnoreHook", "static"},
+        {"forge/game/trigger/TriggerRolledDie", "performTest", "(Ljava/util/Map;)Z", "DiceIgnoreHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {
