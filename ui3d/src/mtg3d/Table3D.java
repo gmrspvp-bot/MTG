@@ -64,7 +64,7 @@ public final class Table3D extends ApplicationAdapter {
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
     private Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
-    private Model bandCreature, bandOther, bandLand, monitorModel;
+    private Model bandCreature, bandOther, bandLand, monitorModel, selectModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
     private ModelInstance tableInst;
@@ -207,6 +207,10 @@ public final class Table3D extends ApplicationAdapter {
             new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.36f, 0.46f, 1f))), attrs);
         attackModel = builder.createBox(CARD_W * 1.18f, 0.02f, CARD_H * 1.12f,
             new Material(ColorAttribute.createDiffuse(new Color(0.85f, 0.25f, 0.18f, 1f))), attrs);
+        // A slab under anything Forge will currently accept a click on. Without it you would have
+        // to click hopefully and read the console to find out whether it did anything.
+        selectModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.82f, 0.45f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
         // Band slabs, one unit wide so placeBand can scale them to the row's length. The colours
         // are only just off the table: enough to group, not enough to compete with the cards.
@@ -385,6 +389,14 @@ public final class Table3D extends ApplicationAdapter {
             }
         }
         if (Gdx.input.isKeyJustPressed(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
+        // Left-click a card Forge says is playable right now. The click is only sent for cards
+        // already in the selectable set, so the 3D side is choosing among Forge's own legal
+        // options and can never offer a play the rules disallow.
+        if (clickedCard() && hovered != null && Gui3D.active()) {
+            if (!Gui3D.clickCard(hovered.card.id)) {
+                System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
+            }
+        }
         // H gives the decision the game is waiting on back to Forge's window. Harmless when
         // nothing has been taken over, which is the case until step 3.
         if (Gdx.input.isKeyJustPressed(Input.Keys.H)) {
@@ -440,6 +452,19 @@ public final class Table3D extends ApplicationAdapter {
             setViewSeat(snap.youIndex(), n);
         }
     }
+
+    /** True on the frame the left button goes down anywhere except the phase panel. */
+    private boolean clickedCard() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        boolean justDown = down && !leftWasDownBoard;
+        leftWasDownBoard = down;
+        if (!justDown) return false;
+        float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+        // The panel owns its own clicks; a click on the tickbox must not also cast a card behind it.
+        return !(mx >= PP_X && mx <= PP_X + PP_W && my >= Gdx.graphics.getHeight() - 14f - panelHeight());
+    }
+
+    private boolean leftWasDownBoard;
 
     /** True on the frame the left button goes down inside the follow-turn tickbox. */
     private boolean clickedFollowBox() {
@@ -910,7 +935,12 @@ public final class Table3D extends ApplicationAdapter {
             d.face.materials.get(0).set(
                 com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
         }
-        if (c.attacking) {
+        // Playable beats attacking when a card is both: what you can DO about it right now is
+        // the more useful thing to show.
+        if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) {
+            d.marker = new ModelInstance(selectModel);
+            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+        } else if (c.attacking) {
             d.marker = new ModelInstance(attackModel);
             d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
         }
@@ -1882,6 +1912,7 @@ public final class Table3D extends ApplicationAdapter {
         bandOther.dispose();
         bandLand.dispose();
         monitorModel.dispose();
+        selectModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();

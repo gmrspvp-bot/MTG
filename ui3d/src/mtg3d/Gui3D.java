@@ -54,6 +54,9 @@ public final class Gui3D implements InvocationHandler {
 
     /** The local human's controller, for sending guarded clicks back. Null until installed. */
     private static volatile forge.player.PlayerControllerHuman controller;
+    /** The cards Forge says may be clicked, by id. Replaced wholesale, never mutated in place. */
+    private static volatile java.util.Map<Integer, CardView> selectableViews =
+        new java.util.LinkedHashMap<>();
 
     /** What the engine last asked of us, mirrored for the 3D window. */
     public static final class Prompt {
@@ -178,6 +181,42 @@ public final class Gui3D implements InvocationHandler {
         return true;
     }
 
+    /**
+     * Click a card from the 3D window - cast it, play it, activate it, or pick it as a target.
+     *
+     * Only cards Forge has said are selectable right now can be sent, so this can never offer a
+     * play the rules do not allow; the 3D side is choosing among Forge's own options rather than
+     * deciding anything itself. Guarded by the same token as the buttons, so a click aimed at a
+     * decision that has since passed is dropped rather than applied to the next one.
+     *
+     * @return false when that card is not currently selectable, so the caller can ignore the click
+     */
+    public static boolean clickCard(int cardId) {
+        final forge.player.PlayerControllerHuman c = controller;
+        final CardView cv = selectableViews.get(cardId);
+        final Object seen = PROMPT.token;
+        if (c == null || cv == null || seen == null) return false;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try {
+                // Re-check on the EDT: the game may have moved on while this was queued, which is
+                // precisely the race ClickGuard exists for.
+                if (ClickGuard.token(c) != seen) {
+                    ClickGuard.dropped++;
+                    return;
+                }
+                c.selectCard(cv, java.util.Collections.emptyList(), null);
+            } catch (Throwable t) {
+                System.out.println("UI3D: card click failed (" + t + ")");
+            }
+        });
+        return true;
+    }
+
+    /** Is this card one Forge will accept a click on right now? */
+    public static boolean isSelectable(int cardId) {
+        return selectableViews.containsKey(cardId);
+    }
+
     /** True once a game is running with the wrapper installed. */
     public static boolean active() {
         return controller != null;
@@ -209,17 +248,26 @@ public final class Gui3D implements InvocationHandler {
                 PROMPT.token = ClickGuard.token(pch);
                 break;
             case "setSelectables": {
+                // Both the ids (for the renderer, which must not hold Forge objects) and the
+                // CardViews themselves (for selectCard, which needs the object not the id).
                 List<Integer> ids = new ArrayList<>();
+                java.util.Map<Integer, CardView> views = new java.util.LinkedHashMap<>();
                 if (args != null && args.length >= 1 && args[0] instanceof Iterable) {
                     for (Object o : (Iterable<?>) args[0]) {
-                        if (o instanceof CardView) ids.add(((CardView) o).getId());
+                        if (!(o instanceof CardView)) continue;
+                        CardView cv = (CardView) o;
+                        ids.add(cv.getId());
+                        views.put(cv.getId(), cv);
                     }
                 }
                 PROMPT.selectable = ids;
+                selectableViews = views;
+                PROMPT.token = ClickGuard.token(pch);
                 break;
             }
             case "clearSelectables":
                 PROMPT.selectable = new ArrayList<>();
+                selectableViews = new java.util.LinkedHashMap<>();
                 break;
             default:
                 break;

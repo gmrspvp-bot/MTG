@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - click a card in 3D to play it | Xenil's Claude | 2026-10-21 | `Gui3D` (keep the selectable CardViews, `clickCard`), `Table3D` left-click on a hovered card. Uses `ClickGuard` and the existing `selectableIds`. Not `SearchPanel`/`Handoff`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

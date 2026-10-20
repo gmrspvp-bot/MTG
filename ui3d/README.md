@@ -42,6 +42,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | middle-drag | Grab the table and move it; `DOWN` recentres |
 | `SPACE` | **In a game** - pass priority / confirm (guarded) |
 | `X` | **In a game** - cancel (guarded) |
+| left-click | **In a game** - play the card under the cursor, if it is marked playable |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
@@ -339,7 +340,11 @@ Two facts make a gradual takeover possible:
 **Not proposed:** replacing `CMatchUI` outright with our own `IGuiGame` passed to
 `HostedMatch.startMatch`. That is stage 4 (starting a game without Forge's screens), and before
 then it would leave every unimplemented decision with nothing to answer it.
-- [ ] Click a card to select; click again to cast or activate.
+- [x] **Click a card to play it - done 2026-10-21.** Left-click a card the green marker shows as
+      playable and it is sent to Forge as a guarded `selectCard`. Only cards Forge has already
+      declared selectable can be sent, so the 3D side chooses among Forge's own legal options
+      and can never offer a play the rules disallow. Targeting through the same path still needs
+      doing.
 - [ ] Target selection in 3D, with the arcs already needed for combat.
 - [ ] Declare attackers and blockers by dragging.
 - [ ] Mana payment, including which lands to tap.
