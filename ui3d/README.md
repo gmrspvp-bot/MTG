@@ -425,7 +425,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 - [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
 - [x] Card movement between zones - done 2026-10-20: per-id poses eased every frame (`Pose`/`ease` in `Table3D`), hand -> stack -> battlefield slides.
 - [x] A proper table surface and surround - done 2026-10-21. Generated felt (`Felt.felt`: the same deep blue, a fine cloth grain, a lighter lamp pool in the middle and a faint centre ring), a dark padded rail round the edge (outside the playing area, so no layout moved), and a floor with a dim pool of light under the table (`Felt.floor`, drawn unlit). No image files; fixed seeds, so screenshots are repeatable. **Noticed, not fixed (prompt bar is Xenil's):** in the overhead pose the zone labels (GY / EXI / LIB / COMMAND) draw on top of the prompt bar.
-- [ ] Tokens, emblems and face-down cards could read better at a glance.
+- [x] Tokens, emblems and face-down cards read at a glance - done 2026-10-21 (`FaceMaker`). **Tokens:** silver frame round the card and a full-width TOKEN banner (the old corner tag vanished at table distance). **Face down:** the back says FACE DOWN and shows the creature's power/toughness large - public information (a morph is a 2/2 anyone can see, pumps included); `StateReader` now fills only those two numbers for a face-down card on the battlefield, from the face-down state, never in a hidden zone. Backs are cached per P/T. **Emblems:** a gold medallion naming whose emblem it is, with the ability written out, instead of a blank SPELL face. Checked with `FacePreview` (now includes these cases).
 
 **Visibility**
 

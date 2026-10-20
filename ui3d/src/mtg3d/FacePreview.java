@@ -30,11 +30,19 @@ public final class FacePreview {
         token.token = true;
         Snapshot.CardV down = new Snapshot.CardV(99, "", "Creature", true, false);
         down.faceDown = true;
-        Snapshot.CardV[] all = new Snapshot.CardV[cards.length + 3];
+        down.power = "2"; down.toughness = "2";          // a morph on the battlefield: public P/T
+        Snapshot.CardV pumped = new Snapshot.CardV(98, "", "Creature", true, false);
+        pumped.faceDown = true;
+        pumped.power = "4"; pumped.toughness = "4";
+        Snapshot.CardV emblem = card("Emblem - Elspeth, Sun's Champion", "Emblem", "", false, false, null, null);
+        emblem.text = "Creatures you control get +2/+2 and have flying.";
+        Snapshot.CardV[] all = new Snapshot.CardV[cards.length + 5];
         System.arraycopy(cards, 0, all, 0, cards.length);
         all[cards.length] = counted;
         all[cards.length + 1] = token;
         all[cards.length + 2] = down;
+        all[cards.length + 3] = pumped;
+        all[cards.length + 4] = emblem;
         cards = all;
         int w = 420, h = 588, cols = cards.length;
         java.awt.image.BufferedImage sheet =

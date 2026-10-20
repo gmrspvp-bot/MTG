@@ -433,6 +433,21 @@ public final class StateReader {
                 v.faceDown = true;
                 v.typeLine = "Creature";
                 v.creature = true;
+                // A face-down permanent's power and toughness ARE public (a morph is a 2/2 that
+                // anyone can see, pumps and counters included). For a face-down card Forge's
+                // current state is the face-down side itself - no name, no text - so only these
+                // two numbers are taken from it. Never for a hidden zone (a hand, a library).
+                if (publicZone) {
+                    try {
+                        CardView.CardStateView fd = cv.getCurrentState();
+                        if (fd != null) {
+                            v.power = String.valueOf(fd.getPower());
+                            v.toughness = String.valueOf(fd.getToughness());
+                        }
+                    } catch (Throwable t) {
+                        // the back just shows no numbers
+                    }
+                }
                 return v;
             }
 

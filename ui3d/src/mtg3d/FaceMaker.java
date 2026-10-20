@@ -38,7 +38,8 @@ public final class FaceMaker {
      * context - see ui3d\src\mtg3d\FacePreview.java.
      */
     public static BufferedImage draw(Snapshot.CardV c) {
-        if (c.faceDown) return drawBack();
+        if (c.faceDown) return drawBack(c);
+        if (isEmblem(c)) return drawEmblem(c);
         BufferedImage img = new BufferedImage(W, H, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g = img.createGraphics();
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
@@ -99,13 +100,20 @@ public final class FaceMaker {
             }
         }
 
-        // Tokens have no printing and never will, so say so rather than looking like a miss.
+        // Tokens have no printing and never will, so say so - loudly enough to read from across
+        // the table, where the old small corner tag disappeared: a silver frame round the whole
+        // card and a full-width banner over the art box.
         if (c.token) {
-            g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 18));
-            g.setColor(new Color(0, 0, 0, 120));
-            g.fillRoundRect(30, 100, 86, 26, 10, 10);
-            g.setColor(new Color(240, 240, 236));
-            g.drawString("TOKEN", 40, 119);
+            g.setColor(new Color(214, 220, 228));
+            g.setStroke(new java.awt.BasicStroke(10f));
+            g.drawRoundRect(9, 9, W - 18, H - 18, 30, 30);
+            g.setStroke(new java.awt.BasicStroke(1f));
+            g.setColor(new Color(20, 24, 30, 200));
+            g.fillRect(30, 104, W - 60, 56);
+            g.setColor(new Color(232, 238, 246));
+            g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 40));
+            int tw = g.getFontMetrics().stringWidth("TOKEN");
+            g.drawString("TOKEN", (W - tw) / 2, 147);
         }
 
         // A watermark of the kind, so a glance at the table still groups things.
@@ -125,14 +133,17 @@ public final class FaceMaker {
     }
 
     /**
-     * A card back, for anything face down. There is nothing to draw from: StateReader does not put
-     * a face-down card's name, type or text into the snapshot at all, so this is the only thing
-     * that could be drawn even if it wanted to be clever.
+     * A card back, for anything face down. StateReader puts no name, type or text for a face-down
+     * card into the snapshot at all. What it does carry, on the battlefield, is the face-down
+     * creature's power and toughness - public (a morph is a 2/2 everyone can see) and the one
+     * thing you need at a glance to decide whether to block it - so the back shows those large,
+     * with FACE DOWN above them so it is never mistaken for an unloaded picture.
      */
-    private static BufferedImage drawBack() {
+    private static BufferedImage drawBack(Snapshot.CardV c) {
         BufferedImage img = new BufferedImage(W, H, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g = img.createGraphics();
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
         g.setColor(new Color(18, 18, 22));
         g.fillRect(0, 0, W, H);
         g.setColor(new Color(44, 36, 72));
@@ -141,6 +152,71 @@ public final class FaceMaker {
         g.fillOval(W / 2 - 110, H / 2 - 110, 220, 220);
         g.setColor(new Color(30, 24, 50));
         g.fillOval(W / 2 - 86, H / 2 - 86, 172, 172);
+        g.setColor(new Color(196, 184, 236));
+        g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 34));
+        int fw = g.getFontMetrics().stringWidth("FACE DOWN");
+        g.drawString("FACE DOWN", (W - fw) / 2, 92);
+        if (c != null && c.power != null && !c.power.isEmpty()) {
+            String pt = c.power + "/" + c.toughness;
+            g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 92));
+            int pw = g.getFontMetrics().stringWidth(pt);
+            g.setColor(new Color(236, 230, 255));
+            g.drawString(pt, (W - pw) / 2, H / 2 + 32);
+        }
+        g.dispose();
+        return img;
+    }
+
+    /** An emblem: Forge types it "Emblem", and it has no cost, no P/T - only its text. */
+    private static boolean isEmblem(Snapshot.CardV c) {
+        return c.typeLine != null && c.typeLine.toLowerCase().contains("emblem");
+    }
+
+    /**
+     * An emblem is nothing BUT its text, so that is what it shows: a gold medallion with the
+     * ability written out, instead of a generic "SPELL" face with no words on it. It lives in the
+     * command zone and never moves, so it can afford to be the one face that is mostly text.
+     */
+    private static BufferedImage drawEmblem(Snapshot.CardV c) {
+        BufferedImage img = new BufferedImage(W, H, BufferedImage.TYPE_INT_ARGB);
+        Graphics2D g = img.createGraphics();
+        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
+        g.setColor(new Color(18, 16, 12));
+        g.fillRect(0, 0, W, H);
+        g.setColor(new Color(64, 48, 22));
+        g.fillRoundRect(14, 14, W - 28, H - 28, 26, 26);
+        g.setColor(new Color(212, 168, 82));
+        g.setStroke(new java.awt.BasicStroke(8f));
+        g.drawOval(W / 2 - 120, 40, 240, 240);
+        g.setStroke(new java.awt.BasicStroke(1f));
+        g.setColor(new Color(240, 206, 120));
+        g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 40));
+        int ew = g.getFontMetrics().stringWidth("EMBLEM");
+        g.drawString("EMBLEM", (W - ew) / 2, 174);
+        // Whose emblem it is, if the name says (Forge names them "Emblem - <planeswalker>").
+        String who = c.name == null ? "" : c.name.replaceFirst("(?i)^emblem\\s*[-:]?\\s*", "");
+        g.setColor(new Color(236, 222, 190));
+        if (!who.isEmpty() && !who.equalsIgnoreCase("emblem")) drawFitted(g, who, 40, 330, W - 80, 28f, Font.BOLD);
+        // The ability, wrapped into the lower half.
+        g.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 24));
+        java.awt.FontMetrics fm = g.getFontMetrics();
+        int y = 380;
+        for (String para : (c.text == null ? "" : c.text).split("\n")) {
+            StringBuilder line = new StringBuilder();
+            for (String word : para.split(" ")) {
+                String probe = line.length() == 0 ? word : line + " " + word;
+                if (fm.stringWidth(probe) > W - 80 && line.length() > 0) {
+                    g.drawString(line.toString(), 40, y);
+                    y += 30;
+                    line = new StringBuilder(word);
+                } else {
+                    line = new StringBuilder(probe);
+                }
+            }
+            if (line.length() > 0) { g.drawString(line.toString(), 40, y); y += 30; }
+            if (y > H - 40) break;
+        }
         g.dispose();
         return img;
     }
@@ -216,7 +292,9 @@ public final class FaceMaker {
         if (c.creature) parts.add(c.power + "/" + c.toughness);
         if (c.token) parts.add("token");
         parts.addAll(c.counterText);          // a card that gains a counter needs a new face
-        if (c.faceDown) return "gen:facedown";   // every face-down card shares one back
+        // Face-down backs share a texture per P/T (most morphs are 2/2, so it is still mostly one).
+        if (c.faceDown) return "gen:facedown:" + (c.power == null ? "" : c.power + "/" + c.toughness);
+        if (isEmblem(c)) parts.add(c.text == null ? "" : c.text);
         return "gen:" + String.join("|", parts).toLowerCase();
     }
 }
