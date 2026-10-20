@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - visible event log; browse a graveyard/exile pile from its pad | dmara's Claude | 2026-10-21 | Additive `Snapshot` fields (log lines, graveyard/exile card lists) + their reads in `StateReader`. `Table3D`: a new log overlay method, and a click on the GY/EXI pads opening `SearchPanel` read-only. Not the prompt bar, bug box or input suspension. |
 | `ui3d` - priority reminder raises Forge; typing leaks into the game | Xenil's Claude | 2026-10-21 | `play.ps1` turns `UI_REMIND_ON_PRIORITY` off under `-Ui3d`; `Table3D`/`BugReport` suspend 3D input while the bug dialog is open. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
