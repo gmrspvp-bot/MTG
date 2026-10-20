@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - seat hover highlight, and a notice for dialogs 3D cannot answer | Xenil's Claude | 2026-10-21 | `Table3D` (seat highlight + notice banner), `Gui3D` (observe `message`/`reveal`), `Snapshot` fields. Mirroring those dialogs, not taking them over. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

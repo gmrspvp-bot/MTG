@@ -122,6 +122,12 @@ public final class StateReader {
             s.okEnabled = p.okEnabled;
             s.cancelEnabled = p.cancelEnabled;
             s.selectableIds.addAll(p.selectable);
+            // Only recent dialogs: a stale title still showing minutes later would be worse
+            // than none, because it would say the game is waiting when it is not.
+            if (!p.forgeDialog.isEmpty()
+                    && System.currentTimeMillis() - p.forgeDialogAt < 20_000L) {
+                s.forgeDialog = p.forgeDialog;
+            }
             readPassed(game, s);
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.

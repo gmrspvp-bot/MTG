@@ -48,9 +48,7 @@ public class Ui3dBugReportTest {
         s.stack.add(onStack);
 
         BugReport r = new BugReport();
-        r.toggle();
-        for (char c : "the land will not play".toCharArray()) r.type(c);
-        File f = r.submit(s);
+        File f = r.submit(s, "the land will not play");
 
         if (f == null || !f.isFile()) { System.out.println("FAIL: no file written"); return; }
         String text = new String(Files.readAllBytes(f.toPath()), StandardCharsets.UTF_8);

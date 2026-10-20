@@ -32,37 +32,41 @@ public final class BugReport {
 
     private static final int MAX_CHARS = 600;
 
-    private boolean open;
-    private final StringBuilder text = new StringBuilder();
     private String lastSaved;
     private long lastSavedAt;
+    private volatile boolean asking;
 
     /** Screen rect of the cog, so the click test and the drawing cannot drift apart. */
     private final float[] cog = { 0f, 0f, 0f, 0f };
 
-    public boolean isOpen() {
-        return open;
-    }
-
-    public void toggle() {
-        open = !open;
-        if (open) text.setLength(0);
-    }
-
-    public void close() {
-        open = false;
-    }
-
-    /** Characters from libGDX's keyTyped. Only meaningful while the box is open. */
-    public void type(char c) {
-        if (!open) return;
-        if (c == '\r' || c == '\n') return;                 // Enter submits, handled by the caller
-        if (c == '\b') {
-            if (text.length() > 0) text.deleteCharAt(text.length() - 1);
-            return;
+    /**
+     * Opens a real text box and writes the report when it is answered.
+     *
+     * The first version drew its own box and collected characters from libGDX's keyTyped. It
+     * opened, and then nothing could be typed into it - and an in-window text field also has to
+     * reimplement a caret, selection, backspace and paste before it is as good as the one every
+     * other program already has. libGDX provides getTextInput for exactly this, which on desktop
+     * puts up a proper dialog, so the typing problem and the readability problem both go away by
+     * not writing a text field at all.
+     */
+    public void ask(final Snapshot snap) {
+        if (asking) return;
+        asking = true;
+        try {
+            Gdx.input.getTextInput(new com.badlogic.gdx.Input.TextInputListener() {
+                @Override public void input(String text) {
+                    asking = false;
+                    submit(snap, text == null ? "" : text);
+                }
+                @Override public void canceled() {
+                    asking = false;
+                }
+            }, "Report a bug - the board state is attached automatically",
+               "", "what went wrong?");
+        } catch (Throwable t) {
+            asking = false;
+            System.out.println("UI3D: could not open the bug box (" + t + ")");
         }
-        if (c < ' ') return;
-        if (text.length() < MAX_CHARS) text.append(c);
     }
 
     /** Is the mouse over the cog right now? */
@@ -72,80 +76,43 @@ public final class BugReport {
 
     // ---- drawing --------------------------------------------------------------------------------
 
-    /** The cog itself, top right. Drawn every frame whether or not the box is open. */
+    /** The cog, top right. Bigger and brighter than the first attempt, which was hard to pick out. */
     public void drawCog(ShapeRenderer shapes, SpriteBatch ui, BitmapFont font, int w, int h, Matrix4 flat) {
-        float size = 26f, x = w - size - 14f, y = h - size - 14f;
+        float size = 34f, x = w - size - 16f, y = h - size - 16f;
         cog[0] = x; cog[1] = y; cog[2] = size; cog[3] = size;
-        boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY()) || open;
+        boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY());
 
         Gdx.gl.glEnable(GL20.GL_BLEND);
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(hot ? 0.90f : 0.62f, hot ? 0.22f : 0.14f, hot ? 0.18f : 0.12f, 0.95f);
+        shapes.setColor(hot ? 0.98f : 0.74f, hot ? 0.30f : 0.16f, hot ? 0.24f : 0.14f, 1f);
         shapes.rect(x, y, size, size);
-        // Four teeth and a hole: enough to read as a cog at this size without a texture.
         shapes.setColor(0.03f, 0.08f, 0.12f, 1f);
-        shapes.rect(x + 11f, y + 4f, 4f, size - 8f);
-        shapes.rect(x + 4f, y + 11f, size - 8f, 4f);
-        shapes.setColor(hot ? 1f : 0.80f, 0.55f, 0.45f, 1f);
-        shapes.rect(x + 10f, y + 10f, 6f, 6f);
+        shapes.rect(x + 14f, y + 5f, 6f, size - 10f);
+        shapes.rect(x + 5f, y + 14f, size - 10f, 6f);
+        shapes.setColor(1f, hot ? 0.80f : 0.62f, hot ? 0.70f : 0.52f, 1f);
+        shapes.rect(x + 13f, y + 13f, 8f, 8f);
         shapes.end();
     }
 
-    /** The box, when open. Call inside a SpriteBatch pass; shapes are drawn first via drawBox. */
-    public void drawBoxShapes(ShapeRenderer shapes, int w, int h, Matrix4 flat) {
-        if (!open) return;
-        float bw = 560f, bh = 220f, x = w - bw - 14f, y = h - bh - 50f;
-        Gdx.gl.glEnable(GL20.GL_BLEND);
-        shapes.setProjectionMatrix(flat);
-        shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(0.04f, 0.06f, 0.09f, 0.96f);
-        shapes.rect(x, y, bw, bh);
-        shapes.setColor(0.78f, 0.22f, 0.18f, 1f);
-        shapes.rect(x, y + bh - 3f, bw, 3f);
-        shapes.setColor(0.02f, 0.10f, 0.14f, 1f);
-        shapes.rect(x + 14f, y + 54f, bw - 28f, bh - 96f);     // the text area
-        shapes.end();
-    }
-
-    public void drawBoxText(SpriteBatch ui, BitmapFont font, BitmapFont fontBig, int w, int h) {
-        if (!open) return;
-        float bw = 560f, bh = 220f, x = w - bw - 14f, y = h - bh - 50f;
-
-        fontBig.setColor(1f, 0.72f, 0.62f, 1f);
-        fontBig.draw(ui, "Report a bug", x + 16f, y + bh - 16f);
-        font.setColor(0.62f, 0.70f, 0.78f, 1f);
-        font.draw(ui, "What went wrong? The board state is attached automatically.",
-            x + 16f, y + bh - 40f);
-
-        font.setColor(0.86f, 0.92f, 0.98f, 1f);
-        String shown = text.length() == 0 ? "" : text.toString();
-        font.draw(ui, shown + "_", x + 24f, y + bh - 68f, bw - 48f, -1, true);
-
-        font.setColor(0.52f, 0.62f, 0.72f, 1f);
-        font.draw(ui, "ENTER saves     ESC cancels     " + text.length() + "/" + MAX_CHARS,
-            x + 16f, y + 22f);
-
-        if (lastSaved != null && System.currentTimeMillis() - lastSavedAt < 6000) {
-            font.setColor(0.55f, 0.90f, 0.60f, 1f);
-            font.draw(ui, "saved: " + lastSaved, x + 16f, y - 6f);
+    /** The hover label and the saved confirmation. */
+    public void drawCogText(SpriteBatch ui, BitmapFont font, int w, int h) {
+        boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY());
+        if (hot) {
+            font.setColor(1f, 0.78f, 0.70f, 1f);
+            font.draw(ui, "report a bug", w - 150f, h - 58f);
         }
-    }
-
-    /** Shown briefly after saving, even once the box has closed. */
-    public void drawToast(SpriteBatch ui, BitmapFont font, int w, int h) {
-        if (open || lastSaved == null) return;
-        if (System.currentTimeMillis() - lastSavedAt > 6000) return;
-        font.setColor(0.55f, 0.90f, 0.60f, 1f);
-        font.draw(ui, "bug report saved: " + lastSaved, w - 520f, h - 50f);
+        if (lastSaved != null && System.currentTimeMillis() - lastSavedAt < 8000) {
+            font.setColor(0.55f, 0.92f, 0.62f, 1f);
+            font.draw(ui, "bug report saved: " + lastSaved, w - 400f, h - 76f);
+        }
     }
 
     // ---- writing --------------------------------------------------------------------------------
 
     /** Writes the report and closes the box. Returns the file, or null if it could not be written. */
-    public File submit(Snapshot snap) {
-        String what = text.toString().trim();
-        open = false;
+    public File submit(Snapshot snap, String typed) {
+        String what = typed == null ? "" : typed.trim();
         try {
             File dir = reportDir();
             if (!dir.isDirectory() && !dir.mkdirs()) return null;

@@ -125,6 +125,13 @@ public final class Gui3D implements InvocationHandler {
          * race the probe proved is real.
          */
         public volatile Object token;
+        /**
+         * The last dialog Forge put up that the 3D window has no answer for - its own message and
+         * reveal boxes. Mirrored, not taken over: the 3D side says one is waiting and where, which
+         * is safe, rather than blocking the game on a list whose element type it cannot know.
+         */
+        public volatile String forgeDialog = "";
+        public volatile long forgeDialogAt;
     }
 
     public static final Prompt PROMPT = new Prompt();
@@ -333,6 +340,16 @@ public final class Gui3D implements InvocationHandler {
             case "clearSelectables":
                 PROMPT.selectable = new ArrayList<>();
                 selectableViews = new java.util.LinkedHashMap<>();
+                break;
+            case "message":
+            case "reveal":
+                // Both put a modal box in Forge's window. Noting it is the whole point: without
+                // this the 3D window sits there looking idle while the game waits on a dialog
+                // the player may not even have noticed.
+                if (args != null && args.length >= 1 && args[0] instanceof String) {
+                    PROMPT.forgeDialog = (String) args[0];
+                    PROMPT.forgeDialogAt = System.currentTimeMillis();
+                }
                 break;
             default:
                 break;

@@ -177,6 +177,8 @@ public final class Snapshot {
     public boolean cancelEnabled;
     /** Card ids Forge says may be clicked right now. */
     public final List<Integer> selectableIds = new ArrayList<>();
+    /** A dialog waiting in Forge's own window that the 3D side cannot answer. Empty if none. */
+    public String forgeDialog = "";
     public String turnLabel = "";
     /** Drives the camera: combat or targeting lifts the view to look down on the whole table. */
     public boolean combat;

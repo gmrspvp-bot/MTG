@@ -65,6 +65,7 @@ public final class Table3D extends ApplicationAdapter {
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
     private Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
     private Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
+    private Model seatGlowModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
     private ModelInstance tableInst;
@@ -217,6 +218,8 @@ public final class Table3D extends ApplicationAdapter {
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.82f, 0.45f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
+        seatGlowModel = builder.createBox(2.5f, 0.06f, 1.7f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.82f, 0.32f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
         // Band slabs, one unit wide so placeBand can scale them to the row's length. The colours
         // are only just off the table: enough to group, not enough to compete with the cards.
@@ -261,13 +264,6 @@ public final class Table3D extends ApplicationAdapter {
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
             // Typed characters only matter to the bug box; everything else this view needs is
             // polled, so this handler stays tiny.
-            @Override public boolean keyTyped(char c) {
-                if (!bug.isOpen()) return false;
-                // 13 and 10 rather than character escapes: Enter submits.
-                if (c == 13 || c == 10) { bug.submit(snap); return true; }
-                bug.type(c);
-                return true;
-            }
             @Override public boolean scrolled(float amountX, float amountY) {
                 if (search.isOpen()) {
                     search.scrollBy(amountY);
@@ -329,6 +325,15 @@ public final class Table3D extends ApplicationAdapter {
             ModelInstance ring = new ModelInstance(hoverModel);
             ring.transform.set(hovered.inst.transform).translate(0f, -CARD_THICK * 1.5f, 0f);
             modelBatch.render(ring, env);
+        } else if (hoveredSeat >= 0 && hoveredSeat < seatPick.size()) {
+            // A slab behind the hovered player's screen. Clicking a seat picks that player and
+            // nothing said so; a monitor that lights up does.
+            BoundingBox b = seatPick.get(hoveredSeat);
+            Vector3 c = new Vector3();
+            b.getCenter(c);
+            ModelInstance glow = new ModelInstance(seatGlowModel);
+            glow.transform.setToTranslation(c.x, c.y - 0.12f, c.z);
+            modelBatch.render(glow, env);
         }
         for (Drawn d : drawn) {
             if (d.marker != null) modelBatch.render(d.marker, env);
@@ -398,14 +403,9 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     private void handleInput() {
-        // The cog is always live, so a bug can be reported whatever else is happening.
-        if (clickedCog()) { bug.toggle(); return; }
-        // While the bug box is open it owns the keyboard: ESC closes it rather than releasing the
-        // camera, and typing must not also be read as camera keys.
-        if (bug.isOpen()) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) bug.close();
-            return;
-        }
+        // The cog is always live, so a bug can be reported whatever else is happening. It opens
+        // a proper text dialog rather than an in-window field, so there is no typing state here.
+        if (clickedCog()) { bug.ask(snap); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
@@ -422,7 +422,7 @@ public final class Table3D extends ApplicationAdapter {
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
-        if (clickedCard() && Gui3D.active() && !bug.isOpen()) {
+        if (clickedCard() && Gui3D.active()) {
             if (hovered != null) {
                 if (!Gui3D.clickCard(hovered.card.id)) {
                     System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
@@ -1372,8 +1372,20 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, a, w - 190, 18);
         }
         drawPhasePanel(w, h);
-        bug.drawBoxText(ui, font, fontBig, w, h);
-        bug.drawToast(ui, font, w, h);
+        bug.drawCogText(ui, font, w, h);
+        if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {
+            font.setColor(1f, 0.86f, 0.42f, 1f);
+            font.draw(ui, "click to choose " + snap.seats.get(hoveredSeat).name,
+                Gdx.input.getX() + 16f, h - Gdx.input.getY() - 6f);
+        }
+        if (!snap.forgeDialog.isEmpty()) {
+            // Forge has a modal box open that this window cannot answer. Saying so beats the 3D
+            // window looking idle while the game waits on something the player has not seen.
+            font.setColor(1f, 0.70f, 0.35f, 1f);
+            font.draw(ui, "Forge is asking: " + snap.forgeDialog, 14f, 62f);
+            font.setColor(0.70f, 0.56f, 0.40f, 1f);
+            font.draw(ui, "answer it in Forge's own window", 14f, 46f);
+        }
         drawSeatInfo(w, h);
         drawPhaseOnTable();
         drawZoneLabels();
@@ -1382,9 +1394,8 @@ public final class Table3D extends ApplicationAdapter {
         ui.end();
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
-        if (hovered != null && !bug.isOpen()) drawDetailPanel(w, h, flat);
+        if (hovered != null) drawDetailPanel(w, h, flat);
         bug.drawCog(shapes, ui, font, w, h, flat);
-        bug.drawBoxShapes(shapes, w, h, flat);
     }
 
     /**
@@ -1984,6 +1995,7 @@ public final class Table3D extends ApplicationAdapter {
         monitorModel.dispose();
         selectModel.dispose();
         hoverModel.dispose();
+        seatGlowModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();
