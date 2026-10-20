@@ -43,7 +43,7 @@ public final class Gui3D implements InvocationHandler {
      * fall back on if the 3D window cannot answer.
      */
     private static final Set<String> TAKEN_OVER = new LinkedHashSet<>(
-        java.util.Arrays.asList("confirm", "reveal"));
+        java.util.Arrays.asList("confirm", "reveal", "message"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -260,6 +260,7 @@ public final class Gui3D implements InvocationHandler {
         // Observe a few calls on the way past. This never changes what is forwarded, and a
         // failure here must not break the game, so it is swallowed separately.
         try {
+            disarmFocusTheft();
             observe(method.getName(), args);
         } catch (Throwable ignored) {
             // the mirror is cosmetic
@@ -378,6 +379,10 @@ public final class Gui3D implements InvocationHandler {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
         if ("reveal".equals(method.getName())) return takeReveal(args);
+        // message() is Forge's modal "here is something you should know" box. Taking it over is
+        // the same bargain as reveal - display and return, no decision - and it removes another
+        // thing that raised Forge's window over the 3D one in the middle of a turn.
+        if ("message".equals(method.getName())) return takeMessage(args);
         if (!"confirm".equals(method.getName())) return NOT_HANDLED;
         try {
             String question = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
@@ -452,6 +457,72 @@ public final class Gui3D implements InvocationHandler {
             System.out.println("UI3D: reveal failed, letting Forge show it (" + t + ")");
             revealing = null;
             return NOT_HANDLED;
+        }
+    }
+
+    /**
+     * Forge's message box, shown in the 3D window. args are (text) or (text, title).
+     */
+    private Object takeMessage(Object[] args) {
+        try {
+            String text = args.length > 0 && args[0] instanceof String ? (String) args[0] : "";
+            String title = args.length > 1 && args[1] instanceof String ? (String) args[1] : "Forge";
+            if (text.isEmpty()) return NOT_HANDLED;
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            Snapshot.CardV v = new Snapshot.CardV();
+            v.name = text;
+            items.add(v);
+            Handoff<Boolean> h = Handoff.start("message: " + title);
+            revealing = new Reveal(title, items, h);
+            try {
+                h.awaitOr(() -> Boolean.TRUE);
+            } finally {
+                revealing = null;
+            }
+            return null;
+        } catch (Throwable t) {
+            revealing = null;
+            return NOT_HANDLED;
+        }
+    }
+
+    /** -Dforge.ui3d.nofocus=false puts Forge's focus behaviour back. */
+    private static final boolean STOP_FOCUS_THEFT =
+        !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.nofocus", "true"));
+    private static volatile boolean focusDisarmed;
+
+    /**
+     * Stop Forge's window pulling itself in front of the 3D one.
+     *
+     * CPrompt focuses its OK button whenever a decision arrives - it keeps a `focusOnEnable`
+     * listener and a `lastFocusedButton` for exactly that. Focusing a component raises its
+     * window, so every new prompt yanked the player out of the window they were playing in,
+     * several times a turn.
+     *
+     * A button that is not focusable cannot be focused, so the request becomes a no-op and the
+     * window stays where it is. Clicking Forge's buttons still works, which matters because
+     * Forge's window is the fallback for everything not yet taken over; only keyboard focus is
+     * given up, and the 3D window has its own keys.
+     *
+     * Done once, lazily, because the prompt's buttons do not exist until a match is built.
+     */
+    private void disarmFocusTheft() {
+        if (!STOP_FOCUS_THEFT || focusDisarmed) return;
+        try {
+            Object cprompt = original.getClass().getMethod("getCPrompt").invoke(original);
+            if (cprompt == null) return;
+            Object view = cprompt.getClass().getMethod("getView").invoke(cprompt);
+            if (view == null) return;
+            for (String getter : new String[] { "getBtnOK", "getBtnCancel" }) {
+                Object btn = view.getClass().getMethod(getter).invoke(view);
+                if (btn instanceof javax.swing.JComponent) {
+                    ((javax.swing.JComponent) btn).setFocusable(false);
+                }
+            }
+            focusDisarmed = true;
+            System.out.println("UI3D: Forge's prompt buttons will no longer grab focus");
+        } catch (Throwable t) {
+            // Not fatal: the window just keeps raising itself, as it did before.
         }
     }
 

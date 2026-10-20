@@ -59,6 +59,7 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 |---|---|
 | `-Dforge.ui3d=true` | Opens the 3D window (set by `play.ps1 -Ui3d`) |
 | `-Dforge.ui3d.pics=<dir>` | Override where card art is read from |
+| `-Dforge.ui3d.nofocus=false` | Let Forge's prompt buttons take keyboard focus again (they raise its window) |
 | `-Dforge.ui3d.shots=<dir>` | Save the frame as `shotNNN.png` every `forge.ui3d.shotEvery` seconds (default 0.5). For checking the view without looking at the screen: an agent can't see the window, and Windows screen capture comes out white for this GL surface. |
 
 ---
