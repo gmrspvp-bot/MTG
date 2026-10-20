@@ -136,6 +136,16 @@ if ($Skin -and $Skin -ne 'Default') {
 # because it depends on which window you are playing in, not on a one-time preference.
 if ($Ui3d) {
     $prefs = @($prefs | Where-Object { ($_ -split '=', 2)[0] -ne 'UI_REMIND_ON_PRIORITY' }) + 'UI_REMIND_ON_PRIORITY=false'
+    # YIELD_AUTO_PASS_NO_ACTIONS passes priority for you whenever Forge thinks you have nothing
+    # to do - InputPassPriority.checkHasAvailableActions() -> PlayerView.hasAvailableActions().
+    # It saves clicks in Forge's own window. In the 3D table it eats turns, because casting a
+    # mana rock taps you out and the rock is still on the stack, so at that instant you really
+    # do have no available actions: Forge passes the rest of the turn, and Sol Ring resolves
+    # into a turn that is already over. Three bug reports, two of them naming a mana rock
+    # (Sol Ring, Fellwar Stone). SPACE already passes here, so the clicks it saves are not
+    # worth the turns it costs. Per launch, like the reminder above - it depends on which
+    # window you are playing in, so Forge's own window keeps the setting dmara chose.
+    $prefs = @($prefs | Where-Object { ($_ -split '=', 2)[0] -ne 'YIELD_AUTO_PASS_NO_ACTIONS' }) + 'YIELD_AUTO_PASS_NO_ACTIONS=false'
 }
 
 $marker5 = Join-Path $root 'scratch\play-prefs-skin.done'
