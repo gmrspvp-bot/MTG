@@ -287,7 +287,7 @@ public final class Table3D extends TableInput {
         Gui3D.DamageAsk d = Gui3D.pendingDamage();
         if (d != null && d != shownDamage && !damage.isOpen()) {
             shownDamage = d;
-            damage.open(d.attacker, d.damage, d.blockers, d.lethal, false, (perBlocker, toPlayer) -> Gui3D.answerDamage(perBlocker));
+            damage.open(d.attacker, d.damage, d.blockers, d.lethal, d.trample, (perBlocker, toPlayer) -> Gui3D.answerDamage(perBlocker, toPlayer));
         }
         if (d == null && shownDamage != null && damage.isOpen()) { damage.close(); shownDamage = null; }
     }
@@ -392,6 +392,11 @@ public final class Table3D extends TableInput {
         // A zone Forge opened for us to look at. Nothing is blocked on it, so closing the panel
         // simply clears it; Forge's own window is still showing the same zone.
         Gui3D.Peek peek = Gui3D.pendingPeek();
+        // Forge finished showing it (hideRevealedCards): the panel we opened for it closes too.
+        if (peek == null && shownPeek != null && search != null) {
+            if (search.isOpen()) search.close();
+            shownPeek = null;
+        }
         if (peek != null && search != null && Gui3D.pendingReveal() == null) {
             // Searching a library: Forge offers the cards you may take (setSelectables), and you
             // click them in its zone window. Here the panel then shows just those, pickable, and

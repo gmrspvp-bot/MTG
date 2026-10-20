@@ -59,7 +59,13 @@ public final class Gui3D implements InvocationHandler {
                                 "openZones",
                                 // 2026-10-21, working through the census: Forge's own generic
                                 // dialogs. Each one was a modal box in the other window.
-                                "showConfirmDialog", "showOptionDialog", "showInputDialog"));
+                                "showConfirmDialog", "showOptionDialog", "showInputDialog",
+                                // 2026-10-21 (Stoneforge, census "windows of Forge's own"): the
+                                // void calls that put something of Forge's on screen. Error box
+                                // -> the 3D message panel; the two reminder flashes -> nothing
+                                // (the 3D window has its own toasts); revealed cards -> mirrored
+                                // like an opened zone instead of Forge's floating zone window.
+                                "showErrorDialog", "alertUser", "flashIncorrectAction", "showRevealedCards"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -881,6 +887,37 @@ public final class Gui3D implements InvocationHandler {
     }
 
     /**
+     * showRevealedCards(cards): CMatchUI opens Forge's floating zone window over whatever zones
+     * hold them. Mirrored as a Peek titled "Revealed" instead (the search panel shows it, as for
+     * openZones), and Forge's window stays shut. A card Forge would not show us stays face down.
+     * Nothing comes back from this call, so nothing is blocked. hideRevealedCards (observe)
+     * closes the mirror. If there is nothing to show, Forge does it as before.
+     */
+    private Object takeRevealedCards(Object[] args) {
+        try {
+            if (args == null || args.length < 1 || !(args[0] instanceof Iterable)) return NOT_HANDLED;
+            forge.game.player.PlayerView viewer = pch == null ? null : pch.getLocalPlayerView();
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            for (Object o : (Iterable<?>) args[0]) {
+                if (!(o instanceof CardView)) continue;
+                CardView cv = (CardView) o;
+                remember(cv.getId(), cv);
+                boolean show;
+                try { show = viewer == null || cv.canBeShownTo(viewer); } catch (Throwable e) { show = false; }
+                Snapshot.CardV v = show ? describe(cv, cv.getName()) : new Snapshot.CardV();
+                v.id = cv.getId();
+                if (!show) { v.faceDown = true; v.typeLine = "Creature"; v.creature = true; }
+                items.add(v);
+            }
+            if (items.isEmpty()) return NOT_HANDLED;
+            peeking = new Peek(REVEALED_TITLE, items);
+            return null;                                  // void: Forge's window stays shut
+        } catch (Throwable t) {
+            return NOT_HANDLED;
+        }
+    }
+
+    /**
      * showInputDialog(message, title, icon, initial, choices, isNumeric) -> what was typed.
      *
      * Only the LIST form is taken: with `choices` the question is "pick one of these", which is
@@ -931,6 +968,7 @@ public final class Gui3D implements InvocationHandler {
             return null;
         }
     }
+    static final String REVEALED_TITLE = "Revealed";
 
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
@@ -963,6 +1001,17 @@ public final class Gui3D implements InvocationHandler {
                 return takeOptionDialog(method, args);
             case "showInputDialog":
                 return takeInputDialog(method, args);
+            case "showErrorDialog":
+                // Forge's modal error box (SOptionPane.showErrorDialog): (message[, title]) - the
+                // same shape, and the same "read it, then carry on", as message().
+                return takeMessage(args);
+            case "alertUser":
+            case "flashIncorrectAction":
+                // CPrompt.alert / CPrompt.remind: a flash on Forge's prompt, meant to draw the eye
+                // to Forge's window - the opposite of what is wanted while playing in 3D.
+                return null;
+            case "showRevealedCards":
+                return takeRevealedCards(args);
             default:
                 break;
         }
@@ -1498,6 +1547,8 @@ public final class Gui3D implements InvocationHandler {
         public final java.util.List<Snapshot.CardV> blockers;
         public final int[] lethal;
         public final int damage;
+        /** Trample (Forge passed a defender): the rest may go to the player - DamagePanel's Player column. */
+        public boolean trample;
         final java.util.List<CardView> views;
         final Handoff<int[]> handoff;
         DamageAsk(Snapshot.CardV attacker, java.util.List<Snapshot.CardV> blockers, int[] lethal, int damage,
@@ -1505,6 +1556,19 @@ public final class Gui3D implements InvocationHandler {
             this.attacker = attacker; this.blockers = blockers; this.lethal = lethal; this.damage = damage;
             this.views = views; this.handoff = h;
         }
+    }
+
+    /**
+     * The answer with trample: per blocker, then the player's share as one extra last element.
+     * (answerDamage(int[]) is the same without the player.)
+     */
+    public static void answerDamage(int[] perBlocker, int toPlayer) {
+        DamageAsk d = damageAsk;
+        if (d == null) return;
+        if (!d.trample || perBlocker == null) { answerDamage(perBlocker); return; }
+        int[] all = java.util.Arrays.copyOf(perBlocker, perBlocker.length + 1);
+        all[perBlocker.length] = Math.max(0, toPlayer);
+        d.handoff.answer(all);
     }
 
     private static volatile DamageAsk damageAsk;
@@ -1526,8 +1590,12 @@ public final class Gui3D implements InvocationHandler {
      */
     private Object takeDamage(Object[] args) {
         try {
-            if (args.length < 4 || args[3] != null) return NOT_HANDLED;
+            if (args.length < 4) return NOT_HANDLED;
             if (!(args[0] instanceof CardView) || !(args[1] instanceof java.util.List) || !(args[2] instanceof Integer)) return NOT_HANDLED;
+            // Trample (2026-10-21): Forge passes the defender, and its own dialog
+            // (VAssignCombatDamage.getDamageMap, read in the jar) returns the defender's share
+            // under the NULL key - a damage target with no card. Answered the same way here.
+            boolean trample = args[3] != null;
             CardView att = (CardView) args[0];
             java.util.List<CardView> views = new ArrayList<>();
             for (Object o : (java.util.List<?>) args[1]) if (o instanceof CardView) views.add((CardView) o);
@@ -1544,16 +1612,25 @@ public final class Gui3D implements InvocationHandler {
                 lethal[i] = deathtouch ? Math.min(1, Math.max(0, l)) : Math.max(0, l);
             }
             Handoff<int[]> h = Handoff.start("damage: " + att.getName());
-            damageAsk = new DamageAsk(describe(att, att.getName()), bl, lethal, dmg, views, h);
+            DamageAsk ask = new DamageAsk(describe(att, att.getName()), bl, lethal, dmg, views, h);
+            ask.trample = trample;
+            damageAsk = ask;
             int[] out;
             try {
                 out = h.awaitOr(() -> null);
             } finally {
                 damageAsk = null;
             }
-            if (out == null || out.length != views.size()) return NOT_HANDLED;
+            int n = views.size();
+            if (out == null || out.length != n + (trample ? 1 : 0)) return NOT_HANDLED;
+            // Trample's rule: nothing to the player until every blocker has lethal. Forge's dialog
+            // enforces it; a split that breaks it goes back to that dialog rather than to the game.
+            if (trample && out[n] > 0) {
+                for (int i = 0; i < n; i++) if (out[i] < lethal[i]) return NOT_HANDLED;
+            }
             java.util.Map<CardView, Integer> map = new java.util.LinkedHashMap<>();
-            for (int i = 0; i < views.size(); i++) map.put(views.get(i), out[i]);
+            for (int i = 0; i < n; i++) map.put(views.get(i), out[i]);
+            if (trample) map.put(null, out[n]);
             return map;
         } catch (Throwable t) {
             damageAsk = null;
@@ -1613,6 +1690,9 @@ public final class Gui3D implements InvocationHandler {
     private static void noteFallback(Method m) {
         try {
             String n = m.getName();
+            // Taken over = the 3D window owns it (when it falls back to Forge anyway, that is the
+            // Handoff's own log line). Checked before the void mark below, which would hide the name.
+            if (TAKEN_OVER.contains(n)) return;
             // Most void calls only redraw Forge's window. A few make it pop up a window of its own
             // - the floating zone viewer, an error box - which drags the player over to it, so
             // they count too, marked as such. Without this the tally said "the 3D window handled
@@ -1639,7 +1719,7 @@ public final class Gui3D implements InvocationHandler {
 
     /** Void IGuiGame calls that open a window of Forge's own rather than only redrawing it. */
     private static final java.util.Set<String> WINDOW_POPS = new java.util.HashSet<>(
-        java.util.Arrays.asList("openZones", "showErrorDialog"));
+        java.util.Arrays.asList("openZones", "showErrorDialog", "showRevealedCards"));
 
     /** "one x3, order x1" - for the bug report and the strict banner. Empty if none. */
     public static String fallbackSummary() {
@@ -1827,6 +1907,12 @@ public final class Gui3D implements InvocationHandler {
             case "openZones":
                 peekZone(args);
                 break;
+            case "hideRevealedCards": {
+                // Forge is done showing them: close our mirror of showRevealedCards (only that one).
+                Peek p = peeking;
+                if (p != null && REVEALED_TITLE.equals(p.title)) peeking = null;
+                break;
+            }
             case "message":
             case "reveal":
                 // Both put a modal box in Forge's window. Noting it is the whole point: without

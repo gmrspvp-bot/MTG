@@ -562,15 +562,29 @@ to the other window.
 Void, so **`-Strict` is blind to them** (`noteFallback` skips void as "display"). `openZones` hid
 here for days and was what kept dragging the owner to Forge's window.
 
-- [ ] `showErrorDialog(String)` / `showErrorDialog(String, String)` - modal error box.
-- [ ] `alertUser()` - flashes/raises Forge's window.
-- [ ] `flashIncorrectAction()` - same, on an illegal click.
-- [ ] `showWaitingTimer(PlayerView, String)` / `showCombat()` / `showRevealedCards` /
-      `hideRevealedCards` / `openView(PlayerView)` - check each: some only redraw Forge's panes
-      and can be ignored, others put something on screen.
-- [ ] **Teach `-Strict` to count these.** It only counts non-void, non-getter calls, so the one
-      category that has actually been biting is the one it cannot see. Until that is fixed, an
-      empty fallback tally does not mean "the 3D window handled everything".
+> **Done 2026-10-21 (Stoneforge)**, each checked against `CMatchUI` in the jar; all in
+> `Gui3D.TAKEN_OVER`; `Ui3dTakeoverTest` 29/29.
+
+- [x] `showErrorDialog(String)` / `showErrorDialog(String, String)` - modal error box
+      (`SOptionPane.showErrorDialog`). Now shown in the 3D message panel (`takeMessage`).
+- [x] `alertUser()` - `CPrompt.alert` (a reminder flash on Forge's prompt). Swallowed.
+- [x] `flashIncorrectAction()` - `CPrompt.remind`, same flash on an illegal click. Swallowed:
+      the 3D window already toasts why a click was refused.
+- [x] `showRevealedCards(cards)` - opened Forge's floating zone window (`tempShowZones`). Now
+      mirrored as a "Revealed" peek in the search panel and Forge's window stays shut;
+      `hideRevealedCards` closes the mirror (and the panel).
+- [x] `showCombat()` - only switches Forge's combat tab and redraws it. Left with Forge.
+      `showWaitingTimer` - not implemented by the desktop UI (interface default). `openView` -
+      builds Forge's match screen; the game needs it. Both left with Forge.
+- [x] **`-Strict` counts these.** Void calls that open a window of Forge's own (`openZones`,
+      `showErrorDialog`, `showRevealedCards`) count as "<name> (Forge window)" when they reach
+      Forge; taken-over ones do not count.
+
+**Trample** (was "left to Forge's dialog because how the defender's share is keyed could not
+be confirmed"): confirmed in the jar - `VAssignCombatDamage.getDamageMap` returns the defender's
+share under the **null** key. `takeDamage` now handles it: DamagePanel's Player column, the
+player's share under null; a split that gives the player damage before every blocker has lethal
+goes back to Forge's dialog instead.
 
 #### Getters - state, harmless (8)
 

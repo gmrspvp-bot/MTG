@@ -39,6 +39,8 @@ public class Ui3dTakeoverTest {
                             return new IGuiGame.OrderResult<>(Arrays.asList("FORGE"), false);
                         return Arrays.asList("FORGE");
                     case "assignCombatDamage": forgeAsked.set(true); return new java.util.HashMap<>();
+                    case "showErrorDialog": case "alertUser": case "flashIncorrectAction": case "showRevealedCards":
+                        forgeAsked.set(true); return null;
                     default: return defaultValue(m.getReturnType());
                 }
             });
@@ -104,11 +106,11 @@ public class Ui3dTakeoverTest {
         r = g.order("Sideboard", "Deck", 0, 3, abc, Arrays.asList("D"), null, true, false);
         check("order: two-list form stays with Forge", forgeAsked.get(), "forgeAsked=" + forgeAsked.get());
 
-        // assignCombatDamage with a defender (trample): left to Forge, at once.
+        // assignCombatDamage with no blockers to split between: nothing to ask, Forge does it.
         forgeAsked.set(false);
         long t0 = System.currentTimeMillis();
         g.assignCombatDamage(null, Arrays.asList(), 5, new forge.game.player.PlayerView(1, null), false, false);
-        check("damage with a defender stays with Forge", forgeAsked.get() && System.currentTimeMillis() - t0 < 300,
+        check("damage with nothing to split -> Forge", forgeAsked.get() && System.currentTimeMillis() - t0 < 300,
             "forgeAsked=" + forgeAsked.get());
 
         // getAbilityToPlay (2026-10-20): a card with two things it can do. Real abilities from a
@@ -151,6 +153,59 @@ public class Ui3dTakeoverTest {
         sas.get(1).set(forge.trackable.TrackableProperty.CanPlay, false);
         r = g.getAbilityToPlay(way.getView(), sas.subList(1, 2), null);
         check("ability: a trigger (no click) is never dropped", r == sas.get(1) && mtg3d.Gui3D.pendingChoice() == null, "result=" + r);
+
+        // ---- 2026-10-21 (Stoneforge): trample, and Forge's own windows -------------------------
+        // Trample: a 6-power attacker blocked by a 2/2. Lethal 2 to the blocker, 4 to the player,
+        // which Forge's own dialog returns under the NULL key (VAssignCombatDamage.getDamageMap).
+        forge.game.card.Card attacker = forge.game.card.Card.fromPaperCard(
+            forge.model.FModel.getMagicDb().getCommonCards().getCard("Colossal Dreadmaw"), game.getPlayers().get(0));
+        forge.game.card.Card bear = forge.game.card.Card.fromPaperCard(
+            forge.model.FModel.getMagicDb().getCommonCards().getCard("Grizzly Bears"), game.getPlayers().get(1));
+        forgeAsked.set(false);
+        final boolean[] sawTrample = { false };
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingDamage() == null; i++) sleep(5);
+            mtg3d.Gui3D.DamageAsk d = mtg3d.Gui3D.pendingDamage();
+            if (d != null) { sawTrample[0] = d.trample; mtg3d.Gui3D.answerDamage(new int[] { 2 }, 4); }
+        }).start();
+        Object m = g.assignCombatDamage(attacker.getView(), Arrays.asList(bear.getView()), 6,
+            game.getPlayers().get(1).getView(), false, false);
+        check("trample: panel has the player column", sawTrample[0], "");
+        check("trample: answered in 3D, player share under null",
+            m instanceof java.util.Map && !forgeAsked.get()
+            && Integer.valueOf(4).equals(((java.util.Map<?, ?>) m).get(null))
+            && Integer.valueOf(2).equals(((java.util.Map<?, ?>) m).get(bear.getView())), "result=" + m);
+        // A split that breaks trample's rule (player before the blocker has lethal) goes to Forge.
+        forgeAsked.set(false);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingDamage() == null; i++) sleep(5);
+            mtg3d.Gui3D.answerDamage(new int[] { 1 }, 5);
+        }).start();
+        g.assignCombatDamage(attacker.getView(), Arrays.asList(bear.getView()), 6,
+            game.getPlayers().get(1).getView(), false, false);
+        check("trample: illegal split -> Forge's dialog", forgeAsked.get(), "forgeAsked=" + forgeAsked.get());
+
+        // Forge's error box: shown in the 3D window (dismissed there), not Forge's.
+        forgeAsked.set(false);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingReveal() == null; i++) sleep(5);
+            mtg3d.Gui3D.dismissReveal();
+        }).start();
+        g.showErrorDialog("Something went wrong", "Error");
+        check("error box shown in 3D", !forgeAsked.get(), "forgeAsked=" + forgeAsked.get());
+        // The reminder flashes are swallowed.
+        forgeAsked.set(false);
+        g.alertUser();
+        g.flashIncorrectAction();
+        check("alert / flash do not reach Forge", !forgeAsked.get(), "forgeAsked=" + forgeAsked.get());
+        // Revealed cards: mirrored, Forge's zone window stays shut; hide closes the mirror.
+        forgeAsked.set(false);
+        g.showRevealedCards(Arrays.asList(bear.getView()));
+        mtg3d.Gui3D.Peek pk = mtg3d.Gui3D.pendingPeek();
+        check("revealed cards mirrored, not Forge's", pk != null && "Revealed".equals(pk.title) && !forgeAsked.get(),
+            pk == null ? "no peek" : pk.title + " " + pk.items.size());
+        g.hideRevealedCards();
+        check("hideRevealedCards closes it", mtg3d.Gui3D.pendingPeek() == null, "");
 
         System.out.println();
         System.out.println(pass ? "PASS" : "FAIL");

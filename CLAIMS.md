@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: Forge's own WINDOWS (census section 2: showErrorDialog, alertUser, flashIncorrectAction, showRevealedCards..., -Strict counting) + trample damage (assignCombatDamage with a defender) | Stoneforge | 2026-10-21 | Not the 7 decisions (Xenil's Claude has those). Touches `Gui3D` (separate methods), `DamagePanel`. |
 | ui3d: take the remaining IGuiGame DECISIONS off Forge's window | Xenil's Claude | 2026-10-21 | Owner: get everything off the Forge UI. The 7 in the census - showConfirmDialog, showOptionDialog, showInputDialog, assignGenericAmount, insertInList, manipulateCardList. `Gui3D` + panels. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 

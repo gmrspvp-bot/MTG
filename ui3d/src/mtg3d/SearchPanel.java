@@ -90,6 +90,14 @@ public final class SearchPanel {
         return open;
     }
 
+    /** Shut it without answering - what it showed has gone (Forge hid the revealed cards). */
+    public void close() {
+        if (open && !closing) {
+            closing = true;
+            result = null;
+        }
+    }
+
     /** True once it is far enough open to take input - see the note in the class comment. */
     private boolean live() {
         return open && !closing && anim > 0.85f;
