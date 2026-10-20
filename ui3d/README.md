@@ -513,6 +513,98 @@ to know before starting:
 
 ---
 
+### Everything Forge's window still answers (census, 2026-10-21)
+
+`IGuiGame` has **105 methods**. 24 are taken over. This is the rest, so "how much longer do we
+need Forge's window?" has an answer that can be checked rather than guessed. Regenerate with
+`javap -cp forge-gui-desktop-2.0.15-jar-with-dependencies.jar forge.gui.interfaces.IGuiGame`.
+
+Closing Forge's window needs the **decisions** done and the **windows** suppressed. The
+notifications can be ignored for as long as we like - the snapshot already carries what they
+announce.
+
+#### Decisions - Forge is asking the player something (7 names, 9 overloads)
+
+These are the ones that matter. Each one that is not taken over is a moment the player is pulled
+to the other window.
+
+- [ ] `showConfirmDialog(String, String)` and two more overloads -> `boolean`.
+      A yes/no with custom button labels. `Gui3D.Ask` already does exactly this for `confirm`;
+      this is the generic version, and should land in the same place.
+- [ ] `showOptionDialog(String, String, FSkinProp, String[], int)` -> `int`.
+      Pick one of N named buttons. `OptionPanel` is built for it.
+- [ ] `showInputDialog(String, String, FSkinProp, String, List, boolean)` -> `String`.
+      Free text, or a pick from a list. The list form is `OptionPanel`; the free-text form has
+      no panel yet and is the only place the 3D window would need a text field (see the note on
+      `getTextInput` in `BugReport` - libGDX's is not implemented, so this means Swing or our
+      own field).
+- [ ] `assignGenericAmount(CardView, Object[], int, boolean, String)` -> `Map<Object,Integer>`.
+      Split a number across several things. `DamagePanel` already does this shape for combat
+      damage and should generalise.
+- [ ] `insertInList(String, T, List<T>)` -> `List<T>`.
+      Put one item into an ordered list. `OrderPanel` is close but orders a whole list rather
+      than inserting into one.
+- [ ] `manipulateCardList(String, Iterable, Iterable, boolean, boolean, boolean)` -> `List<CardView>`.
+      The two-list drag-and-drop (the "select order for simultaneous abilities" dialog with the
+      **Auto** button the owner keeps meeting). The hardest of the set and the one with no panel.
+- [ ] `sideboard(CardPool, CardPool, String)` -> `List<PaperCard>`.
+      Never fires in Commander. Can stay with Forge indefinitely.
+
+#### Windows of Forge's own - must be suppressed, not just mirrored
+
+Void, so **`-Strict` is blind to them** (`noteFallback` skips void as "display"). `openZones` hid
+here for days and was what kept dragging the owner to Forge's window.
+
+- [ ] `showErrorDialog(String)` / `showErrorDialog(String, String)` - modal error box.
+- [ ] `alertUser()` - flashes/raises Forge's window.
+- [ ] `flashIncorrectAction()` - same, on an illegal click.
+- [ ] `showWaitingTimer(PlayerView, String)` / `showCombat()` / `showRevealedCards` /
+      `hideRevealedCards` / `openView(PlayerView)` - check each: some only redraw Forge's panes
+      and can be ignored, others put something on screen.
+- [ ] **Teach `-Strict` to count these.** It only counts non-void, non-getter calls, so the one
+      category that has actually been biting is the one it cannot see. Until that is fixed, an
+      empty fallback tally does not mean "the 3D window handled everything".
+
+#### Getters - state, harmless (8)
+
+`getGameView`, `getGameController`, `getDraftLog`, `getSpectator`, `getOriginalGameController`,
+`isUiSetToSkipPhase` (taken), `isCurrentPlayer`-style queries. Nothing to do.
+
+#### Notifications - safe to leave with Forge (the remaining ~55)
+
+Redraw and bookkeeping calls. The 3D window rebuilds its snapshot from the game's own event bus,
+so it already knows everything these announce; they can keep going to Forge's window forever
+without the player ever noticing.
+
+`afterGameEnd`, `applyDelta`, `applyYieldUpdate`, `awaitNextInput`, `cancelAwaitNextInput`,
+`clearSelectables`*, `clearWeaklySelectable`, `disableOverlay`, `enableOverlay`, `finishGame`,
+`handleGameEvent(s)`, `handleLandPlayed`, `hideManaPool`, `notifyStackAddition`,
+`notifyStackRemoval`, `refreshCardDetails`, `refreshField`, `refreshYieldUi`, `setCard`,
+`setCurrentPlayer`, `setGameController`*, `setGamePause`, `setGameSpeed`, `setGameView`,
+`setHighlighted`, `setNetGame`, `setOriginalGameController`, `setPanelSelection`,
+`setPlayerAvatar`, `setSelectables`*, `setSpectator`, `setWeaklySelectable`, `showManaPool`,
+`showPromptMessage`*, `updateAutoPassPrompt`, `updateButtons`*, `updateCard(s)`,
+`updateCardsNetSafe`, `updateDayTime`, `updateDependencies`, `updateDrawOffer`, `updateLives`,
+`updateManaPool`, `updatePhase`, `updatePlayerControl`, `updateRevealedCards`, `updateShards`,
+`updateStack`, `updateTurn`, `updateZones`.
+
+`*` = already **observed** on the way past (`Gui3D.observe`): these feed the prompt mirror, the
+selectable set and the controller, so they are doing work for us even though Forge still handles
+them.
+
+#### Not an IGuiGame method, but in the way
+
+- [x] **Forge's global key hook** - `FControl` is a `KeyEventDispatcher` on the
+      `KeyboardFocusManager`, so it saw every key in the JVM whichever window had focus. It ended
+      four of the owner's turns through the End Turn menu item and typed into Forge during bug
+      reports. Removed while the 3D table is running (2026-10-21), `-Dforge.ui3d.unhook=false`
+      puts it back.
+- [ ] **Focus theft on stack resolution** - reported repeatedly, cause still unknown. Not the
+      prompt buttons (disarmed) and not `UI_REMIND_ON_PRIORITY` (off). With the key hook gone,
+      worth re-testing before hunting further: it may have been the same thing all along.
+
+---
+
 ### Attended - needs someone playing
 
 > **Hooked up 2026-10-21 (owner asked), not yet play-tested - see `ui3d\TESTING.md`.**
