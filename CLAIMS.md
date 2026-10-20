@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - tokens, emblems and face-down cards read better at a glance | dmara's Claude | 2026-10-21 | `FaceMaker` (their generated faces) and `Table3D` decoration (`add()` markers, `drawCardBadges`); `Demo` gets a token, an emblem and a morph. No layout, input or prompt bar. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
