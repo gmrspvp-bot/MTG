@@ -17,6 +17,9 @@ import java.util.List;
  */
 public final class Demo {
 
+    /** Which lands start tapped. Fixed seed, so two runs of the demo render the same table. */
+    private static final java.util.Random TAP_DICE = new java.util.Random(7);
+
     public static void main(String[] args) {
         final Snapshot s = build();
         final long start = System.currentTimeMillis();
@@ -266,7 +269,7 @@ public final class Demo {
         int id = name.hashCode() & 0xffff;
         for (String l : lands) {
             Snapshot.CardV c = card(id++, l, "Land", false, true, "", "");
-            c.tapped = Math.random() < 0.35;
+            c.tapped = TAP_DICE.nextFloat() < 0.35f;   // seeded: the same lands every run, so screenshots compare
             v.lands.add(c);
         }
         boolean first = true;

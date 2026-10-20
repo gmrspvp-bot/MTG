@@ -72,7 +72,13 @@ The camera follows the turn by default. Arrow keys take over; `DOWN` hands it ba
 | `StateReader.java` | Forge `Game` → `Snapshot`. Only ever called on the game thread. |
 | `Bridge.java` | Subscribes to the game's event bus, publishes snapshots, opens the window. |
 | `CardArt.java` | Finds and loads card pictures from Forge's cache. |
-| `Table3D.java` | The view: table, seats, cards, camera, picking, hover panel, overlays. |
+| `Table3D.java` | The view's entry points: `create`, `render`, `resize`, `dispose`, screenshot mode. The top of the chain below. |
+| `TableBase.java` | **The view, split 2026-10-21** into a chain of abstract classes, each extending the one above it in this list. Base: all fields, `Drawn`/`Pose`, geometry and maths helpers. |
+| `TableCamera.java` | Seats, orbit, lift (seated/overhead), zoom: `updateCamera`, `setViewSeat`, `step`. |
+| `TableLayout.java` | `layout()` and every `place*` / `add`; attachments, command zone, hands, zones; the `ModelInstance` pool; the table surround. |
+| `TableScene.java` | 3D drawn after the cards: combat and target arcs (`ribbon`), the hanging scoreboard. |
+| `TableHud.java` | Every 2D overlay: phase panel, seat/zone labels, centre tracker, stack labels, card chips, prompt bar, yes/no banner, event log, game over, hover card. |
+| `TableInput.java` | `handleInput`, clicks on cards / seats / pads / buttons, `pick`. |
 | `SearchPanel.java` | The animated panel every search opens into. Presentation done; not yet wired to the game. |
 | `DeckLibrary.java` | Reads `decks\*.dck` for the lobby. Text parse, no card database. |
 | `FaceMaker.java` | Draws a card face for anything with no cached picture. Pure AWT. |
@@ -498,9 +504,7 @@ they land:
 - [ ] Keyword reminders in the hover panel (flying, deathtouch, ward ...), one line each.
 **Under the floor**
 
-- [ ] `Table3D` is ~1,900 lines holding camera, input, layout, picking and five overlays. Camera,
-      overlays and table layout are three clean seams, and every merge conflict so far has been in
-      this file.
+- [x] **`Table3D` split** - done 2026-10-21 (the owner asked). Seven files, one concern each, as a chain of abstract classes (see *How it is put together*). Moved, not rewritten: a line-by-line comparison shows only `private` removed, the `source` field and five section dividers changed; screenshots of five demo states are pixel-identical apart from animation timing. **Add new code to the file for its concern**; a lower layer that needs a higher one declares it `abstract` in `TableBase`. `scratch\probe\SplitTool.java` (member scanner) and `scratch\probe\ImageDiff.java` (screenshot diff) were used and are kept. The demo's tapped lands are now seeded, so screenshots of two runs compare.
 - [x] `layout()` allocations - done 2026-10-21. A per-model `ModelInstance` pool (`inst(Model)`, reset once a frame) at the ten per-frame placement sites; transforms and the card-picture material are overwritten on every reuse. Measured on the demo in combat with a 4 MB young generation: **56 young GCs per 12 s before, 20-26 after** (two runs each). The scoreboard and stack frame still allocate (they were under Xenil's claim); the remaining garbage is overlay text, vectors and colours.
 - [x] Screenshot mode - done 2026-10-20: `-Dforge.ui3d.shots=<dir>` (+ `shotEvery`) saves frames as PNGs; with the demo's `-Dforge.ui3d.demoPhase/demoLost/demoWinner` and `-Dforge.ui3d.hover=<card>` a known state renders with no game and no mouse.
 
