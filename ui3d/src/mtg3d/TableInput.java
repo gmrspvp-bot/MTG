@@ -351,6 +351,53 @@ abstract class TableInput extends TableHud {
                 }
                 options.open("Choose a player", "Target player draws two cards.", o, 1, 1, picked -> { });
                 break;
+            case "types": {
+                // The case that broke it: Unclaimed Territory asks for a creature type and Forge
+                // offers every one there is. Worth keeping as a sample, because any panel that
+                // handles this handles everything shorter.
+                String[] types = {
+                    "Advisor", "Aetherborn", "Alien", "Ally", "Angel", "Antelope", "Ape", "Archer", "Archon",
+                    "Armadillo", "Army", "Artificer", "Assassin", "Assembly-Worker", "Astartes", "Atog",
+                    "Aurochs", "Avatar", "Azra", "Badger", "Balloon", "Barbarian", "Bard", "Basilisk", "Bat",
+                    "Bear", "Beast", "Beaver", "Beeble", "Beholder", "Berserker", "Bird", "Blinkmoth", "Boar",
+                    "Bringer", "Brushwagg", "Camarid", "Camel", "Capybara", "Caribou", "Carrier", "Cat",
+                    "Centaur", "Cephalid", "Child", "Chimera", "Citizen", "Cleric", "Clown", "Cockatrice",
+                    "Construct", "Coward", "Coyote", "Crab", "Crocodile", "Custodes", "Cyberman", "Cyclops",
+                    "Dalek", "Dauthi", "Demigod", "Demon", "Deserter", "Detective", "Devil", "Dinosaur",
+                    "Djinn", "Doctor", "Dog", "Dragon", "Drake", "Dreadnought", "Drone", "Druid", "Dryad",
+                    "Dwarf", "Efreet", "Egg", "Elder", "Eldrazi", "Elemental", "Elephant", "Elf", "Elk",
+                    "Employee", "Eye", "Faerie", "Ferret", "Fish", "Flagbearer", "Fox", "Fractal", "Frog",
+                    "Fungus", "Gamer", "Gargoyle", "Germ", "Giant", "Gith", "Glimmer", "Gnoll", "Gnome",
+                    "Goat", "Goblin", "God", "Golem", "Gorgon", "Graveborn", "Gremlin", "Griffin", "Guest",
+                    "Hag", "Halfling", "Hamster", "Harpy", "Hellion", "Hippo", "Hippogriff", "Homarid",
+                    "Homunculus", "Horror", "Horse", "Human", "Hydra", "Hyena", "Illusion", "Imp",
+                    "Incarnation", "Inkling", "Inquisitor", "Insect", "Jackal", "Jellyfish", "Juggernaut",
+                    "Kavu", "Kirin", "Kithkin", "Knight", "Kobold", "Kor", "Kraken", "Llama", "Lamia",
+                    "Lammasu", "Leech", "Lemur", "Leviathan", "Lhurgoyf", "Licid", "Lizard", "Manticore",
+                    "Masticore", "Mercenary", "Merfolk", "Metathran", "Minion", "Minotaur", "Mite", "Mole",
+                    "Monger", "Mongoose", "Monk", "Monkey", "Moonfolk", "Mount", "Mouse", "Mutant", "Myr",
+                    "Mystic", "Nautilus", "Necron", "Nephilim", "Nightmare", "Nightstalker", "Ninja",
+                    "Noble", "Noggle", "Nomad", "Nymph", "Octopus", "Ogre", "Ooze", "Orb", "Orc", "Orgg",
+                    "Otter", "Ouphe", "Ox", "Oyster", "Pangolin", "Peasant", "Pegasus", "Pentavite",
+                    "Performer", "Pest", "Phelddagrif", "Phoenix", "Phyrexian", "Pilot", "Pincher",
+                    "Pirate", "Plant", "Porcupine", "Possum", "Praetor", "Primarch", "Prism", "Processor",
+                    "Rabbit", "Raccoon", "Ranger", "Rat", "Rebel", "Reflection", "Rhino", "Rigger", "Robot",
+                    "Rogue", "Sable", "Salamander", "Samurai", "Sand", "Saproling", "Satyr", "Scarecrow",
+                    "Scientist", "Scion", "Scorpion", "Scout", "Sculpture", "Serf", "Serpent", "Servo",
+                    "Shade", "Shaman", "Shapeshifter", "Shark", "Sheep", "Siren", "Skeleton", "Skunk",
+                    "Slith", "Sliver", "Sloth", "Slug", "Snail", "Snake", "Soldier", "Soltari", "Spawn",
+                    "Specter", "Spellshaper", "Sphinx", "Spider", "Spike", "Spirit", "Splinter", "Sponge",
+                    "Squid", "Squirrel", "Starfish", "Surrakar", "Survivor", "Synth", "Tentacle",
+                    "Tetravite", "Thalakos", "Thopter", "Thrull", "Tiefling", "Time Lord", "Toy",
+                    "Treefolk", "Trilobite", "Triskelavite", "Troll", "Turtle", "Tyranid", "Unicorn",
+                    "Vampire", "Varmint", "Vedalken", "Vehicle", "Volver", "Wall", "Walrus", "Warlock",
+                    "Warrior", "Weasel", "Weird", "Werewolf", "Whale", "Wizard", "Wolf", "Wolverine",
+                    "Wombat", "Worm", "Wraith", "Wurm", "Yeti", "Zombie", "Zubera",
+                };
+                for (String ty : types) o.add(new OptionPanel.Option(ty));
+                options.open("Choose a creature type", "Unclaimed Territory", o, 1, 1, picked -> { });
+                break;
+            }
             case "two":
                 o.add(new OptionPanel.Option("Counter target spell", "", null));
                 o.add(new OptionPanel.Option("Return target permanent to its owner's hand", "", null));

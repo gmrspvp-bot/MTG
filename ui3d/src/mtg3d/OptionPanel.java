@@ -102,17 +102,65 @@ public final class OptionPanel {
         if (r != null) r.chosen(out);
     }
 
+    /**
+     * Where the grid is, worked out once per frame and read by both the drawing and the hit
+     * testing, so a button is always clickable exactly where it is painted.
+     *
+     * The list used to be one column as tall as it needed to be. "Choose a creature type" hands
+     * us about 250 options, which made the panel thousands of pixels tall: most of it off screen
+     * at both ends, with no way to reach it (the owner, 2026-10-21). It now fits the screen,
+     * spills into columns, and scrolls.
+     */
+    private int lCols = 1, lRows = 1, lTotalRows = 1;
+    private float lBtnH = BTN_H, lGap = BTN_GAP, lColW = PANEL_W - 40f;
+    private float lPx, lPy, lW, lH, lListTop;
+    /** First visible grid row. Rows, not pixels: the grid is uniform, so there is no part row. */
+    private int scrollRow;
+
+    private void layout(int sw, int sh, float t) {
+        int n = Math.max(1, options.size());
+        // Past about twenty, being able to see the list at all matters more than big buttons.
+        boolean compact = options.size() > 18;
+        lBtnH = compact ? 34f : BTN_H;
+        lGap = compact ? 6f : BTN_GAP;
+        lColW = compact ? 230f : PANEL_W - 40f;
+        float headerH = 74f, footerH = single() ? 40f : 58f;
+        float maxW = sw - 80f, maxH = sh - 80f;
+        int maxCols = Math.max(1, (int) ((maxW - 40f + lGap) / (lColW + lGap)));
+        int rowsFit = Math.max(1, (int) ((maxH - headerH - footerH - 20f + lGap) / (lBtnH + lGap)));
+        lCols = Math.min(maxCols, Math.max(1, (int) Math.ceil(n / (double) rowsFit)));
+        lTotalRows = (int) Math.ceil(n / (double) lCols);
+        lRows = Math.min(rowsFit, lTotalRows);
+        int maxScroll = Math.max(0, lTotalRows - lRows);
+        if (scrollRow > maxScroll) scrollRow = maxScroll;
+        if (scrollRow < 0) scrollRow = 0;
+        float listH = lRows * (lBtnH + lGap) - lGap;
+        lW = 40f + lCols * lColW + (lCols - 1) * lGap;
+        lH = headerH + listH + footerH + 20f;
+        lPx = (sw - lW) / 2f;
+        lPy = (sh - lH) / 2f - (1f - t) * 120f;
+        lListTop = lPy + lH - headerH;
+    }
+
+    /** The option at a grid cell, or -1 past the end. Row major, so scrolling moves whole rows. */
+    private int indexAt(int row, int col) {
+        int i = (scrollRow + row) * lCols + col;
+        return i >= 0 && i < options.size() ? i : -1;
+    }
+
+    /** Mouse wheel, forwarded by the owner since libGDX delivers it through an InputProcessor. */
+    public void scrollBy(float amount) {
+        scrollRow += (int) Math.signum(amount) * Math.max(1, lRows / 3);
+    }
+
     public void render(SpriteBatch ui, ShapeRenderer shapes, BitmapFont font, BitmapFont fontBig) {
         if (!open) return;
         int sw = Gdx.graphics.getWidth(), sh = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, sw, sh);
         float t = anim * anim * (3f - 2f * anim);
-
-        float headerH = 74f, footerH = single() ? 40f : 58f;
-        float listH = options.size() * (BTN_H + BTN_GAP) - BTN_GAP;
-        float w = PANEL_W, h = headerH + listH + footerH + 20f;
-        float px = (sw - w) / 2f, py = (sh - h) / 2f - (1f - t) * 120f;
-        float listTop = py + h - headerH;
+        layout(sw, sh, t);
+        float px = lPx, py = lPy, w = lW, h = lH, listTop = lListTop;
+        boolean compact = options.size() > 18;
 
         if (live()) handleInput(px, listTop, w, py, sh);
 
@@ -126,18 +174,33 @@ public final class OptionPanel {
         shapes.rect(px, py, w, h);
         shapes.setColor(0.18f, 0.56f, 0.71f, t);
         shapes.rect(px, py + h - 4f, w, 4f);
-        for (int i = 0; i < options.size(); i++) {
-            float by = listTop - (i + 1) * BTN_H - i * BTN_GAP;
-            boolean sel = picked.contains(i);
-            if (sel) shapes.setColor(0.95f, 0.70f, 0.25f, t);
-            else if (i == hover) shapes.setColor(0.16f, 0.40f, 0.52f, t);
-            else shapes.setColor(0.07f, 0.17f, 0.24f, t);
-            shapes.rect(px + 20f, by, w - 40f, BTN_H);
-            Option o = options.get(i);
-            if (o.swatch != null) {
-                shapes.setColor(o.swatch.r, o.swatch.g, o.swatch.b, t);
-                shapes.rect(px + 30f, by + 12f, BTN_H - 24f, BTN_H - 24f);
+        for (int r = 0; r < lRows; r++) {
+            for (int c = 0; c < lCols; c++) {
+                int i = indexAt(r, c);
+                if (i < 0) continue;
+                float bx = px + 20f + c * (lColW + lGap);
+                float by = listTop - (r + 1) * lBtnH - r * lGap;
+                boolean sel = picked.contains(i);
+                if (sel) shapes.setColor(0.95f, 0.70f, 0.25f, t);
+                else if (i == hover) shapes.setColor(0.16f, 0.40f, 0.52f, t);
+                else shapes.setColor(0.07f, 0.17f, 0.24f, t);
+                shapes.rect(bx, by, lColW, lBtnH);
+                Option o = options.get(i);
+                if (o.swatch != null) {
+                    shapes.setColor(o.swatch.r, o.swatch.g, o.swatch.b, t);
+                    shapes.rect(bx + 10f, by + 10f, lBtnH - 20f, lBtnH - 20f);
+                }
             }
+        }
+        // A scrollbar, only when there is somewhere to scroll to.
+        if (lTotalRows > lRows) {
+            float trackH = lRows * (lBtnH + lGap) - lGap;
+            float thumbH = Math.max(24f, trackH * lRows / lTotalRows);
+            float at = scrollRow / (float) Math.max(1, lTotalRows - lRows);
+            shapes.setColor(0.10f, 0.24f, 0.32f, t);
+            shapes.rect(px + w - 14f, listTop - trackH, 5f, trackH);
+            shapes.setColor(0.35f, 0.62f, 0.76f, t);
+            shapes.rect(px + w - 14f, listTop - thumbH - at * (trackH - thumbH), 5f, thumbH);
         }
         shapes.end();
 
@@ -147,24 +210,31 @@ public final class OptionPanel {
         fontBig.draw(ui, title, px + 22f, py + h - 20f);
         font.setColor(0.60f, 0.76f, 0.88f, t);
         font.draw(ui, prompt, px + 22f, py + h - 48f);
-        GlyphLayout gl = new GlyphLayout();
-        for (int i = 0; i < options.size(); i++) {
-            Option o = options.get(i);
-            float by = listTop - (i + 1) * BTN_H - i * BTN_GAP;
-            boolean sel = picked.contains(i);
-            float tx = px + (o.swatch != null ? 30f + BTN_H - 14f : 34f);
-            // The number key that picks it, then the label, then any detail in a quieter colour.
-            if (i < 9) {
-                font.setColor(sel ? new Color(0.20f, 0.14f, 0.04f, t) : new Color(0.45f, 0.60f, 0.72f, t));
-                font.draw(ui, String.valueOf(i + 1), px + w - 46f, by + BTN_H / 2f + 6f);
-            }
-            fontBig.setColor(sel ? new Color(0.10f, 0.08f, 0.04f, t) : new Color(0.88f, 0.95f, 1f, t));
-            float labelY = o.detail.isEmpty() ? by + BTN_H / 2f + 9f : by + BTN_H - 12f;
-            fontBig.draw(ui, o.label, tx, labelY);
-            if (!o.detail.isEmpty()) {
-                font.setColor(sel ? new Color(0.22f, 0.16f, 0.06f, t) : new Color(0.58f, 0.72f, 0.82f, t));
-                gl.setText(font, o.detail);
-                font.draw(ui, o.detail, tx, by + 18f);
+        for (int r = 0; r < lRows; r++) {
+            for (int c = 0; c < lCols; c++) {
+                int i = indexAt(r, c);
+                if (i < 0) continue;
+                Option o = options.get(i);
+                float bx = px + 20f + c * (lColW + lGap);
+                float by = listTop - (r + 1) * lBtnH - r * lGap;
+                boolean sel = picked.contains(i);
+                float tx = bx + (o.swatch != null ? lBtnH + 4f : 14f);
+                // The number key that picks it: the first nine ON SCREEN, since the keys are a
+                // shortcut for what you can see, not an index into a list scrolled out of view.
+                int shown = r * lCols + c;
+                if (shown < 9) {
+                    font.setColor(sel ? new Color(0.20f, 0.14f, 0.04f, t) : new Color(0.45f, 0.60f, 0.72f, t));
+                    font.draw(ui, String.valueOf(shown + 1), bx + lColW - 16f, by + lBtnH / 2f + 6f);
+                }
+                BitmapFont lf = compact ? font : fontBig;
+                lf.setColor(sel ? new Color(0.10f, 0.08f, 0.04f, t) : new Color(0.88f, 0.95f, 1f, t));
+                boolean twoLine = !o.detail.isEmpty() && !compact;
+                float labelY = twoLine ? by + lBtnH - 12f : by + lBtnH / 2f + (compact ? 5f : 9f);
+                lf.draw(ui, o.label, tx, labelY);
+                if (twoLine) {
+                    font.setColor(sel ? new Color(0.22f, 0.16f, 0.06f, t) : new Color(0.58f, 0.72f, 0.82f, t));
+                    font.draw(ui, o.detail, tx, by + 18f);
+                }
             }
         }
         if (!single()) {
@@ -179,7 +249,10 @@ public final class OptionPanel {
             font.draw(ui, "Cancel", px + w - 200f, py + 34f);
         } else {
             font.setColor(0.35f, 0.50f, 0.62f, t);
-            font.draw(ui, "click or press a number   -   ESC cancels", px + 22f, py + 24f);
+            String hint = lTotalRows > lRows
+                ? options.size() + " options   -   scroll or PgUp/PgDn   -   ESC cancels"
+                : "click or press a number   -   ESC cancels";
+            font.draw(ui, hint, px + 22f, py + 24f);
         }
         ui.end();
     }
@@ -187,16 +260,30 @@ public final class OptionPanel {
     private void handleInput(float px, float listTop, float w, float py, int sh) {
         float mx = Gdx.input.getX(), my = sh - Gdx.input.getY();
         hover = -1;
-        for (int i = 0; i < options.size(); i++) {
-            float by = listTop - (i + 1) * BTN_H - i * BTN_GAP;
-            if (mx >= px + 20f && mx <= px + w - 20f && my >= by && my <= by + BTN_H) hover = i;
+        for (int r = 0; r < lRows; r++) {
+            for (int c = 0; c < lCols; c++) {
+                int i = indexAt(r, c);
+                if (i < 0) continue;
+                float bx = px + 20f + c * (lColW + lGap);
+                float by = listTop - (r + 1) * lBtnH - r * lGap;
+                if (mx >= bx && mx <= bx + lColW && my >= by && my <= by + lBtnH) hover = i;
+            }
         }
         okHover = !single() && mx >= px + w - 115f && mx <= px + w - 40f && my >= py + 16f && my <= py + 42f;
         cancelHover = !single() && mx >= px + w - 205f && mx <= px + w - 135f && my >= py + 16f && my <= py + 42f;
 
         if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
-        for (int k = 0; k < Math.min(9, options.size()); k++) {
-            if (Keys3D.just(Input.Keys.NUM_1 + k)) { toggle(k); return; }
+        // Keys as well as the wheel: a list this long is miserable to work with one input.
+        if (Keys3D.just(Input.Keys.DOWN)) scrollRow++;
+        if (Keys3D.just(Input.Keys.UP)) scrollRow--;
+        if (Keys3D.just(Input.Keys.PAGE_DOWN)) scrollRow += lRows;
+        if (Keys3D.just(Input.Keys.PAGE_UP)) scrollRow -= lRows;
+        if (Keys3D.just(Input.Keys.HOME)) scrollRow = 0;
+        if (Keys3D.just(Input.Keys.END)) scrollRow = Math.max(0, lTotalRows - lRows);
+        for (int k = 0; k < 9; k++) {
+            if (!Keys3D.just(Input.Keys.NUM_1 + k)) continue;
+            int i = indexAt(k / lCols, k % lCols);
+            if (i >= 0) { toggle(i); return; }
         }
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;

@@ -178,7 +178,10 @@ public final class Table3D extends TableInput {
                     numbers.scrollBy(amountY);
                     return true;
                 }
-                if (options.isOpen()) return true;
+                if (options.isOpen()) {
+                    options.scrollBy(amountY);
+                    return true;
+                }
                 // The wheel zooms the camera when no panel wants it; DOWN / HOME resets it.
                 zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * (1f + amountY * 0.1f)));
                 return true;
