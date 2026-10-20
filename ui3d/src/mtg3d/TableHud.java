@@ -87,6 +87,7 @@ abstract class TableHud extends TableScene {
         drawZoneLabels();
         drawCentreTracker();
         drawLifePops();
+        drawTargetBanner(w, h);
         drawStackLabels();
         ui.end();
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
@@ -725,6 +726,23 @@ abstract class TableHud extends TableScene {
         if (momentsPrimed && youActive && !lastYouActive) yourTurnAge = 0f;
         lastYouActive = youActive;
         if (!snap.seats.isEmpty()) momentsPrimed = true;
+    }
+
+    /** Targeting mode's instruction line, top centre, in the arc's violet. Inside the label pass. */
+    void drawTargetBanner(int w, int h) {
+        if (targeting == null) return;
+        GlyphLayout gl = new GlyphLayout();
+        String line = "Choose " + (targeting.max == 1 ? "a " : targeting.max + " ") + targeting.what
+            + "   (" + targeting.picked.size() + " of " + targeting.max + ")";
+        fontBig.getData().setScale(2.0f);
+        fontBig.setColor(0.80f, 0.62f, 1f, 1f);
+        gl.setText(fontBig, line);
+        fontBig.draw(ui, line, (w - gl.width) / 2f, h - 30f);
+        fontBig.getData().setScale(1.6f);
+        font.setColor(0.62f, 0.52f, 0.80f, 1f);
+        String sub = "click a glowing card   -   ESC cancels";
+        gl.setText(font, sub);
+        font.draw(ui, sub, (w - gl.width) / 2f, h - 72f);
     }
 
     /** The popups, inside the label pass. They rise and fade from the seat's centre monitor. */

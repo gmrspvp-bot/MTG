@@ -154,6 +154,29 @@ abstract class TableInput extends TableHud {
             case "menu":
                 openMenu();
                 break;
+            case "target": {
+                // Swords to Plowshares from the hand, at any opponent's creature.
+                Targeting tg = new Targeting();
+                tg.sourceId = 901;
+                tg.what = "creature an opponent controls";
+                for (Snapshot.SeatV s : snap.seats) {
+                    if (s.isYou) continue;
+                    for (Snapshot.CardV c : s.creatures) tg.legal.add(c.id);
+                }
+                targeting = tg;
+                break;
+            }
+            case "damage": {
+                Snapshot.SeatV me = snap.you();
+                Snapshot.CardV lyra = null;
+                for (Snapshot.CardV c : me.creatures) if (c.name.startsWith("Lyra")) lyra = c;
+                List<Snapshot.CardV> bl = new ArrayList<>();
+                for (Snapshot.SeatV s : snap.seats) if (!s.isYou && !s.creatures.isEmpty() && bl.size() < 2) bl.add(s.creatures.get(0));
+                int[] lethal = new int[bl.size()];
+                java.util.Arrays.fill(lethal, 4);
+                damage.open(lyra != null ? lyra : me.creatures.get(0), 7, bl, lethal, true, (a, p) -> { });
+                break;
+            }
             default:   // "x"
                 numbers.open("Choose X", "Wrath of the Skies: X energy, then pay any amount.", 0, 9, 3,
                     x -> "you pay {" + x + "}{W}{W}  -  total " + (x + 2) + " mana", v -> { });
@@ -183,6 +206,21 @@ abstract class TableInput extends TableHud {
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         if (panelOpen()) return;
+        // Targeting mode owns clicks and ESC: a click on a glowing card picks (or unpicks) it, the
+        // last pick finishes, ESC cancels. It consumes the click edge, so nothing below can also
+        // play a card from the same click; camera keys further down still work.
+        if (targeting != null) {
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { targeting = null; return; }
+            if (clickedCard() && hovered != null && targeting.legal.contains(hovered.card.id)) {
+                Integer id = hovered.card.id;
+                if (targeting.picked.contains(id)) targeting.picked.remove(id);
+                else if (targeting.picked.size() < targeting.max) targeting.picked.add(id);
+                if (targeting.picked.size() >= targeting.max) {
+                    System.out.println("UI3D: targets chosen " + targeting.picked + " (not wired yet)");
+                    targeting = null;
+                }
+            }
+        }
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
         // -Dforge.ui3d.openPile=<seat>,graveyard|exile: opens that pile once, for screenshot checks.
         if (OPEN_PILE != null && !pileOpened && frameNo > 30 && snap.seats.size() > 0) {

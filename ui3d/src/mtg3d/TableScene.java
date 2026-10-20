@@ -168,11 +168,39 @@ abstract class TableScene extends TableLayout {
         sbBuffer.end();
     }
 
+    /**
+     * Targeting mode: a violet arc from the source to the mouse - snapped to a legal target when
+     * the mouse is over one, otherwise to the spot on the table under the pointer - plus a fixed
+     * gold arc to each target already picked. The "aiming" half of a spell, before Forge has it.
+     */
+    void drawAimArc() {
+        if (targeting == null) return;
+        Pose from = poses.get(targeting.sourceId);
+        if (from == null) return;
+        for (int id : targeting.picked) {
+            Pose p = poses.get(id);
+            if (p != null) ribbon(from.x, from.y + 0.1f, from.z, p.x, p.y + 0.1f, p.z, 0.98f, 0.76f, 0.25f, 0.95f);
+        }
+        if (targeting.picked.size() >= targeting.max) return;
+        float tx, ty, tz;
+        if (hovered != null && targeting.legal.contains(hovered.card.id) && poses.containsKey(hovered.card.id)) {
+            Pose p = poses.get(hovered.card.id);
+            tx = p.x; ty = p.y + 0.1f; tz = p.z;
+        } else {
+            com.badlogic.gdx.math.collision.Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
+            if (Math.abs(ray.direction.y) < 1e-4f) return;
+            float k = -ray.origin.y / ray.direction.y;
+            if (k <= 0f) return;
+            tx = ray.origin.x + ray.direction.x * k; ty = 0.12f; tz = ray.origin.z + ray.direction.z * k;
+        }
+        ribbon(from.x, from.y + 0.1f, from.z, tx, ty, tz, 0.70f, 0.45f, 1f, 0.90f);
+    }
+
     void drawCombatArcs() {
         if (arcs == null) return;
         boolean anyTargets = false;
         for (Snapshot.CardV c : snap.stack) if (!c.targetIds.isEmpty() || !c.targetSeats.isEmpty()) anyTargets = true;
-        if (snap.combatArcs.isEmpty() && !anyTargets) return;
+        if (snap.combatArcs.isEmpty() && !anyTargets && targeting == null) return;
         arcClock += frameDt;
         int n = snap.seats.size();
         Gdx.gl.glEnable(GL20.GL_BLEND);
@@ -180,6 +208,7 @@ abstract class TableScene extends TableLayout {
         Gdx.gl.glDepthMask(false);
         arcs.begin(cam.combined, GL20.GL_TRIANGLES);
         drawTargetArcs(n);
+        drawAimArc();
         for (Snapshot.CombatArc a : snap.combatArcs) {
             Pose from = poses.get(a.attackerId);
             if (from == null) continue;

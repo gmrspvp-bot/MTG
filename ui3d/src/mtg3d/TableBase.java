@@ -111,11 +111,33 @@ abstract class TableBase extends ApplicationAdapter {
     /** Results and Rematch / Next / Quit when a game ends; opens by itself once per game. */
     final EndScreen endScreen = new EndScreen();
     boolean endShown;
+    /** Splitting an attacker's damage among blockers. Made in create(). */
+    DamagePanel damage;
+
+    /**
+     * Targeting mode (look only until wired to Forge's target selection): while set, legal
+     * targets glow violet, everything else on the battlefield dims, an arc follows the mouse from
+     * the source, and clicks pick targets instead of playing cards. Null when not targeting.
+     */
+    static final class Targeting {
+        int sourceId = Integer.MIN_VALUE;
+        final java.util.Set<Integer> legal = new java.util.HashSet<>();
+        final java.util.List<Integer> picked = new ArrayList<>();
+        int max = 1;
+        String what = "target";
+    }
+
+    Targeting targeting;
+    Model targetModel, pickedModel;
+    /** Shared, never mutated: the card picture at full brightness, and dimmed for a non-target. */
+    static final ColorAttribute FACE_LIT = ColorAttribute.createDiffuse(Color.WHITE);
+    static final ColorAttribute FACE_DIM = ColorAttribute.createDiffuse(new Color(0.38f, 0.38f, 0.42f, 1f));
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
     boolean panelOpen() {
         return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
-            || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen();
+            || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen()
+            || (damage != null && damage.isOpen());
     }
 
     final BugReport bug = new BugReport();

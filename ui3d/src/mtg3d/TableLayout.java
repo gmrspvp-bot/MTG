@@ -538,6 +538,16 @@ abstract class TableLayout extends TableCamera {
             d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.03f, 0f);
             d.face.materials.get(0).set(
                 com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
+            // Set every frame, lit or dim, because pooled face instances are reused across cards.
+            boolean dim = targeting != null && seat != null && !targeting.legal.contains(c.id);
+            d.face.materials.get(0).set(dim ? FACE_DIM : FACE_LIT);
+        }
+        // Targeting mode outranks the other markers: legal targets violet, picked ones gold.
+        if (targeting != null && seat != null && targeting.legal.contains(c.id)) {
+            d.marker = inst(targeting.picked.contains(c.id) ? pickedModel : targetModel);
+            d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
+            drawn.add(d);
+            return;
         }
         // Forge only publishes a selectable list for prompts that ask you to choose a card
         // ("discard one"), not for ordinary priority - there it outlines playable cards by another

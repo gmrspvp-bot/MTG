@@ -104,6 +104,11 @@ public final class Table3D extends TableInput {
         // to click hopefully and read the console to find out whether it did anything.
         selectModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.82f, 0.45f, 1f))), attrs);
+        // Targeting mode: a violet slab under each legal target, gold once picked.
+        targetModel = builder.createBox(CARD_W * 1.24f, 0.02f, CARD_H * 1.16f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.62f, 0.38f, 0.95f, 1f))), attrs);
+        pickedModel = builder.createBox(CARD_W * 1.24f, 0.02f, CARD_H * 1.16f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.98f, 0.76f, 0.25f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,
@@ -151,6 +156,7 @@ public final class Table3D extends TableInput {
         search = new SearchPanel(art);
         order = new OrderPanel(art);
         mulligan = new MulliganPanel(art);
+        damage = new DamagePanel(art);
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
@@ -293,6 +299,8 @@ public final class Table3D extends TableInput {
         order.render(ui, shapes, font, fontBig);
         mulligan.update(Gdx.graphics.getDeltaTime());
         mulligan.render(ui, shapes, font, fontBig);
+        damage.update(Gdx.graphics.getDeltaTime());
+        damage.render(ui, shapes, font, fontBig);
         // The end screen opens by itself, once, when the game ends; ESC leaves the board to look at.
         if (snap.gameOver && !endShown) {
             endShown = true;
@@ -348,6 +356,8 @@ public final class Table3D extends TableInput {
         bandLand.dispose();
         monitorModel.dispose();
         selectModel.dispose();
+        targetModel.dispose();
+        pickedModel.dispose();
         hoverModel.dispose();
         seatGlowModel.dispose();
         stackFrameModel.dispose();
