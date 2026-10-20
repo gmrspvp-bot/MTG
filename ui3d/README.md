@@ -377,6 +377,28 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 Asked for during the first four-player game played from the 3D table. Written down as given,
 with where each one lands. Nothing here is claimed yet.
 
+**Opened zones — looking at a hand, searching a library** *(unclaimed; investigated 2026-10-21,
+not built — Xenil's Claude ran out of session, everything below is what the digging found)*
+
+Both of the owner's reports ("looking at Rosa's hand", "search for a Plains in my library") are
+the same mechanism: Forge's floating zone viewer, opened by `IGuiGame.openZones`. Three things
+to know before starting:
+
+- [ ] **`peekZone` is probably reading the wrong player.** It takes `args[0]` as the zone's
+      owner, but `CMatchUI.openZones` builds its list from the **map keys in `args[2]`**;
+      `args[0]` looks like the viewer. That would explain why no mirror appeared at all for
+      another player's hand. Signature is
+      `openZones(PlayerView, Collection<ZoneType>, Map<PlayerView, Object>)`.
+- [ ] **The mirror is browse-only by design** (`minPick 0, maxPick 0` in `Table3D`), on the
+      stated grounds that Forge's window is still showing the zone. That is fine for a Duress
+      and useless for a library search, where you must *pick*. Making it selectable is mostly
+      done already: register the cards in `Gui3D.known` and route the chosen one through
+      `Gui3D.clickCard`, which Forge accepts from any window.
+- [ ] **`-Strict` is blind to this whole category.** `noteFallback` skips void methods as
+      "display calls", and `openZones` is void — so the fallback tally reads "the 3D window
+      handled everything" while the player is being dragged to Forge's window repeatedly.
+      Worth counting display calls separately from decisions.
+
 **Abilities — say which one, everywhere it appears** *(attended wiring, unattended look)*
 
 - [x] Activating an ability on a card with more than one - **taken over 2026-10-20**
