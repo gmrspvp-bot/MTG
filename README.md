@@ -30,13 +30,28 @@ An internet connection is needed the first time, and only for that. Forge itself
 copy. Windows marks executables that came out of a downloaded zip, so the first launch may show
 "Windows protected your PC"; **More info → Run anyway**.
 
-Two windows open. The 3D table is the one to play in; Forge's own window sits behind it and still
-answers anything the 3D table does not handle yet, so leave it running. Controls and the current
-state of that work are in [`ui3d/README.md`](ui3d/README.md).
+The 3D table is the window to play in. Forge's own window minimises itself a moment after the
+game starts - the game still runs inside it, so do not close it - and comes back by itself if
+Forge ever needs it (or press **H** in the 3D table). Controls are in
+[`ui3d/README.md`](ui3d/README.md).
+
+## Updating
+
+Close Forge, then double-click **`Update.cmd`**. It checks that Forge is closed and GitHub is
+reachable, brings this copy up to the latest version, and rebuilds. Your settings, card pictures
+and recorded games are kept.
+
+- A **git clone** updates with git (your changed settings are put aside and back).
+- A **downloaded zip** copy downloads the latest zip and copies it over itself (a few hundred MB,
+  a couple of minutes). It remembers which version it has, so running it again when nothing is
+  new is quick.
+
+`Update.cmd -Check` only says whether there is an update.
 
 | | |
 |---|---|
 | `play3d` | Set up if needed, then play in the 3D table |
+| `Update.cmd` | Update from GitHub (git clone or zip copy) and rebuild; close Forge first |
 | `play3d -Strict` | Also say on screen whenever Forge answers something the 3D table should own |
 | `Play Forge.cmd` | Forge's own window only |
 | `scripts\setup.ps1 -CheckOnly` | Report what is missing and stop |

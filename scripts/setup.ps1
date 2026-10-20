@@ -174,9 +174,9 @@ if ($CheckOnly) {
 # ---- 6. Play -----------------------------------------------------------------------------------
 Write-Host "Starting Forge..." -ForegroundColor Cyan
 Write-Host ""
-Write-Host "  Two windows open: the 3D table, and Forge's own window behind it." -ForegroundColor DarkGray
-Write-Host "  Forge's window still answers anything the 3D table does not handle yet," -ForegroundColor DarkGray
-Write-Host "  so leave it running. See ui3d\README.md for the controls." -ForegroundColor DarkGray
+Write-Host "  Play in the 3D table. Forge's own window minimises itself once the game starts -" -ForegroundColor DarkGray
+Write-Host "  the game runs inside it, so do not close it; it comes back if Forge needs it" -ForegroundColor DarkGray
+Write-Host "  (or press H). See ui3d\README.md for the controls." -ForegroundColor DarkGray
 Write-Host ""
 
 if ($NoUi3d) {
