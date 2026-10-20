@@ -195,10 +195,12 @@ public final class Table3D extends ApplicationAdapter {
         env.add(key);
 
         int attrs = Usage.Position | Usage.Normal;
+        // The table body: now only its sides show, so it is darker than the felt laid on top.
         tableModel = builder.createBox(TABLE_HALF * 2, 0.5f, TABLE_HALF * 2,
-            new Material(ColorAttribute.createDiffuse(new Color(0.07f, 0.16f, 0.24f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.03f, 0.07f, 0.11f, 1f))), attrs);
         tableInst = new ModelInstance(tableModel);
         tableInst.transform.setToTranslation(0, -0.27f, 0);
+        createSurround(attrs);
 
         cardModel     = box(new Color(0.78f, 0.80f, 0.86f, 1f), attrs);
         landModel     = box(new Color(0.45f, 0.63f, 0.42f, 1f), attrs);
@@ -279,6 +281,63 @@ public final class Table3D extends ApplicationAdapter {
         snap = source.get();
     }
 
+    // ---- table surface and surround --------------------------------------------------------------
+
+    private Model feltModel, floorModel, railModel;
+    private com.badlogic.gdx.graphics.Texture feltTex, floorTex;
+    private ModelInstance feltInst, floorInst;
+    private final List<ModelInstance> railInsts = new ArrayList<>();
+    /** The padded rail round the table: how wide, and how far it stands above the felt. */
+    private static final float RAIL_W = 0.75f, RAIL_H = 0.26f;
+
+    /**
+     * The table as furniture rather than a slab: generated felt on top (see Felt), a dark padded
+     * rail round the edge, and a floor with a dim pool of light under the table so it stands in a
+     * room. The rail sits OUTSIDE the playing area, so nothing laid out on the table moves.
+     */
+    private void createSurround(int attrs) {
+        com.badlogic.gdx.graphics.Pixmap fp = Felt.felt(1024);
+        feltTex = new com.badlogic.gdx.graphics.Texture(fp, true);
+        fp.dispose();
+        feltTex.setFilter(com.badlogic.gdx.graphics.Texture.TextureFilter.MipMapLinearLinear,
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear);
+        try {
+            float max = com.badlogic.gdx.graphics.Texture.getMaxAnisotropicFilterLevel();
+            if (max > 1f) feltTex.setAnisotropicFilter(Math.min(8f, max));   // seen at a grazing angle
+        } catch (Throwable ignored) {
+            // softer at a distance, that is all
+        }
+        int texAttrs = Usage.Position | Usage.Normal | Usage.TextureCoordinates;
+        float t = TABLE_HALF;
+        feltModel = builder.createRect(-t, 0f, t, t, 0f, t, t, 0f, -t, -t, 0f, -t, 0f, 1f, 0f,
+            new Material(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(feltTex)), texAttrs);
+        feltInst = new ModelInstance(feltModel);
+        feltInst.transform.setToTranslation(0f, -0.015f, 0f);     // just above the body's top (-0.02)
+
+        com.badlogic.gdx.graphics.Pixmap flp = Felt.floor(512);
+        floorTex = new com.badlogic.gdx.graphics.Texture(flp);
+        flp.dispose();
+        floorTex.setFilter(com.badlogic.gdx.graphics.Texture.TextureFilter.Linear,
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear);
+        float f = 70f;
+        floorModel = builder.createRect(-f, 0f, f, f, 0f, f, f, 0f, -f, -f, 0f, -f, 0f, 1f, 0f,
+            new Material(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(floorTex)), texAttrs);
+        floorInst = new ModelInstance(floorModel);
+        floorInst.transform.setToTranslation(0f, -3.2f, 0f);
+
+        // One rail model, as long as a whole side including both corners, turned for each side.
+        float len = 2f * (t + RAIL_W);
+        railModel = builder.createBox(len, RAIL_H, RAIL_W,
+            new Material(ColorAttribute.createDiffuse(new Color(0.11f, 0.075f, 0.06f, 1f))), attrs);
+        for (int side = 0; side < 4; side++) {
+            ModelInstance r = new ModelInstance(railModel);
+            Vector3 c = rotateY(0f, t + RAIL_W / 2f, (float) (side * Math.PI / 2));
+            r.transform.setToTranslation(c.x, -0.02f + RAIL_H / 2f, c.z)
+                .rotate(Vector3.Y, side * -90f);
+            railInsts.add(r);
+        }
+    }
+
     private Model box(Color c, int attrs) {
         return builder.createBox(CARD_W, CARD_THICK, CARD_H,
             new Material(ColorAttribute.createDiffuse(c)), attrs);
@@ -318,7 +377,10 @@ public final class Table3D extends ApplicationAdapter {
         Gdx.gl.glEnable(GL20.GL_DEPTH_TEST);
 
         modelBatch.begin(cam);
+        modelBatch.render(floorInst);          // unlit: the floor's light pool is in its texture
         modelBatch.render(tableInst, env);
+        modelBatch.render(feltInst, env);
+        for (ModelInstance r : railInsts) modelBatch.render(r, env);
         for (ModelInstance p : seatPads) modelBatch.render(p, env);
         for (ModelInstance p : props) modelBatch.render(p, env);
         // What a click would hit. With no selectable list during ordinary priority, this is the
@@ -2358,6 +2420,11 @@ public final class Table3D extends ApplicationAdapter {
         seatGlowModel.dispose();
         stackFrameModel.dispose();
         tableModel.dispose();
+        feltModel.dispose();
+        floorModel.dispose();
+        railModel.dispose();
+        feltTex.dispose();
+        floorTex.dispose();
         cardModel.dispose();
         landModel.dispose();
         creatureModel.dispose();

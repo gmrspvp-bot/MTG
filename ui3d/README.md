@@ -424,7 +424,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 - [x] Seat pads smaller and darker - done 2026-10-20 (7.6 x 3.4, see *Seat pads* above).
 - [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
 - [x] Card movement between zones - done 2026-10-20: per-id poses eased every frame (`Pose`/`ease` in `Table3D`), hand -> stack -> battlefield slides.
-- [ ] A proper table surface and surround rather than a flat blue slab.
+- [x] A proper table surface and surround - done 2026-10-21. Generated felt (`Felt.felt`: the same deep blue, a fine cloth grain, a lighter lamp pool in the middle and a faint centre ring), a dark padded rail round the edge (outside the playing area, so no layout moved), and a floor with a dim pool of light under the table (`Felt.floor`, drawn unlit). No image files; fixed seeds, so screenshots are repeatable. **Noticed, not fixed (prompt bar is Xenil's):** in the overhead pose the zone labels (GY / EXI / LIB / COMMAND) draw on top of the prompt bar.
 - [ ] Tokens, emblems and face-down cards could read better at a glance.
 
 **Visibility**
