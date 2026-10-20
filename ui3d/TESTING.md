@@ -155,3 +155,12 @@ their game from Forge's online menu.
 
 **Anything that went to Forge's window instead of the 3D one** is worth noting too (what it was
 asking) - those are the questions still left to bring across.
+
+## 10. Forge's window out of the way (new 2026-10-21)
+
+- [ ] **Forge's window minimises** a moment after a 3D game starts; the game plays entirely in 3D.
+- [ ] **Pass anyway? / Skip combat anyway?** appear as the 3D yes/no banner (SPACE = yes, X = no).
+- [ ] **Forge's window comes back** when you press H on a question, when you close the 3D window, and when you Quit at the end.
+- [ ] **Typed answers** (rare - Forge asking you to type a name): a text box in the 3D window, ENTER to confirm.
+- [ ] **Cards to the top or bottom of your library in order**: Top and Bottom rows in the order panel.
+

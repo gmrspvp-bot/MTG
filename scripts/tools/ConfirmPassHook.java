@@ -117,6 +117,19 @@ public final class ConfirmPassHook {
      * the main one.
      */
     static boolean confirm(String text) {
+        // With the 3D table on, ask there (mtg3d.Gui3D.askYesNo, by reflection so this class
+        // needs nothing from ui3d): Forge's window may be minimised, and a box parented to it
+        // would not show at all - a modal nobody can see. Null = the 3D window could not ask.
+        if ("true".equals(System.getProperty("forge.ui3d"))) {
+            try {
+                Object r = Class.forName("mtg3d.Gui3D").getMethod("askYesNo", String.class, String.class, String.class)
+                    .invoke(null, text.replace("\n\n", "  ").replace('\n', ' '), "Yes, pass", "No");
+                if (r instanceof Boolean) return (Boolean) r;
+                Class.forName("mtg3d.ForgeWindow").getMethod("restore", String.class).invoke(null, "a pass confirmation");
+            } catch (Throwable t) {
+                // fall through to Forge's own box
+            }
+        }
         final boolean[] yes = { true };
         Runnable ask = () -> yes[0] = javax.swing.JOptionPane.showConfirmDialog(PlayHook.forgeFrame(),
             text, "Pass priority?", javax.swing.JOptionPane.YES_NO_OPTION,

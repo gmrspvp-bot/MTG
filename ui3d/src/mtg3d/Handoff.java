@@ -128,6 +128,8 @@ public final class Handoff<T> {
             latch.countDown();
         }
         System.out.println("UI3D: handing '" + what + "' back to Forge (" + reason + ")");
+        // Forge's window may be minimised while the 3D table runs; it has to be seen to answer.
+        ForgeWindow.restore("'" + what + "' handed back: " + reason);
         try {
             return forge.call();
         } catch (Throwable t) {

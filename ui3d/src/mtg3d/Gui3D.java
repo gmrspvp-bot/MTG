@@ -397,6 +397,26 @@ public final class Gui3D implements InvocationHandler {
         return pending;
     }
 
+    /**
+     * A yes/no from our own hooks (scripts\tools\ConfirmPassHook: "Pass anyway?", the counterspell
+     * reminder, "Skip combat anyway?"), asked in the 3D window instead of a Swing box on Forge's
+     * window - which may be minimised (ForgeWindow), where a box would not even show. Called by
+     * reflection, so scripts\tools needs nothing from here at compile time.
+     *
+     * @return the answer, or null when the 3D window cannot ask (not running, not drawing, handed
+     *         back): the caller then asks with its own box, as before.
+     */
+    public static Boolean askYesNo(String question, String yes, String no) {
+        if (!active() || !Handoff.windowResponsive() || pending != null) return null;
+        Handoff<Boolean> h = Handoff.start("ask: " + question);
+        pending = new Ask(question, "", yes, no, h);
+        try {
+            return h.awaitOr(() -> null);
+        } finally {
+            pending = null;
+        }
+    }
+
     /** Answer it from the render thread. Ignored if it has already been settled by a handoff. */
     public static void answerAsk(boolean yes) {
         Ask a = pending;
@@ -527,6 +547,9 @@ public final class Gui3D implements InvocationHandler {
         if (TAKEN_OVER.contains(method.getName())) {
             Object answered = take(method, args);
             if (answered != NOT_HANDLED) return answered;
+            // Forwarded after all (a shape the 3D side does not take): Forge asks in its own
+            // window, so that window has to be on screen.
+            if (showsForgeWindow(method)) ForgeWindow.restore(method.getName() + " is Forge's to ask");
         }
         try {
             Object out = method.invoke(original, args);
@@ -1906,6 +1929,8 @@ public final class Gui3D implements InvocationHandler {
 
     /** Rematch / next game / quit, from the end screen: IGameController.nextGameDecision. */
     public static void nextGame(String what) {
+        // Quitting goes back to Forge's menus, which live in Forge's window.
+        if ("quit".equals(what)) ForgeWindow.restore("quit");
         final forge.player.PlayerControllerHuman c = controller;
         final forge.gamemodes.match.NextGameDecision rd = "quit".equals(what) ? forge.gamemodes.match.NextGameDecision.QUIT
             : "rematch".equals(what) ? forge.gamemodes.match.NextGameDecision.NEW : forge.gamemodes.match.NextGameDecision.CONTINUE;
@@ -1973,12 +1998,21 @@ public final class Gui3D implements InvocationHandler {
                 Integer was = FALLBACKS.get(n);
                 FALLBACKS.put(n, was == null ? 1 : was + 1);
             }
+            // A decision (or pop-up) going to Forge's window: that window must be visible.
+            ForgeWindow.restore(n + " is Forge's to ask");
             lastFallback = n;
             lastFallbackAt = System.currentTimeMillis();
             if (STRICT) System.out.println("UI3D: Forge answered '" + n + "' (not taken over yet)");
         } catch (Throwable ignored) {
             // counting must never break a call
         }
+    }
+
+    /** Would forwarding this call put something on Forge's window that the player must answer or see? */
+    private static boolean showsForgeWindow(Method m) {
+        String n = m.getName();
+        if (m.getReturnType() == void.class) return WINDOW_POPS.contains(n);
+        return !(n.startsWith("get") || n.startsWith("is") || n.startsWith("has"));
     }
 
     /** Void IGuiGame calls that open a window of Forge's own rather than only redrawing it. */

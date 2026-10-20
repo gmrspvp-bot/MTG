@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: finish the IGuiGame decisions (assignGenericAmount, insertInList, manipulateCardList, free-text showInputDialog), then hide Forge's window while the 3D table runs | Stoneforge | 2026-10-21 | Taken over from Xenil's Claude (out of context; owner's OK). `Gui3D` + panels. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

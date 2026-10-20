@@ -33,6 +33,9 @@ public final class Bridge {
             // what the engine is asking. Forwards everything, so Forge is unaffected.
             Gui3D.install(game);
             start();
+            // Every decision is answered in 3D now, so Forge's window steps aside (minimised;
+            // back whenever Forge needs it - see ForgeWindow).
+            ForgeWindow.minimiseSoon();
         } catch (Throwable t) {
             System.out.println("UI3D: could not attach (" + t + ")");
         }
@@ -64,6 +67,7 @@ public final class Bridge {
     static void openWindow() {
         if (Boolean.getBoolean("forge.ui3d.nowindow")) return;     // tests: no window on screen
         start();
+        ForgeWindow.minimiseSoon();
     }
 
     /** The snapshot the window would draw - for tests (scratch\probe\Ui3dRemoteTest). */
@@ -122,6 +126,9 @@ public final class Bridge {
                 System.out.println("UI3D: 3D table closed (Forge carries on; it opens again with the next game)");
             } catch (Throwable e) {
                 System.out.println("UI3D: window failed (" + e + ")");
+            } finally {
+                // No 3D window: Forge's is the only one left to play in.
+                ForgeWindow.restore("the 3D table closed");
             }
         }, "mtg3d");
         t.setDaemon(true);
