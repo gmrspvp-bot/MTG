@@ -301,21 +301,40 @@ public final class Gui3D implements InvocationHandler {
     private void peekZone(Object[] args) {
         try {
             if (args == null || args.length < 2 || !(args[0] instanceof forge.game.player.PlayerView)) return;
-            forge.game.player.PlayerView owner = (forge.game.player.PlayerView) args[0];
             if (!(args[1] instanceof Iterable)) return;
-            forge.game.player.PlayerView viewer = pch == null ? null : pch.getLocalPlayerView();
+            // openZones(viewer, zones, players): Forge's own window (CMatchUI.openZones) shows the
+            // zones of every player that is a KEY of the map in args[2]; args[0] is the player
+            // doing the looking. Reading args[0] as the owner showed our own zone instead of
+            // "Rosa's hand" (Xenil's Claude's finding, 2026-10-21). The map can be empty in other
+            // callers; then args[0] is the best guess.
+            java.util.List<forge.game.player.PlayerView> owners = new ArrayList<>();
+            if (args.length > 2 && args[2] instanceof java.util.Map) {
+                for (Object k : ((java.util.Map<?, ?>) args[2]).keySet()) {
+                    if (k instanceof forge.game.player.PlayerView) owners.add((forge.game.player.PlayerView) k);
+                }
+            }
+            if (owners.isEmpty()) owners.add((forge.game.player.PlayerView) args[0]);
+            forge.game.player.PlayerView viewer = pch == null ? (forge.game.player.PlayerView) args[0] : pch.getLocalPlayerView();
             java.util.List<Snapshot.CardV> items = new ArrayList<>();
             StringBuilder zones = new StringBuilder();
+            StringBuilder names = new StringBuilder();
+            for (forge.game.player.PlayerView owner : owners) {
+            if (names.length() > 0) names.append(", ");
+            names.append(owner.getName());
             for (Object z : (Iterable<?>) args[1]) {
                 if (!(z instanceof forge.game.zone.ZoneType)) continue;
                 forge.game.zone.ZoneType zone = (forge.game.zone.ZoneType) z;
-                if (zones.length() > 0) zones.append(", ");
-                zones.append(zone);
+                if (zones.indexOf(zone.toString()) < 0) {
+                    if (zones.length() > 0) zones.append(", ");
+                    zones.append(zone);
+                }
                 Iterable<CardView> cards = owner.getCards(zone);
                 if (cards == null) continue;
                 for (CardView cv : cards) {
                     Snapshot.CardV v = new Snapshot.CardV();
                     v.id = cv.getId();
+                    // So a pick in the 3D panel can be sent as a click (clickCard looks it up).
+                    remember(v.id, cv);
                     boolean show;
                     try { show = cv.canBeShownTo(viewer); } catch (Throwable e) { show = false; }
                     if (show) {
@@ -331,8 +350,9 @@ public final class Gui3D implements InvocationHandler {
                     items.add(v);
                 }
             }
+            }
             if (!items.isEmpty()) {
-                peeking = new Peek(owner.getName() + " - " + zones, items);
+                peeking = new Peek(names + " - " + zones, items);
             }
         } catch (Throwable t) {
             // the zone just does not mirror; Forge's own window still shows it
@@ -1305,11 +1325,20 @@ public final class Gui3D implements InvocationHandler {
      */
     private static void noteFallback(Method m) {
         try {
-            if (m.getReturnType() == void.class) return;
             String n = m.getName();
+            // Most void calls only redraw Forge's window. A few make it pop up a window of its own
+            // - the floating zone viewer, an error box - which drags the player over to it, so
+            // they count too, marked as such. Without this the tally said "the 3D window handled
+            // everything" while the owner was being pulled to Forge's zone window again and again
+            // (Xenil's Claude's finding, 2026-10-21).
+            if (m.getReturnType() == void.class) {
+                if (!WINDOW_POPS.contains(n)) return;
+                n = n + " (Forge window)";
+            }
             if (TAKEN_OVER.contains(n)) return;
             if (n.startsWith("get") || n.startsWith("is") || n.startsWith("has")) return;
             synchronized (FALLBACKS) {
+                // (n for a void pop-up already carries its " (Forge window)" mark)
                 Integer was = FALLBACKS.get(n);
                 FALLBACKS.put(n, was == null ? 1 : was + 1);
             }
@@ -1320,6 +1349,10 @@ public final class Gui3D implements InvocationHandler {
             // counting must never break a call
         }
     }
+
+    /** Void IGuiGame calls that open a window of Forge's own rather than only redrawing it. */
+    private static final java.util.Set<String> WINDOW_POPS = new java.util.HashSet<>(
+        java.util.Arrays.asList("openZones", "showErrorDialog"));
 
     /** "one x3, order x1" - for the bug report and the strict banner. Empty if none. */
     public static String fallbackSummary() {

@@ -209,6 +209,9 @@ public final class Table3D extends TableInput {
 
     /** The question each panel was last opened for, so an answered one is never shown twice. */
     Object shownChoice, shownNumber, shownOrder, shownDamage;
+    /** The opened zone the search panel was last opened for, and whether as a pick panel. */
+    Object shownPeek;
+    boolean shownPeekPick;
     /** The Forge question OptionPanel was last opened for; null-or-stale when the menu has it. */
     Object optionsOwner;
 
@@ -372,9 +375,31 @@ public final class Table3D extends TableInput {
         // A zone Forge opened for us to look at. Nothing is blocked on it, so closing the panel
         // simply clears it; Forge's own window is still showing the same zone.
         Gui3D.Peek peek = Gui3D.pendingPeek();
-        if (peek != null && search != null && !search.isOpen() && Gui3D.pendingReveal() == null) {
-            search.open(peek.title, "Close when you have read it.", peek.items, 0, 0,
-                chosen -> Gui3D.dismissPeek());
+        if (peek != null && search != null && Gui3D.pendingReveal() == null) {
+            // Searching a library: Forge offers the cards you may take (setSelectables), and you
+            // click them in its zone window. Here the panel then shows just those, pickable, and
+            // a pick is sent as that same click (Gui3D.clickCard) - Forge judges it exactly as
+            // it judges a click in its own window. Looking at a hand: nothing is offered, so the
+            // panel only shows the cards. Forge may offer them after the zone opens, so a
+            // browse panel for this zone is reopened as a pick panel when that happens.
+            java.util.List<Snapshot.CardV> offered = new ArrayList<>();
+            for (Snapshot.CardV v : peek.items) if (!v.faceDown && Gui3D.isSelectable(v.id)) offered.add(v);
+            boolean pick = !offered.isEmpty();
+            boolean ours = shownPeek == peek && search.isOpen();
+            if (!search.isOpen() || (ours && shownPeekPick != pick)) {
+                shownPeek = peek;
+                shownPeekPick = pick;
+                if (pick) {
+                    search.open(peek.title, "Choose - SPACE when done if Forge asks for more.", offered, 1, offered.size(),
+                        chosen -> {
+                            for (Snapshot.CardV v : chosen) Gui3D.clickCard(v.id);
+                            Gui3D.dismissPeek();
+                        });
+                } else {
+                    search.open(peek.title, "Close when you have read it.", peek.items, 0, 0,
+                        chosen -> Gui3D.dismissPeek());
+                }
+            }
         }
         Gui3D.Reveal rev = Gui3D.pendingReveal();
         if (rev != null && search != null && !search.isOpen()) {

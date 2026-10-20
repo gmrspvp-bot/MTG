@@ -384,17 +384,25 @@ Both of the owner's reports ("looking at Rosa's hand", "search for a Plains in m
 the same mechanism: Forge's floating zone viewer, opened by `IGuiGame.openZones`. Three things
 to know before starting:
 
-- [ ] **`peekZone` is probably reading the wrong player.** It takes `args[0]` as the zone's
+> **All three done 2026-10-21 (Stoneforge).** `peekZone` reads the players from `args[2]`'s keys
+> (confirmed against `CMatchUI.openZones`) and registers each card for clicks; when Forge offers
+> some of the shown cards (a library search), the panel shows just those and a pick is sent as
+> that card's click (`Table3D`, reopened as a pick panel if the offer arrives after the zone
+> opened); `openZones` and `showErrorDialog` now count in the tally as "(Forge window)".
+> `scratch\probe\Ui3dPeekTest.java` 3/3 (Rosa's hand, not ours; counted). The pick itself needs
+> a real search to confirm (TESTING.md).
+
+- [x] **`peekZone` is probably reading the wrong player.** It takes `args[0]` as the zone's
       owner, but `CMatchUI.openZones` builds its list from the **map keys in `args[2]`**;
       `args[0]` looks like the viewer. That would explain why no mirror appeared at all for
       another player's hand. Signature is
       `openZones(PlayerView, Collection<ZoneType>, Map<PlayerView, Object>)`.
-- [ ] **The mirror is browse-only by design** (`minPick 0, maxPick 0` in `Table3D`), on the
+- [x] **The mirror is browse-only by design** (`minPick 0, maxPick 0` in `Table3D`), on the
       stated grounds that Forge's window is still showing the zone. That is fine for a Duress
       and useless for a library search, where you must *pick*. Making it selectable is mostly
       done already: register the cards in `Gui3D.known` and route the chosen one through
       `Gui3D.clickCard`, which Forge accepts from any window.
-- [ ] **`-Strict` is blind to this whole category.** `noteFallback` skips void methods as
+- [x] **`-Strict` is blind to this whole category.** `noteFallback` skips void methods as
       "display calls", and `openZones` is void — so the fallback tally reads "the 3D window
       handled everything" while the player is being dragged to Forge's window repeatedly.
       Worth counting display calls separately from decisions.

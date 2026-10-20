@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: opened zones - peekZone player, pickable library search, -Strict counting display calls | Stoneforge | 2026-10-21 | Xenil's findings in the README. Touches `Gui3D` (peekZone, noteFallback), `Table3D` (zone panel). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

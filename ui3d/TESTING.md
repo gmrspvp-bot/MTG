@@ -73,6 +73,11 @@ Each line: **what to do** -> what should happen.
 - [ ] **Choose two** (Cryptic Command style) -> "0 of 2 chosen", Confirm lights at two.
 - [ ] **X costs / choose a number** -> a big number with - and +, arrows or wheel, ENTER.
 - [ ] **Searching a library / picking from a graveyard** -> the card grid; click the card(s).
+- [ ] **Searching your library where Forge opens the zone** (e.g. a fetch for a Plains) -> the
+      grid shows only the cards you may take; pick one and Confirm; press SPACE if Forge then
+      waits for OK.
+- [ ] **Looking at another player's hand** (Duress, Thoughtseize, or anything that reveals it)
+      -> the grid shows THEIR hand, with their name in the title.
 - [ ] **Scry:** first a card grid to pick which go to the **bottom** (pick none to keep all on top),
       then an **order** panel for the ones on top - drag them, 1 = drawn first.
 - [ ] **Surveil:** same idea, graveyard instead of bottom.
