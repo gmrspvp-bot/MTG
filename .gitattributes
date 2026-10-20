@@ -1,0 +1,4 @@
+# Forge is committed verbatim. Its card scripts, AI profiles and resources are read by Forge
+# exactly as shipped, so git must not rewrite their line endings on checkout - a clone has to
+# get byte-identical files to the install these decks and sims were tested against.
+forge-installer-2.0.15/** -text

@@ -1,5 +1,9 @@
 # Forge itself (downloaded installer, ~400 MB) and simulation output (~2 GB)
-/forge-installer-2.0.15/
+# Forge itself is IN this repo on purpose: a clone should run without fetching anything, and
+# Forge should only change when we choose to change it. Generated bits are still excluded.
+/forge-installer-2.0.15/res/skins/Jarvis/
+/forge-installer-2.0.15/forge.log
+/forge-installer-2.0.15/*.log
 /results/
 
 # Build output: rebuilt from scripts/tools/*.java (see scripts/tools, agent-manifest.txt)
