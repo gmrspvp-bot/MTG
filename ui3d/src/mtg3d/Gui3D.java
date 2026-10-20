@@ -360,6 +360,10 @@ public final class Gui3D implements InvocationHandler {
                 // leave the original controller in place rather than break the game
             }
         }
+        // Record anything Forge answers that the 3D window should eventually own. A decision
+        // quietly handled by the other window is invisible from here - it only ever surfaced as
+        // "it pulled me back again" - so counting them turns the remaining gaps into a list.
+        noteFallback(method);
         if (TAKEN_OVER.contains(method.getName())) {
             Object answered = take(method, args);
             if (answered != NOT_HANDLED) return answered;
@@ -1027,6 +1031,56 @@ public final class Gui3D implements InvocationHandler {
         javax.swing.SwingUtilities.invokeLater(() -> {
             try { c.undoLastAction(); } catch (Throwable t) { System.out.println("UI3D: undo failed (" + t + ")"); }
         });
+    }
+
+    /** Decisions Forge answered because the 3D window does not own them yet, and how often. */
+    private static final java.util.Map<String, Integer> FALLBACKS =
+        java.util.Collections.synchronizedMap(new java.util.LinkedHashMap<>());
+    /** -Dforge.ui3d.strict=true also says so on screen, so a gap is obvious while playing. */
+    public static final boolean STRICT =
+        "true".equalsIgnoreCase(System.getProperty("forge.ui3d.strict", "false"));
+    private static volatile String lastFallback = "";
+    private static volatile long lastFallbackAt;
+
+    /**
+     * A method that returns something, is not a getter, and is not taken over, is a decision
+     * Forge is still making for us. Void methods are display calls and do not count.
+     */
+    private static void noteFallback(Method m) {
+        try {
+            if (m.getReturnType() == void.class) return;
+            String n = m.getName();
+            if (TAKEN_OVER.contains(n)) return;
+            if (n.startsWith("get") || n.startsWith("is") || n.startsWith("has")) return;
+            synchronized (FALLBACKS) {
+                Integer was = FALLBACKS.get(n);
+                FALLBACKS.put(n, was == null ? 1 : was + 1);
+            }
+            lastFallback = n;
+            lastFallbackAt = System.currentTimeMillis();
+            if (STRICT) System.out.println("UI3D: Forge answered '" + n + "' (not taken over yet)");
+        } catch (Throwable ignored) {
+            // counting must never break a call
+        }
+    }
+
+    /** "one x3, order x1" - for the bug report and the strict banner. Empty if none. */
+    public static String fallbackSummary() {
+        StringBuilder b = new StringBuilder();
+        synchronized (FALLBACKS) {
+            for (java.util.Map.Entry<String, Integer> e : FALLBACKS.entrySet()) {
+                if (b.length() > 0) b.append(", ");
+                b.append(e.getKey()).append(" x").append(e.getValue());
+            }
+        }
+        return b.toString();
+    }
+
+    /** The most recent one, for a few seconds, so the banner can name it. */
+    public static String recentFallback() {
+        if (!STRICT) return "";
+        if (lastFallback.isEmpty() || System.currentTimeMillis() - lastFallbackAt > 6000) return "";
+        return lastFallback;
     }
 
     /** -Dforge.ui3d.nofocus=false puts Forge's focus behaviour back. */

@@ -63,7 +63,14 @@ abstract class TableHud extends TableScene {
             font.draw(ui, a, w - 190, 18);
         }
         drawPhasePanel(w, h);
-        bug.drawCogText(ui, font, w, h);
+        bug.drawCogText(ui, font, w, h);
+        // Strict mode: say so the moment Forge answers something the 3D window should own.
+        // Without this a gap is invisible - the window just loses focus and nobody knows why.
+        String fell = Gui3D.recentFallback();
+        if (!fell.isEmpty()) {
+            font.setColor(1f, 0.55f, 0.35f, 1f);
+            font.draw(ui, "Forge answered: " + fell + "  (not taken over yet)", 14f, 80f);
+        }
         drawPromptBar(w, h);
         drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {

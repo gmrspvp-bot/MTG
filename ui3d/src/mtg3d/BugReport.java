@@ -251,6 +251,13 @@ public final class BugReport {
             w.write("\n");
         }
 
+        // Which decisions Forge is still making. The single most useful line for working out
+        // why the other window keeps taking over, and it costs nothing to record.
+        String fb = Gui3D.fallbackSummary();
+        String nn = System.lineSeparator() + System.lineSeparator();
+        w.write("## Decisions Forge still answered this game" + nn);
+        w.write((fb.isEmpty() ? "_none - the 3D window handled everything asked of it_" : fb) + nn);
+
         w.write("## Where to look\n\n");
         w.write("- console log: `" + System.getProperty("forge.playlog.dir", "scratch/play-logs")
             + "` (newest `console_*.log`)\n");

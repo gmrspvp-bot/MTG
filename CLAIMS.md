@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - make the Forge fallback visible (optional strict mode) | Xenil's Claude | 2026-10-21 | `Gui3D` records every decision it forwards; `TableHud` banner under `-Dforge.ui3d.strict=true`; `BugReport` includes the tally. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
