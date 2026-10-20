@@ -38,6 +38,12 @@ Each line: **what to do** -> what should happen.
 - [ ] **Piles:** library, graveyard and exile are piles that grow; a creature dying lands on top of
       its graveyard pile.
 - [ ] **An ability on the stack** marks its card on the table in teal.
+- [ ] **Overhead view (TAB, or combat):** your hand moves to a column on the right of the screen;
+      hovering pulls a card out; clicking a card there plays it.
+- [ ] **Battlefields** stand on a raised block; the centre screens glow (amber for whoever's
+      turn it is) and show lib / gy / ex counts.
+- [ ] **Card pictures:** basic lands show their art; a card whose picture Forge downloads during
+      the game switches from the drawn stand-in to the picture within a few seconds.
 - [ ] **Drawing:** the drawn card slides from your library into your hand.
 - [ ] **Hand hover:** the card under the mouse rises; the big card picture shows on the left with
       keyword explanations underneath (flying, lifelink...).

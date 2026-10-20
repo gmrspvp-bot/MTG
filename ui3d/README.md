@@ -439,7 +439,12 @@ to know before starting:
 - [ ] Make it obvious which battlefield the command zone, exile, graveyard and library belong
       to. *(Partly in hand: owner-named zone pads and coloured seat frames are written but not
       yet built — see `CLAIMS.md`. The stacks above should carry the same colour.)*
-- [ ] **Overhead (birds-eye) mode: keep your hand visible and usable** — move it to the side
+- [x] **Overhead hand - done 2026-10-21 (Stoneforge)**: in the overhead pose the hand is a column
+      down the right of the screen, under the game log (`TableLayout.placeHandOverhead`): each card
+      on the camera's ray through its screen spot, at a distance that makes it ~150 px tall,
+      parallel to the screen, overlapped so the name lines show; hovering pulls a card out to the
+      left; the pose easing slides the hand between seat and column. Clicks work as anywhere.
+- [ ] *(original wording)* **Overhead (birds-eye) mode: keep your hand visible and usable** — move it to the side
       rather than dropping it. Today the hand is anchored at your own seat and is edge-on or
       off-screen from above, which makes the overhead pose read-only.
 - [x] **Centre monitors - done 2026-10-21 (Stoneforge)**: a near-black bezel with glowing glass

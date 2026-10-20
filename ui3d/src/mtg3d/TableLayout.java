@@ -426,6 +426,7 @@ abstract class TableLayout extends TableCamera {
      */
     void placeHand() {
         if (snap.hand.isEmpty() || snap.seats.isEmpty()) return;
+        if (lift > 0.5f) { placeHandOverhead(); return; }
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
         // Was 0.80, which overlapped every card with the one beside it - the owner could not
         // tell where one ended. A full card width plus a gap costs table space and buys a hand
@@ -447,6 +448,49 @@ abstract class TableLayout extends TableCamera {
                 up ? HAND_TILT + 12f : HAND_TILT);
         }
     }
+
+    /**
+     * Owner's list 2026-10-20: "overhead mode: keep your hand visible and usable - move it to the
+     * side rather than dropping it". From the overhead pose the hand at your seat is below and
+     * behind the camera (or under the prompt bar), so the pose was read-only. In overhead the hand
+     * becomes a column down the right of the screen, the free space under the game log: each
+     * card is put on the camera's ray through its spot on screen, far enough out to be about
+     * OVERHEAD_CARD_PX tall, and turned to face the camera. Lower cards sit a little nearer, so
+     * the overlap never flickers. The usual pose easing slides the hand between the two places;
+     * hovering pulls a card out to the left. Clicks and hover work as anywhere else (bounds).
+     */
+    void placeHandOverhead() {
+        int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
+        if (w <= 0 || h <= 0) return;
+        int count = snap.hand.size();
+        float top = h * 0.30f, bottom = h * 0.92f;             // under the game log, above the bottom bar
+        float cardPx = OVERHEAD_CARD_PX;
+        float step = Math.min(cardPx * 0.58f, (bottom - top - cardPx) / Math.max(1, count - 1));
+        float halfFov = (float) Math.toRadians(cam.fieldOfView / 2f);
+        float dist = CARD_H * h / (cardPx * 2f * (float) Math.tan(halfFov));
+        int lifted = hovered != null && hovered.seat == null ? hovered.card.id : Integer.MIN_VALUE;
+        float yaw = (float) Math.toDegrees(-orbit);
+        // Parallel to the screen: tilted by the CAMERA's angle from straight down (as HAND_TILT
+        // does seated). Tilting each card to its own ray sheared the column at the screen edge.
+        Vector3 d = cam.direction;
+        float tilt = (float) Math.toDegrees(Math.atan2(Math.sqrt(d.x * d.x + d.z * d.z), -d.y));
+        float cardWpx = cardPx * CARD_W / CARD_H;
+        for (int i = 0; i < count; i++) {
+            Snapshot.CardV c = snap.hand.get(i);
+            boolean up = c.id == lifted;
+            float sx = w - OVERHEAD_MARGIN_PX - cardWpx / 2f - (up ? cardWpx * 0.6f : 0f);
+            float sy = top + cardPx / 2f + i * step;              // screen y, from the top
+            Ray ray = cam.getPickRay(sx, sy);
+            // Along the ray to the plane `dist` in front of the camera, so every card is the same
+            // size; lower cards a touch nearer, so the overlap never flickers.
+            float along = (dist - i * 0.04f) / Math.max(0.2f, ray.direction.dot(d));
+            Vector3 p = new Vector3(ray.direction).scl(along).add(ray.origin);
+            seedFromLibrary(c);
+            add(c, null, p.x, p.y, p.z, yaw, tilt);
+        }
+    }
+
+    static final float OVERHEAD_CARD_PX = 150f, OVERHEAD_MARGIN_PX = 24f;
 
     /**
      * Face-down cards for everyone else's hand. How many cards a player is holding is public
