@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - visual halves: attack drag, block drag, mana payment | dmara's Claude | 2026-10-21 | Board modes like targeting: state in `TableBase`, markers in `TableLayout.add`, preview arcs in `TableScene`, banners in `TableHud`, drag/click handling in `TableInput`, samples. Not wired to Forge (attended). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
