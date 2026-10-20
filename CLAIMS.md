@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| 3D soak testing (`Soak`, `SoakListener`, `run-sims.ps1 -Soak`) | journeybeforepancakes | 2026-10-20 19:20 | Drives StateReader over all-AI games to find bridge crashes unattended. Touches `SimRunner.java` and `run-sims.ps1` (additive only: new `-Soak` switch, default off). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
