@@ -345,14 +345,67 @@ then it would leave every unimplemented decision with nothing to answer it.
       declared selectable can be sent, so the 3D side chooses among Forge's own legal options
       and can never offer a play the rules disallow. Targeting through the same path still needs
       doing.
-- [ ] Target selection in 3D, with the arcs already needed for combat.
-- [ ] Declare attackers and blockers by dragging.
-- [ ] Mana payment, including which lands to tap.
-- [ ] Ordering triggers and the stack.
-- [ ] Choosing from a list (search a library, order a graveyard, modal spells). **The panel is
-      already built** — `SearchPanel`, with a `min/max` pick and a `Result` callback. What is left
-      is calling it from the `IGuiGame` methods instead of letting them fall through to Forge.
-
+#### Making it playable, in the order a game needs them
+
+Ordered by the arc of an actual game rather than by difficulty, because that is the order you hit
+them in and each one unblocks the next bit of play. Anything not yet taken over simply falls
+through to Forge's window, so the game is playable throughout.
+
+Each entry says what Forge asks and what it needs from us. `SearchPanel` and `Handoff` already
+exist; most of the list is calling them from the right `IGuiGame` method.
+
+**A. Starting a game**
+
+- [ ] **Choose who starts.** Forge asks the coin-toss winner to click a portrait. Needs
+      `selectPlayer` on a seat - the first thing a game asks and currently the first thing that
+      forces you back to Forge's window.
+- [ ] **Mulligan, keep or throw back.** A plain OK/Cancel, so `SPACE`/`X` may already cover it -
+      worth testing before writing anything.
+- [ ] **London mulligan: put N cards back.** A choose-from-hand. `SearchPanel` with `min=max=N`.
+- [ ] **Opening-hand actions** (Leylines, Chancellors). Rare; a yes/no.
+
+**B. A simple turn**
+
+- [x] Play a card - done 2026-10-21.
+- [x] Pass priority (`SPACE`) and cancel (`X`) - done 2026-10-21.
+- [ ] **Yes/no confirmations.** Forge asks constantly ("use this ability?"). Likely the single
+      highest-value item after who-starts, because it interrupts every turn.
+- [ ] **Mana payment.** Forge auto-taps when unambiguous; when it is not, it asks which lands.
+      Needs clicking a land to tap it for a cost.
+
+**C. Spells that ask questions**
+
+- [ ] **Targeting.** Click a creature, player or permanent as a target. Reuses the card-click path
+      that already works, plus `selectPlayer` for seats.
+- [ ] **Modal spells** ("choose one"). A list choice - `SearchPanel`, or a small mode list.
+- [ ] **X costs.** A number prompt.
+- [ ] **Optional and additional costs** - sacrifice, discard, pay life.
+- [ ] **Choose a card from a list** - search a library, pick from a graveyard, from exile.
+      `SearchPanel` is built for exactly this and is the first real use of `Handoff`.
+- [ ] **Choose a player, a colour, a card type, a number.** Small prompts, all currently Forge's.
+
+**D. Combat**
+
+- [ ] **Declare attackers**, including which opponent or planeswalker each attacks. The arcs are
+      already drawn; this is the input side of them.
+- [ ] **Declare blockers**, assigning each blocker to an attacker.
+- [ ] **Damage assignment order** when one attacker is blocked by several creatures.
+
+**E. Housekeeping**
+
+- [ ] **Ordering simultaneous triggers.** `SearchPanel` remembers pick order already, which is
+      what this needs.
+- [ ] **Scry and surveil** - top or bottom, in order.
+- [ ] **Discard to hand size.**
+- [ ] **Game over, concede, next game.** Nothing currently marks a game as finished in 3D.
+
+**Not decisions, but needed before it is comfortable**
+
+- [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode - no pick).
+- [ ] See what a spell on the stack is targeting.
+- [ ] Undo, and Forge's "restart this phase".
+- [ ] Auto-pass / yield settings, or playing is far more clicking than Forge's window.
+
 #### Agreed plan (owner approved 2026-10-21)
 
 The proposal above is **accepted**. Work it in this order. Claim each step in `CLAIMS.md` first.
