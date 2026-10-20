@@ -87,6 +87,18 @@ abstract class TableInput extends TableHud {
         boolean inHand = false;
         for (Snapshot.CardV h : snap.hand) if (h.id == c.id) inHand = true;
         if (inHand) {
+            // The commonest refusal there is, and the least obvious: you tap out for a mana rock,
+            // click the thing you meant to cast with it, and nothing happens - because the rock is
+            // still ON THE STACK and is not making mana yet. Forge is right to refuse; the player
+            // is owed the reason and the one key that fixes it. Named before the generic answers,
+            // which blamed "wrong timing, or not enough mana" and sent the owner hunting for a
+            // state bug (2026-10-21).
+            if (!snap.stack.isEmpty()) {
+                Snapshot.CardV top = snap.stack.get(snap.stack.size() - 1);   // the stack is bottom first
+                String what = top.name.isEmpty() ? "something" : top.name;
+                return (c.land ? "Can't play " : "Can't cast ") + c.name + " yet - " + what
+                    + " is still on the stack. SPACE lets it resolve";
+            }
             if (c.land) return "Can't play " + c.name + " now - lands need your main phase, an empty stack, one a turn";
             return "Can't cast " + c.name + " now - wrong timing, or not enough mana";
         }

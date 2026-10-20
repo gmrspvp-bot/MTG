@@ -92,6 +92,7 @@ abstract class TableHud extends TableScene {
         drawSeatInfo(w, h);
         drawPhaseOnTable();
         drawZoneLabels();
+        drawStackCounts();
         drawCentreTracker();
         drawLifePops();
         drawTargetBanner(w, h);
@@ -657,6 +658,30 @@ abstract class TableHud extends TableScene {
             ly -= 16f * PP_SCALE;
         }
         font.getData().setScale(1f);
+    }
+
+    /**
+     * "x12" over a pile of identical permanents. The pile shows depth, but depth stops being
+     * countable past about four cards and stops growing at six, so the number carries it.
+     */
+    void drawStackCounts() {
+        for (TableLayout.StackedAt s : stacked) {
+            Vector3 p = cam.project(new Vector3(s.x, s.top + 0.10f, s.z));
+            if (p.z > 1f) continue;
+            String label = "x" + s.count;
+            GlyphLayout gl = new GlyphLayout(fontBig, label);
+            // A dark plate behind it: these sit over card art, where thin text disappears.
+            ui.end();
+            shapes.setProjectionMatrix(ui.getProjectionMatrix());
+            Gdx.gl.glEnable(GL20.GL_BLEND);
+            shapes.begin(ShapeRenderer.ShapeType.Filled);
+            shapes.setColor(0.03f, 0.08f, 0.12f, 0.82f);
+            shapes.rect(p.x - gl.width / 2f - 7f, p.y - 4f, gl.width + 14f, gl.height + 9f);
+            shapes.end();
+            ui.begin();
+            fontBig.setColor(1f, 0.90f, 0.55f, 1f);
+            fontBig.draw(ui, label, p.x - gl.width / 2f, p.y + gl.height + 1f);
+        }
     }
 
     void drawZoneLabels() {

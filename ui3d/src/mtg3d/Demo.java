@@ -249,6 +249,29 @@ public final class Demo {
         aura.attachedToId = dragon.id;
         s.seats.get(0).others.add(aura);
 
+        // Identical permanents, so stacking can be looked at without a real game: twelve
+        // Treasures and five 1/1 Humans stack, and the two 2/2 Humans stay a separate pile
+        // beside them - the case the owner named when asking for this (2026-10-21).
+        int tid = 8000;
+        for (int k = 0; k < 12; k++) {
+            Snapshot.CardV tr = card(tid++, "Treasure", "Artifact - Treasure", false, false, "", "");
+            tr.artifact = true;
+            tr.token = true;
+            s.seats.get(0).others.add(tr);
+        }
+        for (int k = 0; k < 5; k++) {
+            Snapshot.CardV h = card(tid++, "Human", "Creature - Human", true, false, "", "");
+            h.token = true;
+            h.power = "1"; h.toughness = "1";
+            s.seats.get(0).creatures.add(h);
+        }
+        for (int k = 0; k < 2; k++) {
+            Snapshot.CardV h = card(tid++, "Human", "Creature - Human", true, false, "", "");
+            h.token = true;
+            h.power = "2"; h.toughness = "2";
+            s.seats.get(0).creatures.add(h);
+        }
+
         // Designations and night, so the seat marks and the day/night label show.
         s.seats.get(2).marks.add("MONARCH");
         s.seats.get(1).marks.add("INITIATIVE");

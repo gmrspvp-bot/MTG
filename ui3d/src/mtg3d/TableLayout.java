@@ -110,6 +110,7 @@ abstract class TableLayout extends TableCamera {
         drawn.clear();
         seatPads.clear();
         props.clear();
+        stacked.clear();
         seatPick.clear();
         if (snap.seats.isEmpty()) return;
 
@@ -351,25 +352,86 @@ abstract class TableLayout extends TableCamera {
         }
     }
 
+    /**
+     * What makes two permanents the same card for stacking.
+     *
+     * The owner's rule, and the right one: twenty Treasures stack, five 1/1 Humans stack, but two
+     * 1/1 Humans and two 2/2 Humans do not - if they differ in any way you can see, you have to be
+     * able to see it. So the key is everything the face shows: name, printed power and toughness,
+     * counters, whether it is tapped, a token, face down, or a commander. Anything with something
+     * attached to it is never stacked (placeAttachments lays those out itself), and nor is
+     * anything in combat, where each attacker needs its own arc.
+     */
+    private static String stackKey(Snapshot.CardV c) {
+        return c.name + "|" + c.power + "/" + c.toughness + "|" + c.counterText
+            + "|" + c.tapped + c.token + c.faceDown + c.commander;
+    }
+
+    /** -Dforge.ui3d.stack=false lays every permanent in its own slot again. */
+    static final boolean STACK_ALIKE =
+        !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.stack", "true"));
+
+    private boolean stackable(Snapshot.CardV c) {
+        return STACK_ALIKE && !c.attacking && !c.blocking && !hostTargets.containsKey(c.id)
+            && !attachedHere.containsKey(c.id) && c.attachedToId < 0;
+    }
+
+    /** A pile of identical permanents: where it is, how deep, and what to label it. */
+    static final class StackedAt {
+        final float x, z, top;
+        final int count;
+        StackedAt(float x, float z, float top, int count) { this.x = x; this.z = z; this.top = top; this.count = count; }
+    }
+
+    /** Filled every frame by placeRow, drawn as "x12" over the pile by TableHud. */
+    final List<StackedAt> stacked = new ArrayList<>();
+
+    /** How much each card under the top one lifts it. A real card is CARD_THICK; this reads better. */
+    static final float STACK_STEP = 0.022f;
+    static final int STACK_SHOW = 6;     // past this the pile stops growing and the count carries it
+
     void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
         cards = unattached(cards);
         if (cards.isEmpty()) return;
+        // Identical permanents share a slot: twenty Treasure tokens were twenty slots wide and
+        // ran straight through the next seat's board (the owner, 2026-10-21). Order is first
+        // appearance, so the board does not reshuffle itself as copies arrive.
+        List<List<Snapshot.CardV>> groups = new ArrayList<>();
+        java.util.Map<String, List<Snapshot.CardV>> byKey = new java.util.LinkedHashMap<>();
+        for (Snapshot.CardV c : cards) {
+            if (!stackable(c)) { groups.add(java.util.Collections.singletonList(c)); continue; }
+            List<Snapshot.CardV> g = byKey.get(stackKey(c));
+            if (g == null) { g = new ArrayList<>(); byKey.put(stackKey(c), g); groups.add(g); }
+            g.add(c);
+        }
         // A tapped card lies sideways, so it needs a CARD_H-wide slot, not CARD_W: with equal
         // slots, tapped neighbours overlapped (more visibly once tapping animated).
         float width = -GAP;
-        for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
+        for (List<Snapshot.CardV> g : groups) width += (g.get(0).tapped ? CARD_H : CARD_W) + GAP;
         float cursor = -width / 2f;
-        for (int j = 0; j < cards.size(); j++) {
-            Snapshot.CardV c = cards.get(j);
-            float slot = c.tapped ? CARD_H : CARD_W;
+        for (List<Snapshot.CardV> g : groups) {
+            Snapshot.CardV top = g.get(g.size() - 1);
+            float slot = top.tapped ? CARD_H : CARD_W;
             float along = cursor + slot / 2f;
             cursor += slot + GAP;
             Vector3 w = rotateY(along, dist, angle);
             // LibGDX's rotate(Y, deg) is the inverse of the rotation above, hence the minus.
-            float yaw = (float) Math.toDegrees(-angle) + (c.tapped ? 90f : 0f);
-            add(c, seat, w.x, 0.02f + FIELD_RAISE, w.z, yaw, 0f);
-            if (attachedHere.containsKey(c.id)) {
-                hostTargets.put(c.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
+            float yaw = (float) Math.toDegrees(-angle) + (top.tapped ? 90f : 0f);
+            float base = 0.02f + FIELD_RAISE;
+            // The ones underneath, as faces rather than a block, so the pile still looks like
+            // cards. Only the top one is added by id - the rest are scenery, and giving them
+            // poses would have them race each other every time the group changes size.
+            int under = Math.min(g.size(), STACK_SHOW) - 1;
+            for (int k = under; k >= 1; k--) {
+                ModelInstance shim = inst(stackShimModel);
+                shim.transform.setToTranslation(w.x, base + k * STACK_STEP - STACK_STEP / 2f, w.z)
+                    .rotate(Vector3.Y, yaw);
+                props.add(shim);
+            }
+            add(top, seat, w.x, base + under * STACK_STEP, w.z, yaw, 0f);
+            if (g.size() > 1) stacked.add(new StackedAt(w.x, w.z, base + under * STACK_STEP, g.size()));
+            if (attachedHere.containsKey(top.id)) {
+                hostTargets.put(top.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
             }
         }
     }

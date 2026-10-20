@@ -141,6 +141,10 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.07f, 0.09f, 1f))), attrs);
         // Built white: every instance overrides its own diffuse colour each frame, so the
         // model's colour is never the one you see (see TableLayout.placeSeatEdges).
+        // The copies under the top card of a stack. Card-sized and card-coloured edge-on, so a
+        // pile of twenty Treasures reads as a pile of cards rather than a block.
+        stackShimModel = builder.createBox(CARD_W, STACK_STEP, CARD_H,
+            new Material(ColorAttribute.createDiffuse(new Color(0.78f, 0.78f, 0.74f, 1f))), attrs);
         seatEdgeModel = builder.createBox(BAND_UNIT, 0.016f, EDGE_W,
             new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,

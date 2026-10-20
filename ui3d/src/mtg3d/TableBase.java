@@ -89,6 +89,9 @@ abstract class TableBase extends ApplicationAdapter {
     /** One unit-long bar; four of them, scaled and turned, frame each seat's area. */
     Model seatEdgeModel;
 
+    /** A card-sized slab: the copies under the top one in a stack of identical permanents. */
+    Model stackShimModel;
+
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     static final float BAND_UNIT = 1f;
 

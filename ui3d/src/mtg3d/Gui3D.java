@@ -50,7 +50,10 @@ public final class Gui3D implements InvocationHandler {
                                 "one", "oneOrNone", "getChoices", "many",
                                 "getInteger", "order", "assignCombatDamage",
                                 // 2026-10-20 (owner's list): which ability of a card to activate.
-                                "getAbilityToPlay"));
+                                "getAbilityToPlay",
+                                // 2026-10-21: whether a phase happens for us at all. See
+                                // takeSkipPhase - this one decided whole combats were skipped.
+                                "isUiSetToSkipPhase"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -658,6 +661,36 @@ public final class Gui3D implements InvocationHandler {
      * falls through to Forge, which is still perfectly able to ask it. That fallback is the whole
      * reason this is safe to do at all.
      */
+    /**
+     * Whether a phase happens for us at all.
+     *
+     * This one decided whole combats were skipped. Forge asks the GUI, and `CMatchUI` answers
+     * from `PhaseIndicator.getLabelFor(phase).getEnabled()` - the little per-player phase toggles
+     * in ITS OWN window. Playing in the 3D table you never see them, cannot reach them, and have
+     * no idea they are deciding anything: the owner pressed SPACE at beginning of combat on turn
+     * 30 and the turn ended, because declare attackers, blockers, damage and second main were all
+     * switched off, so one pass of priority ran through the lot (2026-10-21; `PHASE_HUMAN_
+     * DECLAREATTACKERS=false` was sitting in the preferences).
+     *
+     * For our own seat the 3D window is the UI, and it has no such toggles, so the answer is
+     * always "do not skip" - every phase is offered and SPACE moves on. Any other seat is still
+     * Forge's business and is forwarded untouched.
+     *
+     * -Dforge.ui3d.phasestops=false gives the decision back to Forge's toggles.
+     */
+    private Object takeSkipPhase(Object[] args) {
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.phasestops", "true"))) return NOT_HANDLED;
+        try {
+            if (args == null || args.length < 1 || !(args[0] instanceof forge.game.player.PlayerView)) return NOT_HANDLED;
+            forge.game.player.PlayerView who = (forge.game.player.PlayerView) args[0];
+            forge.game.player.PlayerView me = pch == null ? null : pch.getLocalPlayerView();
+            if (me == null || !StateReader.sameSeat(who, me)) return NOT_HANDLED;
+            return Boolean.FALSE;      // our seat never skips a phase
+        } catch (Throwable t) {
+            return NOT_HANDLED;        // let Forge answer rather than risk the phase structure
+        }
+    }
+
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
@@ -679,6 +712,8 @@ public final class Gui3D implements InvocationHandler {
                 return takeDamage(args);
             case "getAbilityToPlay":
                 return takeAbility(args);
+            case "isUiSetToSkipPhase":
+                return takeSkipPhase(args);
             default:
                 break;
         }
