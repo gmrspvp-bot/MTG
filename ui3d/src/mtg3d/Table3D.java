@@ -159,6 +159,11 @@ public final class Table3D extends TableInput {
                     search.scrollBy(amountY);
                     return true;
                 }
+                if (numbers.isOpen()) {
+                    numbers.scrollBy(amountY);
+                    return true;
+                }
+                if (options.isOpen()) return true;
                 // The wheel zooms the camera when no panel wants it; DOWN / HOME resets it.
                 zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * (1f + amountY * 0.1f)));
                 return true;
@@ -278,6 +283,10 @@ public final class Table3D extends TableInput {
             search.update(Gdx.graphics.getDeltaTime());
             search.render(ui, shapes, font, fontBig);
         }
+        options.update(Gdx.graphics.getDeltaTime());
+        options.render(ui, shapes, font, fontBig);
+        numbers.update(Gdx.graphics.getDeltaTime());
+        numbers.render(ui, shapes, font, fontBig);
         maybeShoot();
         WindowMemory.track();
     }

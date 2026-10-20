@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - visual halves: option panel (modes / players / colours / types) and number picker (X) | dmara's Claude | 2026-10-21 | New `OptionPanel.java`, `NumberPicker.java` (presentation only, callbacks like `SearchPanel`); `Table3D` create/render/dispose lines + `TableInput` routing while one is open; demo switches to open them. Not wired to Forge (attended). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

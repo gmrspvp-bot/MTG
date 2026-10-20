@@ -34,6 +34,46 @@ abstract class TableInput extends TableHud {
      * Demo trigger (S): opens the search panel over everything currently in the snapshot, so the
      * animation and the grid can be exercised before stage 3 has anything real to search.
      */
+    static final String OPEN_PANEL = System.getProperty("forge.ui3d.openPanel");
+    boolean panelShown;
+
+    /** Sample contents for each not-yet-wired panel, so they can be looked at (and screenshotted). */
+    void openSamplePanel(String which) {
+        List<OptionPanel.Option> o = new ArrayList<>();
+        switch (which) {
+            case "modes":
+                o.add(new OptionPanel.Option("Deal 4 damage to target creature", "Boros Charm, mode 1", null));
+                o.add(new OptionPanel.Option("Permanents you control gain indestructible", "until end of turn", null));
+                o.add(new OptionPanel.Option("Target creature gains double strike", "until end of turn", null));
+                options.open("Boros Charm", "Choose one.", o, 1, 1, picked -> System.out.println("UI3D: mode " + picked));
+                break;
+            case "colour":
+                o.add(new OptionPanel.Option("White", "", new Color(0.96f, 0.93f, 0.80f, 1f)));
+                o.add(new OptionPanel.Option("Blue", "", new Color(0.30f, 0.55f, 0.90f, 1f)));
+                o.add(new OptionPanel.Option("Black", "", new Color(0.25f, 0.22f, 0.28f, 1f)));
+                o.add(new OptionPanel.Option("Red", "", new Color(0.88f, 0.30f, 0.22f, 1f)));
+                o.add(new OptionPanel.Option("Green", "", new Color(0.30f, 0.70f, 0.35f, 1f)));
+                options.open("Choose a colour", "Painter's Servant", o, 1, 1, picked -> { });
+                break;
+            case "player":
+                for (Snapshot.SeatV s : snap.seats) {
+                    o.add(new OptionPanel.Option(s.name, s.life + " life" + (s.isYou ? "  (you)" : ""), null));
+                }
+                options.open("Choose a player", "Target player draws two cards.", o, 1, 1, picked -> { });
+                break;
+            case "two":
+                o.add(new OptionPanel.Option("Counter target spell", "", null));
+                o.add(new OptionPanel.Option("Return target permanent to its owner's hand", "", null));
+                o.add(new OptionPanel.Option("Tap all creatures your opponents control", "", null));
+                o.add(new OptionPanel.Option("Draw a card", "", null));
+                options.open("Cryptic Command", "Choose two.", o, 2, 2, picked -> { });
+                break;
+            default:   // "x"
+                numbers.open("Choose X", "Wrath of the Skies: X energy, then pay any amount.", 0, 9, 3,
+                    x -> "you pay {" + x + "}{W}{W}  -  total " + (x + 2) + " mana", v -> { });
+        }
+    }
+
     void openDemoSearch() {
         List<Snapshot.CardV> all = new ArrayList<>(snap.hand);
         for (Snapshot.SeatV s : snap.seats) {
@@ -56,7 +96,7 @@ abstract class TableInput extends TableHud {
         if (clickedCog()) { bug.ask(snap); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
-        if (search != null && search.isOpen()) return;
+        if (panelOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
         // -Dforge.ui3d.openPile=<seat>,graveyard|exile: opens that pile once, for screenshot checks.
         if (OPEN_PILE != null && !pileOpened && frameNo > 30 && snap.seats.size() > 0) {
@@ -66,6 +106,13 @@ abstract class TableInput extends TableHud {
             List<Snapshot.CardV> pile = p.length > 1 && p[1].trim().startsWith("e") ? s.exile : s.graveyard;
             search.open(s.name + "'s " + (pile == s.exile ? "exile" : "graveyard") + " (" + pile.size() + ")",
                 "Most recent first. Close when you have read it.", new ArrayList<>(pile), 0, 0, chosen -> { });
+            return;
+        }
+        // -Dforge.ui3d.openPanel=modes|colour|player|x: opens a sample OptionPanel / NumberPicker
+        // once, for screenshot checks of panels that are not wired to Forge yet.
+        if (OPEN_PANEL != null && !panelShown && frameNo > 30) {
+            panelShown = true;
+            openSamplePanel(OPEN_PANEL.trim().toLowerCase());
             return;
         }
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
@@ -235,7 +282,7 @@ abstract class TableInput extends TableHud {
     void pick() {
         hovered = null;
         hoveredSeat = -1;
-        if (search != null && search.isOpen()) return;
+        if (panelOpen()) return;
         Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
         float best = Float.MAX_VALUE;
         Vector3 hit = new Vector3();

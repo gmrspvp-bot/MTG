@@ -101,6 +101,14 @@ abstract class TableBase extends ApplicationAdapter {
     CardArt art;
 
     SearchPanel search;
+    /** Text choices (modes, players, colours, types) and number picks (X). Not wired to Forge yet. */
+    final OptionPanel options = new OptionPanel();
+    final NumberPicker numbers = new NumberPicker();
+
+    /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
+    boolean panelOpen() {
+        return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen();
+    }
 
     final BugReport bug = new BugReport();
 
