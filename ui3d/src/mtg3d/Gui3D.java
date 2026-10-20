@@ -450,6 +450,7 @@ public final class Gui3D implements InvocationHandler {
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
                 clearPhaseSkips();
+                javax.swing.SwingUtilities.invokeLater(Gui3D::unhookForgeKeys);
                 // Say which mode we are in. Without this, a run where strict found nothing and a
                 // run where the flag never arrived look identical in the log - both are silent.
                 System.out.println(STRICT
@@ -1546,6 +1547,38 @@ public final class Gui3D implements InvocationHandler {
      *
      * Done once, lazily, because the prompt's buttons do not exist until a match is built.
      */
+    /**
+     * Take Forge's global keyboard hook off the JVM.
+     *
+     * FControl is a KeyEventDispatcher registered on the KeyboardFocusManager, so it sees
+     * every key pressed anywhere in this JVM whichever window has focus. That is how a
+     * keystroke meant for the 3D table ended four of the owner's turns through Forge's
+     * "End Turn" menu item (2026-10-21), and it is the same hook that types into Forge while
+     * you are typing a bug report.
+     *
+     * While the 3D table is the window being played in, Forge's window is a fallback that
+     * should answer questions, not listen for keys. Removing the dispatcher leaves its menus
+     * and buttons working by mouse - only the global key handling goes.
+     *
+     * -Dforge.ui3d.unhook=false leaves it in place.
+     */
+    private static boolean keysUnhooked;
+
+    static void unhookForgeKeys() {
+        if (keysUnhooked || "false".equalsIgnoreCase(System.getProperty("forge.ui3d.unhook", "true"))) return;
+        keysUnhooked = true;
+        try {
+            Class<?> fc = Class.forName("forge.control.FControl");
+            Object inst = fc.getField("instance").get(null);
+            if (!(inst instanceof java.awt.KeyEventDispatcher)) return;
+            java.awt.KeyboardFocusManager.getCurrentKeyboardFocusManager()
+                .removeKeyEventDispatcher((java.awt.KeyEventDispatcher) inst);
+            System.out.println("UI3D: Forge's global key hook removed - its menus still work by mouse");
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not remove Forge's global key hook (" + t + ")");
+        }
+    }
+
     private void disarmFocusTheft() {
         if (!STOP_FOCUS_THEFT || focusDisarmed) return;
         try {
