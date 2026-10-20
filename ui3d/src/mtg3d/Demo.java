@@ -186,8 +186,7 @@ public final class Demo {
         Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
         cfg.setTitle("MTG 3D table - demo data");
         WindowMemory.apply(cfg, 1600, 950);   // last size and position, if any
-        cfg.useVsync(true);
-        cfg.setForegroundFPS(60);
+        GraphicsQuality.configure(cfg);
         new Lwjgl3Application(new Table3D(source), cfg);
     }
 

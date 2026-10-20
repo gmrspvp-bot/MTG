@@ -44,7 +44,11 @@ public final class Gui3D implements InvocationHandler {
      */
     private static final Set<String> TAKEN_OVER = new LinkedHashSet<>(
         java.util.Arrays.asList("confirm", "reveal", "message",
-                                "chooseSingleEntityForEffect", "chooseEntitiesForEffect"));
+                                "chooseSingleEntityForEffect", "chooseEntitiesForEffect",
+                                // 2026-10-21, hooking up the panels: lists of anything (modes,
+                                // colours, types, players, cards), numbers, ordering, damage.
+                                "one", "oneOrNone", "getChoices", "many",
+                                "getInteger", "order", "assignCombatDamage"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -270,6 +274,12 @@ public final class Gui3D implements InvocationHandler {
          */
         public volatile String forgeDialog = "";
         public volatile long forgeDialogAt;
+        /**
+         * The class name of the Input the prompt belongs to - "InputAttack", "InputBlock",
+         * "InputSelectTargets", "InputPayManaOfCostPayment", "InputConfirmMulligan"... The 3D window
+         * switches its board modes (drag to attack, glow targets, pay with lands) on this.
+         */
+        public volatile String inputName = "";
     }
 
     public static final Prompt PROMPT = new Prompt();
@@ -376,6 +386,18 @@ public final class Gui3D implements InvocationHandler {
         return true;
     }
 
+    /**
+     * OK queued behind clicks just sent, for multi-pick inputs (London mulligan's bottom cards):
+     * Forge only enables OK once enough cards are chosen, which has not happened yet when the
+     * picks are queued, so the enabled check is skipped. Still guarded by the prompt's token.
+     */
+    public static boolean pressOkQueued() {
+        forge.player.PlayerControllerHuman c = controller;
+        if (c == null || PROMPT.token == null) return false;
+        ClickGuard.ok(c, PROMPT.token);
+        return true;
+    }
+
     /** Cancel, with the same guard. */
     public static boolean pressCancel() {
         forge.player.PlayerControllerHuman c = controller;
@@ -458,6 +480,18 @@ public final class Gui3D implements InvocationHandler {
         if ("message".equals(method.getName())) return takeMessage(args);
         if ("chooseSingleEntityForEffect".equals(method.getName())) return takeChoose(args, true);
         if ("chooseEntitiesForEffect".equals(method.getName())) return takeChoose(args, false);
+        switch (method.getName()) {
+            case "one": case "oneOrNone": case "getChoices": case "many":
+                return takeList(method, args);
+            case "getInteger":
+                return takeInteger(args);
+            case "order":
+                return takeOrder(method, args);
+            case "assignCombatDamage":
+                return takeDamage(args);
+            default:
+                break;
+        }
         if (!"confirm".equals(method.getName())) return NOT_HANDLED;
         try {
             String question = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
@@ -566,6 +600,12 @@ public final class Gui3D implements InvocationHandler {
         public final String title;
         public final java.util.List<Snapshot.CardV> items;
         public final int min, max;
+        /**
+         * True when every option is a card, so SearchPanel shows them as cards; false for lists
+         * of words, players, modes, colours - those go to OptionPanel, labelled by `labels`.
+         */
+        public boolean cards = true;
+        public java.util.List<String> labels = new ArrayList<>();
         final java.util.List<Object> entities;
         final Handoff<java.util.List<Object>> handoff;
         Choice(String title, java.util.List<Snapshot.CardV> items, java.util.List<Object> entities,
@@ -667,6 +707,328 @@ public final class Gui3D implements InvocationHandler {
         }
     }
 
+    // ---- 2026-10-21: the rest of the panels, hooked up --------------------------------------------
+
+    /** A CardV for any option Forge hands us: a card in full, an ability by its host, else its text. */
+    private static Snapshot.CardV describe(Object o, String label) {
+        Snapshot.CardV v = new Snapshot.CardV();
+        if (o instanceof CardView) {
+            CardView cv = (CardView) o;
+            v.id = cv.getId();
+            v.name = cv.getName();
+            CardView.CardStateView st = cv.getCurrentState();
+            if (st != null) {
+                if (st.getType() != null) v.typeLine = st.getType().toString();
+                if (st.getManaCost() != null) v.manaCost = st.getManaCost().toString();
+                v.text = st.getOracleText() == null ? "" : st.getOracleText();
+            }
+        } else if (o instanceof forge.game.spellability.SpellAbilityView) {
+            // A triggered or activated ability: show its source card, with what it does under it.
+            forge.game.spellability.SpellAbilityView sa = (forge.game.spellability.SpellAbilityView) o;
+            CardView host = sa.getHostCard();
+            if (host != null) { v.id = host.getId(); v.name = host.getName(); }
+            v.stackText = label;
+            if (v.name.isEmpty()) v.name = label;
+        } else {
+            v.name = label;
+        }
+        return v;
+    }
+
+    /** The label Forge would show: its display function if it gave one, else the object's text. */
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+    private static String label(Object o, Object display) {
+        try {
+            if (display instanceof java.util.function.Function) {
+                Object s = ((java.util.function.Function) display).apply(o);
+                if (s != null) return String.valueOf(s);
+            }
+        } catch (Throwable ignored) {
+            // fall back to toString
+        }
+        if (o instanceof forge.game.GameEntityView) return ((forge.game.GameEntityView) o).getName();
+        return String.valueOf(o);
+    }
+
+    /**
+     * one / oneOrNone / getChoices / many: every "pick from this list" Forge asks that is not
+     * chooseEntitiesForEffect. Cards go to SearchPanel; anything else (a mode, a colour, a card
+     * type, a player, a number given as text) goes to OptionPanel. Shapes:
+     *   one(title, list[, display])          exactly one
+     *   oneOrNone(title, list)               zero or one
+     *   getChoices(title, min, max, list[, selected, display])
+     *   many(title, caption, [min,] max, list[, dest], card)   - a negative count means "any"
+     * A pick that does not satisfy min (cancelled a must-choose) hands the question to Forge.
+     */
+    private Object takeList(Method method, Object[] args) {
+        try {
+            String name = method.getName();
+            String title = args.length > 0 && args[0] instanceof String ? (String) args[0] : "Choose";
+            java.util.List<?> options = null;
+            java.util.List<Integer> ints = new ArrayList<>();
+            Object display = null;
+            for (int i = 1; i < args.length; i++) {
+                Object a = args[i];
+                if (a instanceof java.util.List && options == null) options = (java.util.List<?>) a;
+                else if (a instanceof Integer) ints.add((Integer) a);
+                else if (a instanceof java.util.function.Function) display = a;
+            }
+            if (options == null || options.isEmpty()) return NOT_HANDLED;
+            // many() with a pre-filled destination list is a two-column move (sideboarding); leave it.
+            if ("many".equals(name)) {
+                int lists = 0;
+                for (Object a : args) if (a instanceof java.util.List && !((java.util.List<?>) a).isEmpty()) lists++;
+                if (lists > 1) return NOT_HANDLED;
+            }
+            int min, max;
+            switch (name) {
+                case "one": min = 1; max = 1; break;
+                case "oneOrNone": min = 0; max = 1; break;
+                default:
+                    if (ints.size() >= 2) { min = ints.get(0); max = ints.get(1); }
+                    else if (ints.size() == 1) { min = ints.get(0); max = ints.get(0); }
+                    else { min = 0; max = options.size(); }
+            }
+            if (max < 0 || max > options.size()) max = options.size();
+            if (min < 0) min = 0;
+            if (min > max) min = max;
+
+            java.util.List<Object> entities = new ArrayList<>();
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            java.util.List<String> labels = new ArrayList<>();
+            boolean allCards = true;
+            for (Object o : options) {
+                String l = label(o, display);
+                entities.add(o);
+                labels.add(l);
+                items.add(describe(o, l));
+                if (!(o instanceof CardView)) allCards = false;
+            }
+            String caption = "many".equals(name) && args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            Handoff<java.util.List<Object>> h = Handoff.start(name + ": " + title);
+            Choice c = new Choice(caption.isEmpty() ? title : title + " - " + caption, items, entities, min, max, h);
+            c.cards = allCards;
+            c.labels = labels;
+            choosing = c;
+            java.util.List<Object> picked;
+            try {
+                picked = h.awaitOr(() -> null);
+            } finally {
+                choosing = null;
+            }
+            if (picked == null || picked.size() < min) return NOT_HANDLED;   // Forge asks instead
+            if ("one".equals(name) || "oneOrNone".equals(name)) return picked.isEmpty() ? null : picked.get(0);
+            return picked;
+        } catch (Throwable t) {
+            choosing = null;
+            System.out.println("UI3D: list choice failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /** A number Forge wants (an X cost, "choose a number"). */
+    public static final class NumberAsk {
+        public final String title;
+        public final int min, max;
+        final Handoff<Integer> handoff;
+        NumberAsk(String title, int min, int max, Handoff<Integer> h) {
+            this.title = title; this.min = min; this.max = max; this.handoff = h;
+        }
+    }
+
+    private static volatile NumberAsk numberAsk;
+
+    public static NumberAsk pendingNumber() { return numberAsk; }
+
+    /** Answer from the render thread; null means cancelled. */
+    public static void answerNumber(Integer value) {
+        NumberAsk n = numberAsk;
+        if (n != null) n.handoff.answer(value == null ? Integer.MIN_VALUE : value);
+    }
+
+    /** getInteger(title, min, max, sortDesc | cutoff). Cancel returns null, as Forge's own dialog does. */
+    private Object takeInteger(Object[] args) {
+        try {
+            String title = args.length > 0 && args[0] instanceof String ? (String) args[0] : "Choose a number";
+            int min = args.length > 1 && args[1] instanceof Integer ? (Integer) args[1] : 0;
+            int max = args.length > 2 && args[2] instanceof Integer ? (Integer) args[2] : 99;
+            if (max == Integer.MAX_VALUE || max > 999) max = 99;     // "any number": keep the picker usable
+            Handoff<Integer> h = Handoff.start("integer: " + title);
+            numberAsk = new NumberAsk(title, min, max, h);
+            Integer v;
+            try {
+                v = h.awaitOr(() -> null);
+            } finally {
+                numberAsk = null;
+            }
+            if (v == null) return NOT_HANDLED;                        // handed back: Forge asks
+            return v == Integer.MIN_VALUE ? null : v;                 // cancelled, or the number
+        } catch (Throwable t) {
+            numberAsk = null;
+            return NOT_HANDLED;
+        }
+    }
+
+    /** Cards or abilities to put in order (the top of a scry, simultaneous triggers). */
+    public static final class OrderAsk {
+        public final String title, caption;
+        public final java.util.List<Snapshot.CardV> items;
+        final java.util.List<Object> entities;
+        final Handoff<java.util.List<Object>> handoff;
+        OrderAsk(String title, String caption, java.util.List<Snapshot.CardV> items, java.util.List<Object> entities,
+                 Handoff<java.util.List<Object>> h) {
+            this.title = title; this.caption = caption; this.items = items; this.entities = entities; this.handoff = h;
+        }
+    }
+
+    private static volatile OrderAsk orderAsk;
+
+    public static OrderAsk pendingOrder() { return orderAsk; }
+
+    /** Answer with the item indices in their new order; null = hand it to Forge. */
+    public static void answerOrder(java.util.List<Integer> indices) {
+        OrderAsk o = orderAsk;
+        if (o == null) return;
+        if (indices == null) { o.handoff.answer(null); return; }
+        java.util.List<Object> out = new ArrayList<>();
+        for (int i : indices) if (i >= 0 && i < o.entities.size()) out.add(o.entities.get(i));
+        o.handoff.answer(out);
+    }
+
+    /**
+     * order(title, caption, list, card): pure ordering, which is what a scry's top cards and
+     * simultaneous triggers use. The longer forms move cards between two lists (sideboarding) and
+     * are left to Forge.
+     */
+    private Object takeOrder(Method method, Object[] args) {
+        try {
+            if (args.length != 4 || !(args[2] instanceof java.util.List)) return NOT_HANDLED;
+            java.util.List<?> src = (java.util.List<?>) args[2];
+            if (src.size() < 2) return NOT_HANDLED;              // nothing to order
+            String title = args[0] instanceof String ? (String) args[0] : "Order";
+            String caption = args[1] instanceof String ? (String) args[1] : "";
+            java.util.List<Object> entities = new ArrayList<>(src);
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            for (Object o : src) items.add(describe(o, label(o, null)));
+            Handoff<java.util.List<Object>> h = Handoff.start("order: " + title);
+            orderAsk = new OrderAsk(title, caption, items, entities, h);
+            java.util.List<Object> out;
+            try {
+                out = h.awaitOr(() -> null);
+            } finally {
+                orderAsk = null;
+            }
+            if (out == null || out.size() != src.size()) return NOT_HANDLED;
+            if (IGuiGame.OrderResult.class.isAssignableFrom(method.getReturnType())) {
+                return new IGuiGame.OrderResult<>(out, false);
+            }
+            return out;
+        } catch (Throwable t) {
+            orderAsk = null;
+            return NOT_HANDLED;
+        }
+    }
+
+    /** An attacker's damage to split among its blockers. */
+    public static final class DamageAsk {
+        public final Snapshot.CardV attacker;
+        public final java.util.List<Snapshot.CardV> blockers;
+        public final int[] lethal;
+        public final int damage;
+        final java.util.List<CardView> views;
+        final Handoff<int[]> handoff;
+        DamageAsk(Snapshot.CardV attacker, java.util.List<Snapshot.CardV> blockers, int[] lethal, int damage,
+                  java.util.List<CardView> views, Handoff<int[]> h) {
+            this.attacker = attacker; this.blockers = blockers; this.lethal = lethal; this.damage = damage;
+            this.views = views; this.handoff = h;
+        }
+    }
+
+    private static volatile DamageAsk damageAsk;
+
+    public static DamageAsk pendingDamage() { return damageAsk; }
+
+    /** Answer with damage per blocker, in order; null = hand it to Forge. */
+    public static void answerDamage(int[] perBlocker) {
+        DamageAsk d = damageAsk;
+        if (d != null) d.handoff.answer(perBlocker);
+    }
+
+    /**
+     * assignCombatDamage(attacker, blockers, damage, defender, overrideOrder, maySkip). Taken
+     * over only when there is no defender to assign to: Forge passes one when the attacker could
+     * send damage past its blockers (trample and the like), and how that share is keyed in the
+     * answer could not be confirmed from the jar - so those go to Forge's own dialog rather than
+     * risk the damage being lost.
+     */
+    private Object takeDamage(Object[] args) {
+        try {
+            if (args.length < 4 || args[3] != null) return NOT_HANDLED;
+            if (!(args[0] instanceof CardView) || !(args[1] instanceof java.util.List) || !(args[2] instanceof Integer)) return NOT_HANDLED;
+            CardView att = (CardView) args[0];
+            java.util.List<CardView> views = new ArrayList<>();
+            for (Object o : (java.util.List<?>) args[1]) if (o instanceof CardView) views.add((CardView) o);
+            if (views.isEmpty()) return NOT_HANDLED;
+            int dmg = (Integer) args[2];
+            boolean deathtouch = false;
+            try { deathtouch = att.getCurrentState().hasDeathtouch(); } catch (Throwable ignored) { }
+            java.util.List<Snapshot.CardV> bl = new ArrayList<>();
+            int[] lethal = new int[views.size()];
+            for (int i = 0; i < views.size(); i++) {
+                bl.add(describe(views.get(i), views.get(i).getName()));
+                int l;
+                try { l = views.get(i).getLethalDamage(); } catch (Throwable e) { l = 1; }
+                lethal[i] = deathtouch ? Math.min(1, Math.max(0, l)) : Math.max(0, l);
+            }
+            Handoff<int[]> h = Handoff.start("damage: " + att.getName());
+            damageAsk = new DamageAsk(describe(att, att.getName()), bl, lethal, dmg, views, h);
+            int[] out;
+            try {
+                out = h.awaitOr(() -> null);
+            } finally {
+                damageAsk = null;
+            }
+            if (out == null || out.length != views.size()) return NOT_HANDLED;
+            java.util.Map<CardView, Integer> map = new java.util.LinkedHashMap<>();
+            for (int i = 0; i < views.size(); i++) map.put(views.get(i), out[i]);
+            return map;
+        } catch (Throwable t) {
+            damageAsk = null;
+            return NOT_HANDLED;
+        }
+    }
+
+    // ---- game-level actions from the 3D window ------------------------------------------------------
+
+    /** Rematch / next game / quit, from the end screen: IGameController.nextGameDecision. */
+    public static void nextGame(String what) {
+        final forge.player.PlayerControllerHuman c = controller;
+        if (c == null) return;
+        final forge.gamemodes.match.NextGameDecision d = "quit".equals(what) ? forge.gamemodes.match.NextGameDecision.QUIT
+            : "rematch".equals(what) ? forge.gamemodes.match.NextGameDecision.NEW : forge.gamemodes.match.NextGameDecision.CONTINUE;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try { c.nextGameDecision(d); } catch (Throwable t) { System.out.println("UI3D: next game failed (" + t + ")"); }
+        });
+    }
+
+    /** Concede the game (the menu asks first). */
+    public static void concede() {
+        final forge.player.PlayerControllerHuman c = controller;
+        if (c == null) return;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try { c.concede(); } catch (Throwable t) { System.out.println("UI3D: concede failed (" + t + ")"); }
+        });
+    }
+
+    /** Undo the last action, where Forge allows it (tapping a land for mana, mostly). */
+    public static void undo() {
+        final forge.player.PlayerControllerHuman c = controller;
+        if (c == null) return;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try { c.undoLastAction(); } catch (Throwable t) { System.out.println("UI3D: undo failed (" + t + ")"); }
+        });
+    }
+
     /** -Dforge.ui3d.nofocus=false puts Forge's focus behaviour back. */
     private static final boolean STOP_FOCUS_THEFT =
         !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.nofocus", "true"));
@@ -715,6 +1077,7 @@ public final class Gui3D implements InvocationHandler {
                     PROMPT.message = (String) args[1];
                 }
                 PROMPT.token = ClickGuard.token(pch);
+                PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
                 break;
             case "updateButtons":
                 // (PlayerView, String okLabel, String cancelLabel, boolean ok, boolean cancel, boolean focus)
@@ -731,6 +1094,7 @@ public final class Gui3D implements InvocationHandler {
                     PROMPT.allowEnter = Boolean.TRUE.equals(args[3]);
                 }
                 PROMPT.token = ClickGuard.token(pch);
+                PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
                 break;
             case "setSelectables": {
                 // Both the ids (for the renderer, which must not hold Forge objects) and the
@@ -748,6 +1112,7 @@ public final class Gui3D implements InvocationHandler {
                 PROMPT.selectable = ids;
                 selectableViews = views;
                 PROMPT.token = ClickGuard.token(pch);
+                PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
                 break;
             }
             case "clearSelectables":

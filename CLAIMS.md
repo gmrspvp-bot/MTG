@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - **hook up all the visual halves** (owner asked), graphics quality setting, user test checklist | dmara's Claude | 2026-10-21 | **Includes `Gui3D.java`** (Xenil's file): new takeovers (`one`/`oneOrNone`/`getChoices`/`many` as text options, `getInteger`, `order`, `assignCombatDamage` without trample) through the existing `Handoff` pattern, plus the current Input's name in `PROMPT` and next-game / concede / undo calls. Board modes (mulligan, targeting, attack, block, mana) driven from the Input. `Table3D*` files, `ui3d\README.md`, new `ui3d\TESTING.md`. Please hold `Gui3D` edits until released. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

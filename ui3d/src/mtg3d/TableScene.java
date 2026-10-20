@@ -351,8 +351,9 @@ abstract class TableScene extends TableLayout {
         float tEnd = Math.max(0.5f, 1f - ARROW_LEN / len);
         float half = ARC_WIDTH * weight / 2f;
         float px = 0, py = 0, pz = 0, pc = 0;
-        for (int i = 0; i <= ARC_SEGMENTS; i++) {
-            float t = tEnd * i / ARC_SEGMENTS;
+        final int segs = GraphicsQuality.arcSegments();         // ESC menu: graphics
+        for (int i = 0; i <= segs; i++) {
+            float t = tEnd * i / segs;
             float x = x0 + dx * t, z = z0 + dz * t;
             float y = y0 + (y1 - y0) * t + peak * 4f * t * (1f - t);
             // Pulses travel from attacker to target, about one and a half a second.

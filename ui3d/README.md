@@ -371,7 +371,32 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 ---
 
-### Attended — needs someone playing
+### Attended - needs someone playing
+
+> **Hooked up 2026-10-21 (owner asked), not yet play-tested - see `ui3d\TESTING.md`.**
+> Every visual half below is now wired to Forge:
+> - **Questions** (new `Gui3D` takeovers, all through `Handoff`, so an unanswered one goes back
+>   to Forge): `one` / `oneOrNone` / `getChoices` / `many` - cards to `SearchPanel`, anything
+>   else (modes, colours, types, players) to `OptionPanel`; `getInteger` to `NumberPicker`;
+>   `order` (pure ordering: scry top, triggers) to `OrderPanel`; `assignCombatDamage` to
+>   `DamagePanel` **except** when Forge passes a defender (trample), which stays with Forge's dialog
+>   because how that share is keyed could not be confirmed from the jar. Two-list `order` /
+>   `many` (sideboarding) also stay with Forge.
+> - **Board modes** switch on from the Input Forge is waiting on (`Gui3D.PROMPT.inputName`,
+>   `TableInput.syncBoardModes`): `InputSelectTargets` -> targeting mode (legal = Forge's
+>   selectables, else every permanent; clicks are `selectCard` / `selectPlayer`);
+>   `InputAttack` -> drag to attack (drop = `selectPlayer` then `selectCard`); `InputBlock` ->
+>   drag to block (`selectCard` attacker, then blocker); `InputPayMana*` -> pay mode;
+>   `InputConfirmMulligan` / `InputLondonMulligan` -> `MulliganPanel`. In wired combat the arcs
+>   drawn come from the live combat, so they show what Forge accepted.
+> - **Game actions:** end screen -> `nextGameDecision` (Rematch = NEW, Next game = CONTINUE,
+>   Quit = QUIT); menu Undo -> `undoLastAction`; Concede (asks first) -> `concede`.
+> - **Tests:** `scratch\probe\Ui3dTakeoverTest.java` (14/14: answered, cancelled, timed out, left to
+>   Forge). `Ui3dConfirmTest` and `Ui3dGuiProxyTest` now initialise Forge first (they failed to
+>   start with a localiser NPE on a fresh run); with that, 4/4 and 105/105 forwarded.
+> - **Graphics quality** (ESC menu): High / Medium / Low - frame cap and vsync at once; texture
+>   filtering for newly loaded card art; anti-aliasing and the felt size when the window next
+>   opens. `GraphicsQuality.java`, saved in the user's Java preferences.
 
 > **Handover 2026-10-21 (Xenil's Claude, out of usage).** All claims released. Next three, in
 > the order the owner is hitting them:

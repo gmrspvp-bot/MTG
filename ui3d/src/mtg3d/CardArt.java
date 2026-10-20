@@ -194,7 +194,7 @@ public final class CardArt {
                 // of compression instead, which is what actually removes the shimmer.
                 try {
                     float max = Texture.getMaxAnisotropicFilterLevel();
-                    if (max > 1f) tex.setAnisotropicFilter(Math.min(16f, max));
+                    if (max > 1f) tex.setAnisotropicFilter(Math.min(GraphicsQuality.anisotropy(), max));   // ESC menu: graphics
                 } catch (Throwable ignored) {
                     // unsupported: the card is just softer at a distance
                 }

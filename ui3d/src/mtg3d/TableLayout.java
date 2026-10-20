@@ -60,7 +60,7 @@ abstract class TableLayout extends TableCamera {
      * room. The rail sits OUTSIDE the playing area, so nothing laid out on the table moves.
      */
     void createSurround(int attrs) {
-        com.badlogic.gdx.graphics.Pixmap fp = Felt.felt(1024);
+        com.badlogic.gdx.graphics.Pixmap fp = Felt.felt(GraphicsQuality.feltSize());
         feltTex = new com.badlogic.gdx.graphics.Texture(fp, true);
         fp.dispose();
         feltTex.setFilter(com.badlogic.gdx.graphics.Texture.TextureFilter.MipMapLinearLinear,

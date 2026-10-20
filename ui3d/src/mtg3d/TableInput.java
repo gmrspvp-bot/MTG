@@ -44,16 +44,31 @@ abstract class TableInput extends TableHud {
         o.add(new OptionPanel.Option("Sound: " + (cues != null && cues.muted() ? "off" : "on"), "M", null));
         o.add(new OptionPanel.Option("Game log: " + (showLog ? "shown" : "hidden"), "L", null));
         o.add(new OptionPanel.Option("Follow the turn: " + (followTurn ? "on" : "off"), "the camera walks to whoever's turn it is", null));
-        o.add(new OptionPanel.Option("Undo / restart this phase", "not wired yet - use Forge's window", null));
-        o.add(new OptionPanel.Option("Concede", "not wired yet - use Forge's window", null));
+        o.add(new OptionPanel.Option("Undo", "takes back the last action Forge allows (tapping for mana, mostly)", null));
+        o.add(new OptionPanel.Option("Concede", "asks first", null));
         o.add(new OptionPanel.Option("Keys", "SPACE ok  X cancel  H hand back  TAB camera  arrows walk  wheel zoom", null));
+        o.add(new OptionPanel.Option("Graphics: " + GraphicsQuality.label(), GraphicsQuality.detail(), null));
         options.open("Menu", "ESC closes", o, 1, 1, picked -> {
             if (picked.isEmpty()) return;
             switch (picked.get(0)) {
                 case 1: if (cues != null) cues.toggleMute(); openMenu(); break;
                 case 2: showLog = !showLog; openMenu(); break;
                 case 3: followTurn = !followTurn; lastActiveSeat = activeSeat(); openMenu(); break;
-                case 4: case 5: System.out.println("UI3D: not wired to Forge yet - use Forge's window"); break;
+                case 4:
+                    if (Gui3D.active()) Gui3D.undo(); else System.out.println("UI3D: undo (demo)");
+                    break;
+                case 5: {
+                    List<OptionPanel.Option> yn = new ArrayList<>();
+                    yn.add(new OptionPanel.Option("Yes, concede", "you lose this game", null));
+                    yn.add(new OptionPanel.Option("No", "back to the game", null));
+                    options.open("Concede?", "This cannot be undone.", yn, 1, 1, ans -> {
+                        if (!ans.isEmpty() && ans.get(0) == 0) {
+                            if (Gui3D.active()) Gui3D.concede(); else System.out.println("UI3D: concede (demo)");
+                        }
+                    });
+                    break;
+                }
+                case 7: GraphicsQuality.next(); applyGraphics(); openMenu(); break;
                 case 6: openMenu(); break;
                 default: break;
             }
@@ -80,7 +95,138 @@ abstract class TableInput extends TableHud {
         return "Forge won't take that right now";
     }
 
+    /** The graphics level's live parts: frame cap and vsync now; the rest when things next load. */
+    void applyGraphics() {
+        try {
+            Gdx.graphics.setForegroundFPS(GraphicsQuality.fps());
+            Gdx.graphics.setVSync(GraphicsQuality.vsync());
+        } catch (Throwable ignored) {
+            // frame cap stays as it was
+        }
+        toast("Graphics: " + GraphicsQuality.label() + (GraphicsQuality.current() == GraphicsQuality.Level.LOW
+            ? "" : " - anti-aliasing changes next time the window opens"), Gdx.graphics.getWidth() / 2f - 200f, 120f);
+    }
+
     boolean planLeftWas;
+    /** The prompt token the board modes were last synced to, and the card last clicked from hand. */
+    Object modeToken;
+    int lastCastId = Integer.MIN_VALUE;
+    /** Mulligans taken this game, for the "Mulligan (to N)" label; reset when the mulligan ends. */
+    int mulligansTaken;
+    Object mulliganShownFor;
+
+    /**
+     * Turns the board modes on and off from the Input Forge is waiting on (Gui3D.PROMPT.inputName),
+     * so in a real game they appear by themselves: targets glow when a spell wants targets, the
+     * drag-to-attack mode is on during declare attackers, and so on. In wired mode the visible
+     * assignments are refreshed from the game every frame (combat arcs, selectables), so what is
+     * drawn is what Forge has accepted, not what was hoped. The demo (no Gui3D) is left alone.
+     */
+    void syncBoardModes() {
+        if (!Gui3D.active()) return;
+        String in = Gui3D.PROMPT.inputName;
+        Object tok = Gui3D.PROMPT.token;
+        boolean changed = tok != modeToken;
+        modeToken = tok;
+        Snapshot.SeatV me = snap.you();
+        int you = snap.youIndex();
+        List<Integer> sel = Gui3D.PROMPT.selectable;
+
+        // Targets: InputSelectTargets puts the legal cards in the selectable set.
+        if ("InputSelectTargets".equals(in)) {
+            if (targeting == null || !targeting.wired || changed) {
+                Targeting tg = new Targeting();
+                tg.wired = true;
+                tg.sourceId = lastCastId;
+                tg.max = 99;
+                targeting = tg;
+            }
+            targeting.legal.clear();
+            targeting.legal.addAll(sel);
+            if (sel.isEmpty()) {
+                // No list from Forge: let every permanent be clickable and let Forge judge.
+                for (Snapshot.SeatV s : snap.seats) {
+                    for (Snapshot.CardV c : s.creatures) targeting.legal.add(c.id);
+                    for (Snapshot.CardV c : s.others) targeting.legal.add(c.id);
+                    for (Snapshot.CardV c : s.lands) targeting.legal.add(c.id);
+                }
+            }
+            targeting.what = Gui3D.PROMPT.message;
+        } else if (targeting != null && targeting.wired) {
+            targeting = null;
+        }
+
+        // Declare attackers / blockers.
+        boolean attack = "InputAttack".equals(in), block = "InputBlock".equals(in);
+        if ((attack || block) && me != null) {
+            if (combatPlan == null || !combatPlan.wired || combatPlan.blocking != block) {
+                CombatPlan cp = new CombatPlan(block);
+                cp.wired = true;
+                combatPlan = cp;
+            }
+            CombatPlan cp = combatPlan;
+            cp.mine.clear();
+            for (Snapshot.CardV c : me.creatures) if (!c.tapped || block) cp.mine.add(c.id);
+            if (attack) {
+                // What Forge has accepted, from the live combat - the drawn arcs follow the game.
+                if (cp.dragging == Integer.MIN_VALUE) {
+                    cp.attackSeat.clear();
+                    for (Snapshot.CombatArc a : snap.combatArcs) {
+                        if (cp.mine.contains(a.attackerId) && a.defenderSeat >= 0) cp.attackSeat.put(a.attackerId, a.defenderSeat);
+                    }
+                }
+            } else {
+                cp.attackers.clear();
+                for (Snapshot.CombatArc a : snap.combatArcs) {
+                    if (a.defenderSeat == you) cp.attackers.add(a.attackerId);
+                }
+                if (cp.dragging == Integer.MIN_VALUE) {
+                    cp.blockOn.clear();
+                    for (Snapshot.CombatArc a : snap.combatArcs) for (int b : a.blockedBy) cp.blockOn.put(b, a.attackerId);
+                }
+            }
+        } else if (combatPlan != null && combatPlan.wired) {
+            combatPlan = null;
+        }
+
+        // Paying mana: Forge offers the sources that can pay, or failing that, our untapped lands.
+        if (in.startsWith("InputPayMana")) {
+            if (manaPlan == null || !manaPlan.wired || changed) {
+                ManaPlan mp = new ManaPlan();
+                mp.wired = true;
+                manaPlan = mp;
+            }
+            manaPlan.cost = Gui3D.PROMPT.message;
+            manaPlan.usable.clear();
+            if (!sel.isEmpty()) manaPlan.usable.addAll(sel);
+            else if (me != null) for (Snapshot.CardV c : me.lands) if (!c.tapped) manaPlan.usable.add(c.id);
+        } else if (manaPlan != null && manaPlan.wired) {
+            manaPlan = null;
+        }
+
+        // The mulligan: keep / mulligan, then (London) the cards to put on the bottom.
+        if ("InputConfirmMulligan".equals(in) && tok != mulliganShownFor && !mulligan.isOpen()) {
+            mulliganShownFor = tok;
+            final boolean okIsKeep = !Gui3D.PROMPT.okLabel.toLowerCase().contains("mull");
+            mulligan.openKeep(new ArrayList<>(snap.hand), mulligansTaken, keep -> {
+                if (!keep) mulligansTaken++;
+                if (keep == okIsKeep) Gui3D.pressOk(); else Gui3D.pressCancel();
+            });
+        } else if ("InputLondonMulligan".equals(in) && tok != mulliganShownFor && !mulligan.isOpen()) {
+            mulliganShownFor = tok;
+            int n = 1;
+            java.util.regex.Matcher m = java.util.regex.Pattern.compile("(\\d+)").matcher(Gui3D.PROMPT.message);
+            if (m.find()) n = Math.max(1, Integer.parseInt(m.group(1)));
+            mulligan.openBottom(new ArrayList<>(snap.hand), n, cards -> {
+                for (Snapshot.CardV c : cards) Gui3D.clickCard(c.id);
+                Gui3D.pressOkQueued();
+            });
+        } else if (!in.contains("Mulligan")) {
+            if (mulligan.isOpen() && mulliganShownFor != null) mulligan.close();
+            mulliganShownFor = null;
+            if (!in.isEmpty()) mulligansTaken = 0;
+        }
+    }
 
     /**
      * Declaring attackers / blockers by drag. Press on a glowing creature to pick it up, release
@@ -90,11 +236,16 @@ abstract class TableInput extends TableHud {
      */
     boolean handleCombatPlan() {
         CombatPlan p = combatPlan;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { combatPlan = null; return true; }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
-            System.out.println("UI3D: " + (p.blocking ? "blocks " + p.blockOn : "attacks " + p.attackSeat) + " (not wired yet)");
-            combatPlan = null;
-            return true;
+        if (p.wired) {
+            // A real declaration: SPACE is Forge's OK (declare these), ESC opens the menu as usual.
+            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) { Gui3D.pressOk(); return true; }
+        } else {
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { combatPlan = null; return true; }
+            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+                System.out.println("UI3D: " + (p.blocking ? "blocks " + p.blockOn : "attacks " + p.attackSeat) + " (demo)");
+                combatPlan = null;
+                return true;
+            }
         }
         clickedCard();                       // eat the click edge: no card is played meanwhile
         boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
@@ -105,8 +256,20 @@ abstract class TableInput extends TableHud {
             int id = p.dragging;
             p.dragging = Integer.MIN_VALUE;
             if (p.blocking) {
-                if (hovered != null && p.attackers.contains(hovered.card.id)) p.blockOn.put(id, hovered.card.id);
-                else p.blockOn.remove(id);
+                Integer was = p.blockOn.get(id);
+                if (hovered != null && p.attackers.contains(hovered.card.id)) {
+                    // Forge's InputBlock: click the attacker (it becomes current), then the blocker.
+                    if (p.wired) {
+                        if (was != null && was != hovered.card.id) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
+                        Gui3D.clickCard(hovered.card.id);
+                        Gui3D.clickCard(id);
+                    }
+                    p.blockOn.put(id, hovered.card.id);
+                } else {
+                    // Dropped elsewhere: take the block off (the same two clicks toggle it back).
+                    if (p.wired && was != null) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
+                    p.blockOn.remove(id);
+                }
             } else {
                 int seat = -1;
                 if (hoveredSeat >= 0) seat = hoveredSeat;
@@ -115,8 +278,20 @@ abstract class TableInput extends TableHud {
                     float[] m = mouseOnTable();
                     if (m != null && (hovered == null || hovered.card.id != id)) seat = seatAt(m[0], m[1]);
                 }
-                if (seat >= 0 && seat < snap.seats.size() && !snap.seats.get(seat).isYou) p.attackSeat.put(id, seat);
-                else p.attackSeat.remove(id);
+                boolean was = p.attackSeat.containsKey(id);
+                if (seat >= 0 && seat < snap.seats.size() && !snap.seats.get(seat).isYou) {
+                    // Forge's InputAttack: click the player (they become the defender), then the
+                    // creature (it attacks them). Re-aiming an attacker means taking it off first.
+                    if (p.wired) {
+                        Integer before = p.attackSeat.get(id);
+                        if (was && before != null && before != seat) Gui3D.clickCard(id);
+                        if (!was || (before != null && before != seat)) { Gui3D.clickPlayer(seat); Gui3D.clickCard(id); }
+                    }
+                    p.attackSeat.put(id, seat);
+                } else {
+                    if (p.wired && was) Gui3D.clickCard(id);     // a second click takes it off
+                    p.attackSeat.remove(id);
+                }
             }
         }
         planLeftWas = down;
@@ -308,32 +483,56 @@ abstract class TableInput extends TableHud {
         if (clickedCog()) { bug.ask(snap); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
+        syncBoardModes();
         if (panelOpen()) return;
-        // Targeting mode owns clicks and ESC: a click on a glowing card picks (or unpicks) it, the
-        // last pick finishes, ESC cancels. It consumes the click edge, so nothing below can also
-        // play a card from the same click; camera keys further down still work.
+        // The board modes own clicks and ESC while they are on: a click on a glowing card picks,
+        // taps or targets it instead of playing it. They consume the click edge, so nothing below
+        // can also play a card from the same click; camera keys further down still work. Wired to
+        // Forge (a real game), every pick is a guarded click Forge judges; in the demo they are local.
         if (combatPlan != null && handleCombatPlan()) return;
         if (manaPlan != null) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { manaPlan = null; return; }
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+                if (manaPlan.wired) Gui3D.pressCancel(); else manaPlan = null;
+                return;
+            }
             if (clickedCard() && hovered != null && manaPlan.usable.contains(hovered.card.id)) {
                 Integer id = hovered.card.id;
-                if (manaPlan.tapped.contains(id)) manaPlan.tapped.remove(id);
-                else if (manaPlan.tapped.size() < manaPlan.total) manaPlan.tapped.add(id);
-                if (manaPlan.tapped.size() >= manaPlan.total) {
-                    System.out.println("UI3D: paid with " + manaPlan.tapped + " (not wired yet)");
-                    manaPlan = null;
+                if (manaPlan.wired) {
+                    if (Gui3D.clickCard(id) && !manaPlan.tapped.contains(id)) manaPlan.tapped.add(id);
+                } else {
+                    if (manaPlan.tapped.contains(id)) manaPlan.tapped.remove(id);
+                    else if (manaPlan.tapped.size() < manaPlan.total) manaPlan.tapped.add(id);
+                    if (manaPlan.tapped.size() >= manaPlan.total) {
+                        System.out.println("UI3D: paid with " + manaPlan.tapped + " (demo)");
+                        manaPlan = null;
+                    }
                 }
             }
         }
         if (targeting != null) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { targeting = null; return; }
-            if (clickedCard() && hovered != null && targeting.legal.contains(hovered.card.id)) {
-                Integer id = hovered.card.id;
-                if (targeting.picked.contains(id)) targeting.picked.remove(id);
-                else if (targeting.picked.size() < targeting.max) targeting.picked.add(id);
-                if (targeting.picked.size() >= targeting.max) {
-                    System.out.println("UI3D: targets chosen " + targeting.picked + " (not wired yet)");
-                    targeting = null;
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+                if (targeting.wired) Gui3D.pressCancel(); else targeting = null;
+                return;
+            }
+            if (clickedCard()) {
+                if (hovered != null && targeting.legal.contains(hovered.card.id)) {
+                    Integer id = hovered.card.id;
+                    if (targeting.wired) {
+                        if (Gui3D.clickCard(id)) {
+                            if (targeting.picked.contains(id)) targeting.picked.remove(id); else targeting.picked.add(id);
+                        }
+                    } else {
+                        if (targeting.picked.contains(id)) targeting.picked.remove(id);
+                        else if (targeting.picked.size() < targeting.max) targeting.picked.add(id);
+                        if (targeting.picked.size() >= targeting.max) {
+                            System.out.println("UI3D: targets chosen " + targeting.picked + " (demo)");
+                            targeting = null;
+                        }
+                    }
+                } else if (hovered == null && hoveredSeat >= 0 && targeting.wired) {
+                    Gui3D.clickPlayer(hoveredSeat);        // a player as the target
+                } else if (hovered != null) {
+                    toast("Not a legal target", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
                 }
             }
         }
@@ -392,6 +591,8 @@ abstract class TableInput extends TableHud {
         if (Gdx.input.isKeyJustPressed(Input.Keys.L)) showLog = !showLog;
         if (boardClick && Gui3D.active()) {
             if (hovered != null) {
+                // Remembered so targeting mode can draw its arc from the spell being cast.
+                lastCastId = hovered.card.id;
                 if (!Gui3D.clickCard(hovered.card.id)) {
                     System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
                     toast(whyNot(hovered), Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());

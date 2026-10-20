@@ -125,6 +125,8 @@ abstract class TableBase extends ApplicationAdapter {
         final java.util.List<Integer> picked = new ArrayList<>();
         int max = 1;
         String what = "target";
+        /** Driven by Forge (InputSelectTargets): clicks go to Forge, Forge decides when it is done. */
+        boolean wired;
     }
 
     Targeting targeting;
@@ -143,6 +145,8 @@ abstract class TableBase extends ApplicationAdapter {
         final java.util.Map<Integer, Integer> attackSeat = new java.util.LinkedHashMap<>();
         final java.util.Map<Integer, Integer> blockOn = new java.util.LinkedHashMap<>();
         int dragging = Integer.MIN_VALUE;
+        /** Driven by Forge (InputAttack / InputBlock): drops become clicks, the arcs come from the game. */
+        boolean wired;
         CombatPlan(boolean blocking) { this.blocking = blocking; }
     }
 
@@ -180,6 +184,8 @@ abstract class TableBase extends ApplicationAdapter {
         int total;
         final java.util.Set<Integer> usable = new java.util.HashSet<>();
         final java.util.List<Integer> tapped = new ArrayList<>();
+        /** Driven by Forge (InputPayMana...): clicks tap for real; Forge ends it once paid. */
+        boolean wired;
     }
 
     ManaPlan manaPlan;

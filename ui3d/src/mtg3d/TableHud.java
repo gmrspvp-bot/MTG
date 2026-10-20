@@ -770,7 +770,16 @@ abstract class TableHud extends TableScene {
     void drawTargetBanner(int w, int h) {
         String line, sub;
         Color c;
-        if (targeting != null) {
+        if (targeting != null && targeting.wired) {
+            // Forge's own words for what it wants, under a plain heading.
+            line = "Choose targets";
+            sub = targeting.what + "   -   click a glowing card or a player   -   ESC cancels";
+            c = new Color(0.80f, 0.62f, 1f, 1f);
+        } else if (manaPlan != null && manaPlan.wired) {
+            line = "Pay mana";
+            sub = manaPlan.cost + "   -   click a glowing land or mana source   -   ESC cancels";
+            c = new Color(0.60f, 0.92f, 0.62f, 1f);
+        } else if (targeting != null) {
             line = "Choose " + (targeting.max == 1 ? "a " : targeting.max + " ") + targeting.what
                 + "   (" + targeting.picked.size() + " of " + targeting.max + ")";
             sub = "click a glowing card   -   ESC cancels";

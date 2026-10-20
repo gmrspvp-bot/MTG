@@ -25,6 +25,9 @@ public class Ui3dConfirmTest {
     static final AtomicBoolean forgeAsked = new AtomicBoolean(false);
 
     public static void main(String[] args) throws Exception {
+        // Proxying IGuiGame loads PhaseType, which needs Forge's localiser (run from forge-installer-2.0.15).
+        forge.gui.GuiBase.setInterface(new forge.GuiDesktop());
+        forge.model.FModel.initialize(null, null);
         // Forge's window: records that it was asked, and always answers "no", so a true result
         // can only have come from the 3D side.
         IGuiGame real = (IGuiGame) Proxy.newProxyInstance(

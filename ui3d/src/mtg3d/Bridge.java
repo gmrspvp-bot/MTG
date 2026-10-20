@@ -74,8 +74,7 @@ public final class Bridge {
                 Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
                 cfg.setTitle("MTG 3D table");
                 WindowMemory.apply(cfg, 1600, 950);   // last size and position, if any
-                cfg.useVsync(true);
-                cfg.setForegroundFPS(60);
+                GraphicsQuality.configure(cfg);   // vsync, frame cap, anti-aliasing (ESC menu)
                 new Lwjgl3Application(new Table3D(() -> latest), cfg);
                 System.out.println("UI3D: 3D table closed (Forge carries on; it opens again with the next game)");
             } catch (Throwable e) {

@@ -41,6 +41,9 @@ public class Ui3dGuiProxyTest {
     }
 
     public static void main(String[] args) throws Exception {
+        // Proxying IGuiGame loads PhaseType, which needs Forge's localiser (run from forge-installer-2.0.15).
+        forge.gui.GuiBase.setInterface(new forge.GuiDesktop());
+        forge.model.FModel.initialize(null, null);
         Recorder rec = new Recorder();
         IGuiGame real = (IGuiGame) Proxy.newProxyInstance(
             Ui3dGuiProxyTest.class.getClassLoader(), new Class<?>[] { IGuiGame.class }, rec);

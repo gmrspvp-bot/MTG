@@ -56,6 +56,11 @@ public final class NumberPicker {
 
     public boolean isOpen() { return open; }
 
+    /** Shut it without answering - the question went back to Forge (timeout, or H). */
+    public void close() {
+        if (open && !closing) closing = true;
+    }
+
     private boolean live() { return open && !closing && anim > 0.85f; }
 
     /** Mouse wheel, forwarded by the owner (libGDX only delivers it through an InputProcessor). */

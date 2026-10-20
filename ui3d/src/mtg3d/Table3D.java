@@ -183,6 +183,71 @@ public final class Table3D extends TableInput {
         snap = source.get();
     }
 
+    /** The question each panel was last opened for, so an answered one is never shown twice. */
+    Object shownChoice, shownNumber, shownOrder, shownDamage;
+    /** The Forge question OptionPanel was last opened for; null-or-stale when the menu has it. */
+    Object optionsOwner;
+
+    /**
+     * Opens the panel for whatever Forge is waiting on - a text choice, a number, an ordering, a
+     * damage split - once per question, and closes a panel whose question has gone (answered in
+     * Forge's window, or handed back by Handoff). Card choices stay with SearchPanel, opened by
+     * the caller as before.
+     */
+    void servicePending(Gui3D.Choice choice) {
+        if (choice != null && !choice.cards && choice != shownChoice && !options.isOpen()) {
+            shownChoice = choice;
+            final Gui3D.Choice c = choice;
+            List<OptionPanel.Option> opts = new ArrayList<>();
+            for (int i = 0; i < c.labels.size(); i++) {
+                Snapshot.CardV v = c.items.get(i);
+                String detail = v.typeLine.equals("Player") ? "player" : "";
+                opts.add(new OptionPanel.Option(c.labels.get(i), detail, null));
+            }
+            options.open(c.title, c.max <= 1 ? (c.min == 0 ? "Choose one, or ESC for none." : "Choose one.")
+                : "Choose " + (c.min == c.max ? String.valueOf(c.max) : c.min + " to " + c.max) + ".",
+                opts, c.min, c.max, picked -> Gui3D.answerChoice(picked));
+            optionsOwner = c;
+        }
+        // Only close the panel if it is still showing that question - the ESC menu uses it too.
+        if (choice == null && shownChoice != null) {
+            if (options.isOpen() && optionsOwner == shownChoice) options.close();
+            shownChoice = null;
+        }
+
+        Gui3D.NumberAsk n = Gui3D.pendingNumber();
+        if (n != null && n != shownNumber && !numbers.isOpen()) {
+            shownNumber = n;
+            numbers.open(n.title, "", n.min, n.max, n.min, null, Gui3D::answerNumber);
+        }
+        if (n == null && shownNumber != null && numbers.isOpen()) { numbers.close(); shownNumber = null; }
+
+        Gui3D.OrderAsk o = Gui3D.pendingOrder();
+        if (o != null && o != shownOrder && !order.isOpen()) {
+            shownOrder = o;
+            final List<Snapshot.CardV> items = o.items;
+            List<List<Snapshot.CardV>> rows = new ArrayList<>();
+            rows.add(new ArrayList<>(items));
+            order.open(o.title, "Drag them into order, then Confirm.", rows,
+                new String[] { o.caption.isEmpty() ? "Order" : o.caption }, new String[] { "first" }, r -> {
+                    if (r == null) { Gui3D.answerOrder(null); return; }
+                    List<Integer> idx = new ArrayList<>();
+                    for (Snapshot.CardV v : r.get(0)) {
+                        for (int i = 0; i < items.size(); i++) if (items.get(i) == v) idx.add(i);
+                    }
+                    Gui3D.answerOrder(idx);
+                });
+        }
+        if (o == null && shownOrder != null && order.isOpen()) { order.close(); shownOrder = null; }
+
+        Gui3D.DamageAsk d = Gui3D.pendingDamage();
+        if (d != null && d != shownDamage && !damage.isOpen()) {
+            shownDamage = d;
+            damage.open(d.attacker, d.damage, d.blockers, d.lethal, false, (perBlocker, toPlayer) -> Gui3D.answerDamage(perBlocker));
+        }
+        if (d == null && shownDamage != null && damage.isOpen()) { damage.close(); shownDamage = null; }
+    }
+
     @Override
     public void resize(int width, int height) {
         cam.viewportWidth = width;
@@ -263,7 +328,9 @@ public final class Table3D extends TableInput {
         // A choice Forge is waiting on - a library search, a graveyard pick. The game thread is
         // blocked inside it, so this must open or Handoff will eventually hand it back.
         Gui3D.Choice choice = Gui3D.pendingChoice();
-        if (choice != null && search != null && !search.isOpen()) {
+        servicePending(choice);
+        if (choice != null && choice.cards && choice != shownChoice && search != null && !search.isOpen()) {
+            shownChoice = choice;
             final java.util.List<Snapshot.CardV> opts = choice.items;
             search.open(choice.title,
                 choice.max <= 1 ? "Choose one." : "Choose " + choice.min + " to " + choice.max + ".",
@@ -307,7 +374,10 @@ public final class Table3D extends TableInput {
         // The end screen opens by itself, once, when the game ends; ESC leaves the board to look at.
         if (snap.gameOver && !endShown) {
             endShown = true;
-            endScreen.open(snap, what -> System.out.println("UI3D: end screen chose " + what + " (not wired yet)"));
+            endScreen.open(snap, what -> {
+                if (Gui3D.active()) Gui3D.nextGame(what);
+                else System.out.println("UI3D: end screen chose " + what + " (demo)");
+            });
         }
         if (!snap.gameOver) endShown = false;
         endScreen.update(Gdx.graphics.getDeltaTime());

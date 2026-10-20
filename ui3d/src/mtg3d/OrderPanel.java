@@ -71,6 +71,11 @@ public final class OrderPanel {
 
     public boolean isOpen() { return open; }
 
+    /** Shut it without answering - the question went back to Forge (timeout, or H). */
+    public void close() {
+        if (open && !closing) closing = true;
+    }
+
     private boolean live() { return open && !closing && anim > 0.85f; }
 
     public void update(float dt) {
