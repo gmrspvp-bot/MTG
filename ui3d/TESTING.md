@@ -119,6 +119,9 @@ their game from Forge's online menu.
 - [ ] **Targets, declaring attackers and blockers, paying mana** - these modes are switched on
       from Forge's prompt text in a joined game, so they are the most likely to need fixing.
       Note any that don't appear.
+- [ ] **The game is recorded on your PC** (new 2026-10-20, 3D on or off): after a joined game,
+      `scratch\play-logs\` has a `game_<time>_joined.log` with your turns, lands, spells, attacks
+      and blocks. Spells and combat are the parts not yet seen working in a real game.
 - [ ] **Not available in a joined game** (expected, not a bug): monarch / initiative markers and
       "who has passed priority" in the left panel.
 

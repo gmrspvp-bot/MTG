@@ -130,6 +130,12 @@ ROWS layout, turn-safety prompts) and logs to `scratch\play-logs\`:
 - `game_<time>.log` is the full game log, written when the game ends. The header lines
   `Player: X (HUMAN|AI) deck=...` show who played what.
 - `console_<time>.log` holds the AI decision lines.
+- **Multiplayer:** the HOST's PlayHook records every player, other humans included. A player
+  who JOINS a game gets `game_<time>_joined.log` from `ClientRecorder` (wrapped in by ClientHook,
+  3D on or off). The host never sends clients its game log, so this one is rebuilt from the
+  host's views: same line formats (Turn, Phase, Land, Add To Stack, Combat, Life, Zone Change,
+  BOARD), but there are no damage, mulligan or resolve lines and other players' hands are hidden.
+  `-Dforge.clientrecord=false` turns it off. Test: `scratch\probe\ClientRecorderTest.java`.
 
 `scratch\play-summary.ps1 -Files <log>` prints a turn-by-turn summary of the human's turns.
 

@@ -11,6 +11,9 @@
 // call comes from join, the new GUI is handed to mtg3d.Bridge.wrapClientGui, and whatever comes
 // back (the 3D table's wrapper, which forwards everything to Forge's window) is used instead.
 // Every other caller - local games, simulations - gets Forge's GUI untouched.
+//
+// Every joined game (3D on or off) is also wrapped in ClientRecorder, which writes a game log on
+// this PC: the host keeps its own, but it never sends it to the players who join.
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -31,13 +34,20 @@ public final class ClientHook {
             orig = h;
         }
         IGuiGame gui = (IGuiGame) h.invokeExact(self);
+        if (!calledFromJoin()) return gui;
         try {
-            if ("true".equals(System.getProperty("forge.ui3d")) && calledFromJoin()) {
+            if ("true".equals(System.getProperty("forge.ui3d"))) {
                 Object w = Class.forName("mtg3d.Bridge").getMethod("wrapClientGui", Object.class).invoke(null, gui);
-                if (w instanceof IGuiGame) return (IGuiGame) w;
+                if (w instanceof IGuiGame) gui = (IGuiGame) w;
             }
         } catch (Throwable t) {
             System.out.println("CLIENTHOOK: 3D view not available for the joined game (" + t + ")");
+        }
+        // The joined game is recorded on this PC too (outermost, so it sees every call).
+        try {
+            if (!"false".equals(System.getProperty("forge.clientrecord"))) gui = ClientRecorder.wrap(gui);
+        } catch (Throwable t) {
+            System.out.println("CLIENTHOOK: could not record the joined game (" + t + ")");
         }
         return gui;
     }
