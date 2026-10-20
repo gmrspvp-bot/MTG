@@ -1518,6 +1518,75 @@ public final class AiPatches {
         }
     }
 
+    /**
+     * Chandra's Ignition (2026-10-21, added to Captain America v7): "target creature you control
+     * deals damage equal to its power to each other creature and each opponent". Forge scripts it
+     * as a Pump with the generic PowerDmg hint, which knows nothing about it being a one-sided wipe
+     * or about our own board - in an equipment deck it could fire a 2-power creature, or wipe our
+     * own creatures for nothing.
+     *
+     * For every creature it could target this works out what dies (deathtouch kills everything it
+     * touches, indestructible survives), on both sides, and the damage to each opponent; then casts
+     * only for a clearly good result - a kill on a player, or their losses (plus the face damage)
+     * well ahead of ours. Like the Blasphemous Act rule it holds when our own Captain America would
+     * die, unless it kills a player or wipes a board of theirs. Logs IGNITIONAI.
+     */
+    static final class IgnitionAi {
+        static boolean applies(SpellAbility sa) {
+            return sa.getHostCard() != null && "Chandra's Ignition".equals(sa.getHostCard().getName())
+                && sa.usesTargeting();
+        }
+
+        static forge.ai.AiAbilityDecision decide(Player ai, SpellAbility sa) {
+            Card best = null;
+            int bestScore = Integer.MIN_VALUE;
+            String bestWhy = "";
+            int opps = ai.getOpponents().size();
+            for (Card t : ai.getCreaturesInPlay()) {
+                if (!sa.canTarget(t)) continue;
+                int p = t.getNetPower();
+                if (p <= 0) continue;
+                boolean dt = t.hasKeyword(forge.game.keyword.Keyword.DEATHTOUCH);
+                int theirsVal = 0, oursVal = 0, theirsDead = 0, oursDead = 0;
+                boolean capDies = false;
+                for (Card c : ai.getGame().getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                    if (c == t || !c.isCreature()) continue;
+                    if (c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) continue;
+                    boolean dies = dt || c.getNetToughness() - c.getDamage() <= p;
+                    if (!dies) continue;
+                    int v = forge.ai.ComputerUtilCard.evaluateCreature(c);
+                    if (c.getController() == ai) {
+                        oursVal += v; oursDead++;
+                        if (CaptainPolicy.isCaptain(c)) capDies = true;
+                    } else {
+                        theirsVal += v; theirsDead++;
+                    }
+                }
+                boolean killsPlayer = false;
+                for (Player o : ai.getOpponents()) if (o.getLife() <= p && o.canLoseLife()) killsPlayer = true;
+                // Face damage to every opponent counts: ~8 evaluation points per point of damage.
+                int score = theirsVal - oursVal + p * opps * 8 + (killsPlayer ? 1000 : 0);
+                if (capDies && !killsPlayer && theirsDead < 4) score -= 2000;   // keep our Captain alive
+                if (score > bestScore) {
+                    bestScore = score;
+                    best = t;
+                    bestWhy = t.getName() + " (" + p + (dt ? ", deathtouch" : "") + "): kills " + theirsDead
+                        + " of theirs / " + oursDead + " of ours, " + p + " to each of " + opps + " opponents"
+                        + (killsPlayer ? ", KILLS A PLAYER" : "") + (capDies ? ", Cap dies" : "");
+                }
+            }
+            // Worth a 5-mana card: a kill, or a clear swing (~ two decent creatures, or 5+ to each of three).
+            if (best == null || bestScore < 220) {
+                System.out.println("IGNITIONAI " + ai.getName() + ": held" + (best == null ? " (no creature to fire it)" : " - best was " + bestWhy + ", score " + bestScore));
+                return new forge.ai.AiAbilityDecision(0, forge.ai.AiPlayDecision.CantPlayAi);
+            }
+            sa.resetTargets();
+            sa.getTargets().add(best);
+            System.out.println("IGNITIONAI " + ai.getName() + ": cast at " + bestWhy + ", score " + bestScore);
+            return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+        }
+    }
+
     public static class EquipHelperPumpAi extends forge.ai.ability.PumpAi {
         static boolean isRikku(SpellAbility sa) {
             return AbilityHelpers.enabled && AbilityHelpers.host(sa, "Rikku, Resourceful Guardian") && sa.getSubAbility() != null;
@@ -1525,16 +1594,17 @@ public final class AiPatches {
 
         @Override
         protected boolean checkPhaseRestrictions(Player ai, SpellAbility sa, forge.game.phase.PhaseHandler ph) {
-            return EquipHelper.applies(sa) || isRikku(sa) || DeathSave.applies(sa) || super.checkPhaseRestrictions(ai, sa, ph);
+            return EquipHelper.applies(sa) || isRikku(sa) || DeathSave.applies(sa) || IgnitionAi.applies(sa) || super.checkPhaseRestrictions(ai, sa, ph);
         }
 
         @Override
         protected boolean checkPhaseRestrictions(Player ai, SpellAbility sa, forge.game.phase.PhaseHandler ph, String logic) {
-            return EquipHelper.applies(sa) || isRikku(sa) || DeathSave.applies(sa) || super.checkPhaseRestrictions(ai, sa, ph, logic);
+            return EquipHelper.applies(sa) || isRikku(sa) || DeathSave.applies(sa) || IgnitionAi.applies(sa) || super.checkPhaseRestrictions(ai, sa, ph, logic);
         }
 
         @Override
         protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            if (IgnitionAi.applies(sa)) return IgnitionAi.decide(ai, sa);   // Chandra's Ignition
             if (DeathSave.applies(sa)) return DeathSave.decide(ai, sa);   // Undying Evil
             if (isRikku(sa)) {
                 String what = AbilityHelpers.rikkuChoose(ai, sa);
@@ -1850,6 +1920,20 @@ public final class AiPatches {
                 return c.getNetToughness() - c.getDamage() <= dmg;
             }
             return false;
+        }
+
+        /**
+         * Chandra's Ignition's damage is this API as a sub-ability, and Forge vets the sub on its
+         * own: DamageAllAi only weighs creatures traded, so it vetoed an Ignition that IgnitionAi
+         * had chosen for killing a player (IgnitionProbe case 5). The whole spell was already
+         * judged by IgnitionAi - board on both sides, face damage, our Captain - so stand by that.
+         */
+        @Override
+        public forge.ai.AiAbilityDecision chkDrawback(Player ai, SpellAbility sa) {
+            if (sa.getHostCard() != null && "Chandra's Ignition".equals(sa.getHostCard().getName())) {
+                return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+            }
+            return super.chkDrawback(ai, sa);
         }
 
         @Override
