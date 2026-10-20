@@ -101,6 +101,11 @@ public final class StateReader {
                     }
                     seat.command.add(v);
                 }
+                // Graveyard and exile, for browsing from their pads. Public zones; card() still
+                // blanks a face-down exiled card. Forge lists them bottom first, so reverse: the
+                // card most recently put there is what a player looks for first.
+                for (CardView cv : cards(pv, ZoneType.Graveyard)) seat.graveyard.add(0, card(cv, viewer, true));
+                for (CardView cv : cards(pv, ZoneType.Exile)) seat.exile.add(0, card(cv, viewer, true));
                 s.seats.add(seat);
             }
 
@@ -129,6 +134,7 @@ public final class StateReader {
                 s.forgeDialog = p.forgeDialog;
             }
             readPassed(game, s);
+            readLog(gv, s);
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.
         }
@@ -206,6 +212,28 @@ public final class StateReader {
             }
         } catch (Throwable t) {
             // no counters shown
+        }
+    }
+
+    /** How many log lines the snapshot carries. */
+    private static final int LOG_LINES = 8;
+
+    /**
+     * The last few game log lines, at MEDIUM verbosity - Forge's own log, which its window already
+     * shows this player, so it carries no hidden information. Forge returns these newest first
+     * (checked with scratch\probe\GameLogOrderProbe.java); the snapshot holds them oldest first.
+     */
+    private static void readLog(GameView gv, Snapshot s) {
+        try {
+            forge.game.GameLog log = gv.getGameLog();
+            if (log == null) return;
+            List<forge.game.GameLogEntry> newest = log.getLogEntriesForVerbosity(forge.game.GameLogVerbosity.MEDIUM);
+            for (int i = Math.min(LOG_LINES, newest.size()) - 1; i >= 0; i--) {
+                forge.game.GameLogEntry e = newest.get(i);
+                s.log.add(new Snapshot.LogLine(e.type() == null ? "" : e.type().name(), e.message()));
+            }
+        } catch (Throwable t) {
+            // no log shown
         }
     }
 

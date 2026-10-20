@@ -429,15 +429,14 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 **Visibility**
 
-- [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode, no pick) - needs only a
-      click target on the existing pads.
+- [x] Browse a graveyard or exile pile - done 2026-10-21. Left-click any seat's GY or EXI pad (both public) and the pile opens in `SearchPanel` browse mode, most recent first. The pads are scenery, so it is a ray hit on the table plane turned into the seat's frame (`openPileUnderMouse`); only when no card is under the mouse. New `SeatV.graveyard`/`exile`; a face-down exiled card stays blank. Checked by screenshot (`-Dforge.ui3d.openPile=0,graveyard`); **the click itself wants a check in a real game**.
 - [x] Show what a spell on the stack is targeting - done 2026-10-20: violet target arcs (see *Spell targets* above).
 - [x] Draw what Forge is asking - prompt bar above the hand, with clickable OK/Cancel
       carrying their real labels and enabled state (done 2026-10-21).
 - [x] Forge's card-list dialogs (the AI-cant-play-these deck warning) now open in the 3D
       window's search panel instead of only in Forge's (done 2026-10-21).
 - [ ] Show *why* a card cannot be played, when Forge refuses a click.
-- [ ] A visible log of recent events, so a missed trigger can be read back.
+- [x] A visible log of recent events - done 2026-10-21. Top right under the bug cog: the last 8 lines of Forge's own game log at MEDIUM verbosity (what Forge's window shows this player), oldest at the top, coloured by entry type, older lines faded. **L** hides it, `-Dforge.ui3d.log=false` starts hidden. `Snapshot.log`; `scratch\probe\GameLogOrderProbe.java` shows Forge returns these newest first.
 
 **Under the floor**
 

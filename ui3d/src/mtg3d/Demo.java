@@ -205,6 +205,25 @@ public final class Demo {
         s.seats.get(1).marks.add("ENERGY 3");
         s.dayNight = "NIGHT";
 
+        // Graveyards and an exile pile to browse from their pads, and a few lines of game log.
+        int gid = 990;
+        for (String g : new String[] { "Swords to Plowshares", "Arcane Denial", "Sol Ring" }) {
+            s.seats.get(0).graveyard.add(card(gid++, g, "Instant", false, false, "{W}", ""));
+        }
+        s.seats.get(1).graveyard.add(card(gid++, "Boros Charm", "Instant", false, false, "{R}{W}", ""));
+        s.seats.get(2).exile.add(card(gid++, "Ancient Bronze Dragon", "Creature - Dragon", true, false, "{5}{G}{G}", ""));
+        String[][] lines = {
+            { "TURN", "Turn 7 (Xenil)" },
+            { "LAND", "Xenil played Emeria, the Sky Ruin" },
+            { "STACK_ADD", "Xenil cast Swords to Plowshares targeting Ancient Bronze Dragon" },
+            { "STACK_ADD", "Michael cast Arcane Denial targeting Swords to Plowshares" },
+            { "STACK_RESOLVE", "Arcane Denial resolves" },
+            { "COMBAT", "Xenil assigned Lyra Dawnbringer to attack Captain" },
+            { "DAMAGE", "Lyra Dawnbringer deals 7 combat damage to Captain" },
+            { "LIFE", "Xenil gained 7 life" },
+        };
+        for (String[] l : lines) s.log.add(new Snapshot.LogLine(l[0], l[1]));
+
         // Command zones: Michael's commander is at home after two casts (tax +4), Zerma's after
         // none. Captain's and Xenil's are on the battlefield, so theirs show the empty pad.
         Snapshot.CardV kaalia = card(980, "Kaalia of the Vast", "Legendary Creature - Human Cleric", true, false,

@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - visible event log; browse a graveyard/exile pile from its pad | dmara's Claude | 2026-10-21 | Additive `Snapshot` fields (log lines, graveyard/exile card lists) + their reads in `StateReader`. `Table3D`: a new log overlay method, and a click on the GY/EXI pads opening `SearchPanel` read-only. Not the prompt bar, bug box or input suspension. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

@@ -151,6 +151,12 @@ public final class Snapshot {
          * (emblems, a companion). Public knowledge, so every seat's is read.
          */
         public final List<CardV> command = new ArrayList<>();
+        /**
+         * Graveyard and exile, top (most recent) first, for browsing from their pads. Both are
+         * public zones; a face-down exiled card (foretell, hideaway) still comes through blank.
+         */
+        public final List<CardV> graveyard = new ArrayList<>();
+        public final List<CardV> exile = new ArrayList<>();
     }
 
     public final List<SeatV> seats = new ArrayList<>();
@@ -159,6 +165,17 @@ public final class Snapshot {
     public String winner = "";
     /** "DAY", "NIGHT", or blank before anything has made it day or night. */
     public String dayNight = "";
+    /**
+     * The most recent game log lines, OLDEST first, at Forge's own MEDIUM verbosity - the same
+     * log Forge's window shows this player, so nothing in it is new information.
+     */
+    public final List<LogLine> log = new ArrayList<>();
+
+    /** One log line, with its Forge entry type ("STACK_ADD", "DAMAGE", ...) for colouring. */
+    public static final class LogLine {
+        public final String type, text;
+        public LogLine(String type, String text) { this.type = type; this.text = text; }
+    }
     public String phase = "";
     /**
      * The phase as Forge names it (UNTAP, UPKEEP, MAIN1, COMBAT_DECLARE_ATTACKERS...). The pretty

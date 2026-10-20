@@ -431,6 +431,16 @@ public final class Table3D extends ApplicationAdapter {
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
+        // -Dforge.ui3d.openPile=<seat>,graveyard|exile: opens that pile once, for screenshot checks.
+        if (OPEN_PILE != null && !pileOpened && frameNo > 30 && snap.seats.size() > 0) {
+            pileOpened = true;
+            String[] p = OPEN_PILE.split(",");
+            Snapshot.SeatV s = snap.seats.get(Integer.parseInt(p[0].trim()) % snap.seats.size());
+            List<Snapshot.CardV> pile = p.length > 1 && p[1].trim().startsWith("e") ? s.exile : s.graveyard;
+            search.open(s.name + "'s " + (pile == s.exile ? "exile" : "graveyard") + " (" + pile.size() + ")",
+                "Most recent first. Close when you have read it.", new ArrayList<>(pile), 0, 0, chosen -> { });
+            return;
+        }
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
         // a game is actually running: in the demo nothing is installed and SPACE still steps the
         // phase, so the two never contend for the key.
@@ -461,7 +471,11 @@ public final class Table3D extends ApplicationAdapter {
                 return;
             }
         }
-        if (clickedCard() && Gui3D.active()) {
+        boolean boardClick = clickedCard();
+        // A click on an empty graveyard or exile pad browses that pile (any seat's: both are public).
+        if (boardClick && hovered == null && openPileUnderMouse()) return;
+        if (Gdx.input.isKeyJustPressed(Input.Keys.L)) showLog = !showLog;
+        if (boardClick && Gui3D.active()) {
             if (hovered != null) {
                 if (!Gui3D.clickCard(hovered.card.id)) {
                     System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
@@ -527,6 +541,37 @@ public final class Table3D extends ApplicationAdapter {
             panX = panZ = 0f;
             setViewSeat(snap.youIndex(), n);
         }
+    }
+
+    /**
+     * If the mouse is over a graveyard or exile pad, opens that pile in the search panel in browse
+     * mode (nothing to pick) and returns true. The pads are scenery, not cards, so this is a ray
+     * hit on the table plane, turned into the seat's own frame and checked against the two pads
+     * placeZones() lays out (k = 1 graveyard, k = 2 exile; k = 0 is the library, which stays shut).
+     */
+    private boolean openPileUnderMouse() {
+        if (search == null || snap.seats.isEmpty()) return false;
+        Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
+        if (Math.abs(ray.direction.y) < 1e-4f) return false;
+        float t = -ray.origin.y / ray.direction.y;
+        if (t <= 0f) return false;
+        float hx = ray.origin.x + ray.direction.x * t, hz = ray.origin.z + ray.direction.z * t;
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Vector3 local = rotateY(hx, hz, -seatAngle(i, n));    // into seat i's frame
+            for (int k = 1; k <= 2; k++) {
+                float cz = SEAT_DIST + 1.7f - k * 1.45f;
+                if (Math.abs(local.x - 5.3f) > CARD_W * 0.5f || Math.abs(local.z - cz) > CARD_H * 0.5f) continue;
+                Snapshot.SeatV s = snap.seats.get(i);
+                List<Snapshot.CardV> pile = k == 1 ? s.graveyard : s.exile;
+                String what = k == 1 ? "graveyard" : "exile";
+                String title = s.name + "'s " + what + " (" + pile.size() + ")";
+                search.open(title, pile.isEmpty() ? "Nothing here." : "Most recent first. Close when you have read it.",
+                    new ArrayList<>(pile), 0, 0, chosen -> { });
+                return true;
+            }
+        }
+        return false;
     }
 
     /** True on the frame the left button goes down on the bug cog. */
@@ -1492,6 +1537,7 @@ public final class Table3D extends ApplicationAdapter {
         drawCentreTracker();
         drawStackLabels();
         ui.end();
+        if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
         if (hovered != null) drawDetailPanel(w, h, flat);
@@ -1569,6 +1615,80 @@ public final class Table3D extends ApplicationAdapter {
         texts.add(text);
         colours.add(colour);
         return up + bh + 2f;
+    }
+
+    private static final String OPEN_PILE = System.getProperty("forge.ui3d.openPile");
+    private boolean pileOpened;
+
+    /** The event log is on unless L has hidden it. */
+    private boolean showLog = !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.log"));
+    private static final float LOG_W = 400f, LOG_LINE = 17f;
+
+    /**
+     * The last few lines of Forge's game log, top right, so a trigger or a spell that went by
+     * while you were looking elsewhere can be read back. Oldest at the top, newest at the bottom
+     * and brightest; coloured by what kind of event it was. L hides it. The words are Forge's
+     * own log, the one its window shows this player, so it reveals nothing new.
+     */
+    private void drawEventLog(int w, int h, Matrix4 flat) {
+        if (snap.log.isEmpty()) return;
+        GlyphLayout gl = new GlyphLayout();
+        List<String> lines = new ArrayList<>();
+        for (Snapshot.LogLine l : snap.log) lines.add(fit(l.text, LOG_W - 20f, gl));
+        float panelH = 30f + lines.size() * LOG_LINE + 8f;
+        // Below the bug-report cog and its "report a bug" label, which own the very corner.
+        float x = w - LOG_W - 14f, top = h - 72f, y = top - panelH;
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.02f, 0.08f, 0.13f, 0.80f);
+        shapes.rect(x, y, LOG_W, panelH);
+        shapes.setColor(0.18f, 0.56f, 0.71f, 0.95f);
+        shapes.rect(x, top - 3f, LOG_W, 3f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        font.setColor(0.55f, 0.72f, 0.84f, 1f);
+        font.draw(ui, "GAME LOG", x + 10f, top - 9f);
+        font.setColor(0.35f, 0.48f, 0.58f, 1f);
+        font.draw(ui, "L hides", x + LOG_W - 60f, top - 9f);
+        for (int i = 0; i < lines.size(); i++) {
+            Color c = logColour(snap.log.get(i).type);
+            // Older lines fade a little, so the eye lands on the newest at the bottom.
+            float age = (lines.size() - 1 - i) / (float) Math.max(1, lines.size() - 1);
+            font.setColor(c.r, c.g, c.b, 1f - 0.45f * age);
+            font.draw(ui, lines.get(i), x + 10f, top - 30f - i * LOG_LINE);
+        }
+        ui.end();
+    }
+
+    private static Color logColour(String type) {
+        switch (type) {
+            case "STACK_ADD": case "STACK_RESOLVE": return new Color(0.80f, 0.62f, 1f, 1f);
+            case "DAMAGE": case "LIFE": return new Color(1f, 0.55f, 0.45f, 1f);
+            case "COMBAT": return new Color(1f, 0.72f, 0.40f, 1f);
+            case "TURN": case "PHASE": return new Color(1f, 0.85f, 0.45f, 1f);
+            case "LAND": case "MANA": return new Color(0.60f, 0.88f, 0.62f, 1f);
+            case "GAME_OUTCOME": return new Color(1f, 0.92f, 0.60f, 1f);
+            default: return new Color(0.78f, 0.86f, 0.92f, 1f);
+        }
+    }
+
+    /** The text cut to fit a pixel width, with an ellipsis if it had to be cut. */
+    private String fit(String s, float maxPx, GlyphLayout gl) {
+        if (s == null) return "";
+        s = s.replace('\n', ' ');
+        gl.setText(font, s);
+        if (gl.width <= maxPx) return s;
+        int lo = 0, hi = s.length();
+        while (lo < hi) {                                   // longest prefix that fits with "..."
+            int mid = (lo + hi + 1) / 2;
+            gl.setText(font, s.substring(0, mid) + "...");
+            if (gl.width <= maxPx) lo = mid; else hi = mid - 1;
+        }
+        return s.substring(0, lo) + "...";
     }
 
     /**
