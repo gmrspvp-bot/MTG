@@ -354,6 +354,13 @@ public final class Table3D extends ApplicationAdapter {
         // A list Forge wants shown opens the search panel in browse mode. Done here rather than
         // from the game thread because the panel belongs to the renderer, and the game thread is
         // already blocked inside reveal() waiting for it to be dismissed.
+        // A zone Forge opened for us to look at. Nothing is blocked on it, so closing the panel
+        // simply clears it; Forge's own window is still showing the same zone.
+        Gui3D.Peek peek = Gui3D.pendingPeek();
+        if (peek != null && search != null && !search.isOpen() && Gui3D.pendingReveal() == null) {
+            search.open(peek.title, "Close when you have read it.", peek.items, 0, 0,
+                chosen -> Gui3D.dismissPeek());
+        }
         Gui3D.Reveal rev = Gui3D.pendingReveal();
         if (rev != null && search != null && !search.isOpen()) {
             search.open(rev.title, "Close when you have read it.", rev.items, 0, 0,
@@ -413,6 +420,10 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     private void handleInput() {
+        // While the bug dialog is open the 3D window reads nothing. libGDX polls GLFW key state
+        // instead of consuming events, so without this, typing a report also passed priority and
+        // ended turns underneath it.
+        if (bug.isAsking()) return;
         // The cog is always live, so a bug can be reported whatever else is happening. It opens
         // a proper text dialog rather than an in-window field, so there is no typing state here.
         if (clickedCog()) { bug.ask(snap); return; }

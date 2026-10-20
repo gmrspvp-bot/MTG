@@ -153,6 +153,78 @@ public final class Gui3D implements InvocationHandler {
 
     private static volatile Reveal revealing;
 
+    /**
+     * A zone Forge has opened for us to look at - another player's hand, under a Duress or a
+     * Thoughtseize. Separate from Reveal because nothing is blocked on it: Forge's own window
+     * still shows the zone, so this is a mirror and dismissing it answers nothing.
+     */
+    public static final class Peek {
+        public final String title;
+        public final java.util.List<Snapshot.CardV> items;
+        Peek(String title, java.util.List<Snapshot.CardV> items) {
+            this.title = title;
+            this.items = items;
+        }
+    }
+
+    private static volatile Peek peeking;
+
+    public static Peek pendingPeek() {
+        return peeking;
+    }
+
+    public static void dismissPeek() {
+        peeking = null;
+    }
+
+    /**
+     * Build the list for an opened zone.
+     *
+     * This is the case canBeShownTo exists for: a hand is hidden, Forge has just decided we may
+     * see this one, and the engine's own answer is the only correct way to know that. The
+     * battlefield rule from the last fix does not apply here and must not be reused.
+     */
+    private void peekZone(Object[] args) {
+        try {
+            if (args == null || args.length < 2 || !(args[0] instanceof forge.game.player.PlayerView)) return;
+            forge.game.player.PlayerView owner = (forge.game.player.PlayerView) args[0];
+            if (!(args[1] instanceof Iterable)) return;
+            forge.game.player.PlayerView viewer = pch == null ? null : pch.getLocalPlayerView();
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            StringBuilder zones = new StringBuilder();
+            for (Object z : (Iterable<?>) args[1]) {
+                if (!(z instanceof forge.game.zone.ZoneType)) continue;
+                forge.game.zone.ZoneType zone = (forge.game.zone.ZoneType) z;
+                if (zones.length() > 0) zones.append(", ");
+                zones.append(zone);
+                Iterable<CardView> cards = owner.getCards(zone);
+                if (cards == null) continue;
+                for (CardView cv : cards) {
+                    Snapshot.CardV v = new Snapshot.CardV();
+                    v.id = cv.getId();
+                    boolean show;
+                    try { show = cv.canBeShownTo(viewer); } catch (Throwable e) { show = false; }
+                    if (show) {
+                        CardView.CardStateView st = cv.getCurrentState();
+                        v.name = st == null ? cv.getName() : st.getName();
+                        if (st != null && st.getType() != null) v.typeLine = st.getType().toString();
+                        if (st != null && st.getManaCost() != null) v.manaCost = st.getManaCost().toString();
+                    } else {
+                        v.faceDown = true;
+                        v.typeLine = "Creature";
+                        v.creature = true;
+                    }
+                    items.add(v);
+                }
+            }
+            if (!items.isEmpty()) {
+                peeking = new Peek(owner.getName() + " - " + zones, items);
+            }
+        } catch (Throwable t) {
+            // the zone just does not mirror; Forge's own window still shows it
+        }
+    }
+
     /** The list the 3D window should be showing, or null. */
     public static Reveal pendingReveal() {
         return revealing;
@@ -572,6 +644,9 @@ public final class Gui3D implements InvocationHandler {
             case "clearSelectables":
                 PROMPT.selectable = new ArrayList<>();
                 selectableViews = new java.util.LinkedHashMap<>();
+                break;
+            case "openZones":
+                peekZone(args);
                 break;
             case "message":
             case "reveal":

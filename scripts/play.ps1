@@ -128,6 +128,14 @@ if ($Skin -and $Skin -ne 'Default') {
         & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'make-jarvis-skin.ps1') -Name $Skin | Out-Null
     }
 }
+# The 3D window is the one being played in, so Forge must stop pulling itself in front of it.
+# UI_REMIND_ON_PRIORITY raises Forge's window every time priority arrives - right for playing in
+# Forge's own window, exactly wrong here. Set per launch rather than once behind a marker,
+# because it depends on which window you are playing in, not on a one-time preference.
+if ($Ui3d) {
+    $prefs = @($prefs | Where-Object { ($_ -split '=', 2)[0] -ne 'UI_REMIND_ON_PRIORITY' }) + 'UI_REMIND_ON_PRIORITY=false'
+}
+
 $marker5 = Join-Path $root 'scratch\play-prefs-skin.done'
 if ((Test-Path (Join-Path $forgeDir "res\skins\$Skin")) -and -not (Test-Path $marker5)) {
     $prefs = @($prefs | Where-Object { ($_ -split '=', 2)[0] -ne 'UI_SKIN' }) + "UI_SKIN=$Skin"

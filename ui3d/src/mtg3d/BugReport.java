@@ -102,6 +102,17 @@ public final class BugReport {
         return best;
     }
 
+    /**
+     * True while the bug dialog is open.
+     *
+     * The 3D window must stop reading the keyboard while it is: libGDX polls GLFW key state
+     * rather than consuming events, so it keeps seeing keys even when a Swing dialog has
+     * focus - typing a bug report was also passing priority and ending turns.
+     */
+    public boolean isAsking() {
+        return asking;
+    }
+
     /** Is the mouse over the cog right now? */
     public boolean overCog(float mx, float my) {
         return mx >= cog[0] && mx <= cog[0] + cog[2] && my >= cog[1] && my <= cog[1] + cog[3];
