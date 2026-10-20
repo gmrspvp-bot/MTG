@@ -47,14 +47,18 @@ abstract class TableHud extends TableScene {
         // The turn, the phase and which seat we are at used to be printed here as well as on the
         // phase panel, in the same corner, so the two drew on top of each other. The panel owns
         // all three now.
+        // The chosen view is named, because which one you are in is now a setting you picked
+        // rather than something the game did to you, and it survives a restart.
+        TableCamera.View cv = TableCamera.VIEWS[Math.max(1, Math.min(TableCamera.VIEWS.length - 1, currentView))];
         String mode = (lift > 0.5f ? "OVERHEAD" : "SEATED")
-            + (manualOverride ? " (TAB held - ESC to follow the game)" : "")
+            + "   view " + currentView + " - " + cv.name
+            + (manualOverride && !cv.auto ? "" : " (following the game)")
             + "   DOWN for your seat";
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
         font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
-            + "      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
+            + "      NUM 1-6  view      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
             + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.

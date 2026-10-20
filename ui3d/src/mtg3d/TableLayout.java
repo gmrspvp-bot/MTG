@@ -381,10 +381,11 @@ abstract class TableLayout extends TableCamera {
      * must lean the other way to face you), and 0 at the sides, where a lean about that axis
      * would do nothing anyway because you are looking along it.
      *
-     * -Dforge.ui3d.dais=0 lays the table flat again.
+     * Off by default: the owner looked at it in a game and wanted the table flat again for now
+     * (2026-10-21). -Dforge.ui3d.dais=26 turns the lean back on, in degrees.
      */
     static final float DAIS_TILT =
-        Math.max(0f, Math.min(60f, Float.parseFloat(System.getProperty("forge.ui3d.dais", "26"))));
+        Math.max(0f, Math.min(60f, Float.parseFloat(System.getProperty("forge.ui3d.dais", "0"))));
 
     /** The lean for a seat's rows, given where the camera is standing this frame. */
     float daisTilt(float seatAngle) {

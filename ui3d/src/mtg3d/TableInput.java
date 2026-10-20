@@ -716,6 +716,15 @@ abstract class TableInput extends TableHud {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
         }
+        // The number pad picks the view to play from, and remembers it for next time. TAB is
+        // still a quick look at the other pose; this is where you decide to live.
+        for (int k = 1; k < TableCamera.VIEWS.length; k++) {
+            if (!Keys3D.just(Input.Keys.NUMPAD_0 + k)) continue;
+            String name = applyView(k);
+            if (name != null) {
+                toast("View " + k + ": " + name, Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.72f);
+            }
+        }
         // ESC: releases a camera held with TAB, as before; otherwise it opens the menu.
         if (Keys3D.just(Input.Keys.ESCAPE)) {
             if (manualOverride) manualOverride = false;
