@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - **3D table for a JOINED network game** (owner asked) | dmara's Claude | 2026-10-21 | Attach on the client side: a hook where the joining client gets its game GUI, `Bridge`/`StateReader` reading from a `GameView` (no local `Game`), `Gui3D` installed on the client's GUI with clicks to the network game controller. Touches `Bridge`, `StateReader`, `Gui3D`, `scripts\tools` hook table. Local games unchanged. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
