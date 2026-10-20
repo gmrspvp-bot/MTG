@@ -116,6 +116,8 @@ abstract class TableBase extends ApplicationAdapter {
     /** Text choices (modes, players, colours, types) and number picks (X). Not wired to Forge yet. */
     final OptionPanel options = new OptionPanel();
     final NumberPicker numbers = new NumberPicker();
+    /** Typing an answer (Forge's free-text showInputDialog). */
+    final TextPanel text = new TextPanel();
     /** Scry / surveil / trigger ordering. Made in create(), since it needs the card art. */
     OrderPanel order;
     /** The opening hand: keep / mulligan, and the London bottom pick. Made in create(). */

@@ -41,6 +41,9 @@ public class Ui3dTakeoverTest {
                     case "assignCombatDamage": forgeAsked.set(true); return new java.util.HashMap<>();
                     case "showErrorDialog": case "alertUser": case "flashIncorrectAction": case "showRevealedCards":
                         forgeAsked.set(true); return null;
+                    case "showInputDialog": forgeAsked.set(true); return "FORGE";
+                    case "manipulateCardList": case "insertInList": forgeAsked.set(true); return Arrays.asList();
+                    case "assignGenericAmount": forgeAsked.set(true); return new java.util.HashMap<>();
                     default: return defaultValue(m.getReturnType());
                 }
             });
@@ -206,6 +209,58 @@ public class Ui3dTakeoverTest {
             pk == null ? "no peek" : pk.title + " " + pk.items.size());
         g.hideRevealedCards();
         check("hideRevealedCards closes it", mtg3d.Gui3D.pendingPeek() == null, "");
+
+        // ---- the last decisions (Xenil's Claude's three, untested until now, and two more) ------
+        forge.game.card.Card c3 = forge.game.card.Card.fromPaperCard(
+            forge.model.FModel.getMagicDb().getCommonCards().getCard("Hill Giant"), game.getPlayers().get(0));
+        forge.game.card.CardView A = attacker.getView(), B = bear.getView(), C = c3.getView();
+        // Free text: typed in 3D; Cancel = null, as Forge's box.
+        forgeAsked.set(false);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingText() == null; i++) sleep(5);
+            mtg3d.Gui3D.answerText("Kenrith");
+        }).start();
+        r = g.showInputDialog("Name a card", "Name", null, "", null, false);
+        check("free text typed in 3D", "Kenrith".equals(r) && !forgeAsked.get(), "result=" + r);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingText() == null; i++) sleep(5);
+            mtg3d.Gui3D.answerText(null);
+        }).start();
+        r = g.showInputDialog("Name a card", "Name", null, "", null, false);
+        check("free text cancelled = null", r == null && !forgeAsked.get(), "result=" + r);
+        // manipulateCardList: A and B movable; B to the top, A to the bottom; C keeps its place.
+        forgeAsked.set(false);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingOrder() == null; i++) sleep(5);
+            mtg3d.Gui3D.OrderAsk o = mtg3d.Gui3D.pendingOrder();
+            if (o != null && o.rowNames != null && o.rowNames.length == 2) mtg3d.Gui3D.answerOrderRows(Arrays.asList(1), Arrays.asList(0));
+            else mtg3d.Gui3D.answerOrder(null);
+        }).start();
+        r = g.manipulateCardList("Arrange", Arrays.asList(A, B, C), Arrays.asList(A, B), true, true, false);
+        check("manipulateCardList: top / rest / bottom", Arrays.asList(B, C, A).equals(r) && !forgeAsked.get(), "result=" + r);
+        // order, two-list form, everything to be ordered (simultaneous triggers): reversed.
+        forgeAsked.set(false);
+        answerOrderLater(Arrays.asList(2, 1, 0));
+        r = g.order("Select order for simultaneous abilities", "Resolve first", 0, 0, abc, new java.util.ArrayList<String>(), null, false, false);
+        Object list = r instanceof IGuiGame.OrderResult ? ((IGuiGame.OrderResult<?>) r).ordered() : r;
+        check("order, two lists: answered in 3D", Arrays.asList("C", "B", "A").equals(list) && !forgeAsked.get(), "result=" + list);
+        // insertInList: the item joins at the front; moved to the end.
+        forgeAsked.set(false);
+        answerOrderLater(Arrays.asList(1, 2, 0));
+        r = g.insertInList("Where?", "X", Arrays.asList("A", "B"));
+        check("insertInList: answered in 3D", Arrays.asList("A", "B", "X").equals(r) && !forgeAsked.get(), "result=" + r);
+        // assignGenericAmount: 3 split 2 / 1 over two cards.
+        forgeAsked.set(false);
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingDamage() == null; i++) sleep(5);
+            mtg3d.Gui3D.answerDamage(new int[] { 2, 1 });
+        }).start();
+        java.util.Map<Object, Integer> targets = new java.util.LinkedHashMap<>();
+        targets.put(B, 3);
+        targets.put(C, 3);
+        r = g.assignGenericAmount(A, targets, 3, false, "counters");
+        check("assignGenericAmount: split in 3D", r instanceof java.util.Map && Integer.valueOf(2).equals(((java.util.Map<?, ?>) r).get(B))
+            && Integer.valueOf(1).equals(((java.util.Map<?, ?>) r).get(C)) && !forgeAsked.get(), "result=" + r);
 
         System.out.println();
         System.out.println(pass ? "PASS" : "FAIL");

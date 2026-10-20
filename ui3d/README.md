@@ -528,7 +528,13 @@ announce.
 These are the ones that matter. Each one that is not taken over is a moment the player is pulled
 to the other window.
 
-- [ ] `showConfirmDialog(String, String)` and two more overloads -> `boolean`.
+> **All taken over 2026-10-21** (Xenil's Claude: the three generic dialogs, the two-list
+> `order`, `assignGenericAmount`, `insertInList`; Stoneforge, after Xenil's Claude ran out:
+> `manipulateCardList` as OrderPanel's Top / Bottom rows, and the free-text `showInputDialog`
+> on a new `TextPanel` with game keys blocked while typing). `Ui3dTakeoverTest` 35/35 covers
+> every one. Only `sideboard` is left with Forge, and it never fires in Commander.
+
+- [x] `showConfirmDialog(String, String)` and two more overloads -> `boolean`.
       A yes/no with custom button labels. `Gui3D.Ask` already does exactly this for `confirm`;
       this is the generic version, and should land in the same place.
 - [ ] `showOptionDialog(String, String, FSkinProp, String[], int)` -> `int`.

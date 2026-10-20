@@ -191,8 +191,15 @@ public final class Table3D extends TableInput {
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
-            // Typed characters only matter to the bug box; everything else this view needs is
-            // polled, so this handler stays tiny.
+            // Typed characters only matter to the bug box and the text panel (Forge asking for a
+            // typed answer); everything else this view needs is polled, so this handler stays tiny.
+            @Override public boolean keyTyped(char c) {
+                return text.typed(c);
+            }
+
+            @Override public boolean keyDown(int keycode) {
+                return text.key(keycode);
+            }
             @Override public boolean scrolled(float amountX, float amountY) {
                 if (search.isOpen()) {
                     search.scrollBy(amountY);
@@ -215,7 +222,7 @@ public final class Table3D extends TableInput {
     }
 
     /** The question each panel was last opened for, so an answered one is never shown twice. */
-    Object shownChoice, shownNumber, shownOrder, shownDamage;
+    Object shownChoice, shownNumber, shownOrder, shownDamage, shownText;
     /** The opened zone the search panel was last opened for, and whether as a pick panel. */
     Object shownPeek;
     boolean shownPeekPick;
@@ -266,21 +273,47 @@ public final class Table3D extends TableInput {
         }
         if (n == null && shownNumber != null && numbers.isOpen()) { numbers.close(); shownNumber = null; }
 
+        Gui3D.TextAsk ta = Gui3D.pendingText();
+        if (ta != null && ta != shownText && !text.isOpen()) {
+            shownText = ta;
+            text.open(ta.title, ta.prompt, ta.initial, ta.numeric, Gui3D::answerText);
+        }
+        if (ta == null && shownText != null) { text.close(); shownText = null; }
+
         Gui3D.OrderAsk o = Gui3D.pendingOrder();
         if (o != null && o != shownOrder && !order.isOpen()) {
             shownOrder = o;
             final List<Snapshot.CardV> items = o.items;
             List<List<Snapshot.CardV>> rows = new ArrayList<>();
-            rows.add(new ArrayList<>(items));
-            order.open(o.title, "Drag them into order, then Confirm.", rows,
-                new String[] { o.caption.isEmpty() ? "Order" : o.caption }, new String[] { "first" }, r -> {
-                    if (r == null) { Gui3D.answerOrder(null); return; }
-                    List<Integer> idx = new ArrayList<>();
-                    for (Snapshot.CardV v : r.get(0)) {
-                        for (int i = 0; i < items.size(); i++) if (items.get(i) == v) idx.add(i);
+            if (o.rowNames != null) {
+                // Top / Bottom (manipulateCardList): drag between the rows and within them.
+                rows.add(new ArrayList<>(items.subList(0, Math.min(o.firstRowCount, items.size()))));
+                if (o.rowNames.length > 1) rows.add(new ArrayList<>(items.subList(Math.min(o.firstRowCount, items.size()), items.size())));
+                String[] words = new String[o.rowNames.length];
+                java.util.Arrays.fill(words, "");
+                words[0] = o.rowNames[0].equals("Top") ? "on top" : "";
+                order.open(o.title, "Drag each card to the top or the bottom, in order, then Confirm.", rows, o.rowNames, words, r -> {
+                    if (r == null) { Gui3D.answerOrderRows(null, null); return; }
+                    List<List<Integer>> idx = new ArrayList<>();
+                    for (List<Snapshot.CardV> row : r) {
+                        List<Integer> one = new ArrayList<>();
+                        for (Snapshot.CardV v : row) for (int i = 0; i < items.size(); i++) if (items.get(i) == v) one.add(i);
+                        idx.add(one);
                     }
-                    Gui3D.answerOrder(idx);
+                    Gui3D.answerOrderRows(idx.get(0), idx.size() > 1 ? idx.get(1) : new ArrayList<>());
                 });
+            } else {
+                rows.add(new ArrayList<>(items));
+                order.open(o.title, "Drag them into order, then Confirm.", rows,
+                    new String[] { o.caption.isEmpty() ? "Order" : o.caption }, new String[] { "first" }, r -> {
+                        if (r == null) { Gui3D.answerOrder(null); return; }
+                        List<Integer> idx = new ArrayList<>();
+                        for (Snapshot.CardV v : r.get(0)) {
+                            for (int i = 0; i < items.size(); i++) if (items.get(i) == v) idx.add(i);
+                        }
+                        Gui3D.answerOrder(idx);
+                    });
+            }
         }
         if (o == null && shownOrder != null && order.isOpen()) { order.close(); shownOrder = null; }
 
@@ -436,6 +469,7 @@ public final class Table3D extends TableInput {
         options.render(ui, shapes, font, fontBig);
         numbers.update(Gdx.graphics.getDeltaTime());
         numbers.render(ui, shapes, font, fontBig);
+        text.render(ui, shapes, font, fontBig, Gdx.graphics.getDeltaTime());
         order.update(Gdx.graphics.getDeltaTime());
         order.render(ui, shapes, font, fontBig);
         mulligan.update(Gdx.graphics.getDeltaTime());

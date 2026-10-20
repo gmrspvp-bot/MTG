@@ -70,7 +70,9 @@ public final class Gui3D implements InvocationHandler {
                                 // from something that is not combat.
                                 "assignGenericAmount",
                                 // One card into an already ordered pile.
-                                "insertInList"));
+                                "insertInList",
+                                // Cards to top / bottom of a zone, in order (Stoneforge).
+                                "manipulateCardList"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -935,9 +937,10 @@ public final class Gui3D implements InvocationHandler {
         try {
             java.util.List<?> choices = args.length > 4 && args[4] instanceof java.util.List
                 ? (java.util.List<?>) args[4] : null;
-            if (choices == null || choices.isEmpty()) return NOT_HANDLED;   // free text: Forge's
             String message = args.length > 0 && args[0] instanceof String ? (String) args[0] : "";
             String title = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            // Free text (2026-10-21, Stoneforge): TextPanel, the 3D window's own field.
+            if (choices == null || choices.isEmpty()) return takeFreeText(method, args, message, title);
             java.util.List<Object> entities = new ArrayList<>();
             java.util.List<String> labels = new ArrayList<>();
             for (Object o : choices) { labels.add(String.valueOf(o)); entities.add(o); }
@@ -958,6 +961,49 @@ public final class Gui3D implements InvocationHandler {
             }
         } catch (Throwable t) {
             System.out.println("UI3D: input dialog failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /** A typed answer Forge wants: showInputDialog without a list. */
+    public static final class TextAsk {
+        public final String title, prompt, initial;
+        public final boolean numeric;
+        final Handoff<Object> handoff;
+        TextAsk(String title, String prompt, String initial, boolean numeric, Handoff<Object> h) {
+            this.title = title; this.prompt = prompt; this.initial = initial; this.numeric = numeric; this.handoff = h;
+        }
+    }
+
+    private static volatile TextAsk textAsk;
+    private static final Object CANCELLED = new Object();
+
+    public static TextAsk pendingText() { return textAsk; }
+
+    /** From the render thread: the text, or null for Cancel (Forge's dialog returns null then too). */
+    public static void answerText(String text) {
+        TextAsk t = textAsk;
+        if (t != null) t.handoff.answer(text == null ? CANCELLED : text);
+    }
+
+    /** showInputDialog(message, title, icon, initial, null, isNumeric) - a typed answer. */
+    private Object takeFreeText(Method method, Object[] args, String message, String title) {
+        try {
+            String initial = args.length > 3 && args[3] instanceof String ? (String) args[3] : "";
+            boolean numeric = args.length > 5 && Boolean.TRUE.equals(args[5]);
+            Handoff<Object> h = Handoff.start("showInputDialog (text): " + title);
+            textAsk = new TextAsk(title.isEmpty() ? "Forge asks" : title, message, initial, numeric, h);
+            Object got;
+            try {
+                // Handed back: Forge's own box asks instead, and its answer is the answer.
+                got = h.awaitOr(() -> { String f = forward(method, args, String.class); return f == null ? CANCELLED : f; });
+            } finally {
+                textAsk = null;
+            }
+            return got == CANCELLED || got == null ? null : got;
+        } catch (Throwable t) {
+            textAsk = null;
+            System.out.println("UI3D: text input failed, handing it to Forge (" + t + ")");
             return NOT_HANDLED;
         }
     }
@@ -1111,6 +1157,8 @@ public final class Gui3D implements InvocationHandler {
                 return takeRevealedCards(args);
             case "assignGenericAmount":
                 return takeGenericAmount(args);
+            case "manipulateCardList":
+                return takeManipulate(args);
             case "insertInList":
                 return takeInsertInList(method, args);
             default:
@@ -1588,9 +1636,84 @@ public final class Gui3D implements InvocationHandler {
         public final java.util.List<Snapshot.CardV> items;
         final java.util.List<Object> entities;
         final Handoff<java.util.List<Object>> handoff;
+        /**
+         * Two named rows instead of one (manipulateCardList: "Top" / "Bottom"), or null. The
+         * first `firstRowCount` items start in the first row, the rest in the second. Answered
+         * with answerOrderRows.
+         */
+        public String[] rowNames;
+        public int firstRowCount;
         OrderAsk(String title, String caption, java.util.List<Snapshot.CardV> items, java.util.List<Object> entities,
                  Handoff<java.util.List<Object>> h) {
             this.title = title; this.caption = caption; this.items = items; this.entities = entities; this.handoff = h;
+        }
+    }
+
+    /** Separates the rows in a two-row answer (see takeManipulate). */
+    static final Object ROW_BREAK = new Object();
+
+    /** Answer a two-row order: item indices of each row, in order; null = hand it to Forge. */
+    public static void answerOrderRows(java.util.List<Integer> first, java.util.List<Integer> second) {
+        OrderAsk o = orderAsk;
+        if (o == null) return;
+        if (first == null || second == null) { o.handoff.answer(null); return; }
+        java.util.List<Object> out = new ArrayList<>();
+        for (int i : first) if (i >= 0 && i < o.entities.size()) out.add(o.entities.get(i));
+        out.add(ROW_BREAK);
+        for (int i : second) if (i >= 0 && i < o.entities.size()) out.add(o.entities.get(i));
+        o.handoff.answer(out);
+    }
+
+    /**
+     * manipulateCardList(title, cards, manipulable, toTop, toBottom, toAnywhere) -> the zone in
+     * its new order (GuiChoose's dialog in Forge's window). PlayerControllerHuman.arrangeForMove
+     * reads the answer as: manipulable cards at the front go on top, those at the end go to the
+     * bottom. Shown as OrderPanel's two rows, Top and Bottom (only the one allowed if Forge allows
+     * only one); everything else keeps its place between them. toAnywhere also allows the middle,
+     * which this does not offer - top or bottom is always one of the legal answers.
+     */
+    private Object takeManipulate(Object[] args) {
+        try {
+            if (args.length < 6 || !(args[1] instanceof Iterable) || !(args[2] instanceof Iterable)) return NOT_HANDLED;
+            java.util.List<CardView> all = new ArrayList<>();
+            for (Object o : (Iterable<?>) args[1]) if (o instanceof CardView) all.add((CardView) o);
+            java.util.List<CardView> movable = new ArrayList<>();
+            for (Object o : (Iterable<?>) args[2]) if (o instanceof CardView && all.contains(o)) movable.add((CardView) o);
+            if (movable.isEmpty()) return NOT_HANDLED;
+            boolean toTop = Boolean.TRUE.equals(args[3]), toBottom = Boolean.TRUE.equals(args[4]);
+            if (!toTop && !toBottom) return NOT_HANDLED;          // "anywhere" only: Forge's dialog
+            String title = args[0] instanceof String ? (String) args[0] : "Arrange";
+            java.util.List<Object> entities = new ArrayList<>(movable);
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            for (CardView cv : movable) { remember(cv.getId(), cv); items.add(describe(cv, cv.getName())); }
+            Handoff<java.util.List<Object>> h = Handoff.start("manipulateCardList: " + title);
+            OrderAsk ask = new OrderAsk(title, "", items, entities, h);
+            ask.rowNames = toTop && toBottom ? new String[] { "Top", "Bottom" } : new String[] { toTop ? "Top" : "Bottom" };
+            ask.firstRowCount = movable.size();                   // all start in the first row
+            orderAsk = ask;
+            java.util.List<Object> out;
+            try {
+                out = h.awaitOr(() -> null);
+            } finally {
+                orderAsk = null;
+            }
+            if (out == null) return NOT_HANDLED;
+            java.util.List<CardView> top = new ArrayList<>(), bottom = new ArrayList<>();
+            boolean second = false;
+            for (Object o : out) {
+                if (o == ROW_BREAK) { second = true; continue; }
+                CardView cv = (CardView) o;
+                // One row only: it is the top row if top is allowed, else the bottom one.
+                if (!second && toTop) top.add(cv); else bottom.add(cv);
+            }
+            if (top.size() + bottom.size() != movable.size()) return NOT_HANDLED;
+            java.util.List<CardView> result = new ArrayList<>(top);
+            for (CardView cv : all) if (!movable.contains(cv)) result.add(cv);
+            result.addAll(bottom);
+            return result;
+        } catch (Throwable t) {
+            orderAsk = null;
+            return NOT_HANDLED;
         }
     }
 
