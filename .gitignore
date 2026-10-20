@@ -9,6 +9,12 @@
 # Build output: rebuilt from scripts/tools/*.java (see scripts/tools, agent-manifest.txt)
 *.class
 *.jar
+# ...except Forge's own jars, which are the one thing a clone cannot rebuild. The *.jar rule
+# above is for build output (evalcache-agent.jar); it was silently swallowing these two as
+# well, so "Forge is committed here" was true of its res tree and not of the code. 85 MB, and
+# without them a fresh clone or a downloaded zip stops at "Missing: ...jar".
+!/forge-installer-2.0.15/forge-gui-desktop-2.0.15-jar-with-dependencies.jar
+!/forge-installer-2.0.15/forge-gui-mobile-dev-2.0.15-jar-with-dependencies.jar
 /scripts/tools/classes/
 
 # Forge's runtime data: keep custom cards, decks, preferences and UI settings only
