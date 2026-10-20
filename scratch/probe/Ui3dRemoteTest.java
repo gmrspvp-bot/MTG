@@ -89,6 +89,19 @@ public class Ui3dRemoteTest {
         check("board mode from the prompt", "InputAttack".equals(Gui3D.PROMPT.inputName), Gui3D.PROMPT.inputName);
         check("3D side is active", Gui3D.active(), "");
 
+        // The bug from the owner's first joined game: the network layer can hand openView a
+        // DIFFERENT PlayerView object for our player. Matched by object, no seat was "you".
+        forge.trackable.TrackableCollection<PlayerView> copy = new forge.trackable.TrackableCollection<>();
+        copy.add(new PlayerView(me.getView().getId(), game.getTracker()));
+        client.openView(copy);
+        client.updateButtons(me.getView(), "OK", "Cancel", true, true, true);
+        settle();
+        Snapshot s2 = Bridge.latestForTest();
+        String youName = "";
+        for (Snapshot.SeatV seat : s2.seats) if (seat.isYou) youName = seat.name;
+        check("our seat found by id, not object", "Me".equals(youName), "you=" + youName);
+        check("our hand still read", s2.hand.size() == 1, String.valueOf(s2.hand.size()));
+
         sent.clear();
         Gui3D.pressOk();
         Gui3D.clickCard(bear.getId());

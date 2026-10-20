@@ -67,7 +67,46 @@ public final class StateReader {
         } catch (Throwable t) {
             // no seats yet
         }
-        return build(gv, viewer, order, null);
+        // Our seat BY ID, not by object. On a client, Forge's network layer rebuilds player views
+        // from what the host sends, so the PlayerView handed to openView can be a different object
+        // from the one in the game view. Compared by identity (as for a local game) no seat was
+        // ever "you": the table seated us in someone else's chair, our hand went missing, and the
+        // board modes worked on another player's cards (the owner's first joined game, 2026-10-20).
+        PlayerView me = null;
+        if (viewer != null) {
+            for (PlayerView pv : order) if (pv.getId() == viewer.getId()) { me = pv; break; }
+        }
+        logSeats(order, me, viewer);
+        return build(gv, me != null ? me : viewer, order, null);
+    }
+
+    /**
+     * Same player? By id, not by object: in a joined game Forge's network layer can hand out a
+     * different PlayerView object for the same player (see readView). Ids are what the host sent.
+     */
+    static boolean sameSeat(PlayerView a, PlayerView b) {
+        return a != null && b != null && (a == b || a.getId() == b.getId());
+    }
+
+    /** The seat index of a player in `order`, by id; -1 if not seated. */
+    static int seatOf(List<PlayerView> order, PlayerView p) {
+        if (p == null) return -1;
+        for (int i = 0; i < order.size(); i++) if (sameSeat(order.get(i), p)) return i;
+        return -1;
+    }
+
+    private static String lastSeatLog = "";
+
+    /** One console line whenever the joined game's seating changes, so a test shows who we are. */
+    private static void logSeats(List<PlayerView> order, PlayerView me, PlayerView viewer) {
+        StringBuilder b = new StringBuilder();
+        for (PlayerView pv : order) b.append(pv.getName()).append(pv == me ? "*" : "").append(' ');
+        String line = "UI3D: joined game seats: " + b.toString().trim() + "   (you = "
+            + (me != null ? me.getName() : viewer == null ? "unknown" : viewer.getName() + " - NOT FOUND among the seats") + ")";
+        if (!line.equals(lastSeatLog)) {
+            lastSeatLog = line;
+            System.out.println(line);
+        }
     }
 
     /** The snapshot from a view, a viewer and the seat order; `game` is null for a joined game. */
@@ -105,9 +144,9 @@ public final class StateReader {
                 Snapshot.SeatV seat = new Snapshot.SeatV();
                 seat.name = pv.getName();
                 seat.life = pv.getLife();
-                seat.isYou = (viewer != null && pv == viewer);
+                seat.isYou = sameSeat(pv, viewer);
                 seat.lost = pv.getHasLost();
-                seat.active = (pv == turn);
+                seat.active = sameSeat(pv, turn);
                 seat.hasPriority = pv.getHasPriority();
                 seat.handSize = zone(pv, ZoneType.Hand);
                 seat.librarySize = zone(pv, ZoneType.Library);
@@ -367,13 +406,13 @@ public final class StateReader {
                 // The far end is a seat or a permanent; a planeswalker or battle is a CardView,
                 // so both have to be carried and the renderer uses whichever is set.
                 if (def instanceof PlayerView) {
-                    arc.defenderSeat = order.indexOf((PlayerView) def);
+                    arc.defenderSeat = seatOf(order, (PlayerView) def);
                     arc.defenderName = def.getName();
                 } else if (def instanceof CardView) {
                     CardView dc = (CardView) def;
                     arc.defenderCardId = dc.getId();
                     arc.defenderName = dc.getName();
-                    if (dc.getController() != null) arc.defenderSeat = order.indexOf(dc.getController());
+                    if (dc.getController() != null) arc.defenderSeat = seatOf(order, dc.getController());
                 }
                 Iterable<CardView> blockers = combat.getBlockers(a);
                 if (blockers != null) for (CardView b : blockers) arc.blockedBy.add(b.getId());
@@ -399,7 +438,7 @@ public final class StateReader {
                 }
                 if (it.getTargetPlayers() != null) {
                     for (PlayerView p : it.getTargetPlayers()) {
-                        int seat = order.indexOf(p);
+                        int seat = seatOf(order, p);
                         if (seat >= 0 && !v.targetSeats.contains(seat)) v.targetSeats.add(seat);
                     }
                 }
