@@ -53,7 +53,10 @@ public final class Gui3D implements InvocationHandler {
                                 "getAbilityToPlay",
                                 // 2026-10-21: whether a phase happens for us at all. See
                                 // takeSkipPhase - this one decided whole combats were skipped.
-                                "isUiSetToSkipPhase"));
+                                "isUiSetToSkipPhase",
+                                // 2026-10-21: looking into a zone. Mirrored since the 20th,
+                                // but Forge's own window still opened on top of the table.
+                                "openZones"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -781,6 +784,26 @@ public final class Gui3D implements InvocationHandler {
         }
     }
 
+    /**
+     * Looking into a zone - an opponent's hand under a Duress, your own library on a search.
+     *
+     * observe() has already mirrored it into the 3D window by the time this runs (peekZone,
+     * which sets `peeking`). All that is left is to decide whether Forge should ALSO throw
+     * its floating card window over the table, which is what it has been doing - the owner
+     * reported being dragged to Forge's UI to read a hand the 3D table was already showing
+     * (2026-10-21).
+     *
+     * Swallowed only when the mirror actually has the cards. If peekZone came back with
+     * nothing - an empty zone, a shape it did not understand - Forge opens its window as
+     * before, because a zone you cannot see at all is worse than one in the wrong window.
+     * take() has already refused if the 3D window is not drawing, so that case is covered
+     * too. -Dforge.ui3d.zones=false keeps Forge's window whatever happens.
+     */
+    private Object takeOpenZones() {
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.zones", "true"))) return NOT_HANDLED;
+        return peeking != null ? null : NOT_HANDLED;      // null: the method returns void
+    }
+
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
@@ -804,6 +827,8 @@ public final class Gui3D implements InvocationHandler {
                 return takeAbility(args);
             case "isUiSetToSkipPhase":
                 return takeSkipPhase(args);
+            case "openZones":
+                return takeOpenZones();
             default:
                 break;
         }

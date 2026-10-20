@@ -43,6 +43,9 @@ public class EvalCacheAgent {
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
         {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
+        // Who arms the auto-pass that keeps eating the owner's turns (AutoPassHook). Logs a
+        // stack trace the first few times and changes nothing else.
+        {"forge/player/PlayerControllerHuman", "autoPassUntilEndOfTurn", "()V", "AutoPassHook", "instance"},
         // Joining someone else's game: lets the 3D table wrap the client's GUI (ClientHook).
         {"forge/GuiDesktop", "getNewGuiGame", "()Lforge/gui/interfaces/IGuiGame;", "ClientHook", "instance"},
         // House rule: a die an "ignore the lowest" effect throws away still triggers roll watchers (DiceIgnoreHook).
