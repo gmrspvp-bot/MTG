@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - visual halves: mulligan screen, end-of-game screen, ESC menu | dmara's Claude | 2026-10-21 | New `MulliganPanel.java`, `EndScreen.java`; ESC menu built on `OptionPanel`. `TableBase` fields, `Table3D` render lines, `TableInput` (ESC opens the menu when the camera is not held; samples), `TableHud.drawGameOver` hands over to the end screen. Not wired to Forge (attended). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
