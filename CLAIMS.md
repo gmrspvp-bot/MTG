@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - stop `layout()` allocating ~90 ModelInstances a frame (instance pool) | dmara's Claude | 2026-10-21 | `Table3D`: a small pool (`inst(Model)`), reset once per frame, and `new ModelInstance(x)` -> `inst(x)` at per-frame sites in card/pad/band/zone/hand/monitor placement. **Not** the scoreboard or stack placement (Xenil's claim). No behaviour change. |
 | `ui3d` - merge the hanging scoreboard into the left panel; stack bigger and higher | Xenil's Claude | 2026-10-21 | `Table3D`: life block in `drawPhasePanel`, scoreboard off, stack placement. Not the event log or GY/EXI pads (dmara's claim). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
