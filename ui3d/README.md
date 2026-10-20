@@ -415,8 +415,13 @@ with where each one lands. Nothing here is claimed yet.
 
 **Turn and phase banners** *(unattended to build, attended to judge)*
 
-- [ ] A change-of-turn banner for **every** player's turn, not only your own.
-- [ ] On your own turn, show the banner **per phase**, so the turn's progress is unmissable.
+- [x] A change-of-turn banner for **every** player's turn - done 2026-10-20 (Stoneforge):
+      "CAPTAIN'S TURN" in a smaller steel-blue band sliding in from the right (YOUR TURN stays
+      the big gold one), `TableHud.drawTurnBanner`.
+- [x] On your own turn, a banner **per phase** - done 2026-10-20: a slim gold strip above the
+      table for upkeep, draw, main 1, combat, main 2 and end step (untap, cleanup and the combat
+      sub-steps left out on purpose), `drawPhaseBanner` / `PHASE_BANNERS`. Both in the 3D window,
+      so neither pulls focus. Demo timeline (`-Dforge.ui3d.demoEvents=true`) shows all three.
       (Relates to the earlier bug report, *"please signify more significantly change of player
       turn"*. `PlayHook.TurnBanner` is Swing on Forge's window — doing this in the 3D window
       instead would avoid pulling focus, which is the standing complaint.)

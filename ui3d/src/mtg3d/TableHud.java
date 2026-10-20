@@ -98,6 +98,8 @@ abstract class TableHud extends TableScene {
         drawStackLabels();
         ui.end();
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
+        if (turnBannerAge >= 0f) drawTurnBanner(w, h, flat);
+        if (phaseBannerAge >= 0f) drawPhaseBanner(w, h, flat);
         drawToast(w, flat);
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
@@ -783,7 +785,100 @@ abstract class TableHud extends TableScene {
         }
         if (momentsPrimed && youActive && !lastYouActive) yourTurnAge = 0f;
         lastYouActive = youActive;
+
+        // Owner's list 2026-10-20: a banner for EVERY player's turn, and on your own turn one per
+        // phase - the "Carol's turn" mix-up in bug report 143053 came from not seeing the change.
+        if (turnBannerAge >= 0f) { turnBannerAge += frameDt; if (turnBannerAge > TURN_BANNER_LIFE) turnBannerAge = -1f; }
+        if (phaseBannerAge >= 0f) { phaseBannerAge += frameDt; if (phaseBannerAge > PHASE_BANNER_LIFE) phaseBannerAge = -1f; }
+        String activeName = null;
+        for (Snapshot.SeatV s : snap.seats) if (s.active) activeName = s.name;
+        if (momentsPrimed && activeName != null && !activeName.equals(lastActiveName) && !youActive) {
+            turnBannerText = activeName.toUpperCase() + "'S TURN";
+            turnBannerAge = 0f;
+            phaseBannerAge = -1f;
+        }
+        if (activeName != null) lastActiveName = activeName;
+        String key = snap.phaseKey == null ? "" : snap.phaseKey;
+        if (momentsPrimed && youActive && !key.equals(lastPhaseKey)) {
+            String label = PHASE_BANNERS.get(key);
+            if (label != null) { phaseBannerText = label; phaseBannerAge = 0f; }
+        }
+        lastPhaseKey = key;
         if (!snap.seats.isEmpty()) momentsPrimed = true;
+    }
+
+    String lastActiveName, lastPhaseKey = "";
+    String turnBannerText = "", phaseBannerText = "";
+    float turnBannerAge = -1f, phaseBannerAge = -1f;
+    static final float TURN_BANNER_LIFE = 1.5f, PHASE_BANNER_LIFE = 1.2f;
+    /**
+     * The steps of your own turn worth a banner. Untap, cleanup and the combat sub-steps are left
+     * out: they pass in a blink or have their own on-screen mode (attack / block drag), and a
+     * banner for each would bury the ones that matter.
+     */
+    static final java.util.Map<String, String> PHASE_BANNERS = new java.util.LinkedHashMap<>();
+    static {
+        PHASE_BANNERS.put("UPKEEP", "UPKEEP");
+        PHASE_BANNERS.put("DRAW", "DRAW");
+        PHASE_BANNERS.put("MAIN1", "MAIN PHASE 1");
+        PHASE_BANNERS.put("COMBAT_BEGIN", "COMBAT");
+        PHASE_BANNERS.put("MAIN2", "MAIN PHASE 2");
+        PHASE_BANNERS.put("END_OF_TURN", "END STEP");
+    }
+
+    /**
+     * Someone else's turn: the YOUR TURN band's shape, smaller and in steel blue, so it reads as
+     * "the table moved on" rather than "act now".
+     */
+    void drawTurnBanner(int w, int h, Matrix4 flat) {
+        float t = turnBannerAge / TURN_BANNER_LIFE;
+        float in = Math.min(1f, turnBannerAge / 0.22f);
+        float a = t < 0.6f ? 1f : Math.max(0f, 1f - (t - 0.6f) / 0.4f);
+        float slide = (1f - smooth(in)) * w;                            // from the right
+        float bandH = 60f, y = h * 0.60f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.03f, 0.05f, 0.08f, 0.62f * a);
+        shapes.rect(slide, y, w, bandH);
+        shapes.setColor(0.50f, 0.68f, 0.86f, a);
+        shapes.rect(slide, y, w, 2f);
+        shapes.rect(slide, y + bandH - 2f, w, 2f);
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        fontBig.getData().setScale(2.3f);
+        fontBig.setColor(0.72f, 0.84f, 0.96f, a);
+        gl.setText(fontBig, turnBannerText);
+        fontBig.draw(ui, turnBannerText, slide + (w - gl.width) / 2f, y + bandH / 2f + gl.height / 2f);
+        fontBig.getData().setScale(1.6f);
+        ui.end();
+    }
+
+    /** The step of your own turn: a slim gold strip, small enough that it never hides the board. */
+    void drawPhaseBanner(int w, int h, Matrix4 flat) {
+        float t = phaseBannerAge / PHASE_BANNER_LIFE;
+        float a = t < 0.15f ? t / 0.15f : t < 0.7f ? 1f : Math.max(0f, 1f - (t - 0.7f) / 0.3f);
+        // Above the table, in the dark: lower down it sat on the phase name painted on the felt.
+        float bandW = 360f, bandH = 40f, x = (w - bandW) / 2f, y = h * 0.72f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.04f, 0.05f, 0.07f, 0.70f * a);
+        shapes.rect(x, y, bandW, bandH);
+        shapes.setColor(0.95f, 0.72f, 0.22f, a);
+        shapes.rect(x, y, 3f, bandH);
+        shapes.rect(x + bandW - 3f, y, 3f, bandH);
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        fontBig.getData().setScale(1.6f);
+        fontBig.setColor(1f, 0.85f, 0.40f, a);
+        gl.setText(fontBig, phaseBannerText);
+        fontBig.draw(ui, phaseBannerText, x + (bandW - gl.width) / 2f, y + bandH / 2f + gl.height / 2f);
+        ui.end();
     }
 
     // ---- toast: a short message by the mouse, e.g. why a click did nothing ------------------------

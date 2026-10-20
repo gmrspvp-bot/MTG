@@ -24,7 +24,7 @@ public final class Demo {
     public static void main(String[] args) {
         final Snapshot s = build();
         final long start = System.currentTimeMillis();
-        final boolean[] eventsDone = new boolean[5];
+        final boolean[] eventsDone = new boolean[6];
 
         // Forge's phases, so the demo drives the same keys the phase strip matches on.
         final String[] phases = {
@@ -92,6 +92,11 @@ public final class Demo {
                     for (int i = 0; i < cs.size(); i++) {
                         if (cs.get(i).name.equals("Esper Sentinel")) { s.seats.get(1).graveyard.add(0, cs.remove(i)); break; }
                     }
+                }
+                // On your turn the step changes: the phase strip shows (MAIN PHASE 2).
+                if (ms > 6000 && !eventsDone[5]) {
+                    eventsDone[5] = true;
+                    for (int i = 0; i < phases.length; i++) if (phases[i].equals("MAIN2")) state[0] = i;
                 }
                 if (ms > 5000 && !eventsDone[4]) {
                     eventsDone[4] = true;
