@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Recording joined (multiplayer) games on the joining PC: ClientRecorder | dmara's Claude | 2026-10-20 | Owner's request. New `scripts\tools\ClientRecorder.java`, touches `ClientHook.java`. |
 | ui3d: seat edges (green = active, yellow = responding) + whose zones are whose | journeybeforepancakes | 2026-10-21 | Owner's request while playing. Touches `TableBase`, `Table3D`, `TableLayout`, `TableHud`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
