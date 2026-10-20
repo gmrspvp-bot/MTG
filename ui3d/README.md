@@ -367,6 +367,20 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 ### Attended — needs someone playing
 
+> **Handover 2026-10-21 (Xenil's Claude, out of usage).** All claims released. Next three, in
+> the order the owner is hitting them:
+>
+> 1. **Forge's window still steals focus on stack resolution.** Reported three times. The
+>    prompt-button fix and `UI_REMIND_ON_PRIORITY=false` did not cover it, so it is a third
+>    source - most likely Forge updating its stack display. See `scratch/bug-reports/`
+>    `bug_2026-10-20_145119.md`.
+> 2. **Mana payment.** `bug_2026-10-20_143053.md`: tapping a Plains before casting a creature
+>    took the player out of their turn rather than floating the mana. Probably the land click
+>    being read as an ordinary `selectCard` when Forge wanted a cost payment.
+> 3. **Verify the new choose-from-a-list takeover in a real game.** It compiles and the probes
+>    pass, but no search has actually been performed through it.
+
+
 **A. Starting a game**
 
 - [x] Choose who starts - done 2026-10-21.
@@ -389,8 +403,9 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 - [ ] **Targeting.** Click a creature, player or permanent. Reuses the card-click and player-click
       paths that already work.
-- [ ] **Choose a card from a list** - search a library, pick from a graveyard or exile.
-      `SearchPanel` is built for it; first real use of `Handoff`.
+- [x] **Choose a card from a list - done 2026-10-21.** Library searches, graveyard picks
+      and list targets open in `SearchPanel` via `Handoff`. **Not yet played** - needs a
+      real Path to Exile or Weathered Wayfarer to confirm the pick reaches Forge.
 - [ ] **Modal spells** ("choose one"), **X costs**, **optional and additional costs**.
 - [ ] **Choose a player, a colour, a card type, a number.**
 

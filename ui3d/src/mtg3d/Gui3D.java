@@ -43,7 +43,8 @@ public final class Gui3D implements InvocationHandler {
      * fall back on if the 3D window cannot answer.
      */
     private static final Set<String> TAKEN_OVER = new LinkedHashSet<>(
-        java.util.Arrays.asList("confirm", "reveal", "message"));
+        java.util.Arrays.asList("confirm", "reveal", "message",
+                                "chooseSingleEntityForEffect", "chooseEntitiesForEffect"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -455,6 +456,8 @@ public final class Gui3D implements InvocationHandler {
         // the same bargain as reveal - display and return, no decision - and it removes another
         // thing that raised Forge's window over the 3D one in the middle of a turn.
         if ("message".equals(method.getName())) return takeMessage(args);
+        if ("chooseSingleEntityForEffect".equals(method.getName())) return takeChoose(args, true);
+        if ("chooseEntitiesForEffect".equals(method.getName())) return takeChoose(args, false);
         if (!"confirm".equals(method.getName())) return NOT_HANDLED;
         try {
             String question = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
@@ -555,6 +558,112 @@ public final class Gui3D implements InvocationHandler {
         } catch (Throwable t) {
             revealing = null;
             return NOT_HANDLED;
+        }
+    }
+
+    /** A choice the 3D window is making: the options, and where the answer goes. */
+    public static final class Choice {
+        public final String title;
+        public final java.util.List<Snapshot.CardV> items;
+        public final int min, max;
+        final java.util.List<Object> entities;
+        final Handoff<java.util.List<Object>> handoff;
+        Choice(String title, java.util.List<Snapshot.CardV> items, java.util.List<Object> entities,
+               int min, int max, Handoff<java.util.List<Object>> h) {
+            this.title = title; this.items = items; this.entities = entities;
+            this.min = min; this.max = max; this.handoff = h;
+        }
+    }
+
+    private static volatile Choice choosing;
+
+    public static Choice pendingChoice() {
+        return choosing;
+    }
+
+    /** Answer from the render thread, with the indices the player picked. */
+    public static void answerChoice(java.util.List<Integer> pickedIndices) {
+        Choice c = choosing;
+        if (c == null) return;
+        java.util.List<Object> out = new ArrayList<>();
+        if (pickedIndices != null) {
+            for (int i : pickedIndices) {
+                if (i >= 0 && i < c.entities.size()) out.add(c.entities.get(i));
+            }
+        }
+        c.handoff.answer(out);
+    }
+
+    /**
+     * "Choose a card" - a library search, a graveyard pick, a target from a list.
+     *
+     * This is what Path to Exile and Weathered Wayfarer were falling through to Forge for, which
+     * is also one of the things that kept dragging the player back to that window. The options
+     * are shown in SearchPanel, which was built for exactly this and has been waiting.
+     *
+     * The options can be cards or players (GameEntityView covers both), so anything that is not
+     * a CardView is shown by its name. Picks come back as indices into the list we were handed,
+     * so the entity returned to Forge is the very object it offered - no lookup, no ambiguity.
+     */
+    private Object takeChoose(Object[] args, boolean single) {
+        boolean handedBack = false;
+        try {
+            String title = args.length > 0 && args[0] instanceof String ? (String) args[0] : "Choose";
+            java.util.List<?> options = args.length > 1 && args[1] instanceof java.util.List
+                ? (java.util.List<?>) args[1] : null;
+            if (options == null || options.isEmpty()) return NOT_HANDLED;
+
+            int min, max;
+            if (single) {
+                boolean optional = args.length > 3 && Boolean.TRUE.equals(args[3]);
+                min = optional ? 0 : 1;
+                max = 1;
+            } else {
+                min = args.length > 2 && args[2] instanceof Integer ? (Integer) args[2] : 0;
+                max = args.length > 3 && args[3] instanceof Integer ? (Integer) args[3] : options.size();
+            }
+
+            java.util.List<Object> entities = new ArrayList<>();
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            for (Object o : options) {
+                entities.add(o);
+                Snapshot.CardV v = new Snapshot.CardV();
+                if (o instanceof CardView) {
+                    CardView cv = (CardView) o;
+                    v.id = cv.getId();
+                    v.name = cv.getName();
+                    CardView.CardStateView st = cv.getCurrentState();
+                    if (st != null) {
+                        if (st.getType() != null) v.typeLine = st.getType().toString();
+                        if (st.getManaCost() != null) v.manaCost = st.getManaCost().toString();
+                        v.text = st.getOracleText() == null ? "" : st.getOracleText();
+                    }
+                } else if (o instanceof forge.game.GameEntityView) {
+                    v.name = ((forge.game.GameEntityView) o).getName();
+                    v.typeLine = "Player";
+                } else {
+                    v.name = String.valueOf(o);
+                }
+                items.add(v);
+            }
+
+            Handoff<java.util.List<Object>> h = Handoff.start("choose: " + title);
+            choosing = new Choice(title, items, entities, min, max, h);
+            java.util.List<Object> picked;
+            try {
+                picked = h.awaitOr(() -> null);     // null means: Forge should ask instead
+            } finally {
+                choosing = null;
+            }
+            if (picked == null) { handedBack = true; return NOT_HANDLED; }
+            if (single) return picked.isEmpty() ? null : picked.get(0);
+            return picked;
+        } catch (Throwable t) {
+            choosing = null;
+            System.out.println("UI3D: choose failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        } finally {
+            if (handedBack) System.out.println("UI3D: choose handed back to Forge");
         }
     }
 

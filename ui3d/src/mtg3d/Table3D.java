@@ -455,6 +455,24 @@ public final class Table3D extends ApplicationAdapter {
         // A list Forge wants shown opens the search panel in browse mode. Done here rather than
         // from the game thread because the panel belongs to the renderer, and the game thread is
         // already blocked inside reveal() waiting for it to be dismissed.
+        // A choice Forge is waiting on - a library search, a graveyard pick. The game thread is
+        // blocked inside it, so this must open or Handoff will eventually hand it back.
+        Gui3D.Choice choice = Gui3D.pendingChoice();
+        if (choice != null && search != null && !search.isOpen()) {
+            final java.util.List<Snapshot.CardV> opts = choice.items;
+            search.open(choice.title,
+                choice.max <= 1 ? "Choose one." : "Choose " + choice.min + " to " + choice.max + ".",
+                opts, choice.min, choice.max, chosen -> {
+                    // Back as indices into the list Forge handed us, so the entity returned is
+                    // the very object it offered.
+                    java.util.List<Integer> idx = new ArrayList<>();
+                    for (Snapshot.CardV c : chosen) {
+                        int i = opts.indexOf(c);
+                        if (i >= 0) idx.add(i);
+                    }
+                    Gui3D.answerChoice(idx);
+                });
+        }
         // A zone Forge opened for us to look at. Nothing is blocked on it, so closing the panel
         // simply clears it; Forge's own window is still showing the same zone.
         Gui3D.Peek peek = Gui3D.pendingPeek();
@@ -1065,7 +1083,9 @@ public final class Table3D extends ApplicationAdapter {
 
     /** How far each band sits from the middle of the table. */
     /** How high the stack bar floats above the table. */
-    private static final float STACK_Y = 5.2f;
+    // 5.2 put the top of the cards off the screen in the default seated view; 4.5 clears the
+    // table and the hand without leaving the frame.
+    private static final float STACK_Y = 4.5f;
     /** The stack is drawn larger than a table card: it is the thing you must not miss. */
     private static final float STACK_SCALE = 2.1f;
     private static final float STACK_FRAME_UNIT = 1f;
