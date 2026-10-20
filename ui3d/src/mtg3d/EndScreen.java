@@ -151,7 +151,7 @@ public final class EndScreen {
             float bx = px + 20f + b * (btnW + 20f);
             if (mx >= bx && mx <= bx + btnW && my >= btnY && my <= btnY + btnH) hoverBtn = b;
         }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { closing = true; return; }
+        if (Keys3D.just(Input.Keys.ESCAPE)) { closing = true; return; }
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;

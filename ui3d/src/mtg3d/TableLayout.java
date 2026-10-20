@@ -384,7 +384,10 @@ abstract class TableLayout extends TableCamera {
     void placeHand() {
         if (snap.hand.isEmpty() || snap.seats.isEmpty()) return;
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
-        float step = CARD_W * 0.80f;
+        // Was 0.80, which overlapped every card with the one beside it - the owner could not
+        // tell where one ended. A full card width plus a gap costs table space and buys a hand
+        // you can actually read.
+        float step = CARD_W * 1.12f;
         float width = snap.hand.size() * step;
         // The card under the mouse (as picked last frame) rises and stands a little more upright,
         // the way you pull a card up out of a hand to read it. The pose easing animates it. The

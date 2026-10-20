@@ -215,9 +215,9 @@ public final class DamagePanel {
         }
         autoHover = mx >= px + 22f && mx <= px + 132f && my >= py + 20f && my <= py + 56f;
         okHover = mx >= px + pw - 150f && mx <= px + pw - 22f && my >= py + 20f && my <= py + 56f;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { finish(true); return; }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.A)) auto();
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ENTER) && remaining() == 0) { finish(false); return; }
+        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
+        if (Keys3D.just(Input.Keys.A)) auto();
+        if (Keys3D.just(Input.Keys.ENTER) && remaining() == 0) { finish(false); return; }
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;

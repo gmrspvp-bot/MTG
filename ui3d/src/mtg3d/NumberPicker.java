@@ -154,10 +154,10 @@ public final class NumberPicker {
         plusHover = in(plus, mx, my);
         okHover = mx >= px + W - 105f && mx <= px + W - 30f && my >= py + 8f && my <= py + 32f;
         cancelHover = mx >= px + W - 185f && mx <= px + W - 115f && my >= py + 8f && my <= py + 32f;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { finish(true); return; }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ENTER)) { finish(false); return; }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT) || Gdx.input.isKeyJustPressed(Input.Keys.DOWN)) value = Math.max(min, value - 1);
-        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT) || Gdx.input.isKeyJustPressed(Input.Keys.UP)) value = Math.min(max, value + 1);
+        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
+        if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
+        if (Keys3D.just(Input.Keys.LEFT) || Keys3D.just(Input.Keys.DOWN)) value = Math.max(min, value - 1);
+        if (Keys3D.just(Input.Keys.RIGHT) || Keys3D.just(Input.Keys.UP)) value = Math.min(max, value + 1);
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;

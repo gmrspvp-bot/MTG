@@ -11,7 +11,9 @@
 param(
     [switch] $CheckOnly,   # report what is missing and stop
     [switch] $Rebuild,     # force a recompile even if classes look current
-    [switch] $NoUi3d       # launch Forge's own window instead of the 3D table
+    [switch] $NoUi3d,      # launch Forge's own window instead of the 3D table
+    [switch] $Strict,      # say on screen whenever Forge answers something the 3D table should own
+    [switch] $NoForgeHelp  # same as -Strict, named for what it is about: not leaning on Forge's window
 )
 
 $ErrorActionPreference = 'Stop'
@@ -141,6 +143,13 @@ Write-Host ""
 
 if ($NoUi3d) {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1')
+} elseif ($Strict -or $NoForgeHelp) {
+    # Forge's window still answers what the 3D table cannot - taking that away would hang the
+    # game on the first unhandled decision. What this does is make every such hand-off VISIBLE,
+    # on screen as it happens and tallied in any bug report, so the remaining gaps are a list
+    # rather than "it pulled me to the other window again".
+    & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1') -Ui3d `
+        -JvmArgs "-Dforge.ui3d.strict=true"
 } else {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1') -Ui3d
 }

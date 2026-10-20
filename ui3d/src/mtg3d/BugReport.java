@@ -52,6 +52,7 @@ public final class BugReport {
     public void ask(final Snapshot snap) {
         if (asking) return;
         asking = true;
+        Keys3D.block(true);   // the dialog owns the keyboard now
         // A Swing dialog, not libGDX's getTextInput. getTextInput is declared on Input but the
         // LWJGL3 backend does not implement it - it silently does nothing, which is exactly what
         // happened: the cog opened no box and logged no error. Forge is a Swing application in
@@ -86,6 +87,7 @@ public final class BugReport {
                 System.out.println("UI3D: could not open the bug box (" + t + ")");
             } finally {
                 asking = false;
+                Keys3D.block(false);
             }
         });
     }

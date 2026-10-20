@@ -61,14 +61,14 @@ public final class Demo {
             //   SPACE  next phase (wrapping into the next player's turn)
             //   ENTER  skip straight to the next player's turn
             //   BACKSPACE  previous phase
-            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.SPACE)) {
+            if (Keys3D.just(com.badlogic.gdx.Input.Keys.SPACE)) {
                 state[0]++;
                 if (state[0] >= phases.length) { state[0] = 0; state[1]++; state[2] = (state[2] + 1) % n; }
             }
-            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.ENTER)) {
+            if (Keys3D.just(com.badlogic.gdx.Input.Keys.ENTER)) {
                 state[0] = 3; state[1]++; state[2] = (state[2] + 1) % n;
             }
-            if (com.badlogic.gdx.Gdx.input.isKeyJustPressed(com.badlogic.gdx.Input.Keys.BACKSPACE)) {
+            if (Keys3D.just(com.badlogic.gdx.Input.Keys.BACKSPACE)) {
                 state[0] = Math.max(0, state[0] - 1);
             }
 

@@ -215,8 +215,8 @@ public final class OrderPanel {
     private void handleInput(float mx, float my) {
         okHover = mx >= px + pw - 105f && mx <= px + pw - 30f && my >= py + 8f && my <= py + 32f;
         cancelHover = mx >= px + pw - 185f && mx <= px + pw - 115f && my >= py + 8f && my <= py + 32f;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { finish(true); return; }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ENTER)) { finish(false); return; }
+        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
+        if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
         boolean touch = Gdx.input.isTouched();
         boolean down = touch && !prevTouch, up = !touch && prevTouch;
         prevTouch = touch;

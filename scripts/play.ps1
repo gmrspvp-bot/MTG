@@ -17,7 +17,9 @@ param(
     # -Skin Default restores Forge's own look; the skin can also be changed inside Forge.
     [string] $Skin = 'Jarvis',
     # Opens the 3D table (ui3d\) alongside Forge's own UI. Read-only for now.
-    [switch] $Ui3d
+    [switch] $Ui3d,
+    # Extra -D switches passed straight to the JVM, e.g. -JvmArgs "-Dforge.ui3d.strict=true".
+    [string] $JvmArgs = ''
 )
 
 $ErrorActionPreference = 'Stop'
@@ -168,7 +170,7 @@ if ($Ui3d) {
     $ui3dCp = ";$ui3dClasses;$mobileJar"
     $ui3dArg = '-Dforge.ui3d=true '
 }
-$argLine = "-Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
+$argLine = "$JvmArgs -Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
            "$ui3dArg-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar$ui3dCp`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
 Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `

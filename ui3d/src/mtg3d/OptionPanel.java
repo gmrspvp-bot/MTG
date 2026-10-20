@@ -194,9 +194,9 @@ public final class OptionPanel {
         okHover = !single() && mx >= px + w - 115f && mx <= px + w - 40f && my >= py + 16f && my <= py + 42f;
         cancelHover = !single() && mx >= px + w - 205f && mx <= px + w - 135f && my >= py + 16f && my <= py + 42f;
 
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { finish(true); return; }
+        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
         for (int k = 0; k < Math.min(9, options.size()); k++) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_1 + k)) { toggle(k); return; }
+            if (Keys3D.just(Input.Keys.NUM_1 + k)) { toggle(k); return; }
         }
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;

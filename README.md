@@ -24,6 +24,7 @@ state of that work are in [`ui3d/README.md`](ui3d/README.md).
 | | |
 |---|---|
 | `Play 3D.cmd` | Set up if needed, then play in the 3D table |
+| `Play 3D.cmd -Strict` | Also say on screen whenever Forge answers something the 3D table should own |
 | `Play Forge.cmd` | Forge's own window only |
 | `scripts\setup.ps1 -CheckOnly` | Report what is missing and stop |
 | `scripts\setup.ps1 -Rebuild` | Force a recompile |

@@ -191,9 +191,9 @@ public final class MulliganPanel {
         keepHover = mx >= keepX && mx <= keepX + btnW && my >= btnY && my <= btnY + btnH;
         mullHover = !bottomMode && mx >= mullX && mx <= mullX + btnW && my >= btnY && my <= btnY + btnH;
         boolean ready = !bottomMode || picked.size() == toBottom;
-        if (!bottomMode && Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) { done(true); return; }
-        if (!bottomMode && Gdx.input.isKeyJustPressed(Input.Keys.M)) { done(false); return; }
-        if (bottomMode && ready && Gdx.input.isKeyJustPressed(Input.Keys.ENTER)) { done(true); return; }
+        if (!bottomMode && Keys3D.just(Input.Keys.SPACE)) { done(true); return; }
+        if (!bottomMode && Keys3D.just(Input.Keys.M)) { done(false); return; }
+        if (bottomMode && ready && Keys3D.just(Input.Keys.ENTER)) { done(true); return; }
         boolean touch = Gdx.input.isTouched();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;

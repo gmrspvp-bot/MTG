@@ -238,10 +238,10 @@ abstract class TableInput extends TableHud {
         CombatPlan p = combatPlan;
         if (p.wired) {
             // A real declaration: SPACE is Forge's OK (declare these), ESC opens the menu as usual.
-            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) { Gui3D.pressOk(); return true; }
+            if (Keys3D.just(Input.Keys.SPACE)) { Gui3D.pressOk(); return true; }
         } else {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { combatPlan = null; return true; }
-            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+            if (Keys3D.just(Input.Keys.ESCAPE)) { combatPlan = null; return true; }
+            if (Keys3D.just(Input.Keys.SPACE)) {
                 System.out.println("UI3D: " + (p.blocking ? "blocks " + p.blockOn : "attacks " + p.attackSeat) + " (demo)");
                 combatPlan = null;
                 return true;
@@ -491,7 +491,7 @@ abstract class TableInput extends TableHud {
         // Forge (a real game), every pick is a guarded click Forge judges; in the demo they are local.
         if (combatPlan != null && handleCombatPlan()) return;
         if (manaPlan != null) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+            if (Keys3D.just(Input.Keys.ESCAPE)) {
                 if (manaPlan.wired) Gui3D.pressCancel(); else manaPlan = null;
                 return;
             }
@@ -510,7 +510,7 @@ abstract class TableInput extends TableHud {
             }
         }
         if (targeting != null) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+            if (Keys3D.just(Input.Keys.ESCAPE)) {
                 if (targeting.wired) Gui3D.pressCancel(); else targeting = null;
                 return;
             }
@@ -536,7 +536,7 @@ abstract class TableInput extends TableHud {
                 }
             }
         }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.S)) { openDemoSearch(); return; }
+        if (Keys3D.just(Input.Keys.S)) { openDemoSearch(); return; }
         // -Dforge.ui3d.openPile=<seat>,graveyard|exile: opens that pile once, for screenshot checks.
         if (OPEN_PILE != null && !pileOpened && frameNo > 30 && snap.seats.size() > 0) {
             pileOpened = true;
@@ -560,17 +560,17 @@ abstract class TableInput extends TableHud {
         // A yes/no the 3D window owns takes the keys first: Forge is no longer showing this
         // question, so SPACE must answer it rather than pass priority underneath it.
         if (Gui3D.pendingAsk() != null) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) Gui3D.answerAsk(true);
-            if (Gdx.input.isKeyJustPressed(Input.Keys.X)) Gui3D.answerAsk(false);
+            if (Keys3D.just(Input.Keys.SPACE)) Gui3D.answerAsk(true);
+            if (Keys3D.just(Input.Keys.X)) Gui3D.answerAsk(false);
             return;
         }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) && Gui3D.active()) {
+        if (Keys3D.just(Input.Keys.SPACE) && Gui3D.active()) {
             if (!Gui3D.pressOk()) {
                 System.out.println("UI3D: nothing to confirm right now");
                 toast("Nothing to confirm right now", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
             }
         }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
+        if (Keys3D.just(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
@@ -588,7 +588,7 @@ abstract class TableInput extends TableHud {
         boolean boardClick = clickedCard();
         // A click on an empty graveyard or exile pad browses that pile (any seat's: both are public).
         if (boardClick && hovered == null && openPileUnderMouse()) return;
-        if (Gdx.input.isKeyJustPressed(Input.Keys.L)) showLog = !showLog;
+        if (Keys3D.just(Input.Keys.L)) showLog = !showLog;
         if (boardClick && Gui3D.active()) {
             if (hovered != null) {
                 // Remembered so targeting mode can draw its arc from the spell being cast.
@@ -606,18 +606,18 @@ abstract class TableInput extends TableHud {
         }
         // H gives the decision the game is waiting on back to Forge's window. Harmless when
         // nothing has been taken over, which is the case until step 3.
-        if (Gdx.input.isKeyJustPressed(Input.Keys.H)) {
+        if (Keys3D.just(Input.Keys.H)) {
             Handoff.handBack();
             System.out.println("UI3D: handing the current decision back to Forge");
         }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.M) && cues != null) cues.toggleMute();
-        if (Gdx.input.isKeyJustPressed(Input.Keys.TAB)) {
+        if (Keys3D.just(Input.Keys.M) && cues != null) cues.toggleMute();
+        if (Keys3D.just(Input.Keys.TAB)) {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
         }
         // ESC: releases a camera held with TAB, as before; otherwise it opens the menu.
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+        if (Keys3D.just(Input.Keys.ESCAPE)) {
             if (manualOverride) manualOverride = false;
             else { openMenu(); return; }
         }
@@ -654,10 +654,10 @@ abstract class TableInput extends TableHud {
         }
         // Seats are laid out anticlockwise, so stepping +1 moves the camera to the LEFT on screen.
         // The keys are deliberately matched to the direction you see, not to the index order.
-        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT))  step(+1, n);
-        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) step(-1, n);
+        if (Keys3D.just(Input.Keys.LEFT))  step(+1, n);
+        if (Keys3D.just(Input.Keys.RIGHT)) step(-1, n);
         // DOWN (or HOME) is the way back to your own seat, at the default zoom.
-        if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN) || Gdx.input.isKeyJustPressed(Input.Keys.HOME)) {
+        if (Keys3D.just(Input.Keys.DOWN) || Keys3D.just(Input.Keys.HOME)) {
             zoom = 1f;
             panX = panZ = 0f;
             setViewSeat(snap.youIndex(), n);

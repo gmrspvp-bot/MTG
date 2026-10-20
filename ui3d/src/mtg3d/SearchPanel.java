@@ -278,7 +278,7 @@ public final class SearchPanel {
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
 
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) { finish(true); return; }
+        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
 
         if (clicked) {
             if (okHover) {
