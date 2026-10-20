@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - draw the prompt in the 3D window | Xenil's Claude | 2026-10-21 | `Table3D` new prompt bar (shapes + text + clickable OK/Cancel). Snapshot already carries it from step 1; nothing draws it. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
