@@ -85,7 +85,7 @@ public final class StateReader {
                 readMarks(game, pv, seat);
 
                 for (CardView cv : cards(pv, ZoneType.Battlefield)) {
-                    Snapshot.CardV v = card(cv, viewer);
+                    Snapshot.CardV v = card(cv, viewer, true);     // the battlefield is public
                     v.attacking = isAttacking(cv);
                     if (v.creature) seat.creatures.add(v);
                     else if (v.land) seat.lands.add(v);
@@ -93,7 +93,7 @@ public final class StateReader {
                 }
                 // The command zone is public, so it is read for every seat, not just the viewer's.
                 for (CardView cv : cards(pv, ZoneType.Command)) {
-                    Snapshot.CardV v = card(cv, viewer);
+                    Snapshot.CardV v = card(cv, viewer, true);
                     try {
                         if (cv.isCommander()) v.commanderCasts = pv.getCommanderCast(cv);
                     } catch (Throwable t) {
@@ -107,7 +107,7 @@ public final class StateReader {
             // The hand. Asking canBeShownTo of every card means a revealed hand, or a card an
             // effect lets us see, appears without this class knowing the rule that made it so.
             if (viewer != null) {
-                for (CardView cv : cards(viewer, ZoneType.Hand)) s.hand.add(card(cv, viewer));
+                for (CardView cv : cards(viewer, ZoneType.Hand)) s.hand.add(card(cv, viewer, false));
             }
 
             readStack(gv, viewer, order, s);
@@ -136,6 +136,9 @@ public final class StateReader {
     }
 
     /** The view belonging to the player this client controls, or null in an all-AI game. */
+    /** Logged once, so a viewer that never resolves is visible without spamming every frame. */
+    private static boolean warnedNoViewer;
+
     private static PlayerView localViewer(Game game) {
         try {
             for (forge.game.player.Player p : game.getRegisteredPlayers()) {
@@ -146,6 +149,13 @@ public final class StateReader {
             }
         } catch (Throwable t) {
             // fall through
+        }
+        // Worth saying out loud, once. With no viewer every hidden-zone question answers "no",
+        // which is how bug_2026-10-20_142149 ended up with a board of face-down cards. The
+        // battlefield no longer depends on it, but your own hand still does.
+        if (!warnedNoViewer) {
+            warnedNoViewer = true;
+            System.out.println("UI3D: no local player view - your own hand will not be shown");
         }
         return null;
     }
@@ -335,7 +345,7 @@ public final class StateReader {
             List<Snapshot.CardV> topFirst = new ArrayList<>();
             for (StackItemView si : gv.getStack()) {
                 CardView src = si.getSourceCard();
-                Snapshot.CardV v = src == null ? new Snapshot.CardV() : card(src, viewer);
+                Snapshot.CardV v = src == null ? new Snapshot.CardV() : card(src, viewer, true);
                 String text = si.getText();
                 if (text != null && !text.isEmpty()) v.stackText = text;
                 try { v.stackIsAbility = si.isAbility(); } catch (Throwable ignored) { }
@@ -357,7 +367,20 @@ public final class StateReader {
      * cannot leak what it was never given, and CardArt keys its picture on the name, so a blank
      * name also stops the real artwork being fetched.
      */
-    private static Snapshot.CardV card(CardView cv, PlayerView viewer) {
+    /**
+     * One card, as this viewer is allowed to see it.
+     *
+     * `publicZone` is the important argument. **The battlefield is public information**: a
+     * permanent there is visible to everyone unless it is genuinely face down (a morph or a
+     * manifest), which `isFaceDown()` reports directly. Asking `canBeShownTo` as well was wrong,
+     * and bug_2026-10-20_142149 shows what it cost - every permanent on every seat came through
+     * as "(face down)", with no lands anywhere, because the viewer could not be resolved and the
+     * fallback swallowed the whole board.
+     *
+     * `canBeShownTo` is the right question for the zones that really are hidden - a hand, a
+     * library, a face-down pile - where the answer depends on who is asking.
+     */
+    private static Snapshot.CardV card(CardView cv, PlayerView viewer, boolean publicZone) {
         Snapshot.CardV v = new Snapshot.CardV();
         try {
             v.id = cv.getId();
@@ -369,10 +392,14 @@ public final class StateReader {
             if (cv.getController() != null) v.controller = cv.getController().getName();
 
             boolean visible;
-            try {
-                visible = !cv.isFaceDown() && cv.canBeShownTo(viewer);
-            } catch (Throwable t) {
+            if (publicZone) {
                 visible = !cv.isFaceDown();
+            } else {
+                try {
+                    visible = !cv.isFaceDown() && cv.canBeShownTo(viewer);
+                } catch (Throwable t) {
+                    visible = !cv.isFaceDown();
+                }
             }
             if (!visible) {
                 v.faceDown = true;

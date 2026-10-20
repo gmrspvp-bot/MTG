@@ -66,9 +66,21 @@ public final class BugReport {
                 Object[] content = {
                     "What went wrong? The board state is attached automatically.", scroll
                 };
-                int r = javax.swing.JOptionPane.showConfirmDialog(parentWindow(), content,
-                    "Report a bug", javax.swing.JOptionPane.OK_CANCEL_OPTION,
-                    javax.swing.JOptionPane.PLAIN_MESSAGE);
+                // Built by hand rather than showConfirmDialog, so it can be put on top. The 3D
+                // window is a GLFW window, not a Swing one, so Swing cannot parent to it - and
+                // without alwaysOnTop the box opens behind the 3D view, which is where the owner
+                // kept finding it: "this dialogue opened on forge ui, not the 3d ui".
+                javax.swing.JOptionPane pane = new javax.swing.JOptionPane(content,
+                    javax.swing.JOptionPane.PLAIN_MESSAGE, javax.swing.JOptionPane.OK_CANCEL_OPTION);
+                javax.swing.JDialog dlg = pane.createDialog(parentWindow(), "Report a bug");
+                dlg.setAlwaysOnTop(true);
+                dlg.toFront();
+                area.requestFocusInWindow();
+                dlg.setVisible(true);
+                Object picked = pane.getValue();
+                int r = (picked instanceof Integer) ? (Integer) picked
+                    : javax.swing.JOptionPane.CANCEL_OPTION;
+                dlg.dispose();
                 if (r == javax.swing.JOptionPane.OK_OPTION) submit(snap, area.getText());
             } catch (Throwable t) {
                 System.out.println("UI3D: could not open the bug box (" + t + ")");
