@@ -457,6 +457,45 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 - [ ] Show *why* a card cannot be played, when Forge refuses a click.
 - [x] A visible log of recent events - done 2026-10-21. Top right under the bug cog: the last 8 lines of Forge's own game log at MEDIUM verbosity (what Forge's window shows this player), oldest at the top, coloured by entry type, older lines faded. **L** hides it, `-Dforge.ui3d.log=false` starts hidden. `Snapshot.log`; `scratch\probe\GameLogOrderProbe.java` shows Forge returns these newest first.
 
+**Visual halves of attended items** (added 2026-10-21) - build and screenshot each against
+`Demo` data now; wire it to Forge when its attended item is taken. The attended item it serves
+is in brackets. Building the look first means the attended session is spent on wiring, not design.
+
+- [ ] Attack drag: an arrow from a creature to the mouse, the seat or planeswalker under it lit as
+      the drop target, and a "Declare N attackers" summary. *(D. Declare attackers)*
+- [ ] Block assignment: drag a blocker onto an attacker, with the blue block arcs previewed live;
+      several blockers on one attacker stack visibly. *(D. Declare blockers)*
+- [ ] Damage assignment panel: an attacker and its blockers in a row, +/- per blocker, lethal marked,
+      the remainder shown. *(D. Damage assignment order)*
+- [ ] Targeting mode: everything not targetable dims, legal targets glow, an arrow follows the mouse
+      from the spell, "choose 1 of 2 targets" counter. *(C. Targeting)*
+- [ ] Option panel: a column of large buttons for "choose one" modes, players, colours and card
+      types - the text-choice sibling of `SearchPanel`. *(C. Modal spells / choose a ...)*
+- [ ] Number picker for X costs and "choose a number": a dial or +/- with the cost it implies.
+      *(C. X costs)*
+- [ ] Scry / surveil panel: two rows (top / bottom, or top / graveyard), drag to reorder.
+      *(E. Scry and surveil)*
+- [ ] Trigger ordering: the triggers as a list you drag into order, first-to-resolve marked.
+      *(E. Ordering triggers)*
+- [ ] Mulligan screen: the opening hand fanned large in the middle, Keep / Mulligan buttons, and the
+      London "put N on the bottom" pick. *(A. London mulligan)*
+- [ ] Mana payment: lands that can pay lit, tapped ones dimmed as they are chosen, the cost
+      ticking down. *(B. Mana payment)*
+- [ ] End-of-game screen: winner, turns, damage dealt and taken, Rematch / Next game / Quit
+      buttons. *(E. Game over, concede, next game)*
+- [ ] ESC menu: concede, undo / restart phase, sound, log, camera follow, a key list.
+      *(E. Concede, Undo)*
+
+**Works now, read-only** - the data is already in the `Snapshot`, so these are useful the day
+they land:
+
+- [ ] Life-change popups: "-7" / "+3" floating up from a seat's monitor when its life changes.
+- [ ] Draw and death animations: library -> hand, battlefield -> graveyard, driven by the zone
+      counts and card ids changing between snapshots.
+- [ ] Hand cards lift and enlarge under the mouse; playable ones (Forge's selectable set) glow.
+- [ ] A "YOUR TURN" sweep across the screen when your turn begins (`Cues` already detects it).
+- [ ] Each player's floating mana pool, shown at their seat.
+- [ ] Keyword reminders in the hover panel (flying, deathtouch, ward ...), one line each.
 **Under the floor**
 
 - [ ] `Table3D` is ~1,900 lines holding camera, input, layout, picking and five overlays. Camera,
