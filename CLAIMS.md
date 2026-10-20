@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: highlight the source card while its ability is on the stack; library/graveyard/exile as growing piles | Stoneforge | 2026-10-21 | Owner's list. Touches `TableLayout`, `TableScene`, maybe `TableBase`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
