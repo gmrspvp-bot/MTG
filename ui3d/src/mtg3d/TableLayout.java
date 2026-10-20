@@ -367,6 +367,31 @@ abstract class TableLayout extends TableCamera {
             + "|" + c.tapped + c.token + c.faceDown + c.commander;
     }
 
+    /**
+     * How far a seat's rows lean towards whoever is looking, in degrees.
+     *
+     * Cards lying flat on a table are read at a glance by the person sitting at that side and
+     * are a smear of colour from anywhere else - which is every other seat, on a screen. Each
+     * row is a single line of cards, so turning every card in it about its own long axis tilts
+     * that row as one plane: a shelf, angled at the viewer.
+     *
+     * The lean follows the CAMERA, not the seat, so it re-aims as you walk round the table and
+     * whichever seat you are at is always the one squarely facing you. cos(seat - camera) does
+     * the whole job: +1 at the seat you are standing behind, -1 at the one opposite (which
+     * must lean the other way to face you), and 0 at the sides, where a lean about that axis
+     * would do nothing anyway because you are looking along it.
+     *
+     * -Dforge.ui3d.dais=0 lays the table flat again.
+     */
+    static final float DAIS_TILT =
+        Math.max(0f, Math.min(60f, Float.parseFloat(System.getProperty("forge.ui3d.dais", "26"))));
+
+    /** The lean for a seat's rows, given where the camera is standing this frame. */
+    float daisTilt(float seatAngle) {
+        if (DAIS_TILT <= 0f) return 0f;
+        return DAIS_TILT * (float) Math.cos(seatAngle - orbit);
+    }
+
     /** -Dforge.ui3d.stack=false lays every permanent in its own slot again. */
     static final boolean STACK_ALIKE =
         !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.stack", "true"));
@@ -422,13 +447,16 @@ abstract class TableLayout extends TableCamera {
             // cards. Only the top one is added by id - the rest are scenery, and giving them
             // poses would have them race each other every time the group changes size.
             int under = Math.min(g.size(), STACK_SHOW) - 1;
+            float tilt = daisTilt(angle);
             for (int k = under; k >= 1; k--) {
                 ModelInstance shim = inst(stackShimModel);
+                // Leaned with the card on top of it, or the pile splays open as the board tilts.
                 shim.transform.setToTranslation(w.x, base + k * STACK_STEP - STACK_STEP / 2f, w.z)
-                    .rotate(Vector3.Y, yaw);
+                    .rotate(Vector3.Y, yaw)
+                    .rotate(Vector3.X, tilt);
                 props.add(shim);
             }
-            add(top, seat, w.x, base + under * STACK_STEP, w.z, yaw, 0f);
+            add(top, seat, w.x, base + under * STACK_STEP, w.z, yaw, tilt);
             if (g.size() > 1) stacked.add(new StackedAt(w.x, w.z, base + under * STACK_STEP, g.size()));
             if (attachedHere.containsKey(top.id)) {
                 hostTargets.put(top.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
