@@ -447,7 +447,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       designed. It is the densest thing on screen and the first place the eye goes. Wants
       proper grouping, spacing and type sizes rather than one more row bolted on.
 - [x] Seat pads smaller and darker - done 2026-10-20 (7.6 x 3.4, see *Seat pads* above).
-- [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
+- [x] The mulligan and opening hand - **look done 2026-10-21**: see `MulliganPanel` under *Visual halves*; showing it at the right moment is the attended wiring (A. London mulligan).
 - [x] Card movement between zones - done 2026-10-20: per-id poses eased every frame (`Pose`/`ease` in `Table3D`), hand -> stack -> battlefield slides.
 - [x] A proper table surface and surround - done 2026-10-21. Generated felt (`Felt.felt`: the same deep blue, a fine cloth grain, a lighter lamp pool in the middle and a faint centre ring), a dark padded rail round the edge (outside the playing area, so no layout moved), and a floor with a dim pool of light under the table (`Felt.floor`, drawn unlit). No image files; fixed seeds, so screenshots are repeatable. **Noticed, not fixed (prompt bar is Xenil's):** in the overhead pose the zone labels (GY / EXI / LIB / COMMAND) draw on top of the prompt bar.
 - [x] Tokens, emblems and face-down cards read at a glance - done 2026-10-21 (`FaceMaker`). **Tokens:** silver frame round the card and a full-width TOKEN banner (the old corner tag vanished at table distance). **Face down:** the back says FACE DOWN and shows the creature's power/toughness large - public information (a morph is a 2/2 anyone can see, pumps included); `StateReader` now fills only those two numbers for a face-down card on the battlefield, from the face-down state, never in a hidden zone. Backs are cached per P/T. **Emblems:** a gold medallion naming whose emblem it is, with the ability written out, instead of a blank SPELL face. Checked with `FacePreview` (now includes these cases).
@@ -460,7 +460,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       carrying their real labels and enabled state (done 2026-10-21).
 - [x] Forge's card-list dialogs (the AI-cant-play-these deck warning) now open in the 3D
       window's search panel instead of only in Forge's (done 2026-10-21).
-- [ ] Show *why* a card cannot be played, when Forge refuses a click.
+- [x] Say why a click did nothing - done 2026-10-21 (`TableHud.toast`, `TableInput.whyNot`): a refused click shows a short message by the card for ~2 s instead of only a console line. Forge gives no reason (the card is just not selectable), so it is the best guess the snapshot allows - not your priority; a land outside main phase / with a stack / already played one; a spell with wrong timing or mana; someone else's card. Demo: `-Dforge.ui3d.openPanel=toast`.
 - [x] A visible log of recent events - done 2026-10-21. Top right under the bug cog: the last 8 lines of Forge's own game log at MEDIUM verbosity (what Forge's window shows this player), oldest at the top, coloured by entry type, older lines faded. **L** hides it, `-Dforge.ui3d.log=false` starts hidden. `Snapshot.log`; `scratch\probe\GameLogOrderProbe.java` shows Forge returns these newest first.
 
 **Visual halves of attended items** (added 2026-10-21) - build and screenshot each against

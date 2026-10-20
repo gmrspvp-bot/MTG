@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - say why a click did nothing (toast by the card) | dmara's Claude | 2026-10-21 | `TableHud` toast (new method + state); `TableInput` sets it where a refused click currently only prints to the console. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

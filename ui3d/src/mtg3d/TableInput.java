@@ -60,6 +60,26 @@ abstract class TableInput extends TableHud {
         });
     }
 
+    /**
+     * Forge does not say why it refused a click - the card is simply not in its selectable set -
+     * so this is the best guess the snapshot allows, worded as a guess where it is one. It beats
+     * silence: before, a refused click only reached the console.
+     */
+    String whyNot(Drawn d) {
+        Snapshot.CardV c = d.card;
+        Snapshot.SeatV me = snap.you();
+        if (me != null && !me.hasPriority) return "Not your priority - Forge is waiting on someone else";
+        boolean inHand = false;
+        for (Snapshot.CardV h : snap.hand) if (h.id == c.id) inHand = true;
+        if (inHand) {
+            if (c.land) return "Can't play " + c.name + " now - lands need your main phase, an empty stack, one a turn";
+            return "Can't cast " + c.name + " now - wrong timing, or not enough mana";
+        }
+        if (d.seat != null && !d.seat.isYou) return "That's " + d.seat.name + "'s card - nothing to do with it right now";
+        if (d.seat != null) return c.name + " has nothing it can do right now";
+        return "Forge won't take that right now";
+    }
+
     boolean planLeftWas;
 
     /**
@@ -197,6 +217,13 @@ abstract class TableInput extends TableHud {
             case "menu":
                 openMenu();
                 break;
+            case "toast": {
+                // A refused click on a hand card, as it would read.
+                Drawn fake = new Drawn();
+                fake.card = snap.hand.isEmpty() ? new Snapshot.CardV(1, "Lyra Dawnbringer", "", true, false) : snap.hand.get(0);
+                toast(whyNot(fake), Gdx.graphics.getWidth() / 2f - 60f, 250f);
+                break;
+            }
             case "target": {
                 // Swords to Plowshares from the hand, at any opponent's creature.
                 Targeting tg = new Targeting();
@@ -341,6 +368,7 @@ abstract class TableInput extends TableHud {
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) && Gui3D.active()) {
             if (!Gui3D.pressOk()) {
                 System.out.println("UI3D: nothing to confirm right now");
+                toast("Nothing to confirm right now", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
             }
         }
         if (Gdx.input.isKeyJustPressed(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
@@ -366,6 +394,7 @@ abstract class TableInput extends TableHud {
             if (hovered != null) {
                 if (!Gui3D.clickCard(hovered.card.id)) {
                     System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
+                    toast(whyNot(hovered), Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
                 }
             } else if (hoveredSeat >= 0) {
                 // Picking a player: who starts, or a seat as a target.

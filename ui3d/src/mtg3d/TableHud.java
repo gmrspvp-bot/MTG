@@ -91,6 +91,7 @@ abstract class TableHud extends TableScene {
         drawStackLabels();
         ui.end();
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
+        drawToast(w, flat);
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
@@ -726,6 +727,43 @@ abstract class TableHud extends TableScene {
         if (momentsPrimed && youActive && !lastYouActive) yourTurnAge = 0f;
         lastYouActive = youActive;
         if (!snap.seats.isEmpty()) momentsPrimed = true;
+    }
+
+    // ---- toast: a short message by the mouse, e.g. why a click did nothing ------------------------
+
+    String toastText;
+    float toastAge, toastX, toastY;
+    static final float TOAST_LIFE = 2.2f;
+
+    void toast(String text, float x, float y) {
+        toastText = text;
+        toastAge = 0f;
+        toastX = x;
+        toastY = y;
+    }
+
+    /** Drawn after the label pass: a dark chip with the message, rising slightly and fading. */
+    void drawToast(int w, Matrix4 flat) {
+        if (toastText == null) return;
+        toastAge += frameDt;
+        if (toastAge > TOAST_LIFE) { toastText = null; return; }
+        float a = toastAge < 0.15f ? toastAge / 0.15f : toastAge > TOAST_LIFE - 0.5f ? (TOAST_LIFE - toastAge) / 0.5f : 1f;
+        GlyphLayout gl = new GlyphLayout(font, toastText);
+        float bw = gl.width + 20f, bh = gl.height + 16f;
+        float x = Math.max(8f, Math.min(w - bw - 8f, toastX + 16f)), y = toastY + 18f + toastAge * 10f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.10f, 0.05f, 0.05f, 0.88f * a);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(0.90f, 0.45f, 0.30f, a);
+        shapes.rect(x, y, 3f, bh);
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        font.setColor(1f, 0.85f, 0.75f, a);
+        font.draw(ui, toastText, x + 12f, y + bh - 8f);
+        ui.end();
     }
 
     /** Targeting mode's instruction line, top centre, in the arc's violet. Inside the label pass. */
