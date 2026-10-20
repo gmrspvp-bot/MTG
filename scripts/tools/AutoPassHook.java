@@ -50,6 +50,39 @@ public final class AutoPassHook {
         } catch (Throwable ignored) {
             // never let the diagnostic be the thing that breaks the game
         }
+        // And now the fix the trace paid for.
+        //
+        // The owner's turns were being ended by Forge's OWN menu. FControl installs a global
+        // KeyEventDispatcher, which sees keystrokes anywhere in the JVM; ForgeMenu.handleKeyEvent
+        // turns one into a click on the "End Turn" menu item, and that arms the auto-pass. The
+        // 3D window never saw the key and nothing it answers was ever consulted - which is why
+        // three correct fixes to three real mechanisms all failed to stop it.
+        //
+        // While the 3D table is running, an End Turn that arrived down that path is refused.
+        // Deliberately choosing End Turn from the menu with the mouse does NOT go through
+        // handleKeyEvent, so it still works; so does the 3D window's own End Turn button,
+        // which calls Forge's cancel directly. -Dforge.autopassguard=false allows it again.
+        if (on && ui3dRunning() && !"false".equals(System.getProperty("forge.autopassguard"))
+                && fromForgeMenuKey()) {
+            System.out.println("AUTOPASS: refused - Forge's menu shortcut tried to end the turn"
+                + " (the 3D table is the window being played in)");
+            return;
+        }
         orig.invoke(self, on);
+    }
+
+    /** Did this come from a key press landing on Forge's menu rather than from a real choice? */
+    private static boolean fromForgeMenuKey() {
+        for (StackTraceElement e : new Throwable().getStackTrace()) {
+            if ("forge.menus.ForgeMenu".equals(e.getClassName()) && "handleKeyEvent".equals(e.getMethodName())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /** Only guard while the 3D table is the window being played in. */
+    private static boolean ui3dRunning() {
+        return "true".equals(System.getProperty("forge.ui3d"));
     }
 }
