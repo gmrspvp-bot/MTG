@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - hand card lifts under the mouse; keyword reminders in the hover panel | dmara's Claude | 2026-10-21 | `TableLayout.placeHand`; `TableHud.drawDetailPanel/drawPicturePanel` + a new `Keywords.java` (reminder text table). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

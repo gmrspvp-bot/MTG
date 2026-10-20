@@ -809,6 +809,7 @@ abstract class TableHud extends TableScene {
             lines.addAll(wrap("ON THE STACK: " + c.stackText, panelW - 24f));
         }
         lines.addAll(wrap(c.text, panelW - 24f));
+        for (String r : Keywords.reminders(c.text, 4)) lines.addAll(wrap(r, panelW - 24f));
 
         GlyphLayout gl = new GlyphLayout();
         float lineH = 18f, pad = 12f;
@@ -866,6 +867,8 @@ abstract class TableHud extends TableScene {
         if (c.token) state.add("token");
         if (c.faceDown) state.add("face down");
         if (!state.isEmpty()) lines.add(String.join(", ", state));
+        // What the keywords on it mean - the printed card names them but does not explain them.
+        for (String r : Keywords.reminders(c.text, 4)) lines.addAll(wrap(r, picW - pad * 2));
         float infoH = lines.isEmpty() ? 0f : pad * 2 + lines.size() * lineH - 4f;
 
         float totalH = picH + infoH;

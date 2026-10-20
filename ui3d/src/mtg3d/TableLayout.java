@@ -306,11 +306,18 @@ abstract class TableLayout extends TableCamera {
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
         float step = CARD_W * 0.80f;
         float width = snap.hand.size() * step;
+        // The card under the mouse (as picked last frame) rises and stands a little more upright,
+        // the way you pull a card up out of a hand to read it. The pose easing animates it. The
+        // lift is small enough that the raised card still covers the spot the mouse is on, or
+        // it would drop, be hovered again, and flicker.
+        int lifted = hovered != null && hovered.seat == null ? hovered.card.id : Integer.MIN_VALUE;
         for (int i = 0; i < snap.hand.size(); i++) {
             Snapshot.CardV c = snap.hand.get(i);
             float along = -width / 2f + i * step + step / 2f;
-            Vector3 w = rotateY(along, SEAT_DIST + 3.6f, angle);
-            add(c, null, w.x, 0.62f, w.z, (float) Math.toDegrees(-angle), HAND_TILT);
+            boolean up = c.id == lifted;
+            Vector3 w = rotateY(along, SEAT_DIST + 3.6f - (up ? 0.15f : 0f), angle);
+            add(c, null, w.x, 0.62f + (up ? 0.35f : 0f), w.z, (float) Math.toDegrees(-angle),
+                up ? HAND_TILT + 12f : HAND_TILT);
         }
     }
 

@@ -498,10 +498,10 @@ they land:
 - [x] Life-change popups - done 2026-10-21 (`TableHud.noticeChanges/drawLifePops`): red "-7" / green "+3" rising and fading from the seat's centre monitor over 1.6 s; changes within 0.35 s add up, so a burst of damage is one number. Nothing on the first snapshot.
 - [ ] Draw and death animations: library -> hand, battlefield -> graveyard, driven by the zone
       counts and card ids changing between snapshots.
-- [ ] Hand cards lift and enlarge under the mouse; playable ones (Forge's selectable set) glow.
+- [x] Hand cards lift under the mouse - done 2026-10-21 (`TableLayout.placeHand`): the hovered hand card rises 0.35 and stands 12 degrees more upright, eased like every other move; small enough that it still covers the mouse, so it does not flicker. Playable cards already glow via the selectable marker.
 - [x] YOUR TURN sweep - done 2026-10-21 (`TableHud.drawYourTurn`): a gold band slides in across the middle, holds, fades (1.7 s). Demo: `-Dforge.ui3d.demoEvents=true` plays a fixed timeline (turn passes at 2 s, life changes at 3 s, your turn again at 4 s) for screenshot checks.
 - [ ] Each player's floating mana pool, shown at their seat.
-- [ ] Keyword reminders in the hover panel (flying, deathtouch, ward ...), one line each.
+- [x] Keyword reminders - done 2026-10-21 (`Keywords.java`): up to four "Flying - can only be blocked by ..." lines under the text in both hover panels, ~40 keywords, whole-word match on the rules text.
 **Under the floor**
 
 - [x] **`Table3D` split** - done 2026-10-21 (the owner asked). Seven files, one concern each, as a chain of abstract classes (see *How it is put together*). Moved, not rewritten: a line-by-line comparison shows only `private` removed, the `source` field and five section dividers changed; screenshots of five demo states are pixel-identical apart from animation timing. **Add new code to the file for its concern**; a lower layer that needs a higher one declares it `abstract` in `TableBase`. `scratch\probe\SplitTool.java` (member scanner) and `scratch\probe\ImageDiff.java` (screenshot diff) were used and are kept. The demo's tapped lands are now seeded, so screenshots of two runs compare.
