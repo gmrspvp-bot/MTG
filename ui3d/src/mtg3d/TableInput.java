@@ -661,8 +661,12 @@ abstract class TableInput extends TableHud {
             if (Keys3D.just(Input.Keys.X)) Gui3D.answerAsk(false);
             return;
         }
+        // SPACE is the main button, whatever it says this moment - answering a question,
+        // letting the stack resolve, or ending the step. It goes through nextPhase() so it
+        // always clears an auto-pass first: the key you press most should never be the one
+        // that quietly hands the rest of your turn away.
         if (Keys3D.just(Input.Keys.SPACE) && Gui3D.active()) {
-            if (!Gui3D.pressOk()) {
+            if (!Gui3D.nextPhase()) {
                 System.out.println("UI3D: nothing to confirm right now");
                 toast("Nothing to confirm right now", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
             }

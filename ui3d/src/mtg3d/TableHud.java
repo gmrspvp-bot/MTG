@@ -398,6 +398,34 @@ abstract class TableHud extends TableScene {
         if (msg.isEmpty()) return;
 
         boolean waiting = okOn || cancelOn;
+
+        // What the main button DOES, said on the button.
+        //
+        // Forge gives it a name of its own whenever it is really asking something - "Attack",
+        // "Auto", "Yes". A plain "OK" means it is not asking, only offering to move on, and then
+        // what moving on means depends entirely on the stack: with something on it, a pass lets
+        // THAT resolve and leaves you exactly where you are; with nothing on it, a pass is the
+        // end of the step. The owner asked to be able to tell those two apart - "I want to be
+        // clear if all I am allowing is the current iteration of stack to resolve".
+        boolean named = !okLabel.isEmpty() && !"OK".equalsIgnoreCase(okLabel);
+        String topOfStack = snap.stack.isEmpty() ? ""
+            : shortName(snap.stack.get(snap.stack.size() - 1).name);
+        String mainLabel, mainHint;
+        if (named) {
+            mainLabel = okLabel;
+            mainHint = "SPACE";
+        } else if (!topOfStack.isEmpty()) {
+            mainLabel = "Let it resolve";
+            mainHint = "SPACE - " + topOfStack;
+        } else {
+            mainLabel = "Next phase";
+            mainHint = "SPACE  or  N";
+        }
+        // Forge's cancel. During ordinary priority it is "End Turn", which does not mean "finish
+        // this step": it arms an auto-pass for everything left in the turn. That is what cost a
+        // whole turn on 2026-10-21, so the button says so rather than looking like a tidy way to
+        // move on.
+        boolean endsTurn = "End Turn".equalsIgnoreCase(cancelLabel);
         float bw = Math.min(w - 60f, 1120f), x = (w - bw) / 2f, y = 104f;
         float btnW = 190f, btnH = 50f, gap = 14f;
 
@@ -430,26 +458,18 @@ abstract class TableHud extends TableScene {
             shapes.rect(bx, by, btnW, btnH);
             bx -= btnW + gap;
         }
+        // One button, not two. "OK" and "Next phase" were sending the same pass of priority,
+        // which is exactly as clear as it sounds. The rect is wider because the label is now a
+        // sentence about what the pass will do.
+        nextOn = false;
         if (okOn) {
-            okBtn[0] = bx; okBtn[1] = by; okBtn[2] = btnW; okBtn[3] = btnH;
+            okBtn[0] = bx; okBtn[1] = by; okBtn[2] = btnW + 40f; okBtn[3] = btnH;
             boolean hot = inRect(okBtn, mx, my);
-            shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
-            shapes.rect(bx, by, btnW, btnH);
-            bx -= btnW + gap;
-        }
-        // "Next phase", always there while a game is running. Sitting in your own main phase with
-        // nothing to answer is not a question, and dressing it up as one ("OK") is what made a
-        // whole turn vanish: the owner pressed OK meaning "move on" and could not tell whether
-        // anything was being asked of him (2026-10-21). This says what it does, and because it
-        // clears the auto-pass first, it is also the way out of one.
-        // okOn as well as active(), so the demo draws it too - otherwise the one button that
-        // matters most could only be looked at by starting a real game.
-        nextOn = Gui3D.active() || okOn;
-        if (nextOn) {
-            nextBtn[0] = bx; nextBtn[1] = by; nextBtn[2] = btnW; nextBtn[3] = btnH;
-            boolean hot = inRect(nextBtn, mx, my);
-            shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
-            shapes.rect(bx, by, btnW, btnH);
+            // Green while it answers a question, blue while it only moves the game on, so the
+            // two are not the same colour as well as in the same place.
+            if (named) shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
+            else shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
+            shapes.rect(bx, by, btnW + 40f, btnH);
         }
         shapes.end();
         ui.begin();
@@ -457,22 +477,16 @@ abstract class TableHud extends TableScene {
         fontBig.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
         fontBig.draw(ui, msg, x + 22f, y + bh - 18f, textW, -1, true);
         if (okOn) {
-            fontBig.setColor(0.86f, 1f, 0.90f, 1f);
-            fontBig.draw(ui, okLabel, okBtn[0], okBtn[1] + 34f, btnW, 1, false);
-            font.setColor(0.60f, 0.86f, 0.70f, 1f);
-            font.draw(ui, "SPACE", okBtn[0], okBtn[1] + 14f, btnW, 1, false);
+            fontBig.setColor(named ? new Color(0.86f, 1f, 0.90f, 1f) : new Color(0.84f, 0.90f, 1f, 1f));
+            fontBig.draw(ui, mainLabel, okBtn[0], okBtn[1] + 34f, btnW + 40f, 1, false);
+            font.setColor(named ? new Color(0.60f, 0.86f, 0.70f, 1f) : new Color(0.62f, 0.74f, 0.92f, 1f));
+            font.draw(ui, mainHint, okBtn[0], okBtn[1] + 14f, btnW + 40f, 1, false);
         }
         if (cancelOn) {
             fontBig.setColor(1f, 0.86f, 0.82f, 1f);
-            fontBig.draw(ui, cancelLabel, cancelBtn[0], cancelBtn[1] + 34f, btnW, 1, false);
+            fontBig.draw(ui, endsTurn ? "End turn" : cancelLabel, cancelBtn[0], cancelBtn[1] + 34f, btnW, 1, false);
             font.setColor(0.88f, 0.64f, 0.60f, 1f);
-            font.draw(ui, "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
-        }
-        if (nextOn) {
-            fontBig.setColor(0.84f, 0.90f, 1f, 1f);
-            fontBig.draw(ui, "Next phase", nextBtn[0], nextBtn[1] + 34f, btnW, 1, false);
-            font.setColor(0.62f, 0.74f, 0.92f, 1f);
-            font.draw(ui, "N  or  ->", nextBtn[0], nextBtn[1] + 14f, btnW, 1, false);
+            font.draw(ui, endsTurn ? "X - passes the rest" : "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
         }
     }
 
