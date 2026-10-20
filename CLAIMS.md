@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| House rule: Mr. House sees the die Wyll ignores (except on his own ability's roll) | Stoneforge | 2026-10-21 | Owner's rule. New hook in `scripts\tools` on Forge's RollDiceEffect. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
