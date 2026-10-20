@@ -95,6 +95,32 @@ abstract class TableInput extends TableHud {
         return "Forge won't take that right now";
     }
 
+    /**
+     * Owner's bug report 2026-10-20 (143053): a Plains clicked on someone else's turn, meaning to
+     * cast a creature with it, was simply tapped - Forge's answer to a land click at ordinary
+     * priority is its mana ability, and the floating mana was gone by the next step. So the first
+     * click on one of our own untapped lands, when nothing is being paid for, only warns; a second
+     * click on the same land within STRAY_TAP_MS taps it (floating mana is sometimes meant).
+     * True = the click was held back. -Dforge.ui3d.landguard=false turns this off.
+     */
+    boolean strayLandTap(Drawn d) {
+        if (!LAND_GUARD || d.card == null || !d.card.land || d.card.tapped) return false;
+        if (d.seat == null || !d.seat.isYou || manaPlan != null || targeting != null) return false;
+        boolean onBattlefield = false;
+        for (Snapshot.CardV l : d.seat.lands) if (l.id == d.card.id) onBattlefield = true;
+        if (!onBattlefield) return false;
+        long now = System.currentTimeMillis();
+        if (strayTapId == d.card.id && now - strayTapAt < STRAY_TAP_MS) { strayTapId = -1; return false; }
+        strayTapId = d.card.id;
+        strayTapAt = now;
+        return true;
+    }
+
+    static final boolean LAND_GUARD = !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.landguard", "true"));
+    static final long STRAY_TAP_MS = 3000;
+    int strayTapId = -1;
+    long strayTapAt;
+
     /** The graphics level's live parts: frame cap and vsync now; the rest when things next load. */
     void applyGraphics() {
         try {
@@ -593,7 +619,10 @@ abstract class TableInput extends TableHud {
             if (hovered != null) {
                 // Remembered so targeting mode can draw its arc from the spell being cast.
                 lastCastId = hovered.card.id;
-                if (!Gui3D.clickCard(hovered.card.id)) {
+                if (strayLandTap(hovered)) {
+                    toast("Tapping " + hovered.card.name + " now only floats its mana - it empties at the end of"
+                        + " the step. Click again to tap it.", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
+                } else if (!Gui3D.clickCard(hovered.card.id)) {
                     System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
                     toast(whyNot(hovered), Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
                 }
