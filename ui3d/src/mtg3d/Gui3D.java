@@ -65,7 +65,10 @@ public final class Gui3D implements InvocationHandler {
                                 // -> the 3D message panel; the two reminder flashes -> nothing
                                 // (the 3D window has its own toasts); revealed cards -> mirrored
                                 // like an opened zone instead of Forge's floating zone window.
-                                "showErrorDialog", "alertUser", "flashIncorrectAction", "showRevealedCards"));
+                                "showErrorDialog", "alertUser", "flashIncorrectAction", "showRevealedCards",
+                                // Splitting a number across several things - counters, damage
+                                // from something that is not combat.
+                                "assignGenericAmount"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -970,6 +973,61 @@ public final class Gui3D implements InvocationHandler {
     }
     static final String REVEALED_TITLE = "Revealed";
 
+    /**
+     * assignGenericAmount(source, targets, amount, atLeastOne, label) -> how much each one gets.
+     *
+     * The same shape as assigning combat damage - a pool to split across several things - so it
+     * reuses DamagePanel rather than growing a second panel that does the same job. The map
+     * Forge passes carries each target's suggested or maximum share, which is exactly what the
+     * panel calls "lethal" for a blocker, so the numbers mean the same thing in both.
+     *
+     * Only taken when every target is a card. Forge allows players in there too (splitting
+     * damage between a creature and its controller, say) and the panel has nowhere to draw one,
+     * so those stay with Forge rather than being drawn wrongly.
+     */
+    private Object takeGenericAmount(Object[] args) {
+        try {
+            if (args.length < 3 || !(args[1] instanceof java.util.Map) || !(args[2] instanceof Integer)) {
+                return NOT_HANDLED;
+            }
+            java.util.Map<?, ?> targets = (java.util.Map<?, ?>) args[1];
+            if (targets.isEmpty()) return NOT_HANDLED;
+            java.util.List<Object> keys = new ArrayList<>();
+            java.util.List<CardView> views = new ArrayList<>();
+            for (java.util.Map.Entry<?, ?> e : targets.entrySet()) {
+                if (!(e.getKey() instanceof CardView)) return NOT_HANDLED;   // a player: Forge's
+                keys.add(e.getKey());
+                views.add((CardView) e.getKey());
+            }
+            int amount = (Integer) args[2];
+            if (amount <= 0) return NOT_HANDLED;
+            CardView source = args[0] instanceof CardView ? (CardView) args[0] : views.get(0);
+            java.util.List<Snapshot.CardV> shown = new ArrayList<>();
+            int[] caps = new int[views.size()];
+            for (int i = 0; i < views.size(); i++) {
+                shown.add(describe(views.get(i), views.get(i).getName()));
+                Object cap = targets.get(views.get(i));
+                caps[i] = cap instanceof Integer && (Integer) cap > 0 ? (Integer) cap : amount;
+            }
+            Handoff<int[]> h = Handoff.start("assignGenericAmount: " + amount);
+            damageAsk = new DamageAsk(describe(source, source.getName()), shown, caps, amount, views, h);
+            int[] split;
+            try {
+                split = h.awaitOr(() -> null);
+            } finally {
+                damageAsk = null;
+            }
+            if (split == null || split.length != keys.size()) return NOT_HANDLED;
+            java.util.Map<Object, Integer> out = new java.util.HashMap<>();
+            for (int i = 0; i < keys.size(); i++) out.put(keys.get(i), split[i]);
+            return out;
+        } catch (Throwable t) {
+            damageAsk = null;
+            System.out.println("UI3D: amount split failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
@@ -1012,6 +1070,8 @@ public final class Gui3D implements InvocationHandler {
                 return null;
             case "showRevealedCards":
                 return takeRevealedCards(args);
+            case "assignGenericAmount":
+                return takeGenericAmount(args);
             default:
                 break;
         }
@@ -1514,6 +1574,46 @@ public final class Gui3D implements InvocationHandler {
      */
     private Object takeOrder(Method method, Object[] args) {
         try {
+            // The two-list form:
+            //   order(title, top, remainingMin, remainingMax, source, dest, card, sideboarding, ...)
+            //
+            // This is the "Select order for simultaneous abilities" dialog the owner kept being
+            // thrown into (screenshot, 2026-10-21): two lists, four movers, OK and Auto. We only
+            // ever handled the four-argument form, so every one of these was handed to Forge.
+            //
+            // Taken when EVERYTHING has to be ordered - remainingMin and remainingMax both zero,
+            // which is what simultaneous triggers ask for. When some items may be left behind
+            // (sideboarding) the question is a different shape and stays with Forge.
+            if (args.length >= 8 && args[4] instanceof java.util.List && args[5] instanceof java.util.List) {
+                int remainMin = args[2] instanceof Integer ? (Integer) args[2] : -1;
+                int remainMax = args[3] instanceof Integer ? (Integer) args[3] : -1;
+                boolean sideboarding = args[7] instanceof Boolean && (Boolean) args[7];
+                if (remainMin != 0 || remainMax != 0 || sideboarding) return NOT_HANDLED;
+                java.util.List<Object> all = new ArrayList<>((java.util.List<?>) args[5]);   // already placed
+                for (Object o : (java.util.List<?>) args[4]) if (!all.contains(o)) all.add(o);
+                if (all.size() < 2) return NOT_HANDLED;
+                String title2 = args[0] instanceof String ? (String) args[0] : "Order";
+                String caption2 = args[1] instanceof String ? (String) args[1] : "";
+                java.util.List<Snapshot.CardV> shown = new ArrayList<>();
+                for (Object o : all) shown.add(describe(o, label(o, null)));
+                Handoff<java.util.List<Object>> h2 = Handoff.start("order (two lists): " + title2);
+                orderAsk = new OrderAsk(title2, caption2.isEmpty() ? "Resolve first at the top" : caption2,
+                    shown, all, h2);
+                java.util.List<Object> out2;
+                try {
+                    out2 = h2.awaitOr(() -> null);
+                } finally {
+                    orderAsk = null;
+                }
+                if (out2 == null || out2.size() != all.size()) return NOT_HANDLED;
+                if (IGuiGame.OrderResult.class.isAssignableFrom(method.getReturnType())) {
+                    // false = do not tick "always use this order": it is a per-game habit the
+                    // player has not been asked about, and silently setting it would answer
+                    // every future one of these without them knowing.
+                    return new IGuiGame.OrderResult<>(out2, false);
+                }
+                return out2;
+            }
             if (args.length != 4 || !(args[2] instanceof java.util.List)) return NOT_HANDLED;
             java.util.List<?> src = (java.util.List<?>) args[2];
             if (src.size() < 2) return NOT_HANDLED;              // nothing to order
