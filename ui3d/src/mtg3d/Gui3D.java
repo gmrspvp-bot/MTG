@@ -56,7 +56,10 @@ public final class Gui3D implements InvocationHandler {
                                 "isUiSetToSkipPhase",
                                 // 2026-10-21: looking into a zone. Mirrored since the 20th,
                                 // but Forge's own window still opened on top of the table.
-                                "openZones"));
+                                "openZones",
+                                // 2026-10-21, working through the census: Forge's own generic
+                                // dialogs. Each one was a modal box in the other window.
+                                "showConfirmDialog", "showOptionDialog", "showInputDialog"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -805,6 +808,130 @@ public final class Gui3D implements InvocationHandler {
         return peeking != null ? null : NOT_HANDLED;      // null: the method returns void
     }
 
+    /**
+     * Forge's generic yes/no box - showConfirmDialog(message, title[, yes, no[, defaultYes]]).
+     *
+     * Not the same call as `confirm`, which is the engine asking about a card; this is the one
+     * anything in Forge reaches for when it wants a modal question. It was a box in the other
+     * window, so it is answered here instead, through the same Ask the 3D window already draws.
+     */
+    private Object takeConfirmDialog(Method method, Object[] args) {
+        try {
+            String message = args.length > 0 && args[0] instanceof String ? (String) args[0] : "";
+            String title = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            String yes = args.length > 2 && args[2] instanceof String ? (String) args[2] : "Yes";
+            String no = args.length > 3 && args[3] instanceof String ? (String) args[3] : "No";
+            String question = title.isEmpty() || title.equals(message) ? message : title + " - " + message;
+            Handoff<Boolean> h = Handoff.start("showConfirmDialog: " + question);
+            pending = new Ask(question, "", yes, no, h);
+            try {
+                Boolean answer = h.awaitOr(() -> forward(method, args, Boolean.class));
+                return answer == null ? Boolean.FALSE : answer;
+            } finally {
+                pending = null;
+            }
+        } catch (Throwable t) {
+            System.out.println("UI3D: confirm dialog failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /**
+     * showOptionDialog(message, title, icon, options, defaultOption) -> the index chosen.
+     *
+     * A row of named buttons. OptionPanel is exactly this, so the only work is turning the
+     * labels into options and the answer back into an index. Cancelling returns the default
+     * Forge asked for rather than -1: some callers do not expect a refusal, and answering with
+     * what Forge would have pre-selected is the safe reading.
+     */
+    private Object takeOptionDialog(Method method, Object[] args) {
+        try {
+            String message = args.length > 0 && args[0] instanceof String ? (String) args[0] : "";
+            String title = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            java.util.List<?> options = args.length > 3 && args[3] instanceof java.util.List
+                ? (java.util.List<?>) args[3] : null;
+            int fallback = args.length > 4 && args[4] instanceof Integer ? (Integer) args[4] : 0;
+            if (options == null || options.isEmpty()) return NOT_HANDLED;
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            java.util.List<Object> entities = new ArrayList<>();
+            java.util.List<String> labels = new ArrayList<>();
+            for (Object o : options) { labels.add(String.valueOf(o)); entities.add(o); }
+            Handoff<java.util.List<Object>> h = Handoff.start("showOptionDialog: " + title);
+            Choice c = new Choice(title.isEmpty() ? message : title, items, entities, 1, 1, h);
+            c.cards = false;
+            c.labels = labels;
+            choosing = c;
+            try {
+                java.util.List<Object> picked = h.awaitOr(() -> {
+                    Integer forged = forward(method, args, Integer.class);
+                    return forged == null ? null : java.util.Collections.singletonList((Object) forged);
+                });
+                if (picked == null || picked.isEmpty()) return fallback;
+                Object first = picked.get(0);
+                if (first instanceof Integer) return first;      // came back from Forge
+                int at = entities.indexOf(first);
+                return at >= 0 ? at : fallback;
+            } finally {
+                choosing = null;
+            }
+        } catch (Throwable t) {
+            System.out.println("UI3D: option dialog failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /**
+     * showInputDialog(message, title, icon, initial, choices, isNumeric) -> what was typed.
+     *
+     * Only the LIST form is taken: with `choices` the question is "pick one of these", which is
+     * OptionPanel again. Free text is left with Forge on purpose - the 3D window has no text
+     * field, and libGDX's getTextInput is declared but not implemented by the LWJGL3 backend
+     * (see BugReport, which had to fall back to Swing for the same reason). Building one is its
+     * own job, and guessing at an empty string here would answer the question wrongly.
+     */
+    private Object takeInputDialog(Method method, Object[] args) {
+        try {
+            java.util.List<?> choices = args.length > 4 && args[4] instanceof java.util.List
+                ? (java.util.List<?>) args[4] : null;
+            if (choices == null || choices.isEmpty()) return NOT_HANDLED;   // free text: Forge's
+            String message = args.length > 0 && args[0] instanceof String ? (String) args[0] : "";
+            String title = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            java.util.List<Object> entities = new ArrayList<>();
+            java.util.List<String> labels = new ArrayList<>();
+            for (Object o : choices) { labels.add(String.valueOf(o)); entities.add(o); }
+            Handoff<java.util.List<Object>> h = Handoff.start("showInputDialog: " + title);
+            Choice c = new Choice(title.isEmpty() ? message : title, new ArrayList<>(), entities, 1, 1, h);
+            c.cards = false;
+            c.labels = labels;
+            choosing = c;
+            try {
+                java.util.List<Object> picked = h.awaitOr(() -> {
+                    String forged = forward(method, args, String.class);
+                    return forged == null ? null : java.util.Collections.singletonList((Object) forged);
+                });
+                if (picked == null || picked.isEmpty()) return null;        // cancelled: Forge's own answer
+                return String.valueOf(picked.get(0));
+            } finally {
+                choosing = null;
+            }
+        } catch (Throwable t) {
+            System.out.println("UI3D: input dialog failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /** Ask Forge after all, for a handed-back question. Null if even that fails. */
+    private <T> T forward(Method method, Object[] args, Class<T> type) {
+        try {
+            Object r = method.invoke(original, args);
+            return type.isInstance(r) ? type.cast(r) : null;
+        } catch (InvocationTargetException e) {
+            throw new RuntimeException(e.getCause());
+        } catch (Throwable t) {
+            return null;
+        }
+    }
+
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
@@ -830,6 +957,12 @@ public final class Gui3D implements InvocationHandler {
                 return takeSkipPhase(args);
             case "openZones":
                 return takeOpenZones();
+            case "showConfirmDialog":
+                return takeConfirmDialog(method, args);
+            case "showOptionDialog":
+                return takeOptionDialog(method, args);
+            case "showInputDialog":
+                return takeInputDialog(method, args);
             default:
                 break;
         }
