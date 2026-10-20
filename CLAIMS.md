@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: choose which ability to activate in 3D (getAbilityToPlay takeover) + show which ability is on the stack | Stoneforge | 2026-10-20 | Owner's list. Touches `Gui3D`, new `AbilityPanel`, a hook in `TableInput`/`TableHud` draw. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
