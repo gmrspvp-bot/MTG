@@ -64,7 +64,7 @@ public final class Table3D extends ApplicationAdapter {
 
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
     private Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
-    private Model bandCreature, bandOther, bandLand, monitorModel, selectModel;
+    private Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
     private ModelInstance tableInst;
@@ -211,6 +211,8 @@ public final class Table3D extends ApplicationAdapter {
         // to click hopefully and read the console to find out whether it did anything.
         selectModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.82f, 0.45f, 1f))), attrs);
+        hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
         // Band slabs, one unit wide so placeBand can scale them to the row's length. The colours
         // are only just off the table: enough to group, not enough to compete with the cards.
@@ -308,6 +310,13 @@ public final class Table3D extends ApplicationAdapter {
         modelBatch.render(tableInst, env);
         for (ModelInstance p : seatPads) modelBatch.render(p, env);
         for (ModelInstance p : props) modelBatch.render(p, env);
+        // What a click would hit. With no selectable list during ordinary priority, this is the
+        // only feedback there is before clicking, so it matters more than it looks.
+        if (hovered != null) {
+            ModelInstance ring = new ModelInstance(hoverModel);
+            ring.transform.set(hovered.inst.transform).translate(0f, -CARD_THICK * 1.5f, 0f);
+            modelBatch.render(ring, env);
+        }
         for (Drawn d : drawn) {
             if (d.marker != null) modelBatch.render(d.marker, env);
             // The coloured body is only a stand-in for missing art. Drawing it UNDER a picture
@@ -935,8 +944,10 @@ public final class Table3D extends ApplicationAdapter {
             d.face.materials.get(0).set(
                 com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
         }
-        // Playable beats attacking when a card is both: what you can DO about it right now is
-        // the more useful thing to show.
+        // Forge only publishes a selectable list for prompts that ask you to choose a card
+        // ("discard one"), not for ordinary priority - there it outlines playable cards by another
+        // route and accepts a click on anything. So this marker means "Forge has offered this
+        // card", which is a narrower and more honest claim than "you can play this".
         if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) {
             d.marker = new ModelInstance(selectModel);
             d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
@@ -1913,6 +1924,7 @@ public final class Table3D extends ApplicationAdapter {
         bandLand.dispose();
         monitorModel.dispose();
         selectModel.dispose();
+        hoverModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();

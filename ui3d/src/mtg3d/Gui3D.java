@@ -57,6 +57,21 @@ public final class Gui3D implements InvocationHandler {
     /** The cards Forge says may be clicked, by id. Replaced wholesale, never mutated in place. */
     private static volatile java.util.Map<Integer, CardView> selectableViews =
         new java.util.LinkedHashMap<>();
+    /**
+     * Every CardView the snapshot has seen, by id, filled by StateReader on the game thread.
+     *
+     * Needed because Forge does NOT call setSelectables during ordinary priority - it outlines
+     * playable cards in its own window by another route, and simply lets you click anything,
+     * leaving the controller to judge. So a click has to be sendable for any card on the table,
+     * not only for ones that arrived through setSelectables.
+     */
+    private static final java.util.Map<Integer, CardView> known =
+        new java.util.concurrent.ConcurrentHashMap<>();
+
+    /** Called by StateReader for each card it reads, so a click can find the CardView later. */
+    public static void remember(int id, CardView cv) {
+        if (cv != null) known.put(id, cv);
+    }
 
     /** What the engine last asked of us, mirrored for the 3D window. */
     public static final class Prompt {
@@ -193,18 +208,26 @@ public final class Gui3D implements InvocationHandler {
      */
     public static boolean clickCard(int cardId) {
         final forge.player.PlayerControllerHuman c = controller;
-        final CardView cv = selectableViews.get(cardId);
+        CardView found = selectableViews.get(cardId);
+        if (found == null) found = known.get(cardId);
+        final CardView cv = found;
         final Object seen = PROMPT.token;
-        if (c == null || cv == null || seen == null) return false;
+        if (c == null || cv == null) return false;
         javax.swing.SwingUtilities.invokeLater(() -> {
             try {
                 // Re-check on the EDT: the game may have moved on while this was queued, which is
-                // precisely the race ClickGuard exists for.
-                if (ClickGuard.token(c) != seen) {
+                // precisely the race ClickGuard exists for. Only meaningful when there was a
+                // prompt to tie the click to; during ordinary priority there is no token and
+                // Forge itself accepts a click on anything.
+                if (seen != null && ClickGuard.token(c) != seen) {
                     ClickGuard.dropped++;
                     return;
                 }
-                c.selectCard(cv, java.util.Collections.emptyList(), null);
+                // Forge judges legality, exactly as it does for a click in its own window: a card
+                // that cannot be played right now is simply refused. The 3D side never decides
+                // what is legal, which is what keeps this safe without a rules engine of its own.
+                boolean taken = c.selectCard(cv, java.util.Collections.emptyList(), null);
+                if (!taken) System.out.println("UI3D: Forge refused the click on " + cv.getName());
             } catch (Throwable t) {
                 System.out.println("UI3D: card click failed (" + t + ")");
             }
@@ -212,7 +235,11 @@ public final class Gui3D implements InvocationHandler {
         return true;
     }
 
-    /** Is this card one Forge will accept a click on right now? */
+    /**
+     * Has Forge explicitly offered this card for selection? Only true during the prompts that use
+     * setSelectables ("choose a card to discard"), not during ordinary priority, where Forge
+     * offers no such list and any card may be clicked.
+     */
     public static boolean isSelectable(int cardId) {
         return selectableViews.containsKey(cardId);
     }

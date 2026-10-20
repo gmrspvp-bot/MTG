@@ -343,6 +343,10 @@ public final class StateReader {
         Snapshot.CardV v = new Snapshot.CardV();
         try {
             v.id = cv.getId();
+            // So a click in the 3D window can find this CardView again. Forge does not hand
+            // out a selectable list during ordinary priority, so the registry is the only
+            // route from a card the player clicked back to the object Forge wants.
+            Gui3D.remember(v.id, cv);
             v.tapped = cv.isTapped();
             if (cv.getController() != null) v.controller = cv.getController().getName();
 
