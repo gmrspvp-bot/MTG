@@ -421,6 +421,10 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 **Looks and layout**
 
+- [ ] **Redesign the left panel.** It now carries the turn, the seat you are at, thirteen phase
+      rows, priority, the follow tickbox and every player's life - grown by accretion, never
+      designed. It is the densest thing on screen and the first place the eye goes. Wants
+      proper grouping, spacing and type sizes rather than one more row bolted on.
 - [x] Seat pads smaller and darker - done 2026-10-20 (7.6 x 3.4, see *Seat pads* above).
 - [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
 - [x] Card movement between zones - done 2026-10-20: per-id poses eased every frame (`Pose`/`ease` in `Table3D`), hand -> stack -> battlefield slides.

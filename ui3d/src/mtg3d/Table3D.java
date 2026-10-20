@@ -408,7 +408,10 @@ public final class Table3D extends ApplicationAdapter {
             else modelBatch.render(d.inst, env);
         }
         modelBatch.end();
-        drawScoreboard();
+        // The hanging scoreboard has moved into the left panel - one place to look instead of
+        // two, and it no longer floats over the middle of the table where the stack now sits.
+        // -Dforge.ui3d.hangingscore=true brings it back.
+        if (HANGING_SCORE) drawScoreboard();
         drawCombatArcs();
 
         drawOverlay();
@@ -1026,9 +1029,9 @@ public final class Table3D extends ApplicationAdapter {
 
     /** How far each band sits from the middle of the table. */
     /** How high the stack bar floats above the table. */
-    private static final float STACK_Y = 3.4f;
+    private static final float STACK_Y = 5.2f;
     /** The stack is drawn larger than a table card: it is the thing you must not miss. */
-    private static final float STACK_SCALE = 1.5f;
+    private static final float STACK_SCALE = 2.1f;
     private static final float STACK_FRAME_UNIT = 1f;
     /** How far each player's little screen sits from the middle of the table. */
     private static final float MONITOR_DIST = 2.0f;
@@ -1169,6 +1172,9 @@ public final class Table3D extends ApplicationAdapter {
         }
         drawn.add(d);
     }
+
+    private static final boolean HANGING_SCORE =
+        "true".equalsIgnoreCase(System.getProperty("forge.ui3d.hangingscore", "false"));
 
     // ---- stadium scoreboard ---------------------------------------------------------------------
 
@@ -2175,6 +2181,20 @@ public final class Table3D extends ApplicationAdapter {
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));
         font.draw(ui, "follow the turn", PP_X + 30f, bottom + 23f);
+
+        // Life, where the phase already is. It used to hang over the middle of the table, which
+        // is both a second place to look and exactly where the stack now wants to be.
+        float ly = bottom - 16f;
+        for (int i = 0; i < snap.seats.size(); i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
+            else if (s.isYou) font.setColor(0.65f, 0.95f, 1f, 1f);
+            else font.setColor(0.70f, 0.78f, 0.86f, 1f);
+            String mark = s.active ? ">" : " ";
+            font.draw(ui, mark + " " + s.name, PP_X + 8f, ly);
+            font.draw(ui, String.valueOf(s.life), PP_X + PP_W - 46f, ly);
+            ly -= 16f;
+        }
     }
 
     private void drawZoneLabels() {
