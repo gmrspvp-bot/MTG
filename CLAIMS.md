@@ -30,7 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: take the remaining IGuiGame DECISIONS off Forge's window | Xenil's Claude | 2026-10-21 | Owner: get everything off the Forge UI. The 7 in the census - showConfirmDialog, showOptionDialog, showInputDialog, assignGenericAmount, insertInList, manipulateCardList. `Gui3D` + panels. |
+| ui3d: finish the IGuiGame decisions (assignGenericAmount, insertInList, manipulateCardList, free-text showInputDialog), then hide Forge's window while the 3D table runs | Stoneforge | 2026-10-21 | Taken over from Xenil's Claude (out of context; owner's OK). `Gui3D` + panels. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
