@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - table surface and surround (felt texture, rim, floor) | dmara's Claude | 2026-10-21 | `Table3D`: the table/rim/floor models in `create()`, their draw in `render()`, dispose. A generated felt texture (new small `Felt.java`). No layout, input or overlays. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
