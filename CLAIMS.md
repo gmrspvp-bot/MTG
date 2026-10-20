@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - **split `Table3D.java` into several files** (owner asked) | dmara's Claude | 2026-10-21 | **Whole file - please do not edit `Table3D.java` until this row is gone** (expected within the hour). Mechanical move, no behaviour change: a chain of abstract classes (base / camera+input / layout / arcs / overlays / Table3D), each method moved verbatim. A map of where everything went lands in the ui3d README. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
