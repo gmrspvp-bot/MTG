@@ -82,7 +82,9 @@ Each line: **what to do** -> what should happen.
       then an **order** panel for the ones on top - drag them, 1 = drawn first.
 - [ ] **Surveil:** same idea, graveyard instead of bottom.
 - [ ] **A card with two abilities** (Weathered Wayfarer: cast it or search; a land with two
-      colours) -> a column of buttons, one per ability you can use now; click one. ESC plays nothing.
+      colours) -> a small menu opens beside the card, one line per ability you can use now;
+      click one (or press its number). ESC plays nothing.
+- [ ] **Graveyard / exile piles** show their top card face up, with a rim in the owner's colour.
 - [ ] **An ability on the stack** shows its text in teal under the card, so two abilities of the
       same card can be told apart.
 - [ ] **Clicking your own untapped land** when nothing is being paid for -> a warning first;

@@ -663,6 +663,11 @@ abstract class TableLayout extends TableCamera {
                 float yaw = (float) Math.toDegrees(-angle);
                 ModelInstance inst = inst(zoneModel);
                 inst.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
+                // The pad shows round the pile as a rim, in the owner's seat colour (the colour of
+                // their name over these pads), darkened to sit on the felt - so whose piles these
+                // are reads at a glance, as the owner asked. The pile keeps its zone colour.
+                Color own = zoneLabelColour(s);
+                inst.materials.get(0).set(ColorAttribute.createDiffuse(own.r * 0.42f, own.g * 0.42f, own.b * 0.42f, 1f));
                 props.add(inst);
                 float target = pileTarget(counts[k]);
                 float h = pileHeight[i][k];
@@ -675,6 +680,20 @@ abstract class TableLayout extends TableCamera {
                 pile.transform.setToTranslation(w.x, PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
                 pile.materials.get(0).set(ColorAttribute.createDiffuse(PILE_COLOURS[k]));
                 props.add(pile);
+                // Graveyard and exile are public: their top card lies face up on the pile (the
+                // lists are most recent first). Scenery, not a card you can hover or click, so a
+                // click on the pile still opens it to browse. A face-down exile shows its back.
+                java.util.List<Snapshot.CardV> zone = k == 1 ? s.graveyard : k == 2 ? s.exile : null;
+                if (zone != null && !zone.isEmpty() && art != null) {
+                    com.badlogic.gdx.graphics.Texture tex = art.get(zone.get(0));
+                    if (tex != null) {
+                        ModelInstance top = inst(faceModel);
+                        top.transform.setToTranslation(w.x, PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
+                        top.materials.get(0).set(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
+                        top.materials.get(0).set(FACE_LIT);
+                        props.add(top);
+                    }
+                }
             }
         }
     }

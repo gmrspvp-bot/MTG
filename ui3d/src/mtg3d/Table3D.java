@@ -234,6 +234,16 @@ public final class Table3D extends TableInput {
             options.open(c.title, c.max <= 1 ? (c.min == 0 ? "Choose one, or ESC for none." : "Choose one.")
                 : "Choose " + (c.min == c.max ? String.valueOf(c.max) : c.min + " to " + c.max) + ".",
                 opts, c.min, c.max, picked -> Gui3D.answerChoice(picked));
+            // Which ability of a card: a drop-down beside that card, wherever it is drawn.
+            if (c.anchorCardId >= 0) {
+                for (Drawn d : drawn) {
+                    if (d.card == null || d.card.id != c.anchorCardId) continue;
+                    Vector3 mid = d.bounds.getCenter(new Vector3());
+                    Vector3 s = cam.project(mid);
+                    if (s.z <= 1f) options.anchorAt(s.x, s.y);
+                    break;
+                }
+            }
             optionsOwner = c;
         }
         // Only close the panel if it is still showing that question - the ESC menu uses it too.

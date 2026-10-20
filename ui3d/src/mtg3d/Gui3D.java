@@ -796,6 +796,8 @@ public final class Gui3D implements InvocationHandler {
          */
         public boolean cards = true;
         public java.util.List<String> labels = new ArrayList<>();
+        /** A card on the table to open the choice beside, as a drop-down (-1: centred panel). */
+        public int anchorCardId = -1;
         final java.util.List<Object> entities;
         final Handoff<java.util.List<Object>> handoff;
         Choice(String title, java.util.List<Snapshot.CardV> items, java.util.List<Object> entities,
@@ -1066,6 +1068,7 @@ public final class Gui3D implements InvocationHandler {
             Choice c = new Choice(title, items, entities, 0, 1, h);
             c.cards = false;
             c.labels = labels;
+            if (host != null) c.anchorCardId = host.getId();    // a drop-down at the card
             choosing = c;
             java.util.List<Object> picked;
             try {

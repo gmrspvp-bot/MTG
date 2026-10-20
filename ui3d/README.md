@@ -414,8 +414,11 @@ to know before starting:
       first (nothing offered = nothing; a single non-prompting ability plays if it can), then an
       `OptionPanel` column, one button per *playable* ability in Forge's words ("Cast X" for the
       card itself), ESC = nothing played, H / timeout hands it to Forge. 7 cases in
-      `Ui3dTakeoverTest` (21/21). **Still to do:** the owner asked for a small drop-down *at the
-      card*; the column works today, the drop-down is a look on top of the same `Choice`.
+      `Ui3dTakeoverTest` (21/21). **Drop-down at the card - done 2026-10-21:** `Choice.anchorCardId`
+      (set by `takeAbility`) makes `Table3D` call `OptionPanel.anchorAt` with the card's screen
+      position: a compact menu beside the card (right if there is room, else left; never off
+      screen), light dim, long ability text cut to fit. Lists over 8 stay a centred panel. Demo:
+      `-Dforge.ui3d.openPanel=ability`.
 - [x] While it is on the stack, show *which* ability is resolving - done 2026-10-20: under each
       ability or trigger on the stack, its text in the ribbon's teal (two lines, the card name
       stripped), below who controls it (`TableHud.drawStackLabels`). Demo stack now has a
@@ -434,8 +437,9 @@ to know before starting:
 - [x] **Piles - done 2026-10-21 (Stoneforge).** Each pad carries a pile as tall as the zone (6 mm
       a card, capped at 100), easing up as cards arrive; library like a card back, graveyard dark,
       exile pale violet; the count sits on top of the pile, and dying / drawn cards slide onto /
-      off its top (`TableLayout.placeZones`, `pileTop`). Not done: the pile in the owner's seat
-      colour, and the top card's face on the graveyard.
+      off its top (`TableLayout.placeZones`, `pileTop`). **Also done:** each pile's pad shows as a
+      rim in the owner's seat colour (`zoneLabelColour`, darkened), and the top card of a
+      graveyard or exile pile lies face up on it (scenery - a click still browses the pile).
 - [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.

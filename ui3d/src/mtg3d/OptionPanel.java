@@ -68,6 +68,7 @@ public final class OptionPanel {
         this.minPick = minPick;
         this.maxPick = Math.max(1, maxPick);
         this.result = result;
+        anchored = false;
         open = true;
         closing = false;
         anim = 0f;
@@ -75,6 +76,26 @@ public final class OptionPanel {
     }
 
     public boolean isOpen() { return open; }
+
+    /**
+     * Owner's list 2026-10-20: choosing which ability to use should be "a small drop-down at the
+     * card", not a panel in the middle of the screen. Call after open(): a short list (up to
+     * ANCHOR_MAX options) is then drawn as a compact menu beside screen point (x, y) - bottom-left
+     * origin, as the shapes are drawn - kept on screen, with only a light dim behind it. Longer
+     * lists ignore this and stay centred.
+     */
+    public void anchorAt(float x, float y) {
+        anchored = true;
+        anchorX = x;
+        anchorY = y;
+    }
+
+    private boolean anchored;
+    private float anchorX, anchorY;
+    private static final int ANCHOR_MAX = 8;
+    private static final float ANCHOR_W = 470f, ANCHOR_BTN_H = 40f;
+
+    private boolean anchoredNow() { return anchored && options.size() <= ANCHOR_MAX; }
 
     /** Shut it without answering - the question went back to Forge (timeout, or H). */
     public void close() {
@@ -139,7 +160,38 @@ public final class OptionPanel {
         lH = headerH + listH + footerH + 20f;
         lPx = (sw - lW) / 2f;
         lPy = (sh - lH) / 2f - (1f - t) * 120f;
+        if (anchoredNow()) {
+            // One narrow column beside the card: to its right if there is room, else its left;
+            // vertically centred on it; never off screen.
+            lCols = 1;
+            lBtnH = ANCHOR_BTN_H;
+            lGap = 4f;
+            lColW = ANCHOR_W - 40f;
+            lTotalRows = lRows = options.size();
+            scrollRow = 0;
+            listH = lRows * (lBtnH + lGap) - lGap;
+            headerH = 56f;
+            lW = ANCHOR_W;
+            lH = headerH + listH + footerH + 16f;
+            float x = anchorX + 70f;
+            if (x + lW > sw - 10f) x = anchorX - 70f - lW;
+            lPx = Math.max(10f, Math.min(sw - lW - 10f, x));
+            lPy = Math.max(10f, Math.min(sh - lH - 10f, anchorY - lH / 2f)) - (1f - t) * 30f;
+        }
         lListTop = lPy + lH - headerH;
+    }
+
+    /** The text cut, with "...", to fit `maxW` pixels in that font. */
+    private static String fit(BitmapFont f, String s, float maxW) {
+        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(f, s);
+        if (gl.width <= maxW) return s;
+        int lo = 0, hi = s.length();
+        while (lo < hi) {
+            int mid = (lo + hi + 1) / 2;
+            gl.setText(f, s.substring(0, mid) + "...");
+            if (gl.width <= maxW) lo = mid; else hi = mid - 1;
+        }
+        return s.substring(0, lo) + "...";
     }
 
     /** The option at a grid cell, or -1 past the end. Row major, so scrolling moves whole rows. */
@@ -168,7 +220,7 @@ public final class OptionPanel {
         Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(0f, 0f, 0f, 0.55f * t);
+        shapes.setColor(0f, 0f, 0f, (anchoredNow() ? 0.18f : 0.55f) * t);
         shapes.rect(0, 0, sw, sh);
         shapes.setColor(0.03f, 0.10f, 0.15f, 0.97f * t);
         shapes.rect(px, py, w, h);
@@ -226,11 +278,13 @@ public final class OptionPanel {
                     font.setColor(sel ? new Color(0.20f, 0.14f, 0.04f, t) : new Color(0.45f, 0.60f, 0.72f, t));
                     font.draw(ui, String.valueOf(shown + 1), bx + lColW - 16f, by + lBtnH / 2f + 6f);
                 }
-                BitmapFont lf = compact ? font : fontBig;
+                boolean small = compact || anchoredNow();
+                BitmapFont lf = small ? font : fontBig;
                 lf.setColor(sel ? new Color(0.10f, 0.08f, 0.04f, t) : new Color(0.88f, 0.95f, 1f, t));
-                boolean twoLine = !o.detail.isEmpty() && !compact;
-                float labelY = twoLine ? by + lBtnH - 12f : by + lBtnH / 2f + (compact ? 5f : 9f);
-                lf.draw(ui, o.label, tx, labelY);
+                boolean twoLine = !o.detail.isEmpty() && !small;
+                float labelY = twoLine ? by + lBtnH - 12f : by + lBtnH / 2f + (small ? 5f : 9f);
+                // A drop-down is narrow and abilities are long: cut the label to the button.
+                lf.draw(ui, anchoredNow() ? fit(lf, o.label, lColW - 40f) : o.label, tx, labelY);
                 if (twoLine) {
                     font.setColor(sel ? new Color(0.22f, 0.16f, 0.06f, t) : new Color(0.58f, 0.72f, 0.82f, t));
                     font.draw(ui, o.detail, tx, by + 18f);

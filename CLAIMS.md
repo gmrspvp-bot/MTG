@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d polish: piles in the owner's seat colour; top card shown on graveyard/exile piles; ability choice as a drop-down at the card | Stoneforge | 2026-10-21 | Owner's list. Touches `TableLayout`, `OptionPanel`, `Table3D`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

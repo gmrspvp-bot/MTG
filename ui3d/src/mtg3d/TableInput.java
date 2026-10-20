@@ -337,6 +337,18 @@ abstract class TableInput extends TableHud {
                 o.add(new OptionPanel.Option("Target creature gains double strike", "until end of turn", null));
                 options.open("Boros Charm", "Choose one.", o, 1, 1, picked -> System.out.println("UI3D: mode " + picked));
                 break;
+            case "ability":
+                // Which ability of a card, as the drop-down beside it (Gui3D.takeAbility).
+                o.add(new OptionPanel.Option("{3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+0 and gains lifelink."));
+                o.add(new OptionPanel.Option("Cast Resplendent Angel"));
+                options.open("Resplendent Angel - which ability?", "Choose one, or ESC for none.", o, 0, 1, picked -> { });
+                for (Drawn d : drawn) {
+                    if (d.card == null || d.seat == null || !d.card.name.equals("Resplendent Angel")) continue;
+                    com.badlogic.gdx.math.Vector3 sp = cam.project(d.bounds.getCenter(new com.badlogic.gdx.math.Vector3()));
+                    options.anchorAt(sp.x, sp.y);
+                    break;
+                }
+                break;
             case "colour":
                 o.add(new OptionPanel.Option("White", "", new Color(0.96f, 0.93f, 0.80f, 1f)));
                 o.add(new OptionPanel.Option("Blue", "", new Color(0.30f, 0.55f, 0.90f, 1f)));
