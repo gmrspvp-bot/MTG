@@ -349,6 +349,14 @@ public final class Table3D extends ApplicationAdapter {
 
         drawOverlay();
 
+        // A list Forge wants shown opens the search panel in browse mode. Done here rather than
+        // from the game thread because the panel belongs to the renderer, and the game thread is
+        // already blocked inside reveal() waiting for it to be dismissed.
+        Gui3D.Reveal rev = Gui3D.pendingReveal();
+        if (rev != null && search != null && !search.isOpen()) {
+            search.open(rev.title, "Close when you have read it.", rev.items, 0, 0,
+                chosen -> Gui3D.dismissReveal());
+        }
         if (search != null) {
             search.update(Gdx.graphics.getDeltaTime());
             search.render(ui, shapes, font, fontBig);
@@ -1609,11 +1617,31 @@ public final class Table3D extends ApplicationAdapter {
         // Drawn whenever the snapshot carries a prompt, so the demo can exercise it too;
         // only the buttons need a live game behind them.
         if (Gui3D.pendingAsk() != null) return;
-        String msg = snap.promptText == null ? "" : snap.promptText.trim();
+        // Read the prompt LIVE from the wrapper, not from the snapshot.
+        //
+        // The snapshot is only rebuilt when the game fires an event, and a prompt arrives between
+        // events - so the bar was a whole decision behind. The owner's first bug report caught it
+        // exactly: at the moment of the mulligan the snapshot's prompt was empty and both buttons
+        // disabled, and the question only appeared after SPACE had already answered it. These are
+        // plain strings and booleans already copied out of Forge, so reading them from the render
+        // thread is safe in a way reading Forge's own objects would not be.
+        String msg;
+        String okLabel, cancelLabel;
+        boolean okOn, cancelOn;
+        if (Gui3D.active()) {
+            Gui3D.Prompt p = Gui3D.PROMPT;
+            msg = p.message == null ? "" : p.message.trim();
+            okLabel = p.okLabel; cancelLabel = p.cancelLabel;
+            okOn = p.okEnabled; cancelOn = p.cancelEnabled;
+        } else {
+            msg = snap.promptText == null ? "" : snap.promptText.trim();
+            okLabel = snap.okLabel; cancelLabel = snap.cancelLabel;
+            okOn = snap.okEnabled; cancelOn = snap.cancelEnabled;
+        }
         if (msg.isEmpty()) return;
 
         float bw = Math.min(w - 80f, 900f), bh = 62f, x = (w - bw) / 2f, y = 96f;
-        boolean waiting = snap.okEnabled || snap.cancelEnabled;
+        boolean waiting = okOn || cancelOn;
 
         ui.end();
         Gdx.gl.glEnable(GL20.GL_BLEND);
@@ -1626,12 +1654,12 @@ public final class Table3D extends ApplicationAdapter {
         shapes.rect(x, y + bh - 3f, bw, 3f);
 
         float bx = x + bw - 230f;
-        if (snap.okEnabled) {
+        if (okOn) {
             okBtn[0] = bx; okBtn[1] = y + 14f; okBtn[2] = 100f; okBtn[3] = 34f;
             shapes.setColor(0.16f, 0.46f, 0.30f, 1f);
             shapes.rect(okBtn[0], okBtn[1], okBtn[2], okBtn[3]);
         }
-        if (snap.cancelEnabled) {
+        if (cancelOn) {
             cancelBtn[0] = bx + 112f; cancelBtn[1] = y + 14f; cancelBtn[2] = 100f; cancelBtn[3] = 34f;
             shapes.setColor(0.40f, 0.18f, 0.16f, 1f);
             shapes.rect(cancelBtn[0], cancelBtn[1], cancelBtn[2], cancelBtn[3]);
@@ -1641,13 +1669,13 @@ public final class Table3D extends ApplicationAdapter {
 
         font.setColor(waiting ? new Color(1f, 0.92f, 0.70f, 1f) : new Color(0.68f, 0.80f, 0.90f, 1f));
         font.draw(ui, msg, x + 18f, y + bh - 18f, bw - 260f, -1, true);
-        if (snap.okEnabled) {
+        if (okOn) {
             font.setColor(0.80f, 1f, 0.84f, 1f);
-            font.draw(ui, snap.okLabel + "  (SPACE)", okBtn[0] + 10f, okBtn[1] + 22f);
+            font.draw(ui, okLabel + "  (SPACE)", okBtn[0] + 10f, okBtn[1] + 22f);
         }
-        if (snap.cancelEnabled) {
+        if (cancelOn) {
             font.setColor(1f, 0.82f, 0.78f, 1f);
-            font.draw(ui, snap.cancelLabel + "  (X)", cancelBtn[0] + 10f, cancelBtn[1] + 22f);
+            font.draw(ui, cancelLabel + "  (X)", cancelBtn[0] + 10f, cancelBtn[1] + 22f);
         }
     }
 

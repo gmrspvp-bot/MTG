@@ -43,7 +43,7 @@ public final class Gui3D implements InvocationHandler {
      * fall back on if the 3D window cannot answer.
      */
     private static final Set<String> TAKEN_OVER = new LinkedHashSet<>(
-        java.util.Arrays.asList("confirm"));
+        java.util.Arrays.asList("confirm", "reveal"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -134,6 +134,35 @@ public final class Gui3D implements InvocationHandler {
     }
 
     private static volatile Ask pending;
+
+    /**
+     * A list Forge wants shown - revealed cards, or the "AI can't play these cards well" deck
+     * warning at the start of a game. Forge draws it as a modal box in its own window, which left
+     * the 3D player staring at a table that had silently stopped.
+     */
+    public static final class Reveal {
+        public final String title;
+        public final java.util.List<Snapshot.CardV> items;
+        final Handoff<Boolean> handoff;
+        Reveal(String title, java.util.List<Snapshot.CardV> items, Handoff<Boolean> h) {
+            this.title = title;
+            this.items = items;
+            this.handoff = h;
+        }
+    }
+
+    private static volatile Reveal revealing;
+
+    /** The list the 3D window should be showing, or null. */
+    public static Reveal pendingReveal() {
+        return revealing;
+    }
+
+    /** Dismiss it from the render thread. */
+    public static void dismissReveal() {
+        Reveal r = revealing;
+        if (r != null) r.handoff.answer(Boolean.TRUE);
+    }
 
     /** The question the 3D window should be showing, or null. */
     public static Ask pendingAsk() {
@@ -346,9 +375,10 @@ public final class Gui3D implements InvocationHandler {
      * reason this is safe to do at all.
      */
     private Object take(Method method, Object[] args) {
-        if (!"confirm".equals(method.getName())) return NOT_HANDLED;
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
+        if ("reveal".equals(method.getName())) return takeReveal(args);
+        if (!"confirm".equals(method.getName())) return NOT_HANDLED;
         try {
             String question = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
             CardView card = args.length > 0 && args[0] instanceof CardView ? (CardView) args[0] : null;
@@ -378,6 +408,49 @@ public final class Gui3D implements InvocationHandler {
         } catch (Throwable t) {
             System.out.println("UI3D: confirm failed, handing it to Forge (" + t + ")");
             pending = null;
+            return NOT_HANDLED;
+        }
+    }
+
+    /**
+     * Show a list in the 3D window instead of Forge's modal box.
+     *
+     * The elements can be anything - the deck warning passes strings, a revealed hand passes
+     * CardViews - so a CardView is read properly and everything else falls back to its text.
+     * Nothing here needs to understand the type, because the only job is to display it and
+     * return; that is why this one is safe to take over despite the unknown element type, where
+     * answering a *question* about the list would not be.
+     */
+    private Object takeReveal(Object[] args) {
+        try {
+            String title = args.length > 0 && args[0] instanceof String ? (String) args[0] : "Revealed";
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            if (args.length > 1 && args[1] instanceof Iterable) {
+                for (Object o : (Iterable<?>) args[1]) {
+                    Snapshot.CardV v = new Snapshot.CardV();
+                    if (o instanceof CardView) {
+                        CardView cv = (CardView) o;
+                        v.id = cv.getId();
+                        v.name = cv.getName();
+                        CardView.CardStateView st = cv.getCurrentState();
+                        if (st != null && st.getType() != null) v.typeLine = st.getType().toString();
+                    } else {
+                        v.name = String.valueOf(o);
+                    }
+                    items.add(v);
+                }
+            }
+            Handoff<Boolean> h = Handoff.start("reveal: " + title);
+            revealing = new Reveal(title, items, h);
+            try {
+                h.awaitOr(() -> Boolean.TRUE);      // nothing to hand back: it is only a display
+            } finally {
+                revealing = null;
+            }
+            return null;                            // reveal returns void
+        } catch (Throwable t) {
+            System.out.println("UI3D: reveal failed, letting Forge show it (" + t + ")");
+            revealing = null;
             return NOT_HANDLED;
         }
     }
