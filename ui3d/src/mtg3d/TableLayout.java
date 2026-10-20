@@ -155,6 +155,7 @@ abstract class TableLayout extends TableCamera {
             placeRow(seat, seat.others, angle, ROW_OTHERS);
             placeRow(seat, seat.lands, angle, ROW_LANDS);
         }
+        placeSeatEdges();
         placeAttachments();
         placeCommandZone();
         placeHand();
@@ -484,6 +485,46 @@ abstract class TableLayout extends TableCamera {
                 add(seat.command.get(k), seat, cw.x, cw.z, yaw);
             }
         }
+    }
+
+    /**
+     * A frame round each seat's own territory, green on that player's turn and yellow while the
+     * game is waiting on them to respond.
+     *
+     * Four bars rather than a filled slab: a slab that size either hides the felt or has to be
+     * translucent, and a translucent one under the cards made the whole half of the table murky.
+     * An outline reads as a boundary at a glance and leaves the board alone.
+     *
+     * Pooled instances are reused between frames, so the colour is set every frame rather than
+     * once - an instance that was green last frame is whatever seat needs it this frame.
+     */
+    void placeSeatEdges() {
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV seat = snap.seats.get(i);
+            float angle = seatAngle(i, n);
+            float yaw = (float) Math.toDegrees(-angle);
+            Color c = edgeColour(seat);
+            float lenX = 2f * EDGE_X, lenZ = EDGE_FAR - EDGE_NEAR;
+            float midZ = (EDGE_NEAR + EDGE_FAR) / 2f;
+            // near and far, running across the seat; then the two sides, the same bar turned.
+            bar(0f, EDGE_NEAR, lenX, 0f, angle, yaw, c);
+            bar(0f, EDGE_FAR, lenX, 0f, angle, yaw, c);
+            bar(-EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
+            bar(EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
+        }
+    }
+
+    /** One bar of a seat frame, at (x, z) in that seat's frame, `len` long, turned `spin` on top. */
+    private void bar(float x, float z, float len, float spin, float angle, float yaw, Color c) {
+        Vector3 w = rotateY(x, z, angle);
+        ModelInstance inst = inst(seatEdgeModel);
+        inst.transform.setToTranslation(w.x, EDGE_Y, w.z)
+            .rotate(Vector3.Y, yaw)
+            .rotate(Vector3.Y, spin)
+            .scale(len / BAND_UNIT, 1f, 1f);
+        inst.materials.get(0).set(ColorAttribute.createDiffuse(c));
+        props.add(inst);
     }
 
     /** Library, graveyard and exile, as pads beside each seat's rows. Counts are drawn over them. */

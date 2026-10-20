@@ -80,6 +80,9 @@ abstract class TableBase extends ApplicationAdapter {
 
     Model seatGlowModel, stackFrameModel;
 
+    /** One unit-long bar; four of them, scaled and turned, frame each seat's area. */
+    Model seatEdgeModel;
+
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     static final float BAND_UNIT = 1f;
 
@@ -416,6 +419,49 @@ abstract class TableBase extends ApplicationAdapter {
     /** Where a seat's command zone sits, in its own frame: the other side from library/gy/exile. */
     static final float COMMAND_X = -5.3f, COMMAND_Z = SEAT_DIST + 0.3f;
 
+    /**
+     * The rectangle framing one seat's territory, in that seat's own frame. Wide enough to take
+     * in the command pad on one side (x -5.92 at its edge) and the library/graveyard/exile pads
+     * on the other (x 5.74), and deep enough for the creature row through to the far zone pad,
+     * with clear air either end so the frame never lands on top of a band or a pad - the bands
+     * sit at z 3.39..5.21 and 6.79..8.61, the pads at x 4.86..5.74.
+     */
+    static final float EDGE_X = 6.3f, EDGE_NEAR = 3.1f, EDGE_FAR = 8.8f;
+
+    /** How thick the frame reads from above, and how far it floats over the felt (top at -0.015). */
+    static final float EDGE_W = 0.09f, EDGE_Y = -0.004f;
+
+    /**
+     * Whose turn it is, and who the game is actually waiting on. In a four-player game the
+     * question "is it me?" was being answered by reading names off a panel; a coloured frame
+     * round the player's own half of the table answers it from across the room.
+     */
+    static final Color EDGE_ACTIVE     = new Color(0.16f, 0.78f, 0.34f, 1f);   // green: your turn
+    static final Color EDGE_RESPONDING = new Color(0.98f, 0.78f, 0.12f, 1f);   // yellow: responding
+    static final Color EDGE_LOST       = new Color(0.34f, 0.11f, 0.12f, 1f);
+    static final Color EDGE_IDLE       = new Color(0.10f, 0.18f, 0.25f, 1f);
+
+    /** The frame colour for a seat: green on its turn, yellow when the game waits on it. */
+    static Color edgeColour(Snapshot.SeatV s) {
+        if (s.lost) return EDGE_LOST;
+        if (s.active) return EDGE_ACTIVE;
+        if (s.hasPriority) return EDGE_RESPONDING;
+        return EDGE_IDLE;
+    }
+
+    /**
+     * The same four states as the frame, but as text over the felt. EDGE_IDLE is almost black -
+     * right for a frame lying on dark felt, unreadable as a word - so the resting state is a
+     * pale blue instead, and your own seat is tinted so you can find yourself immediately.
+     */
+    static Color zoneLabelColour(Snapshot.SeatV s) {
+        if (s.lost) return new Color(0.46f, 0.38f, 0.38f, 1f);
+        if (s.active) return new Color(0.42f, 0.95f, 0.52f, 1f);
+        if (s.hasPriority) return new Color(1f, 0.86f, 0.30f, 1f);
+        if (s.isYou) return new Color(0.62f, 0.95f, 1f, 1f);
+        return new Color(0.58f, 0.76f, 0.88f, 1f);
+    }
+
     static final boolean HANGING_SCORE =
         "true".equalsIgnoreCase(System.getProperty("forge.ui3d.hangingscore", "false"));
 
@@ -519,15 +565,25 @@ abstract class TableBase extends ApplicationAdapter {
 
     // Panel geometry. One place, because the background is a ShapeRenderer pass and the labels
     // are a SpriteBatch pass: two passes that cannot be interleaved and must agree to the pixel.
-    static final float PP_X = 14f, PP_W = 186f;
+    /**
+     * How much bigger the whole panel is than it was first drawn. Everything below is a base
+     * size multiplied by this, and drawPhasePanel scales the font to match, so the two passes
+     * stay in agreement and the tickbox and priority rows stay clickable where they are drawn.
+     * Raise this one number to make the panel bigger; nothing else needs touching.
+     * -Dforge.ui3d.panelscale overrides it, so a size can be tried without a rebuild.
+     */
+    static final float PP_SCALE =
+        Math.max(1f, Math.min(2.5f, Float.parseFloat(System.getProperty("forge.ui3d.panelscale", "1.45"))));
 
-    static final float PP_ROW = 21f;          // height of one step row
+    static final float PP_X = 14f, PP_W = 186f * PP_SCALE;
 
-    static final float PP_HEAD = 62f;         // turn line, seat line and the rule under them
+    static final float PP_ROW = 21f * PP_SCALE;          // height of one step row
 
-    static final float PP_FOOT = 34f;         // the tickbox
+    static final float PP_HEAD = 62f * PP_SCALE;         // turn line, seat line and the rule under them
 
-    static final float PP_GAP = 7f;           // space inserted between groups
+    static final float PP_FOOT = 34f * PP_SCALE;         // the tickbox
+
+    static final float PP_GAP = 7f * PP_SCALE;           // space inserted between groups
 
     /**
      * Where the turn changes character: beginning steps, first main, combat, second main, end.
@@ -537,7 +593,7 @@ abstract class TableBase extends ApplicationAdapter {
     static final int[] PP_GROUPS = { 3, 4, 10, 11 };
 
     // The priority block under the steps: a heading with the stack depth, then one row per seat.
-    static final float PB_HEAD = 22f, PB_ROW = 18f;
+    static final float PB_HEAD = 22f * PP_SCALE, PB_ROW = 18f * PP_SCALE;
 
     /** "Captain America, First Avenger" -> "Captain America", so the tracker stays narrow. */
     static String shortName(String s) {

@@ -50,6 +50,7 @@ public final class Demo {
                 v.lost = true; v.life = 0; v.creatures.clear(); v.others.clear(); v.lands.clear(); v.command.clear();
             }
         }
+        final String responding = System.getProperty("forge.ui3d.demoResponding");
         String winner = System.getProperty("forge.ui3d.demoWinner");
         if (winner != null) { s.gameOver = true; s.winner = winner; }
 
@@ -181,6 +182,16 @@ public final class Demo {
                 s.seats.get(i).passed = false;
             }
             for (int j = 0, p = active; j < onStack && p != prio; j++, p = (p + 1) % n) s.seats.get(p).passed = true;
+            // -Dforge.ui3d.demoResponding=<name>: hand priority to a seat whose turn it is
+            // NOT, which is the only way to see the responding state without a real game -
+            // the demo otherwise always gives priority to the active player. Applied last,
+            // because the priority round above would overwrite it.
+            if (responding != null) {
+                for (Snapshot.SeatV v : s.seats) {
+                    v.hasPriority = v.name.equalsIgnoreCase(responding);
+                    if (v.hasPriority) v.passed = false;
+                }
+            }
             return s;
         };
         Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();

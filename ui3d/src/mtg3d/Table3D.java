@@ -129,6 +129,10 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.12f, 0.29f, 0.26f, 1f))), attrs);
         monitorModel = builder.createBox(2.1f, 0.07f, 1.25f,
             new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.13f, 0.20f, 1f))), attrs);
+        // Built white: every instance overrides its own diffuse colour each frame, so the
+        // model's colour is never the one you see (see TableLayout.placeSeatEdges).
+        seatEdgeModel = builder.createBox(BAND_UNIT, 0.016f, EDGE_W,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
         // The command zone's pad: a card's size plus a rim, in a dark bronze so it reads as

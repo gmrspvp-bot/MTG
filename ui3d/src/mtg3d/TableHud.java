@@ -63,7 +63,7 @@ abstract class TableHud extends TableScene {
             font.draw(ui, a, w - 190, 18);
         }
         drawPhasePanel(w, h);
-        bug.drawCogText(ui, font, w, h);
+        bug.drawCogText(ui, font, w, h);
         // Strict mode: say so the moment Forge answers something the 3D window should own.
         // Without this a gap is invisible - the window just loses focus and nobody knows why.
         String fell = Gui3D.recentFallback();
@@ -511,9 +511,9 @@ abstract class TableHud extends TableScene {
         shapes.setColor(0.02f, 0.08f, 0.13f, 0.88f);
         shapes.rect(PP_X, bottom, PP_W, height);
         shapes.setColor(0.18f, 0.56f, 0.71f, 0.95f);
-        shapes.rect(PP_X, top - 3f, PP_W, 3f);
+        shapes.rect(PP_X, top - 3f * PP_SCALE, PP_W, 3f * PP_SCALE);
         shapes.setColor(0.10f, 0.26f, 0.34f, 1f);
-        shapes.rect(PP_X + 10f, top - PP_HEAD + 12f, PP_W - 20f, 1f);     // rule under the turn line
+        shapes.rect(PP_X + 10f * PP_SCALE, top - PP_HEAD + 12f * PP_SCALE, PP_W - 20f * PP_SCALE, 1f * PP_SCALE);     // rule under the turn line
 
         for (int i = 0; i < PHASES.length; i++) {
             float y = phaseRowY(i, top);
@@ -521,13 +521,13 @@ abstract class TableHud extends TableScene {
             boolean past = current >= 0 && i < current;
             if (on) {
                 shapes.setColor(0.95f, 0.72f, 0.22f, 1f);
-                shapes.rect(PP_X + 8f, y, PP_W - 16f, PP_ROW - 3f);
+                shapes.rect(PP_X + 8f * PP_SCALE, y, PP_W - 16f * PP_SCALE, PP_ROW - 3f * PP_SCALE);
             } else {
                 // A marker down the left edge: filled for steps already done, hollow for those to
                 // come, so progress through the turn reads without the text.
                 shapes.setColor(past ? new Color(0.20f, 0.42f, 0.52f, 1f)
                                      : new Color(0.09f, 0.20f, 0.27f, 1f));
-                shapes.rect(PP_X + 8f, y + 4f, 5f, PP_ROW - 11f);
+                shapes.rect(PP_X + 8f * PP_SCALE, y + 4f * PP_SCALE, 5f * PP_SCALE, PP_ROW - 11f * PP_SCALE);
             }
         }
 
@@ -536,7 +536,7 @@ abstract class TableHud extends TableScene {
         if (!snap.seats.isEmpty()) {
             float bt = prioBlockTop(top);
             shapes.setColor(0.10f, 0.26f, 0.34f, 1f);
-            shapes.rect(PP_X + 10f, bt, PP_W - 20f, 1f);
+            shapes.rect(PP_X + 10f * PP_SCALE, bt, PP_W - 20f * PP_SCALE, 1f * PP_SCALE);
             for (int k = 0; k < snap.seats.size(); k++) {
                 Snapshot.SeatV s = snap.seats.get(k);
                 float y = prioRowY(k, top);
@@ -544,17 +544,17 @@ abstract class TableHud extends TableScene {
                 if (s.hasPriority) shapes.setColor(0.45f, 0.92f, 1f, 1f);
                 else if (s.passed) shapes.setColor(0.20f, 0.42f, 0.52f, 1f);
                 else shapes.setColor(0.09f, 0.20f, 0.27f, 1f);
-                shapes.rect(PP_X + 10f, y + 4f, 10f, 10f);
+                shapes.rect(PP_X + 10f * PP_SCALE, y + 4f * PP_SCALE, 10f * PP_SCALE, 10f * PP_SCALE);
             }
         }
 
-        float by = bottom + 11f;
-        followBox = new float[] { PP_X + 8f, by, PP_W - 16f, 15f };
+        float by = bottom + 11f * PP_SCALE;
+        followBox = new float[] { PP_X + 8f * PP_SCALE, by, PP_W - 16f * PP_SCALE, 15f * PP_SCALE };
         shapes.setColor(0.06f, 0.16f, 0.22f, 1f);
-        shapes.rect(PP_X + 8f, by, 14f, 14f);
+        shapes.rect(PP_X + 8f * PP_SCALE, by, 14f * PP_SCALE, 14f * PP_SCALE);
         if (followTurn) {
             shapes.setColor(0.45f, 0.86f, 1f, 1f);
-            shapes.rect(PP_X + 11f, by + 3f, 8f, 8f);
+            shapes.rect(PP_X + 11f * PP_SCALE, by + 3f * PP_SCALE, 8f * PP_SCALE, 8f * PP_SCALE);
         }
         shapes.end();
     }
@@ -564,19 +564,22 @@ abstract class TableHud extends TableScene {
         float top = h - 14f;
         float bottom = top - panelHeight();
         int current = currentPhase();
+        // The panel's own text size. Set here and restored at the end, because `font`
+        // is shared with everything else on the HUD.
+        font.getData().setScale(PP_SCALE);
 
         font.setColor(0.78f, 0.90f, 0.98f, 1f);
-        font.draw(ui, snap.turnLabel, PP_X + 10f, top - 14f);
+        font.draw(ui, snap.turnLabel, PP_X + 10f * PP_SCALE, top - 14f * PP_SCALE);
 
         // Which seat we are looking from, since the camera no longer follows the turn by itself.
         if (viewSeat >= 0 && viewSeat < snap.seats.size()) {
             Snapshot.SeatV v = snap.seats.get(viewSeat);
             if (v.isYou) {
                 font.setColor(0.50f, 0.68f, 0.80f, 1f);
-                font.draw(ui, "your seat", PP_X + 10f, top - 30f);
+                font.draw(ui, "your seat", PP_X + 10f * PP_SCALE, top - 30f * PP_SCALE);
             } else {
                 font.setColor(1f, 0.78f, 0.45f, 1f);
-                font.draw(ui, "at " + v.name + "'s seat", PP_X + 10f, top - 30f);
+                font.draw(ui, "at " + v.name + "'s seat", PP_X + 10f * PP_SCALE, top - 30f * PP_SCALE);
             }
         }
 
@@ -587,17 +590,17 @@ abstract class TableHud extends TableScene {
             if (on) font.setColor(0.06f, 0.09f, 0.12f, 1f);          // dark on the lit row
             else if (past) font.setColor(0.52f, 0.66f, 0.76f, 1f);
             else font.setColor(0.38f, 0.50f, 0.60f, 1f);
-            font.draw(ui, PHASES[i][1], PP_X + 20f, y + PP_ROW - 7f);
+            font.draw(ui, PHASES[i][1], PP_X + 20f * PP_SCALE, y + PP_ROW - 7f * PP_SCALE);
         }
 
         if (!snap.seats.isEmpty()) {
             float bt = prioBlockTop(top);
             font.setColor(0.55f, 0.72f, 0.84f, 1f);
-            font.draw(ui, "PRIORITY", PP_X + 10f, bt - 5f);
+            font.draw(ui, "PRIORITY", PP_X + 10f * PP_SCALE, bt - 5f * PP_SCALE);
             String depth = snap.stack.isEmpty() ? "stack empty" : "stack " + snap.stack.size();
             GlyphLayout gl = new GlyphLayout(font, depth);
             font.setColor(snap.stack.isEmpty() ? new Color(0.40f, 0.52f, 0.62f, 1f) : new Color(1f, 0.80f, 0.40f, 1f));
-            font.draw(ui, depth, PP_X + PP_W - 10f - gl.width, bt - 5f);
+            font.draw(ui, depth, PP_X + PP_W - 10f * PP_SCALE - gl.width, bt - 5f * PP_SCALE);
             for (int k = 0; k < snap.seats.size(); k++) {
                 Snapshot.SeatV s = snap.seats.get(k);
                 float y = prioRowY(k, top);
@@ -606,28 +609,29 @@ abstract class TableHud extends TableScene {
                 else if (s.hasPriority) font.setColor(0.70f, 0.95f, 1f, 1f);
                 else if (s.passed) font.setColor(0.48f, 0.62f, 0.72f, 1f);
                 else font.setColor(0.80f, 0.86f, 0.92f, 1f);
-                font.draw(ui, shortName(s.name), PP_X + 26f, y + PB_ROW - 4f);
+                font.draw(ui, shortName(s.name), PP_X + 26f * PP_SCALE, y + PB_ROW - 4f * PP_SCALE);
                 gl.setText(font, state);
-                font.draw(ui, state, PP_X + PP_W - 10f - gl.width, y + PB_ROW - 4f);
+                font.draw(ui, state, PP_X + PP_W - 10f * PP_SCALE - gl.width, y + PB_ROW - 4f * PP_SCALE);
             }
         }
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));
-        font.draw(ui, "follow the turn", PP_X + 30f, bottom + 23f);
+        font.draw(ui, "follow the turn", PP_X + 30f * PP_SCALE, bottom + 23f * PP_SCALE);
 
         // Life, where the phase already is. It used to hang over the middle of the table, which
         // is both a second place to look and exactly where the stack now wants to be.
-        float ly = bottom - 16f;
+        float ly = bottom - 16f * PP_SCALE;
         for (int i = 0; i < snap.seats.size(); i++) {
             Snapshot.SeatV s = snap.seats.get(i);
             if (s.active) font.setColor(1f, 0.85f, 0.35f, 1f);
             else if (s.isYou) font.setColor(0.65f, 0.95f, 1f, 1f);
             else font.setColor(0.70f, 0.78f, 0.86f, 1f);
             String mark = s.active ? ">" : " ";
-            font.draw(ui, mark + " " + s.name, PP_X + 8f, ly);
-            font.draw(ui, String.valueOf(s.life), PP_X + PP_W - 46f, ly);
-            ly -= 16f;
+            font.draw(ui, mark + " " + s.name, PP_X + 8f * PP_SCALE, ly);
+            font.draw(ui, String.valueOf(s.life), PP_X + PP_W - 46f * PP_SCALE, ly);
+            ly -= 16f * PP_SCALE;
         }
+        font.getData().setScale(1f);
     }
 
     void drawZoneLabels() {
@@ -636,13 +640,37 @@ abstract class TableHud extends TableScene {
             Snapshot.SeatV s = snap.seats.get(i);
             float angle = seatAngle(i, n);
             String[] names = { "LIB " + s.librarySize, "GY " + s.graveyardSize, "EXI " + s.exileSize };
+            Color zc = zoneLabelColour(s);
             for (int k = 0; k < 3; k++) {
                 Vector3 world = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
                 Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
                 if (p.z > 1f) continue;
-                font.setColor(0.58f, 0.76f, 0.88f, 1f);
+                font.setColor(zc);
                 font.draw(ui, names[k], p.x - 20, p.y + 6);
             }
+            // Whose pads these are. Three unlabelled trays beside three other players' unlabelled
+            // trays is the thing that was being misread, so the owner's name goes over the stack,
+            // in the same colour as that seat's frame.
+            Vector3 ow = rotateY(5.3f, SEAT_DIST + 1.7f + 1.0f, angle);
+            Vector3 op = cam.project(new Vector3(ow.x, 0.1f, ow.z));
+            if (op.z <= 1f) {
+                String who = shortName(s.name).toUpperCase() + (s.isYou ? "  (YOU)" : "");
+                font.setColor(zc);
+                font.draw(ui, who, op.x - 20, op.y + 6);
+            }
+        }
+        // The board itself, named at the edge nearest the middle of the table: the frame says
+        // whose turn it is, this says whose half of the table you are looking at. Skipped for
+        // your own seat, which is the one you are sitting behind and never in doubt.
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            if (s.isYou) continue;
+            Vector3 world = rotateY(-EDGE_X + 0.7f, EDGE_NEAR + 0.36f, seatAngle(i, n));
+            Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
+            if (p.z > 1f) continue;
+            font.setColor(zoneLabelColour(s));
+            font.draw(ui, shortName(s.name).toUpperCase()
+                + (s.active ? "  -  THEIR TURN" : s.hasPriority ? "  -  RESPONDING" : ""), p.x, p.y + 6);
         }
         // The command zone: named just below its pad, with the tax the next cast will cost.
         if (!commanderGame()) return;

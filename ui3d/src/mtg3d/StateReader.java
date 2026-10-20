@@ -222,24 +222,49 @@ public final class StateReader {
     }
 
     /** The view belonging to the player this client controls, or null in an all-AI game. */
-    /** Logged once, so a viewer that never resolves is visible without spamming every frame. */
-    private static boolean warnedNoViewer;
+    /** Logged once each, so a viewer that never resolves is visible without spamming every frame. */
+    private static boolean warnedNoViewer, warnedViewerThrew;
+
+    /**
+     * The last viewer that did resolve, and the game it belongs to.
+     *
+     * Only ever reused for that same Game object. Our own seat cannot change within a game,
+     * so reusing it is safe; keying on the game means a later game can never inherit the
+     * previous one's viewer, which would be a hidden-information leak rather than a glitch.
+     */
+    private static Game lastViewerGame;
+    private static PlayerView lastViewer;
 
     private static PlayerView localViewer(Game game) {
+        boolean threw = false;
         try {
             for (forge.game.player.Player p : game.getRegisteredPlayers()) {
                 Object c = p.getController();
                 if (!(c instanceof forge.player.PlayerControllerHuman)) continue;
                 forge.player.PlayerControllerHuman h = (forge.player.PlayerControllerHuman) c;
-                if (h.isGuiPlayer()) return h.getLocalPlayerView();
+                if (h.isGuiPlayer()) {
+                    PlayerView v = h.getLocalPlayerView();
+                    if (v != null) { lastViewerGame = game; lastViewer = v; return v; }
+                }
             }
         } catch (Throwable t) {
-            // fall through
+            // Reading the player list while the engine is mid-change can throw - a host
+            // sending a 26-event batch is the busiest this ever gets. That is a moment to
+            // ride out, not a reason to answer "no viewer".
+            threw = true;
+            if (!warnedViewerThrew) {
+                warnedViewerThrew = true;
+                System.out.println("UI3D: viewer lookup failed once (" + t + ") - using the last known seat");
+            }
         }
-        // Worth saying out loud, once. With no viewer every hidden-zone question answers "no",
-        // which is how bug_2026-10-20_142149 ended up with a board of face-down cards. The
-        // battlefield no longer depends on it, but your own hand still does.
-        if (!warnedNoViewer) {
+        // A momentary failure used to read as "there is no viewer", and with no viewer every
+        // hidden-zone question answers "no": the hand empties and the board goes face down for
+        // that frame (bug_2026-10-20_142149). Seen for real on the host at 22:39:28 on
+        // 2026-10-20, in the middle of a heavy network batch. The last known seat is correct
+        // for this game, so hold it rather than flicker.
+        if (lastViewer != null && lastViewerGame == game) return lastViewer;
+        // Worth saying out loud, once.
+        if (!threw && !warnedNoViewer) {
             warnedNoViewer = true;
             System.out.println("UI3D: no local player view - your own hand will not be shown");
         }
