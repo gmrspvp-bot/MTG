@@ -174,6 +174,30 @@ abstract class TableLayout extends TableCamera {
      */
     static final float MARKER_DROP = -0.014f;
 
+    /**
+     * Ids of permanents to mark in teal: the source of every ability or trigger on the stack (a
+     * stack item's id is its source card's), and the card whose abilities are being chosen
+     * between (Gui3D.takeAbility - its options carry the host's id). Rebuilt only when the
+     * snapshot or the pending choice changes, not for every card on every frame.
+     */
+    java.util.Set<Integer> abilitySourceIds() {
+        Gui3D.Choice choice = Gui3D.pendingChoice();
+        if (snap != sourcesSnap || choice != sourcesChoice) {
+            sourcesSnap = snap;
+            sourcesChoice = choice;
+            sourceIds.clear();
+            for (Snapshot.CardV s : snap.stack) if (s.stackIsAbility) sourceIds.add(s.id);
+            if (choice != null && !choice.cards) {
+                for (Snapshot.CardV o : choice.items) if (o.stackText != null && !o.stackText.isEmpty() && o.id > 0) sourceIds.add(o.id);
+            }
+        }
+        return sourceIds;
+    }
+
+    private Snapshot sourcesSnap;
+    private Gui3D.Choice sourcesChoice;
+    private final java.util.Set<Integer> sourceIds = new java.util.HashSet<>();
+
     // ---- zone-change animations ------------------------------------------------------------------
 
     /** A card on its way into a graveyard or exile pile: drawn sliding onto the pad for a moment. */
@@ -225,7 +249,8 @@ abstract class TableLayout extends TableCamera {
             if (d.age > DYING_TIME || d.seat >= n || shown.contains(d.card.id)) { it.remove(); continue; }
             float angle = seatAngle(d.seat, n);
             Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - d.pad * 1.45f, angle);
-            add(d.card, snap.seats.get(d.seat), w.x, 0.05f, w.z, (float) Math.toDegrees(-angle), 0f);
+            // Onto the top of the pile, not into it.
+            add(d.card, snap.seats.get(d.seat), w.x, pileTop(d.seat, d.pad) + 0.03f, w.z, (float) Math.toDegrees(-angle), 0f);
         }
     }
 
@@ -238,7 +263,7 @@ abstract class TableLayout extends TableCamera {
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
         Vector3 lib = rotateY(5.3f, SEAT_DIST + 1.7f, angle);
         Pose p = new Pose();
-        p.x = lib.x; p.y = 0.05f; p.z = lib.z;
+        p.x = lib.x; p.y = pileTop(snap.youIndex(), 0) + 0.03f; p.z = lib.z;   // off the top of the deck
         p.yaw = (float) Math.toDegrees(-angle);
         p.tilt = 0f;
         p.seen = frameNo - 1;
@@ -527,20 +552,59 @@ abstract class TableLayout extends TableCamera {
         props.add(inst);
     }
 
-    /** Library, graveyard and exile, as pads beside each seat's rows. Counts are drawn over them. */
+    /**
+     * Library, graveyard and exile, as pads beside each seat's rows, each with a pile of cards on
+     * it that is as tall as the zone is big (owner's list 2026-10-20: "stacks that grow as cards
+     * arrive, not flat pads with a number"). The height eases toward the count, so a card
+     * arriving shows as the pile rising. Counts are drawn on top of each pile (TableHud).
+     */
     void placeZones() {
         int n = snap.seats.size();
+        if (pileHeight.length != n) pileHeight = new float[n][3];
+        float ease = Math.min(1f, frameDt * 6f);
         for (int i = 0; i < n; i++) {
             float angle = seatAngle(i, n);
+            Snapshot.SeatV s = snap.seats.get(i);
+            int[] counts = { s.librarySize, s.graveyardSize, s.exileSize };
             for (int k = 0; k < 3; k++) {
                 Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
+                float yaw = (float) Math.toDegrees(-angle);
                 ModelInstance inst = inst(zoneModel);
-                inst.transform.setToTranslation(w.x, 0.0f, w.z)
-                    .rotate(Vector3.Y, (float) Math.toDegrees(-angle));
+                inst.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
                 props.add(inst);
+                float target = pileTarget(counts[k]);
+                float h = pileHeight[i][k];
+                h = h + (target - h) * ease;
+                if (Math.abs(target - h) < 0.0005f) h = target;
+                pileHeight[i][k] = h;
+                if (h < 0.001f) continue;                       // empty zone: just the pad
+                ModelInstance pile = inst(pileModel);
+                // The pile model is one unit tall and centred, so scale, then lift by half.
+                pile.transform.setToTranslation(w.x, PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
+                pile.materials.get(0).set(ColorAttribute.createDiffuse(PILE_COLOURS[k]));
+                props.add(pile);
             }
         }
     }
+
+    /** A pile's height for this many cards: 6 mm a card, capped at 100 cards (a full library). */
+    static float pileTarget(int cards) {
+        return Math.min(Math.max(cards, 0), PILE_CAP) * PILE_PER_CARD;
+    }
+
+    /** Where a zone's count label sits: just above the top of its pile. */
+    float pileTop(int seat, int zone) {
+        if (seat < 0 || seat >= pileHeight.length) return PAD_TOP;
+        return PAD_TOP + pileHeight[seat][zone];
+    }
+
+    static final float PAD_TOP = 0.015f, PILE_PER_CARD = 0.006f;
+    static final int PILE_CAP = 100;
+    /** Library like a card back, graveyard dark, exile pale violet - three kinds of pile at a glance. */
+    static final Color[] PILE_COLOURS = {
+        new Color(0.30f, 0.22f, 0.14f, 1f), new Color(0.16f, 0.16f, 0.18f, 1f), new Color(0.55f, 0.50f, 0.70f, 1f) };
+    /** Eased pile heights, [seat][library, graveyard, exile]. */
+    float[][] pileHeight = new float[0][3];
 
     void add(Snapshot.CardV c, Snapshot.SeatV seat, float x, float z, float yawDeg) {
         // On the table: flat, at table height.
@@ -617,6 +681,16 @@ abstract class TableLayout extends TableCamera {
         }
         if (planMarker != null) {
             d.marker = inst(planMarker);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
+            drawn.add(d);
+            return;
+        }
+        // Owner's list 2026-10-20: while one of a permanent's abilities is on the stack, or its
+        // abilities are being chosen between, the permanent itself is marked in the ability
+        // ribbon's teal - otherwise you have to work out from the stack which card on the table it
+        // came from.
+        if (seat != null && abilitySourceIds().contains(c.id)) {
+            d.marker = inst(sourceModel);
             d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
             drawn.add(d);
             return;

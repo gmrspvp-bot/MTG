@@ -667,7 +667,8 @@ abstract class TableHud extends TableScene {
             Color zc = zoneLabelColour(s);
             for (int k = 0; k < 3; k++) {
                 Vector3 world = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
-                Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
+                // On top of the pile, so a tall library does not hide its own count.
+                Vector3 p = cam.project(new Vector3(world.x, pileTop(i, k) + 0.08f, world.z));
                 if (p.z > 1f) continue;
                 font.setColor(zc);
                 font.draw(ui, names[k], p.x - 20, p.y + 6);

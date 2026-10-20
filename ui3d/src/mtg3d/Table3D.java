@@ -112,6 +112,9 @@ public final class Table3D extends TableInput {
         // Declaring blockers: a creature assigned to block, in the blue of the block arcs.
         blockModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.62f, 1f, 1f))), attrs);
+        // An ability on the stack, or being chosen: its permanent, in the ability ribbon's teal.
+        sourceModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.35f, 0.88f, 0.82f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,
@@ -135,6 +138,10 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
+        // A zone's pile, a little smaller than its pad so the pad shows as a rim. Built white: each
+        // instance sets its own colour (library / graveyard / exile) every frame.
+        pileModel = builder.createBox(CARD_W * 0.78f, 1f, CARD_H * 0.78f,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         // The command zone's pad: a card's size plus a rim, in a dark bronze so it reads as
         // a different kind of zone from the blue library/graveyard/exile pads.
         commandPadModel = builder.createBox(CARD_W + 0.24f, 0.02f, CARD_H + 0.24f,
@@ -424,6 +431,7 @@ public final class Table3D extends TableInput {
         attackModel.dispose();
         backModel.dispose();
         zoneModel.dispose();
+        pileModel.dispose();
         commandPadModel.dispose();
         if (cues != null) cues.dispose();
         seatLostModel.dispose();
@@ -439,6 +447,7 @@ public final class Table3D extends TableInput {
         targetModel.dispose();
         pickedModel.dispose();
         blockModel.dispose();
+        sourceModel.dispose();
         hoverModel.dispose();
         seatGlowModel.dispose();
         stackFrameModel.dispose();

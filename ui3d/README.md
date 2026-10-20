@@ -412,12 +412,23 @@ to know before starting:
       ability or trigger on the stack, its text in the ribbon's teal (two lines, the card name
       stripped), below who controls it (`TableHud.drawStackLabels`). Demo stack now has a
       Weathered Wayfarer activation.
-- [ ] Highlight the source card on the battlefield, and the specific ability on it, while that
+- [x] **Done 2026-10-21 (Stoneforge)** for the card: a teal slab (the ability ribbon's colour)
+      under any permanent whose ability or trigger is on the stack, and under the card whose
+      abilities are being chosen between (`TableLayout.abilitySourceIds`, `sourceModel`). Combat,
+      targeting and mana-payment slabs still win, as they are what is being decided. Demo: the
+      blockers-step stack has a Resplendent Angel activation. *The specific ability on the card*
+      is still open (it would need the ability list drawn on the card itself).
+- [ ] *(original wording)* Highlight the source card on the battlefield, and the specific ability on it, while that
       ability is on the stack or being chosen.
 
 **Cosmetics** *(unattended)*
 
-- [ ] Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
+- [x] **Piles - done 2026-10-21 (Stoneforge).** Each pad carries a pile as tall as the zone (6 mm
+      a card, capped at 100), easing up as cards arrive; library like a card back, graveyard dark,
+      exile pale violet; the count sits on top of the pile, and dying / drawn cards slide onto /
+      off its top (`TableLayout.placeZones`, `pileTop`). Not done: the pile in the owner's seat
+      colour, and the top card's face on the graveyard.
+- [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.
 - [ ] Raise each battlefield a little off the felt.

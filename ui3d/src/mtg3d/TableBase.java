@@ -75,6 +75,8 @@ abstract class TableBase extends ApplicationAdapter {
     Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
 
     Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
+    /** A zone's pile of cards: one unit tall, scaled to the zone's size (TableLayout.placeZones). */
+    Model pileModel;
 
     Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
 
@@ -134,6 +136,8 @@ abstract class TableBase extends ApplicationAdapter {
 
     Targeting targeting;
     Model targetModel, pickedModel, blockModel;
+    /** Teal, the ability ribbon's colour: a permanent whose ability is on the stack or being chosen. */
+    Model sourceModel;
 
     /**
      * Declaring attackers or blockers by dragging (look only until wired to Forge's InputAttack /

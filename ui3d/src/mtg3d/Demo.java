@@ -167,7 +167,8 @@ public final class Demo {
                 { "Arcane Denial", "Michael", "Counter Swords to Plowshares" },
                 { "Boros Charm", "Captain", "Deal 4 damage to Xenil" },
                 // An activated ability: its text shows under it (owner's list 2026-10-20).
-                { "Weathered Wayfarer", "Xenil", "Weathered Wayfarer - {W}, {T}: Search your library for a land card, reveal it, put it into your hand, then shuffle." },
+                // From a permanent on the table, so its teal source marker shows too.
+                { "Resplendent Angel", "Xenil", "Resplendent Angel - {3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+0 and gains lifelink." },
             };
             int onStack = key.equals("COMBAT_DECLARE_BLOCKERS") ? 4
                 : key.equals("COMBAT_DECLARE_ATTACKERS") ? 1 : 0;
@@ -179,7 +180,7 @@ public final class Demo {
                 if (i == 0) v.targetIds.add(dragonId);
                 if (i == 1) v.targetIds.add(950);
                 if (i == 2) v.targetSeats.add(0);
-                if (i == 3) { v.typeLine = "Creature - Human Nomad"; v.stackIsAbility = true; }
+                if (i == 3) { v.id = find(s, "Resplendent Angel").id; v.typeLine = "Creature - Angel"; v.stackIsAbility = true; }
                 s.stack.add(v);
             }
             // Priority round the table while spells are up: the seats it has already moved past
