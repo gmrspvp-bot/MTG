@@ -574,7 +574,20 @@ public final class Gui3D implements InvocationHandler {
                 // that cannot be played right now is simply refused. The 3D side never decides
                 // what is legal, which is what keeps this safe without a rules engine of its own.
                 boolean taken = c.selectCard(cv, java.util.Collections.emptyList(), null);
-                if (!taken) System.out.println("UI3D: Forge refused the click on " + cv.getName());
+                // Say what Forge was actually waiting on when it said no. "Forge refused the
+                // click on Plains" on its own is not diagnosable: on 2026-10-20 the owner
+                // clicked a land and a creature nine times during his own main phase, every
+                // click was refused, the turn ran out, and nothing in the logs said why. The
+                // live input is the answer - an empty one means Forge was not asking this
+                // player for anything, whatever the 3D window was showing.
+                if (!taken) {
+                    Object live = null;
+                    try { live = ClickGuard.token(c); } catch (Throwable ignored) { /* best effort */ }
+                    System.out.println("UI3D: Forge refused the click on " + cv.getName()
+                        + " [input=" + (live == null ? "none" : live.getClass().getSimpleName())
+                        + ", prompt=" + (PROMPT.inputName.isEmpty() ? "none" : PROMPT.inputName)
+                        + ", ok=" + PROMPT.okEnabled + "]");
+                }
             } catch (Throwable t) {
                 System.out.println("UI3D: card click failed (" + t + ")");
             }
@@ -589,6 +602,24 @@ public final class Gui3D implements InvocationHandler {
      */
     public static boolean isSelectable(int cardId) {
         return selectableViews.containsKey(cardId);
+    }
+
+    /**
+     * The Forge input waiting right now, by class name, or "none".
+     *
+     * Read live rather than from the prompt mirror, because the two disagreeing is itself the
+     * bug worth catching: the 3D window can be showing a player as holding priority while Forge
+     * has no input open for them, and then every click is refused with nothing to explain it.
+     */
+    public static String liveInputName() {
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c == null) return remote != null ? "remote" : "none";
+            Object live = ClickGuard.token(c);
+            return live == null ? "none" : live.getClass().getSimpleName();
+        } catch (Throwable t) {
+            return "unknown";
+        }
     }
 
     /** True once a game is running with the wrapper installed. */

@@ -205,6 +205,15 @@ public final class BugReport {
             + ", Cancel: `" + s.cancelLabel + "` (" + (s.cancelEnabled ? "enabled" : "disabled") + ")\n");
         w.write("- cards Forge offered for selection: " + s.selectableIds.size()
             + (s.selectableIds.isEmpty() ? "  **(none - ordinary priority)**" : " " + s.selectableIds)
+            + "\n");
+        // Which Forge input is live. Without this, "I had priority and nothing worked" cannot be
+        // told apart from "the 3D window thought I had priority and Forge disagreed" - and the
+        // second is what the 2026-10-20 turn-50 report turned out to be: nine refused clicks on
+        // the owner's own main phase, with both buttons disabled while the panel said he held
+        // priority. An input of "none" means Forge was not asking this player for anything.
+        w.write("- Forge's live input: `" + Gui3D.liveInputName() + "`"
+            + (Gui3D.liveInputName().equals("none")
+                ? "  **(Forge was not waiting on you - clicks will be refused)**" : "")
             + "\n\n");
 
         if (!s.stack.isEmpty()) {
