@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - everything on the battlefield shows face down | Xenil's Claude | 2026-10-21 | `StateReader` visibility rule (the battlefield is public; `canBeShownTo` is for hidden zones), `BugReport` dialog on top. From bug_2026-10-20_142149. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
