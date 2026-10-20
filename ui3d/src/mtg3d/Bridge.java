@@ -85,6 +85,15 @@ public final class Bridge {
         @com.google.common.eventbus.Subscribe
         public void onEvent(Object ev) {
             if (game != current) return;
+            // A turn must never BEGIN with an auto-pass already armed. That is what "it
+            // skipped my whole turn" has been every time: something set it earlier, Forge
+            // consulted it before anything the 3D window could answer, and the turn was gone
+            // before the player touched a key (the owner, three times on 2026-10-21).
+            // Clearing it here costs nothing when none is set, and an auto-pass armed during
+            // somebody else's turn has no business surviving into yours.
+            if (ev instanceof forge.game.event.GameEventTurnBegan) {
+                try { Gui3D.stopAutoPass(); } catch (Throwable ignored) { /* never break the game */ }
+            }
             try {
                 latest = StateReader.read(game);
             } catch (Throwable t) {

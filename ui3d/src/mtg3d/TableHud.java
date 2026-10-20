@@ -199,6 +199,10 @@ abstract class TableHud extends TableScene {
      */
     void drawEventLog(int w, int h, Matrix4 flat) {
         if (snap.log.isEmpty()) return;
+        // The help card hangs from the same corner. Two panels in one place is worse than
+        // either, and the log is the one you can read again in a second - so while help is
+        // open, the log stands aside.
+        if (help.isOpen()) return;
         GlyphLayout gl = new GlyphLayout();
         List<String> lines = new ArrayList<>();
         for (Snapshot.LogLine l : snap.log) lines.add(fit(l.text, LOG_W - 20f, gl));

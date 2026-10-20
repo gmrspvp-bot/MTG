@@ -712,10 +712,10 @@ public final class Gui3D implements InvocationHandler {
         try {
             forge.player.PlayerControllerHuman c = controller;
             if (c == null) return;
-            forge.gamemodes.match.YieldController y = c.getYieldController();
-            if (y == null) return;
-            if (y.autoPassUntilEndOfTurn()) y.setAutoPassUntilEndOfTurn(false);
-            if (y.autoPassUntilStackEmpty()) y.setAutoPassUntilStackEmpty(false, false);
+            // Forge's own way of calling it off, which clears both flags and tells the rest
+            // of Forge it happened - poking the two setters left the UI thinking it was still
+            // auto-passing.
+            c.autoPassCancel();
         } catch (Throwable t) {
             System.out.println("UI3D: could not stop the auto-pass (" + t + ")");
         }
