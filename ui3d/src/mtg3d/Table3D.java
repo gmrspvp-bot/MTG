@@ -65,7 +65,7 @@ public final class Table3D extends ApplicationAdapter {
     private Model tableModel, cardModel, landModel, creatureModel, commanderModel, seatModel, seatPriorityModel;
     private Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
     private Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
-    private Model seatGlowModel;
+    private Model seatGlowModel, stackFrameModel;
     /** Band slabs are built one unit wide and scaled to the row, so there is one model per kind. */
     private static final float BAND_UNIT = 1f;
     private ModelInstance tableInst;
@@ -218,6 +218,8 @@ public final class Table3D extends ApplicationAdapter {
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.82f, 0.45f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
+        stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.14f, 0.21f, 1f))), attrs);
         seatGlowModel = builder.createBox(2.5f, 0.06f, 1.7f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.82f, 0.32f, 1f))), attrs);
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
@@ -713,18 +715,29 @@ public final class Table3D extends ApplicationAdapter {
     private void placeStack() {
         stackAt.clear();
         if (snap.stack.isEmpty()) return;
-        float step = CARD_W * 1.15f;
-        float width = snap.stack.size() * step - (step - CARD_W);
+        float step = CARD_W * STACK_SCALE * 1.18f;
+        float width = snap.stack.size() * step - (step - CARD_W * STACK_SCALE);
         float yaw = (float) Math.toDegrees(-orbit);
+
+        // A panel behind the cards. Floating bare cards read as loose cards; a frame says "this
+        // is the stack", which is the thing you most need to notice is not empty.
+        Vector3 c0 = rotateY(0f, 0f, orbit);
+        ModelInstance frame = new ModelInstance(stackFrameModel);
+        frame.transform.setToTranslation(c0.x, STACK_Y + 0.18f, c0.z)
+            .rotate(Vector3.Y, yaw)
+            .rotate(Vector3.X, 90f)
+            .scale((width + 0.9f) / STACK_FRAME_UNIT, 1f, 1f);
+        props.add(frame);
+
         for (int i = 0; i < snap.stack.size(); i++) {
             Snapshot.CardV c = snap.stack.get(i);
             boolean top = (i == snap.stack.size() - 1);
-            float along = -width / 2f + i * step + CARD_W / 2f;
+            float along = -width / 2f + i * step + CARD_W * STACK_SCALE / 2f;
             Vector3 w = rotateY(along, 0f, orbit);
-            add(c, null, w.x, STACK_Y + (top ? 0.34f : 0f), w.z, yaw, 90f);
+            add(c, null, w.x, STACK_Y + (top ? 0.34f : 0f), w.z, yaw, 90f, STACK_SCALE);
             // Where a target arc starts: the bottom edge of the upright card. Kept per stack index,
             // because an ability shares its id with its source, so poses cannot tell them apart.
-            stackAt.add(new float[] { w.x, STACK_Y + (top ? 0.34f : 0f) - CARD_H / 2f, w.z });
+            stackAt.add(new float[] { w.x, STACK_Y + (top ? 0.34f : 0f) - CARD_H * STACK_SCALE / 2f, w.z });
         }
     }
 
@@ -896,6 +909,9 @@ public final class Table3D extends ApplicationAdapter {
     /** How far each band sits from the middle of the table. */
     /** How high the stack bar floats above the table. */
     private static final float STACK_Y = 3.4f;
+    /** The stack is drawn larger than a table card: it is the thing you must not miss. */
+    private static final float STACK_SCALE = 1.5f;
+    private static final float STACK_FRAME_UNIT = 1f;
     /** How far each player's little screen sits from the middle of the table. */
     private static final float MONITOR_DIST = 2.0f;
     private static final float ROW_CREATURES = SEAT_DIST - 2.1f;
@@ -980,6 +996,11 @@ public final class Table3D extends ApplicationAdapter {
 
     private void add(Snapshot.CardV c, Snapshot.SeatV seat, float x, float y, float z,
                      float yawDeg, float tiltDeg) {
+        add(c, seat, x, y, z, yawDeg, tiltDeg, 1f);
+    }
+
+    private void add(Snapshot.CardV c, Snapshot.SeatV seat, float x, float y, float z,
+                     float yawDeg, float tiltDeg, float scale) {
         Model m = c.commander ? commanderModel : c.land ? landModel : c.creature ? creatureModel : cardModel;
         Drawn d = new Drawn();
         d.inst = new ModelInstance(m);
@@ -1004,6 +1025,7 @@ public final class Table3D extends ApplicationAdapter {
         // Tilting is what makes a card readable when it is not lying on the table: the hand is
         // fanned up towards its owner, stack items stand fully upright facing the viewer.
         if (Math.abs(p.tilt) > 0.01f) d.inst.transform.rotate(Vector3.X, p.tilt);
+        if (scale != 1f) d.inst.transform.scale(scale, 1f, scale);
         d.inst.calculateBoundingBox(d.bounds);
         d.bounds.mul(d.inst.transform);
 
@@ -1676,11 +1698,17 @@ public final class Table3D extends ApplicationAdapter {
         }
         if (msg.isEmpty()) return;
 
-        // Bigger than it was: this is the one thing on screen that says the game is waiting on
-        // you, and at 62px with small text it read as a status line rather than a decision.
-        float bw = Math.min(w - 60f, 1120f), bh = 96f, x = (w - bw) / 2f, y = 104f;
         boolean waiting = okOn || cancelOn;
+        float bw = Math.min(w - 60f, 1120f), x = (w - bw) / 2f, y = 104f;
         float btnW = 190f, btnH = 50f, gap = 14f;
+
+        // Measure the text and size the box to it. Forge's prompt is several lines - priority,
+        // turn, phase, stack - and a fixed height cut the last one off below the box. Measuring
+        // also means a one-line prompt gets a small bar instead of a mostly-empty one.
+        float textW = bw - 60f - (okOn ? btnW + gap : 0f) - (cancelOn ? btnW + gap : 0f);
+        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout();
+        gl.setText(fontBig, msg, com.badlogic.gdx.graphics.Color.WHITE, textW, com.badlogic.gdx.utils.Align.left, true);
+        float bh = Math.max(btnH + 28f, gl.height + 36f);
 
         ui.end();
         Gdx.gl.glEnable(GL20.GL_BLEND);
@@ -1712,9 +1740,8 @@ public final class Table3D extends ApplicationAdapter {
         shapes.end();
         ui.begin();
 
-        float textW = bw - 60f - (okOn ? btnW + gap : 0f) - (cancelOn ? btnW + gap : 0f);
         fontBig.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
-        fontBig.draw(ui, msg, x + 22f, y + bh - 26f, textW, -1, true);
+        fontBig.draw(ui, msg, x + 22f, y + bh - 18f, textW, -1, true);
         if (okOn) {
             fontBig.setColor(0.86f, 1f, 0.90f, 1f);
             fontBig.draw(ui, okLabel, okBtn[0], okBtn[1] + 34f, btnW, 1, false);
@@ -2198,6 +2225,7 @@ public final class Table3D extends ApplicationAdapter {
         selectModel.dispose();
         hoverModel.dispose();
         seatGlowModel.dispose();
+        stackFrameModel.dispose();
         tableModel.dispose();
         cardModel.dispose();
         landModel.dispose();

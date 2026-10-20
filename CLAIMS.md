@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - decision bar sized to its text; bigger framed stack | Xenil's Claude | 2026-10-21 | `Table3D` prompt bar height from GlyphLayout, stack cards scaled with a backing panel. Unattended: screenshot-checkable. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

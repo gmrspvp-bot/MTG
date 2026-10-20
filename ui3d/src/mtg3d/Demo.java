@@ -74,8 +74,13 @@ public final class Demo {
             s.combat = key.startsWith("COMBAT_") && !key.equals("COMBAT_END");
             s.turnLabel = "Turn " + (turn + 1) + " - " + s.seats.get(active).name;
             // A prompt, so the bar at the bottom can be seen and shot without a real game.
-            s.promptText = s.combat ? "Declare attackers, then press OK."
-                : "Priority: " + s.seats.get(active).name + " - play a card or pass.";
+            // Several lines, like Forge real prompts, so the bar height is exercised.
+            String nl2 = String.valueOf((char) 10);
+            s.promptText = s.combat
+                ? "Priority: " + s.seats.get(active).name + nl2 + "Turn: " + (turn + 1)
+                  + nl2 + "Phase: Declare attackers" + nl2 + "Stack: " + s.stack.size() + " to resolve."
+                : "Priority: " + s.seats.get(active).name + nl2 + "Turn: " + (turn + 1)
+                  + nl2 + "Phase: Main phase, precombat" + nl2 + "Stack: Empty";
             s.okLabel = s.combat ? "Attack" : "OK";
             s.cancelLabel = "Cancel";
             s.okEnabled = true;
