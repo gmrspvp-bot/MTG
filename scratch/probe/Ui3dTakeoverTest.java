@@ -126,22 +126,31 @@ public class Ui3dTakeoverTest {
             sas.add(v);
         }
         check("ability: Wayfarer has two", sas.size() == 2, String.valueOf(sas.size()));
+        // A click on the card carries a trigger event; Forge putting a trigger on the stack does not.
+        forge.util.ITriggerEvent click = (forge.util.ITriggerEvent) Proxy.newProxyInstance(
+            Ui3dTakeoverTest.class.getClassLoader(), new Class<?>[] { forge.util.ITriggerEvent.class },
+            (p, m, a2) -> defaultValue(m.getReturnType()));
         forgeAsked.set(false);
         answerChoiceLater(Arrays.asList(1), c -> check("ability: panel lists both, in Forge's words",
             !c.cards && c.labels.size() == 2 && c.labels.get(0).equals("Cast Weathered Wayfarer")
             && c.labels.get(1).contains("Search your library"), "labels=" + c.labels));
-        r = g.getAbilityToPlay(way.getView(), sas, null);
+        r = g.getAbilityToPlay(way.getView(), sas, click);
         check("ability: picked one comes back", r == sas.get(1) && !forgeAsked.get(), "result=" + r);
         answerChoiceLater(Arrays.asList(), null);
-        r = g.getAbilityToPlay(way.getView(), sas, null);
+        r = g.getAbilityToPlay(way.getView(), sas, click);
         check("ability: ESC = nothing played", r == null && !forgeAsked.get(), "result=" + r);
         sas.get(0).set(forge.trackable.TrackableProperty.CanPlay, false);
         answerChoiceLater(Arrays.asList(0), c -> check("ability: unplayable one not offered",
             c.labels.size() == 1 && c.labels.get(0).contains("Search"), "labels=" + c.labels));
-        r = g.getAbilityToPlay(way.getView(), sas, null);
+        r = g.getAbilityToPlay(way.getView(), sas, click);
         check("ability: the playable one comes back", r == sas.get(1), "result=" + r);
-        r = g.getAbilityToPlay(way.getView(), sas.subList(1, 2), null);
+        r = g.getAbilityToPlay(way.getView(), sas.subList(1, 2), click);
         check("ability: a single one plays without asking", r == sas.get(1) && mtg3d.Gui3D.pendingChoice() == null, "result=" + r);
+        // The bug of 2026-10-20 23:31: EVERY human trigger arrives as one option, no click, and
+        // not "playable" - it must come straight back, or the trigger is lost.
+        sas.get(1).set(forge.trackable.TrackableProperty.CanPlay, false);
+        r = g.getAbilityToPlay(way.getView(), sas.subList(1, 2), null);
+        check("ability: a trigger (no click) is never dropped", r == sas.get(1) && mtg3d.Gui3D.pendingChoice() == null, "result=" + r);
 
         System.out.println();
         System.out.println(pass ? "PASS" : "FAIL");

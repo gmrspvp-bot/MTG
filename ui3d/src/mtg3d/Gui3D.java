@@ -1009,10 +1009,20 @@ public final class Gui3D implements InvocationHandler {
             CardView host = args.length > 0 && args[0] instanceof CardView ? (CardView) args[0] : null;
             java.util.List<?> options = args.length > 1 && args[1] instanceof java.util.List ? (java.util.List<?>) args[1] : null;
             if (options == null) return NOT_HANDLED;
-            // Forge's own rules first (CMatchUI.getAbilityToPlay): nothing offered = nothing played;
-            // a single ability that does not ask to be confirmed is played if it can be.
+            // Forge's own rules first (CMatchUI.getAbilityToPlay): nothing offered = nothing played.
             if (options.isEmpty()) return null;
-            if (options.size() == 1 && options.get(0) instanceof forge.game.spellability.SpellAbilityView) {
+            // No click behind it (triggerEvent null): NOT a card the player clicked, but Forge
+            // putting something on the stack for them - EVERY human trigger comes through here as
+            // a list of one (PlaySpellAbility.chooseOptionalAdditionalCosts). Forge's window then
+            // returns a single option as it is, never checking canPlay - a trigger is never
+            // "playable" in that sense. The first version of this applied the click rules here,
+            // answered null, and silently dropped every one of the owner's triggers (Lotho, Clown
+            // Car, Mr. House; game of 2026-10-20 23:31). Several options: a choice, nothing filtered.
+            boolean clicked = args.length > 2 && args[2] != null;
+            if (!clicked) {
+                if (options.size() == 1) return options.get(0);
+            } else if (options.size() == 1 && options.get(0) instanceof forge.game.spellability.SpellAbilityView) {
+                // A click: a single ability that does not ask to be confirmed is played if it can be.
                 forge.game.spellability.SpellAbilityView only = (forge.game.spellability.SpellAbilityView) options.get(0);
                 if (!only.promptIfOnlyPossibleAbility()) return only.canPlay() ? only : null;
             }
@@ -1020,8 +1030,10 @@ public final class Gui3D implements InvocationHandler {
             java.util.List<Snapshot.CardV> items = new ArrayList<>();
             java.util.List<String> labels = new ArrayList<>();
             for (Object o : options) {
-                // Forge greys out what cannot be played now; here it is simply not offered.
-                if (o instanceof forge.game.spellability.SpellAbilityView
+                // On a click Forge greys out what cannot be played now; here it is simply not
+                // offered. Without a click (optional costs of something already being played)
+                // nothing is filtered, as Forge's own list does not either.
+                if (clicked && o instanceof forge.game.spellability.SpellAbilityView
                         && !((forge.game.spellability.SpellAbilityView) o).canPlay()) continue;
                 String l = abilityLabel(o);
                 entities.add(o);
