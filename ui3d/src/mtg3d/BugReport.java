@@ -52,21 +52,42 @@ public final class BugReport {
     public void ask(final Snapshot snap) {
         if (asking) return;
         asking = true;
-        try {
-            Gdx.input.getTextInput(new com.badlogic.gdx.Input.TextInputListener() {
-                @Override public void input(String text) {
-                    asking = false;
-                    submit(snap, text == null ? "" : text);
-                }
-                @Override public void canceled() {
-                    asking = false;
-                }
-            }, "Report a bug - the board state is attached automatically",
-               "", "what went wrong?");
-        } catch (Throwable t) {
-            asking = false;
-            System.out.println("UI3D: could not open the bug box (" + t + ")");
+        // A Swing dialog, not libGDX's getTextInput. getTextInput is declared on Input but the
+        // LWJGL3 backend does not implement it - it silently does nothing, which is exactly what
+        // happened: the cog opened no box and logged no error. Forge is a Swing application in
+        // this same JVM, so JOptionPane is available, gives a real text field with a caret and
+        // paste, and parents onto the game window.
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try {
+                javax.swing.JTextArea area = new javax.swing.JTextArea(5, 44);
+                area.setLineWrap(true);
+                area.setWrapStyleWord(true);
+                javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(area);
+                Object[] content = {
+                    "What went wrong? The board state is attached automatically.", scroll
+                };
+                int r = javax.swing.JOptionPane.showConfirmDialog(parentWindow(), content,
+                    "Report a bug", javax.swing.JOptionPane.OK_CANCEL_OPTION,
+                    javax.swing.JOptionPane.PLAIN_MESSAGE);
+                if (r == javax.swing.JOptionPane.OK_OPTION) submit(snap, area.getText());
+            } catch (Throwable t) {
+                System.out.println("UI3D: could not open the bug box (" + t + ")");
+            } finally {
+                asking = false;
+            }
+        });
+    }
+
+    /** The biggest showing window, so the dialog lands on the game rather than behind it. */
+    private static java.awt.Window parentWindow() {
+        java.awt.Window best = null;
+        long bestArea = -1;
+        for (java.awt.Window w : java.awt.Window.getWindows()) {
+            if (!(w instanceof java.awt.Frame) || !w.isShowing()) continue;
+            long area = (long) w.getWidth() * w.getHeight();
+            if (area > bestArea) { bestArea = area; best = w; }
         }
+        return best;
     }
 
     /** Is the mouse over the cog right now? */

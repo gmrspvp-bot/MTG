@@ -1382,8 +1382,11 @@ public final class Table3D extends ApplicationAdapter {
         bug.drawCogText(ui, font, w, h);
         drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {
+            // Just the name. It used to read "click to choose X", which implied a choice was
+            // pending even long after one had been made - a seat is always clickable and Forge
+            // simply ignores it when it is not asking for a player.
             font.setColor(1f, 0.86f, 0.42f, 1f);
-            font.draw(ui, "click to choose " + snap.seats.get(hoveredSeat).name,
+            font.draw(ui, snap.seats.get(hoveredSeat).name,
                 Gdx.input.getX() + 16f, h - Gdx.input.getY() - 6f);
         }
         if (!snap.forgeDialog.isEmpty()) {
