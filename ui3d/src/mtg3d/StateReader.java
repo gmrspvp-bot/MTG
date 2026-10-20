@@ -32,28 +32,61 @@ public final class StateReader {
     private StateReader() {}
 
     public static Snapshot read(Game game) {
+        GameView gv;
+        try {
+            gv = game.getView();
+        } catch (Throwable t) {
+            return new Snapshot();
+        }
+        if (gv == null) return new Snapshot();
+        // Seats come from the REGISTERED players, not gv.getPlayers(): that one is
+        // Game.getPlayers(), which drops a player the moment they lose - their seat would
+        // vanish and every seat after it would shift round the table. Their views are the
+        // same objects the rest of the view layer hands out, so `pv == viewer` still holds.
+        List<PlayerView> order = new ArrayList<>();
+        try {
+            for (forge.game.player.Player p : game.getRegisteredPlayers()) order.add(p.getView());
+        } catch (Throwable t) {
+            order.clear();
+        }
+        if (order.isEmpty()) for (PlayerView pv : gv.getPlayers()) order.add(pv);
+        return build(gv, localViewer(game), order, game);
+    }
+
+    /**
+     * A JOINED network game (2026-10-21): there is no local Game at all, only the GameView the
+     * host keeps sending, and the viewer comes from openView. Everything the view layer carries
+     * is read exactly as for a local game; the few things that need the Game itself - day/night,
+     * monarch / initiative / ring-bearer / speed, who has passed priority - are left blank.
+     */
+    public static Snapshot readView(GameView gv, PlayerView viewer) {
+        if (gv == null) return new Snapshot();
+        List<PlayerView> order = new ArrayList<>();
+        try {
+            for (PlayerView pv : gv.getPlayers()) order.add(pv);
+        } catch (Throwable t) {
+            // no seats yet
+        }
+        return build(gv, viewer, order, null);
+    }
+
+    /** The snapshot from a view, a viewer and the seat order; `game` is null for a joined game. */
+    static Snapshot build(GameView gv, PlayerView viewer, List<PlayerView> order, Game game) {
         Snapshot s = new Snapshot();
         try {
-            GameView gv = game.getView();
-            if (gv == null) return s;
-            PlayerView viewer = localViewer(game);
-
             PlayerView turn = gv.getPlayerTurn();
             s.phase = gv.getPhase() == null ? "" : pretty(gv.getPhase().toString());
             s.phaseKey = gv.getPhase() == null ? "" : gv.getPhase().name();
             s.turnLabel = "Turn " + gv.getTurn() + (turn == null ? "" : " - " + turn.getName());
 
-            // Seats come from the REGISTERED players, not gv.getPlayers(): that one is
-            // Game.getPlayers(), which drops a player the moment they lose - their seat would
-            // vanish and every seat after it would shift round the table. Their views are the
-            // same objects the rest of the view layer hands out, so `pv == viewer` still holds.
-            List<PlayerView> order = new ArrayList<>();
-            for (forge.game.player.Player p : game.getRegisteredPlayers()) order.add(p.getView());
-            if (order.isEmpty()) for (PlayerView pv : gv.getPlayers()) order.add(pv);
-            try {
-                s.dayNight = game.isDay() ? "DAY" : game.isNight() ? "NIGHT" : "";
-            } catch (Throwable t) {
-                // neither
+            if (game != null) {
+                try {
+                    s.dayNight = game.isDay() ? "DAY" : game.isNight() ? "NIGHT" : "";
+                } catch (Throwable t) {
+                    // neither
+                }
+            } else {
+                s.dayNight = Gui3D.remoteDayTime();
             }
             s.gameOver = gv.isGameOver();
             if (s.gameOver) {
@@ -139,7 +172,7 @@ public final class StateReader {
                     && System.currentTimeMillis() - p.forgeDialogAt < 20_000L) {
                 s.forgeDialog = p.forgeDialog;
             }
-            readPassed(game, s);
+            if (game != null) readPassed(game, s);
             readLog(gv, s);
             Soak.read();
         } catch (Throwable t) {
@@ -200,7 +233,8 @@ public final class StateReader {
     private static void readMarks(Game game, PlayerView pv, Snapshot.SeatV seat) {
         try {
             forge.game.player.Player p = null;
-            for (forge.game.player.Player q : game.getRegisteredPlayers()) if (q.getView() == pv) { p = q; break; }
+            // A joined game has no Game here, so no designations - the counters below still read.
+            if (game != null) for (forge.game.player.Player q : game.getRegisteredPlayers()) if (q.getView() == pv) { p = q; break; }
             if (p != null) {
                 if (p.isMonarch()) seat.marks.add("MONARCH");
                 if (p.hasInitiative()) seat.marks.add("INITIATIVE");

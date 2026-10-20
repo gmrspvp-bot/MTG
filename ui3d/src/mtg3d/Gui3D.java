@@ -52,10 +52,111 @@ public final class Gui3D implements InvocationHandler {
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
+    /**
+     * A JOINED network game (2026-10-21): the game runs on the host, so there is no local Game,
+     * no PlayerControllerHuman and no Input objects here. The snapshot is built from the GameView
+     * the host keeps sending (see rebuildSoon), and clicks go to the network game controller the
+     * client hands this GUI (setOriginalGameController), which forwards them to the host.
+     */
+    private final boolean remoteMode;
 
     private Gui3D(IGuiGame original, forge.player.PlayerControllerHuman pch) {
+        this(original, pch, false);
+    }
+
+    private Gui3D(IGuiGame original, forge.player.PlayerControllerHuman pch, boolean remoteMode) {
         this.original = original;
         this.pch = pch;
+        this.remoteMode = remoteMode;
+    }
+
+    /** The joined game's controller (a NetGameController): where 3D clicks go. Null in a local game. */
+    private static volatile forge.interfaces.IGameController remote;
+    /** The joined game's GUI wrapper, so the snapshot can be rebuilt from its GameView. */
+    private static volatile Gui3D remoteGui;
+    /** Our seat in the joined game, from openView / setOriginalGameController. */
+    private static volatile forge.game.player.PlayerView remoteViewer;
+    private static volatile String remoteDay = "";
+    private static final java.util.concurrent.atomic.AtomicBoolean rebuildQueued =
+        new java.util.concurrent.atomic.AtomicBoolean();
+
+    /** Day / night as the host last sent it (updateDayTime), for a joined game's snapshot. */
+    static String remoteDayTime() {
+        String d = remoteDay == null ? "" : remoteDay.toLowerCase();
+        return d.contains("night") ? "NIGHT" : d.contains("day") ? "DAY" : "";
+    }
+
+    /**
+     * Wraps the GUI Forge made for a joining client (ClientHook, via Bridge.wrapClientGui) and
+     * returns the wrapper to use in its place. Forwards everything, exactly like the local wrapper;
+     * the 3D window opens when the host sends the game view.
+     */
+    public static IGuiGame installRemote(IGuiGame clientGui) {
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.input", "true"))) return clientGui;
+        if (clientGui == null) return clientGui;
+        // Only refuse our own wrapper (no double wrapping) - any other proxy is just a GUI to wrap.
+        if (Proxy.isProxyClass(clientGui.getClass()) && Proxy.getInvocationHandler(clientGui) instanceof Gui3D) return clientGui;
+        Gui3D g = new Gui3D(clientGui, null, true);
+        remoteGui = g;
+        remote = null;
+        remoteViewer = null;
+        checkTakenOver();
+        System.out.println("UI3D: joined a network game - the 3D table follows the host's game");
+        return (IGuiGame) Proxy.newProxyInstance(Gui3D.class.getClassLoader(), new Class<?>[] { IGuiGame.class }, g);
+    }
+
+    /**
+     * Rebuild the joined game's snapshot - soon, once, on the EDT. Every update from the host lands
+     * here; coalescing them means a burst of fifty updates is one rebuild, and the EDT is where
+     * Forge's own window reads these same views, so reading them cannot race the network thread.
+     */
+    private void rebuildSoon() {
+        if (!rebuildQueued.compareAndSet(false, true)) return;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            rebuildQueued.set(false);
+            try {
+                forge.game.GameView gv = original.getGameView();
+                if (gv == null) return;
+                PROMPT.inputName = inferInput(gv);
+                Bridge.publish(StateReader.readView(gv, remoteViewer));
+            } catch (Throwable t) {
+                Soak.caught("Gui3D.rebuildSoon", t);
+            }
+        });
+    }
+
+    /**
+     * In a joined game there is no Input object to name, so the board modes (targets, attack,
+     * block, pay, mulligan) are switched from Forge's prompt text and the phase instead. English
+     * prompts only; if it guesses wrong the worst case is a mode that does not appear - clicks still
+     * go to the host, which judges them, and Forge's own window still works.
+     */
+    static String inferInput(forge.game.GameView gv) {
+        String m = PROMPT.message == null ? "" : PROMPT.message.toLowerCase();
+        String phase = gv == null || gv.getPhase() == null ? "" : gv.getPhase().name();
+        if (m.contains("bottom of your library") && m.contains("select")) return "InputLondonMulligan";
+        if (m.contains("mulligan") || m.contains("keep your hand") || m.contains("keep this hand")) return "InputConfirmMulligan";
+        if (m.contains("declare attackers") || (phase.equals("COMBAT_DECLARE_ATTACKERS") && m.contains("attack"))) return "InputAttack";
+        if (m.contains("declare blockers") || (phase.equals("COMBAT_DECLARE_BLOCKERS") && m.contains("block"))) return "InputBlock";
+        if (m.contains("pay mana cost") || (m.startsWith("pay") && m.contains("mana"))) return "InputPayManaOfCostPayment";
+        if (m.contains("target")) return "InputSelectTargets";
+        return "InputPassPriority";
+    }
+
+    /**
+     * Run a 3D click for a joined game on the EDT, against the network controller - dropped if a
+     * newer prompt has arrived since it was pressed (the token is replaced on every prompt), the
+     * same safety ClickGuard gives a local game.
+     */
+    private static boolean remoteClick(final java.util.function.Consumer<forge.interfaces.IGameController> click) {
+        final forge.interfaces.IGameController r = remote;
+        if (r == null) return false;
+        final Object seen = PROMPT.token;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            if (seen != null && PROMPT.token != seen) { ClickGuard.dropped++; return; }
+            try { click.accept(r); } catch (Throwable t) { System.out.println("UI3D: click to the host failed (" + t + ")"); }
+        });
+        return true;
     }
 
     /** The local human's controller, for sending guarded clicks back. Null until installed. */
@@ -97,6 +198,12 @@ public final class Gui3D implements InvocationHandler {
      * on the EDT, because the decision can pass while the click is queued.
      */
     public static boolean clickPlayer(int seatIndex) {
+        if (remote != null) {
+            java.util.List<forge.game.player.PlayerView> o = seats;
+            if (seatIndex < 0 || seatIndex >= o.size() || o.get(seatIndex) == null) return false;
+            final forge.game.player.PlayerView who = o.get(seatIndex);
+            return remoteClick(r -> r.selectPlayer(who, null));
+        }
         final forge.player.PlayerControllerHuman c = controller;
         java.util.List<forge.game.player.PlayerView> order = seats;
         if (c == null || seatIndex < 0 || seatIndex >= order.size()) return false;
@@ -309,6 +416,8 @@ public final class Gui3D implements InvocationHandler {
                     new Gui3D(current, pch));
                 pch.setGui(wrapped);
                 controller = pch;
+                remote = null;                 // a local game: forget any earlier joined one
+                remoteGui = null;
                 ClickGuard.watch(pch);
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
@@ -374,7 +483,15 @@ public final class Gui3D implements InvocationHandler {
             if (answered != NOT_HANDLED) return answered;
         }
         try {
-            return method.invoke(original, args);
+            Object out = method.invoke(original, args);
+            // A joined game: anything the host sends may have changed the board, so rebuild the
+            // snapshot (coalesced). Plain getters change nothing and are skipped.
+            if (remoteMode) {
+                String n = method.getName();
+                if (!(n.startsWith("get") || n.startsWith("is") || n.startsWith("has") || n.startsWith("can")
+                        || n.startsWith("should"))) rebuildSoon();
+            }
+            return out;
         } catch (InvocationTargetException e) {
             throw e.getCause();          // let the engine see the real exception, not the wrapper's
         }
@@ -389,6 +506,7 @@ public final class Gui3D implements InvocationHandler {
      * leave the key doing nothing instead of guessing.
      */
     public static boolean pressOk() {
+        if (remote != null) return PROMPT.okEnabled && remoteClick(r -> r.selectButtonOk());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || !PROMPT.okEnabled || PROMPT.token == null) return false;
         ClickGuard.ok(c, PROMPT.token);
@@ -401,6 +519,7 @@ public final class Gui3D implements InvocationHandler {
      * picks are queued, so the enabled check is skipped. Still guarded by the prompt's token.
      */
     public static boolean pressOkQueued() {
+        if (remote != null) return remoteClick(r -> r.selectButtonOk());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || PROMPT.token == null) return false;
         ClickGuard.ok(c, PROMPT.token);
@@ -409,6 +528,7 @@ public final class Gui3D implements InvocationHandler {
 
     /** Cancel, with the same guard. */
     public static boolean pressCancel() {
+        if (remote != null) return PROMPT.cancelEnabled && remoteClick(r -> r.selectButtonCancel());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || !PROMPT.cancelEnabled || PROMPT.token == null) return false;
         ClickGuard.cancel(c, PROMPT.token);
@@ -426,6 +546,12 @@ public final class Gui3D implements InvocationHandler {
      * @return false when that card is not currently selectable, so the caller can ignore the click
      */
     public static boolean clickCard(int cardId) {
+        if (remote != null) {
+            CardView rc = selectableViews.get(cardId);
+            if (rc == null) rc = known.get(cardId);
+            final CardView target = rc;
+            return target != null && remoteClick(r -> r.selectCard(target, java.util.Collections.emptyList(), null));
+        }
         final forge.player.PlayerControllerHuman c = controller;
         CardView found = selectableViews.get(cardId);
         if (found == null) found = known.get(cardId);
@@ -465,7 +591,7 @@ public final class Gui3D implements InvocationHandler {
 
     /** True once a game is running with the wrapper installed. */
     public static boolean active() {
-        return controller != null;
+        return controller != null || remote != null;
     }
 
     /** Returned when a taken-over method decides to forward after all. */
@@ -1012,6 +1138,9 @@ public final class Gui3D implements InvocationHandler {
     /** Rematch / next game / quit, from the end screen: IGameController.nextGameDecision. */
     public static void nextGame(String what) {
         final forge.player.PlayerControllerHuman c = controller;
+        final forge.gamemodes.match.NextGameDecision rd = "quit".equals(what) ? forge.gamemodes.match.NextGameDecision.QUIT
+            : "rematch".equals(what) ? forge.gamemodes.match.NextGameDecision.NEW : forge.gamemodes.match.NextGameDecision.CONTINUE;
+        if (c == null && remote != null) { remoteClick(r -> r.nextGameDecision(rd)); return; }
         if (c == null) return;
         final forge.gamemodes.match.NextGameDecision d = "quit".equals(what) ? forge.gamemodes.match.NextGameDecision.QUIT
             : "rematch".equals(what) ? forge.gamemodes.match.NextGameDecision.NEW : forge.gamemodes.match.NextGameDecision.CONTINUE;
@@ -1023,6 +1152,7 @@ public final class Gui3D implements InvocationHandler {
     /** Concede the game (the menu asks first). */
     public static void concede() {
         final forge.player.PlayerControllerHuman c = controller;
+        if (c == null && remote != null) { remoteClick(r -> r.concede()); return; }
         if (c == null) return;
         javax.swing.SwingUtilities.invokeLater(() -> {
             try { c.concede(); } catch (Throwable t) { System.out.println("UI3D: concede failed (" + t + ")"); }
@@ -1032,6 +1162,7 @@ public final class Gui3D implements InvocationHandler {
     /** Undo the last action, where Forge allows it (tapping a land for mana, mostly). */
     public static void undo() {
         final forge.player.PlayerControllerHuman c = controller;
+        if (c == null && remote != null) { remoteClick(r -> r.undoLastAction()); return; }
         if (c == null) return;
         javax.swing.SwingUtilities.invokeLater(() -> {
             try { c.undoLastAction(); } catch (Throwable t) { System.out.println("UI3D: undo failed (" + t + ")"); }
@@ -1130,6 +1261,48 @@ public final class Gui3D implements InvocationHandler {
 
     /** Copies prompt, buttons and selectables into PROMPT for the 3D window to draw. */
     private void observe(String name, Object[] args) {
+        if (remoteMode) observeRemote(name, args);
+        observeLocal(name, args);
+        // A joined game has no Input to use as the click token: every new prompt gets a fresh
+        // one instead, so a click pressed before the prompt changed is dropped (remoteClick).
+        if (remoteMode && ("showPromptMessage".equals(name) || "updateButtons".equals(name) || "setSelectables".equals(name))) {
+            PROMPT.token = new Object();
+            try { PROMPT.inputName = inferInput(original.getGameView()); } catch (Throwable t) { /* next rebuild sets it */ }
+        }
+    }
+
+    /** The calls that set a joined game up: its controller, our seat, the window, day / night. */
+    private void observeRemote(String name, Object[] args) {
+        switch (name) {
+            case "setOriginalGameController":
+            case "setGameController":
+                if (args != null && args.length == 2 && args[1] instanceof forge.interfaces.IGameController) {
+                    remote = (forge.interfaces.IGameController) args[1];
+                    if (remoteViewer == null && args[0] instanceof forge.game.player.PlayerView) {
+                        remoteViewer = (forge.game.player.PlayerView) args[0];
+                    }
+                }
+                break;
+            case "openView":
+                if (args != null && args.length >= 1 && args[0] instanceof Iterable) {
+                    for (Object o : (Iterable<?>) args[0]) {
+                        if (o instanceof forge.game.player.PlayerView) { remoteViewer = (forge.game.player.PlayerView) o; break; }
+                    }
+                }
+                Bridge.openWindow();
+                break;
+            case "setGameView":
+                Bridge.openWindow();
+                break;
+            case "updateDayTime":
+                if (args != null && args.length >= 1) remoteDay = String.valueOf(args[0]);
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void observeLocal(String name, Object[] args) {
         switch (name) {
             case "showPromptMessage":
                 if (args != null && args.length >= 2 && args[1] instanceof String) {

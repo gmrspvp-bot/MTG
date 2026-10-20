@@ -39,6 +39,39 @@ public final class Bridge {
     }
 
     /**
+     * A JOINED network game (2026-10-21). ClientHook calls this, by reflection, with the GUI
+     * Forge has just made for the joining client, and uses whatever comes back in its place: the
+     * Gui3D wrapper, which follows the host's game view and routes 3D clicks to the host. A local
+     * game never comes through here - it attaches in attach() as before.
+     */
+    public static Object wrapClientGui(Object clientGui) {
+        try {
+            if (!(clientGui instanceof forge.gui.interfaces.IGuiGame)) return clientGui;
+            current = null;                    // local listeners from an earlier game go quiet
+            return Gui3D.installRemote((forge.gui.interfaces.IGuiGame) clientGui);
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not follow the joined game (" + t + ")");
+            return clientGui;
+        }
+    }
+
+    /** A joined game's latest snapshot, built by Gui3D from the host's game view. */
+    static void publish(Snapshot s) {
+        if (s != null) latest = s;
+    }
+
+    /** Open the window for a joined game (no-op if it is already open). */
+    static void openWindow() {
+        if (Boolean.getBoolean("forge.ui3d.nowindow")) return;     // tests: no window on screen
+        start();
+    }
+
+    /** The snapshot the window would draw - for tests (scratch\probe\Ui3dRemoteTest). */
+    static Snapshot latestForTest() {
+        return latest;
+    }
+
+    /**
      * Guava's event bus finds this by the @Subscribe annotation, the same way BoardRecorder does.
      * Every game gets its own listener and Forge offers no way to unsubscribe, so a listener whose
      * game is no longer the current one ignores its events: otherwise, after a rematch, the old

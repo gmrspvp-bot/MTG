@@ -106,6 +106,22 @@ Each line: **what to do** -> what should happen.
       with **Rematch / Next game / Quit**. Each button should do what it says.
 - [ ] **ESC on the end screen** closes it and leaves the final board to look at.
 
+## 9. Joining someone else's game (new 2026-10-21)
+
+Until now the 3D table only opened for games hosted on your own PC. It should now also open
+when you **join** a game someone else is hosting. Start with `Play 3D.cmd` as usual, then join
+their game from Forge's online menu.
+
+- [ ] **The 3D window opens** when the joined game starts, showing the host's table with you in
+      your own seat. (Forge's window stays open behind it, as in a local game.)
+- [ ] **Your hand, life totals and the battlefield** update as the game goes.
+- [ ] **Playing a card / SPACE to pass / OK and Cancel** work from the 3D window.
+- [ ] **Targets, declaring attackers and blockers, paying mana** - these modes are switched on
+      from Forge's prompt text in a joined game, so they are the most likely to need fixing.
+      Note any that don't appear.
+- [ ] **Not available in a joined game** (expected, not a bug): monarch / initiative markers and
+      "who has passed priority" in the left panel.
+
 ---
 
 **Anything that went to Forge's window instead of the 3D one** is worth noting too (what it was

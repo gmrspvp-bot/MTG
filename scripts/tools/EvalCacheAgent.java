@@ -41,6 +41,8 @@ public class EvalCacheAgent {
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
         {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
+        // Joining someone else's game: lets the 3D table wrap the client's GUI (ClientHook).
+        {"forge/GuiDesktop", "getNewGuiGame", "()Lforge/gui/interfaces/IGuiGame;", "ClientHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {

@@ -459,6 +459,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 - [ ] `IGuiBase`, enough to start a game without Forge's screens.
 - [ ] Four-player pod setup with AI opponents and the `Realistic` profile.
+- [x] **3D table for a JOINED game** - built 2026-10-21, untested with a real second PC (see TESTING.md section 9). The 3D table attached only in `PlayHook` (`Match.startGame`), which runs only on the HOST, so a player who joined someone else's game never got it. Now `scripts\tools\ClientHook` (agent hook on `GuiDesktop.getNewGuiGame`) hands the GUI made inside `NetConnectUtil.join` to `Bridge.wrapClientGui` -> `Gui3D.installRemote`: forwards everything to Forge's window, rebuilds the snapshot from the host's `GameView` on every update (coalesced, on the EDT) via `StateReader.readView`, and sends 3D clicks to the client's `NetGameController`. Board modes are inferred from the prompt text (no Input objects on a client). Not available when joined: monarch/initiative/ring/speed and who has passed. Tests: `scratch\probe\Ui3dRemoteTest.java` 11/11 (real GameView, stub window, recording controller); the agent hook was seen installing in `GuiDesktop`; the existing Gui3D tests still pass.
 - [ ] Network lobby - the owners play over Radmin LAN, so a joining player needs an **OPEN** slot
       (see the root `CLAUDE.md`).
 
