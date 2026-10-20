@@ -162,6 +162,78 @@ abstract class TableLayout extends TableCamera {
         placeZones();
         placeMonitors();
         placeStack();
+        placeDying();
+    }
+
+    // ---- zone-change animations ------------------------------------------------------------------
+
+    /** A card on its way into a graveyard or exile pile: drawn sliding onto the pad for a moment. */
+    static final class Dying {
+        final Snapshot.CardV card;
+        final int seat, pad;      // pad: 1 graveyard, 2 exile (placeZones' k)
+        float age;
+        Dying(Snapshot.CardV card, int seat, int pad) { this.card = card; this.seat = seat; this.pad = pad; }
+    }
+
+    final java.util.Map<Integer, Dying> dying = new java.util.HashMap<>();
+    /** Ids drawn on the battlefield or the stack last frame. */
+    java.util.Set<Integer> lastShown = new java.util.HashSet<>();
+    /** False until the first real layout, so opening the window mid-game animates nothing. */
+    boolean zonesPrimed;
+    static final float DYING_TIME = 0.6f;
+
+    /**
+     * Cards that just left the battlefield or the stack for a graveyard or exile. Their pose from
+     * last frame still exists at this point (poses are only forgotten after layout), so adding
+     * them again with the pad as the target makes them slide from where they were onto it, by the
+     * same easing everything else uses. A token ceases to exist instead, so it simply goes.
+     */
+    void placeDying() {
+        int n = snap.seats.size();
+        java.util.Set<Integer> shown = new java.util.HashSet<>();
+        for (Snapshot.SeatV s : snap.seats) {
+            for (Snapshot.CardV c : s.creatures) shown.add(c.id);
+            for (Snapshot.CardV c : s.others) shown.add(c.id);
+            for (Snapshot.CardV c : s.lands) shown.add(c.id);
+        }
+        for (Snapshot.CardV c : snap.stack) shown.add(c.id);
+        if (zonesPrimed) {
+            for (int id : lastShown) {
+                if (shown.contains(id) || dying.containsKey(id) || !poses.containsKey(id)) continue;
+                for (int i = 0; i < n; i++) {
+                    Snapshot.SeatV s = snap.seats.get(i);
+                    for (Snapshot.CardV c : s.graveyard) if (c.id == id) dying.put(id, new Dying(c, i, 1));
+                    for (Snapshot.CardV c : s.exile) if (c.id == id) dying.put(id, new Dying(c, i, 2));
+                }
+            }
+        }
+        lastShown = shown;
+        if (n > 0) zonesPrimed = true;
+
+        for (java.util.Iterator<Dying> it = dying.values().iterator(); it.hasNext(); ) {
+            Dying d = it.next();
+            d.age += frameDt;
+            if (d.age > DYING_TIME || d.seat >= n || shown.contains(d.card.id)) { it.remove(); continue; }
+            float angle = seatAngle(d.seat, n);
+            Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - d.pad * 1.45f, angle);
+            add(d.card, snap.seats.get(d.seat), w.x, 0.05f, w.z, (float) Math.toDegrees(-angle), 0f);
+        }
+    }
+
+    /**
+     * A card that has just been drawn starts at your library pad, so it is seen coming off the
+     * deck into the hand rather than appearing there. Called for hand cards with no pose yet.
+     */
+    void seedFromLibrary(Snapshot.CardV c) {
+        if (!zonesPrimed || poses.containsKey(c.id) || snap.seats.isEmpty()) return;
+        float angle = seatAngle(snap.youIndex(), snap.seats.size());
+        Vector3 lib = rotateY(5.3f, SEAT_DIST + 1.7f, angle);
+        Pose p = new Pose();
+        p.x = lib.x; p.y = 0.05f; p.z = lib.z;
+        p.yaw = (float) Math.toDegrees(-angle);
+        p.tilt = 0f;
+        p.seen = frameNo - 1;
+        poses.put(c.id, p);
     }
 
     /**
@@ -315,6 +387,7 @@ abstract class TableLayout extends TableCamera {
             Snapshot.CardV c = snap.hand.get(i);
             float along = -width / 2f + i * step + step / 2f;
             boolean up = c.id == lifted;
+            seedFromLibrary(c);
             Vector3 w = rotateY(along, SEAT_DIST + 3.6f - (up ? 0.15f : 0f), angle);
             add(c, null, w.x, 0.62f + (up ? 0.35f : 0f), w.z, (float) Math.toDegrees(-angle),
                 up ? HAND_TILT + 12f : HAND_TILT);

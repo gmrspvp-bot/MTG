@@ -496,8 +496,7 @@ is in brackets. Building the look first means the attended session is spent on w
 they land:
 
 - [x] Life-change popups - done 2026-10-21 (`TableHud.noticeChanges/drawLifePops`): red "-7" / green "+3" rising and fading from the seat's centre monitor over 1.6 s; changes within 0.35 s add up, so a burst of damage is one number. Nothing on the first snapshot.
-- [ ] Draw and death animations: library -> hand, battlefield -> graveyard, driven by the zone
-      counts and card ids changing between snapshots.
+- [x] Draw and death animations - done 2026-10-21 (`TableLayout.placeDying/seedFromLibrary`). A card new to your hand starts at your library pad and slides into the fan; a card that leaves the battlefield or the stack for a graveyard or exile pile keeps being drawn for 0.6 s while it slides onto that pad (its last pose still exists when layout runs). Tokens just go. Nothing animates on the first frame. Demo `-Dforge.ui3d.demoEvents=true` now also kills a creature at 2.5 s and draws a card at 5 s.
 - [x] Hand cards lift under the mouse - done 2026-10-21 (`TableLayout.placeHand`): the hovered hand card rises 0.35 and stands 12 degrees more upright, eased like every other move; small enough that it still covers the mouse, so it does not flicker. Playable cards already glow via the selectable marker.
 - [x] YOUR TURN sweep - done 2026-10-21 (`TableHud.drawYourTurn`): a gold band slides in across the middle, holds, fades (1.7 s). Demo: `-Dforge.ui3d.demoEvents=true` plays a fixed timeline (turn passes at 2 s, life changes at 3 s, your turn again at 4 s) for screenshot checks.
 - [x] Each player's floating mana pool - done 2026-10-21: "MANA  B3  R1" under the seat's totals, each symbol in its colour, only while the pool is not empty. `SeatV.mana` (W U B R G C) from `PlayerView.getMana`; `TableHud.drawManaPool`.

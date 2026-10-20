@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - draw and death animations (library -> hand, battlefield -> graveyard/exile) | dmara's Claude | 2026-10-21 | `TableLayout` (`placeHand` seeding, a new `placeDying`, one call in `layout`). `Demo` events. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

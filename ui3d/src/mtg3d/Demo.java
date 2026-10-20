@@ -24,7 +24,7 @@ public final class Demo {
     public static void main(String[] args) {
         final Snapshot s = build();
         final long start = System.currentTimeMillis();
-        final boolean[] eventsDone = new boolean[3];
+        final boolean[] eventsDone = new boolean[5];
 
         // Forge's phases, so the demo drives the same keys the phase strip matches on.
         final String[] phases = {
@@ -83,6 +83,20 @@ public final class Demo {
                     s.seats.get(0).life += 3;
                 }
                 if (ms > 4000 && !eventsDone[2]) { eventsDone[2] = true; state[2] = 0; state[1]++; }
+                // A creature dies (slides to its owner's graveyard pad) and a card is drawn
+                // (slides off your library into the hand).
+                if (ms > 2500 && !eventsDone[3]) {
+                    eventsDone[3] = true;
+                    java.util.List<Snapshot.CardV> cs = s.seats.get(1).creatures;
+                    for (int i = 0; i < cs.size(); i++) {
+                        if (cs.get(i).name.equals("Esper Sentinel")) { s.seats.get(1).graveyard.add(0, cs.remove(i)); break; }
+                    }
+                }
+                if (ms > 5000 && !eventsDone[4]) {
+                    eventsDone[4] = true;
+                    s.hand.add(card(904, "Smothering Tithe", "Enchantment", false, false, "{3}{W}",
+                        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token."));
+                }
             }
             int phase = state[0], turn = state[1], active = state[2];
             String key = phases[phase];
