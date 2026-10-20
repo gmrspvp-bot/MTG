@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - bug box via Swing; honest seat hover label | Xenil's Claude | 2026-10-21 | `BugReport` (JOptionPane instead of the no-op getTextInput), `Table3D` seat hint wording. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
