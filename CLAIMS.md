@@ -30,6 +30,8 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: turn banner for every player's turn + per-phase banner on your own turn (3D window, not Swing) | Stoneforge | 2026-10-20 | Owner's list. Touches `TableHud` (drawYourTurn), `Demo`. |
+| ui3d: opened zones (look at a hand, search a library) without Forge's window | Xenil's Claude | 2026-10-21 | Owner: both pull him to the Forge UI. `Gui3D.peekZone` + `Table3D` peek panel. Also `OptionPanel` running off screen on a long list (creature types). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
