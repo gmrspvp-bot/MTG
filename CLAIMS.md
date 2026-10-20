@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - merge the hanging scoreboard into the left panel; stack bigger and higher | Xenil's Claude | 2026-10-21 | `Table3D`: life block in `drawPhasePanel`, scoreboard off, stack placement. Not the event log or GY/EXI pads (dmara's claim). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
