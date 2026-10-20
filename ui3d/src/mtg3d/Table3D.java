@@ -71,6 +71,9 @@ public final class Table3D extends ApplicationAdapter {
     private final List<ModelInstance> seatPads = new ArrayList<>();
     /** Scenery with no card behind it: zone pads and other players' face-down hands. */
     private final List<ModelInstance> props = new ArrayList<>();
+    /** Click targets for the seats, in Snapshot.seats order. Rebuilt with the monitors. */
+    private final List<BoundingBox> seatPick = new ArrayList<>();
+    private int hoveredSeat = -1;
     /** How far a held card is tilted up towards its owner, in degrees. */
     private static final float HAND_TILT = 62f;
     private CardArt art;
@@ -419,9 +422,16 @@ public final class Table3D extends ApplicationAdapter {
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
-        if (clickedCard() && hovered != null && Gui3D.active() && !bug.isOpen()) {
-            if (!Gui3D.clickCard(hovered.card.id)) {
-                System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
+        if (clickedCard() && Gui3D.active() && !bug.isOpen()) {
+            if (hovered != null) {
+                if (!Gui3D.clickCard(hovered.card.id)) {
+                    System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
+                }
+            } else if (hoveredSeat >= 0) {
+                // Picking a player: who starts, or a seat as a target.
+                if (!Gui3D.clickPlayer(hoveredSeat)) {
+                    System.out.println("UI3D: could not select that player");
+                }
             }
         }
         // H gives the decision the game is waiting on back to Forge's window. Harmless when
@@ -611,6 +621,7 @@ public final class Table3D extends ApplicationAdapter {
         drawn.clear();
         seatPads.clear();
         props.clear();
+        seatPick.clear();
         if (snap.seats.isEmpty()) return;
 
         int n = snap.seats.size();
@@ -710,6 +721,13 @@ public final class Table3D extends ApplicationAdapter {
                 .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
                 .rotate(Vector3.X, 34f);
             props.add(inst);
+            // Each player's own screen doubles as the thing you click to pick that player -
+            // choosing who starts, or targeting a seat. It is already one per player and already
+            // carries their name and life, so it needs no separate hit target.
+            BoundingBox box = new BoundingBox();
+            inst.calculateBoundingBox(box);
+            box.mul(inst.transform);
+            seatPick.add(box);
         }
     }
 
@@ -1296,6 +1314,7 @@ public final class Table3D extends ApplicationAdapter {
     /** Ray-pick the card under the mouse; nearest hit wins. */
     private void pick() {
         hovered = null;
+        hoveredSeat = -1;
         if (search != null && search.isOpen()) return;
         Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
         float best = Float.MAX_VALUE;
@@ -1309,6 +1328,14 @@ public final class Table3D extends ApplicationAdapter {
         // anyone moving a mouse over the window.
         if (hovered == null && FORCE_HOVER != null) {
             for (Drawn d : drawn) if (FORCE_HOVER.equalsIgnoreCase(d.card.name)) { hovered = d; break; }
+        }
+        // Seats are only considered when no card is under the cursor, so a card lying over a
+        // monitor still wins - the card is the more specific thing the player meant.
+        if (hovered != null) return;
+        for (int i = 0; i < seatPick.size(); i++) {
+            if (!com.badlogic.gdx.math.Intersector.intersectRayBounds(ray, seatPick.get(i), hit)) continue;
+            float dist = hit.dst2(cam.position);
+            if (dist < best) { best = dist; hoveredSeat = i; }
         }
     }
 

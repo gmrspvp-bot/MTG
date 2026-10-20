@@ -61,6 +61,11 @@ public final class StateReader {
                 s.winner = w == null ? "" : w;
             }
 
+            // So a click on a seat in the 3D window can find the PlayerView again. Same
+            // reason as the card registry: Forge wants the object, the renderer only has an
+            // index.
+            Gui3D.rememberSeats(order);
+
             readCombat(gv, viewer, order, s);
 
             for (PlayerView pv : order) {

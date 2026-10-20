@@ -357,9 +357,10 @@ exist; most of the list is calling them from the right `IGuiGame` method.
 
 **A. Starting a game**
 
-- [ ] **Choose who starts.** Forge asks the coin-toss winner to click a portrait. Needs
-      `selectPlayer` on a seat - the first thing a game asks and currently the first thing that
-      forces you back to Forge's window.
+- [x] **Choose who starts - done 2026-10-21.** Click a player's life monitor at the table centre.
+      It is already one per player and already carries their name and life, so it needed no
+      separate hit target. Seats are only picked when no card is under the cursor, so a card
+      lying over a monitor still wins. The same path covers targeting a player.
 - [ ] **Mulligan, keep or throw back.** A plain OK/Cancel, so `SPACE`/`X` may already cover it -
       worth testing before writing anything.
 - [ ] **London mulligan: put N cards back.** A choose-from-hand. `SearchPanel` with `min=max=N`.

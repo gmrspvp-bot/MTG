@@ -73,6 +73,44 @@ public final class Gui3D implements InvocationHandler {
         if (cv != null) known.put(id, cv);
     }
 
+    /** Seats in the order StateReader built them, so a seat index maps back to a PlayerView. */
+    private static volatile java.util.List<forge.game.player.PlayerView> seats =
+        new java.util.ArrayList<>();
+
+    /** Called by StateReader once per snapshot, in the same order as Snapshot.seats. */
+    public static void rememberSeats(java.util.List<forge.game.player.PlayerView> order) {
+        if (order != null) seats = new java.util.ArrayList<>(order);
+    }
+
+    /**
+     * Click a player - choose who starts, or target a seat.
+     *
+     * The very first thing a game asks is for the coin-toss winner to pick a starting player, and
+     * until now there was nothing in the 3D window to click, so every game began by going back to
+     * Forge's. Guarded like every other click: the token from when the prompt was drawn, re-checked
+     * on the EDT, because the decision can pass while the click is queued.
+     */
+    public static boolean clickPlayer(int seatIndex) {
+        final forge.player.PlayerControllerHuman c = controller;
+        java.util.List<forge.game.player.PlayerView> order = seats;
+        if (c == null || seatIndex < 0 || seatIndex >= order.size()) return false;
+        final forge.game.player.PlayerView pv = order.get(seatIndex);
+        final Object seen = PROMPT.token;
+        if (pv == null) return false;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try {
+                if (seen != null && ClickGuard.token(c) != seen) {
+                    ClickGuard.dropped++;
+                    return;
+                }
+                c.selectPlayer(pv, null);
+            } catch (Throwable t) {
+                System.out.println("UI3D: player click failed (" + t + ")");
+            }
+        });
+        return true;
+    }
+
     /** What the engine last asked of us, mirrored for the 3D window. */
     public static final class Prompt {
         public volatile String message = "";
