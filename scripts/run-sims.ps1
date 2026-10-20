@@ -32,7 +32,12 @@ param(
     [int] $HeapMB = 4096,
     # Cache Forge's board evaluation across priority passes (scripts\tools\EvalCacheAgent;
     # needs our launcher, i.e. any -AiPatches).
-    [bool] $EvalCache = $true
+    [bool] $EvalCache = $true,
+    # Also drive the 3D table's snapshot reader over every game, with no window and no human,
+    # and report anything it throws or any snapshot that comes out malformed. This is how the
+    # 3D client gets exercised against thousands of real board states without somebody sitting
+    # there playing it. See ui3d\src\mtg3d\SoakListener.java.
+    [switch] $Soak
 )
 
 $ErrorActionPreference = 'Stop'
@@ -52,6 +57,20 @@ $jar      = 'forge-gui-desktop-2.0.15-jar-with-dependencies.jar'
 # starts Forge as usual. Running from -cp loses the jar manifest's Add-Opens, so
 # they are passed explicitly.
 $toolClasses = Join-Path $PSScriptRoot 'tools\classes'
+# Soaking puts the 3D table's classes (and the libGDX jar they were compiled against) on the
+# simulator's classpath; SimRunner finds mtg3d.SoakListener there reflectively, so an ordinary
+# run never needs them.
+$soakCp = ''
+$soakArgs = ''
+if ($Soak) {
+    $ui3dClasses = Join-Path $root 'ui3d\classes'
+    if (-not (Test-Path $ui3dClasses)) {
+        & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-ui3d.ps1') | Out-Null
+    }
+    $mobileJar = Join-Path $forgeDir 'forge-gui-mobile-dev-2.0.15-jar-with-dependencies.jar'
+    $soakCp   = ";$ui3dClasses;$mobileJar"
+    $soakArgs = '-Dforge.ui3d.soak=true '
+}
 $opens = @('java.desktop/java.beans','java.desktop/javax.swing.border','java.desktop/javax.swing.event','java.desktop/sun.swing',
            'java.desktop/java.awt.image','java.desktop/java.awt.color','java.desktop/sun.awt.image','java.desktop/javax.swing',
            'java.desktop/java.awt','java.base/java.util','java.base/java.lang','java.base/java.lang.reflect','java.base/java.text',
@@ -76,7 +95,7 @@ for ($k = 0; $k -lt [math]::Min($Parallel, $Games); $k++) {
     $deckArgs = ($order | ForEach-Object { '"' + $_ + '.dck"' }) -join ' '
     $queueArgs = if ($useQueue) { "-Dforge.queue.dir=`"$(Join-Path $runDir 'queue')`" -Dforge.queue.total=$Games" } else { '' }
     $agentArgs = if ($EvalCache) { "-javaagent:`"$(Join-Path $PSScriptRoot 'tools\evalcache-agent.jar')`" --add-exports java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" } else { '' }
-    $launch = if ($AiPatches) { "$($opens -join ' ') $agentArgs -Dforge.aipatches=$AiPatches $queueArgs -cp `"$toolClasses;$jar`" SimLauncher" } else { "-jar $jar" }
+    $launch = if ($AiPatches) { "$($opens -join ' ') $agentArgs $soakArgs-Dforge.aipatches=$AiPatches $queueArgs -cp `"$toolClasses;$jar$soakCp`" SimLauncher" } else { "-jar $jar" }
     $profileArgs = if ($AiProfile) { ' -a ' + (@($order | ForEach-Object { $AiProfile }) -join ' ') } else { '' }
     $extra = $JvmArgs -replace '\{batch\}', ($k + 1)
     $argLine = "-Xmx$($HeapMB)m $extra -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $launch sim " +

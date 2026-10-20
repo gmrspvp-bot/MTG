@@ -141,8 +141,10 @@ public final class StateReader {
             }
             readPassed(game, s);
             readLog(gv, s);
+            Soak.read();
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.
+            Soak.caught("StateReader.read", t);
         }
         return s;
     }

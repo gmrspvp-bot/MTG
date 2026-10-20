@@ -56,6 +56,7 @@ public final class Bridge {
                 latest = StateReader.read(game);
             } catch (Throwable t) {
                 // keep the previous snapshot
+                Soak.caught("Bridge.Listener", t);
             }
         }
     }

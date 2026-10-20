@@ -120,10 +120,12 @@ public final class SimRunner {
                 runGame(new Match(rules, seats, "Test"), g, outputLog);
                 System.out.flush();
             }
+            soakReport();
             return;
         }
         Match match = new Match(rules, players, "Test");
         for (int g = 0; g < games; g++) runGame(match, g, outputLog);
+        soakReport();
         System.out.flush();
     }
 
@@ -135,6 +137,7 @@ public final class SimRunner {
         game.setNoGUIUser();
         if (!"false".equals(System.getProperty("forge.boardlog"))) game.subscribeToEvents(new BoardRecorder(game));
         game.subscribeToEvents(new AiPatches.TurnHook(game));   // keeps counterspell mana held over opponents' turns
+        soakListener(game);
         if (ThreatTracker.enabled) game.subscribeToEvents(new ThreatTracker(game));
         try {
             forge.view.TimeLimitedCodeBlock.runWithTimeout(() -> {
@@ -157,6 +160,31 @@ public final class SimRunner {
         } else {
             System.out.printf("\nGame Result: Game %d ended in %d ms. %s has won!\n%n", index + 1, sw.getTime(),
                 game.getOutcome().getWinningLobbyPlayer().getName());
+        }
+    }
+
+    /**
+     * -Dforge.ui3d.soak=true drives the 3D table's snapshot reader over this game as well.
+     * Reflective on purpose: the tools tree builds on its own and must not need the ui3d
+     * classes on the classpath, so soaking is something you add rather than something you
+     * depend on.
+     */
+    private static void soakListener(Game game) {
+        if (!Boolean.getBoolean("forge.ui3d.soak")) return;
+        try {
+            Class<?> c = Class.forName("mtg3d.SoakListener");
+            game.subscribeToEvents(c.getConstructor(Game.class).newInstance(game));
+        } catch (Throwable t) {
+            System.out.println("UI3D-SOAK: could not attach (" + t + ") - are the ui3d classes on the classpath?");
+        }
+    }
+
+    /** Printed once per process, after the last game. */
+    static void soakReport() {
+        if (!Boolean.getBoolean("forge.ui3d.soak")) return;
+        try {
+            Class.forName("mtg3d.Soak").getMethod("report").invoke(null);
+        } catch (Throwable ignored) {
         }
     }
 }
