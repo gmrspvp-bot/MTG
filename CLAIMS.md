@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - stop `layout()` allocating ~90 ModelInstances a frame (instance pool) | dmara's Claude | 2026-10-21 | `Table3D`: a small pool (`inst(Model)`), reset once per frame, and `new ModelInstance(x)` -> `inst(x)` at per-frame sites in card/pad/band/zone/hand/monitor placement. **Not** the scoreboard or stack placement (Xenil's claim). No behaviour change. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

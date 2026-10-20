@@ -447,8 +447,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 - [ ] `Table3D` is ~1,900 lines holding camera, input, layout, picking and five overlays. Camera,
       overlays and table layout are three clean seams, and every merge conflict so far has been in
       this file.
-- [ ] `layout()` allocates ~90 `ModelInstance` plus vectors and colours **every frame** - roughly
-      6,000 objects a second. Java copes, but it shows as GC stutter.
+- [x] `layout()` allocations - done 2026-10-21. A per-model `ModelInstance` pool (`inst(Model)`, reset once a frame) at the ten per-frame placement sites; transforms and the card-picture material are overwritten on every reuse. Measured on the demo in combat with a 4 MB young generation: **56 young GCs per 12 s before, 20-26 after** (two runs each). The scoreboard and stack frame still allocate (they were under Xenil's claim); the remaining garbage is overlay text, vectors and colours.
 - [x] Screenshot mode - done 2026-10-20: `-Dforge.ui3d.shots=<dir>` (+ `shotEvery`) saves frames as PNGs; with the demo's `-Dforge.ui3d.demoPhase/demoLost/demoWinner` and `-Dforge.ui3d.hover=<card>` a known state renders with no game and no mouse.
 
 #### Agreed plan (owner approved 2026-10-21)

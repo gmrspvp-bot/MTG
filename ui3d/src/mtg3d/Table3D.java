@@ -281,6 +281,41 @@ public final class Table3D extends ApplicationAdapter {
         snap = source.get();
     }
 
+    // ---- instance pool ----------------------------------------------------------------------------
+
+    /**
+     * layout() rebuilds every placement each frame (see its comment - that is what keeps the view
+     * from ever drifting from the snapshot), and it used to do so with fresh ModelInstances: ~90 a
+     * frame, each copying its model's nodes, parts and materials, so several thousand short-lived
+     * objects a second and GC stutter to match. Now each model keeps a list of instances that are
+     * handed out again every frame. Everything that matters is overwritten on reuse: transforms are
+     * set with setToTranslation / set(...), and the one material that changes - the card picture -
+     * is set every frame in add(). Instances are never shared between two placements in a frame.
+     */
+    private final java.util.Map<Model, List<ModelInstance>> pool = new java.util.HashMap<>();
+    private final java.util.Map<Model, int[]> poolUsed = new java.util.HashMap<>();
+
+    /** A ModelInstance of `m` for this frame only. */
+    private ModelInstance inst(Model m) {
+        List<ModelInstance> list = pool.computeIfAbsent(m, k -> new ArrayList<>());
+        int[] used = poolUsed.computeIfAbsent(m, k -> new int[1]);
+        ModelInstance mi;
+        if (used[0] < list.size()) {
+            mi = list.get(used[0]);
+            mi.transform.idt();
+        } else {
+            mi = new ModelInstance(m);
+            list.add(mi);
+        }
+        used[0]++;
+        return mi;
+    }
+
+    /** Called once a frame, before layout(): every pooled instance is free again. */
+    private void poolReset() {
+        for (int[] u : poolUsed.values()) u[0] = 0;
+    }
+
     // ---- table surface and surround --------------------------------------------------------------
 
     private Model feltModel, floorModel, railModel;
@@ -365,6 +400,7 @@ public final class Table3D extends ApplicationAdapter {
         updateCamera(Gdx.graphics.getDeltaTime());
         frameDt = Math.min(Gdx.graphics.getDeltaTime(), 0.1f);   // a stall must not fling cards
         frameNo++;
+        poolReset();
         layout();
         // Cards not drawn this frame have left the view; forget them, so one that comes back
         // (a commander recast, a card returned to hand) appears where it is instead of flying in
@@ -799,7 +835,7 @@ public final class Table3D extends ApplicationAdapter {
             // so a player's board never moves out from under them when the view changes.
             float angle = seatAngle(i, n);
 
-            ModelInstance pad = new ModelInstance(seat.lost ? seatLostModel
+            ModelInstance pad = inst(seat.lost ? seatLostModel
                 : seat.hasPriority ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
             pad.transform.setToTranslation(c.x, -0.01f, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
@@ -876,7 +912,7 @@ public final class Table3D extends ApplicationAdapter {
         for (int i = 0; i < n; i++) {
             float angle = seatAngle(i, n);
             Vector3 w = rotateY(0f, MONITOR_DIST, angle);
-            ModelInstance inst = new ModelInstance(monitorModel);
+            ModelInstance inst = inst(monitorModel);
             inst.transform.setToTranslation(w.x, 0.42f, w.z)
                 .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
                 .rotate(Vector3.X, 34f);
@@ -1018,7 +1054,7 @@ public final class Table3D extends ApplicationAdapter {
             for (int j = 0; j < shown; j++) {
                 float along = -width / 2f + j * step + step / 2f;
                 Vector3 w = rotateY(along, SEAT_DIST + 3.4f, angle);
-                ModelInstance inst = new ModelInstance(backModel);
+                ModelInstance inst = inst(backModel);
                 inst.transform.setToTranslation(w.x, 0.62f, w.z)
                     .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
                     .rotate(Vector3.X, HAND_TILT);
@@ -1049,7 +1085,7 @@ public final class Table3D extends ApplicationAdapter {
         float width = 0.5f - GAP;   // same slot widths as placeRow: tapped cards are CARD_H wide
         for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
         Vector3 w = rotateY(0f, dist, angle);
-        ModelInstance inst = new ModelInstance(band);
+        ModelInstance inst = inst(band);
         inst.transform.setToTranslation(w.x, -0.005f, w.z)
             .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
             .scale(width / BAND_UNIT, 1f, 1f);
@@ -1085,7 +1121,7 @@ public final class Table3D extends ApplicationAdapter {
             float angle = seatAngle(i, n);
             float yaw = (float) Math.toDegrees(-angle);
             Vector3 w = rotateY(COMMAND_X, COMMAND_Z, angle);
-            ModelInstance pad = new ModelInstance(commandPadModel);
+            ModelInstance pad = inst(commandPadModel);
             pad.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
             props.add(pad);
             for (int k = 0; k < seat.command.size(); k++) {
@@ -1102,7 +1138,7 @@ public final class Table3D extends ApplicationAdapter {
             float angle = seatAngle(i, n);
             for (int k = 0; k < 3; k++) {
                 Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
-                ModelInstance inst = new ModelInstance(zoneModel);
+                ModelInstance inst = inst(zoneModel);
                 inst.transform.setToTranslation(w.x, 0.0f, w.z)
                     .rotate(Vector3.Y, (float) Math.toDegrees(-angle));
                 props.add(inst);
@@ -1124,7 +1160,7 @@ public final class Table3D extends ApplicationAdapter {
                      float yawDeg, float tiltDeg, float scale) {
         Model m = c.commander ? commanderModel : c.land ? landModel : c.creature ? creatureModel : cardModel;
         Drawn d = new Drawn();
-        d.inst = new ModelInstance(m);
+        d.inst = inst(m);
         d.card = c;
         d.seat = seat;
         // Where to draw it this frame: eased from where it was drawn last frame (see Pose). A new
@@ -1154,7 +1190,7 @@ public final class Table3D extends ApplicationAdapter {
         // background decode finishes; until then the coloured body stands in for it.
         com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(c);
         if (tex != null) {
-            d.face = new ModelInstance(faceModel);
+            d.face = inst(faceModel);
             d.face.transform.set(d.inst.transform).translate(0f, CARD_THICK / 2f + 0.03f, 0f);
             d.face.materials.get(0).set(
                 com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
@@ -1164,10 +1200,10 @@ public final class Table3D extends ApplicationAdapter {
         // route and accepts a click on anything. So this marker means "Forge has offered this
         // card", which is a narrower and more honest claim than "you can play this".
         if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) {
-            d.marker = new ModelInstance(selectModel);
+            d.marker = inst(selectModel);
             d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
         } else if (c.attacking) {
-            d.marker = new ModelInstance(attackModel);
+            d.marker = inst(attackModel);
             d.marker.transform.set(d.inst.transform).translate(0f, -CARD_THICK, 0f);
         }
         drawn.add(d);
