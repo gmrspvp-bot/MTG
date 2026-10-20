@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - fix: cannot play a land from 3D | Xenil's Claude | 2026-10-21 | `Gui3D` (card registry + unconditional click), `StateReader` (register CardViews), `Table3D` (highlight source). Forge does not use setSelectables for ordinary priority. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
