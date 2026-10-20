@@ -68,6 +68,9 @@ abstract class TableHud extends TableScene {
         }
         drawPhasePanel(w, h);
         bug.drawCogText(ui, font, w, h);
+        help.drawButtonText(ui, font, w, h);
+        help.draw(shapes, ui, font, fontBig, w, h,
+            new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h));
         // Strict mode: say so the moment Forge answers something the 3D window should own.
         // Without this a gap is invisible - the window just loses focus and nobody knows why.
         String fell = Gui3D.recentFallback();
@@ -112,6 +115,7 @@ abstract class TableHud extends TableScene {
         // Last, so the hovered card sits over every label rather than having them bleed through.
         if (hovered != null) drawDetailPanel(w, h, flat);
         bug.drawCog(shapes, ui, font, w, h, flat);
+        help.drawButton(shapes, w, h, flat);
     }
 
     /**

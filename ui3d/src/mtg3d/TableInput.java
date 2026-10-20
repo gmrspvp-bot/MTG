@@ -578,6 +578,10 @@ abstract class TableInput extends TableHud {
         // The cog is always live, so a bug can be reported whatever else is happening. It opens
         // a proper text dialog rather than an in-window field, so there is no typing state here.
         if (clickedCog()) { bug.ask(snap); return; }
+        // HELP, next to the cog: the keys on screen. Checked before anything else can take the
+        // click, the same way the cog is, so it works whatever else is happening.
+        if (clickedHelp()) { help.toggle(); return; }
+        if (help.isOpen() && Keys3D.just(Input.Keys.ESCAPE)) { help.close(); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         syncBoardModes();
@@ -831,6 +835,14 @@ abstract class TableInput extends TableHud {
             }
         }
         return false;
+    }
+
+    /** True on the frame the left button goes down on the HELP button. */
+    boolean clickedHelp() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        boolean justDown = down && !leftWasDownHelp;
+        leftWasDownHelp = down;
+        return justDown && help.overButton(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
     }
 
     /** True on the frame the left button goes down on the bug cog. */

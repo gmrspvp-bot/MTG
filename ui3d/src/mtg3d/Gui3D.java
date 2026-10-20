@@ -446,6 +446,7 @@ public final class Gui3D implements InvocationHandler {
                 ClickGuard.watch(pch);
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
+                clearPhaseSkips();
                 // Say which mode we are in. Without this, a run where strict found nothing and a
                 // run where the flag never arrived look identical in the log - both are silent.
                 System.out.println(STRICT
@@ -670,6 +671,42 @@ public final class Gui3D implements InvocationHandler {
         }
     }
 
+    /**
+     * Switch every phase back ON for our own seat.
+     *
+     * YieldController keeps a per-player set of phases to skip - separate from the auto-pass,
+     * and consulted by PlayerControllerHuman BEFORE it asks the GUI. So neither clearing the
+     * auto-pass nor answering "never skip" from the 3D window reaches it: the phases were
+     * switched off in Forge before we were asked, and one press of SPACE ran the whole turn
+     * (the owner, turn 2 on 2026-10-21, unable to play a land in his own main phase).
+     *
+     * Forge seeds that set from the PHASE_HUMAN_* preferences, where the owner's profile had
+     * declare attackers switched off. Playing in the 3D window there is nowhere to see or
+     * change it, so the 3D window turns them all back on for its own seat and leaves every
+     * other player alone.
+     */
+    public static void clearPhaseSkips() {
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c == null) return;
+            forge.gamemodes.match.YieldController y = c.getYieldController();
+            forge.game.player.PlayerView me = c.getLocalPlayerView();
+            if (y == null || me == null) return;
+            int cleared = 0;
+            for (forge.game.phase.PhaseType ph : forge.game.phase.PhaseType.values()) {
+                if (!y.isSkippingPhase(me, ph)) continue;
+                y.setSkipPhase(me, ph, false);
+                cleared++;
+            }
+            if (cleared > 0) {
+                System.out.println("UI3D: turned " + cleared + " phase(s) back on for your seat"
+                    + " - Forge had them set to skip");
+            }
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not clear the phase skips (" + t + ")");
+        }
+    }
+
     /** Cancel any auto-pass. Harmless when none is set. */
     public static void stopAutoPass() {
         try {
@@ -694,6 +731,7 @@ public final class Gui3D implements InvocationHandler {
      */
     public static boolean nextPhase() {
         stopAutoPass();
+        clearPhaseSkips();      // self-healing: Forge can switch them off again at any time
         return pressOk();
     }
 

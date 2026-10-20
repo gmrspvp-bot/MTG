@@ -216,6 +216,9 @@ abstract class TableBase extends ApplicationAdapter {
 
     final BugReport bug = new BugReport();
 
+    /** The keys, on screen, behind a button next to the cog. */
+    final HelpCard help = new HelpCard();
+
     /** One drawable card plus where it is, so the same list serves rendering and picking. */
     static final class Drawn {
         ModelInstance inst;
@@ -355,6 +358,8 @@ abstract class TableBase extends ApplicationAdapter {
     int shotNo;
 
     boolean leftWasDownCog;
+
+    boolean leftWasDownHelp;
 
     boolean leftWasDownBoard;
 
