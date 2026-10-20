@@ -132,10 +132,13 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.12f, 0.29f, 0.26f, 1f))), attrs);
         // The monitor's case: a near-black bezel. The glass (screenModel) is inset on its face and
         // the stand (standModel) holds it up off the felt (TableLayout.placeMonitors).
-        monitorModel = builder.createBox(2.1f, 0.07f, 1.25f,
+        // Wide enough for the commander's portrait beside the readout (TableHud
+        // .drawCentreTracker). Four of these sit on a circle of radius MONITOR_DIST, so the two
+        // sizes have to be chosen together or the neighbours overlap.
+        monitorModel = builder.createBox(2.7f, 0.07f, 1.45f,
             new Material(ColorAttribute.createDiffuse(new Color(0.03f, 0.05f, 0.07f, 1f))), attrs);
         // Built white with an emissive glow; each instance sets its own tint (active / you / other).
-        screenModel = builder.createBox(1.92f, 0.01f, 1.07f,
+        screenModel = builder.createBox(2.52f, 0.01f, 1.27f,
             new Material(ColorAttribute.createDiffuse(Color.WHITE), ColorAttribute.createEmissive(new Color(0.10f, 0.20f, 0.28f, 1f))), attrs);
         standModel = builder.createBox(0.16f, 0.42f, 0.16f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.07f, 0.09f, 1f))), attrs);

@@ -419,7 +419,7 @@ abstract class TableBase extends ApplicationAdapter {
     static final float STACK_FRAME_UNIT = 1f;
 
     /** How far each player's little screen sits from the middle of the table. */
-    static final float MONITOR_DIST = 2.0f;
+    static final float MONITOR_DIST = 2.45f;
 
     static final float ROW_CREATURES = SEAT_DIST - 2.1f;
 

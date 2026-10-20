@@ -1095,6 +1095,30 @@ abstract class TableHud extends TableScene {
      * commander. All of it is public knowledge, which is why it can sit in the open where
      * everyone's view of it is the same.
      */
+    /**
+     * Whose commander this is, wherever it happens to be. The command zone first, because that is
+     * where it sits between casts, then the battlefield. Falls back to whatever else is in the
+     * command zone so a partner pair or a companion still shows something.
+     */
+    static Snapshot.CardV commanderOf(Snapshot.SeatV s) {
+        for (Snapshot.CardV c : s.command) if (c.commander) return c;
+        for (Snapshot.CardV c : s.creatures) if (c.commander) return c;
+        for (Snapshot.CardV c : s.others) if (c.commander) return c;
+        return s.command.isEmpty() ? null : s.command.get(0);
+    }
+
+    /**
+     * The tracker in the middle of the table: each player's commander, their life, and the
+     * commander damage they have taken. All of it is public knowledge, which is why it can sit in
+     * the open where everyone's view of it is the same.
+     *
+     * Laid out as a readout rather than a list (the owner, 2026-10-21: "arrange the numbers on it
+     * like a screen, think like a digital clock"). The portrait is on the left, the life total is
+     * the one big number, and the small fields sit under it in fixed columns so they stay in the
+     * same place as they change - a number that moves when it changes cannot be read at a glance.
+     * Drawn in screen space, not onto the panel, so every seat's readout faces the camera
+     * wherever it happens to be.
+     */
     void drawCentreTracker() {
         int n = snap.seats.size();
         for (int i = 0; i < n; i++) {
@@ -1104,31 +1128,58 @@ abstract class TableHud extends TableScene {
             Vector3 p = cam.project(new Vector3(w.x, 0.62f, w.z));
             if (p.z > 1f) continue;                       // behind the camera
 
-            // The number is drawn in screen space rather than onto the panel, so every seat's
-            // total stays readable from wherever the camera happens to be.
-            if (s.active) fontBig.setColor(1f, 0.85f, 0.35f, 1f);
-            else if (s.isYou) fontBig.setColor(0.65f, 0.95f, 1f, 1f);
-            else fontBig.setColor(0.80f, 0.88f, 0.95f, 1f);
-            fontBig.draw(ui, String.valueOf(s.life), p.x - 16, p.y + 14);
+            // The commander's picture, if Forge has it cached. A missing one just leaves the
+            // readout where it is rather than shifting everything left.
+            final float portW = 40f, portH = 56f;
+            float left = p.x - 54f;
+            Snapshot.CardV cmd = commanderOf(s);
+            com.badlogic.gdx.graphics.Texture tex =
+                (art == null || cmd == null || !art.hasPicture(cmd)) ? null : art.get(cmd);
+            if (tex != null) {
+                ui.setColor(1f, 1f, 1f, s.lost ? 0.35f : 1f);
+                ui.draw(tex, left, p.y - 18f, portW, portH);
+                ui.setColor(1f, 1f, 1f, 1f);
+            }
+
+            float col = left + portW + 8f;                // everything else lines up here
+            Color tint = s.lost ? new Color(0.50f, 0.44f, 0.44f, 1f)
+                    : s.active ? new Color(1f, 0.85f, 0.35f, 1f)
+                    : s.isYou ? new Color(0.65f, 0.95f, 1f, 1f)
+                    : new Color(0.80f, 0.88f, 0.95f, 1f);
 
             font.setColor(0.52f, 0.66f, 0.78f, 1f);
-            font.draw(ui, s.name, p.x - 16, p.y + 30);
-            float y = p.y - 6;
+            font.draw(ui, shortName(s.name), col, p.y + 36f);
+
+            // The life total, big. The one number you look for.
+            fontBig.getData().setScale(2.3f);
+            fontBig.setColor(tint);
+            fontBig.draw(ui, s.lost ? "OUT" : String.valueOf(s.life), col, p.y + 26f);
+            fontBig.getData().setScale(1.6f);
+
+            // Fixed columns under it, so a changing number never moves the ones beside it.
+            font.setColor(0.62f, 0.74f, 0.84f, 1f);
+            font.draw(ui, "LIB", col, p.y - 2f);
+            font.draw(ui, "GY", col + 46f, p.y - 2f);
+            font.draw(ui, "EX", col + 84f, p.y - 2f);
+            font.setColor(0.82f, 0.90f, 0.96f, 1f);
+            font.draw(ui, String.valueOf(s.librarySize), col, p.y - 15f);
+            font.draw(ui, String.valueOf(s.graveyardSize), col + 46f, p.y - 15f);
+            font.draw(ui, String.valueOf(s.exileSize), col + 84f, p.y - 15f);
+
+            float y = p.y - 30f;
             if (s.poison > 0) {
                 font.setColor(0.60f, 0.85f, 0.45f, 1f);
-                font.draw(ui, "poison " + s.poison, p.x - 16, y);
+                font.draw(ui, "POISON " + s.poison, col, y);
                 y -= 13f;
             }
-            font.setColor(0.70f, 0.52f, 0.46f, 1f);
+            // Commander damage: the number that quietly kills you, so it stays on the readout.
+            font.setColor(0.78f, 0.56f, 0.50f, 1f);
             int shown = 0;
             for (Snapshot.CmdDmg d : s.commanderDamage) {
                 if (shown++ >= 2) break;                  // two is enough to see a threat building
-                font.draw(ui, d.amount + " " + shortName(d.from), p.x - 16, y);
+                font.draw(ui, d.amount + " from " + shortName(d.from), col, y);
                 y -= 13f;
             }
-            // The public counts, on the screen as well as on the piles (owner's list 2026-10-20).
-            font.setColor(0.62f, 0.74f, 0.84f, 1f);
-            font.draw(ui, "lib " + s.librarySize + "  gy " + s.graveyardSize + "  ex " + s.exileSize, p.x - 16, y);
         }
     }
 
