@@ -161,8 +161,10 @@ public final class Demo {
                 { "Swords to Plowshares", "Xenil", "Exile Ancient Bronze Dragon" },
                 { "Arcane Denial", "Michael", "Counter Swords to Plowshares" },
                 { "Boros Charm", "Captain", "Deal 4 damage to Xenil" },
+                // An activated ability: its text shows under it (owner's list 2026-10-20).
+                { "Weathered Wayfarer", "Xenil", "Weathered Wayfarer - {W}, {T}: Search your library for a land card, reveal it, put it into your hand, then shuffle." },
             };
-            int onStack = key.equals("COMBAT_DECLARE_BLOCKERS") ? 3
+            int onStack = key.equals("COMBAT_DECLARE_BLOCKERS") ? 4
                 : key.equals("COMBAT_DECLARE_ATTACKERS") ? 1 : 0;
             for (int i = 0; i < Math.min(onStack, spells.length); i++) {
                 Snapshot.CardV v = card(950 + i, spells[i][0], "Instant", false, false, "{W}", "");
@@ -172,6 +174,7 @@ public final class Demo {
                 if (i == 0) v.targetIds.add(dragonId);
                 if (i == 1) v.targetIds.add(950);
                 if (i == 2) v.targetSeats.add(0);
+                if (i == 3) { v.typeLine = "Creature - Human Nomad"; v.stackIsAbility = true; }
                 s.stack.add(v);
             }
             // Priority round the table while spells are up: the seats it has already moved past

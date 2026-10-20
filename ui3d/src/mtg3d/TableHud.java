@@ -327,8 +327,30 @@ abstract class TableHud extends TableScene {
             if (p.z > 1f) continue;
             font.setColor(top ? new Color(1f, 0.85f, 0.35f, 1f) : new Color(0.68f, 0.78f, 0.88f, 1f));
             font.draw(ui, c.controller, p.x - 30, p.y);
-            if (top) font.draw(ui, "resolving next", p.x - 30, p.y - 13);
+            float y = p.y - 13;
+            if (top) { font.draw(ui, "resolving next", p.x - 30, y); y -= 13; }
+            // Owner's list 2026-10-20: say WHICH ability is on the stack - the card picture is the
+            // same for every ability of a card, so without this two activations look identical.
+            if (c.stackIsAbility && c.stackText != null && !c.stackText.isEmpty()) {
+                font.setColor(new Color(0.55f, 0.92f, 0.86f, 1f));      // the ability ribbon's teal
+                java.util.List<String> lines = wrap(abilityOnly(c), STACK_LABEL_W);
+                for (int k = 0; k < Math.min(2, lines.size()); k++) {
+                    String l = lines.get(k);
+                    if (k == 1 && lines.size() > 2) l = l + "...";
+                    font.draw(ui, l, p.x - 30, y);
+                    y -= 13;
+                }
+            }
         }
+    }
+
+    static final float STACK_LABEL_W = 160f;
+
+    /** Forge's stack text starts with the card's name ("Name - {T}: ..."); the name is already shown. */
+    static String abilityOnly(Snapshot.CardV c) {
+        String t = c.stackText.trim();
+        String prefix = c.name + " - ";
+        return t.startsWith(prefix) ? t.substring(prefix.length()) : t;
     }
 
     /**

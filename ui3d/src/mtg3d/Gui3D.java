@@ -48,7 +48,9 @@ public final class Gui3D implements InvocationHandler {
                                 // 2026-10-21, hooking up the panels: lists of anything (modes,
                                 // colours, types, players, cards), numbers, ordering, damage.
                                 "one", "oneOrNone", "getChoices", "many",
-                                "getInteger", "order", "assignCombatDamage"));
+                                "getInteger", "order", "assignCombatDamage",
+                                // 2026-10-20 (owner's list): which ability of a card to activate.
+                                "getAbilityToPlay"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -624,6 +626,8 @@ public final class Gui3D implements InvocationHandler {
                 return takeOrder(method, args);
             case "assignCombatDamage":
                 return takeDamage(args);
+            case "getAbilityToPlay":
+                return takeAbility(args);
             default:
                 break;
         }
@@ -959,6 +963,80 @@ public final class Gui3D implements InvocationHandler {
             System.out.println("UI3D: list choice failed, handing it to Forge (" + t + ")");
             return NOT_HANDLED;
         }
+    }
+
+    /**
+     * getAbilityToPlay(card, abilities, triggerEvent): a card with more than one thing it can do
+     * right now (a creature with two activated abilities, a land with two colours, cast or
+     * activate). Owner's list 2026-10-20 - it opened Forge's own pop-up list, which also pulled
+     * focus to Forge's window. Shown as an OptionPanel column, one button per ability in Forge's own
+     * words; ESC answers null, which is what Forge's list returns when closed (nothing played).
+     * The answer is the very SpellAbilityView Forge offered.
+     */
+    private Object takeAbility(Object[] args) {
+        try {
+            CardView host = args.length > 0 && args[0] instanceof CardView ? (CardView) args[0] : null;
+            java.util.List<?> options = args.length > 1 && args[1] instanceof java.util.List ? (java.util.List<?>) args[1] : null;
+            if (options == null) return NOT_HANDLED;
+            // Forge's own rules first (CMatchUI.getAbilityToPlay): nothing offered = nothing played;
+            // a single ability that does not ask to be confirmed is played if it can be.
+            if (options.isEmpty()) return null;
+            if (options.size() == 1 && options.get(0) instanceof forge.game.spellability.SpellAbilityView) {
+                forge.game.spellability.SpellAbilityView only = (forge.game.spellability.SpellAbilityView) options.get(0);
+                if (!only.promptIfOnlyPossibleAbility()) return only.canPlay() ? only : null;
+            }
+            java.util.List<Object> entities = new ArrayList<>();
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            java.util.List<String> labels = new ArrayList<>();
+            for (Object o : options) {
+                // Forge greys out what cannot be played now; here it is simply not offered.
+                if (o instanceof forge.game.spellability.SpellAbilityView
+                        && !((forge.game.spellability.SpellAbilityView) o).canPlay()) continue;
+                String l = abilityLabel(o);
+                entities.add(o);
+                labels.add(l);
+                items.add(describe(o, l));
+            }
+            if (entities.isEmpty()) return null;                      // none playable right now
+            String title = host == null ? "Which ability?" : host.getName() + " - which ability?";
+            Handoff<java.util.List<Object>> h = Handoff.start("ability: " + title);
+            Choice c = new Choice(title, items, entities, 0, 1, h);
+            c.cards = false;
+            c.labels = labels;
+            choosing = c;
+            java.util.List<Object> picked;
+            try {
+                picked = h.awaitOr(() -> null);
+            } finally {
+                choosing = null;
+            }
+            if (picked == null) return NOT_HANDLED;                    // handed back: Forge asks
+            return picked.isEmpty() ? null : picked.get(0);            // ESC = nothing played
+        } catch (Throwable t) {
+            choosing = null;
+            System.out.println("UI3D: ability choice failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
+    /** Forge's own wording for an ability, as its pop-up list shows it ("{T}: Add {W}."). */
+    static String abilityLabel(Object o) {
+        if (o instanceof forge.game.spellability.SpellAbilityView) {
+            forge.game.spellability.SpellAbilityView sa = (forge.game.spellability.SpellAbilityView) o;
+            // Casting the card itself: Forge's text is "Name - Creature 1 / 1", which reads as if
+            // it were another ability. Adventures and split halves have their own names, so keep
+            // whatever follows a different name.
+            try {
+                CardView host = sa.getHostCard();
+                String s = String.valueOf(sa);
+                if (sa.isSpell() && host != null && s.startsWith(host.getName() + " - ")) return "Cast " + host.getName();
+            } catch (Throwable ignored) { /* fall through */ }
+            String d = null;
+            try { d = sa.getDescription(); } catch (Throwable ignored) { /* fall back */ }
+            if (d == null || d.trim().isEmpty()) d = String.valueOf(sa);
+            return d.trim();
+        }
+        return String.valueOf(o);
     }
 
     /** A number Forge wants (an X cost, "choose a number"). */

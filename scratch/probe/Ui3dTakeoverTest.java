@@ -111,6 +111,38 @@ public class Ui3dTakeoverTest {
         check("damage with a defender stays with Forge", forgeAsked.get() && System.currentTimeMillis() - t0 < 300,
             "forgeAsked=" + forgeAsked.get());
 
+        // getAbilityToPlay (2026-10-20): a card with two things it can do. Real abilities from a
+        // Weathered Wayfarer - casting it, and its {W},{T} search - marked playable by hand.
+        List<forge.game.player.RegisteredPlayer> rp = new java.util.ArrayList<>();
+        rp.add(new forge.game.player.RegisteredPlayer(new forge.deck.Deck("Me")).setPlayer(forge.player.GamePlayerUtil.createAiPlayer("Me")));
+        rp.add(new forge.game.player.RegisteredPlayer(new forge.deck.Deck("Op")).setPlayer(forge.player.GamePlayerUtil.createAiPlayer("Op")));
+        forge.game.Game game = new forge.game.Match(new forge.game.GameRules(forge.game.GameType.Commander), rp, "abilities").createGame();
+        forge.game.card.Card way = forge.game.card.Card.fromPaperCard(
+            forge.model.FModel.getMagicDb().getCommonCards().getCard("Weathered Wayfarer"), game.getPlayers().get(0));
+        List<forge.game.spellability.SpellAbilityView> sas = new java.util.ArrayList<>();
+        for (forge.game.spellability.SpellAbility sa : way.getSpellAbilities()) {
+            forge.game.spellability.SpellAbilityView v = forge.game.spellability.SpellAbilityView.get(sa);
+            v.set(forge.trackable.TrackableProperty.CanPlay, true);
+            sas.add(v);
+        }
+        check("ability: Wayfarer has two", sas.size() == 2, String.valueOf(sas.size()));
+        forgeAsked.set(false);
+        answerChoiceLater(Arrays.asList(1), c -> check("ability: panel lists both, in Forge's words",
+            !c.cards && c.labels.size() == 2 && c.labels.get(0).equals("Cast Weathered Wayfarer")
+            && c.labels.get(1).contains("Search your library"), "labels=" + c.labels));
+        r = g.getAbilityToPlay(way.getView(), sas, null);
+        check("ability: picked one comes back", r == sas.get(1) && !forgeAsked.get(), "result=" + r);
+        answerChoiceLater(Arrays.asList(), null);
+        r = g.getAbilityToPlay(way.getView(), sas, null);
+        check("ability: ESC = nothing played", r == null && !forgeAsked.get(), "result=" + r);
+        sas.get(0).set(forge.trackable.TrackableProperty.CanPlay, false);
+        answerChoiceLater(Arrays.asList(0), c -> check("ability: unplayable one not offered",
+            c.labels.size() == 1 && c.labels.get(0).contains("Search"), "labels=" + c.labels));
+        r = g.getAbilityToPlay(way.getView(), sas, null);
+        check("ability: the playable one comes back", r == sas.get(1), "result=" + r);
+        r = g.getAbilityToPlay(way.getView(), sas.subList(1, 2), null);
+        check("ability: a single one plays without asking", r == sas.get(1) && mtg3d.Gui3D.pendingChoice() == null, "result=" + r);
+
         System.out.println();
         System.out.println(pass ? "PASS" : "FAIL");
         System.exit(pass ? 0 : 1);

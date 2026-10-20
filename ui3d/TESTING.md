@@ -63,6 +63,12 @@ Each line: **what to do** -> what should happen.
 - [ ] **Scry:** first a card grid to pick which go to the **bottom** (pick none to keep all on top),
       then an **order** panel for the ones on top - drag them, 1 = drawn first.
 - [ ] **Surveil:** same idea, graveyard instead of bottom.
+- [ ] **A card with two abilities** (Weathered Wayfarer: cast it or search; a land with two
+      colours) -> a column of buttons, one per ability you can use now; click one. ESC plays nothing.
+- [ ] **An ability on the stack** shows its text in teal under the card, so two abilities of the
+      same card can be told apart.
+- [ ] **Clicking your own untapped land** when nothing is being paid for -> a warning first;
+      click it again within 3 seconds to tap it for floating mana.
 - [ ] **Several triggers at once** (e.g. two Angels' abilities) -> an order panel, drag into order.
 
 ## 5. Combat

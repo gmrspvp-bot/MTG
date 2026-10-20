@@ -379,12 +379,17 @@ with where each one lands. Nothing here is claimed yet.
 
 **Abilities — say which one, everywhere it appears** *(attended wiring, unattended look)*
 
-- [ ] Activating an ability on a card with more than one: a small drop-down at the card,
-      highlighting the ability under the cursor. Forge asks this through `getAbilityToPlay`,
-      which is **not taken over yet** — it is one of the few non-void `IGuiGame` methods still
-      falling through, so today it opens Forge's own list.
-- [ ] While it is on the stack, show *which* ability is resolving — not just the card's name.
-      `CardV.stackText` / `stackIsAbility` already carry this; the stack panel does not use it.
+- [x] Activating an ability on a card with more than one - **taken over 2026-10-20**
+      (Stoneforge). `getAbilityToPlay` is in `TAKEN_OVER` (`Gui3D.takeAbility`): Forge's own rules
+      first (nothing offered = nothing; a single non-prompting ability plays if it can), then an
+      `OptionPanel` column, one button per *playable* ability in Forge's words ("Cast X" for the
+      card itself), ESC = nothing played, H / timeout hands it to Forge. 7 cases in
+      `Ui3dTakeoverTest` (21/21). **Still to do:** the owner asked for a small drop-down *at the
+      card*; the column works today, the drop-down is a look on top of the same `Choice`.
+- [x] While it is on the stack, show *which* ability is resolving - done 2026-10-20: under each
+      ability or trigger on the stack, its text in the ribbon's teal (two lines, the card name
+      stripped), below who controls it (`TableHud.drawStackLabels`). Demo stack now has a
+      Weathered Wayfarer activation.
 - [ ] Highlight the source card on the battlefield, and the specific ability on it, while that
       ability is on the stack or being chosen.
 
