@@ -421,9 +421,9 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 **Looks and layout**
 
-- [ ] Seat pads are large plain slabs that dominate the table; smaller and darker.
+- [x] Seat pads smaller and darker - done 2026-10-20 (7.6 x 3.4, see *Seat pads* above).
 - [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
-- [ ] Card movement between zones still teleports; `Drawn` persists now, so it can interpolate.
+- [x] Card movement between zones - done 2026-10-20: per-id poses eased every frame (`Pose`/`ease` in `Table3D`), hand -> stack -> battlefield slides.
 - [ ] A proper table surface and surround rather than a flat blue slab.
 - [ ] Tokens, emblems and face-down cards could read better at a glance.
 
@@ -431,7 +431,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 - [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode, no pick) - needs only a
       click target on the existing pads.
-- [ ] Show what a spell on the stack is targeting; `Snapshot` carries target ids already.
+- [x] Show what a spell on the stack is targeting - done 2026-10-20: violet target arcs (see *Spell targets* above).
 - [x] Draw what Forge is asking - prompt bar above the hand, with clickable OK/Cancel
       carrying their real labels and enabled state (done 2026-10-21).
 - [x] Forge's card-list dialogs (the AI-cant-play-these deck warning) now open in the 3D
@@ -446,8 +446,7 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       this file.
 - [ ] `layout()` allocates ~90 `ModelInstance` plus vectors and colours **every frame** - roughly
       6,000 objects a second. Java copes, but it shows as GC stutter.
-- [ ] A screenshot mode that renders a known snapshot to a PNG, so look-and-feel changes can be
-      compared without a game. `FacePreview` already proves the pattern works.
+- [x] Screenshot mode - done 2026-10-20: `-Dforge.ui3d.shots=<dir>` (+ `shotEvery`) saves frames as PNGs; with the demo's `-Dforge.ui3d.demoPhase/demoLost/demoWinner` and `-Dforge.ui3d.hover=<card>` a known state renders with no game and no mouse.
 
 #### Agreed plan (owner approved 2026-10-21)
 
