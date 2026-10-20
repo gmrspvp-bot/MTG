@@ -30,7 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: turn banner for every player's turn + per-phase banner on your own turn (3D window, not Swing) | Stoneforge | 2026-10-20 | Owner's list. Touches `TableHud` (drawYourTurn), `Demo`. |
+| Card fixes from CARD-MECHANICS.md: Mr. House + Wyll dice, Clown Car, Lotho, Belladonna Took | Stoneforge | 2026-10-21 | Owner's request. Custom card scripts in `forge-data\custom\cards\`, maybe `scripts\tools` AI. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

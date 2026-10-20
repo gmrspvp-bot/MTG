@@ -448,6 +448,11 @@ to know before starting:
       turn"*. `PlayHook.TurnBanner` is Swing on Forge's window — doing this in the 3D window
       instead would avoid pulling focus, which is the standing complaint.)
 
+- [ ] **Bug (owner, 2026-10-20): the "YOUR RESPONSE" pop-up shows on Forge's window, not in 3D.**
+      It is `PlayHook.ResponseWatcher` -> `showBanner`, a Swing window over Forge's frame. With the
+      3D table on it should be drawn in the 3D window instead (like the turn banners), and the
+      Swing one skipped. Not fixed yet - noted only.
+
 **Revealing hands when a player is out** *(attended — needs care)*
 
 - [ ] When a player dies, make every remaining hand public knowledge **to them**.
