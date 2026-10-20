@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - click a player (choose who starts, target a player) | Xenil's Claude | 2026-10-21 | `Gui3D` (PlayerView registry + `clickPlayer`), `StateReader` (register PlayerViews), `Table3D` (seat picking on the life monitors). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
