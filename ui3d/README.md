@@ -43,6 +43,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `SPACE` | **In a game** - pass priority / confirm (guarded) |
 | `X` | **In a game** - cancel (guarded) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
+| red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |

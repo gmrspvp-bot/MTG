@@ -40,3 +40,8 @@
 # ui3d build output and libGDX native unpack dir
 /ui3d/classes/
 /ui3d/natives/
+
+# bug reports from the 3D window are kept
+!/scratch/bug-reports/
+/scratch/bug-reports/*
+!/scratch/bug-reports/*.md

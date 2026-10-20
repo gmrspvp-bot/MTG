@@ -75,6 +75,7 @@ public final class Table3D extends ApplicationAdapter {
     private static final float HAND_TILT = 62f;
     private CardArt art;
     private SearchPanel search;
+    private final BugReport bug = new BugReport();
 
     /** One drawable card plus where it is, so the same list serves rendering and picking. */
     private static final class Drawn {
@@ -255,6 +256,15 @@ public final class Table3D extends ApplicationAdapter {
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
+            // Typed characters only matter to the bug box; everything else this view needs is
+            // polled, so this handler stays tiny.
+            @Override public boolean keyTyped(char c) {
+                if (!bug.isOpen()) return false;
+                // 13 and 10 rather than character escapes: Enter submits.
+                if (c == 13 || c == 10) { bug.submit(snap); return true; }
+                bug.type(c);
+                return true;
+            }
             @Override public boolean scrolled(float amountX, float amountY) {
                 if (search.isOpen()) {
                     search.scrollBy(amountY);
@@ -385,6 +395,14 @@ public final class Table3D extends ApplicationAdapter {
     }
 
     private void handleInput() {
+        // The cog is always live, so a bug can be reported whatever else is happening.
+        if (clickedCog()) { bug.toggle(); return; }
+        // While the bug box is open it owns the keyboard: ESC closes it rather than releasing the
+        // camera, and typing must not also be read as camera keys.
+        if (bug.isOpen()) {
+            if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) bug.close();
+            return;
+        }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         if (search != null && search.isOpen()) return;
@@ -401,7 +419,7 @@ public final class Table3D extends ApplicationAdapter {
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
-        if (clickedCard() && hovered != null && Gui3D.active()) {
+        if (clickedCard() && hovered != null && Gui3D.active() && !bug.isOpen()) {
             if (!Gui3D.clickCard(hovered.card.id)) {
                 System.out.println("UI3D: " + hovered.card.name + " is not selectable right now");
             }
@@ -461,6 +479,16 @@ public final class Table3D extends ApplicationAdapter {
             setViewSeat(snap.youIndex(), n);
         }
     }
+
+    /** True on the frame the left button goes down on the bug cog. */
+    private boolean clickedCog() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        boolean justDown = down && !leftWasDownCog;
+        leftWasDownCog = down;
+        return justDown && bug.overCog(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
+    }
+
+    private boolean leftWasDownCog;
 
     /** True on the frame the left button goes down anywhere except the phase panel. */
     private boolean clickedCard() {
@@ -1317,6 +1345,8 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, a, w - 190, 18);
         }
         drawPhasePanel(w, h);
+        bug.drawBoxText(ui, font, fontBig, w, h);
+        bug.drawToast(ui, font, w, h);
         drawSeatInfo(w, h);
         drawPhaseOnTable();
         drawZoneLabels();
@@ -1325,7 +1355,9 @@ public final class Table3D extends ApplicationAdapter {
         ui.end();
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
-        if (hovered != null) drawDetailPanel(w, h, flat);
+        if (hovered != null && !bug.isOpen()) drawDetailPanel(w, h, flat);
+        bug.drawCog(shapes, ui, font, w, h, flat);
+        bug.drawBoxShapes(shapes, w, h, flat);
     }
 
     /**
