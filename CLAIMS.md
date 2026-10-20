@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - visual halves: damage assignment panel; targeting mode (dim / glow / arrow to mouse) | dmara's Claude | 2026-10-21 | New `DamagePanel.java`; targeting as a small state in `TableBase` drawn by `TableScene` (arc to the mouse) and `TableLayout`/`TableHud` (glow, dim, counter). `Table3D` render lines, `TableInput` samples. Not wired to Forge (attended). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
