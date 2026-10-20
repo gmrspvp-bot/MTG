@@ -545,8 +545,15 @@ to the other window.
       Put one item into an ordered list. `OrderPanel` is close but orders a whole list rather
       than inserting into one.
 - [ ] `manipulateCardList(String, Iterable, Iterable, boolean, boolean, boolean)` -> `List<CardView>`.
-      The two-list drag-and-drop (the "select order for simultaneous abilities" dialog with the
-      **Auto** button the owner keeps meeting). The hardest of the set and the one with no panel.
+      The two-list dialog, titled **"Select order for simultaneous abilities"**. Screenshot from
+      the owner, 2026-10-21: a left list ("Select Order") and a right one ("Resolve first"),
+      four movers between them (`>`, `>>`, `<`, `<<`), **OK** under the left list, an **Auto**
+      button under the right, and an **"Always use this order"** tickbox along the bottom.
+      The three booleans are almost certainly those options; confirm against the jar before
+      building. It fires on any pile of simultaneous triggers - the owner met it with three
+      identical mill triggers, where the order does not matter and **Auto** is the only sane
+      answer, so Auto should be the default action and the lists the fallback.
+      The hardest of the set, the one with no panel, and the most often seen.
 - [ ] `sideboard(CardPool, CardPool, String)` -> `List<PaperCard>`.
       Never fires in Commander. Can stay with Forge indefinitely.
 
