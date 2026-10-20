@@ -47,18 +47,56 @@ if (-not $javac) {
     $onPath = Get-Command javac -ErrorAction SilentlyContinue
     if ($onPath) { $javac = $onPath.Source; $java = (Get-Command java).Source }
 }
+# A JDK already fetched into this folder by an earlier run.
+$localJdk = Join-Path $root 'tools\jdk'
+if (-not $javac -and (Test-Path $localJdk)) {
+    $c = Get-ChildItem -Path $localJdk -Filter javac.exe -Recurse -ErrorAction SilentlyContinue |
+         Select-Object -First 1
+    if ($c) { $javac = $c.FullName; $java = Join-Path $c.DirectoryName 'java.exe' }
+}
+
+# Nothing on the machine: fetch a portable JDK into this folder. Deliberately NOT an install -
+# no admin prompt, no PATH change, nothing outside this directory, and deleting the folder
+# undoes it completely. Only ever downloaded once.
 if (-not $javac) {
-    Bad "No JDK found."
+    Work "No JDK found. Fetching a portable one into tools\jdk (about 180 MB, once)..."
+    $url = 'https://api.adoptium.net/v3/binary/latest/21/ga/windows/x64/jdk/hotspot/normal/eclipse'
+    $zip = Join-Path $env:TEMP 'mtg-temurin-21.zip'
+    try {
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        $ProgressPreference = 'SilentlyContinue'   # the progress bar makes this several times slower
+        Invoke-WebRequest -Uri $url -OutFile $zip -UseBasicParsing
+        New-Item -ItemType Directory -Force -Path $localJdk | Out-Null
+        Expand-Archive -Path $zip -DestinationPath $localJdk -Force
+        Remove-Item $zip -Force -ErrorAction SilentlyContinue
+        $c = Get-ChildItem -Path $localJdk -Filter javac.exe -Recurse -ErrorAction SilentlyContinue |
+             Select-Object -First 1
+        if ($c) { $javac = $c.FullName; $java = Join-Path $c.DirectoryName 'java.exe' }
+    } catch {
+        Bad "Could not download a JDK: $($_.Exception.Message)"
+    }
+}
+
+if (-not $javac) {
+    Bad "No JDK found, and one could not be fetched."
     Write-Host ""
-    Write-Host "  Install a JDK 17 or newer, then run this again. Either of these is fine:"
-    Write-Host "    winget install BellSoft.LibericaJDK.17.Full"
+    Write-Host "  This needs an internet connection the first time. If you are offline, or the"
+    Write-Host "  download is blocked, install a JDK 17 or newer yourself and run this again:"
     Write-Host "    winget install EclipseAdoptium.Temurin.21.JDK"
+    Write-Host "    winget install BellSoft.LibericaJDK.17.Full"
     Write-Host ""
     Write-Host "  A JRE is not enough - this compiles the AI hooks and the 3D UI from source."
     exit 1
 }
 $ver = (& $javac -version 2>&1) -join ''
-Ok "JDK: $ver"
+# build-tools, build-ui3d and play all find Java by looking on PATH after a hardcoded Liberica
+# path. Putting whichever JDK we settled on at the front of PATH for this process means they all
+# inherit it and need no changes - and it is what makes a portable JDK in tools\jdk work for the
+# whole pipeline rather than only here. Only affects this process and its children.
+$jdkBin = Split-Path -Parent $javac
+$env:PATH = "$jdkBin;$env:PATH"
+if (-not $env:JAVA_HOME) { $env:JAVA_HOME = Split-Path -Parent $jdkBin }
+if ($javac -like "$localJdk*") { Ok "JDK: $ver (portable, in tools\jdk)" } else { Ok "JDK: $ver" }
 
 # ---- 2. Forge --------------------------------------------------------------------------------
 # Committed to this repo on purpose, so that a clone runs without fetching anything and Forge

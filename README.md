@@ -16,9 +16,19 @@ in the name, so it can be typed without quoting.)
 That is the whole thing. It checks what is present, builds anything missing, and starts the game.
 It is safe to run every time — each step is skipped when it is already done.
 
-**You need a JDK 17 or newer** and nothing else. Not a JRE: the launcher compiles the AI hooks and
-the 3D table from source. If one is missing, the script says so and gives you the command to
-install one.
+**You need nothing installed.** If the machine has no JDK, the launcher fetches a portable one
+(Temurin 21, about 180 MB) into `tools\jdk` and uses it from there. That is a download, not an
+install: no admin prompt, no PATH change, nothing outside this folder, and deleting `tools\jdk`
+undoes it. It happens once. A JDK already on the machine is used instead, and a JRE is not
+enough, because this compiles the AI hooks and the 3D table from source.
+
+An internet connection is needed the first time, and only for that. Forge itself is in here.
+
+## Getting it
+
+`git clone`, or **Code → Download ZIP** on GitHub and unzip it — both give a complete, working
+copy. Windows marks executables that came out of a downloaded zip, so the first launch may show
+"Windows protected your PC"; **More info → Run anyway**.
 
 Two windows open. The 3D table is the one to play in; Forge's own window sits behind it and still
 answers anything the 3D table does not handle yet, so leave it running. Controls and the current

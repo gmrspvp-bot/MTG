@@ -55,3 +55,7 @@
 !/scratch/bug-reports/
 /scratch/bug-reports/*
 !/scratch/bug-reports/*.md
+
+# A portable JDK fetched by scripts\setup.ps1 when the machine has none. Downloaded, not
+# committed - 180 MB, and whichever build is current is fine.
+/tools/jdk/
