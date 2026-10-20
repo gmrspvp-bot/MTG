@@ -19,10 +19,12 @@ public final class Demo {
 
     /** Which lands start tapped. Fixed seed, so two runs of the demo render the same table. */
     private static final java.util.Random TAP_DICE = new java.util.Random(7);
+    private static final boolean DEMO_EVENTS = Boolean.getBoolean("forge.ui3d.demoEvents");
 
     public static void main(String[] args) {
         final Snapshot s = build();
         final long start = System.currentTimeMillis();
+        final boolean[] eventsDone = new boolean[3];
 
         // Forge's phases, so the demo drives the same keys the phase strip matches on.
         final String[] phases = {
@@ -70,6 +72,18 @@ public final class Demo {
                 state[0] = Math.max(0, state[0] - 1);
             }
 
+            // -Dforge.ui3d.demoEvents=true: a fixed timeline for screenshot checks of the moments
+            // (life popups, the YOUR TURN sweep), which otherwise need keys pressed at the right time.
+            if (DEMO_EVENTS) {
+                long ms = System.currentTimeMillis() - start;
+                if (ms > 2000 && !eventsDone[0]) { eventsDone[0] = true; state[2] = 1; }
+                if (ms > 3000 && !eventsDone[1]) {
+                    eventsDone[1] = true;
+                    s.seats.get(1).life -= 7;
+                    s.seats.get(0).life += 3;
+                }
+                if (ms > 4000 && !eventsDone[2]) { eventsDone[2] = true; state[2] = 0; state[1]++; }
+            }
             int phase = state[0], turn = state[1], active = state[2];
             String key = phases[phase];
             s.phaseKey = key;

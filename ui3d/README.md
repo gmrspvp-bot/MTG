@@ -495,11 +495,11 @@ is in brackets. Building the look first means the attended session is spent on w
 **Works now, read-only** - the data is already in the `Snapshot`, so these are useful the day
 they land:
 
-- [ ] Life-change popups: "-7" / "+3" floating up from a seat's monitor when its life changes.
+- [x] Life-change popups - done 2026-10-21 (`TableHud.noticeChanges/drawLifePops`): red "-7" / green "+3" rising and fading from the seat's centre monitor over 1.6 s; changes within 0.35 s add up, so a burst of damage is one number. Nothing on the first snapshot.
 - [ ] Draw and death animations: library -> hand, battlefield -> graveyard, driven by the zone
       counts and card ids changing between snapshots.
 - [ ] Hand cards lift and enlarge under the mouse; playable ones (Forge's selectable set) glow.
-- [ ] A "YOUR TURN" sweep across the screen when your turn begins (`Cues` already detects it).
+- [x] YOUR TURN sweep - done 2026-10-21 (`TableHud.drawYourTurn`): a gold band slides in across the middle, holds, fades (1.7 s). Demo: `-Dforge.ui3d.demoEvents=true` plays a fixed timeline (turn passes at 2 s, life changes at 3 s, your turn again at 4 s) for screenshot checks.
 - [ ] Each player's floating mana pool, shown at their seat.
 - [ ] Keyword reminders in the hover panel (flying, deathtouch, ward ...), one line each.
 **Under the floor**

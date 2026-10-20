@@ -36,6 +36,7 @@ abstract class TableHud extends TableScene {
     void drawOverlay() {
         int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
+        noticeChanges();
 
         drawCardBadges(flat);
         // The phase panel's background, BEFORE the label pass below: drawn after it (as it was),
@@ -85,8 +86,10 @@ abstract class TableHud extends TableScene {
         drawPhaseOnTable();
         drawZoneLabels();
         drawCentreTracker();
+        drawLifePops();
         drawStackLabels();
         ui.end();
+        if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
@@ -643,6 +646,102 @@ abstract class TableHud extends TableScene {
             font.setColor(0.92f, 0.74f, 0.42f, 1f);
             font.draw(ui, casts > 0 ? "COMMAND  tax +" + (2 * casts) : "COMMAND", p.x - 30, p.y + 6);
         }
+    }
+
+    // ---- moments: life changes and your turn -----------------------------------------------------
+
+    /** A "-7" or "+3" rising from a seat's monitor. */
+    static final class LifePop {
+        final int seat;
+        int delta;
+        float age;
+        LifePop(int seat, int delta) { this.seat = seat; this.delta = delta; }
+    }
+
+    final List<LifePop> lifePops = new ArrayList<>();
+    final java.util.Map<String, Integer> lastLife = new java.util.HashMap<>();
+    boolean momentsPrimed;
+    boolean lastYouActive;
+    /** Seconds since the YOUR TURN sweep started, or -1 when it is not showing. */
+    float yourTurnAge = -1f;
+    static final float POP_LIFE = 1.6f, POP_MERGE = 0.35f, SWEEP_LIFE = 1.7f;
+
+    /**
+     * Compares this snapshot with the last one and starts the moments that changed: a popup per
+     * life change (several within POP_MERGE of each other add up, so a burst of damage reads as
+     * one number), and the sweep when your own turn begins. Nothing fires on the first snapshot,
+     * so opening the window mid-game does not throw every life total at you.
+     */
+    void noticeChanges() {
+        for (LifePop p : lifePops) p.age += frameDt;
+        lifePops.removeIf(p -> p.age > POP_LIFE);
+        if (yourTurnAge >= 0f) {
+            yourTurnAge += frameDt;
+            if (yourTurnAge > SWEEP_LIFE) yourTurnAge = -1f;
+        }
+        boolean youActive = false;
+        for (int i = 0; i < snap.seats.size(); i++) {
+            Snapshot.SeatV s = snap.seats.get(i);
+            if (s.isYou && s.active) youActive = true;
+            Integer before = lastLife.put(s.name, s.life);
+            if (!momentsPrimed || before == null || before == s.life) continue;
+            LifePop merge = null;
+            for (LifePop p : lifePops) if (p.seat == i && p.age < POP_MERGE) merge = p;
+            if (merge != null) { merge.delta += s.life - before; merge.age = 0f; }
+            else lifePops.add(new LifePop(i, s.life - before));
+        }
+        if (momentsPrimed && youActive && !lastYouActive) yourTurnAge = 0f;
+        lastYouActive = youActive;
+        if (!snap.seats.isEmpty()) momentsPrimed = true;
+    }
+
+    /** The popups, inside the label pass. They rise and fade from the seat's centre monitor. */
+    void drawLifePops() {
+        int n = snap.seats.size();
+        for (LifePop p : lifePops) {
+            if (p.seat >= n || p.delta == 0) continue;
+            Vector3 w = rotateY(0f, MONITOR_DIST, seatAngle(p.seat, n));
+            Vector3 s = cam.project(new Vector3(w.x, 0.62f, w.z));
+            if (s.z > 1f) continue;
+            float t = p.age / POP_LIFE;
+            float a = t < 0.7f ? 1f : 1f - (t - 0.7f) / 0.3f;
+            String txt = (p.delta > 0 ? "+" : "") + p.delta;
+            fontBig.getData().setScale(2.2f);
+            if (p.delta < 0) fontBig.setColor(1f, 0.38f, 0.30f, a);
+            else fontBig.setColor(0.45f, 1f, 0.55f, a);
+            fontBig.draw(ui, txt, s.x + 26f, s.y + 34f + t * 70f);
+            fontBig.getData().setScale(1.6f);
+        }
+    }
+
+    /**
+     * YOUR TURN: a gold band sweeps in from the left across the middle of the screen, holds, and
+     * fades - the moment the 3D window most needs you to look at it, made hard to miss.
+     */
+    void drawYourTurn(int w, int h, Matrix4 flat) {
+        float t = yourTurnAge / SWEEP_LIFE;
+        float in = Math.min(1f, yourTurnAge / 0.25f);                  // slide in over 0.25 s
+        float a = t < 0.65f ? 1f : Math.max(0f, 1f - (t - 0.65f) / 0.35f);
+        float slide = (1f - smooth(in)) * -w;
+        float bandH = 90f, y = h * 0.58f;
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.03f, 0.05f, 0.08f, 0.72f * a);
+        shapes.rect(slide, y, w, bandH);
+        shapes.setColor(0.95f, 0.72f, 0.22f, a);
+        shapes.rect(slide, y, w, 3f);
+        shapes.rect(slide, y + bandH - 3f, w, 3f);
+        shapes.end();
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        GlyphLayout gl = new GlyphLayout();
+        fontBig.getData().setScale(3.2f);
+        fontBig.setColor(1f, 0.85f, 0.40f, a);
+        gl.setText(fontBig, "YOUR TURN");
+        fontBig.draw(ui, "YOUR TURN", slide + (w - gl.width) / 2f, y + bandH / 2f + gl.height / 2f);
+        fontBig.getData().setScale(1.6f);
+        ui.end();
     }
 
     /**
