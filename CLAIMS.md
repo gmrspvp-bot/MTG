@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - take over choose-from-a-list (library search); stack height | Xenil's Claude | 2026-10-21 | `Gui3D` takes `chooseSingleEntityForEffect`/`chooseEntitiesForEffect` into `SearchPanel` via `Handoff`; `Table3D` stack lowered. Not the event log or GY/EXI pads. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
