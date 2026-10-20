@@ -277,6 +277,12 @@ public final class StateReader {
                 Snapshot.CombatArc arc = new Snapshot.CombatArc();
                 arc.attackerId = a.getId();
                 arc.attackerName = a.getName();
+                try {
+                    CardView.CardStateView st = a.getCurrentState();
+                    if (st != null) arc.power = st.getPower();
+                } catch (Throwable ignored) {
+                    // the arrow just draws at its base weight
+                }
                 GameEntityView def = combat.getDefender(a);
                 // The far end is a seat or a permanent; a planeswalker or battle is a CardView,
                 // so both have to be carried and the renderer uses whichever is set.
@@ -332,6 +338,7 @@ public final class StateReader {
                 Snapshot.CardV v = src == null ? new Snapshot.CardV() : card(src, viewer);
                 String text = si.getText();
                 if (text != null && !text.isEmpty()) v.stackText = text;
+                try { v.stackIsAbility = si.isAbility(); } catch (Throwable ignored) { }
                 if (v.name == null || v.name.isEmpty()) v.name = v.stackText;
                 readTargets(si, order, v);
                 topFirst.add(v);

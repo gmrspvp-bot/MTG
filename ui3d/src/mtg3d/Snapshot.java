@@ -39,6 +39,8 @@ public final class Snapshot {
         public String controller = "";
         /** For a stack item: what it is actually doing, which may not be the card's own text. */
         public String stackText = "";
+        /** A stack item that is an activated or triggered ability rather than a spell. */
+        public boolean stackIsAbility;
         /** A token: no printing exists, so it never has cached art and should look different. */
         public boolean token;
         /**
@@ -101,6 +103,8 @@ public final class Snapshot {
         public String defenderName = "";
         /** Card ids blocking this attacker. Empty means it is getting through. */
         public final List<Integer> blockedBy = new ArrayList<>();
+        /** The attacker's power, so the arrow can be drawn as heavy as the hit it represents. */
+        public int power;
     }
 
     /** Every attack this combat, empty outside combat. */

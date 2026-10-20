@@ -1239,11 +1239,14 @@ public final class Table3D extends ApplicationAdapter {
                 continue;
             }
             boolean blocked = !a.blockedBy.isEmpty();
-            if (blocked) ribbon(from.x, from.z, tx, tz, 0.75f, 0.45f, 0.40f, 0.30f);
-            else         ribbon(from.x, from.z, tx, tz, 1.00f, 0.35f, 0.15f, 0.95f);
+            float weight = weightForPower(a.power);
+            if (blocked) ribbon(from.x, 0.12f, from.z, tx, 0.12f, tz, 0.75f, 0.45f, 0.40f, 0.30f, weight);
+            else         ribbon(from.x, 0.12f, from.z, tx, 0.12f, tz, 1.00f, 0.35f, 0.15f, 0.95f, weight);
             for (int b : a.blockedBy) {
                 Pose bp = poses.get(b);
-                if (bp != null) ribbon(bp.x, bp.z, from.x, from.z, 0.35f, 0.70f, 1.00f, 0.95f);
+                // A blocker's own arrow is drawn at its own weight, so a chump block reads as one.
+                if (bp != null) ribbon(bp.x, 0.12f, bp.z, from.x, 0.12f, from.z,
+                    0.35f, 0.70f, 1.00f, 0.95f, weightForPower(powerOf(b)));
             }
             if (arcs.getNumVertices() > 3600) {   // flush before the buffer fills
                 arcs.end();
@@ -1261,6 +1264,15 @@ public final class Table3D extends ApplicationAdapter {
      * spell is exactly the moment you want to see who it is pointed at. A target with no drawn
      * card (one in a graveyard or a hand) has nowhere to point, so it gets no arc.
      */
+    /** A drawn card's power, for weighting a blocker's arrow. 0 when it is not on the table. */
+    private int powerOf(int cardId) {
+        for (Drawn d : drawn) {
+            if (d.card.id != cardId) continue;
+            try { return Integer.parseInt(d.card.power); } catch (Exception e) { return 0; }
+        }
+        return 0;
+    }
+
     private void drawTargetArcs(int n) {
         for (int i = 0; i < snap.stack.size() && i < stackAt.size(); i++) {
             Snapshot.CardV c = snap.stack.get(i);
@@ -1275,19 +1287,43 @@ public final class Table3D extends ApplicationAdapter {
                     Pose p = poses.get(id);
                     if (p != null) to = new float[] { p.x, p.y + 0.1f, p.z };
                 }
-                if (to != null) ribbon(from[0], from[1], from[2], to[0], to[1], to[2], 0.78f, 0.45f, 1.0f, 0.95f);
+                // Violet for a spell, teal for an activated or triggered ability. They behave
+                // differently enough - an ability on the stack usually cannot be countered the
+                // same way - that telling them apart at a glance is worth a colour.
+                if (to != null) {
+                    if (c.stackIsAbility) ribbon(from[0], from[1], from[2], to[0], to[1], to[2], 0.35f, 0.88f, 0.82f, 0.95f);
+                    else ribbon(from[0], from[1], from[2], to[0], to[1], to[2], 0.78f, 0.45f, 1.0f, 0.95f);
+                }
             }
             for (int seat : c.targetSeats) {
                 if (seat < 0 || seat >= n) continue;
                 Vector3 s = seatPos(seatAngle(seat, n), SEAT_DIST);
-                ribbon(from[0], from[1], from[2], s.x, 0.12f, s.z, 0.78f, 0.45f, 1.0f, 0.95f);
+                if (c.stackIsAbility) ribbon(from[0], from[1], from[2], s.x, 0.12f, s.z, 0.35f, 0.88f, 0.82f, 0.95f);
+                else ribbon(from[0], from[1], from[2], s.x, 0.12f, s.z, 0.78f, 0.45f, 1.0f, 0.95f);
             }
         }
     }
 
     /** One arc from (x0,z0) to (x1,z1) across the table: see the general form below. */
     private void ribbon(float x0, float z0, float x1, float z1, float r, float g, float b, float alpha) {
-        ribbon(x0, 0.12f, z0, x1, 0.12f, z1, r, g, b, alpha);
+        ribbon(x0, 0.12f, z0, x1, 0.12f, z1, r, g, b, alpha, 1f);
+    }
+
+    private void ribbon(float x0, float y0, float z0, float x1, float y1, float z1,
+                        float r, float g, float b, float alpha) {
+        ribbon(x0, y0, z0, x1, y1, z1, r, g, b, alpha, 1f);
+    }
+
+    /**
+     * How heavy an attacker's arrow should be, from its power.
+     *
+     * Square-rooted and clamped: a 20/20 is a bigger hit than a 4/4 but not five times the
+     * ribbon, and without a ceiling a Ghalta-sized creature would black out the table. A 0-power
+     * attacker still draws a thin line rather than nothing, because it is still attacking.
+     */
+    private static float weightForPower(int power) {
+        float p = Math.max(0, power);
+        return Math.min(2.6f, 0.55f + 0.45f * (float) Math.sqrt(p));
     }
 
     /**
@@ -1295,14 +1331,14 @@ public final class Table3D extends ApplicationAdapter {
      * parabolic hump over it, ending in an arrowhead at the far end.
      */
     private void ribbon(float x0, float y0, float z0, float x1, float y1, float z1,
-                        float r, float g, float b, float alpha) {
+                        float r, float g, float b, float alpha, float weight) {
         float dx = x1 - x0, dz = z1 - z0;
         float len = (float) Math.sqrt(dx * dx + dz * dz);
         if (len < 0.3f) return;
         float peak = 0.6f + 0.16f * len;              // longer reaches fly higher, so they clear rows
         float sx = dz / len, sz = -dx / len;          // sideways, in the table's plane
         float tEnd = Math.max(0.5f, 1f - ARROW_LEN / len);
-        float half = ARC_WIDTH / 2f;
+        float half = ARC_WIDTH * weight / 2f;
         float px = 0, py = 0, pz = 0, pc = 0;
         for (int i = 0; i <= ARC_SEGMENTS; i++) {
             float t = tEnd * i / ARC_SEGMENTS;
@@ -1319,7 +1355,7 @@ public final class Table3D extends ApplicationAdapter {
             px = x; py = y; pz = z; pc = c;
         }
         // Arrowhead from the end of the ribbon down to the target.
-        float aw = ARC_WIDTH * 1.9f;
+        float aw = ARC_WIDTH * 1.9f * weight;
         vert(px - sx * aw, py, pz - sz * aw, r, g, b, alpha);
         vert(px + sx * aw, py, pz + sz * aw, r, g, b, alpha);
         vert(x1, y1, z1, r, g, b, alpha);
@@ -1640,42 +1676,56 @@ public final class Table3D extends ApplicationAdapter {
         }
         if (msg.isEmpty()) return;
 
-        float bw = Math.min(w - 80f, 900f), bh = 62f, x = (w - bw) / 2f, y = 96f;
+        // Bigger than it was: this is the one thing on screen that says the game is waiting on
+        // you, and at 62px with small text it read as a status line rather than a decision.
+        float bw = Math.min(w - 60f, 1120f), bh = 96f, x = (w - bw) / 2f, y = 104f;
         boolean waiting = okOn || cancelOn;
+        float btnW = 190f, btnH = 50f, gap = 14f;
 
         ui.end();
         Gdx.gl.glEnable(GL20.GL_BLEND);
         com.badlogic.gdx.math.Matrix4 flat = new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h);
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(0.02f, 0.08f, 0.13f, 0.93f);
+        shapes.setColor(0.02f, 0.08f, 0.13f, 0.95f);
         shapes.rect(x, y, bw, bh);
         shapes.setColor(waiting ? 0.95f : 0.18f, waiting ? 0.72f : 0.56f, waiting ? 0.24f : 0.71f, 1f);
-        shapes.rect(x, y + bh - 3f, bw, 3f);
+        shapes.rect(x, y + bh - 4f, bw, 4f);
 
-        float bx = x + bw - 230f;
-        if (okOn) {
-            okBtn[0] = bx; okBtn[1] = y + 14f; okBtn[2] = 100f; okBtn[3] = 34f;
-            shapes.setColor(0.16f, 0.46f, 0.30f, 1f);
-            shapes.rect(okBtn[0], okBtn[1], okBtn[2], okBtn[3]);
-        }
+        // Buttons sit from the right edge inwards, so one button or two both look deliberate.
+        float bx = x + bw - 20f - btnW;
+        float by = y + (bh - btnH) / 2f;
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
         if (cancelOn) {
-            cancelBtn[0] = bx + 112f; cancelBtn[1] = y + 14f; cancelBtn[2] = 100f; cancelBtn[3] = 34f;
-            shapes.setColor(0.40f, 0.18f, 0.16f, 1f);
-            shapes.rect(cancelBtn[0], cancelBtn[1], cancelBtn[2], cancelBtn[3]);
+            cancelBtn[0] = bx; cancelBtn[1] = by; cancelBtn[2] = btnW; cancelBtn[3] = btnH;
+            boolean hot = inRect(cancelBtn, mx, my);
+            shapes.setColor(hot ? 0.62f : 0.42f, hot ? 0.24f : 0.17f, hot ? 0.20f : 0.15f, 1f);
+            shapes.rect(bx, by, btnW, btnH);
+            bx -= btnW + gap;
+        }
+        if (okOn) {
+            okBtn[0] = bx; okBtn[1] = by; okBtn[2] = btnW; okBtn[3] = btnH;
+            boolean hot = inRect(okBtn, mx, my);
+            shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
+            shapes.rect(bx, by, btnW, btnH);
         }
         shapes.end();
         ui.begin();
 
-        font.setColor(waiting ? new Color(1f, 0.92f, 0.70f, 1f) : new Color(0.68f, 0.80f, 0.90f, 1f));
-        font.draw(ui, msg, x + 18f, y + bh - 18f, bw - 260f, -1, true);
+        float textW = bw - 60f - (okOn ? btnW + gap : 0f) - (cancelOn ? btnW + gap : 0f);
+        fontBig.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
+        fontBig.draw(ui, msg, x + 22f, y + bh - 26f, textW, -1, true);
         if (okOn) {
-            font.setColor(0.80f, 1f, 0.84f, 1f);
-            font.draw(ui, okLabel + "  (SPACE)", okBtn[0] + 10f, okBtn[1] + 22f);
+            fontBig.setColor(0.86f, 1f, 0.90f, 1f);
+            fontBig.draw(ui, okLabel, okBtn[0], okBtn[1] + 34f, btnW, 1, false);
+            font.setColor(0.60f, 0.86f, 0.70f, 1f);
+            font.draw(ui, "SPACE", okBtn[0], okBtn[1] + 14f, btnW, 1, false);
         }
         if (cancelOn) {
-            font.setColor(1f, 0.82f, 0.78f, 1f);
-            font.draw(ui, cancelLabel + "  (X)", cancelBtn[0] + 10f, cancelBtn[1] + 22f);
+            fontBig.setColor(1f, 0.86f, 0.82f, 1f);
+            fontBig.draw(ui, cancelLabel, cancelBtn[0], cancelBtn[1] + 34f, btnW, 1, false);
+            font.setColor(0.88f, 0.64f, 0.60f, 1f);
+            font.draw(ui, "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
         }
     }
 
