@@ -95,10 +95,45 @@ public final class CardArt {
                 if (dot <= 0) continue;
                 if (!n.endsWith(".jpg") && !n.endsWith(".png")) continue;
                 // "Sol Ring.fullborder.jpg" -> "sol ring". First one found wins; any printing will do.
-                index.putIfAbsent(key(n.substring(0, dot)), f);
+                String base = n.substring(0, dot);
+                index.putIfAbsent(key(base), f);
+                // Cards with several arts are saved with a number: "Plains1.fullborder.jpg". The
+                // card is called "Plains", so without this no basic land ever found its picture.
+                String plain = base.replaceFirst("\\d+$", "");
+                if (!plain.isEmpty() && !plain.equals(base)) index.putIfAbsent(key(plain), f);
             }
         }
     }
+
+    /**
+     * Forge downloads pictures while the game runs (the console's "Saved image to ..."), but the
+     * index was built once, when the window opened - so a card whose picture arrived later stayed
+     * a drawn stand-in for the whole game, and on a fresh install that was nearly every card. A
+     * card with no picture now asks for a rescan; one runs in the background at most every
+     * RESCAN_MS, and only while cards are missing. The next get() after it finds the file and
+     * swaps the real picture in.
+     */
+    private void rescanSoon() {
+        long now = System.currentTimeMillis();
+        if (rescanning || now - lastRescan < RESCAN_MS) return;
+        rescanning = true;
+        lastRescan = now;
+        Thread t = new Thread(() -> {
+            try {
+                scan(root, 0);
+            } catch (Throwable ignored) {
+                // try again next time
+            } finally {
+                rescanning = false;
+            }
+        }, "mtg3d-art-rescan");
+        t.setDaemon(true);
+        t.start();
+    }
+
+    private volatile boolean rescanning;
+    private volatile long lastRescan = System.currentTimeMillis();
+    static final long RESCAN_MS = 4000;
 
     private static String key(String name) {
         return name.toLowerCase().trim();
@@ -127,6 +162,7 @@ public final class CardArt {
         if (t != null) { lastUsed.put(k, frame); return t; }
 
         File f = index.get(k);
+        if (f == null) rescanSoon();
         if (f == null) {
             // No picture cached. Rather than leave a blank block - which is every basic land, and
             // most of the table - draw a readable face from what we know about the card. Keyed on

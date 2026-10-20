@@ -448,7 +448,16 @@ to know before starting:
       kept dim on purpose so the life total drawn over it stays readable.
 - [ ] *(original wording)* **The centre monitors**: make them look like actual screens, and put the public numbers
       on them — library, graveyard and exile counts alongside life.
-- [ ] **Card pictures that never arrive**: either fix the fetch or draw a better stand-in.
+- [x] **Card pictures that never arrive - found and fixed 2026-10-21 (Stoneforge).** Two causes
+      in `CardArt`: (1) cards with several arts are saved numbered (`Plains1.fullborder.jpg`) but
+      looked up as "plains", so no basic land ever found its picture - numbered files now also
+      count under the plain name; (2) the picture index was built once, when the window opened,
+      so pictures Forge downloads during the game (most of them, on a fresh install) were never
+      seen - a card with no picture now triggers a background rescan, at most every 4 s, and the
+      real picture replaces the stand-in. `scratch\probe\CardArtProbe.java` (3/3); demo screenshot
+      shows the Plains with art. The FaceMaker stand-in is unchanged and still covers anything
+      Forge has not downloaded.
+- [ ] *(original wording)* **Card pictures that never arrive**: either fix the fetch or draw a better stand-in.
       `CardArt` already falls back to a generated face (`FaceMaker`); the plain SPELL / CREATURE
       placeholders are what is being seen. Worth finding out *why* a given card has no art
       before improving the fallback — a fresh clone has no `forge-data\cache`, so the first
@@ -711,7 +720,8 @@ right to sit in front of.
   way; do not "optimise" the rebuild away without replacing the guarantee.
 - Graveyard, exile and library are pads with counts, not browsable piles.
 - The seated camera is a fixed pose, not a true first-person head position.
-- Basic lands have no art (see TODO).
+- A card shows a drawn stand-in until Forge has downloaded its picture (basic lands included
+  since 2026-10-21; pictures downloaded mid-game appear within a few seconds).
 
 ---
 
