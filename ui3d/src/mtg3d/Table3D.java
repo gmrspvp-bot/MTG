@@ -413,6 +413,13 @@ public final class Table3D extends ApplicationAdapter {
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
         // a game is actually running: in the demo nothing is installed and SPACE still steps the
         // phase, so the two never contend for the key.
+        // A yes/no the 3D window owns takes the keys first: Forge is no longer showing this
+        // question, so SPACE must answer it rather than pass priority underneath it.
+        if (Gui3D.pendingAsk() != null) {
+            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) Gui3D.answerAsk(true);
+            if (Gdx.input.isKeyJustPressed(Input.Keys.X)) Gui3D.answerAsk(false);
+            return;
+        }
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) && Gui3D.active()) {
             if (!Gui3D.pressOk()) {
                 System.out.println("UI3D: nothing to confirm right now");
@@ -1373,6 +1380,7 @@ public final class Table3D extends ApplicationAdapter {
         }
         drawPhasePanel(w, h);
         bug.drawCogText(ui, font, w, h);
+        drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {
             font.setColor(1f, 0.86f, 0.42f, 1f);
             font.draw(ui, "click to choose " + snap.seats.get(hoveredSeat).name,
@@ -1568,6 +1576,45 @@ public final class Table3D extends ApplicationAdapter {
             font.draw(ui, c.controller, p.x - 30, p.y);
             if (top) font.draw(ui, "resolving next", p.x - 30, p.y - 13);
         }
+    }
+
+    /**
+     * A question the 3D window is answering itself.
+     *
+     * Deliberately the loudest thing on screen. Forge is no longer showing this question and its
+     * game thread is blocked waiting for an answer, so a player who does not notice it has a
+     * game that appears to have frozen - the one failure the whole input plan is arranged to
+     * avoid. It names the card, spells out both keys, and says H hands it back to Forge.
+     */
+    private void drawPendingAsk(int w, int h) {
+        Gui3D.Ask ask = Gui3D.pendingAsk();
+        if (ask == null) return;
+        float bw = 760f, bh = 150f, x = (w - bw) / 2f, y = h * 0.60f;
+
+        ui.end();
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        com.badlogic.gdx.math.Matrix4 flat = new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.10f, 0.07f, 0.02f, 0.96f);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(0.98f, 0.76f, 0.24f, 1f);
+        shapes.rect(x, y + bh - 5f, bw, 5f);
+        shapes.rect(x, y, bw, 2f);
+        shapes.end();
+        ui.begin();
+
+        fontBig.setColor(1f, 0.90f, 0.55f, 1f);
+        String head = ask.cardName.isEmpty() ? "Forge is asking" : ask.cardName;
+        fontBig.draw(ui, head, x + 24f, y + bh - 24f);
+        font.setColor(0.95f, 0.95f, 0.92f, 1f);
+        font.draw(ui, ask.question, x + 24f, y + bh - 58f, bw - 48f, -1, true);
+        font.setColor(0.70f, 0.95f, 0.70f, 1f);
+        font.draw(ui, "SPACE = " + ask.yesLabel, x + 24f, y + 36f);
+        font.setColor(0.95f, 0.72f, 0.66f, 1f);
+        font.draw(ui, "X = " + ask.noLabel, x + 240f, y + 36f);
+        font.setColor(0.62f, 0.66f, 0.72f, 1f);
+        font.draw(ui, "H hands this question back to Forge's window", x + 24f, y + 16f);
     }
 
     /** Counts printed over each seat's library / graveyard / exile pads. */

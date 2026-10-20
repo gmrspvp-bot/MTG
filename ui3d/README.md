@@ -36,6 +36,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `LEFT` / `RIGHT` | Walk round the table to the next seat |
 | `DOWN` (or `HOME`) | Back to your own seat, and follow the turn again |
 | `S` | Open the search panel on demo data (temporary, until stage 3 drives it) |
+| `SPACE` / `X` | **When a question is on screen** - answer yes / no |
 | `SPACE` | **Demo only** - step to the next phase |
 | `ENTER` | **Demo only** - skip to the next player's turn |
 | `BACKSPACE` | **Demo only** - step back a phase |
@@ -375,8 +376,11 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 **B. A simple turn**
 
 - [x] Play a card, pass priority (`SPACE`), cancel (`X`) - done 2026-10-21.
-- [ ] **Yes/no confirmations.** Forge asks constantly ("use this ability?"). The highest-value
-      item left, because it interrupts every turn.
+- [x] **Yes/no confirmations - done 2026-10-21.** The **first method Forge no longer sees**.
+      `confirm` is answered in the 3D window: a loud banner naming the card, `SPACE` for yes,
+      `X` for no, `H` to hand it back. If nobody answers, the window stops drawing, or `H` is
+      pressed, `Handoff` gives it to Forge and the game carries on.
+      `scratch/probe/Ui3dConfirmTest.java` covers all four endings. PASS.
 - [ ] **Mana payment.** Forge auto-taps when unambiguous; when it is not, it asks which lands.
 - [ ] **Auto-pass / yields**, or playing from 3D stays far more clicking than Forge's window.
 

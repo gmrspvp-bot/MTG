@@ -42,7 +42,8 @@ public final class Gui3D implements InvocationHandler {
      * game thread. Once a method is in this set Forge never sees the call, so there is nothing to
      * fall back on if the 3D window cannot answer.
      */
-    private static final Set<String> TAKEN_OVER = new LinkedHashSet<>();
+    private static final Set<String> TAKEN_OVER = new LinkedHashSet<>(
+        java.util.Arrays.asList("confirm"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -109,6 +110,41 @@ public final class Gui3D implements InvocationHandler {
             }
         });
         return true;
+    }
+
+    /**
+     * A yes/no the 3D window is answering itself. Null when none is open.
+     *
+     * The first thing Forge no longer sees, so everything the safeguards exist for applies here:
+     * the game thread is blocked inside confirm() with no dialog anywhere else to click, and only
+     * Handoff can end that if this window cannot.
+     */
+    public static final class Ask {
+        public final String question;
+        public final String cardName;
+        public final String yesLabel, noLabel;
+        final Handoff<Boolean> handoff;
+        Ask(String question, String cardName, String yes, String no, Handoff<Boolean> h) {
+            this.question = question;
+            this.cardName = cardName;
+            this.yesLabel = yes;
+            this.noLabel = no;
+            this.handoff = h;
+        }
+    }
+
+    private static volatile Ask pending;
+
+    /** The question the 3D window should be showing, or null. */
+    public static Ask pendingAsk() {
+        return pending;
+    }
+
+    /** Answer it from the render thread. Ignored if it has already been settled by a handoff. */
+    public static void answerAsk(boolean yes) {
+        Ask a = pending;
+        if (a == null) return;
+        a.handoff.answer(yes);
     }
 
     /** What the engine last asked of us, mirrored for the 3D window. */
@@ -211,6 +247,10 @@ public final class Gui3D implements InvocationHandler {
                 // leave the original controller in place rather than break the game
             }
         }
+        if (TAKEN_OVER.contains(method.getName())) {
+            Object answered = take(method, args);
+            if (answered != NOT_HANDLED) return answered;
+        }
         try {
             return method.invoke(original, args);
         } catch (InvocationTargetException e) {
@@ -292,6 +332,54 @@ public final class Gui3D implements InvocationHandler {
     /** True once a game is running with the wrapper installed. */
     public static boolean active() {
         return controller != null;
+    }
+
+    /** Returned when a taken-over method decides to forward after all. */
+    private static final Object NOT_HANDLED = new Object();
+
+    /**
+     * Answer a taken-over method from the 3D window.
+     *
+     * Only `confirm` so far. The game thread blocks here until the player answers, Handoff times
+     * out, the window stops drawing, or they press H - and on any of those last three the call
+     * falls through to Forge, which is still perfectly able to ask it. That fallback is the whole
+     * reason this is safe to do at all.
+     */
+    private Object take(Method method, Object[] args) {
+        if (!"confirm".equals(method.getName())) return NOT_HANDLED;
+        // Never try to answer from 3D if the window is not drawing - go straight to Forge.
+        if (!Handoff.windowResponsive()) return NOT_HANDLED;
+        try {
+            String question = args.length > 1 && args[1] instanceof String ? (String) args[1] : "";
+            CardView card = args.length > 0 && args[0] instanceof CardView ? (CardView) args[0] : null;
+            String yes = "Yes", no = "No";
+            if (args.length > 3 && args[3] instanceof java.util.List) {
+                java.util.List<?> opts = (java.util.List<?>) args[3];
+                if (opts.size() > 0 && opts.get(0) != null) yes = String.valueOf(opts.get(0));
+                if (opts.size() > 1 && opts.get(1) != null) no = String.valueOf(opts.get(1));
+            }
+            Handoff<Boolean> h = Handoff.start("confirm: " + question);
+            pending = new Ask(question, card == null ? "" : card.getName(), yes, no, h);
+            try {
+                final Object[] forwarded = args;
+                final Method m = method;
+                Boolean result = h.awaitOr(() -> {
+                    // Handed back: let Forge ask it, exactly as if it had never been taken over.
+                    try {
+                        return (Boolean) m.invoke(original, forwarded);
+                    } catch (InvocationTargetException e) {
+                        throw new RuntimeException(e.getCause());
+                    }
+                });
+                return result == null ? Boolean.TRUE : result;
+            } finally {
+                pending = null;
+            }
+        } catch (Throwable t) {
+            System.out.println("UI3D: confirm failed, handing it to Forge (" + t + ")");
+            pending = null;
+            return NOT_HANDLED;
+        }
     }
 
     /** Copies prompt, buttons and selectables into PROMPT for the 3D window to draw. */
