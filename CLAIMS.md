@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - take over yes/no confirmations | Xenil's Claude | 2026-10-21 | `Gui3D` (`confirm` in TAKEN_OVER, answered via `Handoff`), `Snapshot` ask fields, `Table3D` confirm banner + SPACE/X. **First method Forge stops seeing** - the safeguards finally matter. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
