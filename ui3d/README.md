@@ -431,14 +431,22 @@ to know before starting:
 - [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.
-- [ ] Raise each battlefield a little off the felt.
+- [x] Raise each battlefield a little off the felt - **done 2026-10-21 (Stoneforge)**: a plinth
+      (`TableLayout.placePlinth`, `FIELD_RAISE` 0.12) under each seat's three rows, sized to the
+      widest row; rows, band slabs, attachments and the seat pad sit on it, the seat frame stays on
+      the felt round it. Each seat's plinth is 2 mm higher than the last so overlapping corners
+      never flicker.
 - [ ] Make it obvious which battlefield the command zone, exile, graveyard and library belong
       to. *(Partly in hand: owner-named zone pads and coloured seat frames are written but not
       yet built — see `CLAIMS.md`. The stacks above should carry the same colour.)*
 - [ ] **Overhead (birds-eye) mode: keep your hand visible and usable** — move it to the side
       rather than dropping it. Today the hand is anchored at your own seat and is edge-on or
       off-screen from above, which makes the overhead pose read-only.
-- [ ] **The centre monitors**: make them look like actual screens, and put the public numbers
+- [x] **Centre monitors - done 2026-10-21 (Stoneforge)**: a near-black bezel with glowing glass
+      inset (dark amber for whoever's turn it is, cyan for yours, steel blue otherwise, dull red
+      when out) on a stand; a "lib / gy / ex" line under life and commander damage. The glass is
+      kept dim on purpose so the life total drawn over it stays readable.
+- [ ] *(original wording)* **The centre monitors**: make them look like actual screens, and put the public numbers
       on them — library, graveyard and exile counts alongside life.
 - [ ] **Card pictures that never arrive**: either fix the fetch or draw a better stand-in.
       `CardArt` already falls back to a generated face (`FaceMaker`); the plain SPELL / CREATURE

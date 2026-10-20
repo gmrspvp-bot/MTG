@@ -130,14 +130,24 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.17f, 0.24f, 0.36f, 1f))), attrs);
         bandLand = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
             new Material(ColorAttribute.createDiffuse(new Color(0.12f, 0.29f, 0.26f, 1f))), attrs);
+        // The monitor's case: a near-black bezel. The glass (screenModel) is inset on its face and
+        // the stand (standModel) holds it up off the felt (TableLayout.placeMonitors).
         monitorModel = builder.createBox(2.1f, 0.07f, 1.25f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.13f, 0.20f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.03f, 0.05f, 0.07f, 1f))), attrs);
+        // Built white with an emissive glow; each instance sets its own tint (active / you / other).
+        screenModel = builder.createBox(1.92f, 0.01f, 1.07f,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE), ColorAttribute.createEmissive(new Color(0.10f, 0.20f, 0.28f, 1f))), attrs);
+        standModel = builder.createBox(0.16f, 0.42f, 0.16f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.07f, 0.09f, 1f))), attrs);
         // Built white: every instance overrides its own diffuse colour each frame, so the
         // model's colour is never the one you see (see TableLayout.placeSeatEdges).
         seatEdgeModel = builder.createBox(BAND_UNIT, 0.016f, EDGE_W,
             new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
             new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
+        // A battlefield's plinth: a shade lighter and greyer than the felt, so the raised area reads.
+        plinthModel = builder.createBox(1f, 1f, 1f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.20f, 0.29f, 1f))), attrs);
         // A zone's pile, a little smaller than its pad so the pad shows as a rim. Built white: each
         // instance sets its own colour (library / graveyard / exile) every frame.
         pileModel = builder.createBox(CARD_W * 0.78f, 1f, CARD_H * 0.78f,
@@ -432,6 +442,7 @@ public final class Table3D extends TableInput {
         backModel.dispose();
         zoneModel.dispose();
         pileModel.dispose();
+        plinthModel.dispose();
         commandPadModel.dispose();
         if (cues != null) cues.dispose();
         seatLostModel.dispose();
@@ -443,6 +454,8 @@ public final class Table3D extends TableInput {
         bandOther.dispose();
         bandLand.dispose();
         monitorModel.dispose();
+        screenModel.dispose();
+        standModel.dispose();
         selectModel.dispose();
         targetModel.dispose();
         pickedModel.dispose();

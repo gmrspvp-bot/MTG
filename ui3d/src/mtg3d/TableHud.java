@@ -1097,6 +1097,9 @@ abstract class TableHud extends TableScene {
                 font.draw(ui, d.amount + " " + shortName(d.from), p.x - 16, y);
                 y -= 13f;
             }
+            // The public counts, on the screen as well as on the piles (owner's list 2026-10-20).
+            font.setColor(0.62f, 0.74f, 0.84f, 1f);
+            font.draw(ui, "lib " + s.librarySize + "  gy " + s.graveyardSize + "  ex " + s.exileSize, p.x - 16, y);
         }
     }
 

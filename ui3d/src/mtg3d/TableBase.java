@@ -77,6 +77,10 @@ abstract class TableBase extends ApplicationAdapter {
     Model faceModel, attackModel, backModel, zoneModel, commandPadModel, seatLostModel;
     /** A zone's pile of cards: one unit tall, scaled to the zone's size (TableLayout.placeZones). */
     Model pileModel;
+    /** A battlefield's raised plinth: a unit cube, scaled to the seat's rows (TableLayout.placePlinth). */
+    Model plinthModel;
+    /** A centre monitor's glowing glass and its stand (TableLayout.placeMonitors). */
+    Model screenModel, standModel;
 
     Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
 

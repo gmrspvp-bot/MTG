@@ -139,10 +139,11 @@ abstract class TableLayout extends TableCamera {
             // so a player's board never moves out from under them when the view changes.
             float angle = seatAngle(i, n);
 
+            placePlinth(seat, i, angle);
             ModelInstance pad = inst(seat.lost ? seatLostModel
                 : seat.hasPriority ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
-            pad.transform.setToTranslation(c.x, -0.01f, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
+            pad.transform.setToTranslation(c.x, -0.01f + FIELD_RAISE, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
             seatPads.add(pad);
 
             // Three bands per seat, running from the middle of the table outwards: creatures,
@@ -324,6 +325,22 @@ abstract class TableLayout extends TableCamera {
                 .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
                 .rotate(Vector3.X, 34f);
             props.add(inst);
+            // Owner's list 2026-10-20: "make them look like actual screens". The glass, inset on
+            // the bezel's face and glowing - gold for whoever's turn it is, cyan for your own,
+            // steel blue otherwise - and a stand under the case.
+            Snapshot.SeatV s = snap.seats.get(i);
+            ModelInstance glass = inst(screenModel);
+            glass.transform.set(inst.transform).translate(0f, 0.035f, 0f);
+            Color tint = s.lost ? SCREEN_OUT : s.active ? SCREEN_ACTIVE : s.isYou ? SCREEN_YOU : SCREEN_OTHER;
+            // Dim glass: the life total is drawn over it in a bright colour of the same family, so
+            // the screen must stay dark enough for that to read (a bright gold screen hid the
+            // active player's gold number).
+            glass.materials.get(0).set(ColorAttribute.createDiffuse(tint.r * 0.55f, tint.g * 0.55f, tint.b * 0.55f, 1f));
+            glass.materials.get(0).set(ColorAttribute.createEmissive(tint.r * 0.30f, tint.g * 0.30f, tint.b * 0.30f, 1f));
+            props.add(glass);
+            ModelInstance stand = inst(standModel);
+            stand.transform.setToTranslation(w.x, 0.21f - 0.015f, w.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
+            props.add(stand);
             // Each player's own screen doubles as the thing you click to pick that player -
             // choosing who starts, or targeting a seat. It is already one per player and already
             // carries their name and life, so it needs no separate hit target.
@@ -350,7 +367,7 @@ abstract class TableLayout extends TableCamera {
             Vector3 w = rotateY(along, dist, angle);
             // LibGDX's rotate(Y, deg) is the inverse of the rotation above, hence the minus.
             float yaw = (float) Math.toDegrees(-angle) + (c.tapped ? 90f : 0f);
-            add(c, seat, w.x, w.z, yaw);
+            add(c, seat, w.x, 0.02f + FIELD_RAISE, w.z, yaw, 0f);
             if (attachedHere.containsKey(c.id)) {
                 hostTargets.put(c.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
             }
@@ -393,7 +410,7 @@ abstract class TableLayout extends TableCamera {
                 // Toward the table centre is the seat's local -Z (the top of an untapped card).
                 // Attachments lie like the host, so they are as deep as it is and only the peek shows.
                 Vector3 off = rotateY(0f, -ATTACH_PEEK * (k + 1), seatAngle);
-                add(c, seat, host[0] + off.x, -0.004f * (k + 1), host[1] + off.z, host[2], 0f);
+                add(c, seat, host[0] + off.x, FIELD_RAISE - 0.004f * (k + 1), host[1] + off.z, host[2], 0f);
             }
         }
     }
@@ -460,6 +477,37 @@ abstract class TableLayout extends TableCamera {
     }
 
     /**
+     * Owner's list 2026-10-20: "raise each battlefield a little off the felt". A plinth under each
+     * seat's three rows, from just in front of the creature row to just behind the land row and
+     * as wide as the widest row; the rows, their band slabs, attachments and the seat pad sit on
+     * it (FIELD_RAISE). The seat frame stays on the felt, round the outside. Neighbouring seats'
+     * areas meet at the table corners, so each plinth is a hair higher than the last - two at
+     * exactly the same height would flicker where they overlap.
+     */
+    void placePlinth(Snapshot.SeatV seat, int index, float angle) {
+        float widest = 6f;                                   // never narrower than the seat pad area
+        for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
+            float w = 0.5f - GAP;
+            for (Snapshot.CardV c : unattached(row)) w += (c.tapped ? CARD_H : CARD_W) + GAP;
+            widest = Math.max(widest, w + 0.6f);
+        }
+        float near = ROW_CREATURES - CARD_H / 2f - 0.35f, far = ROW_LANDS + CARD_H / 2f + 0.35f;
+        float h = FIELD_RAISE + index * 0.002f;
+        Vector3 c = rotateY(0f, (near + far) / 2f, angle);
+        ModelInstance inst = inst(plinthModel);
+        inst.transform.setToTranslation(c.x, -0.015f + h / 2f, c.z)
+            .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
+            .scale(widest, h, far - near);
+        props.add(inst);
+    }
+
+    static final Color SCREEN_ACTIVE = new Color(0.42f, 0.28f, 0.08f, 1f), SCREEN_YOU = new Color(0.16f, 0.42f, 0.50f, 1f),
+        SCREEN_OTHER = new Color(0.16f, 0.27f, 0.38f, 1f), SCREEN_OUT = new Color(0.20f, 0.10f, 0.10f, 1f);
+
+    /** How far the battlefield (plinth top) sits above the felt. */
+    static final float FIELD_RAISE = 0.12f;
+
+    /**
      * The faint slab under a band of permanents. Only drawn when the band has something in it, so
      * an empty board stays clean rather than showing three empty trays.
      */
@@ -470,7 +518,7 @@ abstract class TableLayout extends TableCamera {
         for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
         Vector3 w = rotateY(0f, dist, angle);
         ModelInstance inst = inst(band);
-        inst.transform.setToTranslation(w.x, -0.005f, w.z)
+        inst.transform.setToTranslation(w.x, -0.005f + FIELD_RAISE, w.z)
             .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
             .scale(width / BAND_UNIT, 1f, 1f);
         props.add(inst);
