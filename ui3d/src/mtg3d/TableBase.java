@@ -106,11 +106,16 @@ abstract class TableBase extends ApplicationAdapter {
     final NumberPicker numbers = new NumberPicker();
     /** Scry / surveil / trigger ordering. Made in create(), since it needs the card art. */
     OrderPanel order;
+    /** The opening hand: keep / mulligan, and the London bottom pick. Made in create(). */
+    MulliganPanel mulligan;
+    /** Results and Rematch / Next / Quit when a game ends; opens by itself once per game. */
+    final EndScreen endScreen = new EndScreen();
+    boolean endShown;
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
     boolean panelOpen() {
         return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
-            || (order != null && order.isOpen());
+            || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen();
     }
 
     final BugReport bug = new BugReport();

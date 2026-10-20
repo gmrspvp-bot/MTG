@@ -34,6 +34,32 @@ abstract class TableInput extends TableHud {
      * Demo trigger (S): opens the search panel over everything currently in the snapshot, so the
      * animation and the grid can be exercised before stage 3 has anything real to search.
      */
+    /**
+     * The ESC menu, built on OptionPanel. The toggles act at once and reopen the menu so their new
+     * state shows; concede and undo are listed but not wired to Forge yet (attended work), and say so.
+     */
+    void openMenu() {
+        List<OptionPanel.Option> o = new ArrayList<>();
+        o.add(new OptionPanel.Option("Resume", "back to the table", null));
+        o.add(new OptionPanel.Option("Sound: " + (cues != null && cues.muted() ? "off" : "on"), "M", null));
+        o.add(new OptionPanel.Option("Game log: " + (showLog ? "shown" : "hidden"), "L", null));
+        o.add(new OptionPanel.Option("Follow the turn: " + (followTurn ? "on" : "off"), "the camera walks to whoever's turn it is", null));
+        o.add(new OptionPanel.Option("Undo / restart this phase", "not wired yet - use Forge's window", null));
+        o.add(new OptionPanel.Option("Concede", "not wired yet - use Forge's window", null));
+        o.add(new OptionPanel.Option("Keys", "SPACE ok  X cancel  H hand back  TAB camera  arrows walk  wheel zoom", null));
+        options.open("Menu", "ESC closes", o, 1, 1, picked -> {
+            if (picked.isEmpty()) return;
+            switch (picked.get(0)) {
+                case 1: if (cues != null) cues.toggleMute(); openMenu(); break;
+                case 2: showLog = !showLog; openMenu(); break;
+                case 3: followTurn = !followTurn; lastActiveSeat = activeSeat(); openMenu(); break;
+                case 4: case 5: System.out.println("UI3D: not wired to Forge yet - use Forge's window"); break;
+                case 6: openMenu(); break;
+                default: break;
+            }
+        });
+    }
+
     static final String OPEN_PANEL = System.getProperty("forge.ui3d.openPanel");
     boolean panelShown;
 
@@ -111,6 +137,23 @@ abstract class TableInput extends TableHud {
                     new String[] { "Stack order" }, new String[] { "resolves last" }, r -> { });
                 break;
             }
+            case "mulligan": {
+                List<Snapshot.CardV> h = new ArrayList<>(snap.hand);
+                int id = 1000;
+                for (String n : new String[] { "Plains", "Sol Ring", "Command Tower" }) h.add(new Snapshot.CardV(id++, n, "", false, !n.equals("Sol Ring")));
+                mulligan.openKeep(h, 0, keep -> System.out.println("UI3D: keep " + keep));
+                break;
+            }
+            case "bottom": {
+                List<Snapshot.CardV> h = new ArrayList<>(snap.hand);
+                int id = 1010;
+                for (String n : new String[] { "Plains", "Sol Ring", "Command Tower" }) h.add(new Snapshot.CardV(id++, n, "", false, !n.equals("Sol Ring")));
+                mulligan.openBottom(h, 1, cards -> { });
+                break;
+            }
+            case "menu":
+                openMenu();
+                break;
             default:   // "x"
                 numbers.open("Choose X", "Wrath of the Skies: X energy, then pay any amount.", 0, 9, 3,
                     x -> "you pay {" + x + "}{W}{W}  -  total " + (x + 2) + " mana", v -> { });
@@ -216,7 +259,11 @@ abstract class TableInput extends TableHud {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
         }
-        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) manualOverride = false;
+        // ESC: releases a camera held with TAB, as before; otherwise it opens the menu.
+        if (Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)) {
+            if (manualOverride) manualOverride = false;
+            else { openMenu(); return; }
+        }
 
         int n = snap.seats.size();
         if (n == 0) return;

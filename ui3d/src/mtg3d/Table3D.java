@@ -150,6 +150,7 @@ public final class Table3D extends TableInput {
         art = new CardArt(CardArt.defaultRoot());
         search = new SearchPanel(art);
         order = new OrderPanel(art);
+        mulligan = new MulliganPanel(art);
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
@@ -290,6 +291,16 @@ public final class Table3D extends TableInput {
         numbers.render(ui, shapes, font, fontBig);
         order.update(Gdx.graphics.getDeltaTime());
         order.render(ui, shapes, font, fontBig);
+        mulligan.update(Gdx.graphics.getDeltaTime());
+        mulligan.render(ui, shapes, font, fontBig);
+        // The end screen opens by itself, once, when the game ends; ESC leaves the board to look at.
+        if (snap.gameOver && !endShown) {
+            endShown = true;
+            endScreen.open(snap, what -> System.out.println("UI3D: end screen chose " + what + " (not wired yet)"));
+        }
+        if (!snap.gameOver) endShown = false;
+        endScreen.update(Gdx.graphics.getDeltaTime());
+        endScreen.render(ui, shapes, font, fontBig);
         maybeShoot();
         WindowMemory.track();
     }

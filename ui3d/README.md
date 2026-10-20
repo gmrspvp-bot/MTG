@@ -479,14 +479,11 @@ is in brackets. Building the look first means the attended session is spent on w
 - [x] Number picker - **look done 2026-10-21**, `NumberPicker.java`: big number, -/+ buttons, arrows or wheel, ENTER / ESC, and a `Hint` line that says what the X costs ("you pay {3}{W}{W} - total 5 mana"). **To wire (attended):** `IGuiGame.getInteger`. Demo: `-Dforge.ui3d.openPanel=x`. *(C. X costs)*
 - [x] Scry / surveil - **look done 2026-10-21**, `OrderPanel.java` in two-row mode: drag within or between rows, a click sends a card across, positions numbered ("1 = drawn first"). **To wire (attended):** Forge's scry / surveil / `order` decisions. Demo: `-Dforge.ui3d.openPanel=scry|surveil`. *(E. Scry and surveil)*
 - [x] Trigger ordering - **look done 2026-10-21**, `OrderPanel` in one-row mode, each trigger shown as its source card with what it does underneath, "1 = resolves last". **To wire (attended):** `IGuiGame.order` for simultaneous triggers. Demo: `-Dforge.ui3d.openPanel=triggers`. *(E. Ordering triggers)*
-- [ ] Mulligan screen: the opening hand fanned large in the middle, Keep / Mulligan buttons, and the
-      London "put N on the bottom" pick. *(A. London mulligan)*
+- [x] Mulligan screen - **look done 2026-10-21**, `MulliganPanel.java`: the hand fanned large over a dimmed table, Keep N / Mulligan (to N-1) (SPACE / M); London mode lifts and dims the cards you click, Confirm lights at exactly N. **To wire (attended):** Forge's mulligan Input and the London bottom choice. Demo: `-Dforge.ui3d.openPanel=mulligan|bottom`. *(A. London mulligan)*
 - [ ] Mana payment: lands that can pay lit, tapped ones dimmed as they are chosen, the cost
       ticking down. *(B. Mana payment)*
-- [ ] End-of-game screen: winner, turns, damage dealt and taken, Rematch / Next game / Quit
-      buttons. *(E. Game over, concede, next game)*
-- [ ] ESC menu: concede, undo / restart phase, sound, log, camera follow, a key list.
-      *(E. Concede, Undo)*
+- [x] End-of-game screen - **look done 2026-10-21**, `EndScreen.java`: opens by itself once when the game ends - "You win!" / "X wins", turns, every player's final life or OUT and the most commander damage they took; Rematch / Next game / Quit; ESC leaves the final board (the GAME OVER band stays). **To wire (attended):** `IGameController.nextGameDecision`. *(E. Game over, concede, next game)*
+- [x] ESC menu - **look done 2026-10-21** (`TableInput.openMenu`, on `OptionPanel`): ESC opens it unless it is releasing a TAB-held camera. Sound / game log / follow-the-turn toggle live; Undo and Concede are listed as not wired yet; a key list. **To wire (attended):** concede and undo. *(E. Concede, Undo)*
 
 **Works now, read-only** - the data is already in the `Snapshot`, so these are useful the day
 they land:
