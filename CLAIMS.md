@@ -30,7 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: board layout - per-seat rectangles, stacked identical permanents, angled dais | Xenil's Claude | 2026-10-21 | Owner's request mid-game. `TableLayout`, `TableBase`, `TableCamera`. |
+| ui3d: phase strip, phase keys (N / arrows), WASD camera, saved views 7-9, zone overlap | Xenil's Claude | 2026-10-21 | Owner's list after a four-player game. `TableHud`, `TableInput`, `TableCamera`, `TableLayout`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
