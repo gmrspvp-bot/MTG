@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - life-change popups and a YOUR TURN sweep | dmara's Claude | 2026-10-21 | `TableHud` only (new methods + their state), one call each in `drawOverlay`. `Demo`: a key-free way to change life for screenshots. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
