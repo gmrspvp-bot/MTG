@@ -247,9 +247,6 @@ before you start, and push the claim before writing code.
 - [x] **Stadium scoreboard** (2026-10-20): a jumbotron hanging over the stack (y 5.4), one 3.6 x 1.35 face turned to each seat (an n-sided ring; a body box behind them at 4 seats), each showing the turn and every player's life - active in gold on a lit band, you in cyan, "> " on priority. Phase deliberately left to the phase strip. A FrameBuffer texture redrawn only when a total changes; drawn unlit like a screen; fades out as the camera lifts, so the overhead view is clear. The four table monitors stay (they carry commander damage). `drawScoreboard` / `refreshScoreboard` in `Table3D`.
 
 - [x] **Phase panel, next steps** (2026-10-21): a PRIORITY block under the steps - stack depth, and a row per seat reading deciding (lit) / passed / waiting / out. `SeatV.passed` comes from Forge's private `PhaseHandler.pFirstPriority` by reflection (no getter): the players from it, in turn order, up to the current priority holder have passed. Also fixed: the panel's background was drawn AFTER its labels (88% opaque, so every label was dimmed, and it covered the hover card and game-over banner); and the header was too short for its two lines, so "your seat" overlapped Untap.
-- [ ] **A key to pass priority / advance**, so the 3D view can drive the game's pace rather than
-      only watching it.
-- [ ] **Mulligan and the opening hand** are not drawn at all; the game starts mid-stride.
 - [x] **Game over** (2026-10-20): a lost player's seat stays put but its pad goes dull red, its label and scoreboard row read OUT; when the game ends a translucent band says GAME OVER and who won (`GameView.isGameOver` / `getWinningPlayerName`). **Seat order now comes from `game.getRegisteredPlayers()` mapped to their views**, because `gv.getPlayers()` is `Game.getPlayers()`, which drops a player the moment they lose and would shift every seat after them. `SeatV.lost`, `Snapshot.gameOver`/`winner`. Demo: `-Dforge.ui3d.demoLost=Zerma -Dforge.ui3d.demoWinner=Xenil`.
 - [x] **Spell targets** (2026-10-20): violet arcs from each stack item to what it targets - a permanent, a player's seat, or another stack item (a counterspell hops across the bar) - drawn whenever the stack holds a targeted spell, not only in combat. `CardV.targetIds`/`targetSeats`, read from `StackItemView.getTargetCards/Players` along the whole sub-instance chain. Targets with no drawn card (graveyard, hand) get no arc. Demo: `-Dforge.ui3d.demoPhase=COMBAT_DECLARE_BLOCKERS` starts with three targeted spells on the stack.
 - [x] **Emblems, day/night, monarch, the ring, the initiative** (2026-10-20): emblems sit in the command zone. A line of marks under each seat's totals - MONARCH, INITIATIVE, CITY'S BLESSING, RING-BEARER (named unless face down), SPEED n, and every player counter (POISON, ENERGY, EXPERIENCE, RAD...; poison was read before but never drawn). Day/night follows the phase on the table and heads the scoreboard. `SeatV.marks`, `Snapshot.dayNight`. The designations are not in the view layer, so `readMarks` reads `Game`/`Player` - acceptable only because all of it is public.
@@ -346,67 +343,102 @@ then it would leave every unimplemented decision with nothing to answer it.
       declared selectable can be sent, so the 3D side chooses among Forge's own legal options
       and can never offer a play the rules disallow. Targeting through the same path still needs
       doing.
-#### Making it playable, in the order a game needs them
+#### Making it playable: attended and unattended work
 
-Ordered by the arc of an actual game rather than by difficulty, because that is the order you hit
-them in and each one unblocks the next bit of play. Anything not yet taken over simply falls
-through to Forge's window, so the game is playable throughout.
+Split by **whether a human has to be at the keyboard**, because that decides what is worth doing
+when. The owner is not always available, and some of this genuinely cannot be judged without them.
 
-Each entry says what Forge asks and what it needs from us. `SearchPanel` and `Handoff` already
-exist; most of the list is calling them from the right `IGuiGame` method.
+**Attended** - needs someone playing. These are play-flow changes whose failures are invisible from
+here: a prompt that never arrives, a click that answers the wrong decision, a step silently
+skipped. Probes can show the logic is right; only a game shows it is *wired* right. Nearly every
+real bug so far (the land that would not play, the bug box that would not type, seats that gave no
+hint they were clickable) was found in a game and could not have been found without one.
+
+**Unattended** - safe to build and verify alone. Looks, layout, visibility, and anything provable
+by a probe or by rendering to a PNG and looking at it. Whether it looks *good* still wants the
+owner's eye, but it can be built and reviewed in a batch later rather than blocking on them.
+
+Within the attended list the order is the arc of a game, because that is the order you hit them in.
+Anything not yet taken over falls through to Forge's window, so the game stays playable throughout.
+
+---
+
+### Attended — needs someone playing
 
 **A. Starting a game**
 
-- [x] **Choose who starts - done 2026-10-21.** Click a player's life monitor at the table centre.
-      It is already one per player and already carries their name and life, so it needed no
-      separate hit target. Seats are only picked when no card is under the cursor, so a card
-      lying over a monitor still wins. The same path covers targeting a player.
-- [x] **Mulligan, keep or throw back - confirmed working 2026-10-21.** It is a plain
-      OK/Cancel, so `SPACE` already covered it. Nothing was written.
+- [x] Choose who starts - done 2026-10-21.
+- [x] Mulligan, keep or throw back - `SPACE` already covered it.
 - [ ] **London mulligan: put N cards back.** A choose-from-hand. `SearchPanel` with `min=max=N`.
 - [ ] **Opening-hand actions** (Leylines, Chancellors). Rare; a yes/no.
 
 **B. A simple turn**
 
-- [x] Play a card - done 2026-10-21.
-- [x] Pass priority (`SPACE`) and cancel (`X`) - done 2026-10-21.
-- [ ] **Yes/no confirmations.** Forge asks constantly ("use this ability?"). Likely the single
-      highest-value item after who-starts, because it interrupts every turn.
+- [x] Play a card, pass priority (`SPACE`), cancel (`X`) - done 2026-10-21.
+- [ ] **Yes/no confirmations.** Forge asks constantly ("use this ability?"). The highest-value
+      item left, because it interrupts every turn.
 - [ ] **Mana payment.** Forge auto-taps when unambiguous; when it is not, it asks which lands.
-      Needs clicking a land to tap it for a cost.
+- [ ] **Auto-pass / yields**, or playing from 3D stays far more clicking than Forge's window.
 
 **C. Spells that ask questions**
 
-- [ ] **Targeting.** Click a creature, player or permanent as a target. Reuses the card-click path
-      that already works, plus `selectPlayer` for seats.
-- [ ] **Modal spells** ("choose one"). A list choice - `SearchPanel`, or a small mode list.
-- [ ] **X costs.** A number prompt.
-- [ ] **Optional and additional costs** - sacrifice, discard, pay life.
-- [ ] **Choose a card from a list** - search a library, pick from a graveyard, from exile.
-      `SearchPanel` is built for exactly this and is the first real use of `Handoff`.
-- [ ] **Choose a player, a colour, a card type, a number.** Small prompts, all currently Forge's.
+- [ ] **Targeting.** Click a creature, player or permanent. Reuses the card-click and player-click
+      paths that already work.
+- [ ] **Choose a card from a list** - search a library, pick from a graveyard or exile.
+      `SearchPanel` is built for it; first real use of `Handoff`.
+- [ ] **Modal spells** ("choose one"), **X costs**, **optional and additional costs**.
+- [ ] **Choose a player, a colour, a card type, a number.**
 
 **D. Combat**
 
-- [ ] **Declare attackers**, including which opponent or planeswalker each attacks. The arcs are
-      already drawn; this is the input side of them.
+- [ ] **Declare attackers**, including which opponent or planeswalker each attacks.
 - [ ] **Declare blockers**, assigning each blocker to an attacker.
 - [ ] **Damage assignment order** when one attacker is blocked by several creatures.
 
 **E. Housekeeping**
 
-- [ ] **Ordering simultaneous triggers.** `SearchPanel` remembers pick order already, which is
-      what this needs.
+- [ ] **Ordering simultaneous triggers.** `SearchPanel` already remembers pick order.
 - [ ] **Scry and surveil** - top or bottom, in order.
 - [ ] **Discard to hand size.**
-- [ ] **Game over, concede, next game.** Nothing currently marks a game as finished in 3D.
+- [ ] **Game over, concede, next game.**
+- [ ] **Undo**, and Forge's "restart this phase".
 
-**Not decisions, but needed before it is comfortable**
+**F. Lobby** (was stage 4)
 
-- [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode - no pick).
-- [ ] See what a spell on the stack is targeting.
-- [ ] Undo, and Forge's "restart this phase".
-- [ ] Auto-pass / yield settings, or playing is far more clicking than Forge's window.
+- [ ] `IGuiBase`, enough to start a game without Forge's screens.
+- [ ] Four-player pod setup with AI opponents and the `Realistic` profile.
+- [ ] Network lobby - the owners play over Radmin LAN, so a joining player needs an **OPEN** slot
+      (see the root `CLAUDE.md`).
+
+---
+
+### Unattended — safe to build and verify alone
+
+**Looks and layout**
+
+- [ ] Seat pads are large plain slabs that dominate the table; smaller and darker.
+- [ ] The mulligan and opening hand are not drawn at all - a game starts mid-stride.
+- [ ] Card movement between zones still teleports; `Drawn` persists now, so it can interpolate.
+- [ ] A proper table surface and surround rather than a flat blue slab.
+- [ ] Tokens, emblems and face-down cards could read better at a glance.
+
+**Visibility**
+
+- [ ] Browse a graveyard or exile pile (`SearchPanel` in browse mode, no pick) - needs only a
+      click target on the existing pads.
+- [ ] Show what a spell on the stack is targeting; `Snapshot` carries target ids already.
+- [ ] Show *why* a card cannot be played, when Forge refuses a click.
+- [ ] A visible log of recent events, so a missed trigger can be read back.
+
+**Under the floor**
+
+- [ ] `Table3D` is ~1,900 lines holding camera, input, layout, picking and five overlays. Camera,
+      overlays and table layout are three clean seams, and every merge conflict so far has been in
+      this file.
+- [ ] `layout()` allocates ~90 `ModelInstance` plus vectors and colours **every frame** - roughly
+      6,000 objects a second. Java copes, but it shows as GC stutter.
+- [ ] A screenshot mode that renders a known snapshot to a PNG, so look-and-feel changes can be
+      compared without a game. `FacePreview` already proves the pattern works.
 
 #### Agreed plan (owner approved 2026-10-21)
 
@@ -455,16 +487,6 @@ The proposal above is **accepted**. Work it in this order. Claim each step in `C
 A note on the reflection proxy: it adapts automatically when Forge changes a method, which is the
 point - but it also means a changed signature fails at **runtime, mid-game**, rather than at
 compile time. Worth a startup check that every method the table has taken over still exists.
-
-### Stage 4 — lobby and deck selection
-
-- [ ] `IGuiBase`, enough to start a game without Forge's screens.
-- [x] Read the existing `decks\*.dck` — `DeckLibrary` lists name, commanders and counts
-      with no card database needed; `DeckLibrary.load()` hands a file to Forge's own
-      reader once a game is actually being started
-- [ ] Four-player pod setup with AI opponents and the `Realistic` profile.
-- [ ] Network lobby — the owners play over Radmin LAN, so a joining player needs an **OPEN** slot
-      (see the root `CLAUDE.md` on multiplayer).
 
 ### Stages
 
