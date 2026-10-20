@@ -136,6 +136,8 @@ public final class Snapshot {
          * or the step ends - so the seats NOT yet passed are the ones everyone is waiting on.
          */
         public boolean passed;
+        /** Floating mana, by colour: W, U, B, R, G, colourless. Public; usually all zero. */
+        public final int[] mana = new int[6];
         public boolean active;          // whose turn it is
         public boolean hasPriority;
         /**

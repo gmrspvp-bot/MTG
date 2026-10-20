@@ -221,6 +221,9 @@ public final class Demo {
         s.seats.get(1).marks.add("INITIATIVE");
         s.seats.get(1).marks.add("ENERGY 3");
         s.dayNight = "NIGHT";
+        // Floating mana in one pool (Zerma mid-ritual), so the pool line shows.
+        s.seats.get(3).mana[2] = 3;
+        s.seats.get(3).mana[3] = 1;
 
         // Graveyards and an exile pile to browse from their pads, and a few lines of game log.
         int gid = 990;

@@ -83,6 +83,12 @@ public final class StateReader {
                 seat.poison = counter(pv, "POISON");
                 readCommanderDamage(pv, order, seat);
                 readMarks(game, pv, seat);
+                try {
+                    // Floating mana is public: everyone sees what a player has in their pool.
+                    for (int m = 0; m < 6; m++) seat.mana[m] = pv.getMana(forge.card.MagicColor.WUBRGC[m]);
+                } catch (Throwable t) {
+                    // no pool shown
+                }
 
                 for (CardView cv : cards(pv, ZoneType.Battlefield)) {
                     Snapshot.CardV v = card(cv, viewer, true);     // the battlefield is public

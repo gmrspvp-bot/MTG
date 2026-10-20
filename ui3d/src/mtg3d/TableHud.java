@@ -277,6 +277,7 @@ abstract class TableHud extends TableScene {
                 font.setColor(1f, 0.70f, 0.40f, 1f);
                 font.draw(ui, String.join("   ", s.marks), p.x - 60, p.y - 16);
             }
+            drawManaPool(s, p.x - 60, p.y - (s.marks.isEmpty() || s.lost ? 16 : 32));
             if (s.hasPriority) {
                 // Matches the lit pad under the same seat.
                 font.setColor(0.45f, 0.92f, 1f, 1f);
@@ -645,6 +646,37 @@ abstract class TableHud extends TableScene {
             for (Snapshot.CardV c : s.command) casts = Math.max(casts, c.commanderCasts);
             font.setColor(0.92f, 0.74f, 0.42f, 1f);
             font.draw(ui, casts > 0 ? "COMMAND  tax +" + (2 * casts) : "COMMAND", p.x - 30, p.y + 6);
+        }
+    }
+
+    static final String[] MANA_LETTERS = { "W", "U", "B", "R", "G", "C" };
+    static final Color[] MANA_COLOURS = {
+        new Color(1f, 0.96f, 0.80f, 1f), new Color(0.45f, 0.70f, 1f, 1f), new Color(0.72f, 0.62f, 0.78f, 1f),
+        new Color(1f, 0.45f, 0.35f, 1f), new Color(0.45f, 0.90f, 0.50f, 1f), new Color(0.80f, 0.80f, 0.84f, 1f),
+    };
+
+    /**
+     * A seat's floating mana, "MANA  W2 R1", each symbol in its own colour. Shown only while the
+     * pool is not empty - which is rarely, and exactly when it matters (mid-payment, a ritual,
+     * mana that will drain at the end of the step).
+     */
+    void drawManaPool(Snapshot.SeatV s, float x, float y) {
+        if (s.lost) return;
+        int total = 0;
+        for (int m : s.mana) total += m;
+        if (total == 0) return;
+        GlyphLayout gl = new GlyphLayout();
+        font.setColor(0.62f, 0.74f, 0.84f, 1f);
+        font.draw(ui, "MANA", x, y);
+        gl.setText(font, "MANA  ");
+        float cx = x + gl.width;
+        for (int i = 0; i < 6; i++) {
+            if (s.mana[i] == 0) continue;
+            String t = MANA_LETTERS[i] + s.mana[i];
+            font.setColor(MANA_COLOURS[i]);
+            font.draw(ui, t, cx, y);
+            gl.setText(font, t + "  ");
+            cx += gl.width;
         }
     }
 

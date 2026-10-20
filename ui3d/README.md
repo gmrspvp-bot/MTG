@@ -500,7 +500,7 @@ they land:
       counts and card ids changing between snapshots.
 - [x] Hand cards lift under the mouse - done 2026-10-21 (`TableLayout.placeHand`): the hovered hand card rises 0.35 and stands 12 degrees more upright, eased like every other move; small enough that it still covers the mouse, so it does not flicker. Playable cards already glow via the selectable marker.
 - [x] YOUR TURN sweep - done 2026-10-21 (`TableHud.drawYourTurn`): a gold band slides in across the middle, holds, fades (1.7 s). Demo: `-Dforge.ui3d.demoEvents=true` plays a fixed timeline (turn passes at 2 s, life changes at 3 s, your turn again at 4 s) for screenshot checks.
-- [ ] Each player's floating mana pool, shown at their seat.
+- [x] Each player's floating mana pool - done 2026-10-21: "MANA  B3  R1" under the seat's totals, each symbol in its colour, only while the pool is not empty. `SeatV.mana` (W U B R G C) from `PlayerView.getMana`; `TableHud.drawManaPool`.
 - [x] Keyword reminders - done 2026-10-21 (`Keywords.java`): up to four "Flying - can only be blocked by ..." lines under the text in both hover panels, ~40 keywords, whole-word match on the rules text.
 **Under the floor**
 
