@@ -312,6 +312,11 @@ public final class Gui3D implements InvocationHandler {
                 ClickGuard.watch(pch);
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
+                // Say which mode we are in. Without this, a run where strict found nothing and a
+                // run where the flag never arrived look identical in the log - both are silent.
+                System.out.println(STRICT
+                    ? "UI3D: strict mode ON - every decision Forge answers will be named here"
+                    : "UI3D: strict mode off - run \"play3d -Strict\" to list what Forge still answers");
                 return true;
             }
         } catch (Throwable t) {
