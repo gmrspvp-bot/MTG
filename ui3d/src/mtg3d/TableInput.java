@@ -668,6 +668,12 @@ abstract class TableInput extends TableHud {
             }
         }
         if (Keys3D.just(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
+        // N, or the RIGHT arrow: done here, move on by one step. Clears any auto-pass first,
+        // so it is also the way out if something armed one by accident.
+        if ((Keys3D.just(Input.Keys.N) || Keys3D.just(Input.Keys.RIGHT)) && Gui3D.active()) {
+            if (!Gui3D.nextPhase()) toast("Nothing to pass right now", Gdx.input.getX(),
+                Gdx.graphics.getHeight() - Gdx.input.getY());
+        }
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
@@ -675,9 +681,11 @@ abstract class TableInput extends TableHud {
         // also try to play whatever card happens to be behind it.
         if (Gui3D.active() && Gui3D.pendingAsk() == null) {
             float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
-            if (inRect(okBtn, mx, my) || inRect(cancelBtn, mx, my)) {
+            if (inRect(okBtn, mx, my) || inRect(cancelBtn, mx, my) || (nextOn && inRect(nextBtn, mx, my))) {
                 if (clickedCard()) {
-                    if (inRect(okBtn, mx, my)) Gui3D.pressOk(); else Gui3D.pressCancel();
+                    if (inRect(okBtn, mx, my)) Gui3D.pressOk();
+                    else if (inRect(cancelBtn, mx, my)) Gui3D.pressCancel();
+                    else Gui3D.nextPhase();
                 }
                 return;
             }
@@ -716,13 +724,25 @@ abstract class TableInput extends TableHud {
             manualOverride = true;
             manualValue = lift < 0.5f;       // toggle to whichever pose we are not in
         }
-        // The number pad picks the view to play from, and remembers it for next time. TAB is
-        // still a quick look at the other pose; this is where you decide to live.
-        for (int k = 1; k < TableCamera.VIEWS.length; k++) {
+        // The number pad. 1-6 are the fixed views; 7-9 are yours - SHIFT saves where the
+        // camera is standing, the key alone goes back there. TAB is still a quick look at the
+        // other pose; this is where you decide to live.
+        boolean shift = Keys3D.down(Input.Keys.SHIFT_LEFT) || Keys3D.down(Input.Keys.SHIFT_RIGHT);
+        float toastX = Gdx.graphics.getWidth() / 2f, toastY = Gdx.graphics.getHeight() * 0.72f;
+        for (int k = 1; k <= LAST_SLOT; k++) {
             if (!Keys3D.just(Input.Keys.NUMPAD_0 + k)) continue;
-            String name = applyView(k);
-            if (name != null) {
-                toast("View " + k + ": " + name, Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.72f);
+            if (isSlot(k)) {
+                if (shift) {
+                    saveSlot(k);
+                    toast("View " + k + " saved - press " + k + " to come back", toastX, toastY);
+                } else if (recallSlot(k)) {
+                    toast("View " + k, toastX, toastY);
+                } else {
+                    toast("View " + k + " is empty - SHIFT + " + k + " saves this one", toastX, toastY);
+                }
+            } else if (k < TableCamera.VIEWS.length) {
+                String name = applyView(k);
+                if (name != null) toast("View " + k + ": " + name, toastX, toastY);
             }
         }
         // ESC: releases a camera held with TAB, as before; otherwise it opens the menu.
@@ -761,14 +781,19 @@ abstract class TableInput extends TableHud {
                 orbitTarget = orbit;
             }
         }
-        // Seats are laid out anticlockwise, so stepping +1 moves the camera to the LEFT on screen.
-        // The keys are deliberately matched to the direction you see, not to the index order.
-        if (Keys3D.just(Input.Keys.LEFT))  step(+1, n);
-        if (Keys3D.just(Input.Keys.RIGHT)) step(-1, n);
-        // DOWN (or HOME) is the way back to your own seat, at the default zoom.
-        if (Keys3D.just(Input.Keys.DOWN) || Keys3D.just(Input.Keys.HOME)) {
+        // Walking round the table moved to A and D, and back to your seat to S, so the arrow
+        // keys are free for the game itself - RIGHT is now "next phase", which is the thing you
+        // press most (the owner, 2026-10-21). Seats are laid out anticlockwise, so stepping +1
+        // moves the camera to the LEFT on screen: the keys match the direction you see, not the
+        // index order.
+        if (Keys3D.just(Input.Keys.A)) step(+1, n);
+        if (Keys3D.just(Input.Keys.D)) step(-1, n);
+        if (Keys3D.just(Input.Keys.W)) { manualOverride = true; manualValue = true; }
+        // S (or HOME) is the way back to your own seat, at the default zoom.
+        if (Keys3D.just(Input.Keys.S) || Keys3D.just(Input.Keys.HOME)) {
             zoom = 1f;
             panX = panZ = 0f;
+            manualOverride = false;
             setViewSeat(snap.youIndex(), n);
         }
     }

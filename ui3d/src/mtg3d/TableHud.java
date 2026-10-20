@@ -57,8 +57,8 @@ abstract class TableHud extends TableScene {
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
-        font.draw(ui, "LEFT / RIGHT  walk round the table      DOWN  back to your seat      TAB  camera"
-            + "      NUM 1-6  view      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
+        font.draw(ui, "A / D  walk round the table      S  back to your seat      W  overhead      N or ->  next phase      TAB  camera"
+            + "      NUM 1-6  view   (SHIFT+7/8/9 saves)      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
             + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.
@@ -435,6 +435,21 @@ abstract class TableHud extends TableScene {
             boolean hot = inRect(okBtn, mx, my);
             shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
             shapes.rect(bx, by, btnW, btnH);
+            bx -= btnW + gap;
+        }
+        // "Next phase", always there while a game is running. Sitting in your own main phase with
+        // nothing to answer is not a question, and dressing it up as one ("OK") is what made a
+        // whole turn vanish: the owner pressed OK meaning "move on" and could not tell whether
+        // anything was being asked of him (2026-10-21). This says what it does, and because it
+        // clears the auto-pass first, it is also the way out of one.
+        // okOn as well as active(), so the demo draws it too - otherwise the one button that
+        // matters most could only be looked at by starting a real game.
+        nextOn = Gui3D.active() || okOn;
+        if (nextOn) {
+            nextBtn[0] = bx; nextBtn[1] = by; nextBtn[2] = btnW; nextBtn[3] = btnH;
+            boolean hot = inRect(nextBtn, mx, my);
+            shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
+            shapes.rect(bx, by, btnW, btnH);
         }
         shapes.end();
         ui.begin();
@@ -452,6 +467,12 @@ abstract class TableHud extends TableScene {
             fontBig.draw(ui, cancelLabel, cancelBtn[0], cancelBtn[1] + 34f, btnW, 1, false);
             font.setColor(0.88f, 0.64f, 0.60f, 1f);
             font.draw(ui, "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
+        }
+        if (nextOn) {
+            fontBig.setColor(0.84f, 0.90f, 1f, 1f);
+            fontBig.draw(ui, "Next phase", nextBtn[0], nextBtn[1] + 34f, btnW, 1, false);
+            font.setColor(0.62f, 0.74f, 0.92f, 1f);
+            font.draw(ui, "N  or  ->", nextBtn[0], nextBtn[1] + 14f, btnW, 1, false);
         }
     }
 
@@ -527,11 +548,23 @@ abstract class TableHud extends TableScene {
     }
 
     /** The panel's filled shapes. Must run before the SpriteBatch pass that writes the labels. */
+    /** Is the turn being played ours, and is the game waiting on us right now? */
+    boolean yourTurn() {
+        Snapshot.SeatV me = snap.you();
+        return me != null && me.active;
+    }
+
+    boolean youDecide() {
+        Snapshot.SeatV me = snap.you();
+        return me != null && me.hasPriority;
+    }
+
     void drawPhasePanelShapes(int h, com.badlogic.gdx.math.Matrix4 flat) {
         float top = h - 14f;
         float height = panelHeight();
         float bottom = top - height;
         int current = currentPhase();
+        boolean yourTurn = yourTurn(), youDecide = youDecide();
 
         Gdx.gl.glEnable(GL20.GL_BLEND);
         Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA);
@@ -550,7 +583,12 @@ abstract class TableHud extends TableScene {
             boolean on = (i == current);
             boolean past = current >= 0 && i < current;
             if (on) {
-                shapes.setColor(0.95f, 0.72f, 0.22f, 1f);
+                // Whose turn it is, in the one place you are already looking. Green when the
+                // step belongs to you, red when you are a guest in someone else's turn - the
+                // owner asked for exactly this, and it answers "can I act?" without reading a
+                // word (2026-10-21).
+                if (yourTurn) shapes.setColor(0.20f, 0.72f, 0.33f, 1f);
+                else shapes.setColor(0.72f, 0.24f, 0.22f, 1f);
                 shapes.rect(PP_X + 8f * PP_SCALE, y, PP_W - 16f * PP_SCALE, PP_ROW - 3f * PP_SCALE);
             } else {
                 // A marker down the left edge: filled for steps already done, hollow for those to
@@ -559,6 +597,15 @@ abstract class TableHud extends TableScene {
                                      : new Color(0.09f, 0.20f, 0.27f, 1f));
                 shapes.rect(PP_X + 8f * PP_SCALE, y + 4f * PP_SCALE, 5f * PP_SCALE, PP_ROW - 11f * PP_SCALE);
             }
+            // The box beside each step: is the game waiting on YOU here? Only the step actually
+            // being played can answer that, so the rest stay dark - what matters is that the
+            // answer always lives in the same place, so a lit box anywhere in the column means
+            // "they are waiting for you" even on somebody else's turn.
+            float bx = PP_X + PP_W - 20f * PP_SCALE, bw = 10f * PP_SCALE;
+            if (on && youDecide) shapes.setColor(0.45f, 0.92f, 1f, 1f);
+            else if (on) shapes.setColor(0.16f, 0.30f, 0.38f, 1f);
+            else shapes.setColor(0.07f, 0.14f, 0.19f, 1f);
+            shapes.rect(bx, y + 4f * PP_SCALE, bw, PP_ROW - 11f * PP_SCALE);
         }
 
         // Priority block: a rule, then a square per seat - lit for whoever holds priority, filled
@@ -617,7 +664,7 @@ abstract class TableHud extends TableScene {
             float y = phaseRowY(i, top);
             boolean on = (i == current);
             boolean past = current >= 0 && i < current;
-            if (on) font.setColor(0.06f, 0.09f, 0.12f, 1f);          // dark on the lit row
+            if (on) font.setColor(0.98f, 0.99f, 1f, 1f);             // light on the lit row
             else if (past) font.setColor(0.52f, 0.66f, 0.76f, 1f);
             else font.setColor(0.38f, 0.50f, 0.60f, 1f);
             font.draw(ui, PHASES[i][1], PP_X + 20f * PP_SCALE, y + PP_ROW - 7f * PP_SCALE);
@@ -647,6 +694,17 @@ abstract class TableHud extends TableScene {
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));
         font.draw(ui, "follow the turn", PP_X + 30f * PP_SCALE, bottom + 23f * PP_SCALE);
+
+        // Forge auto-passing on our behalf used to be completely invisible: one key armed it,
+        // the rest of the turn went past, and nothing on screen said why. If it is on, say so
+        // where the eye already is, and say how to stop it.
+        String auto = Gui3D.autoPassing();
+        if (!auto.isEmpty()) {
+            font.setColor(1f, 0.62f, 0.25f, 1f);
+            font.draw(ui, "AUTO-PASSING " + auto, PP_X + 10f * PP_SCALE, bottom + 40f * PP_SCALE);
+            font.setColor(1f, 0.80f, 0.55f, 1f);
+            font.draw(ui, "N stops it", PP_X + 10f * PP_SCALE, bottom + 28f * PP_SCALE);
+        }
 
         // Life, where the phase already is. It used to hang over the middle of the table, which
         // is both a second place to look and exactly where the stack now wants to be.

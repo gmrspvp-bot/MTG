@@ -76,6 +76,69 @@ abstract class TableCamera extends TableBase {
     int currentView = savedView();
 
     /**
+     * Views 7, 8 and 9 are yours to set: SHIFT + the key saves exactly where the camera is now,
+     * the key on its own goes back there. The six fixed views cover the common poses; these are
+     * for the ones nobody can guess - a corner you like, a zoom on one opponent's board, the
+     * angle you keep coming back to (the owner, 2026-10-21).
+     *
+     * Saved as the camera's actual state rather than as a named pose: the seat it was pointed at,
+     * the orbit, lift, zoom and pan. Kept per user beside the chosen view.
+     */
+    static final int FIRST_SLOT = 7, LAST_SLOT = 9;
+
+    boolean isSlot(int number) {
+        return number >= FIRST_SLOT && number <= LAST_SLOT;
+    }
+
+    /** True if that slot has something saved in it. */
+    boolean slotSet(int number) {
+        return VIEW_PREFS.getBoolean("slot" + number + ".set", false);
+    }
+
+    /** SHIFT + the key: remember exactly where the camera is standing. */
+    void saveSlot(int number) {
+        if (!isSlot(number)) return;
+        try {
+            VIEW_PREFS.putBoolean("slot" + number + ".set", true);
+            VIEW_PREFS.putInt("slot" + number + ".seat", viewSeat);
+            VIEW_PREFS.putFloat("slot" + number + ".orbit", orbit);
+            VIEW_PREFS.putFloat("slot" + number + ".lift", lift);
+            VIEW_PREFS.putFloat("slot" + number + ".zoom", zoom);
+            VIEW_PREFS.putFloat("slot" + number + ".panX", panX);
+            VIEW_PREFS.putFloat("slot" + number + ".panZ", panZ);
+        } catch (Throwable ignored) {
+            // a view that will not save is not worth breaking the game over
+        }
+    }
+
+    /**
+     * The key on its own: go back to a saved slot. Returns false when nothing is saved there, so
+     * the caller can say so rather than moving the camera somewhere arbitrary.
+     *
+     * The lift is pinned with manualOverride, or the game would pull the camera back out of a
+     * saved overhead pose the moment combat ended.
+     */
+    boolean recallSlot(int number) {
+        if (!isSlot(number) || !slotSet(number)) return false;
+        try {
+            int seat = VIEW_PREFS.getInt("slot" + number + ".seat", -1);
+            if (seat >= 0 && seat < snap.seats.size()) viewSeat = seat;
+            orbit = orbitTarget = VIEW_PREFS.getFloat("slot" + number + ".orbit", orbit);
+            float l = VIEW_PREFS.getFloat("slot" + number + ".lift", lift);
+            manualOverride = true;
+            manualValue = l > 0.5f;
+            zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, VIEW_PREFS.getFloat("slot" + number + ".zoom", zoom)));
+            panX = VIEW_PREFS.getFloat("slot" + number + ".panX", 0f);
+            panZ = VIEW_PREFS.getFloat("slot" + number + ".panZ", 0f);
+            followTurn = false;
+            currentView = number;
+            return true;
+        } catch (Throwable t) {
+            return false;
+        }
+    }
+
+    /**
      * Switch to a numbered view and make it the one to come back to. Returns its name for the
      * on-screen note, or null if there is no such view.
      */

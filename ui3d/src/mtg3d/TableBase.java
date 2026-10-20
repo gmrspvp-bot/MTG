@@ -555,6 +555,11 @@ abstract class TableBase extends ApplicationAdapter {
     /** Screen rects of the prompt bar's two buttons, so drawing and hit-testing cannot drift. */
     final float[] okBtn = { 0f, 0f, 0f, 0f }, cancelBtn = { 0f, 0f, 0f, 0f };
 
+    /** "Next phase": drawn by TableHud, clicked in TableInput, so the rect lives here. */
+    final float[] nextBtn = { 0f, 0f, 0f, 0f };
+
+    boolean nextOn;
+
     static boolean inRect(float[] r, float mx, float my) {
         return r[2] > 0f && mx >= r[0] && mx <= r[0] + r[2] && my >= r[1] && my <= r[1] + r[3];
     }

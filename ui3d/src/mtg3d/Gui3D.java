@@ -645,6 +645,58 @@ public final class Gui3D implements InvocationHandler {
         }
     }
 
+    /**
+     * Is Forge auto-passing for us right now, and until when?
+     *
+     * Forge's YieldController can be told to pass everything until end of turn or until the
+     * stack empties, and PlayerControllerHuman asks IT before it asks the GUI - so while one of
+     * these is set, nothing the 3D window answers about skipping phases is even consulted. That
+     * is how a turn disappears: the owner pressed one key, the whole turn ran past, and the table
+     * showed no sign that anything had been switched on (2026-10-21).
+     *
+     * "" when nothing is auto-passing; otherwise a phrase for the screen.
+     */
+    public static String autoPassing() {
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c == null) return "";
+            forge.gamemodes.match.YieldController y = c.getYieldController();
+            if (y == null) return "";
+            if (y.autoPassUntilEndOfTurn()) return "to end of turn";
+            if (y.autoPassUntilStackEmpty()) return "until the stack is empty";
+            return "";
+        } catch (Throwable t) {
+            return "";
+        }
+    }
+
+    /** Cancel any auto-pass. Harmless when none is set. */
+    public static void stopAutoPass() {
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c == null) return;
+            forge.gamemodes.match.YieldController y = c.getYieldController();
+            if (y == null) return;
+            if (y.autoPassUntilEndOfTurn()) y.setAutoPassUntilEndOfTurn(false);
+            if (y.autoPassUntilStackEmpty()) y.setAutoPassUntilStackEmpty(false, false);
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not stop the auto-pass (" + t + ")");
+        }
+    }
+
+    /**
+     * Move on by one step, and only one.
+     *
+     * The same pass of priority that OK sends, with the auto-pass cleared first, so this can
+     * never turn into "and the rest of the turn as well" - and so it doubles as the way out if
+     * something else already armed one. Separated from OK because the two mean different things
+     * to a player: OK answers a question, this says "I am done here".
+     */
+    public static boolean nextPhase() {
+        stopAutoPass();
+        return pressOk();
+    }
+
     /** True once a game is running with the wrapper installed. */
     public static boolean active() {
         return controller != null || remote != null;
