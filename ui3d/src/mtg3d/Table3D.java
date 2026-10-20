@@ -149,6 +149,7 @@ public final class Table3D extends TableInput {
 
         art = new CardArt(CardArt.defaultRoot());
         search = new SearchPanel(art);
+        order = new OrderPanel(art);
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
@@ -287,6 +288,8 @@ public final class Table3D extends TableInput {
         options.render(ui, shapes, font, fontBig);
         numbers.update(Gdx.graphics.getDeltaTime());
         numbers.render(ui, shapes, font, fontBig);
+        order.update(Gdx.graphics.getDeltaTime());
+        order.render(ui, shapes, font, fontBig);
         maybeShoot();
         WindowMemory.track();
     }

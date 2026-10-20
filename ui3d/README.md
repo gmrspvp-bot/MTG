@@ -477,10 +477,8 @@ is in brackets. Building the look first means the attended session is spent on w
       from the spell, "choose 1 of 2 targets" counter. *(C. Targeting)*
 - [x] Option panel - **look done 2026-10-21**, `OptionPanel.java`: a column of large buttons with optional detail line and colour swatch, `min/max` picks ("choose two" shows a counter and a Confirm that lights at the minimum), keys 1-9, ESC cancels, `Result` gives the chosen indices. **To wire (attended):** point `IGuiGame.one / many / getChoices` with text or player items at it. Demo: `-Dforge.ui3d.openPanel=modes|two|colour|player`. *(C. Modal spells / choose a ...)*
 - [x] Number picker - **look done 2026-10-21**, `NumberPicker.java`: big number, -/+ buttons, arrows or wheel, ENTER / ESC, and a `Hint` line that says what the X costs ("you pay {3}{W}{W} - total 5 mana"). **To wire (attended):** `IGuiGame.getInteger`. Demo: `-Dforge.ui3d.openPanel=x`. *(C. X costs)*
-- [ ] Scry / surveil panel: two rows (top / bottom, or top / graveyard), drag to reorder.
-      *(E. Scry and surveil)*
-- [ ] Trigger ordering: the triggers as a list you drag into order, first-to-resolve marked.
-      *(E. Ordering triggers)*
+- [x] Scry / surveil - **look done 2026-10-21**, `OrderPanel.java` in two-row mode: drag within or between rows, a click sends a card across, positions numbered ("1 = drawn first"). **To wire (attended):** Forge's scry / surveil / `order` decisions. Demo: `-Dforge.ui3d.openPanel=scry|surveil`. *(E. Scry and surveil)*
+- [x] Trigger ordering - **look done 2026-10-21**, `OrderPanel` in one-row mode, each trigger shown as its source card with what it does underneath, "1 = resolves last". **To wire (attended):** `IGuiGame.order` for simultaneous triggers. Demo: `-Dforge.ui3d.openPanel=triggers`. *(E. Ordering triggers)*
 - [ ] Mulligan screen: the opening hand fanned large in the middle, Keep / Mulligan buttons, and the
       London "put N on the bottom" pick. *(A. London mulligan)*
 - [ ] Mana payment: lands that can pay lit, tapped ones dimmed as they are chosen, the cost

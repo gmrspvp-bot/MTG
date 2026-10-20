@@ -68,6 +68,49 @@ abstract class TableInput extends TableHud {
                 o.add(new OptionPanel.Option("Draw a card", "", null));
                 options.open("Cryptic Command", "Choose two.", o, 2, 2, picked -> { });
                 break;
+            case "scry": {
+                List<Snapshot.CardV> top = new ArrayList<>();
+                int id = 970;
+                for (String n : new String[] { "Sol Ring", "Swords to Plowshares", "Plains" }) {
+                    top.add(new Snapshot.CardV(id++, n, "", false, n.equals("Plains")));
+                }
+                List<List<Snapshot.CardV>> rowsIn = new ArrayList<>();
+                rowsIn.add(top);
+                rowsIn.add(new ArrayList<>());
+                order.open("Scry 3", "Put any number on the bottom and the rest back in any order.", rowsIn,
+                    new String[] { "Top of library", "Bottom" }, new String[] { "drawn first", "" }, r -> { });
+                break;
+            }
+            case "surveil": {
+                List<Snapshot.CardV> top = new ArrayList<>();
+                top.add(new Snapshot.CardV(975, "Arcane Denial", "", false, false));
+                top.add(new Snapshot.CardV(976, "Lyra Dawnbringer", "", true, false));
+                List<List<Snapshot.CardV>> rowsIn = new ArrayList<>();
+                rowsIn.add(top);
+                rowsIn.add(new ArrayList<>());
+                order.open("Surveil 2", "Put any number into your graveyard and the rest back in any order.", rowsIn,
+                    new String[] { "Top of library", "Graveyard" }, new String[] { "drawn first", "" }, r -> { });
+                break;
+            }
+            case "triggers": {
+                List<Snapshot.CardV> trig = new ArrayList<>();
+                String[][] tr = {
+                    { "Lyra Dawnbringer", "You gain 7 life" },
+                    { "Resplendent Angel", "If you gained 5+ life, create a 4/4 Angel" },
+                    { "Giada, Font of Hope", "Put a +1/+1 counter on each Angel" },
+                };
+                int id = 980;
+                for (String[] x : tr) {
+                    Snapshot.CardV c = new Snapshot.CardV(id++, x[0], "", true, false);
+                    c.stackText = x[1];
+                    trig.add(c);
+                }
+                List<List<Snapshot.CardV>> rowsIn = new ArrayList<>();
+                rowsIn.add(trig);
+                order.open("Order triggers", "These trigger at the same time. Put them on the stack in order.", rowsIn,
+                    new String[] { "Stack order" }, new String[] { "resolves last" }, r -> { });
+                break;
+            }
             default:   // "x"
                 numbers.open("Choose X", "Wrath of the Skies: X energy, then pay any amount.", 0, 9, 3,
                     x -> "you pay {" + x + "}{W}{W}  -  total " + (x + 2) + " mana", v -> { });

@@ -104,10 +104,13 @@ abstract class TableBase extends ApplicationAdapter {
     /** Text choices (modes, players, colours, types) and number picks (X). Not wired to Forge yet. */
     final OptionPanel options = new OptionPanel();
     final NumberPicker numbers = new NumberPicker();
+    /** Scry / surveil / trigger ordering. Made in create(), since it needs the card art. */
+    OrderPanel order;
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
     boolean panelOpen() {
-        return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen();
+        return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
+            || (order != null && order.isOpen());
     }
 
     final BugReport bug = new BugReport();

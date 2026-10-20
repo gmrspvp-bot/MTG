@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| `ui3d` - visual halves: order panel (scry / surveil rows, trigger ordering) | dmara's Claude | 2026-10-21 | New `OrderPanel.java` (drag to reorder, one or two rows); `TableBase` field, `Table3D` render line, `TableInput` sample. Not wired to Forge (attended). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
