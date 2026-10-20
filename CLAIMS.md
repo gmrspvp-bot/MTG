@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| `ui3d` - stop Forge's window stealing focus | Xenil's Claude | 2026-10-21 | `Gui3D` makes Forge's prompt buttons non-focusable while the 3D window is driving. Gated by `-Dforge.ui3d.nofocus=false`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
