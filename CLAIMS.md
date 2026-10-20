@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| repo - one-click setup and launch | Xenil's Claude | 2026-10-21 | New `Play 3D.cmd` + `scripts/setup.ps1` (find/fetch Java and Forge, apply setup overrides, build, launch). Touches `.gitignore` and the root README. Not `ui3d/src`. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
