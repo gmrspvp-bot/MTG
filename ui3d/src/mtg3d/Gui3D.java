@@ -68,7 +68,9 @@ public final class Gui3D implements InvocationHandler {
                                 "showErrorDialog", "alertUser", "flashIncorrectAction", "showRevealedCards",
                                 // Splitting a number across several things - counters, damage
                                 // from something that is not combat.
-                                "assignGenericAmount"));
+                                "assignGenericAmount",
+                                // One card into an already ordered pile.
+                                "insertInList"));
 
     private final IGuiGame original;
     private final forge.player.PlayerControllerHuman pch;
@@ -1028,6 +1030,43 @@ public final class Gui3D implements InvocationHandler {
         }
     }
 
+    /**
+     * insertInList(title, item, list) -> the list with the item somewhere in it.
+     *
+     * Ordering again, with one card already singled out, so OrderPanel does it: the item is put
+     * at the front of the list it is joining and the player drags it to where they want. Giving
+     * them the whole order to arrange is more than Forge asked for and strictly more useful -
+     * the answer is a list either way.
+     */
+    private Object takeInsertInList(Method method, Object[] args) {
+        try {
+            if (args.length < 3 || !(args[2] instanceof java.util.List)) return NOT_HANDLED;
+            Object item = args[1];
+            if (item == null) return NOT_HANDLED;
+            java.util.List<Object> all = new ArrayList<>();
+            all.add(item);
+            for (Object o : (java.util.List<?>) args[2]) if (o != item) all.add(o);
+            if (all.size() < 2) return all;                  // nowhere else it could go
+            String title = args[0] instanceof String ? (String) args[0] : "Where does it go?";
+            java.util.List<Snapshot.CardV> shown = new ArrayList<>();
+            for (Object o : all) shown.add(describe(o, label(o, null)));
+            Handoff<java.util.List<Object>> h = Handoff.start("insertInList: " + title);
+            orderAsk = new OrderAsk(title, label(item, null) + " goes where you put it", shown, all, h);
+            java.util.List<Object> out;
+            try {
+                out = h.awaitOr(() -> null);
+            } finally {
+                orderAsk = null;
+            }
+            if (out == null || out.size() != all.size()) return NOT_HANDLED;
+            return out;
+        } catch (Throwable t) {
+            orderAsk = null;
+            System.out.println("UI3D: insert-in-list failed, handing it to Forge (" + t + ")");
+            return NOT_HANDLED;
+        }
+    }
+
     private Object take(Method method, Object[] args) {
         // Never try to answer from 3D if the window is not drawing - go straight to Forge.
         if (!Handoff.windowResponsive()) return NOT_HANDLED;
@@ -1072,6 +1111,8 @@ public final class Gui3D implements InvocationHandler {
                 return takeRevealedCards(args);
             case "assignGenericAmount":
                 return takeGenericAmount(args);
+            case "insertInList":
+                return takeInsertInList(method, args);
             default:
                 break;
         }
