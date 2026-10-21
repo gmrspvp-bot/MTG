@@ -1,6 +1,6 @@
 # Decks
 
-Original decks (converted from `manabox\decks\`) are kept unchanged. Improved versions are separate files.
+Only the latest version of each deck lives here, so Forge's deck picker shows only current decks. Older versions, originals included, are in `archive\` (moved there 2026-10-22 at the owner's request); never delete a deck.
 
 **Use these in simulation runs:**
 
@@ -16,6 +16,6 @@ Original decks (converted from `manabox\decks\`) are kept unchanged. Improved ve
 | Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
 | Tinybones | `Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
 
-Older versions are kept for reference and comparisons; never delete or overwrite them. Captain America v6 (previous default; all Oct 2026 tests up to 2026-10-18 used it) stays for comparison. Also kept: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
+Archived in `archive\`: Captain America original to v6 (v6 was the default for every test up to 2026-10-18), Deadpool original and v2, Doom Prevails original and v2, Mr House original to v3, Tidus original and v2. Neither `play.ps1` nor `run-sims.ps1` looks in `archive\`: to sim an old version again, copy it back up for the run. Also here: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
-Note: `scripts\convert-manabox.ps1` regenerates the *original* `.dck` files from the ManaBox exports; it never touches the v2 files.
+Note: `scripts\convert-manabox.ps1` regenerates the *original* `.dck` files from the ManaBox exports; it never touches the v2 files. Running it now writes the originals back into this folder, next to the latest versions; move them to `archive\` again afterwards.

@@ -54,7 +54,7 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   became the default on 2026-10-18; on 2026-10-19 10:55 the owner had the first v7 deleted and
   the v8 deck renamed to v7. So "Captain America v7" in results before that moment (e.g. the
   2026-10-19 overnight league, 22.3%) is the **first** v7 (in git history), and "v8" results are
-  today's v7. Results before 2026-10-18 used v6. Never delete or overwrite an original deck.
+  today's v7. Results before 2026-10-18 used v6. Older versions, originals included, were moved to `decks\archive\` on 2026-10-22 (owner's request, so Forge's deck picker shows only current decks; their Forge copies went to `forge-data\decks-archive\`). Never delete a deck.
   **Captain America changes now go straight into `Captain America v7.dck`** (owner's request,
   2026-10-19: no v8); git history keeps earlier states, and `manabox\decks\captain america v7.txt`
   is kept in sync. Other decks still get a new `vN` file for improvements.
