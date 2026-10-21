@@ -259,7 +259,7 @@ abstract class TableLayout extends TableCamera {
             d.age += frameDt;
             if (d.age > DYING_TIME || d.seat >= n || shown.contains(d.card.id)) { it.remove(); continue; }
             float angle = seatAngle(d.seat, n);
-            Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - d.pad * 1.45f, angle);
+            Vector3 w = rotateY(zoneX(d.pad), SEAT_DIST + 1.7f - d.pad * 1.45f, angle);
             // Onto the top of the pile, not into it.
             add(d.card, snap.seats.get(d.seat), w.x, pileTop(d.seat, d.pad) + 0.03f, w.z, (float) Math.toDegrees(-angle), 0f);
         }
@@ -272,7 +272,7 @@ abstract class TableLayout extends TableCamera {
     void seedFromLibrary(Snapshot.CardV c) {
         if (!zonesPrimed || poses.containsKey(c.id) || snap.seats.isEmpty()) return;
         float angle = seatAngle(snap.youIndex(), snap.seats.size());
-        Vector3 lib = rotateY(5.3f, SEAT_DIST + 1.7f, angle);
+        Vector3 lib = rotateY(zoneX(0), SEAT_DIST + 1.7f, angle);
         Pose p = new Pose();
         p.x = lib.x; p.y = pileTop(snap.youIndex(), 0) + 0.03f; p.z = lib.z;   // off the top of the deck
         p.yaw = (float) Math.toDegrees(-angle);
@@ -977,7 +977,10 @@ abstract class TableLayout extends TableCamera {
             float angle = seatAngle(i, n);
             float yaw = (float) Math.toDegrees(-angle);
             float lift = zoneLift(i);
-            Vector3 w = rotateY(COMMAND_X, COMMAND_Z, angle);
+            // The same clamp, on the other side of the board.
+            float cmdHalf = (CARD_W + 0.24f) / 2f;
+            float cmdX = -Math.min(-COMMAND_X, wedgeHalf(COMMAND_Z) - cmdHalf - 0.08f);
+            Vector3 w = rotateY(cmdX, COMMAND_Z, angle);
             if (lift > 0.001f) {
                 ModelInstance stand = inst(zoneStandModel);
                 stand.transform.setToTranslation(w.x, lift / 2f, w.z)
@@ -988,7 +991,9 @@ abstract class TableLayout extends TableCamera {
             pad.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
             props.add(pad);
             for (int k = 0; k < seat.command.size(); k++) {
-                Vector3 cw = rotateY(COMMAND_X - k * (CARD_W + GAP), COMMAND_Z, angle);
+                // A partner pair runs INWARDS from the pad: outwards is off the seat's own
+                // half of the table now that the pad is clamped to it.
+                Vector3 cw = rotateY(cmdX + k * (CARD_W + GAP), COMMAND_Z, angle);
                 add(seat.command.get(k), seat, cw.x, lift + 0.02f + FIELD_RAISE, cw.z, yaw, 0f);
             }
         }
@@ -1063,7 +1068,7 @@ abstract class TableLayout extends TableCamera {
             int[] counts = { s.librarySize, s.graveyardSize, s.exileSize };
             float lift = zoneLift(i);
             for (int k = 0; k < 3; k++) {
-                Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
+                Vector3 w = rotateY(zoneX(k), SEAT_DIST + 1.7f - k * 1.45f, angle);
                 float yaw = (float) Math.toDegrees(-angle);
                 // The pad stands on something rather than hovering. The stand is what grows
                 // as the board pushes the zone up - a slab floating in mid-air with nothing
@@ -1123,6 +1128,26 @@ abstract class TableLayout extends TableCamera {
     }
 
     static final float PAD_TOP = 0.015f, PILE_PER_CARD = 0.006f;
+
+    /** Half the width of a zone pad (zoneModel is CARD_W * 0.88 across), for keeping it in the wedge. */
+    static final float ZONE_PAD_HALF = CARD_W * 0.44f;
+
+    /**
+     * Where a seat's library / graveyard / exile pad sits across the table.
+     *
+     * Never further out than 5.3, which is where they have always been, and never outside the
+     * seat's own wedge. They were at a flat 5.3 whatever the shape of the table, so the exile pad
+     * - the nearest one in, where the wedge is narrowest - sat outside the frame drawn round the
+     * player's own space, and a player's piles were not in their own half (the owner,
+     * 2026-10-22).
+     *
+     * Shared by the pads and by everything that has to find one - a card sliding into a
+     * graveyard, the pile a drawn card comes off - so they cannot drift apart.
+     */
+    float zoneX(int pad) {
+        float z = SEAT_DIST + 1.7f - pad * 1.45f;
+        return Math.min(5.3f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
+    }
     static final int PILE_CAP = 100;
     /** Library like a card back, graveyard dark, exile pale violet - three kinds of pile at a glance. */
     static final Color[] PILE_COLOURS = {
