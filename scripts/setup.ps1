@@ -13,7 +13,8 @@ param(
     [switch] $Rebuild,     # force a recompile even if classes look current
     [switch] $NoUi3d,      # launch Forge's own window instead of the 3D table
     [switch] $Strict,      # say on screen whenever Forge answers something the 3D table should own
-    [switch] $NoForgeHelp  # same as -Strict, named for what it is about: not leaning on Forge's window
+    [switch] $NoForgeHelp, # same as -Strict, named for what it is about: not leaning on Forge's window
+    [switch] $SystemJdk    # use the machine's own JDK rather than the one in tools\jdk
 )
 
 $ErrorActionPreference = 'Stop'
@@ -33,22 +34,48 @@ Write-Host ""
 # A JDK, not just a JRE: the launcher compiles the agent hooks and the 3D UI from source.
 $javac = $null
 $java  = $null
+
+# The JDK this project fetched for itself comes FIRST, before anything on the machine.
+#
+# Everyone's results should come from the same compiler. A friend of the owner's had JDK 17 on
+# his PATH, the build failed on it, and the only clue was a jar that would not appear
+# (2026-10-21). Whatever the machine happens to have is the one thing nobody can reproduce, so
+# a copy that has fetched its own JDK uses that one and the question never comes up.
+# -SystemJdk prefers the machine's own instead.
+$localJdk = Join-Path $root 'tools\jdk'
+if (-not $SystemJdk -and (Test-Path $localJdk)) {
+    $c = Get-ChildItem -Path $localJdk -Filter javac.exe -Recurse -ErrorAction SilentlyContinue |
+         Select-Object -First 1
+    if ($c) { $javac = $c.FullName; $java = Join-Path $c.DirectoryName 'java.exe' }
+}
+
 $candidates = @(
-    'C:\Program Files\BellSoft\LibericaJDK-17',
     'C:\Program Files\BellSoft\LibericaJDK-21',
+    'C:\Program Files\BellSoft\LibericaJDK-17',
     $env:JAVA_HOME
 ) | Where-Object { $_ }
 
-foreach ($jdk in $candidates) {
-    $c = Join-Path $jdk 'bin\javac.exe'
-    if (Test-Path $c) { $javac = $c; $java = Join-Path $jdk 'bin\java.exe'; break }
+if (-not $javac) {
+    foreach ($jdk in $candidates) {
+        $c = Join-Path $jdk 'bin\javac.exe'
+        if (Test-Path $c) { $javac = $c; $java = Join-Path $jdk 'bin\java.exe'; break }
+    }
 }
 if (-not $javac) {
     $onPath = Get-Command javac -ErrorAction SilentlyContinue
     if ($onPath) { $javac = $onPath.Source; $java = (Get-Command java).Source }
 }
-# A JDK already fetched into this folder by an earlier run.
-$localJdk = Join-Path $root 'tools\jdk'
+
+# Too old to build this with: fetch our own rather than fail halfway through a compile with an
+# error nobody can read. 21 is what the code is developed and tested against.
+if ($javac) {
+    $ver = (& $javac -version 2>&1) -join ''
+    if ($ver -match 'javac (\d+)' -and [int]$Matches[1] -lt 21 -and -not $SystemJdk) {
+        Work "Found $ver, which is older than this needs. Fetching JDK 21 into tools\jdk..."
+        $javac = $null
+    }
+}
+
 if (-not $javac -and (Test-Path $localJdk)) {
     $c = Get-ChildItem -Path $localJdk -Filter javac.exe -Recurse -ErrorAction SilentlyContinue |
          Select-Object -First 1
@@ -95,6 +122,12 @@ $ver = (& $javac -version 2>&1) -join ''
 # whole pipeline rather than only here. Only affects this process and its children.
 $jdkBin = Split-Path -Parent $javac
 $env:PATH = "$jdkBin;$env:PATH"
+# The one source of truth for every script this starts. PATH alone was not enough: build-tools,
+# build-ui3d and play all preferred a HARDCODED Liberica 17 path over anything on PATH, so the
+# JDK chosen here was quietly overruled and the compile could happen on a different version from
+# the one that was checked (2026-10-21). They read this first now.
+$env:MTG_JAVAC = $javac
+$env:MTG_JAVA  = Join-Path $jdkBin 'java.exe' 
 if (-not $env:JAVA_HOME) { $env:JAVA_HOME = Split-Path -Parent $jdkBin }
 if ($javac -like "$localJdk*") { Ok "JDK: $ver (portable, in tools\jdk)" } else { Ok "JDK: $ver" }
 
@@ -168,9 +201,14 @@ if (Test-Path $agentJar) {
 
 if ($agentStale -or (Needs-Build (Join-Path $root 'scripts\tools') (Join-Path $root 'scripts\tools\classes'))) {
     Work "Compiling the AI hooks and agent..."
-    & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-tools.ps1') | Out-Null
+    # Kept, not discarded. Piping this to Out-Null is why a failed build said only "the jar could
+    # not be built" and never WHY - the compiler's own error was thrown away before anyone saw it.
+    $buildLog = & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-tools.ps1') 2>&1
     if (-not (Test-Path $agentJar) -or (Get-Item $agentJar).Length -lt 1024) {
         Bad "evalcache-agent.jar could not be built."
+        Write-Host ""
+        Write-Host "  What the compiler said:" -ForegroundColor Red
+        $buildLog | Select-Object -Last 20 | ForEach-Object { Write-Host "    $_" }
         Write-Host ""
         Write-Host "  Forge will not start without it. The usual cause is a copy of Forge still"
         Write-Host "  running and holding the file - close every Forge window, check Task Manager"

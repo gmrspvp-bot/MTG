@@ -24,8 +24,11 @@ foreach ($j in @($desktop, $mobile)) {
     if (-not (Test-Path $j)) { throw "Missing $j - extract Forge 2.0.15 into forge-installer-2.0.15\ first." }
 }
 
-# Liberica 17 if it is installed (the rest of the repo prefers it), otherwise whatever is on PATH.
-$javac = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\javac.exe'
+# The JDK setup.ps1 settled on, if it said; otherwise Liberica 17 where it is installed, then
+# whatever is on PATH. Setup's choice has to come first or a machine with 17 installed compiles
+# the 3D table on 17 while the hooks were built on 21.
+$javac = $env:MTG_JAVAC
+if (-not ($javac -and (Test-Path $javac))) { $javac = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\javac.exe' }
 if (-not (Test-Path $javac)) {
     $c = Get-Command javac -ErrorAction SilentlyContinue
     if ($c) { $javac = $c.Source } else { throw "No javac found (install a JDK, or Liberica 17)." }

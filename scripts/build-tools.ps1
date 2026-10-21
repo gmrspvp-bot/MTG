@@ -16,6 +16,9 @@ $forge = Join-Path $root 'forge-installer-2.0.15\forge-gui-desktop-2.0.15-jar-wi
 $tools = Join-Path $PSScriptRoot 'tools'
 $out   = Join-Path $tools 'classes'
 
+# The JDK setup.ps1 settled on wins over everything, including the hardcoded path above:
+# otherwise a machine with Liberica 17 installed compiles on 17 however carefully setup chose 21.
+if ($env:MTG_JAVAC -and (Test-Path $env:MTG_JAVAC)) { $jdk = Split-Path -Parent $env:MTG_JAVAC }
 # Fall back to the JDK on PATH when Liberica 17 is not installed (JDK 21 works too).
 if (-not (Test-Path "$jdk\javac.exe")) {
     $c = Get-Command javac -ErrorAction SilentlyContinue
