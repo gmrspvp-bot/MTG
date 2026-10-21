@@ -660,7 +660,11 @@ abstract class TableHud extends TableScene {
         float bh = Math.max(150f, 118f + q.height);
         float x = (w - bw) / 2f, y = h * 0.62f - bh / 2f;
 
-        ui.end();
+        // Drawn after the overlay has closed its own batch, so this opens and closes one of
+        // its own. It used to be called mid-batch and began with ui.end(); moving it to the end
+        // of the frame left that end() with no batch to close, which threw out of the render
+        // thread and took the whole window down - the game then sat waiting until Handoff gave
+        // the question back to Forge's window (the owner, 2026-10-22).
         Gdx.gl.glEnable(GL20.GL_BLEND);
         com.badlogic.gdx.math.Matrix4 flat = new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h);
         shapes.setProjectionMatrix(flat);
@@ -675,6 +679,7 @@ abstract class TableHud extends TableScene {
         shapes.rect(x, y + bh - 5f, bw, 5f);
         shapes.rect(x, y, bw, 2f);
         shapes.end();
+        ui.setProjectionMatrix(flat);
         ui.begin();
 
         fontBig.setColor(1f, 0.90f, 0.55f, 1f);
@@ -688,6 +693,7 @@ abstract class TableHud extends TableScene {
         font.draw(ui, "X" + (Pad.connected() ? " / X" : "") + " = " + ask.noLabel, x + 300f, y + 40f);
         font.setColor(0.62f, 0.66f, 0.72f, 1f);
         font.draw(ui, "H hands this question back to Forge's window", x + 24f, y + 18f);
+        ui.end();
     }
 
     /** Y of row i, measured down from the top of the panel. */
