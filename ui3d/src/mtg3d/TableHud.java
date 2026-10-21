@@ -1229,8 +1229,25 @@ abstract class TableHud extends TableScene {
                 + "   -   drop it back to take it off   -   SPACE confirms   ESC cancels";
             c = new Color(1f, 0.55f, 0.40f, 1f);
         } else if (combatPlan != null) {
-            line = "Declare blockers   (" + combatPlan.blockOn.size() + " blocking)";
-            sub = "drag a glowing creature onto an attacker   -   SPACE confirms   ESC cancels";
+            String on = null;
+            if (combatPlan.current != Integer.MIN_VALUE) {
+                for (Snapshot.SeatV s : snap.seats) {
+                    for (Snapshot.CardV atk : s.creatures) if (atk.id == combatPlan.current) on = atk.name;
+                }
+            }
+            int onThisOne = 0;
+            for (Integer a : combatPlan.blockOn.values()) {
+                if (a != null && a == combatPlan.current) onThisOne++;
+            }
+            line = on == null
+                ? "Declare blockers   (" + combatPlan.blockOn.size() + " blocking)"
+                : "Blocking " + on + "   (" + onThisOne + " on it, "
+                    + combatPlan.blockOn.size() + " blocking in all)";
+            sub = on == null
+                ? "click an attacker to block it (or <- -> to step through them), then click your creatures"
+                    + "   -   dragging still works   -   SPACE confirms   ESC cancels"
+                : "click your creatures to put them in front of it   -   click another attacker to switch"
+                    + "   -   SPACE confirms   ESC cancels";
             c = new Color(0.55f, 0.80f, 1f, 1f);
         } else if (manaPlan != null) {
             line = "Pay " + manaPlan.cost + "   (" + manaPlan.tapped.size() + " of " + manaPlan.total + " paid)";

@@ -164,6 +164,14 @@ abstract class TableBase extends ApplicationAdapter {
         final java.util.Map<Integer, Integer> attackSeat = new java.util.LinkedHashMap<>();
         final java.util.Map<Integer, Integer> blockOn = new java.util.LinkedHashMap<>();
         int dragging = Integer.MIN_VALUE;
+        /**
+         * While blocking: the attacker new blockers go on, which is Forge's own model.
+         * InputBlock keeps a "current attacker" and every creature you click after choosing one
+         * blocks IT. Dragging an arrow per blocker hid that, and when two of the owner's blockers
+         * both landed on one of three identical Robot tokens there was nothing on screen saying
+         * which attacker they had gone to until the damage was dealt (2026-10-22).
+         */
+        int current = Integer.MIN_VALUE;
         /** Driven by Forge (InputAttack / InputBlock): drops become clicks, the arcs come from the game. */
         boolean wired;
         CombatPlan(boolean blocking) { this.blocking = blocking; }

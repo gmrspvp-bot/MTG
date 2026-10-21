@@ -398,6 +398,23 @@ abstract class TableInput extends TableHud {
         // A on the pad counts as the left button, so every picker, pad and panel that already
         // works from a click works from the controller with no second code path.
         boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
+        if (p.blocking) {
+            // The attacker being blocked can be stepped through without the mouse, and the one
+            // chosen is named in the banner and ringed on the table, so "which attacker am I
+            // blocking?" is never a guess.
+            if (Keys3D.just(Input.Keys.LEFT) || Pad.justAs(Input.Keys.LEFT)) stepAttacker(-1);
+            if (Keys3D.just(Input.Keys.RIGHT) || Pad.justAs(Input.Keys.RIGHT)) stepAttacker(+1);
+            if (p.current != Integer.MIN_VALUE && !p.attackers.contains(p.current)) {
+                p.current = Integer.MIN_VALUE;       // it left combat
+            }
+            // Press an attacker: it becomes the one being blocked. Forge is told at once, so its
+            // idea of the current attacker and ours can never drift apart.
+            if (down && !planLeftWas && hovered != null && p.attackers.contains(hovered.card.id)) {
+                chooseAttacker(hovered.card.id);
+                planLeftWas = down;
+                return false;
+            }
+        }
         if (down && !planLeftWas && hovered != null && hovered.seat != null && p.mine.contains(hovered.card.id)) {
             p.dragging = hovered.card.id;
         }
@@ -407,15 +424,19 @@ abstract class TableInput extends TableHud {
             if (p.blocking) {
                 Integer was = p.blockOn.get(id);
                 if (hovered != null && p.attackers.contains(hovered.card.id)) {
-                    // Forge's InputBlock: click the attacker (it becomes current), then the blocker.
-                    if (p.wired) {
-                        if (was != null && was != hovered.card.id) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
-                        Gui3D.clickCard(hovered.card.id);
-                        Gui3D.clickCard(id);
-                    }
-                    p.blockOn.put(id, hovered.card.id);
+                    // Dragged onto an attacker: that attacker becomes the current one and this
+                    // creature blocks it.
+                    blockWith(id, hovered.card.id, was);
+                } else if (hovered != null && hovered.card.id == id && p.current != Integer.MIN_VALUE
+                        && (was == null || was != p.current)) {
+                    // A click rather than a drag, with an attacker already chosen: block that
+                    // one. This is the half that was missing - with three identical attackers,
+                    // dragging an arrow onto the right one of them is the hard way to do
+                    // something Forge models as "pick the attacker, then pick the blockers".
+                    blockWith(id, p.current, was);
                 } else {
-                    // Dropped elsewhere: take the block off (the same two clicks toggle it back).
+                    // Dropped elsewhere, or clicked while already blocking the chosen attacker:
+                    // take the block off (the same two clicks toggle it back).
                     if (p.wired && was != null) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
                     p.blockOn.remove(id);
                 }
@@ -1267,6 +1288,62 @@ abstract class TableInput extends TableHud {
         java.util.List<Integer> out = new java.util.ArrayList<>(pile.size());
         for (int member : pile) if (p.mine.contains(member)) out.add(member);
         return out.isEmpty() ? one : out;
+    }
+
+    /**
+     * Put `blocker` in front of `attacker`, taking it off whatever it was blocking first.
+     *
+     * Forge's InputBlock is a two-step: a click on an attacking creature makes it current, and a
+     * click on one of your own creatures toggles it as a blocker of THAT attacker. So the order
+     * of clicks matters, and a stale current attacker is how blocks end up on the wrong one.
+     */
+    void blockWith(int blocker, int attacker, Integer was) {
+        CombatPlan p = combatPlan;
+        if (p == null) return;
+        if (p.wired) {
+            if (was != null && was != attacker) { Gui3D.clickCard(was); Gui3D.clickCard(blocker); }
+            Gui3D.clickCard(attacker);
+            Gui3D.clickCard(blocker);
+        }
+        p.current = attacker;
+        p.blockOn.put(blocker, attacker);
+    }
+
+    /** Make `id` the attacker that new blocks go on, and tell Forge the same. */
+    void chooseAttacker(int id) {
+        CombatPlan p = combatPlan;
+        if (p == null || p.current == id) return;
+        p.current = id;
+        if (p.wired) Gui3D.clickCard(id);
+        for (Snapshot.CardV c : allCards()) {
+            if (c.id != id) continue;
+            toast("Blocking " + c.name + " - click your creatures to block it",
+                Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.30f);
+            break;
+        }
+    }
+
+    /** Step through the attackers with the arrow keys or the D-pad, in the order they were declared. */
+    void stepAttacker(int by) {
+        CombatPlan p = combatPlan;
+        if (p == null || p.attackers.isEmpty()) return;
+        java.util.List<Integer> order = new java.util.ArrayList<>(p.attackers);
+        java.util.Collections.sort(order);
+        int at = order.indexOf(p.current);
+        int next = at < 0 ? (by > 0 ? 0 : order.size() - 1)
+            : ((at + by) % order.size() + order.size()) % order.size();
+        chooseAttacker(order.get(next));
+    }
+
+    /** Every card the snapshot knows about on the battlefield, for naming one by id. */
+    java.util.List<Snapshot.CardV> allCards() {
+        java.util.List<Snapshot.CardV> out = new java.util.ArrayList<>();
+        for (Snapshot.SeatV s : snap.seats) {
+            out.addAll(s.creatures);
+            out.addAll(s.others);
+            out.addAll(s.lands);
+        }
+        return out;
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */
