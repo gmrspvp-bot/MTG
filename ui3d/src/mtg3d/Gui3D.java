@@ -1631,8 +1631,15 @@ public final class Gui3D implements InvocationHandler {
                 if (options.size() == 1) return options.get(0);
             } else if (options.size() == 1 && options.get(0) instanceof forge.game.spellability.SpellAbilityView) {
                 // A click: a single ability that does not ask to be confirmed is played if it can be.
+                //
+                // When it cannot, hand the question to Forge rather than answering null. null is
+                // "the player chose nothing", and Forge drops the click without a word - which is
+                // how tapping Arcane Signet for mana did nothing four times in a row while the log
+                // said only "Forge refused the click" (the owner, 2026-10-21). canPlay() is false
+                // for a mana ability with nothing to pay for, yet Forge's own window offers it and
+                // floats the mana. Forge is the one that knows; let it answer.
                 forge.game.spellability.SpellAbilityView only = (forge.game.spellability.SpellAbilityView) options.get(0);
-                if (!only.promptIfOnlyPossibleAbility()) return only.canPlay() ? only : null;
+                if (!only.promptIfOnlyPossibleAbility()) return only.canPlay() ? only : NOT_HANDLED;
             }
             java.util.List<Object> entities = new ArrayList<>();
             java.util.List<Snapshot.CardV> items = new ArrayList<>();

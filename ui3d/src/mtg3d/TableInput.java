@@ -701,7 +701,7 @@ abstract class TableInput extends TableHud {
                 toast("Nothing to confirm right now", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
             }
         }
-        if (Keys3D.just(Input.Keys.X) && Gui3D.active()) Gui3D.pressCancel();
+        if (Keys3D.just(Input.Keys.X) && Gui3D.active()) cancelPressed();
         // N, or the RIGHT arrow: done here, move on by one step. Clears any auto-pass first,
         // so it is also the way out if something armed one by accident.
         if ((Keys3D.just(Input.Keys.N) || Keys3D.just(Input.Keys.RIGHT)) && Gui3D.active()) {
@@ -718,7 +718,7 @@ abstract class TableInput extends TableHud {
             if (inRect(okBtn, mx, my) || inRect(cancelBtn, mx, my) || (nextOn && inRect(nextBtn, mx, my))) {
                 if (clickedCard()) {
                     if (inRect(okBtn, mx, my)) Gui3D.pressOk();
-                    else if (inRect(cancelBtn, mx, my)) Gui3D.pressCancel();
+                    else if (inRect(cancelBtn, mx, my)) cancelPressed();
                     else Gui3D.nextPhase();
                 }
                 return;
@@ -1003,6 +1003,35 @@ abstract class TableInput extends TableHud {
         if (token == null || token == lastAutoPassed) return;
         lastAutoPassed = token;
         Gui3D.pressOk();
+    }
+
+    /** When the End-turn confirmation was asked for, and how long it stands. */
+    private long endTurnAskedAt;
+    private static final long END_TURN_CONFIRM_MS = 3000L;
+
+    /**
+     * Cancel - which during ordinary priority is NOT "no", it is "end my turn".
+     *
+     * Forge's cancel on InputPassPriority arms an auto-pass for everything left in the turn.
+     * Players press it meaning "no" or "close this", and lose the turn. The stack trace from the
+     * owner's game of 2026-10-21 caught it arriving from the network client twice in the first
+     * turn, and the same cancel is what quietly declined a Kodama's Reach search earlier.
+     *
+     * So when cancel would end the turn it asks once. Any other cancel - a real question with a
+     * No, a panel - goes straight through, because there it means what it says.
+     */
+    void cancelPressed() {
+        String label = Gui3D.PROMPT.cancelLabel;
+        boolean endsTurn = label != null && label.equalsIgnoreCase("End Turn");
+        long now = System.currentTimeMillis();
+        if (endsTurn && now - endTurnAskedAt > END_TURN_CONFIRM_MS) {
+            endTurnAskedAt = now;
+            toast("End your turn? Press X again to confirm - it passes everything left",
+                Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.62f);
+            return;
+        }
+        endTurnAskedAt = 0L;
+        Gui3D.pressCancel();
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */
