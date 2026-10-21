@@ -438,6 +438,11 @@ abstract class TableInput extends TableHud {
                     // Dropped elsewhere, or clicked while already blocking the chosen attacker:
                     // take the block off (the same two clicks toggle it back).
                     if (p.wired && was != null) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
+                    if (was != null) {
+                        String off = nameOf(id);
+                        if (off != null) toast(off + " is not blocking now",
+                            Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
+                    }
                     p.blockOn.remove(id);
                 }
             } else {
@@ -1307,6 +1312,18 @@ abstract class TableInput extends TableHud {
         }
         p.current = attacker;
         p.blockOn.put(blocker, attacker);
+        // Say it out loud as well as marking it. The marks are on the cards, which is where you
+        // look afterwards; this is for the instant of the click.
+        String who = nameOf(blocker), what = nameOf(attacker);
+        if (who != null && what != null) {
+            toast(who + " blocks " + what, Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
+        }
+    }
+
+    /** A card's name by id, or null when the snapshot has no such card on the battlefield. */
+    String nameOf(int id) {
+        for (Snapshot.CardV c : allCards()) if (c.id == id) return c.name;
+        return null;
     }
 
     /** Make `id` the attacker that new blocks go on, and tell Forge the same. */

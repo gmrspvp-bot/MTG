@@ -117,6 +117,7 @@ abstract class TableHud extends TableScene {
         drawPhaseOnTable();
         drawZoneLabels();
         drawStackCounts();
+        drawBlockPairs();
         drawCentreTracker();
         drawLifePops();
         drawTargetBanner(w, h);
@@ -883,6 +884,60 @@ abstract class TableHud extends TableScene {
      * "x12" over a pile of identical permanents. The pile shows depth, but depth stops being
      * countable past about four cards and stops growing at six, so the number carries it.
      */
+    /**
+     * While blockers are being declared: a number over every attacker that is being blocked, and
+     * the same number over each creature blocking it.
+     *
+     * The blue slab under an assigned blocker said THAT it was blocking and never WHICH attacker,
+     * so an assignment was invisible until the damage was dealt - "I cannot tell if the blocker
+     * is assigned until I proceed to the next step, in which I find out if I assigned it
+     * correctly" (the owner, 2026-10-22). Numbers rather than arcs because the attackers that
+     * need telling apart are usually identical tokens sitting next to each other, and a line
+     * between two cards a few centimetres apart reads worse than a 1 and a 1.
+     *
+     * Drawn from the window's own plan, not from the game, so it appears the instant you click
+     * and does not wait for anything to come back.
+     */
+    void drawBlockPairs() {
+        if (combatPlan == null || !combatPlan.blocking || combatPlan.blockOn.isEmpty()) return;
+        // The attackers that have something in front of them, numbered in the order they were
+        // first blocked, so the numbers do not jump about as more blockers are added.
+        java.util.LinkedHashMap<Integer, Integer> number = new java.util.LinkedHashMap<>();
+        for (Integer attacker : combatPlan.blockOn.values()) {
+            if (attacker != null && !number.containsKey(attacker)) number.put(attacker, number.size() + 1);
+        }
+        for (Drawn d : drawn) {
+            if (d.card == null) continue;
+            Integer n = number.get(d.card.id);
+            boolean isAttacker = n != null;
+            if (n == null) n = number.get(combatPlan.blockOn.get(d.card.id));
+            if (n == null) continue;
+            Vector3 mid = d.bounds.getCenter(new Vector3());
+            Vector3 p = cam.project(new Vector3(mid.x, mid.y + 0.12f, mid.z));
+            if (p.z > 1f) continue;
+            // The attacker's chip is red and says how many are in front of it; a blocker's is
+            // blue and carries only the number, so which is which never has to be worked out.
+            int onIt = 0;
+            if (isAttacker) {
+                for (Integer a : combatPlan.blockOn.values()) if (a != null && a.intValue() == d.card.id) onIt++;
+            }
+            String label = isAttacker ? n + "  blocked by " + onIt : String.valueOf(n);
+            GlyphLayout gl = new GlyphLayout(fontBig, label);
+            ui.end();
+            shapes.setProjectionMatrix(ui.getProjectionMatrix());
+            Gdx.gl.glEnable(GL20.GL_BLEND);
+            shapes.begin(ShapeRenderer.ShapeType.Filled);
+            if (isAttacker) shapes.setColor(0.36f, 0.06f, 0.06f, 0.90f);
+            else shapes.setColor(0.05f, 0.16f, 0.30f, 0.90f);
+            shapes.rect(p.x - gl.width / 2f - 8f, p.y - 5f, gl.width + 16f, gl.height + 11f);
+            shapes.end();
+            ui.begin();
+            if (isAttacker) fontBig.setColor(1f, 0.70f, 0.60f, 1f);
+            else fontBig.setColor(0.70f, 0.90f, 1f, 1f);
+            fontBig.draw(ui, label, p.x - gl.width / 2f, p.y + gl.height + 1f);
+        }
+    }
+
     void drawStackCounts() {
         for (TableLayout.StackedAt s : stacked) {
             Vector3 p = cam.project(new Vector3(s.x, s.top + 0.10f, s.z));
