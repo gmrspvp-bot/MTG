@@ -285,31 +285,81 @@ abstract class TableLayout extends TableCamera {
      */
     void placeStack() {
         stackAt.clear();
+        stackLabelAt.clear();
+        flatStack = null;
         if (snap.stack.isEmpty()) return;
-        float step = CARD_W * STACK_SCALE * 1.18f;
-        float width = snap.stack.size() * step - (step - CARD_W * STACK_SCALE);
+        // Seated, the stack stands upright in the air, facing you. In the overhead (TAB) view it
+        // lies flat over the middle of the table instead (the owner, 2026-10-22): looked down on,
+        // upright cards are edge-on and unreadable. `t` follows the camera's own lift, so the
+        // cards lie down and stand up with the camera rather than snapping.
+        float t = smooth(lift);
+        int n = snap.stack.size();
+        float scale = STACK_SCALE + (FLAT_STACK_SCALE - STACK_SCALE) * t;
+        float tilt = 90f * (1f - t);
+        float baseY = STACK_Y + (FLAT_STACK_Y - STACK_Y) * t;
+        float cardW = CARD_W * scale;
+        float step = cardW * 1.18f;
+        // Flat, the bar must stay between the side seats' creature rows: past FLAT_STACK_MAX the
+        // cards overlap, the later (nearer the top of the stack) over the earlier.
+        float maxW = FLAT_STACK_MAX + (1f - t) * 1000f;
+        if (n > 1 && (n - 1) * step + cardW > maxW) step = (maxW - cardW) / (n - 1);
+        float width = (n - 1) * step + cardW;
         float yaw = (float) Math.toDegrees(-orbit);
+        // Down the card's face, from its centre towards its bottom edge: straight down while it
+        // stands, towards the viewer once it lies flat. Arcs and labels hang off that edge.
+        Vector3 o = rotateY(0f, 0f, orbit), toViewer = rotateY(0f, 1f, orbit).sub(o);
+        float rad = (float) Math.toRadians(tilt);
+        Vector3 down = new Vector3(toViewer).scl((float) Math.cos(rad)).add(0f, -(float) Math.sin(rad), 0f);
 
         // A panel behind the cards. Floating bare cards read as loose cards; a frame says "this
         // is the stack", which is the thing you most need to notice is not empty.
-        Vector3 c0 = rotateY(0f, 0f, orbit);
         ModelInstance frame = new ModelInstance(stackFrameModel);
-        frame.transform.setToTranslation(c0.x, STACK_Y + 0.18f, c0.z)
+        frame.transform.setToTranslation(o.x, baseY + 0.18f * (1f - t) - 0.04f * t, o.z)
             .rotate(Vector3.Y, yaw)
-            .rotate(Vector3.X, 90f)
-            .scale((width + 0.9f) / STACK_FRAME_UNIT, 1f, 1f);
+            .rotate(Vector3.X, tilt)
+            .scale((width + 0.9f) / STACK_FRAME_UNIT, 1f, (CARD_H * scale + 0.8f) / (CARD_H * STACK_SCALE + 0.8f));
         props.add(frame);
+        flatStack = t < 0.5f ? null : new float[] { o.x, o.z, toViewer.x, toViewer.z,
+            width / 2f + 0.45f, CARD_H * scale / 2f + 0.4f };
 
-        for (int i = 0; i < snap.stack.size(); i++) {
+        for (int i = 0; i < n; i++) {
             Snapshot.CardV c = snap.stack.get(i);
-            boolean top = (i == snap.stack.size() - 1);
-            float along = -width / 2f + i * step + CARD_W * STACK_SCALE / 2f;
+            boolean top = (i == n - 1);
+            float along = -width / 2f + i * step + cardW / 2f;
             Vector3 w = rotateY(along, 0f, orbit);
-            add(c, null, w.x, STACK_Y + (top ? 0.34f : 0f), w.z, yaw, 90f, STACK_SCALE);
-            // Where a target arc starts: the bottom edge of the upright card. Kept per stack index,
+            // Upright, the card about to resolve stands a little higher; flat, each card lies a
+            // hair above the one before, so the overlap shows the newest on top.
+            float y = baseY + (top ? 0.34f * (1f - t) : 0f) + i * 0.01f * t;
+            add(c, null, w.x, y, w.z, yaw, tilt, scale);
+            // Where a target arc starts: the bottom edge of the card. Kept per stack index,
             // because an ability shares its id with its source, so poses cannot tell them apart.
-            stackAt.add(new float[] { w.x, STACK_Y + (top ? 0.34f : 0f) - CARD_H * STACK_SCALE / 2f, w.z });
+            float half = CARD_H * scale / 2f;
+            stackAt.add(new float[] { w.x + down.x * half, y + down.y * half, w.z + down.z * half });
+            // Where its "who cast it" label goes: low on the upright card (as it always was), and
+            // just past the near edge of a flat one.
+            float lab = 0.8f + (half + 0.25f - 0.8f) * t;
+            stackLabelAt.add(new float[] { w.x + down.x * lab, y + down.y * lab, w.z + down.z * lab });
         }
+    }
+
+    /** The stack in the overhead view: how big its cards are, how high it lies, how wide it may run. */
+    static final float FLAT_STACK_SCALE = 1.5f, FLAT_STACK_Y = 1.0f, FLAT_STACK_MAX = 7.0f;
+    /** Where each stack item's label is drawn (TableHud), filled with the cards by placeStack. */
+    final List<float[]> stackLabelAt = new ArrayList<>();
+    /**
+     * The flat stack's footprint while it lies on the table - centre x, z; the toward-the-viewer
+     * direction x, z; half its length and half its depth, frame included - or null.
+     */
+    float[] flatStack;
+
+    /** True when this point of the table is under the flat (overhead) stack. */
+    boolean underFlatStack(float x, float z) {
+        float[] f = flatStack;
+        if (f == null || snap.stack.isEmpty()) return false;
+        float dx = x - f[0], dz = z - f[1];
+        float across = dx * f[2] + dz * f[3];                 // towards the viewer
+        float along = dx * -f[3] + dz * f[2];                 // the bar's own direction
+        return Math.abs(along) <= f[4] && Math.abs(across) <= f[5];
     }
 
     /**

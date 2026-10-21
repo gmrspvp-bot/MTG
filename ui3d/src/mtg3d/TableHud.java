@@ -410,14 +410,14 @@ abstract class TableHud extends TableScene {
     /** Who cast what, under each item on the stack, plus a marker on the one resolving next. */
     void drawStackLabels() {
         if (snap.stack.isEmpty()) return;
-        float step = CARD_W * 1.15f;
-        float width = snap.stack.size() * step - (step - CARD_W);
-        for (int i = 0; i < snap.stack.size(); i++) {
+        // Placed by placeStack with the cards, so a label is always under its own card - upright or
+        // flat. (It used to work out its own spacing, which no longer matched the cards' once the
+        // stack was drawn larger: with three items the labels sat between the cards.)
+        for (int i = 0; i < snap.stack.size() && i < stackLabelAt.size(); i++) {
             Snapshot.CardV c = snap.stack.get(i);
             boolean top = (i == snap.stack.size() - 1);
-            float along = -width / 2f + i * step + CARD_W / 2f;
-            Vector3 w = rotateY(along, 0f, orbit);
-            Vector3 p = cam.project(new Vector3(w.x, STACK_Y + (top ? 0.34f : 0f) - 0.8f, w.z));
+            float[] at = stackLabelAt.get(i);
+            Vector3 p = cam.project(new Vector3(at[0], at[1], at[2]));
             if (p.z > 1f) continue;
             font.setColor(top ? new Color(1f, 0.85f, 0.35f, 1f) : new Color(0.68f, 0.78f, 0.88f, 1f));
             font.draw(ui, c.controller, p.x - 30, p.y);
@@ -1383,6 +1383,9 @@ abstract class TableHud extends TableScene {
             Snapshot.SeatV s = snap.seats.get(i);
             float angle = seatAngle(i, n);
             Vector3 w = rotateY(0f, MONITOR_DIST, angle);
+            // The overhead stack lies over the side screens; their readout would print over the
+            // cards. The same numbers are on the scoreboard panel and by each seat.
+            if (underFlatStack(w.x, w.z)) continue;
             Vector3 p = cam.project(new Vector3(w.x, 0.62f, w.z));
             if (p.z > 1f) continue;                       // behind the camera
 

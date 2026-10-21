@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d: stack cards lie flat on the table in the overhead (TAB) view, upright as now when seated | Stoneforge | 2026-10-22 | Owner request. TableLayout.placeStack, maybe TableScene stack frame/arcs. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
