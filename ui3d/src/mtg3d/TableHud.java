@@ -575,9 +575,9 @@ abstract class TableHud extends TableScene {
         font.setColor(0.95f, 0.95f, 0.92f, 1f);
         font.draw(ui, ask.question, x + 24f, y + bh - 58f, bw - 48f, -1, true);
         font.setColor(0.70f, 0.95f, 0.70f, 1f);
-        font.draw(ui, "SPACE = " + ask.yesLabel, x + 24f, y + 36f);
+        font.draw(ui, "SPACE" + (Pad.connected() ? " / A" : "") + " = " + ask.yesLabel, x + 24f, y + 36f);
         font.setColor(0.95f, 0.72f, 0.66f, 1f);
-        font.draw(ui, "X = " + ask.noLabel, x + 240f, y + 36f);
+        font.draw(ui, "X" + (Pad.connected() ? " / X" : "") + " = " + ask.noLabel, x + 260f, y + 36f);
         font.setColor(0.62f, 0.66f, 0.72f, 1f);
         font.draw(ui, "H hands this question back to Forge's window", x + 24f, y + 16f);
     }

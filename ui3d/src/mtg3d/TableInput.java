@@ -596,6 +596,16 @@ abstract class TableInput extends TableHud {
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         syncBoardModes();
+        // A yes/no the 3D window owns takes the keys first: Forge is no longer showing this
+        // question, so SPACE must answer it rather than pass priority underneath it. Above the
+        // early return below, because an Ask now counts as a panel - putting it after meant the
+        // question could be read and not answered at all.
+        if (Gui3D.pendingAsk() != null) {
+            if (Keys3D.just(Input.Keys.SPACE)) Gui3D.answerAsk(true);
+            if (Keys3D.just(Input.Keys.X)) Gui3D.answerAsk(false);
+            if (Keys3D.just(Input.Keys.H)) { Handoff.handBack(); }
+            return;
+        }
         if (panelOpen()) return;
         // The board modes own clicks and ESC while they are on: a click on a glowing card picks,
         // taps or targets it instead of playing it. They consume the click edge, so nothing below
@@ -669,13 +679,6 @@ abstract class TableInput extends TableHud {
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
         // a game is actually running: in the demo nothing is installed and SPACE still steps the
         // phase, so the two never contend for the key.
-        // A yes/no the 3D window owns takes the keys first: Forge is no longer showing this
-        // question, so SPACE must answer it rather than pass priority underneath it.
-        if (Gui3D.pendingAsk() != null) {
-            if (Keys3D.just(Input.Keys.SPACE)) Gui3D.answerAsk(true);
-            if (Keys3D.just(Input.Keys.X)) Gui3D.answerAsk(false);
-            return;
-        }
         // SPACE is the main button, whatever it says this moment - answering a question,
         // letting the stack resolve, or ending the step. It goes through nextPhase() so it
         // always clears an auto-pass first: the key you press most should never be the one

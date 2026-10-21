@@ -214,9 +214,13 @@ abstract class TableBase extends ApplicationAdapter {
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
     boolean panelOpen() {
+        // Gui3D's Ask counts. It is a yes/no the 3D window owns, drawn over the board and
+        // answered with SPACE and X - the same two keys the pad's A and X stand in for while a
+        // panel is up. Leaving it out meant the controller could read the question and not
+        // answer it (the owner, 2026-10-21).
         return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
             || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen()
-            || (damage != null && damage.isOpen());
+            || (damage != null && damage.isOpen()) || Gui3D.pendingAsk() != null;
     }
 
     final BugReport bug = new BugReport();
