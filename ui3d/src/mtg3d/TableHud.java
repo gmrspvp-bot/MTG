@@ -86,6 +86,15 @@ abstract class TableHud extends TableScene {
             font.setColor(1f, 0.55f, 0.35f, 1f);
             font.draw(ui, "Forge answered: " + fell + "  (not taken over yet)", 14f, 80f);
         }
+        // Things that would otherwise be silence - a click that counted for nothing because the
+        // card had no ability Forge would offer. Middle of the screen, under the banners, where
+        // someone clicking a land for the third time is actually looking.
+        String note = Gui3D.recentNote();
+        if (!note.isEmpty()) {
+            GlyphLayout ngl = new GlyphLayout(fontBig, note);
+            fontBig.setColor(1f, 0.82f, 0.45f, 1f);
+            fontBig.draw(ui, note, (w - ngl.width) / 2f, h * 0.36f);
+        }
         drawPromptBar(w, h);
         drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {

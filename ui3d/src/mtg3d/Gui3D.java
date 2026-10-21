@@ -970,8 +970,58 @@ public final class Gui3D implements InvocationHandler {
         return controller != null || remote != null;
     }
 
+    /**
+     * A short line for the player, shown by the table for a few seconds.
+     *
+     * For the things that are nobody's fault and would otherwise be silence - a card whose
+     * abilities Forge will not offer, a click that counted for nothing. Not for errors: those go
+     * to the log, where they can be read afterwards.
+     */
+    private static volatile String note = "";
+    private static volatile long noteAt;
+
+    static void note(String what) {
+        note = what == null ? "" : what;
+        noteAt = System.currentTimeMillis();
+        if (!note.isEmpty()) System.out.println("UI3D: " + note);
+    }
+
+    /** The note to show, or empty once it has had its few seconds. */
+    public static String recentNote() {
+        return System.currentTimeMillis() - noteAt < 5000 ? note : "";
+    }
+
     /** Returned when a taken-over method decides to forward after all. */
     private static final Object NOT_HANDLED = new Object();
+
+    /** The last prompt printed, so a line only appears when something actually changes. */
+    private static volatile String lastSaid = "";
+
+    /**
+     * One line whenever what the game is waiting for changes: the input, the prompt, the buttons.
+     *
+     * Paying for a mana ability that itself costs mana opens a SECOND payment inside the first
+     * one, and from outside there is no way to tell a nested payment that never opened from one
+     * that opened and was answered by something else. Clicking Shadowblood Ridge ({1}, {T}: Add
+     * {B}{R}) taps it and then, the owner says, nothing happens - and with one line per prompt
+     * the log says plainly whether Forge ever asked for the {1} (2026-10-22).
+     *
+     * Off with -Dforge.ui3d.promptlog=false.
+     */
+    private static void sayPrompt() {
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.promptlog", "true"))) return;
+        try {
+            String line = "UI3D: waiting on [" + (PROMPT.inputName.isEmpty() ? "none" : PROMPT.inputName)
+                + "] " + PROMPT.message
+                + "   ok=" + (PROMPT.okEnabled ? PROMPT.okLabel : "-")
+                + " cancel=" + (PROMPT.cancelEnabled ? PROMPT.cancelLabel : "-");
+            if (line.equals(lastSaid)) return;
+            lastSaid = line;
+            System.out.println(line);
+        } catch (Throwable t) {
+            // a diagnostic is never worth a thrown exception
+        }
+    }
 
     /**
      * Answer a taken-over method from the 3D window.
@@ -1731,7 +1781,19 @@ public final class Gui3D implements InvocationHandler {
             java.util.List<?> options = args.length > 1 && args[1] instanceof java.util.List ? (java.util.List<?>) args[1] : null;
             if (options == null) return NOT_HANDLED;
             // Forge's own rules first (CMatchUI.getAbilityToPlay): nothing offered = nothing played.
-            if (options.isEmpty()) return null;
+            //
+            // But SAY so. This is the quietest dead end in the whole window: InputPayMana filters
+            // a card's mana abilities by canPlay, and when none survive it asks here with an
+            // empty list, takes the null for an answer, and returns TRUE - the click counted,
+            // nothing happened, and not even the "Forge refused the click" line appears. That is
+            // what clicking Shadowblood Ridge ({1}, {T}: Add {B}{R}) looks like when the {1}
+            // cannot be paid from anywhere (the owner, mid-game 2026-10-22). One line on screen
+            // beats a player clicking the same land six times.
+            if (options.isEmpty()) {
+                note(host == null ? "Nothing you can use on that right now"
+                    : "Nothing on " + host.getName() + " can be used right now");
+                return null;
+            }
             // No click behind it (triggerEvent null): NOT a card the player clicked, but Forge
             // putting something on the stack for them - EVERY human trigger comes through here as
             // a list of one (PlaySpellAbility.chooseOptionalAdditionalCosts). Forge's window then
@@ -2415,6 +2477,7 @@ public final class Gui3D implements InvocationHandler {
                 }
                 PROMPT.token = ClickGuard.token(pch);
                 PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
+                sayPrompt();
                 break;
             case "updateButtons":
                 // (PlayerView, String okLabel, String cancelLabel, boolean ok, boolean cancel, boolean focus)
@@ -2432,6 +2495,7 @@ public final class Gui3D implements InvocationHandler {
                 }
                 PROMPT.token = ClickGuard.token(pch);
                 PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
+                sayPrompt();
                 break;
             case "setSelectables": {
                 // Both the ids (for the renderer, which must not hold Forge objects) and the
