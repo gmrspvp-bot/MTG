@@ -457,10 +457,13 @@ public final class AiPatches {
      * ManaHold uses, which payment code will not tap - from each turn's start, and let go at every
      * end step, which is when the AI rolls with them. Only with lands to spare (the cost plus
      * three), and only lands whose colours the rest of the hand does not need, where possible.
-     * Patch "dice"; -Dforge.dice.hold=false turns it off (for A/B runs). Logged as "DICEHOLD".
+     * Patch "dice", OFF by default (no gain in the A/B); -Dforge.dice.hold=true turns it on. Logged as "DICEHOLD".
      */
     static final class DiceHold {
-        static final boolean ON = !"false".equalsIgnoreCase(System.getProperty("forge.dice.hold", "true"));
+        // Off by default: the overnight A/B (2026-10-22, 120 games each, Mr House v4 / Doom v3 /
+        // Rin and Seri / Olivia) found no gain - 26% vs 27% - and the held lands were seldom
+        // spent on dice (0.3 rolls a game on opponents' turns). -Dforge.dice.hold=true to try it.
+        static final boolean ON = "true".equalsIgnoreCase(System.getProperty("forge.dice.hold", "false"));
         static final java.util.Map<Player, List<Card>> held = new java.util.WeakHashMap<>();
         /** Between an end step and the next turn's start the hold is off, so the lands can be used. */
         static volatile boolean endStep;
