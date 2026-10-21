@@ -148,6 +148,13 @@ public final class StateReader {
                 seat.lost = pv.getHasLost();
                 seat.active = sameSeat(pv, turn);
                 seat.hasPriority = pv.getHasPriority();
+                // Our own seat, we can check rather than believe. Forge's flag goes stale the
+                // moment the game thread steps into somebody's Input and stays stale until that
+                // Input is done, which had the yellow "they are waiting on you" frame sitting on
+                // the owner's seat through another player's whole combat (2026-10-22).
+                if (seat.isYou && seat.hasPriority && Gui3D.active() && !Gui3D.beingAsked()) {
+                    seat.hasPriority = false;
+                }
                 seat.handSize = zone(pv, ZoneType.Hand);
                 seat.librarySize = zone(pv, ZoneType.Library);
                 seat.graveyardSize = zone(pv, ZoneType.Graveyard);

@@ -789,6 +789,31 @@ public final class Gui3D implements InvocationHandler {
      * bug worth catching: the 3D window can be showing a player as holding priority while Forge
      * has no input open for them, and then every click is refused with nothing to explain it.
      */
+    /**
+     * Is the game actually waiting on THIS window, right now?
+     *
+     * PlayerView.getHasPriority is a snapshot: PhaseHandler writes it at the end of a loop step,
+     * as "is this the priority player", and then the game thread goes and sits inside an Input -
+     * declaring attackers, paying for something - for as long as that takes. Nothing updates the
+     * flag while it waits, so it keeps saying what was true when the step ended. That is how the
+     * yellow frame came to sit on the owner's seat while somebody else was working through their
+     * combat (2026-10-22).
+     *
+     * The window knows better about itself: on the host an Input of ours is live or it is not,
+     * and on a client Forge only enables the buttons when it wants an answer. Only ever used for
+     * our OWN seat - the others we can only take Forge's word for.
+     */
+    public static boolean beingAsked() {
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c != null) return ClickGuard.token(c) != null;
+            if (remote != null) return PROMPT.okEnabled || PROMPT.cancelEnabled;
+            return false;
+        } catch (Throwable t) {
+            return true;      // no idea: say yes, which is the harmless way to be wrong
+        }
+    }
+
     public static String liveInputName() {
         try {
             forge.player.PlayerControllerHuman c = controller;
