@@ -548,8 +548,13 @@ public final class Gui3D implements InvocationHandler {
             Object answered = take(method, args);
             if (answered != NOT_HANDLED) return answered;
             // Forwarded after all (a shape the 3D side does not take): Forge asks in its own
-            // window, so that window has to be on screen.
-            if (showsForgeWindow(method)) ForgeWindow.restore(method.getName() + " is Forge's to ask");
+            // window, so that window has to be on screen - and it counts in the tally, which
+            // otherwise said "the 3D window handled everything" over a replacement-effect choice
+            // that had in fact gone to Forge (owner's game, 2026-10-21).
+            if (showsForgeWindow(method)) {
+                ForgeWindow.restore(method.getName() + " is Forge's to ask");
+                countFallback(method.getName() + " (shape not taken)");
+            }
         }
         try {
             Object out = method.invoke(original, args);
@@ -1426,6 +1431,14 @@ public final class Gui3D implements InvocationHandler {
             if (host != null) { v.id = host.getId(); v.name = host.getName(); }
             v.stackText = label;
             if (v.name.isEmpty()) v.name = label;
+        } else if (o instanceof forge.game.card.IHasCardView) {
+            // A replacement effect (ReplacementEffectView) or anything else that belongs to a card:
+            // its card's picture, with what it does underneath - as for an ability.
+            CardView host = null;
+            try { host = ((forge.game.card.IHasCardView) o).getCardView(); } catch (Throwable ignored) { }
+            if (host != null) { v.id = host.getId(); v.name = host.getName(); }
+            v.stackText = label;
+            if (v.name == null || v.name.isEmpty()) v.name = label;
         } else {
             v.name = label;
         }
@@ -1773,9 +1786,14 @@ public final class Gui3D implements InvocationHandler {
             // (sideboarding) the question is a different shape and stays with Forge.
             if (args.length >= 8 && args[4] instanceof java.util.List && args[5] instanceof java.util.List) {
                 int remainMin = args[2] instanceof Integer ? (Integer) args[2] : -1;
-                int remainMax = args[3] instanceof Integer ? (Integer) args[3] : -1;
                 boolean sideboarding = args[7] instanceof Boolean && (Boolean) args[7];
-                if (remainMin != 0 || remainMax != 0 || sideboarding) return NOT_HANDLED;
+                // Taken whenever nothing HAS to be left behind (remainingMin 0): ordering all of
+                // them is then always a legal answer. Simultaneous triggers ask with max 0;
+                // replacement effects ("Select order for replacement effects" - Barbarian Class +
+                // Wyll on a roll, Academy Manufactor + Mondrak on a token, the owner's game of
+                // 2026-10-21) ask with remainingMax = n-1, meaning only the first must be chosen.
+                // Requiring max 0 sent every replacement choice to Forge's minimised window.
+                if (remainMin != 0 || sideboarding) return NOT_HANDLED;
                 java.util.List<Object> all = new ArrayList<>((java.util.List<?>) args[5]);   // already placed
                 for (Object o : (java.util.List<?>) args[4]) if (!all.contains(o)) all.add(o);
                 if (all.size() < 2) return NOT_HANDLED;
@@ -2010,6 +2028,17 @@ public final class Gui3D implements InvocationHandler {
         } catch (Throwable ignored) {
             // counting must never break a call
         }
+    }
+
+    /** One more decision Forge answered, for the tally (bug reports, -Strict). */
+    private static void countFallback(String n) {
+        synchronized (FALLBACKS) {
+            Integer was = FALLBACKS.get(n);
+            FALLBACKS.put(n, was == null ? 1 : was + 1);
+        }
+        lastFallback = n;
+        lastFallbackAt = System.currentTimeMillis();
+        if (STRICT) System.out.println("UI3D: Forge answered '" + n + "'");
     }
 
     /** Would forwarding this call put something on Forge's window that the player must answer or see? */

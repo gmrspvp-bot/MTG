@@ -523,6 +523,7 @@ public final class StateReader {
             // route from a card the player clicked back to the object Forge wants.
             Gui3D.remember(v.id, cv);
             v.tapped = cv.isTapped();
+            try { v.sick = cv.isSick(); } catch (Throwable ignored) { }
             if (cv.getController() != null) v.controller = cv.getController().getName();
 
             boolean visible;

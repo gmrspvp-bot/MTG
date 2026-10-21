@@ -83,6 +83,11 @@ abstract class TableInput extends TableHud {
     String whyNot(Drawn d) {
         Snapshot.CardV c = d.card;
         Snapshot.SeatV me = snap.you();
+        // Declaring attackers with a creature that arrived this turn: the commonest refusal in
+        // combat, and invisible on the board (owner's game, 2026-10-21: nine new Robots).
+        if (c.sick && d.seat != null && d.seat.isYou && "InputAttack".equals(Gui3D.PROMPT.inputName)) {
+            return c.name + " is summoning sick - it came in this turn and has no haste";
+        }
         if (me != null && !me.hasPriority) return "Not your priority - Forge is waiting on someone else";
         boolean inHand = false;
         for (Snapshot.CardV h : snap.hand) if (h.id == c.id) inHand = true;
@@ -204,7 +209,10 @@ abstract class TableInput extends TableHud {
             }
             CombatPlan cp = combatPlan;
             cp.mine.clear();
-            for (Snapshot.CardV c : me.creatures) if (!c.tapped || block) cp.mine.add(c.id);
+            // What may act glows: untapped, and for an attack not summoning sick. It used to glow
+            // every untapped creature for an attack (new Robots looked ready - owner's game,
+            // 2026-10-21) and every creature, tapped ones too, for a block.
+            for (Snapshot.CardV c : me.creatures) if (!c.tapped && (block || !c.sick)) cp.mine.add(c.id);
             if (attack) {
                 // What Forge has accepted, from the live combat - the drawn arcs follow the game.
                 if (cp.dragging == Integer.MIN_VALUE) {

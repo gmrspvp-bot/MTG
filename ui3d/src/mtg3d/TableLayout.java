@@ -363,8 +363,11 @@ abstract class TableLayout extends TableCamera {
      * anything in combat, where each attacker needs its own arc.
      */
     private static String stackKey(Snapshot.CardV c) {
+        // + sick (2026-10-21): nine Robots made this turn shared a pile with the one that could
+        // attack, so the pile looked ready while most of it was summoning sick, and dragging it
+        // offered Forge whichever robot was on top.
         return c.name + "|" + c.power + "/" + c.toughness + "|" + c.counterText
-            + "|" + c.tapped + c.token + c.faceDown + c.commander;
+            + "|" + c.tapped + c.token + c.faceDown + c.commander + (c.sick ? "|sick" : "");
     }
 
     /**
@@ -398,6 +401,11 @@ abstract class TableLayout extends TableCamera {
         !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.stack", "true"));
 
     private boolean stackable(Snapshot.CardV c) {
+        // Not while attackers or blockers are being declared: a pile is one card on screen with
+        // the rest as scenery, so a second drag from it sent Forge the SAME token again, which
+        // Forge reads as taking it off - two tokens could never block one menace creature (the
+        // owner's game, 2026-10-21). During the declaration every creature gets its own slot.
+        if (combatPlan != null && c.creature) return false;
         return STACK_ALIKE && !c.attacking && !c.blocking && !hostTargets.containsKey(c.id)
             && !attachedHere.containsKey(c.id) && c.attachedToId < 0;
     }

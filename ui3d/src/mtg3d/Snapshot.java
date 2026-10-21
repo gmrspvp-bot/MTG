@@ -26,6 +26,8 @@ public final class Snapshot {
         public String power = "";       // blank for non-creatures
         public String toughness = "";
         public boolean tapped;
+        /** Summoning sick and without haste: cannot attack or tap this turn (CardView.isSick). */
+        public boolean sick;
         public boolean creature;
         public boolean land;
         public boolean artifact;

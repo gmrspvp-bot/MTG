@@ -244,6 +244,17 @@ public class Ui3dTakeoverTest {
         r = g.order("Select order for simultaneous abilities", "Resolve first", 0, 0, abc, new java.util.ArrayList<String>(), null, false, false);
         Object list = r instanceof IGuiGame.OrderResult ? ((IGuiGame.OrderResult<?>) r).ordered() : r;
         check("order, two lists: answered in 3D", Arrays.asList("C", "B", "A").equals(list) && !forgeAsked.get(), "result=" + list);
+        // Replacement effects (2026-10-21, owner's game): the same two-list order, but with
+        // remainingMax = n-1 ("only the first must be chosen") - was sent to Forge's window.
+        forgeAsked.set(false);
+        answerOrderLater(Arrays.asList(1, 0, 2));
+        r = g.order("Select order for replacement effects", "Apply first", 0, 2, abc, new java.util.ArrayList<String>(), null, false, true);
+        list = r instanceof IGuiGame.OrderResult ? ((IGuiGame.OrderResult<?>) r).ordered() : r;
+        check("order, replacement effects: in 3D", Arrays.asList("B", "A", "C").equals(list) && !forgeAsked.get(), "result=" + list);
+        // Some MUST stay behind (remainingMin > 0): a different question, still Forge's.
+        forgeAsked.set(false);
+        g.order("Pick some", "Chosen", 1, 2, abc, new java.util.ArrayList<String>(), null, false, false);
+        check("order with remainingMin > 0 -> Forge", forgeAsked.get(), "forgeAsked=" + forgeAsked.get());
         // insertInList: the item joins at the front; moved to the end.
         forgeAsked.set(false);
         answerOrderLater(Arrays.asList(1, 2, 0));
