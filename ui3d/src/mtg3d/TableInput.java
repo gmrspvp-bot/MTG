@@ -286,7 +286,9 @@ abstract class TableInput extends TableHud {
             }
         }
         clickedCard();                       // eat the click edge: no card is played meanwhile
-        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        // A on the pad counts as the left button, so every picker, pad and panel that already
+        // works from a click works from the controller with no second code path.
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         if (down && !planLeftWas && hovered != null && hovered.seat != null && p.mine.contains(hovered.card.id)) {
             p.dragging = hovered.card.id;
         }
@@ -571,10 +573,13 @@ abstract class TableInput extends TableHud {
     }
 
     void handleInput() {
+        // The pad first, so the pointer it drives is where it should be before anything reads it.
+        Pad.poll(Gdx.graphics.getDeltaTime());
         // While the bug dialog is open the 3D window reads nothing. libGDX polls GLFW key state
         // instead of consuming events, so without this, typing a report also passed priority and
-        // ended turns underneath it.
+        // ended turns underneath it. Pad reads go through the same gate.
         if (bug.isAsking()) return;
+        padBindings();
         // The cog is always live, so a bug can be reported whatever else is happening. It opens
         // a proper text dialog rather than an in-window field, so there is no typing state here.
         if (clickedCog()) { bug.ask(snap); return; }
@@ -837,9 +842,78 @@ abstract class TableInput extends TableHud {
         return false;
     }
 
+    /**
+     * The controller, mapped onto the things the keyboard and mouse already do.
+     *
+     * Nothing here is a new action: every binding calls the same method a key or a click calls,
+     * so a pad can never drift out of step with the rest of the table. The left stick moves the
+     * pointer (see Pad), which is what makes A a click on whatever is under it.
+     *
+     *   A           the main button - answer, let the stack resolve, end the step
+     *   B           cancel / end turn
+     *   X           hand the current decision back to Forge
+     *   Y           help
+     *   LB / RB     walk round the table
+     *   L3          back to your own seat
+     *   triggers    zoom out / in
+     *   right stick orbit (x) and overhead-lift (y)
+     *   D-pad L/R   previous / next phase
+     *   Start       overhead toggle      Back     the bug report
+     */
+    void padBindings() {
+        if (!Pad.connected()) return;
+        int n = snap.seats.size();
+
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_B) && Gui3D.active()) Gui3D.pressCancel();
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_X)) {
+            Handoff.handBack();
+            System.out.println("UI3D: handing the current decision back to Forge (pad)");
+        }
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_Y)) help.toggle();
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_BACK)) { bug.ask(snap); return; }
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_START)) {
+            manualOverride = true;
+            manualValue = lift < 0.5f;
+        }
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_DPAD_RIGHT) && Gui3D.active()) {
+            if (!Gui3D.nextPhase()) toast("Nothing to pass right now", Gdx.input.getX(),
+                Gdx.graphics.getHeight() - Gdx.input.getY());
+        }
+        if (n > 0) {
+            if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_LEFT_BUMPER)) step(+1, n);
+            if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER)) step(-1, n);
+            if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_LEFT_THUMB)) {
+                zoom = 1f;
+                panX = panZ = 0f;
+                manualOverride = false;
+                setViewSeat(snap.youIndex(), n);
+            }
+        }
+
+        float dt = Gdx.graphics.getDeltaTime();
+        // Orbiting takes over from following the turn, exactly as the arrow keys and right-drag do.
+        float rx = Pad.rightX();
+        if (rx != 0f) {
+            followTurn = false;
+            orbit -= rx * 2.2f * dt;
+            orbitTarget = orbit;
+        }
+        // Right stick up lifts towards the overhead pose and holds it there, so it is a dial
+        // rather than the toggle Start gives you.
+        float ry = Pad.rightY();
+        if (ry != 0f) {
+            manualOverride = true;
+            manualValue = ry < 0f;
+        }
+        float z = Pad.rightTrigger() - Pad.leftTrigger();
+        if (z != 0f) zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * (1f - z * 1.4f * dt)));
+    }
+
     /** True on the frame the left button goes down on the HELP button. */
     boolean clickedHelp() {
-        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        // A on the pad counts as the left button, so every picker, pad and panel that already
+        // works from a click works from the controller with no second code path.
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         boolean justDown = down && !leftWasDownHelp;
         leftWasDownHelp = down;
         return justDown && help.overButton(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
@@ -847,7 +921,9 @@ abstract class TableInput extends TableHud {
 
     /** True on the frame the left button goes down on the bug cog. */
     boolean clickedCog() {
-        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        // A on the pad counts as the left button, so every picker, pad and panel that already
+        // works from a click works from the controller with no second code path.
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         boolean justDown = down && !leftWasDownCog;
         leftWasDownCog = down;
         return justDown && bug.overCog(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
@@ -855,7 +931,9 @@ abstract class TableInput extends TableHud {
 
     /** True on the frame the left button goes down anywhere except the phase panel. */
     boolean clickedCard() {
-        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        // A on the pad counts as the left button, so every picker, pad and panel that already
+        // works from a click works from the controller with no second code path.
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         boolean justDown = down && !leftWasDownBoard;
         leftWasDownBoard = down;
         if (!justDown) return false;
@@ -866,7 +944,9 @@ abstract class TableInput extends TableHud {
 
     /** True on the frame the left button goes down inside the follow-turn tickbox. */
     boolean clickedFollowBox() {
-        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT);
+        // A on the pad counts as the left button, so every picker, pad and panel that already
+        // works from a click works from the controller with no second code path.
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         boolean justDown = down && !leftWasDown;
         leftWasDown = down;
         if (!justDown) return false;
