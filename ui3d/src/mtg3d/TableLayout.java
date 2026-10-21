@@ -959,8 +959,8 @@ abstract class TableLayout extends TableCamera {
      * wedge now: narrow where it meets the middle of the table, wide at the player's own edge.
      */
     void placePlinth(Snapshot.SeatV seat, int index, float angle, float push) {
-        float near = ROW_CREATURES + push - CARD_H / 2f - 0.5f;
-        float far = ROW_LANDS + push + CARD_H / 2f + 0.5f;
+        float near = MAT_NEAR + push;
+        float far = MAT_FAR + push;
         // INSIDE the wedge line by a margin, so there is bare felt between one player's mat
         // and the next, and the coloured frame has somewhere to be seen. Mats that met edge to
         // edge tiled the whole table and hid every frame under themselves.
@@ -1103,25 +1103,27 @@ abstract class TableLayout extends TableCamera {
             Snapshot.SeatV seat = snap.seats.get(i);
             float angle = seatAngle(i, n);
             float yaw = (float) Math.toDegrees(-angle);
-            float lift = zoneLift(i);
+            float raise = zoneLift(i);
+            float lift = FIELD_RAISE + raise;          // on the mat, as the other trays are
             // The same clamp, on the other side of the board.
             float cmdHalf = (CARD_W + 0.24f) / 2f;
             float cmdX = -Math.min(-COMMAND_X, wedgeHalf(COMMAND_Z) - cmdHalf - 0.08f);
             Vector3 w = rotateY(cmdX, COMMAND_Z, angle);
-            if (lift > 0.001f) {
+            if (raise > 0.001f) {
                 ModelInstance stand = inst(zoneStandModel);
-                stand.transform.setToTranslation(w.x, lift / 2f, w.z)
-                    .rotate(Vector3.Y, yaw).scale(1.18f, lift, 1.18f);
+                stand.transform.setToTranslation(w.x, FIELD_RAISE + raise / 2f, w.z)
+                    .rotate(Vector3.Y, yaw).scale(1.18f, raise, 1.18f);
                 props.add(stand);
             }
             ModelInstance pad = inst(commandPadModel);
-            pad.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
+            pad.transform.setToTranslation(w.x, lift + TRAY_LIP / 2f, w.z).rotate(Vector3.Y, yaw)
+                .scale(1f, TRAY_LIP / 0.02f, 1f);
             props.add(pad);
             for (int k = 0; k < seat.command.size(); k++) {
                 // A partner pair runs INWARDS from the pad: outwards is off the seat's own
                 // half of the table now that the pad is clamped to it.
                 Vector3 cw = rotateY(cmdX + k * (CARD_W + GAP), COMMAND_Z, angle);
-                add(seat.command.get(k), seat, cw.x, lift + 0.02f + FIELD_RAISE, cw.z, yaw, 0f);
+                add(seat.command.get(k), seat, cw.x, lift + 0.03f, cw.z, yaw, 0f);
             }
         }
     }
@@ -1193,30 +1195,39 @@ abstract class TableLayout extends TableCamera {
             float angle = seatAngle(i, n);
             Snapshot.SeatV s = snap.seats.get(i);
             int[] counts = { s.librarySize, s.graveyardSize, s.exileSize };
-            float lift = zoneLift(i);
+            // ON the mat, not on the felt under it. The trays were placed at y 0 while the
+            // mat is a wedge laid at FIELD_RAISE, so every one of them sat a layer too low -
+            // "the card holders should sit on the game mat" (the owner, 2026-10-22). The lift a
+            // crowded board gives them is on top of that again.
+            float raise = zoneLift(i);
+            float lift = FIELD_RAISE + raise;
             for (int k = 0; k < 3; k++) {
                 Vector3 w = rotateY(zoneX(k), SEAT_DIST + 1.7f - k * 1.45f, angle);
                 float yaw = (float) Math.toDegrees(-angle);
                 // The pad stands on something rather than hovering. The stand is what grows
                 // as the board pushes the zone up - a slab floating in mid-air with nothing
                 // under it looked exactly as odd as it sounds (the owner, 2026-10-22).
-                if (lift > 0.001f) {
+                if (raise > 0.001f) {
                     ModelInstance stand = inst(zoneStandModel);
-                    stand.transform.setToTranslation(w.x, lift / 2f, w.z)
-                        .rotate(Vector3.Y, yaw).scale(1f, lift, 1f);
+                    stand.transform.setToTranslation(w.x, FIELD_RAISE + raise / 2f, w.z)
+                        .rotate(Vector3.Y, yaw).scale(1f, raise, 1f);
                     props.add(stand);
                 }
                 // A rim round the tray, the same as the command zone's - the owner pointed at
                 // that one and asked for "something like this for each of the card piles". It is
                 // the command pad's own model, scaled down to sit just outside this tray, so the
                 // four zones are one set of furniture rather than three flat patches and a tray.
+                // A tray with a real lip: the rim stands proud of the felt and the pad is
+                // recessed a little into it, so the holder has an edge to it from any angle.
+                // Scaled three times its own thickness - flat on the mat it read as a patch of
+                // colour, not as a thing you could put cards in (the owner, 2026-10-22).
                 ModelInstance rim = inst(commandPadModel);
-                rim.transform.setToTranslation(w.x, lift - 0.004f, w.z).rotate(Vector3.Y, yaw)
-                    .scale((CARD_W * 0.88f + 0.20f) / (CARD_W + 0.24f), 1f,
-                           (CARD_H * 0.88f + 0.20f) / (CARD_H + 0.24f));
+                rim.transform.setToTranslation(w.x, lift + TRAY_LIP / 2f, w.z).rotate(Vector3.Y, yaw)
+                    .scale((CARD_W * 0.88f + 0.26f) / (CARD_W + 0.24f), TRAY_LIP / 0.02f,
+                           (CARD_H * 0.88f + 0.26f) / (CARD_H + 0.24f));
                 props.add(rim);
                 ModelInstance inst = inst(zoneModel);
-                inst.transform.setToTranslation(w.x, lift + 0.012f, w.z).rotate(Vector3.Y, yaw);
+                inst.transform.setToTranslation(w.x, lift + TRAY_LIP - 0.025f, w.z).rotate(Vector3.Y, yaw);
                 // The pad shows round the pile as a rim, in the owner's seat colour (the colour of
                 // their name over these pads), darkened to sit on the felt - so whose piles these
                 // are reads at a glance, as the owner asked. The pile keeps its zone colour.
@@ -1231,7 +1242,7 @@ abstract class TableLayout extends TableCamera {
                 if (h < 0.001f) continue;                       // empty zone: just the pad
                 ModelInstance pile = inst(pileModel);
                 // The pile model is one unit tall and centred, so scale, then lift by half.
-                pile.transform.setToTranslation(w.x, lift + 0.012f + PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
+                pile.transform.setToTranslation(w.x, lift + TRAY_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
                 pile.materials.get(0).set(ColorAttribute.createDiffuse(PILE_COLOURS[k]));
                 props.add(pile);
                 // Graveyard and exile are public: their top card lies face up on the pile (the
@@ -1242,7 +1253,7 @@ abstract class TableLayout extends TableCamera {
                     com.badlogic.gdx.graphics.Texture tex = art.get(zone.get(0));
                     if (tex != null) {
                         ModelInstance top = inst(faceModel);
-                        top.transform.setToTranslation(w.x, lift + 0.012f + PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
+                        top.transform.setToTranslation(w.x, lift + TRAY_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
                         top.materials.get(0).set(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
                         top.materials.get(0).set(FACE_LIT);
                         props.add(top);
@@ -1259,14 +1270,18 @@ abstract class TableLayout extends TableCamera {
 
     /** Where a zone's count label sits: just above the top of its pile. */
     float pileTop(int seat, int zone) {
-        if (seat < 0 || seat >= pileHeight.length) return PAD_TOP;
-        return zoneLift(seat) + PAD_TOP + pileHeight[seat][zone];
+        if (seat < 0 || seat >= pileHeight.length) return FIELD_RAISE + PAD_TOP;
+        return FIELD_RAISE + zoneLift(seat) + TRAY_TOP + pileHeight[seat][zone];
     }
 
     static final float PAD_TOP = 0.015f, PILE_PER_CARD = 0.006f;
 
     /** Half the width of a zone pad (zoneModel is CARD_W * 0.88 across), for keeping it in the wedge. */
     static final float ZONE_PAD_HALF = CARD_W * 0.44f;
+
+    /** How high a tray's rim stands, and where its floor is - what cards in it sit on. */
+    static final float TRAY_LIP = 0.062f;
+    static final float TRAY_TOP = TRAY_LIP - 0.025f + 0.015f;
 
     /**
      * Where a seat's library / graveyard / exile pad sits across the table.
@@ -1282,7 +1297,10 @@ abstract class TableLayout extends TableCamera {
      */
     float zoneX(int pad) {
         float z = SEAT_DIST + 1.7f - pad * 1.45f;
-        return Math.min(5.3f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
+        // 5.0 rather than 5.3: the mat's edge is a straight line between its near and far
+        // corners, so at the exile tray - the nearest one in, where the mat is narrowest - the
+        // wedge's own half-width is not the limit, the chord is. 5.0 clears it at every z.
+        return Math.min(5.0f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
     }
     static final int PILE_CAP = 100;
     /** Library like a card back, graveyard dark, exile pale violet - three kinds of pile at a glance. */

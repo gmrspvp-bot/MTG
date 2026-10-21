@@ -581,7 +581,20 @@ abstract class TableBase extends ApplicationAdapter {
     // from the rows, which are placed from SEAT_DIST. Fixed numbers here meant that opening the
     // middle of the table out left the frames behind, round nothing (2026-10-22).
     static final float EDGE_X = 6.3f;
-    static final float EDGE_NEAR = SEAT_DIST - 3.45f, EDGE_FAR = SEAT_DIST + 2.65f;
+
+    /**
+     * How far a player's mat runs, from the middle of the table out to their own edge.
+     *
+     * It used to stop at the far side of the lands row, which left the library, graveyard,
+     * exile and command trays standing on bare felt outside it, and the frame round the mat
+     * cutting between a player and their own piles (the owner drew the right outline in red,
+     * 2026-10-22). A mat is the player's whole place at the table: everything of theirs is on
+     * it.
+     */
+    static final float MAT_NEAR = SEAT_DIST - 3.6f, MAT_FAR = SEAT_DIST + 4.3f;
+
+    /** The frame goes round the outside of the mat, with a hand's width of felt showing. */
+    static final float EDGE_NEAR = MAT_NEAR - 0.22f, EDGE_FAR = MAT_FAR + 0.22f;
 
     /** How thick the frame reads from above, and how far it floats over the felt (top at -0.015). */
     // ABOVE the mat, not under it. The mat used to be a raised plinth and the frame lay on the
