@@ -74,11 +74,19 @@ public final class Table3D extends TableInput {
         fontBig = new BitmapFont();
         fontBig.getData().setScale(1.6f);
 
+        // A lamp over a table, not a flat sky. The old light was a single cool directional
+        // with ambient at 0.55, which lights every face of every box almost equally - that even,
+        // shadowless wash is most of what made the table look drawn rather than photographed.
+        // Lower ambient and a warm key give the cards and the rail a lit side and a dark side;
+        // a dim cool fill from the opposite corner keeps the dark side from going flat black.
         env = new Environment();
-        env.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.55f, 0.60f, 0.70f, 1f));
+        env.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.34f, 0.35f, 0.40f, 1f));
         DirectionalLight key = new DirectionalLight();
-        key.set(0.85f, 0.90f, 1.0f, -0.4f, -1f, -0.3f);
+        key.set(1.00f, 0.94f, 0.82f, -0.35f, -1f, -0.28f);
         env.add(key);
+        DirectionalLight fill = new DirectionalLight();
+        fill.set(0.26f, 0.30f, 0.40f, 0.55f, -0.45f, 0.50f);
+        env.add(fill);
 
         int attrs = Usage.Position | Usage.Normal;
         // The table body: now only its sides show, so it is darker than the felt laid on top.
@@ -94,7 +102,7 @@ public final class Table3D extends TableInput {
         commanderModel= box(new Color(0.92f, 0.55f, 0.25f, 1f), attrs);
         // Smaller and darker than they were (9.2 x 4.2, a bright slab that out-shouted the cards).
         seatModel = builder.createBox(7.6f, 0.06f, 3.4f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.07f, 0.16f, 0.23f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.055f, 0.085f, 0.105f, 1f))), attrs);
         // The same pad, lit, under whoever holds priority right now.
         seatPriorityModel = builder.createBox(7.6f, 0.06f, 3.4f,
             new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.36f, 0.46f, 1f))), attrs);
@@ -130,12 +138,14 @@ public final class Table3D extends TableInput {
         backModel = box(new Color(0.16f, 0.13f, 0.26f, 1f), attrs);          // a face-down card
         // Band slabs, one unit wide so placeBand can scale them to the row's length. The colours
         // are only just off the table: enough to group, not enough to compete with the cards.
+        // Barely there on the leather: enough to group a row, not enough to be three coloured
+        // stripes. They were half again as saturated as the mat they lie on.
         bandCreature = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.13f, 0.27f, 0.33f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.105f, 0.135f, 0.150f, 1f))), attrs);
         bandOther = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.17f, 0.24f, 0.36f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.112f, 0.125f, 0.158f, 1f))), attrs);
         bandLand = builder.createBox(BAND_UNIT, 0.012f, CARD_H + 0.42f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.12f, 0.29f, 0.26f, 1f))), attrs);
+            new Material(ColorAttribute.createDiffuse(new Color(0.100f, 0.140f, 0.133f, 1f))), attrs);
         // The monitor's case: a near-black bezel. The glass (screenModel) is inset on its face and
         // the stand (standModel) holds it up off the felt (TableLayout.placeMonitors).
         // Wide enough for the commander's portrait beside the readout (TableHud
@@ -156,11 +166,25 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.78f, 0.78f, 0.74f, 1f))), attrs);
         seatEdgeModel = builder.createBox(BAND_UNIT, 0.016f, EDGE_W,
             new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
+        // A tray, in the same dark leather note as the mat, with a little sheen on the rim.
         zoneModel = builder.createBox(CARD_W * 0.88f, 0.03f, CARD_H * 0.88f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.06f, 0.18f, 0.26f, 1f))), attrs);
-        // A battlefield's plinth: a shade lighter and greyer than the felt, so the raised area reads.
+            new Material(ColorAttribute.createDiffuse(new Color(0.068f, 0.092f, 0.112f, 1f)),
+                ColorAttribute.createSpecular(0.12f, 0.12f, 0.13f, 1f),
+                com.badlogic.gdx.graphics.g3d.attributes.FloatAttribute.createShininess(10f)), attrs);
+        // A battlefield's plinth is the mat a player lays their cards out on, so it is leather:
+        // pebble grain, worn lighter towards the middle. It was a flat blue slab, which read as a
+        // coloured rectangle on a screen rather than as a thing on a table.
+        com.badlogic.gdx.graphics.Pixmap lp = Felt.leather(256);
+        leatherTex = new com.badlogic.gdx.graphics.Texture(lp, true);
+        lp.dispose();
+        leatherTex.setFilter(com.badlogic.gdx.graphics.Texture.TextureFilter.MipMapLinearLinear,
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear);
         plinthModel = builder.createBox(1f, 1f, 1f,
-            new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.20f, 0.29f, 1f))), attrs);
+            new Material(
+                com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(leatherTex),
+                ColorAttribute.createSpecular(0.10f, 0.10f, 0.11f, 1f),
+                com.badlogic.gdx.graphics.g3d.attributes.FloatAttribute.createShininess(8f)),
+            Usage.Position | Usage.Normal | Usage.TextureCoordinates);
         // A zone's pile, a little smaller than its pad so the pad shows as a rim. Built white: each
         // instance sets its own colour (library / graveyard / exile) every frame.
         // The little stand a zone sits on. One unit tall so it can be scaled to whatever

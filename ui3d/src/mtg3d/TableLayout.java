@@ -89,10 +89,20 @@ abstract class TableLayout extends TableCamera {
         floorInst = new ModelInstance(floorModel);
         floorInst.transform.setToTranslation(0f, -3.2f, 0f);
 
+        // The rail is walnut, not a brown box: generated grain, with a little specular so the
+        // top edge catches the light the way a polished rail does.
+        com.badlogic.gdx.graphics.Pixmap wp = Felt.wood(512, 64);
+        woodTex = new com.badlogic.gdx.graphics.Texture(wp, true);
+        wp.dispose();
+        woodTex.setFilter(com.badlogic.gdx.graphics.Texture.TextureFilter.MipMapLinearLinear,
+            com.badlogic.gdx.graphics.Texture.TextureFilter.Linear);
+        Material railMat = new Material(
+            com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(woodTex),
+            ColorAttribute.createSpecular(0.22f, 0.17f, 0.12f, 1f),
+            com.badlogic.gdx.graphics.g3d.attributes.FloatAttribute.createShininess(18f));
         // One rail model, as long as a whole side including both corners, turned for each side.
         float len = 2f * (t + RAIL_W);
-        railModel = builder.createBox(len, RAIL_H, RAIL_W,
-            new Material(ColorAttribute.createDiffuse(new Color(0.11f, 0.075f, 0.06f, 1f))), attrs);
+        railModel = builder.createBox(len, RAIL_H, RAIL_W, railMat, texAttrs);
         for (int side = 0; side < 4; side++) {
             ModelInstance r = new ModelInstance(railModel);
             Vector3 c = rotateY(0f, t + RAIL_W / 2f, (float) (side * Math.PI / 2));
@@ -934,7 +944,10 @@ abstract class TableLayout extends TableCamera {
                 int count = m < seat.mana.length ? seat.mana[m] : 0;
                 if (count <= 0) continue;
                 float x = across + m * BEAD_STEP;
-                Vector3 w = rotateY(x, BEAD_Z, angle);
+                // Back with the board, like everything else of this seat's: the trays sit in the
+                // gap between the frame and the creature band, and that gap moves (boardPush).
+                float push = i < seatPush.length ? seatPush[i] : 0f;
+                Vector3 w = rotateY(x, BEAD_Z + push, angle);
                 ModelInstance tray = inst(beadTrayModel);
                 tray.transform.setToTranslation(w.x, FIELD_RAISE, w.z).rotate(Vector3.Y, yaw);
                 props.add(tray);

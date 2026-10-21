@@ -377,7 +377,7 @@ abstract class TableBase extends ApplicationAdapter {
 
     Model feltModel, floorModel, railModel;
 
-    com.badlogic.gdx.graphics.Texture feltTex, floorTex;
+    com.badlogic.gdx.graphics.Texture feltTex, floorTex, woodTex, leatherTex;
 
     ModelInstance feltInst, floorInst;
 
