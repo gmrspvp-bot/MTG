@@ -220,7 +220,12 @@ abstract class TableBase extends ApplicationAdapter {
         // answer it (the owner, 2026-10-21).
         return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
             || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen()
-            || (damage != null && damage.isOpen()) || Gui3D.pendingAsk() != null;
+            || (damage != null && damage.isOpen()) || Gui3D.pendingAsk() != null
+            // Found by auditing every overlay against this list rather than waiting for the
+            // next screenshot. TextPanel takes typed characters, so the board reacting
+            // underneath it is the bug-report-typing leak all over again; the help card is a
+            // full-screen read where a click should not also play a card.
+            || text.isOpen() || help.isOpen();
     }
 
     final BugReport bug = new BugReport();
