@@ -363,7 +363,14 @@ public final class Table3D extends TableInput {
         modelBatch.render(floorInst);          // unlit: the floor's light pool is in its texture
         modelBatch.render(tableInst, env);
         modelBatch.render(feltInst, env);
-        for (ModelInstance r : railInsts) modelBatch.render(r, env);
+        // The rail on the camera's own side is skipped: seated, the camera sits just above it, and
+        // it filled the bottom of the screen as a dark band (owner, 2026-10-21: "a black bar on
+        // the bottom of the screen"). The other three still frame the table. Rail i stands at
+        // angle i * 90 degrees, in the same frame as the camera's orbit.
+        float twoPi = (float) (Math.PI * 2);
+        float o = ((orbit % twoPi) + twoPi) % twoPi;
+        int near = Math.round(o / (float) (Math.PI / 2)) % 4;
+        for (int i = 0; i < railInsts.size(); i++) if (i != near) modelBatch.render(railInsts.get(i), env);
         for (ModelInstance p : seatPads) modelBatch.render(p, env);
         for (ModelInstance p : props) modelBatch.render(p, env);
         // What a click would hit. With no selectable list during ordinary priority, this is the

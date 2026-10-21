@@ -64,9 +64,10 @@ abstract class TableHud extends TableScene {
             font.draw(ui, "controller ready - A clicks", 14, 56);
             font.setColor(0.35f, 0.50f, 0.62f, 1f);
         }
-        font.draw(ui, "A / D  walk round the table      S  back to your seat      W  overhead      N or ->  next phase      TAB  camera"
-            + "      NUM 1-6  view   (SHIFT+7/8/9 saves)      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
-            + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);
+        // One short line, not the whole key list: that is on the help card (F1), and the long
+        // line sat in a band across the bottom of the screen (owner, 2026-10-21).
+        font.draw(ui, "F1  keys      SPACE  pass      A / D  walk      W  overhead      S  your seat"
+            + (cues != null && cues.muted() ? "      (sound off)" : ""), 14, 18);
         // Art counter: says at a glance whether Forge's picture cache was found at all, which is
         // the first thing to check if every card is still a coloured block.
         if (art != null) {
@@ -411,6 +412,7 @@ abstract class TableHud extends TableScene {
             okOn = snap.okEnabled; cancelOn = snap.cancelEnabled;
         }
         if (msg.isEmpty()) return;
+        msg = condensePrompt(msg);
 
         boolean waiting = okOn || cancelOn;
 
@@ -441,16 +443,17 @@ abstract class TableHud extends TableScene {
         // whole turn on 2026-10-21, so the button says so rather than looking like a tidy way to
         // move on.
         boolean endsTurn = "End Turn".equalsIgnoreCase(cancelLabel);
-        float bw = Math.min(w - 60f, 1120f), x = (w - bw) / 2f, y = 104f;
-        float btnW = 190f, btnH = 50f, gap = 14f;
+        // Compact (owner, 2026-10-21: "the UI for resolving and ending turn is too big"): it was
+        // 1120 wide, ~140 tall with four lines in the big font, and sat over the hand. Now one or
+        // two lines in the normal font, smaller buttons, low on the screen above the hint line.
+        float bw = Math.min(w - 60f, 860f), x = (w - bw) / 2f, y = 34f;
+        float btnW = 150f, btnH = 36f, gap = 10f;
 
-        // Measure the text and size the box to it. Forge's prompt is several lines - priority,
-        // turn, phase, stack - and a fixed height cut the last one off below the box. Measuring
-        // also means a one-line prompt gets a small bar instead of a mostly-empty one.
-        float textW = bw - 60f - (okOn ? btnW + gap : 0f) - (cancelOn ? btnW + gap : 0f);
+        // Measure the text and size the box to it, so a one-line prompt gets a slim bar.
+        float textW = bw - 40f - (okOn ? btnW + 30f + gap : 0f) - (cancelOn ? btnW + gap : 0f);
         com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout();
-        gl.setText(fontBig, msg, com.badlogic.gdx.graphics.Color.WHITE, textW, com.badlogic.gdx.utils.Align.left, true);
-        float bh = Math.max(btnH + 28f, gl.height + 36f);
+        gl.setText(font, msg, com.badlogic.gdx.graphics.Color.WHITE, textW, com.badlogic.gdx.utils.Align.left, true);
+        float bh = Math.max(btnH + 14f, gl.height + 22f);
 
         ui.end();
         Gdx.gl.glEnable(GL20.GL_BLEND);
@@ -463,7 +466,7 @@ abstract class TableHud extends TableScene {
         shapes.rect(x, y + bh - 4f, bw, 4f);
 
         // Buttons sit from the right edge inwards, so one button or two both look deliberate.
-        float bx = x + bw - 20f - btnW;
+        float bx = x + bw - 12f - btnW;
         float by = y + (bh - btnH) / 2f;
         float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
         if (cancelOn) {
@@ -478,31 +481,53 @@ abstract class TableHud extends TableScene {
         // sentence about what the pass will do.
         nextOn = false;
         if (okOn) {
-            okBtn[0] = bx; okBtn[1] = by; okBtn[2] = btnW + 40f; okBtn[3] = btnH;
+            float okW = btnW + 30f;
+            bx -= 30f;
+            okBtn[0] = bx; okBtn[1] = by; okBtn[2] = okW; okBtn[3] = btnH;
             boolean hot = inRect(okBtn, mx, my);
             // Green while it answers a question, blue while it only moves the game on, so the
             // two are not the same colour as well as in the same place.
             if (named) shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
             else shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
-            shapes.rect(bx, by, btnW + 40f, btnH);
+            shapes.rect(bx, by, okW, btnH);
         }
         shapes.end();
         ui.begin();
 
-        fontBig.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
-        fontBig.draw(ui, msg, x + 22f, y + bh - 18f, textW, -1, true);
+        font.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
+        font.draw(ui, msg, x + 16f, y + bh - 12f, textW, -1, true);
+        // Label and key on one line each, in the normal font: the button is 36 px tall now.
         if (okOn) {
-            fontBig.setColor(named ? new Color(0.86f, 1f, 0.90f, 1f) : new Color(0.84f, 0.90f, 1f, 1f));
-            fontBig.draw(ui, mainLabel, okBtn[0], okBtn[1] + 34f, btnW + 40f, 1, false);
+            font.setColor(named ? new Color(0.88f, 1f, 0.92f, 1f) : new Color(0.88f, 0.93f, 1f, 1f));
+            font.draw(ui, mainLabel, okBtn[0], okBtn[1] + 30f, okBtn[2], 1, false);
             font.setColor(named ? new Color(0.60f, 0.86f, 0.70f, 1f) : new Color(0.62f, 0.74f, 0.92f, 1f));
-            font.draw(ui, mainHint, okBtn[0], okBtn[1] + 14f, btnW + 40f, 1, false);
+            font.draw(ui, mainHint, okBtn[0], okBtn[1] + 14f, okBtn[2], 1, false);
         }
         if (cancelOn) {
-            fontBig.setColor(1f, 0.86f, 0.82f, 1f);
-            fontBig.draw(ui, endsTurn ? "End turn" : cancelLabel, cancelBtn[0], cancelBtn[1] + 34f, btnW, 1, false);
+            font.setColor(1f, 0.88f, 0.84f, 1f);
+            font.draw(ui, endsTurn ? "End turn" : cancelLabel, cancelBtn[0], cancelBtn[1] + 30f, btnW, 1, false);
             font.setColor(0.88f, 0.64f, 0.60f, 1f);
             font.draw(ui, endsTurn ? "X - passes the rest" : "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
         }
+    }
+
+    /**
+     * Forge's ordinary-priority prompt is four lines - "Priority: X / Turn: N / Phase: ... /
+     * Stack: ..." - and the first two are already on the phase panel. Shown as one line: the phase
+     * and the stack. Any other prompt (a real question) is kept as it is.
+     */
+    static String condensePrompt(String msg) {
+        if (!msg.startsWith("Priority:")) return msg;
+        String phase = null, stack = null;
+        for (String line : msg.split("\\r?\\n")) {
+            String l = line.trim();
+            if (l.startsWith("Phase:")) phase = l.substring(6).trim();
+            else if (l.startsWith("Stack:")) stack = l.substring(6).trim();
+        }
+        if (phase == null) return msg;
+        String s = stack == null || stack.isEmpty() || stack.equalsIgnoreCase("Empty") ? "stack empty"
+            : "stack: " + stack.replaceAll("\\.$", "");
+        return phase + "   -   " + s;
     }
 
     /**

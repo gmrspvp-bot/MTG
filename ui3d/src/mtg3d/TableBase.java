@@ -52,7 +52,10 @@ abstract class TableBase extends ApplicationAdapter {
 
     static final float GAP = 0.18f;
 
-    static final float TABLE_HALF = 11f;
+    // 14, was 11: seated, the bottom of the view reached past the near edge to the dark floor -
+    // a black band along the bottom of the screen (owner, 2026-10-21). Only the cloth and rails
+    // reach further; nothing laid out on the table moves.
+    static final float TABLE_HALF = 14f;
 
     static final float SEAT_DIST = 6.4f;     // how far a seat's rows sit from the centre
 
