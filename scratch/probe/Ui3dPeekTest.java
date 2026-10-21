@@ -34,14 +34,20 @@ public class Ui3dPeekTest {
         hand(game, rosa, "Ponder");
         Thread.sleep(300);
 
+        final List<String> forgeCalls = Collections.synchronizedList(new ArrayList<>());
         IGuiGame window = (IGuiGame) java.lang.reflect.Proxy.newProxyInstance(
             Ui3dPeekTest.class.getClassLoader(), new Class<?>[] { IGuiGame.class },
-            (p, m, args) -> m.getReturnType() == boolean.class ? false : m.getReturnType() == int.class ? 0 : null);
+            (p, m, args) -> { forgeCalls.add(m.getName()); return m.getReturnType() == boolean.class ? false : m.getReturnType() == int.class ? 0 : null; });
         java.lang.reflect.Constructor<?> c = Gui3D.class.getDeclaredConstructor(IGuiGame.class, forge.player.PlayerControllerHuman.class);
         c.setAccessible(true);
         IGuiGame g = (IGuiGame) java.lang.reflect.Proxy.newProxyInstance(Ui3dPeekTest.class.getClassLoader(),
             new Class<?>[] { IGuiGame.class }, (java.lang.reflect.InvocationHandler) c.newInstance(window, null));
 
+        // The 3D window has to be drawing for it to take the call over (Handoff heartbeat).
+        Thread early = new Thread(() -> { for (int i = 0; i < 40; i++) { Handoff.alive(); try { Thread.sleep(40); } catch (InterruptedException e) { return; } } });
+        early.setDaemon(true);
+        early.start();
+        Thread.sleep(120);
         Map<PlayerView, Object> whose = new HashMap<>();
         whose.put(rosa.getView(), null);
         g.openZones(me.getView(), Collections.singletonList(ZoneType.Hand), whose);
@@ -60,8 +66,44 @@ public class Ui3dPeekTest {
         check("NOT counted as a Forge window (we swallow it)",
             !Gui3D.fallbackSummary().contains("openZones"), Gui3D.fallbackSummary());
 
+        // A library search as the owner met it (Path to Exile, 2026-10-21): Forge offers library
+        // cards through setSelectables and its window opens a floating library window. With the
+        // 3D window drawing, the cards open in the 3D panel instead and Forge's window is not told.
+        Card plains = card(game, me, "Plains", ZoneType.Library);
+        Card island = card(game, me, "Island", ZoneType.Library);
+        Thread beat = new Thread(() -> { while (true) { Handoff.alive(); try { Thread.sleep(40); } catch (InterruptedException e) { return; } } });
+        beat.setDaemon(true);
+        beat.start();
+        Thread.sleep(150);
+        Gui3D.dismissPeek();
+        forgeCalls.clear();
+        g.setSelectables(Arrays.asList(plains.getView(), island.getView()), 0, 1);
+        Gui3D.Peek search = Gui3D.pendingPeek();
+        check("library search shown in 3D", search != null && search.fromSelectables && search.items.size() == 2,
+            search == null ? "none" : search.title + ", " + search.items.size());
+        check("Forge's floating window held back", !forgeCalls.contains("setSelectables"), forgeCalls.toString());
+        Gui3D.releaseSelectables();
+        Thread.sleep(400);
+        check("H shows it in Forge's window too", forgeCalls.contains("setSelectables"), forgeCalls.toString());
+        g.clearSelectables();
+        check("cleared -> the 3D search closes", Gui3D.pendingPeek() == null, "");
+        beat.interrupt();
+        Thread.sleep(200);
+        forgeCalls.clear();
+        // Deterministic: "the 3D window has not drawn" (sleeping on thread timing was flaky).
+        java.lang.reflect.Field lb = Handoff.class.getDeclaredField("lastBeat"); lb.setAccessible(true); lb.set(null, 0L);
+        g.setSelectables(Arrays.asList(plains.getView()), 0, 1);
+        check("3D window not drawing -> Forge shows it", forgeCalls.contains("setSelectables"), forgeCalls.toString());
+
         System.out.println(pass ? "PASS" : "FAIL");
         System.exit(pass ? 0 : 1);
+    }
+
+    static Card card(Game game, Player p, String name, ZoneType z) throws Exception {
+        Card c = Card.fromPaperCard(FModel.getMagicDb().getCommonCards().getCard(name), p);
+        game.getAction().invoke(() -> game.getAction().moveTo(z, c, null, null));
+        Thread.sleep(150);
+        return c;
     }
 
     static void hand(Game game, Player p, String name) throws Exception {

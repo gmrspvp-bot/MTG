@@ -614,7 +614,11 @@ abstract class TableInput extends TableHud {
             if (Keys3D.just(Input.Keys.H)) { Handoff.handBack(); }
             return;
         }
-        if (panelOpen()) return;
+        if (panelOpen()) {
+            // H on a search shown in 3D: show it in Forge's window as well (Gui3D.mirrorOffTable).
+            if (Keys3D.just(Input.Keys.H)) Gui3D.releaseSelectables();
+            return;
+        }
         // The board modes own clicks and ESC while they are on: a click on a glowing card picks,
         // taps or targets it instead of playing it. They consume the click edge, so nothing below
         // can also play a card from the same click; camera keys further down still work. Wired to
@@ -746,6 +750,7 @@ abstract class TableInput extends TableHud {
         // nothing has been taken over, which is the case until step 3.
         if (Keys3D.just(Input.Keys.H)) {
             Handoff.handBack();
+            Gui3D.releaseSelectables();
             System.out.println("UI3D: handing the current decision back to Forge");
         }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }

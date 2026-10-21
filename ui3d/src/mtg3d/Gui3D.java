@@ -92,7 +92,11 @@ public final class Gui3D implements InvocationHandler {
         this.original = original;
         this.pch = pch;
         this.remoteMode = remoteMode;
+        instance = this;
     }
+
+    /** The wrapper in use (the latest made), for calls that must reach Forge's window later. */
+    private static volatile Gui3D instance;
 
     /** The joined game's controller (a NetGameController): where 3D clicks go. Null in a local game. */
     private static volatile forge.interfaces.IGameController remote;
@@ -297,10 +301,71 @@ public final class Gui3D implements InvocationHandler {
     public static final class Peek {
         public final String title;
         public final java.util.List<Snapshot.CardV> items;
+        /** Made from setSelectables (choosable cards not on the table), not from openZones. */
+        public boolean fromSelectables;
         Peek(String title, java.util.List<Snapshot.CardV> items) {
             this.title = title;
             this.items = items;
         }
+    }
+
+    /**
+     * Owner's game, 2026-10-21: Path to Exile's "search your library for a basic land" never
+     * appeared in the 3D window and had to be done in Forge's. With Forge's "select from card
+     * displays" preference on (it is), a search is an Input: Forge marks the cards you may take
+     * (setSelectables) and CMatchUI opens floating windows for whatever zones hold them
+     * (getZonesHolding / tempShowZones) - NOT openZones, so nothing here mirrored it, and the
+     * cards were selectable but nowhere on the table to click.
+     *
+     * Now: when Forge offers cards that are not on the table (library, graveyard, exile, another
+     * player's hand), they open in the search panel as a pick (Table3D: a pick sends Forge the
+     * card's click, exactly as clicking it in Forge's floating window does; SPACE when Forge then
+     * wants OK). Forge's floating window is held back while the 3D window is drawing; H shows it
+     * after all (releaseSelectables). Returns true when Forge's window should not get the call.
+     */
+    private boolean mirrorOffTable(java.util.Collection<CardView> views, Object[] args) {
+        try {
+            java.util.List<Snapshot.CardV> items = new ArrayList<>();
+            String zoneName = null;
+            forge.game.player.PlayerView me = pch == null ? null : pch.getLocalPlayerView();
+            for (CardView cv : views) {
+                forge.game.zone.ZoneType z = cv.getZone();
+                boolean offTable = z == forge.game.zone.ZoneType.Library || z == forge.game.zone.ZoneType.Graveyard
+                    || z == forge.game.zone.ZoneType.Exile || z == forge.game.zone.ZoneType.Sideboard
+                    || (z == forge.game.zone.ZoneType.Hand && me != null && cv.getOwner() != null && cv.getOwner().getId() != me.getId());
+                if (!offTable) continue;
+                if (zoneName == null) zoneName = z.toString().toLowerCase();
+                Snapshot.CardV v = describe(cv, cv.getName());
+                v.id = cv.getId();
+                items.add(v);
+            }
+            if (items.isEmpty()) return false;
+            String what = PROMPT.message == null || PROMPT.message.trim().isEmpty() ? "Choose" : PROMPT.message.trim();
+            Peek p = new Peek(what + "  (" + zoneName + ")", items);
+            p.fromSelectables = true;
+            peeking = p;
+            if (!Handoff.windowResponsive()) return false;     // nothing drawing it: Forge's window shows them
+            heldSelectables = args;
+            return true;
+        } catch (Throwable t) {
+            return false;
+        }
+    }
+
+    /** The setSelectables call held back from Forge's window while the 3D panel shows it. */
+    private static volatile Object[] heldSelectables;
+
+    /** H while a search is shown in 3D: let Forge's window show it too, after all. */
+    public static void releaseSelectables() {
+        Gui3D g = instance;
+        Object[] held = heldSelectables;
+        heldSelectables = null;
+        if (g == null || held == null) return;
+        ForgeWindow.restore("the search, shown in Forge's window as well");
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try { g.original.setSelectables((Iterable<CardView>) held[0], (Integer) held[1], (Integer) held[2]); }
+            catch (Throwable t) { System.out.println("UI3D: could not show the search in Forge's window (" + t + ")"); }
+        });
     }
 
     private static volatile Peek peeking;
@@ -528,6 +593,9 @@ public final class Gui3D implements InvocationHandler {
         } catch (Throwable ignored) {
             // the mirror is cosmetic
         }
+        // A search shown in the 3D panel (mirrorOffTable): Forge's floating zone window is held
+        // back - H releases it (releaseSelectables).
+        if ("setSelectables".equals(method.getName()) && args != null && heldSelectables == args) return null;
         // Forge's own window is given a debounced controller rather than the real one. Its
         // clicks carry no token, so the probe's other ordering - 3D key first, then Forge's OK -
         // can only be closed on the way in. Everything that is not a click passes straight
@@ -2229,12 +2297,17 @@ public final class Gui3D implements InvocationHandler {
                 selectableViews = views;
                 PROMPT.token = ClickGuard.token(pch);
                 PROMPT.inputName = PROMPT.token == null ? "" : PROMPT.token.getClass().getSimpleName();
+                mirrorOffTable(views.values(), args);
                 break;
             }
-            case "clearSelectables":
+            case "clearSelectables": {
                 PROMPT.selectable = new ArrayList<>();
                 selectableViews = new java.util.LinkedHashMap<>();
+                Peek p = peeking;
+                if (p != null && p.fromSelectables) peeking = null;
+                heldSelectables = null;
                 break;
+            }
             case "openZones":
                 peekZone(args);
                 break;
