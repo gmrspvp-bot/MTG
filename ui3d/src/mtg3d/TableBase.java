@@ -97,6 +97,11 @@ abstract class TableBase extends ApplicationAdapter {
     Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
     /** Floating mana: one white sphere coloured per bead, and the little tray under a stack. */
     Model beadModel, beadTrayModel;
+    /** The flickering ring under a card the table thinks is dangerous. */
+    Model emberModel, emberBigModel;
+
+    /** Seconds since the window opened, for anything that has to flicker or pulse. */
+    float clock;
     /** The stand a library / graveyard / exile / command pad stands on as the board fills. */
     Model zoneStandModel;
 

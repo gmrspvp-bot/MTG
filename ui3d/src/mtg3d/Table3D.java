@@ -129,6 +129,15 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(1f, 1f, 1f, 1f))), attrs);
         beadTrayModel = builder.createBox(BEAD_D * 1.45f, 0.012f, BEAD_D * 1.45f,
             new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.12f, 0.17f, 1f))), attrs);
+        // The ember ring round a card worth noticing. Two sizes, so a real threat gets a
+        // wider one; built white and emissive, with each instance setting its own colour as it
+        // flickers (TableLayout.placeEmbers).
+        emberModel = builder.createBox(CARD_W * 1.26f, 0.012f, CARD_H * 1.17f,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE),
+                ColorAttribute.createEmissive(new Color(0.5f, 0.2f, 0.03f, 1f))), attrs);
+        emberBigModel = builder.createBox(CARD_W * 1.42f, 0.012f, CARD_H * 1.28f,
+            new Material(ColorAttribute.createDiffuse(Color.WHITE),
+                ColorAttribute.createEmissive(new Color(0.5f, 0.2f, 0.03f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,

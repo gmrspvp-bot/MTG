@@ -176,6 +176,7 @@ abstract class TableLayout extends TableCamera {
             placeRow(seat, seat.others, angle, ROW_OTHERS + push);
             placeRow(seat, seat.lands, angle, ROW_LANDS + push);
         }
+        clock += frameDt;
         placeManaBeads();
         placeSeatEdges();
         placeAttachments();
@@ -186,6 +187,7 @@ abstract class TableLayout extends TableCamera {
         placeMonitors();
         placeStack();
         placeDying();
+        placeEmbers();          // last: it reads the finished `drawn` list
     }
 
     /**
@@ -724,6 +726,48 @@ abstract class TableLayout extends TableCamera {
             }
         }
     }
+
+    /**
+     * An ember ring under every permanent on the battlefield the table reckons dangerous.
+     *
+     * Not a marker slab - those say what the GAME is asking of a card (playable, attacking, a
+     * legal target) and there is already a queue of them. This says what the card IS, which is a
+     * different question and one nobody can answer by reading forty card texts across a
+     * four-player board (the owner, 2026-10-22). So it is drawn under the card like a heat haze
+     * rather than taking the marker's place, and both can show at once.
+     *
+     * The flicker is two sine waves at unrelated speeds plus the card's own id, so forty cards
+     * do not pulse in time with each other like a string of lights.
+     *
+     * -Dforge.ui3d.embers=false turns it off.
+     */
+    void placeEmbers() {
+        if (!EMBERS) return;
+        for (Drawn d : drawn) {
+            if (d.card == null || d.seat == null) continue;
+            int level = Notable.threat(d.card);
+            if (level <= 0) continue;
+            float seed = (d.card.id % 17) * 0.37f;
+            float flicker = 0.74f
+                + 0.16f * (float) Math.sin(clock * 5.1f + seed)
+                + 0.10f * (float) Math.sin(clock * 11.3f + seed * 2.1f);
+            ModelInstance ring = inst(level >= 2 ? emberBigModel : emberModel);
+            ring.transform.set(d.inst.transform).translate(0f, EMBER_DROP, 0f);
+            // Orange at one, white-hot at two.
+            float r = level >= 2 ? 1.00f : 0.95f;
+            float g = (level >= 2 ? 0.62f : 0.40f) * flicker;
+            float b = (level >= 2 ? 0.26f : 0.08f) * flicker;
+            ring.materials.get(0).set(ColorAttribute.createDiffuse(r * 0.30f, g * 0.30f, b * 0.30f, 1f));
+            ring.materials.get(0).set(ColorAttribute.createEmissive(r * flicker, g, b, 1f));
+            props.add(ring);
+        }
+    }
+
+    /** Just under the card, and under the marker slabs, so it never hides either. */
+    static final float EMBER_DROP = -0.020f;
+
+    static final boolean EMBERS =
+        !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.embers", "true"));
 
     /** The row without the cards that are laid under a host instead (see placeAttachments). */
     List<Snapshot.CardV> unattached(List<Snapshot.CardV> cards) {
