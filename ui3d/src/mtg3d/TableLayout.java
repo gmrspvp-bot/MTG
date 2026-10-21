@@ -158,12 +158,13 @@ abstract class TableLayout extends TableCamera {
             seatPush[i] = push;
             rowCap = rowLimit(push);        // every row of THIS seat is measured against this
 
+            // The mat, and only the mat. There used to be a second dark slab laid under it -
+            // the seat pad - of a different size and a different colour, so every board sat on
+            // two stacked rectangles with a black lip showing round the edge (the owner,
+            // 2026-10-22). Whose turn it is and who is being waited on are already said by the
+            // frame round the seat, the phase strip and the centre screen; the pad was saying it
+            // a fourth time, in a layer.
             placePlinth(seat, i, angle, push);
-            ModelInstance pad = inst(seat.lost ? seatLostModel
-                : waitingOn(seat) ? seatPriorityModel : seatModel);
-            Vector3 c = seatPos(angle, SEAT_DIST);
-            pad.transform.setToTranslation(c.x, -0.01f + FIELD_RAISE, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
-            seatPads.add(pad);
 
             // Three bands per seat, running from the middle of the table outwards: creatures,
             // then other permanents (artifacts, enchantments, planeswalkers), then lands nearest
@@ -385,38 +386,73 @@ abstract class TableLayout extends TableCamera {
      * scoreboard that only reads correctly from one side. Everything on them is public knowledge,
      * so there is nothing here that any seat should not see.
      */
+    /**
+     * One screen in the middle of the table, split into a panel per player, turned to face
+     * whoever is sitting at this client.
+     *
+     * It used to be four separate screens, one in front of each seat, each facing its own
+     * player - so three quarters of the scoreboard was always edge-on or back-to-front from
+     * where you were sitting. The owner's point is the one that makes this easy: everybody runs
+     * their own client, so the table does not have to be a compromise between four viewpoints.
+     * It can be laid out for the one person looking at it, and on their neighbour's machine it
+     * is laid out for them instead.
+     *
+     * So: one case, the panels side by side across it in seat order, the whole thing square on
+     * to the local player. Each panel keeps its own glass and its own tint - gold for whoever's
+     * turn it is, cyan for your own, steel blue otherwise - and is still what you click to pick
+     * that player.
+     */
     void placeMonitors() {
         int n = snap.seats.size();
+        if (n == 0) return;
+        monitorAt.clear();
+        float view = seatAngle(Math.max(0, snap.youIndex()), n);
+        Vector3 w = rotateY(0f, MONITOR_DIST, view);
+        float yaw = (float) Math.toDegrees(-view);
+
+        float panel = 2.15f;                       // one player's share of the glass
+        float wide = n * panel + 0.22f;            // the case, with a rim round the panels
+        ModelInstance frame = inst(monitorModel);
+        frame.transform.setToTranslation(w.x, 0.42f, w.z)
+            .rotate(Vector3.Y, yaw)
+            .rotate(Vector3.X, 34f)
+            .scale(wide / 2.7f, 1f, 1f);
+        props.add(frame);
+
+        // Two legs rather than one, now that the case is as wide as the table's middle.
+        for (int leg = 0; leg < 2; leg++) {
+            Vector3 lp = rotateY((leg == 0 ? -1f : 1f) * (wide / 2f - 0.5f), MONITOR_DIST, view);
+            ModelInstance stand = inst(standModel);
+            stand.transform.setToTranslation(lp.x, 0.21f - 0.015f, lp.z).rotate(Vector3.Y, yaw);
+            props.add(stand);
+        }
+
         for (int i = 0; i < n; i++) {
-            float angle = seatAngle(i, n);
-            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
-            ModelInstance inst = inst(monitorModel);
-            inst.transform.setToTranslation(w.x, 0.42f, w.z)
-                .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
-                .rotate(Vector3.X, 34f);
-            props.add(inst);
-            // Owner's list 2026-10-20: "make them look like actual screens". The glass, inset on
-            // the bezel's face and glowing - gold for whoever's turn it is, cyan for your own,
-            // steel blue otherwise - and a stand under the case.
             Snapshot.SeatV s = snap.seats.get(i);
+            float across = (i - (n - 1) / 2f) * panel;
             ModelInstance glass = inst(screenModel);
-            glass.transform.set(inst.transform).translate(0f, 0.035f, 0f);
+            // Set up in the case's own frame, so the panel lies on the tilted face rather than
+            // beside it: turn and tilt first, then step across and lift off the surface.
+            glass.transform.setToTranslation(w.x, 0.42f, w.z)
+                .rotate(Vector3.Y, yaw)
+                .rotate(Vector3.X, 34f)
+                .translate(across, 0.035f, 0f)
+                .scale((panel - 0.09f) / 2.52f, 1f, 1f);
             Color tint = s.lost ? SCREEN_OUT : s.active ? SCREEN_ACTIVE : s.isYou ? SCREEN_YOU : SCREEN_OTHER;
-            // Dim glass: the life total is drawn over it in a bright colour of the same family, so
-            // the screen must stay dark enough for that to read (a bright gold screen hid the
-            // active player's gold number).
+            // Dim glass: the life total is drawn over it in a bright colour of the same family,
+            // so the screen must stay dark enough for that to read.
             glass.materials.get(0).set(ColorAttribute.createDiffuse(tint.r * 0.55f, tint.g * 0.55f, tint.b * 0.55f, 1f));
             glass.materials.get(0).set(ColorAttribute.createEmissive(tint.r * 0.30f, tint.g * 0.30f, tint.b * 0.30f, 1f));
             props.add(glass);
-            ModelInstance stand = inst(standModel);
-            stand.transform.setToTranslation(w.x, 0.21f - 0.015f, w.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
-            props.add(stand);
-            // Each player's own screen doubles as the thing you click to pick that player -
-            // choosing who starts, or targeting a seat. It is already one per player and already
-            // carries their name and life, so it needs no separate hit target.
+
+            // Where this player's readout is drawn (TableHud.drawCentreTracker), and what you
+            // click to choose them.
+            Vector3 at = new Vector3();
+            glass.transform.getTranslation(at);
+            monitorAt.add(new float[] { at.x, at.y, at.z });
             BoundingBox box = new BoundingBox();
-            inst.calculateBoundingBox(box);
-            box.mul(inst.transform);
+            glass.calculateBoundingBox(box);
+            box.mul(glass.transform);
             seatPick.add(box);
         }
     }
@@ -881,23 +917,25 @@ abstract class TableLayout extends TableCamera {
     }
 
     void placePlinth(Snapshot.SeatV seat, int index, float angle, float push) {
-        float widest = 6f;                                   // never narrower than the seat pad area
-        for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
-            // Grouped, exactly as placeRow lays it out - see rowWidth.
-            widest = Math.max(widest, rowWidth(rowGroups(unattached(row))) + 1.1f);
-        }
-        float near = ROW_CREATURES + push - CARD_H / 2f - 0.35f;
-        float far = ROW_LANDS + push + CARD_H / 2f + 0.35f;
-        // And the slab itself stays in the wedge: its 6-unit minimum is wider than the table
-        // gives a seat at the near end, so without this the BOARD stayed inside the lines and
-        // the thing it stands on did not.
-        widest = Math.min(widest, 2f * wedgeHalf(near) + 0.36f);
+        float near = ROW_CREATURES + push - CARD_H / 2f - 0.5f;
+        float far = ROW_LANDS + push + CARD_H / 2f + 0.5f;
+        // As wide as the player's own wedge of the table allows at its narrow end, always -
+        // rather than only as wide as what happens to be on it. A mat is a mat: it is the same
+        // size whether you have two permanents or twenty, and giving each player the whole of
+        // their own space is what makes the table read as four places rather than as some
+        // rectangles (the owner, 2026-10-22).
+        float widest = 2f * wedgeHalf(near) + 0.36f;
         float h = FIELD_RAISE + index * 0.002f;
         Vector3 c = rotateY(0f, (near + far) / 2f, angle);
         ModelInstance inst = inst(plinthModel);
         inst.transform.setToTranslation(c.x, -0.015f + h / 2f, c.z)
             .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
             .scale(widest, h, far - near);
+        // The same leather, dyed per player: the shader multiplies this through the texture, so
+        // the grain stays and only the colour changes. A seat that is out goes grey.
+        Color tint = MAT_TINTS[index % MAT_TINTS.length];
+        if (seat.lost) inst.materials.get(0).set(ColorAttribute.createDiffuse(0.42f, 0.40f, 0.40f, 1f));
+        else inst.materials.get(0).set(ColorAttribute.createDiffuse(tint));
         props.add(inst);
     }
 

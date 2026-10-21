@@ -512,6 +512,24 @@ abstract class TableBase extends ApplicationAdapter {
     /** How far each seat's rows have been pushed back this frame, by seat index. */
     float[] seatPush = new float[0];
 
+    /**
+     * A colour of their own for each player's mat - the same leather, dyed differently.
+     *
+     * Muted on purpose: a mat is what a player's cards are read against, so it should say whose
+     * half of the table this is without ever competing with what is laid on it.
+     */
+    static final Color[] MAT_TINTS = {
+        new Color(0.95f, 0.86f, 0.74f, 1f),
+        new Color(0.74f, 0.88f, 0.96f, 1f),
+        new Color(0.80f, 0.95f, 0.82f, 1f),
+        new Color(0.97f, 0.80f, 0.82f, 1f),
+        new Color(0.88f, 0.82f, 0.98f, 1f),
+        new Color(0.98f, 0.94f, 0.76f, 1f),
+    };
+
+    /** Where each seat's panel of the centre screen ended up, for the readout drawn over it. */
+    final java.util.List<float[]> monitorAt = new java.util.ArrayList<>();
+
     static final float BEAD_D = 0.19f;
     static final float BEAD_Z = 3.26f;
     static final float BEAD_STEP = BEAD_D * 1.6f;        // between the six trays

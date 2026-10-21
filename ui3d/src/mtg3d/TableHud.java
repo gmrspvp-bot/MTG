@@ -1484,12 +1484,15 @@ abstract class TableHud extends TableScene {
         int n = snap.seats.size();
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            float angle = seatAngle(i, n);
-            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
-            // The overhead stack lies over the side screens; their readout would print over the
-            // cards. The same numbers are on the scoreboard panel and by each seat.
-            if (underFlatStack(w.x, w.z)) continue;
-            Vector3 p = cam.project(new Vector3(w.x, 0.62f, w.z));
+            // Where this player's panel of the centre screen actually ended up - the screen is
+            // one case now, turned to face this client's own seat, so a readout cannot be worked
+            // out from the seat's angle any more (see TableLayout.placeMonitors).
+            if (i >= monitorAt.size()) continue;
+            float[] at = monitorAt.get(i);
+            // The overhead stack lies over the screen; the readout would print over the cards.
+            // The same numbers are on the scoreboard panel and by each seat.
+            if (underFlatStack(at[0], at[2])) continue;
+            Vector3 p = cam.project(new Vector3(at[0], at[1] + 0.20f, at[2]));
             if (p.z > 1f) continue;                       // behind the camera
 
             // The commander's picture, if Forge has it cached. A missing one just leaves the
