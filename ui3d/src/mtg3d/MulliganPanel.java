@@ -41,6 +41,9 @@ public final class MulliganPanel {
     private KeepResult keepResult;
     private BottomResult bottomResult;
     private int hover = -1;
+    /** True while the arrows own the highlight; the mouse takes it back when it moves. */
+    private boolean keyPicking;
+    private float lastMx = -1f, lastMy = -1f;
     private boolean keepHover, mullHover, prevTouch;
 
     public MulliganPanel(CardArt art) { this.art = art; }
@@ -160,7 +163,8 @@ public final class MulliganPanel {
         gl.setText(fontBig, head);
         fontBig.draw(ui, head, (sw - gl.width) / 2f, baseY + cardH + 90f);
         fontBig.getData().setScale(1.6f);
-        String sub = bottomMode ? picked.size() + " of " + toBottom + " chosen - click a card to choose it"
+        String sub = bottomMode ? picked.size() + " of " + toBottom
+                + " chosen - click one, or arrows and SPACE"
             : hand.size() + " cards" + (mulligans > 0 ? "   (mulligan " + mulligans + ")" : "");
         font.setColor(0.70f, 0.84f, 0.95f, t);
         gl.setText(font, sub);
@@ -183,10 +187,32 @@ public final class MulliganPanel {
     }
 
     private void handleInput(float mx, float my, float keepX, float mullX) {
-        hover = -1;
-        // Topmost card wins where they overlap: scan right to left.
-        for (int i = hand.size() - 1; i >= 0; i--) {
-            if (mx >= cardX(i) && mx <= cardX(i) + cardW && my >= cardY(i) && my <= cardY(i) + cardH) { hover = i; break; }
+        // The keyboard owns the highlight while it is being used; the mouse takes it back the
+        // moment it moves. Same rule as SearchPanel, and the same reason: a resting pointer
+        // otherwise drags the highlight back every frame.
+        boolean mouseMoved = mx != lastMx || my != lastMy;
+        lastMx = mx; lastMy = my;
+        if (mouseMoved) keyPicking = false;
+
+        if (!keyPicking) {
+            hover = -1;
+            // Topmost card wins where they overlap: scan right to left.
+            for (int i = hand.size() - 1; i >= 0; i--) {
+                if (mx >= cardX(i) && mx <= cardX(i) + cardW && my >= cardY(i) && my <= cardY(i) + cardH) { hover = i; break; }
+            }
+        }
+        // Choosing which cards go to the bottom was click-only, so with a controller the panel
+        // could be reached and not answered (the owner, 2026-10-21). The arrows walk the hand,
+        // SPACE takes the one under the highlight. Through Keys3D, so the D-pad does it too.
+        if (bottomMode && !hand.isEmpty()) {
+            int moved = -1;
+            if (Keys3D.just(Input.Keys.RIGHT)) moved = Math.min(hand.size() - 1, Math.max(0, hover) + 1);
+            if (Keys3D.just(Input.Keys.LEFT))  moved = Math.max(0, Math.max(0, hover) - 1);
+            if (moved >= 0) { keyPicking = true; hover = moved; }
+            if (Keys3D.just(Input.Keys.SPACE) && hover >= 0) {
+                if (picked.contains(hover)) picked.remove(hover);
+                else if (picked.size() < toBottom) picked.add(hover);
+            }
         }
         keepHover = mx >= keepX && mx <= keepX + btnW && my >= btnY && my <= btnY + btnH;
         mullHover = !bottomMode && mx >= mullX && mx <= mullX + btnW && my >= btnY && my <= btnY + btnH;

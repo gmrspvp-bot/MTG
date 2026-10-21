@@ -43,6 +43,9 @@ public final class OrderPanel {
     private boolean prevTouch, okHover, cancelHover;
     // Dragging: which card, where it was picked up, and where the press started (to tell a click).
     private int dragRow = -1, dragIndex = -1;
+    /** Where the keyboard highlight is, and the card it is carrying (null when not carrying). */
+    private int keyRow = -1, keyAt = 0;
+    private Snapshot.CardV held;
     private float pressX, pressY;
     private boolean pressed;
 
@@ -171,8 +174,9 @@ public final class OrderPanel {
             drawCard(ui, font, rows.get(dragRow).get(dragIndex), mx - CARD_W / 2f, my - CARD_H / 2f, t);
         }
         font.setColor(0.40f, 0.52f, 0.62f, t);
-        font.draw(ui, rows.size() > 1 ? "drag to reorder or move between rows   -   click sends a card across"
-            : "drag to reorder", px + 22f, py + 24f);
+        // Short: the buttons sit at the right-hand end of this same line, and the long
+        // version ran straight underneath them.
+        font.draw(ui, "drag, or arrows + SPACE", px + 22f, py + 24f);
         font.setColor(okHover ? new Color(1f, 0.92f, 0.60f, t) : new Color(0.65f, 0.95f, 1f, t));
         font.draw(ui, "Confirm", px + pw - 100f, py + 24f);
         font.setColor(cancelHover ? new Color(1f, 0.80f, 0.70f, t) : new Color(0.55f, 0.68f, 0.78f, t));
@@ -217,6 +221,39 @@ public final class OrderPanel {
         cancelHover = mx >= px + pw - 185f && mx <= px + pw - 115f && my >= py + 8f && my <= py + 32f;
         if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
         if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
+
+        // Reordering was drag-only, so the panel could be opened and not answered without a
+        // mouse - and scry and simultaneous triggers open it often. The arrows walk the cards,
+        // SPACE picks one up and puts it down, and while one is held the arrows carry it. Read
+        // through Keys3D, so the D-pad does all of it.
+        int total = 0;
+        for (java.util.List<Snapshot.CardV> r : rows) total += r.size();
+        if (total > 0) {
+            if (keyRow < 0) { keyRow = 0; keyAt = 0; }
+            boolean left = Keys3D.just(Input.Keys.LEFT), right = Keys3D.just(Input.Keys.RIGHT);
+            boolean up = Keys3D.just(Input.Keys.UP), down = Keys3D.just(Input.Keys.DOWN);
+            if (left || right || up || down) {
+                keyRow = Math.max(0, Math.min(rows.size() - 1, keyRow + (down ? 1 : 0) - (up ? 1 : 0)));
+                java.util.List<Snapshot.CardV> row = rows.get(keyRow);
+                int want = keyAt + (right ? 1 : 0) - (left ? 1 : 0);
+                keyAt = Math.max(0, Math.min(Math.max(0, row.size() - 1), want));
+                if (held != null) {
+                    // Carry the held card to wherever the highlight just went.
+                    for (java.util.List<Snapshot.CardV> r : rows) r.remove(held);
+                    java.util.List<Snapshot.CardV> target = rows.get(keyRow);
+                    keyAt = Math.max(0, Math.min(target.size(), keyAt));
+                    target.add(keyAt, held);
+                }
+            }
+            if (Keys3D.just(Input.Keys.SPACE)) {
+                java.util.List<Snapshot.CardV> row = rows.get(keyRow);
+                if (held != null) {
+                    held = null;                       // put it down where it is
+                } else if (keyAt < row.size()) {
+                    held = row.get(keyAt);             // pick it up
+                }
+            }
+        }
         boolean touch = Pad.touch();
         boolean down = touch && !prevTouch, up = !touch && prevTouch;
         prevTouch = touch;
