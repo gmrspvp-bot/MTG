@@ -53,6 +53,14 @@ public final class AttackHook {
                 // Never break the game.
             }
         }
+        // The owner's Mr House style: build robots up behind blockers, then go wide (HouseAttack).
+        if (HouseAttack.enabled) {
+            try {
+                HouseAttack.apply(combat, real);
+            } catch (Throwable t) {
+                // Never break the game.
+            }
+        }
         return result;
     }
 

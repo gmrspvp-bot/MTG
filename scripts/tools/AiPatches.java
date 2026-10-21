@@ -45,6 +45,70 @@ public final class AiPatches {
     }
 
     /**
+     * Dice as an engine, the way the owner plays Mr House (2026-10-21; scratch\house-style.ps1
+     * on their recorded games vs ~9,000 sim games): they rolled about 9 times a game - 4.7 on
+     * their own turn, 4.0 on opponents' turns - and got ~24 Mr. House triggers; the AI rolled
+     * 1.4 times a game, never on its own turn, and got ~3. Forge's RollDiceAi only allows a paid
+     * dice ability in the end step right before the AI's own turn, once a round at most.
+     *
+     * When the AI controls a "whenever you roll" payoff (Mr. House, Wyll, Barbarian Class,
+     * Vexing Puzzlebox, "Lifetime" Pass Holder, Night Shift...), or the ability is good by itself
+     * (Component Pouch, The Deck of Many Things, Treasure Chest), its ACTIVATED dice abilities
+     * are used whenever the mana would otherwise go unused:
+     *   - instant speed: at the end of EVERY opponent's turn, and at its own end step; free
+     *     ones ({T} only) also in its own second main phase;
+     *   - sorcery speed / planeswalker (Comet, Stellar Pup): in its own main phases.
+     * Guards: The Deck of Many Things only with 4 or fewer cards in hand (it subtracts hand size,
+     * and 0 or less discards the hand); Treasure Chest only at 10+ life (a 1 costs 3 life).
+     * Spells and triggers that roll are left to Forge. Logs DICEAI. Patch "dice".
+     */
+    public static class DiceEngineAi extends SafeRollDiceAi {
+        static boolean enabled;
+
+        static boolean hasRollPayoff(Player ai) {
+            for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                for (forge.game.trigger.Trigger t : c.getTriggers()) {
+                    if (t.getMode() == forge.game.trigger.TriggerType.RolledDie
+                        || t.getMode() == forge.game.trigger.TriggerType.RolledDieOnce) return true;
+                }
+            }
+            return false;
+        }
+
+        static final List<String> GOOD_ALONE = Arrays.asList("Component Pouch", "The Deck of Many Things",
+            "Treasure Chest", "Comet, Stellar Pup", "Mr. House, President and CEO");
+
+        @Override
+        protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            Card host = sa.getHostCard();
+            if (!enabled || host == null || !(sa.isActivatedAbility() || sa.isPwAbility()) || sa.isManaAbility()) {
+                return super.checkApiLogic(ai, sa);
+            }
+            String name = host.getName();
+            if (!hasRollPayoff(ai) && !GOOD_ALONE.contains(name)) return super.checkApiLogic(ai, sa);
+            forge.ai.AiAbilityDecision no = new forge.ai.AiAbilityDecision(0, forge.ai.AiPlayDecision.CantPlayAi);
+            if ("The Deck of Many Things".equals(name) && ai.getCardsIn(forge.game.zone.ZoneType.Hand).size() > 4) return no;
+            if ("Treasure Chest".equals(name) && ai.getLife() < 10) return no;
+
+            forge.game.phase.PhaseHandler ph = ai.getGame().getPhaseHandler();
+            boolean mine = ph.isPlayerTurn(ai);
+            boolean sorcery = sa.isPwAbility() || sa.getRestrictions() != null && sa.getRestrictions().isSorcerySpeed();
+            boolean freeTap = sa.getPayCosts() == null || !sa.getPayCosts().hasManaCost();
+            String when = null;
+            if (sorcery) {
+                if (mine && (ph.is(forge.game.phase.PhaseType.MAIN2) || ph.is(forge.game.phase.PhaseType.MAIN1))) when = "own main phase";
+            } else if (ph.is(forge.game.phase.PhaseType.END_OF_TURN)) {
+                when = mine ? "own end step" : "an opponent's end step";
+            } else if (mine && freeTap && ph.is(forge.game.phase.PhaseType.MAIN2)) {
+                when = "own main 2 (free)";
+            }
+            if (when == null) return no;
+            System.out.println("DICEAI " + ai.getName() + ": " + name + " rolls at " + when + " (turn " + ph.getTurn() + ")");
+            return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+        }
+    }
+
+    /**
      * Captain America's "Catch" (attach up to one target Equipment you control to him at
      * beginning of combat). Forge's AttachAi picks the equipment essentially at random,
      * sometimes re-attaching gear he already wears. We choose: protection first if he has
@@ -1972,6 +2036,15 @@ public final class AiPatches {
             if (wanted.contains("rolldice")) {
                 instances.put(ApiType.RollDice, new SafeRollDiceAi());
                 System.out.println("AiPatches: rolldice (optional dice-modifier prompts declined)");
+            }
+            if (wanted.contains("dice")) {
+                DiceEngineAi.enabled = true;
+                instances.put(ApiType.RollDice, new DiceEngineAi());
+                System.out.println("AiPatches: dice (dice abilities used every turn when a roll payoff is out - the owner's Mr House)");
+            }
+            if (wanted.contains("housestyle")) {
+                HouseAttack.enabled = true;
+                System.out.println("AiPatches: housestyle (with Mr. House out: build robots behind blockers, then go wide - the owner's style)");
             }
             if (wanted.contains("catch")) {
                 instances.put(ApiType.Attach, new CatchAwareAttachAi());
