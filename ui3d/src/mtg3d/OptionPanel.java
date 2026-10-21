@@ -283,11 +283,15 @@ public final class OptionPanel {
                 lf.setColor(sel ? new Color(0.10f, 0.08f, 0.04f, t) : new Color(0.88f, 0.95f, 1f, t));
                 boolean twoLine = !o.detail.isEmpty() && !small;
                 float labelY = twoLine ? by + lBtnH - 12f : by + lBtnH / 2f + (small ? 5f : 9f);
-                // A drop-down is narrow and abilities are long: cut the label to the button.
-                lf.draw(ui, anchoredNow() ? fit(lf, o.label, lColW - 40f) : o.label, tx, labelY);
+                // Cut BOTH lines to the button, in every mode. It was only done for a
+                // drop-down, so a full-width list drew long labels and long details straight out
+                // of the panel and over whatever was beside it (the owner, 2026-10-22). A button
+                // is one line of each; what does not fit ends in an ellipsis.
+                float room = lColW - (tx - bx) - 24f;
+                lf.draw(ui, fit(lf, o.label, room), tx, labelY);
                 if (twoLine) {
                     font.setColor(sel ? new Color(0.22f, 0.16f, 0.06f, t) : new Color(0.58f, 0.72f, 0.82f, t));
-                    font.draw(ui, o.detail, tx, by + 18f);
+                    font.draw(ui, fit(font, o.detail, room), tx, by + 18f);
                 }
             }
         }

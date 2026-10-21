@@ -103,14 +103,80 @@ public final class OrderPanel {
     // Geometry, shared by drawing and input so they cannot drift apart.
     private float px, py, pw, ph;
 
+    /**
+     * How much room the text under the cards of each row needs, and what the row is therefore
+     * worth in height. Worked out once per frame, because it depends on the font.
+     *
+     * A row used to be a flat 250 high whatever was in it. Three copies of a Crime Novelist
+     * trigger are seven wrapped lines each, which ran out of the bottom of the panel and straight
+     * over the Confirm button (the owner, 2026-10-22). Rows are measured now; what still will not
+     * fit is cut short with an ellipsis rather than drawn over something else.
+     */
+    private final List<Float> textH = new ArrayList<>();
+
+    private void measure(BitmapFont font, int sh) {
+        textH.clear();
+        for (List<Snapshot.CardV> row : rows) {
+            float tall = 0f;
+            for (Snapshot.CardV c : row) {
+                if (c.stackText == null || c.stackText.isEmpty()) continue;
+                tall = Math.max(tall, wrapped(font, c.stackText).height);
+            }
+            textH.add(tall);
+        }
+        // Everything has to fit on the screen, so if the rows together are too tall the text
+        // allowance shrinks until they do. The cards themselves are never squeezed.
+        float cap = textCap(sh);
+        for (int i = 0; i < textH.size(); i++) textH.set(i, Math.min(textH.get(i), cap));
+    }
+
+    /** The most text any one row may show, given the screen and how many rows there are. */
+    private float textCap(int sh) {
+        // The chrome (title, prompt, numbers, buttons) plus the cards themselves. Deliberately
+        // generous: with this allowance the panel comes out at sh - 80 at the very worst, for
+        // one row or two, so the clamp in layout() never has to cut anything off.
+        float forCards = 180f + rows.size() * (CARD_H + 74f);
+        float left = sh - 60f - forCards;
+        return Math.max(40f, left / Math.max(1, rows.size()));
+    }
+
+    private com.badlogic.gdx.graphics.g2d.GlyphLayout wrapped(BitmapFont font, String s) {
+        return new com.badlogic.gdx.graphics.g2d.GlyphLayout(
+            font, s, Color.WHITE, CARD_W, com.badlogic.gdx.utils.Align.left, true);
+    }
+
+    /** `s` cut to whatever fits in `max` pixels of wrapped height, with an ellipsis if cut. */
+    private String fit(BitmapFont font, String s, float max) {
+        if (s == null || s.isEmpty() || wrapped(font, s).height <= max) return s;
+        int lo = 0, hi = s.length();
+        while (lo < hi) {
+            int mid = (lo + hi + 1) / 2;
+            if (wrapped(font, s.substring(0, mid) + "...").height <= max) lo = mid; else hi = mid - 1;
+        }
+        return s.substring(0, Math.max(0, lo)).trim() + "...";
+    }
+
+    /** A row's full height: the card, the number over it, and the text under it. */
+    private float rowHeight(int r) {
+        float text = r < textH.size() ? textH.get(r) : 0f;
+        return Math.max(ROW_H, CARD_H + 56f + text + 18f);
+    }
+
     private void layout(int sw, int sh, float t) {
         pw = Math.min(sw - 120f, Math.max(640f, 220f + rows.stream().mapToInt(List::size).sum() * (CARD_W + GAP)));
-        ph = 110f + rows.size() * ROW_H + 50f;
+        float stack = 0f;
+        for (int r = 0; r < rows.size(); r++) stack += rowHeight(r);
+        ph = Math.min(sh - 40f, 110f + stack + 50f);
         px = (sw - pw) / 2f;
         py = (sh - ph) / 2f - (1f - t) * 120f;
     }
 
-    private float rowY(int r) { return py + ph - 100f - (r + 1) * ROW_H + (ROW_H - CARD_H) / 2f; }
+    /** The bottom-left of row r's cards. Rows are stacked from the top, each its own height. */
+    private float rowY(int r) {
+        float y = py + ph - 100f;
+        for (int i = 0; i <= r; i++) y -= rowHeight(i);
+        return y + (r < textH.size() ? textH.get(r) : 0f) + 18f;
+    }
 
     private float slotX(int i) { return px + 200f + i * (CARD_W + GAP); }
 
@@ -119,6 +185,7 @@ public final class OrderPanel {
         int sw = Gdx.graphics.getWidth(), sh = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, sw, sh);
         float t = anim * anim * (3f - 2f * anim);
+        measure(font, sh);
         layout(sw, sh, t);
         float mx = Gdx.input.getX(), my = sh - Gdx.input.getY();
         if (live()) handleInput(mx, my);
@@ -136,7 +203,8 @@ public final class OrderPanel {
         for (int r = 0; r < rows.size(); r++) {
             // Each row a lane, the second a little warmer so top and bottom never blur together.
             shapes.setColor(r == 0 ? 0.05f : 0.09f, r == 0 ? 0.15f : 0.12f, r == 0 ? 0.21f : 0.16f, t);
-            shapes.rect(px + 14f, rowY(r) - 18f, pw - 28f, CARD_H + 36f);
+            float lane = CARD_H + 36f + (r < textH.size() ? textH.get(r) : 0f);
+            shapes.rect(px + 14f, rowY(r) - 18f - (r < textH.size() ? textH.get(r) : 0f), pw - 28f, lane);
         }
         // Where the dragged card would land.
         if (dragRow >= 0 && pressed) {
@@ -165,13 +233,14 @@ public final class OrderPanel {
             List<Snapshot.CardV> row = rows.get(r);
             for (int i = 0; i < row.size(); i++) {
                 if (r == dragRow && i == dragIndex && pressed && moved(mx, my)) continue;   // drawn at the mouse
-                drawCard(ui, font, row.get(i), slotX(i), y, t);
+                drawCard(ui, font, row.get(i), slotX(i), y, t, r < textH.size() ? textH.get(r) : 0f);
                 font.setColor(1f, 0.86f, 0.42f, t);
                 font.draw(ui, String.valueOf(i + 1), slotX(i) + CARD_W / 2f - 4f, y + CARD_H + 16f);
             }
         }
         if (dragRow >= 0 && pressed && moved(mx, my)) {
-            drawCard(ui, font, rows.get(dragRow).get(dragIndex), mx - CARD_W / 2f, my - CARD_H / 2f, t);
+            drawCard(ui, font, rows.get(dragRow).get(dragIndex), mx - CARD_W / 2f, my - CARD_H / 2f, t,
+                dragRow < textH.size() ? textH.get(dragRow) : 0f);
         }
         font.setColor(0.40f, 0.52f, 0.62f, t);
         // Short: the buttons sit at the right-hand end of this same line, and the long
@@ -184,7 +253,8 @@ public final class OrderPanel {
         ui.end();
     }
 
-    private void drawCard(SpriteBatch ui, BitmapFont font, Snapshot.CardV c, float x, float y, float t) {
+    private void drawCard(SpriteBatch ui, BitmapFont font, Snapshot.CardV c, float x, float y, float t,
+                          float textRoom) {
         Texture tex = art == null ? null : art.get(c);
         ui.setColor(1f, 1f, 1f, t);
         if (tex != null) ui.draw(tex, x, y, CARD_W, CARD_H);
@@ -195,7 +265,7 @@ public final class OrderPanel {
         // A trigger is its source card plus what the trigger does; say what it does.
         if (c.stackText != null && !c.stackText.isEmpty()) {
             font.setColor(0.90f, 0.95f, 1f, t);
-            font.draw(ui, c.stackText, x, y - 6f, CARD_W, -1, true);
+            font.draw(ui, fit(font, c.stackText, textRoom), x, y - 6f, CARD_W, -1, true);
         }
     }
 
