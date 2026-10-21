@@ -573,8 +573,12 @@ abstract class TableInput extends TableHud {
     }
 
     void handleInput() {
-        // The pad first, so the pointer it drives is where it should be before anything reads it.
+        // The pad first, so its selection is settled before anything reads what is hovered.
         Pad.poll(Gdx.graphics.getDeltaTime());
+        // The mouse is never taken away by the controller: moving it hands control straight back.
+        // Without this a pointer resting over a card would fight the selection every frame.
+        int mouseAt = Gdx.input.getX() * 4001 + Gdx.input.getY();
+        if (mouseAt != lastMouseAt) { lastMouseAt = mouseAt; padSelecting = false; }
         // While the bug dialog is open the 3D window reads nothing. libGDX polls GLFW key state
         // instead of consuming events, so without this, typing a report also passed priority and
         // ended turns underneath it. Pad reads go through the same gate.
@@ -867,9 +871,32 @@ abstract class TableInput extends TableHud {
      * The first three lines are not implemented here: they are keys, mapped in Pad.justAs and
      * read through Keys3D, so they work in every panel without any panel knowing.
      */
+    /**
+     * Move the selection with the left stick, in the order the cards are drawn - your hand, then
+     * the boards round the table. One step per flick, so it snaps between cards instead of
+     * sliding a pointer at them.
+     */
+    void padSelection() {
+        if (drawn.isEmpty()) return;
+        int step = Pad.flickX();
+        if (step == 0) step = Pad.flickY() * 4;    // up and down jump a handful, for a long row
+        if (step == 0) return;
+        padSelecting = true;
+        int at = -1;
+        for (int i = 0; i < drawn.size(); i++) {
+            Drawn d = drawn.get(i);
+            if (d.card != null && d.card.id == padSelectedId) { at = i; break; }
+        }
+        int size = drawn.size();
+        int next = at < 0 ? (step > 0 ? 0 : size - 1) : ((at + step) % size + size) % size;
+        Drawn d = drawn.get(next);
+        padSelectedId = d.card == null ? -1 : d.card.id;
+    }
+
     void padBindings() {
         if (!Pad.connected()) return;
         int n = snap.seats.size();
+        padSelection();
 
         // B (escape) and the D-pad (arrows) arrive through Keys3D now, so they are not repeated
         // here - a second copy would fire the action twice.
@@ -961,11 +988,27 @@ abstract class TableInput extends TableHud {
             && my >= followBox[1] && my <= followBox[1] + followBox[3];
     }
 
-    /** Ray-pick the card under the mouse; nearest hit wins. */
+    /**
+     * What the player is pointing at: the card under the mouse, or - when the controller is the
+     * thing being used - the one the selection has been flicked to.
+     *
+     * Both end up in `hovered`, which every click, hover panel and targeting path already reads,
+     * so the controller needs nothing of its own anywhere else. The selection is held as a card
+     * id rather than an index, because the board is rebuilt every frame and an index would be
+     * pointing at a different card the moment anything moved.
+     *
+     * The mouse is never taken away: moving it hands control straight back (see handleInput).
+     */
     void pick() {
         hovered = null;
         hoveredSeat = -1;
         if (panelOpen()) return;
+        if (padSelecting) {
+            for (Drawn d : drawn) {
+                if (d.card != null && d.card.id == padSelectedId) { hovered = d; return; }
+            }
+            padSelectedId = -1;        // it has left the board; fall through to the mouse
+        }
         Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
         float best = Float.MAX_VALUE;
         Vector3 hit = new Vector3();

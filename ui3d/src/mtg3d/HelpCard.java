@@ -49,7 +49,8 @@ public final class HelpCard {
         { "F", "follow the turn on and off" },
         { "", "" },
         { "", "CONTROLLER  (if one is plugged in)" },
-        { "left stick", "move the pointer    -    A  click / main button" },
+        { "left stick", "flick between cards    -    A  play / choose the one picked out" },
+        { "", "the mouse still works - move it and it takes over again" },
         { "D-pad", "the arrow keys - move the highlight in any panel" },
         { "Start", "ENTER / confirm    -    B  ESC / close" },
         { "X", "hand back to Forge    -    Y  this help" },
@@ -103,7 +104,10 @@ public final class HelpCard {
 
     public void drawButtonText(SpriteBatch ui, BitmapFont font, int w, int h) {
         font.setColor(0.86f, 0.94f, 1f, 1f);
-        font.draw(ui, open ? "CLOSE" : "HELP", btn[0], btn[1] + 22f, btn[2], 1, false);
+        font.draw(ui, open ? "CLOSE" : "HELP", btn[0], btn[1] + 26f, btn[2], 1, false);
+        // The key beside the button, so nothing on screen looks like it needs a mouse.
+        font.setColor(0.60f, 0.76f, 0.92f, 1f);
+        font.draw(ui, "F1 / Y", btn[0], btn[1] + 12f, btn[2], 1, false);
     }
 
     /**

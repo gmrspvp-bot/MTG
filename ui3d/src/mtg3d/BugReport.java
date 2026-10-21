@@ -146,7 +146,7 @@ public final class BugReport {
         boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY());
         if (hot) {
             font.setColor(1f, 0.78f, 0.70f, 1f);
-            font.draw(ui, "report a bug", w - 150f, h - 58f);
+            font.draw(ui, "report a bug  (F2, or Back)", w - 230f, h - 58f);
         }
         if (lastSaved != null && System.currentTimeMillis() - lastSavedAt < 8000) {
             font.setColor(0.55f, 0.92f, 0.62f, 1f);

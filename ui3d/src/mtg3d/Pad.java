@@ -86,10 +86,7 @@ public final class Pad {
             lt = (state.axes(GLFW.GLFW_GAMEPAD_AXIS_LEFT_TRIGGER) + 1f) / 2f;
             rt = (state.axes(GLFW.GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER) + 1f) / 2f;
 
-            if (lx != 0f || ly != 0f) {
-                used = true;
-                moveCursor(lx * CURSOR_SPEED * dt, ly * CURSOR_SPEED * dt);
-            }
+            if (lx != 0f || ly != 0f) used = true;
         } catch (Throwable t) {
             // A controller that cannot be read must never stop the game being played with a mouse.
             present = false;
@@ -104,14 +101,33 @@ public final class Pad {
     }
 
     /**
-     * Move the real pointer, clamped to the window. libGDX's y runs down from the top here,
-     * which is the same direction the stick's y reports, so no flip is needed.
+     * The left stick as a flick rather than a slide: one step per push, and it must come back
+     * near centre before it steps again.
+     *
+     * The first version drove the mouse pointer round the screen with the stick. It worked and it
+     * felt wrong - a controller should snap between the things you can act on, not push a cursor
+     * at them (the owner, 2026-10-21). So the stick reports steps, and the table moves a
+     * selection by them.
+     *
+     * @return -1, 0 or +1
      */
-    private static void moveCursor(float dx, float dy) {
-        int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
-        int x = Math.round(Math.max(0, Math.min(w - 1, Gdx.input.getX() + dx)));
-        int y = Math.round(Math.max(0, Math.min(h - 1, Gdx.input.getY() + dy)));
-        Gdx.input.setCursorPosition(x, y);
+    public static int flickX() {
+        return flick(leftX(), 0);
+    }
+
+    public static int flickY() {
+        return flick(leftY(), 1);
+    }
+
+    private static final boolean[] armed = { true, true };
+    private static final float FLICK_ON = 0.6f, FLICK_OFF = 0.35f;
+
+    private static int flick(float v, int axis) {
+        if (Math.abs(v) < FLICK_OFF) armed[axis] = true;
+        if (!armed[axis] || Math.abs(v) < FLICK_ON) return 0;
+        armed[axis] = false;
+        used = true;
+        return v < 0 ? -1 : 1;
     }
 
     /** True on the frame the button went down. */

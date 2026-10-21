@@ -722,7 +722,7 @@ abstract class TableHud extends TableScene {
         }
 
         font.setColor(followTurn ? new Color(0.72f, 0.92f, 1f, 1f) : new Color(0.48f, 0.60f, 0.70f, 1f));
-        font.draw(ui, "follow the turn", PP_X + 30f * PP_SCALE, bottom + 23f * PP_SCALE);
+        font.draw(ui, "follow the turn   (F)", PP_X + 30f * PP_SCALE, bottom + 23f * PP_SCALE);
 
         // Forge auto-passing on our behalf used to be completely invisible: one key armed it,
         // the rest of the turn went past, and nothing on screen said why. If it is on, say so

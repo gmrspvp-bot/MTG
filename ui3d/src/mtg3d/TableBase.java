@@ -238,6 +238,16 @@ abstract class TableBase extends ApplicationAdapter {
     Drawn hovered;
 
     /**
+     * The controller's selection: which card it is on, and whether it - rather than the mouse -
+     * is deciding what `hovered` is. By id, because the board is rebuilt every frame.
+     */
+    int padSelectedId = -1;
+
+    boolean padSelecting;
+
+    int lastMouseAt = -1;
+
+    /**
      * Animation without giving up the per-frame rebuild. layout() still works out every card's
      * TARGET pose from the snapshot each frame, so the view always converges on the true state;
      * what persists between frames is only where each card was last DRAWN, keyed by card id.
