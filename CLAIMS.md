@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: token pictures - look up Forge's own image key (tokens\<SET>\<n>_c_3_3_a_robot.jpg) instead of the card name | Stoneforge | 2026-10-22 | StateReader (image key), CardArt (key lookup). Tokens are always drawn faces today. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
