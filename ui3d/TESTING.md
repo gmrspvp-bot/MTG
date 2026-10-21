@@ -68,6 +68,12 @@ Each line: **what to do** -> what should happen.
       follows the mouse from your spell. Click a target -> it turns gold and Forge carries on.
 - [ ] **A player as target:** in the same mode, click a player's seat or table monitor.
 - [ ] **ESC while targeting** cancels the spell.
+- [ ] **Goblin Bombardment** (any "Sacrifice a creature: ... damage" ability): the banner reads
+      **Choose what Goblin Bombardment hits** with "you choose the SACRIFICE after this" under it.
+      Click an opponent -> then a red **Sacrifice - target: <them>** banner; click a robot.
+      Clicking one of **your own** creatures as the target warns first (click again within 3
+      seconds if you meant it). Clicking a player during the Sacrifice step explains instead of
+      doing nothing; X there cancels the whole activation.
 - [ ] **Choose one** (a modal spell, a colour, a card type, a player) -> a column of big buttons;
       click one or press its number.
 - [ ] **Choose two** (Cryptic Command style) -> "0 of 2 chosen", Confirm lights at two.

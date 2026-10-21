@@ -138,6 +138,94 @@ abstract class TableInput extends TableHud {
     int strayTapId = -1;
     long strayTapAt;
 
+    /**
+     * Owner's joined game, 2026-10-21: Goblin Bombardment asks for its TARGET first and the
+     * creature to sacrifice second. Twice a robot clicked as the sacrifice became the target, and
+     * the game was lost at 2 life. So while choosing a target for something that hurts (damage,
+     * destroy, exile, -N/-N, fight), the first click on one of our own permanents only warns, if
+     * anything of an opponent's could have been picked instead; a second click within
+     * STRAY_TAP_MS goes through. Something that helps (a pump, a blink) is never held, and nor is
+     * a spell that can only target our own things. -Dforge.ui3d.owntargetguard=false turns it off.
+     * True = the click was held back.
+     */
+    boolean ownTargetHeld(Drawn d) {
+        if (!OWN_TARGET_GUARD || d.card == null || d.seat == null || !d.seat.isYou || targeting == null) return false;
+        if (!harmful()) return false;
+        boolean otherLegal = false;
+        for (Snapshot.SeatV s : snap.seats) {
+            if (s.isYou) continue;
+            for (List<Snapshot.CardV> zone : java.util.Arrays.asList(s.creatures, s.others, s.lands)) {
+                for (Snapshot.CardV c : zone) if (targeting.legal.contains(c.id)) otherLegal = true;
+            }
+        }
+        String m = targeting.what == null ? "" : targeting.what.toLowerCase();
+        if (m.contains("any target") || m.contains("player") || m.contains("opponent")) otherLegal = true;
+        if (!otherLegal) return false;
+        long now = System.currentTimeMillis();
+        if (ownTargetId == d.card.id && now - ownTargetAt < STRAY_TAP_MS) { ownTargetId = -1; return false; }
+        ownTargetId = d.card.id;
+        ownTargetAt = now;
+        return true;
+    }
+
+    static final boolean OWN_TARGET_GUARD = !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.owntargetguard", "true"));
+    static final java.util.regex.Pattern HARMFUL = java.util.regex.Pattern.compile(
+        "deals? [^.]*damage|destroy|exile target|[-−](\\d+|x)/[-−](\\d+|x)|fights?\\b");
+    int ownTargetId = -1;
+    long ownTargetAt;
+    /** What the last target click picked ("Robot Token (yours)", "Alec"), for the sacrifice step. */
+    String lastTargetLabel = "";
+
+    @Override String lastTarget() { return lastTargetLabel; }
+
+    /** Does what we are choosing targets for hurt what it hits? Forge's prompt, then the source's text. */
+    boolean harmful() {
+        String m = targeting == null || targeting.what == null ? "" : targeting.what.toLowerCase();
+        if (HARMFUL.matcher(m).find()) return true;
+        Snapshot.CardV src = source();
+        return src != null && HARMFUL.matcher(src.text.toLowerCase()).find();
+    }
+
+    /**
+     * The card whose ability or spell wants the target: the card last clicked, but only when
+     * Forge's prompt names it - a trigger asks for targets with a stale lastCastId.
+     */
+    @Override Snapshot.CardV source() {
+        if (targeting == null || targeting.what == null) return null;
+        Snapshot.CardV c = findCard(lastCastId);
+        return c != null && !c.name.isEmpty() && targeting.what.contains(c.name) ? c : null;
+    }
+
+    String sourceName() {
+        Snapshot.CardV c = source();
+        return c == null ? "That" : c.name;
+    }
+
+    Snapshot.CardV findCard(int id) {
+        for (Snapshot.CardV c : snap.hand) if (c.id == id) return c;
+        for (Snapshot.SeatV s : snap.seats) {
+            for (List<Snapshot.CardV> zone : java.util.Arrays.asList(s.creatures, s.others, s.lands, s.command)) {
+                for (Snapshot.CardV c : zone) if (c.id == id) return c;
+            }
+        }
+        return null;
+    }
+
+    /** Forge is asking which permanent to sacrifice as a cost ("Select a creature to sacrifice (1 left)"). */
+    @Override boolean sacrificePrompt() {
+        String m = Gui3D.PROMPT.message;
+        return Gui3D.active() && m != null && m.toLowerCase().contains("to sacrifice") && targeting == null;
+    }
+
+    /** The source's cost includes a sacrifice ("Sacrifice a creature: ..."), so one comes after the target. */
+    @Override boolean sacrificeComesNext() {
+        Snapshot.CardV c = source();
+        String t = c == null ? (targeting == null || targeting.what == null ? "" : targeting.what) : c.text;
+        t = t.toLowerCase();
+        int colon = t.indexOf(':');
+        return colon > 0 && t.substring(0, colon).contains("sacrifice");
+    }
+
     /** The graphics level's live parts: frame cap and vsync now; the rest when things next load. */
     void applyGraphics() {
         try {
@@ -198,6 +286,8 @@ abstract class TableInput extends TableHud {
         } else if (targeting != null && targeting.wired) {
             targeting = null;
         }
+        // The target is remembered for the sacrifice that follows it, and forgotten after.
+        if (!"InputSelectTargets".equals(in) && !sacrificePrompt() && changed) lastTargetLabel = "";
 
         // Declare attackers / blockers.
         boolean attack = "InputAttack".equals(in), block = "InputBlock".equals(in);
@@ -652,8 +742,13 @@ abstract class TableInput extends TableHud {
                 if (hovered != null && targeting.legal.contains(hovered.card.id)) {
                     Integer id = hovered.card.id;
                     if (targeting.wired) {
-                        if (Gui3D.clickCard(id)) {
+                        if (ownTargetHeld(hovered)) {
+                            toast(sourceName() + " would hit YOUR " + hovered.card.name + ". Click it again to do that,"
+                                + " or pick an opponent", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
+                        } else if (Gui3D.clickCard(id)) {
                             if (targeting.picked.contains(id)) targeting.picked.remove(id); else targeting.picked.add(id);
+                            lastTargetLabel = hovered.card.name + (hovered.seat == null ? ""
+                                : hovered.seat.isYou ? " (yours)" : " (" + hovered.seat.name + "'s)");
                         }
                     } else {
                         if (targeting.picked.contains(id)) targeting.picked.remove(id);
@@ -664,7 +759,10 @@ abstract class TableInput extends TableHud {
                         }
                     }
                 } else if (hovered == null && hoveredSeat >= 0 && targeting.wired) {
-                    Gui3D.clickPlayer(hoveredSeat);        // a player as the target
+                    if (Gui3D.clickPlayer(hoveredSeat) && hoveredSeat < snap.seats.size()) {   // a player as the target
+                        Snapshot.SeatV s = snap.seats.get(hoveredSeat);
+                        lastTargetLabel = s.isYou ? "you" : s.name;
+                    }
                 } else if (hovered != null) {
                     toast("Not a legal target", Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
                 }
@@ -741,7 +839,14 @@ abstract class TableInput extends TableHud {
                 }
             } else if (hoveredSeat >= 0) {
                 // Picking a player: who starts, or a seat as a target.
-                if (!Gui3D.clickPlayer(hoveredSeat)) {
+                if (sacrificePrompt()) {
+                    // The target is chosen BEFORE the sacrifice, so a player clicked now is a target
+                    // meant for a step that has passed. It used to be dropped without a word (owner's
+                    // game, 2026-10-21: three clicks on an opponent, then a robot was shot instead).
+                    toast("Forge wants the creature to SACRIFICE now - the target was already chosen"
+                        + (lastTargetLabel.isEmpty() ? "" : " (" + lastTargetLabel + ")") + ". X cancels if that's wrong",
+                        Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
+                } else if (!Gui3D.clickPlayer(hoveredSeat)) {
                     System.out.println("UI3D: could not select that player");
                 }
             }

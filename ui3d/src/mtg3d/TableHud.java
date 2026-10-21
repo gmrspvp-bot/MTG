@@ -1154,15 +1154,32 @@ abstract class TableHud extends TableScene {
         ui.end();
     }
 
+    /** The target / sacrifice helpers live with the clicks they guard (TableInput). */
+    abstract Snapshot.CardV source();
+    abstract boolean sacrificePrompt();
+    abstract boolean sacrificeComesNext();
+    abstract String lastTarget();
+
     /** Targeting mode's instruction line, top centre, in the arc's violet. Inside the label pass. */
     void drawTargetBanner(int w, int h) {
         String line, sub;
         Color c;
         if (targeting != null && targeting.wired) {
             // Forge's own words for what it wants, under a plain heading.
-            line = "Choose targets";
-            sub = targeting.what + "   -   click a glowing card or a player   -   ESC cancels";
+            Snapshot.CardV src = source();
+            line = src == null ? "Choose targets" : "Choose what " + src.name + " hits";
+            // Forge asks for the target BEFORE a sacrifice cost (Goblin Bombardment), the reverse
+            // of how it reads on the card; a creature clicked to sacrifice here becomes the target.
+            if (sacrificeComesNext()) {
+                sub = "click the player or creature to HIT   -   you choose the SACRIFICE after this   -   ESC cancels";
+            } else {
+                sub = targeting.what + "   -   click a glowing card or a player   -   ESC cancels";
+            }
             c = new Color(0.80f, 0.62f, 1f, 1f);
+        } else if (sacrificePrompt()) {
+            line = "Sacrifice" + (lastTarget().isEmpty() ? "" : "   -   target: " + lastTarget());
+            sub = Gui3D.PROMPT.message + "   -   click a glowing card of yours   -   X cancels the whole ability";
+            c = new Color(1f, 0.50f, 0.42f, 1f);
         } else if (manaPlan != null && manaPlan.wired) {
             line = "Pay mana";
             sub = manaPlan.cost + "   -   click a glowing land or mana source   -   ESC cancels";
