@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: target prompts you can't mistake - Goblin Bombardment style (target asked before the sacrifice): clear TARGET vs SACRIFICE banner/glow, confirm hitting your own permanent | Stoneforge | 2026-10-22 | Owner lost a game at 2 life to two Bombardment shots at his own robots. TableHud, TableInput, maybe Gui3D prompt mirror. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
