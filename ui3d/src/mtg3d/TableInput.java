@@ -760,6 +760,13 @@ abstract class TableInput extends TableHud {
         if (Keys3D.just(Input.Keys.F1)) help.toggle();
         if (Keys3D.just(Input.Keys.F2)) { bug.ask(snap); return; }
         if (Keys3D.just(Input.Keys.F)) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
+        if (Keys3D.just(Input.Keys.R)) {
+            askResponses = !askResponses;
+            toast(askResponses ? "Checking with you for responses" : "Skipping to your turn",
+                Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.72f);
+        }
+        if (clickedRespondBox()) { askResponses = !askResponses; }
+        autoPassOthersTurns();
         if (Keys3D.just(Input.Keys.M) && cues != null) cues.toggleMute();
         if (Keys3D.just(Input.Keys.TAB)) {
             manualOverride = true;
@@ -961,6 +968,42 @@ abstract class TableInput extends TableHud {
         }
         float z = Pad.rightTrigger() - Pad.leftTrigger();
         if (z != 0f) zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * (1f - z * 1.4f * dt)));
+    }
+
+    /**
+     * With "check with me for responses" off, pass the priority we are given on somebody else's
+     * turn, and keep passing until our own turn comes round.
+     *
+     * Deliberately narrow. It only ever acts when:
+     *   - it is NOT our turn (our own turn is never passed for us - that is the bug this is
+     *     modelled on, not a feature to reproduce),
+     *   - no panel or question is up (a real choice still stops the game, whatever this says),
+     *   - Forge is offering the ordinary pass, not a named action like "Attack",
+     *   - and once per prompt, because pressOk is queued onto the Swing thread and sending it
+     *     every frame would stack up answers to a decision that has already moved on.
+     */
+    void autoPassOthersTurns() {
+        if (askResponses || !Gui3D.active() || panelOpen() || Gui3D.pendingAsk() != null) return;
+        Snapshot.SeatV me = snap.you();
+        if (me == null || !me.hasPriority || me.active) return;
+        Gui3D.Prompt p = Gui3D.PROMPT;
+        if (!p.okEnabled) return;
+        if (!p.okLabel.isEmpty() && !"OK".equalsIgnoreCase(p.okLabel)) return;   // a named question
+        Object token = p.token;
+        if (token == null || token == lastAutoPassed) return;
+        lastAutoPassed = token;
+        Gui3D.pressOk();
+    }
+
+    /** True on the frame the left button goes down on the responses tickbox. */
+    boolean clickedRespondBox() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
+        boolean justDown = down && !leftWasDownRespond;
+        leftWasDownRespond = down;
+        if (!justDown) return false;
+        float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+        return mx >= respondBox[0] && mx <= respondBox[0] + respondBox[2]
+            && my >= respondBox[1] && my <= respondBox[1] + respondBox[3];
     }
 
     /** True on the frame the left button goes down on the HELP button. */

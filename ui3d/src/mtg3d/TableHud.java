@@ -502,7 +502,15 @@ abstract class TableHud extends TableScene {
             if (named) shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
             else shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
             shapes.rect(bx, by, okW, btnH);
+            bx -= btnW + gap;
         }
+        // The responses toggle sits with the buttons it governs, not off in the corner panel:
+        // it decides whether you are asked to press them at all.
+        respondBox[0] = bx; respondBox[1] = by; respondBox[2] = btnW; respondBox[3] = btnH;
+        boolean hotR = inRect(respondBox, mx, my);
+        if (askResponses) shapes.setColor(hotR ? 0.20f : 0.13f, hotR ? 0.34f : 0.24f, hotR ? 0.46f : 0.33f, 1f);
+        else shapes.setColor(hotR ? 0.72f : 0.54f, hotR ? 0.48f : 0.34f, hotR ? 0.18f : 0.12f, 1f);
+        shapes.rect(bx, by, btnW, btnH);
         shapes.end();
         ui.begin();
 
@@ -514,6 +522,17 @@ abstract class TableHud extends TableScene {
             font.draw(ui, mainLabel, okBtn[0], okBtn[1] + 30f, okBtn[2], 1, false);
             font.setColor(named ? new Color(0.60f, 0.86f, 0.70f, 1f) : new Color(0.62f, 0.74f, 0.92f, 1f));
             font.draw(ui, mainHint, okBtn[0], okBtn[1] + 14f, okBtn[2], 1, false);
+        }
+        if (askResponses) {
+            font.setColor(0.80f, 0.88f, 0.98f, 1f);
+            font.draw(ui, "Ask me", respondBox[0], respondBox[1] + 30f, btnW, 1, false);
+            font.setColor(0.58f, 0.70f, 0.84f, 1f);
+            font.draw(ui, "R - stop asking", respondBox[0], respondBox[1] + 14f, btnW, 1, false);
+        } else {
+            font.setColor(1f, 0.90f, 0.66f, 1f);
+            font.draw(ui, "Skipping", respondBox[0], respondBox[1] + 30f, btnW, 1, false);
+            font.setColor(1f, 0.82f, 0.52f, 1f);
+            font.draw(ui, "R - ask me again", respondBox[0], respondBox[1] + 14f, btnW, 1, false);
         }
         if (cancelOn) {
             font.setColor(1f, 0.88f, 0.84f, 1f);

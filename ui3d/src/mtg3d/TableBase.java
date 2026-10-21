@@ -385,6 +385,8 @@ abstract class TableBase extends ApplicationAdapter {
 
     boolean leftWasDownHelp;
 
+    boolean leftWasDownRespond;
+
     boolean leftWasDownBoard;
 
     boolean leftWasDown;
@@ -607,6 +609,23 @@ abstract class TableBase extends ApplicationAdapter {
 
     /** Screen rect of the follow-turn tickbox, so the click test and the drawing cannot drift. */
     float[] followBox = { 0f, 0f, 0f, 0f };
+
+    /**
+     * "Check with me for responses." On, the game stops whenever you could act on somebody
+     * else's turn, as it always has. Off, those windows are passed for you and the table runs on
+     * until your own turn comes round.
+     *
+     * This is the thing Forge's auto-yield was doing behind everyone's back, and it ate four of
+     * the owner's turns because nothing said it was on (2026-10-21). The difference is entirely
+     * that this one is a switch you can see, it says what it does, and it NEVER passes your own
+     * turn - only the priority you get during other people's.
+     */
+    boolean askResponses = true;
+
+    float[] respondBox = { 0f, 0f, 0f, 0f };
+
+    /** The prompt we last auto-passed, so one decision is answered once and not every frame. */
+    Object lastAutoPassed;
 
     // Panel geometry. One place, because the background is a ShapeRenderer pass and the labels
     // are a SpriteBatch pass: two passes that cannot be interleaved and must agree to the pixel.
