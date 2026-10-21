@@ -145,6 +145,7 @@ public final class Gui3D implements InvocationHandler {
             try {
                 forge.game.GameView gv = original.getGameView();
                 if (gv == null) return;
+                clearPhaseSkipsRemote(gv.getPlayerTurn());
                 PROMPT.inputName = inferInput(gv);
                 Bridge.publish(StateReader.readView(gv, remoteViewer));
             } catch (Throwable t) {
@@ -788,38 +789,91 @@ public final class Gui3D implements InvocationHandler {
     }
 
     /**
-     * Switch every phase back ON for our own seat.
+     * Switch every phase back ON - in EVERYONE's turn, not just our own.
      *
-     * YieldController keeps a per-player set of phases to skip - separate from the auto-pass,
-     * and consulted by PlayerControllerHuman BEFORE it asks the GUI. So neither clearing the
-     * auto-pass nor answering "never skip" from the 3D window reaches it: the phases were
-     * switched off in Forge before we were asked, and one press of SPACE ran the whole turn
-     * (the owner, turn 2 on 2026-10-21, unable to play a land in his own main phase).
+     * YieldController keeps a set of phases to skip - separate from the auto-pass, and consulted
+     * by PlayerControllerHuman BEFORE it asks the GUI. So neither clearing the auto-pass nor
+     * answering "never skip" from the 3D window reaches it: the phases were switched off in Forge
+     * before we were asked, and one press of SPACE ran the whole turn (the owner, turn 2 on
+     * 2026-10-21, unable to play a land in his own main phase).
      *
-     * Forge seeds that set from the PHASE_HUMAN_* preferences, where the owner's profile had
-     * declare attackers switched off. Playing in the 3D window there is nowhere to see or
-     * change it, so the 3D window turns them all back on for its own seat and leaves every
-     * other player alone.
+     * The set is keyed by the TURN PLAYER, which is what this got wrong: it cleared our own key
+     * only, so it fixed our own turns and left every opponent's turn as Forge had it. Forge seeds
+     * the set from the PHASE_HUMAN_* preferences, where declare attackers was off - which is how
+     * Alec was carried past his chance to respond to Derand's attack and dumped straight into
+     * declaring blockers (2026-10-21). Clear every key.
      */
     public static void clearPhaseSkips() {
         try {
             forge.player.PlayerControllerHuman c = controller;
             if (c == null) return;
             forge.gamemodes.match.YieldController y = c.getYieldController();
-            forge.game.player.PlayerView me = c.getLocalPlayerView();
-            if (y == null || me == null) return;
+            if (y == null) return;
             int cleared = 0;
-            for (forge.game.phase.PhaseType ph : forge.game.phase.PhaseType.values()) {
-                if (!y.isSkippingPhase(me, ph)) continue;
-                y.setSkipPhase(me, ph, false);
-                cleared++;
+            for (forge.game.player.PlayerView who : everySeat(c)) {
+                for (forge.game.phase.PhaseType ph : forge.game.phase.PhaseType.values()) {
+                    if (!y.isSkippingPhase(who, ph)) continue;
+                    y.setSkipPhase(who, ph, false);
+                    cleared++;
+                }
             }
             if (cleared > 0) {
-                System.out.println("UI3D: turned " + cleared + " phase(s) back on for your seat"
+                System.out.println("UI3D: turned " + cleared + " phase stop(s) back on"
                     + " - Forge had them set to skip");
             }
         } catch (Throwable t) {
             System.out.println("UI3D: could not clear the phase skips (" + t + ")");
+        }
+    }
+
+    /** Every seat at the table as a view, ours included; empty rather than null on any trouble. */
+    private static java.util.List<forge.game.player.PlayerView> everySeat(forge.player.PlayerControllerHuman c) {
+        java.util.List<forge.game.player.PlayerView> out = new java.util.ArrayList<>();
+        try {
+            forge.game.GameView gv = c.getGui() == null ? null : c.getGui().getGameView();
+            if (gv != null && gv.getPlayers() != null) {
+                for (forge.game.player.PlayerView pv : gv.getPlayers()) if (pv != null) out.add(pv);
+            }
+        } catch (Throwable t) {
+            Soak.caught("Gui3D.everySeat", t);
+        }
+        if (out.isEmpty()) {
+            try {
+                forge.game.player.PlayerView me = c.getLocalPlayerView();
+                if (me != null) out.add(me);
+            } catch (Throwable t) {
+                Soak.caught("Gui3D.everySeat", t);
+            }
+        }
+        return out;
+    }
+
+    /** Seats we have already asked the host to stop skipping, so each is asked once. */
+    private static final java.util.Set<Integer> remoteStopsSent =
+        java.util.Collections.synchronizedSet(new java.util.HashSet<Integer>());
+
+    /**
+     * The same thing for a JOINED game, where we cannot reach the set at all.
+     *
+     * On the host, PlayerControllerHuman.isUiSetToSkipPhase asks the GUI, so takeSkipPhase
+     * answers and that is the end of it. For a network client it does NOT: it reads the skip set
+     * held on the HOST, seeded from the preferences the client sent when it joined. The client's
+     * own 3D window is never asked - which is why a player at the 3D table could not get out of
+     * Forge's phase stops however the window answered. The one channel across is a YieldUpdate,
+     * so send one per phase and turn them all back on.
+     */
+    static void clearPhaseSkipsRemote(forge.game.player.PlayerView turnPlayer) {
+        final forge.interfaces.IGameController r = remote;
+        if (r == null || turnPlayer == null) return;
+        if (!remoteStopsSent.add(Integer.valueOf(turnPlayer.getId()))) return;
+        try {
+            for (forge.game.phase.PhaseType ph : forge.game.phase.PhaseType.values()) {
+                r.sendYieldUpdate(new forge.gamemodes.match.YieldUpdate.SkipPhase(turnPlayer, ph, false));
+            }
+            System.out.println("UI3D: asked the host for every phase stop in the turn of "
+                + turnPlayer + " - you get the priority, the 3D window decides what to do with it");
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not turn the host's phase stops back on (" + t + ")");
         }
     }
 
@@ -878,23 +932,22 @@ public final class Gui3D implements InvocationHandler {
      * switched off, so one pass of priority ran through the lot (2026-10-21; `PHASE_HUMAN_
      * DECLAREATTACKERS=false` was sitting in the preferences).
      *
-     * For our own seat the 3D window is the UI, and it has no such toggles, so the answer is
-     * always "do not skip" - every phase is offered and SPACE moves on. Any other seat is still
-     * Forge's business and is forwarded untouched.
+     * The 3D window is the UI here and has no such toggles, so the answer is always "do not
+     * skip": every phase is offered and SPACE moves on.
+     *
+     * The PlayerView handed in is the TURN PLAYER, not the player being asked. Reading it as "is
+     * this my seat" meant we only insisted on our own turns, and on everybody else's the
+     * invisible toggles still ran - so Alec got no priority after Derand declared attackers,
+     * could not sacrifice his creatures in response, and was put straight on to blocking
+     * (2026-10-21). Whose turn it is makes no difference: we want the priority. What to do with
+     * it is then the 3D window's decision, made out loud with the responses toggle.
      *
      * -Dforge.ui3d.phasestops=false gives the decision back to Forge's toggles.
      */
     private Object takeSkipPhase(Object[] args) {
         if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.phasestops", "true"))) return NOT_HANDLED;
-        try {
-            if (args == null || args.length < 1 || !(args[0] instanceof forge.game.player.PlayerView)) return NOT_HANDLED;
-            forge.game.player.PlayerView who = (forge.game.player.PlayerView) args[0];
-            forge.game.player.PlayerView me = pch == null ? null : pch.getLocalPlayerView();
-            if (me == null || !StateReader.sameSeat(who, me)) return NOT_HANDLED;
-            return Boolean.FALSE;      // our seat never skips a phase
-        } catch (Throwable t) {
-            return NOT_HANDLED;        // let Forge answer rather than risk the phase structure
-        }
+        if (args == null || args.length < 1 || !(args[0] instanceof forge.game.player.PlayerView)) return NOT_HANDLED;
+        return Boolean.FALSE;          // nothing is skipped on us, in anybody's turn
     }
 
     /**
