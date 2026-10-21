@@ -2,113 +2,106 @@
 Name=Mr House v4
 Description=Mr House v4 (2026-10-12): Mr House v3 + EDHREC staples Circuits Act and Caretaker's Talent; Blind Obedience; Chiss-Goria. Out: Illusionist's Bracers, Securitron Squadron, All That Glitters, Mirkwood Bats. In: Circuits Act, Caretaker's Talent, Blind Obedience, Chiss-Goria, Forge Tyrant.
 [commander]
-1 Mr. House, President and CEO
+1 Mr. House, President and CEO|PIP|[7]
 [main]
-1 "Lifetime" Pass Holder
-1 Academy Manufactor
-1 Anguished Unmaking
-1 Arcane Signet
-1 Ash Barrens
-1 Attempted Murder
-1 Barbarian Class
-1 Blood Crypt
-1 Caesar, Legion's Emperor
-1 Cathartic Reunion
-1 Clown Car
-1 Comet, Stellar Pup
-1 Command Tower
-1 Component Pouch
-1 Cyberman Patrol
-1 Deadbeat Attendant
-1 Delete
-1 Delina, Wild Mage
-1 Evolving Wilds
-1 Exsanguinate
-1 Faithless Looting
-1 Fountainport
-1 Gamble
-1 Ghostly Prison
-1 Gisela, Blade of Goldnight
-1 Goblin Bombardment
-1 Grab the Prize
-1 Idol of Oblivion
-1 Ingenious Artillerist
-1 Isolated Chapel
-1 Jan Jansen, Chaos Crafter
-1 Losheel, Clockwork Scholar
-1 Lotho, Corrupt Shirriff
-1 Mondrak, Glory Dominus
-1 Mountain
-1 Mountain
-1 Mountain
-1 Mountain
-1 Myrkul's Edict
-1 Night Shift of the Living Dead
-1 Norn's Annex
-1 Plains
-1 Plains
-2 Plains
-1 Professional Face-Breaker
-1 Reanimate
-1 Reckless Fireweaver
-1 Ruinous Ultimatum
-1 Skithiryx, the Blight Dragon
-1 Skullclamp
-1 Smoldering Marsh
-1 Smuggler's Share
-1 Sol Ring
-1 Stridehangar Automaton
-2 Swamp
-1 Swamp
-1 Swamp
-1 Swamp
-1 Swiftfoot Boots
-1 Talisman of Hierarchy
-1 Talisman of Indulgence
-1 Terminate
-1 The Deck of Many Things
-1 Treasure Chest
-1 Unwinding Clock
-1 Vexing Puzzlebox
-1 Wear // Tear
-1 Welding Jar
-1 Windbrisk Heights
-1 General's Enforcer
-1 Wyll, Blade of Frontiers
-1 Spectator Seating
-1 Godless Shrine
-1 Luxury Suite
-1 Needleverge Pathway
-1 Brightclimb Pathway
-1 Blightstep Pathway
-1 Battlefield Forge
-1 Caves of Koilos
-1 Sulfurous Springs
-1 Clifftop Retreat
-1 Dragonskull Summit
-1 Sundown Pass
-1 Shattered Sanctum
-1 Haunted Ridge
-1 Silent Clearing
-1 Marionette Master
-1 Weftstalker Ardent
-1 Pitiless Plunderer
-1 Infernal Grasp
-1 The Soul Stone
-1 Impact Tremors
-1 Big Score
-1 Circuits Act
-1 Caretaker's Talent
-1 Blind Obedience
-1 Chiss-Goria, Forge Tyrant
-[Attractions]
-1 Clown Extruder
-1 Bounce Chamber
-1 Swinging Ship
-1 Merry-Go-Round
-1 Pick-a-Beeble
-1 Information Booth
-1 Hall of Mirrors
-1 Ferris Wheel
-1 Balloon Stand
-1 Tunnel of Love
+1 "Lifetime" Pass Holder|UNF|[79]
+1 Academy Manufactor|SLD|[7094]
+1 Anguished Unmaking|PIP|[473]
+1 Arcane Signet|PIP|[356]
+1 Ash Barrens|TMC|[60]
+1 Attempted Murder|UNF|[66]
+1 Barbarian Class|AFR|[131]
+1 Battlefield Forge|FRC|[65]
+1 Big Score|SLD|[7096]
+1 Blightstep Pathway|KHM|[252]
+1 Blind Obedience|SLD|[1030]
+1 Blood Crypt|TRK|[278]
+1 Brightclimb Pathway|PLST|[ZNR-259]
+1 Caesar, Legion's Emperor|PIP|[339]
+1 Caretaker's Talent|BLB|[6]
+1 Cathartic Reunion|SLZ|[55]
+1 Caves of Koilos|FRC|[66]
+1 Chiss-Goria, Forge Tyrant|ONC|[25]
+1 Circuits Act|UNF|[103]
+1 Clifftop Retreat|FRC|[67]
+1 Clown Car|SLZ|[100]
+1 Comet, Stellar Pup|UNF|[275]
+1 Command Tower|PIP|[360]
+1 Component Pouch|AFC|[59]
+1 Cyberman Patrol|WHO|[1141]
+1 Deadbeat Attendant|UNF|[69]
+1 Delete|WHO|[81]
+1 Delina, Wild Mage|AFR|[138]
+1 Dragonskull Summit|MSC|[238]
+1 Evolving Wilds|MSC|[240]
+1 Exsanguinate|FIC|[276]
+1 Faithless Looting|SOC|[244]
+1 Fountainport|BLB|[253]
+1 Gamble|TLE|[312]
+1 General's Enforcer|PIP|[217]
+1 Ghostly Prison|SLD|[7042]
+1 Gisela, Blade of Goldnight|MKC|[211]
+1 Goblin Bombardment|MAR|[23]
+1 Godless Shrine|TRK|[285]
+1 Grab the Prize|DSK|[138]
+1 Haunted Ridge|FRA|[180]
+1 Idol of Oblivion|CMM|[607]
+1 Impact Tremors|SLD|[313]
+1 Infernal Grasp|MAR|[18]
+1 Ingenious Artillerist|CLB|[182]
+1 Isolated Chapel|FRC|[74]
+1 Jan Jansen, Chaos Crafter|CLB|[424]
+1 Losheel, Clockwork Scholar|PRM|[89998]
+1 Lotho, Corrupt Shirriff|LTR|[664]
+1 Luxury Suite|MSC|[252]
+1 Marionette Master|AFC|[102]
+1 Mondrak, Glory Dominus|ONE|[346]
+4 Mountain|TRK|[323]
+1 Myrkul's Edict|CLB|[135]
+1 Needleverge Pathway|PLST|[ZNR-263]
+1 Night Shift of the Living Dead|UNF|[81]
+1 Norn's Annex|CMM|[829]
+1 Pitiless Plunderer|PIP|[187]
+4 Plains|TRK|[317]
+1 Professional Face-Breaker|FIC|[296]
+1 Reanimate|MAR|[20]
+1 Reckless Fireweaver|SLD|[1526]
+1 Ruinous Ultimatum|PIP|[1006]
+1 Shattered Sanctum|SOS|[260]
+1 Silent Clearing|ACR|[115]
+1 Skithiryx, the Blight Dragon|MAR|[22]
+1 Skullclamp|PIP|[238]
+1 Smoldering Marsh|MSC|[266]
+1 Smuggler's Share|MKC|[84]
+1 Sol Ring|PIP|[887]
+1 Spectator Seating|MSC|[268]
+1 Stridehangar Automaton|DRC|[35]
+1 Sulfurous Springs|FRC|[85]
+1 Sundown Pass|SOS|[264]
+1 Swamp|PIP|[321]
+4 Swamp|TRK|[321]
+1 Swiftfoot Boots|PIP|[242]
+1 Talisman of Hierarchy|PIP|[247]
+1 Talisman of Indulgence|PIP|[248]
+1 Terminate|ACR|[251]
+1 The Deck of Many Things|SLD|[2460]
+1 The Soul Stone|SPM|[242]
+1 Treasure Chest|AFR|[395]
+1 Unwinding Clock|BRR|[124]
+1 Vexing Puzzlebox|CLB|[374]
+1 Wear // Tear|PIP|[222]
+1 Weftstalker Ardent|EOE|[169]
+1 Welding Jar|2XM|[307]
+1 Windbrisk Heights|TDC|[411]
+1 Wyll, Blade of Frontiers|CLB|[405]
+[attractions]
+1 Balloon Stand|UNF|[200a]
+1 Bounce Chamber|UNF|[201a]
+1 Clown Extruder|UNF|[204a]
+1 Ferris Wheel|UNF|[210]
+1 Hall of Mirrors|UNF|[216a]
+1 Information Booth|UNF|[218a]
+1 Merry-Go-Round|UNF|[222a]
+1 Pick-a-Beeble|UNF|[223a]
+1 Swinging Ship|UNF|[231a]
+1 Tunnel of Love|UNF|[234a]

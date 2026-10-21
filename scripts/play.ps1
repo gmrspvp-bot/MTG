@@ -74,6 +74,50 @@ function Move-ToDeckArchive([System.IO.FileInfo] $file, [string] $why) {
     Write-Host ("Deck put aside: {0} - {1}" -f $file.Name, $why) -ForegroundColor DarkYellow
 }
 
+# A deck file's card sections, for comparing two copies: section -> sorted "count name" lines,
+# with the printing (|SET|[number]) taken off. Section names are lowercased, since Forge's editor
+# writes [Commander] / [Main] where our files have [commander] / [main].
+function Get-DeckCards([string] $path) {
+    $cards = @{}; $sec = ''
+    foreach ($l in Get-Content -LiteralPath $path -Encoding UTF8) {
+        if ($l -match '^\[(.+)\]\s*$') { $sec = $Matches[1].ToLower(); continue }
+        if ($sec -eq 'metadata' -or $l -notmatch '^(\d+)\s+(.+?)\s*(\|.*)?$') { continue }
+        if (-not $cards.ContainsKey($sec)) { $cards[$sec] = @{} }
+        $name = $Matches[2]
+        $cards[$sec][$name] = [int]$cards[$sec][$name] + [int]$Matches[1]
+    }
+    $flat = @{}
+    foreach ($s in $cards.Keys) { $flat[$s] = (($cards[$s].Keys | Sort-Object | ForEach-Object { "$($cards[$s][$_]) $_" }) -join "`n") }
+    return $flat
+}
+
+# The owner, 2026-10-22: art prints chosen in Forge's deck editor were reverted on every launch,
+# because any difference from decks\ was put aside. An edit that keeps exactly the same cards in
+# every section and only changes their printings is wanted, and is the one kind of editor save
+# that cannot have broken the deck. So that kind is written back: decks\'s own [metadata] (name,
+# description - the editor drops the description and adds "Deck Type=Constructed") followed by
+# the editor's card sections, commander first. It then shows as a change in git, to commit.
+function Merge-DeckPrints([string] $edited, [string] $target) {
+    $meta = @()
+    foreach ($l in Get-Content -LiteralPath $target -Encoding UTF8) {
+        if ($l -match '^\[' -and $l -notmatch '^\[metadata\]') { break }
+        $meta += $l
+    }
+    $sections = [ordered]@{}; $sec = $null
+    foreach ($l in Get-Content -LiteralPath $edited -Encoding UTF8) {
+        if ($l -match '^\[(.+)\]\s*$') { $sec = $Matches[1].ToLower(); if ($sec -ne 'metadata') { $sections[$sec] = @() }; continue }
+        if ($sec -and $sec -ne 'metadata' -and $l.Trim()) { $sections[$sec] += $l }
+    }
+    $out = $meta
+    $order = @('commander', 'main') + @($sections.Keys | Where-Object { $_ -ne 'commander' -and $_ -ne 'main' })
+    foreach ($s in $order) {
+        if (-not $sections.Contains($s)) { continue }
+        $out += "[$s]"
+        $out += $sections[$s]
+    }
+    [IO.File]::WriteAllText($target, (($out -join "`r`n") + "`r`n"), (New-Object Text.UTF8Encoding $false))
+}
+
 $current = @{}
 foreach ($d in Get-ChildItem (Join-Path $root 'decks') -Filter '*.dck') {
     $current[$d.Name] = $true
@@ -83,7 +127,19 @@ foreach ($d in Get-ChildItem (Join-Path $root 'decks') -Filter '*.dck') {
         # the one in git and still the wrong deck.
         $same = (Get-FileHash $dest -Algorithm SHA256).Hash -eq (Get-FileHash $d.FullName -Algorithm SHA256).Hash
         if ($same) { continue }
-        Move-ToDeckArchive (Get-Item $dest) 'changed here'
+        $mine = Get-DeckCards $d.FullName; $theirs = Get-DeckCards $dest
+        $printsOnly = $mine.Count -eq $theirs.Count -and $mine.ContainsKey('commander') -eq $theirs.ContainsKey('commander')
+        if ($printsOnly) { foreach ($s in $mine.Keys) { if ($mine[$s] -ne $theirs[$s]) { $printsOnly = $false; break } } }
+        if ($printsOnly -and (Get-Item $dest).LastWriteTime -gt $d.LastWriteTime) {
+            # Kept, with a copy of the editor's file put aside as well, in case.
+            New-Item -ItemType Directory -Force -Path $deckArchive | Out-Null
+            Copy-Item $dest (Join-Path $deckArchive ("{0} (prints kept {1}){2}" -f $d.BaseName,
+                (Get-Item $dest).LastWriteTime.ToString('yyyyMMdd_HHmmss'), $d.Extension)) -Force -ErrorAction SilentlyContinue
+            Merge-DeckPrints $dest $d.FullName
+            Write-Host ("Deck prints kept: {0} - the art you chose in Forge is now in decks\ (commit it to share)" -f $d.Name) -ForegroundColor Green
+        } else {
+            Move-ToDeckArchive (Get-Item $dest) 'changed here'
+        }
     }
     Copy-Item $d.FullName $dest -Force
 }
