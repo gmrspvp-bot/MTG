@@ -149,9 +149,34 @@ function Needs-Build($srcDir, $outDir) {
     return $newestSrc.LastWriteTime -gt $newestOut.LastWriteTime
 }
 
-if (Needs-Build (Join-Path $root 'scripts\tools') (Join-Path $root 'scripts\tools\classes')) {
+# The agent jar is checked separately from the classes, because it is a SEPARATE output and
+# the freshness test only ever looked at .class files. A jar that failed to write - which is
+# what happens when Forge is still running, and build-tools only warns about it - left classes
+# that looked current, so this step was skipped for ever after and Java refused to start:
+#   Error opening zip file or JAR manifest missing : ...\evalcache-agent.jar
+#   agent library failed to init: instrument
+# (a friend of the owner's, 2026-10-21). A jar that is missing, empty or older than the classes
+# it should contain now forces the build.
+$agentJar = Join-Path $root 'scripts\tools\evalcache-agent.jar'
+$agentStale = $true
+if (Test-Path $agentJar) {
+    $jarFile = Get-Item $agentJar
+    $newestClass = Get-ChildItem -Recurse -File -Filter *.class (Join-Path $root 'scripts\tools\classes') `
+                   -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    $agentStale = $jarFile.Length -lt 1024 -or ($newestClass -and $jarFile.LastWriteTime -lt $newestClass.LastWriteTime)
+}
+
+if ($agentStale -or (Needs-Build (Join-Path $root 'scripts\tools') (Join-Path $root 'scripts\tools\classes'))) {
     Work "Compiling the AI hooks and agent..."
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-tools.ps1') | Out-Null
+    if (-not (Test-Path $agentJar) -or (Get-Item $agentJar).Length -lt 1024) {
+        Bad "evalcache-agent.jar could not be built."
+        Write-Host ""
+        Write-Host "  Forge will not start without it. The usual cause is a copy of Forge still"
+        Write-Host "  running and holding the file - close every Forge window, check Task Manager"
+        Write-Host "  for java.exe, then run this again."
+        exit 1
+    }
     Ok "AI hooks built"
 } else {
     Ok "AI hooks up to date"

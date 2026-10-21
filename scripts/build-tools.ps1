@@ -42,5 +42,11 @@ Push-Location $stage
 try {
     & "$jdk\jar.exe" cfm (Join-Path $tools 'evalcache-agent.jar') (Join-Path $tools 'agent-manifest.txt') EvalCacheAgent*.class
     if ($LASTEXITCODE -eq 0) { Write-Host "Built $tools\evalcache-agent.jar" }
-    else { Write-Warning "Could not write evalcache-agent.jar (Forge running?). The classes copy in $out is current." }
+    else {
+        # Loud, and the file goes: a half-written or stale jar is worse than none, because the
+        # next setup sees a jar that exists and carries on, and Java then dies at startup with
+        # "agent library failed to init". Deleting it makes the next run rebuild.
+        Remove-Item (Join-Path $tools 'evalcache-agent.jar') -Force -ErrorAction SilentlyContinue
+        Write-Warning "Could not write evalcache-agent.jar (Forge running?). Removed it, so the next run rebuilds."
+    }
 } finally { Pop-Location }
