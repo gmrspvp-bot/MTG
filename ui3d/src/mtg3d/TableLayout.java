@@ -111,6 +111,7 @@ abstract class TableLayout extends TableCamera {
         seatPads.clear();
         props.clear();
         stacked.clear();
+        pileMembers.clear();
         seatPick.clear();
         if (snap.seats.isEmpty()) return;
 
@@ -362,7 +363,19 @@ abstract class TableLayout extends TableCamera {
      * attached to it is never stacked (placeAttachments lays those out itself), and nor is
      * anything in combat, where each attacker needs its own arc.
      */
-    private static String stackKey(Snapshot.CardV c) {
+    private String stackKey(Snapshot.CardV c) {
+        // Who a creature has been told to attack is part of what makes it the same as its
+        // neighbour while attackers are being declared: six Robots going at Ashton and three
+        // staying home are two piles, not one of nine.
+        String order = "";
+        if (combatPlan != null && !combatPlan.blocking && c.creature) {
+            Integer seat = combatPlan.attackSeat.get(c.id);
+            order = "|atk" + (seat == null ? "-" : seat);
+        }
+        return order + plainStackKey(c);
+    }
+
+    private static String plainStackKey(Snapshot.CardV c) {
         // + sick (2026-10-21): nine Robots made this turn shared a pile with the one that could
         // attack, so the pile looked ready while most of it was summoning sick, and dragging it
         // offered Forge whichever robot was on top.
@@ -401,11 +414,15 @@ abstract class TableLayout extends TableCamera {
         !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.stack", "true"));
 
     private boolean stackable(Snapshot.CardV c) {
-        // Not while attackers or blockers are being declared: a pile is one card on screen with
-        // the rest as scenery, so a second drag from it sent Forge the SAME token again, which
-        // Forge reads as taking it off - two tokens could never block one menace creature (the
-        // owner's game, 2026-10-21). During the declaration every creature gets its own slot.
-        if (combatPlan != null && c.creature) return false;
+        // Blockers still get a slot each. A pile is one card on screen with the rest as scenery,
+        // so a second drag from it sent Forge the SAME token again, which Forge reads as taking
+        // it off, and two tokens could never block one menace creature (the owner's game,
+        // 2026-10-21). Blocks go to different attackers, so there is nothing to group by.
+        //
+        // Attackers are different: they nearly always go to the same player, and one drag now
+        // assigns the whole pile (handleCombatPlan). Piles with different orders stay apart,
+        // because the assignment is part of the key.
+        if (combatPlan != null && combatPlan.blocking && c.creature) return false;
         return STACK_ALIKE && !c.attacking && !c.blocking && !hostTargets.containsKey(c.id)
             && !attachedHere.containsKey(c.id) && c.attachedToId < 0;
     }
@@ -419,6 +436,16 @@ abstract class TableLayout extends TableCamera {
 
     /** Filled every frame by placeRow, drawn as "x12" over the pile by TableHud. */
     final List<StackedAt> stacked = new ArrayList<>();
+
+    /**
+     * Every card in a pile, by the id of the one on top - the only one that can be pointed at.
+     *
+     * Declaring attackers used to break every pile apart so each creature could be dragged, which
+     * meant nine Robots were nine separate arrows to drag one at a time ("we do not want to
+     * assign combat for each individually" - the owner, 2026-10-22). They stay piled now, and one
+     * drag speaks for all of them.
+     */
+    final java.util.Map<Integer, List<Integer>> pileMembers = new java.util.HashMap<>();
 
     /** How much each card under the top one lifts it. A real card is CARD_THICK; this reads better. */
     static final float STACK_STEP = 0.022f;
@@ -490,7 +517,12 @@ abstract class TableLayout extends TableCamera {
                 props.add(shim);
             }
             add(top, seat, w.x, base + under * STACK_STEP, w.z, yaw, tilt);
-            if (g.size() > 1) stacked.add(new StackedAt(w.x, w.z, base + under * STACK_STEP, g.size()));
+            if (g.size() > 1) {
+                stacked.add(new StackedAt(w.x, w.z, base + under * STACK_STEP, g.size()));
+                List<Integer> ids = new ArrayList<>(g.size());
+                for (Snapshot.CardV member : g) ids.add(member.id);
+                pileMembers.put(top.id, ids);
+            }
             if (attachedHere.containsKey(top.id)) {
                 hostTargets.put(top.id, new float[] { w.x, w.z, yaw, (float) Math.toDegrees(-angle) });
             }

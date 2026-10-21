@@ -29,6 +29,7 @@ public final class HelpCard {
         { "N  or  ->", "next phase (also cancels an auto-pass)" },
         { "X", "end turn - passes everything left in the turn" },
         { "click a card", "play it, activate it, or pick it as a target" },
+        { "drag a pile", "attacking: the whole pile goes - hold SHIFT to send just one" },
         { "hover a card", "see it large, with counters and what it is attached to" },
         { "G", "pick up the card in your hand you are pointing at, to move it" },
         { "then  <- ->", "place it - SPACE drops it there, ESC puts it back" },

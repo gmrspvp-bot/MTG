@@ -1216,7 +1216,8 @@ abstract class TableHud extends TableScene {
             c = new Color(0.80f, 0.62f, 1f, 1f);
         } else if (combatPlan != null && !combatPlan.blocking) {
             line = "Declare attackers   (" + combatPlan.attackSeat.size() + " attacking)";
-            sub = "drag a glowing creature onto a player   -   drop it back to take it off   -   SPACE confirms   ESC cancels";
+            sub = "drag a glowing creature onto a player   -   a pile sends all of it, SHIFT sends one"
+                + "   -   drop it back to take it off   -   SPACE confirms   ESC cancels";
             c = new Color(1f, 0.55f, 0.40f, 1f);
         } else if (combatPlan != null) {
             line = "Declare blockers   (" + combatPlan.blockOn.size() + " blocking)";

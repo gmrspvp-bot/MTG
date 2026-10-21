@@ -427,19 +427,27 @@ abstract class TableInput extends TableHud {
                     float[] m = mouseOnTable();
                     if (m != null && (hovered == null || hovered.card.id != id)) seat = seatAt(m[0], m[1]);
                 }
-                boolean was = p.attackSeat.containsKey(id);
-                if (seat >= 0 && seat < snap.seats.size() && !snap.seats.get(seat).isYou) {
-                    // Forge's InputAttack: click the player (they become the defender), then the
-                    // creature (it attacks them). Re-aiming an attacker means taking it off first.
-                    if (p.wired) {
-                        Integer before = p.attackSeat.get(id);
-                        if (was && before != null && before != seat) Gui3D.clickCard(id);
-                        if (!was || (before != null && before != seat)) { Gui3D.clickPlayer(seat); Gui3D.clickCard(id); }
+                // Everything in the pile goes where its top card goes, unless SHIFT is held
+                // to move just the one. Dragging nine Robots over one at a time is what this is
+                // for; the arrow drawn is the same, the pile behind it simply comes along.
+                for (int member : draggedPile(id)) {
+                    boolean was = p.attackSeat.containsKey(member);
+                    if (seat >= 0 && seat < snap.seats.size() && !snap.seats.get(seat).isYou) {
+                        // Forge's InputAttack: click the player (they become the defender), then
+                        // the creature (it attacks them). Re-aiming means taking it off first.
+                        if (p.wired) {
+                            Integer before = p.attackSeat.get(member);
+                            if (was && before != null && before != seat) Gui3D.clickCard(member);
+                            if (!was || (before != null && before != seat)) {
+                                Gui3D.clickPlayer(seat);
+                                Gui3D.clickCard(member);
+                            }
+                        }
+                        p.attackSeat.put(member, seat);
+                    } else {
+                        if (p.wired && was) Gui3D.clickCard(member);   // a second click takes it off
+                        p.attackSeat.remove(member);
                     }
-                    p.attackSeat.put(id, seat);
-                } else {
-                    if (p.wired && was) Gui3D.clickCard(id);     // a second click takes it off
-                    p.attackSeat.remove(id);
                 }
             }
         }
@@ -1240,6 +1248,25 @@ abstract class TableInput extends TableHud {
         return text.contains("add {") || text.contains("add one mana") || text.contains("add two mana")
             || text.contains("add three mana") || text.contains("add x mana")
             || text.contains("mana of any color") || text.contains("mana of any colour");
+    }
+
+    /**
+     * The creatures a drag from `id` speaks for: the whole pile it sits on top of, or just that
+     * one when SHIFT is held or it is not a pile.
+     *
+     * Only ever creatures the plan says may attack - a pile can hold one that is summoning sick
+     * or already tapped, and offering those to Forge would have it refuse the lot.
+     */
+    java.util.List<Integer> draggedPile(int id) {
+        java.util.List<Integer> one = java.util.Collections.singletonList(id);
+        CombatPlan p = combatPlan;
+        if (p == null || p.blocking) return one;
+        if (Keys3D.down(Input.Keys.SHIFT_LEFT) || Keys3D.down(Input.Keys.SHIFT_RIGHT)) return one;
+        java.util.List<Integer> pile = pileMembers.get(id);
+        if (pile == null || pile.size() < 2) return one;
+        java.util.List<Integer> out = new java.util.ArrayList<>(pile.size());
+        for (int member : pile) if (p.mine.contains(member)) out.add(member);
+        return out.isEmpty() ? one : out;
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */
