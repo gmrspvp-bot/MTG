@@ -22,7 +22,11 @@ if ($Rebuild -or -not (Test-Path $classes)) {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build-ui3d.ps1')
 }
 
-$java = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\java.exe'
+# The JDK setup.ps1 picked, exactly as the build and play scripts do. Preferring the hardcoded
+# Liberica path over the one setup published is what had a second machine building with javac
+# 17.0.1 against classes compiled on 21 (2026-10-21).
+$java = $env:MTG_JAVA
+if (-not ($java -and (Test-Path $java))) { $java = 'C:\Program Files\BellSoft\LibericaJDK-17\bin\java.exe' }
 if (-not (Test-Path $java)) {
     $c = Get-Command java -ErrorAction SilentlyContinue
     if ($c) { $java = $c.Source } else { throw "No java.exe found." }

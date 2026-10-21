@@ -765,12 +765,39 @@ public final class Gui3D implements InvocationHandler {
                         + " [input=" + (live == null ? "none" : live.getClass().getSimpleName())
                         + ", prompt=" + (PROMPT.inputName.isEmpty() ? "none" : PROMPT.inputName)
                         + ", ok=" + PROMPT.okEnabled + "]");
+                    // And say it on the table. A refused click is otherwise exactly as silent as
+                    // a click that never left the window, which is how "cannot tap lands at
+                    // priority" and "cannot tap artifacts for mana" looked identical for two
+                    // days. Most of the refusals in the owner's logs were lands that were
+                    // already tapped - Rugged Highlands and Temple of Triumph both enter tapped
+                    // - so name that case rather than leaving the player to work it out.
+                    note(whyRefused(cv, live == null));
                 }
             } catch (Throwable t) {
                 System.out.println("UI3D: card click failed (" + t + ")");
             }
         });
         return true;
+    }
+
+    /**
+     * The shortest true thing we can say about a click the Forge rules engine would not take.
+     *
+     * It does not tell us why, so these are the cases worth guessing at from what we can see,
+     * and a plain "would not take that" when we cannot tell. Never claims a reason it has not
+     * checked.
+     */
+    private static String whyRefused(CardView cv, boolean nothingLive) {
+        String name = cv == null ? "That card" : cv.getName();
+        if (nothingLive) return name + " - the game is not waiting on you just now";
+        try {
+            if (cv != null && cv.getCurrentState() != null && cv.isTapped()) {
+                return name + " is already tapped";
+            }
+        } catch (Throwable ignored) {
+            // fall through to the plain answer
+        }
+        return "Cannot use " + name + " right now";
     }
 
     /**
