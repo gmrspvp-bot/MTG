@@ -176,7 +176,26 @@ public final class Pad {
      * under the pointer and confirmed the highlighted item would do two things at once in any
      * panel where several cards are being chosen.
      */
+    /**
+     * True while a panel is up. A panel takes the whole screen and has its own buttons, so the
+     * face buttons mean "the buttons on this panel"; on the board they mean "the card I have
+     * selected". The two never overlap, so one pair of buttons can serve both.
+     */
+    private static boolean panelMode;
+
+    public static void panelMode(boolean on) {
+        panelMode = on;
+    }
+
     static boolean justAs(int key) {
+        // While a panel is open, A and X are its two buttons. Panels answer SPACE and X already
+        // - the mulligan keeps on SPACE and mulligans on X, the prompt bar's main button is
+        // SPACE - so the pad does not need anything of its own, and a panel that gains a button
+        // later gets the controller for free.
+        if (panelMode) {
+            if (key == com.badlogic.gdx.Input.Keys.SPACE) return just(GLFW.GLFW_GAMEPAD_BUTTON_A);
+            if (key == com.badlogic.gdx.Input.Keys.X) return just(GLFW.GLFW_GAMEPAD_BUTTON_X);
+        }
         switch (key) {
             case com.badlogic.gdx.Input.Keys.LEFT:   return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_LEFT);
             case com.badlogic.gdx.Input.Keys.RIGHT:  return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_RIGHT);

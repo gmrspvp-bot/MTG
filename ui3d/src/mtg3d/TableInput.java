@@ -579,6 +579,8 @@ abstract class TableInput extends TableHud {
         // Without this a pointer resting over a card would fight the selection every frame.
         int mouseAt = Gdx.input.getX() * 4001 + Gdx.input.getY();
         if (mouseAt != lastMouseAt) { lastMouseAt = mouseAt; padSelecting = false; }
+        // Which pair of things the face buttons mean this frame.
+        Pad.panelMode(panelOpen());
         // While the bug dialog is open the 3D window reads nothing. libGDX polls GLFW key state
         // instead of consuming events, so without this, typing a report also passed priority and
         // ended turns underneath it. Pad reads go through the same gate.
@@ -900,7 +902,10 @@ abstract class TableInput extends TableHud {
 
         // B (escape) and the D-pad (arrows) arrive through Keys3D now, so they are not repeated
         // here - a second copy would fire the action twice.
-        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_X)) {
+        // Only on the board: while a panel is up, X is that panel's second button
+        // (Pad.panelMode), and handing the decision back from under it would be a
+        // surprise rather than a choice.
+        if (!panelOpen() && Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_X)) {
             Handoff.handBack();
             System.out.println("UI3D: handing the current decision back to Forge (pad)");
         }

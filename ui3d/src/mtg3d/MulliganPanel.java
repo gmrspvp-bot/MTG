@@ -180,7 +180,9 @@ public final class MulliganPanel {
             fontBig.draw(ui, mull, mullX + (btnW - gl.width) / 2f, btnY + btnH / 2f + gl.height / 2f);
         }
         font.setColor(0.45f, 0.58f, 0.68f, t);
-        String keys = bottomMode ? "ENTER confirms" : "SPACE keeps   -   M mulligans";
+        String keys = bottomMode
+            ? "ENTER or Start confirms   -   arrows / D-pad choose, SPACE or A takes"
+            : "SPACE or A keeps   -   X mulligans";
         gl.setText(font, keys);
         font.draw(ui, keys, (sw - gl.width) / 2f, btnY - 16f);
         ui.end();
@@ -218,7 +220,9 @@ public final class MulliganPanel {
         mullHover = !bottomMode && mx >= mullX && mx <= mullX + btnW && my >= btnY && my <= btnY + btnH;
         boolean ready = !bottomMode || picked.size() == toBottom;
         if (!bottomMode && Keys3D.just(Input.Keys.SPACE)) { done(true); return; }
-        if (!bottomMode && Keys3D.just(Input.Keys.M)) { done(false); return; }
+        // X as well as M: X is the table's "the other button" everywhere else, and it is what
+        // the pad's X is mapped to while a panel is up. M stays because it was here first.
+        if (!bottomMode && (Keys3D.just(Input.Keys.M) || Keys3D.just(Input.Keys.X))) { done(false); return; }
         if (bottomMode && ready && Keys3D.just(Input.Keys.ENTER)) { done(true); return; }
         boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;

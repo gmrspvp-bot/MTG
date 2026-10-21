@@ -61,7 +61,7 @@ abstract class TableHud extends TableScene {
         // is not detected from a binding that is wrong is to guess (the owner, 2026-10-21).
         if (Pad.connected()) {
             font.setColor(0.55f, 0.85f, 0.65f, 1f);
-            font.draw(ui, "controller ready - A clicks", 14, 56);
+            font.draw(ui, "controller ready - stick picks a card, A plays it", 14, 56);
             font.setColor(0.35f, 0.50f, 0.62f, 1f);
         }
         // One short line, not the whole key list: that is on the help card (F1), and the long
@@ -424,19 +424,24 @@ abstract class TableHud extends TableScene {
         // THAT resolve and leaves you exactly where you are; with nothing on it, a pass is the
         // end of the step. The owner asked to be able to tell those two apart - "I want to be
         // clear if all I am allowing is the current iteration of stack to resolve".
+        // The pad's buttons are named on screen only when one is plugged in: a mouse player
+        // should not be reading about buttons they do not have (the owner, 2026-10-21 - the
+        // on-screen buttons said nothing about the controller at all).
+        String padMain = Pad.connected() ? "  or  A" : "";
+        String padOther = Pad.connected() ? "  or  X" : "";
         boolean named = !okLabel.isEmpty() && !"OK".equalsIgnoreCase(okLabel);
         String topOfStack = snap.stack.isEmpty() ? ""
             : shortName(snap.stack.get(snap.stack.size() - 1).name);
         String mainLabel, mainHint;
         if (named) {
             mainLabel = okLabel;
-            mainHint = "SPACE";
+            mainHint = "SPACE" + padMain;
         } else if (!topOfStack.isEmpty()) {
             mainLabel = "Let it resolve";
-            mainHint = "SPACE - " + topOfStack;
+            mainHint = "SPACE" + padMain + " - " + topOfStack;
         } else {
             mainLabel = "Next phase";
-            mainHint = "SPACE  or  N";
+            mainHint = "SPACE  or  N" + padMain;
         }
         // Forge's cancel. During ordinary priority it is "End Turn", which does not mean "finish
         // this step": it arms an auto-pass for everything left in the turn. That is what cost a
@@ -507,7 +512,8 @@ abstract class TableHud extends TableScene {
             font.setColor(1f, 0.88f, 0.84f, 1f);
             font.draw(ui, endsTurn ? "End turn" : cancelLabel, cancelBtn[0], cancelBtn[1] + 30f, btnW, 1, false);
             font.setColor(0.88f, 0.64f, 0.60f, 1f);
-            font.draw(ui, endsTurn ? "X - passes the rest" : "X", cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
+            font.draw(ui, (endsTurn ? "X - passes the rest" : "X") + padOther,
+                cancelBtn[0], cancelBtn[1] + 14f, btnW, 1, false);
         }
     }
 
