@@ -144,7 +144,7 @@ abstract class TableLayout extends TableCamera {
 
             placePlinth(seat, i, angle);
             ModelInstance pad = inst(seat.lost ? seatLostModel
-                : seat.hasPriority ? seatPriorityModel : seatModel);
+                : waitingOn(seat) ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
             pad.transform.setToTranslation(c.x, -0.01f + FIELD_RAISE, c.z).rotate(Vector3.Y, (float) Math.toDegrees(-angle));
             seatPads.add(pad);

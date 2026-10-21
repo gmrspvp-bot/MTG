@@ -838,9 +838,9 @@ abstract class TableHud extends TableScene {
             for (int k = 0; k < snap.seats.size(); k++) {
                 Snapshot.SeatV s = snap.seats.get(k);
                 float y = prioRowY(k, top);
-                String state = s.lost ? "out" : s.hasPriority ? "deciding" : s.passed ? "passed" : "waiting";
+                String state = s.lost ? "out" : waitingOn(s) ? "deciding" : s.passed ? "passed" : "waiting";
                 if (s.lost) font.setColor(0.42f, 0.38f, 0.38f, 1f);
-                else if (s.hasPriority) font.setColor(0.70f, 0.95f, 1f, 1f);
+                else if (waitingOn(s)) font.setColor(0.70f, 0.95f, 1f, 1f);
                 else if (s.passed) font.setColor(0.48f, 0.62f, 0.72f, 1f);
                 else font.setColor(0.80f, 0.86f, 0.92f, 1f);
                 font.draw(ui, shortName(s.name), PP_X + 26f * PP_SCALE, y + PB_ROW - 4f * PP_SCALE);
@@ -940,7 +940,7 @@ abstract class TableHud extends TableScene {
             if (p.z > 1f) continue;
             font.setColor(zoneLabelColour(s));
             font.draw(ui, shortName(s.name).toUpperCase()
-                + (s.active ? "  -  THEIR TURN" : s.hasPriority ? "  -  RESPONDING" : ""), p.x, p.y + 6);
+                + (s.active ? "  -  THEIR TURN" : waitingOn(s) ? "  -  RESPONDING" : ""), p.x, p.y + 6);
         }
         // The command zone: named just below its pad, with the tax the next cast will cost.
         if (!commanderGame()) return;
@@ -1049,7 +1049,7 @@ abstract class TableHud extends TableScene {
         // (Was a Swing banner on Forge's window - PlayHook.ResponseWatcher - which now stays quiet
         // when the 3D table is on.)
         Snapshot.SeatV you = snap.you();
-        boolean waitingOnYou = you != null && you.hasPriority && !you.active && !snap.gameOver;
+        boolean waitingOnYou = you != null && waitingOn(you) && !you.active && !snap.gameOver;
         if (!waitingOnYou) { respondWait = 0f; respondShown = false; }
         else if (!respondShown) {
             respondWait += frameDt;

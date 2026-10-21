@@ -507,8 +507,26 @@ abstract class TableBase extends ApplicationAdapter {
     static Color edgeColour(Snapshot.SeatV s) {
         if (s.lost) return EDGE_LOST;
         if (s.active) return EDGE_ACTIVE;
-        if (s.hasPriority) return EDGE_RESPONDING;
+        if (waitingOn(s)) return EDGE_RESPONDING;
         return EDGE_IDLE;
+    }
+
+    /**
+     * Is the game really waiting on this seat?
+     *
+     * Forge's PlayerView.getHasPriority is a snapshot: PhaseHandler writes it at the end of a
+     * loop step and then the game thread sits inside somebody's Input for as long as that player
+     * takes, with nothing updating the flag meanwhile. That had the yellow frame on the owner's
+     * own seat right through another player's combat (2026-10-22).
+     *
+     * For our OWN seat the window can check instead of believing, and it does it HERE, as the
+     * frame is drawn, rather than when the snapshot is built - the answer changes between game
+     * events, so a snapshot is the wrong place to keep it. Other seats are Forge's word only.
+     */
+    static boolean waitingOn(Snapshot.SeatV s) {
+        if (!s.hasPriority) return false;
+        if (!s.isYou || !Gui3D.active()) return true;
+        return Gui3D.beingAsked();
     }
 
     /**
@@ -519,7 +537,7 @@ abstract class TableBase extends ApplicationAdapter {
     static Color zoneLabelColour(Snapshot.SeatV s) {
         if (s.lost) return new Color(0.46f, 0.38f, 0.38f, 1f);
         if (s.active) return new Color(0.42f, 0.95f, 0.52f, 1f);
-        if (s.hasPriority) return new Color(1f, 0.86f, 0.30f, 1f);
+        if (waitingOn(s)) return new Color(1f, 0.86f, 0.30f, 1f);
         if (s.isYou) return new Color(0.62f, 0.95f, 1f, 1f);
         return new Color(0.58f, 0.76f, 0.88f, 1f);
     }
