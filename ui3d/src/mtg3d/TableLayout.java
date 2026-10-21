@@ -423,6 +423,7 @@ abstract class TableLayout extends TableCamera {
         int n = snap.seats.size();
         if (n == 0) return;
         monitorAt.clear();
+        monitorXf.clear();
         int you = Math.max(0, snap.youIndex());
         float view = seatAngle(you, n);
         float yaw = (float) Math.toDegrees(-view);
@@ -451,8 +452,8 @@ abstract class TableLayout extends TableCamera {
                 // second and third along each side further out again.
                 boolean right = rel <= n / 2;
                 int rank = right ? rel : n - rel;
-                lx = (right ? 1f : -1f) * (3.10f + (rank - 1) * 1.95f);
-                lz = MONITOR_DIST - 1.25f;
+                lx = (right ? 1f : -1f) * (2.20f + (rank - 1) * 1.95f);
+                lz = MONITOR_DIST - 1.15f;
                 lift = 0.70f;
             }
             Vector3 w = rotateY(lx, lz, view);
@@ -483,6 +484,7 @@ abstract class TableLayout extends TableCamera {
             Vector3 at = new Vector3();
             glass.transform.getTranslation(at);
             monitorAt.add(new float[] { at.x, at.y, at.z });
+            monitorXf.add(new com.badlogic.gdx.math.Matrix4(glass.transform));
             // Each player's own screen doubles as the thing you click to pick that player.
             BoundingBox box = new BoundingBox();
             frame.calculateBoundingBox(box);

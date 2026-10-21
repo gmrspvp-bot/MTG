@@ -552,6 +552,17 @@ abstract class TableBase extends ApplicationAdapter {
     final java.util.List<float[]> monitorAt = new java.util.ArrayList<>();
 
     /**
+     * The full placement of each screen's glass, so the readout can be drawn ON it.
+     *
+     * The numbers used to be drawn in screen space at the projected position of the screen,
+     * which means they always faced the camera square on while the glass behind them was turned
+     * and tilted - "like you have got a display and then figurines on it" (the owner,
+     * 2026-10-22). With the glass's own matrix the text can be laid in its plane instead, and
+     * then it leans with the screen as a screen's contents should.
+     */
+    final java.util.List<com.badlogic.gdx.math.Matrix4> monitorXf = new java.util.ArrayList<>();
+
+    /**
      * One mat mesh per seat, the shape of that seat's wedge of the table.
      *
      * A trapezium cannot be made by scaling a rectangle, so each is its own small mesh - four

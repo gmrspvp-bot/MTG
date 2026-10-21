@@ -118,11 +118,13 @@ abstract class TableHud extends TableScene {
         drawStackCounts();
         drawBeadCounts();
         drawBlockPairs();
-        drawCentreTracker();
         drawLifePops();
         drawTargetBanner(w, h);
         drawStackLabels();
         ui.end();
+        // Outside the overlay's batch: this one is drawn in the world, on the glass of each
+        // screen, so it needs the camera's projection and a batch of its own.
+        drawCentreTracker();
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
         if (turnBannerAge >= 0f) drawTurnBanner(w, h, flat);
         if (phaseBannerAge >= 0f) drawPhaseBanner(w, h, flat);
@@ -1480,60 +1482,76 @@ abstract class TableHud extends TableScene {
      * Drawn in screen space, not onto the panel, so every seat's readout faces the camera
      * wherever it happens to be.
      */
+    /**
+     * Each player's readout, drawn ON the glass of their screen rather than in front of it.
+     *
+     * It used to be drawn in screen space at the projected position of the screen, so the words
+     * faced the camera square on while the glass behind them was turned and tilted: a display
+     * with figurines standing on it. Now the batch is given the glass's own matrix, so the
+     * numbers lie in its plane and lean with it, as a screen's contents do.
+     *
+     * Drawn after the 3D pass and with its own batch, so it owns its projection and hands it
+     * back when it is done.
+     */
     void drawCentreTracker() {
         int n = snap.seats.size();
+        if (monitorXf.size() < n) return;
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            // Where this player's panel of the centre screen actually ended up - the screen is
-            // one case now, turned to face this client's own seat, so a readout cannot be worked
-            // out from the seat's angle any more (see TableLayout.placeMonitors).
-            if (i >= monitorAt.size()) continue;
             float[] at = monitorAt.get(i);
-            // The overhead stack lies over the screen; the readout would print over the cards.
-            // The same numbers are on the scoreboard panel and by each seat.
+            // The overhead stack lies over the screens; their readout would print over the
+            // cards. The same numbers are on the scoreboard panel and by each seat.
             if (underFlatStack(at[0], at[2])) continue;
-            Vector3 p = cam.project(new Vector3(at[0], at[1] + 0.18f, at[2]));
-            if (p.z > 1f) continue;                       // behind the camera
 
-            // The commander's picture, if Forge has it cached. A missing one just leaves the
-            // readout where it is rather than shifting everything left.
-            final float portW = 40f, portH = 56f;
-            float left = p.x - 54f;
+            // The glass's placement, with the drawing plane turned to lie in it (a SpriteBatch
+            // draws in XY; the glass is a flat slab in its own XZ) and scaled from the pixels
+            // the rest of this file thinks in down to table units.
+            Matrix4 m = new Matrix4(monitorXf.get(i));
+            m.rotate(Vector3.X, -90f);
+            m.scale(GLASS_PX, GLASS_PX, GLASS_PX);
+            ui.setProjectionMatrix(cam.combined);
+            ui.setTransformMatrix(m);
+            ui.begin();
+
+            // Everything below is in those pixels, with (0,0) at the middle of the panel.
+            float left = -118f, top = 40f;
+            final float portW = 46f, portH = 64f;
             Snapshot.CardV cmd = commanderOf(s);
             com.badlogic.gdx.graphics.Texture tex =
                 (art == null || cmd == null || !art.hasPicture(cmd)) ? null : art.get(cmd);
             if (tex != null) {
                 ui.setColor(1f, 1f, 1f, s.lost ? 0.35f : 1f);
-                ui.draw(tex, left, p.y - 18f, portW, portH);
+                ui.draw(tex, left, top - portH, portW, portH);
                 ui.setColor(1f, 1f, 1f, 1f);
             }
 
-            float col = left + portW + 8f;                // everything else lines up here
+            float col = left + portW + 10f;
             Color tint = s.lost ? new Color(0.50f, 0.44f, 0.44f, 1f)
                     : s.active ? new Color(1f, 0.85f, 0.35f, 1f)
                     : s.isYou ? new Color(0.65f, 0.95f, 1f, 1f)
                     : new Color(0.80f, 0.88f, 0.95f, 1f);
 
             font.setColor(0.52f, 0.66f, 0.78f, 1f);
-            font.draw(ui, shortName(s.name), col, p.y + 36f);
+            font.draw(ui, shortName(s.name), col, top);
 
             // The life total, big. The one number you look for.
             fontBig.getData().setScale(2.3f);
             fontBig.setColor(tint);
-            fontBig.draw(ui, s.lost ? "OUT" : String.valueOf(s.life), col, p.y + 26f);
+            fontBig.draw(ui, s.lost ? "OUT" : String.valueOf(s.life), col, top - 10f);
             fontBig.getData().setScale(1.6f);
 
             // Fixed columns under it, so a changing number never moves the ones beside it.
+            float row = top - 38f;
             font.setColor(0.62f, 0.74f, 0.84f, 1f);
-            font.draw(ui, "LIB", col, p.y - 2f);
-            font.draw(ui, "GY", col + 46f, p.y - 2f);
-            font.draw(ui, "EX", col + 84f, p.y - 2f);
+            font.draw(ui, "LIB", col, row);
+            font.draw(ui, "GY", col + 46f, row);
+            font.draw(ui, "EX", col + 84f, row);
             font.setColor(0.82f, 0.90f, 0.96f, 1f);
-            font.draw(ui, String.valueOf(s.librarySize), col, p.y - 15f);
-            font.draw(ui, String.valueOf(s.graveyardSize), col + 46f, p.y - 15f);
-            font.draw(ui, String.valueOf(s.exileSize), col + 84f, p.y - 15f);
+            font.draw(ui, String.valueOf(s.librarySize), col, row - 13f);
+            font.draw(ui, String.valueOf(s.graveyardSize), col + 46f, row - 13f);
+            font.draw(ui, String.valueOf(s.exileSize), col + 84f, row - 13f);
 
-            float y = p.y - 30f;
+            float y = row - 28f;
             if (s.poison > 0) {
                 font.setColor(0.60f, 0.85f, 0.45f, 1f);
                 font.draw(ui, "POISON " + s.poison, col, y);
@@ -1547,8 +1565,16 @@ abstract class TableHud extends TableScene {
                 font.draw(ui, d.amount + " from " + shortName(d.from), col, y);
                 y -= 13f;
             }
+            ui.end();
         }
+        // Hand the batch back the way the rest of the overlay expects to find it.
+        ui.setTransformMatrix(new Matrix4());
+        ui.setProjectionMatrix(new Matrix4().setToOrtho2D(0, 0,
+            Gdx.graphics.getWidth(), Gdx.graphics.getHeight()));
     }
+
+    /** One "pixel" of a readout, in table units: the glass is about 2.5 units across. */
+    static final float GLASS_PX = 0.0088f;
 
     /**
      * The enlarged card that follows the mouse. When Forge has the real picture cached it is shown
