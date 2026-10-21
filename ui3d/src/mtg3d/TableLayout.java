@@ -112,6 +112,7 @@ abstract class TableLayout extends TableCamera {
         props.clear();
         stacked.clear();
         pileMembers.clear();
+        beads.clear();
         squeezed.clear();
         seatPick.clear();
         if (snap.seats.isEmpty()) return;
@@ -159,6 +160,7 @@ abstract class TableLayout extends TableCamera {
             placeRow(seat, seat.others, angle, ROW_OTHERS);
             placeRow(seat, seat.lands, angle, ROW_LANDS);
         }
+        placeManaBeads();
         placeSeatEdges();
         placeAttachments();
         placeCommandZone();
@@ -837,6 +839,44 @@ abstract class TableLayout extends TableCamera {
             .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
             .scale(width / BAND_UNIT, 1f, 1f);
         props.add(inst);
+    }
+
+    /**
+     * Each seat's floating mana as six stacks of beads along the near edge of its board.
+     *
+     * A tray is drawn for every colour that has something in it and for nothing else, so an empty
+     * pool - which is most of the time - leaves the board exactly as it was. Beads stack upwards
+     * and stop at BEAD_SHOW; past that the count is drawn over the stack instead of building a
+     * tower nobody can read.
+     */
+    void placeManaBeads() {
+        int n = snap.seats.size();
+        for (int i = 0; i < n; i++) {
+            Snapshot.SeatV seat = snap.seats.get(i);
+            if (seat.lost) continue;
+            float angle = seatAngle(i, n);
+            float yaw = (float) Math.toDegrees(-angle);
+            // Six trays centred on the board, in WUBRGC order from the owner's left.
+            float across = -(6 - 1) * BEAD_STEP / 2f;
+            for (int m = 0; m < 6; m++) {
+                int count = m < seat.mana.length ? seat.mana[m] : 0;
+                if (count <= 0) continue;
+                float x = across + m * BEAD_STEP;
+                Vector3 w = rotateY(x, BEAD_Z, angle);
+                ModelInstance tray = inst(beadTrayModel);
+                tray.transform.setToTranslation(w.x, FIELD_RAISE, w.z).rotate(Vector3.Y, yaw);
+                props.add(tray);
+                int show = Math.min(count, BEAD_SHOW);
+                for (int k = 0; k < show; k++) {
+                    ModelInstance bead = inst(beadModel);
+                    bead.transform.setToTranslation(w.x, FIELD_RAISE + BEAD_D / 2f + k * BEAD_RISE, w.z);
+                    bead.materials.get(0).set(ColorAttribute.createDiffuse(TableHud.MANA_COLOURS[m]));
+                    props.add(bead);
+                }
+                beads.add(new BeadsAt(w.x, w.z,
+                    FIELD_RAISE + BEAD_D / 2f + (show - 1) * BEAD_RISE, count, m));
+            }
+        }
     }
 
     /** True when anyone has a commander, i.e. the command zone means something this game. */

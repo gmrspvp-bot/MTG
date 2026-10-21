@@ -115,6 +115,12 @@ public final class Table3D extends TableInput {
         // An ability on the stack, or being chosen: its permanent, in the ability ribbon's teal.
         sourceModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.35f, 0.88f, 0.82f, 1f))), attrs);
+        // Floating mana, as beads in six little trays on each board. White so the colour can
+        // be set per bead - one model, six colours, however many are floating.
+        beadModel = builder.createSphere(BEAD_D, BEAD_D, BEAD_D, 12, 10,
+            new Material(ColorAttribute.createDiffuse(new Color(1f, 1f, 1f, 1f))), attrs);
+        beadTrayModel = builder.createBox(BEAD_D * 1.45f, 0.012f, BEAD_D * 1.45f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.05f, 0.12f, 0.17f, 1f))), attrs);
         hoverModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.20f,
             new Material(ColorAttribute.createDiffuse(new Color(0.95f, 0.88f, 0.40f, 1f))), attrs);
         stackFrameModel = builder.createBox(STACK_FRAME_UNIT, 0.05f, CARD_H * STACK_SCALE + 0.8f,

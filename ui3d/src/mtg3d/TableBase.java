@@ -86,6 +86,8 @@ abstract class TableBase extends ApplicationAdapter {
     Model screenModel, standModel;
 
     Model bandCreature, bandOther, bandLand, monitorModel, selectModel, hoverModel;
+    /** Floating mana: one white sphere coloured per bead, and the little tray under a stack. */
+    Model beadModel, beadTrayModel;
 
     Model seatGlowModel, stackFrameModel;
 
@@ -480,6 +482,36 @@ abstract class TableBase extends ApplicationAdapter {
 
     /** Where a seat's command zone sits, in its own frame: the other side from library/gy/exile. */
     static final float COMMAND_X = -5.3f, COMMAND_Z = SEAT_DIST + 0.3f;
+
+    /**
+     * Floating mana, drawn as beads in six trays along the near edge of each board - white, blue,
+     * black, red, green, then colourless, left to right as the owner sits.
+     *
+     * The pool was a line of text in the corner panel, which is the one place nobody looks while
+     * they are paying for something, and only for your own seat: there was no way to see that an
+     * opponent was holding two untapped Islands' worth of blue (the owner, 2026-10-22). Beads on
+     * the board are the same thing you would push across a real table.
+     *
+     * BEAD_Z sits in the gap between the seat frame (EDGE_NEAR 3.1) and the creature band (3.39),
+     * so the tray never lands on a card or on the frame itself.
+     */
+    static final float BEAD_D = 0.19f;
+    static final float BEAD_Z = 3.26f;
+    static final float BEAD_STEP = BEAD_D * 1.6f;        // between the six trays
+    static final float BEAD_RISE = BEAD_D * 0.62f;       // one bead on top of another
+    /** Past this the stack stops growing and a count is drawn over it instead (TableHud). */
+    static final int BEAD_SHOW = 8;
+
+    /** Where a seat's bead stacks ended up, for the count over a tall one. */
+    static final class BeadsAt {
+        final float x, z, top;
+        final int count, colour;
+        BeadsAt(float x, float z, float top, int count, int colour) {
+            this.x = x; this.z = z; this.top = top; this.count = count; this.colour = colour;
+        }
+    }
+
+    final java.util.List<BeadsAt> beads = new java.util.ArrayList<>();
 
     /**
      * The rectangle framing one seat's territory, in that seat's own frame. Wide enough to take

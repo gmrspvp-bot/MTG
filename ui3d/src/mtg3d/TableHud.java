@@ -117,6 +117,7 @@ abstract class TableHud extends TableScene {
         drawPhaseOnTable();
         drawZoneLabels();
         drawStackCounts();
+        drawBeadCounts();
         drawBlockPairs();
         drawCentreTracker();
         drawLifePops();
@@ -935,6 +936,31 @@ abstract class TableHud extends TableScene {
             if (isAttacker) fontBig.setColor(1f, 0.70f, 0.60f, 1f);
             else fontBig.setColor(0.70f, 0.90f, 1f, 1f);
             fontBig.draw(ui, label, p.x - gl.width / 2f, p.y + gl.height + 1f);
+        }
+    }
+
+    /**
+     * The number over a bead stack: always for a stack taller than one, so a pool can be read at
+     * a glance without counting beads, and necessarily once it is past BEAD_SHOW and has stopped
+     * growing. In the colour of the mana, over the top bead.
+     */
+    void drawBeadCounts() {
+        for (TableBase.BeadsAt b : beads) {
+            if (b.count < 2) continue;
+            Vector3 p = cam.project(new Vector3(b.x, b.top + BEAD_D * 0.9f, b.z));
+            if (p.z > 1f) continue;
+            String label = MANA_LETTERS[b.colour] + b.count;
+            GlyphLayout gl = new GlyphLayout(font, label);
+            ui.end();
+            shapes.setProjectionMatrix(ui.getProjectionMatrix());
+            Gdx.gl.glEnable(GL20.GL_BLEND);
+            shapes.begin(ShapeRenderer.ShapeType.Filled);
+            shapes.setColor(0.03f, 0.08f, 0.12f, 0.80f);
+            shapes.rect(p.x - gl.width / 2f - 5f, p.y - 3f, gl.width + 10f, gl.height + 7f);
+            shapes.end();
+            ui.begin();
+            font.setColor(MANA_COLOURS[b.colour]);
+            font.draw(ui, label, p.x - gl.width / 2f, p.y + gl.height + 1f);
         }
     }
 
