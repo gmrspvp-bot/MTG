@@ -325,7 +325,8 @@ abstract class TableInput extends TableHud {
             combatPlan = null;
         }
 
-        // Paying mana: Forge offers the sources that can pay, or failing that, our untapped lands.
+        // Paying mana: Forge offers the sources that can pay, or failing that, everything of
+        // ours that could make mana.
         if (in.startsWith("InputPayMana")) {
             if (manaPlan == null || !manaPlan.wired || changed) {
                 ManaPlan mp = new ManaPlan();
@@ -335,7 +336,17 @@ abstract class TableInput extends TableHud {
             manaPlan.cost = Gui3D.PROMPT.message;
             manaPlan.usable.clear();
             if (!sel.isEmpty()) manaPlan.usable.addAll(sel);
-            else if (me != null) for (Snapshot.CardV c : me.lands) if (!c.tapped) manaPlan.usable.add(c.id);
+            else if (me != null) {
+                // The fallback used to be "untapped lands", which is where Sol Ring went. Forge
+                // sends no selectables during a payment, so the lands were the whole list, and a
+                // click on any other mana source was dropped here without ever reaching Forge -
+                // the Auto button worked because it never comes through the board at all (the
+                // owner, 2026-10-22, and "cannot tap artifacts for mana" the night before).
+                for (java.util.List<Snapshot.CardV> row
+                        : java.util.Arrays.asList(me.lands, me.others, me.creatures)) {
+                    for (Snapshot.CardV c : row) if (couldMakeMana(c)) manaPlan.usable.add(c.id);
+                }
+            }
         } else if (manaPlan != null && manaPlan.wired) {
             manaPlan = null;
         }
@@ -719,7 +730,13 @@ abstract class TableInput extends TableHud {
                 if (manaPlan.wired) Gui3D.pressCancel(); else manaPlan = null;
                 return;
             }
-            if (clickedCard() && hovered != null && manaPlan.usable.contains(hovered.card.id)) {
+            // In a real game every click on one of OUR permanents goes to Forge, whether or not
+            // the glow says it is usable: the glow is this window's guess, and a guess must never
+            // be the thing that stops a click. Forge refuses what it cannot do, and says so in
+            // the log. Only the demo, which has no Forge to judge it, holds to the list.
+            boolean mine = hovered != null && hovered.seat != null && hovered.seat.isYou;
+            if (clickedCard() && hovered != null
+                    && (manaPlan.usable.contains(hovered.card.id) || (manaPlan.wired && mine))) {
                 Integer id = hovered.card.id;
                 if (manaPlan.wired) {
                     if (Gui3D.clickCard(id) && !manaPlan.tapped.contains(id)) manaPlan.tapped.add(id);
@@ -1205,6 +1222,24 @@ abstract class TableInput extends TableHud {
     int handIndexOf(int cardId) {
         for (int i = 0; i < snap.hand.size(); i++) if (snap.hand.get(i).id == cardId) return i;
         return -1;
+    }
+
+    /**
+     * Could this permanent of ours be tapped for mana right now?
+     *
+     * A guess, and only ever used when Forge has offered no list of its own - Forge still judges
+     * every click, so being wrong here costs a refusal, not a bad play. Lands are in because a
+     * basic has no rules text to go on; anything else is in if its text talks about adding mana,
+     * which is every signet, talisman, Sol Ring and mana creature.
+     */
+    static boolean couldMakeMana(Snapshot.CardV c) {
+        if (c == null || c.tapped) return false;
+        if (c.land) return true;              // before the sick test: a land is never sick
+        if (c.sick) return false;             // a mana creature played this turn cannot tap
+        String text = c.text == null ? "" : c.text.toLowerCase();
+        return text.contains("add {") || text.contains("add one mana") || text.contains("add two mana")
+            || text.contains("add three mana") || text.contains("add x mana")
+            || text.contains("mana of any color") || text.contains("mana of any colour");
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */
