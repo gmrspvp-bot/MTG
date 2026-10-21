@@ -106,6 +106,39 @@ public final class AiPatches {
             System.out.println("DICEAI " + ai.getName() + ": " + name + " rolls at " + when + " (turn " + ph.getTurn() + ")");
             return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
         }
+
+        /**
+         * Mana abilities that roll a die (Vexing Puzzlebox: "{T}: Add one mana of any color. Roll
+         * a d20."). The AI only ever uses a mana ability to pay for something, so it never rolled
+         * with one; the owner taps Puzzlebox for the roll alone, every round - and a d20 is 4+ (a
+         * Mr. House robot) 85% of the time. At the end step of the player whose turn comes just
+         * before the AI's, each untapped permanent of the AI with such a mana ability is tapped
+         * for it: the mana is lost, which costs nothing - the permanent untaps a moment later -
+         * and until then it stayed available as mana all round. Called from TurnHook.
+         */
+        static void endStepRolls(forge.game.Game game, forge.game.event.GameEventTurnPhase ev) {
+            if (!enabled || ev.phase() != forge.game.phase.PhaseType.END_OF_TURN) return;
+            Player next = game.getPhaseHandler().getNextTurn();
+            if (next == null || next.hasLost() || !(next.getController() instanceof forge.ai.PlayerControllerAi)) return;
+            for (Card c : new java.util.ArrayList<>(next.getCardsIn(forge.game.zone.ZoneType.Battlefield))) {
+                if (c.isTapped()) continue;
+                for (SpellAbility sa : c.getManaAbilities()) {
+                    if (!rollsDice(sa)) continue;
+                    sa.setActivatingPlayer(next);
+                    if (!sa.canPlay()) continue;
+                    forge.ai.ComputerUtil.playNoStack(next, sa, game, true);
+                    System.out.println("DICEAI " + next.getName() + ": " + c.getName() + " tapped for its roll at the end step before its turn");
+                    break;
+                }
+            }
+        }
+
+        static boolean rollsDice(SpellAbility sa) {
+            for (SpellAbility s = sa; s != null; s = s.getSubAbility()) {
+                if (s.getApi() == ApiType.RollDice) return true;
+            }
+            return false;
+        }
     }
 
     /**
@@ -579,6 +612,9 @@ public final class AiPatches {
             if (!prepared && ev instanceof forge.game.event.GameEventTurnBegan) {
                 prepared = true;
                 try { prepareGame(game); } catch (Throwable t) { /* never break the game */ }
+            }
+            if (ev instanceof forge.game.event.GameEventTurnPhase) {
+                try { DiceEngineAi.endStepRolls(game, (forge.game.event.GameEventTurnPhase) ev); } catch (Throwable t) { /* never break the game */ }
             }
             if (!ManaHold.enabled) return;
             try {
