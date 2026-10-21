@@ -129,6 +129,14 @@ public final class Gui3D implements InvocationHandler {
         remote = null;
         remoteViewer = null;
         checkTakenOver();
+        // The same unhook the host does, and for the same reason - it was simply never done
+        // here, because installRemote was written as the read-only path and kept the line when
+        // it stopped being one. Forge's global key dispatcher sees every key in the JVM, turns
+        // one of them into End Turn, and the client sends the host a YieldUpdate arming the
+        // auto-pass: on 2026-10-22 Mr House's turn ended the moment he pressed a key after
+        // casting Sol Ring, and the host's log shows the arming arriving over the wire with no
+        // Forge menu anywhere in the trace, so nothing on the host could have caught it.
+        javax.swing.SwingUtilities.invokeLater(Gui3D::unhookForgeKeys);
         System.out.println("UI3D: joined a network game - the 3D table follows the host's game");
         return (IGuiGame) Proxy.newProxyInstance(Gui3D.class.getClassLoader(), new Class<?>[] { IGuiGame.class }, g);
     }
@@ -806,15 +814,25 @@ public final class Gui3D implements InvocationHandler {
     public static String autoPassing() {
         try {
             forge.player.PlayerControllerHuman c = controller;
-            if (c == null) return "";
+            if (c == null) {
+                // A joined game: the client has a YieldController of its own, kept in step by
+                // the same updates it sends the host, so an auto-pass armed from anywhere -
+                // Forge's own window included - shows up here.
+                final forge.interfaces.IGameController r = remote;
+                return r == null ? "" : describeYield(r.getYieldController());
+            }
             forge.gamemodes.match.YieldController y = c.getYieldController();
-            if (y == null) return "";
-            if (y.autoPassUntilEndOfTurn()) return "to end of turn";
-            if (y.autoPassUntilStackEmpty()) return "until the stack is empty";
-            return "";
+            return describeYield(y);
         } catch (Throwable t) {
             return "";
         }
+    }
+
+    private static String describeYield(forge.gamemodes.match.YieldController y) {
+        if (y == null) return "";
+        if (y.autoPassUntilEndOfTurn()) return "to end of turn";
+        if (y.autoPassUntilStackEmpty()) return "until the stack is empty";
+        return "";
     }
 
     /**
@@ -910,7 +928,20 @@ public final class Gui3D implements InvocationHandler {
     public static void stopAutoPass() {
         try {
             forge.player.PlayerControllerHuman c = controller;
-            if (c == null) return;
+            if (c == null) {
+                // A joined game. The client keeps its own YieldController, and sendYieldUpdate
+                // applies the change here AND tells the host, which is the only way across - a
+                // client cannot reach the host's controller any other way. Without this the
+                // "never pass my own turn" safeguard was host-only: on a client it read a null
+                // controller, found no auto-pass, and did nothing, while the turn ran out.
+                final forge.interfaces.IGameController r = remote;
+                if (r == null) return;
+                forge.game.player.PlayerView me = remoteViewer;
+                r.sendYieldUpdate(new forge.gamemodes.match.YieldUpdate.SetAutoPassUntilEndOfTurn(me, false));
+                r.sendYieldUpdate(new forge.gamemodes.match.YieldUpdate.StackYield(me, false, false));
+                System.out.println("UI3D: told the host to stop auto-passing - this is your turn");
+                return;
+            }
             // Forge's own way of calling it off, which clears both flags and tells the rest
             // of Forge it happened - poking the two setters left the UI thinking it was still
             // auto-passing.
