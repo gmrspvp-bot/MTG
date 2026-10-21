@@ -424,12 +424,12 @@ abstract class TableLayout extends TableCamera {
     static final float STACK_STEP = 0.022f;
     static final int STACK_SHOW = 6;     // past this the pile stops growing and the count carries it
 
-    void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
-        cards = unattached(cards);
-        if (cards.isEmpty()) return;
-        // Identical permanents share a slot: twenty Treasure tokens were twenty slots wide and
-        // ran straight through the next seat's board (the owner, 2026-10-21). Order is first
-        // appearance, so the board does not reshuffle itself as copies arrive.
+    /**
+     * Identical permanents share a slot: twenty Treasure tokens were twenty slots wide and ran
+     * straight through the next seat's board (the owner, 2026-10-21). Order is first appearance,
+     * so the board does not reshuffle itself as copies arrive.
+     */
+    List<List<Snapshot.CardV>> rowGroups(List<Snapshot.CardV> cards) {
         List<List<Snapshot.CardV>> groups = new ArrayList<>();
         java.util.Map<String, List<Snapshot.CardV>> byKey = new java.util.LinkedHashMap<>();
         for (Snapshot.CardV c : cards) {
@@ -438,14 +438,38 @@ abstract class TableLayout extends TableCamera {
             if (g == null) { g = new ArrayList<>(); byKey.put(stackKey(c), g); groups.add(g); }
             g.add(c);
         }
-        // A tapped card lies sideways, so it needs a CARD_H-wide slot, not CARD_W: with equal
-        // slots, tapped neighbours overlapped (more visibly once tapping animated).
+        return groups;
+    }
+
+    /** The slot a group needs: the card on top is the one drawn, and a tapped one lies sideways. */
+    private static float slotFor(List<Snapshot.CardV> g) {
+        return g.get(g.size() - 1).tapped ? CARD_H : CARD_W;
+    }
+
+    /**
+     * How wide a row actually is, measured from the SAME groups placeRow lays out.
+     *
+     * The piles went in and the boards kept their old width: the slab under each band and the
+     * plinth under each seat were still counting cards one by one, so a seat with twenty
+     * Treasures grew a board twenty slots wide with one pile sitting in the middle of it (the
+     * owner, 2026-10-21). Everything that measures a row measures it here.
+     */
+    float rowWidth(List<List<Snapshot.CardV>> groups) {
+        if (groups.isEmpty()) return 0f;
         float width = -GAP;
-        for (List<Snapshot.CardV> g : groups) width += (g.get(0).tapped ? CARD_H : CARD_W) + GAP;
+        for (List<Snapshot.CardV> g : groups) width += slotFor(g) + GAP;
+        return width;
+    }
+
+    void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
+        cards = unattached(cards);
+        if (cards.isEmpty()) return;
+        List<List<Snapshot.CardV>> groups = rowGroups(cards);
+        float width = rowWidth(groups);
         float cursor = -width / 2f;
         for (List<Snapshot.CardV> g : groups) {
             Snapshot.CardV top = g.get(g.size() - 1);
-            float slot = top.tapped ? CARD_H : CARD_W;
+            float slot = slotFor(g);
             float along = cursor + slot / 2f;
             cursor += slot + GAP;
             Vector3 w = rotateY(along, dist, angle);
@@ -537,10 +561,11 @@ abstract class TableLayout extends TableCamera {
         // lift is small enough that the raised card still covers the spot the mouse is on, or
         // it would drop, be hovered again, and flicker.
         int lifted = hovered != null && hovered.seat == null ? hovered.card.id : Integer.MIN_VALUE;
-        for (int i = 0; i < snap.hand.size(); i++) {
-            Snapshot.CardV c = snap.hand.get(i);
+        List<Snapshot.CardV> hand = handOrder();
+        for (int i = 0; i < hand.size(); i++) {
+            Snapshot.CardV c = hand.get(i);
             float along = -width / 2f + i * step + step / 2f;
-            boolean up = c.id == lifted;
+            boolean up = c.id == lifted || c.id == grabbedId;
             seedFromLibrary(c);
             Vector3 w = rotateY(along, SEAT_DIST + 3.6f - (up ? 0.15f : 0f), angle);
             add(c, null, w.x, 0.62f + (up ? 0.35f : 0f), w.z, (float) Math.toDegrees(-angle),
@@ -558,6 +583,22 @@ abstract class TableLayout extends TableCamera {
      * the overlap never flickers. The usual pose easing slides the hand between the two places;
      * hovering pulls a card out to the left. Clicks and hover work as anywhere else (bounds).
      */
+    /**
+     * The hand as it should be drawn: the snapshot's order, except while a card is being moved,
+     * when it is drawn where it would land. Forge is not told until the card is dropped, so this
+     * is the only thing that shows the move - without it you would be arranging blind.
+     */
+    List<Snapshot.CardV> handOrder() {
+        if (grabbedId < 0 || grabIndex < 0) return snap.hand;
+        List<Snapshot.CardV> out = new ArrayList<>(snap.hand);
+        int from = -1;
+        for (int i = 0; i < out.size(); i++) if (out.get(i).id == grabbedId) { from = i; break; }
+        if (from < 0) return snap.hand;
+        Snapshot.CardV c = out.remove(from);
+        out.add(Math.max(0, Math.min(out.size(), grabIndex)), c);
+        return out;
+    }
+
     void placeHandOverhead() {
         int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
         if (w <= 0 || h <= 0) return;
@@ -568,6 +609,7 @@ abstract class TableLayout extends TableCamera {
         float halfFov = (float) Math.toRadians(cam.fieldOfView / 2f);
         float dist = CARD_H * h / (cardPx * 2f * (float) Math.tan(halfFov));
         int lifted = hovered != null && hovered.seat == null ? hovered.card.id : Integer.MIN_VALUE;
+        List<Snapshot.CardV> hand = handOrder();
         float yaw = (float) Math.toDegrees(-orbit);
         // Parallel to the screen: tilted by the CAMERA's angle from straight down (as HAND_TILT
         // does seated). Tilting each card to its own ray sheared the column at the screen edge.
@@ -575,8 +617,8 @@ abstract class TableLayout extends TableCamera {
         float tilt = (float) Math.toDegrees(Math.atan2(Math.sqrt(d.x * d.x + d.z * d.z), -d.y));
         float cardWpx = cardPx * CARD_W / CARD_H;
         for (int i = 0; i < count; i++) {
-            Snapshot.CardV c = snap.hand.get(i);
-            boolean up = c.id == lifted;
+            Snapshot.CardV c = hand.get(i);
+            boolean up = c.id == lifted || c.id == grabbedId;
             float sx = w - OVERHEAD_MARGIN_PX - cardWpx / 2f - (up ? cardWpx * 0.6f : 0f);
             float sy = top + cardPx / 2f + i * step;              // screen y, from the top
             Ray ray = cam.getPickRay(sx, sy);
@@ -630,9 +672,8 @@ abstract class TableLayout extends TableCamera {
     void placePlinth(Snapshot.SeatV seat, int index, float angle) {
         float widest = 6f;                                   // never narrower than the seat pad area
         for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
-            float w = 0.5f - GAP;
-            for (Snapshot.CardV c : unattached(row)) w += (c.tapped ? CARD_H : CARD_W) + GAP;
-            widest = Math.max(widest, w + 0.6f);
+            // Grouped, exactly as placeRow lays it out - see rowWidth.
+            widest = Math.max(widest, rowWidth(rowGroups(unattached(row))) + 1.1f);
         }
         float near = ROW_CREATURES - CARD_H / 2f - 0.35f, far = ROW_LANDS + CARD_H / 2f + 0.35f;
         float h = FIELD_RAISE + index * 0.002f;
@@ -657,8 +698,7 @@ abstract class TableLayout extends TableCamera {
     void placeBand(List<Snapshot.CardV> cards, float angle, float dist, Model band) {
         cards = unattached(cards);
         if (cards.isEmpty()) return;
-        float width = 0.5f - GAP;   // same slot widths as placeRow: tapped cards are CARD_H wide
-        for (Snapshot.CardV c : cards) width += (c.tapped ? CARD_H : CARD_W) + GAP;
+        float width = rowWidth(rowGroups(cards)) + 0.5f;    // the grouped row, plus a small rim
         Vector3 w = rotateY(0f, dist, angle);
         ModelInstance inst = inst(band);
         inst.transform.setToTranslation(w.x, -0.005f + FIELD_RAISE, w.z)

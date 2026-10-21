@@ -688,6 +688,35 @@ public final class Gui3D implements InvocationHandler {
      *
      * @return false when that card is not currently selectable, so the caller can ignore the click
      */
+    /**
+     * Move a card in your own hand to another place in it.
+     *
+     * Forge keeps the hand in an order and reorders the zone itself (PlayerZone.reorder), so this
+     * is a real change to the game state, not a trick of the 3D window: Forge's own window shows
+     * the same order, it survives a card being drawn, and on a joined game it is the host that
+     * does the moving. Nobody else can see your hand, so nobody else is affected.
+     *
+     * The index is where the card ends up counting from the left of the hand as drawn.
+     */
+    public static boolean reorderHand(int cardId, int index) {
+        if (index < 0) return false;
+        CardView found = known.get(cardId);
+        if (found == null) return false;
+        final CardView cv = found;
+        final int to = index;
+        if (remote != null) return remoteClick(r -> r.reorderHand(cv, to));
+        final forge.player.PlayerControllerHuman c = controller;
+        if (c == null) return false;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try {
+                c.reorderHand(cv, to);
+            } catch (Throwable t) {
+                System.out.println("UI3D: could not move " + cv.getName() + " in hand (" + t + ")");
+            }
+        });
+        return true;
+    }
+
     public static boolean clickCard(int cardId) {
         if (remote != null) {
             CardView rc = selectableViews.get(cardId);

@@ -260,6 +260,18 @@ abstract class TableBase extends ApplicationAdapter {
     int lastMouseAt = -1;
 
     /**
+     * Arranging your hand: the card picked up, and where in the hand it would go.
+     *
+     * Nothing is sent to Forge until it is dropped, so the whole move can be thought about and
+     * abandoned. -1 means nothing is being moved. Forge keeps the hand in a real order and
+     * reorders the zone itself, so the new order is the game's, not a trick of this window: it
+     * survives drawing a card, and Forge's own window shows the same hand.
+     */
+    int grabbedId = -1;
+
+    int grabIndex = -1;
+
+    /**
      * Animation without giving up the per-frame rebuild. layout() still works out every card's
      * TARGET pose from the snapshot each frame, so the view always converges on the true state;
      * what persists between frames is only where each card was last DRAWN, keyed by card id.

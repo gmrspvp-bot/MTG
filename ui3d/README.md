@@ -45,6 +45,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `X` | **In a game** - cancel (guarded) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
+| `G` | Pick up the card in your hand under the pointer; `LEFT`/`RIGHT` (or the mouse) place it, `SPACE` drops it, `ESC` puts it back |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
 | `TAB` | Toggle seated / overhead |
 | `ESC` | Give the camera back to the game |
@@ -372,17 +373,52 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 ---
 
-### Still open from the games of 2026-10-21 (evening)
+### From the games of 2026-10-21 (evening)
 
-- [ ] **Artifacts cannot always be tapped for mana.** Reported mid-game, not yet reproduced.
-      Mana payment (`InputPayMana` / `useMana`) is the one input path the 3D table has never
-      owned; a tap that Forge refuses looks identical to one the table never sent. Start by
-      logging what `clickCard` gets back during a payment - the refusal line already names the
-      live input, which is how the turn-50 mystery was finally pinned down.
-- [ ] **SPACE sometimes acts as "skip to end of turn".** Reported alongside the above. Forge's
-      global key hook is gone and the menu path is guarded, so this is a fifth source and should
-      be instrumented rather than guessed at - the first four guesses all cost a game.
-      `AutoPassHook` already prints a stack trace whenever the flag is armed: read that log.
+- [x] **Artifacts cannot always be tapped for mana.** Found: `takeAbility` answered `null` for a
+      single clicked ability whose `canPlay()` is false, and `null` means "the player chose
+      nothing", so Forge dropped the click silently - Arcane Signet was refused four times in one
+      game. `SpellAbilityView` has no mana-ability test to check instead, so it now answers
+      `NOT_HANDLED` and lets Forge decide.
+- [x] **SPACE sometimes acts as "skip to end of turn".** Found by reading `AutoPassHook`'s trace:
+      a Cancel arriving from the network client. Forge's Cancel at ordinary priority *is* End
+      Turn. When the cancel button says "End Turn" it now asks for a second press within three
+      seconds; every other cancel goes straight through.
+- [x] **No chance to respond to an attack.** The phase stops are keyed by the TURN PLAYER, and
+      `takeSkipPhase` was reading the argument as "is this my seat" - so the window only insisted
+      on being stopped during its own turn, and Forge's invisible toggles still ran everybody
+      else's. A network client is worse: Forge never asks its UI at all, it reads the skip set on
+      the host, so a client now sends the host a `YieldUpdate.SkipPhase` per phase.
+- [x] **Boards grew as wide as the cards, not as wide as the piles.** The band slab and the seat
+      plinth were still measuring card by card after permanents started stacking, so twenty
+      Treasures gave a seat a twenty-slot board with one pile in the middle of it. Everything
+      that measures a row now measures it through `rowGroups` / `rowWidth`.
+- [x] **Cards with no picture.** Two halves. `CardArt` cut the file name at the FIRST dot, so
+      "Mr. House, President and CEO.fullborder.jpg" was filed under "Mr"; it now takes the
+      extension and the marker suffix off, indexes both halves of a split card, and falls back to
+      a punctuation-free match. The other half is simply that Forge had only downloaded 546
+      pictures against 995 cards in our decks - `scripts\card-images.ps1` says which are missing
+      and fetches them (see **Card pictures** below).
+- [x] **Arranging your hand.** `G` picks a card up, left/right or the mouse place it, SPACE drops
+      it. Forge reorders the real zone (`IGameController.reorderHand`), so the order is the
+      game's and holds on the host in a joined game.
+
+### Card pictures
+
+The table draws out of Forge's own cache, `forge-data\cache\pics\cards`, which Forge only fills
+with what it has had a reason to download - on a fresh machine that is nearly nothing, and every
+card comes up as a drawn stand-in. The cache is not in git (hundreds of megabytes), so each
+machine fills it once:
+
+```powershell
+.\scripts\card-images.ps1                          # what is missing, deck by deck
+.\scripts\card-images.ps1 -Download                # fetch it all from Scryfall
+.\scripts\card-images.ps1 -Card "Mr. House, President and CEO" -Download   # just this one
+```
+
+Pictures land in a `MTG3D` folder inside the cache - a folder, not a real set code, so Forge's own
+window carries on using its own files. `CardArt` rescans every few seconds while a game is
+running, so they appear without a restart.
 
 ### Owner's list, 2026-10-21 — not started
 

@@ -786,6 +786,7 @@ abstract class TableInput extends TableHud {
             openSamplePanel(OPEN_PANEL.trim().toLowerCase());
             return;
         }
+        if (handArranging()) return;
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
         // a game is actually running: in the demo nothing is installed and SPACE still steps the
         // phase, so the two never contend for the key.
@@ -1137,6 +1138,73 @@ abstract class TableInput extends TableHud {
         }
         endTurnAskedAt = 0L;
         Gui3D.pressCancel();
+    }
+
+    /**
+     * Arranging your own hand: G picks the card under the pointer up, left and right place it,
+     * SPACE drops it there, ESC puts it back.
+     *
+     * Returns true while a card is held, and the caller stops there - which is the point of
+     * holding one. The arrow keys and SPACE mean something else on the board (next phase, pass),
+     * and a mode that quietly passed your turn while you tidied your hand would be worse than no
+     * mode at all. Nothing reaches Forge until the drop.
+     *
+     * On the pad: D-pad UP picks up (nothing else uses it on the board), left and right place,
+     * A drops, B cancels.
+     */
+    boolean handArranging() {
+        if (panelOpen() || Gui3D.pendingAsk() != null) { grabbedId = -1; return false; }
+        if (grabbedId < 0) {
+            boolean pickUp = Keys3D.just(Input.Keys.G) || Pad.justAs(Input.Keys.UP);
+            if (!pickUp) return false;
+            if (hovered == null || hovered.seat != null) {
+                toast("Point at a card in your hand first, then G to move it",
+                    Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.30f);
+                return false;
+            }
+            int at = handIndexOf(hovered.card.id);
+            if (at < 0) return false;
+            grabbedId = hovered.card.id;
+            grabIndex = at;
+            return true;
+        }
+        // The card can leave your hand while it is held - you play it from Forge's window, an
+        // opponent makes you discard it - and then there is nothing to move.
+        int now = handIndexOf(grabbedId);
+        if (now < 0) { grabbedId = -1; return false; }
+        int last = Math.max(0, snap.hand.size() - 1);
+        if (grabIndex > last) grabIndex = last;
+
+        if (Keys3D.just(Input.Keys.LEFT) || Keys3D.just(Input.Keys.COMMA) || Pad.justAs(Input.Keys.LEFT)) {
+            grabIndex = Math.max(0, grabIndex - 1);
+        }
+        if (Keys3D.just(Input.Keys.RIGHT) || Keys3D.just(Input.Keys.PERIOD) || Pad.justAs(Input.Keys.RIGHT)) {
+            grabIndex = Math.min(last, grabIndex + 1);
+        }
+        // The mouse places it too, so this is a drag for anyone who would rather drag: point at
+        // the card you want it to sit on.
+        if (hovered != null && hovered.seat == null && hovered.card.id != grabbedId) {
+            int over = handIndexOf(hovered.card.id);
+            if (over >= 0) grabIndex = over;
+        }
+        if (Keys3D.just(Input.Keys.ESCAPE) || Pad.justAs(Input.Keys.ESCAPE)) {
+            grabbedId = -1;
+            return true;
+        }
+        boolean drop = Keys3D.just(Input.Keys.G) || Keys3D.just(Input.Keys.SPACE)
+            || Keys3D.just(Input.Keys.ENTER) || Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_A)
+            || clickedCard();
+        if (drop) {
+            if (grabIndex != now) Gui3D.reorderHand(grabbedId, grabIndex);
+            grabbedId = -1;
+        }
+        return true;
+    }
+
+    /** Where a card sits in your hand as drawn, or -1 if it is not in it. */
+    int handIndexOf(int cardId) {
+        for (int i = 0; i < snap.hand.size(); i++) if (snap.hand.get(i).id == cardId) return i;
+        return -1;
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */

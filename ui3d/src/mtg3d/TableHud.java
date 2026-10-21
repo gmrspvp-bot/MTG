@@ -1164,7 +1164,15 @@ abstract class TableHud extends TableScene {
     void drawTargetBanner(int w, int h) {
         String line, sub;
         Color c;
-        if (targeting != null && targeting.wired) {
+        if (grabbedId >= 0) {
+            String name = "a card";
+            for (Snapshot.CardV card : snap.hand) if (card.id == grabbedId) name = card.name;
+            line = "Moving " + name + " in your hand   (place " + (grabIndex + 1)
+                + " of " + snap.hand.size() + ")";
+            sub = "left / right  or  the mouse   -   SPACE drops it   -   ESC puts it back"
+                + (Pad.connected() ? "   -   pad: D-pad places, A drops, B cancels" : "");
+            c = new Color(0.95f, 0.85f, 0.45f, 1f);
+        } else if (targeting != null && targeting.wired) {
             // Forge's own words for what it wants, under a plain heading.
             Snapshot.CardV src = source();
             line = src == null ? "Choose targets" : "Choose what " + src.name + " hits";

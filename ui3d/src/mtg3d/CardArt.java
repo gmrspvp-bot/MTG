@@ -42,6 +42,8 @@ public final class CardArt {
 
     private final File root;
     private final Map<String, File> index = new ConcurrentHashMap<>();
+    /** The same pictures under a punctuation-free key, tried only when the exact one misses. */
+    private final Map<String, File> loosely = new ConcurrentHashMap<>();
     private final Map<String, Texture> ready = new HashMap<>();
     /** Frame number each texture was last asked for, which is what drives eviction. */
     private final Map<String, Long> lastUsed = new HashMap<>();
@@ -90,17 +92,20 @@ public final class CardArt {
             if (f.isDirectory()) {
                 scan(f, depth + 1);
             } else {
-                String n = f.getName();
-                int dot = n.indexOf('.');
-                if (dot <= 0) continue;
-                if (!n.endsWith(".jpg") && !n.endsWith(".png")) continue;
-                // "Sol Ring.fullborder.jpg" -> "sol ring". First one found wins; any printing will do.
-                String base = n.substring(0, dot);
-                index.putIfAbsent(key(base), f);
+                String base = baseName(f.getName());
+                if (base == null) continue;
+                put(base, f);
                 // Cards with several arts are saved with a number: "Plains1.fullborder.jpg". The
                 // card is called "Plains", so without this no basic land ever found its picture.
                 String plain = base.replaceFirst("\\d+$", "");
-                if (!plain.isEmpty() && !plain.equals(base)) index.putIfAbsent(key(plain), f);
+                if (!plain.isEmpty() && !plain.equals(base)) put(plain, f);
+                // A split or double-faced card is filed under the whole name ("Wear // Tear"),
+                // but Forge often hands us only the front face. Index both halves.
+                int slash = base.indexOf("//");
+                if (slash > 0) {
+                    put(base.substring(0, slash), f);
+                    put(base.substring(slash + 2), f);
+                }
             }
         }
     }
@@ -135,8 +140,75 @@ public final class CardArt {
     private volatile long lastRescan = System.currentTimeMillis();
     static final long RESCAN_MS = 4000;
 
+    /**
+     * The card name out of a picture file name, or null if it is not a picture.
+     *
+     * It used to cut at the FIRST dot, which is right for "Sol Ring.fullborder.jpg" and wrong for
+     * every card with a dot in its name: "Mr. House, President and CEO.fullborder.jpg" was filed
+     * under "Mr", so Mr. House never found his picture and nor did any other Mr., Dr. or St.
+     * (the owner's board, 2026-10-21). Take the extension off, then the one marker suffix Forge
+     * adds, and keep the rest of the name whole.
+     */
+    private static String baseName(String fileName) {
+        String n = fileName;
+        String lower = n.toLowerCase();
+        if (!lower.endsWith(".jpg") && !lower.endsWith(".jpeg") && !lower.endsWith(".png")) return null;
+        n = n.substring(0, n.lastIndexOf('.'));
+        for (String suffix : MARKERS) {
+            if (n.toLowerCase().endsWith(suffix)) { n = n.substring(0, n.length() - suffix.length()); break; }
+        }
+        n = n.trim();
+        return n.isEmpty() ? null : n;
+    }
+
+    /** What Forge puts between the card name and the extension. */
+    private static final String[] MARKERS = { ".fullborder", ".full", ".border", ".png", ".jpg" };
+
+    /** File a picture under both its plain key and its loose one. First one found wins. */
+    private void put(String name, File f) {
+        String k = key(name);
+        if (k.isEmpty()) return;
+        index.putIfAbsent(k, f);
+        String l = loose(k);
+        if (!l.isEmpty()) loosely.putIfAbsent(l, f);
+    }
+
     private static String key(String name) {
         return name.toLowerCase().trim();
+    }
+
+    /**
+     * The name with everything but letters and digits taken out, for matching across the small
+     * differences between what Forge calls a card and what a file may be called: the comma in
+     * "Mr. House, President and CEO", the colon in "Ratonhnhake:ton", a stray apostrophe, the
+     * accent on "Aether". Only ever used after the exact key has missed, so it can never pull a
+     * picture away from a card that had its own.
+     */
+    private static String loose(String name) {
+        StringBuilder b = new StringBuilder(name.length());
+        for (int i = 0; i < name.length(); i++) {
+            char c = Character.toLowerCase(name.charAt(i));
+            if (c >= 'a' && c <= 'z') b.append(c);
+            else if (c >= '0' && c <= '9') b.append(c);
+            else if (c == 0x00e6) b.append("ae");        // the ligature in AEther / AEtherize
+        }
+        return b.toString();
+    }
+
+    /**
+     * The picture for a card name, trying the exact name, then the front face of a split or
+     * double-faced card, then the loose match. Null when we have nothing.
+     */
+    File fileFor(String name) {
+        if (name == null || name.isEmpty()) return null;
+        File f = index.get(key(name));
+        if (f != null) return f;
+        int slash = name.indexOf("//");
+        if (slash > 0) {
+            f = index.get(key(name.substring(0, slash)));
+            if (f != null) return f;
+        }
+        return loosely.get(loose(name));
     }
 
     /**
@@ -161,7 +233,7 @@ public final class CardArt {
         Texture t = ready.get(k);
         if (t != null) { lastUsed.put(k, frame); return t; }
 
-        File f = index.get(k);
+        File f = fileFor(card.name);
         if (f == null) rescanSoon();
         if (f == null) {
             // No picture cached. Rather than leave a blank block - which is every basic land, and
@@ -186,7 +258,7 @@ public final class CardArt {
     public boolean hasPicture(Snapshot.CardV card) {
         if (card == null || card.faceDown || !indexed) return false;
         if (card.name == null || card.name.isEmpty()) return false;
-        return index.get(key(card.name)) != null;
+        return fileFor(card.name) != null;
     }
 
     /** Decodes or draws on a worker thread, once per key; the Texture is made later, on the GL thread. */
