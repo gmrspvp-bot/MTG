@@ -471,6 +471,7 @@ public final class Table3D extends TableInput {
         if (search != null) {
             search.update(Gdx.graphics.getDeltaTime());
             search.render(ui, shapes, font, fontBig);
+            drawPanelHover();          // over the panel, not under it
         }
         options.update(Gdx.graphics.getDeltaTime());
         options.render(ui, shapes, font, fontBig);

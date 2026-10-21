@@ -121,21 +121,38 @@ abstract class TableHud extends TableScene {
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
-        // A card picked out in a search panel gets the same enlarged card the board gives on
-        // hover - the grid is too small to read, which is the whole reason it was asked for.
-        Snapshot.CardV inPanel = search == null ? null : search.hoveredCard();
-        if (inPanel != null) {
-            Drawn d = new Drawn();
-            d.card = inPanel;
-            Drawn was = hovered;
-            hovered = d;
-            drawDetailPanel(w, h, flat);
-            hovered = was;
-        } else if (hovered != null) {
+        // A card picked out in a search panel is NOT drawn here - the panel itself is drawn after
+        // this whole overlay, so a pop-up raised here came out behind it (the owner, 2026-10-22).
+        // See drawPanelHover, which Table3D calls once the panels are down.
+        if (hovered != null && (search == null || search.hoveredCard() == null)) {
             drawDetailPanel(w, h, flat);
         }
         bug.drawCog(shapes, ui, font, w, h, flat);
         help.drawButton(shapes, w, h, flat);
+    }
+
+    /**
+     * The enlarged card for whatever is picked out inside the search panel, drawn AFTER the panel.
+     *
+     * The grid in the panel is too small to read, which is the whole reason the pop-up was asked
+     * for; drawn with the rest of the overlay it was covered by the very panel it belongs to.
+     * Everything here is one card over the top of a panel that is already finished, so it owns
+     * its own drawing and takes no part in the overlay's batching.
+     */
+    void drawPanelHover() {
+        Snapshot.CardV inPanel = search == null ? null : search.hoveredCard();
+        if (inPanel == null) return;
+        int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
+        Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
+        Drawn d = new Drawn();
+        d.card = inPanel;
+        Drawn was = hovered;
+        hovered = d;
+        try {
+            drawDetailPanel(w, h, flat);
+        } finally {
+            hovered = was;
+        }
     }
 
     /**
