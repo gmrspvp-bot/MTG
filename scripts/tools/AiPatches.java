@@ -116,8 +116,11 @@ public final class AiPatches {
          * for it: the mana is lost, which costs nothing - the permanent untaps a moment later -
          * and until then it stayed available as mana all round. Called from TurnHook.
          */
+        /** -Dforge.dice.puzzlebox=false turns the end-step tap off (for A/B runs). */
+        static final boolean PUZZLEBOX = !"false".equalsIgnoreCase(System.getProperty("forge.dice.puzzlebox", "true"));
+
         static void endStepRolls(forge.game.Game game, forge.game.event.GameEventTurnPhase ev) {
-            if (!enabled || ev.phase() != forge.game.phase.PhaseType.END_OF_TURN) return;
+            if (!enabled || !PUZZLEBOX || ev.phase() != forge.game.phase.PhaseType.END_OF_TURN) return;
             Player next = game.getPhaseHandler().getNextTurn();
             if (next == null || next.hasLost() || !(next.getController() instanceof forge.ai.PlayerControllerAi)) return;
             for (Card c : new java.util.ArrayList<>(next.getCardsIn(forge.game.zone.ZoneType.Battlefield))) {
@@ -446,6 +449,110 @@ public final class AiPatches {
     }
 
     /**
+     * Keeps mana open for dice (the owner's Mr House games, 2026-10-21: about 8.7 dice
+     * activations a game against the AI's 1.4-2.6 - the AI spends every land in its main phases,
+     * so at the end steps, where DiceEngineAi rolls, it had nothing left). While the AI controls
+     * an instant-speed activated ability that rolls a die and costs mana (Mr. House, Treasure
+     * Chest...), enough untapped lands for the cheapest one are held - the same Forge memory set
+     * ManaHold uses, which payment code will not tap - from each turn's start, and let go at every
+     * end step, which is when the AI rolls with them. Only with lands to spare (the cost plus
+     * three), and only lands whose colours the rest of the hand does not need, where possible.
+     * Patch "dice"; -Dforge.dice.hold=false turns it off (for A/B runs). Logged as "DICEHOLD".
+     */
+    static final class DiceHold {
+        static final boolean ON = !"false".equalsIgnoreCase(System.getProperty("forge.dice.hold", "true"));
+        static final java.util.Map<Player, List<Card>> held = new java.util.WeakHashMap<>();
+        /** Between an end step and the next turn's start the hold is off, so the lands can be used. */
+        static volatile boolean endStep;
+
+        static boolean on() { return ON && DiceEngineAi.enabled; }
+
+        static void onEvent(forge.game.Game game, Object ev) {
+            if (!on()) return;
+            if (ev instanceof forge.game.event.GameEventTurnBegan) {
+                endStep = false;
+                for (Player p : game.getPlayers()) hold(p);
+            } else if (ev instanceof forge.game.event.GameEventTurnPhase) {
+                forge.game.phase.PhaseType ph = ((forge.game.event.GameEventTurnPhase) ev).phase();
+                if (ph == forge.game.phase.PhaseType.END_OF_TURN) {
+                    endStep = true;
+                    for (Player p : game.getPlayers()) let(p);
+                } else if (ph == forge.game.phase.PhaseType.MAIN1 || ph == forge.game.phase.PhaseType.MAIN2) {
+                    Player active = game.getPhaseHandler().getPlayerTurn();
+                    if (active != null) hold(active);
+                }
+            }
+        }
+
+        /** After ManaHold cleared the set: remember our lands again, unless we are in an end step. */
+        static void reapply(Player ai) {
+            if (!on() || endStep) return;
+            List<Card> mine = held.get(ai);
+            if (mine == null) return;
+            for (Card c : mine) { if (!c.isTapped()) forge.ai.AiCardMemory.rememberCard(ai, c, ManaHold.HELD); }
+        }
+
+        static void let(Player ai) {
+            List<Card> mine = held.remove(ai);
+            if (mine == null || !(ai.getController() instanceof forge.ai.PlayerControllerAi)) return;
+            for (Card c : mine) forge.ai.AiCardMemory.forgetCard(ai, c, ManaHold.HELD);
+        }
+
+        static void hold(Player ai) {
+            if (ai.hasLost() || !(ai.getController() instanceof forge.ai.PlayerControllerAi)) return;
+            let(ai);
+            List<String> need = null;
+            String what = null;
+            for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                for (SpellAbility sa : c.getSpellAbilities()) {
+                    if (!sa.isActivatedAbility() || sa.isManaAbility() || sa.isPwAbility() || !DiceEngineAi.rollsDice(sa)) continue;
+                    if (sa.getRestrictions() != null && sa.getRestrictions().isSorcerySpeed()) continue;
+                    forge.game.cost.Cost cost = sa.getPayCosts();
+                    if (cost == null || !cost.hasManaCost()) continue;            // free ones need nothing held
+                    if (cost.hasTapCost() && c.isTapped()) continue;
+                    List<String> req = ManaHold.manaNeeded(cost.getTotalMana());
+                    if (req.isEmpty()) continue;
+                    if (need == null || req.size() < need.size()) { need = req; what = c.getName(); }
+                }
+            }
+            if (need == null) return;
+            int landCount = 0;
+            List<Card> lands = new java.util.ArrayList<>();
+            for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                if (!c.isLand()) continue;
+                landCount++;
+                if (!c.isTapped()) lands.add(c);
+            }
+            if (landCount < need.size() + 3 || lands.size() < need.size()) return;
+            java.util.Set<String> otherColours = new java.util.HashSet<>();
+            for (Card c : ai.getCardsIn(forge.game.zone.ZoneType.Hand)) {
+                if (c.isLand()) continue;
+                for (String sym : ManaHold.manaNeeded(c.getManaCost())) { if (!sym.equals("1")) otherColours.add(sym); }
+            }
+            lands.sort((a, b) -> Integer.compare(ManaHold.otherColourCount(a, otherColours), ManaHold.otherColourCount(b, otherColours)));
+            List<Card> pick = new java.util.ArrayList<>();
+            for (String sym : need) {
+                if (sym.equals("1")) continue;
+                Card found = null;
+                for (Card c : lands) { if (!pick.contains(c) && ManaHold.produces(c, sym)) { found = c; break; } }
+                if (found == null) return;
+                pick.add(found);
+            }
+            for (String sym : need) {
+                if (!sym.equals("1")) continue;
+                for (Card c : lands) { if (!pick.contains(c)) { pick.add(c); break; } }
+            }
+            if (pick.size() < need.size()) return;
+            for (Card c : pick) forge.ai.AiCardMemory.rememberCard(ai, c, ManaHold.HELD);
+            held.put(ai, pick);
+            if (ai.getGame().getPhaseHandler().getPhase() == forge.game.phase.PhaseType.MAIN1
+                && ai.getGame().getPhaseHandler().isPlayerTurn(ai)) {
+                System.out.println("DICEHOLD " + ai.getName() + ": " + pick.size() + " lands kept for " + what
+                    + " (turn " + ai.getGame().getPhaseHandler().getTurn() + ")");
+            }
+        }
+    }
+    /**
      * Keeps mana open for a counterspell. Forge's AI spends everything on its own turn, so
      * threats arrive while it is tapped out. While a counterspell is in hand (and there are
      * at least 2 other lands), enough untapped lands for the cheapest one are put in the AI's
@@ -469,7 +576,12 @@ public final class AiPatches {
             lastInfo.put(ai, what + " @" + ai.getGame().getPhaseHandler().getPhase() + " t" + ai.getGame().getPhaseHandler().getTurn());
         }
 
+        /** Every refresh also puts the dice hold back: release() above clears the whole set. */
         static void refresh(Player ai) {
+            try { refreshCounter(ai); } finally { DiceHold.reapply(ai); }
+        }
+
+        static void refreshCounter(Player ai) {
             if (!enabled || !ThreatAwareCounterAi.appliesTo(ai) || !(ai.getController() instanceof forge.ai.PlayerControllerAi)) return;
             release(ai);
             // Hold mana for the cheapest counterspell in hand (what a player would keep up).
@@ -616,6 +728,7 @@ public final class AiPatches {
             if (ev instanceof forge.game.event.GameEventTurnPhase) {
                 try { DiceEngineAi.endStepRolls(game, (forge.game.event.GameEventTurnPhase) ev); } catch (Throwable t) { /* never break the game */ }
             }
+            try { DiceHold.onEvent(game, ev); } catch (Throwable t) { /* never break the game */ }
             if (!ManaHold.enabled) return;
             try {
                 Player active = game.getPhaseHandler().getPlayerTurn();
