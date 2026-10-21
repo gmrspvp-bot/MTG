@@ -372,6 +372,18 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
 
 ---
 
+### Still open from the games of 2026-10-21 (evening)
+
+- [ ] **Artifacts cannot always be tapped for mana.** Reported mid-game, not yet reproduced.
+      Mana payment (`InputPayMana` / `useMana`) is the one input path the 3D table has never
+      owned; a tap that Forge refuses looks identical to one the table never sent. Start by
+      logging what `clickCard` gets back during a payment - the refusal line already names the
+      live input, which is how the turn-50 mystery was finally pinned down.
+- [ ] **SPACE sometimes acts as "skip to end of turn".** Reported alongside the above. Forge's
+      global key hook is gone and the menu path is guarded, so this is a fifth source and should
+      be instrumented rather than guessed at - the first four guesses all cost a game.
+      `AutoPassHook` already prints a stack trace whenever the flag is armed: read that log.
+
 ### Owner's list, 2026-10-21 — not started
 
 Asked for during the first four-player game played from the 3D table. Written down as given,

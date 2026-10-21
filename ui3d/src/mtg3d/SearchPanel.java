@@ -93,6 +93,16 @@ public final class SearchPanel {
         return open;
     }
 
+    /**
+     * The card under the highlight, for the big detail panel the board already draws on hover.
+     * The grid cards are small and the printed text is unreadable at that size - searching a
+     * library meant guessing from the art (the owner, 2026-10-21).
+     */
+    public Snapshot.CardV hoveredCard() {
+        return open && !closing && hoverIndex >= 0 && hoverIndex < items.size()
+            ? items.get(hoverIndex) : null;
+    }
+
     /** Shut it without answering - what it showed has gone (Forge hid the revealed cards). */
     public void close() {
         if (open && !closing) {

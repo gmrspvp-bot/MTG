@@ -983,9 +983,19 @@ abstract class TableInput extends TableHud {
      *     every frame would stack up answers to a decision that has already moved on.
      */
     void autoPassOthersTurns() {
-        if (askResponses || !Gui3D.active() || panelOpen() || Gui3D.pendingAsk() != null) return;
+        if (!Gui3D.active()) return;
         Snapshot.SeatV me = snap.you();
-        if (me == null || !me.hasPriority || me.active) return;
+        // THE HARD SAFEGUARD. On your own turn nothing passes for you - not this toggle, and not
+        // Forge either: any auto-pass it has armed is torn down every frame your turn is running.
+        // The owner has lost whole turns to this four separate ways, and asked that a player must
+        // go through their own phases by hand (2026-10-21). Checked before the toggle is even
+        // read, so no setting can reach past it.
+        if (me != null && me.active) {
+            if (!Gui3D.autoPassing().isEmpty()) Gui3D.stopAutoPass();
+            return;
+        }
+        if (askResponses || panelOpen() || Gui3D.pendingAsk() != null) return;
+        if (me == null || !me.hasPriority) return;
         Gui3D.Prompt p = Gui3D.PROMPT;
         if (!p.okEnabled) return;
         if (!p.okLabel.isEmpty() && !"OK".equalsIgnoreCase(p.okLabel)) return;   // a named question

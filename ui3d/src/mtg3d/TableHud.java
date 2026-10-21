@@ -121,7 +121,19 @@ abstract class TableHud extends TableScene {
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
-        if (hovered != null) drawDetailPanel(w, h, flat);
+        // A card picked out in a search panel gets the same enlarged card the board gives on
+        // hover - the grid is too small to read, which is the whole reason it was asked for.
+        Snapshot.CardV inPanel = search == null ? null : search.hoveredCard();
+        if (inPanel != null) {
+            Drawn d = new Drawn();
+            d.card = inPanel;
+            Drawn was = hovered;
+            hovered = d;
+            drawDetailPanel(w, h, flat);
+            hovered = was;
+        } else if (hovered != null) {
+            drawDetailPanel(w, h, flat);
+        }
         bug.drawCog(shapes, ui, font, w, h, flat);
         help.drawButton(shapes, w, h, flat);
     }
@@ -502,20 +514,21 @@ abstract class TableHud extends TableScene {
             if (named) shapes.setColor(hot ? 0.24f : 0.16f, hot ? 0.64f : 0.48f, hot ? 0.40f : 0.31f, 1f);
             else shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
             shapes.rect(bx, by, okW, btnH);
-            bx -= btnW + gap;
         }
-        // The responses toggle sits with the buttons it governs, not off in the corner panel:
-        // it decides whether you are asked to press them at all.
-        respondBox[0] = bx; respondBox[1] = by; respondBox[2] = btnW; respondBox[3] = btnH;
+        // Hard left, past the prompt text - NOT beside the other buttons. It is a mode, not an
+        // answer, and a mode button within a thumb's width of "End turn" is a turn waiting to be
+        // lost (the owner, 2026-10-21).
+        respondBox[0] = x + 14f; respondBox[1] = by; respondBox[2] = btnW; respondBox[3] = btnH;
         boolean hotR = inRect(respondBox, mx, my);
+        float rbx = respondBox[0];
         if (askResponses) shapes.setColor(hotR ? 0.20f : 0.13f, hotR ? 0.34f : 0.24f, hotR ? 0.46f : 0.33f, 1f);
         else shapes.setColor(hotR ? 0.72f : 0.54f, hotR ? 0.48f : 0.34f, hotR ? 0.18f : 0.12f, 1f);
-        shapes.rect(bx, by, btnW, btnH);
+        shapes.rect(rbx, by, btnW, btnH);
         shapes.end();
         ui.begin();
 
         font.setColor(waiting ? new Color(1f, 0.93f, 0.74f, 1f) : new Color(0.70f, 0.82f, 0.92f, 1f));
-        font.draw(ui, msg, x + 16f, y + bh - 12f, textW, -1, true);
+        font.draw(ui, msg, x + 24f + btnW, y + bh - 12f, textW - btnW - 24f, -1, true);
         // Label and key on one line each, in the normal font: the button is 36 px tall now.
         if (okOn) {
             font.setColor(named ? new Color(0.88f, 1f, 0.92f, 1f) : new Color(0.88f, 0.93f, 1f, 1f));
