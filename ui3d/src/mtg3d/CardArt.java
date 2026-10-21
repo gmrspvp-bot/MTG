@@ -229,11 +229,17 @@ public final class CardArt {
             return null;
         }
         if (card.name == null || card.name.isEmpty()) return null;
-        String k = key(card.name);
+        // Tokens only: real cards are found by name (which also sees pictures card-images.ps1
+        // downloaded), and asking Forge about a card's key it cannot find adds it to Forge's list of
+        // missing pictures for nothing.
+        File keyed = card.token ? fileForKey(card.imageKey) : null;
+        // A token's picture is kept under its own key, so a 3/3 Robot and a Clown Robot, or two
+        // Robots of different sets, never share a texture by name.
+        String k = keyed != null && card.token ? "key:" + card.imageKey : key(card.name);
         Texture t = ready.get(k);
         if (t != null) { lastUsed.put(k, frame); return t; }
 
-        File f = fileFor(card.name);
+        File f = keyed != null ? keyed : fileFor(card.name);
         if (f == null) rescanSoon();
         if (f == null) {
             // No picture cached. Rather than leave a blank block - which is every basic land, and
@@ -258,8 +264,37 @@ public final class CardArt {
     public boolean hasPicture(Snapshot.CardV card) {
         if (card == null || card.faceDown || !indexed) return false;
         if (card.name == null || card.name.isEmpty()) return false;
-        return fileFor(card.name) != null;
+        return (card.token && fileForKey(card.imageKey) != null) || fileFor(card.name) != null;
     }
+
+    /**
+     * The cached picture for Forge's own image key, found the way Forge's window finds it
+     * (ImageKeys.getImageFile). Tokens need this: Forge files them by code -
+     * tokens\PIP\16_c_3_3_a_robot.jpg - so a name lookup for "Robot" never found one and every
+     * token was a drawn stand-in (owner, 2026-10-22: a Mr House board is mostly Robots and
+     * Treasures). A miss is remembered for RESCAN_MS, so Forge is not asked every frame, and
+     * tried again after that in case Forge has downloaded it since. Without Forge (the demo)
+     * this always misses and the name lookup carries on as before.
+     */
+    public File fileForKey(String imageKey) {
+        if (imageKey == null || imageKey.isEmpty()) return null;
+        File f = byKey.get(imageKey);
+        if (f != null) return f;
+        long now = System.currentTimeMillis();
+        Long miss = keyMissAt.get(imageKey);
+        if (miss != null && now - miss < RESCAN_MS) return null;
+        try {
+            f = forge.ImageKeys.getImageFile(imageKey);
+        } catch (Throwable t) {
+            f = null;          // Forge not set up (demo), or a key it cannot read
+        }
+        if (f != null && f.isFile()) { byKey.put(imageKey, f); return f; }
+        keyMissAt.put(imageKey, now);
+        return null;
+    }
+
+    private final Map<String, File> byKey = new ConcurrentHashMap<>();
+    private final Map<String, Long> keyMissAt = new ConcurrentHashMap<>();
 
     /** Decodes or draws on a worker thread, once per key; the Texture is made later, on the GL thread. */
     private void queue(final String k, final java.util.function.Supplier<Pixmap> source) {

@@ -43,8 +43,15 @@ public final class Snapshot {
         public String stackText = "";
         /** A stack item that is an activated or triggered ability rather than a spell. */
         public boolean stackIsAbility;
-        /** A token: no printing exists, so it never has cached art and should look different. */
+        /** A token. Its picture, when Forge has one, is found through imageKey, never by name. */
         public boolean token;
+        /**
+         * Forge's own key for this card's picture ("t:c_3_3_a_robot_pip", or a card's set and
+         * art). CardArt resolves it to the cached file the way Forge's window does, which is the
+         * only way to find a token's picture: those are filed by code, not by name. Blank in the
+         * demo and for anything face down.
+         */
+        public String imageKey = "";
         /**
          * Face down (morph, manifest, cloaked). Nothing identifying is ever filled in for one of
          * these - see StateReader - so there is nothing here that could leak.

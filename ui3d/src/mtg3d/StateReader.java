@@ -579,6 +579,11 @@ public final class StateReader {
             }
             v.commander = cv.isCommander();
             v.token = cv.isToken();
+            try {
+                if (st != null && !v.faceDown) v.imageKey = st.getImageKey() == null ? "" : st.getImageKey();
+            } catch (Throwable ignored) {
+                // no key: the picture is looked up by name instead
+            }
             CardView host = cv.getAttachedTo();
             if (host != null) { v.attachedTo = host.getName(); v.attachedToId = host.getId(); }
 

@@ -117,8 +117,11 @@ Each line: **what to do** -> what should happen.
 
 - [ ] **Browse a graveyard / exile:** click any player's GY or EXI pad -> the cards open in the grid.
 - [ ] **Equipment / auras** sit tucked under the creature they're on.
-- [ ] **Tokens** have a silver frame and a TOKEN banner; **face-down** cards show FACE DOWN and
-      their power/toughness.
+- [ ] **Tokens** show their real picture when Forge has one cached (Mr House's 3/3 Robots and
+      Treasures do); a token with no cached picture has a silver frame and a TOKEN banner instead.
+      **Face-down** cards show FACE DOWN and their power/toughness.
+- [ ] **Card pictures:** after `scripts\card-images.ps1 -Download`, nearly every card in our decks
+      shows its picture; a card still drawn as a stand-in is one Scryfall did not have.
 - [ ] **Command zone:** your commander sits on the bronze pad when it's not on the battlefield,
       with "tax +N" after it's been cast.
 - [ ] **Monarch / initiative / poison / energy** show under the player who has them.
