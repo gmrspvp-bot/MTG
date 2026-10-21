@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Owner's game bugs 2026-10-21: tokens can't attack/block in 3D, menace blocks, Path to Exile search, trigger order (Barbarian Class + Wyll), replacement choice (Academy Manufactor + Mondrak), Dictate of Erebos | Stoneforge | 2026-10-21 | Bug reports 152859-155005. `Gui3D`, `TableInput`/`TableLayout` combat, maybe scripts\tools. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
