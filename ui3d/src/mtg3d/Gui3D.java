@@ -1740,6 +1740,7 @@ public final class Gui3D implements InvocationHandler {
             // answered null, and silently dropped every one of the owner's triggers (Lotho, Clown
             // Car, Mr. House; game of 2026-10-20 23:31). Several options: a choice, nothing filtered.
             boolean clicked = args.length > 2 && args[2] != null;
+            sayWhatWasOffered(host, options, clicked);
             if (!clicked) {
                 if (options.size() == 1) return options.get(0);
             } else if (options.size() == 1 && options.get(0) instanceof forge.game.spellability.SpellAbilityView) {
@@ -1792,6 +1793,38 @@ public final class Gui3D implements InvocationHandler {
     }
 
     /** Forge's own wording for an ability, as its pop-up list shows it ("{T}: Add {W}."). */
+    /**
+     * Name every ability Forge offered for a clicked card, and whether it says each can be played.
+     *
+     * A filter land is "{T}: Add {C}" plus three "{1}, {T}: Add two" abilities, and a player who
+     * clicks one and gets a plain tap cannot tell whether this window picked the wrong one or
+     * Forge only ever offered the one (the owner, mid-game, 2026-10-22). The list settles it, and
+     * it is the kind of question that is impossible to answer afterwards without it.
+     *
+     * Off with -Dforge.ui3d.abilitylog=false.
+     */
+    private static void sayWhatWasOffered(CardView host, java.util.List<?> options, boolean clicked) {
+        if ("false".equalsIgnoreCase(System.getProperty("forge.ui3d.abilitylog", "true"))) return;
+        try {
+            StringBuilder b = new StringBuilder("UI3D: abilities offered for ");
+            b.append(host == null ? "?" : host.getName());
+            b.append(clicked ? " (a click)" : " (no click behind it)").append(":");
+            if (options.isEmpty()) b.append(" none");
+            for (Object o : options) {
+                b.append(nl()).append("    ").append(abilityLabel(o));
+                if (o instanceof forge.game.spellability.SpellAbilityView) {
+                    b.append("   [canPlay=")
+                     .append(((forge.game.spellability.SpellAbilityView) o).canPlay()).append("]");
+                }
+            }
+            System.out.println(b);
+        } catch (Throwable t) {
+            // a diagnostic is never worth a thrown exception
+        }
+    }
+
+    private static String nl() { return System.lineSeparator(); }
+
     static String abilityLabel(Object o) {
         if (o instanceof forge.game.spellability.SpellAbilityView) {
             forge.game.spellability.SpellAbilityView sa = (forge.game.spellability.SpellAbilityView) o;
