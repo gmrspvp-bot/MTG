@@ -146,6 +146,7 @@ abstract class TableLayout extends TableCamera {
             float push = boardPush(seat);
             if (seatPush.length != n) seatPush = new float[n];
             seatPush[i] = push;
+            rowCap = rowLimit(push);        // every row of THIS seat is measured against this
 
             placePlinth(seat, i, angle, push);
             ModelInstance pad = inst(seat.lost ? seatLostModel
@@ -549,8 +550,15 @@ abstract class TableLayout extends TableCamera {
      * owner, 2026-10-21). Everything that measures a row measures it here.
      */
     float rowWidth(List<List<Snapshot.CardV>> groups) {
-        return Math.min(naturalWidth(groups), ROW_MAX);
+        return Math.min(naturalWidth(groups), rowCap);
     }
+
+    /**
+     * The widest a row may be for the seat being laid out right now - set once per seat from
+     * rowLimit(push), because it depends on how far that seat's board has backed away. ROW_MAX
+     * until a seat says otherwise.
+     */
+    float rowCap = ROW_MAX;
 
     /** The row laid side by side with nothing overlapping, however wide that is. */
     private static float naturalWidth(List<List<Snapshot.CardV>> groups) {
@@ -587,7 +595,7 @@ abstract class TableLayout extends TableCamera {
         // Squeezed: every step between cards shrinks by the same factor and the last card keeps
         // its full width, so the row comes out exactly ROW_MAX wide.
         float last = slotFor(groups.get(groups.size() - 1));
-        float squeeze = natural > ROW_MAX && groups.size() > 1 ? (ROW_MAX - last) / (natural - last) : 1f;
+        float squeeze = natural > rowCap && groups.size() > 1 ? (rowCap - last) / (natural - last) : 1f;
         Vector3 origin = rotateY(0f, dist, angle), ahead = rotateY(1f, dist, angle);
         float[] rowDir = { ahead.x - origin.x, ahead.z - origin.z };
         float cursor = -width / 2f;
@@ -818,11 +826,42 @@ abstract class TableLayout extends TableCamera {
     float boardPush(Snapshot.SeatV seat) {
         float widest = 0f;
         for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
-            widest = Math.max(widest, rowWidth(rowGroups(unattached(row))));
+            // The TRUE width, not the capped one - the cap is what we are choosing here.
+            widest = Math.max(widest, naturalWidth(rowGroups(unattached(row))));
         }
-        float easy = ROW_MAX * 0.75f;
-        if (widest <= easy) return 0f;
-        return Math.min(PUSH_MAX, PUSH_MAX * (widest - easy) / (ROW_MAX - easy));
+        // Enough push that the row would fit inside the seat's own wedge, capped. Pushing back
+        // buys width, because the wedge opens out as it goes - which is why this is worth doing
+        // at all rather than only squeezing.
+        float need = 0f;
+        for (float p = 0f; p <= PUSH_MAX + 0.001f; p += 0.1f) {
+            need = p;
+            if (widest <= rowLimit(p)) break;
+        }
+        return Math.min(PUSH_MAX, need);
+    }
+
+    /**
+     * The widest a row may be drawn at this push, so that it stays inside the seat's own wedge of
+     * the table and clear of its own pads.
+     *
+     * Four seats at ninety degrees each: a board is only its own if it stays inside the lines
+     * running out from the middle of the table to the corners. It did not - rows were capped at a
+     * flat width that reached well past them, so late in a game one player's board was drawn over
+     * the next player's, and the coloured frame round it over both (the owner, 2026-10-22). The
+     * wedge opens out with distance, so backing away earns room rather than losing it.
+     */
+    float rowLimit(float push) {
+        float near = ROW_CREATURES + push - CARD_H / 2f - 0.2f;
+        float byWedge = 2f * wedgeHalf(near);
+        return Math.min(ROW_MAX, byWedge);
+    }
+
+    /** Half the width the seat's wedge allows at distance z from the middle, less a margin. */
+    float wedgeHalf(float z) {
+        int n = Math.max(1, snap.seats.size());
+        if (n < 3) return Math.max(0.5f, z * 2f);         // one or two seats: no neighbour to meet
+        float half = z * (float) Math.tan(Math.PI / n);
+        return Math.max(0.5f, half - 0.18f);
     }
 
     /** How high this seat's library, graveyard, exile and command pads float, as its board fills. */
@@ -839,6 +878,10 @@ abstract class TableLayout extends TableCamera {
         }
         float near = ROW_CREATURES + push - CARD_H / 2f - 0.35f;
         float far = ROW_LANDS + push + CARD_H / 2f + 0.35f;
+        // And the slab itself stays in the wedge: its 6-unit minimum is wider than the table
+        // gives a seat at the near end, so without this the BOARD stayed inside the lines and
+        // the thing it stands on did not.
+        widest = Math.min(widest, 2f * wedgeHalf(near) + 0.36f);
         float h = FIELD_RAISE + index * 0.002f;
         Vector3 c = rotateY(0f, (near + far) / 2f, angle);
         ModelInstance inst = inst(plinthModel);
@@ -935,6 +978,12 @@ abstract class TableLayout extends TableCamera {
             float yaw = (float) Math.toDegrees(-angle);
             float lift = zoneLift(i);
             Vector3 w = rotateY(COMMAND_X, COMMAND_Z, angle);
+            if (lift > 0.001f) {
+                ModelInstance stand = inst(zoneStandModel);
+                stand.transform.setToTranslation(w.x, lift / 2f, w.z)
+                    .rotate(Vector3.Y, yaw).scale(1.18f, lift, 1.18f);
+                props.add(stand);
+            }
             ModelInstance pad = inst(commandPadModel);
             pad.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
             props.add(pad);
@@ -967,13 +1016,22 @@ abstract class TableLayout extends TableCamera {
             // seat's cards sit outside their own outline.
             float push = i < seatPush.length ? seatPush[i] : 0f;
             float near = EDGE_NEAR + push, far = EDGE_FAR + push;
-            float lenX = 2f * EDGE_X, lenZ = far - near;
+            // A TRAPEZIUM, not a rectangle: the sides run out along the lines that divide the
+            // table between the seats, so a frame can never cross into a neighbour's half - the
+            // old one was a flat 12.6 wide at every distance and lay over both of them (the
+            // owner, 2026-10-22). It also widens as it goes, which is the shape of the space a
+            // player actually has.
+            float hNear = Math.min(EDGE_X, wedgeHalf(near) + 0.18f);
+            float hFar = Math.min(EDGE_X, wedgeHalf(far) + 0.18f);
             float midZ = (near + far) / 2f;
-            // near and far, running across the seat; then the two sides, the same bar turned.
-            bar(0f, near, lenX, 0f, angle, yaw, c);
-            bar(0f, far, lenX, 0f, angle, yaw, c);
-            bar(-EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
-            bar(EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
+            bar(0f, near, 2f * hNear, 0f, angle, yaw, c);
+            bar(0f, far, 2f * hFar, 0f, angle, yaw, c);
+            // The two sides, each a bar leaning out by however much the frame widens.
+            float run = hFar - hNear, depth = far - near;
+            float side = (float) Math.sqrt(run * run + depth * depth);
+            float lean = (float) Math.toDegrees(Math.atan2(run, depth));
+            bar(-(hNear + hFar) / 2f, midZ, side, 90f - lean, angle, yaw, c);
+            bar((hNear + hFar) / 2f, midZ, side, 90f + lean, angle, yaw, c);
         }
     }
 
@@ -1007,6 +1065,15 @@ abstract class TableLayout extends TableCamera {
             for (int k = 0; k < 3; k++) {
                 Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
                 float yaw = (float) Math.toDegrees(-angle);
+                // The pad stands on something rather than hovering. The stand is what grows
+                // as the board pushes the zone up - a slab floating in mid-air with nothing
+                // under it looked exactly as odd as it sounds (the owner, 2026-10-22).
+                if (lift > 0.001f) {
+                    ModelInstance stand = inst(zoneStandModel);
+                    stand.transform.setToTranslation(w.x, lift / 2f, w.z)
+                        .rotate(Vector3.Y, yaw).scale(1f, lift, 1f);
+                    props.add(stand);
+                }
                 ModelInstance inst = inst(zoneModel);
                 inst.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
                 // The pad shows round the pile as a rim, in the owner's seat colour (the colour of

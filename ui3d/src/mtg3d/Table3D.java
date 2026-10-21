@@ -163,6 +163,11 @@ public final class Table3D extends TableInput {
             new Material(ColorAttribute.createDiffuse(new Color(0.09f, 0.20f, 0.29f, 1f))), attrs);
         // A zone's pile, a little smaller than its pad so the pad shows as a rim. Built white: each
         // instance sets its own colour (library / graveyard / exile) every frame.
+        // The little stand a zone sits on. One unit tall so it can be scaled to whatever
+        // height the board has pushed it to; a touch smaller than the pad, so the pad reads as a
+        // top rather than as a lid.
+        zoneStandModel = builder.createBox(CARD_W * 0.74f, 1f, CARD_H * 0.74f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.07f, 0.13f, 0.18f, 1f))), attrs);
         pileModel = builder.createBox(CARD_W * 0.78f, 1f, CARD_H * 0.78f,
             new Material(ColorAttribute.createDiffuse(Color.WHITE)), attrs);
         // The command zone's pad: a card's size plus a rim, in a dark bronze so it reads as
