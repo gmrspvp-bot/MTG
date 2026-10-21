@@ -495,6 +495,21 @@ abstract class TableBase extends ApplicationAdapter {
      * BEAD_Z sits in the gap between the seat frame (EDGE_NEAR 3.1) and the creature band (3.39),
      * so the tray never lands on a card or on the frame itself.
      */
+    /**
+     * How far back a full board is pushed, and how high its zone pads float as it goes.
+     *
+     * A board that fills its width is drawn closer and closer to the next seat's, and from a
+     * seated view it ends up over the top of their cards and over its own library and graveyard
+     * pads (the owner, 2026-10-22). So a crowded board backs away from the middle of the table
+     * instead, and the pads - which are the things you have to be able to click - rise above the
+     * cards rather than being buried by them.
+     */
+    static final float PUSH_MAX = 0.8f;
+    static final float ZONE_LIFT = 0.52f;
+
+    /** How far each seat's rows have been pushed back this frame, by seat index. */
+    float[] seatPush = new float[0];
+
     static final float BEAD_D = 0.19f;
     static final float BEAD_Z = 3.26f;
     static final float BEAD_STEP = BEAD_D * 1.6f;        // between the six trays

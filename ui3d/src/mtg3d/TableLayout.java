@@ -143,7 +143,11 @@ abstract class TableLayout extends TableCamera {
             // so a player's board never moves out from under them when the view changes.
             float angle = seatAngle(i, n);
 
-            placePlinth(seat, i, angle);
+            float push = boardPush(seat);
+            if (seatPush.length != n) seatPush = new float[n];
+            seatPush[i] = push;
+
+            placePlinth(seat, i, angle, push);
             ModelInstance pad = inst(seat.lost ? seatLostModel
                 : waitingOn(seat) ? seatPriorityModel : seatModel);
             Vector3 c = seatPos(angle, SEAT_DIST);
@@ -153,12 +157,12 @@ abstract class TableLayout extends TableCamera {
             // Three bands per seat, running from the middle of the table outwards: creatures,
             // then other permanents (artifacts, enchantments, planeswalkers), then lands nearest
             // their owner. Each band gets a faint slab so the grouping reads without labelling it.
-            placeBand(seat.creatures, angle, ROW_CREATURES, bandCreature);
-            placeBand(seat.others, angle, ROW_OTHERS, bandOther);
-            placeBand(seat.lands, angle, ROW_LANDS, bandLand);
-            placeRow(seat, seat.creatures, angle, ROW_CREATURES);
-            placeRow(seat, seat.others, angle, ROW_OTHERS);
-            placeRow(seat, seat.lands, angle, ROW_LANDS);
+            placeBand(seat.creatures, angle, ROW_CREATURES + push, bandCreature);
+            placeBand(seat.others, angle, ROW_OTHERS + push, bandOther);
+            placeBand(seat.lands, angle, ROW_LANDS + push, bandLand);
+            placeRow(seat, seat.creatures, angle, ROW_CREATURES + push);
+            placeRow(seat, seat.others, angle, ROW_OTHERS + push);
+            placeRow(seat, seat.lands, angle, ROW_LANDS + push);
         }
         placeManaBeads();
         placeSeatEdges();
@@ -803,13 +807,38 @@ abstract class TableLayout extends TableCamera {
      * areas meet at the table corners, so each plinth is a hair higher than the last - two at
      * exactly the same height would flicker where they overlap.
      */
-    void placePlinth(Snapshot.SeatV seat, int index, float angle) {
+    /**
+     * How far this seat's rows back away from the middle of the table.
+     *
+     * Nothing until a row is three quarters of the width it is allowed, then growing to PUSH_MAX
+     * as it fills. Measured from the widest of the three rows, through the same grouping the row
+     * is laid out with, so a board of twenty Treasures in one pile does not back away for no
+     * reason.
+     */
+    float boardPush(Snapshot.SeatV seat) {
+        float widest = 0f;
+        for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
+            widest = Math.max(widest, rowWidth(rowGroups(unattached(row))));
+        }
+        float easy = ROW_MAX * 0.75f;
+        if (widest <= easy) return 0f;
+        return Math.min(PUSH_MAX, PUSH_MAX * (widest - easy) / (ROW_MAX - easy));
+    }
+
+    /** How high this seat's library, graveyard, exile and command pads float, as its board fills. */
+    float zoneLift(int seatIndex) {
+        if (seatIndex < 0 || seatIndex >= seatPush.length) return 0f;
+        return ZONE_LIFT * seatPush[seatIndex] / PUSH_MAX;
+    }
+
+    void placePlinth(Snapshot.SeatV seat, int index, float angle, float push) {
         float widest = 6f;                                   // never narrower than the seat pad area
         for (List<Snapshot.CardV> row : java.util.Arrays.asList(seat.creatures, seat.others, seat.lands)) {
             // Grouped, exactly as placeRow lays it out - see rowWidth.
             widest = Math.max(widest, rowWidth(rowGroups(unattached(row))) + 1.1f);
         }
-        float near = ROW_CREATURES - CARD_H / 2f - 0.35f, far = ROW_LANDS + CARD_H / 2f + 0.35f;
+        float near = ROW_CREATURES + push - CARD_H / 2f - 0.35f;
+        float far = ROW_LANDS + push + CARD_H / 2f + 0.35f;
         float h = FIELD_RAISE + index * 0.002f;
         Vector3 c = rotateY(0f, (near + far) / 2f, angle);
         ModelInstance inst = inst(plinthModel);
@@ -904,13 +933,14 @@ abstract class TableLayout extends TableCamera {
             Snapshot.SeatV seat = snap.seats.get(i);
             float angle = seatAngle(i, n);
             float yaw = (float) Math.toDegrees(-angle);
+            float lift = zoneLift(i);
             Vector3 w = rotateY(COMMAND_X, COMMAND_Z, angle);
             ModelInstance pad = inst(commandPadModel);
-            pad.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
+            pad.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
             props.add(pad);
             for (int k = 0; k < seat.command.size(); k++) {
                 Vector3 cw = rotateY(COMMAND_X - k * (CARD_W + GAP), COMMAND_Z, angle);
-                add(seat.command.get(k), seat, cw.x, cw.z, yaw);
+                add(seat.command.get(k), seat, cw.x, lift + 0.02f + FIELD_RAISE, cw.z, yaw, 0f);
             }
         }
     }
@@ -933,11 +963,15 @@ abstract class TableLayout extends TableCamera {
             float angle = seatAngle(i, n);
             float yaw = (float) Math.toDegrees(-angle);
             Color c = edgeColour(seat);
-            float lenX = 2f * EDGE_X, lenZ = EDGE_FAR - EDGE_NEAR;
-            float midZ = (EDGE_NEAR + EDGE_FAR) / 2f;
+            // The frame goes back with the board it is drawn round (boardPush), or a crowded
+            // seat's cards sit outside their own outline.
+            float push = i < seatPush.length ? seatPush[i] : 0f;
+            float near = EDGE_NEAR + push, far = EDGE_FAR + push;
+            float lenX = 2f * EDGE_X, lenZ = far - near;
+            float midZ = (near + far) / 2f;
             // near and far, running across the seat; then the two sides, the same bar turned.
-            bar(0f, EDGE_NEAR, lenX, 0f, angle, yaw, c);
-            bar(0f, EDGE_FAR, lenX, 0f, angle, yaw, c);
+            bar(0f, near, lenX, 0f, angle, yaw, c);
+            bar(0f, far, lenX, 0f, angle, yaw, c);
             bar(-EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
             bar(EDGE_X, midZ, lenZ, 90f, angle, yaw, c);
         }
@@ -969,11 +1003,12 @@ abstract class TableLayout extends TableCamera {
             float angle = seatAngle(i, n);
             Snapshot.SeatV s = snap.seats.get(i);
             int[] counts = { s.librarySize, s.graveyardSize, s.exileSize };
+            float lift = zoneLift(i);
             for (int k = 0; k < 3; k++) {
                 Vector3 w = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
                 float yaw = (float) Math.toDegrees(-angle);
                 ModelInstance inst = inst(zoneModel);
-                inst.transform.setToTranslation(w.x, 0.0f, w.z).rotate(Vector3.Y, yaw);
+                inst.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
                 // The pad shows round the pile as a rim, in the owner's seat colour (the colour of
                 // their name over these pads), darkened to sit on the felt - so whose piles these
                 // are reads at a glance, as the owner asked. The pile keeps its zone colour.
@@ -988,7 +1023,7 @@ abstract class TableLayout extends TableCamera {
                 if (h < 0.001f) continue;                       // empty zone: just the pad
                 ModelInstance pile = inst(pileModel);
                 // The pile model is one unit tall and centred, so scale, then lift by half.
-                pile.transform.setToTranslation(w.x, PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
+                pile.transform.setToTranslation(w.x, lift + PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
                 pile.materials.get(0).set(ColorAttribute.createDiffuse(PILE_COLOURS[k]));
                 props.add(pile);
                 // Graveyard and exile are public: their top card lies face up on the pile (the
@@ -999,7 +1034,7 @@ abstract class TableLayout extends TableCamera {
                     com.badlogic.gdx.graphics.Texture tex = art.get(zone.get(0));
                     if (tex != null) {
                         ModelInstance top = inst(faceModel);
-                        top.transform.setToTranslation(w.x, PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
+                        top.transform.setToTranslation(w.x, lift + PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
                         top.materials.get(0).set(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
                         top.materials.get(0).set(FACE_LIT);
                         props.add(top);
@@ -1017,7 +1052,7 @@ abstract class TableLayout extends TableCamera {
     /** Where a zone's count label sits: just above the top of its pile. */
     float pileTop(int seat, int zone) {
         if (seat < 0 || seat >= pileHeight.length) return PAD_TOP;
-        return PAD_TOP + pileHeight[seat][zone];
+        return zoneLift(seat) + PAD_TOP + pileHeight[seat][zone];
     }
 
     static final float PAD_TOP = 0.015f, PILE_PER_CARD = 0.006f;
