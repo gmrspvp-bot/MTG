@@ -403,6 +403,23 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       it. Forge reorders the real zone (`IGameController.reorderHand`), so the order is the
       game's and holds on the host in a joined game.
 
+### Waiting on the Forge UI going away
+
+Things that are only safe once the 3D table is the only window, because each one leaves part of
+the Forge UI stale or blank while it is still on screen.
+
+- [ ] **Stop driving the Forge UI's stack panel (`updateStack`).** Owner approved 2026-10-22,
+      to be done when the Forge UI goes. On 2026-10-22 the Forge rules engine pushed a stack item
+      with no activating player while unfreezing the stack after **Heliod's Intervention**
+      resolved, and its own `GameLogFormatter` threw on the game thread - that killed the game
+      (`Game Result: unfinished`). The Forge UI then threw a *second* NPE on the EDT, in
+      `VStack.updateStack`, over the same half-made item (`getSourceCard()` null), and the bug
+      dialog that followed is a modal on the event thread, which is what actually wedged the
+      window. The engine NPE is not ours to fix; the second one goes away entirely if the Forge
+      UI's stack panel is never driven. The 3D table already draws the stack from the GameView,
+      so taking `updateStack` over costs nothing - except that the Forge UI's own stack panel
+      goes blank, which is why it waits.
+
 ### Card pictures
 
 The table draws out of Forge's own cache, `forge-data\cache\pics\cards`, which Forge only fills
@@ -908,6 +925,21 @@ right to sit in front of.
   since 2026-10-21; pictures downloaded mid-game appear within a few seconds).
 
 ---
+
+## Naming: three different things called "Forge"
+
+Say which one is meant. They fail differently, they are fixed differently, and only one of them
+is on its way out.
+
+| Say | What it is | Can we change it? |
+|---|---|---|
+| **Forge rules engine** | `forge.game.*` - the stack, the phases, combat, priority, what is legal | No. Bugs here are reported and worked around, never patched by us |
+| **Forge card database** | `res/cardsfolder` - the card scripts, what each card actually does | No, except our own fixes in `forge-data\custom\cards` |
+| **Forge UI** | `forge.screens.*`, `CMatchUI`, `VStack`, `FControl` - the Swing window | Yes. This is the part the 3D table is replacing, method by method |
+
+So "the Forge rules engine pushed a stack item with no activating player" and "the Forge UI threw
+in `VStack.updateStack`" are two different problems in one crash, and only the second is ours to
+do anything about. "Forge crashed" says neither.
 
 ## Conventions
 
