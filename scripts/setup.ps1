@@ -216,3 +216,8 @@ if ($NoUi3d) {
 } else {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1') -Ui3d
 }
+
+# Hand the launcher's result back to the .cmd, which decides between "Done" and "did not
+# finish" on it. Without this the script always ended 0 and the window would have reported
+# success over the top of a Forge that never started.
+exit $LASTEXITCODE

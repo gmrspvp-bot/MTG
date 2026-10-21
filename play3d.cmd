@@ -11,8 +11,14 @@ rem   play3d -NoUi3d    Forge's own window only
 rem   play3d -CheckOnly report what is missing and stop
 cd /d "%~dp0"
 powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\setup.ps1" %*
+rem Stay open either way. A window that vanishes the moment it finishes cannot tell you whether
+rem it worked, and the failures that matter most - a jar that will not load, a missing JDK - are
+rem exactly the ones that used to close the window before anyone could read them.
+echo.
 if errorlevel 1 (
-  echo.
   echo Setup did not finish. The message above says what is missing.
-  pause
+) else (
+  echo Done. You can close this window - the game keeps running without it.
 )
+echo.
+pause

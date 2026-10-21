@@ -206,3 +206,14 @@ if ($proc.HasExited) {
     Write-Host "  Errors:   $log.err"
     exit 1
 }
+
+# It is still running four seconds in, which is as close to "it worked" as this can get from
+# out here. Worth saying: Forge takes a while to show its window the first time, and a console
+# that printed "Starting Forge..." and then sat silent looked like a failure when it was not.
+Write-Host ""
+Write-Host "  Forge started." -ForegroundColor Green
+Write-Host "  The 3D table opens in a few seconds - longer on the first run of a new copy," -ForegroundColor DarkGray
+Write-Host "  which reads 34,000 card scripts before it can show you anything." -ForegroundColor DarkGray
+Write-Host ""
+Write-Host "  Closing this window does NOT close the game." -ForegroundColor DarkGray
+Write-Host "  Log: $log" -ForegroundColor DarkGray

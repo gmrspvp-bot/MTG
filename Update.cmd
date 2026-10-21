@@ -8,4 +8,10 @@ rem   Update.cmd -Zip     update from the GitHub zip even in a git clone
 cd /d "%~dp0"
 powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\update.ps1" %*
 echo.
+if errorlevel 1 (
+  echo The update did not finish. The message above says why.
+) else (
+  echo Up to date. Start the game with play3d.
+)
+echo.
 pause
