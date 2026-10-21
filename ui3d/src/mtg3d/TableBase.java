@@ -515,8 +515,17 @@ abstract class TableBase extends ApplicationAdapter {
      * instead, and the pads - which are the things you have to be able to click - rise above the
      * cards rather than being buried by them.
      */
-    /** How far a mat stops short of the line dividing it from the next seat's. */
-    static final float MAT_INSET = 0.16f;
+    /**
+     * How far a mat, and the frame round it, stop short of the line dividing this seat from the
+     * next.
+     *
+     * The frame used to sit ON that line - which belongs to both seats equally, so the moment
+     * the mats grew to the full length of it two neighbouring frames were drawn along the same
+     * line and crossed each other (the owner, 2026-10-22). Each one stays on its own side of it
+     * now, with felt between.
+     */
+    static final float EDGE_INSET = 0.05f;
+    static final float MAT_INSET = 0.30f;
 
     static final float PUSH_MAX = 0.8f;
     static final float ZONE_LIFT = 0.52f;

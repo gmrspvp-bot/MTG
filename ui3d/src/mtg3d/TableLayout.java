@@ -1155,8 +1155,9 @@ abstract class TableLayout extends TableCamera {
             // old one was a flat 12.6 wide at every distance and lay over both of them (the
             // owner, 2026-10-22). It also widens as it goes, which is the shape of the space a
             // player actually has.
-            float hNear = Math.min(EDGE_X, wedgeHalf(near) + 0.18f);
-            float hFar = Math.min(EDGE_X, wedgeHalf(far) + 0.18f);
+            // Inside the dividing line, never on it - see EDGE_INSET.
+            float hNear = wedgeHalf(near) - EDGE_INSET;
+            float hFar = wedgeHalf(far) - EDGE_INSET;
             float midZ = (near + far) / 2f;
             bar(0f, near, 2f * hNear, 0f, angle, yaw, c);
             bar(0f, far, 2f * hFar, 0f, angle, yaw, c);
