@@ -226,8 +226,7 @@ abstract class TableHud extends TableScene {
     float badge(Drawn d, String text, float up, Color colour, GlyphLayout gl,
                         List<float[]> boxes, List<String> texts, List<Color> colours) {
         // Bottom edge is local +Z (towards the card's owner); a little inside it, on the face.
-        Vector3 p = cam.project(new Vector3(CARD_W / 2f - 0.2f, CARD_THICK, CARD_H / 2f - 0.13f)
-            .mul(d.inst.transform));
+        Vector3 p = cam.project(chipCorner(d).mul(d.inst.transform));
         if (p.z > 1f) return up;
         gl.setText(font, text);
         float bw = gl.width + 8f, bh = gl.height + 7f;
@@ -235,6 +234,39 @@ abstract class TableHud extends TableScene {
         texts.add(text);
         colours.add(colour);
         return up + bh + 2f;
+    }
+
+    /**
+     * Where a card's chips go, in the card's own frame: over the printed P/T box (bottom right),
+     * unless the card is in a squeezed row and the next card covers that corner. Then it is
+     * whichever corner lies furthest BACK along the row - the strip that still shows - worked
+     * out in the world, so it is right for a tapped card too.
+     */
+    Vector3 chipCorner(Drawn d) {
+        float x = CARD_W / 2f - 0.2f, z = CARD_H / 2f - 0.13f;
+        float[] dir = d.card == null ? null : squeezed.get(d.card.id);
+        if (dir == null) return new Vector3(x, CARD_THICK, z);
+        // The two corners furthest back along the row are the visible strip's ends; alternate
+        // cards take alternate ends (dir[2]), so neighbouring chips do not run together.
+        java.util.List<Vector3> corners = new java.util.ArrayList<>();
+        final java.util.Map<Vector3, Float> along = new java.util.HashMap<>();
+        Vector3 w = new Vector3();
+        for (float sx : new float[] { -1f, 1f }) {
+            for (float sz : new float[] { -1f, 1f }) {
+                Vector3 local = new Vector3(sx * x, CARD_THICK, sz * z);
+                w.set(local).mul(d.inst.transform);
+                along.put(local, w.x * dir[0] + w.z * dir[1]);
+                corners.add(local);
+            }
+        }
+        corners.sort((p1, p2) -> Float.compare(along.get(p1), along.get(p2)));
+        Vector3 a1 = corners.get(0), a2 = corners.get(1);
+        // Order the two by which is nearer the camera, so "end 0" is the same end on every card
+        // in the row, tapped or not.
+        Vector3 w1 = new Vector3(a1).mul(d.inst.transform), w2 = new Vector3(a2).mul(d.inst.transform);
+        boolean firstIsNear = w1.dst2(cam.position) < w2.dst2(cam.position);
+        Vector3 best = (dir[2] < 0.5f) == firstIsNear ? a1 : a2;
+        return best;
     }
 
     /**

@@ -120,6 +120,11 @@ Each line: **what to do** -> what should happen.
 - [ ] **Tokens** show their real picture when Forge has one cached (Mr House's 3/3 Robots and
       Treasures do); a token with no cached picture has a silver frame and a TOKEN banner instead.
       **Face-down** cards show FACE DOWN and their power/toughness.
+- [ ] **A crowded board** (late game, lots of different permanents): the rows stop before the
+      library / graveyard / exile pads and the command pad and overlap like a fanned hand
+      instead; each card's strip shows its name, and pointing at a strip picks that card.
+      P/T chips and pile counts alternate top and bottom of the strips.
+      (Without a game: `-Dforge.ui3d.demoCrowd=14` on the demo.)
 - [ ] **Card pictures:** after `scripts\card-images.ps1 -Download`, nearly every card in our decks
       shows its picture; a card still drawn as a stand-in is one Scryfall did not have.
 - [ ] **Command zone:** your commander sits on the bronze pad when it's not on the battlefield,

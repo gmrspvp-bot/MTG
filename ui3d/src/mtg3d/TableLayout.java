@@ -112,6 +112,7 @@ abstract class TableLayout extends TableCamera {
         props.clear();
         stacked.clear();
         pileMembers.clear();
+        squeezed.clear();
         seatPick.clear();
         if (snap.seats.isEmpty()) return;
 
@@ -482,27 +483,63 @@ abstract class TableLayout extends TableCamera {
      * owner, 2026-10-21). Everything that measures a row measures it here.
      */
     float rowWidth(List<List<Snapshot.CardV>> groups) {
+        return Math.min(naturalWidth(groups), ROW_MAX);
+    }
+
+    /** The row laid side by side with nothing overlapping, however wide that is. */
+    private static float naturalWidth(List<List<Snapshot.CardV>> groups) {
         if (groups.isEmpty()) return 0f;
         float width = -GAP;
         for (List<Snapshot.CardV> g : groups) width += slotFor(g) + GAP;
         return width;
     }
 
+    /**
+     * The widest a row may be: from just inside the command pad on one side to the same distance
+     * the other way (the library / graveyard / exile pads, on the other side, start further out).
+     * Rows grew without limit, so late in a game the board ran over every one of those pads and
+     * hid them (the owner, 2026-10-22). A row wider than this is squeezed instead: the cards
+     * overlap like a fanned hand, each one showing a strip of the one before it, and each sits a
+     * hair above the last, so the strip you can see is the card you point at.
+     */
+    static final float ROW_MAX = 2f * (-COMMAND_X - (CARD_W + 0.24f) / 2f - 0.15f);
+    /** How much higher each card in a squeezed row sits than the one it overlaps. */
+    static final float SQUEEZE_RISE = 0.003f;
+
+    /**
+     * Cards a squeezed row has partly covered, by id, with the row's direction in the world (x, z):
+     * the strip still showing is the end facing away from it. TableHud puts a card's P/T chip there.
+     */
+    final java.util.Map<Integer, float[]> squeezed = new java.util.HashMap<>();
+
     void placeRow(Snapshot.SeatV seat, List<Snapshot.CardV> cards, float angle, float dist) {
         cards = unattached(cards);
         if (cards.isEmpty()) return;
         List<List<Snapshot.CardV>> groups = rowGroups(cards);
+        float natural = naturalWidth(groups);
         float width = rowWidth(groups);
+        // Squeezed: every step between cards shrinks by the same factor and the last card keeps
+        // its full width, so the row comes out exactly ROW_MAX wide.
+        float last = slotFor(groups.get(groups.size() - 1));
+        float squeeze = natural > ROW_MAX && groups.size() > 1 ? (ROW_MAX - last) / (natural - last) : 1f;
+        Vector3 origin = rotateY(0f, dist, angle), ahead = rotateY(1f, dist, angle);
+        float[] rowDir = { ahead.x - origin.x, ahead.z - origin.z };
         float cursor = -width / 2f;
-        for (List<Snapshot.CardV> g : groups) {
+        for (int gi = 0; gi < groups.size(); gi++) {
+            List<Snapshot.CardV> g = groups.get(gi);
             Snapshot.CardV top = g.get(g.size() - 1);
             float slot = slotFor(g);
             float along = cursor + slot / 2f;
-            cursor += slot + GAP;
+            float step = (slot + GAP) * squeeze;
+            cursor += step;
+            boolean covered = squeeze < 1f && gi < groups.size() - 1;
             Vector3 w = rotateY(along, dist, angle);
             // LibGDX's rotate(Y, deg) is the inverse of the rotation above, hence the minus.
             float yaw = (float) Math.toDegrees(-angle) + (top.tapped ? 90f : 0f);
-            float base = 0.02f + FIELD_RAISE;
+            float base = 0.02f + FIELD_RAISE + (squeeze < 1f ? gi * SQUEEZE_RISE : 0f);
+            // Alternate cards put their chip and pile count at opposite ends of their strip, so two
+            // neighbours' labels never sit side by side on strips narrower than the label.
+            if (covered) squeezed.put(top.id, new float[] { rowDir[0], rowDir[1], gi % 2 });
             // The ones underneath, as faces rather than a block, so the pile still looks like
             // cards. Only the top one is added by id - the rest are scenery, and giving them
             // poses would have them race each other every time the group changes size.
@@ -518,7 +555,10 @@ abstract class TableLayout extends TableCamera {
             }
             add(top, seat, w.x, base + under * STACK_STEP, w.z, yaw, tilt);
             if (g.size() > 1) {
-                stacked.add(new StackedAt(w.x, w.z, base + under * STACK_STEP, g.size()));
+                // The "x12" goes over the part of the pile still showing, not under the next card.
+                Vector3 label = covered
+                    ? rotateY(along - slot / 2f + Math.min(step, slot) / 2f, dist + (gi % 2 == 0 ? 0.35f : -0.35f), angle) : w;
+                stacked.add(new StackedAt(label.x, label.z, base + under * STACK_STEP, g.size()));
                 List<Integer> ids = new ArrayList<>(g.size());
                 for (Snapshot.CardV member : g) ids.add(member.id);
                 pileMembers.put(top.id, ids);

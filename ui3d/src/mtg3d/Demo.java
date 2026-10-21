@@ -272,6 +272,21 @@ public final class Demo {
             s.seats.get(0).creatures.add(h);
         }
 
+        // -Dforge.ui3d.demoCrowd=N: N more different creatures and N more different lands on the
+        // first two seats, so a board wide enough to be squeezed can be looked at (rows used to
+        // run over the graveyard / exile / command pads - the owner, 2026-10-22).
+        int crowd = Integer.getInteger("forge.ui3d.demoCrowd", 0);
+        for (int seatNo = 0; seatNo < Math.min(2, s.seats.size()); seatNo++) {
+            for (int k = 0; k < crowd; k++) {
+                Snapshot.CardV cr = card(tid++, "Crowd Beast " + (k + 1), "Creature - Beast", true, false, "{2}{G}", "");
+                cr.power = String.valueOf(2 + k % 4); cr.toughness = "3";
+                cr.tapped = k % 5 == 3;
+                s.seats.get(seatNo).creatures.add(cr);
+                Snapshot.CardV ld = card(tid++, "Crowd Land " + (k + 1), "Land", false, true, "", "");
+                s.seats.get(seatNo).lands.add(ld);
+            }
+        }
+
         // Designations and night, so the seat marks and the day/night label show.
         s.seats.get(2).marks.add("MONARCH");
         s.seats.get(1).marks.add("INITIATIVE");
