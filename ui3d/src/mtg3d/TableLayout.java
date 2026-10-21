@@ -429,13 +429,33 @@ abstract class TableLayout extends TableCamera {
 
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            float angle = seatAngle(i, n);
-            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
-            // How far round the table this seat is from ours, 0 (us) to 1 (opposite). Straight
-            // out of the seat count rather than out of the geometry, so it is exact.
-            int steps = Math.min(Math.floorMod(i - you, n), Math.floorMod(you - i, n));
-            float away = n <= 1 ? 0f : steps / (float) (n / 2 == 0 ? 1 : n / 2);
-            float lift = 0.42f + 0.62f * away;
+            // Where this screen stands, in OUR frame rather than at its own seat's angle: the
+            // screens are furniture for the person looking at the table, so they are arranged
+            // for that person and not for the player they belong to.
+            //
+            //   ours        nearest, straight in front
+            //   opposite    directly beyond it and raised, so it reads as the same column
+            //               carrying on - "continue on from our closest screen"
+            //   the rest    out to the sides, clear of the middle, because standing between us
+            //               and a neighbour's board is standing in front of their cards (the
+            //               owner, 2026-10-22)
+            int rel = Math.floorMod(i - you, n);
+            boolean opposite = n % 2 == 0 && rel == n / 2;
+            float lx, lz, lift;
+            if (rel == 0) {
+                lx = 0f; lz = MONITOR_DIST; lift = 0.40f;
+            } else if (opposite) {
+                lx = 0f; lz = MONITOR_DIST - 1.60f; lift = 1.12f;
+            } else {
+                // Clockwise from us goes right, anticlockwise left; a bigger table puts the
+                // second and third along each side further out again.
+                boolean right = rel <= n / 2;
+                int rank = right ? rel : n - rel;
+                lx = (right ? 1f : -1f) * (3.10f + (rank - 1) * 1.95f);
+                lz = MONITOR_DIST - 1.25f;
+                lift = 0.70f;
+            }
+            Vector3 w = rotateY(lx, lz, view);
 
             ModelInstance frame = inst(monitorModel);
             frame.transform.setToTranslation(w.x, lift, w.z)
@@ -941,8 +961,11 @@ abstract class TableLayout extends TableCamera {
     void placePlinth(Snapshot.SeatV seat, int index, float angle, float push) {
         float near = ROW_CREATURES + push - CARD_H / 2f - 0.5f;
         float far = ROW_LANDS + push + CARD_H / 2f + 0.5f;
-        float hNear = wedgeHalf(near) + 0.18f;
-        float hFar = wedgeHalf(far) + 0.18f;
+        // INSIDE the wedge line by a margin, so there is bare felt between one player's mat
+        // and the next, and the coloured frame has somewhere to be seen. Mats that met edge to
+        // edge tiled the whole table and hid every frame under themselves.
+        float hNear = wedgeHalf(near) - MAT_INSET;
+        float hFar = wedgeHalf(far) - MAT_INSET;
         Model mat = matModel(index, near, far, hNear, hFar);
         if (mat == null) return;
 
@@ -1183,8 +1206,17 @@ abstract class TableLayout extends TableCamera {
                         .rotate(Vector3.Y, yaw).scale(1f, lift, 1f);
                     props.add(stand);
                 }
+                // A rim round the tray, the same as the command zone's - the owner pointed at
+                // that one and asked for "something like this for each of the card piles". It is
+                // the command pad's own model, scaled down to sit just outside this tray, so the
+                // four zones are one set of furniture rather than three flat patches and a tray.
+                ModelInstance rim = inst(commandPadModel);
+                rim.transform.setToTranslation(w.x, lift - 0.004f, w.z).rotate(Vector3.Y, yaw)
+                    .scale((CARD_W * 0.88f + 0.20f) / (CARD_W + 0.24f), 1f,
+                           (CARD_H * 0.88f + 0.20f) / (CARD_H + 0.24f));
+                props.add(rim);
                 ModelInstance inst = inst(zoneModel);
-                inst.transform.setToTranslation(w.x, lift, w.z).rotate(Vector3.Y, yaw);
+                inst.transform.setToTranslation(w.x, lift + 0.012f, w.z).rotate(Vector3.Y, yaw);
                 // The pad shows round the pile as a rim, in the owner's seat colour (the colour of
                 // their name over these pads), darkened to sit on the felt - so whose piles these
                 // are reads at a glance, as the owner asked. The pile keeps its zone colour.
@@ -1199,7 +1231,7 @@ abstract class TableLayout extends TableCamera {
                 if (h < 0.001f) continue;                       // empty zone: just the pad
                 ModelInstance pile = inst(pileModel);
                 // The pile model is one unit tall and centred, so scale, then lift by half.
-                pile.transform.setToTranslation(w.x, lift + PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
+                pile.transform.setToTranslation(w.x, lift + 0.012f + PAD_TOP + h / 2f, w.z).rotate(Vector3.Y, yaw).scale(1f, h, 1f);
                 pile.materials.get(0).set(ColorAttribute.createDiffuse(PILE_COLOURS[k]));
                 props.add(pile);
                 // Graveyard and exile are public: their top card lies face up on the pile (the
@@ -1210,7 +1242,7 @@ abstract class TableLayout extends TableCamera {
                     com.badlogic.gdx.graphics.Texture tex = art.get(zone.get(0));
                     if (tex != null) {
                         ModelInstance top = inst(faceModel);
-                        top.transform.setToTranslation(w.x, lift + PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
+                        top.transform.setToTranslation(w.x, lift + 0.012f + PAD_TOP + h + 0.004f, w.z).rotate(Vector3.Y, yaw).scale(0.76f, 1f, 0.76f);
                         top.materials.get(0).set(com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(tex));
                         top.materials.get(0).set(FACE_LIT);
                         props.add(top);

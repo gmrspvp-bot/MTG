@@ -57,7 +57,16 @@ abstract class TableBase extends ApplicationAdapter {
     // reach further; nothing laid out on the table moves.
     static final float TABLE_HALF = 14f;
 
-    static final float SEAT_DIST = 6.4f;     // how far a seat's rows sit from the centre
+    /**
+     * How far a seat's rows sit from the middle of the table.
+     *
+     * 6.4 before: the boards began close enough in that the screens, the stack and the four
+     * mats were all competing for the same bit of felt, and a screen set out to one side had
+     * nowhere to stand that was not in front of somebody's cards (the owner, 2026-10-22). This
+     * is the one number that buys room in the middle, and it buys width as well - the wedge a
+     * seat gets opens out with distance, so every board is wider for it too.
+     */
+    static final float SEAT_DIST = 7.3f;
 
     Table3D.Supplier source;      // set once, by Table3D's constructor
 
@@ -506,6 +515,9 @@ abstract class TableBase extends ApplicationAdapter {
      * instead, and the pads - which are the things you have to be able to click - rise above the
      * cards rather than being buried by them.
      */
+    /** How far a mat stops short of the line dividing it from the next seat's. */
+    static final float MAT_INSET = 0.16f;
+
     static final float PUSH_MAX = 0.8f;
     static final float ZONE_LIFT = 0.52f;
 
@@ -565,10 +577,18 @@ abstract class TableBase extends ApplicationAdapter {
      * with clear air either end so the frame never lands on top of a band or a pad - the bands
      * sit at z 3.39..5.21 and 6.79..8.61, the pads at x 4.86..5.74.
      */
-    static final float EDGE_X = 6.3f, EDGE_NEAR = 3.1f, EDGE_FAR = 8.8f;
+    // Tied to SEAT_DIST, not written out: the frame goes round the mat, and the mat is placed
+    // from the rows, which are placed from SEAT_DIST. Fixed numbers here meant that opening the
+    // middle of the table out left the frames behind, round nothing (2026-10-22).
+    static final float EDGE_X = 6.3f;
+    static final float EDGE_NEAR = SEAT_DIST - 3.45f, EDGE_FAR = SEAT_DIST + 2.65f;
 
     /** How thick the frame reads from above, and how far it floats over the felt (top at -0.015). */
-    static final float EDGE_W = 0.09f, EDGE_Y = -0.004f;
+    // ABOVE the mat, not under it. The mat used to be a raised plinth and the frame lay on the
+    // felt beside it; now the mat is a flat wedge at FIELD_RAISE, so a frame at -0.004 was
+    // simply buried - "you have obscured the markers for turn and response" (the owner,
+    // 2026-10-22).
+    static final float EDGE_W = 0.09f, EDGE_Y = 0.126f;      // FIELD_RAISE (0.12) + a hair
 
     /**
      * Whose turn it is, and who the game is actually waiting on. In a four-player game the
