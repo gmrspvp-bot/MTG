@@ -146,6 +146,43 @@ public final class Pad {
         return Gdx.input.isTouched() || clickHeld();
     }
 
+    /**
+     * Pad buttons standing in for keys.
+     *
+     * Read by Keys3D, so every key the table already understands works from the pad without any
+     * panel knowing a controller exists. This is the third time the lesson has been paid for
+     * today - the mouse button, then the panels' touch test - so the mapping lives in exactly
+     * one place and everything else keeps asking the same question it always asked.
+     *
+     *   D-pad      the arrow keys       Start   ENTER (confirm)      B   ESCAPE (close / back)
+     *
+     * A is deliberately NOT ENTER: it is the click, and a button that both clicked whatever was
+     * under the pointer and confirmed the highlighted item would do two things at once in any
+     * panel where several cards are being chosen.
+     */
+    static boolean justAs(int key) {
+        switch (key) {
+            case com.badlogic.gdx.Input.Keys.LEFT:   return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_LEFT);
+            case com.badlogic.gdx.Input.Keys.RIGHT:  return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_RIGHT);
+            case com.badlogic.gdx.Input.Keys.UP:     return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_UP);
+            case com.badlogic.gdx.Input.Keys.DOWN:   return just(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_DOWN);
+            case com.badlogic.gdx.Input.Keys.ENTER:  return just(GLFW.GLFW_GAMEPAD_BUTTON_START);
+            case com.badlogic.gdx.Input.Keys.ESCAPE: return just(GLFW.GLFW_GAMEPAD_BUTTON_B);
+            default: return false;
+        }
+    }
+
+    /** The held form of the same mapping. */
+    static boolean downAs(int key) {
+        switch (key) {
+            case com.badlogic.gdx.Input.Keys.LEFT:   return down(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_LEFT);
+            case com.badlogic.gdx.Input.Keys.RIGHT:  return down(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_RIGHT);
+            case com.badlogic.gdx.Input.Keys.UP:     return down(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_UP);
+            case com.badlogic.gdx.Input.Keys.DOWN:   return down(GLFW.GLFW_GAMEPAD_BUTTON_DPAD_DOWN);
+            default: return false;
+        }
+    }
+
     /** A is the click: held, so the existing "was the button down last frame" tests work. */
     public static boolean clickHeld() {
         return down(GLFW.GLFW_GAMEPAD_BUTTON_A);

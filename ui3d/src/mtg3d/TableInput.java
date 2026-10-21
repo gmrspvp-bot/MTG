@@ -732,6 +732,12 @@ abstract class TableInput extends TableHud {
             System.out.println("UI3D: handing the current decision back to Forge");
         }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
+        // Keys for the three things that were click-only. Nothing should need a mouse: a
+        // controller cannot reach a tickbox in a corner, and neither can someone playing from
+        // the keyboard (the owner, 2026-10-21).
+        if (Keys3D.just(Input.Keys.F1)) help.toggle();
+        if (Keys3D.just(Input.Keys.F2)) { bug.ask(snap); return; }
+        if (Keys3D.just(Input.Keys.F)) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
         if (Keys3D.just(Input.Keys.M) && cues != null) cues.toggleMute();
         if (Keys3D.just(Input.Keys.TAB)) {
             manualOverride = true;
@@ -849,35 +855,35 @@ abstract class TableInput extends TableHud {
      * so a pad can never drift out of step with the rest of the table. The left stick moves the
      * pointer (see Pad), which is what makes A a click on whatever is under it.
      *
-     *   A           the main button - answer, let the stack resolve, end the step
-     *   B           cancel / end turn
+     *   left stick  the pointer        A   click whatever is under it
+     *   D-pad       the arrow keys     Start   ENTER (confirm)      B   ESCAPE (close / back)
      *   X           hand the current decision back to Forge
      *   Y           help
      *   LB / RB     walk round the table
-     *   L3          back to your own seat
+     *   L3          back to your own seat     R3  overhead toggle
      *   triggers    zoom out / in
      *   right stick orbit (x) and overhead-lift (y)
-     *   D-pad L/R   previous / next phase
-     *   Start       overhead toggle      Back     the bug report
+     *
+     * The first three lines are not implemented here: they are keys, mapped in Pad.justAs and
+     * read through Keys3D, so they work in every panel without any panel knowing.
      */
     void padBindings() {
         if (!Pad.connected()) return;
         int n = snap.seats.size();
 
-        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_B) && Gui3D.active()) Gui3D.pressCancel();
+        // B (escape) and the D-pad (arrows) arrive through Keys3D now, so they are not repeated
+        // here - a second copy would fire the action twice.
         if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_X)) {
             Handoff.handBack();
             System.out.println("UI3D: handing the current decision back to Forge (pad)");
         }
         if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_Y)) help.toggle();
         if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_BACK)) { bug.ask(snap); return; }
-        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_START)) {
+        // Start is ENTER (confirm) via Keys3D; the overhead toggle moved to R3 so the two do
+        // not share a button.
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_RIGHT_THUMB)) {
             manualOverride = true;
             manualValue = lift < 0.5f;
-        }
-        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_DPAD_RIGHT) && Gui3D.active()) {
-            if (!Gui3D.nextPhase()) toast("Nothing to pass right now", Gdx.input.getX(),
-                Gdx.graphics.getHeight() - Gdx.input.getY());
         }
         if (n > 0) {
             if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_LEFT_BUMPER)) step(+1, n);

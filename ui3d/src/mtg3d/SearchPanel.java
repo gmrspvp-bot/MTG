@@ -56,6 +56,9 @@ public final class SearchPanel {
 
     private float scroll;
     private int hoverIndex = -1;
+    /** True while the arrow keys own the highlight; the mouse takes it back when it moves. */
+    private boolean keyPicking;
+    private float lastMx = -1f, lastMy = -1f;
     private boolean okHover, cancelHover;
     private boolean prevTouch;
 
@@ -268,13 +271,57 @@ public final class SearchPanel {
         if (scroll < 0f) scroll = 0f;
         if (scroll > maxScroll) scroll = maxScroll;
 
-        hoverIndex = -1;
-        for (int i = 0; i < items.size(); i++) {
-            float[] r = slot(i, cols, px, gridY, gridH, w);
-            if (r == null) continue;
-            if (mx >= r[0] && mx <= r[0] + CARD_W && my >= r[1] && my <= r[1] + CARD_H) {
-                hoverIndex = i;
-                break;
+        // The keyboard owns the highlight while it is being used, and the mouse takes it back
+        // the moment the mouse moves. Without that, a pointer resting over a card dragged the
+        // highlight back from wherever the arrow keys had put it, every frame.
+        boolean mouseMoved = mx != lastMx || my != lastMy;
+        lastMx = mx; lastMy = my;
+        if (mouseMoved) keyPicking = false;
+
+        if (!keyPicking) {
+            hoverIndex = -1;
+            for (int i = 0; i < items.size(); i++) {
+                float[] r = slot(i, cols, px, gridY, gridH, w);
+                if (r == null) continue;
+                if (mx >= r[0] && mx <= r[0] + CARD_W && my >= r[1] && my <= r[1] + CARD_H) {
+                    hoverIndex = i;
+                    break;
+                }
+            }
+        }
+
+        // Arrow keys move the highlight, ENTER takes it, SPACE toggles when several are wanted.
+        // Searching a library with no mouse was impossible before this - ESC was the only key
+        // the panel had, so a controller or a keyboard alone could open the panel and then not
+        // answer it (the owner, 2026-10-21: "we shouldn't have buttons that can only be passed
+        // with a mouse click").
+        if (!items.isEmpty()) {
+            int moved = -1;
+            if (Keys3D.just(Input.Keys.RIGHT)) moved = Math.min(items.size() - 1, Math.max(0, hoverIndex) + 1);
+            if (Keys3D.just(Input.Keys.LEFT))  moved = Math.max(0, Math.max(0, hoverIndex) - 1);
+            if (Keys3D.just(Input.Keys.DOWN))  moved = Math.min(items.size() - 1, Math.max(0, hoverIndex) + cols);
+            if (Keys3D.just(Input.Keys.UP))    moved = Math.max(0, Math.max(0, hoverIndex) - cols);
+            if (Keys3D.just(Input.Keys.HOME))  moved = 0;
+            if (Keys3D.just(Input.Keys.END))   moved = items.size() - 1;
+            if (moved >= 0) {
+                keyPicking = true;
+                hoverIndex = moved;
+                // Keep the highlight on screen: the grid scrolls to it rather than the other way.
+                int row = hoverIndex / cols;
+                float top = row * (CARD_H + PAD);
+                if (top < scroll) scroll = top;
+                else if (top + CARD_H + PAD > scroll + gridH) scroll = top + CARD_H + PAD - gridH;
+            }
+            if (Keys3D.just(Input.Keys.ENTER) || Keys3D.just(Input.Keys.NUMPAD_ENTER)) {
+                if (maxPick <= 0) { finish(false); return; }                 // browsing: ENTER closes
+                if (hoverIndex >= 0 && !picked.contains(hoverIndex) && picked.size() < maxPick) {
+                    picked.add(hoverIndex);
+                }
+                if (picked.size() >= minPick) { finish(false); return; }
+            }
+            if (Keys3D.just(Input.Keys.SPACE) && maxPick > 0 && hoverIndex >= 0) {
+                if (picked.contains(hoverIndex)) picked.remove(hoverIndex);
+                else if (picked.size() < maxPick) picked.add(hoverIndex);
             }
         }
 
