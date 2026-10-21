@@ -530,6 +530,16 @@ abstract class TableBase extends ApplicationAdapter {
     /** Where each seat's panel of the centre screen ended up, for the readout drawn over it. */
     final java.util.List<float[]> monitorAt = new java.util.ArrayList<>();
 
+    /**
+     * One mat mesh per seat, the shape of that seat's wedge of the table.
+     *
+     * A trapezium cannot be made by scaling a rectangle, so each is its own small mesh - four
+     * corners, built when its size changes and kept until it changes again. Which is rarely: a
+     * mat only changes shape when the board behind it backs away (boardPush) or a player leaves.
+     */
+    Model[] matModels = new Model[0];
+    float[][] matShape = new float[0][];
+
     static final float BEAD_D = 0.19f;
     static final float BEAD_Z = 3.26f;
     static final float BEAD_STEP = BEAD_D * 1.6f;        // between the six trays

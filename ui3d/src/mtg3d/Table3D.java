@@ -589,6 +589,9 @@ public final class Table3D extends TableInput {
         seatGlowModel.dispose();
         stackFrameModel.dispose();
         tableModel.dispose();
+        // The per-seat mats are built on the fly (TableLayout.matModel), so they are the
+        // one set of models this class did not create and still has to let go of.
+        for (Model m : matModels) if (m != null) m.dispose();
         feltModel.dispose();
         floorModel.dispose();
         railModel.dispose();

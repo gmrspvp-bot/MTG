@@ -402,42 +402,49 @@ abstract class TableLayout extends TableCamera {
      * turn it is, cyan for your own, steel blue otherwise - and is still what you click to pick
      * that player.
      */
+    /**
+     * A screen for each player, standing in front of that player's own board - so whose it is
+     * needs no working out - but every one of them turned square on to whoever is sitting at
+     * THIS client.
+     *
+     * One merged screen was tried first and the owner's objection was immediate and right: four
+     * panels in a row say nothing about which player each belongs to. Position is what identifies
+     * them, and position is exactly what a screen in front of each seat already had.
+     *
+     * What was wrong before was only the facing. Each screen used to face its own player, so
+     * three quarters of the table was edge-on or back-to-front from where you sat. They all face
+     * you now, and because everybody runs their own client, on the next machine they all face
+     * that player instead.
+     *
+     * The far screen - the seat opposite - is raised, and the two beside you a little, so the
+     * row nearest you does not hide the rest. Nobody's own screen is in their way.
+     */
     void placeMonitors() {
         int n = snap.seats.size();
         if (n == 0) return;
         monitorAt.clear();
-        float view = seatAngle(Math.max(0, snap.youIndex()), n);
-        Vector3 w = rotateY(0f, MONITOR_DIST, view);
+        int you = Math.max(0, snap.youIndex());
+        float view = seatAngle(you, n);
         float yaw = (float) Math.toDegrees(-view);
-
-        float panel = 2.15f;                       // one player's share of the glass
-        float wide = n * panel + 0.22f;            // the case, with a rim round the panels
-        ModelInstance frame = inst(monitorModel);
-        frame.transform.setToTranslation(w.x, 0.42f, w.z)
-            .rotate(Vector3.Y, yaw)
-            .rotate(Vector3.X, 34f)
-            .scale(wide / 2.7f, 1f, 1f);
-        props.add(frame);
-
-        // Two legs rather than one, now that the case is as wide as the table's middle.
-        for (int leg = 0; leg < 2; leg++) {
-            Vector3 lp = rotateY((leg == 0 ? -1f : 1f) * (wide / 2f - 0.5f), MONITOR_DIST, view);
-            ModelInstance stand = inst(standModel);
-            stand.transform.setToTranslation(lp.x, 0.21f - 0.015f, lp.z).rotate(Vector3.Y, yaw);
-            props.add(stand);
-        }
 
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            float across = (i - (n - 1) / 2f) * panel;
-            ModelInstance glass = inst(screenModel);
-            // Set up in the case's own frame, so the panel lies on the tilted face rather than
-            // beside it: turn and tilt first, then step across and lift off the surface.
-            glass.transform.setToTranslation(w.x, 0.42f, w.z)
+            float angle = seatAngle(i, n);
+            Vector3 w = rotateY(0f, MONITOR_DIST, angle);
+            // How far round the table this seat is from ours, 0 (us) to 1 (opposite). Straight
+            // out of the seat count rather than out of the geometry, so it is exact.
+            int steps = Math.min(Math.floorMod(i - you, n), Math.floorMod(you - i, n));
+            float away = n <= 1 ? 0f : steps / (float) (n / 2 == 0 ? 1 : n / 2);
+            float lift = 0.42f + 0.62f * away;
+
+            ModelInstance frame = inst(monitorModel);
+            frame.transform.setToTranslation(w.x, lift, w.z)
                 .rotate(Vector3.Y, yaw)
-                .rotate(Vector3.X, 34f)
-                .translate(across, 0.035f, 0f)
-                .scale((panel - 0.09f) / 2.52f, 1f, 1f);
+                .rotate(Vector3.X, 34f);
+            props.add(frame);
+
+            ModelInstance glass = inst(screenModel);
+            glass.transform.set(frame.transform).translate(0f, 0.035f, 0f);
             Color tint = s.lost ? SCREEN_OUT : s.active ? SCREEN_ACTIVE : s.isYou ? SCREEN_YOU : SCREEN_OTHER;
             // Dim glass: the life total is drawn over it in a bright colour of the same family,
             // so the screen must stay dark enough for that to read.
@@ -445,14 +452,21 @@ abstract class TableLayout extends TableCamera {
             glass.materials.get(0).set(ColorAttribute.createEmissive(tint.r * 0.30f, tint.g * 0.30f, tint.b * 0.30f, 1f));
             props.add(glass);
 
-            // Where this player's readout is drawn (TableHud.drawCentreTracker), and what you
-            // click to choose them.
+            // The stand reaches from the felt to wherever the screen has been lifted to.
+            ModelInstance stand = inst(standModel);
+            float standH = Math.max(0.1f, lift - 0.21f);
+            stand.transform.setToTranslation(w.x, standH / 2f - 0.015f, w.z)
+                .rotate(Vector3.Y, yaw)
+                .scale(1f, standH / 0.42f, 1f);
+            props.add(stand);
+
             Vector3 at = new Vector3();
             glass.transform.getTranslation(at);
             monitorAt.add(new float[] { at.x, at.y, at.z });
+            // Each player's own screen doubles as the thing you click to pick that player.
             BoundingBox box = new BoundingBox();
-            glass.calculateBoundingBox(box);
-            box.mul(glass.transform);
+            frame.calculateBoundingBox(box);
+            box.mul(frame.transform);
             seatPick.add(box);
         }
     }
@@ -916,27 +930,66 @@ abstract class TableLayout extends TableCamera {
         return ZONE_LIFT * seatPush[seatIndex] / PUSH_MAX;
     }
 
+    /**
+     * A player's mat: the whole of their wedge of the table, in that shape.
+     *
+     * It was a rectangle, which is not the shape of the space a seat has - the table gives each
+     * player a wedge that opens out as it goes, and a rectangle laid in one either wastes the
+     * far corners or runs over the lines at the near end (the owner, 2026-10-22). The mat is the
+     * wedge now: narrow where it meets the middle of the table, wide at the player's own edge.
+     */
     void placePlinth(Snapshot.SeatV seat, int index, float angle, float push) {
         float near = ROW_CREATURES + push - CARD_H / 2f - 0.5f;
         float far = ROW_LANDS + push + CARD_H / 2f + 0.5f;
-        // As wide as the player's own wedge of the table allows at its narrow end, always -
-        // rather than only as wide as what happens to be on it. A mat is a mat: it is the same
-        // size whether you have two permanents or twenty, and giving each player the whole of
-        // their own space is what makes the table read as four places rather than as some
-        // rectangles (the owner, 2026-10-22).
-        float widest = 2f * wedgeHalf(near) + 0.36f;
-        float h = FIELD_RAISE + index * 0.002f;
-        Vector3 c = rotateY(0f, (near + far) / 2f, angle);
-        ModelInstance inst = inst(plinthModel);
-        inst.transform.setToTranslation(c.x, -0.015f + h / 2f, c.z)
-            .rotate(Vector3.Y, (float) Math.toDegrees(-angle))
-            .scale(widest, h, far - near);
+        float hNear = wedgeHalf(near) + 0.18f;
+        float hFar = wedgeHalf(far) + 0.18f;
+        Model mat = matModel(index, near, far, hNear, hFar);
+        if (mat == null) return;
+
+        ModelInstance inst = inst(mat);
+        // Built in the seat's own frame (x across, z out from the middle), so the instance only
+        // has to be turned to the seat's angle and lifted onto the felt.
+        inst.transform.setToTranslation(0f, FIELD_RAISE - 0.004f + index * 0.0015f, 0f)
+            .rotate(Vector3.Y, (float) Math.toDegrees(-angle));
         // The same leather, dyed per player: the shader multiplies this through the texture, so
         // the grain stays and only the colour changes. A seat that is out goes grey.
         Color tint = MAT_TINTS[index % MAT_TINTS.length];
         if (seat.lost) inst.materials.get(0).set(ColorAttribute.createDiffuse(0.42f, 0.40f, 0.40f, 1f));
         else inst.materials.get(0).set(ColorAttribute.createDiffuse(tint));
         props.add(inst);
+    }
+
+    /**
+     * The mat mesh for a seat, rebuilt only when its shape actually changes.
+     *
+     * Four corners and one quad. Corner order follows the felt's own (far edge first, then back
+     * towards the middle of the table) so the face points up and is lit like everything else.
+     */
+    private Model matModel(int index, float near, float far, float hNear, float hFar) {
+        int n = snap.seats.size();
+        if (matModels.length != n) {
+            for (Model m : matModels) if (m != null) m.dispose();
+            matModels = new Model[n];
+            matShape = new float[n][];
+        }
+        if (index < 0 || index >= n) return null;
+        float[] want = { near, far, hNear, hFar };
+        float[] have = matShape[index];
+        boolean same = have != null;
+        if (same) for (int k = 0; k < 4; k++) if (Math.abs(have[k] - want[k]) > 0.004f) same = false;
+        if (same && matModels[index] != null) return matModels[index];
+
+        if (matModels[index] != null) matModels[index].dispose();
+        Material mat = new Material(
+            com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute.createDiffuse(leatherTex),
+            ColorAttribute.createSpecular(0.10f, 0.10f, 0.11f, 1f),
+            com.badlogic.gdx.graphics.g3d.attributes.FloatAttribute.createShininess(8f));
+        matModels[index] = builder.createRect(
+            -hFar, 0f, far,   hFar, 0f, far,   hNear, 0f, near,   -hNear, 0f, near,
+            0f, 1f, 0f, mat,
+            Usage.Position | Usage.Normal | Usage.TextureCoordinates);
+        matShape[index] = want;
+        return matModels[index];
     }
 
     static final Color SCREEN_ACTIVE = new Color(0.42f, 0.28f, 0.08f, 1f), SCREEN_YOU = new Color(0.16f, 0.42f, 0.50f, 1f),

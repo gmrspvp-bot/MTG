@@ -116,7 +116,14 @@ public final class StateReader {
             PlayerView turn = gv.getPlayerTurn();
             s.phase = gv.getPhase() == null ? "" : pretty(gv.getPhase().toString());
             s.phaseKey = gv.getPhase() == null ? "" : gv.getPhase().name();
-            s.turnLabel = "Turn " + gv.getTurn() + (turn == null ? "" : " - " + turn.getName());
+            // Rounds, not turns. Forge counts every player's turn, so a four-player game is on
+            // "turn 21" when it has been round the table five times - a number nobody at the
+            // table thinks in (the owner, 2026-10-22). A round is one time round the table, and
+            // the turn within it says how far through that round we are.
+            int played = gv.getTurn();
+            int seats = Math.max(1, order.size());
+            int round = (played - 1) / seats + 1;
+            s.turnLabel = "Round " + round + (turn == null ? "" : " - " + turn.getName());
 
             if (game != null) {
                 try {

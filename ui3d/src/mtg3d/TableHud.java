@@ -1492,7 +1492,7 @@ abstract class TableHud extends TableScene {
             // The overhead stack lies over the screen; the readout would print over the cards.
             // The same numbers are on the scoreboard panel and by each seat.
             if (underFlatStack(at[0], at[2])) continue;
-            Vector3 p = cam.project(new Vector3(at[0], at[1] + 0.20f, at[2]));
+            Vector3 p = cam.project(new Vector3(at[0], at[1] + 0.18f, at[2]));
             if (p.z > 1f) continue;                       // behind the camera
 
             // The commander's picture, if Forge has it cached. A missing one just leaves the
