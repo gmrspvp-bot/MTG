@@ -1987,11 +1987,15 @@ public final class Gui3D implements InvocationHandler {
             // they count too, marked as such. Without this the tally said "the 3D window handled
             // everything" while the owner was being pulled to Forge's zone window again and again
             // (Xenil's Claude's finding, 2026-10-21).
+            // Taken over first, and on the BARE name: the mark is appended below, and once it
+            // is, TAKEN_OVER can never match - so a window pop we now answer ourselves was
+            // still being tallied as one Forge had opened. openZones is the case: it is
+            // swallowed, Forge's window never appears, and counting it said otherwise.
+            if (TAKEN_OVER.contains(n)) return;
             if (m.getReturnType() == void.class) {
                 if (!WINDOW_POPS.contains(n)) return;
                 n = n + " (Forge window)";
             }
-            if (TAKEN_OVER.contains(n)) return;
             if (n.startsWith("get") || n.startsWith("is") || n.startsWith("has")) return;
             synchronized (FALLBACKS) {
                 // (n for a void pop-up already carries its " (Forge window)" mark)

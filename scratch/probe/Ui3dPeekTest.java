@@ -51,7 +51,14 @@ public class Ui3dPeekTest {
             check("it is Rosa's hand, not ours", peek.title.startsWith("Rosa") && peek.items.size() == 2,
                 peek.title + ", " + peek.items.size() + " cards");
         }
-        check("counted as a Forge window", Gui3D.fallbackSummary().contains("openZones (Forge window)"), Gui3D.fallbackSummary());
+        // Changed by Xenil's Claude, 2026-10-21: openZones is now TAKEN OVER, not merely
+        // mirrored - the mirror has the cards, so Forge's floating window is swallowed and
+        // never appears. It is therefore no longer a Forge window pop, and counting it as one
+        // would put a line in every bug report saying the player had been sent to a window
+        // they were not sent to. The assertion is inverted rather than deleted so the next
+        // person can see which way round it is meant to be.
+        check("NOT counted as a Forge window (we swallow it)",
+            !Gui3D.fallbackSummary().contains("openZones"), Gui3D.fallbackSummary());
 
         System.out.println(pass ? "PASS" : "FAIL");
         System.exit(pass ? 0 : 1);
