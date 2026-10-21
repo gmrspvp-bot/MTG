@@ -183,5 +183,26 @@ if ($Ui3d) {
 $argLine = "$JvmArgs -Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
            "$ui3dArg-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar$ui3dCp`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
-Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `
-    -RedirectStandardOutput $log -RedirectStandardError "$log.err" -WindowStyle Hidden | Out-Null
+# PassThru so we can tell whether it actually got going. Java is started hidden with its output
+# redirected to a file, so when it dies in the first second - a bad classpath, a jar that will not
+# load, a JVM option this machine rejects - the launcher used to print "Starting Forge..." and
+# then nothing at all, and the window closed with the reason sitting unread in a log file
+# (a friend's machine, 2026-10-21).
+$proc = Start-Process -FilePath $java -ArgumentList $argLine -WorkingDirectory $forgeDir `
+    -RedirectStandardOutput $log -RedirectStandardError "$log.err" -WindowStyle Hidden -PassThru
+Start-Sleep -Seconds 4
+if ($proc.HasExited) {
+    Write-Host ""
+    Write-Host "  Forge stopped immediately (exit code $($proc.ExitCode))." -ForegroundColor Red
+    Write-Host "  The last lines it printed:" -ForegroundColor Red
+    foreach ($f in @("$log.err", $log)) {
+        if (-not (Test-Path $f)) { continue }
+        $tail = Get-Content $f -Tail 12 -ErrorAction SilentlyContinue |
+                Where-Object { $_ -and $_ -notmatch "not assigned to any set|Upcoming set" }
+        if ($tail) { $tail | ForEach-Object { Write-Host "    $_" } ; break }
+    }
+    Write-Host ""
+    Write-Host "  Full log: $log"
+    Write-Host "  Errors:   $log.err"
+    exit 1
+}
