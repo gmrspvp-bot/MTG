@@ -425,10 +425,17 @@ abstract class TableHud extends TableScene {
         // end of the step. The owner asked to be able to tell those two apart - "I want to be
         // clear if all I am allowing is the current iteration of stack to resolve".
         // The pad's buttons are named on screen only when one is plugged in: a mouse player
-        // should not be reading about buttons they do not have (the owner, 2026-10-21 - the
-        // on-screen buttons said nothing about the controller at all).
-        String padMain = Pad.connected() ? "  or  A" : "";
-        String padOther = Pad.connected() ? "  or  X" : "";
+        // should not be reading about buttons they do not have.
+        //
+        // This bar belongs to the BOARD, where A plays the card the stick has picked out - so
+        // the button that moves the game on is the D-pad, not A. A is the primary only while a
+        // panel is covering the board (Pad.panelMode), and this bar is not a panel. Labelling it
+        // "A" was copied from the panel mapping and was simply wrong (the owner, 2026-10-21).
+        String padMain = Pad.connected() ? "  or  D-pad >" : "";
+        // End turn has no pad button on purpose. It arms an auto-pass for the rest of the turn,
+        // which has cost this game several turns already, and it does not belong on a face
+        // button that can be caught with a thumb.
+        String padOther = "";
         boolean named = !okLabel.isEmpty() && !"OK".equalsIgnoreCase(okLabel);
         String topOfStack = snap.stack.isEmpty() ? ""
             : shortName(snap.stack.get(snap.stack.size() - 1).name);
