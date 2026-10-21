@@ -158,7 +158,7 @@ public final class NumberPicker {
         if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
         if (Keys3D.just(Input.Keys.LEFT) || Keys3D.just(Input.Keys.DOWN)) value = Math.max(min, value - 1);
         if (Keys3D.just(Input.Keys.RIGHT) || Keys3D.just(Input.Keys.UP)) value = Math.min(max, value + 1);
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
         if (!clicked) return;

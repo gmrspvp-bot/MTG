@@ -282,7 +282,7 @@ public final class SearchPanel {
         cancelHover = maxPick > 0 && mx >= px + w - 255f && mx <= px + w - 185f
             && my >= py + 18f && my <= py + 44f;
 
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
 

@@ -93,7 +93,7 @@ public final class TextPanel {
         float mx = Gdx.input.getX(), my = sh - Gdx.input.getY();
         okHover = mx >= bx + bw + 14f && mx <= bx + 2 * bw + 14f && my >= by && my <= by + bh;
         cancelHover = mx >= bx && mx <= bx + bw && my >= by && my <= by + bh;
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         if (touch && !prevTouch) {
             if (okHover) finish(false);
             else if (cancelHover) finish(true);

@@ -218,7 +218,7 @@ public final class DamagePanel {
         if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
         if (Keys3D.just(Input.Keys.A)) auto();
         if (Keys3D.just(Input.Keys.ENTER) && remaining() == 0) { finish(false); return; }
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
         if (!clicked) return;

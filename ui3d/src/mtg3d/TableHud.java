@@ -57,6 +57,13 @@ abstract class TableHud extends TableScene {
         font.setColor(0.45f, 0.62f, 0.75f, 1f);
         font.draw(ui, mode, 14, 38);
         font.setColor(0.35f, 0.50f, 0.62f, 1f);
+        // Whether a controller was found at all. Without this the only way to tell a pad that
+        // is not detected from a binding that is wrong is to guess (the owner, 2026-10-21).
+        if (Pad.connected()) {
+            font.setColor(0.55f, 0.85f, 0.65f, 1f);
+            font.draw(ui, "controller ready - A clicks", 14, 56);
+            font.setColor(0.35f, 0.50f, 0.62f, 1f);
+        }
         font.draw(ui, "A / D  walk round the table      S  back to your seat      W  overhead      N or ->  next phase      TAB  camera"
             + "      NUM 1-6  view   (SHIFT+7/8/9 saves)      right-drag  orbit      middle-drag  move      wheel  zoom      M  sound      H  hand back "
             + (cues != null && cues.muted() ? "(off)" : "(on)"), 14, 18);

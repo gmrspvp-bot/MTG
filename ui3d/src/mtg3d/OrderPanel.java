@@ -217,7 +217,7 @@ public final class OrderPanel {
         cancelHover = mx >= px + pw - 185f && mx <= px + pw - 115f && my >= py + 8f && my <= py + 32f;
         if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
         if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean down = touch && !prevTouch, up = !touch && prevTouch;
         prevTouch = touch;
         if (down) {

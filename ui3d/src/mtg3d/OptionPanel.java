@@ -339,7 +339,7 @@ public final class OptionPanel {
             int i = indexAt(k / lCols, k % lCols);
             if (i >= 0) { toggle(i); return; }
         }
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
         if (!clicked) return;

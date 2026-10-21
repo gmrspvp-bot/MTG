@@ -152,7 +152,7 @@ public final class EndScreen {
             if (mx >= bx && mx <= bx + btnW && my >= btnY && my <= btnY + btnH) hoverBtn = b;
         }
         if (Keys3D.just(Input.Keys.ESCAPE)) { closing = true; return; }
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
         if (clicked && hoverBtn >= 0) {

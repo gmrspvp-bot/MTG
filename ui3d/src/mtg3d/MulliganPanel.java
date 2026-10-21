@@ -194,7 +194,7 @@ public final class MulliganPanel {
         if (!bottomMode && Keys3D.just(Input.Keys.SPACE)) { done(true); return; }
         if (!bottomMode && Keys3D.just(Input.Keys.M)) { done(false); return; }
         if (bottomMode && ready && Keys3D.just(Input.Keys.ENTER)) { done(true); return; }
-        boolean touch = Gdx.input.isTouched();
+        boolean touch = Pad.touch();
         boolean clicked = touch && !prevTouch;
         prevTouch = touch;
         if (!clicked) return;

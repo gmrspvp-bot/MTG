@@ -134,6 +134,18 @@ public final class Pad {
     public static float leftTrigger()  { return present && !Keys3D.blocked() ? lt : 0f; }
     public static float rightTrigger() { return present && !Keys3D.blocked() ? rt : 0f; }
 
+    /**
+     * The one place anything asks "is a click being held?".
+     *
+     * The panels all tested Gdx.input.isTouched() directly, so wiring A to the mouse BUTTON
+     * left every panel - mulligan, search, options, order, numbers, damage - unclickable from
+     * the pad (the owner, 2026-10-21). Same lesson as Keys3D: one gate that everything reads,
+     * or half the code learns about the new input and half does not.
+     */
+    public static boolean touch() {
+        return Gdx.input.isTouched() || clickHeld();
+    }
+
     /** A is the click: held, so the existing "was the button down last frame" tests work. */
     public static boolean clickHeld() {
         return down(GLFW.GLFW_GAMEPAD_BUTTON_A);
