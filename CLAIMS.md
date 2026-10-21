@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: big boards cover the graveyard / exile / library / command pads - rows must stop short of the pads (or the pads move) | Stoneforge | 2026-10-22 | Owner report. TableLayout (row widths vs pad positions), maybe TableBase constants. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
