@@ -1,0 +1,1518 @@
+Player: Captain (HUMAN) deck=Mr House v4
+Player: Jackson (AI) deck=Doom Prevails v3
+Player: Jalil (AI) deck=Tidus
+Player: Midiga (AI) deck=Olivia
+Mulligan: Midiga has mulliganed down to 7 cards.
+Mulligan: Midiga has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Jackson has kept a hand of 7 cards
+Mulligan: Jalil has kept a hand of 7 cards
+Turn: Turn 1 (Midiga)
+Information: BOARD turn 1 (Midiga) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Spectator Seating(land)
+Information: BOARD turn 1 (Midiga) | Jackson | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Canyon Slough(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 1 (Midiga) | Jalil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Skycloud Expanse(land); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1)
+Information: BOARD turn 1 (Midiga) | Midiga | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Rogue's Passage(land); Dictate of Erebos(5); Temple of Triumph(land)
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Midiga played Smoldering Marsh (384)
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 2 (Captain)
+Information: BOARD turn 2 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Spectator Seating(land)
+Information: BOARD turn 2 (Captain) | Jackson | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Canyon Slough(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 2 (Captain) | Jalil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Skycloud Expanse(land); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1)
+Information: BOARD turn 2 (Captain) | Midiga | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Rogue's Passage(land); Dictate of Erebos(5); Temple of Triumph(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Captain played Spectator Seating (80)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 3 (Jackson)
+Information: BOARD turn 3 (Jackson) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Mountain(land)
+Information: BOARD turn 3 (Jackson) | Jackson | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Canyon Slough(land); Tombstone, Career Criminal(3)
+Information: BOARD turn 3 (Jackson) | Jalil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Skycloud Expanse(land); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1)
+Information: BOARD turn 3 (Jackson) | Midiga | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Rogue's Passage(land); Dictate of Erebos(5); Temple of Triumph(land)
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Jackson played Canyon Slough (151)
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 4 (Jalil)
+Information: BOARD turn 4 (Jalil) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Mountain(land)
+Information: BOARD turn 4 (Jalil) | Jackson | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land)
+Information: BOARD turn 4 (Jalil) | Jalil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Skycloud Expanse(land); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1)
+Information: BOARD turn 4 (Jalil) | Midiga | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Rogue's Passage(land); Dictate of Erebos(5); Temple of Triumph(land)
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Land: Jalil played Skycloud Expanse (293)
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 5 (Midiga)
+Information: BOARD turn 5 (Midiga) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Mountain(land)
+Information: BOARD turn 5 (Midiga) | Jackson | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land)
+Information: BOARD turn 5 (Midiga) | Jalil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3)
+Information: BOARD turn 5 (Midiga) | Midiga | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Rogue's Passage(land); Dictate of Erebos(5); Temple of Triumph(land)
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Rogue's Passage (338)
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 6 (Captain)
+Information: BOARD turn 6 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Wyll, Blade of Frontiers(2); Luxury Suite(land); Clown Car(0); Mountain(land)
+Information: BOARD turn 6 (Captain) | Jackson | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land)
+Information: BOARD turn 6 (Captain) | Jalil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3)
+Information: BOARD turn 6 (Captain) | Midiga | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Captain played Luxury Suite (33)
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Add To Stack: Captain cast Wyll, Blade of Frontiers
+Information: BOARD cast | Wyll, Blade of Frontiers (mv 2) by Captain | open mana: Jackson 0, Jalil 0, Midiga 2
+Resolve Stack: Wyll, Blade of Frontiers - Creature 1 / 1
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 7 (Jackson)
+Information: BOARD turn 7 (Jackson) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 7 (Jackson) | Jackson | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land)
+Information: BOARD turn 7 (Jackson) | Jalil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3)
+Information: BOARD turn 7 (Jackson) | Midiga | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Land: Jackson played Command Tower (130)
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 8 (Jalil)
+Information: BOARD turn 8 (Jalil) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 8 (Jalil) | Jackson | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 8 (Jalil) | Jalil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vineglimmer Snarl(land); Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3)
+Information: BOARD turn 8 (Jalil) | Midiga | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Replacement Effect: As Vineglimmer Snarl enters, you may reveal a Forest or Island card from your hand. If you don't, Vineglimmer Snarl enters tapped.
+Land: Jalil played Vineglimmer Snarl (233)
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 9 (Midiga)
+Information: BOARD turn 9 (Midiga) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 9 (Midiga) | Jackson | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 9 (Midiga) | Jalil | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3); Temple of Plenty(land)
+Information: BOARD turn 9 (Midiga) | Midiga | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Sunhome, Fortress of the Legion (351)
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 10 (Captain)
+Information: BOARD turn 10 (Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Vexing Puzzlebox(3); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 10 (Captain) | Jackson | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 10 (Captain) | Jalil | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3); Temple of Plenty(land)
+Information: BOARD turn 10 (Captain) | Midiga | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Captain played Shattered Sanctum (8)
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Add To Stack: Captain cast Vexing Puzzlebox
+Information: BOARD cast | Vexing Puzzlebox (mv 3) by Captain | open mana: Jackson 3, Jalil 0, Midiga 3
+Resolve Stack: Vexing Puzzlebox
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 11 (Jackson)
+Information: BOARD turn 11 (Jackson) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 11 (Jackson) | Jackson | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Blasphemous Act(9); Puppet Master, String Puller(3); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 11 (Jackson) | Jalil | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3); Temple of Plenty(land)
+Information: BOARD turn 11 (Jackson) | Midiga | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Jackson played Unclaimed Territory (150)
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Mana: Canyon Slough (151) - {T}: Add {R}.
+Land: Jackson picked {B}
+Mana: Command Tower (130) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Jackson cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Jackson | open mana: Captain 1, Jalil 0, Midiga 3
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 12 (Jalil)
+Information: BOARD turn 12 (Jalil) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 12 (Jalil) | Jackson | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: Luxury Suite(land); Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 12 (Jalil) | Jalil | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); The Ozolith(1); Bred for the Hunt(3); Temple of Plenty(land)
+Information: BOARD turn 12 (Jalil) | Midiga | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Jalil played Temple of Plenty (273)
+Add To Stack: Jalil triggered Temple of Plenty
+Resolve Stack: Jalil scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Plenty enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Plenty (273)]
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Land: Jalil picked {G}
+Mana: Vineglimmer Snarl (233) - {T}: Add {G} or {U}.
+Add To Stack: Jalil cast The Ozolith
+Information: BOARD cast | The Ozolith (mv 1) by Jalil | open mana: Captain 1, Jackson 0, Midiga 3
+Resolve Stack: The Ozolith
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 13 (Midiga)
+Information: BOARD turn 13 (Midiga) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 13 (Midiga) | Jackson | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: Luxury Suite(land); Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 13 (Midiga) | Jalil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 13 (Midiga) | Midiga | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Kambal, Profiteering Mayor(3); Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Caves of Koilos (382)
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Land: Midiga picked {W}
+Damage: Caves of Koilos (382) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 40 > 39
+Mana: Caves of Koilos (382) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Smoldering Marsh (384) - {T}: Add {B}.
+Mana: Rogue's Passage (338) - {T}: Add {C}.
+Add To Stack: Midiga cast Kambal, Profiteering Mayor
+Information: BOARD cast | Kambal, Profiteering Mayor (mv 3) by Midiga | open mana: Captain 1, Jackson 0, Jalil 0
+Resolve Stack: Kambal, Profiteering Mayor - Creature 2 / 4
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 14 (Captain)
+Information: BOARD turn 14 (Captain) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Mountain(land); Reckless Fireweaver(2)
+Information: BOARD turn 14 (Captain) | Jackson | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: Luxury Suite(land); Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 14 (Captain) | Jalil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 14 (Captain) | Midiga | life 39 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Jackson 0, Jalil 0, Midiga 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [18]]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [18]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 11]
+Add To Stack: Midiga triggered Kambal, Profiteering Mayor
+Resolve Stack: Whenever one or more tokens enter under your opponents' control, for each of them, create a tapped token that's a copy of it. This ability triggers only once each turn. [Amount: 2]
+Add To Stack: Midiga triggered Kambal, Profiteering Mayor
+Life: Life: Captain 40 > 39
+Life: Life: Jackson 40 > 39
+Life: Life: Jalil 40 > 39
+Life: Life: Midiga 39 > 40
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 2]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 18]
+Land: Captain played Mountain (83)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 15 (Jackson)
+Information: BOARD turn 15 (Jackson) | Captain | life 39 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Reckless Fireweaver(2); Plains(land)
+Information: BOARD turn 15 (Jackson) | Jackson | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: Luxury Suite(land); Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Mountain(land); Swamp(land)
+Information: BOARD turn 15 (Jackson) | Jalil | life 39 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 15 (Jackson) | Midiga | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 2/4; Robot Token 3/3* | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Jackson played Luxury Suite (136)
+Land: Jackson picked {U}
+Mana: Command Tower (130) - {T}: Add one mana of any color in your commander's color identity.
+Land: Jackson picked {B}
+Mana: Luxury Suite (136) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (151) - {T}: Add {R}.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Jackson cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Jackson | open mana: Captain 3, Jalil 0, Midiga 1
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Jackson's Beginning of Combat Step
+Add To Stack: Jackson triggered Doctor Doom, King of Latveria targeting [Puppet Master, String Puller (123)]
+Discard: Jackson discards Mountain (200).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Puppet Master, String Puller (123)]]) [Phase: Jackson]
+Add To Stack: Jackson triggered Doctor Doom, King of Latveria
+Life: Life: Jalil 39 > 37
+Life: Life: Midiga 40 > 38
+Life: Life: Captain 39 > 37
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Jackson, Amount: 1]
+Phase: Jackson's Declare Attackers Step
+Combat: Jackson assigned Puppet Master, String Puller (123) to attack Captain.
+Information: BOARD attack | Jackson -> Captain | attackers 1 (power 2) | defender life 37 | untapped creatures 4 (power 8): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | open mana 3
+Add To Stack: Jackson triggered Puppet Master, String Puller targeting [Kambal, Profiteering Mayor (406)]
+Resolve Stack: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.) (Targeting: [[Kambal, Profiteering Mayor (406)]]) [Number Attackers: [Puppet Master, String Puller (123)]]
+Phase: Jackson's Declare Blockers Step
+Combat: Captain assigned Robot Token (425) and Robot Token (417) to block Puppet Master, String Puller (123).
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Damage: Puppet Master, String Puller (123) deals 2 damage to Robot Token (425).
+Damage: Robot Token (425) deals 3 damage to Puppet Master, String Puller (123).
+Damage: Robot Token (417) deals 3 damage to Puppet Master, String Puller (123).
+Zone Change: Puppet Master, String Puller (123) was put into Graveyard from Battlefield.
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 16 (Jalil)
+Information: BOARD turn 16 (Jalil) | Captain | life 37 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Reckless Fireweaver(2); Plains(land)
+Information: BOARD turn 16 (Jalil) | Jackson | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Swamp(land); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 16 (Jalil) | Jalil | life 37 | hand 6 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 16 (Jalil) | Midiga | life 38 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 2/4; Robot Token 3/3* | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Land: Jalil played Plains (306)
+Land: Jalil picked {U}
+Mana: Vineglimmer Snarl (233) - {T}: Add {G} or {U}.
+Land: Jalil picked {G}
+Mana: Temple of Plenty (273) - {T}: Add {G} or {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Jalil cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Jalil | open mana: Captain 3, Jackson 0, Midiga 1
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Jalil's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 17 (Midiga)
+Information: BOARD turn 17 (Midiga) | Captain | life 37 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (4 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Reckless Fireweaver(2); Plains(land)
+Information: BOARD turn 17 (Midiga) | Jackson | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Swamp(land); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 17 (Midiga) | Jalil | life 37 | hand 6 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 17 (Midiga) | Midiga | life 38 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 2/4; Robot Token 3/3* | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Dictate of Erebos(5); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Mana: Smoldering Marsh (384) - {T}: Add {B}.
+Land: Midiga picked {B}
+Damage: Caves of Koilos (382) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 38 > 37
+Mana: Caves of Koilos (382) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Rogue's Passage (338) - {T}: Add {C}.
+Mana: Sunhome, Fortress of the Legion (351) - {T}: Add {C}.
+Zone Change: Treasure Token (422) was put into Graveyard from Battlefield.
+Land: Treasure Token (422) picked {W}
+Mana: Treasure Token (422) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Midiga cast Dictate of Erebos
+Information: BOARD cast | Dictate of Erebos (mv 5) by Midiga | open mana: Captain 3, Jackson 0, Jalil 0
+Resolve Stack: Dictate of Erebos
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Tainted Peak (402)
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Combat: Midiga assigned Kambal, Profiteering Mayor (406) to attack Captain.
+Information: BOARD attack | Midiga -> Captain | attackers 1 (power 2) | defender life 37 | untapped creatures 4 (power 8): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | open mana 3
+Phase: Midiga's Declare Blockers Step
+Combat: Captain assigned Robot Token (425) and Robot Token (417) to block Kambal, Profiteering Mayor (406).
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Damage: Kambal, Profiteering Mayor (406) deals 2 damage to Robot Token (425).
+Damage: Robot Token (425) deals 3 damage to Kambal, Profiteering Mayor (406).
+Damage: Robot Token (417) deals 3 damage to Kambal, Profiteering Mayor (406).
+Zone Change: Kambal, Profiteering Mayor (406) was put into Graveyard from Battlefield.
+Add To Stack: Midiga triggered Dictate of Erebos
+Zone Change: Robot Token (425) was put into Graveyard from Battlefield.
+Zone Change: Doctor Doom, King of Latveria (211) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (312) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Kambal, Profiteering Mayor (406)]
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 18 (Captain)
+Information: BOARD turn 18 (Captain) | Captain | life 37 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (3 untapped): Wyll, Blade of Frontiers 2/2; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Pitiless Plunderer(4); Attempted Murder(2); Clown Car(0); Reckless Fireweaver(2); Plains(land)
+Information: BOARD turn 18 (Captain) | Jackson | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Swamp(land); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 18 (Captain) | Jalil | life 37 | hand 6 | lands 4 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 18 (Captain) | Midiga | life 37 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Robot Token 3/3 | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (87)
+Mana: Mountain (83) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Add To Stack: Captain cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Captain | open mana: Jackson 0, Jalil 0, Midiga 3
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Phase: devCaptain's Main phase, precombat
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Zone Change: Treasure Token (426) was put into Graveyard from Battlefield.
+Mana: Treasure Token (426) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (418) was put into Graveyard from Battlefield.
+Mana: Treasure Token (418) - {T}, Sacrifice this token: Add one mana of any color.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain cast Clown Car
+Information: BOARD cast | Clown Car (mv 6) by Captain | open mana: Jackson 0, Jalil 0, Midiga 3
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [20]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 15]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 39 > 38
+Life: Life: Jalil 37 > 36
+Life: Life: Midiga 37 > 36
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (429)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 38 > 37
+Life: Life: Jalil 36 > 35
+Life: Life: Midiga 36 > 35
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (430)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 20]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 37 > 36
+Life: Life: Jalil 35 > 34
+Life: Life: Midiga 35 > 34
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (433)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 36 > 35
+Life: Life: Jalil 34 > 33
+Life: Life: Midiga 34 > 33
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (434)]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [20]]
+Resolve Stack: Clown Car (X=6)
+Add To Stack: Captain triggered Clown Car
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 35 > 34
+Life: Life: Jalil 33 > 32
+Life: Life: Midiga 33 > 32
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clown Car (24)]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: When Clown Car enters, roll X six-sided dice. For each odd result, create a 1/1 white Clown Robot artifact creature token. For each even result, put a +1/+1 counter on Clown Car. [Zone Changer: Clown Car (24)]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 34 > 33
+Life: Life: Jalil 32 > 31
+Life: Life: Midiga 32 > 31
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (439)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 33 > 32
+Life: Life: Jalil 31 > 30
+Life: Life: Midiga 31 > 30
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (441)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 32 > 31
+Life: Life: Jalil 30 > 29
+Life: Life: Midiga 30 > 29
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (444)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 31 > 30
+Life: Life: Jalil 29 > 28
+Life: Life: Midiga 29 > 28
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (445)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 30 > 29
+Life: Life: Jalil 28 > 27
+Life: Life: Midiga 28 > 27
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (448)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 29 > 28
+Life: Life: Jalil 27 > 26
+Life: Life: Midiga 27 > 26
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (449)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 28 > 27
+Life: Life: Jalil 26 > 25
+Life: Life: Midiga 26 > 25
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (452)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 27 > 26
+Life: Life: Jalil 25 > 24
+Life: Life: Midiga 25 > 24
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (453)]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [3, 4, 5, 6, 6, 6]]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [3, 4, 5, 6, 6, 6]]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 26 > 25
+Life: Life: Jalil 24 > 23
+Life: Life: Midiga 24 > 23
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clown Robot Token (436)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jackson.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jalil.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 25 > 24
+Life: Life: Jalil 23 > 22
+Life: Life: Midiga 23 > 22
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clown Robot Token (437)]
+Zone Change: Treasure Token (453) was put into Graveyard from Battlefield.
+Mana: Treasure Token (453) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (449) was put into Graveyard from Battlefield.
+Mana: Treasure Token (449) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (445) was put into Graveyard from Battlefield.
+Mana: Treasure Token (445) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (434) was put into Graveyard from Battlefield.
+Mana: Treasure Token (434) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Captain | open mana: Jackson 0, Jalil 0, Midiga 3
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Robot Token (417) to attack Midiga.
+Information: BOARD attack | Captain -> Midiga | attackers 1 (power 3) | defender life 22 | untapped creatures 1 (power 3): Robot Token 3/3 | open mana 3
+Phase: Captain's Declare Blockers Step
+Combat: Midiga didn't block Robot Token (417).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Robot Token (417) deals 3 combat damage to Midiga.
+Life: Life: Midiga 22 > 19
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 19 (Jackson)
+Information: BOARD turn 19 (Jackson) | Captain | life 37 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 14 (13 untapped): Wyll, Blade of Frontiers 4/4; Mr. House, President and CEO 0/4; Robot Token 3/3*; Reckless Fireweaver 1/3; Robot Token 3/3 x7; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4 | hand cards: Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 19 (Jackson) | Jackson | life 24 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Tombstone, Career Criminal(3); Swamp(land); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 19 (Jackson) | Jalil | life 22 | hand 6 | lands 4 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 19 (Jackson) | Midiga | life 19 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Robot Token 3/3 | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4)
+Information: BOARD threat | turn 19 | Reckless Fireweaver (Captain) 288; Mr. House, President and CEO (Captain) 125; Wyll, Blade of Frontiers (Captain) 41; Vexing Puzzlebox (Captain) 41
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Land: Jackson played Swamp (163)
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Mana: Swamp (163) - {T}: Add {B}.
+Land: Jackson picked {B}
+Mana: Luxury Suite (136) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (151) - {T}: Add {R}.
+Add To Stack: Jackson cast Tombstone, Career Criminal
+Information: BOARD cast | Tombstone, Career Criminal (mv 3) by Jackson | open mana: Captain 1, Jalil 0, Midiga 3
+Resolve Stack: Tombstone, Career Criminal - Creature 2 / 2
+Add To Stack: Jackson triggered Tombstone, Career Criminal targeting [Puppet Master, String Puller (123)]
+Resolve Stack: When Tombstone enters, return target Villain card from your graveyard to your hand. (Targeting: [[Puppet Master, String Puller (123)]]) [Zone Changer: Tombstone, Career Criminal (204)]
+Land: Jackson picked {R}
+Mana: Command Tower (130) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Jackson cast Puppet Master, String Puller
+Information: BOARD cast | Puppet Master, String Puller (mv 3) by Jackson | open mana: Captain 1, Jalil 0, Midiga 3
+Resolve Stack: Puppet Master, String Puller - Creature 2 / 4
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 20 (Jalil)
+Information: BOARD turn 20 (Jalil) | Captain | life 37 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 14 (13 untapped): Wyll, Blade of Frontiers 4/4; Mr. House, President and CEO 0/4; Robot Token 3/3*; Reckless Fireweaver 1/3; Robot Token 3/3 x7; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4 | hand cards: Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 20 (Jalil) | Jackson | life 24 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Puppet Master, String Puller 2/4 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4); Madame Hydra(4)
+Information: BOARD turn 20 (Jalil) | Jalil | life 22 | hand 6 | lands 4 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Three Visits(2); Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3); Farseek(2)
+Information: BOARD turn 20 (Jalil) | Midiga | life 19 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Robot Token 3/3 | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4)
+Information: BOARD threat | turn 20 | Reckless Fireweaver (Captain) 276; Mr. House, President and CEO (Captain) 120; Wyll, Blade of Frontiers (Captain) 39; Vexing Puzzlebox (Captain) 39
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Land: Jalil played Island (241)
+Land: Jalil picked {G}
+Mana: Vineglimmer Snarl (233) - {T}: Add {G} or {U}.
+Mana: Island (241) - {T}: Add {U}.
+Add To Stack: Jalil cast Three Visits
+Information: BOARD cast | Three Visits (mv 2) by Jalil | open mana: Captain 1, Jackson 0, Midiga 3
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Resolve Stack: Three Visits (257) - Jalil searches their library for a Forest card, puts it onto the battlefield, then shuffles.
+Land: Jalil picked {G}
+Mana: Temple of Plenty (273) - {T}: Add {G} or {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Jalil cast Farseek
+Information: BOARD cast | Farseek (mv 2) by Jalil | open mana: Captain 1, Jackson 0, Midiga 3
+Replacement Effect: Idyllic Beachfront enters tapped.
+Resolve Stack: Farseek (235) - Jalil searches their library for a Plains, Island, Swamp or Mountain card, puts it onto the battlefield tapped, then shuffles.
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 21 (Midiga)
+Information: BOARD turn 21 (Midiga) | Captain | life 37 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 14 (13 untapped): Wyll, Blade of Frontiers 4/4; Mr. House, President and CEO 0/4; Robot Token 3/3*; Reckless Fireweaver 1/3; Robot Token 3/3 x7; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4 | hand cards: Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 21 (Midiga) | Jackson | life 24 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Puppet Master, String Puller 2/4 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4); Madame Hydra(4)
+Information: BOARD turn 21 (Midiga) | Jalil | life 22 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3)
+Information: BOARD turn 21 (Midiga) | Midiga | life 19 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Robot Token 3/3 | hand cards: Swamp(land); Mountain(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4)
+Information: BOARD threat | turn 21 | Reckless Fireweaver (Captain) 265; Mr. House, President and CEO (Captain) 115; Wyll, Blade of Frontiers (Captain) 38; Vexing Puzzlebox (Captain) 38
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Mountain (399)
+Land: Midiga picked {W}
+Damage: Caves of Koilos (382) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 19 > 18
+Mana: Caves of Koilos (382) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Smoldering Marsh (384) - {T}: Add {B}.
+Mana: Mountain (399) - {T}: Add {R}.
+Mana: Tainted Peak (402) - {T}: Add {C}.
+Add To Stack: Midiga cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Midiga | open mana: Captain 1, Jackson 0, Jalil 2
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Mana: Canopy Vista (281) - {T}: Add {W}.
+Add To Stack: Jalil cast Path to Exile targeting [Reckless Fireweaver (94)]
+Information: BOARD cast | Path to Exile (mv 1) by Jalil | open mana: Captain 1, Jackson 0, Midiga 2
+Zone Change: Reckless Fireweaver (94) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (220) - Exile Reckless Fireweaver (94). Captain may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Midiga's Cleanup step
+Turn: Turn 22 (Captain)
+Information: BOARD turn 22 (Captain) | Captain | life 37 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 13 (12 untapped): Wyll, Blade of Frontiers 4/4; Mr. House, President and CEO 0/4; Robot Token 3/3*; Robot Token 3/3 x7; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4 | hand cards: Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 22 (Captain) | Jackson | life 24 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Puppet Master, String Puller 2/4 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4); Madame Hydra(4)
+Information: BOARD turn 22 (Captain) | Jalil | life 22 | hand 3 | lands 7 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3)
+Information: BOARD turn 22 (Captain) | Midiga | life 18 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Robot Token 3/3; Olivia, Opulent Outlaw 3/3 | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4); Exsanguinate(2)
+Information: BOARD threat | turn 22 | Mr. House, President and CEO (Captain) 111; Wyll, Blade of Frontiers (Captain) 36; Vexing Puzzlebox (Captain) 36
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Mountain (83) - {T}: Add {R}.
+Add To Stack: Captain cast Academy Manufactor
+Information: BOARD cast | Academy Manufactor (mv 3) by Captain | open mana: Jackson 0, Jalil 0, Midiga 2
+Resolve Stack: Academy Manufactor - Creature 1 / 3
+Phase: devCaptain's Main phase, precombat
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Zone Change: Treasure Token (430) was put into Graveyard from Battlefield.
+Mana: Treasure Token (430) - {T}, Sacrifice this token: Add one mana of any color.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain cast Attempted Murder
+Information: BOARD cast | Attempted Murder (mv 2) by Captain | open mana: Jackson 0, Jalil 0, Midiga 2
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [20]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [20]]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 20]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Attempted Murder (97) - Roll 3 d6. For each even result, put two -1/-1 counters on Olivia, Opulent Outlaw (413). For each odd result, Captain creates a 1/2 blue Bird creature token with flying named Storm Crow.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [5, 5, 5]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [5, 5, 5]]
+Land: Captain played Blightstep Pathway (12)
+Mana: Blightstep Pathway (12) - {T}: Add {B}.
+Zone Change: Treasure Token (462) was put into Graveyard from Battlefield.
+Mana: Treasure Token (462) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Clue Token (460) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (460) - Captain draws a card.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 23 (Jackson)
+Information: BOARD turn 23 (Jackson) | Captain | life 37 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 22 (22 untapped): Wyll, Blade of Frontiers 6/6; Mr. House, President and CEO 0/4; Robot Token 3/3 x13; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3 | hand cards: Cathartic Reunion(2)
+Information: BOARD turn 23 (Jackson) | Jackson | life 24 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Puppet Master, String Puller 2/4 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4); Madame Hydra(4)
+Information: BOARD turn 23 (Jackson) | Jalil | life 22 | hand 3 | lands 7 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3)
+Information: BOARD turn 23 (Jackson) | Midiga | life 18 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Robot Token 3/3; Olivia, Opulent Outlaw 3/3 | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4); Exsanguinate(2)
+Information: BOARD threat | turn 23 | Mr. House, President and CEO (Captain) 178; Wyll, Blade of Frontiers (Captain) 64; Vexing Puzzlebox (Captain) 64
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Mana: Swamp (163) - {T}: Add {B}.
+Add To Stack: Jackson cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Jackson | open mana: Captain 0, Jalil 0, Midiga 2
+Resolve Stack: Skullclamp
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Land: Jackson picked {B}
+Mana: Luxury Suite (136) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (151) - {T}: Add {R}.
+Land: Jackson picked {B}
+Mana: Command Tower (130) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Jackson cast Madame Hydra
+Information: BOARD cast | Madame Hydra (mv 4) by Jackson | open mana: Captain 0, Jalil 0, Midiga 2
+Resolve Stack: Madame Hydra - Creature 2 / 3
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 24 (Jalil)
+Information: BOARD turn 24 (Jalil) | Captain | life 37 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 22 (22 untapped): Wyll, Blade of Frontiers 6/6; Mr. House, President and CEO 0/4; Robot Token 3/3 x13; Clown Robot Token 1/1 x2; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3 | hand cards: Cathartic Reunion(2)
+Information: BOARD turn 24 (Jalil) | Jackson | life 24 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 3 (3 untapped): Tombstone, Career Criminal 2/2; Puppet Master, String Puller 2/4; Madame Hydra 2/3 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 24 (Jalil) | Jalil | life 22 | hand 3 | lands 7 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Walking Ballista(0); Bred for the Hunt(3)
+Information: BOARD turn 24 (Jalil) | Midiga | life 18 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Robot Token 3/3; Olivia, Opulent Outlaw 3/3 | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4); Exsanguinate(2)
+Information: BOARD threat | turn 24 | Mr. House, President and CEO (Captain) 171; Wyll, Blade of Frontiers (Captain) 61; Vexing Puzzlebox (Captain) 61
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Replacement Effect: Hinterland Harbor enters tapped unless you control a Forest or an Island.
+Land: Jalil played Hinterland Harbor (234)
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Island (241) - {T}: Add {U}.
+Land: Jalil picked {G}
+Mana: Temple of Plenty (273) - {T}: Add {G} or {W}.
+Land: Jalil picked {U}
+Mana: Vineglimmer Snarl (233) - {T}: Add {G} or {U}.
+Land: Jalil picked {U}
+Mana: Hinterland Harbor (234) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Add To Stack: Jalil cast Walking Ballista
+Information: BOARD cast | Walking Ballista (mv 6) by Jalil | open mana: Captain 0, Jackson 1, Midiga 2
+Replacement Effect: Walking Ballista enters with X +1/+1 counters on it.
+Resolve Stack: Walking Ballista - Creature 0 / 0 (X=3)
+Add To Stack: Jalil activated Walking Ballista targeting [Olivia, Opulent Outlaw (413)]
+Damage: Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Resolve Stack: Walking Ballista (266) - Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Add To Stack: Jalil activated Walking Ballista targeting [Olivia, Opulent Outlaw (413)]
+Damage: Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Resolve Stack: Walking Ballista (266) - Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Add To Stack: Jalil activated Walking Ballista targeting [Olivia, Opulent Outlaw (413)]
+Zone Change: Walking Ballista (266) was put into Graveyard from Battlefield.
+Damage: Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Resolve Stack: Walking Ballista (266) - Walking Ballista (266) deals 1 damage to Olivia, Opulent Outlaw (413).
+Zone Change: Olivia, Opulent Outlaw (413) was put into Graveyard from Battlefield.
+Add To Stack: Midiga triggered Dictate of Erebos
+Zone Change: Clown Robot Token (437) was put into Graveyard from Battlefield.
+Zone Change: Tombstone, Career Criminal (204) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Olivia, Opulent Outlaw (413)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Clown Robot Token (437)]
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 25 (Midiga)
+Information: BOARD turn 25 (Midiga) | Captain | life 37 | hand 1 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 21 (21 untapped): Wyll, Blade of Frontiers 6/6; Mr. House, President and CEO 0/4; Robot Token 3/3 x13; Clown Robot Token 1/1; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3 | hand cards: Cathartic Reunion(2)
+Information: BOARD turn 25 (Midiga) | Jackson | life 24 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Puppet Master, String Puller 2/4; Madame Hydra 2/3 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 25 (Midiga) | Jalil | life 22 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bred for the Hunt(3); Island(land)
+Information: BOARD turn 25 (Midiga) | Midiga | life 18 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Robot Token 3/3 | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Shadow the Hedgehog(4); Exsanguinate(2)
+Information: BOARD threat | turn 25 | Mr. House, President and CEO (Captain) 164; Wyll, Blade of Frontiers (Captain) 59; Vexing Puzzlebox (Captain) 59
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Command Tower (340)
+Mana: Smoldering Marsh (384) - {T}: Add {B}.
+Land: Midiga picked {B}
+Mana: Command Tower (340) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (399) - {T}: Add {R}.
+Land: Midiga picked {R}
+Mana: Tainted Peak (402) - {T}: Add {B} or {R}. Activate only if you control a Swamp.
+Add To Stack: Midiga cast Shadow the Hedgehog
+Information: BOARD cast | Shadow the Hedgehog (mv 4) by Midiga | open mana: Captain 1, Jackson 1, Jalil 2
+Resolve Stack: Shadow the Hedgehog - Creature 4 / 2
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 26 (Captain)
+Information: BOARD turn 26 (Captain) | Captain | life 37 | hand 1 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 21 (21 untapped): Wyll, Blade of Frontiers 6/6; Mr. House, President and CEO 0/4; Robot Token 3/3 x13; Clown Robot Token 1/1; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3 | hand cards: Cathartic Reunion(2)
+Information: BOARD turn 26 (Captain) | Jackson | life 24 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Puppet Master, String Puller 2/4; Madame Hydra 2/3 | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 26 (Captain) | Jalil | life 22 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bred for the Hunt(3); Island(land)
+Information: BOARD turn 26 (Captain) | Midiga | life 18 | hand 4 | lands 7 (3 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Robot Token 3/3; Shadow the Hedgehog 4/2 | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Exsanguinate(2)
+Information: BOARD threat | turn 26 | Mr. House, President and CEO (Captain) 158; Wyll, Blade of Frontiers (Captain) 56; Vexing Puzzlebox (Captain) 56
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Add To Stack: Captain cast Idol of Oblivion
+Information: BOARD cast | Idol of Oblivion (mv 2) by Captain | open mana: Jackson 1, Jalil 2, Midiga 5
+Resolve Stack: Idol of Oblivion
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [13]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [13]]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 13]
+Add To Stack: Captain activated Idol of Oblivion
+Resolve Stack: Idol of Oblivion (75) - Captain draws a card.
+Mana: Blightstep Pathway (12) - {T}: Add {B}.
+Zone Change: Clue Token (488) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (488) - Captain draws a card.
+Mana: Mountain (83) - {T}: Add {R}.
+Add To Stack: Captain cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by Captain | open mana: Jackson 1, Jalil 2, Midiga 5
+Resolve Stack: Barbarian Class
+Land: Captain played Pillarverge Pathway (37)
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Zone Change: Clue Token (479) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (479) - Captain draws a card.
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Add To Stack: Captain cast Impact Tremors
+Information: BOARD cast | Impact Tremors (mv 2) by Captain | open mana: Jackson 1, Jalil 2, Midiga 5
+Resolve Stack: Impact Tremors
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Robot Token (417), Robot Token (429), Robot Token (433) and Robot Token (439) to attack Jackson.
+Captain assigned Robot Token (472), Robot Token (470), Robot Token (468), Robot Token (459) and Robot Token (474) to attack Jalil.
+Captain assigned Robot Token (444), Robot Token (452), Robot Token (448) and Robot Token (441) to attack Midiga.
+Information: BOARD attack | Captain -> Jackson | attackers 4 (power 12) | defender life 24 | untapped creatures 2 (power 4): Puppet Master, String Puller 2/4; Madame Hydra 2/3 | open mana 1
+Information: BOARD attack | Captain -> Jalil | attackers 5 (power 15) | defender life 22 | untapped creatures 0 (power 0):  | open mana 2
+Information: BOARD attack | Captain -> Midiga | attackers 4 (power 12) | defender life 18 | untapped creatures 2 (power 7): Robot Token 3/3; Shadow the Hedgehog 4/2 | open mana 5
+Phase: Captain's Declare Blockers Step
+Combat: Jackson assigned Puppet Master, String Puller (123) to block Robot Token (417).
+Jackson didn't block Robot Token (429).
+Jackson didn't block Robot Token (433).
+Jackson didn't block Robot Token (439).
+Combat: Jalil didn't block Robot Token (472).
+Jalil didn't block Robot Token (470).
+Jalil didn't block Robot Token (468).
+Jalil didn't block Robot Token (459).
+Jalil didn't block Robot Token (474).
+Combat: Midiga assigned Robot Token (421) to block Robot Token (444).
+Midiga assigned Shadow the Hedgehog (349) to block Robot Token (452).
+Midiga didn't block Robot Token (448).
+Midiga didn't block Robot Token (441).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Robot Token (417) deals 3 damage to Puppet Master, String Puller (123).
+Damage: Robot Token (429) deals 3 combat damage to Jackson.
+Damage: Robot Token (433) deals 3 combat damage to Jackson.
+Damage: Robot Token (439) deals 3 combat damage to Jackson.
+Damage: Robot Token (444) deals 3 damage to Robot Token (421).
+Damage: Robot Token (452) deals 3 damage to Shadow the Hedgehog (349).
+Damage: Robot Token (448) deals 3 combat damage to Midiga.
+Damage: Robot Token (441) deals 3 combat damage to Midiga.
+Damage: Robot Token (472) deals 3 combat damage to Jalil.
+Damage: Robot Token (470) deals 3 combat damage to Jalil.
+Damage: Robot Token (468) deals 3 combat damage to Jalil.
+Damage: Robot Token (459) deals 3 combat damage to Jalil.
+Damage: Robot Token (474) deals 3 combat damage to Jalil.
+Damage: Puppet Master, String Puller (123) deals 2 damage to Robot Token (417).
+Damage: Robot Token (421) deals 3 damage to Robot Token (444).
+Damage: Shadow the Hedgehog (349) deals 4 damage to Robot Token (452).
+Life: Life: Jackson 24 > 15
+Life: Life: Jalil 22 > 7
+Life: Life: Midiga 18 > 12
+Zone Change: Robot Token (444) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (452) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (421) was put into Graveyard from Battlefield.
+Zone Change: Shadow the Hedgehog (349) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Midiga triggered Dictate of Erebos
+Add To Stack: Midiga triggered Dictate of Erebos
+Add To Stack: Midiga triggered Shadow the Hedgehog
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Shadow the Hedgehog (349)]
+Zone Change: Robot Token (487) was put into Graveyard from Battlefield.
+Zone Change: Madame Hydra (174) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Shadow the Hedgehog (349)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (487)]
+Zone Change: Clown Robot Token (436) was put into Graveyard from Battlefield.
+Zone Change: Puppet Master, String Puller (123) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Robot Token (421)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Clown Robot Token (436)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (444)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (452)]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Zone Change: Treasure Token (481) was put into Graveyard from Battlefield.
+Mana: Treasure Token (481) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (490) was put into Graveyard from Battlefield.
+Mana: Treasure Token (490) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (497) was put into Graveyard from Battlefield.
+Mana: Treasure Token (497) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (504) was put into Graveyard from Battlefield.
+Mana: Treasure Token (504) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated Mr. House, President and CEO
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Mr. House, President and CEO (100) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jalil.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 15 > 14
+Life: Life: Jalil 7 > 6
+Life: Life: Midiga 12 > 11
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (520)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jalil.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 14 > 13
+Life: Life: Jalil 6 > 5
+Life: Life: Midiga 11 > 10
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (526)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jalil.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 13 > 12
+Life: Life: Jalil 5 > 4
+Life: Life: Midiga 10 > 9
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (535)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jalil.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 12 > 11
+Life: Life: Jalil 4 > 3
+Life: Life: Midiga 9 > 8
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (544)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jalil.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 11 > 10
+Life: Life: Jalil 3 > 2
+Life: Life: Midiga 8 > 7
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (553)]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [4, 6, 6, 6, 6]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [4, 6, 6, 6, 6]]
+Phase: Captain's End step
+Land: Midiga picked {B}
+Damage: Caves of Koilos (382) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 7 > 6
+Mana: Caves of Koilos (382) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Rogue's Passage (338) - {T}: Add {C}.
+Add To Stack: Midiga cast Shoot the Sheriff targeting [Mr. House, President and CEO (100)]
+Information: BOARD cast | Shoot the Sheriff (mv 2) by Midiga | open mana: Captain 6, Jackson 1, Jalil 2
+Zone Change: Mr. House, President and CEO (100) was put into Graveyard from Battlefield.
+Resolve Stack: Shoot the Sheriff (347) - Destroy Mr. House, President and CEO (100).
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Mr. House, President and CEO (100)]
+Phase: Captain's Cleanup step
+Turn: Turn 27 (Jackson)
+Information: BOARD turn 27 (Jackson) | Captain | life 37 | hand 1 | lands 8 (0 untapped) | open mana 7 | commander Command | creatures 22 (11 untapped): Wyll, Blade of Frontiers 8/8; Robot Token 3/3* x11; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3; Robot Token 3/3 x5 | hand cards: Cathartic Reunion(2)
+Information: BOARD turn 27 (Jackson) | Jackson | life 10 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Syphon Mind(4); Doom's Time Platform(4)
+Information: BOARD turn 27 (Jackson) | Jalil | life 2 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bred for the Hunt(3); Island(land)
+Information: BOARD turn 27 (Jackson) | Midiga | life 6 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Breena, the Demagogue(3); Temple of Triumph(land); Exsanguinate(2)
+Information: BOARD threat | turn 27 | Impact Tremors (Captain) 158; Pitiless Plunderer (Captain) 85; Wyll, Blade of Frontiers (Captain) 83; Vexing Puzzlebox (Captain) 83; Dictate of Erebos (Midiga) 52
+Phase: Jackson's Untap step
+Phase: Jackson's Upkeep step
+Phase: Jackson's Draw step
+Phase: Jackson's Main phase, precombat
+Phase: Jackson's Beginning of Combat Step
+Phase: Jackson's Declare Attackers Step
+Phase: Jackson's Declare Blockers Step
+Phase: Jackson's First Strike Damage Step
+Phase: Jackson's Combat Damage Step
+Phase: Jackson's End of Combat Step
+Phase: Jackson's Main phase, postcombat
+Mana: Swamp (163) - {T}: Add {B}.
+Land: Jackson picked {R}
+Mana: Luxury Suite (136) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (151) - {T}: Add {R}.
+Land: Jackson picked {R}
+Mana: Command Tower (130) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Jackson cast Syphon Mind
+Information: BOARD cast | Syphon Mind (mv 4) by Jackson | open mana: Captain 7, Jalil 2, Midiga 1
+Discard: Captain discards Cathartic Reunion (28).
+Discard: Jalil discards Island (243).
+Discard: Midiga discards Swamp (370).
+Resolve Stack: Syphon Mind (116) - Jalil, Midiga and Captain discard a card. Jackson draws zero cards. 
+Replacement Effect: As Foreboding Ruins enters, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters tapped.
+Land: Jackson played Foreboding Ruins (172)
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Jackson cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Jackson | open mana: Captain 7, Jalil 2, Midiga 1
+Resolve Stack: Sol Ring
+Phase: Jackson's End step
+Phase: Jackson's Cleanup step
+Turn: Turn 28 (Jalil)
+Information: BOARD turn 28 (Jalil) | Captain | life 37 | hand 0 | lands 8 (0 untapped) | open mana 7 | commander Command | creatures 22 (11 untapped): Wyll, Blade of Frontiers 8/8; Robot Token 3/3* x11; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3; Robot Token 3/3 x5 | hand cards: 
+Information: BOARD turn 28 (Jalil) | Jackson | life 10 | hand 5 | lands 6 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Doom's Time Platform(4); Typhoid Mary, Fractured(3); Terminate(2)
+Information: BOARD turn 28 (Jalil) | Jalil | life 2 | hand 1 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Bred for the Hunt(3)
+Information: BOARD turn 28 (Jalil) | Midiga | life 6 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Temple of Triumph(land); Exsanguinate(2)
+Information: BOARD threat | turn 28 | Impact Tremors (Captain) 152; Pitiless Plunderer (Captain) 82; Wyll, Blade of Frontiers (Captain) 80; Vexing Puzzlebox (Captain) 80; Dictate of Erebos (Midiga) 50
+Phase: Jalil's Untap step
+Phase: Jalil's Upkeep step
+Phase: Jalil's Draw step
+Phase: Jalil's Main phase, precombat
+Land: Jalil played Forest (249)
+Phase: Jalil's Beginning of Combat Step
+Phase: Jalil's Declare Attackers Step
+Phase: Jalil's Declare Blockers Step
+Phase: Jalil's First Strike Damage Step
+Phase: Jalil's Combat Damage Step
+Phase: Jalil's End of Combat Step
+Phase: Jalil's Main phase, postcombat
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Island (241) - {T}: Add {U}.
+Mana: Forest (249) - {T}: Add {G}.
+Land: Jalil picked {G}
+Mana: Temple of Plenty (273) - {T}: Add {G} or {W}.
+Land: Jalil picked {U}
+Mana: Vineglimmer Snarl (233) - {T}: Add {G} or {U}.
+Add To Stack: Jalil cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Jalil | open mana: Captain 7, Jackson 2, Midiga 1
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Land: Jalil picked {U}
+Mana: Hinterland Harbor (234) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Idyllic Beachfront (231) - {T}: Add {U}.
+Add To Stack: Jalil cast Bred for the Hunt
+Information: BOARD cast | Bred for the Hunt (mv 3) by Jalil | open mana: Captain 7, Jackson 2, Midiga 1
+Resolve Stack: Bred for the Hunt
+Phase: Jalil's End step
+Phase: Jalil's Cleanup step
+Turn: Turn 29 (Midiga)
+Information: BOARD turn 29 (Midiga) | Captain | life 37 | hand 0 | lands 8 (0 untapped) | open mana 7 | commander Command | creatures 22 (11 untapped): Wyll, Blade of Frontiers 8/8; Robot Token 3/3* x11; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3; Robot Token 3/3 x5 | hand cards: 
+Information: BOARD turn 29 (Midiga) | Jackson | life 10 | hand 5 | lands 6 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Doom's Time Platform(4); Typhoid Mary, Fractured(3); Terminate(2)
+Information: BOARD turn 29 (Midiga) | Jalil | life 2 | hand 0 | lands 9 (1 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: 
+Information: BOARD turn 29 (Midiga) | Midiga | life 6 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Temple of Triumph(land); Exsanguinate(2)
+Information: BOARD threat | turn 29 | Impact Tremors (Captain) 146; Pitiless Plunderer (Captain) 79; Wyll, Blade of Frontiers (Captain) 76; Vexing Puzzlebox (Captain) 76; Dictate of Erebos (Midiga) 48
+Phase: Midiga's Untap step
+Phase: Midiga's Upkeep step
+Phase: Midiga's Draw step
+Phase: Midiga's Main phase, precombat
+Land: Midiga played Mountain (400)
+Mana: Smoldering Marsh (384) - {T}: Add {B}.
+Land: Midiga picked {B}
+Mana: Command Tower (340) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (399) - {T}: Add {R}.
+Mana: Mountain (400) - {T}: Add {R}.
+Mana: Tainted Peak (402) - {T}: Add {C}.
+Mana: Rogue's Passage (338) - {T}: Add {C}.
+Mana: Sunhome, Fortress of the Legion (351) - {T}: Add {C}.
+Mana: Caves of Koilos (382) - {T}: Add {C}.
+Add To Stack: Midiga cast Exsanguinate
+Information: BOARD cast | Exsanguinate (mv 2) by Midiga | open mana: Captain 7, Jackson 2, Jalil 0
+Life: Life: Captain 37 > 31
+Life: Life: Jackson 10 > 4
+Life: Life: Jalil 2 > -4
+Life: Life: Midiga 6 > 24
+Resolve Stack: Exsanguinate (337) - Captain, Jackson and Jalil each lose 6 life. You gain life equal to the life lost this way.
+Phase: Midiga's Beginning of Combat Step
+Phase: Midiga's Declare Attackers Step
+Phase: Midiga's Declare Blockers Step
+Phase: Midiga's First Strike Damage Step
+Phase: Midiga's Combat Damage Step
+Phase: Midiga's End of Combat Step
+Phase: Midiga's Main phase, postcombat
+Phase: Midiga's End step
+Phase: Midiga's Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Captain | life 31 | hand 0 | lands 8 (0 untapped) | open mana 7 | commander Command | creatures 22 (11 untapped): Wyll, Blade of Frontiers 8/8; Robot Token 3/3* x11; Pitiless Plunderer 1/4; Academy Manufactor 1/3; Storm Crow 1/2 x3; Robot Token 3/3 x5 | hand cards: 
+Information: BOARD turn 30 (Captain) | Jackson | life 4 | hand 5 | lands 6 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Tri-Sentinel, Act of Vengeance(7); Doom's Time Platform(4); Typhoid Mary, Fractured(3); Terminate(2)
+Information: BOARD turn 30 (Captain) | Midiga | life 24 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Temple of Triumph(land)
+Information: BOARD threat | turn 30 | Impact Tremors (Captain) 140; Pitiless Plunderer (Captain) 75; Wyll, Blade of Frontiers (Captain) 73; Vexing Puzzlebox (Captain) 73; Dictate of Erebos (Midiga) 46
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Life: Life: Captain 31 > 29
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Captain played Godless Shrine (36)
+Mana: Mountain (83) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Zone Change: Clue Token (561) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (561) - Captain draws a card.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Blightstep Pathway (12) - {T}: Add {B}.
+Zone Change: Clue Token (554) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (554) - Captain draws a card.
+Mana: Spectator Seating (80) - {T}: Add {R} or {W}.
+Mana: Pillarverge Pathway (37) - {T}: Add {W}.
+Discard: Captain discards Smuggler's Share (34).
+Add To Stack: Captain cast Grab the Prize
+Information: BOARD cast | Grab the Prize (mv 2) by Captain | open mana: Jackson 2, Midiga 0
+Damage: Grab the Prize (6) deals 2 non-combat damage to Jackson.
+Damage: Grab the Prize (6) deals 2 non-combat damage to Midiga.
+Life: Life: Jackson 4 > 2
+Life: Life: Midiga 24 > 22
+Resolve Stack: Grab the Prize (6) - Captain draws two cards. Grab the Prize (6) deals 2 damage to something.
+Mana: Luxury Suite (33) - {T}: Add {B} or {R}.
+Mana: Shattered Sanctum (8) - {T}: Add {W} or {B}.
+Mana: Godless Shrine (36) - {T}: Add {B}.
+Zone Change: Treasure Token (563) was put into Graveyard from Battlefield.
+Mana: Treasure Token (563) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (556) was put into Graveyard from Battlefield.
+Mana: Treasure Token (556) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Jackson 2, Midiga 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 2 > 1
+Life: Life: Midiga 22 > 21
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (100)]
+Zone Change: Treasure Token (547) was put into Graveyard from Battlefield.
+Mana: Treasure Token (547) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (538) was put into Graveyard from Battlefield.
+Mana: Treasure Token (538) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (529) was put into Graveyard from Battlefield.
+Mana: Treasure Token (529) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (518) was put into Graveyard from Battlefield.
+Mana: Treasure Token (518) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Mondrak, Glory Dominus
+Information: BOARD cast | Mondrak, Glory Dominus (mv 4) by Captain | open mana: Jackson 2, Midiga 0
+Resolve Stack: Mondrak, Glory Dominus - Creature 4 / 4
+Add To Stack: Captain triggered Impact Tremors
+Phase: devCaptain's Main phase, precombat
+Damage: Impact Tremors (39) deals 1 non-combat damage to Jackson.
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Jackson 1 > 0
+Life: Life: Midiga 21 > 20
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Mondrak, Glory Dominus (73)]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 17]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 20 > 19
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (569)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 19 > 18
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (570)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 14]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 18 > 17
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (582)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 17 > 16
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (583)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 19]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 16 > 15
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (595)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 15 > 14
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (596)]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [19]]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [19]]
+Zone Change: Treasure Token (602) was put into Graveyard from Battlefield.
+Mana: Treasure Token (602) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (601) was put into Graveyard from Battlefield.
+Mana: Treasure Token (601) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Treasure Chest
+Information: BOARD cast | Treasure Chest (mv 3) by Captain | open mana: Midiga 0
+Resolve Stack: Treasure Chest
+Zone Change: Treasure Token (589) was put into Graveyard from Battlefield.
+Mana: Treasure Token (589) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (588) was put into Graveyard from Battlefield.
+Mana: Treasure Token (588) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (576) was put into Graveyard from Battlefield.
+Mana: Treasure Token (576) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (575) was put into Graveyard from Battlefield.
+Mana: Treasure Token (575) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Chest (57) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Treasure Chest
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Life: Life: Captain 29 > 32
+Resolve Stack: Treasure Chest (57) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 17]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 14 > 13
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (608)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 13 > 12
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (609)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 12 > 11
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (621)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 11 > 10
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (622)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 19]
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 10 > 9
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (634)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 9 > 8
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (635)]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [19]]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [19]]
+Zone Change: Treasure Token (641) was put into Graveyard from Battlefield.
+Mana: Treasure Token (641) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (640) was put into Graveyard from Battlefield.
+Mana: Treasure Token (640) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (628) was put into Graveyard from Battlefield.
+Mana: Treasure Token (628) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Captain | open mana: Midiga 0
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 8 > 7
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Jan Jansen, Chaos Crafter (91)]
+Add To Stack: Captain cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Captain | open mana: Midiga 0
+Resolve Stack: Welding Jar
+Zone Change: Clown Car (24) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Jan Jansen, Chaos Crafter
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Jan Jansen, Chaos Crafter (91) - Captain creates two 1/1 colorless Construct artifact creature tokens.
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Add To Stack: Captain triggered Impact Tremors
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 7 > 6
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Construct Token (643)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 6 > 5
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Construct Token (644)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 5 > 4
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Construct Token (645)]
+Damage: Impact Tremors (39) deals 1 non-combat damage to Midiga.
+Life: Life: Midiga 4 > 3
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Construct Token (646)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Wyll, Blade of Frontiers (74), Robot Token (417), Robot Token (429), Robot Token (433), Robot Token (439), Robot Token (441), Robot Token (448), Pitiless Plunderer (98), Academy Manufactor (40), Robot Token (459), Storm Crow (464), Storm Crow (465), Storm Crow (466), Robot Token (468), Robot Token (470), Robot Token (472), Robot Token (474), Robot Token (520), Robot Token (526), Robot Token (535), Robot Token (544) and Robot Token (553) to attack Midiga.
+Information: BOARD attack | Captain -> Midiga | attackers 22 (power 63) | defender life 3 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: Midiga didn't block Wyll, Blade of Frontiers (74).
+Midiga didn't block Robot Token (417).
+Midiga didn't block Robot Token (429).
+Midiga didn't block Robot Token (433).
+Midiga didn't block Robot Token (439).
+Midiga didn't block Robot Token (441).
+Midiga didn't block Robot Token (448).
+Midiga didn't block Pitiless Plunderer (98).
+Midiga didn't block Academy Manufactor (40).
+Midiga didn't block Robot Token (459).
+Midiga didn't block Storm Crow (464).
+Midiga didn't block Storm Crow (465).
+Midiga didn't block Storm Crow (466).
+Midiga didn't block Robot Token (468).
+Midiga didn't block Robot Token (470).
+Midiga didn't block Robot Token (472).
+Midiga didn't block Robot Token (474).
+Midiga didn't block Robot Token (520).
+Midiga didn't block Robot Token (526).
+Midiga didn't block Robot Token (535).
+Midiga didn't block Robot Token (544).
+Midiga didn't block Robot Token (553).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Wyll, Blade of Frontiers (74) deals 10 combat damage to Midiga.
+Damage: Robot Token (417) deals 3 combat damage to Midiga.
+Damage: Robot Token (429) deals 3 combat damage to Midiga.
+Damage: Robot Token (433) deals 3 combat damage to Midiga.
+Damage: Robot Token (439) deals 3 combat damage to Midiga.
+Damage: Robot Token (441) deals 3 combat damage to Midiga.
+Damage: Robot Token (448) deals 3 combat damage to Midiga.
+Damage: Pitiless Plunderer (98) deals 1 combat damage to Midiga.
+Damage: Academy Manufactor (40) deals 1 combat damage to Midiga.
+Damage: Robot Token (459) deals 3 combat damage to Midiga.
+Damage: Storm Crow (464) deals 1 combat damage to Midiga.
+Damage: Storm Crow (465) deals 1 combat damage to Midiga.
+Damage: Storm Crow (466) deals 1 combat damage to Midiga.
+Damage: Robot Token (468) deals 3 combat damage to Midiga.
+Damage: Robot Token (470) deals 3 combat damage to Midiga.
+Damage: Robot Token (472) deals 3 combat damage to Midiga.
+Damage: Robot Token (474) deals 3 combat damage to Midiga.
+Damage: Robot Token (520) deals 3 combat damage to Midiga.
+Damage: Robot Token (526) deals 3 combat damage to Midiga.
+Damage: Robot Token (535) deals 3 combat damage to Midiga.
+Damage: Robot Token (544) deals 3 combat damage to Midiga.
+Damage: Robot Token (553) deals 3 combat damage to Midiga.
+Life: Life: Midiga 3 > -60
+Player Control: Captain has restored control over themself
+Player Control: Jackson has restored control over themself
+Player Control: Jalil has restored control over themself
+Player Control: Midiga has restored control over themself
+Game Outcome: Match Duration 34m : 03s
+Game Outcome: Turn 15
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Jackson has lost because life total reached 0
+Game Outcome: Jalil has lost because life total reached 0
+Game Outcome: Midiga has lost because life total reached 0
+Match Result: Captain: 1 Jackson: 0 Jalil: 0 Midiga: 0 
+
+Game Result: Captain has won

@@ -10,7 +10,7 @@
 # desktop app reads; the originals in decks\ are never touched).
 
 param(
-    [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave',
+    [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave,dice,housestyle',
     [string] $AiProfile = 'Realistic',
     [int] $HeapMB = 4096,
     # Forge skin. 'Jarvis' is ours (scripts/make-jarvis-skin.ps1), built on first use.

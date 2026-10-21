@@ -1,0 +1,1955 @@
+Player: Captain (HUMAN) deck=Mr House v4
+Player: Juktar (AI) deck=Doom Prevails v3
+Player: Jenna (AI) deck=Tidus
+Player: Marcus (AI) deck=Olivia
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Jenna has mulliganed down to 7 cards.
+Mulligan: Marcus has mulliganed down to 7 cards.
+Mulligan: Jenna has mulliganed down to 6 cards.
+Mulligan: Marcus has mulliganed down to 6 cards.
+Mulligan: Jenna has mulliganed down to 5 cards.
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Juktar has kept a hand of 7 cards
+Mulligan: Jenna has kept a hand of 5 cards
+Mulligan: Marcus has kept a hand of 6 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Clifftop Retreat(land); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 1 (Captain) | Juktar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Path of Ancestry(land); Abomination, World Ravager(8)
+Information: BOARD turn 1 (Captain) | Jenna | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land)
+Information: BOARD turn 1 (Captain) | Marcus | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Temple of the False God(land); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Evolving Wilds (32)
+Phase: Captain's Beginning of Combat Step
+Zone Change: Evolving Wilds (32) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Evolving Wilds
+Resolve Stack: Evolving Wilds (32) - Captain searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (Juktar)
+Information: BOARD turn 2 (Juktar) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Clifftop Retreat(land); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 2 (Juktar) | Juktar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Path of Ancestry(land); Abomination, World Ravager(8)
+Information: BOARD turn 2 (Juktar) | Jenna | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land)
+Information: BOARD turn 2 (Juktar) | Marcus | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Temple of the False God(land); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2)
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Juktar played Path of Ancestry (117)
+Phase: Juktar's Beginning of Combat Step
+Phase: Juktar's Declare Attackers Step
+Phase: Juktar's Declare Blockers Step
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 3 (Jenna)
+Information: BOARD turn 3 (Jenna) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Clifftop Retreat(land); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 3 (Jenna) | Juktar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Unclaimed Territory(land)
+Information: BOARD turn 3 (Jenna) | Jenna | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land)
+Information: BOARD turn 3 (Jenna) | Marcus | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Temple of the False God(land); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2)
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Jenna played Canopy Vista (281)
+Phase: Jenna's Beginning of Combat Step
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 4 (Marcus)
+Information: BOARD turn 4 (Marcus) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Clifftop Retreat(land); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 4 (Marcus) | Juktar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Unclaimed Territory(land)
+Information: BOARD turn 4 (Marcus) | Jenna | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land); Path of Discovery(4)
+Information: BOARD turn 4 (Marcus) | Marcus | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Temple of the False God(land); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2)
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Land: Marcus played Temple of the False God (342)
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 5 (Captain)
+Information: BOARD turn 5 (Captain) | Captain | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Clifftop Retreat(land); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4)
+Information: BOARD turn 5 (Captain) | Juktar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Unclaimed Territory(land)
+Information: BOARD turn 5 (Captain) | Jenna | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land); Path of Discovery(4)
+Information: BOARD turn 5 (Captain) | Marcus | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Captain played Clifftop Retreat (51)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 6 (Juktar)
+Information: BOARD turn 6 (Juktar) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5)
+Information: BOARD turn 6 (Juktar) | Juktar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Unclaimed Territory(land)
+Information: BOARD turn 6 (Juktar) | Jenna | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land); Path of Discovery(4)
+Information: BOARD turn 6 (Juktar) | Marcus | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Juktar played Unclaimed Territory (150)
+Land: Juktar picked {R}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast Hobgoblin, Mantled Marauder
+Information: BOARD cast | Hobgoblin, Mantled Marauder (mv 2) by Juktar | open mana: Captain 1, Jenna 0, Marcus 0
+Add To Stack: Juktar triggered Path of Ancestry
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Hobgoblin, Mantled Marauder - Creature 1 / 2]) [Card: Hobgoblin, Mantled Marauder (138), Activator: Juktar, SpellAbility: Hobgoblin, Mantled Marauder - Creature 1 / 2]
+Resolve Stack: Hobgoblin, Mantled Marauder - Creature 1 / 2
+Phase: Juktar's Beginning of Combat Step
+Phase: Juktar's Declare Attackers Step
+Combat: Juktar assigned Hobgoblin, Mantled Marauder (138) to attack Jenna.
+Information: BOARD attack | Juktar -> Jenna | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Juktar's Declare Blockers Step
+Combat: Jenna didn't block Hobgoblin, Mantled Marauder (138).
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (138) deals 1 combat damage to Jenna.
+Life: Life: Jenna 40 > 39
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 7 (Jenna)
+Information: BOARD turn 7 (Jenna) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5)
+Information: BOARD turn 7 (Jenna) | Juktar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8)
+Information: BOARD turn 7 (Jenna) | Jenna | life 39 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Idyllic Beachfront(land); Path of Discovery(4)
+Information: BOARD turn 7 (Jenna) | Marcus | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Jenna played Idyllic Beachfront (231)
+Phase: Jenna's Beginning of Combat Step
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 8 (Marcus)
+Information: BOARD turn 8 (Marcus) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5)
+Information: BOARD turn 8 (Marcus) | Juktar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8)
+Information: BOARD turn 8 (Marcus) | Jenna | life 39 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Path of Discovery(4); Inexorable Tide(5)
+Information: BOARD turn 8 (Marcus) | Marcus | life 40 | hand 6 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Land: Marcus played Mountain (400)
+Mana: Mountain (400) - {T}: Add {R}.
+Add To Stack: Marcus cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Marcus | open mana: Captain 1, Juktar 0, Jenna 1
+Resolve Stack: Sol Ring
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 9 (Captain)
+Information: BOARD turn 9 (Captain) | Captain | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Vexing Puzzlebox(3); Sundown Pass(land); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5)
+Information: BOARD turn 9 (Captain) | Juktar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8)
+Information: BOARD turn 9 (Captain) | Jenna | life 39 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Path of Discovery(4); Inexorable Tide(5)
+Information: BOARD turn 9 (Captain) | Marcus | life 40 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Captain played Sundown Pass (31)
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Vexing Puzzlebox
+Information: BOARD cast | Vexing Puzzlebox (mv 3) by Captain | open mana: Juktar 0, Jenna 1, Marcus 2
+Resolve Stack: Vexing Puzzlebox
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 10 (Juktar)
+Information: BOARD turn 10 (Juktar) | Captain | life 40 | hand 6 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 10 (Juktar) | Juktar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Choked Estuary(land); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8)
+Information: BOARD turn 10 (Juktar) | Jenna | life 39 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Path of Discovery(4); Inexorable Tide(5)
+Information: BOARD turn 10 (Juktar) | Marcus | life 40 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Replacement Effect: As Choked Estuary enters, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters tapped.
+Land: Juktar played Choked Estuary (124)
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [4]]
+Phase: Juktar's Beginning of Combat Step
+Phase: Juktar's Declare Attackers Step
+Combat: Juktar assigned Hobgoblin, Mantled Marauder (138) to attack Captain.
+Information: BOARD attack | Juktar -> Captain | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Juktar's Declare Blockers Step
+Combat: Captain didn't block Hobgoblin, Mantled Marauder (138).
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (138) deals 1 combat damage to Captain.
+Life: Life: Captain 40 > 39
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast Night's Whisper
+Information: BOARD cast | Night's Whisper (mv 2) by Juktar | open mana: Captain 0, Jenna 1, Marcus 2
+Life: Life: Juktar 40 > 38
+Resolve Stack: Night's Whisper (153) - Juktar draws two cards. Juktar loses 2 life.
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 11 (Jenna)
+Information: BOARD turn 11 (Jenna) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 11 (Jenna) | Juktar | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Swiftfoot Boots(2); Endless Ranks of HYDRA(4)
+Information: BOARD turn 11 (Jenna) | Jenna | life 39 | hand 5 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Collective Effort(3); Plains(land); Path of Discovery(4); Inexorable Tide(5)
+Information: BOARD turn 11 (Jenna) | Marcus | life 40 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Land: Jenna played Plains (308)
+Mana: Idyllic Beachfront (231) - {T}: Add {U}.
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Plains (308) - {T}: Add {W}.
+Add To Stack: Jenna cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Jenna | open mana: Captain 0, Juktar 0, Marcus 2
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 12 (Marcus)
+Information: BOARD turn 12 (Marcus) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 12 (Marcus) | Juktar | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Swiftfoot Boots(2); Endless Ranks of HYDRA(4)
+Information: BOARD turn 12 (Marcus) | Jenna | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Yuna's Whistle(3); Collective Effort(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 12 (Marcus) | Marcus | life 40 | hand 5 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Toxic Deluge(3); Isolated Chapel(land); Temple of Silence(land); Rakdos Signet(2); Xorn(3)
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Marcus played Isolated Chapel (344)
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Mana: Mountain (400) - {T}: Add {R}.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Add To Stack: Marcus cast Xorn
+Information: BOARD cast | Xorn (mv 3) by Marcus | open mana: Captain 0, Juktar 0, Jenna 0
+Resolve Stack: Xorn - Creature 3 / 2
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Captain | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 13 (Captain) | Juktar | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Swiftfoot Boots(2); Endless Ranks of HYDRA(4)
+Information: BOARD turn 13 (Captain) | Jenna | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Yuna's Whistle(3); Collective Effort(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 13 (Captain) | Marcus | life 40 | hand 4 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Toxic Deluge(3); Temple of Silence(land); Rakdos Signet(2); Impulsive Pilferer(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Juktar 0, Jenna 0, Marcus 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [1]]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (Juktar)
+Information: BOARD turn 14 (Juktar) | Captain | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 14 (Juktar) | Juktar | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Hobgoblin, Mantled Marauder 1/2* | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Mountain(land); Electro, Assaulting Battery(3); Abomination, World Ravager(8); Swiftfoot Boots(2); Endless Ranks of HYDRA(4)
+Information: BOARD turn 14 (Juktar) | Jenna | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Yuna's Whistle(3); Collective Effort(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 14 (Juktar) | Marcus | life 40 | hand 4 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Toxic Deluge(3); Temple of Silence(land); Rakdos Signet(2); Impulsive Pilferer(1)
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Land: Juktar played Mountain (199)
+Land: Juktar picked {U}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Mountain (199) - {T}: Add {R}.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Juktar | open mana: Captain 0, Jenna 0, Marcus 0
+Add To Stack: Juktar triggered Path of Ancestry
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Doctor Doom, King of Latveria - Creature 3 / 3]) [Card: Doctor Doom, King of Latveria (211), Activator: Juktar, SpellAbility: Doctor Doom, King of Latveria - Creature 3 / 3]
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (138)]
+Discard: Juktar discards Abomination, World Ravager (193).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (138)]]) [Phase: Juktar]
+Add To Stack: Juktar triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: Abomination, World Ravager (193), Cause: ]
+Phase: Juktar's Declare Attackers Step
+Combat: Juktar assigned Hobgoblin, Mantled Marauder (138) to attack Jenna.
+Information: BOARD attack | Juktar -> Jenna | attackers 1 (power 4) | defender life 39 | untapped creatures 1 (power 3): Tidus, Yuna's Guardian 3/3 | open mana 0
+Phase: Juktar's Declare Blockers Step
+Combat: Jenna didn't block Hobgoblin, Mantled Marauder (138).
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (138) deals 4 combat damage to Jenna.
+Life: Life: Jenna 39 > 35
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 15 (Jenna)
+Information: BOARD turn 15 (Jenna) | Captain | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 15 (Jenna) | Juktar | life 38 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Hobgoblin, Mantled Marauder 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Electro, Assaulting Battery(3); Swiftfoot Boots(2); Endless Ranks of HYDRA(4); Island(land); Age of Ultron(5)
+Information: BOARD turn 15 (Jenna) | Jenna | life 35 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Yuna's Whistle(3); Collective Effort(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 15 (Jenna) | Marcus | life 40 | hand 4 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Toxic Deluge(3); Temple of Silence(land); Rakdos Signet(2); Impulsive Pilferer(1)
+Information: BOARD threat | turn 15 | Hobgoblin, Mantled Marauder (Juktar) 46
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Land: Jenna played Ash Barrens (284)
+Mana: Plains (308) - {T}: Add {W}.
+Mana: Canopy Vista (281) - {T}: Add {W}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Add To Stack: Jenna cast Collective Effort
+Information: BOARD cast | Collective Effort (mv 3) by Jenna | open mana: Captain 0, Juktar 0, Marcus 0
+Resolve Stack: Collective Effort (294) -  Put a +1/+1 counter on each creature target player controls. (Targeting: Jenna)
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Combat: Jenna assigned Tidus, Yuna's Guardian (312) to attack Juktar.
+Information: BOARD attack | Jenna -> Juktar | attackers 1 (power 4) | defender life 38 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 0
+Phase: Jenna's Declare Blockers Step
+Combat: Juktar didn't block Tidus, Yuna's Guardian (312).
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (312) deals 4 combat damage to Juktar.
+Life: Life: Juktar 38 > 34
+Add To Stack: Jenna triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Juktar, Amount: 4]
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 16 (Marcus)
+Information: BOARD turn 16 (Marcus) | Captain | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 16 (Marcus) | Juktar | life 34 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Hobgoblin, Mantled Marauder 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Electro, Assaulting Battery(3); Swiftfoot Boots(2); Endless Ranks of HYDRA(4); Island(land); Age of Ultron(5)
+Information: BOARD turn 16 (Marcus) | Jenna | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 16 (Marcus) | Marcus | life 40 | hand 4 | lands 3 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Toxic Deluge(3); Temple of Silence(land); Rakdos Signet(2); Impulsive Pilferer(1)
+Information: BOARD threat | turn 16 | Hobgoblin, Mantled Marauder (Juktar) 45; Tidus, Yuna's Guardian (Jenna) 37
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Land: Marcus picked {B}
+Mana: Isolated Chapel (344) - {T}: Add {W} or {B}.
+Mana: Mountain (400) - {T}: Add {R}.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Add To Stack: Marcus cast Kellogg, Dangerous Mind
+Information: BOARD cast | Kellogg, Dangerous Mind (mv 3) by Marcus | open mana: Captain 0, Juktar 0, Jenna 1
+Resolve Stack: Kellogg, Dangerous Mind - Creature 3 / 2
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Combat: Marcus assigned Kellogg, Dangerous Mind (373) and Xorn (398) to attack Juktar.
+Information: BOARD attack | Marcus -> Juktar | attackers 2 (power 6) | defender life 34 | untapped creatures 1 (power 3): Doctor Doom, King of Latveria 3/3 | open mana 0
+Add To Stack: Marcus triggered Kellogg, Dangerous Mind
+Replacement Effect: If you would create one or more Treasure tokens, instead create those tokens plus an additional Treasure token.
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (373)]
+Phase: Marcus' Declare Blockers Step
+Combat: Juktar didn't block Kellogg, Dangerous Mind (373).
+Juktar didn't block Xorn (398).
+Phase: Marcus' First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (373) deals 3 combat damage to Juktar.
+Life: Life: Juktar 34 > 31
+Phase: Marcus' Combat Damage Step
+Damage: Xorn (398) deals 3 combat damage to Juktar.
+Life: Life: Juktar 31 > 28
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Replacement Effect: Temple of Silence enters tapped.
+Land: Marcus played Temple of Silence (405)
+Add To Stack: Marcus triggered Temple of Silence
+Resolve Stack: Marcus scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Silence enters, scry 1. [Zone Changer: Temple of Silence (405)]
+Zone Change: Treasure Token (424) was put into Graveyard from Battlefield.
+Land: Treasure Token (424) picked {R}
+Mana: Treasure Token (424) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Marcus cast Impulsive Pilferer
+Information: BOARD cast | Impulsive Pilferer (mv 1) by Marcus | open mana: Captain 0, Juktar 0, Jenna 1
+Resolve Stack: Impulsive Pilferer - Creature 1 / 1
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 17 (Captain)
+Information: BOARD turn 17 (Captain) | Captain | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2); Jan Jansen, Chaos Crafter(3)
+Information: BOARD turn 17 (Captain) | Juktar | life 28 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Hobgoblin, Mantled Marauder 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Electro, Assaulting Battery(3); Swiftfoot Boots(2); Endless Ranks of HYDRA(4); Island(land); Age of Ultron(5)
+Information: BOARD turn 17 (Captain) | Jenna | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 17 (Captain) | Marcus | life 40 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Xorn 3/2*; Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 17 | Hobgoblin, Mantled Marauder (Juktar) 43; Tidus, Yuna's Guardian (Jenna) 36; Kellogg, Dangerous Mind (Marcus) 32
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: Captain played Windbrisk Heights (71)
+Add To Stack: Captain triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (71)]
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Captain | open mana: Juktar 0, Jenna 1, Marcus 1
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [10]]
+Zone Change: Robot Token (428) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Jan Jansen, Chaos Crafter
+Resolve Stack: Jan Jansen, Chaos Crafter (91) - Captain creates two Treasure tokens.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 18 (Juktar)
+Information: BOARD turn 18 (Juktar) | Captain | life 39 | hand 6 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3* | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 18 (Juktar) | Juktar | life 28 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Hobgoblin, Mantled Marauder 2/3*; Doctor Doom, King of Latveria 3/3 | hand cards: Tombstone, Career Criminal(3); The Squadron Sinister(7); Electro, Assaulting Battery(3); Swiftfoot Boots(2); Endless Ranks of HYDRA(4); Island(land); Age of Ultron(5)
+Information: BOARD turn 18 (Juktar) | Jenna | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 18 (Juktar) | Marcus | life 40 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Xorn 3/2*; Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 18 | Hobgoblin, Mantled Marauder (Juktar) 41; Vexing Puzzlebox (Captain) 37; Tidus, Yuna's Guardian (Jenna) 35; Kellogg, Dangerous Mind (Marcus) 30
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Land: Juktar played Island (135)
+Mana: Island (135) - {T}: Add {U}.
+Mana: Mountain (199) - {T}: Add {R}.
+Add To Stack: Juktar cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Juktar | open mana: Captain 3, Jenna 1, Marcus 1
+Resolve Stack: Swiftfoot Boots
+Land: Juktar picked {R}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Unclaimed Territory (150) picked {R}
+Mana: Unclaimed Territory (150) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
+Land: Juktar picked {B}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Add To Stack: Juktar cast Electro, Assaulting Battery
+Information: BOARD cast | Electro, Assaulting Battery (mv 3) by Juktar | open mana: Captain 3, Jenna 1, Marcus 1
+Add To Stack: Juktar triggered Path of Ancestry
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Electro, Assaulting Battery - Creature 2 / 3]) [Card: Electro, Assaulting Battery (142), Activator: Juktar, SpellAbility: Electro, Assaulting Battery - Creature 2 / 3]
+Resolve Stack: Electro, Assaulting Battery - Creature 2 / 3
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Hobgoblin, Mantled Marauder (138)]
+Discard: Juktar discards The Squadron Sinister (139).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Hobgoblin, Mantled Marauder (138)]]) [Phase: Juktar]
+Add To Stack: Juktar triggered Hobgoblin, Mantled Marauder
+Resolve Stack: Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn. [Discarded: The Squadron Sinister (139), Cause: ]
+Phase: Juktar's Declare Attackers Step
+Combat: Juktar assigned Hobgoblin, Mantled Marauder (138) and Doctor Doom, King of Latveria (211) to attack Marcus.
+Information: BOARD attack | Juktar -> Marcus | attackers 2 (power 8) | defender life 40 | untapped creatures 1 (power 1): Impulsive Pilferer 1/1 | open mana 1
+Phase: Juktar's Declare Blockers Step
+Combat: Marcus didn't block Hobgoblin, Mantled Marauder (138).
+Marcus didn't block Doctor Doom, King of Latveria (211).
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Damage: Hobgoblin, Mantled Marauder (138) deals 5 combat damage to Marcus.
+Damage: Doctor Doom, King of Latveria (211) deals 3 combat damage to Marcus.
+Life: Life: Marcus 40 > 32
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 19 (Jenna)
+Information: BOARD turn 19 (Jenna) | Captain | life 39 | hand 6 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3* | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 19 (Jenna) | Juktar | life 28 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Hobgoblin, Mantled Marauder 3/4*; Doctor Doom, King of Latveria 3/3*; Electro, Assaulting Battery 2/3 | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Kang, Temporal Tyrant(4); Doctor Octopus, Master Planner(7)
+Information: BOARD turn 19 (Jenna) | Jenna | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Tidus, Yuna's Guardian 4/4* | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 19 (Jenna) | Marcus | life 32 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Xorn 3/2*; Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 19 | Hobgoblin, Mantled Marauder (Juktar) 83; Doctor Doom, King of Latveria (Juktar) 44; Vexing Puzzlebox (Captain) 36; Path of Ancestry (Juktar) 35; Tidus, Yuna's Guardian (Jenna) 33
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Combat: Jenna assigned Tidus, Yuna's Guardian (312) to attack Juktar.
+Information: BOARD attack | Jenna -> Juktar | attackers 1 (power 4) | defender life 28 | untapped creatures 1 (power 2): Electro, Assaulting Battery 2/3 | open mana 0
+Phase: Jenna's Declare Blockers Step
+Combat: Juktar didn't block Tidus, Yuna's Guardian (312).
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (312) deals 4 combat damage to Juktar.
+Life: Life: Juktar 28 > 24
+Add To Stack: Jenna triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Juktar, Amount: 4]
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Plains (308) - {T}: Add {W}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Mana: Idyllic Beachfront (231) - {T}: Add {U}.
+Add To Stack: Jenna cast Wakka, Devoted Guardian
+Information: BOARD cast | Wakka, Devoted Guardian (mv 4) by Jenna | open mana: Captain 3, Juktar 0, Marcus 1
+Resolve Stack: Wakka, Devoted Guardian - Creature 4 / 4
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 20 (Marcus)
+Information: BOARD turn 20 (Marcus) | Captain | life 39 | hand 6 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3* | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 20 (Marcus) | Juktar | life 24 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Hobgoblin, Mantled Marauder 3/4*; Doctor Doom, King of Latveria 3/3*; Electro, Assaulting Battery 2/3 | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Kang, Temporal Tyrant(4); Doctor Octopus, Master Planner(7)
+Information: BOARD turn 20 (Marcus) | Jenna | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 4/4*; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 20 (Marcus) | Marcus | life 32 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Xorn 3/2*; Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 20 | Hobgoblin, Mantled Marauder (Juktar) 79; Tidus, Yuna's Guardian (Jenna) 69; Doctor Doom, King of Latveria (Juktar) 42; Vexing Puzzlebox (Captain) 35; Path of Ancestry (Juktar) 34
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Mana: Mountain (400) - {T}: Add {R}.
+Land: Marcus picked {W}
+Mana: Isolated Chapel (344) - {T}: Add {W} or {B}.
+Land: Marcus picked {B}
+Mana: Temple of Silence (405) - {T}: Add {W} or {B}.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Add To Stack: Marcus cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Marcus | open mana: Captain 3, Juktar 0, Jenna 0
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Combat: Marcus assigned Impulsive Pilferer (394) to attack Captain.
+Marcus assigned Kellogg, Dangerous Mind (373) and Xorn (398) to attack Juktar.
+Information: BOARD attack | Marcus -> Captain | attackers 1 (power 1) | defender life 39 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 3
+Information: BOARD attack | Marcus -> Juktar | attackers 2 (power 6) | defender life 24 | untapped creatures 1 (power 2): Electro, Assaulting Battery 2/3 | open mana 0
+Add To Stack: Marcus triggered Kellogg, Dangerous Mind
+Replacement Effect: If you would create one or more Treasure tokens, instead create those tokens plus an additional Treasure token.
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (373)]
+Phase: Marcus' Declare Blockers Step
+Combat: Captain assigned Mr. House, President and CEO (100) to block Impulsive Pilferer (394).
+Combat: Juktar didn't block Kellogg, Dangerous Mind (373).
+Juktar assigned Electro, Assaulting Battery (142) to block Xorn (398).
+Phase: Marcus' First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (373) deals 3 combat damage to Juktar.
+Life: Life: Juktar 24 > 21
+Add To Stack: Marcus triggered Olivia, Opulent Outlaw
+Replacement Effect: If you would create one or more Treasure tokens, instead create those tokens plus an additional Treasure token.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Juktar, Amount: 3]
+Phase: Marcus' Combat Damage Step
+Damage: Xorn (398) deals 3 damage to Electro, Assaulting Battery (142).
+Damage: Impulsive Pilferer (394) deals 1 damage to Mr. House, President and CEO (100).
+Damage: Electro, Assaulting Battery (142) deals 2 damage to Xorn (398).
+Zone Change: Xorn (398) was put into Graveyard from Battlefield.
+Zone Change: Electro, Assaulting Battery (142) was put into Graveyard from Battlefield.
+Add To Stack: Juktar triggered Electro, Assaulting Battery
+Resolve Stack: When Electro leaves the battlefield, you may pay {X}. When you do, he deals X damage to target player. [Zone Changer: Electro, Assaulting Battery (142)]
+Add To Stack: Juktar triggered Electro, Assaulting Battery targeting [Marcus]
+Resolve Stack: When you do, he deals X damage to target player. (Targeting: [[Marcus]])
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Zone Change: Treasure Token (446) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (445) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (441) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (440) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (423) was put into Graveyard from Battlefield.
+Add To Stack: Marcus activated Kellogg, Dangerous Mind targeting [Hobgoblin, Mantled Marauder (138)]
+Resolve Stack: Kellogg, Dangerous Mind (373) - Marcus gains control of Hobgoblin, Mantled Marauder (138) for as long as you control Kellogg, Dangerous Mind (373).
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 21 (Captain)
+Information: BOARD turn 21 (Captain) | Captain | life 39 | hand 6 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3* | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); The Deck of Many Things(5); Cathartic Reunion(2)
+Information: BOARD turn 21 (Captain) | Juktar | life 21 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 3/3* | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Kang, Temporal Tyrant(4); Doctor Octopus, Master Planner(7)
+Information: BOARD turn 21 (Captain) | Jenna | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 4/4*; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 21 (Captain) | Marcus | life 32 | hand 3 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 21 | Hobgoblin, Mantled Marauder (Marcus) 76; Kellogg, Dangerous Mind (Marcus) 73; Tidus, Yuna's Guardian (Jenna) 66; Doctor Doom, King of Latveria (Juktar) 40; Vexing Puzzlebox (Captain) 33
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Mana: Windbrisk Heights (71) - {T}: Add {W}.
+Zone Change: Treasure Token (432) was put into Graveyard from Battlefield.
+Mana: Treasure Token (432) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by Captain | open mana: Juktar 0, Jenna 0, Marcus 0
+Resolve Stack: The Deck of Many Things
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Zone Change: Treasure Token (431) was put into Graveyard from Battlefield.
+Mana: Treasure Token (431) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 13]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [13]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 20]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [20]]
+Zone Change: Robot Token (453) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Jan Jansen, Chaos Crafter
+Resolve Stack: Jan Jansen, Chaos Crafter (91) - Captain creates two Treasure tokens.
+Zone Change: Treasure Token (457) was put into Graveyard from Battlefield.
+Mana: Treasure Token (457) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (456) was put into Graveyard from Battlefield.
+Mana: Treasure Token (456) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (454) was put into Graveyard from Battlefield.
+Mana: Treasure Token (454) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (450) was put into Graveyard from Battlefield.
+Mana: Treasure Token (450) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Unwinding Clock
+Information: BOARD cast | Unwinding Clock (mv 4) by Captain | open mana: Juktar 0, Jenna 0, Marcus 0
+Resolve Stack: Unwinding Clock
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 22 (Juktar)
+Information: BOARD turn 22 (Juktar) | Captain | life 39 | hand 7 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 | hand cards: Norn's Annex(5); Marionette Master(6); Caesar, Legion's Emperor(4); Delina, Wild Mage(4); Cathartic Reunion(2); Deadbeat Attendant(2); Ruinous Ultimatum(7)
+Information: BOARD turn 22 (Juktar) | Juktar | life 21 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Doctor Doom, King of Latveria 3/3* | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Kang, Temporal Tyrant(4); Doctor Octopus, Master Planner(7)
+Information: BOARD turn 22 (Juktar) | Jenna | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 4/4*; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 22 (Juktar) | Marcus | life 32 | hand 3 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 22 | Hobgoblin, Mantled Marauder (Marcus) 73; Kellogg, Dangerous Mind (Marcus) 70; Tidus, Yuna's Guardian (Jenna) 64; Vexing Puzzlebox (Captain) 61; Mr. House, President and CEO (Captain) 41
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Land: Juktar played Mountain (196)
+Land: Juktar picked {B}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Mana: Island (135) - {T}: Add {U}.
+Mana: Mountain (199) - {T}: Add {R}.
+Mana: Mountain (196) - {T}: Add {R}.
+Add To Stack: Juktar cast Kang, Temporal Tyrant
+Information: BOARD cast | Kang, Temporal Tyrant (mv 4) by Juktar | open mana: Captain 2, Jenna 0, Marcus 0
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [7]]
+Zone Change: Treasure Token (461) was put into Graveyard from Battlefield.
+Mana: Treasure Token (461) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated The Deck of Many Things
+Discard: Captain discards Norn's Annex (59).
+Discard: Captain discards Marionette Master (21).
+Discard: Captain discards Caesar, Legion's Emperor (38).
+Discard: Captain discards Delina, Wild Mage (90).
+Discard: Captain discards Cathartic Reunion (28).
+Discard: Captain discards Deadbeat Attendant (77).
+Discard: Captain discards Ruinous Ultimatum (79).
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [-5]]
+Resolve Stack: Kang, Temporal Tyrant - Creature 3 / 4
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Juktar activated Swiftfoot Boots targeting [Doctor Doom, King of Latveria (211)]
+Resolve Stack: Swiftfoot Boots (156) -  Attach to Doctor Doom, King of Latveria (211)
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (211)]
+Discard: Juktar discards Doctor Octopus, Master Planner (178).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (211)]]) [Phase: Juktar]
+Add To Stack: Juktar triggered Kang, Temporal Tyrant
+Life: Life: Jenna 35 > 34
+Life: Life: Marcus 32 > 31
+Life: Life: Captain 39 > 38
+Life: Life: Juktar 21 > 22
+Resolve Stack: Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life. [Player: Juktar]
+Phase: Juktar's Declare Attackers Step
+Phase: Juktar's Declare Blockers Step
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Phase: Juktar's Cleanup step
+Turn: Turn 23 (Jenna)
+Information: BOARD turn 23 (Jenna) | Captain | life 38 | hand 0 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x2 | hand cards: 
+Information: BOARD turn 23 (Jenna) | Juktar | life 22 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4[Swiftfoot Boots]; Kang, Temporal Tyrant 3/4 | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 23 (Jenna) | Jenna | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Tidus, Yuna's Guardian 4/4*; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Inexorable Tide(5); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 23 (Jenna) | Marcus | life 31 | hand 3 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 23 | Vexing Puzzlebox (Captain) 87; Hobgoblin, Mantled Marauder (Marcus) 70; Kellogg, Dangerous Mind (Marcus) 67; Tidus, Yuna's Guardian (Jenna) 61; Mr. House, President and CEO (Captain) 54
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Land: Jenna played Island (243)
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 19]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [19]]
+Zone Change: Treasure Token (469) was put into Graveyard from Battlefield.
+Mana: Treasure Token (469) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 12]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [12]]
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Mana: Island (243) - {T}: Add {U}.
+Mana: Idyllic Beachfront (231) - {T}: Add {U}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Mana: Plains (308) - {T}: Add {W}.
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Add To Stack: Jenna cast Inexorable Tide
+Information: BOARD cast | Inexorable Tide (mv 5) by Jenna | open mana: Captain 2, Juktar 1, Marcus 0
+Resolve Stack: Inexorable Tide
+Phase: Jenna's End step
+Phase: Jenna's Cleanup step
+Turn: Turn 24 (Marcus)
+Information: BOARD turn 24 (Marcus) | Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x4 | hand cards: Sulfurous Springs(land); Godless Shrine(land)
+Information: BOARD turn 24 (Marcus) | Juktar | life 22 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4[Swiftfoot Boots]; Kang, Temporal Tyrant 3/4 | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 24 (Marcus) | Jenna | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 4/4; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 24 (Marcus) | Marcus | life 31 | hand 3 | lands 4 (1 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 24 | Vexing Puzzlebox (Captain) 112; Mr. House, President and CEO (Captain) 80; Hobgoblin, Mantled Marauder (Marcus) 67; Kellogg, Dangerous Mind (Marcus) 65; Tidus, Yuna's Guardian (Jenna) 59
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Land: Marcus picked {B}
+Mana: Isolated Chapel (344) - {T}: Add {W} or {B}.
+Land: Marcus picked {B}
+Mana: Temple of Silence (405) - {T}: Add {W} or {B}.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Mana: Mountain (400) - {T}: Add {R}.
+Add To Stack: Marcus cast Dictate of Erebos
+Information: BOARD cast | Dictate of Erebos (mv 5) by Marcus | open mana: Captain 3, Juktar 1, Jenna 0
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [7]]
+Zone Change: Treasure Token (477) was put into Graveyard from Battlefield.
+Mana: Treasure Token (477) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 14]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [14]]
+Resolve Stack: Dictate of Erebos
+Phase: Marcus' Main phase, precombat
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Combat: Marcus assigned Kellogg, Dangerous Mind (373), Olivia, Opulent Outlaw (413) and Hobgoblin, Mantled Marauder (138) to attack Captain.
+Information: BOARD attack | Marcus -> Captain | attackers 3 (power 9) | defender life 38 | untapped creatures 7 (power 18): Mr. House, President and CEO 0/4; Robot Token 3/3 x6 | open mana 3
+Add To Stack: Marcus triggered Kellogg, Dangerous Mind
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (373)]
+Phase: Marcus' Declare Blockers Step
+Combat: Captain assigned Robot Token (480) to block Kellogg, Dangerous Mind (373).
+Captain didn't block Olivia, Opulent Outlaw (413).
+Captain didn't block Hobgoblin, Mantled Marauder (138).
+Phase: Marcus' First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (373) deals 3 damage to Robot Token (480).
+Zone Change: Robot Token (480) was put into Graveyard from Battlefield.
+Phase: Marcus' Combat Damage Step
+Damage: Olivia, Opulent Outlaw (413) deals 3 combat damage to Captain.
+Life: Life: Marcus 31 > 34
+Damage: Hobgoblin, Mantled Marauder (138) deals 3 combat damage to Captain.
+Life: Life: Captain 38 > 32
+Add To Stack: Marcus triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Captain, Amount: 3]
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 25 (Captain)
+Information: BOARD turn 25 (Captain) | Captain | life 32 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 7 (6 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x5 | hand cards: Sulfurous Springs(land); Godless Shrine(land); Smuggler's Share(3); Arcane Signet(2)
+Information: BOARD turn 25 (Captain) | Juktar | life 22 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 4/4[Swiftfoot Boots]; Kang, Temporal Tyrant 3/4 | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 25 (Captain) | Jenna | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 4/4; Wakka, Devoted Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 25 (Captain) | Marcus | life 34 | hand 3 | lands 4 (1 untapped) | open mana 2 | commander Battlefield | creatures 4 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1; Olivia, Opulent Outlaw 3/3*; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 25 | Vexing Puzzlebox (Captain) 137; Mr. House, President and CEO (Captain) 106; Hobgoblin, Mantled Marauder (Marcus) 82; Kellogg, Dangerous Mind (Marcus) 76; Tidus, Yuna's Guardian (Jenna) 56
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Sulfurous Springs (64)
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Captain | open mana: Juktar 1, Jenna 0, Marcus 2
+Resolve Stack: Arcane Signet
+Zone Change: Robot Token (476) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Jan Jansen, Chaos Crafter
+Resolve Stack: Jan Jansen, Chaos Crafter (91) - Captain creates two Treasure tokens.
+Mana: Arcane Signet (42) - {T}: Add one mana of any color in your commander's color identity.
+Damage: Sulfurous Springs (64) deals 1 non-combat damage to Captain.
+Life: Life: Captain 32 > 31
+Mana: Sulfurous Springs (64) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Mana: Windbrisk Heights (71) - {T}: Add {W}.
+Zone Change: Treasure Token (490) was put into Graveyard from Battlefield.
+Mana: Treasure Token (490) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (489) was put into Graveyard from Battlefield.
+Mana: Treasure Token (489) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (481) was put into Graveyard from Battlefield.
+Mana: Treasure Token (481) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Attempted Murder
+Information: BOARD cast | Attempted Murder (mv 2) by Captain | open mana: Juktar 1, Jenna 0, Marcus 2
+Resolve Stack: Attempted Murder (97) - Roll 5 d6. For each even result, put two -1/-1 counters on Olivia, Opulent Outlaw (413). For each odd result, Captain creates a 1/2 blue Bird creature token with flying named Storm Crow.
+Zone Change: Olivia, Opulent Outlaw (413) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Marcus triggered Dictate of Erebos
+Zone Change: Robot Token (472) was put into Graveyard from Battlefield.
+Zone Change: Kang, Temporal Tyrant (189) was put into Graveyard from Battlefield.
+Zone Change: Wakka, Devoted Guardian (227) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Olivia, Opulent Outlaw (413)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [3, 4, 4, 4, 6]]
+Zone Change: Treasure Token (502) was put into Graveyard from Battlefield.
+Mana: Treasure Token (502) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (473) was put into Graveyard from Battlefield.
+Mana: Treasure Token (473) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (429) was put into Graveyard from Battlefield.
+Mana: Treasure Token (429) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Smuggler's Share
+Information: BOARD cast | Smuggler's Share (mv 3) by Captain | open mana: Juktar 1, Jenna 0, Marcus 2
+Resolve Stack: Smuggler's Share
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [7]]
+Zone Change: Treasure Token (506) was put into Graveyard from Battlefield.
+Mana: Treasure Token (506) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 11]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [11]]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Robot Token (468), Robot Token (460) and Robot Token (449) to attack Marcus.
+Information: BOARD attack | Captain -> Marcus | attackers 3 (power 9) | defender life 34 | untapped creatures 1 (power 1): Impulsive Pilferer 1/1 | open mana 2
+Phase: Captain's Declare Blockers Step
+Combat: Marcus didn't block Robot Token (468).
+Marcus didn't block Robot Token (460).
+Marcus didn't block Robot Token (449).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Robot Token (468) deals 3 combat damage to Marcus.
+Damage: Robot Token (460) deals 3 combat damage to Marcus.
+Damage: Robot Token (449) deals 3 combat damage to Marcus.
+Life: Life: Marcus 34 > 25
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 26 (Juktar)
+Information: BOARD turn 26 (Juktar) | Captain | life 31 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 12 (8 untapped): Mr. House, President and CEO 0/4; Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3* x3; Storm Crow 1/2; Robot Token 3/3 x6 | hand cards: Godless Shrine(land); Swiftfoot Boots(2); Wyll, Blade of Frontiers(2)
+Information: BOARD turn 26 (Juktar) | Juktar | life 22 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4[Swiftfoot Boots] | hand cards: Tombstone, Career Criminal(3); Endless Ranks of HYDRA(4); Age of Ultron(5); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 26 (Juktar) | Jenna | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 26 (Juktar) | Marcus | life 25 | hand 3 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 3 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 26 | Mr. House, President and CEO (Captain) 188; Vexing Puzzlebox (Captain) 174; Hobgoblin, Mantled Marauder (Marcus) 79; Kellogg, Dangerous Mind (Marcus) 73; The Deck of Many Things (Captain) 66
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Mana: Mountain (199) - {T}: Add {R}.
+Add To Stack: Juktar cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Juktar | open mana: Captain 4, Jenna 0, Marcus 2
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Mana: Arcane Signet (42) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 8]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [8]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 20]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [20]]
+Resolve Stack: Skullclamp
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (211)]
+Discard: Juktar discards Age of Ultron (148).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (211)]]) [Phase: Juktar]
+Land: Juktar picked {B}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Mana: Mountain (196) - {T}: Add {R}.
+Add To Stack: Juktar cast Terminate targeting [Mr. House, President and CEO (100)]
+Information: BOARD cast | Terminate (mv 2) by Juktar | open mana: Captain 3, Jenna 0, Marcus 2
+Zone Change: Mr. House, President and CEO (100) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (173) - Destroy Mr. House, President and CEO (100). It can't be regenerated.
+Phase: Juktar's Declare Attackers Step
+Phase: Juktar's Declare Blockers Step
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Island (135) - {T}: Add {U}.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast Tombstone, Career Criminal
+Information: BOARD cast | Tombstone, Career Criminal (mv 3) by Juktar | open mana: Captain 3, Jenna 0, Marcus 2
+Add To Stack: Juktar triggered Path of Ancestry
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Tombstone, Career Criminal - Creature 2 / 2]) [Card: Tombstone, Career Criminal (204), Activator: Juktar, SpellAbility: Tombstone, Career Criminal - Creature 2 / 2]
+Resolve Stack: Tombstone, Career Criminal - Creature 2 / 2
+Add To Stack: Juktar triggered Tombstone, Career Criminal targeting [The Squadron Sinister (139)]
+Resolve Stack: When Tombstone enters, return target Villain card from your graveyard to your hand. (Targeting: [[The Squadron Sinister (139)]]) [Zone Changer: Tombstone, Career Criminal (204)]
+Phase: Juktar's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Juktar]
+Phase: Juktar's Cleanup step
+Turn: Turn 27 (Jenna)
+Information: BOARD turn 27 (Jenna) | Captain | life 31 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 13 (12 untapped): Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x11; Storm Crow 1/2 | hand cards: Godless Shrine(land); Swiftfoot Boots(2); Wyll, Blade of Frontiers(2); Marionette Master(6); Delete(2)
+Information: BOARD turn 27 (Jenna) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 5/5[Swiftfoot Boots]; Tombstone, Career Criminal 2/2 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Squadron Sinister(7)
+Information: BOARD turn 27 (Jenna) | Jenna | life 34 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 4/4 | hand cards: Yuna's Whistle(3); Path of Discovery(4); Rikku, Resourceful Guardian(3)
+Information: BOARD turn 27 (Jenna) | Marcus | life 25 | hand 3 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 3 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 27 | Vexing Puzzlebox (Captain) 196; The Deck of Many Things (Captain) 78; Hobgoblin, Mantled Marauder (Marcus) 76; Kellogg, Dangerous Mind (Marcus) 70; Doctor Doom, King of Latveria (Juktar) 58
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Mana: Island (243) - {T}: Add {U}.
+Mana: Plains (308) - {T}: Add {W}.
+Add To Stack: Jenna cast Path of Discovery
+Information: BOARD cast | Path of Discovery (mv 4) by Jenna | open mana: Captain 6, Juktar 0, Marcus 2
+Add To Stack: Jenna triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Path of Discovery (278), Activator: Jenna, SpellAbility: Path of Discovery]
+Resolve Stack: Path of Discovery
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Jenna]
+Phase: Jenna's Cleanup step
+Turn: Turn 28 (Marcus)
+Information: BOARD turn 28 (Marcus) | Captain | life 31 | hand 5 | lands 5 (0 untapped) | open mana 6 | commander Command | creatures 13 (12 untapped): Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x11; Storm Crow 1/2 | hand cards: Godless Shrine(land); Swiftfoot Boots(2); Wyll, Blade of Frontiers(2); Marionette Master(6); Delete(2)
+Information: BOARD turn 28 (Marcus) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 5/5[Swiftfoot Boots]; Tombstone, Career Criminal 2/2 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Squadron Sinister(7)
+Information: BOARD turn 28 (Marcus) | Jenna | life 34 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 5/5 | hand cards: Yuna's Whistle(3); Rikku, Resourceful Guardian(3); Shelinda, Yevon Acolyte(2)
+Information: BOARD turn 28 (Marcus) | Marcus | life 25 | hand 3 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 3 (1 untapped): Kellogg, Dangerous Mind 3/2*; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4* | hand cards: Toxic Deluge(3); Rakdos Signet(2); Breena, the Demagogue(3)
+Information: BOARD threat | turn 28 | Vexing Puzzlebox (Captain) 188; The Deck of Many Things (Captain) 75; Hobgoblin, Mantled Marauder (Marcus) 73; Kellogg, Dangerous Mind (Marcus) 68; Doctor Doom, King of Latveria (Juktar) 56
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Land: Marcus played Plains (403)
+Mana: Mountain (400) - {T}: Add {R}.
+Land: Marcus picked {B}
+Mana: Isolated Chapel (344) - {T}: Add {W} or {B}.
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Temple of the False God (342) - {T}: Add {C}{C}. Activate only if you control five or more lands.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Add To Stack: Marcus cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Marcus | open mana: Captain 6, Juktar 0, Jenna 1
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Land: Marcus picked {W}
+Mana: Temple of Silence (405) - {T}: Add {W} or {B}.
+Zone Change: Treasure Token (487) was put into Graveyard from Battlefield.
+Land: Treasure Token (487) picked {B}
+Mana: Treasure Token (487) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Marcus cast Breena, the Demagogue
+Information: BOARD cast | Breena, the Demagogue (mv 3) by Marcus | open mana: Captain 6, Juktar 0, Jenna 1
+Resolve Stack: Breena, the Demagogue - Creature 1 / 3
+Phase: Marcus' End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Marcus]
+Phase: Marcus' Cleanup step
+Turn: Turn 29 (Captain)
+Information: BOARD turn 29 (Captain) | Captain | life 31 | hand 5 | lands 5 (0 untapped) | open mana 6 | commander Command | creatures 13 (12 untapped): Jan Jansen, Chaos Crafter 3/3*; Robot Token 3/3 x11; Storm Crow 1/2 | hand cards: Godless Shrine(land); Swiftfoot Boots(2); Wyll, Blade of Frontiers(2); Marionette Master(6); Delete(2)
+Information: BOARD turn 29 (Captain) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 5/5[Swiftfoot Boots]; Tombstone, Career Criminal 2/2 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Squadron Sinister(7)
+Information: BOARD turn 29 (Captain) | Jenna | life 34 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 5/5 | hand cards: Yuna's Whistle(3); Rikku, Resourceful Guardian(3); Shelinda, Yevon Acolyte(2)
+Information: BOARD turn 29 (Captain) | Marcus | life 25 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Olivia, Opulent Outlaw 3/3; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 29 | Vexing Puzzlebox (Captain) 181; The Deck of Many Things (Captain) 72; Hobgoblin, Mantled Marauder (Marcus) 70; Kellogg, Dangerous Mind (Marcus) 65; Smuggler's Share (Captain) 54
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Mana: Arcane Signet (42) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Windbrisk Heights (71) - {T}: Add {W}.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Juktar 0, Jenna 1, Marcus 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Damage: Sulfurous Springs (64) deals 1 non-combat damage to Captain.
+Life: Life: Captain 31 > 30
+Mana: Sulfurous Springs (64) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Captain activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (95) - Roll a d20.
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 12]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [12]]
+Zone Change: Treasure Token (526) was put into Graveyard from Battlefield.
+Mana: Treasure Token (526) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Wyll, Blade of Frontiers
+Information: BOARD cast | Wyll, Blade of Frontiers (mv 2) by Captain | open mana: Juktar 0, Jenna 1, Marcus 1
+Resolve Stack: Wyll, Blade of Frontiers - Creature 1 / 1
+Zone Change: Treasure Token (519) was put into Graveyard from Battlefield.
+Mana: Treasure Token (519) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Captain | open mana: Juktar 0, Jenna 1, Marcus 1
+Resolve Stack: Sol Ring
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 16]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [16]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [16]]
+Zone Change: Treasure Token (530) was put into Graveyard from Battlefield.
+Mana: Treasure Token (530) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (515) was put into Graveyard from Battlefield.
+Mana: Treasure Token (515) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Captain | open mana: Juktar 0, Jenna 1, Marcus 1
+Resolve Stack: Swiftfoot Boots
+Zone Change: Treasure Token (510) was put into Graveyard from Battlefield.
+Mana: Treasure Token (510) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain activated Swiftfoot Boots targeting [Mr. House, President and CEO (100)]
+Resolve Stack: Swiftfoot Boots (46) -  Attach to Mr. House, President and CEO (100)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 30 (Juktar)
+Information: BOARD turn 30 (Juktar) | Captain | life 30 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 17 (17 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x13; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 2/2 | hand cards: Godless Shrine(land); Marionette Master(6); Delete(2); Anguished Unmaking(3); Comet, Stellar Pup(4)
+Information: BOARD turn 30 (Juktar) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 5/5[Swiftfoot Boots]; Tombstone, Career Criminal 2/2 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Squadron Sinister(7)
+Information: BOARD turn 30 (Juktar) | Jenna | life 34 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 5/5 | hand cards: Yuna's Whistle(3); Rikku, Resourceful Guardian(3); Shelinda, Yevon Acolyte(2)
+Information: BOARD turn 30 (Juktar) | Marcus | life 25 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Olivia, Opulent Outlaw 3/3; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 30 | Vexing Puzzlebox (Captain) 217; The Deck of Many Things (Captain) 84; Hobgoblin, Mantled Marauder (Marcus) 67; Smuggler's Share (Captain) 66; Kellogg, Dangerous Mind (Marcus) 62
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Mana: Island (135) - {T}: Add {U}.
+Mana: Mountain (199) - {T}: Add {R}.
+Mana: Mountain (196) - {T}: Add {R}.
+Land: Juktar picked {B}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast The Squadron Sinister
+Information: BOARD cast | The Squadron Sinister (mv 7) by Juktar | open mana: Captain 5, Jenna 1, Marcus 1
+Add To Stack: Juktar triggered Path of Ancestry
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 8]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [8]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [8]]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [4]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [4]]
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([The Squadron Sinister - Creature 5 / 5]) [Card: The Squadron Sinister (139), Activator: Juktar, SpellAbility: The Squadron Sinister - Creature 5 / 5]
+Resolve Stack: The Squadron Sinister - Creature 5 / 5
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (211)]
+Discard: Juktar discards Batroc the Leaper (140).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (211)]]) [Phase: Juktar]
+Phase: Juktar's Declare Attackers Step
+Phase: Juktar's Declare Blockers Step
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Phase: Juktar's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Juktar]
+Phase: Juktar's Cleanup step
+Turn: Turn 31 (Jenna)
+Information: BOARD turn 31 (Jenna) | Captain | life 30 | hand 7 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 21 (21 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x17; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 4/4 | hand cards: Godless Shrine(land); Marionette Master(6); Delete(2); Anguished Unmaking(3); Comet, Stellar Pup(4); Cathartic Reunion(2); Plains(land)
+Information: BOARD turn 31 (Jenna) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; Tombstone, Career Criminal 4/4; The Squadron Sinister 5/5 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Frightful Four(4)
+Information: BOARD turn 31 (Jenna) | Jenna | life 34 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 5/5 | hand cards: Yuna's Whistle(3); Rikku, Resourceful Guardian(3); Shelinda, Yevon Acolyte(2)
+Information: BOARD turn 31 (Jenna) | Marcus | life 25 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Olivia, Opulent Outlaw 3/3; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 31 | Vexing Puzzlebox (Captain) 237; The Deck of Many Things (Captain) 95; Mr. House, President and CEO (Captain) 85; Smuggler's Share (Captain) 78; Hobgoblin, Mantled Marauder (Marcus) 64
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Jenna played Port Town (309)
+Mana: Island (243) - {T}: Add {U}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Mana: Plains (308) - {T}: Add {W}.
+Add To Stack: Jenna cast Rikku, Resourceful Guardian
+Information: BOARD cast | Rikku, Resourceful Guardian (mv 3) by Jenna | open mana: Captain 7, Juktar 0, Marcus 1
+Add To Stack: Jenna triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Rikku, Resourceful Guardian (258), Activator: Jenna, SpellAbility: Rikku, Resourceful Guardian - Creature 2 / 3]
+Resolve Stack: Rikku, Resourceful Guardian - Creature 2 / 3
+Add To Stack: Jenna triggered Path of Discovery
+Resolve Stack: Whenever a creature you control enters, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.) [Zone Changer: Rikku, Resourceful Guardian (258)]
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Idyllic Beachfront (231) - {T}: Add {W}.
+Add To Stack: Jenna cast Shelinda, Yevon Acolyte
+Information: BOARD cast | Shelinda, Yevon Acolyte (mv 2) by Jenna | open mana: Captain 7, Juktar 0, Marcus 1
+Add To Stack: Jenna triggered Inexorable Tide
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Shelinda, Yevon Acolyte (277), Activator: Jenna, SpellAbility: Shelinda, Yevon Acolyte - Creature 2 / 2]
+Add To Stack: Jenna triggered Rikku, Resourceful Guardian
+Resolve Stack: Whenever you put one or more counters on a creature, until end of turn, that creature can't be blocked by creatures your opponents control. [Added once: Jenna: Tidus, Yuna's Guardian (312)]
+Resolve Stack: Shelinda, Yevon Acolyte - Creature 2 / 2
+Add To Stack: Jenna triggered Path of Discovery
+Resolve Stack: Whenever a creature you control enters, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.) [Zone Changer: Shelinda, Yevon Acolyte (277)]
+Add To Stack: Jenna triggered Rikku, Resourceful Guardian
+Resolve Stack: Whenever you put one or more counters on a creature, until end of turn, that creature can't be blocked by creatures your opponents control. [Added once: Jenna: Shelinda, Yevon Acolyte (277)]
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Jenna]
+Phase: Jenna's Cleanup step
+Turn: Turn 32 (Marcus)
+Information: BOARD turn 32 (Marcus) | Captain | life 30 | hand 7 | lands 5 (0 untapped) | open mana 7 | commander Battlefield | creatures 21 (21 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x17; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 4/4 | hand cards: Godless Shrine(land); Marionette Master(6); Delete(2); Anguished Unmaking(3); Comet, Stellar Pup(4); Cathartic Reunion(2); Plains(land)
+Information: BOARD turn 32 (Marcus) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; Tombstone, Career Criminal 4/4; The Squadron Sinister 5/5 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Frightful Four(4)
+Information: BOARD turn 32 (Marcus) | Jenna | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Tidus, Yuna's Guardian 7/7; Rikku, Resourceful Guardian 2/3; Shelinda, Yevon Acolyte 3/3 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 32 (Marcus) | Marcus | life 25 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Olivia, Opulent Outlaw 3/3; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 32 | Vexing Puzzlebox (Captain) 227; The Deck of Many Things (Captain) 91; Smuggler's Share (Captain) 89; Mr. House, President and CEO (Captain) 82; Hobgoblin, Mantled Marauder (Marcus) 62
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Land: Marcus played Fetid Heath (325)
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Phase: Marcus' End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Marcus]
+Phase: Marcus' Cleanup step
+Turn: Turn 33 (Captain)
+Information: BOARD turn 33 (Captain) | Captain | life 30 | hand 7 | lands 5 (0 untapped) | open mana 7 | commander Battlefield | creatures 21 (21 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x17; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 4/4 | hand cards: Godless Shrine(land); Marionette Master(6); Delete(2); Anguished Unmaking(3); Comet, Stellar Pup(4); Cathartic Reunion(2); Plains(land)
+Information: BOARD turn 33 (Captain) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; Tombstone, Career Criminal 4/4; The Squadron Sinister 5/5 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Frightful Four(4)
+Information: BOARD turn 33 (Captain) | Jenna | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Tidus, Yuna's Guardian 7/7; Rikku, Resourceful Guardian 2/3; Shelinda, Yevon Acolyte 3/3 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 33 (Captain) | Marcus | life 25 | hand 2 | lands 6 (6 untapped) | open mana 18 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Olivia, Opulent Outlaw 3/3; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 33 | Vexing Puzzlebox (Captain) 218; Smuggler's Share (Captain) 100; The Deck of Many Things (Captain) 87; Mr. House, President and CEO (Captain) 79; Hobgoblin, Mantled Marauder (Marcus) 59
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (88)
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Captain | open mana: Juktar 0, Jenna 0, Marcus 18
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Damage: Comet, Stellar Pup (78) deals 5 damage to Olivia, Opulent Outlaw (413).
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Zone Change: Olivia, Opulent Outlaw (413) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Marcus triggered Dictate of Erebos
+Zone Change: Robot Token (542) was put into Graveyard from Battlefield.
+Zone Change: Tombstone, Career Criminal (204) was put into Graveyard from Battlefield.
+Zone Change: Rikku, Resourceful Guardian (258) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Olivia, Opulent Outlaw (413)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [5]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [5]]
+Add To Stack: Captain activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (95) - Captain searches their library for an artifact card, puts it onto the battlefield, then shuffles.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Discard: Captain discards Godless Shrine (36).
+Discard: Captain discards Marionette Master (21).
+Discard: Captain discards Delete (70).
+Discard: Captain discards Anguished Unmaking (96).
+Discard: Captain discards Cathartic Reunion (28).
+Discard: Captain discards Blightstep Pathway (12).
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [0]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [0]]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 34 (Juktar)
+Information: BOARD turn 34 (Juktar) | Captain | life 30 | hand 0 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 23 (23 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x18; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 6/6; Academy Manufactor 1/3 | hand cards: 
+Information: BOARD turn 34 (Juktar) | Juktar | life 22 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; The Squadron Sinister 5/5 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4); The Frightful Four(4)
+Information: BOARD turn 34 (Juktar) | Jenna | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 7/7; Shelinda, Yevon Acolyte 3/3 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 34 (Juktar) | Marcus | life 25 | hand 2 | lands 6 (6 untapped) | open mana 18 | commander Command | creatures 4 (4 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 34 | Vexing Puzzlebox (Captain) 253; Smuggler's Share (Captain) 111; Mr. House, President and CEO (Captain) 104; The Deck of Many Things (Captain) 98; Wyll, Blade of Frontiers (Captain) 67
+Phase: Juktar's Untap step
+Phase: Juktar's Upkeep step
+Phase: Juktar's Draw step
+Phase: Juktar's Main phase, precombat
+Mana: Mountain (199) - {T}: Add {R}.
+Mana: Mountain (196) - {T}: Add {R}.
+Mana: Island (135) - {T}: Add {U}.
+Add To Stack: Juktar cast Loki's Scepter
+Information: BOARD cast | Loki's Scepter (mv 3) by Juktar | open mana: Captain 11, Jenna 0, Marcus 18
+Add To Stack: Captain activated Vexing Puzzlebox
+Resolve Stack: Vexing Puzzlebox (95) - Captain searches their library for an artifact card, puts it onto the battlefield, then shuffles.
+Resolve Stack: Loki's Scepter
+Add To Stack: Juktar triggered Loki's Scepter targeting [Tidus, Yuna's Guardian (312)]
+Resolve Stack: When Loki's Scepter enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it becomes a Villain in addition to its other types and gains haste. (Targeting: [[Tidus, Yuna's Guardian (312)]]) [Zone Changer: Loki's Scepter (176)]
+Phase: Juktar's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (211)]
+Discard: Juktar discards Mountain (200).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (211)]]) [Phase: Juktar]
+Add To Stack: Juktar triggered Doctor Doom, King of Latveria
+Life: Life: Jenna 34 > 32
+Life: Life: Marcus 25 > 23
+Life: Life: Captain 30 > 28
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Juktar, Amount: 1]
+Phase: Juktar's Declare Attackers Step
+Phase: Juktar's Declare Blockers Step
+Phase: Juktar's First Strike Damage Step
+Phase: Juktar's Combat Damage Step
+Phase: Juktar's End of Combat Step
+Phase: Juktar's Main phase, postcombat
+Land: Juktar picked {B}
+Mana: Choked Estuary (124) - {T}: Add {U} or {B}.
+Land: Juktar picked {B}
+Mana: Path of Ancestry (117) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Loki's Scepter (176) picked {W}
+Mana: Loki's Scepter (176) - {T}: Add one mana of any color.
+Mana: Unclaimed Territory (150) - {T}: Add {C}.
+Add To Stack: Juktar cast The Frightful Four
+Information: BOARD cast | The Frightful Four (mv 4) by Juktar | open mana: Captain 10, Jenna 0, Marcus 18
+Add To Stack: Juktar triggered Path of Ancestry
+Resolve Stack: Juktar scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([The Frightful Four - Creature 4 / 4]) [Card: The Frightful Four (181), Activator: Juktar, SpellAbility: The Frightful Four - Creature 4 / 4]
+Resolve Stack: The Frightful Four - Creature 4 / 4
+Phase: Juktar's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Juktar]
+Phase: Juktar's Cleanup step
+Turn: Turn 35 (Jenna)
+Information: BOARD turn 35 (Jenna) | Captain | life 28 | hand 1 | lands 6 (2 untapped) | open mana 10 | commander Battlefield | creatures 23 (23 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x18; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 6/6; Academy Manufactor 1/3 | hand cards: Swamp(land)
+Information: BOARD turn 35 (Jenna) | Juktar | life 22 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; The Squadron Sinister 5/5; The Frightful Four 6/6 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 35 (Jenna) | Jenna | life 32 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Shelinda, Yevon Acolyte 3/3; Tidus, Yuna's Guardian 7/7 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 35 (Jenna) | Marcus | life 23 | hand 2 | lands 6 (6 untapped) | open mana 18 | commander Command | creatures 4 (4 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 35 | Vexing Puzzlebox (Captain) 257; Smuggler's Share (Captain) 121; Mr. House, President and CEO (Captain) 100; The Deck of Many Things (Captain) 94; Doctor Doom, King of Latveria (Juktar) 83
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Add To Stack: Jenna cast Farseek
+Information: BOARD cast | Farseek (mv 2) by Jenna | open mana: Captain 11, Juktar 0, Marcus 18
+Add To Stack: Jenna triggered Inexorable Tide
+Add To Stack: Juktar triggered The Frightful Four
+Life: Life: Jenna 32 > 30
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Farseek (235), Activator: Jenna, SpellAbility: Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.]
+Resolve Stack: Whenever you cast a spell, proliferate. [Card: Farseek (235), Activator: Jenna, SpellAbility: Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.]
+Replacement Effect: Radiant Grove enters tapped.
+Resolve Stack: Farseek (235) - Jenna searches their library for a Plains, Island, Swamp or Mountain card, puts it onto the battlefield tapped, then shuffles.
+Phase: Jenna's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (312) - [Couldn't add to stack, failed to target] - 
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain activated Component Pouch
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 19]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [19]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [19]]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (45) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 20]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [20]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [20]]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 18]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [18]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [18]]
+Phase: Jenna's Declare Attackers Step
+Phase: Jenna's Declare Blockers Step
+Phase: Jenna's First Strike Damage Step
+Phase: Jenna's Combat Damage Step
+Phase: Jenna's End of Combat Step
+Phase: Jenna's Main phase, postcombat
+Phase: Jenna's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Jenna]
+Phase: Jenna's Cleanup step
+Turn: Turn 36 (Marcus)
+Information: BOARD turn 36 (Marcus) | Captain | life 28 | hand 3 | lands 6 (2 untapped) | open mana 14 | commander Battlefield | creatures 29 (29 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x24; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 9/9; Academy Manufactor 1/3 | hand cards: Swamp(land); Caves of Koilos(land); Plains(land)
+Information: BOARD turn 36 (Marcus) | Juktar | life 22 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; The Squadron Sinister 5/5; The Frightful Four 6/6 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 36 (Marcus) | Jenna | life 30 | hand 2 | lands 7 (4 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Shelinda, Yevon Acolyte 4/4; Tidus, Yuna's Guardian 8/8 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 36 (Marcus) | Marcus | life 23 | hand 2 | lands 6 (6 untapped) | open mana 18 | commander Command | creatures 4 (4 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Breena, the Demagogue 1/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 36 | Vexing Puzzlebox (Captain) 288; Mr. House, President and CEO (Captain) 182; Smuggler's Share (Captain) 130; The Deck of Many Things (Captain) 105; Wyll, Blade of Frontiers (Captain) 104
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Marcus played Smoldering Marsh (384)
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain activated Component Pouch
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 15]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [15]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [15]]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (45) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 13]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [13]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [13]]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [10]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [10]]
+Mana: Arcane Signet (42) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Clue Token (636) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (636) - Captain draws a card.
+Mana: Windbrisk Heights (71) - {T}: Add {W}.
+Mana: Sulfurous Springs (64) - {T}: Add {C}.
+Zone Change: Clue Token (627) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (627) - Captain draws a card.
+Zone Change: Treasure Token (638) was put into Graveyard from Battlefield.
+Mana: Treasure Token (638) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (629) was put into Graveyard from Battlefield.
+Mana: Treasure Token (629) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Clue Token (618) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Clue Token
+Resolve Stack: Clue Token (618) - Captain draws a card.
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Mana: Mountain (400) - {T}: Add {R}.
+Mana: Plains (403) - {T}: Add {W}.
+Land: Marcus picked {B}
+Mana: Isolated Chapel (344) - {T}: Add {W} or {B}.
+Mana: Temple of the False God (342) - {T}: Add {C}{C}. Activate only if you control five or more lands.
+Mana: Sol Ring (367) - {T}: Add {C}{C}.
+Land: Marcus picked {B}
+Mana: Temple of Silence (405) - {T}: Add {W} or {B}.
+Add To Stack: Marcus cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Marcus | open mana: Captain 9, Juktar 0, Jenna 6
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Marcus' End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Marcus]
+Phase: Marcus' Cleanup step
+Turn: Turn 37 (Captain)
+Information: BOARD turn 37 (Captain) | Captain | life 28 | hand 8 | lands 6 (0 untapped) | open mana 9 | commander Battlefield | creatures 33 (33 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x28; Storm Crow 1/2; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 12/12; Academy Manufactor 1/3 | hand cards: Swamp(land); Caves of Koilos(land); Plains(land); Pitiless Plunderer(4); Chiss-Goria, Forge Tyrant(9); Stridehangar Automaton(3); Needleverge Pathway(land); Talisman of Hierarchy(2)
+Information: BOARD turn 37 (Captain) | Juktar | life 22 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; The Squadron Sinister 5/5; The Frightful Four 6/6 | hand cards: Endless Ranks of HYDRA(4); Moonstone, Harsh Mistress(4)
+Information: BOARD turn 37 (Captain) | Jenna | life 30 | hand 2 | lands 7 (4 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Shelinda, Yevon Acolyte 4/4; Tidus, Yuna's Guardian 8/8 | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 37 (Captain) | Marcus | life 23 | hand 2 | lands 7 (2 untapped) | open mana 7 | commander Battlefield | creatures 5 (5 untapped): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Breena, the Demagogue 1/3; Olivia, Opulent Outlaw 3/3 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 37 | Vexing Puzzlebox (Captain) 288; Mr. House, President and CEO (Captain) 233; Wyll, Blade of Frontiers (Captain) 144; Smuggler's Share (Captain) 139; The Deck of Many Things (Captain) 115
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Captain played Dragonskull Summit (43)
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Talisman of Hierarchy
+Information: BOARD cast | Talisman of Hierarchy (mv 2) by Captain | open mana: Juktar 0, Jenna 6, Marcus 7
+Add To Stack: Juktar triggered The Frightful Four
+Life: Life: Captain 28 > 26
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, that player loses life equal to that spell's mana value. [Card: Talisman of Hierarchy (15), Activator: Captain, SpellAbility: Talisman of Hierarchy]
+Resolve Stack: Talisman of Hierarchy
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Clifftop Retreat (51) - {T}: Add {R} or {W}.
+Add To Stack: Captain cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by Captain | open mana: Juktar 0, Jenna 6, Marcus 7
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Mana: Dragonskull Summit (43) - {T}: Add {B} or {R}.
+Mana: Sundown Pass (31) - {T}: Add {R} or {W}.
+Mana: Arcane Signet (42) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Talisman of Hierarchy (15) - {T}: Add {C}.
+Add To Stack: Captain cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Captain | open mana: Juktar 0, Jenna 6, Marcus 7
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Phase: devCaptain's Main phase, precombat
+Add To Stack: Captain activated Component Pouch
+Mana: Windbrisk Heights (71) - {T}: Add {W}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 9]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [9]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [9]]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (45) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [7]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [7]]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [7]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [7]]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Robot Token (533), Robot Token (529), Wyll, Blade of Frontiers (74), Robot Token (525) and Robot Token (518) to attack Juktar.
+Captain assigned Robot Token (635), Robot Token (626), Robot Token (617), Robot Token (551), Robot Token (549), Robot Token (540) and Robot Token (537) to attack Jenna.
+Captain assigned Robot Token (561), Robot Token (570), Robot Token (579), Robot Token (588), Robot Token (597), Robot Token (606) and Robot Token (611) to attack Marcus.
+Information: BOARD attack | Captain -> Juktar | attackers 5 (power 27) | defender life 22 | untapped creatures 3 (power 19): Doctor Doom, King of Latveria 8/8[Swiftfoot Boots]; The Squadron Sinister 5/5; The Frightful Four 6/6 | open mana 0
+Information: BOARD attack | Captain -> Jenna | attackers 7 (power 21) | defender life 30 | untapped creatures 2 (power 12): Shelinda, Yevon Acolyte 4/4; Tidus, Yuna's Guardian 8/8 | open mana 6
+Information: BOARD attack | Captain -> Marcus | attackers 7 (power 21) | defender life 23 | untapped creatures 5 (power 11): Kellogg, Dangerous Mind 3/2; Impulsive Pilferer 1/1; Hobgoblin, Mantled Marauder 3/4; Breena, the Demagogue 1/3; Olivia, Opulent Outlaw 3/3 | open mana 7
+Add To Stack: Marcus triggered Breena, the Demagogue
+Resolve Stack: Whenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control. [Number Attackers: [Robot Token (635), Robot Token (626), Robot Token (617), Robot Token (551), Robot Token (549), Robot Token (540), Robot Token (537)]]
+Phase: Captain's Declare Blockers Step
+Combat: Juktar assigned The Squadron Sinister (139) to block Robot Token (533).
+Juktar assigned The Frightful Four (181) to block Robot Token (529).
+Juktar didn't block Wyll, Blade of Frontiers (74).
+Juktar assigned Doctor Doom, King of Latveria (211) to block Robot Token (525).
+Juktar didn't block Robot Token (518).
+Combat: Jenna assigned Shelinda, Yevon Acolyte (277) to block Robot Token (635).
+Jenna assigned Tidus, Yuna's Guardian (312) to block Robot Token (626).
+Jenna didn't block Robot Token (617).
+Jenna didn't block Robot Token (551).
+Jenna didn't block Robot Token (549).
+Jenna didn't block Robot Token (540).
+Jenna didn't block Robot Token (537).
+Combat: Marcus assigned Kellogg, Dangerous Mind (373) to block Robot Token (561).
+Marcus assigned Hobgoblin, Mantled Marauder (138) to block Robot Token (570).
+Marcus assigned Olivia, Opulent Outlaw (413) to block Robot Token (579).
+Marcus assigned Impulsive Pilferer (394) to block Robot Token (588).
+Marcus assigned Breena, the Demagogue (386) to block Robot Token (597).
+Marcus didn't block Robot Token (606).
+Marcus didn't block Robot Token (611).
+Phase: Captain's First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (373) deals 3 damage to Robot Token (561).
+Zone Change: Robot Token (561) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (561)]
+Phase: Captain's Combat Damage Step
+Damage: Robot Token (570) deals 3 damage to Hobgoblin, Mantled Marauder (138).
+Damage: Robot Token (579) deals 3 damage to Olivia, Opulent Outlaw (413).
+Damage: Robot Token (588) deals 3 damage to Impulsive Pilferer (394).
+Damage: Robot Token (597) deals 3 damage to Breena, the Demagogue (386).
+Damage: Robot Token (606) deals 3 combat damage to Marcus.
+Damage: Robot Token (611) deals 3 combat damage to Marcus.
+Damage: Robot Token (635) deals 3 damage to Shelinda, Yevon Acolyte (277).
+Damage: Robot Token (626) deals 3 damage to Tidus, Yuna's Guardian (312).
+Damage: Robot Token (617) deals 3 combat damage to Jenna.
+Damage: Robot Token (551) deals 3 combat damage to Jenna.
+Damage: Robot Token (549) deals 3 combat damage to Jenna.
+Damage: Robot Token (540) deals 3 combat damage to Jenna.
+Damage: Robot Token (537) deals 3 combat damage to Jenna.
+Damage: Robot Token (533) deals 3 damage to The Squadron Sinister (139).
+Damage: Robot Token (529) deals 3 damage to The Frightful Four (181).
+Damage: Wyll, Blade of Frontiers (74) deals 15 combat damage to Juktar.
+Damage: Robot Token (525) deals 3 damage to Doctor Doom, King of Latveria (211).
+Damage: Robot Token (518) deals 3 combat damage to Juktar.
+Damage: The Squadron Sinister (139) deals 5 damage to Robot Token (533).
+Damage: The Frightful Four (181) deals 6 damage to Robot Token (529).
+Damage: Doctor Doom, King of Latveria (211) deals 8 damage to Robot Token (525).
+Damage: Tidus, Yuna's Guardian (312) deals 8 damage to Robot Token (626).
+Damage: Shelinda, Yevon Acolyte (277) deals 4 damage to Robot Token (635).
+Life: Life: Jenna 30 > 34
+Damage: Hobgoblin, Mantled Marauder (138) deals 5 damage to Robot Token (570).
+Damage: Olivia, Opulent Outlaw (413) deals 3 damage to Robot Token (579).
+Life: Life: Marcus 23 > 26
+Damage: Impulsive Pilferer (394) deals 1 damage to Robot Token (588).
+Damage: Breena, the Demagogue (386) deals 1 damage to Robot Token (597).
+Life: Life: Juktar 22 > 4
+Life: Life: Jenna 34 > 19
+Life: Life: Marcus 26 > 20
+Zone Change: Robot Token (525) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (529) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (533) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (570) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (579) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (626) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (635) was put into Graveyard from Battlefield.
+Zone Change: Impulsive Pilferer (394) was put into Graveyard from Battlefield.
+Zone Change: Breena, the Demagogue (386) was put into Graveyard from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (413) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Captain triggered Pitiless Plunderer
+Add To Stack: Marcus triggered Dictate of Erebos
+Add To Stack: Marcus triggered Dictate of Erebos
+Add To Stack: Marcus triggered Dictate of Erebos
+Add To Stack: Marcus triggered Impulsive Pilferer
+Resolve Stack: When Impulsive Pilferer dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Impulsive Pilferer (394)]
+Zone Change: Robot Token (678) was put into Graveyard from Battlefield.
+Zone Change: The Squadron Sinister (139) was put into Graveyard from Battlefield.
+Zone Change: Shelinda, Yevon Acolyte (277) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Olivia, Opulent Outlaw (413)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (678)]
+Zone Change: Thopter Token (703) was put into Graveyard from Battlefield.
+Zone Change: The Frightful Four (181) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (312) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Breena, the Demagogue (386)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Thopter Token (703)]
+Zone Change: Thopter Token (712) was put into Graveyard from Battlefield.
+Zone Change: Doctor Doom, King of Latveria (211) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Impulsive Pilferer (394)]
+Add To Stack: Captain triggered Pitiless Plunderer
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Thopter Token (712)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (525)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (529)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (533)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (570)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (579)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (626)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (635)]
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Damage: Sulfurous Springs (64) deals 1 non-combat damage to Captain.
+Life: Life: Captain 26 > 25
+Mana: Sulfurous Springs (64) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Zone Change: Treasure Token (783) was put into Graveyard from Battlefield.
+Mana: Treasure Token (783) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Captain | open mana: Juktar 0, Jenna 6, Marcus 8
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Add To Stack: Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Juktar.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Juktar 4 > 3
+Life: Life: Jenna 19 > 18
+Life: Life: Marcus 20 > 19
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (792)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Juktar.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Juktar 3 > 2
+Life: Life: Jenna 18 > 17
+Life: Life: Marcus 19 > 18
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clue Token (793)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Juktar.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Juktar 2 > 1
+Life: Life: Jenna 17 > 16
+Life: Life: Marcus 18 > 17
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Food Token (794)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Juktar.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Juktar 1 > 0
+Life: Life: Jenna 16 > 15
+Life: Life: Marcus 17 > 16
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (795)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 15 > 14
+Life: Life: Marcus 16 > 15
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Thopter Token (796)]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [6]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [6]]
+Phase: Captain's End step
+Add To Stack: Captain triggered Smuggler's Share
+Resolve Stack: At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 38 (Jenna)
+Information: BOARD turn 38 (Jenna) | Captain | life 25 | hand 6 | lands 7 (0 untapped) | open mana 24 | commander Battlefield | creatures 46 (35 untapped): Jan Jansen, Chaos Crafter 3/3; Robot Token 3/3 x14; Storm Crow 1/2; Robot Token 3/3* x10; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Wyll, Blade of Frontiers 16/16*; Academy Manufactor 1/3; Stridehangar Automaton 1/4; Pitiless Plunderer 1/4; Thopter Token 2/2 x14; Reckless Fireweaver 1/3 | hand cards: Swamp(land); Caves of Koilos(land); Plains(land); Chiss-Goria, Forge Tyrant(9); Needleverge Pathway(land); Delete(2)
+Information: BOARD turn 38 (Jenna) | Jenna | life 14 | hand 2 | lands 7 (4 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Yuna's Whistle(3); Skycloud Expanse(land)
+Information: BOARD turn 38 (Jenna) | Marcus | life 15 | hand 2 | lands 7 (2 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Kellogg, Dangerous Mind 3/2 | hand cards: Toxic Deluge(3); Rakdos Signet(2)
+Information: BOARD threat | turn 38 | Vexing Puzzlebox (Captain) 288; Mr. House, President and CEO (Captain) 288; Wyll, Blade of Frontiers (Captain) 282; Pitiless Plunderer (Captain) 158; Reckless Fireweaver (Captain) 153
+Phase: Jenna's Untap step
+Phase: Jenna's Upkeep step
+Phase: Jenna's Draw step
+Phase: Jenna's Main phase, precombat
+Mana: Canopy Vista (281) - {T}: Add {G}.
+Mana: Island (243) - {T}: Add {U}.
+Mana: Plains (308) - {T}: Add {W}.
+Mana: Ash Barrens (284) - {T}: Add {C}.
+Land: Jenna picked {W}
+Mana: Port Town (309) - {T}: Add {W} or {U}.
+Add To Stack: Jenna cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Jenna | open mana: Captain 36, Marcus 8
+Add To Stack: Jenna triggered Inexorable Tide
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Mana: Vexing Puzzlebox (95) - {T}: Add one mana of any color. Roll a d20. 
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain activated Component Pouch
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: The Deck of Many Things (99) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 14 > 13
+Life: Life: Marcus 15 > 14
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (803)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 13 > 12
+Life: Life: Marcus 14 > 13
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clue Token (804)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 12 > 11
+Life: Life: Marcus 13 > 12
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Food Token (805)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 11 > 10
+Life: Life: Marcus 12 > 11
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (806)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 10 > 9
+Life: Life: Marcus 11 > 10
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Thopter Token (807)]
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 13]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 9 > 8
+Life: Life: Marcus 10 > 9
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (814)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 8 > 7
+Life: Life: Marcus 9 > 8
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clue Token (815)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 7 > 6
+Life: Life: Marcus 8 > 7
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Food Token (816)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 6 > 5
+Life: Life: Marcus 7 > 6
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (817)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 5 > 4
+Life: Life: Marcus 6 > 5
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Thopter Token (818)]
+Resolve Stack: Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result. [Player: Captain, Result: [13]]
+Resolve Stack: Whenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers. [Player: Captain, Result: [13]]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Component Pouch (45) - Roll a d20.
+Add To Stack: Captain triggered Wyll, Blade of Frontiers
+Add To Stack: Captain triggered Vexing Puzzlebox
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 7]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 4 > 3
+Life: Life: Marcus 5 > 4
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (825)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 3 > 2
+Life: Life: Marcus 4 > 3
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Clue Token (826)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 2 > 1
+Life: Life: Marcus 3 > 2
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Food Token (827)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Jenna.
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Jenna 1 > 0
+Life: Life: Marcus 2 > 1
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (828)]
+Damage: Reckless Fireweaver (94) deals 1 non-combat damage to Marcus.
+Life: Life: Marcus 1 > 0
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Thopter Token (829)]
+Player Control: Captain has restored control over themself
+Player Control: Juktar has restored control over themself
+Player Control: Jenna has restored control over themself
+Player Control: Marcus has restored control over themself
+Game Outcome: Match Duration 35m : 50s
+Game Outcome: Turn 19
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: Juktar has lost because life total reached 0
+Game Outcome: Jenna has lost because life total reached 0
+Game Outcome: Marcus has lost because life total reached 0
+Match Result: Captain: 1 Juktar: 0 Jenna: 0 Marcus: 0 
+
+Game Result: Captain has won

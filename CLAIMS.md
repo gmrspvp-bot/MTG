@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| AI: Mr House plays like the owner - rolls dice every turn (incl. opponents' end steps), builds robots up then attacks wide | Stoneforge | 2026-10-21 | From the owner's 3 recorded games (scratch\house-style.ps1). `scripts\tools\AiPatches` (RollDice AI), AttackHook, maybe custom card scripts. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

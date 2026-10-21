@@ -21,7 +21,7 @@ param(
     # "catch,counter" (Captain America only). Added later on 2026-10-10: "cmdrfirst"
     # (commanders cast as soon as affordable) and "captain" (Captain America saves Throw for
     # attackers or lethal, attacks only when lethal / unblockable / Battle-Mace).
-    [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave',
+    [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave,dice,housestyle',
     # Forge AI profile for every player (res\ai\<name>.ai): Default, Cautious, Reckless,
     # Experimental, or Realistic (ours, tuned for 40-life Commander; default since
     # 2026-10-10). "" = Forge's own default, as in runs before that date.
