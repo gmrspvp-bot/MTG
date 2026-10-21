@@ -744,6 +744,10 @@ abstract class TableInput extends TableHud {
         // early return below, because an Ask now counts as a panel - putting it after meant the
         // question could be read and not answered at all.
         if (Gui3D.pendingAsk() != null) {
+            // Take the keyboard back the moment a question arrives, once per question. Forge
+            // raises its own window to ask, and the keys went with it.
+            Object askNow = Gui3D.pendingAsk();
+            if (askNow != askFocused) { askFocused = askNow; Bridge.focusWindow(); }
             if (Keys3D.just(Input.Keys.SPACE)) Gui3D.answerAsk(true);
             if (Keys3D.just(Input.Keys.X)) Gui3D.answerAsk(false);
             if (Keys3D.just(Input.Keys.H)) { Handoff.handBack(); }
@@ -1251,6 +1255,9 @@ abstract class TableInput extends TableHud {
         }
         return true;
     }
+
+    /** The question we last took the keyboard for, so it is asked for once and not every frame. */
+    private Object askFocused;
 
     /** Where a card sits in your hand as drawn, or -1 if it is not in it. */
     int handIndexOf(int cardId) {

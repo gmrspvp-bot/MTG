@@ -96,7 +96,6 @@ abstract class TableHud extends TableScene {
             fontBig.draw(ui, note, (w - ngl.width) / 2f, h * 0.36f);
         }
         drawPromptBar(w, h);
-        drawPendingAsk(w, h);
         if (hoveredSeat >= 0 && hoveredSeat < snap.seats.size() && hovered == null) {
             // Just the name. It used to read "click to choose X", which implied a choice was
             // pending even long after one had been made - a seat is always clickable and Forge
@@ -140,6 +139,12 @@ abstract class TableHud extends TableScene {
         }
         bug.drawCog(shapes, ui, font, w, h, flat);
         help.drawButton(shapes, w, h, flat);
+        // Last of all, over everything. It used to be drawn before the seat names, the zone
+        // labels and the life totals, all of which are printed on the board behind it - so the
+        // question came out with the table's own writing through the middle of it (the owner,
+        // 2026-10-22). It is the only thing on screen the game is actually waiting for; it goes
+        // on top.
+        drawPendingAsk(w, h);
     }
 
     /**
@@ -646,14 +651,25 @@ abstract class TableHud extends TableScene {
     void drawPendingAsk(int w, int h) {
         Gui3D.Ask ask = Gui3D.pendingAsk();
         if (ask == null) return;
-        float bw = 760f, bh = 150f, x = (w - bw) / 2f, y = h * 0.60f;
+        // Measured, not guessed. The box was a fixed 150 high, and a question like "you are about
+        // to end your turn, but 2 untapped mana and cards you could cast (...). Pass anyway?"
+        // wraps to three lines and ran out of the bottom over the answers.
+        float bw = Math.min(w - 120f, 860f);
+        GlyphLayout q = new GlyphLayout(font, ask.question, Color.WHITE, bw - 48f,
+            com.badlogic.gdx.utils.Align.left, true);
+        float bh = Math.max(150f, 118f + q.height);
+        float x = (w - bw) / 2f, y = h * 0.62f - bh / 2f;
 
         ui.end();
         Gdx.gl.glEnable(GL20.GL_BLEND);
         com.badlogic.gdx.math.Matrix4 flat = new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h);
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(0.10f, 0.07f, 0.02f, 0.96f);
+        // A shade over the whole screen as well: this is a question the game is stopped on, and
+        // the board behind it was showing through the box and through the text.
+        shapes.setColor(0f, 0f, 0f, 0.45f);
+        shapes.rect(0, 0, w, h);
+        shapes.setColor(0.07f, 0.05f, 0.02f, 1f);
         shapes.rect(x, y, bw, bh);
         shapes.setColor(0.98f, 0.76f, 0.24f, 1f);
         shapes.rect(x, y + bh - 5f, bw, 5f);
@@ -667,11 +683,11 @@ abstract class TableHud extends TableScene {
         font.setColor(0.95f, 0.95f, 0.92f, 1f);
         font.draw(ui, ask.question, x + 24f, y + bh - 58f, bw - 48f, -1, true);
         font.setColor(0.70f, 0.95f, 0.70f, 1f);
-        font.draw(ui, "SPACE" + (Pad.connected() ? " / A" : "") + " = " + ask.yesLabel, x + 24f, y + 36f);
+        font.draw(ui, "SPACE" + (Pad.connected() ? " / A" : "") + " = " + ask.yesLabel, x + 24f, y + 40f);
         font.setColor(0.95f, 0.72f, 0.66f, 1f);
-        font.draw(ui, "X" + (Pad.connected() ? " / X" : "") + " = " + ask.noLabel, x + 260f, y + 36f);
+        font.draw(ui, "X" + (Pad.connected() ? " / X" : "") + " = " + ask.noLabel, x + 300f, y + 40f);
         font.setColor(0.62f, 0.66f, 0.72f, 1f);
-        font.draw(ui, "H hands this question back to Forge's window", x + 24f, y + 16f);
+        font.draw(ui, "H hands this question back to Forge's window", x + 24f, y + 18f);
     }
 
     /** Y of row i, measured down from the top of the panel. */

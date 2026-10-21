@@ -64,6 +64,25 @@ public final class Bridge {
     }
 
     /** Open the window for a joined game (no-op if it is already open). */
+    /**
+     * Bring the 3D window to the front and give it the keyboard.
+     *
+     * Forge's own window raises itself when it has something to ask, which takes the keyboard
+     * with it: the question appeared on the 3D table and SPACE did nothing until the table was
+     * clicked first (the owner, 2026-10-22). Only called when a question actually arrives, so it
+     * is never fighting anybody for focus the rest of the time.
+     */
+    static void focusWindow() {
+        try {
+            com.badlogic.gdx.Graphics g = com.badlogic.gdx.Gdx.graphics;
+            if (g instanceof com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics) {
+                ((com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics) g).getWindow().focusWindow();
+            }
+        } catch (Throwable t) {
+            Soak.caught("Bridge.focusWindow", t);
+        }
+    }
+
     static void openWindow() {
         if (Boolean.getBoolean("forge.ui3d.nowindow")) return;     // tests: no window on screen
         start();
