@@ -474,6 +474,16 @@ abstract class TableLayout extends TableCamera {
         // assigns the whole pile (handleCombatPlan). Piles with different orders stay apart,
         // because the assignment is part of the key.
         if (combatPlan != null && combatPlan.blocking && c.creature) return false;
+        // The same thing again, for every prompt that asks you to pick cards one at a time.
+        // Olivia's ability wants two Treasures sacrificed; the three Treasures were one pile with
+        // one clickable card on top, so the second one could not be picked at all (the owner,
+        // 2026-10-22). A card Forge is offering gets its own slot, and only while it is being
+        // offered - the pile comes back the moment the prompt is answered.
+        if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) return false;
+        // Targets are chosen the same way, one card at a time, and that list is ours rather than
+        // Forge's. So is paying mana: two identical Signets in a pile are one tap, not two.
+        if (targeting != null && targeting.legal.contains(c.id)) return false;
+        if (manaPlan != null && manaPlan.usable.contains(c.id)) return false;
         return STACK_ALIKE && !c.attacking && !c.blocking && !hostTargets.containsKey(c.id)
             && !attachedHere.containsKey(c.id) && c.attachedToId < 0;
     }
