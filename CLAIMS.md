@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| play.ps1 deck alignment: keep print-only edits from Forge's deck editor (same cards per section) by writing the prints back to decks\, instead of archiving them | Stoneforge | 2026-10-22 | Owner's art-print changes were reverted every launch. Anything else still archived as now. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
