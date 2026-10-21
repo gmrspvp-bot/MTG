@@ -19,7 +19,10 @@ param(
     # Opens the 3D table (ui3d\) alongside Forge's own UI. Read-only for now.
     [switch] $Ui3d,
     # Extra -D switches passed straight to the JVM, e.g. -JvmArgs "-Dforge.ui3d.strict=true".
-    [string] $JvmArgs = ''
+    [string] $JvmArgs = '',
+    # Line the Commander deck folder up with decks\ and stop there, without starting Forge.
+    # Worth running after a pull that changed the decks; a normal launch does it anyway.
+    [switch] $DecksOnly
 )
 
 $ErrorActionPreference = 'Stop'
@@ -46,14 +49,53 @@ if ($sims.Count -gt 0) {
     if ($answer -ne 'Yes') { exit 0 }
 }
 
-# Decks: copy new or changed .dck files into the desktop app's Commander deck folder.
+# Decks: make the desktop app's Commander folder match decks\ exactly.
+#
+# This used to copy in anything newer and never take anything out, which left every machine with
+# its own pile of leftovers. On 2026-10-22 the owner's picker still listed all 31 decks - the 14
+# current ones, the 15 older versions the other owner had moved to decks\archive\, and two that
+# had never been in git at all - and his Angels deck had been resaved through Forge's own deck
+# editor as "Deck Type=Constructed" with the [commander] section gone, so Seluma was no longer
+# his commander. Copying only newer files meant that could never right itself.
+#
+# So: decks\ is the source of truth, and this folder is made to match it on every launch. A deck
+# that is not in decks\, or that differs from it, is MOVED to forge-data\decks-archive\ first -
+# nothing is ever deleted, and an edit made in Forge's editor is still there to be picked up and
+# committed if it was wanted.
 $cmdrDecks = Join-Path $root 'forge-data\decks\commander'
+$deckArchive = Join-Path $root 'forge-data\decks-archive'
 New-Item -ItemType Directory -Force -Path $cmdrDecks | Out-Null
+
+function Move-ToDeckArchive([System.IO.FileInfo] $file, [string] $why) {
+    New-Item -ItemType Directory -Force -Path $deckArchive | Out-Null
+    $stamp = $file.LastWriteTime.ToString('yyyyMMdd_HHmmss')
+    $dest = Join-Path $deckArchive ("{0} ({1} {2}){3}" -f $file.BaseName, $why, $stamp, $file.Extension)
+    Move-Item $file.FullName $dest -Force
+    Write-Host ("Deck put aside: {0} - {1}" -f $file.Name, $why) -ForegroundColor DarkYellow
+}
+
+$current = @{}
 foreach ($d in Get-ChildItem (Join-Path $root 'decks') -Filter '*.dck') {
+    $current[$d.Name] = $true
     $dest = Join-Path $cmdrDecks $d.Name
-    if (-not (Test-Path $dest) -or (Get-Item $dest).LastWriteTime -lt $d.LastWriteTime) {
-        Copy-Item $d.FullName $dest -Force
+    if (Test-Path $dest) {
+        # Compare the contents, not the dates: a deck resaved in Forge's editor is NEWER than
+        # the one in git and still the wrong deck.
+        $same = (Get-FileHash $dest -Algorithm SHA256).Hash -eq (Get-FileHash $d.FullName -Algorithm SHA256).Hash
+        if ($same) { continue }
+        Move-ToDeckArchive (Get-Item $dest) 'changed here'
     }
+    Copy-Item $d.FullName $dest -Force
+}
+# Anything left that decks\ does not have: an old version the other owner archived, or a deck
+# that only ever existed on this machine. Either way it does not belong in the picker, and
+# either way it is kept.
+foreach ($leftover in Get-ChildItem $cmdrDecks -Filter '*.dck' -File) {
+    if (-not $current.ContainsKey($leftover.Name)) { Move-ToDeckArchive $leftover 'not in decks' }
+}
+if ($DecksOnly) {
+    Write-Host ("Commander folder now matches decks\ ({0} decks)." -f $current.Count) -ForegroundColor Green
+    exit 0
 }
 
 # Preferences the desktop app reads from forge.preferences (created on first run): the AI

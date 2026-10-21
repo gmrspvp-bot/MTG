@@ -2,6 +2,8 @@
 
 Only the latest version of each deck lives here, so Forge's deck picker shows only current decks. Older versions, originals included, are in `archive\` (moved there 2026-10-22 at the owner's request); never delete a deck.
 
+This folder is the source of truth. Every launch, `play.ps1` makes `forge-data\decks\commander` match it exactly: decks that are not here, or that differ from the copy here, are **moved** to `forge-data\decks-archive\` (never deleted) and the version from here is copied in. That keeps both machines showing the same picker without anyone tidying by hand — before it did that, the second owner's picker still listed all 31 decks after the archive commit, and his `Angels` had been resaved through Forge's deck editor as `Deck Type=Constructed` with the `[commander]` section gone, which a copy-if-newer rule could never have put right. `play.ps1 -DecksOnly` does just that alignment and exits, without starting Forge.
+
 **Use these in simulation runs:**
 
 | Deck | File to run | Notes |
