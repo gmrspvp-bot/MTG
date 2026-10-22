@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| AI: weigh the whole table before an easy kill - spare a weak player while another opponent's board is far stronger than ours | Stoneforge | 2026-10-22 | Owner request. HumanHooks (goForKill + a check after Forge's attack), AttackHook. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

@@ -48,6 +48,9 @@ public final class AttackHook {
                 }
                 String note = kill != null ? null : HumanHooks.retarget(combat);
                 if (note != null) System.out.println("TARGETAI " + name + ": " + note);
+                // Last word on kills, whoever set them up: weigh the whole table first.
+                String spared = HumanHooks.spareKills(combat);
+                if (spared != null) System.out.println("TARGETAI " + name + ": " + spared);
                 HumanHooks.remember(combat);
             } catch (Throwable t) {
                 // Never break the game.
@@ -57,6 +60,9 @@ public final class AttackHook {
         if (HouseAttack.enabled) {
             try {
                 HouseAttack.apply(combat, real);
+                // HouseAttack's all-in can set a kill up again; the same table check applies.
+                String spared = HumanHooks.spareKills(combat);
+                if (spared != null && real) System.out.println("TARGETAI " + combat.getAttackingPlayer().getName() + ": " + spared);
             } catch (Throwable t) {
                 // Never break the game.
             }

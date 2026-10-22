@@ -220,6 +220,7 @@ public final class HumanHooks {
         for (Player p : me.getOpponents()) { if (!p.hasLost()) opps.add(p); }
         opps.sort((x, y) -> Integer.compare(x.getLife(), y.getLife()));
         for (Player p : opps) {
+            if (leaderToFear(me, p) != null) continue;               // keep them in the game (see spareKills)
             java.util.List<Card> can = new java.util.ArrayList<>();
             for (Card c : available(me)) { if (CombatUtil.canAttack(c, p)) can.add(c); }
             if (can.isEmpty()) continue;
@@ -276,6 +277,68 @@ public final class HumanHooks {
     }
 
     static final int FREE_ATTACK_LIFE_MARGIN = 10;
+
+    /**
+     * The owner, 2026-10-22: "evaluate everyone's board state before going for an easy kill -
+     * sometimes it helps to have another player if you don't think you can handle another
+     * player". Knocking out the weakest player removes a body the leader would otherwise have to
+     * get through, and hands the leader one less opponent; in the owner's game that day the
+     * AIs finished him off while Angels sat on 111 life with a sky full of flyers.
+     *
+     * Returns the opponent we cannot handle alone, if killing `victim` now would be a mistake:
+     * someone other than the victim whose board (threat()) is at least SPARE_RATIO times ours
+     * and at least twice the victim's. Null means the kill is fine - including when nobody
+     * else is left, and when the victim is the leader. -Dforge.ai.sparekills=false turns it off.
+     */
+    static Player leaderToFear(Player me, Player victim) {
+        if (!SPARE_KILLS || me == null || victim == null) return null;
+        double mine = Math.max(1.0, threat(me)), theirs = threat(victim);
+        Player leader = null;
+        double top = 0;
+        for (Player p : me.getOpponents()) {
+            if (p.hasLost() || p == victim) continue;
+            double s = threat(p);
+            if (s > top) { top = s; leader = p; }
+        }
+        if (leader == null) return null;
+        return top >= SPARE_RATIO * mine && top >= 2.0 * theirs ? leader : null;
+    }
+
+    static final boolean SPARE_KILLS = !"false".equalsIgnoreCase(System.getProperty("forge.ai.sparekills", "true"));
+    static final double SPARE_RATIO = 1.5;
+
+    /**
+     * After the attack is chosen (by Forge or by us): any player it would kill (damageThrough
+     * their likely blocks), who should be kept in the game per leaderToFear, is spared - those
+     * attackers go at the leader instead where that is safe, and otherwise stay home. A
+     * commander-damage kill is spared the same way. Returns a log note or null.
+     */
+    static String spareKills(Combat combat) {
+        if (!enabled || !SPARE_KILLS || combat == null) return null;
+        Player me = combat.getAttackingPlayer();
+        if (me == null) return null;
+        StringBuilder note = new StringBuilder();
+        for (Player d : new java.util.ArrayList<>(combat.getDefendingPlayers())) {
+            if (d == null || d.hasLost()) continue;
+            java.util.List<Card> at = new java.util.ArrayList<>(combat.getAttackersOf(d));
+            if (at.isEmpty()) continue;
+            if (damageThrough(at, d) < d.getLife() && commanderKill(at, d) == null) continue;
+            Player leader = leaderToFear(me, d);
+            if (leader == null) continue;
+            int moved = 0, home = 0;
+            for (Card a : at) {
+                combat.removeFromCombat(a);
+                if (CombatUtil.canAttack(a, leader) && safeAttack(a, leader)) { combat.addAttacker(a, leader); moved++; }
+                else home++;
+            }
+            note.append(note.length() > 0 ? "; " : "").append("spared ").append(d.getName())
+                .append(" (").append(d.getLife()).append(" life) - ").append(leader.getName())
+                .append(" is too strong to face alone (board ").append(Math.round(threat(leader)))
+                .append(" vs ours ").append(Math.round(threat(me))).append(", theirs ").append(Math.round(threat(d)))
+                .append("): ").append(moved).append(" at ").append(leader.getName()).append(", ").append(home).append(" home");
+        }
+        return note.length() == 0 ? null : note.toString();
+    }
 
     /** Record whom this player attacked (called once per real combat). */
     static void remember(Combat combat) {
