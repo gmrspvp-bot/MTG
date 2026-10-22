@@ -450,20 +450,35 @@ abstract class TableLayout extends TableCamera {
             } else if (opposite) {
                 lx = 0f; lz = MONITOR_DIST - 1.60f; lift = 1.12f;
             } else {
-                // Clockwise from us goes right, anticlockwise left; a bigger table puts the
-                // second and third along each side further out again.
-                boolean right = rel <= n / 2;
-                int rank = right ? rel : n - rel;
+                // The side this player's board is actually on, seen from our seat - worked out
+                // from where their seat sits, not from seat order. "Clockwise goes right" came out
+                // mirrored, putting the left player's screen on the right (the owner, 2026-10-22).
+                // A bigger table puts the second and third along each side further out again.
+                Vector3 seatW = rotateY(0f, SEAT_DIST, seatAngle(i, n)), ourX = rotateY(1f, 0f, view);
+                boolean right = seatW.x * ourX.x + seatW.z * ourX.z > 0f;
+                int rank = Math.min(rel, n - rel);
                 lx = (right ? 1f : -1f) * (2.20f + (rank - 1) * 1.95f);
                 lz = MONITOR_DIST - 1.15f;
                 lift = 0.70f;
             }
             Vector3 w = rotateY(lx, lz, view);
+            // Overhead (TAB), the screens lie flat at the top of their own player's board - the
+            // edge towards the middle - still turned to face us (the owner, 2026-10-22: tilted
+            // is right when seated, but looked down on they should lie flat by the board). `t`
+            // follows the camera's lift, so they move with it rather than jumping.
+            float t = smooth(this.lift);
+            if (t > 0f) {
+                float edge = ROW_CREATURES - CARD_H / 2f - 0.35f;          // the board's near edge
+                Vector3 flat = rotateY(0f, edge - 1.10f, seatAngle(i, n));
+                w.set(w.x + (flat.x - w.x) * t, 0f, w.z + (flat.z - w.z) * t);
+                lift = lift + (FIELD_RAISE + 0.06f - lift) * t;
+            }
 
             ModelInstance frame = inst(monitorModel);
             frame.transform.setToTranslation(w.x, lift, w.z)
                 .rotate(Vector3.Y, yaw)
-                .rotate(Vector3.X, 34f);
+                .rotate(Vector3.X, 34f * (1f - t))
+                .scale(1f + 0.35f * t, 1f, 1f + 0.35f * t);          // flat ones a third larger: read from higher up
             props.add(frame);
 
             ModelInstance glass = inst(screenModel);
@@ -481,7 +496,7 @@ abstract class TableLayout extends TableCamera {
             stand.transform.setToTranslation(w.x, standH / 2f - 0.015f, w.z)
                 .rotate(Vector3.Y, yaw)
                 .scale(1f, standH / 0.42f, 1f);
-            props.add(stand);
+            if (t < 0.5f) props.add(stand);                               // a flat screen has no stand
 
             Vector3 at = new Vector3();
             glass.transform.getTranslation(at);

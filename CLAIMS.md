@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d centre screens: left/right players on the wrong side; in the overhead (TAB) view lie flat at the top (inner edge) of each player's board | Stoneforge | 2026-10-22 | Owner report. placeMonitors / drawCentreTracker. Builds on journeybeforepancakes' 81c22e10 / 376fe0cc. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
