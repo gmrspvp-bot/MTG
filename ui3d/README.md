@@ -437,6 +437,40 @@ Pictures land in a `MTG3D` folder inside the cache - a folder, not a real set co
 window carries on using its own files. `CardArt` rescans every few seconds while a game is
 running, so they appear without a restart.
 
+### Owner's list, 2026-10-23 — not started (do not fix until the owner says)
+
+From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at the repo root.
+
+- [ ] **Joined games: "Pass anyway?" opens Forge's window.** `ConfirmPassHook` asks
+      `Gui3D.askYesNo` and falls back to Forge's window when that returns nothing - which it does
+      in a joined game, because the 3D question goes through the local `PlayerControllerHuman`
+      and a joined game has only the network controller. Four pop-ups in the owner's joined game
+      of 2026-10-22 17:41. Fix: give `askYesNo` the joined-game path the clicks already use
+      (`remoteClick`), so the question shows in 3D and the answer returns to the hook. Test: a
+      probe in remote mode, plus `Ui3dRemoteTest`.
+- [ ] **Joined games: splitting combat damage between blockers opens Forge's window.** The host
+      sends `assignCombatDamage` over the network and it arrives in a shape `takeAssignCombatDamage`
+      does not accept ("shape not taken" in the console, same game). Fix: log the exact argument
+      shape that arrives in a joined game, accept it, fill anything missing (e.g. the defender)
+      from the 3D table's own snapshot, and answer through the same return path. Test: a
+      joined-game case in `Ui3dTakeoverTest`, then a real double block in a joined game.
+- [ ] **Network sync loses track on big turns** (Forge's code, but it is what joined players see).
+      On a turn with dozens of triggers, Forge's host-side sync reads the game while it changes:
+      `Tracker.getDelayedPropsFor` throws ConcurrentModificationException, the delta walk "ships
+      what was collected", and the client shows blank names / stale cards ("null activated" in
+      the log). Fix: an EvalCacheAgent hook that has `getDelayedPropsFor` read a copy of the list,
+      as `ActionableCardsHook` does for the pay-mana race. Only provable in a busy networked game.
+- [ ] **Card pictures on demand.** A card or token with no cached picture should ask Forge's own
+      downloader (its image key, as Forge's window does) when it first appears on the table, so
+      any card from any deck - friends' decks in joined games, Clown Robots, Balloons - gets its
+      picture within seconds, in Forge's own folders. Plus a quick pre-download of the decks'
+      exact printings (and their tokens) when `Play 3D.cmd` / `Update.cmd` starts, skipping what
+      is cached. Scryfall-less oddities keep the drawn face.
+- [ ] **The writing on the flat (TAB-view) screens does not grow with them.** The screens are a
+      third larger flat, the readout is not; life totals read, the LIB/GY/EX numbers are tiny.
+- [ ] **Check by eye in a seated game:** the left/right screens now follow where each player's
+      seat is (they were mirrored). Only the overhead view was screenshot-checked.
+
 ### Owner's list, 2026-10-21 — not started
 
 Asked for during the first four-player game played from the 3D table. Written down as given,

@@ -39,6 +39,7 @@ elsewhere. The `scripts\` ones use paths relative to the repo.
 | `scripts\make-jarvis-skin.ps1` | Builds the `Jarvis` skin (navy/cyan/amber) into the Forge install from `default`. Forge reads its whole palette from single pixels at x=70 in `bg_splash.png`, so this recolours the entire desktop UI without touching code. `play.ps1 -Skin Default` keeps Forge's own look. |
 | `scripts\tools\*.java` | The AI patches, agent hooks and launchers (below). |
 | `scripts\*.ps1` | Analysis: summarise, compare (A/B), card-stats, throw-stats, board-stats, realism-stats, stuck-cards... |
+| `AI-TODO.md` | The AI and house-rules to-do list (the 3D table's is in `ui3d\README.md`, card rules bugs in `CARD-MECHANICS.md`). |
 | `scratch\` | Working area. In git: `*.ps1` helpers, `probe\*.java` test boards, `play-logs\game_*.log` (recorded human games), EDHREC data. Everything else there is temporary. |
 | `setup\` | Files that override the Forge install (see Setup). `match-roomy.xml` is an optional match layout for four-player games (bigger own field, narrower side columns); copy it over `forge-data\preferences\match.xml` with Forge closed, since Forge rewrites that file on exit. The preference files there are `skip-worktree`, so each machine keeps its own. |
 
