@@ -13,6 +13,7 @@
 //   forge.ai.ComputerUtil.choosePermanentsToSacrifice           -> SacrificeHook (tokens before real cards, commander last)
 //   forge.gamemodes.match.input.InputPassPriority.onOk          -> ConfirmPassHook (desktop: "Pass anyway?", counterspell reminder)
 //   forge.gamemodes.match.input.InputAttack.onOk                -> AttackConfirmHook (desktop: "Skip combat anyway?")
+//   forge.player.PlayerControllerHuman.pushActionableCards     -> ActionableCardsHook (pay-mana highlight race: retry, no crash window)
 //   forge.game.phase.PhaseHandler.onPhaseBegin                  -> CombatGuardHook (no crash if a rollback left no Combat)
 //   forge.game.ability.effects.RollDiceEffect.rollDiceForPlayer
 //     / rollAction, forge.game.trigger.TriggerRolledDie.performTest -> DiceIgnoreHook (house rule: ignored dice still seen)
@@ -42,6 +43,8 @@ public class EvalCacheAgent {
          "SacrificeHook", "static"},
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
+        // Forge's pay-mana prompt racing the game thread (crash window, 2026-10-22): retried.
+        {"forge/player/PlayerControllerHuman", "pushActionableCards", "(Z)V", "ActionableCardsHook", "instance"},
         {"forge/game/phase/PhaseHandler", "onPhaseBegin", "()V", "CombatGuardHook", "instance"},
         // Who arms the auto-pass that keeps eating the owner's turns (AutoPassHook). Logs a
         // stack trace the first few times and changes nothing else.
