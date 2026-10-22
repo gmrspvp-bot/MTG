@@ -37,9 +37,23 @@ an arm; the owner's PC runs 6 at a time at most). Put the result in the commit m
 - [ ] **Mr House: Treasures into Mr. House's own ability.** Each Treasure mana adds a die; the owner
       won a game spending 4 Treasures into it. Our script already says `AIManaPref$ Treasure`;
       check in sims whether the AI actually activates it with Treasures and how many dice it rolls.
-- [ ] **Removal aimed at the table's leader,** not only at what threatens the AI itself (2026-10-22:
-      Scorching Shot on Loki while Angels had Lyra and Seluma out and 100+ life).
-- [ ] **Count runaway life as a threat** in `HumanHooks.threat()` (Angels on 111 life went
-      unpunished; life total is deliberately not counted today).
+- [ ] **Threat detection overhaul - the owner's top AI complaint (2026-10-23).** One rating of
+      "who is winning", used by attacks, removal and the spare-the-kill rule alike. Today
+      `HumanHooks.threat()` counts creature power (flyers 1.5x, lifelink extra), +1 per nonland
+      permanent, a card-quality score and +8 for a commander - and misses:
+      - **life total / who is winning**: Angels on 111 life rated like a player on 20;
+      - **engines** that grow every turn: Rin and Seri (damage = Cats), Mr. House (dice -> Robots),
+        Fireweaver / Artillerist pings, lifegain each turn;
+      - **the clock**: how many turns each player needs to kill someone (combat through blockers,
+        commander damage, drain per turn) - what humans read first;
+      - **recursion**: Seluma / Karmic Guide / Sun Titan bring things back, so one removal spell
+        means little against that board;
+      - **one judgement everywhere**: removal uses Forge's own per-creature evaluation, so it aimed
+        at what threatened the AI itself (Scorching Shot on Loki, not Lyra, 2026-10-22), while
+        attacks use `threat()`.
+      Plan: a per-player "danger" score (clock + engines + recursion + life, board as now), used
+      by retarget / goForKill / spareKills and by a removal re-aim (like `retargetToBest`) that
+      prefers the leader's key creature. A/B against today's rating with Angels and Rin and Seri
+      in the pods, and check the owner's games for the cases above.
 - [ ] **Learn from the new decks once there are more human games:** Baylen, Eldrazi, Frodo, Eivor
       (added 2026-10-22), the same way as Mr House (`scratch\house-style.ps1`).
