@@ -1,0 +1,1387 @@
+Player: Captain (HUMAN) deck=Mr House v4
+Player: Alec (HUMAN) deck=Alec
+Player: Dapvhir (AI) deck=Doom Prevails v3
+Player: Mirayam (AI) deck=Rin and Seri
+Result Override: Captain (Mr House v4) - BUG LOSS. The 3D table's auto-pass answered his declare-blockers step with "no blockers" (fixed in a54ed0d4): at 22 life he faced 19 damage with 16 untapped creatures (12 Robots); Alec was on 8 with both AIs already out. Count this game as a Mr House win, not an Alec win.
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Dapvhir has kept a hand of 7 cards
+Mulligan: Mirayam has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Alec has kept a hand of 7 cards
+Turn: Turn 1 (Dapvhir)
+Information: BOARD turn 1 (Dapvhir) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Command Tower(land); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land)
+Information: BOARD turn 1 (Dapvhir) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Path of Ancestry(land); Plains(land); Erebos, Bleak-Hearted(4)
+Information: BOARD turn 1 (Dapvhir) | Dapvhir | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Fetid Pools(land); Scavenger Grounds(land)
+Information: BOARD turn 1 (Dapvhir) | Mirayam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land)
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: Fetid Pools enters tapped.
+Land: Dapvhir played Fetid Pools (283)
+Phase: Dapvhir's Beginning of Combat Step
+Phase: Dapvhir's Declare Attackers Step
+Phase: Dapvhir's Declare Blockers Step
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 2 (Mirayam)
+Information: BOARD turn 2 (Mirayam) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Command Tower(land); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land)
+Information: BOARD turn 2 (Mirayam) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Path of Ancestry(land); Plains(land); Erebos, Bleak-Hearted(4)
+Information: BOARD turn 2 (Mirayam) | Dapvhir | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Dragonskull Summit(land)
+Information: BOARD turn 2 (Mirayam) | Mirayam | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land)
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Mountain (396)
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 3 (Captain)
+Information: BOARD turn 3 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Command Tower(land); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land)
+Information: BOARD turn 3 (Captain) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Path of Ancestry(land); Plains(land); Erebos, Bleak-Hearted(4)
+Information: BOARD turn 3 (Captain) | Dapvhir | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Dragonskull Summit(land)
+Information: BOARD turn 3 (Captain) | Mirayam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (99)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 4 (Alec)
+Information: BOARD turn 4 (Alec) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2)
+Information: BOARD turn 4 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Path of Ancestry(land); Plains(land); Erebos, Bleak-Hearted(4)
+Information: BOARD turn 4 (Alec) | Dapvhir | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Dragonskull Summit(land)
+Information: BOARD turn 4 (Alec) | Mirayam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Alec played Path of Ancestry (121)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 5 (Dapvhir)
+Information: BOARD turn 5 (Dapvhir) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2)
+Information: BOARD turn 5 (Dapvhir) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3)
+Information: BOARD turn 5 (Dapvhir) | Dapvhir | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Dragonskull Summit(land)
+Information: BOARD turn 5 (Dapvhir) | Mirayam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2)
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Dapvhir played Dragonskull Summit (256)
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (283) - {T}: Add {B}.
+Add To Stack: Dapvhir cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Dapvhir | open mana: Captain 2, Alec 0, Mirayam 1
+Resolve Stack: Arcane Signet
+Phase: Dapvhir's Beginning of Combat Step
+Phase: Dapvhir's Declare Attackers Step
+Phase: Dapvhir's Declare Blockers Step
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 6 (Mirayam)
+Information: BOARD turn 6 (Mirayam) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2)
+Information: BOARD turn 6 (Mirayam) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3)
+Information: BOARD turn 6 (Mirayam) | Dapvhir | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Secluded Courtyard(land)
+Information: BOARD turn 6 (Mirayam) | Mirayam | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Plains(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2)
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Plains (399)
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Wear // Tear(3); Blightstep Pathway(land); Shattered Sanctum(land); General's Enforcer(2); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2)
+Information: BOARD turn 7 (Captain) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3)
+Information: BOARD turn 7 (Captain) | Dapvhir | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Secluded Courtyard(land)
+Information: BOARD turn 7 (Captain) | Mirayam | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Blightstep Pathway (13)
+Land: Captain picked {W}
+Mana: Command Tower (99) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Add To Stack: Captain cast General's Enforcer
+Information: BOARD cast | General's Enforcer (mv 2) by Captain | open mana: Alec 0, Dapvhir 2, Mirayam 2
+Resolve Stack: General's Enforcer - Creature 2 / 3
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (Alec)
+Information: BOARD turn 8 (Alec) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): General's Enforcer 2/3 | hand cards: Wear // Tear(3); Shattered Sanctum(land); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3)
+Information: BOARD turn 8 (Alec) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Bastion of Remembrance(3); Great Hall of the Citadel(land); Witch's Cauldron(1); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3)
+Information: BOARD turn 8 (Alec) | Dapvhir | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Secluded Courtyard(land)
+Information: BOARD turn 8 (Alec) | Mirayam | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2); Plains(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Great Hall of the Citadel (208)
+Land: Alec picked {B}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Great Hall of the Citadel (208) - {T}: Add {C}.
+Add To Stack: Alec cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Alec | open mana: Captain 0, Dapvhir 2, Mirayam 2
+Resolve Stack: Arcane Signet
+Land: Alec picked {B}
+Mana: Arcane Signet (155) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec cast Witch's Cauldron
+Information: BOARD cast | Witch's Cauldron (mv 1) by Alec | open mana: Captain 0, Dapvhir 2, Mirayam 2
+Resolve Stack: Witch's Cauldron
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 9 (Dapvhir)
+Information: BOARD turn 9 (Dapvhir) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): General's Enforcer 2/3 | hand cards: Wear // Tear(3); Shattered Sanctum(land); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3)
+Information: BOARD turn 9 (Dapvhir) | Alec | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3); Swamp(land)
+Information: BOARD turn 9 (Dapvhir) | Dapvhir | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Secluded Courtyard(land)
+Information: BOARD turn 9 (Dapvhir) | Mirayam | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2); Plains(land)
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Dapvhir played Secluded Courtyard (215)
+Mana: Fetid Pools (283) - {T}: Add {U}.
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Land: Dapvhir picked {R}
+Land: Dapvhir picked {R}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Secluded Courtyard (215) - {T}: Add {C}.
+Add To Stack: Dapvhir cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Dapvhir | open mana: Captain 0, Alec 0, Mirayam 2
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Dapvhir's Beginning of Combat Step
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (312)]
+Discard: Dapvhir discards Swamp (267).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (312)]]) [Phase: Dapvhir]
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria
+Life: Life: Mirayam 40 > 38
+Life: Life: Captain 40 > 38
+Life: Life: Alec 40 > 38
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Dapvhir, Amount: 1]
+Phase: Dapvhir's Declare Attackers Step
+Phase: Dapvhir's Declare Blockers Step
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 10 (Mirayam)
+Information: BOARD turn 10 (Mirayam) | Captain | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): General's Enforcer 2/3 | hand cards: Wear // Tear(3); Shattered Sanctum(land); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3)
+Information: BOARD turn 10 (Mirayam) | Alec | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3); Swamp(land)
+Information: BOARD turn 10 (Mirayam) | Dapvhir | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Patchwork Banner(3); Electro, Assaulting Battery(3)
+Information: BOARD turn 10 (Mirayam) | Mirayam | life 38 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Beastmaster Ascension(3); Exotic Orchard(land); Forest(land); Undergrowth Leopard(2); Plains(land)
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Forest (337)
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Mana: Forest (337) - {T}: Add {G}.
+Mana: Plains (399) - {T}: Add {W}.
+Mana: Mountain (396) - {T}: Add {R}.
+Add To Stack: Mirayam cast Beastmaster Ascension
+Information: BOARD cast | Beastmaster Ascension (mv 3) by Mirayam | open mana: Captain 0, Alec 0, Dapvhir 0
+Resolve Stack: Beastmaster Ascension
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 11 (Captain)
+Information: BOARD turn 11 (Captain) | Captain | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): General's Enforcer 2/3 | hand cards: Wear // Tear(3); Shattered Sanctum(land); Jan Jansen, Chaos Crafter(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3)
+Information: BOARD turn 11 (Captain) | Alec | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3); Swamp(land)
+Information: BOARD turn 11 (Captain) | Dapvhir | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Patchwork Banner(3); Electro, Assaulting Battery(3)
+Information: BOARD turn 11 (Captain) | Mirayam | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Captain played Shattered Sanctum (7)
+Land: Captain picked {R}
+Mana: Command Tower (99) - {T}: Add one mana of any color in your commander's color identity.
+Land: Captain picked {W}
+Mana: Shattered Sanctum (7) - {T}: Add {W} or {B}.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Add To Stack: Captain cast Jan Jansen, Chaos Crafter
+Information: BOARD cast | Jan Jansen, Chaos Crafter (mv 3) by Captain | open mana: Alec 0, Dapvhir 0, Mirayam 0
+Resolve Stack: Jan Jansen, Chaos Crafter - Creature 3 / 3
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 12 (Alec)
+Information: BOARD turn 12 (Alec) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3 | hand cards: Wear // Tear(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 12 (Alec) | Alec | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Erebos, Bleak-Hearted(4); Dutiful Attendant(3); Swamp(land)
+Information: BOARD turn 12 (Alec) | Dapvhir | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Patchwork Banner(3); Electro, Assaulting Battery(3)
+Information: BOARD turn 12 (Alec) | Mirayam | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (172)
+Mana: Swamp (172) - {T}: Add {B}.
+Land: Alec picked {B}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Alec picked {B}
+Mana: Arcane Signet (155) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Great Hall of the Citadel (208) - {T}: Add {C}.
+Add To Stack: Alec cast Erebos, Bleak-Hearted
+Information: BOARD cast | Erebos, Bleak-Hearted (mv 4) by Alec | open mana: Captain 0, Dapvhir 0, Mirayam 0
+Add To Stack: Alec triggered Path of Ancestry
+Resolve Stack: Alec scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Erebos, Bleak-Hearted - Creature 5 / 6]) [Card: Erebos, Bleak-Hearted (176), Activator: Alec, SpellAbility: Erebos, Bleak-Hearted - Creature 5 / 6]
+Resolve Stack: Erebos, Bleak-Hearted - Creature 5 / 6
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 13 (Dapvhir)
+Information: BOARD turn 13 (Dapvhir) | Captain | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3 | hand cards: Wear // Tear(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 13 (Dapvhir) | Alec | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 13 (Dapvhir) | Dapvhir | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: Molecule Man(6); Ultron, Unlimited(3); Scorched Geyser(land); Scavenger Grounds(land); Patchwork Banner(3); Electro, Assaulting Battery(3)
+Information: BOARD turn 13 (Dapvhir) | Mirayam | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3)
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Land: Dapvhir played Scavenger Grounds (270)
+Phase: Dapvhir's Beginning of Combat Step
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (312)]
+Discard: Dapvhir discards Molecule Man (227).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (312)]]) [Phase: Dapvhir]
+Phase: Dapvhir's Declare Attackers Step
+Combat: Dapvhir assigned Doctor Doom, King of Latveria (312) to attack Captain.
+Information: BOARD attack | Dapvhir -> Captain | attackers 1 (power 4) | defender life 38 | untapped creatures 2 (power 5): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3 | open mana 0
+Phase: Dapvhir's Declare Blockers Step
+Combat: Captain didn't block Doctor Doom, King of Latveria (312).
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Damage: Doctor Doom, King of Latveria (312) deals 4 combat damage to Captain.
+Life: Life: Captain 38 > 34
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Mana: Fetid Pools (283) - {T}: Add {B}.
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Secluded Courtyard (215) - {T}: Add {C}.
+Add To Stack: Dapvhir cast Moonstone, Harsh Mistress
+Information: BOARD cast | Moonstone, Harsh Mistress (mv 4) by Dapvhir | open mana: Captain 0, Alec 0, Mirayam 0
+Resolve Stack: Moonstone, Harsh Mistress - Creature 2 / 4
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 14 (Mirayam)
+Information: BOARD turn 14 (Mirayam) | Captain | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3 | hand cards: Wear // Tear(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 14 (Mirayam) | Alec | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 14 (Mirayam) | Dapvhir | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Moonstone, Harsh Mistress 2/4 | hand cards: Ultron, Unlimited(3); Scorched Geyser(land); Patchwork Banner(3); Electro, Assaulting Battery(3); Mysterio, Master of Illusion(4)
+Information: BOARD turn 14 (Mirayam) | Mirayam | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Esika's Chariot(4); Mountain(land); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3)
+Information: BOARD threat | turn 14 | Doctor Doom, King of Latveria (Dapvhir) 62
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Mountain (394)
+Mana: Plains (399) - {T}: Add {W}.
+Mana: Forest (337) - {T}: Add {G}.
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Add To Stack: Mirayam cast Rin and Seri, Inseparable
+Information: BOARD cast | Rin and Seri, Inseparable (mv 4) by Mirayam | open mana: Captain 0, Alec 0, Dapvhir 1
+Resolve Stack: Rin and Seri, Inseparable - Creature 4 / 4
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 15 (Captain)
+Information: BOARD turn 15 (Captain) | Captain | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3 | hand cards: Wear // Tear(3); Swamp(land); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 15 (Captain) | Alec | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 15 (Captain) | Dapvhir | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Moonstone, Harsh Mistress 2/4 | hand cards: Ultron, Unlimited(3); Scorched Geyser(land); Patchwork Banner(3); Electro, Assaulting Battery(3); Mysterio, Master of Illusion(4)
+Information: BOARD turn 15 (Captain) | Mirayam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3); Path to Exile(1)
+Information: BOARD threat | turn 15 | Doctor Doom, King of Latveria (Dapvhir) 59
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Swamp (84)
+Land: Captain picked {R}
+Mana: Command Tower (99) - {T}: Add one mana of any color in your commander's color identity.
+Land: Captain picked {W}
+Mana: Shattered Sanctum (7) - {T}: Add {W} or {B}.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Alec 0, Dapvhir 1, Mirayam 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 16 (Alec)
+Information: BOARD turn 16 (Alec) | Captain | life 34 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2); Comet, Stellar Pup(4)
+Information: BOARD turn 16 (Alec) | Alec | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Plains(land); Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 16 (Alec) | Dapvhir | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Moonstone, Harsh Mistress 2/4 | hand cards: Ultron, Unlimited(3); Scorched Geyser(land); Patchwork Banner(3); Electro, Assaulting Battery(3); Mysterio, Master of Illusion(4)
+Information: BOARD turn 16 (Alec) | Mirayam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3); Path to Exile(1)
+Information: BOARD threat | turn 16 | Doctor Doom, King of Latveria (Dapvhir) 57
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (205)
+Mana: Plains (205) - {T}: Add {W}.
+Mana: Swamp (172) - {T}: Add {B}.
+Land: Alec picked {B}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Alec cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Alec | open mana: Captain 1, Dapvhir 1, Mirayam 0
+Add To Stack: Alec triggered Path of Ancestry
+Resolve Stack: Alec scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Athreos, God of Passage - Creature 5 / 4]) [Card: Athreos, God of Passage (211), Activator: Alec, SpellAbility: Athreos, God of Passage - Creature 5 / 4]
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 17 (Dapvhir)
+Information: BOARD turn 17 (Dapvhir) | Captain | life 34 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2); Comet, Stellar Pup(4)
+Information: BOARD turn 17 (Dapvhir) | Alec | life 38 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Dutiful Attendant(3); Ruthless Lawbringer(3); Plains(land)
+Information: BOARD turn 17 (Dapvhir) | Dapvhir | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Doctor Doom, King of Latveria 4/4*; Moonstone, Harsh Mistress 2/4 | hand cards: Ultron, Unlimited(3); Scorched Geyser(land); Patchwork Banner(3); Electro, Assaulting Battery(3); Mysterio, Master of Illusion(4)
+Information: BOARD turn 17 (Dapvhir) | Mirayam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3); Path to Exile(1)
+Information: BOARD threat | turn 17 | Doctor Doom, King of Latveria (Dapvhir) 55
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: This land enters tapped unless you control two or more basic lands.
+Land: Dapvhir played Scorched Geyser (292)
+Phase: Dapvhir's Beginning of Combat Step
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (312)]
+Discard: Dapvhir discards Patchwork Banner (295).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Doom, King of Latveria (312)]]) [Phase: Dapvhir]
+Add To Stack: Dapvhir triggered Moonstone, Harsh Mistress
+Resolve Stack: Whenever you discard a card, you may exile that card from your graveyard. If you do, until the end of your next turn, you may play that card. [Discarded: Patchwork Banner (295), Cause: ]
+Phase: Dapvhir's Declare Attackers Step
+Combat: Dapvhir assigned Moonstone, Harsh Mistress (221) and Doctor Doom, King of Latveria (312) to attack Captain.
+Information: BOARD attack | Dapvhir -> Captain | attackers 2 (power 7) | defender life 34 | untapped creatures 3 (power 5): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4 | open mana 1
+Phase: Dapvhir's Declare Blockers Step
+Combat: Captain didn't block Moonstone, Harsh Mistress (221).
+Captain didn't block Doctor Doom, King of Latveria (312).
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Damage: Moonstone, Harsh Mistress (221) deals 2 combat damage to Captain.
+Damage: Doctor Doom, King of Latveria (312) deals 5 combat damage to Captain.
+Life: Life: Captain 34 > 27
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Mana: Fetid Pools (283) - {T}: Add {U}.
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Secluded Courtyard (215) - {T}: Add {C}.
+Add To Stack: Dapvhir cast Mysterio, Master of Illusion
+Information: BOARD cast | Mysterio, Master of Illusion (mv 4) by Dapvhir | open mana: Captain 1, Alec 5, Mirayam 0
+Resolve Stack: Mysterio, Master of Illusion - Creature 3 / 3
+Add To Stack: Dapvhir triggered Mysterio, Master of Illusion
+Resolve Stack: When Mysterio enters, create a 3/3 blue Illusion Villain creature token for each nontoken Villain you control. Exile those tokens when Mysterio leaves the battlefield. [Zone Changer: Mysterio, Master of Illusion (246)]
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 18 (Mirayam)
+Information: BOARD turn 18 (Mirayam) | Captain | life 27 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2); Comet, Stellar Pup(4)
+Information: BOARD turn 18 (Mirayam) | Alec | life 38 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Dutiful Attendant(3); Ruthless Lawbringer(3); Plains(land)
+Information: BOARD turn 18 (Mirayam) | Dapvhir | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (4 untapped): Doctor Doom, King of Latveria 5/5*; Moonstone, Harsh Mistress 2/4*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 18 (Mirayam) | Mirayam | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Plains(land); Komainu Battle Armor(3); Path to Exile(1)
+Information: BOARD threat | turn 18 | Doctor Doom, King of Latveria (Dapvhir) 96
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Mirayam cast Path to Exile targeting [Doctor Doom, King of Latveria (312)]
+Information: BOARD cast | Path to Exile (mv 1) by Mirayam | open mana: Captain 1, Alec 5, Dapvhir 1
+Zone Change: Doctor Doom, King of Latveria (312) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (320) - Exile Doctor Doom, King of Latveria (312). Dapvhir may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Plains (407)
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Plains (407) - {T}: Add {W}.
+Add To Stack: Mirayam cast Komainu Battle Armor
+Information: BOARD cast | Komainu Battle Armor (mv 3) by Mirayam | open mana: Captain 1, Alec 5, Dapvhir 1
+Add To Stack: Mirayam triggered Rin and Seri, Inseparable
+Resolve Stack: Whenever you cast a Dog spell, create a 1/1 green Cat creature token. [Card: Komainu Battle Armor (388), Activator: Mirayam, SpellAbility: Komainu Battle Armor - Creature 2 / 2]
+Resolve Stack: Komainu Battle Armor - Creature 2 / 2
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 19 (Captain)
+Information: BOARD turn 19 (Captain) | Captain | life 27 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2); Comet, Stellar Pup(4)
+Information: BOARD turn 19 (Captain) | Alec | life 38 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Dutiful Attendant(3); Ruthless Lawbringer(3); Plains(land)
+Information: BOARD turn 19 (Captain) | Dapvhir | life 40 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 5 (4 untapped): Moonstone, Harsh Mistress 2/4*; Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 19 (Captain) | Mirayam | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 4/4; Cat Token 1/1; Komainu Battle Armor 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Forest(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Captain played Haunted Ridge (85)
+Land: Captain picked {W}
+Mana: Shattered Sanctum (7) - {T}: Add {W} or {B}.
+Land: Captain picked {R}
+Mana: Haunted Ridge (85) - {T}: Add {B} or {R}.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add To Stack: Captain cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Captain | open mana: Alec 5, Dapvhir 1, Mirayam 1
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Captain activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (78) deals 5 damage to Moonstone, Harsh Mistress (221).
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Zone Change: Moonstone, Harsh Mistress (221) was put into Graveyard from Battlefield.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 20 (Alec)
+Information: BOARD turn 20 (Alec) | Captain | life 27 | hand 4 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 20 (Alec) | Alec | life 38 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Dutiful Attendant(3); Ruthless Lawbringer(3); Plains(land)
+Information: BOARD turn 20 (Alec) | Dapvhir | life 40 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 20 (Alec) | Mirayam | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 4/4; Cat Token 1/1; Komainu Battle Armor 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Forest(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (172) - {T}: Add {B}.
+Mana: Plains (205) - {T}: Add {W}.
+Land: Alec picked {B}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Alec cast Bastion of Remembrance
+Information: BOARD cast | Bastion of Remembrance (mv 3) by Alec | open mana: Captain 2, Dapvhir 1, Mirayam 1
+Resolve Stack: Bastion of Remembrance
+Add To Stack: Alec triggered Bastion of Remembrance
+Resolve Stack: When Bastion of Remembrance enters, create a 1/1 white Human Soldier creature token. [Zone Changer: Bastion of Remembrance (143)]
+Land: Alec played Plains (196)
+Land: Alec picked {B}
+Mana: Arcane Signet (155) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Great Hall of the Citadel (208) - {T}: Add {C}.
+Add To Stack: Alec cast Warren Soultrader
+Information: BOARD cast | Warren Soultrader (mv 3) by Alec | open mana: Captain 2, Dapvhir 1, Mirayam 1
+Resolve Stack: Warren Soultrader - Creature 3 / 3
+Phase: devAlec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Erebos, Bleak-Hearted (176) to attack Dapvhir.
+Information: BOARD attack | Alec -> Dapvhir | attackers 1 (power 5) | defender life 40 | untapped creatures 4 (power 12): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3 | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: Dapvhir didn't block Erebos, Bleak-Hearted (176).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Erebos, Bleak-Hearted (176) deals 5 combat damage to Dapvhir.
+Life: Life: Dapvhir 40 > 35
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 21 (Dapvhir)
+Information: BOARD turn 21 (Dapvhir) | Captain | life 27 | hand 4 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 21 (Dapvhir) | Alec | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Erebos, Bleak-Hearted 5/6*; Human Soldier Token 1/1; Warren Soultrader 3/3 | hand cards: Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 21 (Dapvhir) | Dapvhir | life 35 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 21 (Dapvhir) | Mirayam | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 4/4; Cat Token 1/1; Komainu Battle Armor 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Forest(land)
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: Drowned Catacomb enters tapped unless you control an Island or a Swamp.
+Land: Dapvhir played Drowned Catacomb (291)
+Phase: Dapvhir's Beginning of Combat Step
+Phase: Dapvhir's Declare Attackers Step
+Phase: Dapvhir's Declare Blockers Step
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Drowned Catacomb (291) - {T}: Add {U} or {B}.
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Mana: Mountain (298) - {T}: Add {R}.
+Mana: Fetid Pools (283) - {T}: Add {B}.
+Mana: Scorched Geyser (292) - {T}: Add {R}.
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dapvhir cast Doctor Doom, King of Latveria
+Information: BOARD cast | Doctor Doom, King of Latveria (mv 4) by Dapvhir | open mana: Captain 2, Alec 0, Mirayam 1
+Resolve Stack: Doctor Doom, King of Latveria - Creature 3 / 3
+Phase: Dapvhir's End step
+Phase: Dapvhir's Cleanup step
+Turn: Turn 22 (Mirayam)
+Information: BOARD turn 22 (Mirayam) | Captain | life 27 | hand 4 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 22 (Mirayam) | Alec | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Erebos, Bleak-Hearted 5/6*; Human Soldier Token 1/1; Warren Soultrader 3/3 | hand cards: Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 22 (Mirayam) | Dapvhir | life 35 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3; Doctor Doom, King of Latveria 3/3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 22 (Mirayam) | Mirayam | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 4/4; Cat Token 1/1; Komainu Battle Armor 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2); Forest(land)
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Forest (338)
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Forest (337) - {T}: Add {G}.
+Mana: Forest (338) - {T}: Add {G}.
+Add To Stack: Mirayam activated Komainu Battle Armor targeting [Rin and Seri, Inseparable (413)]
+Resolve Stack: Komainu Battle Armor (388) -  Attach to Rin and Seri, Inseparable (413)
+Mana: Plains (399) - {T}: Add {W}.
+Mana: Plains (407) - {T}: Add {W}.
+Add To Stack: Mirayam cast Pack Leader
+Information: BOARD cast | Pack Leader (mv 2) by Mirayam | open mana: Captain 2, Alec 0, Dapvhir 2
+Add To Stack: Mirayam triggered Rin and Seri, Inseparable
+Resolve Stack: Whenever you cast a Dog spell, create a 1/1 green Cat creature token. [Card: Pack Leader (371), Activator: Mirayam, SpellAbility: Pack Leader - Creature 2 / 2]
+Resolve Stack: Pack Leader - Creature 2 / 2
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 23 (Captain)
+Information: BOARD turn 23 (Captain) | Captain | life 27 | hand 4 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Wear // Tear(3); Cathartic Reunion(2); Anguished Unmaking(3); Grab the Prize(2)
+Information: BOARD turn 23 (Captain) | Alec | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Erebos, Bleak-Hearted 5/6*; Human Soldier Token 1/1; Warren Soultrader 3/3 | hand cards: Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 23 (Captain) | Dapvhir | life 35 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3; Doctor Doom, King of Latveria 3/3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 23 (Captain) | Mirayam | life 38 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Rin and Seri, Inseparable 7/7[Komainu Battle Armor]; Cat Token 1/1 x2; Pack Leader 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain picked {R}
+Mana: Haunted Ridge (85) - {T}: Add {B} or {R}.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Discard: Captain discards Cathartic Reunion (27).
+Add To Stack: Captain cast Grab the Prize
+Information: BOARD cast | Grab the Prize (mv 2) by Captain | open mana: Alec 0, Dapvhir 2, Mirayam 0
+Damage: Grab the Prize (5) deals 2 non-combat damage to Alec.
+Damage: Grab the Prize (5) deals 2 non-combat damage to Dapvhir.
+Damage: Grab the Prize (5) deals 2 non-combat damage to Mirayam.
+Life: Life: Alec 38 > 36
+Life: Life: Dapvhir 35 > 33
+Life: Life: Mirayam 38 > 36
+Resolve Stack: Grab the Prize (5) - Captain draws two cards. Grab the Prize (5) deals 2 damage to something.
+Land: Captain played Mountain (87)
+Mana: Mountain (87) - {T}: Add {R}.
+Mana: Swamp (84) - {T}: Add {B}.
+Land: Captain picked {W}
+Mana: Shattered Sanctum (7) - {T}: Add {W} or {B}.
+Land: Captain picked {W}
+Mana: Command Tower (99) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Delina, Wild Mage
+Information: BOARD cast | Delina, Wild Mage (mv 4) by Captain | open mana: Alec 0, Dapvhir 2, Mirayam 0
+Resolve Stack: Delina, Wild Mage - Creature 3 / 2
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 24 (Alec)
+Information: BOARD turn 24 (Alec) | Captain | life 27 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3; Delina, Wild Mage 3/2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Ash Barrens(land); Grab the Prize(2)
+Information: BOARD turn 24 (Alec) | Alec | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Erebos, Bleak-Hearted 5/6*; Human Soldier Token 1/1; Warren Soultrader 3/3 | hand cards: Dutiful Attendant(3); Ruthless Lawbringer(3)
+Information: BOARD turn 24 (Alec) | Dapvhir | life 33 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3; Doctor Doom, King of Latveria 3/3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 24 (Alec) | Mirayam | life 36 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Rin and Seri, Inseparable 7/7[Komainu Battle Armor]; Cat Token 1/1 x2; Pack Leader 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Swamp (172) - {T}: Add {B}.
+Add To Stack: Alec cast Orzhov Signet
+Information: BOARD cast | Orzhov Signet (mv 2) by Alec | open mana: Captain 0, Dapvhir 2, Mirayam 0
+Resolve Stack: Orzhov Signet
+Land: Alec picked {B}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (205) - {T}: Add {W}.
+Land: Alec picked {B}
+Mana: Arcane Signet (155) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec cast Ruthless Lawbringer
+Information: BOARD cast | Ruthless Lawbringer (mv 3) by Alec | open mana: Captain 0, Dapvhir 2, Mirayam 0
+Resolve Stack: Ruthless Lawbringer - Creature 3 / 2
+Add To Stack: Alec triggered Ruthless Lawbringer
+Phase: devAlec's Main phase, precombat
+Phase: devAlec's Main phase, precombat
+Zone Change: Human Soldier Token (436) was put into Graveyard from Battlefield.
+Resolve Stack: When Ruthless Lawbringer enters, you may sacrifice another creature. When you do, destroy target nonland permanent. [Zone Changer: Ruthless Lawbringer (188)]
+Add To Stack: Alec triggered Bastion of Remembrance
+Add To Stack: Alec triggered Athreos, God of Passage targeting [Dapvhir]
+Add To Stack: Alec triggered Erebos, Bleak-Hearted
+Add To Stack: Alec triggered Ruthless Lawbringer targeting [Rin and Seri, Inseparable (413)]
+Zone Change: Rin and Seri, Inseparable (413) was put into Graveyard from Battlefield.
+Resolve Stack: When you do, destroy target nonland permanent. (Targeting: [[Rin and Seri, Inseparable (413)]])
+Life: Life: Alec 36 > 34
+Resolve Stack: Whenever another creature you control dies, you may pay 2 life. If you do, draw a card. [Zone Changer: Human Soldier Token (436)]
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dapvhir]]) [Zone Changer: Human Soldier Token (436)]
+Life: Life: Dapvhir 33 > 32
+Life: Life: Mirayam 36 > 35
+Life: Life: Captain 27 > 26
+Life: Life: Alec 34 > 35
+Resolve Stack: Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life. [Zone Changer: Human Soldier Token (436)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Erebos, Bleak-Hearted (176) and Athreos, God of Passage (211) to attack Dapvhir.
+Information: BOARD attack | Alec -> Dapvhir | attackers 2 (power 10) | defender life 32 | untapped creatures 5 (power 15): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3; Doctor Doom, King of Latveria 3/3 | open mana 2
+Phase: Alec's Declare Blockers Step
+Combat: Dapvhir didn't block Erebos, Bleak-Hearted (176).
+Dapvhir didn't block Athreos, God of Passage (211).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Erebos, Bleak-Hearted (176) deals 5 combat damage to Dapvhir.
+Damage: Athreos, God of Passage (211) deals 5 combat damage to Dapvhir.
+Life: Life: Dapvhir 32 > 22
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 25 (Dapvhir)
+Information: BOARD turn 25 (Dapvhir) | Captain | life 26 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3; Delina, Wild Mage 3/2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Ash Barrens(land); Grab the Prize(2)
+Information: BOARD turn 25 (Dapvhir) | Alec | life 35 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (2 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2 | hand cards: Dutiful Attendant(3); Divinity of Pride(5)
+Information: BOARD turn 25 (Dapvhir) | Dapvhir | life 22 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Mysterio, Master of Illusion 3/3; Illusion Villain Token 3/3 x3; Doctor Doom, King of Latveria 3/3 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Sunken Hollow(land); Spark Double(4)
+Information: BOARD turn 25 (Dapvhir) | Mirayam | life 35 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Komainu Battle Armor 3/3; Pack Leader 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2)
+Information: BOARD threat | turn 25 | Erebos, Bleak-Hearted (Alec) 68; Athreos, God of Passage (Alec) 43
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: Sunken Hollow enters tapped unless you control two or more basic lands.
+Land: Dapvhir played Sunken Hollow (229)
+Phase: Dapvhir's Beginning of Combat Step
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria targeting [Mysterio, Master of Illusion (246)]
+Discard: Dapvhir discards Coastal Peak (248).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Mysterio, Master of Illusion (246)]]) [Phase: Dapvhir]
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria
+Life: Life: Mirayam 35 > 33
+Life: Life: Captain 26 > 24
+Life: Life: Alec 35 > 33
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Dapvhir, Amount: 1]
+Phase: Dapvhir's Declare Attackers Step
+Phase: Dapvhir's Declare Blockers Step
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Drowned Catacomb (291) - {T}: Add {U} or {B}.
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Mana: Mountain (298) - {T}: Add {R}.
+Mana: Fetid Pools (283) - {T}: Add {B}.
+Mana: Scorched Geyser (292) - {T}: Add {R}.
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Secluded Courtyard (215) - {T}: Add {C}.
+Add To Stack: Dapvhir cast Doctor Octopus, Master Planner
+Information: BOARD cast | Doctor Octopus, Master Planner (mv 7) by Dapvhir | open mana: Captain 0, Alec 4, Mirayam 0
+Resolve Stack: Doctor Octopus, Master Planner - Creature 4 / 8
+Phase: Dapvhir's End step
+Add To Stack: Dapvhir triggered Doctor Octopus, Master Planner
+Resolve Stack: At the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference. [Phase: Dapvhir]
+Phase: Dapvhir's Cleanup step
+Turn: Turn 26 (Mirayam)
+Information: BOARD turn 26 (Mirayam) | Captain | life 24 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3; Delina, Wild Mage 3/2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Ash Barrens(land); Grab the Prize(2)
+Information: BOARD turn 26 (Mirayam) | Alec | life 33 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (2 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2 | hand cards: Dutiful Attendant(3); Divinity of Pride(5)
+Information: BOARD turn 26 (Mirayam) | Dapvhir | life 22 | hand 8 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Mysterio, Master of Illusion 5/5; Illusion Villain Token 5/5 x3; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Spark Double(4); Crumbling Necropolis(land); Psychic Frog(2); Path of Ancestry(land); Iron Monger, Sadistic Tycoon(3); Luxury Suite(land)
+Information: BOARD turn 26 (Mirayam) | Mirayam | life 33 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Komainu Battle Armor 3/3; Pack Leader 2/2 | hand cards: Esika's Chariot(4); Exotic Orchard(land); Undergrowth Leopard(2)
+Information: BOARD threat | turn 26 | Erebos, Bleak-Hearted (Alec) 65; Athreos, God of Passage (Alec) 41
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Land: Mirayam played Exotic Orchard (350)
+Mana: Plains (399) - {T}: Add {W}.
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Forest (337) - {T}: Add {G}.
+Mana: Forest (338) - {T}: Add {G}.
+Add To Stack: Mirayam activated Komainu Battle Armor targeting [Pack Leader (371)]
+Resolve Stack: Komainu Battle Armor (388) -  Attach to Pack Leader (371)
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Phase: Mirayam's Declare Blockers Step
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Mana: Exotic Orchard (350) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (396) - {T}: Add {R}.
+Add To Stack: Mirayam cast Undergrowth Leopard
+Information: BOARD cast | Undergrowth Leopard (mv 2) by Mirayam | open mana: Captain 0, Alec 4, Dapvhir 1
+Resolve Stack: Undergrowth Leopard - Creature 2 / 2
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 27 (Captain)
+Information: BOARD turn 27 (Captain) | Captain | life 24 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4; Robot Token 3/3; Delina, Wild Mage 3/2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Ash Barrens(land); Grab the Prize(2)
+Information: BOARD turn 27 (Captain) | Alec | life 33 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (2 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2 | hand cards: Dutiful Attendant(3); Divinity of Pride(5)
+Information: BOARD turn 27 (Captain) | Dapvhir | life 22 | hand 8 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Mysterio, Master of Illusion 5/5; Illusion Villain Token 5/5 x3; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Spark Double(4); Crumbling Necropolis(land); Psychic Frog(2); Path of Ancestry(land); Iron Monger, Sadistic Tycoon(3); Luxury Suite(land)
+Information: BOARD turn 27 (Captain) | Mirayam | life 33 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Pack Leader 4/4[Komainu Battle Armor]; Undergrowth Leopard 2/2 | hand cards: Esika's Chariot(4); Bolt Bend(4)
+Information: BOARD threat | turn 27 | Erebos, Bleak-Hearted (Alec) 62; Athreos, God of Passage (Alec) 40
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (87) - {T}: Add {R}.
+Mana: Blightstep Pathway (13) - {T}: Add {B}.
+Add To Stack: Captain cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Captain | open mana: Alec 4, Dapvhir 1, Mirayam 1
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Delina, Wild Mage (95) to attack Mirayam.
+Information: BOARD attack | Captain -> Mirayam | attackers 1 (power 3) | defender life 33 | untapped creatures 4 (power 8): Cat Token 1/1 x2; Pack Leader 4/4[Komainu Battle Armor]; Undergrowth Leopard 2/2 | open mana 1
+Add To Stack: Captain triggered Delina, Wild Mage targeting [Mr. House, President and CEO (100)]
+Resolve Stack: Whenever Delina attacks, choose target creature you control, then roll a d20.
+1—14 | Create a tapped and attacking token that's a copy of that creature, except it's not legendary and it has "At end of combat, exile this token."
+15—20 | Create one of those tokens. You may roll again. (Targeting: [[Mr. House, President and CEO (100)]]) [Attacker: Delina, Wild Mage (95)]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Mr. House, President and CEO
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Phase: devCaptain's Declare Attackers Step
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 33 > 32
+Life: Life: Dapvhir 22 > 21
+Life: Life: Mirayam 33 > 32
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (449)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 32 > 31
+Life: Life: Dapvhir 21 > 20
+Life: Life: Mirayam 32 > 31
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (450)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 10]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 31 > 30
+Life: Life: Dapvhir 20 > 19
+Life: Life: Mirayam 31 > 30
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (453)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 30 > 29
+Life: Life: Dapvhir 19 > 18
+Life: Life: Mirayam 30 > 29
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (454)]
+Zone Change: Treasure Token (450) was put into Graveyard from Battlefield.
+Land: Treasure Token (450) picked {B}
+Mana: Treasure Token (450) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (454) was put into Graveyard from Battlefield.
+Land: Treasure Token (454) picked {B}
+Mana: Treasure Token (454) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (84) - {T}: Add {B}.
+Land: Captain picked {B}
+Mana: Haunted Ridge (85) - {T}: Add {B} or {R}.
+Add To Stack: Captain activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (100) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 29 > 28
+Life: Life: Dapvhir 18 > 17
+Life: Life: Mirayam 29 > 28
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (446)]
+Phase: Captain's Declare Blockers Step
+Combat: Mirayam assigned Pack Leader (371) to block Delina, Wild Mage (95).
+Mirayam assigned Cat Token (431), Cat Token (440) and Undergrowth Leopard (375) to block Mr. House, President and CEO (446).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Delina, Wild Mage (95) deals 3 damage to Pack Leader (371).
+Damage: Pack Leader (371) deals 4 damage to Delina, Wild Mage (95).
+Damage: Cat Token (431) deals 1 damage to Mr. House, President and CEO (446).
+Damage: Cat Token (440) deals 1 damage to Mr. House, President and CEO (446).
+Damage: Undergrowth Leopard (375) deals 2 damage to Mr. House, President and CEO (446).
+Zone Change: Delina, Wild Mage (95) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (446) was put into Graveyard from Battlefield.
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Land: Captain picked {R}
+Mana: Command Tower (99) - {T}: Add one mana of any color in your commander's color identity.
+Land: Captain picked {W}
+Mana: Shattered Sanctum (7) - {T}: Add {W} or {B}.
+Discard: Captain discards Ash Barrens (67).
+Add To Stack: Captain cast Grab the Prize
+Information: BOARD cast | Grab the Prize (mv 2) by Captain | open mana: Alec 4, Dapvhir 1, Mirayam 1
+Resolve Stack: Grab the Prize (5) - Captain draws two cards. Grab the Prize (5) deals 0 damage to something.
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 28 (Alec)
+Information: BOARD turn 28 (Alec) | Captain | life 24 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 9 (8 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4*; Robot Token 3/3 x3; Reckless Fireweaver 1/3; Squirrel Token 1/1 x2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Barbarian Class(1); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 28 (Alec) | Alec | life 28 | hand 2 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 4 (2 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2 | hand cards: Dutiful Attendant(3); Divinity of Pride(5)
+Information: BOARD turn 28 (Alec) | Dapvhir | life 17 | hand 8 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Mysterio, Master of Illusion 5/5; Illusion Villain Token 5/5 x3; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Spark Double(4); Crumbling Necropolis(land); Psychic Frog(2); Path of Ancestry(land); Iron Monger, Sadistic Tycoon(3); Luxury Suite(land)
+Information: BOARD turn 28 (Alec) | Mirayam | life 28 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Pack Leader 4/4[Komainu Battle Armor]; Undergrowth Leopard 2/2 | hand cards: Esika's Chariot(4); Bolt Bend(4)
+Information: BOARD threat | turn 28 | Reckless Fireweaver (Captain) 158; Erebos, Bleak-Hearted (Alec) 60; Mr. House, President and CEO (Captain) 39; Athreos, God of Passage (Alec) 38; Comet, Stellar Pup (Captain) 37
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (205) - {T}: Add {W}.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Swamp (172) - {T}: Add {B}.
+Land: Alec picked {W}
+Mana: Path of Ancestry (121) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Alec picked {W}
+Mana: Arcane Signet (155) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec cast Divinity of Pride
+Information: BOARD cast | Divinity of Pride (mv 5) by Alec | open mana: Captain 0, Dapvhir 1, Mirayam 1
+Resolve Stack: Divinity of Pride - Creature 4 / 4
+Phase: devAlec's Main phase, precombat
+Mana: Great Hall of the Citadel (208) - {T}: Add {C}.
+Mana: Orzhov Signet (150) - {1}, {T}: Add {W}{B}.
+Add To Stack: Alec cast Bartolomé del Presidio
+Information: BOARD cast | Bartolomé del Presidio (mv 2) by Alec | open mana: Captain 0, Dapvhir 1, Mirayam 1
+Resolve Stack: Bartolomé del Presidio - Creature 2 / 1
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Erebos, Bleak-Hearted (176) and Athreos, God of Passage (211) to attack Dapvhir.
+Information: BOARD attack | Alec -> Dapvhir | attackers 2 (power 10) | defender life 17 | untapped creatures 6 (power 29): Mysterio, Master of Illusion 5/5; Illusion Villain Token 5/5 x3; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8 | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: Dapvhir assigned Doctor Octopus, Master Planner (279) to block Erebos, Bleak-Hearted (176).
+Dapvhir assigned Illusion Villain Token (425) to block Athreos, God of Passage (211).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Erebos, Bleak-Hearted (176) deals 5 damage to Doctor Octopus, Master Planner (279).
+Damage: Athreos, God of Passage (211) deals 5 damage to Illusion Villain Token (425).
+Damage: Doctor Octopus, Master Planner (279) deals 4 damage to Erebos, Bleak-Hearted (176).
+Damage: Illusion Villain Token (425) deals 5 damage to Athreos, God of Passage (211).
+Zone Change: Illusion Villain Token (425) was put into Graveyard from Battlefield.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 29 (Dapvhir)
+Information: BOARD turn 29 (Dapvhir) | Captain | life 24 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 9 (8 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4*; Robot Token 3/3 x3; Reckless Fireweaver 1/3; Squirrel Token 1/1 x2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Barbarian Class(1); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 29 (Dapvhir) | Alec | life 28 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (4 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2; Divinity of Pride 8/8; Bartolomé del Presidio 2/1 | hand cards: Dutiful Attendant(3)
+Information: BOARD turn 29 (Dapvhir) | Dapvhir | life 17 | hand 8 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Mysterio, Master of Illusion 5/5; Illusion Villain Token 5/5 x2; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8 | hand cards: Ultron, Unlimited(3); Electro, Assaulting Battery(3); Spark Double(4); Crumbling Necropolis(land); Psychic Frog(2); Path of Ancestry(land); Iron Monger, Sadistic Tycoon(3); Luxury Suite(land)
+Information: BOARD turn 29 (Dapvhir) | Mirayam | life 28 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Pack Leader 4/4[Komainu Battle Armor]; Undergrowth Leopard 2/2 | hand cards: Esika's Chariot(4); Bolt Bend(4)
+Information: BOARD threat | turn 29 | Reckless Fireweaver (Captain) 152; Erebos, Bleak-Hearted (Alec) 57; Mr. House, President and CEO (Captain) 38; Athreos, God of Passage (Alec) 37; Comet, Stellar Pup (Captain) 36
+Phase: Dapvhir's Untap step
+Phase: Dapvhir's Upkeep step
+Phase: Dapvhir's Draw step
+Phase: Dapvhir's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Dapvhir played Luxury Suite (237)
+Phase: Dapvhir's Beginning of Combat Step
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria targeting [Doctor Octopus, Master Planner (279)]
+Discard: Dapvhir discards Crumbling Necropolis (269).
+Resolve Stack: At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.) (Targeting: [[Doctor Octopus, Master Planner (279)]]) [Phase: Dapvhir]
+Add To Stack: Dapvhir triggered Doctor Doom, King of Latveria
+Life: Life: Mirayam 28 > 26
+Life: Life: Captain 24 > 22
+Life: Life: Alec 28 > 26
+Resolve Stack: Whenever you discard one or more land cards, each opponent loses 2 life. [Player: Dapvhir, Amount: 1]
+Phase: Dapvhir's Declare Attackers Step
+Combat: Dapvhir assigned Mysterio, Master of Illusion (246) and Illusion Villain Token (426) to attack Comet, Stellar Pup (78).
+Phase: Dapvhir's Declare Blockers Step
+Combat: Captain assigned Squirrel Token (457) and Squirrel Token (456) to block Mysterio, Master of Illusion (246).
+Captain assigned Robot Token (453) and Robot Token (449) to block Illusion Villain Token (426).
+Phase: Dapvhir's First Strike Damage Step
+Phase: Dapvhir's Combat Damage Step
+Damage: Mysterio, Master of Illusion (246) deals 4 damage to Squirrel Token (456).
+Damage: Mysterio, Master of Illusion (246) deals 1 damage to Squirrel Token (457).
+Damage: Illusion Villain Token (426) deals 2 damage to Robot Token (449).
+Damage: Illusion Villain Token (426) deals 3 damage to Robot Token (453).
+Damage: Squirrel Token (457) deals 1 damage to Mysterio, Master of Illusion (246).
+Damage: Squirrel Token (456) deals 1 damage to Mysterio, Master of Illusion (246).
+Damage: Robot Token (453) deals 3 damage to Illusion Villain Token (426).
+Damage: Robot Token (449) deals 3 damage to Illusion Villain Token (426).
+Zone Change: Illusion Villain Token (426) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (453) was put into Graveyard from Battlefield.
+Zone Change: Squirrel Token (456) was put into Graveyard from Battlefield.
+Zone Change: Squirrel Token (457) was put into Graveyard from Battlefield.
+Phase: Dapvhir's End of Combat Step
+Phase: Dapvhir's Main phase, postcombat
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Drowned Catacomb (291) - {T}: Add {U} or {B}.
+Land: Dapvhir picked {B}
+Land: Dapvhir picked {B}
+Mana: Dragonskull Summit (256) - {T}: Add {B} or {R}.
+Mana: Mountain (298) - {T}: Add {R}.
+Add To Stack: Dapvhir cast Ultron, Unlimited
+Information: BOARD cast | Ultron, Unlimited (mv 3) by Dapvhir | open mana: Captain 0, Alec 0, Mirayam 1
+Resolve Stack: Ultron, Unlimited - Creature 2 / 2
+Land: Dapvhir picked {R}
+Land: Dapvhir picked {R}
+Mana: Luxury Suite (237) - {T}: Add {B} or {R}.
+Mana: Scorched Geyser (292) - {T}: Add {R}.
+Mana: Fetid Pools (283) - {T}: Add {B}.
+Add To Stack: Dapvhir cast Electro, Assaulting Battery
+Information: BOARD cast | Electro, Assaulting Battery (mv 3) by Dapvhir | open mana: Captain 0, Alec 0, Mirayam 1
+Resolve Stack: Electro, Assaulting Battery - Creature 2 / 3
+Mana: Sunken Hollow (229) - {T}: Add {B}.
+Land: Dapvhir picked {U}
+Land: Dapvhir picked {U}
+Mana: Arcane Signet (255) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Secluded Courtyard (215) - {T}: Add {C}.
+Add To Stack: Dapvhir cast Iron Monger, Sadistic Tycoon
+Information: BOARD cast | Iron Monger, Sadistic Tycoon (mv 3) by Dapvhir | open mana: Captain 0, Alec 0, Mirayam 1
+Resolve Stack: Iron Monger, Sadistic Tycoon - Creature 2 / 2
+Phase: Dapvhir's End step
+Add To Stack: Dapvhir triggered Doctor Octopus, Master Planner
+Resolve Stack: At the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference. [Phase: Dapvhir]
+Phase: Dapvhir's Cleanup step
+Turn: Turn 30 (Mirayam)
+Information: BOARD turn 30 (Mirayam) | Captain | life 22 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4*; Robot Token 3/3 x2; Reckless Fireweaver 1/3 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Barbarian Class(1); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 30 (Mirayam) | Alec | life 26 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (4 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2; Divinity of Pride 8/8; Bartolomé del Presidio 2/1 | hand cards: Dutiful Attendant(3)
+Information: BOARD turn 30 (Mirayam) | Dapvhir | life 17 | hand 8 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Mysterio, Master of Illusion 5/5*; Illusion Villain Token 5/5; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8; Ultron, Unlimited 4/4; Electro, Assaulting Battery 4/5; Iron Monger, Sadistic Tycoon 4/4 | hand cards: Spark Double(4); Psychic Frog(2); Path of Ancestry(land); Doom's Time Platform(4); Batroc the Leaper(2); Bedevil(3); Superior Foes of Spider-Man(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 30 (Mirayam) | Mirayam | life 26 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Cat Token 1/1 x2; Pack Leader 4/4[Komainu Battle Armor]; Undergrowth Leopard 2/2 | hand cards: Esika's Chariot(4); Bolt Bend(4)
+Information: BOARD threat | turn 30 | Reckless Fireweaver (Captain) 146; Erebos, Bleak-Hearted (Alec) 55; Doctor Doom, King of Latveria (Dapvhir) 53; Mr. House, President and CEO (Captain) 36; Athreos, God of Passage (Alec) 35
+Phase: Mirayam's Untap step
+Phase: Mirayam's Upkeep step
+Phase: Mirayam's Draw step
+Phase: Mirayam's Main phase, precombat
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Mirayam cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Mirayam | open mana: Captain 0, Alec 0, Dapvhir 1
+Resolve Stack: Basilisk Collar
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Forest (337) - {T}: Add {G}.
+Add To Stack: Mirayam activated Basilisk Collar targeting [Pack Leader (371)]
+Resolve Stack: Basilisk Collar (323) -  Attach to Pack Leader (371)
+Phase: Mirayam's Beginning of Combat Step
+Phase: Mirayam's Declare Attackers Step
+Combat: Mirayam assigned Pack Leader (371) to attack Comet, Stellar Pup (78).
+Add To Stack: Mirayam triggered Pack Leader
+Add To Stack: Mirayam triggered Beastmaster Ascension
+Resolve Stack: Whenever a creature you control attacks, you may put a quest counter on Beastmaster Ascension. [Attacker: Pack Leader (371)]
+Resolve Stack: Whenever Pack Leader attacks, prevent all combat damage that would be dealt this turn to Dogs you control. [Attacker: Pack Leader (371)]
+Phase: Mirayam's Declare Blockers Step
+Combat: Captain assigned Robot Token (434) and Robot Token (449) to block Pack Leader (371).
+Phase: Mirayam's First Strike Damage Step
+Phase: Mirayam's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt this turn to Dogs you control.
+Replacement Effect: Prevent all combat damage that would be dealt this turn to Dogs you control.
+Damage: Pack Leader (371) deals 3 damage (Deathtouch) to Robot Token (449).
+Damage: Pack Leader (371) deals 1 damage (Deathtouch) to Robot Token (434).
+Life: Life: Mirayam 26 > 30
+Zone Change: Robot Token (434) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (449) was put into Graveyard from Battlefield.
+Phase: Mirayam's End of Combat Step
+Phase: Mirayam's Main phase, postcombat
+Mana: Forest (338) - {T}: Add {G}.
+Mana: Exotic Orchard (350) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Add To Stack: Mirayam cast Esika's Chariot
+Information: BOARD cast | Esika's Chariot (mv 4) by Mirayam | open mana: Captain 0, Alec 0, Dapvhir 1
+Resolve Stack: Esika's Chariot
+Add To Stack: Mirayam triggered Esika's Chariot
+Resolve Stack: When Esika's Chariot enters, create two 2/2 green Cat creature tokens. [Zone Changer: Esika's Chariot (373)]
+Phase: Mirayam's End step
+Phase: Mirayam's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Captain | life 22 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3; Mr. House, President and CEO 0/4*; Reckless Fireweaver 1/3 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Barbarian Class(1); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 31 (Captain) | Alec | life 26 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (4 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2; Divinity of Pride 8/8; Bartolomé del Presidio 2/1 | hand cards: Dutiful Attendant(3)
+Information: BOARD turn 31 (Captain) | Dapvhir | life 17 | hand 8 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Mysterio, Master of Illusion 5/5*; Illusion Villain Token 5/5; Doctor Doom, King of Latveria 5/5; Doctor Octopus, Master Planner 4/8; Ultron, Unlimited 4/4; Electro, Assaulting Battery 4/5; Iron Monger, Sadistic Tycoon 4/4 | hand cards: Spark Double(4); Psychic Frog(2); Path of Ancestry(land); Doom's Time Platform(4); Batroc the Leaper(2); Bedevil(3); Superior Foes of Spider-Man(3); Tombstone, Career Criminal(3)
+Information: BOARD turn 31 (Captain) | Mirayam | life 30 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 6 (5 untapped): Cat Token 1/1 x2; Pack Leader 4/4*[Komainu Battle Armor,Basilisk Collar]; Undergrowth Leopard 2/2; Cat Token 2/2 x2 | hand cards: Bolt Bend(4)
+Information: BOARD threat | turn 31 | Reckless Fireweaver (Captain) 140; Erebos, Bleak-Hearted (Alec) 53; Doctor Doom, King of Latveria (Dapvhir) 51; Mr. House, President and CEO (Captain) 35; Athreos, God of Passage (Alec) 34
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: devCaptain's Main phase, postcombat
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 26 > 25
+Life: Life: Dapvhir 17 > 16
+Life: Life: Mirayam 30 > 29
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (467)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 25 > 24
+Life: Life: Dapvhir 16 > 15
+Life: Life: Mirayam 29 > 28
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (468)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (78) deals 5 non-combat damage to Dapvhir.
+Life: Life: Dapvhir 15 > 10
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 24 > 23
+Life: Life: Dapvhir 10 > 9
+Life: Life: Mirayam 28 > 27
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (470)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 23 > 22
+Life: Life: Dapvhir 9 > 8
+Life: Life: Mirayam 27 > 26
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (474)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 22 > 21
+Life: Life: Dapvhir 8 > 7
+Life: Life: Mirayam 26 > 25
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (475)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 21 > 20
+Life: Life: Dapvhir 7 > 6
+Life: Life: Mirayam 25 > 24
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (482)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Dapvhir.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 20 > 19
+Life: Life: Dapvhir 6 > 5
+Life: Life: Mirayam 24 > 23
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (483)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (78) deals 7 non-combat damage to Dapvhir.
+Life: Life: Dapvhir 5 > -2
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 19 > 18
+Life: Life: Mirayam 23 > 22
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (485)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 18 > 17
+Life: Life: Mirayam 22 > 21
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (489)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 17 > 16
+Life: Life: Mirayam 21 > 20
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (490)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (78) deals 6 non-combat damage to Mirayam.
+Life: Life: Mirayam 20 > 14
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 16 > 15
+Life: Life: Mirayam 14 > 13
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (492)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 6]
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 15 > 14
+Life: Life: Mirayam 13 > 12
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (496)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 14 > 13
+Life: Life: Mirayam 12 > 11
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (497)]
+Add To Stack: Captain activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (78) deals 5 non-combat damage to Mirayam.
+Life: Life: Mirayam 11 > 6
+Resolve Stack: Comet, Stellar Pup (78) - Roll a d6.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 13 > 12
+Life: Life: Mirayam 6 > 5
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (499)]
+Mana: Mountain (87) - {T}: Add {R}.
+Add To Stack: Captain cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by Captain | open mana: Alec 0, Mirayam 0
+Resolve Stack: Barbarian Class
+Zone Change: Robot Token (499) was put into Graveyard from Battlefield.
+Add To Stack: Captain activated Jan Jansen, Chaos Crafter
+Resolve Stack: Jan Jansen, Chaos Crafter (8) - Captain creates two Treasure tokens.
+Add To Stack: Captain triggered Reckless Fireweaver
+Add To Stack: Captain triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 12 > 11
+Life: Life: Mirayam 5 > 4
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (501)]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 11 > 10
+Life: Life: Mirayam 4 > 3
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (502)]
+Zone Change: Treasure Token (501) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (497) was put into Graveyard from Battlefield.
+Land: Treasure Token (497) picked {B}
+Mana: Treasure Token (497) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (490) was put into Graveyard from Battlefield.
+Land: Treasure Token (490) picked {B}
+Mana: Treasure Token (490) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (483) was put into Graveyard from Battlefield.
+Land: Treasure Token (483) picked {B}
+Mana: Treasure Token (483) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (475) was put into Graveyard from Battlefield.
+Land: Treasure Token (475) picked {B}
+Mana: Treasure Token (475) - {T}, Sacrifice this token: Add one mana of any color.
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Mr. House, President and CEO (100) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 10 > 9
+Life: Life: Mirayam 3 > 2
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: (504)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 9 > 8
+Life: Life: Mirayam 2 > 1
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: (506)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 4]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Mirayam.
+Life: Life: Alec 8 > 7
+Life: Life: Mirayam 1 > 0
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: (508)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 5]
+Damage: Reckless Fireweaver (9) deals 1 non-combat damage to Alec.
+Life: Life: Alec 7 > 6
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: (510)]
+Phase: devCaptain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Alec)
+Information: BOARD turn 32 (Alec) | Captain | life 22 | hand 4 | lands 6 (5 untapped) | open mana 11 | commander Battlefield | creatures 18 (16 untapped): General's Enforcer 2/3; Jan Jansen, Chaos Crafter 3/3*; Mr. House, President and CEO 0/4*; Reckless Fireweaver 1/3; Robot Token 3/3 x12; Squirrel Token 1/1 x2 | hand cards: Wear // Tear(3); Anguished Unmaking(3); Gisela, Blade of Goldnight(7); Ruinous Ultimatum(7)
+Information: BOARD turn 32 (Alec) | Alec | life 6 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (4 untapped): Erebos, Bleak-Hearted 5/6*; Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Ruthless Lawbringer 3/2; Divinity of Pride 4/4; Bartolomé del Presidio 2/1 | hand cards: Dutiful Attendant(3)
+Information: BOARD threat | turn 32 | Comet, Stellar Pup (Captain) 288; Reckless Fireweaver (Captain) 288; Mr. House, President and CEO (Captain) 235; Erebos, Bleak-Hearted (Alec) 51; Athreos, God of Passage (Alec) 32
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (172) - {T}: Add {B}.
+Mana: Plains (205) - {T}: Add {W}.
+Mana: Plains (196) - {T}: Add {W}.
+Information: BOARD cast | Grim Haruspex (mv 3) by Alec | open mana: Captain 11
+Resolve Stack: Grim Haruspex - Creature 3 / 2
+Life: Life: Alec 6 > 5
+Zone Change: Ruthless Lawbringer (188) was put into Graveyard from Battlefield.
+Life: Life: Alec 5 > 3
+Resolve Stack: Whenever another creature you control dies, you may pay 2 life. If you do, draw a card. [Zone Changer: Ruthless Lawbringer (188)]
+Life: Life: Captain 22 > 19
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Captain]]) [Zone Changer: Ruthless Lawbringer (188)]
+Life: Life: Captain 19 > 18
+Life: Life: Alec 3 > 4
+Resolve Stack: Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life. [Zone Changer: Ruthless Lawbringer (188)]
+Resolve Stack: Whenever another nontoken creature you control dies, draw a card. [Zone Changer: Ruthless Lawbringer (188)]
+Resolve Stack: Warren Soultrader (140) - Alec creates a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+Land: Alec played (202)
+Mana: (202) - {T}: Add {W}.
+Information: BOARD cast | Sol Ring (mv 1) by Alec | open mana: Captain 11
+Resolve Stack: Sol Ring
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Erebos, Bleak-Hearted (176), Athreos, God of Passage (211), Warren Soultrader (140), Divinity of Pride (149) and Bartolomé del Presidio (178) to attack Captain.
+Information: BOARD attack | Alec -> Captain | attackers 5 (power 19) | defender life 18 | untapped creatures 16 (power 41): General's Enforcer 2/3; Reckless Fireweaver 1/3; Robot Token 3/3 x12; Squirrel Token 1/1 x2 | open mana 11
+Phase: Alec's Declare Blockers Step
+Combat: Captain didn't block Erebos, Bleak-Hearted (176).
+Captain didn't block Athreos, God of Passage (211).
+Captain didn't block Warren Soultrader (140).
+Captain didn't block Divinity of Pride (149).
+Captain didn't block Bartolomé del Presidio (178).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Erebos, Bleak-Hearted (176) deals 5 combat damage to Captain.
+Damage: Athreos, God of Passage (211) deals 5 combat damage to Captain.
+Damage: Warren Soultrader (140) deals 3 combat damage to Captain.
+Damage: Divinity of Pride (149) deals 4 combat damage to Captain.
+Life: Life: Alec 4 > 8
+Damage: Bartolomé del Presidio (178) deals 2 combat damage to Captain.
+Life: Life: Captain 18 > -1
+Player Control: Captain has restored control over themself
+Player Control: Alec has restored control over themself
+Player Control: Dapvhir has restored control over themself
+Player Control: Mirayam has restored control over themself
+Game Outcome: Match Duration 30m : 16s
+Game Outcome: Turn 16
+Game Outcome: Captain has lost because life total reached 0
+Game Outcome: Alec has won because all opponents have lost
+Game Outcome: Dapvhir has lost because life total reached 0
+Game Outcome: Mirayam has lost because life total reached 0
+Match Result: Captain: 0 Alec: 1 Dapvhir: 0 Mirayam: 0 
+
+Game Result: Alec has won

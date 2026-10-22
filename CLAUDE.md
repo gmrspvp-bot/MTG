@@ -134,6 +134,8 @@ ROWS layout, turn-safety prompts) and logs to `scratch\play-logs\`:
 - `game_<time>.log` is the full game log, written when the game ends. The header lines
   `Player: X (HUMAN|AI) deck=...` show who played what.
 - `console_<time>.log` holds the AI decision lines.
+- A `Result Override:` line after the `Player:` headers means the recorded result is wrong (a bug decided the
+  game); count the game as that line says, not as `Game Result:` does.
 - **Multiplayer:** the HOST's PlayHook records every player, other humans included. A player
   who JOINS a game gets `game_<time>_joined.log` from `ClientRecorder` (wrapped in by ClientHook,
   3D on or off). The host never sends clients its game log, so this one is rebuilt from the
