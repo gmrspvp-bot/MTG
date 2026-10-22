@@ -466,6 +466,16 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       picture within seconds, in Forge's own folders. Plus a quick pre-download of the decks'
       exact printings (and their tokens) when `Play 3D.cmd` / `Update.cmd` starts, skipping what
       is cached. Scryfall-less oddities keep the drawn face.
+- [ ] **Centre screens redesigned to the owner's sketch** (`ui3d\design\centre-screen-sketch-2026-10-23.jpg`
+      - a portrait photo of a landscape screen; turn it a quarter left to read it). Left half: the
+      player's commander as its card picture. Right side, top to bottom: player name (large), life
+      total, one line per enemy commander with the commander damage it has dealt this player,
+      counters and designations as symbols (poison, monarch...). Bottom: floating mana as beads,
+      one coloured bead per mana floating (W U B R G C), none when the pool is empty. Still to
+      settle with the owner: enemy commanders as small pictures or as text; how big the life
+      total is; whether empty commander-damage lines show. Supersedes the item above about the
+      flat screens' text. Claim it first - the readout was last reworked by journeybeforepancakes
+      (81c22e10).
 - [ ] **The writing on the flat (TAB-view) screens does not grow with them.** The screens are a
       third larger flat, the readout is not; life totals read, the LIB/GY/EX numbers are tiny.
 - [ ] **Check by eye in a seated game:** the left/right screens now follow where each player's
