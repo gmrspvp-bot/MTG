@@ -1158,6 +1158,11 @@ abstract class TableInput extends TableHud {
         if (askResponses || panelOpen() || Gui3D.pendingAsk() != null) return;
         if (me == null || !me.hasPriority) return;
         Gui3D.Prompt p = Gui3D.PROMPT;
+        // Only ever the ordinary pass. Declaring blockers is ALSO a prompt whose button reads "OK",
+        // and pressing it there means "no blocks": the owner died with sixteen untapped creatures
+        // facing a lethal attack because this answered his block step for him (2026-10-22, the
+        // whole step lasted under a second). Discards, sacrifices and the like are the same trap.
+        if (!"InputPassPriority".equals(p.inputName)) return;
         if (!p.okEnabled) return;
         if (!p.okLabel.isEmpty() && !"OK".equalsIgnoreCase(p.okLabel)) return;   // a named question
         Object token = p.token;
