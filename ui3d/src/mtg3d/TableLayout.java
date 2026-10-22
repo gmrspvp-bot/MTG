@@ -467,16 +467,25 @@ abstract class TableLayout extends TableCamera {
             // is right when seated, but looked down on they should lie flat by the board). `t`
             // follows the camera's lift, so they move with it rather than jumping.
             float t = smooth(this.lift);
+            float turn = yaw;
             if (t > 0f) {
                 float edge = ROW_CREATURES - CARD_H / 2f - 0.35f;          // the board's near edge
                 Vector3 flat = rotateY(0f, edge - 1.10f, seatAngle(i, n));
                 w.set(w.x + (flat.x - w.x) * t, 0f, w.z + (flat.z - w.z) * t);
                 lift = lift + (FIELD_RAISE + 0.06f - lift) * t;
+                // The left and right players' screens turn to lie the way their boards do - along
+                // the board's edge, reading from that player's seat - rather than square on to us
+                // (the owner, 2026-10-22). Ours and the opposite one already line up with theirs.
+                if (rel != 0 && !opposite) {
+                    float seatYaw = (float) Math.toDegrees(-seatAngle(i, n));
+                    float d = ((seatYaw - yaw) % 360f + 540f) % 360f - 180f;  // the short way round
+                    turn = yaw + d * t;
+                }
             }
 
             ModelInstance frame = inst(monitorModel);
             frame.transform.setToTranslation(w.x, lift, w.z)
-                .rotate(Vector3.Y, yaw)
+                .rotate(Vector3.Y, turn)
                 .rotate(Vector3.X, 34f * (1f - t))
                 .scale(1f + 0.35f * t, 1f, 1f + 0.35f * t);          // flat ones a third larger: read from higher up
             props.add(frame);
