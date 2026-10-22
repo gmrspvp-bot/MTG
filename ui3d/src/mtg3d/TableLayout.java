@@ -473,10 +473,11 @@ abstract class TableLayout extends TableCamera {
                 Vector3 flat = rotateY(0f, edge - 1.10f, seatAngle(i, n));
                 w.set(w.x + (flat.x - w.x) * t, 0f, w.z + (flat.z - w.z) * t);
                 lift = lift + (FIELD_RAISE + 0.06f - lift) * t;
-                // The left and right players' screens turn to lie the way their boards do - along
-                // the board's edge, reading from that player's seat - rather than square on to us
-                // (the owner, 2026-10-22). Ours and the opposite one already line up with theirs.
-                if (rel != 0 && !opposite) {
+                // Every other player's screen turns to lie the way their board does - along the
+                // board's edge, reading from that player's seat - rather than square on to us
+                // (the owner, 2026-10-22: the left and right ones first, then the opposite one,
+                // which read upside down from its own seat). Only ours is already square on.
+                if (rel != 0) {
                     float seatYaw = (float) Math.toDegrees(-seatAngle(i, n));
                     float d = ((seatYaw - yaw) % 360f + 540f) % 360f - 180f;  // the short way round
                     turn = yaw + d * t;
