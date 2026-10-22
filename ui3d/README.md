@@ -471,9 +471,9 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       player's commander as its card picture. Right side, top to bottom: player name (large), life
       total, one line per enemy commander with the commander damage it has dealt this player,
       counters and designations as symbols (poison, monarch...). Bottom: floating mana as beads,
-      one coloured bead per mana floating (W U B R G C), none when the pool is empty. Still to
-      settle with the owner: enemy commanders as small pictures or as text; how big the life
-      total is; whether empty commander-damage lines show. Supersedes the item above about the
+      one coloured bead per mana floating (W U B R G C), none when the pool is empty. Owner's choices: enemy
+      commanders as TEXT (name + damage, long names shortened). Still to settle: how big the
+      life total is; whether empty commander-damage lines show. Supersedes the item above about the
       flat screens' text. Claim it first - the readout was last reworked by journeybeforepancakes
       (81c22e10).
 - [ ] **The writing on the flat (TAB-view) screens does not grow with them.** The screens are a
