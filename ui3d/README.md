@@ -454,7 +454,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       shape that arrives in a joined game, accept it, fill anything missing (e.g. the defender)
       from the 3D table's own snapshot, and answer through the same return path. Test: a
       joined-game case in `Ui3dTakeoverTest`, then a real double block in a joined game.
-- [ ] **Network sync loses track on big turns** (Forge's code, but it is what joined players see).
+- [x] **Network sync loses track on big turns** (fixed 2026-10-26, Stoneforge: `TrackerSyncHook` swaps the list for a copy-on-write one; race test 1,438 errors in 3,274 reads without it, 0 in 2 million with it. The Guava-table NoSuchElementException is a separate, rarer race, not covered.) (Forge's code, but it is what joined players see).
       On a turn with dozens of triggers, Forge's host-side sync reads the game while it changes:
       `Tracker.getDelayedPropsFor` throws ConcurrentModificationException, the delta walk "ships
       what was collected", and the client shows blank names / stale cards ("null activated" in
@@ -466,7 +466,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       behind the "Network encode error for Dominic ... setHighlighted" (ArrayIndexOutOfBounds),
       a NoSuchElementException in a Guava table iterator, and the "null activated" NPEs in
       GameLogFormatter / NetworkGameEventListener. One hook should stop the whole family.
-- [ ] **Forge's window throws "Error doing rescale" when it comes back at game end.** Crash-log
+- [x] **Forge's window throws "Error doing rescale" when it comes back at game end.** (fixed 2026-10-26, Stoneforge: `ImageScaleHook`; reproduced and fixed in `ImageScaleProbe`) Crash-log
       review 2026-10-25: as the 3D table closed after the 2026-10-24 02:17 game, Forge's restored
       window resized its card panels through a 2-3 pixel size, and `ImageCache.scaleImage` threw
       32 times on the Swing thread (`CardPanel.componentResized` -> `updateImage`) - the kind of

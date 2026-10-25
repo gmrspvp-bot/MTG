@@ -78,7 +78,9 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   ConfirmPassHook and AttackConfirmHook (human misclick safeguards), DiceIgnoreHook (house rule:
   a die an "ignore the lowest" effect drops still triggers "whenever you roll" cards, except the
   card whose own ability rolled; see `CARD-MECHANICS.md`), ActionableCardsHook (retries Forge's pay-mana
-  highlight when the board changes under it, instead of Forge's crash window). Logs show
+  highlight when the board changes under it, instead of Forge's crash window), TrackerSyncHook (makes
+  Forge's delayed-change list safe for the host's network sync to read while the game writes it),
+  ImageScaleHook (no picture instead of an error when Forge scales one under 3x3). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.
