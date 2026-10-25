@@ -79,6 +79,11 @@ public final class HumanHooks {
      * flying / unblockable creatures 1.5x, lifelink +50% of power.
      */
     static double threat(Player p) {
+        return DANGER ? boardThreat(p) + dangerExtras(p) : boardThreat(p);
+    }
+
+    /** The board alone - what threat() was until 2026-10-26, and still is with the switch off. */
+    static double boardThreat(Player p) {
         double s = 0;
         for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
             if ((c.isEquipment() || c.isAura()) && c.isAttachedToEntity()) continue;   // already in the creature's power
@@ -92,8 +97,64 @@ public final class HumanHooks {
             s += ThreatTracker.score(c) / 10.0;
             if (c.isCommander()) s += 8;
         }
-        return s;   // life total itself doesn't make someone a threat
+        return s;
     }
+
+    /**
+     * "Who is winning", beyond the board (the owner, 2026-10-23: "the AI definitely needs work on
+     * its threat detection"). His games of 2026-10-22: Angels on 111 life with a sky of flyers
+     * was rated like anyone else, the AIs aimed removal at each other, and finished off the
+     * weakest player instead. Added to the board score:
+     *   - life lead: life above the table's average counts (Angels on 111 against ~25s);
+     *   - engines: permanents that keep producing - token makers, "each opponent loses / takes
+     *     damage" drains, lifegain, card draw, and damage-equal-to-a-count abilities (Rin and Seri);
+     *   - recursion: creatures coming back from the graveyard (Seluma, Karmic Guide, Sun Titan),
+     *     which make single removal against that board worth little;
+     *   - commander damage: a commander that already has someone at 10+ of the 21.
+     * Used by everything that calls threat(): who to attack (retarget), the kill-sparing rule,
+     * Captain America's face throws, and the removal re-aim at the leader (ThreatRetarget).
+     * -Dforge.ai.danger=true turns it on (off until an A/B says it helps).
+     */
+    static double dangerExtras(Player p) {
+        double s = 0;
+        // Life lead over the other players still in.
+        int others = 0, sum = 0;
+        for (Player q : p.getGame().getPlayers()) {
+            if (q == p || q.hasLost()) continue;
+            others++;
+            sum += Math.max(0, q.getLife());
+        }
+        if (others > 0) {
+            double lead = p.getLife() - (double) sum / others;
+            if (lead > 0) s += lead * LIFE_LEAD_WEIGHT;
+        }
+        int engines = 0, recursion = 0;
+        for (Card c : p.getCardsIn(ZoneType.Battlefield)) {
+            if (c.isLand()) continue;
+            String t = c.getOracleText() == null ? "" : c.getOracleText().toLowerCase();
+            if (t.isEmpty()) continue;
+            if (RECURSION.matcher(t).find()) recursion++;
+            else if (ENGINE.matcher(t).find()) engines++;
+            // Commander damage closing in on someone.
+            if (c.isCommander() && c.isCreature()) {
+                for (Player q : p.getOpponents()) {
+                    if (!q.hasLost() && q.getCommanderDamage(c) >= 10) { s += COMMANDER_CLOSE; break; }
+                }
+            }
+        }
+        s += Math.min(engines, 6) * ENGINE_WEIGHT + Math.min(recursion, 4) * RECURSION_WEIGHT;
+        return s;
+    }
+
+    static final boolean DANGER = "true".equalsIgnoreCase(System.getProperty("forge.ai.danger", "false"));
+    static final double LIFE_LEAD_WEIGHT = 0.8, ENGINE_WEIGHT = 8, RECURSION_WEIGHT = 10, COMMANDER_CLOSE = 15;
+    /** Repeating value: a trigger or tap ability that makes tokens, drains, gains life, draws, or scales with a count. */
+    static final java.util.regex.Pattern ENGINE = java.util.regex.Pattern.compile(
+        "(whenever|at the beginning of)[^.]*(create|each opponent loses|deals? \\d+ damage to each opponent|you gain \\d+ life|draw a card)"
+        + "|\\{t\\}[^.]*deals? damage[^.]*equal to the number");
+    /** Bringing creatures back to the battlefield from the graveyard. */
+    static final java.util.regex.Pattern RECURSION = java.util.regex.Pattern.compile(
+        "return[^.]*from your graveyard to the battlefield|from your graveyard onto the battlefield");
 
     static boolean safeAttack(Card a, Player def) {
         if (a.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE)) return true;

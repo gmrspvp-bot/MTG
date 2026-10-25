@@ -881,13 +881,58 @@ public final class AiPatches {
                     if (c != chosen && s > best && sa.canTarget(c)) { best = s; pick = c; }
                 }
             }
-            if (pick == null) return d;
+            if (pick == null) {
+                Card lead = leaderSwap(ai, sa, chosen, c -> zoneChange || !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE));
+                if (lead != null) retargetTo(sa, chosen, lead);
+                return d;
+            }
             sa.resetTargets();
             sa.getTargets().add(pick);
             System.out.println("THREATAI " + sa.getHostCard().getName() + ": " + chosen.getName() + " -> " + pick.getName()
                 + " (threat " + Math.round(ThreatTracker.score(chosen)) + " -> " + Math.round(best) + ")");
             return d;
         }
+
+        /**
+         * Removal aimed at someone who is not the one winning: aim it at the leader's board
+         * instead (the owner, 2026-10-23, after Scorching Shot went at Loki while Angels sat on
+         * 111 life with Lyra and Seluma out). The leader is the opponent with the highest
+         * HumanHooks.threat() - with the danger switch on, that counts life lead, engines and
+         * recursion - and it has to be clearly ahead of the chosen card's controller
+         * (LEADER_RATIO). The replacement is the leader's most valuable permanent this spell can
+         * target and remove, worth at least LEADER_MIN_SHARE of the original. Only with
+         * -Dforge.ai.danger=true. Returns the new target or null.
+         */
+        static Card leaderSwap(Player ai, SpellAbility sa, Card chosen, java.util.function.Predicate<Card> canRemove) {
+            if (!HumanHooks.DANGER || chosen == null || chosen.getController() == null) return null;
+            Player owner = chosen.getController();
+            Player leader = null;
+            double top = -1;
+            for (Player opp : ai.getOpponents()) {
+                if (opp.hasLost()) continue;
+                double t = HumanHooks.threat(opp);
+                if (t > top) { top = t; leader = opp; }
+            }
+            if (leader == null || leader == owner || top < LEADER_RATIO * Math.max(1.0, HumanHooks.threat(owner))) return null;
+            double need = LEADER_MIN_SHARE * value(chosen);
+            Card best = null;
+            double bestValue = -1;
+            for (Card c : leader.getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                if (c.isLand() || !sa.canTarget(c) || !canRemove.test(c)) continue;
+                double v = value(c);
+                if (v >= need && v > bestValue) { bestValue = v; best = c; }
+            }
+            return best;
+        }
+
+        static void retargetTo(SpellAbility sa, Card from, Card to) {
+            sa.resetTargets();
+            sa.getTargets().add(to);
+            System.out.println("THREATAI " + sa.getHostCard().getName() + ": " + from.getName() + " -> " + to.getName()
+                + " (" + to.getController().getName() + " is the one winning)");
+        }
+
+        static final double LEADER_RATIO = 1.3, LEADER_MIN_SHARE = 0.8;
     }
 
     public static class ThreatDestroyAi extends forge.ai.ability.DestroyAi {
@@ -1857,8 +1902,19 @@ public final class AiPatches {
             if (!CaptainPolicy.isThrow(sa) && sa.isSpell() && !sa.isDividedAsYouChoose()) {
                 // Burn aimed at a token (Galvanic Blast on a Thopter): a real creature it kills instead.
                 int dmg = CaptainPolicy.totalDamage(sa);
-                return ThreatRetarget.avoidTokens(ai, sa, d, c -> c.isPlaneswalker() ? dmg >= c.getCurrentLoyalty()
-                    : !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) && dmg >= c.getNetToughness() - c.getDamage());
+                java.util.function.Predicate<Card> kills = c -> c.isPlaneswalker() ? dmg >= c.getCurrentLoyalty()
+                    : c.isCreature() && !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) && dmg >= c.getNetToughness() - c.getDamage();
+                d = ThreatRetarget.avoidTokens(ai, sa, d, kills);
+                // Burn at a creature of someone who is not winning: the leader's instead (danger switch).
+                if (d.willingToPlay() && sa.usesTargeting() && !sa.isTrigger() && sa.getTargets() != null
+                        && sa.getTargets().size() == 1 && sa.getTargets().getTargetCards().size() == 1) {
+                    Card chosen = sa.getTargets().getTargetCards().get(0);
+                    if (chosen.getController() != null && ai.isOpponentOf(chosen.getController())) {
+                        Card lead = ThreatRetarget.leaderSwap(ai, sa, chosen, kills);
+                        if (lead != null) ThreatRetarget.retargetTo(sa, chosen, lead);
+                    }
+                }
+                return d;
             }
             if (!CaptainPolicy.enabled || !CaptainPolicy.isThrow(sa)) return d;
             boolean forgeWilling = d.willingToPlay();
