@@ -37,7 +37,7 @@ an arm; the owner's PC runs 6 at a time at most). Put the result in the commit m
 - [x] **Mr House: Treasures into Mr. House's own ability.** (checked 2026-10-26, Stoneforge: in 600 sim games of 2026-10-23 the AI paid 228 of 441 activations with Treasures, 463 Treasures in all - 2 extra dice each on average. `AIManaPref$ Treasure` in our Mr. House script does it; nothing to fix.) Each Treasure mana adds a die; the owner
       won a game spending 4 Treasures into it. Our script already says `AIManaPref$ Treasure`;
       check in sims whether the AI actually activates it with Treasures and how many dice it rolls.
-- [ ] **Threat detection overhaul - the owner's top AI complaint (2026-10-23).** One rating of
+- [ ] **Threat detection overhaul - the owner's top AI complaint (2026-10-23).** BUILT 2026-10-26 (Stoneforge) behind `-Dforge.ai.danger=true`: threat() adds life lead, engines, recursion and commander-damage pressure; removal (destroy/exile and single-target burn) re-aims at the leader's board (`ThreatRetarget.leaderSwap`). DangerProbe passes. **Waiting on the overnight A/B (scratchdanger-runs.txt, on vs off) before it becomes the default.** Original plan: One rating of
       "who is winning", used by attacks, removal and the spare-the-kill rule alike. Today
       `HumanHooks.threat()` counts creature power (flyers 1.5x, lifelink extra), +1 per nonland
       permanent, a card-quality score and +8 for a commander - and misses:
