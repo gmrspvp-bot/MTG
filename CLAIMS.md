@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Working through the to-do: network sync race hook (Tracker.getDelayedPropsFor), end-of-game rescale errors (ImageCache.scaleImage), card pictures on demand, then AI items | Stoneforge | 2026-10-26 | EvalCacheAgent hooks; ui3d CardArt. One item at a time, each released when it lands. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
