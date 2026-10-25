@@ -305,7 +305,8 @@ public final class HumanHooks {
     }
 
     static final boolean SPARE_KILLS = !"false".equalsIgnoreCase(System.getProperty("forge.ai.sparekills", "true"));
-    static final double SPARE_RATIO = 1.5;
+    /** How much stronger (threat()) the leader must be than us to be feared: -Dforge.ai.spareratio (default 1.5). */
+    static final double SPARE_RATIO = Double.parseDouble(System.getProperty("forge.ai.spareratio", "1.5"));
 
     /**
      * After the attack is chosen (by Forge or by us): any player it would kill (damageThrough
