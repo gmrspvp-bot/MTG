@@ -1471,31 +1471,26 @@ abstract class TableHud extends TableScene {
     }
 
     /**
-     * The tracker in the middle of the table: each player's commander, their life, and the
-     * commander damage they have taken. All of it is public knowledge, which is why it can sit in
-     * the open where everyone's view of it is the same.
+     * Each player's screen in the middle of the table, laid out to the owner's sketch
+     * (ui3d\design\centre-screen-sketch-2026-10-23.jpg, settled with him on 2026-10-23):
      *
-     * Laid out as a readout rather than a list (the owner, 2026-10-21: "arrange the numbers on it
-     * like a screen, think like a digital clock"). The portrait is on the left, the life total is
-     * the one big number, and the small fields sit under it in fixed columns so they stay in the
-     * same place as they change - a number that moves when it changes cannot be read at a glance.
-     * Drawn in screen space, not onto the panel, so every seat's readout faces the camera
-     * wherever it happens to be.
-     */
-    /**
-     * Each player's readout, drawn ON the glass of their screen rather than in front of it.
+     *   left        the player's commander, as its card picture (partners side by side), with
+     *               the commander tax in its corner
+     *   right       the player's name; the life total, big like the scoreboard; one line per
+     *               enemy commander that has dealt this player commander damage, by name, with
+     *               the total (orange from 15, red at 21); designations and counters as small
+     *               coloured chips (monarch, initiative, poison, energy...)
+     *   bottom      floating mana as beads - one bead per mana, in its colour; none when empty
      *
-     * It used to be drawn in screen space at the projected position of the screen, so the words
-     * faced the camera square on while the glass behind them was turned and tilted: a display
-     * with figurines standing on it. Now the batch is given the glass's own matrix, so the
-     * numbers lie in its plane and lean with it, as a screen's contents do.
-     *
-     * Drawn after the 3D pass and with its own batch, so it owns its projection and hands it
-     * back when it is done.
+     * Drawn ON the glass (the batch is given the glass's own matrix), so it lies in the screen's
+     * plane and leans with it. The glass is GLASS_PX table units a pixel: 286 x 144 pixels, with
+     * (0,0) at its middle. Shapes (beads, chips, picture frame) go first, words after. Drawn
+     * after the 3D pass with its own projection, which it hands back when done.
      */
     void drawCentreTracker() {
         int n = snap.seats.size();
         if (monitorXf.size() < n) return;
+        GlyphLayout gl = new GlyphLayout();
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
             float[] at = monitorAt.get(i);
@@ -1504,73 +1499,204 @@ abstract class TableHud extends TableScene {
             if (underFlatStack(at[0], at[2])) continue;
 
             // The glass's placement, with the drawing plane turned to lie in it (a SpriteBatch
-            // draws in XY; the glass is a flat slab in its own XZ) and scaled from the pixels
-            // the rest of this file thinks in down to table units.
+            // draws in XY; the glass is a flat slab in its own XZ) and scaled from pixels to
+            // table units.
             Matrix4 m = new Matrix4(monitorXf.get(i));
             m.rotate(Vector3.X, -90f);
             m.scale(GLASS_PX, GLASS_PX, GLASS_PX);
+
+            final float L = -136f, R = 136f, T = 66f, B = -66f;      // inside a small margin
+            final float beadY = B + 8f;                               // the mana strip
+            // ---- left: the commander picture(s) -------------------------------------------
+            java.util.List<Snapshot.CardV> cmds = commandersOf(s);
+            float picH = T - (beadY + 12f), picW = picH * 5f / 7f;   // card proportions
+            if (cmds.size() > 1) { picW = Math.min(picW, 92f / cmds.size()); picH = picW * 7f / 5f; }
+            float right0 = L + picW * Math.max(1, cmds.size()) + 9f; // where the text column starts
+
+            // ---- shapes: picture frames and mana beads --------------------------------------
+            shapes.setProjectionMatrix(cam.combined);
+            shapes.setTransformMatrix(m);
+            Gdx.gl.glEnable(GL20.GL_BLEND);
+            shapes.begin(ShapeRenderer.ShapeType.Filled);
+            for (int k = 0; k < cmds.size(); k++) {                 // no commander card: no frame
+                shapes.setColor(0.04f, 0.05f, 0.08f, 0.85f);
+                shapes.rect(L + k * picW - 1f, T - picH - 1f, picW + 2f, picH + 2f);
+            }
+            // Floating mana along the bottom: one bead per mana, in its colour.
+            float bx = L + 5f;
+            int beads = 0;
+            for (int c = 0; c < 6; c++) {
+                for (int k = 0; k < s.mana[c] && beads < MAX_BEADS; k++, beads++) {
+                    Color bc = BEAD_COLOURS[c];
+                    shapes.setColor(0.02f, 0.02f, 0.03f, 1f);
+                    shapes.circle(bx, beadY, 6.4f, 16);
+                    shapes.setColor(bc);
+                    shapes.circle(bx, beadY, 5.4f, 16);
+                    shapes.setColor(Math.min(1f, bc.r + 0.35f), Math.min(1f, bc.g + 0.35f), Math.min(1f, bc.b + 0.35f), 0.9f);
+                    shapes.circle(bx - 1.7f, beadY + 1.7f, 1.6f, 8);      // a glint, so it reads as a bead
+                    bx += 14.5f;
+                }
+            }
+            shapes.end();
+
+            // ---- words and the picture ------------------------------------------------------
             ui.setProjectionMatrix(cam.combined);
             ui.setTransformMatrix(m);
             ui.begin();
-
-            // Everything below is in those pixels, with (0,0) at the middle of the panel.
-            float left = -118f, top = 40f;
-            final float portW = 46f, portH = 64f;
-            Snapshot.CardV cmd = commanderOf(s);
-            com.badlogic.gdx.graphics.Texture tex =
-                (art == null || cmd == null || !art.hasPicture(cmd)) ? null : art.get(cmd);
-            if (tex != null) {
-                ui.setColor(1f, 1f, 1f, s.lost ? 0.35f : 1f);
-                ui.draw(tex, left, top - portH, portW, portH);
-                ui.setColor(1f, 1f, 1f, 1f);
+            for (int k = 0; k < cmds.size(); k++) {
+                com.badlogic.gdx.graphics.Texture tex = art == null ? null : art.get(cmds.get(k));
+                if (tex != null) {
+                    ui.setColor(1f, 1f, 1f, s.lost ? 0.35f : 1f);
+                    ui.draw(tex, L + k * picW, T - picH, picW, picH);
+                    ui.setColor(1f, 1f, 1f, 1f);
+                }
+            }
+            if (!cmds.isEmpty() && cmds.get(0).commanderCasts > 0) {
+                font.getData().setScale(1.0f);
+                font.setColor(1f, 0.80f, 0.40f, 1f);
+                font.draw(ui, "tax +" + (2 * cmds.get(0).commanderCasts), L + 2f, T - picH + 10f);
+                font.getData().setScale(1f);
             }
 
-            float col = left + portW + 10f;
+            float colW = R - right0;
             Color tint = s.lost ? new Color(0.50f, 0.44f, 0.44f, 1f)
                     : s.active ? new Color(1f, 0.85f, 0.35f, 1f)
                     : s.isYou ? new Color(0.65f, 0.95f, 1f, 1f)
-                    : new Color(0.80f, 0.88f, 0.95f, 1f);
-
-            font.setColor(0.52f, 0.66f, 0.78f, 1f);
-            font.draw(ui, shortName(s.name), col, top);
-
-            // The life total, big. The one number you look for.
-            fontBig.getData().setScale(2.3f);
+                    : new Color(0.85f, 0.90f, 0.96f, 1f);
+            // The player's name.
+            fontBig.getData().setScale(1.55f);
             fontBig.setColor(tint);
-            fontBig.draw(ui, s.lost ? "OUT" : String.valueOf(s.life), col, top - 10f);
+            fontBig.draw(ui, fit(fontBig, gl, s.name, colW), right0, T);
+            // The life total, big like the scoreboard; red at 10 or below.
+            fontBig.getData().setScale(3.5f);
+            if (!s.lost && s.life <= 10) fontBig.setColor(1f, 0.38f, 0.32f, 1f);
+            fontBig.draw(ui, s.lost ? "OUT" : String.valueOf(s.life), right0, T - 19f);
             fontBig.getData().setScale(1.6f);
 
-            // Fixed columns under it, so a changing number never moves the ones beside it.
-            float row = top - 38f;
-            font.setColor(0.62f, 0.74f, 0.84f, 1f);
-            font.draw(ui, "LIB", col, row);
-            font.draw(ui, "GY", col + 46f, row);
-            font.draw(ui, "EX", col + 84f, row);
-            font.setColor(0.82f, 0.90f, 0.96f, 1f);
-            font.draw(ui, String.valueOf(s.librarySize), col, row - 13f);
-            font.draw(ui, String.valueOf(s.graveyardSize), col + 46f, row - 13f);
-            font.draw(ui, String.valueOf(s.exileSize), col + 84f, row - 13f);
-
-            float y = row - 28f;
-            if (s.poison > 0) {
-                font.setColor(0.60f, 0.85f, 0.45f, 1f);
-                font.draw(ui, "POISON " + s.poison, col, y);
-                y -= 13f;
-            }
-            // Commander damage: the number that quietly kills you, so it stays on the readout.
-            font.setColor(0.78f, 0.56f, 0.50f, 1f);
+            // Commander damage this player has TAKEN, one line per enemy commander that has hit
+            // them, by name - the owner's example: Captain America's screen shows
+            // "Olivia, Opulent Outlaw   4". Nothing until a commander has dealt damage.
+            float y = T - 64f;
+            font.getData().setScale(1.2f);
             int shown = 0;
             for (Snapshot.CmdDmg d : s.commanderDamage) {
-                if (shown++ >= 2) break;                  // two is enough to see a threat building
-                font.draw(ui, d.amount + " from " + shortName(d.from), col, y);
-                y -= 13f;
+                if (shown++ >= 3) break;
+                Color dc = d.amount >= 21 ? new Color(1f, 0.30f, 0.28f, 1f)
+                        : d.amount >= 15 ? new Color(1f, 0.62f, 0.25f, 1f) : new Color(0.86f, 0.80f, 0.74f, 1f);
+                String num = String.valueOf(d.amount);
+                gl.setText(font, num);
+                float numW = gl.width;
+                font.setColor(dc);
+                font.draw(ui, fit(font, gl, d.from, colW - numW - 8f), right0, y);
+                font.draw(ui, num, R - numW, y);
+                y -= 14f;
             }
+            font.getData().setScale(1f);
             ui.end();
+
+            // Designations and counters as small coloured chips, under the damage lines.
+            java.util.List<String[]> chips = screenChips(s);
+            if (!chips.isEmpty()) drawChips(m, chips, right0, y - 2f, R, gl);
         }
-        // Hand the batch back the way the rest of the overlay expects to find it.
+        // Hand the batches back the way the rest of the overlay expects to find them.
+        Matrix4 ortho = new Matrix4().setToOrtho2D(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        shapes.setTransformMatrix(new Matrix4());
+        shapes.setProjectionMatrix(ortho);
         ui.setTransformMatrix(new Matrix4());
-        ui.setProjectionMatrix(new Matrix4().setToOrtho2D(0, 0,
-            Gdx.graphics.getWidth(), Gdx.graphics.getHeight()));
+        ui.setProjectionMatrix(ortho);
+    }
+
+    static final int MAX_BEADS = 24;
+    /** W, U, B, R, G, colourless - B is a dark violet, so it still shows on the dark glass. */
+    static final Color[] BEAD_COLOURS = {
+        new Color(0.97f, 0.93f, 0.78f, 1f), new Color(0.22f, 0.52f, 0.96f, 1f), new Color(0.40f, 0.24f, 0.48f, 1f),
+        new Color(0.92f, 0.28f, 0.20f, 1f), new Color(0.22f, 0.70f, 0.30f, 1f), new Color(0.66f, 0.66f, 0.70f, 1f) };
+
+    /** The player's commander(s): partners and backgrounds side by side, at most two. */
+    static java.util.List<Snapshot.CardV> commandersOf(Snapshot.SeatV s) {
+        java.util.List<Snapshot.CardV> out = new java.util.ArrayList<>();
+        for (java.util.List<Snapshot.CardV> zone : java.util.Arrays.asList(s.command, s.creatures, s.others)) {
+            for (Snapshot.CardV c : zone) if (c.commander && out.size() < 2) out.add(c);
+        }
+        // Only cards marked as commanders: an emblem or a companion in the command zone is not one.
+        return out;
+    }
+
+    /** Text cut to fit a width, with "..." when it had to be cut. Uses the font's current scale. */
+    static String fit(com.badlogic.gdx.graphics.g2d.BitmapFont f, GlyphLayout gl, String text, float width) {
+        if (text == null) return "";
+        gl.setText(f, text);
+        if (gl.width <= width) return text;
+        for (int k = text.length() - 1; k > 1; k--) {
+            String t = text.substring(0, k).trim() + "...";
+            gl.setText(f, t);
+            if (gl.width <= width) return t;
+        }
+        return text.substring(0, 1);
+    }
+
+    /**
+     * The chips: a short label on a coloured pill per designation or counter, {label, r, g, b}.
+     * Poison comes from the seat's own count unless the counters already carry it.
+     */
+    static java.util.List<String[]> screenChips(Snapshot.SeatV s) {
+        java.util.List<String[]> out = new java.util.ArrayList<>();
+        boolean poisonMarked = false;
+        for (String mk : s.marks) {
+            String u = mk.toUpperCase();
+            if (u.startsWith("POISON")) poisonMarked = true;
+            String label = u.startsWith("CITY'S BLESSING") ? "BLESSING" : u.startsWith("RING-BEARER") ? "RING" : u;
+            float[] c = u.startsWith("MONARCH") ? new float[] { 0.95f, 0.75f, 0.20f }
+                : u.startsWith("INITIATIVE") ? new float[] { 0.95f, 0.50f, 0.20f }
+                : u.startsWith("POISON") ? new float[] { 0.35f, 0.75f, 0.25f }
+                : u.startsWith("ENERGY") ? new float[] { 0.95f, 0.85f, 0.25f }
+                : u.startsWith("EXPERIENCE") ? new float[] { 0.65f, 0.45f, 0.90f }
+                : u.startsWith("RAD") ? new float[] { 0.70f, 0.90f, 0.20f }
+                : u.startsWith("SPEED") ? new float[] { 0.30f, 0.80f, 0.95f }
+                : u.startsWith("RING") ? new float[] { 0.95f, 0.85f, 0.45f }
+                : new float[] { 0.62f, 0.66f, 0.74f };
+            out.add(new String[] { label, String.valueOf(c[0]), String.valueOf(c[1]), String.valueOf(c[2]) });
+        }
+        if (!poisonMarked && s.poison > 0) out.add(new String[] { "POISON " + s.poison, "0.35", "0.75", "0.25" });
+        return out;
+    }
+
+    /** Pills left to right from (x0, y), wrapping once at the right edge; anything past that is dropped. */
+    void drawChips(Matrix4 m, java.util.List<String[]> chips, float x0, float y, float right, GlyphLayout gl) {
+        font.getData().setScale(0.95f);
+        java.util.List<float[]> boxes = new java.util.ArrayList<>();
+        float x = x0;
+        int row = 0;
+        for (String[] c : chips) {
+            gl.setText(font, c[0]);
+            float w = gl.width + 9f, h = 13f;
+            if (x + w > right) { if (++row > 1) break; x = x0; }
+            boxes.add(new float[] { x, y - h - row * 15f, w, h });
+            x += w + 3f;
+        }
+        shapes.setProjectionMatrix(cam.combined);
+        shapes.setTransformMatrix(m);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        for (int k = 0; k < boxes.size(); k++) {
+            float[] b = boxes.get(k);
+            String[] c = chips.get(k);
+            float r = Float.parseFloat(c[1]), g = Float.parseFloat(c[2]), bl = Float.parseFloat(c[3]);
+            shapes.setColor(r * 0.45f, g * 0.45f, bl * 0.45f, 0.95f);
+            shapes.rect(b[0], b[1], b[2], b[3]);
+            shapes.setColor(r, g, bl, 1f);
+            shapes.rect(b[0], b[1], 2f, b[3]);                     // the coloured edge is the "symbol"
+        }
+        shapes.end();
+        ui.setProjectionMatrix(cam.combined);
+        ui.setTransformMatrix(m);
+        ui.begin();
+        for (int k = 0; k < boxes.size(); k++) {
+            float[] b = boxes.get(k);
+            font.setColor(1f, 0.97f, 0.92f, 1f);
+            font.draw(ui, chips.get(k)[0], b[0] + 5.5f, b[1] + b[3] - 2.5f);
+        }
+        ui.end();
+        font.getData().setScale(1f);
     }
 
     /** One "pixel" of a readout, in table units: the glass is about 2.5 units across. */

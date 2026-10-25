@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d centre screens to the owner's sketch (ui3d\design\centre-screen-sketch-2026-10-23.jpg): commander picture left; name, big life, commander damage taken by name, counter/designation symbols right; floating mana beads at the bottom | Stoneforge | 2026-10-25 | drawCentreTracker (TableHud) + placeMonitors (TableLayout). Rebuilds journeybeforepancakes' readout (81c22e10). |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

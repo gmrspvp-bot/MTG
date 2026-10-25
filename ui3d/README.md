@@ -466,7 +466,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       picture within seconds, in Forge's own folders. Plus a quick pre-download of the decks'
       exact printings (and their tokens) when `Play 3D.cmd` / `Update.cmd` starts, skipping what
       is cached. Scryfall-less oddities keep the drawn face.
-- [ ] **Centre screens redesigned to the owner's sketch** (`ui3d\design\centre-screen-sketch-2026-10-23.jpg`
+- [x] **Centre screens redesigned to the owner's sketch** (done 2026-10-25, Stoneforge; checked by demo screenshot, still to see in a real game) (`ui3d\design\centre-screen-sketch-2026-10-23.jpg`
       - a portrait photo of a landscape screen; turn it a quarter left to read it). Left half: the
       player's commander as its card picture. Right side, top to bottom: player name (large), life
       total, one line per enemy commander with the commander damage it has dealt this player,
@@ -478,7 +478,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       scoreboard. All settled - build when the owner says go. Supersedes the item above about the
       flat screens' text. Claim it first - the readout was last reworked by journeybeforepancakes
       (81c22e10).
-- [ ] **The writing on the flat (TAB-view) screens does not grow with them.** The screens are a
+- [x] **The writing on the flat (TAB-view) screens does not grow with them.** (superseded by the redesign, which sizes the readout to the screen) The screens are a
       third larger flat, the readout is not; life totals read, the LIB/GY/EX numbers are tiny.
 - [ ] **Check by eye in a seated game:** the left/right screens now follow where each player's
       seat is (they were mirrored). Only the overhead view was screenshot-checked.
