@@ -113,7 +113,6 @@ abstract class TableHud extends TableScene {
             font.draw(ui, "answer it in Forge's own window", 14f, 46f);
         }
         drawSeatInfo(w, h);
-        drawPhaseOnTable();
         drawZoneLabels();
         drawStackCounts();
         drawBeadCounts();
@@ -396,26 +395,6 @@ abstract class TableHud extends TableScene {
                 font.draw(ui, "> priority", p.x - 60, p.y + 32);
             }
         }
-    }
-
-    /**
-     * The phase, written on the table between the centre monitors and the active player's
-     * creatures, so where the turn is reads in the scene and not only in the corner text.
-     */
-    void drawPhaseOnTable() {
-        int active = activeSeat();
-        if (active < 0 || snap.phase.isEmpty()) return;
-        Vector3 w = rotateY(0f, ROW_CREATURES - 1.45f, seatAngle(active, snap.seats.size()));
-        Vector3 p = cam.project(new Vector3(w.x, 0.05f, w.z));
-        if (p.z > 1f) return;
-        // The normal font, a little see-through: in the big font it ran across the active player's
-        // creatures and hid them (the owner, 2026-10-25).
-        font.setColor(1f, 0.82f, 0.32f, 0.80f);
-        // Day or night rides along with the phase: both are "what time is it" at the table.
-        String text = snap.dayNight.isEmpty() ? snap.phase
-            : snap.phase + "   " + (snap.dayNight.equals("DAY") ? "- day -" : "- night -");
-        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(font, text);
-        font.draw(ui, gl, p.x - gl.width / 2f, p.y + gl.height / 2f);
     }
 
     /** Who cast what, under each item on the stack, plus a marker on the one resolving next. */
