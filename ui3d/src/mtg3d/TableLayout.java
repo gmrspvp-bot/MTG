@@ -1177,8 +1177,7 @@ abstract class TableLayout extends TableCamera {
             float raise = zoneLift(i);
             float lift = FIELD_RAISE + raise;          // on the mat, as the other trays are
             // The same clamp, on the other side of the board.
-            float cmdHalf = (CARD_W + 0.24f) / 2f;
-            float cmdX = -Math.min(-COMMAND_X, wedgeHalf(COMMAND_Z) - cmdHalf - 0.08f);
+            float cmdX = commandX();
             Vector3 w = rotateY(cmdX, COMMAND_Z, angle);
             if (raise > 0.001f) {
                 ModelInstance stand = inst(zoneStandModel);
@@ -1373,6 +1372,15 @@ abstract class TableLayout extends TableCamera {
         // corners, so at the exile tray - the nearest one in, where the mat is narrowest - the
         // wedge's own half-width is not the limit, the chord is. 5.0 clears it at every z.
         return Math.min(5.0f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
+    }
+
+    /**
+     * Where the command pad sits across its seat: the same clamp as zoneX, on the other side.
+     * Shared by the pad and its label, which had drifted apart (the label used a fixed -5.3).
+     */
+    float commandX() {
+        float cmdHalf = (CARD_W + 0.24f) / 2f;
+        return -Math.min(-COMMAND_X, wedgeHalf(COMMAND_Z) - cmdHalf - 0.08f);
     }
     static final int PILE_CAP = 100;
     /** Library like a card back, graveyard dark, exile pale violet - three kinds of pile at a glance. */

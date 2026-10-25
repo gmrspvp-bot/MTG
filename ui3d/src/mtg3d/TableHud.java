@@ -996,23 +996,21 @@ abstract class TableHud extends TableScene {
             float angle = seatAngle(i, n);
             String[] names = { "LIB " + s.librarySize, "GY " + s.graveyardSize, "EXI " + s.exileSize };
             Color zc = zoneLabelColour(s);
+            // Whose pads these are, on every pad's own label, in that seat's colour (the owner's
+            // list: "make it obvious which battlefield the command zone, exile, graveyard and library
+            // belong to"). With the wedge-shaped mats each player's trays sit out at a corner, next
+            // to a neighbour's board, and one floating name for the three - placed by a fixed 5.3
+            // after the trays had moved in - landed by the wrong pads (2026-10-26 screenshot:
+            // ZERMA beside Xenil's column). Positioned with zoneX, the pads' own helper.
+            String who = shortName(s.name).toUpperCase() + (s.isYou ? " (YOU)" : "");
             for (int k = 0; k < 3; k++) {
-                Vector3 world = rotateY(5.3f, SEAT_DIST + 1.7f - k * 1.45f, angle);
+                Vector3 world = rotateY(zoneX(k), SEAT_DIST + 1.7f - k * 1.45f, angle);
                 // On top of the pile, so a tall library does not hide its own count.
                 Vector3 p = cam.project(new Vector3(world.x, pileTop(i, k) + 0.08f, world.z));
                 if (p.z > 1f) continue;
                 font.setColor(zc);
+                font.draw(ui, who, p.x - 20, p.y + 19);
                 font.draw(ui, names[k], p.x - 20, p.y + 6);
-            }
-            // Whose pads these are. Three unlabelled trays beside three other players' unlabelled
-            // trays is the thing that was being misread, so the owner's name goes over the stack,
-            // in the same colour as that seat's frame.
-            Vector3 ow = rotateY(5.3f, SEAT_DIST + 1.7f + 1.0f, angle);
-            Vector3 op = cam.project(new Vector3(ow.x, 0.1f, ow.z));
-            if (op.z <= 1f) {
-                String who = shortName(s.name).toUpperCase() + (s.isYou ? "  (YOU)" : "");
-                font.setColor(zc);
-                font.draw(ui, who, op.x - 20, op.y + 6);
             }
         }
         // The board itself, named at the edge nearest the middle of the table: the frame says
@@ -1021,22 +1019,32 @@ abstract class TableHud extends TableScene {
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
             if (s.isYou) continue;
-            Vector3 world = rotateY(-EDGE_X + 0.7f, EDGE_NEAR + 0.36f, seatAngle(i, n));
+            // In the middle of the board's inner edge: at the edge's left end (-EDGE_X), where it
+            // was, the wedge-shaped mats put it beside the next player's trays - "ZERMA" sat by
+            // Xenil's graveyard (2026-10-26 screenshot). Seated view only: overhead, each board's
+            // flat screen lies right there with the same name on it.
+            if (smooth(lift) > 0.5f) break;
+            Vector3 world = rotateY(0f, EDGE_NEAR + 0.36f, seatAngle(i, n));
             Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
             if (p.z > 1f) continue;
+            String board = shortName(s.name).toUpperCase()
+                + (s.active ? "  -  THEIR TURN" : waitingOn(s) ? "  -  RESPONDING" : "");
+            com.badlogic.gdx.graphics.g2d.GlyphLayout bl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(font, board);
             font.setColor(zoneLabelColour(s));
-            font.draw(ui, shortName(s.name).toUpperCase()
-                + (s.active ? "  -  THEIR TURN" : waitingOn(s) ? "  -  RESPONDING" : ""), p.x, p.y + 6);
+            font.draw(ui, board, p.x - bl.width / 2f, p.y + 6);
         }
         // The command zone: named just below its pad, with the tax the next cast will cost.
         if (!commanderGame()) return;
         for (int i = 0; i < n; i++) {
             Snapshot.SeatV s = snap.seats.get(i);
-            Vector3 world = rotateY(COMMAND_X, COMMAND_Z + CARD_H / 2f + 0.35f, seatAngle(i, n));
+            Vector3 world = rotateY(commandX(), COMMAND_Z + CARD_H / 2f + 0.35f, seatAngle(i, n));
             Vector3 p = cam.project(new Vector3(world.x, 0.1f, world.z));
             if (p.z > 1f) continue;
             int casts = 0;
             for (Snapshot.CardV c : s.command) casts = Math.max(casts, c.commanderCasts);
+            // The owner's name on it too, in their colour, like the other trays.
+            font.setColor(zoneLabelColour(s));
+            font.draw(ui, shortName(s.name).toUpperCase() + (s.isYou ? " (YOU)" : ""), p.x - 30, p.y + 19);
             font.setColor(0.92f, 0.74f, 0.42f, 1f);
             font.draw(ui, casts > 0 ? "COMMAND  tax +" + (2 * casts) : "COMMAND", p.x - 30, p.y + 6);
         }

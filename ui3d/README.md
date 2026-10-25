@@ -574,7 +574,7 @@ to know before starting:
       widest row; rows, band slabs, attachments and the seat pad sit on it, the seat frame stays on
       the felt round it. Each seat's plinth is 2 mm higher than the last so overlapping corners
       never flicker.
-- [ ] Make it obvious which battlefield the command zone, exile, graveyard and library belong
+- [x] (done 2026-10-26, Stoneforge: every tray's own label now carries its owner's name in their seat colour, placed by the trays' own helpers - zoneX / new commandX - which the labels had drifted from; board names moved to the middle of the board's inner edge, seated view only) Make it obvious which battlefield the command zone, exile, graveyard and library belong
       to. *(Partly in hand: owner-named zone pads and coloured seat frames are written but not
       yet built — see `CLAIMS.md`. The stacks above should carry the same colour.)*
 - [x] **Overhead hand - done 2026-10-21 (Stoneforge)**: in the overhead pose the hand is a column
