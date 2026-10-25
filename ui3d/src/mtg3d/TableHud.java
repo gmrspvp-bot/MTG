@@ -120,6 +120,7 @@ abstract class TableHud extends TableScene {
         drawLifePops();
         drawTargetBanner(w, h);
         drawStackLabels();
+        drawAbilityOnSources();
         ui.end();
         // Outside the overlay's batch: this one is drawn in the world, on the glass of each
         // screen, so it needs the camera's projection and a batch of its own.
@@ -429,6 +430,38 @@ abstract class TableHud extends TableScene {
     }
 
     static final float STACK_LABEL_W = 160f;
+
+    /**
+     * Which of a permanent's abilities is on the stack, written on the permanent itself (the
+     * owner's list: "highlight the source card on the battlefield, and the specific ability on
+     * it"). The card already glows teal (abilitySourceIds); this names the ability over it, in
+     * the same teal and the same words as the label under the stack card, so a card with three
+     * abilities says which one. Two of the same card's abilities on the stack stack their lines.
+     * Inside the overlay batch; the text is shadowed rather than boxed, since the batch is open.
+     */
+    void drawAbilityOnSources() {
+        if (snap.stack.isEmpty()) return;
+        java.util.Map<Integer, Integer> shownFor = new java.util.HashMap<>();
+        Vector3 pos = new Vector3();
+        for (Snapshot.CardV s : snap.stack) {
+            if (!s.stackIsAbility || s.stackText == null || s.stackText.isEmpty()) continue;
+            Drawn src = null;
+            for (Drawn d : drawn) if (d.seat != null && d.card != null && d.card.id == s.id) { src = d; break; }
+            if (src == null) continue;                          // not on the battlefield (a hand or graveyard ability)
+            src.inst.transform.getTranslation(pos);
+            Vector3 p = cam.project(new Vector3(pos.x, pos.y + 0.12f, pos.z));
+            if (p.z > 1f) continue;
+            int line = shownFor.merge(s.id, 1, Integer::sum) - 1;
+            java.util.List<String> lines = wrap(abilityOnly(s), 210f);
+            String text = lines.isEmpty() ? "" : lines.get(0) + (lines.size() > 1 ? "..." : "");
+            com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(font, text);
+            float x = p.x - gl.width / 2f, y = p.y + 34f + line * 15f;
+            font.setColor(0f, 0f, 0f, 0.85f);
+            font.draw(ui, text, x + 1.5f, y - 1.5f);
+            font.setColor(0.55f, 0.92f, 0.86f, 1f);            // the ability ribbon's teal
+            font.draw(ui, text, x, y);
+        }
+    }
 
     /** Forge's stack text starts with the card's name ("Name - {T}: ..."); the name is already shown. */
     static String abilityOnly(Snapshot.CardV c) {

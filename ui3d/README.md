@@ -554,7 +554,9 @@ to know before starting:
       abilities are being chosen between (`TableLayout.abilitySourceIds`, `sourceModel`). Combat,
       targeting and mana-payment slabs still win, as they are what is being decided. Demo: the
       blockers-step stack has a Resplendent Angel activation. *The specific ability on the card*
-      is still open (it would need the ability list drawn on the card itself).
+      was done 2026-10-26 (Stoneforge): `drawAbilityOnSources` writes the ability's own words
+      (cost and effect, as on the stack label) in teal over its source permanent; two abilities
+      of one card on the stack stack their lines.
 - [ ] *(original wording)* Highlight the source card on the battlefield, and the specific ability on it, while that
       ability is on the stack or being chosen.
 
