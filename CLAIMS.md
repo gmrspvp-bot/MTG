@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Forge-window hand-offs: the Pass anyway? check asking the HOST about other players passes; the combat damage split going to Forges window (hosted and joined) | Stoneforge | 2026-10-25 | ConfirmPassHook; Gui3D takeAssignCombatDamage. |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
