@@ -1895,6 +1895,34 @@ public final class AiPatches {
     }
 
     /** Damage AI with Captain America's Throw policy (other damage effects unchanged). */
+    /**
+     * A damage ability that kills an opponent outright is fired at them (the owner's AI list,
+     * 2026-10-23: Rin and Seri's tap ability - damage equal to the Dogs you control - is how the
+     * humans win with that deck; the AI used it, but not reliably as the finisher). Activated,
+     * single-target, non-Captain-throw damage abilities only: when the damage it would deal now
+     * is at least an opponent's life and it can target them, it is aimed at the lowest-life such
+     * opponent and played - unless the kill-sparing rule says that player is worth keeping
+     * (HumanHooks.leaderToFear). Logged "SHOTAI ...". -Dforge.ai.lethalshot=false turns it off.
+     */
+    static final boolean LETHAL_SHOT = !"false".equalsIgnoreCase(System.getProperty("forge.ai.lethalshot", "true"));
+
+    static String lethalShot(Player ai, SpellAbility sa) {
+        if (!LETHAL_SHOT || sa.isSpell() || !sa.isActivatedAbility() || !sa.usesTargeting() || sa.isDividedAsYouChoose()) return null;
+        int dmg;
+        try { dmg = CaptainPolicy.totalDamage(sa); } catch (Throwable t) { return null; }
+        if (dmg <= 0) return null;
+        Player target = null;
+        for (Player opp : ai.getOpponents()) {
+            if (opp.hasLost() || opp.getLife() > dmg || !opp.canLoseLife() || !sa.canTarget(opp)) continue;
+            if (HumanHooks.leaderToFear(ai, opp) != null) continue;
+            if (target == null || opp.getLife() < target.getLife()) target = opp;
+        }
+        if (target == null) return null;
+        sa.resetTargets();
+        sa.getTargets().add(target);
+        return dmg + " damage at " + target.getName() + " on " + target.getLife() + " life - lethal";
+    }
+
     public static class ThrowAwareDamageAi extends forge.ai.ability.DamageDealAi {
         @Override
         protected forge.ai.AiAbilityDecision canPlay(Player ai, SpellAbility sa) {
@@ -1915,6 +1943,13 @@ public final class AiPatches {
                     }
                 }
                 return d;
+            }
+            if (!CaptainPolicy.isThrow(sa)) {
+                String shot = lethalShot(ai, sa);
+                if (shot != null) {
+                    System.out.println("SHOTAI " + sa.getHostCard().getName() + ": " + shot);
+                    return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+                }
             }
             if (!CaptainPolicy.enabled || !CaptainPolicy.isThrow(sa)) return d;
             boolean forgeWilling = d.willingToPlay();

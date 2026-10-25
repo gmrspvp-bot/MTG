@@ -20,8 +20,8 @@ an arm; the owner's PC runs 6 at a time at most). Put the result in the commit m
       roll - which is the official ruling, so this would be a house rule like the ignored-dice
       one: `DiceIgnoreHook` / the RollDice replacement, a switch, a note in `CARD-MECHANICS.md`.
       Only if the owner wants it.
-- [ ] **Rin and Seri: lethal shot.** The AI should use Rin and Seri's tap ability whenever the
-      damage (Cats it controls) kills a player. Per round the AI already uses it nearly as often
+- [x] **Rin and Seri: lethal shot.** (done 2026-10-26, Stoneforge, general: any activated single-target damage ability that would kill an opponent now fires at them - lowest life first, unless the kill-sparing rule says keep them. `AiPatches.lethalShot`, SHOTAI log, -Dforge.ai.lethalshot=false. Test LethalShotProbe: Rin and Seri + 5 Dogs = 6 at a player on 4 - shot; on 9 - none. Note: Rin and Seri's damage counts DOGS, its lifegain Cats.) The AI should use Rin and Seri's tap ability whenever the
+      damage (Dogs it controls) kills a player. Per round the AI already uses it nearly as often
       as the humans (0.44 vs 0.55), so an every-turn rule is not worth it - the AI taps out and
       has no mana for it (the same reason the dice hold did nothing).
 - [ ] **Simulation-only copies of Olivia and Tidus** (owners' agreement first - not our decks):
@@ -42,7 +42,7 @@ an arm; the owner's PC runs 6 at a time at most). Put the result in the commit m
       `HumanHooks.threat()` counts creature power (flyers 1.5x, lifelink extra), +1 per nonland
       permanent, a card-quality score and +8 for a commander - and misses:
       - **life total / who is winning**: Angels on 111 life rated like a player on 20;
-      - **engines** that grow every turn: Rin and Seri (damage = Cats), Mr. House (dice -> Robots),
+      - **engines** that grow every turn: Rin and Seri (damage = Dogs), Mr. House (dice -> Robots),
         Fireweaver / Artillerist pings, lifegain each turn;
       - **the clock**: how many turns each player needs to kill someone (combat through blockers,
         commander damage, drain per turn) - what humans read first;
