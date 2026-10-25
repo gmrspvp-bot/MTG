@@ -408,12 +408,14 @@ abstract class TableHud extends TableScene {
         Vector3 w = rotateY(0f, ROW_CREATURES - 1.45f, seatAngle(active, snap.seats.size()));
         Vector3 p = cam.project(new Vector3(w.x, 0.05f, w.z));
         if (p.z > 1f) return;
-        fontBig.setColor(1f, 0.82f, 0.32f, 0.92f);
+        // The normal font, a little see-through: in the big font it ran across the active player's
+        // creatures and hid them (the owner, 2026-10-25).
+        font.setColor(1f, 0.82f, 0.32f, 0.80f);
         // Day or night rides along with the phase: both are "what time is it" at the table.
         String text = snap.dayNight.isEmpty() ? snap.phase
             : snap.phase + "   " + (snap.dayNight.equals("DAY") ? "- day -" : "- night -");
-        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(fontBig, text);
-        fontBig.draw(ui, gl, p.x - gl.width / 2f, p.y + gl.height / 2f);
+        com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout(font, text);
+        font.draw(ui, gl, p.x - gl.width / 2f, p.y + gl.height / 2f);
     }
 
     /** Who cast what, under each item on the stack, plus a marker on the one resolving next. */
