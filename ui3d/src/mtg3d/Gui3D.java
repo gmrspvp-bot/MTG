@@ -481,15 +481,24 @@ public final class Gui3D implements InvocationHandler {
      *         back): the caller then asks with its own box, as before.
      */
     public static Boolean askYesNo(String question, String yes, String no) {
-        if (!active() || !Handoff.windowResponsive() || pending != null) return null;
+        // Why it could not, kept for the caller's log: the owner's hosted games of 2026-10-22..24
+        // sent seven of these to Forge's window with nothing to say which of these it was.
+        if (!active()) { lastAskRefusal = "no game wired to the 3D table"; return null; }
+        if (!Handoff.windowResponsive()) { lastAskRefusal = "the 3D window had not drawn for 2 s"; return null; }
+        if (pending != null) { lastAskRefusal = "another question was already open"; return null; }
         Handoff<Boolean> h = Handoff.start("ask: " + question);
         pending = new Ask(question, "", yes, no, h);
         try {
-            return h.awaitOr(() -> null);
+            Boolean r = h.awaitOr(() -> null);
+            if (r == null) lastAskRefusal = "the 3D window stopped answering while asking";
+            return r;
         } finally {
             pending = null;
         }
     }
+
+    /** Why the last askYesNo returned null. */
+    public static volatile String lastAskRefusal = "";
 
     /** Answer it from the render thread. Ignored if it has already been settled by a handoff. */
     public static void answerAsk(boolean yes) {
@@ -2229,9 +2238,12 @@ public final class Gui3D implements InvocationHandler {
      * risk the damage being lost.
      */
     private Object takeDamage(Object[] args) {
+        // Every way out to Forge's window says why (DAMAGE3D in the console): one went there on
+        // 2026-10-24 with nothing to say which it was.
         try {
-            if (args.length < 4) return NOT_HANDLED;
-            if (!(args[0] instanceof CardView) || !(args[1] instanceof java.util.List) || !(args[2] instanceof Integer)) return NOT_HANDLED;
+            if (args.length < 4) return damageDeclined("only " + args.length + " arguments");
+            if (!(args[0] instanceof CardView) || !(args[1] instanceof java.util.List) || !(args[2] instanceof Integer))
+                return damageDeclined("unexpected argument types " + java.util.Arrays.toString(classNames(args)));
             // Trample (2026-10-21): Forge passes the defender, and its own dialog
             // (VAssignCombatDamage.getDamageMap, read in the jar) returns the defender's share
             // under the NULL key - a damage target with no card. Answered the same way here.
@@ -2239,7 +2251,7 @@ public final class Gui3D implements InvocationHandler {
             CardView att = (CardView) args[0];
             java.util.List<CardView> views = new ArrayList<>();
             for (Object o : (java.util.List<?>) args[1]) if (o instanceof CardView) views.add((CardView) o);
-            if (views.isEmpty()) return NOT_HANDLED;
+            if (views.isEmpty()) return damageDeclined("no blockers to split between");
             int dmg = (Integer) args[2];
             boolean deathtouch = false;
             try { deathtouch = att.getCurrentState().hasDeathtouch(); } catch (Throwable ignored) { }
@@ -2262,11 +2274,16 @@ public final class Gui3D implements InvocationHandler {
                 damageAsk = null;
             }
             int n = views.size();
-            if (out == null || out.length != n + (trample ? 1 : 0)) return NOT_HANDLED;
+            if (out == null) return damageDeclined("the panel was closed without an answer");
+            if (out.length != n + (trample ? 1 : 0))
+                return damageDeclined("answer had " + out.length + " entries for " + n + " blocker(s)" + (trample ? " + player" : ""));
             // Trample's rule: nothing to the player until every blocker has lethal. Forge's dialog
             // enforces it; a split that breaks it goes back to that dialog rather than to the game.
             if (trample && out[n] > 0) {
-                for (int i = 0; i < n; i++) if (out[i] < lethal[i]) return NOT_HANDLED;
+                for (int i = 0; i < n; i++) {
+                    if (out[i] < lethal[i]) return damageDeclined("the split sent damage to the player before blocker "
+                        + (i + 1) + " had lethal (" + out[i] + " of " + lethal[i] + ")");
+                }
             }
             java.util.Map<CardView, Integer> map = new java.util.LinkedHashMap<>();
             for (int i = 0; i < n; i++) map.put(views.get(i), out[i]);
@@ -2274,8 +2291,19 @@ public final class Gui3D implements InvocationHandler {
             return map;
         } catch (Throwable t) {
             damageAsk = null;
-            return NOT_HANDLED;
+            return damageDeclined("error: " + t);
         }
+    }
+
+    private static Object damageDeclined(String why) {
+        System.out.println("DAMAGE3D: combat damage went to Forge's window - " + why);
+        return NOT_HANDLED;
+    }
+
+    private static String[] classNames(Object[] args) {
+        String[] out = new String[args.length];
+        for (int i = 0; i < args.length; i++) out[i] = args[i] == null ? "null" : args[i].getClass().getSimpleName();
+        return out;
     }
 
     // ---- game-level actions from the 3D window ------------------------------------------------------

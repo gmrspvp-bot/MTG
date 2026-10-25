@@ -116,18 +116,35 @@ public final class ConfirmPassHook {
      * PRIMARY monitor, so after moving the game to a second screen it kept opening back on
      * the main one.
      */
+    static final long ASK_WAIT_MS = 3_000L;
+
     static boolean confirm(String text) {
         // With the 3D table on, ask there (mtg3d.Gui3D.askYesNo, by reflection so this class
         // needs nothing from ui3d): Forge's window may be minimised, and a box parented to it
         // would not show at all - a modal nobody can see. Null = the 3D window could not ask.
+        //
+        // When the 3D table cannot ask at that moment it is tried again for up to 3 s, and if it
+        // still cannot, the pass goes ahead unasked (logged "PASSCHECK"). It used to pop Forge's
+        // own window instead, mid-game, over the 3D table: seven times in the owner's hosted
+        // games of 2026-10-22..24, every one on another player's turn - the counterspell
+        // reminder - with the 3D table briefly unable to take the question.
         if ("true".equals(System.getProperty("forge.ui3d"))) {
             try {
-                Object r = Class.forName("mtg3d.Gui3D").getMethod("askYesNo", String.class, String.class, String.class)
-                    .invoke(null, text.replace("\n\n", "  ").replace('\n', ' '), "Yes, pass", "No");
-                if (r instanceof Boolean) return (Boolean) r;
-                Class.forName("mtg3d.ForgeWindow").getMethod("restore", String.class).invoke(null, "a pass confirmation");
+                Class<?> g = Class.forName("mtg3d.Gui3D");
+                java.lang.reflect.Method askYesNo = g.getMethod("askYesNo", String.class, String.class, String.class);
+                String q = text.replace("\n\n", "  ").replace('\n', ' ');
+                long until = System.currentTimeMillis() + ASK_WAIT_MS;
+                while (true) {
+                    Object r = askYesNo.invoke(null, q, "Yes, pass", "No");
+                    if (r instanceof Boolean) return (Boolean) r;
+                    if (System.currentTimeMillis() >= until) break;
+                    Thread.sleep(150);
+                }
+                System.out.println("PASSCHECK: the 3D table could not ask (" + g.getField("lastAskRefusal").get(null)
+                    + ") - passed without asking: " + q);
+                return true;
             } catch (Throwable t) {
-                // fall through to Forge's own box
+                // the 3D classes are missing: fall through to Forge's own box
             }
         }
         final boolean[] yes = { true };

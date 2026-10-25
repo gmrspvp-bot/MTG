@@ -159,6 +159,11 @@ public final class DamagePanel {
         font.setColor(0.70f, 0.80f, 0.88f, t);
         font.draw(ui, "Lethal damage to each blocker, in order, before the next." + (trample ? "  Trample: the rest may go to the player." : ""),
             px + 22f, py + ph - 48f);
+        if (System.currentTimeMillis() < escNagUntil) {
+            font.setColor(1f, 0.70f, 0.40f, t);
+            font.draw(ui, "Combat damage has to be assigned - A splits it for you, ENTER confirms (H gives it to Forge).",
+                px + 22f, py + ph - 66f);
+        }
         drawCard(ui, font, attacker, px + 40f, cardY, t);
         fontBig.setColor(1f, 0.70f, 0.45f, t);
         fontBig.draw(ui, power + " damage", px + 40f, cardY - 16f);
@@ -215,7 +220,11 @@ public final class DamagePanel {
         }
         autoHover = mx >= px + 22f && mx <= px + 132f && my >= py + 20f && my <= py + 56f;
         okHover = mx >= px + pw - 150f && mx <= px + pw - 22f && my >= py + 20f && my <= py + 56f;
-        if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
+        // ESC used to close the panel unanswered, which sends the question to Forge's own window -
+        // and combat damage cannot be cancelled, so all it did was pop that window up mid-game
+        // (the owner's hosted game of 2026-10-24, the damage step: Forge's window within the
+        // second). It only reminds now; H still hands the decision to Forge on purpose.
+        if (Keys3D.just(Input.Keys.ESCAPE)) { escNagUntil = System.currentTimeMillis() + 2500L; return; }
         if (Keys3D.just(Input.Keys.A)) auto();
         if (Keys3D.just(Input.Keys.ENTER) && remaining() == 0) { finish(false); return; }
         boolean touch = Pad.touch();
@@ -231,6 +240,9 @@ public final class DamagePanel {
             else if (share[hoverMinus] > 0) share[hoverMinus]--;
         }
     }
+
+    /** Until when the "damage has to be assigned" reminder shows, after ESC. */
+    private long escNagUntil;
 
     private void finish(boolean cancelled) {
         closing = true;

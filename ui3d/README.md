@@ -441,14 +441,14 @@ running, so they appear without a restart.
 
 From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at the repo root.
 
-- [ ] **Joined games: "Pass anyway?" opens Forge's window.** `ConfirmPassHook` asks
+- [x] **"Pass anyway?" opened Forge's window** (fixed 2026-10-25, Stoneforge: it was the owner's OWN passes in games he hosted, the counterspell reminder on other players' turns, while the 3D table briefly could not ask; it now waits up to 3 s, then passes unasked with a PASSCHECK log line saying why - never Forge's window. The old note below, blaming joined games, was wrong.) `ConfirmPassHook` asks
       `Gui3D.askYesNo` and falls back to Forge's window when that returns nothing - which it does
       in a joined game, because the 3D question goes through the local `PlayerControllerHuman`
       and a joined game has only the network controller. Four pop-ups in the owner's joined game
       of 2026-10-22 17:41. Fix: give `askYesNo` the joined-game path the clicks already use
       (`remoteClick`), so the question shows in 3D and the answer returns to the hook. Test: a
       probe in remote mode, plus `Ui3dRemoteTest`.
-- [ ] **Joined games: splitting combat damage between blockers opens Forge's window.** The host
+- [ ] **Splitting combat damage opens Forge's window - hosted AND joined games** (2026-10-24 01:35, the owner's own Captain America attack, one blocker, trample). Partly done 2026-10-25: ESC no longer closes the damage panel unanswered (which sent it to Forge), and every way out now logs `DAMAGE3D: ... - <why>`; the next occurrence will say which. Original note: The host
       sends `assignCombatDamage` over the network and it arrives in a shape `takeAssignCombatDamage`
       does not accept ("shape not taken" in the console, same game). Fix: log the exact argument
       shape that arrives in a joined game, accept it, fill anything missing (e.g. the defender)
