@@ -168,6 +168,13 @@ public final class Snapshot {
          */
         public final List<CardV> graveyard = new ArrayList<>();
         public final List<CardV> exile = new ArrayList<>();
+        /**
+         * This player's hand, face up - only once the player at this client is out (the owner's list:
+         * "when a player dies, make every remaining hand public knowledge to them"). A house rule,
+         * and the one place the 3D table shows more than Forge would. Empty otherwise, and always
+         * in a joined game, where the host never sends hidden cards.
+         */
+        public final List<CardV> revealedHand = new ArrayList<>();
     }
 
     public final List<SeatV> seats = new ArrayList<>();

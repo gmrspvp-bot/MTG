@@ -627,7 +627,7 @@ to know before starting:
 
 **Revealing hands when a player is out** *(attended — needs care)*
 
-- [ ] When a player dies, make every remaining hand public knowledge **to them**.
+- [x] When a player dies, make every remaining hand public knowledge **to them**. (done 2026-10-26, Stoneforge: once the player at this client is out, StateReader reads every remaining hand into SeatV.revealedHand and the table lays them face up, turned to face them, as real cards to point at. In games they host or play against the AI; a joined game cannot, the host never sends hidden cards. Demo: -Dforge.ui3d.demoLost=Xenil.)
 
 > This is the one item that cuts against *Hidden information* above. The rule is that another
 > player's hand is never put into the `Snapshot` at all, which is what makes a leak impossible

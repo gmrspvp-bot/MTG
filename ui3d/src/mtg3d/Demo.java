@@ -45,9 +45,23 @@ public final class Demo {
         String startPhase = System.getProperty("forge.ui3d.demoPhase");
         if (startPhase != null) state[0] = Math.max(0, java.util.Arrays.asList(phases).indexOf(startPhase));
         String lostName = System.getProperty("forge.ui3d.demoLost");
+        boolean youOut = false;
         for (Snapshot.SeatV v : s.seats) {
             if (v.name.equals(lostName)) {
                 v.lost = true; v.life = 0; v.creatures.clear(); v.others.clear(); v.lands.clear(); v.command.clear();
+                if (v.isYou) youOut = true;
+            }
+        }
+        // You out: everyone else's hand shown face up, as StateReader does in a real game.
+        if (youOut) {
+            int rid = 9500;
+            for (Snapshot.SeatV v : s.seats) {
+                if (v.isYou || v.lost) continue;
+                for (int k = 0; k < Math.max(1, v.handSize); k++) {
+                    Snapshot.CardV h = card(rid++, k % 2 == 0 ? "Swords to Plowshares" : "Lightning Bolt", "Instant", false, false,
+                        k % 2 == 0 ? "{W}" : "{R}", "");
+                    v.revealedHand.add(h);
+                }
             }
         }
         final String responding = System.getProperty("forge.ui3d.demoResponding");

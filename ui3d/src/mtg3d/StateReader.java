@@ -147,6 +147,8 @@ public final class StateReader {
 
             readCombat(gv, viewer, order, s);
 
+            boolean viewerOut = false;
+            try { viewerOut = viewer != null && viewer.getHasLost(); } catch (Throwable ignored) { }
             for (PlayerView pv : order) {
                 Snapshot.SeatV seat = new Snapshot.SeatV();
                 seat.name = pv.getName();
@@ -198,6 +200,15 @@ public final class StateReader {
                 // card most recently put there is what a player looks for first.
                 for (CardView cv : cards(pv, ZoneType.Graveyard)) seat.graveyard.add(0, card(cv, viewer, true));
                 for (CardView cv : cards(pv, ZoneType.Exile)) seat.exile.add(0, card(cv, viewer, true));
+                // Once the player at this client is out, everyone else's hand is shown to them
+                // (the owner's house rule - see SeatV.revealedHand). A card the view layer has no
+                // face for (a joined game: the host never sends hidden cards) is left as a back.
+                if (viewerOut && !seat.isYou && !seat.lost) {
+                    for (CardView cv : cards(pv, ZoneType.Hand)) {
+                        Snapshot.CardV v = card(cv, viewer, true);
+                        if (!v.faceDown && v.name != null && !v.name.isEmpty()) seat.revealedHand.add(v);
+                    }
+                }
                 s.seats.add(seat);
             }
 

@@ -941,6 +941,21 @@ abstract class TableLayout extends TableCamera {
         for (int i = 0; i < n; i++) {
             if (i == you) continue;
             Snapshot.SeatV seat = snap.seats.get(i);
+            // Out of the game: their hand face up, flat and turned to face us, each a real card
+            // to point at (SeatV.revealedHand - the owner's house rule).
+            if (!seat.revealedHand.isEmpty()) {
+                float angle = seatAngle(i, n);
+                float yawYou = (float) Math.toDegrees(-seatAngle(Math.max(0, you), n));
+                int k = Math.min(seat.revealedHand.size(), 12);
+                float step = CARD_W * 1.05f;
+                float width = k * step;
+                for (int j = 0; j < k; j++) {
+                    float along = -width / 2f + j * step + step / 2f;
+                    Vector3 w = rotateY(along, SEAT_DIST + 3.4f, angle);
+                    add(seat.revealedHand.get(j), seat, w.x, 0.30f, w.z, yawYou, 0f);
+                }
+                continue;
+            }
             int shown = Math.min(seat.handSize, 12);     // a big hand stops growing the fan
             if (shown <= 0) continue;
             float angle = seatAngle(i, n);
