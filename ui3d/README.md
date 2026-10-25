@@ -474,7 +474,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       EvalCacheAgent hook on `ImageCache.scaleImage` that skips sizes under 3x3 (returns no image
       for that frame) instead of throwing; or restore the window at its real size before Forge
       lays it out.
-- [ ] **Card pictures on demand.** A card or token with no cached picture should ask Forge's own
+- [x] **Card pictures on demand.** (on-demand part done 2026-10-26, Stoneforge: `CardArt.fetchSoon` asks Forge's own `ImageFetcher` for any card or token with no picture, once per key; `PictureFetchProbe` fetched two uncached Cat tokens from Scryfall into Forge's cache and the table found them. The launch pre-download was left out - on-demand covers every card within seconds of its first appearance.) A card or token with no cached picture should ask Forge's own
       downloader (its image key, as Forge's window does) when it first appears on the table, so
       any card from any deck - friends' decks in joined games, Clown Robots, Balloons - gets its
       picture within seconds, in Forge's own folders. Plus a quick pre-download of the decks'

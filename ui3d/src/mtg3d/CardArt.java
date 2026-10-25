@@ -240,7 +240,7 @@ public final class CardArt {
         if (t != null) { lastUsed.put(k, frame); return t; }
 
         File f = keyed != null ? keyed : fileFor(card.name);
-        if (f == null) rescanSoon();
+        if (f == null) { rescanSoon(); fetchSoon(card.imageKey); }
         if (f == null) {
             // No picture cached. Rather than leave a blank block - which is every basic land, and
             // most of the table - draw a readable face from what we know about the card. Keyed on
@@ -295,6 +295,47 @@ public final class CardArt {
 
     private final Map<String, File> byKey = new ConcurrentHashMap<>();
     private final Map<String, Long> keyMissAt = new ConcurrentHashMap<>();
+
+    /**
+     * A card or token on the table with no picture anywhere asks Forge's own downloader for it -
+     * the way Forge's window does when it shows a card, which the 3D table's minimised Forge
+     * window never gets the chance to (the owner, 2026-10-22: a friend's deck in a joined game,
+     * Clown Robots, Balloons - all drawn stand-ins). Once per picture key per session; Forge
+     * queues the downloads itself and saves them where it keeps its own, so Forge's window gets
+     * them too. When one arrives its miss is forgotten and the name index rescans, so the next
+     * frame finds it. Forge's fetcher must be called on the Swing thread. Without Forge (the
+     * demo) the call fails quietly and nothing changes. -Dforge.ui3d.fetchpics=false turns it off.
+     */
+    void fetchSoon(final String imageKey) {
+        if (!FETCH || imageKey == null || imageKey.isEmpty() || fetchAsked.size() >= MAX_FETCH) return;
+        if (!fetchAsked.add(imageKey)) return;
+        try {
+            javax.swing.SwingUtilities.invokeLater(() -> {
+                try {
+                    forge.util.ImageFetcher fetcher = forge.gui.GuiBase.getInterface().getImageFetcher();
+                    if (fetcher == null) return;
+                    fetcher.fetchImage(imageKey, () -> {
+                        keyMissAt.remove(imageKey);
+                        lastRescan = 0L;                       // let the next miss rescan straight away
+                        fetched.incrementAndGet();
+                    });
+                } catch (Throwable ignored) {
+                    // no Forge (demo), or Forge cannot fetch this one: the drawn face stays
+                }
+            });
+        } catch (Throwable ignored) {
+            // no Swing at all
+        }
+    }
+
+    static final boolean FETCH = !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.fetchpics", "true"));
+    /** A sanity cap: a whole table of new cards is a few hundred keys. */
+    static final int MAX_FETCH = 1500;
+    private final java.util.Set<String> fetchAsked = ConcurrentHashMap.newKeySet();
+    private final java.util.concurrent.atomic.AtomicInteger fetched = new java.util.concurrent.atomic.AtomicInteger();
+
+    /** How many pictures Forge has fetched for the table this session (the bug report shows it). */
+    public int picturesFetched() { return fetched.get(); }
 
     /** Decodes or draws on a worker thread, once per key; the Texture is made later, on the GL thread. */
     private void queue(final String k, final java.util.function.Supplier<Pixmap> source) {
