@@ -466,6 +466,7 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       behind the "Network encode error for Dominic ... setHighlighted" (ArrayIndexOutOfBounds),
       a NoSuchElementException in a Guava table iterator, and the "null activated" NPEs in
       GameLogFormatter / NetworkGameEventListener. One hook should stop the whole family.
+- [x] **Dividing an amount among targets that include a player went to Forge's window** (joined game 2026-10-22 01:28; fixed 2026-10-26, Stoneforge): `takeGenericAmount` handed any player target to Forge on purpose. A player is now a named face in the same panel; every refusal logs `AMOUNT3D: ... - <why>`. Test: a card + player case in `Ui3dTakeoverTest`.
 - [x] **Forge's window throws "Error doing rescale" when it comes back at game end.** (fixed 2026-10-26, Stoneforge: `ImageScaleHook`; reproduced and fixed in `ImageScaleProbe`) Crash-log
       review 2026-10-25: as the 3D table closed after the 2026-10-24 02:17 game, Forge's restored
       window resized its card panels through a 2-3 pixel size, and `ImageCache.scaleImage` threw

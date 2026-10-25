@@ -1356,36 +1356,52 @@ public final class Gui3D implements InvocationHandler {
     private Object takeGenericAmount(Object[] args) {
         try {
             if (args.length < 3 || !(args[1] instanceof java.util.Map) || !(args[2] instanceof Integer)) {
-                return NOT_HANDLED;
+                return amountDeclined("unexpected arguments " + java.util.Arrays.toString(classNames(args)));
             }
             java.util.Map<?, ?> targets = (java.util.Map<?, ?>) args[1];
-            if (targets.isEmpty()) return NOT_HANDLED;
+            if (targets.isEmpty()) return amountDeclined("nothing to split between");
+            // Cards and players both: damage "divided as you choose among any number of targets"
+            // can name a player, and those went to Forge's window (a joined game, 2026-10-22).
+            // A player is shown in the panel as a named face, like a card with no picture.
             java.util.List<Object> keys = new ArrayList<>();
             java.util.List<CardView> views = new ArrayList<>();
+            java.util.List<Snapshot.CardV> shown = new ArrayList<>();
             for (java.util.Map.Entry<?, ?> e : targets.entrySet()) {
-                if (!(e.getKey() instanceof CardView)) return NOT_HANDLED;   // a player: Forge's
-                keys.add(e.getKey());
-                views.add((CardView) e.getKey());
+                Object k = e.getKey();
+                if (k instanceof CardView) {
+                    views.add((CardView) k);
+                    shown.add(describe(k, ((CardView) k).getName()));
+                } else if (k instanceof forge.game.player.PlayerView) {
+                    forge.game.player.PlayerView pv = (forge.game.player.PlayerView) k;
+                    Snapshot.CardV v = describe(null, pv.getName());
+                    v.id = -100000 - pv.getId();              // never a card's id
+                    v.typeLine = "Player";
+                    v.text = pv.getLife() + " life";
+                    shown.add(v);
+                } else {
+                    return amountDeclined("a target of type " + (k == null ? "null" : k.getClass().getSimpleName()));
+                }
+                keys.add(k);
             }
             int amount = (Integer) args[2];
-            if (amount <= 0) return NOT_HANDLED;
-            CardView source = args[0] instanceof CardView ? (CardView) args[0] : views.get(0);
-            java.util.List<Snapshot.CardV> shown = new ArrayList<>();
-            int[] caps = new int[views.size()];
-            for (int i = 0; i < views.size(); i++) {
-                shown.add(describe(views.get(i), views.get(i).getName()));
-                Object cap = targets.get(views.get(i));
+            if (amount <= 0) return amountDeclined("amount " + amount);
+            CardView source = args[0] instanceof CardView ? (CardView) args[0] : views.isEmpty() ? null : views.get(0);
+            int[] caps = new int[keys.size()];
+            for (int i = 0; i < keys.size(); i++) {
+                Object cap = targets.get(keys.get(i));
                 caps[i] = cap instanceof Integer && (Integer) cap > 0 ? (Integer) cap : amount;
             }
             Handoff<int[]> h = Handoff.start("assignGenericAmount: " + amount);
-            damageAsk = new DamageAsk(describe(source, source.getName()), shown, caps, amount, views, h);
+            Snapshot.CardV src = source != null ? describe(source, source.getName()) : describe(null, "Divide " + amount);
+            damageAsk = new DamageAsk(src, shown, caps, amount, views, h);
             int[] split;
             try {
                 split = h.awaitOr(() -> null);
             } finally {
                 damageAsk = null;
             }
-            if (split == null || split.length != keys.size()) return NOT_HANDLED;
+            if (split == null) return amountDeclined("the panel was closed without an answer");
+            if (split.length != keys.size()) return amountDeclined("answer had " + split.length + " entries for " + keys.size());
             java.util.Map<Object, Integer> out = new java.util.HashMap<>();
             for (int i = 0; i < keys.size(); i++) out.put(keys.get(i), split[i]);
             return out;
@@ -2293,6 +2309,11 @@ public final class Gui3D implements InvocationHandler {
             damageAsk = null;
             return damageDeclined("error: " + t);
         }
+    }
+
+    private static Object amountDeclined(String why) {
+        System.out.println("AMOUNT3D: dividing an amount went to Forge's window - " + why);
+        return NOT_HANDLED;
     }
 
     private static Object damageDeclined(String why) {

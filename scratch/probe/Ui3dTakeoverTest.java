@@ -272,6 +272,24 @@ public class Ui3dTakeoverTest {
         r = g.assignGenericAmount(A, targets, 3, false, "counters");
         check("assignGenericAmount: split in 3D", r instanceof java.util.Map && Integer.valueOf(2).equals(((java.util.Map<?, ?>) r).get(B))
             && Integer.valueOf(1).equals(((java.util.Map<?, ?>) r).get(C)) && !forgeAsked.get(), "result=" + r);
+        // 2026-10-26: a player among the targets ("4 damage divided among any number of targets")
+        // used to go to Forge's window. Now the player is in the panel too: 1 to the card, 3 to them.
+        forgeAsked.set(false);
+        final String[] playerShown = { "" };
+        new Thread(() -> {
+            for (int i = 0; i < 300 && mtg3d.Gui3D.pendingDamage() == null; i++) sleep(5);
+            mtg3d.Gui3D.DamageAsk d = mtg3d.Gui3D.pendingDamage();
+            if (d != null && d.blockers.size() > 1) playerShown[0] = d.blockers.get(1).name + " / " + d.blockers.get(1).typeLine;
+            mtg3d.Gui3D.answerDamage(new int[] { 1, 3 });
+        }).start();
+        forge.game.player.PlayerView victim = new forge.game.player.PlayerView(7, null);
+        java.util.Map<Object, Integer> mixed = new java.util.LinkedHashMap<>();
+        mixed.put(B, 4);
+        mixed.put(victim, 4);
+        r = g.assignGenericAmount(A, mixed, 4, false, "damage");
+        check("assignGenericAmount: a player among the targets, in 3D", r instanceof java.util.Map
+            && Integer.valueOf(1).equals(((java.util.Map<?, ?>) r).get(B)) && Integer.valueOf(3).equals(((java.util.Map<?, ?>) r).get(victim))
+            && !forgeAsked.get() && playerShown[0].endsWith("Player"), "result=" + r + " shown=" + playerShown[0]);
 
         System.out.println();
         System.out.println(pass ? "PASS" : "FAIL");
