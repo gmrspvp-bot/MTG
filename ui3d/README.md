@@ -460,6 +460,20 @@ From the games of 2026-10-22. The AI side of the same list is in `AI-TODO.md` at
       what was collected", and the client shows blank names / stale cards ("null activated" in
       the log). Fix: an EvalCacheAgent hook that has `getDelayedPropsFor` read a copy of the list,
       as `ActionableCardsHook` does for the pay-mana race. Only provable in a busy networked game.
+      **Crash-log review 2026-10-25:** the top recurring error. Sync warnings in every networked
+      session (5), the walk gave up 6 times (stale client views), one crash window on the host
+      (2026-10-24 00:29, via the pay-mana highlights being sent to a client), and the same race
+      behind the "Network encode error for Dominic ... setHighlighted" (ArrayIndexOutOfBounds),
+      a NoSuchElementException in a Guava table iterator, and the "null activated" NPEs in
+      GameLogFormatter / NetworkGameEventListener. One hook should stop the whole family.
+- [ ] **Forge's window throws "Error doing rescale" when it comes back at game end.** Crash-log
+      review 2026-10-25: as the 3D table closed after the 2026-10-24 02:17 game, Forge's restored
+      window resized its card panels through a 2-3 pixel size, and `ImageCache.scaleImage` threw
+      32 times on the Swing thread (`CardPanel.componentResized` -> `updateImage`) - the kind of
+      error Forge reports with its crash window. Harmless to the game (it was over). Fix: an
+      EvalCacheAgent hook on `ImageCache.scaleImage` that skips sizes under 3x3 (returns no image
+      for that frame) instead of throwing; or restore the window at its real size before Forge
+      lays it out.
 - [ ] **Card pictures on demand.** A card or token with no cached picture should ask Forge's own
       downloader (its image key, as Forge's window does) when it first appears on the table, so
       any card from any deck - friends' decks in joined games, Clown Robots, Balloons - gets its
