@@ -50,8 +50,13 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   -Decks "Captain America v7,Doom Prevails v3,Mr House v4,Tidus v3" -Games 40 -Parallel 6
 ```
 
-- Current deck versions to run: **Captain America v7, Doom Prevails v3, Mr House v4, Tidus v3,
-  Deadpool v3**, plus the second owner's Angels, Olivia, Scion and Tinybones. Captain America v7
+- Current deck versions to run: **every deck in `decks\`** (owner, 2026-10-26: "add all the other
+  decks as well to the sims") - 18 on that date: Captain America v7, Doom Prevails v3, Mr House v4,
+  Tidus v3, Deadpool v3, Baylen (the owner's), the second owner's Angels, Olivia, Scion and
+  Tinybones, the friends' Alec, Eivor, Eldrazi, Frodo, Rin and Seri, and Claudes Neyali, Caelorna,
+  Caesar. `scratch\league-all.ps1` builds balanced pods of all of them (each round two decks sit
+  out in turn; with 18 decks, 36 pods and every deck in 8) and runs them through run-until.
+  Older notes below name the nine decks used before then. Captain America v7
   became the default on 2026-10-18; on 2026-10-19 10:55 the owner had the first v7 deleted and
   the v8 deck renamed to v7. So "Captain America v7" in results before that moment (e.g. the
   2026-10-19 overnight league, 22.3%) is the **first** v7 (in git history), and "v8" results are
