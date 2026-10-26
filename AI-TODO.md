@@ -56,4 +56,34 @@ an arm; the owner's PC runs 6 at a time at most). Put the result in the commit m
       prefers the leader's key creature. A/B against today's rating with Angels and Rin and Seri
       in the pods, and check the owner's games for the cases above.
 - [ ] **Learn from the new decks once there are more human games:** Baylen, Eldrazi, Frodo, Eivor
-      (added 2026-10-22), the same way as Mr House (`scratch\house-style.ps1`).
+      (added 2026-10-22) - now part of the per-deck routine below (`scripts\deck-style.ps1`).
+
+## Per-deck play styles from human games (since 2026-10-27)
+
+Different decks need to be played differently (owner, 2026-10-26), so the AI should learn each
+deck from the people who play it. Routine, semi-automatic:
+
+1. After games are played, run `scripts\deck-style.ps1`. It compares every deck's recorded human
+   games with its sim games (decks matched by commander) and writes `scratch\deck-style\index.md`
+   (games per deck, how many are new) and one report per deck: a People / AI table, suggestions
+   for the biggest gaps, and per-card notes (cast once affordable, held how long, instant speed,
+   ability use).
+2. Claude reads the reports, drops what is small-sample noise, draws or misplays, and brings the
+   rest to the owner as suggestions.
+3. Only what the owner approves gets built, per deck, with an A/B run before it becomes a default.
+
+Leads from the first run (2026-10-27, 61 recorded games vs ~7,200 sim player-games), unchecked -
+do not build until the owner says:
+- [ ] **All decks: the AI casts most spells after combat** (51-63% of own-turn spells in main 2;
+      people about 11-19%).
+- [ ] **Mr House:** people activate The Deck of Many Things 5.7 times a game it is out, the AI 0.8
+      (Jan Jansen 1.5 vs 0.2, Treasure Chest 1.0 vs 0.3); the AI over-uses Vexing Puzzlebox (4.1
+      vs 1.5). People attack on 19% of their turns with creatures, the AI 50%, but with more
+      creatures when they do (6.5 vs 4.3).
+- [ ] **Captain America:** people hold Swords to Plowshares / Path to Exile for 3-4 turns and
+      cast them on opponents' turns; the AI fires them at once. People attack on 53% of turns
+      with creatures, the AI 81%.
+- [ ] **Angels:** people attack the life leader (53% vs AI 35%) more than the lowest-life player
+      (33% vs AI 51%) and block rarely (10% vs 30%).
+- Decks with fewer than 3 human games (Baylen, Eivor, Frodo, Abzan Siege) are hints only; Alec
+  (Athreos) and Abzan Siege had no sim games in the folders read.

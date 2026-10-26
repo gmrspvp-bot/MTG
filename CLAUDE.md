@@ -153,6 +153,11 @@ ROWS layout, turn-safety prompts) and logs to `scratch\play-logs\`:
 
 `scratch\play-summary.ps1 -Files <log>` prints a turn-by-turn summary of the human's turns.
 
+`scripts\deck-style.ps1` compares every deck's human games with its sim games (matched by
+commander) and writes suggestions to `scratch\deck-style\` (index.md shows new games per deck).
+This is the per-deck learning routine: run it after games, filter noise and misplays, bring the
+rest to the owner, build only what they approve. See `AI-TODO.md`.
+
 In-game helpers for the human:
 - a "YOUR TURN" banner;
 - "Pass anyway?" / "Skip combat anyway?" confirmations;
