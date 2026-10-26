@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Deck-style suggestions: per-deck human-vs-AI comparison from recorded games (scriptsdeck-style.ps1) | Stoneforge | 2026-10-26 09:17 | Reads play-logs + sim results; no Java changes yet |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
