@@ -1158,11 +1158,32 @@ abstract class TableInput extends TableHud {
         if (askResponses || panelOpen() || Gui3D.pendingAsk() != null) return;
         if (me == null || !me.hasPriority) return;
         Gui3D.Prompt p = Gui3D.PROMPT;
-        // Only ever the ordinary pass. Declaring blockers is ALSO a prompt whose button reads "OK",
-        // and pressing it there means "no blocks": the owner died with sixteen untapped creatures
-        // facing a lethal attack because this answered his block step for him (2026-10-22, the
-        // whole step lasted under a second). Discards, sacrifices and the like are the same trap.
-        if (!"InputPassPriority".equals(p.inputName)) return;
+        // Only ever the ordinary pass. Declaring blockers is ALSO a prompt whose button reads
+        // "OK", and pressing it there means "no blocks": the owner died with sixteen untapped
+        // creatures facing a lethal attack because this answered his block step for him
+        // (2026-10-22, the whole step lasted under a second). Discards, sacrifices and the like
+        // are the same trap.
+        //
+        // With the owner's refinement (2026-10-26): a block declaration is only a block
+        // declaration if somebody is actually attacking you. That matters on a CLIENT, where
+        // there is no Input object to name and the window has to guess from the prompt text -
+        // anything with "block" in it during the declare-blockers step reads as InputBlock, so a
+        // plain priority window in that step would have stalled the skip for a player nobody was
+        // attacking. Being attacked is read from the combat itself, not from the words.
+        if ("InputBlock".equals(p.inputName)) {
+            if (attackersAimedAtMe()) {
+                if (!blockHeld) {
+                    blockHeld = true;
+                    toast("Attackers declared against you - skipping is paused",
+                        Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.56f);
+                }
+                return;
+            }
+        } else if (!"InputPassPriority".equals(p.inputName)) {
+            return;
+        } else {
+            blockHeld = false;
+        }
         if (!p.okEnabled) return;
         if (!p.okLabel.isEmpty() && !"OK".equalsIgnoreCase(p.okLabel)) return;   // a named question
         Object token = p.token;
@@ -1263,6 +1284,37 @@ abstract class TableInput extends TableHud {
 
     /** The question we last took the keyboard for, so it is asked for once and not every frame. */
     private Object askFocused;
+
+    /** Said once per combat, not once a frame, when the skip stops for a block declaration. */
+    private boolean blockHeld;
+
+    /**
+     * Is anything in this combat attacking us, or something of ours?
+     *
+     * Read from the combat the game published rather than from the prompt's wording, so it is
+     * the same answer on the host and on a client. A planeswalker or a battle of ours being
+     * attacked counts: those are block declarations too.
+     */
+    boolean attackersAimedAtMe() {
+        int seat = snap.youIndex();
+        if (seat < 0) return false;
+        for (Snapshot.CombatArc a : snap.combatArcs) {
+            if (a.defenderSeat == seat) return true;
+            if (a.defenderCardId >= 0 && onMyBattlefield(a.defenderCardId)) return true;
+        }
+        return false;
+    }
+
+    /** True when that card id is a permanent of ours. */
+    boolean onMyBattlefield(int id) {
+        Snapshot.SeatV me = snap.you();
+        if (me == null) return false;
+        for (java.util.List<Snapshot.CardV> row
+                : java.util.Arrays.asList(me.creatures, me.others, me.lands)) {
+            for (Snapshot.CardV c : row) if (c.id == id) return true;
+        }
+        return false;
+    }
 
     /** Where a card sits in your hand as drawn, or -1 if it is not in it. */
     int handIndexOf(int cardId) {

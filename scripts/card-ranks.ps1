@@ -130,7 +130,9 @@ foreach ($e in ($known.GetEnumerator() | Sort-Object Value)) {
     $lines.Add(('{0}={1}' -f $e.Key, $e.Value))
     $kept++
 }
-Set-Content -Path $out -Value $lines -Encoding UTF8
+# UTF-8 WITHOUT a BOM: Set-Content -Encoding UTF8 writes one in PowerShell 5.1, and this
+# repo's rule is no BOM anywhere. .NET's UTF8Encoding($false) is the one that obeys.
+[System.IO.File]::WriteAllLines($out, $lines, (New-Object System.Text.UTF8Encoding($false)))
 Write-Host ("Looked up {0}, wrote {1} ranked card(s) to {2}" -f $found, $kept, $out) -ForegroundColor Green
 
 # A look at what the table will be lighting up.
