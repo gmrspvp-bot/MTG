@@ -576,6 +576,19 @@ abstract class TableLayout extends TableCamera {
         return DAIS_TILT * (float) Math.cos(seatAngle - orbit);
     }
 
+    /**
+     * Is the game asking this player for something that is answered by picking cards?
+     *
+     * Ordinary priority is not: there you may click anything and Forge judges it, and a board
+     * laid out in piles is easier to read. Everything else is - a cost, a sacrifice, a discard,
+     * a search, a target - and for those a pile is a card you cannot reach.
+     */
+    boolean promptWantsSingleCards() {
+        if (!Gui3D.active()) return false;
+        String in = Gui3D.PROMPT.inputName;
+        return !in.isEmpty() && !"InputPassPriority".equals(in);
+    }
+
     /** -Dforge.ui3d.stack=false lays every permanent in its own slot again. */
     static final boolean STACK_ALIKE =
         !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.stack", "true"));
@@ -596,6 +609,15 @@ abstract class TableLayout extends TableCamera {
         // 2026-10-22). A card Forge is offering gets its own slot, and only while it is being
         // offered - the pile comes back the moment the prompt is answered.
         if (!snap.selectableIds.isEmpty() && snap.selectableIds.contains(c.id)) return false;
+        // And the general form of that rule, because the list above only exists when Forge
+        // publishes one. Olivia wants two Treasures sacrificed as a COST, and a cost is paid
+        // through an input that does not always publish a selectable list - so the Treasures
+        // stayed in one pile and only the top one could be taken (the owner, again, 2026-10-26).
+        //
+        // While the game is asking this player for anything other than ordinary priority,
+        // nothing is piled. A prompt is exactly the moment when every card has to be reachable
+        // on its own, and it lasts seconds; the piles come back as soon as it is answered.
+        if (promptWantsSingleCards()) return false;
         // Targets are chosen the same way, one card at a time, and that list is ours rather than
         // Forge's. So is paying mana: two identical Signets in a pile are one tap, not two.
         if (targeting != null && targeting.legal.contains(c.id)) return false;
@@ -1159,7 +1181,7 @@ abstract class TableLayout extends TableCamera {
                     props.add(bead);
                 }
                 beads.add(new BeadsAt(w.x, w.z,
-                    FIELD_RAISE + BEAD_D / 2f + (show - 1) * BEAD_RISE, count, m));
+                    FIELD_RAISE + BEAD_D / 2f + (show - 1) * BEAD_RISE, count, m, i));
             }
         }
     }

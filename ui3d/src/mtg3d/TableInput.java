@@ -764,6 +764,7 @@ abstract class TableInput extends TableHud {
         // Forge (a real game), every pick is a guarded click Forge judges; in the demo they are local.
         if (combatPlan != null && handleCombatPlan()) return;
         if (manaPlan != null) {
+            if (spentFloatingMana()) return;
             if (Keys3D.just(Input.Keys.ESCAPE)) {
                 if (manaPlan.wired) Gui3D.pressCancel(); else manaPlan = null;
                 return;
@@ -1425,6 +1426,55 @@ abstract class TableInput extends TableHud {
             out.addAll(s.lands);
         }
         return out;
+    }
+
+    /**
+     * Spending the mana already floating in your pool, by clicking its beads.
+     *
+     * The pool has been on the table since the beads went in and there was no way to touch it -
+     * the only thing in the game that could spend floating mana was Forge's own window, so a
+     * player at the 3D table could see mana they could not use (the owner, 2026-10-26). Forge's
+     * own window spends it by clicking a symbol in the pool; this is the same thing, on the
+     * beads.
+     *
+     * Only your own beads, and only while something is actually being paid for. Forge judges
+     * the rest: mana that will not pay this cost is simply refused.
+     */
+    boolean spentFloatingMana() {
+        if (manaPlan == null || !manaPlan.wired || beads.isEmpty()) return false;
+        int me = snap.youIndex();
+        if (me < 0) return false;
+        // A key each, in WUBRGC order, for anyone not using a mouse - and the same six are what
+        // the pad's D-pad and A reach through the pointer.
+        int[] keys = { Input.Keys.NUM_1, Input.Keys.NUM_2, Input.Keys.NUM_3,
+                       Input.Keys.NUM_4, Input.Keys.NUM_5, Input.Keys.NUM_6 };
+        for (int m = 0; m < 6; m++) {
+            if (Keys3D.just(keys[m])) return spend(m);
+        }
+        if (!clickedCard()) return false;
+        float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+        TableBase.BeadsAt best = null;
+        float bestD = 42f;                        // within this many pixels of the stack
+        for (TableBase.BeadsAt b : beads) {
+            if (b.seat != me) continue;
+            com.badlogic.gdx.math.Vector3 p =
+                cam.project(new com.badlogic.gdx.math.Vector3(b.x, b.top, b.z));
+            if (p.z > 1f) continue;
+            float d = (float) Math.hypot(p.x - mx, p.y - my);
+            if (d < bestD) { bestD = d; best = b; }
+        }
+        if (best == null) return false;
+        return spend(best.colour);
+    }
+
+    /** Ask Forge to spend one floating mana of WUBRGC index `m`, and say so. */
+    private boolean spend(int m) {
+        Snapshot.SeatV me = snap.you();
+        if (me == null || m < 0 || m >= me.mana.length || me.mana[m] <= 0) return false;
+        if (!Gui3D.useMana(forge.card.MagicColor.WUBRGC[m])) return false;
+        toast("Spent " + TableHud.MANA_LETTERS[m] + " from your pool",
+            Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.30f);
+        return true;
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */

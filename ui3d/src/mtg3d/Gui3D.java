@@ -734,6 +734,31 @@ public final class Gui3D implements InvocationHandler {
         return true;
     }
 
+    /**
+     * Spend one floating mana of a colour, the way clicking a symbol in Forge's own mana pool
+     * does.
+     *
+     * The pool has been drawn on the table as beads since 2026-10-22 and there was no way to
+     * touch it: the only thing that could spend floating mana was Forge's own window, so a
+     * player in the 3D table had mana they could see and not use (the owner, 2026-10-26).
+     *
+     * `colour` is one of forge.card.MagicColor's WUBRGC bytes. Forge judges it: asking to spend
+     * mana that is not there, or at a moment when nothing is being paid for, is simply refused.
+     */
+    public static boolean useMana(final byte colour) {
+        if (remote != null) return remoteClick(r -> r.useMana(colour));
+        final forge.player.PlayerControllerHuman c = controller;
+        if (c == null) return false;
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            try {
+                c.useMana(colour);
+            } catch (Throwable t) {
+                System.out.println("UI3D: could not spend that mana (" + t + ")");
+            }
+        });
+        return true;
+    }
+
     public static boolean clickCard(int cardId) {
         if (remote != null) {
             CardView rc = selectableViews.get(cardId);

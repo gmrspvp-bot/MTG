@@ -29,6 +29,7 @@ public final class HelpCard {
         { "N  or  ->", "next phase (also cancels an auto-pass)" },
         { "X", "end turn - passes everything left in the turn" },
         { "click a card", "play it, activate it, or pick it as a target" },
+        { "1 - 6", "paying mana: spend floating W U B R G C - or click its bead" },
         { "drag a pile", "attacking: the whole pile goes - hold SHIFT to send just one" },
         { "blocking", "click an attacker (or <- ->), then click each creature to block it" },
         { "hover a card", "see it large, with counters and what it is attached to" },

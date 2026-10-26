@@ -587,9 +587,10 @@ abstract class TableBase extends ApplicationAdapter {
     /** Where a seat's bead stacks ended up, for the count over a tall one. */
     static final class BeadsAt {
         final float x, z, top;
-        final int count, colour;
-        BeadsAt(float x, float z, float top, int count, int colour) {
-            this.x = x; this.z = z; this.top = top; this.count = count; this.colour = colour;
+        final int count, colour, seat;
+        BeadsAt(float x, float z, float top, int count, int colour, int seat) {
+            this.x = x; this.z = z; this.top = top;
+            this.count = count; this.colour = colour; this.seat = seat;
         }
     }
 

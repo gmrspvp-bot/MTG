@@ -1375,7 +1375,14 @@ abstract class TableHud extends TableScene {
             c = new Color(1f, 0.50f, 0.42f, 1f);
         } else if (manaPlan != null && manaPlan.wired) {
             line = "Pay mana";
-            sub = manaPlan.cost + "   -   click a glowing land or mana source   -   ESC cancels";
+            // Say the pool is spendable only when there is something in it, so the line does not
+            // offer a thing that would do nothing.
+            Snapshot.SeatV mine = snap.you();
+            int floating = 0;
+            if (mine != null) for (int v : mine.mana) floating += v;
+            sub = manaPlan.cost + "   -   click a glowing land or mana source"
+                + (floating > 0 ? "   -   or a bead to spend floating mana (1-6)" : "")
+                + "   -   ESC cancels";
             c = new Color(0.60f, 0.92f, 0.62f, 1f);
         } else if (targeting != null) {
             line = "Choose " + (targeting.max == 1 ? "a " : targeting.max + " ") + targeting.what
