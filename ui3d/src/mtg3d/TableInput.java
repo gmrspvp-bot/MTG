@@ -35,8 +35,9 @@ abstract class TableInput extends TableHud {
      * animation and the grid can be exercised before stage 3 has anything real to search.
      */
     /**
-     * The ESC menu, built on OptionPanel. The toggles act at once and reopen the menu so their new
-     * state shows; concede and undo are listed but not wired to Forge yet (attended work), and say so.
+     * The ESC menu, built on OptionPanel. The toggles act at once and reopen the menu so their
+     * new state shows. Concede and undo ARE wired - they have been since the controller went in,
+     * and the note here saying otherwise outlived that by some weeks (corrected 2026-10-26).
      */
     void openMenu() {
         List<OptionPanel.Option> o = new ArrayList<>();
@@ -842,6 +843,17 @@ abstract class TableInput extends TableHud {
             openSamplePanel(OPEN_PANEL.trim().toLowerCase());
             return;
         }
+        // V puts a question aside so the board can be read, and brings it back. Checked
+        // before everything else so it works from inside a panel as well as from the table.
+        if (Keys3D.just(Input.Keys.V) || Pad.justAs(Input.Keys.DOWN)) {
+            if (peeking) {
+                peeking = false;
+            } else if (panelUp()) {
+                peeking = true;
+                toast("Looking at the board - V brings the question back",
+                    Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
+            }
+        }
         if (handArranging()) return;
         // SPACE passes priority / confirms, from here rather than from Forge's window. Only when
         // a game is actually running: in the demo nothing is installed and SPACE still steps the
@@ -1516,6 +1528,10 @@ abstract class TableInput extends TableHud {
         boolean justDown = down && !leftWasDownBoard;
         leftWasDownBoard = down;
         if (!justDown) return false;
+        // Put aside, not answered: the board is readable and nothing on it is clickable. A stray
+        // click reaching the game through a panel that is not on screen would be worse than the
+        // problem this solves.
+        if (peeking) return false;
         float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
         // The panel owns its own clicks; a click on the tickbox must not also cast a card behind it.
         return !(mx >= PP_X && mx <= PP_X + PP_W && my >= Gdx.graphics.getHeight() - 14f - panelHeight());

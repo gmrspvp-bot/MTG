@@ -69,7 +69,8 @@ public final class HelpCard {
         { "", "OTHER" },
         { "L", "hide the game log    -    M  sound" },
         { "H", "hand the current decision back to Forge's window" },
-        { "ESC", "close a panel, or open the menu" },
+        { "V", "put a question aside to look at the board; V brings it back" },
+        { "ESC", "close a panel, or open the menu - concede and undo live there" },
         { "the red cog", "report a bug - the board state is attached for you" },
     };
 

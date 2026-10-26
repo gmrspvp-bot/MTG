@@ -36,6 +36,7 @@ abstract class TableHud extends TableScene {
     void drawOverlay() {
         int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
+        beatClock += frameDt;
         noticeChanges();
 
         drawCardBadges(flat);
@@ -125,6 +126,7 @@ abstract class TableHud extends TableScene {
         // Outside the overlay's batch: this one is drawn in the world, on the glass of each
         // screen, so it needs the camera's projection and a batch of its own.
         drawCentreTracker();
+        drawPutAside(w, h);
         if (yourTurnAge >= 0f) drawYourTurn(w, h, flat);
         if (turnBannerAge >= 0f) drawTurnBanner(w, h, flat);
         if (phaseBannerAge >= 0f) drawPhaseBanner(w, h, flat);
@@ -666,7 +668,7 @@ abstract class TableHud extends TableScene {
      */
     void drawPendingAsk(int w, int h) {
         Gui3D.Ask ask = Gui3D.pendingAsk();
-        if (ask == null) return;
+        if (ask == null || peeking) return;      // put aside: the badge says it is still waiting
         // Measured, not guessed. The box was a fixed 150 high, and a question like "you are about
         // to end your turn, but 2 untapped mana and cards you could cast (...). Pass anyway?"
         // wraps to three lines and ran out of the bottom over the answers.
@@ -1727,6 +1729,54 @@ abstract class TableHud extends TableScene {
         ui.end();
         font.getData().setScale(1f);
     }
+
+    /**
+     * The badge that flashes while a question has been put aside to look at the board.
+     *
+     * It has to be impossible to forget. A panel that can be dismissed without being answered is
+     * a game that quietly stops, and the player who put it aside is the only one who knows why -
+     * so this pulses, names what is waiting, and says how to get back to it.
+     *
+     * Drawn after everything else, in its own batch, like the question box it stands in for.
+     */
+    void drawPutAside(int w, int h) {
+        if (!peeking) return;
+        Gui3D.Ask ask = Gui3D.pendingAsk();
+        String what = ask != null && !ask.cardName.isEmpty() ? ask.cardName
+            : ask != null ? "A question"
+            : search != null && search.isOpen() ? "A list of cards"
+            : "A decision";
+        // Two seconds a cycle, never fully out: a badge that disappears is one you stop seeing.
+        float pulse = 0.62f + 0.38f * (float) Math.abs(Math.sin(beatClock * 3.1f));
+        String line = what + " is waiting";
+        String sub = "V brings it back";
+        GlyphLayout gl = new GlyphLayout(fontBig, line);
+        GlyphLayout gs = new GlyphLayout(font, sub);
+        float bw = Math.max(gl.width, gs.width) + 44f, bh = 64f;
+        float x = w - bw - 24f, y = h - bh - 24f;
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.22f * pulse, 0.06f, 0.02f, 0.92f);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(1f * pulse, 0.62f * pulse, 0.18f * pulse, 1f);
+        shapes.rect(x, y + bh - 4f, bw, 4f);
+        shapes.rect(x, y, bw, 3f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        fontBig.setColor(1f, 0.80f + 0.18f * pulse, 0.50f, 1f);
+        fontBig.draw(ui, line, x + 22f, y + bh - 18f);
+        font.setColor(0.92f, 0.76f, 0.58f, 1f);
+        font.draw(ui, sub, x + 22f, y + 22f);
+        ui.end();
+    }
+
+    /** Seconds, for anything on the HUD that pulses. */
+    float beatClock;
 
     /** One "pixel" of a readout, in table units: the glass is about 2.5 units across. */
     static final float GLASS_PX = 0.0088f;

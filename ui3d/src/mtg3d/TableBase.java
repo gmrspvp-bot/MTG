@@ -239,7 +239,27 @@ abstract class TableBase extends ApplicationAdapter {
     static final ColorAttribute FACE_DIM = ColorAttribute.createDiffuse(new Color(0.38f, 0.38f, 0.42f, 1f));
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
+    /**
+     * A question is up, and the player has put it aside for a moment to look at the board.
+     *
+     * Every panel in this window is drawn over the table, which is the right place for something
+     * the game is waiting on - but it means a decision has to be made without being able to see
+     * the thing it is about: "I cannot examine the board to see the state that affects my current
+     * decision" (the owner, 2026-10-26). V puts the panel away without answering it. The question
+     * is still there, still waiting, and a flashing badge says so until it is brought back.
+     *
+     * Clicks on the board stay off while peeking. Looking is the point; a stray click answering
+     * something through a panel that is not on screen would be worse than the problem.
+     */
+    boolean peeking;
+
+    /** True while a panel is open and NOT put aside - the gate everything else reads. */
     boolean panelOpen() {
+        return panelUp() && !peeking;
+    }
+
+    /** True while any panel is open, put aside or not. */
+    boolean panelUp() {
         // Gui3D's Ask counts. It is a yes/no the 3D window owns, drawn over the board and
         // answered with SPACE and X - the same two keys the pad's A and X stand in for while a
         // panel is up. Leaving it out meant the controller could read the question and not

@@ -512,22 +512,29 @@ public final class Table3D extends TableInput {
             search.open(rev.title, "Close when you have read it.", rev.items, 0, 0,
                 chosen -> Gui3D.dismissReveal());
         }
+        // Every panel still UPDATES while it is put aside - an animation that froze and
+        // jumped when the question came back would look broken - but none of them is drawn.
+        float dt = Gdx.graphics.getDeltaTime();
         if (search != null) {
-            search.update(Gdx.graphics.getDeltaTime());
-            search.render(ui, shapes, font, fontBig);
-            drawPanelHover();          // over the panel, not under it
+            search.update(dt);
+            if (!peeking) {
+                search.render(ui, shapes, font, fontBig);
+                drawPanelHover();      // over the panel, not under it
+            }
         }
-        options.update(Gdx.graphics.getDeltaTime());
-        options.render(ui, shapes, font, fontBig);
-        numbers.update(Gdx.graphics.getDeltaTime());
-        numbers.render(ui, shapes, font, fontBig);
-        text.render(ui, shapes, font, fontBig, Gdx.graphics.getDeltaTime());
-        order.update(Gdx.graphics.getDeltaTime());
-        order.render(ui, shapes, font, fontBig);
-        mulligan.update(Gdx.graphics.getDeltaTime());
-        mulligan.render(ui, shapes, font, fontBig);
-        damage.update(Gdx.graphics.getDeltaTime());
-        damage.render(ui, shapes, font, fontBig);
+        options.update(dt);
+        numbers.update(dt);
+        order.update(dt);
+        mulligan.update(dt);
+        damage.update(dt);
+        if (!peeking) {
+            options.render(ui, shapes, font, fontBig);
+            numbers.render(ui, shapes, font, fontBig);
+            text.render(ui, shapes, font, fontBig, dt);
+            order.render(ui, shapes, font, fontBig);
+            mulligan.render(ui, shapes, font, fontBig);
+            damage.render(ui, shapes, font, fontBig);
+        }
         // The end screen opens by itself, once, when the game ends; ESC leaves the board to look at.
         if (snap.gameOver && !endShown) {
             endShown = true;
