@@ -3,13 +3,15 @@
 # Results: scratch\equipremoval-runs.txt (each line's JVM args say which arm).
 #
 #   powershell -ExecutionPolicy Bypass -File scratch\equipremoval-ab.ps1 -LastStart 18:00 -Deadline 18:40
-param([string] $LastStart = '18:00', [string] $Deadline = '18:40', [int] $Parallel = 3, [switch] $Full)
+param([string] $LastStart = '18:00', [string] $Deadline = '18:40', [int] $Parallel = 3, [switch] $Full,
+      [int] $StartPod = 0)   # start the rotation at this pod (0-3), e.g. to resume
 
 $pods = @(
     'Eivor,Angels,Captain America v7,Mr House v4',
     'Eivor,Doom Prevails v3,Scion,Rin and Seri',
     'Eivor,Claudes Neyali,Deadpool v3,Olivia',
     'Eivor,Eldrazi,Tidus v3,Alec')
+$pods = @($pods[$StartPod..($pods.Count - 1)]) + @($pods[0..($StartPod - 1)] | Where-Object { $StartPod -gt 0 })
 $twice = @($pods | ForEach-Object { $_; $_ })
 $args = @{ LastStart = $LastStart; Deadline = $Deadline; Parallel = $Parallel; Label = 'equipremoval'
            Pods = $twice; PodJvmArgs = @('', '-Dforge.ai.equipremoval=true') }

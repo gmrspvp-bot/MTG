@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| Equipment-aware removal: re-aim at a voltron deck's key equipment (AiPatches.ThreatRetarget) + A/B | Stoneforge | 2026-10-27 06:30 | Behind a switch, off until the A/B says otherwise |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

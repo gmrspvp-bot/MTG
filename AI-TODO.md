@@ -85,5 +85,8 @@ do not build until the owner says:
       commander wearing 2+ pieces, goes to the best equipment of an opponent with 3+ Equipment out
       (`ThreatRetarget.equipmentSwap`, THREATAI log; test `scratch\probe\EquipRemovalProbe.java`).
       Why: in the 2026-10-27 league Eivor won 45%, and only 16 of 167 removal spells aimed at its
-      cards hit equipment. **A/B running** (`scratch\equipremoval-ab.ps1`, Eivor pods off vs on,
-      `scratch\equipremoval-runs.txt`).
+      cards hit equipment. **A/B 2026-10-27/28 (920 games an arm, `scratch\equipremoval-runs.txt`):
+      no real effect - Eivor won 34.8% off vs 32.7% on (+-4 points), every other deck within
+      noise. It re-aimed often (mostly Anguished Unmaking / Wear // Tear onto Eivor's Excalibur),
+      but that did not slow Eivor down, so it stays off. Eivor's strength is not about where
+      removal is aimed.**
