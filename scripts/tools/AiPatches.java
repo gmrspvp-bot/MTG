@@ -862,6 +862,14 @@ public final class AiPatches {
             if (t == null || t.size() != 1 || t.getTargetCards().size() != 1) return d;
             Card chosen = t.getTargetCards().get(0);
             if (chosen.getController() == null || !ai.isOpponentOf(chosen.getController())) return d;
+            Card gear = equipmentSwap(ai, sa, chosen, c -> zoneChange || !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE));
+            if (gear != null) {
+                sa.resetTargets();
+                sa.getTargets().add(gear);
+                System.out.println("THREATAI " + sa.getHostCard().getName() + ": " + chosen.getName() + " -> " + gear.getName()
+                    + " (equipment on " + gear.getEquipping().getName() + ", " + gear.getController().getName() + ")");
+                return d;
+            }
             // Forge's own pick already reflects a creature's strength (and its threat, via the
             // evaluation hint), and a commander is a threat before it has done anything.
             if (chosen.isCommander()) {
@@ -921,6 +929,42 @@ public final class AiPatches {
                 if (c.isLand() || !sa.canTarget(c) || !canRemove.test(c)) continue;
                 double v = value(c);
                 if (v >= need && v > bestValue) { bestValue = v; best = c; }
+            }
+            return best;
+        }
+
+        /**
+         * Removal that can hit artifacts, against an equipment deck: aim it at the gear, not at a
+         * mana rock or a commander that just comes back (league 2026-10-27: Eivor won 45%; of the
+         * removal aimed at its cards, 16 of 167 hit equipment, and artifact removal hit its rocks
+         * 34 times and its equipment 5). Swaps when the chosen card is a noncreature that isn't
+         * equipment, or a commander wearing 2+ pieces, and some opponent with EQUIP_DECK or more
+         * Equipment has a piece attached to a creature that this spell can target and remove.
+         * The best piece: mana value, +3 on a commander, +1 per other piece that player has out.
+         * Off unless -Dforge.ai.equipremoval=true (A/B). Returns the new target or null.
+         */
+        static final boolean EQUIP_REMOVAL = "true".equalsIgnoreCase(System.getProperty("forge.ai.equipremoval", "false"));
+        static final int EQUIP_DECK = 3;
+
+        static Card equipmentSwap(Player ai, SpellAbility sa, Card chosen, java.util.function.Predicate<Card> canRemove) {
+            if (!EQUIP_REMOVAL || chosen.isEquipment()) return null;
+            boolean minor = !chosen.isCreature() && !chosen.isPlaneswalker() && !chosen.isLand();
+            boolean suitedCommander = chosen.isCommander() && chosen.getEquippedBy().size() >= 2;
+            if (!minor && !suitedCommander) return null;
+            Card best = null;
+            double bestScore = -1;
+            for (Player opp : ai.getOpponents()) {
+                if (opp.hasLost()) continue;
+                java.util.List<Card> gear = new java.util.ArrayList<>();
+                for (Card c : opp.getCardsIn(forge.game.zone.ZoneType.Battlefield)) { if (c.isEquipment()) gear.add(c); }
+                if (gear.size() < EQUIP_DECK) continue;
+                for (Card e : gear) {
+                    Card on = e.getEquipping();
+                    if (on == null || !sa.canTarget(e) || !canRemove.test(e)) continue;
+                    if (suitedCommander && on != chosen) continue;
+                    double s = e.getCMC() + (on.isCommander() ? 3 : 0) + (gear.size() - 1);
+                    if (s > bestScore) { bestScore = s; best = e; }
+                }
             }
             return best;
         }
