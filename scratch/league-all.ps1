@@ -1,7 +1,7 @@
 # A league of every current deck (decks\*.dck, not the archive), in balanced 4-player pods
 # (the owner, 2026-10-26: "add all the other decks as well to the sims").
 #
-# Rounds: each round two decks sit out (in turn, so over a full cycle every deck sits out once)
+# Rounds: each round some decks sit out (in turn, so over a full cycle every deck sits out once)
 # and the rest are shuffled - seeded, so the pods are the same every time - into pods of four.
 # With 18 decks a cycle is 9 rounds = 36 pods, each deck in 8 of them. The pods go to
 # run-until.ps1, which plays them in order (40 games each) until the deadline. Results:
@@ -15,10 +15,13 @@ param([string] $LastStart = '08:00', [string] $Deadline = '08:30', [int] $Parall
 $root = Split-Path -Parent $PSScriptRoot
 $decks = @(Get-ChildItem (Join-Path $root 'decks') -Filter '*.dck' | Sort-Object Name | ForEach-Object { $_.BaseName })
 $n = $decks.Count
-$rounds = [math]::Ceiling($n / 2)
+# n mod 4 decks sit out each round, so the rest fill pods of four exactly; with none to sit
+# out (24 decks), 8 rounds so every deck still plays 8 pods.
+$sit = $n % 4
+$rounds = if ($sit -gt 0) { [math]::Ceiling($n / $sit) } else { 8 }
 $pods = @()
 for ($r = 0; $r -lt $rounds; $r++) {
-    $out = @($decks[(2 * $r) % $n], $decks[(2 * $r + 1) % $n])
+    $out = @(for ($k = 0; $k -lt $sit; $k++) { $decks[($sit * $r + $k) % $n] })
     $rest = @($decks | Where-Object { $out -notcontains $_ })
     $rng = New-Object System.Random (1000 + $r)
     $rest = @($rest | Sort-Object { $rng.Next() })
