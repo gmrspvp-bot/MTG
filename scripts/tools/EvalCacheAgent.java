@@ -43,6 +43,11 @@ public class EvalCacheAgent {
         {"forge/ai/ComputerUtil", "choosePermanentsToSacrifice",
          "(Lforge/game/player/Player;Lforge/game/card/CardCollectionView;ILforge/game/spellability/SpellAbility;ZZ)Lforge/game/card/CardCollection;",
          "SacrificeHook", "static"},
+        // A cast that is begun and then undone - Forge restores the game and says nothing to
+        // the player, which is seven clicks on a card that will not go down (2026-10-27).
+        {"forge/game/GameActionUtil", "rollbackAbility",
+         "(Lforge/game/spellability/SpellAbility;Lforge/game/zone/Zone;ILforge/game/cost/CostPayment;Lforge/game/card/Card;)V",
+         "RollbackHook", "static"},
         {"forge/gamemodes/match/input/InputPassPriority", "onOk", "()V", "ConfirmPassHook", "instance"},
         {"forge/gamemodes/match/input/InputAttack", "onOk", "()V", "AttackConfirmHook", "instance"},
         // Forge's pay-mana prompt racing the game thread (crash window, 2026-10-22): retried.

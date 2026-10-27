@@ -1077,6 +1077,22 @@ public final class Gui3D implements InvocationHandler {
         return System.currentTimeMillis() - noteAt < 5000 ? note : "";
     }
 
+    /**
+     * Called by RollbackHook when Forge begins a cast and then undoes it.
+     *
+     * Forge checks some restrictions when the COST IS PAID rather than when the ability is
+     * offered - Rule of Law's one spell a turn is one - so a card can be offered as playable,
+     * open its mana payment, and then be quietly restored to the hand with the mana refunded.
+     * Nothing said so, and the owner clicked the same card seven times (2026-10-27).
+     *
+     * Public and static because the hook finds it by reflection; scripts	ools is built against
+     * Forge alone and cannot see this class at compile time.
+     */
+    public static void rolledBack(String cardName) {
+        String what = cardName == null || cardName.isEmpty() ? "That spell" : cardName;
+        note(what + " was not cast - something stopped it being paid for");
+    }
+
     /** Returned when a taken-over method decides to forward after all. */
     private static final Object NOT_HANDLED = new Object();
 

@@ -20,6 +20,9 @@ param(
     [switch] $Ui3d,
     # Extra -D switches passed straight to the JVM, e.g. -JvmArgs "-Dforge.ui3d.strict=true".
     [string] $JvmArgs = '',
+    # Put Ctrl+Z "take back the last spell" back on. It is off by default because the undo it
+    # uses crashed a game on 2026-10-27 (GameSnapshot.assignGameState, through rollbackAbility).
+    [switch] $Undo,
     # Line the Commander deck folder up with decks\ and stop there, without starting Forge.
     # Worth running after a pull that changed the decks; a normal launch does it anyway.
     [switch] $DecksOnly
@@ -192,13 +195,28 @@ if (-not (Test-Path $marker)) {
 }
 # One-time "back button" settings (2026-10-13, the user asked for a way back after misclicks):
 # Developer mode shows Forge's Dev panel, whose "Rollback Phase" returns the game to the start of
-# the current phase; the experimental restore lets Ctrl+Z undo the last spell or ability.
+# the current phase.
 $marker2 = Join-Path $root 'scratch\play-prefs-rollback.done'
 if (-not (Test-Path $marker2)) {
-    $set = [ordered]@{ DEV_MODE_ENABLED = 'true'; MATCH_EXPERIMENTAL_RESTORE = 'true' }
+    $set = [ordered]@{ DEV_MODE_ENABLED = 'true' }
     $prefs = @($prefs | Where-Object { $k = ($_ -split '=', 2)[0]; -not $set.Contains($k) }) + @($set.Keys | ForEach-Object { "$_=$($set[$_])" })
     Set-Content -Path $marker2 -Value (Get-Date -Format s) -Encoding UTF8
 }
+# MATCH_EXPERIMENTAL_RESTORE off (2026-10-27). It is what lets Ctrl+Z take back the last spell,
+# and it is also what Forge uses to undo a cast whose cost turns out not to be payable - which
+# happens to the owner constantly, because he plays Rule of Law. That undo crashed his game:
+#
+#   NullPointerException: Cannot invoke "Object.getClass()" because "o" is null
+#       at forge.game.GameSnapshot.assignGameState(GameSnapshot.java:125)
+#       at forge.game.GameActionUtil.rollbackAbility(GameActionUtil.java:957)
+#       at forge.game.player.PlaySpellAbility.playAbility(PlaySpellAbility.java:694)
+#
+# With it off, PlaySpellAbility takes its other branch and refunds the payment instead of
+# restoring a snapshot - the same outcome for the player, by a route that does not crash. The
+# cost is Ctrl+Z on a spell; the Dev panel's Rollback Phase is untouched. -Undo brings it back.
+$restore = if ($Undo) { 'true' } else { 'false' }
+$prefs = @($prefs | Where-Object { $_ -notmatch '^MATCH_EXPERIMENTAL_RESTORE=' }) +
+         "MATCH_EXPERIMENTAL_RESTORE=$restore"
 # One-time "feel more like Hearthstone" settings (2026-10-20): Forge's own options, off by
 # default. Playable cards are highlighted; priority is passed automatically when there's
 # nothing you could do, but still stops for attackers, opponents' spells, targeting and board
