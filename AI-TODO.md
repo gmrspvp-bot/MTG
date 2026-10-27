@@ -80,3 +80,10 @@ do not build until the owner says:
       (33% vs AI 51%) and block rarely (10% vs 30%).
 - Decks with fewer than 3 human games (Baylen, Eivor, Frodo, Abzan Siege) are hints only; Alec
   (Athreos) and Abzan Siege had no sim games in the folders read.
+- [ ] **Equipment-aware removal (Eivor).** BUILT 2026-10-27 (Stoneforge) behind
+      `-Dforge.ai.equipremoval=true`: removal that can hit artifacts, aimed at a mana rock or at a
+      commander wearing 2+ pieces, goes to the best equipment of an opponent with 3+ Equipment out
+      (`ThreatRetarget.equipmentSwap`, THREATAI log; test `scratch\probe\EquipRemovalProbe.java`).
+      Why: in the 2026-10-27 league Eivor won 45%, and only 16 of 167 removal spells aimed at its
+      cards hit equipment. **A/B running** (`scratch\equipremoval-ab.ps1`, Eivor pods off vs on,
+      `scratch\equipremoval-runs.txt`).
