@@ -353,6 +353,9 @@ abstract class TableInput extends TableHud {
         }
 
         // The mulligan: keep / mulligan, then (London) the cards to put on the bottom.
+        // While it is up, it shows the hand as it IS, not as it was when the panel opened -
+        // the hand is still being dealt at that moment (see MulliganPanel.refresh).
+        if (mulligan != null && mulligan.isOpen()) mulligan.refresh(snap.hand);
         if ("InputConfirmMulligan".equals(in) && tok != mulliganShownFor && !mulligan.isOpen()) {
             mulliganShownFor = tok;
             final boolean okIsKeep = !Gui3D.PROMPT.okLabel.toLowerCase().contains("mull");

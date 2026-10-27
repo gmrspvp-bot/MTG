@@ -64,6 +64,33 @@ public final class MulliganPanel {
         bottomResult = r;
     }
 
+    /**
+     * Keep the cards shown in step with the hand while the panel is open.
+     *
+     * The panel used to take a copy of the hand the instant it opened and show that copy until
+     * it was answered. The hand is still arriving at that point: on 2026-10-28 the owner's
+     * opening seven was offered to him as "Your opening hand - 3 cards / Keep 3", with all seven
+     * sitting on the table behind the panel. Nothing was wrong with the game - the panel had
+     * simply photographed the hand too early and never looked again.
+     *
+     * Only ever while nothing has been picked. In the London step the player is choosing
+     * specific cards to put on the bottom, and a list that shuffled itself under them mid-choice
+     * would be a worse bug than the one this fixes.
+     */
+    void refresh(List<Snapshot.CardV> cards) {
+        if (!open || closing || cards == null || !picked.isEmpty()) return;
+        if (cards.size() == hand.size()) {
+            boolean same = true;
+            for (int i = 0; i < cards.size(); i++) {
+                if (cards.get(i).id != hand.get(i).id) { same = false; break; }
+            }
+            if (same) return;
+        }
+        hand.clear();
+        hand.addAll(cards);
+        hover = -1;
+    }
+
     private void start(List<Snapshot.CardV> cards) {
         hand.clear();
         if (cards != null) hand.addAll(cards);
