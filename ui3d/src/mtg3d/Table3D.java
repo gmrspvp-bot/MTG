@@ -433,6 +433,9 @@ public final class Table3D extends TableInput {
             glow.transform.setToTranslation(c.x, c.y - 0.12f, c.z);
             modelBatch.render(glow, env);
         }
+        // Figures stand on their cards, so they are drawn with them, in the same pass and
+        // the same light.
+        for (Models.Figure f : figures) modelBatch.render(f.instance, env);
         for (Drawn d : drawn) {
             if (d.marker != null) modelBatch.render(d.marker, env);
             // The coloured body is only a stand-in for missing art. Drawing it UNDER a picture
@@ -608,6 +611,7 @@ public final class Table3D extends TableInput {
         // The per-seat mats are built on the fly (TableLayout.matModel), so they are the
         // one set of models this class did not create and still has to let go of.
         for (Model m : matModels) if (m != null) m.dispose();
+        Models.dispose();
         feltModel.dispose();
         floorModel.dispose();
         railModel.dispose();

@@ -184,7 +184,7 @@ public final class CardArt {
      * accent on "Aether". Only ever used after the exact key has missed, so it can never pull a
      * picture away from a card that had its own.
      */
-    private static String loose(String name) {
+    static String loose(String name) {
         StringBuilder b = new StringBuilder(name.length());
         for (int i = 0; i < name.length(); i++) {
             char c = Character.toLowerCase(name.charAt(i));

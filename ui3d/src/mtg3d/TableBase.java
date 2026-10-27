@@ -100,6 +100,17 @@ abstract class TableBase extends ApplicationAdapter {
     /** The flickering ring under a card the table thinks is dangerous. */
     Model emberModel, emberBigModel;
 
+    /**
+     * Figures standing on cards this frame - a model from ui3d\models\, where there is one.
+     *
+     * Rebuilt every frame like everything else here, but the MODELS behind them are loaded once
+     * and cached (Models), so this costs an instance and a transform per figure, not a load.
+     */
+    final java.util.List<Models.Figure> figures = new java.util.ArrayList<>();
+
+    /** Figures kept between frames by card id, so an animation carries on instead of restarting. */
+    final java.util.Map<Integer, Models.Figure> figureFor = new java.util.HashMap<>();
+
     /** Seconds since the window opened, for anything that has to flicker or pulse. */
     float clock;
     /** The stand a library / graveyard / exile / command pad stands on as the board fills. */

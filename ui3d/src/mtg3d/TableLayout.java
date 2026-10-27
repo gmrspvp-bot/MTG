@@ -188,6 +188,7 @@ abstract class TableLayout extends TableCamera {
         placeStack();
         placeDying();
         placeEmbers();          // last: it reads the finished `drawn` list
+        placeFigures();
     }
 
     /**
@@ -809,6 +810,66 @@ abstract class TableLayout extends TableCamera {
             props.add(ring);
         }
     }
+
+    /**
+     * Stand a model on every card that has one.
+     *
+     * This is the whole point of the model folder: a permanent that is a flat rectangle with a
+     * picture on it becomes a figure standing on that rectangle. A card asks for a model of its
+     * own name first, then for a generic one for its type - so three models named _creature,
+     * _artifact and _enchantment already cover a whole board, and a named one overrides it.
+     *
+     * Figures are kept by card id between frames. Making a new ModelInstance every frame would
+     * restart its animation every frame, which is a creature that twitches instead of breathing.
+     *
+     * Hand, stack and graveyard are left alone - a figure belongs on the battlefield, where the
+     * permanent is.
+     */
+    void placeFigures() {
+        figures.clear();
+        if (!FIGURES) return;
+        java.util.Set<Integer> seen = new java.util.HashSet<>();
+        for (Drawn d : drawn) {
+            if (d.card == null || d.seat == null || d.card.faceDown) continue;
+            Models.Figure f = figureFor.get(d.card.id);
+            if (f == null) {
+                if (figureFor.containsKey(d.card.id)) continue;      // known to have no model
+                f = Models.figure(d.card.name, typeKey(d.card));
+                figureFor.put(d.card.id, f);                         // null is remembered too
+                if (f == null) continue;
+            }
+            // Standing on the card it belongs to, turned the way the card is, and lifted by the
+            // card's own thickness so it rests on the face rather than in it.
+            com.badlogic.gdx.math.Vector3 at = new com.badlogic.gdx.math.Vector3();
+            d.inst.transform.getTranslation(at);
+            Pose p = poses.get(d.card.id);
+            f.stand(at.x, at.y + CARD_THICK, at.z, p == null ? 0f : p.yaw);
+            f.update(frameDt);
+            figures.add(f);
+            seen.add(d.card.id);
+        }
+        // A card that has left the table takes its figure with it.
+        figureFor.keySet().removeIf(id -> !seen.contains(id) && !onTable(id));
+    }
+
+    /** True while that card id is still drawn somewhere this frame. */
+    private boolean onTable(int id) {
+        for (Drawn d : drawn) if (d.card != null && d.card.id == id) return true;
+        return false;
+    }
+
+    /** The generic model a card falls back to: _creature, _land, _artifact, _enchantment, _card. */
+    private static String typeKey(Snapshot.CardV c) {
+        if (c.creature) return "_creature";
+        if (c.land) return "_land";
+        if (c.planeswalker) return "_planeswalker";
+        if (c.artifact) return "_artifact";
+        if (c.enchantment) return "_enchantment";
+        return "_card";
+    }
+
+    static final boolean FIGURES =
+        !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.figures", "true"));
 
     /** Just under the card, and under the marker slabs, so it never hides either. */
     static final float EMBER_DROP = -0.020f;
