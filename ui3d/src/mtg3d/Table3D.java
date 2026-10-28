@@ -460,7 +460,16 @@ public final class Table3D extends TableInput {
         // blocked inside it, so this must open or Handoff will eventually hand it back.
         Gui3D.Choice choice = Gui3D.pendingChoice();
         servicePending(choice);
-        if (choice != null && choice.cards && choice != shownChoice && search != null && !search.isOpen()) {
+        // A question from the game outranks whatever the panel happens to be showing. It used to
+        // be skipped entirely while the search panel was open - and during one resolution the
+        // panel IS open, from the step before. Mass Polymorph revealed cards, Forge asked about
+        // them, the panel was still up from the reveal, so the question was never put on screen:
+        // it sat for the full 45 seconds and went to Forge's own window, which looks like being
+        // allowed to search your library (the owner, 2026-10-28). Close what is there; the
+        // question opens on the next frame.
+        if (choice != null && choice.cards && choice != shownChoice && search != null && search.isOpen()) {
+            search.close();
+        } else if (choice != null && choice.cards && choice != shownChoice && search != null) {
             shownChoice = choice;
             final java.util.List<Snapshot.CardV> opts = choice.items;
             search.open(choice.title,
