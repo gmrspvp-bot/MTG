@@ -263,6 +263,25 @@ public final class Demo {
         aura.attachedToId = dragon.id;
         s.seats.get(0).others.add(aura);
 
+        // Athreos in both of his forms at once, which no real game can show you: the same card
+        // is a stele while devotion is short of seven and the ferryman once it is not, and the
+        // table picks the model off whether it is a creature right now. Side by side is the only
+        // way to judge whether the two read as the same god (2026-10-29).
+        String athreosText = "Indestructible\nAs long as your devotion to white and black is less "
+            + "than seven, Athreos isn't a creature.\nWhenever another creature you control dies, "
+            + "return it to its owner's hand unless target opponent pays 3 life.";
+        Snapshot.CardV dormant = card(970, "Athreos, God of Passage",
+            "Legendary Enchantment Creature - God", false, false, "{1}{W}{B}", athreosText);
+        dormant.enchantment = true;
+        s.seats.get(0).others.add(dormant);
+
+        Snapshot.CardV awake = card(971, "Athreos, God of Passage",
+            "Legendary Enchantment Creature - God", true, false, "{1}{W}{B}", athreosText);
+        awake.enchantment = true;
+        awake.power = "4";
+        awake.toughness = "7";
+        s.seats.get(0).creatures.add(awake);
+
         // Identical permanents, so stacking can be looked at without a real game: twelve
         // Treasures and five 1/1 Humans stack, and the two 2/2 Humans stay a separate pile
         // beside them - the case the owner named when asking for this (2026-10-21).

@@ -851,25 +851,44 @@ abstract class TableLayout extends TableCamera {
         java.util.Set<Integer> seen = new java.util.HashSet<>();
         for (Drawn d : drawn) {
             if (d.card == null || d.seat == null || d.card.faceDown) continue;
-            Models.Figure f = figureFor.get(d.card.id);
+            long key = figureKey(d.card.id, d.card.creature);
+            Models.Figure f = figureFor.get(key);
             if (f == null) {
-                if (figureFor.containsKey(d.card.id)) continue;      // known to have no model
-                f = Models.figure(d.card.name, typeKey(d.card));
-                figureFor.put(d.card.id, f);                         // null is remembered too
+                if (figureFor.containsKey(key)) continue;            // known to have no model
+                // A card that is a creature right now asks for its awake model first. Athreos
+                // is a stele while devotion is short and the ferryman once it is not, and the
+                // same door is open to any other permanent that changes what it is.
+                f = d.card.creature
+                    ? Models.figure(d.card.name + " awake", d.card.name, typeKey(d.card))
+                    : Models.figure(d.card.name, typeKey(d.card));
+                figureFor.put(key, f);                               // null is remembered too
                 if (f == null) continue;
             }
             // Standing on the card it belongs to, turned the way the card is, and lifted by the
             // card's own thickness so it rests on the face rather than in it.
             com.badlogic.gdx.math.Vector3 at = new com.badlogic.gdx.math.Vector3();
             d.inst.transform.getTranslation(at);
-            Pose p = poses.get(d.card.id);
-            f.stand(at.x, at.y + CARD_THICK, at.z, p == null ? 0f : p.yaw);
+            // Facing the middle of the table, which is to say the other players.
+            //
+            // A figure used to take the yaw of the card it stands on, and a card is turned so its
+            // owner can read it - so every figure stood with its back to the game, and a tapped
+            // one stood sideways. An army faces the enemy, so the facing comes off the seat and
+            // nothing else: half a turn from the direction the seat looks out in.
+            int si = snap.seats.indexOf(d.seat);
+            float face = si < 0 ? 0f
+                : (float) Math.toDegrees(-seatAngle(si, snap.seats.size())) + 180f;
+            f.stand(at.x, at.y + CARD_THICK, at.z, face);
             f.update(frameDt);
             figures.add(f);
             seen.add(d.card.id);
         }
-        // A card that has left the table takes its figure with it.
-        figureFor.keySet().removeIf(id -> !seen.contains(id) && !onTable(id));
+        // A card that has left the table takes its figure with it - both forms of it, since the
+        // key carries the form. A card still on the table keeps the form it is not currently in,
+        // so a god crossing its devotion back and forth reuses two figures instead of reloading.
+        figureFor.keySet().removeIf(k -> {
+            int id = (int) (k >>> 1);
+            return !seen.contains(id) && !onTable(id);
+        });
     }
 
     /** True while that card id is still drawn somewhere this frame. */

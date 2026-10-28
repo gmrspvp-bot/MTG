@@ -108,8 +108,22 @@ abstract class TableBase extends ApplicationAdapter {
      */
     final java.util.List<Models.Figure> figures = new java.util.ArrayList<>();
 
-    /** Figures kept between frames by card id, so an animation carries on instead of restarting. */
-    final java.util.Map<Integer, Models.Figure> figureFor = new java.util.HashMap<>();
+    /**
+     * Figures kept between frames, so an animation carries on instead of restarting.
+     *
+     * Keyed by card id AND whether the card is a creature right now ({@code id << 1 | form}),
+     * because some permanents are two different things on the table depending on the game state
+     * and should not look the same: a god below its devotion, an uncrewed vehicle, a land that
+     * has not been animated. Those re-resolve to a different model the moment they change, and
+     * everything else - the overwhelming majority, whose form never changes - simply keeps the
+     * one figure it has always had under a key that never changes either.
+     */
+    final java.util.Map<Long, Models.Figure> figureFor = new java.util.HashMap<>();
+
+    /** The cache key above: a card id plus the form it is in. */
+    static long figureKey(int cardId, boolean creature) {
+        return ((long) cardId << 1) | (creature ? 1L : 0L);
+    }
 
     /** Seconds since the window opened, for anything that has to flicker or pulse. */
     float clock;
