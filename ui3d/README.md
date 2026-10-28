@@ -403,6 +403,28 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       it. Forge reorders the real zone (`IGameController.reorderHand`), so the order is the
       game's and holds on the host in a joined game.
 
+### From the game of 2026-10-28 (evening) - game stalled 13 minutes
+
+- [ ] **A reveal prompt nobody could see stalled the whole table** *(attended)*. Alec (joined
+      client) cast Grim Servant; its trigger searched, then `GameAction.reveal` asked each human
+      in turn to OK the revealed card (`PlayerControllerHuman.reveal` -> `InputConfirm`,
+      showAndWait). The host's (Derand's) confirm came first and was invisible everywhere:
+      - the 3D table logged `nothing to confirm right now` and refused every card click
+        (`Forge refused the click ... input=InputConfirm`);
+      - Forge's own prompt panel showed "Yielding until stack clears" with OK greyed out - the
+        auto-yield message covered the confirm, so there was nothing to click there either;
+      - Forge's "Waiting for Alec... (mm:ss)" counts UP and names the turn player, not the
+        player Forge is waiting on, so everyone blamed Alec. Alec left and rejoined (reconnect
+        "Replayed current prompt" worked) and nothing changed - it was never his prompt.
+      Unstuck from outside by attaching an agent that called `selectButtonOK()` on Derand's input
+      queue; Dominic's reveal confirm came next and he could answer his. Wanted: reveal confirms
+      shown on the table (the revealed card + OK), and an auto-yield must never hide a pending
+      `InputConfirm`. Log: `scratch\play-logs\console_2026-10-28_225524.log` from line ~3527
+      (23:08:09); the game's thread dump showed `Game-0` parked in `PlayerControllerHuman.reveal`.
+- [ ] **Cancel on a client during a reveal does nothing, silently** *(attended)*. Alec's client
+      sent ~20 `selectButtonCancel` while the table was stuck; an OK-only confirm ignores them
+      with no message. A refused press should say what Forge is actually waiting for, and on whom.
+
 ### Waiting on the Forge UI going away
 
 Things that are only safe once the 3D table is the only window, because each one leaves part of
