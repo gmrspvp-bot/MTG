@@ -1093,6 +1093,21 @@ public final class Gui3D implements InvocationHandler {
         note(what + " was not cast - something stopped it being paid for");
     }
 
+    /**
+     * Forge has alerted - it will not accept what is being attempted. It does not say why, so
+     * this says the most useful true thing it can from what the prompt is asking for.
+     */
+    private static void sayRefused() {
+        String m = PROMPT.message == null ? "" : PROMPT.message.toLowerCase();
+        if (m.contains("target")) {
+            note("Not a legal target for that - check what is actually on the stack");
+        } else if (m.contains("pay")) {
+            note("That will not pay for it");
+        } else {
+            note("Forge will not accept that");
+        }
+    }
+
     /** Returned when a taken-over method decides to forward after all. */
     private static final Object NOT_HANDLED = new Object();
 
@@ -1528,7 +1543,15 @@ public final class Gui3D implements InvocationHandler {
             case "alertUser":
             case "flashIncorrectAction":
                 // CPrompt.alert / CPrompt.remind: a flash on Forge's prompt, meant to draw the eye
-                // to Forge's window - the opposite of what is wanted while playing in 3D.
+                // to Forge's window - the opposite of what is wanted while playing in 3D. But it
+                // was being thrown away, and it is Forge's ONLY way of saying "no, not that".
+                //
+                // The owner tried to cast An Offer You Can't Refuse eight times with the mana to
+                // do it. Forge offered the cast, asked for a target, found nothing it would
+                // accept, and alerted him eight times - and the 3D window discarded all eight,
+                // so from his side the card simply would not cast (2026-10-28). The flash stays
+                // suppressed; what it MEANT now goes on the table.
+                sayRefused();
                 return null;
             case "showRevealedCards":
                 return takeRevealedCards(args);
