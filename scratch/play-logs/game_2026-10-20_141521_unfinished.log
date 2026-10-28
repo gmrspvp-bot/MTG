@@ -1,0 +1,198 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Rogeir (AI) deck=Captain America v8
+Player: Senira (AI) deck=Mr House v4
+Player: Marderdeen (AI) deck=Olivia
+Mulligan: Marderdeen has mulliganed down to 7 cards.
+Mulligan: Rogeir has mulliganed down to 7 cards.
+Mulligan: Senira has mulliganed down to 7 cards.
+Mulligan: Marderdeen has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Rogeir has kept a hand of 7 cards
+Mulligan: Senira has kept a hand of 7 cards
+Turn: Turn 1 (Marderdeen)
+Information: BOARD turn 1 (Marderdeen) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Path of Ancestry(land); Swamp(land)
+Information: BOARD turn 1 (Marderdeen) | Rogeir | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Floodfarm Verge(land); Seachrome Coast(land); Plains(land); Embercleave(6)
+Information: BOARD turn 1 (Marderdeen) | Senira | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Mountain(land); Lotho, Corrupt Shirriff(2); Swamp(land); Skullclamp(1); Brightclimb Pathway(land); Ingenious Artillerist(3)
+Information: BOARD turn 1 (Marderdeen) | Marderdeen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Tinybones, the Pickpocket(1); Xorn(3); Shadowblood Ridge(land); Swamp(land); Mahadi, Emporium Master(3); Mountain(land)
+Phase: Marderdeen's Untap step
+Phase: Marderdeen's Upkeep step
+Phase: Marderdeen's Draw step
+Phase: Marderdeen's Main phase, precombat
+Land: Marderdeen played Swamp (370)
+Phase: Marderdeen's Beginning of Combat Step
+Phase: Marderdeen's Declare Attackers Step
+Phase: Marderdeen's Declare Blockers Step
+Phase: Marderdeen's First Strike Damage Step
+Phase: Marderdeen's Combat Damage Step
+Phase: Marderdeen's End of Combat Step
+Phase: Marderdeen's Main phase, postcombat
+Mana: Swamp (370) - {T}: Add {B}.
+Add To Stack: Marderdeen cast Tinybones, the Pickpocket
+Information: BOARD cast | Tinybones, the Pickpocket (mv 1) by Marderdeen | open mana: Xenil 0, Rogeir 0, Senira 0
+Resolve Stack: Tinybones, the Pickpocket - Creature 1 / 1
+Phase: Marderdeen's End step
+Phase: Marderdeen's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Path of Ancestry(land); Swamp(land)
+Information: BOARD turn 2 (Xenil) | Rogeir | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Floodfarm Verge(land); Seachrome Coast(land); Plains(land); Embercleave(6)
+Information: BOARD turn 2 (Xenil) | Senira | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Mountain(land); Lotho, Corrupt Shirriff(2); Swamp(land); Skullclamp(1); Brightclimb Pathway(land); Ingenious Artillerist(3)
+Information: BOARD turn 2 (Xenil) | Marderdeen | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Fetid Heath(land); Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Xenil played Path of Ancestry (10)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 3 (Rogeir)
+Information: BOARD turn 3 (Rogeir) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Swamp(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 3 (Rogeir) | Rogeir | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Floodfarm Verge(land); Seachrome Coast(land); Plains(land); Embercleave(6)
+Information: BOARD turn 3 (Rogeir) | Senira | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Mountain(land); Lotho, Corrupt Shirriff(2); Swamp(land); Skullclamp(1); Brightclimb Pathway(land); Ingenious Artillerist(3)
+Information: BOARD turn 3 (Rogeir) | Marderdeen | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Fetid Heath(land); Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4)
+Phase: Rogeir's Untap step
+Phase: Rogeir's Upkeep step
+Phase: Rogeir's Draw step
+Phase: Rogeir's Main phase, precombat
+Land: Rogeir played Floodfarm Verge (166)
+Phase: Rogeir's Beginning of Combat Step
+Phase: Rogeir's Declare Attackers Step
+Phase: Rogeir's Declare Blockers Step
+Phase: Rogeir's First Strike Damage Step
+Phase: Rogeir's Combat Damage Step
+Phase: Rogeir's End of Combat Step
+Phase: Rogeir's Main phase, postcombat
+Phase: Rogeir's End step
+Phase: Rogeir's Cleanup step
+Turn: Turn 4 (Senira)
+Information: BOARD turn 4 (Senira) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Swamp(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 4 (Senira) | Rogeir | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 4 (Senira) | Senira | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Mountain(land); Lotho, Corrupt Shirriff(2); Swamp(land); Skullclamp(1); Brightclimb Pathway(land); Ingenious Artillerist(3)
+Information: BOARD turn 4 (Senira) | Marderdeen | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Fetid Heath(land); Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4)
+Phase: Senira's Untap step
+Phase: Senira's Upkeep step
+Phase: Senira's Draw step
+Phase: Senira's Main phase, precombat
+Land: Senira played Mountain (283)
+Phase: Senira's Beginning of Combat Step
+Phase: Senira's Declare Attackers Step
+Phase: Senira's Declare Blockers Step
+Phase: Senira's First Strike Damage Step
+Phase: Senira's Combat Damage Step
+Phase: Senira's End of Combat Step
+Phase: Senira's Main phase, postcombat
+Mana: Mountain (283) - {T}: Add {R}.
+Add To Stack: Senira cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Senira | open mana: Xenil 0, Rogeir 1, Marderdeen 0
+Resolve Stack: Skullclamp
+Phase: Senira's End step
+Phase: Senira's Cleanup step
+Turn: Turn 5 (Marderdeen)
+Information: BOARD turn 5 (Marderdeen) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Swamp(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 5 (Marderdeen) | Rogeir | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 5 (Marderdeen) | Senira | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Lotho, Corrupt Shirriff(2); Swamp(land); Brightclimb Pathway(land); Ingenious Artillerist(3); Chiss-Goria, Forge Tyrant(9)
+Information: BOARD turn 5 (Marderdeen) | Marderdeen | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Fetid Heath(land); Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4)
+Phase: Marderdeen's Untap step
+Phase: Marderdeen's Upkeep step
+Phase: Marderdeen's Draw step
+Phase: Marderdeen's Main phase, precombat
+Land: Marderdeen played Fetid Heath (326)
+Phase: Marderdeen's Beginning of Combat Step
+Phase: Marderdeen's Declare Attackers Step
+Combat: Marderdeen assigned Tinybones, the Pickpocket (319) to attack Senira.
+Information: BOARD attack | Marderdeen -> Senira | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Marderdeen's Declare Blockers Step
+Combat: Senira didn't block Tinybones, the Pickpocket (319).
+Phase: Marderdeen's First Strike Damage Step
+Phase: Marderdeen's Combat Damage Step
+Damage: Tinybones, the Pickpocket (319) deals 1 combat damage to Senira.
+Life: Life: Senira 40 > 39
+Phase: Marderdeen's End of Combat Step
+Phase: Marderdeen's Main phase, postcombat
+Phase: Marderdeen's End step
+Phase: Marderdeen's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Nim Deathmantle(2); Bishop of Wings(2); Plains(land); Resurrection(4); Swamp(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 6 (Xenil) | Rogeir | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 6 (Xenil) | Senira | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Lotho, Corrupt Shirriff(2); Swamp(land); Brightclimb Pathway(land); Ingenious Artillerist(3); Chiss-Goria, Forge Tyrant(9)
+Information: BOARD turn 6 (Xenil) | Marderdeen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4); Shoot the Sheriff(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Swamp (49)
+Mana: Path of Ancestry (10) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Swamp (49) - {T}: Add {B}.
+Add To Stack: Xenil cast Nim Deathmantle
+Information: BOARD cast | Nim Deathmantle (mv 2) by Xenil | open mana: Rogeir 1, Senira 0, Marderdeen 6
+Resolve Stack: Nim Deathmantle
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 7 (Rogeir)
+Information: BOARD turn 7 (Rogeir) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Bishop of Wings(2); Plains(land); Resurrection(4); Avacyn, Angel of Horror(8); Plains(land)
+Information: BOARD turn 7 (Rogeir) | Rogeir | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 7 (Rogeir) | Senira | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Lotho, Corrupt Shirriff(2); Swamp(land); Brightclimb Pathway(land); Ingenious Artillerist(3); Chiss-Goria, Forge Tyrant(9)
+Information: BOARD turn 7 (Rogeir) | Marderdeen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4); Shoot the Sheriff(2)
+Phase: Rogeir's Untap step
+Phase: Rogeir's Upkeep step
+Phase: Rogeir's Draw step
+Phase: Rogeir's Main phase, precombat
+Land: Rogeir played Inventors' Fair (104)
+Phase: Rogeir's Beginning of Combat Step
+Phase: Rogeir's Declare Attackers Step
+Phase: Rogeir's Declare Blockers Step
+Phase: Rogeir's First Strike Damage Step
+Phase: Rogeir's Combat Damage Step
+Phase: Rogeir's End of Combat Step
+Phase: Rogeir's Main phase, postcombat
+Phase: Rogeir's End step
+Phase: Rogeir's Cleanup step
+Turn: Turn 8 (Senira)
+Information: BOARD turn 8 (Senira) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Bishop of Wings(2); Plains(land); Resurrection(4); Avacyn, Angel of Horror(8); Plains(land)
+Information: BOARD turn 8 (Senira) | Rogeir | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 8 (Senira) | Senira | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Lotho, Corrupt Shirriff(2); Swamp(land); Brightclimb Pathway(land); Ingenious Artillerist(3); Chiss-Goria, Forge Tyrant(9)
+Information: BOARD turn 8 (Senira) | Marderdeen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4); Shoot the Sheriff(2)
+Phase: Senira's Untap step
+Phase: Senira's Upkeep step
+Phase: Senira's Draw step
+Phase: Senira's Main phase, precombat
+Land: Senira played Swamp (254)
+Phase: Senira's Beginning of Combat Step
+Phase: Senira's Declare Attackers Step
+Phase: Senira's Declare Blockers Step
+Phase: Senira's First Strike Damage Step
+Phase: Senira's Combat Damage Step
+Phase: Senira's End of Combat Step
+Phase: Senira's Main phase, postcombat
+Phase: Senira's End step
+Phase: Senira's Cleanup step
+Turn: Turn 9 (Marderdeen)
+Information: BOARD turn 9 (Marderdeen) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Bishop of Wings(2); Plains(land); Resurrection(4); Avacyn, Angel of Horror(8); Plains(land)
+Information: BOARD turn 9 (Marderdeen) | Rogeir | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Codsworth, Handy Helper(3); Blasphemous Act(9); Needleverge Pathway(land); Seachrome Coast(land); Plains(land); Embercleave(6); Fighter Class(2)
+Information: BOARD turn 9 (Marderdeen) | Senira | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Lotho, Corrupt Shirriff(2); Brightclimb Pathway(land); Ingenious Artillerist(3); Chiss-Goria, Forge Tyrant(9); Ghostly Prison(3)
+Information: BOARD turn 9 (Marderdeen) | Marderdeen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Xorn(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3); Mountain(land); Lethal Scheme(4); Shoot the Sheriff(2)
+Phase: Marderdeen's Untap step
+Phase: Marderdeen's Upkeep step
+Phase: Marderdeen's Draw step
+Phase: Marderdeen's Main phase, precombat
+Land: Marderdeen played Mountain (399)
+Phase: Marderdeen's Beginning of Combat Step
+Phase: Marderdeen's Declare Attackers Step
+Combat: Marderdeen assigned Tinybones, the Pickpocket (319) to attack Xenil.
+Information: BOARD attack | Marderdeen -> Xenil | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+
+Game Result: unfinished (Forge closed mid-game)

@@ -1,0 +1,890 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Summer (AI) deck=Mr House v4
+Player: Jackson Wadankle (AI) deck=Alec
+Player: Jasmine (AI) deck=Claudes Neyali
+Mulligan: Jackson Wadankle has mulliganed down to 7 cards.
+Mulligan: Jasmine has mulliganed down to 7 cards.
+Mulligan: Jackson Wadankle has mulliganed down to 6 cards.
+Mulligan: Jackson Wadankle has mulliganed down to 5 cards.
+Mulligan: Summer has kept a hand of 7 cards
+Mulligan: Jackson Wadankle has kept a hand of 5 cards
+Mulligan: Jasmine has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Summer)
+Information: BOARD turn 1 (Summer) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Impulsive Pilferer(1); Painful Truths(3); Everybody Lives!(2)
+Information: BOARD turn 1 (Summer) | Summer | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Myrkul's Edict(2); Norn's Annex(5); Sulfurous Springs(land); Haunted Ridge(land)
+Information: BOARD turn 1 (Summer) | Jackson Wadankle | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land)
+Information: BOARD turn 1 (Summer) | Jasmine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Plains(land); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3)
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Land: Summer played Sulfurous Springs (166)
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 2 (Jackson Wadankle)
+Information: BOARD turn 2 (Jackson Wadankle) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Impulsive Pilferer(1); Painful Truths(3); Everybody Lives!(2)
+Information: BOARD turn 2 (Jackson Wadankle) | Summer | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Myrkul's Edict(2); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 2 (Jackson Wadankle) | Jackson Wadankle | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land)
+Information: BOARD turn 2 (Jackson Wadankle) | Jasmine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Plains(land); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3)
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Jackson Wadankle played Path of Ancestry (222)
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Phase: Jackson Wadankle's Declare Blockers Step
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 3 (Jasmine)
+Information: BOARD turn 3 (Jasmine) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Impulsive Pilferer(1); Painful Truths(3); Everybody Lives!(2)
+Information: BOARD turn 3 (Jasmine) | Summer | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Myrkul's Edict(2); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 3 (Jasmine) | Jackson Wadankle | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land); Go for the Throat(2)
+Information: BOARD turn 3 (Jasmine) | Jasmine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Plains(land); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Land: Jasmine played Plains (403)
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Phase: Jasmine's Declare Blockers Step
+Phase: Jasmine's First Strike Damage Step
+Phase: Jasmine's Combat Damage Step
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Impulsive Pilferer(1); Painful Truths(3); Everybody Lives!(2)
+Information: BOARD turn 4 (Dominic) | Summer | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Myrkul's Edict(2); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 4 (Dominic) | Jackson Wadankle | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land); Go for the Throat(2)
+Information: BOARD turn 4 (Dominic) | Jasmine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mountain (86)
+Mana: Mountain (86) - {T}: Add {R}.
+Add To Stack: Dominic cast Impulsive Pilferer
+Information: BOARD cast | Impulsive Pilferer (mv 1) by Dominic | open mana: Summer 3, Jackson Wadankle 0, Jasmine 1
+Resolve Stack: Impulsive Pilferer - Creature 1 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (Summer)
+Information: BOARD turn 5 (Summer) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2)
+Information: BOARD turn 5 (Summer) | Summer | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Myrkul's Edict(2); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 5 (Summer) | Jackson Wadankle | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land); Go for the Throat(2)
+Information: BOARD turn 5 (Summer) | Jasmine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3); Plains(land)
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Land: Summer played Command Tower (200)
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Land: Summer picked {B}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sulfurous Springs (166) - {T}: Add {C}.
+Add To Stack: Summer cast Myrkul's Edict
+Information: BOARD cast | Myrkul's Edict (mv 2) by Summer | open mana: Dominic 0, Jackson Wadankle 0, Jasmine 1
+Zone Change: Impulsive Pilferer (80) was put into Graveyard from Battlefield.
+Resolve Stack: Myrkul's Edict (197) - Roll a d20.
+Add To Stack: Dominic triggered Impulsive Pilferer
+Resolve Stack: When Impulsive Pilferer dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Impulsive Pilferer (80)]
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 6 (Jackson Wadankle)
+Information: BOARD turn 6 (Jackson Wadankle) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2)
+Information: BOARD turn 6 (Jackson Wadankle) | Summer | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 6 (Jackson Wadankle) | Jackson Wadankle | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Grand Abolisher(2); Plains(land); Imperious Oligarch(2); Swamp(land); Go for the Throat(2)
+Information: BOARD turn 6 (Jackson Wadankle) | Jasmine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3); Plains(land)
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Plains (307)
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Phase: Jackson Wadankle's Declare Blockers Step
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Land: Jackson Wadankle picked {B}
+Mana: Path of Ancestry (222) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (307) - {T}: Add {W}.
+Add To Stack: Jackson Wadankle cast Imperious Oligarch
+Information: BOARD cast | Imperious Oligarch (mv 2) by Jackson Wadankle | open mana: Dominic 1, Summer 0, Jasmine 1
+Resolve Stack: Imperious Oligarch - Creature 2 / 1
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 7 (Jasmine)
+Information: BOARD turn 7 (Jasmine) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2)
+Information: BOARD turn 7 (Jasmine) | Summer | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 7 (Jasmine) | Jackson Wadankle | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 7 (Jasmine) | Jasmine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Champions from Beyond(2); Temple of Triumph(land); Plains(land); Akroma's Will(4); Staff of the Storyteller(2); Dazzling Angel(3); Plains(land)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Land: Jasmine played Plains (407)
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Phase: Jasmine's Declare Blockers Step
+Phase: Jasmine's First Strike Damage Step
+Phase: Jasmine's Combat Damage Step
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Plains (407) - {T}: Add {W}.
+Add To Stack: Jasmine cast Staff of the Storyteller
+Information: BOARD cast | Staff of the Storyteller (mv 2) by Jasmine | open mana: Dominic 1, Summer 0, Jackson Wadankle 0
+Resolve Stack: Staff of the Storyteller
+Add To Stack: Jasmine triggered Staff of the Storyteller
+Resolve Stack: When Staff of the Storyteller enters, create a 1/1 white Spirit creature token with flying. [Zone Changer: Staff of the Storyteller (331)]
+Add To Stack: Jasmine triggered Staff of the Storyteller
+Resolve Stack: Whenever you create one or more creature tokens, put a story counter on Staff of the Storyteller.
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rakdos Signet(2); Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2)
+Information: BOARD turn 8 (Dominic) | Summer | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 8 (Dominic) | Jackson Wadankle | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 8 (Dominic) | Jasmine | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Dazzling Angel(3); Plains(land); Martial Coup(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Mountain (86) - {T}: Add {R}.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Rakdos Signet
+Information: BOARD cast | Rakdos Signet (mv 2) by Dominic | open mana: Summer 0, Jackson Wadankle 0, Jasmine 0
+Resolve Stack: Rakdos Signet
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 9 (Summer)
+Information: BOARD turn 9 (Summer) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2)
+Information: BOARD turn 9 (Summer) | Summer | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Swiftfoot Boots(2); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 9 (Summer) | Jackson Wadankle | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 9 (Summer) | Jasmine | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Dazzling Angel(3); Plains(land); Martial Coup(2)
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Summer played Blood Crypt (113)
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Land: Summer picked {W}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sulfurous Springs (166) - {T}: Add {C}.
+Add To Stack: Summer cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Summer | open mana: Dominic 0, Jackson Wadankle 0, Jasmine 0
+Resolve Stack: Swiftfoot Boots
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 10 (Jackson Wadankle)
+Information: BOARD turn 10 (Jackson Wadankle) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2)
+Information: BOARD turn 10 (Jackson Wadankle) | Summer | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4)
+Information: BOARD turn 10 (Jackson Wadankle) | Jackson Wadankle | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 10 (Jackson Wadankle) | Jasmine | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Dazzling Angel(3); Plains(land); Martial Coup(2)
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Great Hall of the Citadel (309)
+Land: Jackson Wadankle picked {B}
+Mana: Path of Ancestry (222) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (307) - {T}: Add {W}.
+Mana: Great Hall of the Citadel (309) - {T}: Add {C}.
+Add To Stack: Jackson Wadankle cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Jackson Wadankle | open mana: Dominic 0, Summer 0, Jasmine 0
+Add To Stack: Jackson Wadankle triggered Path of Ancestry
+Resolve Stack: Jackson Wadankle scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Athreos, God of Passage - Creature 5 / 4]) [Card: Athreos, God of Passage (312), Activator: Jackson Wadankle, SpellAbility: Athreos, God of Passage - Creature 5 / 4]
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Combat: Jackson Wadankle assigned Imperious Oligarch (234) to attack Dominic.
+Information: BOARD attack | Jackson Wadankle -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Jackson Wadankle's Declare Blockers Step
+Combat: Dominic didn't block Imperious Oligarch (234).
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Damage: Imperious Oligarch (234) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 11 (Jasmine)
+Information: BOARD turn 11 (Jasmine) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2)
+Information: BOARD turn 11 (Jasmine) | Summer | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4)
+Information: BOARD turn 11 (Jasmine) | Jackson Wadankle | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 11 (Jasmine) | Jasmine | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Dazzling Angel(3); Plains(land); Martial Coup(2)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Land: Jasmine played Mountain (392)
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Combat: Jasmine assigned Spirit Token (422) to attack Jackson Wadankle.
+Information: BOARD attack | Jasmine -> Jackson Wadankle | attackers 1 (power 1) | defender life 40 | untapped creatures 1 (power 2): Imperious Oligarch 2/1 | open mana 0
+Phase: Jasmine's Declare Blockers Step
+Combat: Jackson Wadankle didn't block Spirit Token (422).
+Phase: Jasmine's First Strike Damage Step
+Phase: Jasmine's Combat Damage Step
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 40 > 39
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Plains (407) - {T}: Add {W}.
+Add To Stack: Jasmine cast Dazzling Angel
+Information: BOARD cast | Dazzling Angel (mv 3) by Jasmine | open mana: Dominic 0, Summer 0, Jackson Wadankle 0
+Resolve Stack: Dazzling Angel - Creature 2 / 3
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tinybones, the Pickpocket(1); Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2)
+Information: BOARD turn 12 (Dominic) | Summer | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4)
+Information: BOARD turn 12 (Dominic) | Jackson Wadankle | life 39 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 12 (Dominic) | Jasmine | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Spirit Token 1/1*; Dazzling Angel 2/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Plains(land); Martial Coup(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Mountain (86) - {T}: Add {R}.
+Mana: Rakdos Signet (22) - {1}, {T}: Add {B}{R}.
+Add To Stack: Dominic cast Tinybones, the Pickpocket
+Information: BOARD cast | Tinybones, the Pickpocket (mv 1) by Dominic | open mana: Summer 0, Jackson Wadankle 0, Jasmine 0
+Resolve Stack: Tinybones, the Pickpocket - Creature 1 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 13 (Summer)
+Information: BOARD turn 13 (Summer) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 13 (Summer) | Summer | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Luxury Suite(land); Shattered Sanctum(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4)
+Information: BOARD turn 13 (Summer) | Jackson Wadankle | life 39 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 13 (Summer) | Jasmine | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Spirit Token 1/1*; Dazzling Angel 2/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Plains(land); Martial Coup(2)
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Summer played Shattered Sanctum (108)
+Land: Summer picked {W}
+Mana: Shattered Sanctum (108) - {T}: Add {W} or {B}.
+Mana: Blood Crypt (113) - {T}: Add {B}.
+Land: Summer picked {R}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Summer cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Summer | open mana: Dominic 0, Jackson Wadankle 0, Jasmine 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Sulfurous Springs (166) - {T}: Add {C}.
+Add To Stack: Summer activated Swiftfoot Boots targeting [Mr. House, President and CEO (201)]
+Resolve Stack: Swiftfoot Boots (174) -  Attach to Mr. House, President and CEO (201)
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 14 (Jackson Wadankle)
+Information: BOARD turn 14 (Jackson Wadankle) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 14 (Jackson Wadankle) | Summer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Luxury Suite(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4); Blind Obedience(2)
+Information: BOARD turn 14 (Jackson Wadankle) | Jackson Wadankle | life 39 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Swamp(land); Go for the Throat(2); Plains(land)
+Information: BOARD turn 14 (Jackson Wadankle) | Jasmine | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Spirit Token 1/1*; Dazzling Angel 2/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Plains(land); Martial Coup(2)
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Land: Jackson Wadankle picked {B}
+Mana: Path of Ancestry (222) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (307) - {T}: Add {W}.
+Add To Stack: Jackson Wadankle cast Go for the Throat targeting [Dazzling Angel (320)]
+Information: BOARD cast | Go for the Throat (mv 2) by Jackson Wadankle | open mana: Dominic 0, Summer 0, Jasmine 0
+Zone Change: Dazzling Angel (320) was put into Graveyard from Battlefield.
+Resolve Stack: Go for the Throat (213) - Destroy Dazzling Angel (320).
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Swamp (268)
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Combat: Jackson Wadankle assigned Imperious Oligarch (234) to attack Jasmine.
+Information: BOARD attack | Jackson Wadankle -> Jasmine | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Jackson Wadankle's Declare Blockers Step
+Combat: Jasmine didn't block Imperious Oligarch (234).
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Damage: Imperious Oligarch (234) deals 2 combat damage to Jasmine.
+Life: Life: Jasmine 40 > 38
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 15 (Jasmine)
+Information: BOARD turn 15 (Jasmine) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 15 (Jasmine) | Summer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Luxury Suite(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4); Blind Obedience(2)
+Information: BOARD turn 15 (Jasmine) | Jackson Wadankle | life 39 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Plains(land); Midnight Reaper(3)
+Information: BOARD turn 15 (Jasmine) | Jasmine | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Spirit Token 1/1* | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Plains(land); Martial Coup(2)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Land: Jasmine played Plains (398)
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Add To Stack: Jasmine cast Neyali, Suns' Vanguard
+Information: BOARD cast | Neyali, Suns' Vanguard (mv 4) by Jasmine | open mana: Dominic 0, Summer 0, Jackson Wadankle 4
+Resolve Stack: Neyali, Suns' Vanguard - Creature 3 / 3
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Combat: Jasmine assigned Spirit Token (422) to attack Jackson Wadankle.
+Information: BOARD attack | Jasmine -> Jackson Wadankle | attackers 1 (power 1) | defender life 39 | untapped creatures 1 (power 2): Imperious Oligarch 2/1 | open mana 4
+Add To Stack: Jasmine triggered Neyali, Suns' Vanguard
+Resolve Stack: Whenever one or more tokens you control attack a player, exile the top card of your library. During any turn you attacked with a token, you may play that card. [Number Attackers: [Spirit Token (422)]]
+Phase: Jasmine's Declare Blockers Step
+Combat: Jackson Wadankle didn't block Spirit Token (422).
+Phase: Jasmine's First Strike Damage Step
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 39 > 38
+Phase: Jasmine's Combat Damage Step
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 38 > 37
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Dominic | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4)
+Information: BOARD turn 16 (Dominic) | Summer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Luxury Suite(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4); Blind Obedience(2)
+Information: BOARD turn 16 (Dominic) | Jackson Wadankle | life 37 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Plains(land); Midnight Reaper(3)
+Information: BOARD turn 16 (Dominic) | Jasmine | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Martial Coup(2); Wind-Scarred Crag(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 17 (Summer)
+Information: BOARD turn 17 (Summer) | Dominic | life 38 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4)
+Information: BOARD turn 17 (Summer) | Summer | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Luxury Suite(land); Norn's Annex(5); Haunted Ridge(land); Pitiless Plunderer(4); Blind Obedience(2)
+Information: BOARD turn 17 (Summer) | Jackson Wadankle | life 37 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Plains(land); Midnight Reaper(3)
+Information: BOARD turn 17 (Summer) | Jasmine | life 38 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Martial Coup(2); Wind-Scarred Crag(land)
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Summer played Luxury Suite (132)
+Land: Summer picked {W}
+Mana: Shattered Sanctum (108) - {T}: Add {W} or {B}.
+Land: Summer picked {B}
+Mana: Luxury Suite (132) - {T}: Add {B} or {R}.
+Add To Stack: Summer cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by Summer | open mana: Dominic 2, Jackson Wadankle 4, Jasmine 0
+Resolve Stack: Blind Obedience
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Mana: Blood Crypt (113) - {T}: Add {R}.
+Land: Summer picked {W}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Discard: Summer discards Haunted Ridge (186).
+Discard: Summer discards Norn's Annex (160).
+Add To Stack: Summer cast Cathartic Reunion
+Information: BOARD cast | Cathartic Reunion (mv 2) by Summer | open mana: Dominic 2, Jackson Wadankle 4, Jasmine 0
+Add To Stack: Summer triggered Blind Obedience
+Land: Summer picked {B}
+Damage: Sulfurous Springs (166) deals 1 non-combat damage to Summer.
+Life: Life: Summer 40 > 39
+Mana: Sulfurous Springs (166) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Life: Life: Jackson Wadankle 37 > 36
+Life: Life: Jasmine 38 > 37
+Life: Life: Dominic 38 > 37
+Life: Life: Summer 39 > 42
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Cathartic Reunion (128), Activator: Summer, SpellAbility: As an additional cost to cast this spell, discard two cards. Draw three cards.]
+Resolve Stack: Cathartic Reunion (128) - Summer draws three cards.
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 18 (Jackson Wadankle)
+Information: BOARD turn 18 (Jackson Wadankle) | Dominic | life 37 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4)
+Information: BOARD turn 18 (Jackson Wadankle) | Summer | life 42 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Ash Barrens(land); Terminate(2); Skullclamp(1)
+Information: BOARD turn 18 (Jackson Wadankle) | Jackson Wadankle | life 36 | hand 3 | lands 4 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Imperious Oligarch 2/1 | hand cards: Grand Abolisher(2); Plains(land); Midnight Reaper(3)
+Information: BOARD turn 18 (Jackson Wadankle) | Jasmine | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Martial Coup(2); Wind-Scarred Crag(land)
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Plains (306)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (307) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Jackson Wadankle cast Midnight Reaper
+Information: BOARD cast | Midnight Reaper (mv 3) by Jackson Wadankle | open mana: Dominic 2, Summer 0, Jasmine 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Midnight Reaper - Creature 3 / 2
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Combat: Jackson Wadankle assigned Imperious Oligarch (234) to attack Summer.
+Information: BOARD attack | Jackson Wadankle -> Summer | attackers 1 (power 2) | defender life 42 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4[Swiftfoot Boots] | open mana 0
+Phase: Jackson Wadankle's Declare Blockers Step
+Combat: Summer assigned Mr. House, President and CEO (201) to block Imperious Oligarch (234).
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Damage: Imperious Oligarch (234) deals 2 damage to Mr. House, President and CEO (201).
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 19 (Jasmine)
+Information: BOARD turn 19 (Jasmine) | Dominic | life 37 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4)
+Information: BOARD turn 19 (Jasmine) | Summer | life 42 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Ash Barrens(land); Terminate(2); Skullclamp(1)
+Information: BOARD turn 19 (Jasmine) | Jackson Wadankle | life 36 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Imperious Oligarch 2/1; Midnight Reaper 3/2* | hand cards: Grand Abolisher(2); Sign in Blood(2)
+Information: BOARD turn 19 (Jasmine) | Jasmine | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Akroma's Will(4); Martial Coup(2); Wind-Scarred Crag(land)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Add To Stack: Jasmine cast Akroma's Will
+Information: BOARD cast | Akroma's Will (mv 4) by Jasmine | open mana: Dominic 2, Summer 0, Jackson Wadankle 5
+Resolve Stack: Akroma's Will (325) -  Creatures you control gain flying, vigilance, and double strike until end of turn. Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Land: Jasmine played Mountain (386)
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Combat: Jasmine assigned Neyali, Suns' Vanguard (413) and Spirit Token (422) to attack Jackson Wadankle.
+Information: BOARD attack | Jasmine -> Jackson Wadankle | attackers 2 (power 4) | defender life 36 | untapped creatures 1 (power 2): Imperious Oligarch 2/1 | open mana 5
+Add To Stack: Jasmine triggered Neyali, Suns' Vanguard
+Resolve Stack: Whenever one or more tokens you control attack a player, exile the top card of your library. During any turn you attacked with a token, you may play that card. [Number Attackers: [Spirit Token (422)]]
+Phase: Jasmine's Declare Blockers Step
+Combat: Jackson Wadankle didn't block Neyali, Suns' Vanguard (413).
+Jackson Wadankle didn't block Spirit Token (422).
+Phase: Jasmine's First Strike Damage Step
+Damage: Neyali, Suns' Vanguard (413) deals 3 combat damage to Jackson Wadankle.
+Life: Life: Jasmine 37 > 40
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jasmine 40 > 41
+Life: Life: Jackson Wadankle 36 > 32
+Phase: Jasmine's Combat Damage Step
+Damage: Neyali, Suns' Vanguard (413) deals 3 combat damage to Jackson Wadankle.
+Life: Life: Jasmine 41 > 44
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jasmine 44 > 45
+Life: Life: Jackson Wadankle 32 > 28
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 37 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Trailblazer's Boots(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4)
+Information: BOARD turn 20 (Dominic) | Summer | life 42 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Ash Barrens(land); Terminate(2); Skullclamp(1)
+Information: BOARD turn 20 (Dominic) | Jackson Wadankle | life 28 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Imperious Oligarch 2/1; Midnight Reaper 3/2* | hand cards: Grand Abolisher(2); Sign in Blood(2)
+Information: BOARD turn 20 (Dominic) | Jasmine | life 45 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Spirit Token 1/1; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land)
+Information: BOARD threat | turn 20 | Neyali, Suns' Vanguard (Jasmine) 61
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Tinybones, the Pickpocket (5) to attack Summer.
+Information: BOARD attack | Dominic -> Summer | attackers 1 (power 1) | defender life 42 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4[Swiftfoot Boots] | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Summer didn't block Tinybones, the Pickpocket (5).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Tinybones, the Pickpocket (5) deals 1 combat damage to Summer.
+Life: Life: Summer 42 > 41
+Add To Stack: Dominic triggered Tinybones, the Pickpocket targeting [Norn's Annex (160)]
+Phase: devDominic's Combat Damage Step
+Resolve Stack: Whenever Tinybones, the Pickpocket deals combat damage to a player, you may cast target nonland permanent card from that player's graveyard, and mana of any type can be spent to cast that spell. (Targeting: [[Norn's Annex (160)]]) [Damage Source: Tinybones, the Pickpocket (5), Damaged: Summer, Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Mountain (86) - {T}: Add {R}.
+Phase: devDominic's Main phase, postcombat
+Phase: devDominic's Main phase, postcombat
+Phase: devDominic's Main phase, postcombat
+Mana: Mountain (86) - {T}: Add {R}.
+Phase: devDominic's Main phase, postcombat
+Mana: Mountain (86) - {T}: Add {R}.
+Add To Stack: Dominic cast Trailblazer's Boots
+Information: BOARD cast | Trailblazer's Boots (mv 2) by Dominic | open mana: Summer 0, Jackson Wadankle 5, Jasmine 1
+Phase: devDominic's Main phase, postcombat
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Trailblazer's Boots
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 21 (Summer)
+Information: BOARD turn 21 (Summer) | Dominic | life 37 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Professional Face-Breaker(3)
+Information: BOARD turn 21 (Summer) | Summer | life 41 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Ash Barrens(land); Terminate(2); Skullclamp(1)
+Information: BOARD turn 21 (Summer) | Jackson Wadankle | life 28 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Imperious Oligarch 2/1; Midnight Reaper 3/2* | hand cards: Grand Abolisher(2); Sign in Blood(2)
+Information: BOARD turn 21 (Summer) | Jasmine | life 45 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Spirit Token 1/1; Neyali, Suns' Vanguard 3/3 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land)
+Information: BOARD threat | turn 21 | Neyali, Suns' Vanguard (Jasmine) 59
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Land: Summer picked {R}
+Mana: Luxury Suite (132) - {T}: Add {B} or {R}.
+Land: Summer picked {B}
+Mana: Shattered Sanctum (108) - {T}: Add {W} or {B}.
+Add To Stack: Summer cast Terminate targeting [Neyali, Suns' Vanguard (413)]
+Information: BOARD cast | Terminate (mv 2) by Summer | open mana: Dominic 0, Jackson Wadankle 5, Jasmine 1
+Add To Stack: Summer triggered Blind Obedience
+Mana: Blood Crypt (113) - {T}: Add {B}.
+Life: Life: Jackson Wadankle 28 > 27
+Life: Life: Jasmine 45 > 44
+Life: Life: Dominic 37 > 36
+Life: Life: Summer 41 > 44
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Terminate (176), Activator: Summer, SpellAbility: Destroy target creature. It can't be regenerated.]
+Zone Change: Neyali, Suns' Vanguard (413) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (176) - Destroy Neyali, Suns' Vanguard (413). It can't be regenerated.
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Land: Summer played Ash Barrens (168)
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Add To Stack: Summer cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Summer | open mana: Dominic 0, Jackson Wadankle 5, Jasmine 1
+Add To Stack: Summer triggered Blind Obedience
+Land: Summer picked {W}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Life: Life: Jackson Wadankle 27 > 26
+Life: Life: Jasmine 44 > 43
+Life: Life: Dominic 36 > 35
+Life: Life: Summer 44 > 47
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Skullclamp (195), Activator: Summer, SpellAbility: Skullclamp]
+Resolve Stack: Skullclamp
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 22 (Jackson Wadankle)
+Information: BOARD turn 22 (Jackson Wadankle) | Dominic | life 35 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Professional Face-Breaker(3)
+Information: BOARD turn 22 (Jackson Wadankle) | Summer | life 47 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Plains(land)
+Information: BOARD turn 22 (Jackson Wadankle) | Jackson Wadankle | life 26 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Imperious Oligarch 2/1; Midnight Reaper 3/2* | hand cards: Grand Abolisher(2); Sign in Blood(2)
+Information: BOARD turn 22 (Jackson Wadankle) | Jasmine | life 43 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land)
+Information: BOARD threat | turn 22 | Blind Obedience (Summer) 41
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Swamp (275)
+Mana: Plains (307) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Jackson Wadankle cast Grand Abolisher
+Information: BOARD cast | Grand Abolisher (mv 2) by Jackson Wadankle | open mana: Dominic 0, Summer 3, Jasmine 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Grand Abolisher - Creature 2 / 2
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Combat: Jackson Wadankle assigned Athreos, God of Passage (312) and Midnight Reaper (286) to attack Jasmine.
+Jackson Wadankle assigned Imperious Oligarch (234) to attack Summer.
+Information: BOARD attack | Jackson Wadankle -> Jasmine | attackers 2 (power 8) | defender life 43 | untapped creatures 1 (power 1): Spirit Token 1/1 | open mana 1
+Information: BOARD attack | Jackson Wadankle -> Summer | attackers 1 (power 2) | defender life 47 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4[Swiftfoot Boots] | open mana 3
+Phase: Jackson Wadankle's Declare Blockers Step
+Combat: Jasmine didn't block Athreos, God of Passage (312).
+Jasmine didn't block Midnight Reaper (286).
+Combat: Summer assigned Mr. House, President and CEO (201) to block Imperious Oligarch (234).
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Damage: Imperious Oligarch (234) deals 2 damage to Mr. House, President and CEO (201).
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Jasmine.
+Damage: Midnight Reaper (286) deals 3 combat damage to Jasmine.
+Life: Life: Jasmine 43 > 35
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Swamp (275) - {T}: Add {B}.
+Add To Stack: Jackson Wadankle cast Sign in Blood targeting [Jackson Wadankle]
+Information: BOARD cast | Sign in Blood (mv 2) by Jackson Wadankle | open mana: Dominic 0, Summer 3, Jasmine 1
+Life: Life: Jackson Wadankle 26 > 24
+Resolve Stack: Sign in Blood (295) - Jackson Wadankle draws two cards. Jackson Wadankle loses 2 life.
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 23 (Jasmine)
+Information: BOARD turn 23 (Jasmine) | Dominic | life 35 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Professional Face-Breaker(3)
+Information: BOARD turn 23 (Jasmine) | Summer | life 47 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Plains(land)
+Information: BOARD turn 23 (Jasmine) | Jackson Wadankle | life 24 | hand 2 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 4 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2* | hand cards: Bastion of Remembrance(3); Swamp(land)
+Information: BOARD turn 23 (Jasmine) | Jasmine | life 35 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirit Token 1/1 | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land)
+Information: BOARD threat | turn 23 | Blind Obedience (Summer) 39
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Combat: Jasmine assigned Spirit Token (422) to attack Jackson Wadankle.
+Information: BOARD attack | Jasmine -> Jackson Wadankle | attackers 1 (power 1) | defender life 24 | untapped creatures 1 (power 2): Imperious Oligarch 2/1 | open mana 5
+Phase: Jasmine's Declare Blockers Step
+Combat: Jackson Wadankle didn't block Spirit Token (422).
+Phase: Jasmine's First Strike Damage Step
+Phase: Jasmine's Combat Damage Step
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 24 > 23
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Land: Jasmine played Kher Keep (349)
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Kher Keep (349) - {T}: Add {C}.
+Add To Stack: Jasmine cast Neyali, Suns' Vanguard
+Information: BOARD cast | Neyali, Suns' Vanguard (mv 4) by Jasmine | open mana: Dominic 0, Summer 3, Jackson Wadankle 5
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Neyali, Suns' Vanguard - Creature 3 / 3
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 35 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Tinybones, the Pickpocket 1/1* | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Professional Face-Breaker(3)
+Information: BOARD turn 24 (Dominic) | Summer | life 47 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Plains(land)
+Information: BOARD turn 24 (Dominic) | Jackson Wadankle | life 23 | hand 2 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 4 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2* | hand cards: Bastion of Remembrance(3); Swamp(land)
+Information: BOARD turn 24 (Dominic) | Jasmine | life 35 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3* | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land); Toby, Beastie Befriender(3)
+Information: BOARD threat | turn 24 | Blind Obedience (Summer) 38
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Professional Face-Breaker (20).
+Turn: Turn 25 (Summer)
+Information: BOARD turn 25 (Summer) | Dominic | life 35 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Vandalblast(1)
+Information: BOARD turn 25 (Summer) | Summer | life 47 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots] | hand cards: Pitiless Plunderer(4); Plains(land)
+Information: BOARD turn 25 (Summer) | Jackson Wadankle | life 23 | hand 2 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 4 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2* | hand cards: Bastion of Remembrance(3); Swamp(land)
+Information: BOARD turn 25 (Summer) | Jasmine | life 35 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3* | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land); Toby, Beastie Befriender(3)
+Information: BOARD threat | turn 25 | Blind Obedience (Summer) 36
+Phase: Summer's Untap step
+Phase: Summer's Upkeep step
+Phase: Summer's Draw step
+Phase: Summer's Main phase, precombat
+Land: Summer picked {B}
+Mana: Shattered Sanctum (108) - {T}: Add {W} or {B}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Add To Stack: Summer cast The Soul Stone
+Information: BOARD cast | The Soul Stone (mv 2) by Summer | open mana: Dominic 2, Jackson Wadankle 5, Jasmine 0
+Add To Stack: Summer triggered Blind Obedience
+Land: Summer picked {B}
+Mana: Luxury Suite (132) - {T}: Add {B} or {R}.
+Life: Life: Jackson Wadankle 23 > 22
+Life: Life: Jasmine 35 > 34
+Life: Life: Dominic 35 > 34
+Life: Life: Summer 47 > 50
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: The Soul Stone (159), Activator: Summer, SpellAbility: The Soul Stone]
+Resolve Stack: The Soul Stone
+Phase: Summer's Beginning of Combat Step
+Phase: Summer's Declare Attackers Step
+Phase: Summer's Declare Blockers Step
+Phase: Summer's First Strike Damage Step
+Phase: Summer's Combat Damage Step
+Phase: Summer's End of Combat Step
+Phase: Summer's Main phase, postcombat
+Mana: Blood Crypt (113) - {T}: Add {B}.
+Land: Summer picked {W}
+Mana: Command Tower (200) - {T}: Add one mana of any color in your commander's color identity.
+Mana: The Soul Stone (159) - {T}: Add {B}.
+Mana: Sulfurous Springs (166) - {T}: Add {C}.
+Add To Stack: Summer cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Summer | open mana: Dominic 2, Jackson Wadankle 5, Jasmine 0
+Add To Stack: Summer triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Pitiless Plunderer (144), Activator: Summer, SpellAbility: Pitiless Plunderer - Creature 1 / 4]
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Phase: Summer's End step
+Phase: Summer's Cleanup step
+Turn: Turn 26 (Jackson Wadankle)
+Information: BOARD turn 26 (Jackson Wadankle) | Dominic | life 34 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Vandalblast(1)
+Information: BOARD turn 26 (Jackson Wadankle) | Summer | life 50 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Pitiless Plunderer 1/4 | hand cards: Plains(land)
+Information: BOARD turn 26 (Jackson Wadankle) | Jackson Wadankle | life 22 | hand 2 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 4 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2* | hand cards: Bastion of Remembrance(3); Swamp(land)
+Information: BOARD turn 26 (Jackson Wadankle) | Jasmine | life 34 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3* | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land); Toby, Beastie Befriender(3)
+Information: BOARD threat | turn 26 | Blind Obedience (Summer) 64
+Phase: Jackson Wadankle's Untap step
+Phase: Jackson Wadankle's Upkeep step
+Phase: Jackson Wadankle's Draw step
+Phase: Jackson Wadankle's Main phase, precombat
+Land: Jackson Wadankle played Swamp (271)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Swamp (275) - {T}: Add {B}.
+Mana: Swamp (271) - {T}: Add {B}.
+Add To Stack: Jackson Wadankle cast Bastion of Remembrance
+Information: BOARD cast | Bastion of Remembrance (mv 3) by Jackson Wadankle | open mana: Dominic 2, Summer 0, Jasmine 0
+Resolve Stack: Bastion of Remembrance
+Add To Stack: Jackson Wadankle triggered Bastion of Remembrance
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When Bastion of Remembrance enters, create a 1/1 white Human Soldier creature token. [Zone Changer: Bastion of Remembrance (244)]
+Phase: Jackson Wadankle's Beginning of Combat Step
+Phase: Jackson Wadankle's Declare Attackers Step
+Combat: Jackson Wadankle assigned Imperious Oligarch (234), Athreos, God of Passage (312), Midnight Reaper (286) and Grand Abolisher (288) to attack Jasmine.
+Information: BOARD attack | Jackson Wadankle -> Jasmine | attackers 4 (power 12) | defender life 34 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Jackson Wadankle's Declare Blockers Step
+Combat: Jasmine didn't block Imperious Oligarch (234).
+Jasmine didn't block Athreos, God of Passage (312).
+Jasmine didn't block Midnight Reaper (286).
+Jasmine didn't block Grand Abolisher (288).
+Phase: Jackson Wadankle's First Strike Damage Step
+Phase: Jackson Wadankle's Combat Damage Step
+Damage: Imperious Oligarch (234) deals 2 combat damage to Jasmine.
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Jasmine.
+Damage: Midnight Reaper (286) deals 3 combat damage to Jasmine.
+Damage: Grand Abolisher (288) deals 2 combat damage to Jasmine.
+Life: Life: Jasmine 34 > 22
+Phase: Jackson Wadankle's End of Combat Step
+Phase: Jackson Wadankle's Main phase, postcombat
+Mana: Plains (307) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Land: Jackson Wadankle picked {W}
+Mana: Path of Ancestry (222) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Jackson Wadankle cast Commander's Sphere
+Information: BOARD cast | Commander's Sphere (mv 3) by Jackson Wadankle | open mana: Dominic 2, Summer 0, Jasmine 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Commander's Sphere
+Zone Change: Commander's Sphere (225) was put into Graveyard from Battlefield.
+Add To Stack: Jackson Wadankle activated Commander's Sphere
+Resolve Stack: Commander's Sphere (225) - Jackson Wadankle draws a card.
+Phase: Jackson Wadankle's End step
+Phase: Jackson Wadankle's Cleanup step
+Turn: Turn 27 (Jasmine)
+Information: BOARD turn 27 (Jasmine) | Dominic | life 34 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Vandalblast(1)
+Information: BOARD turn 27 (Jasmine) | Summer | life 50 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Pitiless Plunderer 1/4 | hand cards: Plains(land)
+Information: BOARD turn 27 (Jasmine) | Jackson Wadankle | life 22 | hand 1 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2*; Human Soldier Token 1/1* | hand cards: Magister of Worth(6)
+Information: BOARD turn 27 (Jasmine) | Jasmine | life 22 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3* | hand cards: Champions from Beyond(2); Temple of Triumph(land); Martial Coup(2); Wind-Scarred Crag(land); Toby, Beastie Befriender(3)
+Information: BOARD threat | turn 27 | Blind Obedience (Summer) 61; Athreos, God of Passage (Jackson Wadankle) 53; Midnight Reaper (Jackson Wadankle) 32
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Combat: Jasmine assigned Neyali, Suns' Vanguard (413) and Spirit Token (422) to attack Jackson Wadankle.
+Information: BOARD attack | Jasmine -> Jackson Wadankle | attackers 2 (power 4) | defender life 22 | untapped creatures 1 (power 2): Imperious Oligarch 2/1 | open mana 3
+Add To Stack: Jasmine triggered Neyali, Suns' Vanguard
+Resolve Stack: Whenever one or more tokens you control attack a player, exile the top card of your library. During any turn you attacked with a token, you may play that card. [Number Attackers: [Spirit Token (422)]]
+Phase: Jasmine's Declare Blockers Step
+Combat: Jackson Wadankle didn't block Neyali, Suns' Vanguard (413).
+Jackson Wadankle didn't block Spirit Token (422).
+Phase: Jasmine's First Strike Damage Step
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 22 > 21
+Phase: Jasmine's Combat Damage Step
+Damage: Neyali, Suns' Vanguard (413) deals 3 combat damage to Jackson Wadankle.
+Damage: Spirit Token (422) deals 1 combat damage to Jackson Wadankle.
+Life: Life: Jackson Wadankle 21 > 17
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Jasmine played Temple of Triumph (385)
+Add To Stack: Jasmine triggered Temple of Triumph
+Resolve Stack: Jasmine scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (385)]
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Mountain (386) - {T}: Add {R}.
+Add To Stack: Jasmine cast Toby, Beastie Befriender
+Information: BOARD cast | Toby, Beastie Befriender (mv 3) by Jasmine | open mana: Dominic 2, Summer 0, Jackson Wadankle 3
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Toby, Beastie Befriender - Creature 1 / 1
+Add To Stack: Jasmine triggered Toby, Beastie Befriender
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When Toby, Beastie Befriender enters, create a 4/4 white Beast creature token with "This creature can't attack or block alone." [Zone Changer: Toby, Beastie Befriender (338)]
+Add To Stack: Jasmine triggered Staff of the Storyteller
+Resolve Stack: Whenever you create one or more creature tokens, put a story counter on Staff of the Storyteller.
+Mana: Plains (407) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Kher Keep (349) - {T}: Add {C}.
+Add To Stack: Jasmine cast Champions from Beyond
+Information: BOARD cast | Champions from Beyond (mv 3) by Jasmine | open mana: Dominic 2, Summer 0, Jackson Wadankle 3
+Resolve Stack: Champions from Beyond (X=1)
+Add To Stack: Jasmine triggered Champions from Beyond
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When this enchantment enters, create X 1/1 colorless Hero creature tokens. [Zone Changer: Champions from Beyond (363)]
+Add To Stack: Jasmine triggered Staff of the Storyteller
+Resolve Stack: Whenever you create one or more creature tokens, put a story counter on Staff of the Storyteller.
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 34 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Tinybones, the Pickpocket 1/1 | hand cards: Zirda, the Dawnwaker(3); Painful Truths(3); Everybody Lives!(2); Grenzo, Havoc Raiser(2); Mondrak, Glory Dominus(4); Pitiless Plunderer(4); Vandalblast(1)
+Information: BOARD turn 28 (Dominic) | Summer | life 50 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Pitiless Plunderer 1/4 | hand cards: Plains(land)
+Information: BOARD turn 28 (Dominic) | Jackson Wadankle | life 17 | hand 1 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 5 (1 untapped): Imperious Oligarch 2/1; Athreos, God of Passage 5/4*; Midnight Reaper 3/2*; Grand Abolisher 2/2*; Human Soldier Token 1/1* | hand cards: Magister of Worth(6)
+Information: BOARD turn 28 (Dominic) | Jasmine | life 22 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (0 untapped): Spirit Token 1/1*; Neyali, Suns' Vanguard 3/3*; Toby, Beastie Befriender 1/1*; Beast Token 4/4*; Hero Token 1/1* | hand cards: Martial Coup(2); Wind-Scarred Crag(land); Secure the Wastes(1)
+Information: BOARD threat | turn 28 | Blind Obedience (Summer) 59; Athreos, God of Passage (Jackson Wadankle) 51; Staff of the Storyteller (Jasmine) 42; Spirit Token (Jasmine) 35; Neyali, Suns' Vanguard (Jasmine) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+
+Game Result: unfinished (Forge closed mid-game)

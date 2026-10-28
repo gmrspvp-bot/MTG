@@ -1,0 +1,1666 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Derand (HUMAN) deck=Mr House v4
+Player: Sutlin (AI) deck=Alec
+Player: Naphates (AI) deck=Deadpool v3
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Sutlin has mulliganed down to 7 cards.
+Mulligan: Naphates has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 6 cards.
+Mulligan: Sutlin has mulliganed down to 6 cards.
+Mulligan: Naphates has mulliganed down to 6 cards.
+Mulligan: Sutlin has mulliganed down to 5 cards.
+Mulligan: Dominic has kept a hand of 6 cards
+Mulligan: Derand has kept a hand of 7 cards
+Mulligan: Sutlin has kept a hand of 5 cards
+Mulligan: Naphates has kept a hand of 6 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); Blackcleave Cliffs(land); Temple of Malice(land); The Reaver Cleaver(3); Path to Exile(1)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Sol Ring(1); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Plains(land); Big Score(4); Brightclimb Pathway(land)
+Information: BOARD turn 1 (Dominic) | Sutlin | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 1 (Dominic) | Naphates | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Swamp(land); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Dominic played Temple of Malice (8)
+Add To Stack: Dominic triggered Temple of Malice
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (8)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Derand)
+Information: BOARD turn 2 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); Blackcleave Cliffs(land); The Reaver Cleaver(3); Path to Exile(1); Mountain(land)
+Information: BOARD turn 2 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Sol Ring(1); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Plains(land); Big Score(4); Brightclimb Pathway(land)
+Information: BOARD turn 2 (Derand) | Sutlin | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 2 (Derand) | Naphates | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Swamp(land); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (192)
+Mana: Plains (192) - {T}: Add {W}.
+Add To Stack: Derand cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Derand | open mana: Dominic 0, Sutlin 0, Naphates 0
+Resolve Stack: Sol Ring
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 3 (Sutlin)
+Information: BOARD turn 3 (Sutlin) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); Blackcleave Cliffs(land); The Reaver Cleaver(3); Path to Exile(1); Mountain(land)
+Information: BOARD turn 3 (Sutlin) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Brightclimb Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 3 (Sutlin) | Sutlin | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 3 (Sutlin) | Naphates | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Swamp(land); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3)
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Plains (304)
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Mana: Plains (304) - {T}: Add {W}.
+Add To Stack: Sutlin cast Market Gnome
+Information: BOARD cast | Market Gnome (mv 1) by Sutlin | open mana: Dominic 0, Derand 2, Naphates 0
+Resolve Stack: Market Gnome - Creature 0 / 3
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 4 (Naphates)
+Information: BOARD turn 4 (Naphates) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); Blackcleave Cliffs(land); The Reaver Cleaver(3); Path to Exile(1); Mountain(land)
+Information: BOARD turn 4 (Naphates) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Brightclimb Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 4 (Naphates) | Sutlin | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Market Gnome 0/3 | hand cards: Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 4 (Naphates) | Naphates | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Swamp(land); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3)
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Land: Naphates played Swamp (368)
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); Blackcleave Cliffs(land); The Reaver Cleaver(3); Path to Exile(1); Mountain(land)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Brightclimb Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 5 (Dominic) | Sutlin | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Market Gnome 0/3 | hand cards: Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 5 (Dominic) | Naphates | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Blackcleave Cliffs enters tapped unless you control two or fewer other lands.
+Land: Dominic played Blackcleave Cliffs (41)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Derand)
+Information: BOARD turn 6 (Derand) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); The Reaver Cleaver(3); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4)
+Information: BOARD turn 6 (Derand) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Brightclimb Pathway(land); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 6 (Derand) | Sutlin | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Market Gnome 0/3 | hand cards: Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 6 (Derand) | Naphates | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Grimclimb Pathway (117)
+Mana: Plains (192) - {T}: Add {W}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Add To Stack: Derand cast Lotho, Corrupt Shirriff
+Information: BOARD cast | Lotho, Corrupt Shirriff (mv 2) by Derand | open mana: Dominic 6, Sutlin 0, Naphates 1
+Resolve Stack: Lotho, Corrupt Shirriff - Creature 2 / 1
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 7 (Sutlin)
+Information: BOARD turn 7 (Sutlin) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); The Reaver Cleaver(3); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4)
+Information: BOARD turn 7 (Sutlin) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Lotho, Corrupt Shirriff 2/1 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Faithless Looting(1)
+Information: BOARD turn 7 (Sutlin) | Sutlin | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Market Gnome 0/3 | hand cards: Midnight Reaper(3); Plains(land); Corrupted Conviction(1); Orzhov Cluestone(3)
+Information: BOARD turn 7 (Sutlin) | Naphates | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Swamp (272)
+Mana: Swamp (272) - {T}: Add {B}.
+Zone Change: Market Gnome (311) was put into Graveyard from Battlefield.
+Add To Stack: Sutlin cast Corrupted Conviction
+Information: BOARD cast | Corrupted Conviction (mv 1) by Sutlin | open mana: Dominic 6, Derand 2, Naphates 1
+Add To Stack: Sutlin triggered Market Gnome
+Life: Life: Sutlin 40 > 41
+Resolve Stack: When Market Gnome dies, you gain 1 life and draw a card. [Zone Changer: Market Gnome (311)]
+Resolve Stack: Corrupted Conviction (253) - Sutlin draws two cards.
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 8 (Naphates)
+Information: BOARD turn 8 (Naphates) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); The Reaver Cleaver(3); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4)
+Information: BOARD turn 8 (Naphates) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Lotho, Corrupt Shirriff 2/1 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Faithless Looting(1)
+Information: BOARD turn 8 (Naphates) | Sutlin | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Plains(land); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2)
+Information: BOARD turn 8 (Naphates) | Naphates | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Mountain(land); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Land: Naphates played Mountain (392)
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Swamp (368) - {T}: Add {B}.
+Add To Stack: Naphates cast Sabotender
+Information: BOARD cast | Sabotender (mv 2) by Naphates | open mana: Dominic 6, Derand 2, Sutlin 1
+Resolve Stack: Sabotender - Creature 2 / 1
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Desolate Mire(land); Mondrak, Glory Dominus(4); The Reaver Cleaver(3); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Lotho, Corrupt Shirriff 2/1 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Faithless Looting(1)
+Information: BOARD turn 9 (Dominic) | Sutlin | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Plains(land); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2)
+Information: BOARD turn 9 (Dominic) | Naphates | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1 | hand cards: Black Market Connections(3); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Desolate Mire (6)
+Phase: devDominic's Main phase, precombat
+Land: Dominic picked {R}
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Land: Dominic picked {B}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Phase: devDominic's Main phase, precombat
+Land: Dominic picked {B}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Add To Stack: Dominic cast The Reaver Cleaver
+Information: BOARD cast | The Reaver Cleaver (mv 3) by Dominic | open mana: Derand 2, Sutlin 1, Naphates 0
+Resolve Stack: The Reaver Cleaver
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Derand)
+Information: BOARD turn 10 (Derand) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5)
+Information: BOARD turn 10 (Derand) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Lotho, Corrupt Shirriff 2/1 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Big Score(4); Faithless Looting(1)
+Information: BOARD turn 10 (Derand) | Sutlin | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Plains(land); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2)
+Information: BOARD turn 10 (Derand) | Naphates | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1 | hand cards: Black Market Connections(3); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Life: Life: Derand 40 > 38
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Derand played Blood Crypt (113)
+Mana: Blood Crypt (113) - {T}: Add {R}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Discard: Derand discards Faithless Looting (146).
+Add To Stack: Derand cast Big Score
+Information: BOARD cast | Big Score (mv 4) by Derand | open mana: Dominic 3, Sutlin 1, Naphates 0
+Resolve Stack: Big Score (161) - Draw two cards and create two Treasure tokens. 
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {B}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (416) was put into Graveyard from Battlefield.
+Land: Treasure Token (416) picked {R}
+Mana: Treasure Token (416) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Plains (192) - {T}: Add {W}.
+Add To Stack: Derand cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Derand | open mana: Dominic 3, Sutlin 1, Naphates 0
+Add To Stack: Derand triggered Lotho, Corrupt Shirriff
+Life: Life: Derand 38 > 37
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Mr. House, President and CEO (201), Activator: Derand, SpellAbility: Mr. House, President and CEO - Creature 0 / 4]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 11 (Sutlin)
+Information: BOARD turn 11 (Sutlin) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5)
+Information: BOARD turn 11 (Sutlin) | Derand | life 37 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Delina, Wild Mage(4)
+Information: BOARD turn 11 (Sutlin) | Sutlin | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Plains(land); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2)
+Information: BOARD turn 11 (Sutlin) | Naphates | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1 | hand cards: Black Market Connections(3); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Plains (306)
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Sutlin cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Sutlin | open mana: Dominic 3, Derand 1, Naphates 0
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 12 (Naphates)
+Information: BOARD turn 12 (Naphates) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5)
+Information: BOARD turn 12 (Naphates) | Derand | life 37 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Delina, Wild Mage(4)
+Information: BOARD turn 12 (Naphates) | Sutlin | life 41 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2); Scoured Barrens(land)
+Information: BOARD turn 12 (Naphates) | Naphates | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1 | hand cards: Black Market Connections(3); Scrawling Crawler(3); Commander's Sphere(3); Nine-Lives Familiar(3); Mountain(land)
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Land: Naphates played Mountain (394)
+Add To Stack: Naphates triggered Sabotender
+Damage: Sabotender (408) deals 1 non-combat damage to Dominic.
+Damage: Sabotender (408) deals 1 non-combat damage to Derand.
+Damage: Sabotender (408) deals 1 non-combat damage to Sutlin.
+Life: Life: Dominic 40 > 39
+Life: Life: Derand 37 > 36
+Life: Life: Sutlin 41 > 40
+Resolve Stack: Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Mountain (394)]
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Swamp (368) - {T}: Add {B}.
+Add To Stack: Naphates cast Commander's Sphere
+Information: BOARD cast | Commander's Sphere (mv 3) by Naphates | open mana: Dominic 3, Derand 1, Sutlin 0
+Resolve Stack: Commander's Sphere
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Combat: Naphates assigned Sabotender (408) to attack Dominic.
+Information: BOARD attack | Naphates -> Dominic | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Naphates' Declare Blockers Step
+Combat: Dominic didn't block Sabotender (408).
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Damage: Sabotender (408) deals 2 combat damage to Dominic.
+Life: Life: Dominic 39 > 37
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Dominic | life 37 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Mountain(land); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5)
+Information: BOARD turn 13 (Dominic) | Derand | life 36 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Delina, Wild Mage(4)
+Information: BOARD turn 13 (Dominic) | Sutlin | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2); Scoured Barrens(land)
+Information: BOARD turn 13 (Dominic) | Naphates | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Blade of Selves(2)
+Information: BOARD threat | turn 13 | Sabotender (Naphates) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mountain (87)
+Mana: Mountain (87) - {T}: Add {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Land: Dominic picked {R}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Land: Dominic picked {B}
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Derand 1, Sutlin 0, Naphates 2
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Derand)
+Information: BOARD turn 14 (Derand) | Dominic | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Sulfurous Springs(land)
+Information: BOARD turn 14 (Derand) | Derand | life 36 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4 | hand cards: Reckless Fireweaver(2); Shattered Sanctum(land); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Delina, Wild Mage(4)
+Information: BOARD turn 14 (Derand) | Sutlin | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2); Scoured Barrens(land)
+Information: BOARD turn 14 (Derand) | Naphates | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Blade of Selves(2)
+Information: BOARD threat | turn 14 | Sabotender (Naphates) 41
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Derand played Shattered Sanctum (108)
+Mana: Blood Crypt (113) - {T}: Add {R}.
+Mana: Plains (192) - {T}: Add {W}.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Add To Stack: Derand cast Delina, Wild Mage
+Information: BOARD cast | Delina, Wild Mage (mv 4) by Derand | open mana: Dominic 0, Sutlin 0, Naphates 2
+Resolve Stack: Delina, Wild Mage - Creature 3 / 2
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 15 (Sutlin)
+Information: BOARD turn 15 (Sutlin) | Dominic | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Sulfurous Springs(land)
+Information: BOARD turn 15 (Sutlin) | Derand | life 36 | hand 4 | lands 4 (2 untapped) | open mana 5 | commander Battlefield | creatures 3 (3 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | hand cards: Reckless Fireweaver(2); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 15 (Sutlin) | Sutlin | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Orzhov Cluestone(3); Teysa Karlov(4); Blood Money(7); Marble Diamond(2); Scoured Barrens(land)
+Information: BOARD turn 15 (Sutlin) | Naphates | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Blade of Selves(2)
+Information: BOARD threat | turn 15 | Sabotender (Naphates) 40
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Plains (302)
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Sutlin cast Orzhov Cluestone
+Information: BOARD cast | Orzhov Cluestone (mv 3) by Sutlin | open mana: Dominic 0, Derand 5, Naphates 2
+Resolve Stack: Orzhov Cluestone
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Mana: Swamp (272) - {T}: Add {B}.
+Land: Sutlin picked {B}
+Land: Sutlin picked {B}
+Mana: Orzhov Cluestone (230) - {T}: Add {W} or {B}.
+Add To Stack: Sutlin cast Marble Diamond
+Information: BOARD cast | Marble Diamond (mv 2) by Sutlin | open mana: Dominic 0, Derand 5, Naphates 2
+Add To Stack: Derand triggered Lotho, Corrupt Shirriff
+Life: Life: Derand 36 > 35
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Marble Diamond (223), Activator: Sutlin, SpellAbility: Marble Diamond]
+Replacement Effect: Marble Diamond enters tapped.
+Resolve Stack: Marble Diamond
+Phase: Sutlin's End step
+Zone Change: Commander's Sphere (327) was put into Graveyard from Battlefield.
+Add To Stack: Naphates activated Commander's Sphere
+Resolve Stack: Commander's Sphere (327) - Naphates draws a card.
+Phase: Sutlin's Cleanup step
+Turn: Turn 16 (Naphates)
+Information: BOARD turn 16 (Naphates) | Dominic | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Sulfurous Springs(land)
+Information: BOARD turn 16 (Naphates) | Derand | life 35 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | hand cards: Reckless Fireweaver(2); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 16 (Naphates) | Sutlin | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Teysa Karlov(4); Blood Money(7); Scoured Barrens(land)
+Information: BOARD turn 16 (Naphates) | Naphates | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Blade of Selves(2); Swamp(land)
+Information: BOARD threat | turn 16 | Sabotender (Naphates) 38
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Land: Naphates played Swamp (362)
+Add To Stack: Naphates triggered Sabotender
+Damage: Sabotender (408) deals 1 non-combat damage to Dominic.
+Damage: Sabotender (408) deals 1 non-combat damage to Derand.
+Damage: Sabotender (408) deals 1 non-combat damage to Sutlin.
+Life: Life: Dominic 37 > 36
+Life: Life: Derand 35 > 34
+Life: Life: Sutlin 40 > 39
+Resolve Stack: Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Swamp (362)]
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Add To Stack: Naphates cast Blade of Selves
+Information: BOARD cast | Blade of Selves (mv 2) by Naphates | open mana: Dominic 0, Derand 6, Sutlin 0
+Resolve Stack: Blade of Selves
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Combat: Naphates assigned Sabotender (408) to attack Sutlin.
+Information: BOARD attack | Naphates -> Sutlin | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Naphates' Declare Blockers Step
+Combat: Sutlin didn't block Sabotender (408).
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Damage: Sabotender (408) deals 2 combat damage to Sutlin.
+Life: Life: Sutlin 39 > 37
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Dominic | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mondrak, Glory Dominus(4); Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Sulfurous Springs(land)
+Information: BOARD turn 17 (Dominic) | Derand | life 34 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | hand cards: Reckless Fireweaver(2); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 17 (Dominic) | Sutlin | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Teysa Karlov(4); Blood Money(7); Scoured Barrens(land)
+Information: BOARD turn 17 (Dominic) | Naphates | life 40 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 17 | Sabotender (Naphates) 80
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Sulfurous Springs (70)
+Mana: Sulfurous Springs (70) - {T}: Add {C}.
+Land: Dominic picked {B}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Mountain (87) - {T}: Add {R}.
+Add To Stack: Dominic activated The Reaver Cleaver targeting [Olivia, Opulent Outlaw (100)]
+Resolve Stack: The Reaver Cleaver (28) -  Attach to Olivia, Opulent Outlaw (100)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (100) to attack Derand.
+Information: BOARD attack | Dominic -> Derand | attackers 1 (power 4) | defender life 34 | untapped creatures 3 (power 5): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | open mana 6
+Phase: Dominic's Declare Blockers Step
+Combat: Derand didn't block Olivia, Opulent Outlaw (100).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (100) deals 4 combat damage to Derand.
+Life: Life: Dominic 36 > 40
+Life: Life: Derand 34 > 30
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Olivia, Opulent Outlaw (100), Damaged: Derand, Amount: 4]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Derand, Amount: 4]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic picked {B}
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Zone Change: Treasure Token (428) was put into Graveyard from Battlefield.
+Land: Treasure Token (428) picked {W}
+Mana: Treasure Token (428) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (426) was put into Graveyard from Battlefield.
+Land: Treasure Token (426) picked {W}
+Mana: Treasure Token (426) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Mondrak, Glory Dominus
+Information: BOARD cast | Mondrak, Glory Dominus (mv 4) by Dominic | open mana: Derand 6, Sutlin 0, Naphates 2
+Resolve Stack: Mondrak, Glory Dominus - Creature 4 / 4
+Zone Change: Treasure Token (425) was put into Graveyard from Battlefield.
+Land: Treasure Token (425) picked {W}
+Mana: Treasure Token (425) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (424) was put into Graveyard from Battlefield.
+Land: Treasure Token (424) picked {W}
+Mana: Treasure Token (424) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (423) was put into Graveyard from Battlefield.
+Land: Treasure Token (423) picked {W}
+Mana: Treasure Token (423) - {T}, Sacrifice this token: Add one mana of any color.
+Phase: devDominic's Main phase, postcombat
+Zone Change: Treasure Token (425) was put into Graveyard from Battlefield.
+Land: Treasure Token (425) picked {U}
+Mana: Treasure Token (425) - {T}, Sacrifice this token: Add one mana of any color.
+Life: Life: Dominic 40 > 36
+Zone Change: Treasure Token (424) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (423) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Mondrak, Glory Dominus
+Resolve Stack: Mondrak, Glory Dominus (78) - Dominic puts an indestructible counter on Mondrak, Glory Dominus (78).
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Derand)
+Information: BOARD turn 18 (Derand) | Dominic | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4 | hand cards: Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Kellogg, Dangerous Mind(3)
+Information: BOARD turn 18 (Derand) | Derand | life 30 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | hand cards: Reckless Fireweaver(2); Caesar, Legion's Emperor(4); Clifftop Retreat(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 18 (Derand) | Sutlin | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Teysa Karlov(4); Blood Money(7); Scoured Barrens(land)
+Information: BOARD turn 18 (Derand) | Naphates | life 40 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 18 | Sabotender (Naphates) 77; Olivia, Opulent Outlaw (Dominic) 52
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Derand played Clifftop Retreat (152)
+Mana: Plains (192) - {T}: Add {W}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Mana: Blood Crypt (113) - {T}: Add {R}.
+Land: Derand picked {B}
+Mana: Shattered Sanctum (108) - {T}: Add {W} or {B}.
+Add To Stack: Derand cast Caesar, Legion's Emperor
+Information: BOARD cast | Caesar, Legion's Emperor (mv 4) by Derand | open mana: Dominic 0, Sutlin 0, Naphates 2
+Resolve Stack: Caesar, Legion's Emperor - Creature 4 / 4
+Zone Change: Treasure Token (421) was put into Graveyard from Battlefield.
+Land: Treasure Token (421) picked {R}
+Mana: Treasure Token (421) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Add To Stack: Derand cast Reckless Fireweaver
+Information: BOARD cast | Reckless Fireweaver (mv 2) by Derand | open mana: Dominic 0, Sutlin 0, Naphates 2
+Add To Stack: Derand triggered Lotho, Corrupt Shirriff
+Life: Life: Derand 30 > 29
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Reckless Fireweaver (110), Activator: Derand, SpellAbility: Reckless Fireweaver - Creature 1 / 3]
+Resolve Stack: Reckless Fireweaver - Creature 1 / 3
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Delina, Wild Mage (196) to attack Naphates.
+Information: BOARD attack | Derand -> Naphates | attackers 1 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 2
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Add To Stack: Derand triggered Delina, Wild Mage targeting [Mr. House, President and CEO (201)]
+Resolve Stack: Whenever Delina attacks, choose target creature you control, then roll a d20.
+1—14 | Create a tapped and attacking token that's a copy of that creature, except it's not legendary and it has "At end of combat, exile this token."
+15—20 | Create one of those tokens. You may roll again. (Targeting: [[Mr. House, President and CEO (201)]]) [Attacker: Delina, Wild Mage (196)]
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 12]
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 36 > 35
+Life: Life: Sutlin 37 > 36
+Life: Life: Naphates 40 > 39
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (435)]
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 35 > 34
+Life: Life: Sutlin 36 > 35
+Life: Life: Naphates 39 > 38
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (436)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 12]
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 34 > 33
+Life: Life: Sutlin 35 > 34
+Life: Life: Naphates 38 > 37
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Robot Token (439)]
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 33 > 32
+Life: Life: Sutlin 34 > 33
+Life: Life: Naphates 37 > 36
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (440)]
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 32 > 31
+Life: Life: Sutlin 33 > 32
+Life: Life: Naphates 36 > 35
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (432)]
+Zone Change: Mr. House, President and CEO (432) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever you attack, you may sacrifice another creature. When you do, choose two modes. [Number Attackers: [Delina, Wild Mage (196)]]
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Life: Life: Derand 29 > 28
+Damage: Caesar, Legion's Emperor (138) deals 2 non-combat damage to Dominic.
+Life: Life: Dominic 31 > 29
+Resolve Stack: When you do, you draw a card and you lose 1 life. Derand loses 1 life. Caesar, Legion's Emperor deals damage equal to the number of creature tokens you control to target opponent. (Targeting: Dominic)
+Phase: Derand's Declare Blockers Step
+Combat: Naphates didn't block Delina, Wild Mage (196).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Delina, Wild Mage (196) deals 3 combat damage to Naphates.
+Life: Life: Naphates 35 > 32
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Zone Change: Treasure Token (440) was put into Graveyard from Battlefield.
+Land: Treasure Token (440) picked {B}
+Mana: Treasure Token (440) - {T}, Sacrifice this token: Add one mana of any color.
+Land: Derand picked {R}
+Mana: Clifftop Retreat (152) - {T}: Add {R} or {W}.
+Zone Change: Treasure Token (436) was put into Graveyard from Battlefield.
+Land: Treasure Token (436) picked {W}
+Mana: Treasure Token (436) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (430) was put into Graveyard from Battlefield.
+Land: Treasure Token (430) picked {W}
+Mana: Treasure Token (430) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Derand cast Night Shift of the Living Dead
+Information: BOARD cast | Night Shift of the Living Dead (mv 4) by Derand | open mana: Dominic 0, Sutlin 0, Naphates 2
+Resolve Stack: Night Shift of the Living Dead
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 19 (Sutlin)
+Information: BOARD turn 19 (Sutlin) | Dominic | life 29 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4 | hand cards: Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Kellogg, Dangerous Mind(3)
+Information: BOARD turn 19 (Sutlin) | Derand | life 28 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2*; Caesar, Legion's Emperor 4/4; Reckless Fireweaver 1/3; Robot Token 3/3 x2 | hand cards: Swamp(land); Impact Tremors(2)
+Information: BOARD turn 19 (Sutlin) | Sutlin | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Teysa Karlov(4); Blood Money(7); Scoured Barrens(land)
+Information: BOARD turn 19 (Sutlin) | Naphates | life 32 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 19 | Reckless Fireweaver (Derand) 158; Sabotender (Naphates) 74; Olivia, Opulent Outlaw (Dominic) 50; Caesar, Legion's Emperor (Derand) 40; Lotho, Corrupt Shirriff (Derand) 38
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Sutlin cast Teysa Karlov
+Information: BOARD cast | Teysa Karlov (mv 4) by Sutlin | open mana: Dominic 0, Derand 1, Naphates 2
+Resolve Stack: Teysa Karlov - Creature 2 / 4
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Sutlin played Scoured Barrens (242)
+Add To Stack: Sutlin triggered Scoured Barrens
+Life: Life: Sutlin 32 > 33
+Resolve Stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (242)]
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 20 (Naphates)
+Information: BOARD turn 20 (Naphates) | Dominic | life 29 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4 | hand cards: Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Kellogg, Dangerous Mind(3)
+Information: BOARD turn 20 (Naphates) | Derand | life 28 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2*; Caesar, Legion's Emperor 4/4; Reckless Fireweaver 1/3; Robot Token 3/3 x2 | hand cards: Swamp(land); Impact Tremors(2)
+Information: BOARD turn 20 (Naphates) | Sutlin | life 33 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: Midnight Reaper(3); Blood Money(7); Commander's Sphere(3)
+Information: BOARD turn 20 (Naphates) | Naphates | life 32 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Sabotender 2/1* | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 20 | Reckless Fireweaver (Derand) 152; Sabotender (Naphates) 71; Olivia, Opulent Outlaw (Dominic) 48; Caesar, Legion's Emperor (Derand) 39; Lotho, Corrupt Shirriff (Derand) 36
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Naphates played Uncharted Haven (378)
+Add To Stack: Naphates triggered Sabotender
+Damage: Sabotender (408) deals 1 non-combat damage to Dominic.
+Damage: Sabotender (408) deals 1 non-combat damage to Derand.
+Damage: Sabotender (408) deals 1 non-combat damage to Sutlin.
+Life: Life: Dominic 29 > 28
+Life: Life: Derand 28 > 27
+Life: Life: Sutlin 33 > 32
+Resolve Stack: Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Uncharted Haven (378)]
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Swamp (368) - {T}: Add {B}.
+Mana: Swamp (362) - {T}: Add {B}.
+Add To Stack: Naphates activated Blade of Selves targeting [Sabotender (408)]
+Resolve Stack: Blade of Selves (377) -  Attach to Sabotender (408)
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Dominic | life 28 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4 | hand cards: Path to Exile(1); Shadow the Hedgehog(4); Bloodthirsty Conqueror(5); Kellogg, Dangerous Mind(3)
+Information: BOARD turn 21 (Dominic) | Derand | life 27 | hand 2 | lands 5 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2*; Caesar, Legion's Emperor 4/4; Reckless Fireweaver 1/3; Robot Token 3/3 x2 | hand cards: Swamp(land); Impact Tremors(2)
+Information: BOARD turn 21 (Dominic) | Sutlin | life 32 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: Midnight Reaper(3); Blood Money(7); Commander's Sphere(3)
+Information: BOARD turn 21 (Dominic) | Naphates | life 32 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1[Blade of Selves] | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 21 | Reckless Fireweaver (Derand) 146; Sabotender (Naphates) 100; Olivia, Opulent Outlaw (Dominic) 46; Caesar, Legion's Emperor (Derand) 37; Lotho, Corrupt Shirriff (Derand) 35
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {B}
+Damage: Sulfurous Springs (70) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 28 > 27
+Mana: Sulfurous Springs (70) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Mountain (87) - {T}: Add {R}.
+Land: Dominic picked {B}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Kellogg, Dangerous Mind
+Information: BOARD cast | Kellogg, Dangerous Mind (mv 3) by Dominic | open mana: Derand 1, Sutlin 4, Naphates 0
+Resolve Stack: Kellogg, Dangerous Mind - Creature 3 / 2
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (100) to attack Sutlin.
+Dominic assigned Kellogg, Dangerous Mind (60) to attack Naphates.
+Information: BOARD attack | Dominic -> Sutlin | attackers 1 (power 4) | defender life 32 | untapped creatures 1 (power 2): Teysa Karlov 2/4 | open mana 4
+Information: BOARD attack | Dominic -> Naphates | attackers 1 (power 3) | defender life 32 | untapped creatures 1 (power 2): Sabotender 2/1[Blade of Selves] | open mana 0
+Add To Stack: Dominic triggered Kellogg, Dangerous Mind
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (60)]
+Phase: Dominic's Declare Blockers Step
+Combat: Sutlin didn't block Olivia, Opulent Outlaw (100).
+Combat: Naphates didn't block Kellogg, Dangerous Mind (60).
+Phase: Dominic's First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (60) deals 3 combat damage to Naphates.
+Life: Life: Naphates 32 > 29
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Naphates, Amount: 3]
+Phase: Dominic's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (100) deals 4 combat damage to Sutlin.
+Life: Life: Dominic 27 > 31
+Life: Life: Sutlin 32 > 28
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Olivia, Opulent Outlaw (100), Damaged: Sutlin, Amount: 4]
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Sutlin, Amount: 4]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic picked {B}
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Zone Change: Treasure Token (458) was put into Graveyard from Battlefield.
+Land: Treasure Token (458) picked {B}
+Mana: Treasure Token (458) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (455) was put into Graveyard from Battlefield.
+Land: Treasure Token (455) picked {B}
+Mana: Treasure Token (455) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (457) was put into Graveyard from Battlefield.
+Land: Treasure Token (457) picked {W}
+Mana: Treasure Token (457) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Bloodthirsty Conqueror
+Information: BOARD cast | Bloodthirsty Conqueror (mv 5) by Dominic | open mana: Derand 1, Sutlin 4, Naphates 0
+Add To Stack: Derand triggered Lotho, Corrupt Shirriff
+Life: Life: Derand 27 > 26
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Bloodthirsty Conqueror (46), Activator: Dominic, SpellAbility: Bloodthirsty Conqueror - Creature 5 / 5]
+Add To Stack: Derand triggered Reckless Fireweaver
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Dominic.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Sutlin.
+Damage: Reckless Fireweaver (110) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 31 > 30
+Life: Life: Sutlin 28 > 27
+Life: Life: Naphates 29 > 28
+Resolve Stack: Whenever an artifact you control enters, Reckless Fireweaver deals 1 damage to each opponent. [Zone Changer: Treasure Token (460)]
+Resolve Stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Derand)
+Information: BOARD turn 22 (Derand) | Dominic | life 30 | hand 3 | lands 5 (0 untapped) | open mana 11 | commander Battlefield | creatures 4 (2 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4; Kellogg, Dangerous Mind 3/2*; Bloodthirsty Conqueror 5/5 | hand cards: Path to Exile(1); Shadow the Hedgehog(4); Massacre Girl(5)
+Information: BOARD turn 22 (Derand) | Derand | life 26 | hand 2 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 7 (6 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2*; Caesar, Legion's Emperor 4/4; Reckless Fireweaver 1/3; Robot Token 3/3 x2 | hand cards: Swamp(land); Impact Tremors(2)
+Information: BOARD turn 22 (Derand) | Sutlin | life 27 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: Midnight Reaper(3); Blood Money(7); Commander's Sphere(3)
+Information: BOARD turn 22 (Derand) | Naphates | life 28 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1[Blade of Selves] | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 22 | Reckless Fireweaver (Derand) 172; Olivia, Opulent Outlaw (Dominic) 110; Sabotender (Naphates) 96; Lotho, Corrupt Shirriff (Derand) 48; Caesar, Legion's Emperor (Derand) 36
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Swamp (153)
+Land: Derand picked {R}
+Mana: Clifftop Retreat (152) - {T}: Add {R} or {W}.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Add To Stack: Derand cast Impact Tremors
+Information: BOARD cast | Impact Tremors (mv 2) by Derand | open mana: Dominic 11, Sutlin 4, Naphates 0
+Zone Change: Treasure Token (450) was put into Graveyard from Battlefield.
+Land: Treasure Token (450) picked {W}
+Mana: Treasure Token (450) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Path to Exile targeting [Reckless Fireweaver (110)]
+Information: BOARD cast | Path to Exile (mv 1) by Dominic | open mana: Derand 10, Sutlin 4, Naphates 0
+Zone Change: Reckless Fireweaver (110) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (10) - Exile Reckless Fireweaver (110). Derand may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Resolve Stack: Impact Tremors
+Mana: Blood Crypt (113) - {T}: Add {R}.
+Mana: Plains (192) - {T}: Add {W}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Add To Stack: Derand cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Derand | open mana: Dominic 10, Sutlin 4, Naphates 0
+Add To Stack: Derand triggered Lotho, Corrupt Shirriff
+Life: Life: Derand 26 > 25
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Comet, Stellar Pup (179), Activator: Derand, SpellAbility: Comet, Stellar Pup]
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Life: Life: Dominic 30 > 31
+Resolve Stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Derand, Lost Amount: 1]
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Derand activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (179) deals 5 damage to Bloodthirsty Conqueror (46).
+Resolve Stack: Comet, Stellar Pup (179) - Roll a d6.
+Zone Change: Bloodthirsty Conqueror (46) was put into Graveyard from Battlefield.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 5]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 31 > 30
+Life: Life: Sutlin 27 > 26
+Life: Life: Naphates 28 > 27
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (464)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Delina, Wild Mage (196) to attack Naphates.
+Information: BOARD attack | Derand -> Naphates | attackers 1 (power 3) | defender life 27 | untapped creatures 1 (power 2): Sabotender 2/1[Blade of Selves] | open mana 0
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Add To Stack: Derand triggered Delina, Wild Mage targeting [Mr. House, President and CEO (201)]
+Resolve Stack: Whenever Delina attacks, choose target creature you control, then roll a d20.
+1—14 | Create a tapped and attacking token that's a copy of that creature, except it's not legendary and it has "At end of combat, exile this token."
+15—20 | Create one of those tokens. You may roll again. (Targeting: [[Mr. House, President and CEO (201)]]) [Attacker: Delina, Wild Mage (196)]
+Add To Stack: Derand triggered Impact Tremors
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Impact Tremors
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 18]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 30 > 29
+Life: Life: Sutlin 26 > 25
+Life: Life: Naphates 27 > 26
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (471)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 18]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 29 > 28
+Life: Life: Sutlin 25 > 24
+Life: Life: Naphates 26 > 25
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (475)]
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 28 > 27
+Life: Life: Sutlin 24 > 23
+Life: Life: Naphates 25 > 24
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (466)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 13]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 27 > 26
+Life: Life: Sutlin 23 > 22
+Life: Life: Naphates 24 > 23
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (479)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 13]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 26 > 25
+Life: Life: Sutlin 22 > 21
+Life: Life: Naphates 23 > 22
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (483)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 13]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 25 > 24
+Life: Life: Sutlin 21 > 20
+Life: Life: Naphates 22 > 21
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (487)]
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 24 > 23
+Life: Life: Sutlin 20 > 19
+Life: Life: Naphates 21 > 20
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (468)]
+Zone Change: Mr. House, President and CEO (468) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever you attack, you may sacrifice another creature. When you do, choose two modes. [Number Attackers: [Delina, Wild Mage (196)]]
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Life: Life: Derand 25 > 24
+Damage: Caesar, Legion's Emperor (138) deals 9 non-combat damage to Dominic.
+Life: Life: Dominic 23 > 14
+Resolve Stack: When you do, you draw a card and you lose 1 life. Derand loses 1 life. Caesar, Legion's Emperor deals damage equal to the number of creature tokens you control to target opponent. (Targeting: Dominic)
+Phase: Derand's Declare Blockers Step
+Combat: Naphates didn't block Delina, Wild Mage (196).
+Naphates assigned Sabotender (408) to block Mr. House, President and CEO (466).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Delina, Wild Mage (196) deals 3 combat damage to Naphates.
+Damage: Sabotender (408) deals 2 damage to Mr. House, President and CEO (466).
+Life: Life: Naphates 20 > 17
+Phase: Derand's End of Combat Step
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (466) was put into Exile from Battlefield.
+Resolve Stack: At end of combat, exile this token. [Phase: Derand]
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 23 (Sutlin)
+Information: BOARD turn 23 (Sutlin) | Dominic | life 14 | hand 2 | lands 5 (0 untapped) | open mana 10 | commander Battlefield | creatures 3 (1 untapped): Olivia, Opulent Outlaw 4/4*[The Reaver Cleaver]; Mondrak, Glory Dominus 4/4; Kellogg, Dangerous Mind 3/2* | hand cards: Shadow the Hedgehog(4); Massacre Girl(5)
+Information: BOARD turn 23 (Sutlin) | Derand | life 24 | hand 1 | lands 7 (2 untapped) | open mana 12 | commander Battlefield | creatures 12 (11 untapped): Lotho, Corrupt Shirriff 2/1; Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2*; Caesar, Legion's Emperor 4/4; Robot Token 3/3 x8 | hand cards: Godless Shrine(land)
+Information: BOARD turn 23 (Sutlin) | Sutlin | life 19 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: Midnight Reaper(3); Blood Money(7); Commander's Sphere(3)
+Information: BOARD turn 23 (Sutlin) | Naphates | life 17 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sabotender 2/1[Blade of Selves] | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 23 | Impact Tremors (Derand) 253; Caesar, Legion's Emperor (Derand) 115; Olivia, Opulent Outlaw (Dominic) 106; Sabotender (Naphates) 92; Lotho, Corrupt Shirriff (Derand) 60
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Sutlin played Isolated Chapel (247)
+Mana: Swamp (272) - {T}: Add {B}.
+Land: Sutlin picked {B}
+Land: Sutlin picked {B}
+Mana: Scoured Barrens (242) - {T}: Add {W} or {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Mana: Marble Diamond (223) - {T}: Add {W}.
+Land: Sutlin picked {B}
+Land: Sutlin picked {B}
+Mana: Isolated Chapel (247) - {T}: Add {W} or {B}.
+Add To Stack: Sutlin cast Blood Money
+Information: BOARD cast | Blood Money (mv 7) by Sutlin | open mana: Dominic 10, Derand 12, Naphates 0
+Zone Change: Teysa Karlov (257) was put into Graveyard from Battlefield.
+Zone Change: Sabotender (408) was put into Graveyard from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (100) was put into Graveyard from Battlefield.
+Zone Change: Kellogg, Dangerous Mind (60) was put into Graveyard from Battlefield.
+Zone Change: Lotho, Corrupt Shirriff (112) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (201) was put into Graveyard from Battlefield.
+Zone Change: Delina, Wild Mage (196) was put into Graveyard from Battlefield.
+Zone Change: Caesar, Legion's Emperor (138) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (435) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (439) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (464) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (471) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (475) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (479) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (483) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (487) was put into Graveyard from Battlefield.
+Resolve Stack: Blood Money (216) - Destroy all creatures. For each nontoken creature destroyed this way, Sutlin creates a tapped Treasure token. 
+Add To Stack: Sutlin triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Sutlin triggered Athreos, God of Passage targeting [Derand]
+Life: Life: Derand 24 > 21
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Derand]]) [Zone Changer: Teysa Karlov (257)]
+Life: Life: Dominic 14 > 11
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Teysa Karlov (257)]
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 24 (Naphates)
+Information: BOARD turn 24 (Naphates) | Dominic | life 11 | hand 2 | lands 5 (0 untapped) | open mana 10 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4 | hand cards: Shadow the Hedgehog(4); Massacre Girl(5)
+Information: BOARD turn 24 (Naphates) | Derand | life 21 | hand 1 | lands 7 (2 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land)
+Information: BOARD turn 24 (Naphates) | Sutlin | life 19 | hand 2 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Commander's Sphere(3)
+Information: BOARD turn 24 (Naphates) | Naphates | life 17 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Black Market Connections(3); Scrawling Crawler(3); Nine-Lives Familiar(3); Razorkin Needlehead(2)
+Information: BOARD threat | turn 24 | Impact Tremors (Derand) 243
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Mana: Mountain (392) - {T}: Add {R}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Swamp (368) - {T}: Add {B}.
+Add To Stack: Naphates cast Scrawling Crawler
+Information: BOARD cast | Scrawling Crawler (mv 3) by Naphates | open mana: Dominic 10, Derand 12, Sutlin 3
+Resolve Stack: Scrawling Crawler - Creature 3 / 2
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Dominic | life 11 | hand 2 | lands 5 (0 untapped) | open mana 10 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4 | hand cards: Shadow the Hedgehog(4); Massacre Girl(5)
+Information: BOARD turn 25 (Dominic) | Derand | life 21 | hand 1 | lands 7 (2 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land)
+Information: BOARD turn 25 (Dominic) | Sutlin | life 19 | hand 2 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Commander's Sphere(3)
+Information: BOARD turn 25 (Dominic) | Naphates | life 17 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2 | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Lightning Bolt(1)
+Information: BOARD threat | turn 25 | Impact Tremors (Derand) 234
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Dominic 11 > 10
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Dominic]
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Barad-dûr enters tapped unless you control a legendary creature.
+Land: Dominic played Barad-dûr (76)
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Land: Dominic picked {B}
+Damage: Sulfurous Springs (70) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 10 > 9
+Mana: Sulfurous Springs (70) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Mountain (87) - {T}: Add {R}.
+Land: Dominic picked {R}
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Shadow the Hedgehog
+Information: BOARD cast | Shadow the Hedgehog (mv 4) by Dominic | open mana: Derand 12, Sutlin 3, Naphates 2
+Resolve Stack: Shadow the Hedgehog - Creature 4 / 2
+Land: Dominic picked {B}
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Zone Change: Treasure Token (454) was put into Graveyard from Battlefield.
+Land: Treasure Token (454) picked {W}
+Mana: Treasure Token (454) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic activated The Reaver Cleaver targeting [Mondrak, Glory Dominus (78)]
+Resolve Stack: The Reaver Cleaver (28) -  Attach to Mondrak, Glory Dominus (78)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Mondrak, Glory Dominus (78) and Shadow the Hedgehog (36) to attack Derand.
+Information: BOARD attack | Dominic -> Derand | attackers 2 (power 9) | defender life 21 | untapped creatures 0 (power 0):  | open mana 12
+Phase: Dominic's Declare Blockers Step
+Combat: Derand didn't block Mondrak, Glory Dominus (78).
+Derand didn't block Shadow the Hedgehog (36).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Mondrak, Glory Dominus (78) deals 5 combat damage to Derand.
+Damage: Shadow the Hedgehog (36) deals 4 combat damage to Derand.
+Life: Life: Derand 21 > 12
+Add To Stack: Dominic triggered Mondrak, Glory Dominus
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Mondrak, Glory Dominus (78), Damaged: Derand, Amount: 5]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (508) was put into Graveyard from Battlefield.
+Land: Treasure Token (508) picked {R}
+Mana: Treasure Token (508) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (507) was put into Graveyard from Battlefield.
+Land: Treasure Token (507) picked {W}
+Mana: Treasure Token (507) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (506) was put into Graveyard from Battlefield.
+Land: Treasure Token (506) picked {B}
+Mana: Treasure Token (506) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (505) was put into Graveyard from Battlefield.
+Land: Treasure Token (505) picked {W}
+Mana: Treasure Token (505) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (504) was put into Graveyard from Battlefield.
+Land: Treasure Token (504) picked {W}
+Mana: Treasure Token (504) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (503) was put into Graveyard from Battlefield.
+Land: Treasure Token (503) picked {W}
+Mana: Treasure Token (503) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Derand 12, Sutlin 3, Naphates 2
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Zone Change: Treasure Token (502) was put into Graveyard from Battlefield.
+Land: Treasure Token (502) picked {W}
+Mana: Treasure Token (502) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (501) was put into Graveyard from Battlefield.
+Land: Treasure Token (501) picked {W}
+Mana: Treasure Token (501) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (500) was put into Graveyard from Battlefield.
+Land: Treasure Token (500) picked {W}
+Mana: Treasure Token (500) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (499) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (453) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Olivia, Opulent Outlaw
+Resolve Stack: Olivia, Opulent Outlaw (100) - Put two +1/+1 counters on each creature you control.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Derand)
+Information: BOARD turn 26 (Derand) | Dominic | life 9 | hand 1 | lands 6 (0 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Mondrak, Glory Dominus 7/7*[The Reaver Cleaver]; Shadow the Hedgehog 6/4*; Olivia, Opulent Outlaw 5/5 | hand cards: Massacre Girl(5)
+Information: BOARD turn 26 (Derand) | Derand | life 12 | hand 1 | lands 7 (2 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land)
+Information: BOARD turn 26 (Derand) | Sutlin | life 19 | hand 2 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Commander's Sphere(3)
+Information: BOARD turn 26 (Derand) | Naphates | life 17 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2 | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Lightning Bolt(1)
+Information: BOARD threat | turn 26 | Impact Tremors (Derand) 224; Mondrak, Glory Dominus (Dominic) 54
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Derand 12 > 11
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Derand]
+Phase: Derand's Main phase, precombat
+Land: Derand played Needleverge Pathway (136)
+Mana: Plains (192) - {T}: Add {W}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Mana: Mountain (190) - {T}: Add {R}.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Add To Stack: Derand cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Derand | open mana: Dominic 8, Sutlin 3, Naphates 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 9 > 8
+Life: Life: Sutlin 19 > 18
+Life: Life: Naphates 17 > 16
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Mr. House, President and CEO (201)]
+Add To Stack: Derand activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (179) deals 3 non-combat damage to Dominic.
+Life: Life: Dominic 8 > 5
+Resolve Stack: Comet, Stellar Pup (179) - Roll a d6.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 4]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Dominic.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Dominic 5 > 4
+Life: Life: Sutlin 18 > 17
+Life: Life: Naphates 16 > 15
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (510)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 27 (Sutlin)
+Information: BOARD turn 27 (Sutlin) | Dominic | life 4 | hand 1 | lands 6 (0 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Mondrak, Glory Dominus 7/7*[The Reaver Cleaver]; Shadow the Hedgehog 6/4*; Olivia, Opulent Outlaw 5/5 | hand cards: Massacre Girl(5)
+Information: BOARD turn 27 (Sutlin) | Derand | life 11 | hand 1 | lands 8 (5 untapped) | open mana 17 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Godless Shrine(land)
+Information: BOARD turn 27 (Sutlin) | Sutlin | life 17 | hand 2 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Midnight Reaper(3); Commander's Sphere(3)
+Information: BOARD turn 27 (Sutlin) | Naphates | life 15 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2 | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Lightning Bolt(1)
+Information: BOARD threat | turn 27 | Impact Tremors (Derand) 279; Mondrak, Glory Dominus (Dominic) 51; Comet, Stellar Pup (Derand) 44
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 17 > 16
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Phase: Sutlin's Main phase, precombat
+Mana: Swamp (272) - {T}: Add {B}.
+Land: Sutlin picked {B}
+Land: Sutlin picked {B}
+Mana: Scoured Barrens (242) - {T}: Add {W} or {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Mana: Marble Diamond (223) - {T}: Add {W}.
+Add To Stack: Sutlin cast Harvester of Souls
+Information: BOARD cast | Harvester of Souls (mv 6) by Sutlin | open mana: Dominic 8, Derand 17, Naphates 2
+Resolve Stack: Harvester of Souls - Creature 5 / 5
+Land: Sutlin picked {B}
+Land: Sutlin picked {B}
+Mana: Isolated Chapel (247) - {T}: Add {W} or {B}.
+Land: Sutlin picked {W}
+Land: Sutlin picked {W}
+Mana: Orzhov Cluestone (230) - {T}: Add {W} or {B}.
+Zone Change: Treasure Token (497) was put into Graveyard from Battlefield.
+Land: Treasure Token (497) picked {W}
+Land: Treasure Token (497) picked {W}
+Mana: Treasure Token (497) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sutlin cast Midnight Reaper
+Information: BOARD cast | Midnight Reaper (mv 3) by Sutlin | open mana: Dominic 8, Derand 17, Naphates 2
+Resolve Stack: Midnight Reaper - Creature 3 / 2
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Zone Change: Treasure Token (496) was put into Graveyard from Battlefield.
+Land: Treasure Token (496) picked {W}
+Land: Treasure Token (496) picked {W}
+Mana: Treasure Token (496) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (495) was put into Graveyard from Battlefield.
+Land: Treasure Token (495) picked {W}
+Land: Treasure Token (495) picked {W}
+Mana: Treasure Token (495) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (494) was put into Graveyard from Battlefield.
+Land: Treasure Token (494) picked {W}
+Land: Treasure Token (494) picked {W}
+Mana: Treasure Token (494) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sutlin cast Commander's Sphere
+Information: BOARD cast | Commander's Sphere (mv 3) by Sutlin | open mana: Dominic 8, Derand 17, Naphates 2
+Resolve Stack: Commander's Sphere
+Zone Change: Commander's Sphere (225) was put into Graveyard from Battlefield.
+Add To Stack: Sutlin activated Commander's Sphere
+Resolve Stack: Commander's Sphere (225) - Sutlin draws a card.
+Add To Stack: Naphates triggered Scrawling Crawler
+Zone Change: Treasure Token (493) was put into Graveyard from Battlefield.
+Land: Treasure Token (493) picked {B}
+Land: Treasure Token (493) picked {B}
+Mana: Treasure Token (493) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (492) was put into Graveyard from Battlefield.
+Land: Treasure Token (492) picked {W}
+Land: Treasure Token (492) picked {W}
+Mana: Treasure Token (492) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sutlin cast Bind Spirit targeting [Teysa Karlov (257)]
+Information: BOARD cast | Bind Spirit (mv 2) by Sutlin | open mana: Dominic 8, Derand 17, Naphates 2
+Resolve Stack: Bind Spirit (237) - Return Teysa Karlov (257) from the graveyard to its owner's hand.
+Replacement Effect: Adventure
+Life: Life: Sutlin 16 > 15
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Zone Change: Treasure Token (491) was put into Graveyard from Battlefield.
+Land: Treasure Token (491) picked {B}
+Land: Treasure Token (491) picked {B}
+Mana: Treasure Token (491) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sutlin cast Ghost Lantern
+Information: BOARD cast | Ghost Lantern (mv 1) by Sutlin | open mana: Dominic 8, Derand 17, Naphates 2
+Resolve Stack: Ghost Lantern
+Zone Change: Treasure Token (490) was put into Graveyard from Battlefield.
+Land: Treasure Token (490) picked {W}
+Land: Treasure Token (490) picked {W}
+Mana: Treasure Token (490) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sutlin activated Ghost Lantern targeting [Harvester of Souls (308)]
+Resolve Stack: Ghost Lantern (237) -  Attach to Harvester of Souls (308)
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 28 (Naphates)
+Information: BOARD turn 28 (Naphates) | Dominic | life 4 | hand 1 | lands 6 (0 untapped) | open mana 8 | commander Battlefield | creatures 3 (1 untapped): Mondrak, Glory Dominus 7/7*[The Reaver Cleaver]; Shadow the Hedgehog 6/4*; Olivia, Opulent Outlaw 5/5 | hand cards: Massacre Girl(5)
+Information: BOARD turn 28 (Naphates) | Derand | life 11 | hand 1 | lands 8 (5 untapped) | open mana 17 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Godless Shrine(land)
+Information: BOARD turn 28 (Naphates) | Sutlin | life 15 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Harvester of Souls 5/5[Ghost Lantern]; Midnight Reaper 3/2 | hand cards: Teysa Karlov(4)
+Information: BOARD turn 28 (Naphates) | Naphates | life 15 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2 | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Lightning Bolt(1)
+Information: BOARD threat | turn 28 | Impact Tremors (Derand) 267; Scrawling Crawler (Naphates) 56; Mondrak, Glory Dominus (Dominic) 49; Comet, Stellar Pup (Derand) 42
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Add To Stack: Naphates triggered Scrawling Crawler
+Resolve Stack: At the beginning of your upkeep, each player draws a card. [Phase: Naphates]
+Add To Stack: Naphates triggered Scrawling Crawler
+Add To Stack: Naphates triggered Scrawling Crawler
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 15 > 14
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Life: Life: Derand 11 > 10
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Derand]
+Life: Life: Dominic 4 > 3
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Dominic]
+Mana: Mountain (392) - {T}: Add {R}.
+Add To Stack: Naphates cast Lightning Bolt targeting [Dominic]
+Information: BOARD cast | Lightning Bolt (mv 1) by Naphates | open mana: Dominic 8, Derand 17, Sutlin 0
+Damage: Lightning Bolt (315) deals 3 non-combat damage to Dominic.
+Life: Life: Dominic 3 > 0
+Resolve Stack: Lightning Bolt (315) - Lightning Bolt (315) deals 3 damage to Dominic.
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Land: Naphates played Darksteel Citadel (337)
+Mana: Darksteel Citadel (337) - {T}: Add {C}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Swamp (368) - {T}: Add {B}.
+Mana: Swamp (362) - {T}: Add {B}.
+Add To Stack: Naphates activated Blade of Selves targeting [Scrawling Crawler (317)]
+Resolve Stack: Blade of Selves (377) -  Attach to Scrawling Crawler (317)
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Phase: Naphates' End step
+Phase: Naphates' Cleanup step
+Turn: Turn 29 (Derand)
+Information: BOARD turn 29 (Derand) | Derand | life 10 | hand 2 | lands 8 (5 untapped) | open mana 17 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Godless Shrine(land); Component Pouch(3)
+Information: BOARD turn 29 (Derand) | Sutlin | life 14 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Harvester of Souls 5/5[Ghost Lantern]; Midnight Reaper 3/2 | hand cards: Teysa Karlov(4); Swamp(land)
+Information: BOARD turn 29 (Derand) | Naphates | life 15 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2[Blade of Selves] | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Come Back Wrong(3)
+Information: BOARD threat | turn 29 | Impact Tremors (Derand) 257; Scrawling Crawler (Naphates) 111; Comet, Stellar Pup (Derand) 40
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Derand 10 > 9
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Derand]
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Derand | open mana: Sutlin 0, Naphates 1
+Resolve Stack: Welding Jar
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Mana: Plains (192) - {T}: Add {W}.
+Add To Stack: Derand cast Component Pouch
+Information: BOARD cast | Component Pouch (mv 3) by Derand | open mana: Sutlin 0, Naphates 1
+Resolve Stack: Component Pouch
+Life: Life: Derand 9 > 7
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Derand played Godless Shrine (135)
+Add To Stack: Derand activated Component Pouch
+Resolve Stack: Component Pouch (147) - Roll a d20.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 9]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Sutlin 14 > 13
+Life: Life: Naphates 15 > 14
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (514)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand activated Comet, Stellar Pup
+Damage: Comet, Stellar Pup (179) deals 1 non-combat damage to Naphates.
+Life: Life: Naphates 14 > 13
+Resolve Stack: Comet, Stellar Pup (179) - Roll a d6.
+Zone Change: Comet, Stellar Pup (179) was put into Graveyard from Battlefield.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 4]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Sutlin 13 > 12
+Life: Life: Naphates 13 > 12
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (517)]
+Phase: Derand's End step
+Zone Change: Treasure Token (472) was put into Graveyard from Battlefield.
+Mana: Treasure Token (472) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (480) was put into Graveyard from Battlefield.
+Mana: Treasure Token (480) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (462) was put into Graveyard from Battlefield.
+Mana: Treasure Token (462) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (460) was put into Graveyard from Battlefield.
+Mana: Treasure Token (460) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Derand activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (201) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 5]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Sutlin 12 > 11
+Life: Life: Naphates 12 > 11
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (519)]
+Phase: Derand's Cleanup step
+Turn: Turn 30 (Sutlin)
+Information: BOARD turn 30 (Sutlin) | Derand | life 7 | hand 0 | lands 9 (8 untapped) | open mana 17 | commander Battlefield | creatures 5 (4 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x4 | hand cards: 
+Information: BOARD turn 30 (Sutlin) | Sutlin | life 11 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Harvester of Souls 5/5[Ghost Lantern]; Midnight Reaper 3/2 | hand cards: Teysa Karlov(4); Swamp(land)
+Information: BOARD turn 30 (Sutlin) | Naphates | life 11 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2[Blade of Selves] | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Come Back Wrong(3)
+Information: BOARD threat | turn 30 | Impact Tremors (Derand) 288; Scrawling Crawler (Naphates) 121; Mr. House, President and CEO (Derand) 70
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 11 > 10
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Swamp (273)
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Swamp (273) - {T}: Add {B}.
+Mana: Plains (306) - {T}: Add {W}.
+Add To Stack: Sutlin cast Teysa Karlov
+Information: BOARD cast | Teysa Karlov (mv 4) by Sutlin | open mana: Derand 17, Naphates 1
+Resolve Stack: Teysa Karlov - Creature 2 / 4
+Land: Sutlin picked {B}
+Mana: Scoured Barrens (242) - {T}: Add {W} or {B}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Sutlin cast Elas il-Kor, Sadistic Pilgrim
+Information: BOARD cast | Elas il-Kor, Sadistic Pilgrim (mv 2) by Sutlin | open mana: Derand 17, Naphates 1
+Resolve Stack: Elas il-Kor, Sadistic Pilgrim - Creature 2 / 2
+Land: Sutlin picked {B}
+Mana: Isolated Chapel (247) - {T}: Add {W} or {B}.
+Mana: Marble Diamond (223) - {T}: Add {W}.
+Zone Change: Orzhov Cluestone (230) was put into Graveyard from Battlefield.
+Add To Stack: Sutlin activated Orzhov Cluestone
+Resolve Stack: Orzhov Cluestone (230) - Sutlin draws a card.
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 10 > 9
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Phase: Sutlin's Declare Blockers Step
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 31 (Naphates)
+Information: BOARD turn 31 (Naphates) | Derand | life 7 | hand 0 | lands 9 (8 untapped) | open mana 17 | commander Battlefield | creatures 5 (4 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x4 | hand cards: 
+Information: BOARD turn 31 (Naphates) | Sutlin | life 9 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Athreos, God of Passage 5/4; Harvester of Souls 5/5[Ghost Lantern]; Midnight Reaper 3/2; Teysa Karlov 2/4; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: Swamp(land)
+Information: BOARD turn 31 (Naphates) | Naphates | life 11 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2[Blade of Selves] | hand cards: Black Market Connections(3); Nine-Lives Familiar(3); Razorkin Needlehead(2); Come Back Wrong(3)
+Information: BOARD threat | turn 31 | Impact Tremors (Derand) 276; Scrawling Crawler (Naphates) 145; Mr. House, President and CEO (Derand) 68
+Phase: Naphates' Untap step
+Phase: Naphates' Upkeep step
+Add To Stack: Naphates triggered Scrawling Crawler
+Resolve Stack: At the beginning of your upkeep, each player draws a card. [Phase: Naphates]
+Add To Stack: Naphates triggered Scrawling Crawler
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 9 > 8
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Life: Life: Derand 7 > 6
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Derand]
+Phase: Naphates' Draw step
+Phase: Naphates' Main phase, precombat
+Mana: Swamp (368) - {T}: Add {B}.
+Mana: Darksteel Citadel (337) - {T}: Add {C}.
+Mana: Mountain (392) - {T}: Add {R}.
+Add To Stack: Naphates cast Come Back Wrong targeting [Harvester of Souls (308)]
+Information: BOARD cast | Come Back Wrong (mv 3) by Naphates | open mana: Derand 17, Sutlin 0
+Zone Change: Harvester of Souls (308) was put into Graveyard from Battlefield.
+Resolve Stack: Come Back Wrong (387) - Destroy Harvester of Souls (308). Return  from the graveyard to the battlefield under your control. 
+Add To Stack: Sutlin triggered Athreos, God of Passage targeting [Derand]
+Add To Stack: Sutlin triggered Athreos, God of Passage targeting [Derand]
+Add To Stack: Sutlin triggered Midnight Reaper
+Add To Stack: Sutlin triggered Midnight Reaper
+Add To Stack: Sutlin triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Sutlin triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Sutlin triggered Ghost Lantern
+Add To Stack: Sutlin triggered Ghost Lantern
+Resolve Stack: Whenever a creature you control dies, put a +1/+1 counter on equipped creature. [Zone Changer: Harvester of Souls (308)]
+Resolve Stack: Whenever a creature you control dies, put a +1/+1 counter on equipped creature. [Zone Changer: Harvester of Souls (308)]
+Life: Life: Naphates 11 > 10
+Life: Life: Derand 6 > 5
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Harvester of Souls (308)]
+Life: Life: Naphates 10 > 9
+Life: Life: Derand 5 > 4
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Harvester of Souls (308)]
+Damage: Midnight Reaper (286) deals 1 non-combat damage to Sutlin.
+Life: Life: Sutlin 8 > 7
+Resolve Stack: Whenever a nontoken creature you control dies, Midnight Reaper deals 1 damage to you and you draw a card. [Zone Changer: Harvester of Souls (308)]
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 7 > 6
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Damage: Midnight Reaper (286) deals 1 non-combat damage to Sutlin.
+Life: Life: Sutlin 6 > 5
+Resolve Stack: Whenever a nontoken creature you control dies, Midnight Reaper deals 1 damage to you and you draw a card. [Zone Changer: Harvester of Souls (308)]
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Sutlin 5 > 4
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Sutlin]
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Derand]]) [Zone Changer: Harvester of Souls (308)]
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Derand]]) [Zone Changer: Harvester of Souls (308)]
+Phase: Naphates' Beginning of Combat Step
+Phase: Naphates' Declare Attackers Step
+Phase: Naphates' Declare Blockers Step
+Phase: Naphates' First Strike Damage Step
+Phase: Naphates' Combat Damage Step
+Phase: Naphates' End of Combat Step
+Phase: Naphates' Main phase, postcombat
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Mountain (394) - {T}: Add {R}.
+Mana: Uncharted Haven (378) - {T}: Add one mana of the chosen color.
+Add To Stack: Naphates cast Black Market Connections
+Information: BOARD cast | Black Market Connections (mv 3) by Naphates | open mana: Derand 17, Sutlin 0
+Resolve Stack: Black Market Connections
+Phase: Naphates' End step
+Add To Stack: Naphates triggered Come Back Wrong
+Resolve Stack: Sacrifice Harvester of Souls (308) at the beginning of your next end step. ([Harvester of Souls (308)]) [Phase: Naphates]
+Phase: Naphates' Cleanup step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 4 | hand 1 | lands 9 (8 untapped) | open mana 17 | commander Battlefield | creatures 5 (4 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x4 | hand cards: Mountain(land)
+Information: BOARD turn 32 (Derand) | Sutlin | life 4 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Athreos, God of Passage 5/4; Midnight Reaper 3/2; Teysa Karlov 2/4; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: Swamp(land); Orzhov Signet(2); Greedy Freebooter(1); Sol Ring(1); Harvester of Souls(6)
+Information: BOARD turn 32 (Derand) | Naphates | life 9 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Scrawling Crawler 3/2[Blade of Selves] | hand cards: Nine-Lives Familiar(3); Razorkin Needlehead(2); Bastion of Remembrance(3); The Darkness Crystal(4)
+Information: BOARD threat | turn 32 | Impact Tremors (Derand) 265; Scrawling Crawler (Naphates) 211; Mr. House, President and CEO (Derand) 65; Athreos, God of Passage (Sutlin) 50; Ghost Lantern (Sutlin) 41
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Naphates triggered Scrawling Crawler
+Life: Life: Derand 4 > 3
+Resolve Stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Derand]
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (189)
+Phase: devDerand's Main phase, precombat
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Godless Shrine (135) - {T}: Add {B}.
+Add To Stack: Derand cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Derand | open mana: Sutlin 0, Naphates 0
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Sutlin 4 > 3
+Life: Life: Naphates 9 > 8
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Pitiless Plunderer (144)]
+Add To Stack: Derand activated Component Pouch
+Resolve Stack: Component Pouch (147) - Roll a d20.
+Zone Change: Treasure Token (476) was put into Graveyard from Battlefield.
+Mana: Treasure Token (476) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (484) was put into Graveyard from Battlefield.
+Mana: Treasure Token (484) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Mana: Treasure Token (419) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (488) was put into Graveyard from Battlefield.
+Mana: Treasure Token (488) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Derand activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (201) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Derand, Result: 4]
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Damage: Impact Tremors (198) deals 1 non-combat damage to Naphates.
+Life: Life: Sutlin 3 > 2
+Life: Life: Naphates 8 > 7
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: Robot Token (522)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Robot Token (517) to attack Sutlin.
+Derand assigned Robot Token (510) and Robot Token (519) to attack Naphates.
+Information: BOARD attack | Derand -> Sutlin | attackers 1 (power 3) | defender life 2 | untapped creatures 4 (power 12): Athreos, God of Passage 5/4; Midnight Reaper 3/2; Teysa Karlov 2/4; Elas il-Kor, Sadistic Pilgrim 2/2 | open mana 0
+Information: BOARD attack | Derand -> Naphates | attackers 2 (power 6) | defender life 7 | untapped creatures 1 (power 3): Scrawling Crawler 3/2[Blade of Selves] | open mana 0
+Phase: Derand's Declare Blockers Step
+Combat: Sutlin assigned Teysa Karlov (257) and Athreos, God of Passage (312) to block Robot Token (517).
+Combat: Naphates assigned Scrawling Crawler (317) to block Robot Token (510).
+Naphates didn't block Robot Token (519).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Robot Token (510) deals 3 damage to Scrawling Crawler (317).
+Damage: Robot Token (519) deals 3 combat damage to Naphates.
+Damage: Robot Token (517) deals 3 damage to Teysa Karlov (257).
+Damage: Teysa Karlov (257) deals 2 damage to Robot Token (517).
+Damage: Athreos, God of Passage (312) deals 5 damage to Robot Token (517).
+Damage: Scrawling Crawler (317) deals 3 damage to Robot Token (510).
+Life: Life: Naphates 7 > 4
+Zone Change: Robot Token (510) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (517) was put into Graveyard from Battlefield.
+Zone Change: Scrawling Crawler (317) was put into Graveyard from Battlefield.
+Add To Stack: Derand triggered Pitiless Plunderer
+Add To Stack: Derand triggered Pitiless Plunderer
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (510)]
+Resolve Stack: Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Robot Token (517)]
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 33 (Sutlin)
+Information: BOARD turn 33 (Sutlin) | Derand | life 3 | hand 0 | lands 10 (8 untapped) | open mana 15 | commander Battlefield | creatures 5 (3 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x2; Robot Token 3/3*; Pitiless Plunderer 1/4 | hand cards: 
+Information: BOARD turn 33 (Sutlin) | Sutlin | life 2 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Athreos, God of Passage 5/4; Midnight Reaper 3/2; Teysa Karlov 2/4; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: Swamp(land); Orzhov Signet(2); Greedy Freebooter(1); Sol Ring(1); Harvester of Souls(6)
+Information: BOARD turn 33 (Sutlin) | Naphates | life 4 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Nine-Lives Familiar(3); Razorkin Needlehead(2); Bastion of Remembrance(3); The Darkness Crystal(4)
+Information: BOARD threat | turn 33 | Impact Tremors (Derand) 288; Mr. House, President and CEO (Derand) 91; Athreos, God of Passage (Sutlin) 48; Ghost Lantern (Sutlin) 39
+Phase: Sutlin's Untap step
+Phase: Sutlin's Upkeep step
+Phase: Sutlin's Draw step
+Phase: Sutlin's Main phase, precombat
+Land: Sutlin played Swamp (270)
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Swamp (273) - {T}: Add {B}.
+Mana: Plains (304) - {T}: Add {W}.
+Mana: Plains (306) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Mana: Marble Diamond (223) - {T}: Add {W}.
+Add To Stack: Sutlin cast Harvester of Souls
+Information: BOARD cast | Harvester of Souls (mv 6) by Sutlin | open mana: Derand 15, Naphates 0
+Resolve Stack: Harvester of Souls - Creature 5 / 5
+Add To Stack: Sutlin triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Sutlin 2 > 3
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Harvester of Souls (308)]
+Mana: Swamp (270) - {T}: Add {B}.
+Add To Stack: Sutlin cast Greedy Freebooter
+Information: BOARD cast | Greedy Freebooter (mv 1) by Sutlin | open mana: Derand 15, Naphates 0
+Resolve Stack: Greedy Freebooter - Creature 1 / 1
+Add To Stack: Sutlin triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Sutlin 3 > 4
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Greedy Freebooter (218)]
+Land: Sutlin picked {B}
+Mana: Scoured Barrens (242) - {T}: Add {W} or {B}.
+Add To Stack: Sutlin activated Ghost Lantern targeting [Athreos, God of Passage (312)]
+Resolve Stack: Ghost Lantern (237) -  Attach to Athreos, God of Passage (312)
+Phase: Sutlin's Beginning of Combat Step
+Phase: Sutlin's Declare Attackers Step
+Combat: Sutlin assigned Athreos, God of Passage (312), Midnight Reaper (286), Teysa Karlov (257) and Elas il-Kor, Sadistic Pilgrim (246) to attack Naphates.
+Information: BOARD attack | Sutlin -> Naphates | attackers 4 (power 12) | defender life 4 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Sutlin's Declare Blockers Step
+Combat: Naphates didn't block Athreos, God of Passage (312).
+Naphates didn't block Midnight Reaper (286).
+Naphates didn't block Teysa Karlov (257).
+Naphates didn't block Elas il-Kor, Sadistic Pilgrim (246).
+Phase: Sutlin's First Strike Damage Step
+Phase: Sutlin's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Naphates.
+Damage: Midnight Reaper (286) deals 3 combat damage to Naphates.
+Damage: Teysa Karlov (257) deals 2 combat damage to Naphates.
+Damage: Elas il-Kor, Sadistic Pilgrim (246) deals 2 combat damage to Naphates.
+Life: Life: Naphates 4 > -8
+Phase: Sutlin's End of Combat Step
+Phase: Sutlin's Main phase, postcombat
+Land: Sutlin picked {B}
+Mana: Isolated Chapel (247) - {T}: Add {W} or {B}.
+Add To Stack: Sutlin cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Sutlin | open mana: Derand 15
+Resolve Stack: Sol Ring
+Phase: Sutlin's End step
+Phase: Sutlin's Cleanup step
+Turn: Turn 34 (Derand)
+Information: BOARD turn 34 (Derand) | Derand | life 3 | hand 0 | lands 10 (8 untapped) | open mana 15 | commander Battlefield | creatures 5 (3 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x2; Robot Token 3/3*; Pitiless Plunderer 1/4 | hand cards: 
+Information: BOARD turn 34 (Derand) | Sutlin | life 4 | hand 2 | lands 8 (0 untapped) | open mana 2 | commander Battlefield | creatures 6 (2 untapped): Athreos, God of Passage 5/4*[Ghost Lantern]; Midnight Reaper 3/2*; Teysa Karlov 2/4*; Elas il-Kor, Sadistic Pilgrim 2/2*; Harvester of Souls 5/5; Greedy Freebooter 1/1 | hand cards: Orzhov Signet(2); Fatal Push(1)
+Information: BOARD threat | turn 34 | Impact Tremors (Derand) 276; Mr. House, President and CEO (Derand) 87; Athreos, God of Passage (Sutlin) 74; Elas il-Kor, Sadistic Pilgrim (Sutlin) 67; Ghost Lantern (Sutlin) 52
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Mountain (190) - {T}: Add {R}.
+Mana: Sol Ring (139) - {T}: Add {C}{C}.
+Mana: Grimclimb Pathway (117) - {T}: Add {B}.
+Add To Stack: Derand cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by Derand | open mana: Sutlin 2
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Add To Stack: Derand triggered Impact Tremors
+Damage: Impact Tremors (198) deals 1 non-combat damage to Sutlin.
+Life: Life: Sutlin 4 > 3
+Resolve Stack: Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent. [Zone Changer: "Lifetime" Pass Holder (162)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Robot Token (514), Robot Token (519) and Robot Token (522) to attack Sutlin.
+Information: BOARD attack | Derand -> Sutlin | attackers 3 (power 9) | defender life 3 | untapped creatures 2 (power 6): Harvester of Souls 5/5; Greedy Freebooter 1/1 | open mana 2
+Phase: Derand's Declare Blockers Step
+Combat: Sutlin assigned Harvester of Souls (308) to block Robot Token (514).
+Sutlin assigned Greedy Freebooter (218) to block Robot Token (519).
+Sutlin didn't block Robot Token (522).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Robot Token (514) deals 3 damage to Harvester of Souls (308).
+Damage: Robot Token (519) deals 3 damage to Greedy Freebooter (218).
+Damage: Robot Token (522) deals 3 combat damage to Sutlin.
+Damage: Greedy Freebooter (218) deals 1 damage to Robot Token (519).
+Damage: Harvester of Souls (308) deals 5 damage (Deathtouch) to Robot Token (514).
+Life: Life: Sutlin 3 > 0
+Player Control: Dominic has restored control over themself
+Player Control: Derand has restored control over themself
+Player Control: Sutlin has restored control over themself
+Player Control: Naphates has restored control over themself
+Game Outcome: Match Duration 37m : 34s
+Game Outcome: Turn 17
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: Derand has won because all opponents have lost
+Game Outcome: Sutlin has lost because life total reached 0
+Game Outcome: Naphates has lost because life total reached 0
+Match Result: Dominic: 0 Derand: 1 Sutlin: 0 Naphates: 0 
+
+Game Result: Derand has won

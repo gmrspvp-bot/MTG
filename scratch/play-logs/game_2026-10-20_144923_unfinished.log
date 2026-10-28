@@ -1,0 +1,100 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Cerdern (AI) deck=Captain America v8
+Player: Valerie (AI) deck=Mr House v4
+Player: Bethe (AI) deck=Olivia
+Mulligan: Valerie has mulliganed down to 7 cards.
+Mulligan: Bethe has mulliganed down to 7 cards.
+Mulligan: Cerdern has kept a hand of 7 cards
+Mulligan: Valerie has kept a hand of 7 cards
+Mulligan: Bethe has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Cerdern)
+Information: BOARD turn 1 (Cerdern) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angelic Renewal(2); Emeria, the Sky Ruin(land); Darksteel Angel(9); Baneslayer Angel(5); Plains(land); Righteous Valkyrie(3); Path of Ancestry(land)
+Information: BOARD turn 1 (Cerdern) | Cerdern | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Generous Gift(3); Glacial Fortress(land); Talisman of Conviction(2); Port Town(land); Sword of War and Peace(3); Sokka and Suki(3)
+Information: BOARD turn 1 (Cerdern) | Valerie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Smoldering Marsh(land); Weftstalker Ardent(3); Marionette Master(6); Blood Crypt(land); Smuggler's Share(3); Ash Barrens(land)
+Information: BOARD turn 1 (Cerdern) | Bethe | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lethal Scheme(4); Clifftop Retreat(land); Queen Marchesa(4); Rogue's Passage(land); Plains(land); Mountain(land); Rankle, Master of Pranks(4)
+Phase: Cerdern's Untap step
+Phase: Cerdern's Upkeep step
+Phase: Cerdern's Draw step
+Phase: Cerdern's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Cerdern played Glacial Fortress (170)
+Phase: Cerdern's Beginning of Combat Step
+Phase: Cerdern's Declare Attackers Step
+Phase: Cerdern's Declare Blockers Step
+Phase: Cerdern's First Strike Damage Step
+Phase: Cerdern's Combat Damage Step
+Phase: Cerdern's End of Combat Step
+Phase: Cerdern's Main phase, postcombat
+Phase: Cerdern's End step
+Phase: Cerdern's Cleanup step
+Turn: Turn 2 (Valerie)
+Information: BOARD turn 2 (Valerie) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angelic Renewal(2); Emeria, the Sky Ruin(land); Darksteel Angel(9); Baneslayer Angel(5); Plains(land); Righteous Valkyrie(3); Path of Ancestry(land)
+Information: BOARD turn 2 (Valerie) | Cerdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Generous Gift(3); Talisman of Conviction(2); Port Town(land); Sword of War and Peace(3); Sokka and Suki(3); Winds of Abandon(2)
+Information: BOARD turn 2 (Valerie) | Valerie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Smoldering Marsh(land); Weftstalker Ardent(3); Marionette Master(6); Blood Crypt(land); Smuggler's Share(3); Ash Barrens(land)
+Information: BOARD turn 2 (Valerie) | Bethe | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lethal Scheme(4); Clifftop Retreat(land); Queen Marchesa(4); Rogue's Passage(land); Plains(land); Mountain(land); Rankle, Master of Pranks(4)
+Phase: Valerie's Untap step
+Phase: Valerie's Upkeep step
+Phase: Valerie's Draw step
+Phase: Valerie's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Valerie played Smoldering Marsh (267)
+Phase: Valerie's Beginning of Combat Step
+Phase: Valerie's Declare Attackers Step
+Phase: Valerie's Declare Blockers Step
+Phase: Valerie's First Strike Damage Step
+Phase: Valerie's Combat Damage Step
+Phase: Valerie's End of Combat Step
+Phase: Valerie's Main phase, postcombat
+Phase: Valerie's End step
+Phase: Valerie's Cleanup step
+Turn: Turn 3 (Bethe)
+Information: BOARD turn 3 (Bethe) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angelic Renewal(2); Emeria, the Sky Ruin(land); Darksteel Angel(9); Baneslayer Angel(5); Plains(land); Righteous Valkyrie(3); Path of Ancestry(land)
+Information: BOARD turn 3 (Bethe) | Cerdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Generous Gift(3); Talisman of Conviction(2); Port Town(land); Sword of War and Peace(3); Sokka and Suki(3); Winds of Abandon(2)
+Information: BOARD turn 3 (Bethe) | Valerie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Weftstalker Ardent(3); Marionette Master(6); Blood Crypt(land); Smuggler's Share(3); Ash Barrens(land); Academy Manufactor(3)
+Information: BOARD turn 3 (Bethe) | Bethe | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lethal Scheme(4); Clifftop Retreat(land); Queen Marchesa(4); Rogue's Passage(land); Plains(land); Mountain(land); Rankle, Master of Pranks(4)
+Phase: Bethe's Untap step
+Phase: Bethe's Upkeep step
+Phase: Bethe's Draw step
+Phase: Bethe's Main phase, precombat
+Land: Bethe played Rogue's Passage (339)
+Phase: Bethe's Beginning of Combat Step
+Phase: Bethe's Declare Attackers Step
+Phase: Bethe's Declare Blockers Step
+Phase: Bethe's First Strike Damage Step
+Phase: Bethe's Combat Damage Step
+Phase: Bethe's End of Combat Step
+Phase: Bethe's Main phase, postcombat
+Phase: Bethe's End step
+Phase: Bethe's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angelic Renewal(2); Emeria, the Sky Ruin(land); Darksteel Angel(9); Baneslayer Angel(5); Plains(land); Righteous Valkyrie(3); Path of Ancestry(land)
+Information: BOARD turn 4 (Xenil) | Cerdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Generous Gift(3); Talisman of Conviction(2); Port Town(land); Sword of War and Peace(3); Sokka and Suki(3); Winds of Abandon(2)
+Information: BOARD turn 4 (Xenil) | Valerie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Weftstalker Ardent(3); Marionette Master(6); Blood Crypt(land); Smuggler's Share(3); Ash Barrens(land); Academy Manufactor(3)
+Information: BOARD turn 4 (Xenil) | Bethe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lethal Scheme(4); Clifftop Retreat(land); Queen Marchesa(4); Plains(land); Mountain(land); Rankle, Master of Pranks(4); Tinybones, the Pickpocket(1)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Xenil played Path of Ancestry (10)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 5 (Cerdern)
+Information: BOARD turn 5 (Cerdern) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angelic Renewal(2); Emeria, the Sky Ruin(land); Darksteel Angel(9); Baneslayer Angel(5); Plains(land); Righteous Valkyrie(3); Akroma's Will(4)
+Information: BOARD turn 5 (Cerdern) | Cerdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Generous Gift(3); Talisman of Conviction(2); Port Town(land); Sword of War and Peace(3); Sokka and Suki(3); Winds of Abandon(2)
+Information: BOARD turn 5 (Cerdern) | Valerie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Idol of Oblivion(2); Weftstalker Ardent(3); Marionette Master(6); Blood Crypt(land); Smuggler's Share(3); Ash Barrens(land); Academy Manufactor(3)
+Information: BOARD turn 5 (Cerdern) | Bethe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lethal Scheme(4); Clifftop Retreat(land); Queen Marchesa(4); Plains(land); Mountain(land); Rankle, Master of Pranks(4); Tinybones, the Pickpocket(1)
+Phase: Cerdern's Untap step
+Phase: Cerdern's Upkeep step
+Phase: Cerdern's Draw step
+Phase: Cerdern's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

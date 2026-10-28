@@ -1,0 +1,379 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Angelina (AI) deck=Captain America v8
+Player: Carol (AI) deck=Mr House v4
+Player: Catherine (AI) deck=Olivia
+Mulligan: Angelina has mulliganed down to 7 cards.
+Mulligan: Angelina has mulliganed down to 6 cards.
+Mulligan: Angelina has mulliganed down to 5 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Angelina has kept a hand of 5 cards
+Mulligan: Carol has kept a hand of 7 cards
+Mulligan: Catherine has kept a hand of 7 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land)
+Information: BOARD turn 1 (Xenil) | Angelina | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Battlefield Forge(land); Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 1 (Xenil) | Carol | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Swamp(land); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 1 (Xenil) | Catherine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Rugged Prairie(land); Dragonskull Summit(land); Blackcleave Cliffs(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (66)
+Mana: Plains (66) - {T}: Add {W}.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Angelina)
+Information: BOARD turn 2 (Angelina) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 2 (Angelina) | Angelina | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Battlefield Forge(land); Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 2 (Angelina) | Carol | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Swamp(land); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 2 (Angelina) | Catherine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Rugged Prairie(land); Dragonskull Summit(land); Blackcleave Cliffs(land)
+Phase: Angelina's Untap step
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Land: Angelina played Battlefield Forge (198)
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's Declare Blockers Step
+Phase: Angelina's First Strike Damage Step
+Phase: Angelina's Combat Damage Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Angelina cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Angelina | open mana: Xenil 0, Carol 0, Catherine 0
+Resolve Stack: Commander's Plate
+Phase: Angelina's End step
+Phase: Angelina's Cleanup step
+Turn: Turn 3 (Carol)
+Information: BOARD turn 3 (Carol) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 3 (Carol) | Angelina | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 3 (Carol) | Carol | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Swamp(land); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 3 (Carol) | Catherine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Rugged Prairie(land); Dragonskull Summit(land); Blackcleave Cliffs(land)
+Phase: Carol's Untap step
+Phase: Carol's Upkeep step
+Phase: Carol's Draw step
+Phase: Carol's Main phase, precombat
+Land: Carol played Swamp (254)
+Phase: Carol's Beginning of Combat Step
+Phase: Carol's Declare Attackers Step
+Phase: Carol's Declare Blockers Step
+Phase: Carol's First Strike Damage Step
+Phase: Carol's Combat Damage Step
+Phase: Carol's End of Combat Step
+Phase: Carol's Main phase, postcombat
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: Carol cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by Carol | open mana: Xenil 0, Angelina 0, Catherine 0
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: Carol's End step
+Phase: Carol's Cleanup step
+Turn: Turn 4 (Catherine)
+Information: BOARD turn 4 (Catherine) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 4 (Catherine) | Angelina | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 4 (Catherine) | Carol | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 4 (Catherine) | Catherine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Rugged Prairie(land); Dragonskull Summit(land); Blackcleave Cliffs(land)
+Phase: Catherine's Untap step
+Phase: Catherine's Upkeep step
+Phase: Catherine's Draw step
+Phase: Catherine's Main phase, precombat
+Land: Catherine played Rugged Prairie (361)
+Phase: Catherine's Beginning of Combat Step
+Phase: Catherine's Declare Attackers Step
+Phase: Catherine's Declare Blockers Step
+Phase: Catherine's First Strike Damage Step
+Phase: Catherine's Combat Damage Step
+Phase: Catherine's End of Combat Step
+Phase: Catherine's Main phase, postcombat
+Phase: Catherine's End step
+Phase: Catherine's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 5 (Xenil) | Angelina | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 5 (Xenil) | Carol | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 5 (Xenil) | Catherine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (80).
+Turn: Turn 6 (Angelina)
+Information: BOARD turn 6 (Angelina) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1); Knight of the White Orchid(2)
+Information: BOARD turn 6 (Angelina) | Angelina | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Glacial Fortress(land); Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2)
+Information: BOARD turn 6 (Angelina) | Carol | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 6 (Angelina) | Catherine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4)
+Phase: Angelina's Untap step
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Angelina played Glacial Fortress (170)
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's Declare Blockers Step
+Phase: Angelina's First Strike Damage Step
+Phase: Angelina's Combat Damage Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Phase: Angelina's Cleanup step
+Turn: Turn 7 (Carol)
+Information: BOARD turn 7 (Carol) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1); Knight of the White Orchid(2)
+Information: BOARD turn 7 (Carol) | Angelina | life 40 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2); Counterspell(2)
+Information: BOARD turn 7 (Carol) | Carol | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Spectator Seating(land); Academy Manufactor(3); Professional Face-Breaker(3)
+Information: BOARD turn 7 (Carol) | Catherine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4)
+Phase: Carol's Untap step
+Phase: Carol's Upkeep step
+Phase: Carol's Draw step
+Phase: Carol's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Carol played Spectator Seating (281)
+Phase: Carol's Beginning of Combat Step
+Phase: Carol's Declare Attackers Step
+Combat: Carol assigned "Lifetime" Pass Holder (264) to attack Angelina.
+Information: BOARD attack | Carol -> Angelina | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Carol's Declare Blockers Step
+Combat: Angelina didn't block "Lifetime" Pass Holder (264).
+Phase: Carol's First Strike Damage Step
+Phase: Carol's Combat Damage Step
+Damage: "Lifetime" Pass Holder (264) deals 2 combat damage to Angelina.
+Life: Life: Angelina 40 > 38
+Phase: Carol's End of Combat Step
+Phase: Carol's Main phase, postcombat
+Phase: Carol's End step
+Phase: Carol's Cleanup step
+Turn: Turn 8 (Catherine)
+Information: BOARD turn 8 (Catherine) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1); Knight of the White Orchid(2)
+Information: BOARD turn 8 (Catherine) | Angelina | life 38 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2); Counterspell(2)
+Information: BOARD turn 8 (Catherine) | Carol | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3)
+Information: BOARD turn 8 (Catherine) | Catherine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Temple of Malice(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4)
+Phase: Catherine's Untap step
+Phase: Catherine's Upkeep step
+Phase: Catherine's Draw step
+Phase: Catherine's Main phase, precombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Catherine played Temple of Malice (322)
+Add To Stack: Catherine triggered Temple of Malice
+Resolve Stack: Catherine scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (322)]
+Phase: Catherine's Beginning of Combat Step
+Phase: Catherine's Declare Attackers Step
+Phase: Catherine's Declare Blockers Step
+Phase: Catherine's First Strike Damage Step
+Phase: Catherine's Combat Damage Step
+Phase: Catherine's End of Combat Step
+Phase: Catherine's Main phase, postcombat
+Phase: Catherine's End step
+Phase: Catherine's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Baneslayer Angel(5); Plains(land); Weathered Wayfarer(1); Knight of the White Orchid(2)
+Information: BOARD turn 9 (Xenil) | Angelina | life 38 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2); Counterspell(2)
+Information: BOARD turn 9 (Xenil) | Carol | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3)
+Information: BOARD turn 9 (Xenil) | Catherine | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: devXenil's Main phase, precombat
+Land: Xenil played Plains (86)
+Mana: Plains (66) - {T}: Add {W}.
+Add To Stack: Xenil cast Weathered Wayfarer
+Information: BOARD cast | Weathered Wayfarer (mv 1) by Xenil | open mana: Angelina 3, Carol 4, Catherine 5
+Resolve Stack: Weathered Wayfarer - Creature 1 / 1
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 10 (Angelina)
+Information: BOARD turn 10 (Angelina) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5)
+Information: BOARD turn 10 (Angelina) | Angelina | life 38 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Wraith, Vicious Vigilante(3); Plains(land); Sram, Senior Edificer(2); Counterspell(2)
+Information: BOARD turn 10 (Angelina) | Carol | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3)
+Information: BOARD turn 10 (Angelina) | Catherine | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Angelina's Untap step
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Land: Angelina played Plains (184)
+Land: Angelina picked {U}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Land: Angelina picked {R}
+Damage: Battlefield Forge (198) deals 1 non-combat damage to Angelina.
+Life: Life: Angelina 38 > 37
+Mana: Battlefield Forge (198) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Mana: Plains (184) - {T}: Add {W}.
+Add To Stack: Angelina cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Angelina | open mana: Xenil 1, Carol 4, Catherine 5
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Angelina's Beginning of Combat Step
+Add To Stack: Angelina triggered Captain America, First Avenger targeting [Commander's Plate (157)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (157)]]) [Phase: Angelina]
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's Declare Blockers Step
+Phase: Angelina's First Strike Damage Step
+Phase: Angelina's Combat Damage Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Phase: Angelina's Cleanup step
+Turn: Turn 11 (Carol)
+Information: BOARD turn 11 (Carol) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5)
+Information: BOARD turn 11 (Carol) | Angelina | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Wraith, Vicious Vigilante(3); Sram, Senior Edificer(2); Counterspell(2); Kaldra Compleat(7)
+Information: BOARD turn 11 (Carol) | Carol | life 40 | hand 6 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Big Score(4); Needleverge Pathway(land); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3)
+Information: BOARD turn 11 (Carol) | Catherine | life 40 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Carol's Untap step
+Phase: Carol's Upkeep step
+Phase: Carol's Draw step
+Phase: Carol's Main phase, precombat
+Land: Carol played Needleverge Pathway (240)
+Land: Carol picked {W}
+Mana: Spectator Seating (281) - {T}: Add {R} or {W}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Needleverge Pathway (240) - {T}: Add {R}.
+Add To Stack: Carol cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Carol | open mana: Xenil 1, Angelina 0, Catherine 5
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Carol's Beginning of Combat Step
+Phase: Carol's Declare Attackers Step
+Combat: Carol assigned "Lifetime" Pass Holder (264) to attack Catherine.
+Information: BOARD attack | Carol -> Catherine | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Carol's Declare Blockers Step
+Combat: Catherine didn't block "Lifetime" Pass Holder (264).
+Phase: Carol's First Strike Damage Step
+Phase: Carol's Combat Damage Step
+Damage: "Lifetime" Pass Holder (264) deals 2 combat damage to Catherine.
+Life: Life: Catherine 40 > 38
+Phase: Carol's End of Combat Step
+Phase: Carol's Main phase, postcombat
+Phase: Carol's End step
+Phase: Carol's Cleanup step
+Turn: Turn 12 (Catherine)
+Information: BOARD turn 12 (Catherine) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5)
+Information: BOARD turn 12 (Catherine) | Angelina | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Wraith, Vicious Vigilante(3); Sram, Senior Edificer(2); Counterspell(2); Kaldra Compleat(7)
+Information: BOARD turn 12 (Catherine) | Carol | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: Big Score(4); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 12 (Catherine) | Catherine | life 38 | hand 7 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Rogue's Passage(land); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Catherine's Untap step
+Phase: Catherine's Upkeep step
+Phase: Catherine's Draw step
+Phase: Catherine's Main phase, precombat
+Land: Catherine played Rogue's Passage (339)
+Phase: Catherine's Beginning of Combat Step
+Phase: Catherine's Declare Attackers Step
+Phase: Catherine's Declare Blockers Step
+Phase: Catherine's First Strike Damage Step
+Phase: Catherine's Combat Damage Step
+Phase: Catherine's End of Combat Step
+Phase: Catherine's Main phase, postcombat
+Land: Catherine picked {R}
+Mana: Temple of Malice (322) - {T}: Add {B} or {R}.
+Mana: Rugged Prairie (361) - {T}: Add {C}.
+Mana: Rogue's Passage (339) - {T}: Add {C}.
+Add To Stack: Catherine cast Xorn
+Information: BOARD cast | Xorn (mv 3) by Catherine | open mana: Xenil 1, Angelina 0, Carol 0
+Resolve Stack: Xorn - Creature 3 / 2
+Phase: Catherine's End step
+Phase: Catherine's Cleanup step
+Turn: Turn 13 (Xenil)
+Information: BOARD turn 13 (Xenil) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5)
+Information: BOARD turn 13 (Xenil) | Angelina | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Wraith, Vicious Vigilante(3); Sram, Senior Edificer(2); Counterspell(2); Kaldra Compleat(7)
+Information: BOARD turn 13 (Xenil) | Carol | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: Big Score(4); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 13 (Xenil) | Catherine | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Vindicate(3); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 14 (Angelina)
+Information: BOARD turn 14 (Angelina) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5); Swords to Plowshares(1)
+Information: BOARD turn 14 (Angelina) | Angelina | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Wraith, Vicious Vigilante(3); Sram, Senior Edificer(2); Counterspell(2); Kaldra Compleat(7)
+Information: BOARD turn 14 (Angelina) | Carol | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: Big Score(4); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 14 (Angelina) | Catherine | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Vindicate(3); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Phase: Angelina's Untap step
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Phase: Angelina's Beginning of Combat Step
+Add To Stack: Angelina triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Angelina]
+Phase: Angelina's Declare Attackers Step
+Combat: Angelina assigned Captain America, First Avenger (201) to attack Carol.
+Information: BOARD attack | Angelina -> Carol | attackers 1 (power 7) | defender life 40 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Angelina's Declare Blockers Step
+Combat: Carol didn't block Captain America, First Avenger (201).
+Phase: Angelina's First Strike Damage Step
+Phase: Angelina's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 7 combat damage to Carol.
+Life: Life: Carol 40 > 33
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Land: Angelina picked {U}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Plains (184) - {T}: Add {W}.
+Mana: Battlefield Forge (198) - {T}: Add {C}.
+Add To Stack: Angelina cast Wraith, Vicious Vigilante
+Information: BOARD cast | Wraith, Vicious Vigilante (mv 3) by Angelina | open mana: Xenil 2, Carol 0, Catherine 0
+Resolve Stack: Wraith, Vicious Vigilante - Creature 1 / 1
+Phase: Angelina's End step
+Phase: Angelina's Cleanup step
+Turn: Turn 15 (Carol)
+Information: BOARD turn 15 (Carol) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Restoration Angel(4); Knight of the White Orchid(2); Faith's Reward(4); Baneslayer Angel(5); Swords to Plowshares(1)
+Information: BOARD turn 15 (Carol) | Angelina | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 7/7*[Commander's Plate]; Wraith, Vicious Vigilante 1/1 | hand cards: Sram, Senior Edificer(2); Counterspell(2); Kaldra Compleat(7); Mjölnir, Storm Hammer(4)
+Information: BOARD turn 15 (Carol) | Carol | life 33 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): "Lifetime" Pass Holder 2/1*; Mr. House, President and CEO 0/4 | hand cards: Big Score(4); Attempted Murder(2); Academy Manufactor(3); Professional Face-Breaker(3); Circuits Act(3); Lotho, Corrupt Shirriff(2)
+Information: BOARD turn 15 (Carol) | Catherine | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Xorn 3/2 | hand cards: Vindicate(3); Swiftfoot Boots(2); Dragonskull Summit(land); Blackcleave Cliffs(land); Roaming Throne(4); Arcane Signet(2)
+Information: BOARD threat | turn 15 | Captain America, First Avenger (Angelina) 67
+Phase: Carol's Untap step
+Phase: Carol's Upkeep step
+Phase: Carol's Draw step
+Phase: Carol's Main phase, precombat
+Land: Carol played Caves of Koilos (203)
+Phase: Carol's Beginning of Combat Step
+Phase: Carol's Declare Attackers Step
+Phase: Carol's Declare Blockers Step
+Phase: Carol's First Strike Damage Step
+Phase: Carol's Combat Damage Step
+Phase: Carol's End of Combat Step
+Phase: Carol's Main phase, postcombat
+Mana: Swamp (254) - {T}: Add {B}.
+Land: Carol picked {B}
+Damage: Caves of Koilos (203) deals 1 non-combat damage to Carol.
+Life: Life: Carol 33 > 32
+Mana: Caves of Koilos (203) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Needleverge Pathway (240) - {T}: Add {R}.
+Land: Carol picked {R}
+Mana: Spectator Seating (281) - {T}: Add {R} or {W}.
+Add To Stack: Carol cast Attempted Murder
+Information: BOARD cast | Attempted Murder (mv 2) by Carol | open mana: Xenil 2, Angelina 0, Catherine 0
+Resolve Stack: Attempted Murder (298) - Roll 2 d6. For each even result, put two -1/-1 counters on Xorn (397). For each odd result, Carol creates a 1/2 blue Bird creature token with flying named Storm Crow.
+Zone Change: Xorn (397) was put into Graveyard from Battlefield.
+Add To Stack: Carol triggered Mr. House, President and CEO
+
+Game Result: unfinished (Forge closed mid-game)

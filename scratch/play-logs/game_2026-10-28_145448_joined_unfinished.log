@@ -1,0 +1,480 @@
+Player: Dominic (HUMAN) deck=? (commander Adrix and Nev, Twincasters) [this PC]
+Player: Derand (HUMAN) deck=? (commander Doctor Doom, King of Latveria)
+Player: Jemsh (HUMAN) deck=? (commander Zinnia, Valley's Voice)
+Player: Alec (HUMAN) deck=? (commander Athreos, God of Passage)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rite of Replication(4); Stampeding Scurryfoot(1); Forest(land); The Legend of Kuruk(4); Forest(land); Island(land); Circuitous Route(4)
+Information: BOARD turn 1 (Dominic) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Forest (144)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Jemsh)
+Information: BOARD turn 2 (Jemsh) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Jemsh) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rite of Replication(4); Stampeding Scurryfoot(1); Forest(land); The Legend of Kuruk(4); Island(land); Circuitous Route(4); Forest(land)
+Information: BOARD turn 2 (Jemsh) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Jemsh) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Add To Stack: Jemsh triggered Temple of Enlightenment
+Zone Change: Temple of Enlightenment (264) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 3 (Alec)
+Information: BOARD turn 3 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rite of Replication(4); Stampeding Scurryfoot(1); Forest(land); The Legend of Kuruk(4); Island(land); Circuitous Route(4); Forest(land)
+Information: BOARD turn 3 (Alec) | Jemsh | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (398)
+Add To Stack: Alec cast Land Tax
+Zone Change: Land Tax (320) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rite of Replication(4); Stampeding Scurryfoot(1); Forest(land); The Legend of Kuruk(4); Island(land); Circuitous Route(4); Forest(land)
+Information: BOARD turn 4 (Derand) | Jemsh | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (87)
+Add To Stack: Derand cast Sol Ring
+Zone Change: Sol Ring (49) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Skullclamp
+Zone Change: Skullclamp (47) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rite of Replication(4); Stampeding Scurryfoot(1); Forest(land); The Legend of Kuruk(4); Island(land); Circuitous Route(4); Forest(land)
+Information: BOARD turn 5 (Dominic) | Jemsh | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (130)
+Add To Stack: Dominic cast Stampeding Scurryfoot
+Zone Change: Stampeding Scurryfoot (180) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Jemsh)
+Information: BOARD turn 6 (Jemsh) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Jemsh) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Forest(land); Heroic Intervention(2)
+Information: BOARD turn 6 (Jemsh) | Jemsh | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Jemsh) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Exotic Orchard (238)
+Add To Stack: Jemsh cast Jeskai Monument
+Add To Stack: Jemsh triggered Jeskai Monument
+Zone Change: Jeskai Monument (275) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 7 (Alec)
+Information: BOARD turn 7 (Alec) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Alec) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Forest(land); Heroic Intervention(2)
+Information: BOARD turn 7 (Alec) | Jemsh | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Alec) | Alec | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Land Tax
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Isolated Chapel (338)
+Add To Stack: Alec cast Arcane Signet
+Zone Change: Arcane Signet (347) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Forest(land); Heroic Intervention(2)
+Information: BOARD turn 8 (Derand) | Jemsh | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sulfur Falls (50)
+Add To Stack: Derand cast Puppet Master, String Puller
+Zone Change: Puppet Master, String Puller (12) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Forest(land); Heroic Intervention(2)
+Information: BOARD turn 9 (Dominic) | Jemsh | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Forest (143)
+Add To Stack: Dominic cast Simic Signet
+Zone Change: Simic Signet (114) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 10 (Jemsh)
+Information: BOARD turn 10 (Jemsh) | Derand | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: hidden
+Information: BOARD turn 10 (Jemsh) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Heroic Intervention(2)
+Information: BOARD turn 10 (Jemsh) | Jemsh | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Jemsh) | Alec | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Plains (289)
+Add To Stack: Jemsh cast Zinnia, Valley's Voice
+Zone Change: Zinnia, Valley's Voice (302) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 11 (Alec)
+Information: BOARD turn 11 (Alec) | Derand | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: hidden
+Information: BOARD turn 11 (Alec) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Heroic Intervention(2)
+Information: BOARD turn 11 (Alec) | Jemsh | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Zinnia, Valley's Voice 1/3 | hand cards: hidden
+Information: BOARD turn 11 (Alec) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Land Tax
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Athreos, God of Passage
+Zone Change: Athreos, God of Passage (403) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Orzhov Basilica
+Zone Change: Orzhov Basilica (345) was put onto the Battlefield under Alec.
+Zone Change: Plains (398) was put into another zone from Battlefield.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 4 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Puppet Master, String Puller 2/4 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Heroic Intervention(2)
+Information: BOARD turn 12 (Derand) | Jemsh | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Zinnia, Valley's Voice 1/3 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Alec | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Swamp (54)
+Add To Stack: Derand cast Doctor Doom, King of Latveria
+Zone Change: Doctor Doom, King of Latveria (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Doctor Doom, King of Latveria targeting [Puppet Master, String Puller (12)]
+Add To Stack: Derand triggered Doctor Doom, King of Latveria
+Life: Life: Dominic 40 > 38
+Life: Life: Jemsh 40 > 38
+Life: Life: Alec 40 > 38
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Puppet Master, String Puller targeting [Zinnia, Valley's Voice (302)]
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Puppet Master, String Puller (12) to attack Jemsh.
+Phase: Derand's Combat Damage Step
+Combat: Jemsh didn't block Puppet Master, String Puller (12).
+Life: Life: Jemsh 38 > 36
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Puppet Master, String Puller 2/4*; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 38 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Circuitous Route(4); Heroic Intervention(2)
+Information: BOARD turn 13 (Dominic) | Jemsh | life 36 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Zinnia, Valley's Voice 1/3 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Alec | life 38 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (158)
+Add To Stack: Dominic cast Circuitous Route
+Zone Change: Island (131) was put onto the Battlefield under Dominic.
+Zone Change: Forest (146) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 14 (Jemsh)
+Information: BOARD turn 14 (Jemsh) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Puppet Master, String Puller 2/4*; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 14 (Jemsh) | Dominic | life 38 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Heroic Intervention(2)
+Information: BOARD turn 14 (Jemsh) | Jemsh | life 36 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Zinnia, Valley's Voice 1/3 | hand cards: hidden
+Information: BOARD turn 14 (Jemsh) | Alec | life 38 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Cascade Bluffs (228)
+Add To Stack: Jemsh cast Impact Tremors
+Zone Change: Impact Tremors (240) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh cast Spirited Companion
+Add To Stack: Jemsh triggered Spirited Companion
+Zone Change: Spirited Companion (204) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Impact Tremors
+Life: Life: Derand 40 > 39
+Life: Life: Dominic 38 > 37
+Life: Life: Alec 38 > 37
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Zinnia, Valley's Voice (302) to attack Alec.
+Phase: Jemsh's Combat Damage Step
+Add To Stack: Derand triggered Puppet Master, String Puller
+Combat: Alec didn't block Zinnia, Valley's Voice (302).
+Life: Life: Alec 37 > 35
+Zone Change: Treasure Token (406) was put onto the Battlefield under Derand.
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 15 (Alec)
+Information: BOARD turn 15 (Alec) | Derand | life 39 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Puppet Master, String Puller 2/4*; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 15 (Alec) | Dominic | life 37 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Heroic Intervention(2)
+Information: BOARD turn 15 (Alec) | Jemsh | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Zinnia, Valley's Voice 2/3*; Spirited Companion 1/1 | hand cards: hidden
+Information: BOARD turn 15 (Alec) | Alec | life 35 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Land Tax
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (358)
+Add To Stack: Alec cast Elas il-Kor, Sadistic Pilgrim
+Zone Change: Elas il-Kor, Sadistic Pilgrim (337) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Warren Soultrader
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Zone Change: Warren Soultrader (332) was put onto the Battlefield under Alec.
+Life: Life: Alec 35 > 36
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 39 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Puppet Master, String Puller 2/4; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 37 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Heroic Intervention(2)
+Information: BOARD turn 16 (Derand) | Jemsh | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Zinnia, Valley's Voice 2/3*; Spirited Companion 1/1 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Alec | life 36 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Warren Soultrader 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (21)
+Add To Stack: Derand cast Batroc the Leaper
+Zone Change: Batroc the Leaper (29) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Batroc the Leaper targeting [Elas il-Kor, Sadistic Pilgrim (337), Dominic]
+Zone Change: Elas il-Kor, Sadistic Pilgrim (337) was put into another zone from Battlefield.
+Life: Life: Dominic 37 > 33
+Add To Stack: Alec triggered Athreos, God of Passage targeting [Jemsh]
+Life: Life: Jemsh 36 > 33
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Doctor Doom, King of Latveria targeting [Puppet Master, String Puller (12)]
+Add To Stack: Derand triggered Doctor Doom, King of Latveria
+Life: Life: Dominic 33 > 31
+Life: Life: Jemsh 33 > 31
+Life: Life: Alec 36 > 34
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Puppet Master, String Puller targeting [Stampeding Scurryfoot (180)]
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Puppet Master, String Puller (12) to attack Alec.
+Phase: Derand's First Strike Damage Step
+Combat: Alec didn't block Puppet Master, String Puller (12).
+Phase: Derand's Combat Damage Step
+Life: Life: Alec 34 > 32
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Puppet Master, String Puller 2/4*; Doctor Doom, King of Latveria 3/3; Batroc the Leaper 4/4 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 31 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Stampeding Scurryfoot 1/1 | hand cards: Rite of Replication(4); Forest(land); The Legend of Kuruk(4); Heroic Intervention(2)
+Information: BOARD turn 17 (Dominic) | Jemsh | life 31 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Zinnia, Valley's Voice 2/3*; Spirited Companion 1/1 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Alec | life 32 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Warren Soultrader 3/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Forest (148)
+Add To Stack: Dominic cast Adrix and Nev, Twincasters
+Zone Change: Adrix and Nev, Twincasters (201) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Stampeding Scurryfoot
+Zone Change: Elephant Token (408) was put onto the Battlefield under Dominic.
+Zone Change: Elephant Token (409) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Stampeding Scurryfoot (180) to attack Jemsh.
+Phase: Dominic's Combat Damage Step
+Add To Stack: Derand triggered Puppet Master, String Puller
+Combat: Jemsh didn't block Stampeding Scurryfoot (180).
+Life: Life: Jemsh 31 > 29
+Zone Change: Treasure Token (411) was put onto the Battlefield under Derand.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 18 (Jemsh)
+Information: BOARD turn 18 (Jemsh) | Derand | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Puppet Master, String Puller 2/4*; Doctor Doom, King of Latveria 3/3; Batroc the Leaper 4/4 | hand cards: hidden
+Information: BOARD turn 18 (Jemsh) | Dominic | life 31 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Stampeding Scurryfoot 2/2*; Adrix and Nev, Twincasters 2/2; Elephant Token 3/3 x2 | hand cards: Rite of Replication(4); The Legend of Kuruk(4); Heroic Intervention(2); Botanical Sanctum(land)
+Information: BOARD turn 18 (Jemsh) | Jemsh | life 29 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Zinnia, Valley's Voice 2/3; Spirited Companion 1/1 | hand cards: hidden
+Information: BOARD turn 18 (Jemsh) | Alec | life 32 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Warren Soultrader 3/3 | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Plains (285)
+Add To Stack: Jemsh cast Rapid Hybridization targeting [Doctor Doom, King of Latveria (100)]
+Zone Change: Frog Lizard Token (413) was put onto the Battlefield under Derand.
+Zone Change: Doctor Doom, King of Latveria (100) was put into another zone from Battlefield.
+Add To Stack: Jemsh cast Solemn Simulacrum
+Add To Stack: Jemsh triggered Solemn Simulacrum
+Zone Change: Solemn Simulacrum (236) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Impact Tremors
+Life: Life: Derand 39 > 38
+Life: Life: Dominic 31 > 30
+Life: Life: Alec 32 > 31
+Zone Change: Plains (291) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Zinnia, Valley's Voice (302) to attack Derand.
+Phase: Jemsh's Combat Damage Step
+Combat: Derand didn't block Zinnia, Valley's Voice (302).
+Life: Life: Derand 38 > 36
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 19 (Alec)
+Information: BOARD turn 19 (Alec) | Derand | life 36 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Puppet Master, String Puller 2/4*; Batroc the Leaper 4/4; Frog Lizard Token 3/3 | hand cards: hidden
+Information: BOARD turn 19 (Alec) | Dominic | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Stampeding Scurryfoot 2/2*; Adrix and Nev, Twincasters 2/2; Elephant Token 3/3 x2 | hand cards: Rite of Replication(4); The Legend of Kuruk(4); Heroic Intervention(2); Botanical Sanctum(land)
+Information: BOARD turn 19 (Alec) | Jemsh | life 29 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Zinnia, Valley's Voice 2/3*; Spirited Companion 1/1; Solemn Simulacrum 2/2 | hand cards: hidden
+Information: BOARD turn 19 (Alec) | Alec | life 31 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Warren Soultrader 3/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Land Tax
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (361)
+Add To Stack: Alec cast Divinity of Pride
+Zone Change: Divinity of Pride (341) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Athreos, God of Passage (403) to attack Derand.
+Phase: Alec's Combat Damage Step
+Combat: Derand didn't block Athreos, God of Passage (403).
+Life: Life: Derand 36 > 31
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 31 | hand 3 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 3 (3 untapped): Puppet Master, String Puller 2/4; Batroc the Leaper 4/4; Frog Lizard Token 3/3 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Stampeding Scurryfoot 2/2*; Adrix and Nev, Twincasters 2/2; Elephant Token 3/3 x2 | hand cards: Rite of Replication(4); The Legend of Kuruk(4); Heroic Intervention(2); Botanical Sanctum(land)
+Information: BOARD turn 20 (Derand) | Jemsh | life 29 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Zinnia, Valley's Voice 2/3*; Spirited Companion 1/1; Solemn Simulacrum 2/2 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Alec | life 31 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Divinity of Pride 8/8 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Path of Ancestry (6)
+Add To Stack: Derand cast Doctor Doom, King of Latveria
+Zone Change: Doctor Doom, King of Latveria (100) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (406) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (411) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Psychic Frog
+Zone Change: Psychic Frog (93) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Doctor Doom, King of Latveria targeting [Puppet Master, String Puller (12)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Puppet Master, String Puller targeting [Zinnia, Valley's Voice (302)]
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Puppet Master, String Puller (12) to attack Jemsh.
+Phase: Derand's First Strike Damage Step
+Combat: Jemsh assigned Solemn Simulacrum (236), Spirited Companion (204) to block Puppet Master, String Puller (12).
+Phase: Derand's Combat Damage Step
+Zone Change: Spirited Companion (204) was put into another zone from Battlefield.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 31 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Puppet Master, String Puller 3/5*; Batroc the Leaper 4/4; Frog Lizard Token 3/3; Doctor Doom, King of Latveria 3/3; Psychic Frog 1/2 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 30 | hand 4 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 4 (4 untapped): Stampeding Scurryfoot 2/2; Adrix and Nev, Twincasters 2/2; Elephant Token 3/3 x2 | hand cards: Rite of Replication(4); The Legend of Kuruk(4); Heroic Intervention(2); Botanical Sanctum(land)
+Information: BOARD turn 21 (Dominic) | Jemsh | life 29 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Zinnia, Valley's Voice 1/3*; Solemn Simulacrum 2/2 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Alec | life 31 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Athreos, God of Passage 5/4*; Warren Soultrader 3/3; Divinity of Pride 8/8 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (132)
+Add To Stack: Dominic cast Rite of Replication targeting [Adrix and Nev, Twincasters (201)]
+Zone Change: Adrix and Nev, Twincasters (415) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (416) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (417) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (418) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (419) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (420) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (421) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (422) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (423) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (424) was put onto the Battlefield under Dominic.
+Zone Change: Adrix and Nev, Twincasters (201) was put into another zone from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (415) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (416) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (418) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (419) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (420) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (421) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (422) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (423) was put into nowhere (token) from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (424) was put into nowhere (token) from Battlefield.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Zone Change: Island (130) was put into another zone from Battlefield.
+Zone Change: Island (131) was put into another zone from Battlefield.
+Zone Change: Island (132) was put into another zone from Battlefield.
+Zone Change: Forest (143) was put into another zone from Battlefield.
+Zone Change: Forest (144) was put into another zone from Battlefield.
+Zone Change: Forest (146) was put into another zone from Battlefield.
+Zone Change: Forest (148) was put into another zone from Battlefield.
+Zone Change: Elephant Token (408) was put into nowhere (token) from Battlefield.
+Zone Change: Elephant Token (409) was put into nowhere (token) from Battlefield.
+Zone Change: Exotic Orchard (158) was put into another zone from Battlefield.
+Zone Change: Stampeding Scurryfoot (180) was put into another zone from Battlefield.
+Zone Change: Simic Signet (114) was put into another zone from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (417) was put into nowhere (token) from Battlefield.
+
+Game Result: unfinished (Forge closed mid-game)

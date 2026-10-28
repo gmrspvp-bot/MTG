@@ -1,0 +1,559 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Captain (HUMAN) deck=Captain America v7
+Player: K-dawg (HUMAN) deck=Rin and Seri
+Mulligan: Captain has mulliganed down to 7 cards.
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: K-dawg has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Captain)
+Information: BOARD turn 1 (Captain) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Plains(land); Arcane Signet(2); Plains(land)
+Information: BOARD turn 1 (Captain) | Captain | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda's Aid(1); Seachrome Coast(land); Basilisk Collar(1); Plains(land); Shuri, Wakandan Inventor(2); Masterwork of Ingenuity(1)
+Information: BOARD turn 1 (Captain) | K-dawg | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Coeurl(2); Generous Gift(3); Dawn's Truce(2); Cinder Glade(land); Plains(land); Forest(land); Basilisk Collar(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Captain played Seachrome Coast (199)
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Captain | open mana: Dominic 0, K-dawg 0
+Resolve Stack: Sigarda's Aid
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 2 (K-dawg)
+Information: BOARD turn 2 (K-dawg) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Plains(land); Arcane Signet(2); Plains(land)
+Information: BOARD turn 2 (K-dawg) | Captain | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Plains(land); Shuri, Wakandan Inventor(2); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 2 (K-dawg) | K-dawg | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Coeurl(2); Generous Gift(3); Dawn's Truce(2); Cinder Glade(land); Plains(land); Forest(land); Basilisk Collar(1)
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Phase: K-dawg's Declare Blockers Step
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Replacement Effect: Cinder Glade enters tapped unless you control two or more basic lands.
+Land: K-dawg played Cinder Glade (214)
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 3 (Dominic)
+Information: BOARD turn 3 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Plains(land); Arcane Signet(2); Plains(land)
+Information: BOARD turn 3 (Dominic) | Captain | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Plains(land); Shuri, Wakandan Inventor(2); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 3 (Dominic) | K-dawg | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Coeurl(2); Generous Gift(3); Dawn's Truce(2); Plains(land); Forest(land); Basilisk Collar(1); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (73)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 4 (Captain)
+Information: BOARD turn 4 (Captain) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Arcane Signet(2); Plains(land); Sun Titan(6)
+Information: BOARD turn 4 (Captain) | Captain | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Plains(land); Shuri, Wakandan Inventor(2); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 4 (Captain) | K-dawg | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Coeurl(2); Generous Gift(3); Dawn's Truce(2); Plains(land); Forest(land); Basilisk Collar(1); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (187)
+Land: Captain picked {U}
+Land: Captain picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Captain cast Shuri, Wakandan Inventor
+Information: BOARD cast | Shuri, Wakandan Inventor (mv 2) by Captain | open mana: Dominic 1, K-dawg 0
+Resolve Stack: Shuri, Wakandan Inventor - Creature 2 / 1
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 5 (K-dawg)
+Information: BOARD turn 5 (K-dawg) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Arcane Signet(2); Plains(land); Sun Titan(6)
+Information: BOARD turn 5 (K-dawg) | Captain | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1 | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Rogue's Passage(land)
+Information: BOARD turn 5 (K-dawg) | K-dawg | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Coeurl(2); Generous Gift(3); Dawn's Truce(2); Plains(land); Forest(land); Basilisk Collar(1); Plains(land)
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Land: K-dawg played Plains (290)
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Cinder Glade (214) - {T}: Add {G}.
+Add To Stack: K-dawg cast Coeurl
+Information: BOARD cast | Coeurl (mv 2) by K-dawg | open mana: Dominic 1, Captain 0
+Resolve Stack: Coeurl - Creature 2 / 2
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Phase: K-dawg's Declare Blockers Step
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Arcane Signet(2); Plains(land); Sun Titan(6)
+Information: BOARD turn 6 (Dominic) | Captain | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1 | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Rogue's Passage(land)
+Information: BOARD turn 6 (Dominic) | K-dawg | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (70)
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (70) - {T}: Add {W}.
+Add To Stack: Dominic cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Dominic | open mana: Captain 0, K-dawg 0
+Resolve Stack: Arcane Signet
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1 | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Rogue's Passage(land)
+Information: BOARD turn 7 (Captain) | K-dawg | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Rogue's Passage (123)
+Mana: Plains (187) - {T}: Add {W}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Darksteel Plate
+Information: BOARD cast | Darksteel Plate (mv 3) by Captain | open mana: Dominic 2, K-dawg 0
+Resolve Stack: Darksteel Plate
+Add To Stack: Captain triggered Sigarda's Aid targeting [Shuri, Wakandan Inventor (170)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Shuri, Wakandan Inventor (170)]]) [Zone Changer: Darksteel Plate (105)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (K-dawg)
+Information: BOARD turn 8 (K-dawg) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 8 (K-dawg) | Captain | life 40 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 8 (K-dawg) | K-dawg | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4)
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Phase: K-dawg's Declare Blockers Step
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 9 (Dominic) | Captain | life 40 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 9 (Dominic) | K-dawg | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4); Undergrowth Leopard(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Captain)
+Information: BOARD turn 10 (Captain) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7)
+Information: BOARD turn 10 (Captain) | Captain | life 40 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 10 (Captain) | K-dawg | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4); Undergrowth Leopard(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (127)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 11 (K-dawg)
+Information: BOARD turn 11 (K-dawg) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7)
+Information: BOARD turn 11 (K-dawg) | Captain | life 40 | hand 3 | lands 4 (4 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 11 (K-dawg) | K-dawg | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Coeurl 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Forest(land); Basilisk Collar(1); Plains(land); Jetmir, Nexus of Revels(4); Undergrowth Leopard(2)
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Land: K-dawg played Forest (226)
+Mana: Forest (226) - {T}: Add {G}.
+Add To Stack: K-dawg cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by K-dawg | open mana: Dominic 4, Captain 7
+Resolve Stack: Basilisk Collar
+Mana: Cinder Glade (214) - {T}: Add {R}.
+Mana: Plains (290) - {T}: Add {W}.
+Phase: devK-dawg's Main phase, precombat
+Mana: Cinder Glade (214) - {T}: Add {G}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: K-dawg cast Undergrowth Leopard
+Information: BOARD cast | Undergrowth Leopard (mv 2) by K-dawg | open mana: Dominic 4, Captain 7
+Resolve Stack: Undergrowth Leopard - Creature 2 / 2
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Combat: K-dawg assigned Coeurl (240) to attack Dominic.
+Information: BOARD attack | K-dawg -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Phase: K-dawg's Declare Blockers Step
+Combat: Dominic didn't block Coeurl (240).
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Damage: Coeurl (240) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 38 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7)
+Information: BOARD turn 12 (Dominic) | Captain | life 40 | hand 3 | lands 4 (4 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 12 (Dominic) | K-dawg | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Coeurl 2/2*; Undergrowth Leopard 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Plains(land); Jetmir, Nexus of Revels(4); Swords to Plowshares(1)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Atraxa, Grand Unifier (20).
+Turn: Turn 13 (Captain)
+Information: BOARD turn 13 (Captain) | Dominic | life 38 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7); Pearl Medallion(2)
+Information: BOARD turn 13 (Captain) | Captain | life 40 | hand 3 | lands 4 (4 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): Shuri, Wakandan Inventor 2/1[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2)
+Information: BOARD turn 13 (Captain) | K-dawg | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Coeurl 2/2*; Undergrowth Leopard 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Plains(land); Jetmir, Nexus of Revels(4); Swords to Plowshares(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain picked {R}
+Land: Captain picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Land: Captain picked {U}
+Land: Captain picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Captain cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Captain | open mana: Dominic 4, K-dawg 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Darksteel Plate (105)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Darksteel Plate (105)]]) [Phase: Captain]
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 14 (K-dawg)
+Information: BOARD turn 14 (K-dawg) | Dominic | life 38 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7); Pearl Medallion(2)
+Information: BOARD turn 14 (K-dawg) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1)
+Information: BOARD turn 14 (K-dawg) | K-dawg | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Coeurl 2/2*; Undergrowth Leopard 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Plains(land); Jetmir, Nexus of Revels(4); Swords to Plowshares(1)
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Land: K-dawg played Plains (295)
+Mana: Cinder Glade (214) - {T}: Add {R}.
+Mana: Plains (295) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Forest (226) - {T}: Add {G}.
+Add To Stack: K-dawg cast Rin and Seri, Inseparable
+Information: BOARD cast | Rin and Seri, Inseparable (mv 4) by K-dawg | open mana: Dominic 4, Captain 1
+Resolve Stack: Rin and Seri, Inseparable - Creature 4 / 4
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Combat: K-dawg assigned Coeurl (240) and Undergrowth Leopard (264) to attack Dominic.
+Information: BOARD attack | K-dawg -> Dominic | attackers 2 (power 4) | defender life 38 | untapped creatures 0 (power 0):  | open mana 4
+Phase: K-dawg's Declare Blockers Step
+Combat: Dominic didn't block Coeurl (240).
+Dominic didn't block Undergrowth Leopard (264).
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Damage: Coeurl (240) deals 2 combat damage to Dominic.
+Damage: Undergrowth Leopard (264) deals 2 combat damage to Dominic.
+Life: Life: Dominic 38 > 34
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 15 (Dominic)
+Information: BOARD turn 15 (Dominic) | Dominic | life 34 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Exotic Orchard(land); Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Archaeomancer's Map(3); Angel of Serenity(7); Pearl Medallion(2)
+Information: BOARD turn 15 (Dominic) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1)
+Information: BOARD turn 15 (Dominic) | K-dawg | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Coeurl 2/2*; Undergrowth Leopard 2/2; Rin and Seri, Inseparable 4/4 | hand cards: Generous Gift(3); Dawn's Truce(2); Jetmir, Nexus of Revels(4); Swords to Plowshares(1); Pack Leader(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (37)
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Add To Stack: Dominic cast Pearl Medallion
+Information: BOARD cast | Pearl Medallion (mv 2) by Dominic | open mana: Captain 1, K-dawg 0
+Resolve Stack: Pearl Medallion
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Dominic cast Archaeomancer's Map
+Information: BOARD cast | Archaeomancer's Map (mv 3) by Dominic | open mana: Captain 1, K-dawg 0
+Resolve Stack: Archaeomancer's Map
+Add To Stack: Dominic triggered Archaeomancer's Map
+Resolve Stack: When Archaeomancer's Map enters, search your library for up to two basic Plains cards, reveal them, put them into your hand, then shuffle. [Zone Changer: Archaeomancer's Map (57)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 16 (Captain)
+Information: BOARD turn 16 (Captain) | Dominic | life 34 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Angel of Serenity(7); Wand of Vertebrae(1); Plains(land); Plains(land)
+Information: BOARD turn 16 (Captain) | Captain | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Darksteel Plate] | hand cards: Basilisk Collar(1); Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1)
+Information: BOARD turn 16 (Captain) | K-dawg | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Coeurl 2/2*; Undergrowth Leopard 2/2; Rin and Seri, Inseparable 4/4 | hand cards: Generous Gift(3); Dawn's Truce(2); Jetmir, Nexus of Revels(4); Swords to Plowshares(1); Pack Leader(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Leyline Axe (150)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Leyline Axe (150)]]) [Phase: Captain]
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Dominic 0, K-dawg 0
+Resolve Stack: Basilisk Collar
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (201)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (201)]]) [Zone Changer: Basilisk Collar (114)]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (201) to attack K-dawg.
+Information: BOARD attack | Captain -> K-dawg | attackers 1 (power 5) | defender life 40 | untapped creatures 2 (power 6): Undergrowth Leopard 2/2; Rin and Seri, Inseparable 4/4 | open mana 0
+Phase: Captain's Declare Blockers Step
+Combat: K-dawg didn't block Captain America, First Avenger (201).
+Phase: Captain's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to K-dawg.
+Life: Life: Captain 40 > 45
+Life: Life: K-dawg 40 > 35
+Phase: Captain's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to K-dawg.
+Life: Life: Captain 45 > 50
+Life: Life: K-dawg 35 > 30
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Mana: Plains (187) - {T}: Add {W}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain activated Captain America, First Avenger targeting [Coeurl (240), Undergrowth Leopard (264), Dominic]
+Damage: Captain America, First Avenger (201) deals 1 damage (Deathtouch) to Coeurl (240).
+Damage: Captain America, First Avenger (201) deals 1 damage (Deathtouch) to Undergrowth Leopard (264).
+Damage: Captain America, First Avenger (201) deals 2 non-combat damage to Dominic.
+Life: Life: Captain 50 > 54
+Life: Life: Dominic 34 > 32
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 4 damage divided to 
+Coeurl (240) (1 damage), Undergrowth Leopard (264) (1 damage) and Dominic (2 damage).
+Zone Change: Coeurl (240) was put into Graveyard from Battlefield.
+Zone Change: Undergrowth Leopard (264) was put into Graveyard from Battlefield.
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 17 (K-dawg)
+Information: BOARD turn 17 (K-dawg) | Dominic | life 32 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Angel of Serenity(7); Wand of Vertebrae(1); Plains(land); Plains(land)
+Information: BOARD turn 17 (K-dawg) | Captain | life 54 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Darksteel Plate,Basilisk Collar] | hand cards: Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1); Stoneforge Mystic(2)
+Information: BOARD turn 17 (K-dawg) | K-dawg | life 30 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4 | hand cards: Generous Gift(3); Dawn's Truce(2); Jetmir, Nexus of Revels(4); Swords to Plowshares(1); Pack Leader(2)
+Information: BOARD threat | turn 17 | Captain America, First Avenger (Captain) 111
+Phase: K-dawg's Untap step
+Phase: K-dawg's Upkeep step
+Phase: K-dawg's Draw step
+Phase: K-dawg's Main phase, precombat
+Mana: Plains (295) - {T}: Add {W}.
+Mana: Forest (226) - {T}: Add {G}.
+Add To Stack: K-dawg cast Pack Leader
+Information: BOARD cast | Pack Leader (mv 2) by K-dawg | open mana: Dominic 0, Captain 1
+Add To Stack: K-dawg triggered Rin and Seri, Inseparable
+Resolve Stack: Whenever you cast a Dog spell, create a 1/1 green Cat creature token. [Card: Pack Leader (260), Activator: K-dawg, SpellAbility: Pack Leader - Creature 2 / 2]
+Resolve Stack: Pack Leader - Creature 2 / 2
+Phase: K-dawg's Beginning of Combat Step
+Phase: K-dawg's Declare Attackers Step
+Phase: K-dawg's Declare Blockers Step
+Phase: K-dawg's First Strike Damage Step
+Phase: K-dawg's Combat Damage Step
+Phase: K-dawg's End of Combat Step
+Phase: K-dawg's Main phase, postcombat
+Phase: K-dawg's End step
+Phase: K-dawg's Cleanup step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Dominic | life 32 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Linvala, Keeper of Silence(4); Sun Titan(6); Angel of Serenity(7); Wand of Vertebrae(1); Plains(land); Plains(land)
+Information: BOARD turn 18 (Dominic) | Captain | life 54 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Darksteel Plate,Basilisk Collar] | hand cards: Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1); Stoneforge Mystic(2)
+Information: BOARD turn 18 (Dominic) | K-dawg | life 30 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 5/5; Cat Token 1/1; Pack Leader 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Jetmir, Nexus of Revels(4); Swords to Plowshares(1); Ojer Taq, Deepest Foundation(6)
+Information: BOARD threat | turn 18 | Captain America, First Avenger (Captain) 106
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (72)
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (70) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Linvala, Keeper of Silence
+Information: BOARD cast | Linvala, Keeper of Silence (mv 4) by Dominic | open mana: Captain 1, K-dawg 2
+Resolve Stack: Linvala, Keeper of Silence - Creature 3 / 4
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Dominic cast Wand of Vertebrae
+Information: BOARD cast | Wand of Vertebrae (mv 1) by Dominic | open mana: Captain 1, K-dawg 2
+Resolve Stack: Wand of Vertebrae
+Add To Stack: Dominic activated Wand of Vertebrae
+Zone Change: Dominic milled Resurrection (54).
+Resolve Stack: Wand of Vertebrae (13) - Dominic mills a card.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 19 (Captain)
+Information: BOARD turn 19 (Captain) | Dominic | life 32 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Plains(land); Sun Titan(6); Angel of Serenity(7); Plains(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 19 (Captain) | Captain | life 54 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Darksteel Plate,Basilisk Collar] | hand cards: Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1); Stoneforge Mystic(2)
+Information: BOARD turn 19 (Captain) | K-dawg | life 30 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Rin and Seri, Inseparable 5/5; Cat Token 1/1; Pack Leader 2/2 | hand cards: Generous Gift(3); Dawn's Truce(2); Jetmir, Nexus of Revels(4); Swords to Plowshares(1); Ojer Taq, Deepest Foundation(6)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Captain) 102
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (187) - {T}: Add {W}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Captain cast Stoneforge Mystic
+Information: BOARD cast | Stoneforge Mystic (mv 2) by Captain | open mana: Dominic 1, K-dawg 2
+Resolve Stack: Stoneforge Mystic - Creature 1 / 2
+Add To Stack: Captain triggered Stoneforge Mystic
+Resolve Stack: When Stoneforge Mystic enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle. [Zone Changer: Stoneforge Mystic (117)]
+Phase: Captain's Beginning of Combat Step
+Add To Stack: Captain triggered Captain America, First Avenger targeting [Leyline Axe (150)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Leyline Axe (150)]]) [Phase: Captain]
+Add To Stack: Captain cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Captain | open mana: Dominic 1, K-dawg 2
+Resolve Stack: Colossus Hammer
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (201)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (201)]]) [Zone Changer: Colossus Hammer (141)]
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Captain America, First Avenger (201) to attack K-dawg.
+Information: BOARD attack | Captain -> K-dawg | attackers 1 (power 15) | defender life 30 | untapped creatures 3 (power 8): Rin and Seri, Inseparable 5/5; Cat Token 1/1; Pack Leader 2/2 | open mana 2
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: K-dawg cast Swords to Plowshares targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by K-dawg | open mana: Dominic 1, Captain 3
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Captain cast Sword of War and Peace
+Information: BOARD cast | Sword of War and Peace (mv 3) by Captain | open mana: Dominic 1, K-dawg 1
+Resolve Stack: Sword of War and Peace
+Add To Stack: Captain triggered Sigarda's Aid targeting [Captain America, First Avenger (201)]
+Resolve Stack: Whenever an Equipment you control enters, you may attach it to target creature you control. (Targeting: [[Captain America, First Avenger (201)]]) [Zone Changer: Sword of War and Peace (193)]
+Resolve Stack: Swords to Plowshares ability fizzles.
+Phase: Captain's Declare Blockers Step
+Combat: K-dawg assigned Cat Token (305) to block Captain America, First Avenger (201).
+Phase: Captain's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 16 combat damage to K-dawg.
+Damage: Captain America, First Avenger (201) deals 1 damage (Deathtouch) to Cat Token (305).
+Life: Life: Captain 54 > 71
+Life: Life: K-dawg 30 > 14
+Add To Stack: Captain triggered Sword of War and Peace
+Life: Life: Captain 71 > 74
+Resolve Stack: Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand. [Damage Source: Captain America, First Avenger (201), Damaged: K-dawg, Amount: 16]
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 32 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Plains(land); Sun Titan(6); Angel of Serenity(7); Plains(land); Avacyn, Angel of Horror(8)
+Information: BOARD turn 20 (Dominic) | Captain | life 74 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 17/17*[Darksteel Plate,Basilisk Collar,Leyline Axe,Colossus Hammer,Sword of War and Peace]; Stoneforge Mystic 1/2 | hand cards: Masterwork of Ingenuity(1); Winds of Abandon(2); Swords to Plowshares(1)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Captain) 204; Sigarda's Aid (Captain) 50
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (84)
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (70) - {T}: Add {W}.
+Land: Dominic picked {W}
+Mana: Arcane Signet (45) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Captain 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Player Control: Dominic has restored control over themself
+Player Control: Captain has restored control over themself
+Player Control: K-dawg has restored control over themself
+Game Outcome: Match Duration 40m : 34s
+Game Outcome: Turn 10
+Game Outcome: Dominic has conceded
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: K-dawg has lost due to accumulation of 21 damage from generals
+Match Result: Dominic: 0 Captain: 1 K-dawg: 0 
+
+Game Result: Captain has won

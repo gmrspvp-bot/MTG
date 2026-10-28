@@ -1,0 +1,181 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Steven (AI) deck=Captain America v8
+Player: Amber (AI) deck=Mr House v4
+Player: Alex (AI) deck=Olivia
+Mulligan: Amber has mulliganed down to 7 cards.
+Mulligan: Alex has mulliganed down to 7 cards.
+Mulligan: Xenil has mulliganed down to 7 cards.
+Mulligan: Steven has mulliganed down to 7 cards.
+Mulligan: Alex has mulliganed down to 6 cards.
+Mulligan: Alex has mulliganed down to 5 cards.
+Mulligan: Amber has kept a hand of 7 cards
+Mulligan: Alex has kept a hand of 5 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Steven has kept a hand of 7 cards
+Turn: Turn 1 (Amber)
+Information: BOARD turn 1 (Amber) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Plains(land)
+Information: BOARD turn 1 (Amber) | Steven | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3)
+Information: BOARD turn 1 (Amber) | Amber | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silent Clearing(land); Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Deadbeat Attendant(2); Smoldering Marsh(land)
+Information: BOARD turn 1 (Amber) | Alex | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Rogue's Passage(land)
+Phase: Amber's Untap step
+Phase: Amber's Upkeep step
+Phase: Amber's Draw step
+Phase: Amber's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Amber played Smoldering Marsh (267)
+Phase: Amber's Beginning of Combat Step
+Phase: Amber's Declare Attackers Step
+Phase: Amber's Declare Blockers Step
+Phase: Amber's First Strike Damage Step
+Phase: Amber's Combat Damage Step
+Phase: Amber's End of Combat Step
+Phase: Amber's Main phase, postcombat
+Phase: Amber's End step
+Phase: Amber's Cleanup step
+Turn: Turn 2 (Alex)
+Information: BOARD turn 2 (Alex) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Plains(land)
+Information: BOARD turn 2 (Alex) | Steven | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3)
+Information: BOARD turn 2 (Alex) | Amber | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silent Clearing(land); Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Deadbeat Attendant(2); Caretaker's Talent(3)
+Information: BOARD turn 2 (Alex) | Alex | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Rogue's Passage(land)
+Phase: Alex's Untap step
+Phase: Alex's Upkeep step
+Phase: Alex's Draw step
+Phase: Alex's Main phase, precombat
+Land: Alex played Rogue's Passage (339)
+Phase: Alex's Beginning of Combat Step
+Phase: Alex's Declare Attackers Step
+Phase: Alex's Declare Blockers Step
+Phase: Alex's First Strike Damage Step
+Phase: Alex's Combat Damage Step
+Phase: Alex's End of Combat Step
+Phase: Alex's Main phase, postcombat
+Phase: Alex's End step
+Phase: Alex's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Plains(land)
+Information: BOARD turn 3 (Xenil) | Steven | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3)
+Information: BOARD turn 3 (Xenil) | Amber | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silent Clearing(land); Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Deadbeat Attendant(2); Caretaker's Talent(3)
+Information: BOARD turn 3 (Xenil) | Alex | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (75)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 4 (Steven)
+Information: BOARD turn 4 (Steven) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 4 (Steven) | Steven | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3)
+Information: BOARD turn 4 (Steven) | Amber | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silent Clearing(land); Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Deadbeat Attendant(2); Caretaker's Talent(3)
+Information: BOARD turn 4 (Steven) | Alex | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5)
+Phase: Steven's Untap step
+Phase: Steven's Upkeep step
+Phase: Steven's Draw step
+Phase: Steven's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Steven played Deserted Beach (163)
+Phase: Steven's Beginning of Combat Step
+Phase: Steven's Declare Attackers Step
+Phase: Steven's Declare Blockers Step
+Phase: Steven's First Strike Damage Step
+Phase: Steven's Combat Damage Step
+Phase: Steven's End of Combat Step
+Phase: Steven's Main phase, postcombat
+Phase: Steven's End step
+Phase: Steven's Cleanup step
+Turn: Turn 5 (Amber)
+Information: BOARD turn 5 (Amber) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 5 (Amber) | Steven | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 5 (Amber) | Amber | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silent Clearing(land); Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Deadbeat Attendant(2); Caretaker's Talent(3)
+Information: BOARD turn 5 (Amber) | Alex | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5)
+Phase: Amber's Untap step
+Phase: Amber's Upkeep step
+Phase: Amber's Draw step
+Phase: Amber's Main phase, precombat
+Land: Amber played Silent Clearing (218)
+Phase: Amber's Beginning of Combat Step
+Phase: Amber's Declare Attackers Step
+Phase: Amber's Declare Blockers Step
+Phase: Amber's First Strike Damage Step
+Phase: Amber's Combat Damage Step
+Phase: Amber's End of Combat Step
+Phase: Amber's Main phase, postcombat
+Mana: Smoldering Marsh (267) - {T}: Add {B}.
+Life: Life: Amber 40 > 39
+Land: Amber picked {W}
+Mana: Silent Clearing (218) - {T}, Pay 1 life: Add {W} or {B}.
+Add To Stack: Amber cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Amber | open mana: Xenil 1, Steven 0, Alex 1
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Amber triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (278)]
+Phase: Amber's End step
+Phase: Amber's Cleanup step
+Turn: Turn 6 (Alex)
+Information: BOARD turn 6 (Alex) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 6 (Alex) | Steven | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 6 (Alex) | Amber | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Caretaker's Talent(3); Evolving Wilds(land)
+Information: BOARD turn 6 (Alex) | Alex | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Plains(land); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5)
+Phase: Alex's Untap step
+Phase: Alex's Upkeep step
+Phase: Alex's Draw step
+Phase: Alex's Main phase, precombat
+Land: Alex played Plains (403)
+Phase: Alex's Beginning of Combat Step
+Phase: Alex's Declare Attackers Step
+Phase: Alex's Declare Blockers Step
+Phase: Alex's First Strike Damage Step
+Phase: Alex's Combat Damage Step
+Phase: Alex's End of Combat Step
+Phase: Alex's Main phase, postcombat
+Phase: Alex's End step
+Phase: Alex's Cleanup step
+Turn: Turn 7 (Xenil)
+Information: BOARD turn 7 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Plains(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 7 (Xenil) | Steven | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 7 (Xenil) | Amber | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Caretaker's Talent(3); Evolving Wilds(land)
+Information: BOARD turn 7 (Xenil) | Alex | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5); Breeches, Eager Pillager(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (77)
+Mana: Plains (77) - {T}: Add {W}.
+Add To Stack: Xenil cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Xenil | open mana: Steven 0, Amber 0, Alex 2
+Resolve Stack: Sol Ring
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 8 (Steven)
+Information: BOARD turn 8 (Steven) | Xenil | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Angelic Renewal(2); Lightning Greaves(2); Fellwar Stone(2); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 8 (Steven) | Steven | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seachrome Coast(land); Needleverge Pathway(land); Excalibur, Sword of Eden(12); Sword of Light and Shadow(3); Kellan, the Fae-Blooded(3); Whispersilk Cloak(3); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 8 (Steven) | Amber | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Norn's Annex(5); Terminate(2); Component Pouch(3); Swamp(land); Caretaker's Talent(3); Evolving Wilds(land)
+Information: BOARD turn 8 (Steven) | Alex | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Deadly Dispute(2); Demonic Tutor(2); Zirda, the Dawnwaker(3); Massacre Girl(5); Breeches, Eager Pillager(3)
+Phase: Steven's Untap step
+Phase: Steven's Upkeep step
+Phase: Steven's Draw step
+Phase: Steven's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Steven played Seachrome Coast (199)
+Land: Steven picked {W}
+Mana: Deserted Beach (163) - {T}: Add {W} or {U}.
+Land: Steven picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Steven cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Steven | open mana: Xenil 3, Amber 0, Alex 2
+
+Game Result: unfinished (Forge closed mid-game)

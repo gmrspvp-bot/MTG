@@ -1,0 +1,196 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Rulrindale (AI) deck=Captain America v8
+Player: Tristan Muckfumble (AI) deck=Mr House v4
+Player: Erica (AI) deck=Olivia
+Mulligan: Erica has mulliganed down to 7 cards.
+Mulligan: Rulrindale has kept a hand of 7 cards
+Mulligan: Tristan Muckfumble has kept a hand of 7 cards
+Mulligan: Erica has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Rulrindale)
+Information: BOARD turn 1 (Rulrindale) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Plains(land); Teferi's Protection(3)
+Information: BOARD turn 1 (Rulrindale) | Rulrindale | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Stoneforge Mystic(2); Basilisk Collar(1); Mountain(land); Conqueror's Flail(2); Hengegate Pathway(land); Riverglide Pathway(land)
+Information: BOARD turn 1 (Rulrindale) | Tristan Muckfumble | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Luxury Suite(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2)
+Information: BOARD turn 1 (Rulrindale) | Erica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Caves of Koilos(land)
+Phase: Rulrindale's Untap step
+Phase: Rulrindale's Upkeep step
+Phase: Rulrindale's Draw step
+Phase: Rulrindale's Main phase, precombat
+Land: Rulrindale played Shivan Reef (122)
+Phase: Rulrindale's Beginning of Combat Step
+Phase: Rulrindale's Declare Attackers Step
+Phase: Rulrindale's Declare Blockers Step
+Phase: Rulrindale's First Strike Damage Step
+Phase: Rulrindale's Combat Damage Step
+Phase: Rulrindale's End of Combat Step
+Phase: Rulrindale's Main phase, postcombat
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Rulrindale cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Rulrindale | open mana: Xenil 0, Tristan Muckfumble 0, Erica 0
+Resolve Stack: Basilisk Collar
+Phase: Rulrindale's End step
+Phase: Rulrindale's Cleanup step
+Turn: Turn 2 (Tristan Muckfumble)
+Information: BOARD turn 2 (Tristan Muckfumble) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Plains(land); Teferi's Protection(3)
+Information: BOARD turn 2 (Tristan Muckfumble) | Rulrindale | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Conqueror's Flail(2); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 2 (Tristan Muckfumble) | Tristan Muckfumble | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Luxury Suite(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2)
+Information: BOARD turn 2 (Tristan Muckfumble) | Erica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Caves of Koilos(land)
+Phase: Tristan Muckfumble's Untap step
+Phase: Tristan Muckfumble's Upkeep step
+Phase: Tristan Muckfumble's Draw step
+Phase: Tristan Muckfumble's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Tristan Muckfumble played Luxury Suite (236)
+Phase: Tristan Muckfumble's Beginning of Combat Step
+Phase: Tristan Muckfumble's Declare Attackers Step
+Phase: Tristan Muckfumble's Declare Blockers Step
+Phase: Tristan Muckfumble's First Strike Damage Step
+Phase: Tristan Muckfumble's Combat Damage Step
+Phase: Tristan Muckfumble's End of Combat Step
+Phase: Tristan Muckfumble's Main phase, postcombat
+Phase: Tristan Muckfumble's End step
+Phase: Tristan Muckfumble's Cleanup step
+Turn: Turn 3 (Erica)
+Information: BOARD turn 3 (Erica) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Plains(land); Teferi's Protection(3)
+Information: BOARD turn 3 (Erica) | Rulrindale | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Conqueror's Flail(2); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 3 (Erica) | Tristan Muckfumble | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land)
+Information: BOARD turn 3 (Erica) | Erica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Caves of Koilos(land)
+Phase: Erica's Untap step
+Phase: Erica's Upkeep step
+Phase: Erica's Draw step
+Phase: Erica's Main phase, precombat
+Land: Erica played Caves of Koilos (315)
+Phase: Erica's Beginning of Combat Step
+Phase: Erica's Declare Attackers Step
+Phase: Erica's Declare Blockers Step
+Phase: Erica's First Strike Damage Step
+Phase: Erica's Combat Damage Step
+Phase: Erica's End of Combat Step
+Phase: Erica's Main phase, postcombat
+Phase: Erica's End step
+Phase: Erica's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Plains(land); Teferi's Protection(3)
+Information: BOARD turn 4 (Xenil) | Rulrindale | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Conqueror's Flail(2); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 4 (Xenil) | Tristan Muckfumble | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land)
+Information: BOARD turn 4 (Xenil) | Erica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Rogue's Passage(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (85)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 5 (Rulrindale)
+Information: BOARD turn 5 (Rulrindale) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Teferi's Protection(3); Knight of the White Orchid(2)
+Information: BOARD turn 5 (Rulrindale) | Rulrindale | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Conqueror's Flail(2); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 5 (Rulrindale) | Tristan Muckfumble | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land)
+Information: BOARD turn 5 (Rulrindale) | Erica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Rogue's Passage(land)
+Phase: Rulrindale's Untap step
+Phase: Rulrindale's Upkeep step
+Phase: Rulrindale's Draw step
+Phase: Rulrindale's Main phase, precombat
+Land: Rulrindale played Rogue's Passage (123)
+Phase: Rulrindale's Beginning of Combat Step
+Phase: Rulrindale's Declare Attackers Step
+Phase: Rulrindale's Declare Blockers Step
+Phase: Rulrindale's First Strike Damage Step
+Phase: Rulrindale's Combat Damage Step
+Phase: Rulrindale's End of Combat Step
+Phase: Rulrindale's Main phase, postcombat
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Rulrindale cast Conqueror's Flail
+Information: BOARD cast | Conqueror's Flail (mv 2) by Rulrindale | open mana: Xenil 1, Tristan Muckfumble 3, Erica 3
+Resolve Stack: Conqueror's Flail
+Phase: Rulrindale's End step
+Phase: Rulrindale's Cleanup step
+Turn: Turn 6 (Tristan Muckfumble)
+Information: BOARD turn 6 (Tristan Muckfumble) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Teferi's Protection(3); Knight of the White Orchid(2)
+Information: BOARD turn 6 (Tristan Muckfumble) | Rulrindale | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 6 (Tristan Muckfumble) | Tristan Muckfumble | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Blood Crypt(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land)
+Information: BOARD turn 6 (Tristan Muckfumble) | Erica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Rogue's Passage(land)
+Phase: Tristan Muckfumble's Untap step
+Phase: Tristan Muckfumble's Upkeep step
+Phase: Tristan Muckfumble's Draw step
+Phase: Tristan Muckfumble's Main phase, precombat
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Tristan Muckfumble played Blood Crypt (214)
+Phase: Tristan Muckfumble's Beginning of Combat Step
+Phase: Tristan Muckfumble's Declare Attackers Step
+Phase: Tristan Muckfumble's Declare Blockers Step
+Phase: Tristan Muckfumble's First Strike Damage Step
+Phase: Tristan Muckfumble's Combat Damage Step
+Phase: Tristan Muckfumble's End of Combat Step
+Phase: Tristan Muckfumble's Main phase, postcombat
+Phase: Tristan Muckfumble's End step
+Phase: Tristan Muckfumble's Cleanup step
+Turn: Turn 7 (Erica)
+Information: BOARD turn 7 (Erica) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Teferi's Protection(3); Knight of the White Orchid(2)
+Information: BOARD turn 7 (Erica) | Rulrindale | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 7 (Erica) | Tristan Muckfumble | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land); Clifftop Retreat(land)
+Information: BOARD turn 7 (Erica) | Erica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Nomad Outpost(land); Xorn(3); Rogue's Passage(land)
+Phase: Erica's Untap step
+Phase: Erica's Upkeep step
+Phase: Erica's Draw step
+Phase: Erica's Main phase, precombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Erica played Nomad Outpost (321)
+Phase: Erica's Beginning of Combat Step
+Phase: Erica's Declare Attackers Step
+Phase: Erica's Declare Blockers Step
+Phase: Erica's First Strike Damage Step
+Phase: Erica's Combat Damage Step
+Phase: Erica's End of Combat Step
+Phase: Erica's Main phase, postcombat
+Phase: Erica's End step
+Phase: Erica's Cleanup step
+Turn: Turn 8 (Xenil)
+Information: BOARD turn 8 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Gisela, the Broken Blade(4); Sephara, Sky's Blade(7); Path to Exile(1); Teferi's Protection(3); Knight of the White Orchid(2)
+Information: BOARD turn 8 (Xenil) | Rulrindale | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 8 (Xenil) | Tristan Muckfumble | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land); Clifftop Retreat(land)
+Information: BOARD turn 8 (Xenil) | Erica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Xorn(3); Rogue's Passage(land); The Sackville-Bagginses(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Gisela, the Broken Blade (11).
+Turn: Turn 9 (Rulrindale)
+Information: BOARD turn 9 (Rulrindale) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Baneslayer Angel(5); Subjugator Angel(6); Sephara, Sky's Blade(7); Path to Exile(1); Teferi's Protection(3); Knight of the White Orchid(2); Smuggler's Copter(2)
+Information: BOARD turn 9 (Rulrindale) | Rulrindale | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Mountain(land); Hengegate Pathway(land); Riverglide Pathway(land); Swiftfoot Boots(2)
+Information: BOARD turn 9 (Rulrindale) | Tristan Muckfumble | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Swamp(land); Faithless Looting(1); Haunted Ridge(land); Swiftfoot Boots(2); Mountain(land); Clifftop Retreat(land)
+Information: BOARD turn 9 (Rulrindale) | Erica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Lightning Greaves(2); The Meathook Massacre(2); Swiftfoot Boots(2); Xorn(3); Rogue's Passage(land); The Sackville-Bagginses(2)
+Phase: Rulrindale's Untap step
+Phase: Rulrindale's Upkeep step
+Phase: Rulrindale's Draw step
+Phase: Rulrindale's Main phase, precombat
+Land: Rulrindale played Mountain (180)
+Phase: Rulrindale's Beginning of Combat Step
+Phase: Rulrindale's Declare Attackers Step
+Phase: Rulrindale's Declare Blockers Step
+Phase: Rulrindale's First Strike Damage Step
+Phase: Rulrindale's Combat Damage Step
+Phase: Rulrindale's End of Combat Step
+Phase: Rulrindale's Main phase, postcombat
+Mana: Mountain (180) - {T}: Add {R}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Rulrindale cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Rulrindale | open mana: Xenil 1, Tristan Muckfumble 3, Erica 3
+
+Game Result: unfinished (Forge closed mid-game)

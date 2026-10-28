@@ -1,6 +1,8 @@
 [metadata]
 Name=Frodo
-[Main]
+[commander]
+1 Frodo, Sauron's Bane|LTR|[304]
+[main]
 1 Arcane Signet|SOC|[127]
 1 Athreos, Shroud-Veiled|DSC|[212]
 1 Aura of Silence|C15|[60]
@@ -71,5 +73,3 @@ Name=Frodo
 1 Witch-king of Angmar|LTR|[114]
 1 Wrath of the Skies|MH3|[49]
 1 You Cannot Pass!|LTR|[38]
-[Commander]
-1 Frodo, Sauron's Bane|LTR|[304]

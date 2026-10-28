@@ -1,0 +1,59 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Cassandra (AI) deck=Captain America v8
+Player: Cayold (AI) deck=Mr House v4
+Player: Efar (AI) deck=Olivia
+Mulligan: Cassandra has mulliganed down to 7 cards.
+Mulligan: Cassandra has mulliganed down to 6 cards.
+Mulligan: Cayold has kept a hand of 7 cards
+Mulligan: Efar has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Cassandra has kept a hand of 6 cards
+Turn: Turn 1 (Cayold)
+Information: BOARD turn 1 (Cayold) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Unclaimed Territory(land); Plains(land); Angel of Finality(4); Plains(land); Linvala, Keeper of Silence(4); Whispersilk Cloak(3); Marshal's Anthem(4)
+Information: BOARD turn 1 (Cayold) | Cassandra | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Seachrome Coast(land); Path of Ancestry(land); Codsworth, Handy Helper(3); Plains(land); Sword of Light and Shadow(3)
+Information: BOARD turn 1 (Cayold) | Cayold | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Mountain(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Needleverge Pathway(land); Plains(land); Fountainport(land)
+Information: BOARD turn 1 (Cayold) | Efar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Lightning Greaves(2); Zirda, the Dawnwaker(3); Temple of the False God(land); Mondrak, Glory Dominus(4); Mountain(land); Battlefield Forge(land)
+Phase: Cayold's Untap step
+Phase: Cayold's Upkeep step
+Phase: Cayold's Draw step
+Phase: Cayold's Main phase, precombat
+Land: Cayold played Fountainport (213)
+Phase: Cayold's Beginning of Combat Step
+Phase: Cayold's Declare Attackers Step
+Phase: Cayold's Declare Blockers Step
+Phase: Cayold's First Strike Damage Step
+Phase: Cayold's Combat Damage Step
+Phase: Cayold's End of Combat Step
+Phase: Cayold's Main phase, postcombat
+Phase: Cayold's End step
+Phase: Cayold's Cleanup step
+Turn: Turn 2 (Efar)
+Information: BOARD turn 2 (Efar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Unclaimed Territory(land); Plains(land); Angel of Finality(4); Plains(land); Linvala, Keeper of Silence(4); Whispersilk Cloak(3); Marshal's Anthem(4)
+Information: BOARD turn 2 (Efar) | Cassandra | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Seachrome Coast(land); Path of Ancestry(land); Codsworth, Handy Helper(3); Plains(land); Sword of Light and Shadow(3)
+Information: BOARD turn 2 (Efar) | Cayold | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Mountain(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Needleverge Pathway(land); Plains(land); Shattered Sanctum(land)
+Information: BOARD turn 2 (Efar) | Efar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Lightning Greaves(2); Zirda, the Dawnwaker(3); Temple of the False God(land); Mondrak, Glory Dominus(4); Mountain(land); Battlefield Forge(land)
+Phase: Efar's Untap step
+Phase: Efar's Upkeep step
+Phase: Efar's Draw step
+Phase: Efar's Main phase, precombat
+Land: Efar played Battlefield Forge (409)
+Phase: Efar's Beginning of Combat Step
+Phase: Efar's Declare Attackers Step
+Phase: Efar's Declare Blockers Step
+Phase: Efar's First Strike Damage Step
+Phase: Efar's Combat Damage Step
+Phase: Efar's End of Combat Step
+Phase: Efar's Main phase, postcombat
+Phase: Efar's End step
+Phase: Efar's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Unclaimed Territory(land); Plains(land); Angel of Finality(4); Plains(land); Linvala, Keeper of Silence(4); Whispersilk Cloak(3); Marshal's Anthem(4)
+Information: BOARD turn 3 (Xenil) | Cassandra | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Seachrome Coast(land); Path of Ancestry(land); Codsworth, Handy Helper(3); Plains(land); Sword of Light and Shadow(3)
+Information: BOARD turn 3 (Xenil) | Cayold | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Mountain(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Needleverge Pathway(land); Plains(land); Shattered Sanctum(land)
+Information: BOARD turn 3 (Xenil) | Efar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Lightning Greaves(2); Zirda, the Dawnwaker(3); Temple of the False God(land); Mondrak, Glory Dominus(4); Mountain(land); Plains(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

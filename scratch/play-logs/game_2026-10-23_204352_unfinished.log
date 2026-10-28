@@ -1,0 +1,1392 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Wyatt (AI) deck=Frodo
+Player: Codern (AI) deck=Angels
+Player: Wishane (AI) deck=Scion
+Mulligan: Wishane has mulliganed down to 7 cards.
+Mulligan: Codern has mulliganed down to 7 cards.
+Mulligan: Wishane has mulliganed down to 6 cards.
+Mulligan: Codern has mulliganed down to 6 cards.
+Mulligan: Wishane has kept a hand of 6 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Wyatt has kept a hand of 7 cards
+Mulligan: Codern has kept a hand of 6 cards
+Turn: Turn 1 (Wishane)
+Information: BOARD turn 1 (Wishane) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 1 (Wishane) | Wyatt | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land)
+Information: BOARD turn 1 (Wishane) | Codern | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Plains(land); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land)
+Information: BOARD turn 1 (Wishane) | Wishane | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Turbulent Crater(land)
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Land: Wishane played Mountain (396)
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Phase: Wishane's Declare Blockers Step
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 2 (Dominic) | Wyatt | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land)
+Information: BOARD turn 2 (Dominic) | Codern | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Plains(land); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land)
+Information: BOARD turn 2 (Dominic) | Wishane | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Turbulent Crater(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Temple of Silence enters tapped.
+Land: Dominic played Temple of Silence (92)
+Add To Stack: Dominic triggered Temple of Silence
+Resolve Stack: Dominic scried 1 card(s) to the bottom of the library
+Resolve Stack: When Temple of Silence enters, scry 1. [Zone Changer: Temple of Silence (92)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 3 (Wyatt)
+Information: BOARD turn 3 (Wyatt) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 3 (Wyatt) | Wyatt | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land)
+Information: BOARD turn 3 (Wyatt) | Codern | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Plains(land); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land)
+Information: BOARD turn 3 (Wyatt) | Wishane | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Turbulent Crater(land)
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Land: Wyatt played Plains (154)
+Mana: Plains (154) - {T}: Add {W}.
+Add To Stack: Wyatt cast Frodo, Sauron's Bane
+Information: BOARD cast | Frodo, Sauron's Bane (mv 1) by Wyatt | open mana: Dominic 0, Codern 0, Wishane 1
+Resolve Stack: Frodo, Sauron's Bane - Creature 1 / 2
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Phase: Wyatt's Declare Blockers Step
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 4 (Codern)
+Information: BOARD turn 4 (Codern) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 4 (Codern) | Wyatt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land); Exotic Orchard(land)
+Information: BOARD turn 4 (Codern) | Codern | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Plains(land); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land)
+Information: BOARD turn 4 (Codern) | Wishane | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Turbulent Crater(land)
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Plains (287)
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 5 (Wishane)
+Information: BOARD turn 5 (Wishane) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 5 (Wishane) | Wyatt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land); Exotic Orchard(land)
+Information: BOARD turn 5 (Wishane) | Codern | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land); Plains(land)
+Information: BOARD turn 5 (Wishane) | Wishane | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Turbulent Crater(land)
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Wishane played Turbulent Crater (307)
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Phase: Wishane's Declare Blockers Step
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Blackcleave Cliffs(land); Rankle, Master of Pranks(4); Serra Ascendant(1); Deadly Dispute(2)
+Information: BOARD turn 6 (Dominic) | Wyatt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land); Exotic Orchard(land)
+Information: BOARD turn 6 (Dominic) | Codern | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land); Plains(land)
+Information: BOARD turn 6 (Dominic) | Wishane | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Lightning Greaves(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Serra Ascendant
+Information: BOARD cast | Serra Ascendant (mv 1) by Dominic | open mana: Wyatt 0, Codern 1, Wishane 1
+Resolve Stack: Serra Ascendant - Creature 1 / 1
+Replacement Effect: Blackcleave Cliffs enters tapped unless you control two or fewer other lands.
+Land: Dominic played Blackcleave Cliffs (41)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Wyatt)
+Information: BOARD turn 7 (Wyatt) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2); Mirror Entity(3)
+Information: BOARD turn 7 (Wyatt) | Wyatt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Nazgûl(3); Snuff Out(4); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Swamp(land); Exotic Orchard(land)
+Information: BOARD turn 7 (Wyatt) | Codern | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land); Plains(land)
+Information: BOARD turn 7 (Wyatt) | Wishane | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Lightning Greaves(2)
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Land: Wyatt played Swamp (181)
+Life: Life: Wyatt 40 > 36
+Add To Stack: Wyatt cast Snuff Out targeting [Serra Ascendant (18)]
+Information: BOARD cast | Snuff Out (mv 4) by Wyatt | open mana: Dominic 3, Codern 1, Wishane 1
+Zone Change: Serra Ascendant (18) was put into Graveyard from Battlefield.
+Resolve Stack: Snuff Out (140) - Destroy Serra Ascendant (18). It can't be regenerated.
+Mana: Plains (154) - {T}: Add {W}.
+Mana: Swamp (181) - {T}: Add {B}.
+Add To Stack: Wyatt activated Frodo, Sauron's Bane
+Resolve Stack: Frodo, Sauron's Bane (201) - Frodo, Sauron's Bane (201) has base power and toughness 2/3  and becomes a Halfling Scout and  gains lifelink .
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Frodo, Sauron's Bane (201) to attack Dominic.
+Information: BOARD attack | Wyatt -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Wyatt's Declare Blockers Step
+Combat: Dominic didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Dominic.
+Life: Life: Wyatt 36 > 38
+Life: Life: Dominic 40 > 38
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 8 (Codern)
+Information: BOARD turn 8 (Codern) | Dominic | life 38 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2); Mirror Entity(3)
+Information: BOARD turn 8 (Codern) | Wyatt | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Frodo, Sauron's Bane 2/3* | hand cards: Nazgûl(3); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 8 (Codern) | Codern | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Secluded Courtyard(land); Plains(land)
+Information: BOARD turn 8 (Codern) | Wishane | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Lightning Greaves(2)
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Codern played Secluded Courtyard (207)
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 9 (Wishane)
+Information: BOARD turn 9 (Wishane) | Dominic | life 38 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2); Mirror Entity(3)
+Information: BOARD turn 9 (Wishane) | Wyatt | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Frodo, Sauron's Bane 2/3* | hand cards: Nazgûl(3); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 9 (Wishane) | Codern | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Plains(land); Akroma's Will(4)
+Information: BOARD turn 9 (Wishane) | Wishane | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Reanimate(1); Lightning Greaves(2)
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Wishane played Turbulent Wetlands (356)
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Phase: Wishane's Declare Blockers Step
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Mana: Turbulent Crater (307) - {T}: Add {B}.
+Add To Stack: Wishane cast Reanimate targeting [Serra Ascendant (18)]
+Information: BOARD cast | Reanimate (mv 1) by Wishane | open mana: Dominic 3, Wyatt 0, Codern 2
+Life: Life: Wishane 40 > 39
+Resolve Stack: Reanimate (357) - Return Serra Ascendant (18) from the graveyard to the battlefield under your control. Wishane loses 1 life.
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Dominic | life 38 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2); Mirror Entity(3)
+Information: BOARD turn 10 (Dominic) | Wyatt | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Frodo, Sauron's Bane 2/3* | hand cards: Nazgûl(3); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 10 (Dominic) | Codern | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Plains(land); Akroma's Will(4)
+Information: BOARD turn 10 (Dominic) | Wishane | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Lightning Greaves(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Desolate Mire (6)
+Phase: devDominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Mirror Entity
+Information: BOARD cast | Mirror Entity (mv 3) by Dominic | open mana: Wyatt 0, Codern 2, Wishane 1
+Resolve Stack: Mirror Entity - Creature 1 / 1
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 11 (Wyatt)
+Information: BOARD turn 11 (Wyatt) | Dominic | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mirror Entity 1/1 | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 11 (Wyatt) | Wyatt | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Frodo, Sauron's Bane 2/3* | hand cards: Nazgûl(3); Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 11 (Wyatt) | Codern | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Plains(land); Akroma's Will(4)
+Information: BOARD turn 11 (Wyatt) | Wishane | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Lightning Greaves(2)
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Land: Wyatt played Swamp (178)
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Frodo, Sauron's Bane (201) to attack Dominic.
+Information: BOARD attack | Wyatt -> Dominic | attackers 1 (power 2) | defender life 38 | untapped creatures 1 (power 1): Mirror Entity 1/1 | open mana 0
+Phase: Wyatt's Declare Blockers Step
+Combat: Dominic didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Dominic.
+Life: Life: Wyatt 38 > 40
+Life: Life: Dominic 38 > 36
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Mana: Plains (154) - {T}: Add {W}.
+Add To Stack: Wyatt cast Nazgûl
+Information: BOARD cast | Nazgûl (mv 3) by Wyatt | open mana: Dominic 0, Codern 2, Wishane 1
+Resolve Stack: Nazgûl - Creature 1 / 2
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: When Nazgûl enters, the Ring tempts you. [Zone Changer: Nazgûl (127)]
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 12 (Codern)
+Information: BOARD turn 12 (Codern) | Dominic | life 36 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mirror Entity 1/1 | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 12 (Codern) | Wyatt | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 2/3 | hand cards: Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 12 (Codern) | Codern | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Plains(land); Akroma's Will(4)
+Information: BOARD turn 12 (Codern) | Wishane | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Lightning Greaves(2)
+Information: BOARD threat | turn 12 | Frodo, Sauron's Bane (Wyatt) 34
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Plains (290)
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 13 (Wishane)
+Information: BOARD turn 13 (Wishane) | Dominic | life 36 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mirror Entity 1/1 | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 13 (Wishane) | Wyatt | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 2/3 | hand cards: Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 13 (Wishane) | Codern | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4)
+Information: BOARD turn 13 (Wishane) | Wishane | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Bojuka Bog(land); Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Lightning Greaves(2)
+Information: BOARD threat | turn 13 | Frodo, Sauron's Bane (Wyatt) 32
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Add To Stack: Wishane cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Wishane | open mana: Dominic 0, Wyatt 0, Codern 3
+Resolve Stack: Lightning Greaves
+Add To Stack: Wishane activated Lightning Greaves targeting [Serra Ascendant (18)]
+Resolve Stack: Lightning Greaves (399) -  Attach to Serra Ascendant (18)
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) to attack Wyatt.
+Information: BOARD attack | Wishane -> Wyatt | attackers 1 (power 6) | defender life 40 | untapped creatures 1 (power 2): Nazgûl 2/3 | open mana 0
+Phase: Wishane's Declare Blockers Step
+Combat: Wyatt didn't block Serra Ascendant (18).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Damage: Serra Ascendant (18) deals 6 combat damage to Wyatt.
+Life: Life: Wishane 39 > 45
+Life: Life: Wyatt 40 > 34
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Replacement Effect: Bojuka Bog enters tapped.
+Land: Wishane played Bojuka Bog (347)
+Add To Stack: Wishane triggered Bojuka Bog targeting [Wyatt]
+Resolve Stack: When Bojuka Bog enters, exile all cards from target player's graveyard. (Targeting: [[Wyatt]]) [Zone Changer: Bojuka Bog (347)]
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Dominic | life 36 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mirror Entity 1/1 | hand cards: Barad-dûr(land); Dragonskull Summit(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 14 (Dominic) | Wyatt | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 2/3 | hand cards: Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 14 (Dominic) | Codern | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4)
+Information: BOARD turn 14 (Dominic) | Wishane | life 45 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Immersturm Predator(4)
+Information: BOARD threat | turn 14 | Serra Ascendant (Wishane) 35; Frodo, Sauron's Bane (Wyatt) 31
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Dominic played Dragonskull Summit (45)
+Phase: devDominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Kambal, Profiteering Mayor
+Information: BOARD cast | Kambal, Profiteering Mayor (mv 3) by Dominic | open mana: Wyatt 0, Codern 3, Wishane 1
+Resolve Stack: Kambal, Profiteering Mayor - Creature 2 / 4
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 15 (Wyatt)
+Information: BOARD turn 15 (Wyatt) | Dominic | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 15 (Wyatt) | Wyatt | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 2/3 | hand cards: Bojuka Bog(land); Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Nazgûl(3)
+Information: BOARD turn 15 (Wyatt) | Codern | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4)
+Information: BOARD turn 15 (Wyatt) | Wishane | life 45 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Immersturm Predator(4)
+Information: BOARD threat | turn 15 | Serra Ascendant (Wishane) 33
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Frodo, Sauron's Bane (201) and Nazgûl (127) to attack Wishane.
+Information: BOARD attack | Wyatt -> Wishane | attackers 2 (power 4) | defender life 45 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Wyatt's Declare Blockers Step
+Combat: Wishane didn't block Frodo, Sauron's Bane (201).
+Wishane didn't block Nazgûl (127).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Wishane.
+Life: Life: Wyatt 34 > 36
+Damage: Nazgûl (127) deals 2 combat damage to Wishane.
+Life: Life: Wishane 45 > 41
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Replacement Effect: Bojuka Bog enters tapped.
+Land: Wyatt played Bojuka Bog (147)
+Add To Stack: Wyatt triggered Bojuka Bog targeting [Wishane]
+Resolve Stack: When Bojuka Bog enters, exile all cards from target player's graveyard. (Targeting: [[Wishane]]) [Zone Changer: Bojuka Bog (147)]
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Mana: Plains (154) - {T}: Add {W}.
+Add To Stack: Wyatt cast Nazgûl
+Information: BOARD cast | Nazgûl (mv 3) by Wyatt | open mana: Dominic 0, Codern 3, Wishane 1
+Resolve Stack: Nazgûl - Creature 1 / 2
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: When Nazgûl enters, the Ring tempts you. [Zone Changer: Nazgûl (121)]
+Add To Stack: Wyatt triggered Nazgûl
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 16 (Codern)
+Information: BOARD turn 16 (Codern) | Dominic | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 16 (Codern) | Wyatt | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4 | hand cards: Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Key to the Side-Door(1)
+Information: BOARD turn 16 (Codern) | Codern | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4)
+Information: BOARD turn 16 (Codern) | Wishane | life 41 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Immersturm Predator(4)
+Information: BOARD threat | turn 16 | Nazgûl (Wyatt) 50; Frodo, Sauron's Bane (Wyatt) 40; Serra Ascendant (Wishane) 32
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 17 (Wishane)
+Information: BOARD turn 17 (Wishane) | Dominic | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 17 (Wishane) | Wyatt | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4 | hand cards: Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Key to the Side-Door(1)
+Information: BOARD turn 17 (Wishane) | Codern | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 17 (Wishane) | Wishane | life 41 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Reflecting Pool(land); Path to Exile(1); Delighted Halfling(1); Immersturm Predator(4)
+Information: BOARD threat | turn 17 | Nazgûl (Wyatt) 48; Frodo, Sauron's Bane (Wyatt) 38; Serra Ascendant (Wishane) 31
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Land: Wishane played Reflecting Pool (400)
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) to attack Wyatt.
+Information: BOARD attack | Wishane -> Wyatt | attackers 1 (power 6) | defender life 36 | untapped creatures 1 (power 3): Nazgûl 3/4 | open mana 0
+Phase: Wishane's Declare Blockers Step
+Combat: Wyatt didn't block Serra Ascendant (18).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Damage: Serra Ascendant (18) deals 6 combat damage to Wyatt.
+Life: Life: Wishane 41 > 47
+Life: Life: Wyatt 36 > 30
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Mana: Reflecting Pool (400) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Bojuka Bog (347) - {T}: Add {B}.
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Add To Stack: Wishane cast Immersturm Predator
+Information: BOARD cast | Immersturm Predator (mv 4) by Wishane | open mana: Dominic 0, Wyatt 0, Codern 3
+Resolve Stack: Immersturm Predator - Creature 3 / 3
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Dominic | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Smothering Tithe(4); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 18 (Dominic) | Wyatt | life 30 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4 | hand cards: Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Key to the Side-Door(1)
+Information: BOARD turn 18 (Dominic) | Codern | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 18 (Dominic) | Wishane | life 47 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6)
+Information: BOARD threat | turn 18 | Serra Ascendant (Wishane) 64; Nazgûl (Wyatt) 46; Frodo, Sauron's Bane (Wyatt) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Dominic played Nomad Outpost (7)
+Phase: devDominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Smothering Tithe
+Information: BOARD cast | Smothering Tithe (mv 4) by Dominic | open mana: Wyatt 0, Codern 3, Wishane 1
+Resolve Stack: Smothering Tithe
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 19 (Wyatt)
+Information: BOARD turn 19 (Wyatt) | Dominic | life 36 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 19 (Wyatt) | Wyatt | life 30 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4 | hand cards: Return to Dust(4); Council's Judgment(3); Exotic Orchard(land); Key to the Side-Door(1)
+Information: BOARD turn 19 (Wyatt) | Codern | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 19 (Wyatt) | Wishane | life 47 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6)
+Information: BOARD threat | turn 19 | Serra Ascendant (Wishane) 61; Nazgûl (Wyatt) 45; Frodo, Sauron's Bane (Wyatt) 35
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Wyatt]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Wyatt 30 > 29
+Life: Life: Codern 40 > 39
+Life: Life: Wishane 47 > 46
+Life: Life: Dominic 36 > 37
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 1]
+Phase: Wyatt's Main phase, precombat
+Land: Wyatt played Plains (152)
+Mana: Plains (154) - {T}: Add {W}.
+Mana: Plains (152) - {T}: Add {W}.
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Add To Stack: Wyatt cast Return to Dust targeting [Smothering Tithe (13)]
+Information: BOARD cast | Return to Dust (mv 4) by Wyatt | open mana: Dominic 1, Codern 3, Wishane 1
+Zone Change: Smothering Tithe (13) was put into Exile from Battlefield.
+Resolve Stack: Return to Dust (167) - Exile Smothering Tithe (13).
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Nazgûl (127), Nazgûl (121) and Frodo, Sauron's Bane (201) to attack Wishane.
+Information: BOARD attack | Wyatt -> Wishane | attackers 3 (power 9) | defender life 46 | untapped creatures 1 (power 3): Immersturm Predator 3/3 | open mana 1
+Add To Stack: Wyatt triggered The Ring
+Discard: Wyatt discards Key to the Side-Door (130).
+Resolve Stack: Whenever your ring-bearer attacks, draw a card, then discard a card. [Attacker: Frodo, Sauron's Bane (201)]
+Phase: Wyatt's Declare Blockers Step
+Combat: Wishane didn't block Nazgûl (127).
+Wishane didn't block Nazgûl (121).
+Wishane didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Nazgûl (127) deals 4 combat damage to Wishane.
+Damage: Nazgûl (121) deals 3 combat damage to Wishane.
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Wishane.
+Life: Life: Wyatt 29 > 31
+Life: Life: Wishane 46 > 37
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 20 (Codern)
+Information: BOARD turn 20 (Codern) | Dominic | life 37 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 20 (Codern) | Wyatt | life 31 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4* | hand cards: Council's Judgment(3); Exotic Orchard(land); Spectacular Spider-Man(2)
+Information: BOARD turn 20 (Codern) | Codern | life 39 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 20 (Codern) | Wishane | life 37 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6)
+Information: BOARD threat | turn 20 | Nazgûl (Wyatt) 66; Serra Ascendant (Wishane) 59; Frodo, Sauron's Bane (Wyatt) 45; Nazgûl (Wyatt) 42
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Add To Stack: Codern cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Codern | open mana: Dominic 1, Wyatt 1, Wishane 1
+Resolve Stack: Arcane Signet
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 21 (Wishane)
+Information: BOARD turn 21 (Wishane) | Dominic | life 37 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 21 (Wishane) | Wyatt | life 31 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4* | hand cards: Council's Judgment(3); Exotic Orchard(land); Spectacular Spider-Man(2)
+Information: BOARD turn 21 (Wishane) | Codern | life 39 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 21 (Wishane) | Wishane | life 37 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6)
+Information: BOARD threat | turn 21 | Nazgûl (Wyatt) 63; Serra Ascendant (Wishane) 57; Frodo, Sauron's Bane (Wyatt) 44; Nazgûl (Wyatt) 40
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) and Immersturm Predator (348) to attack Wyatt.
+Information: BOARD attack | Wishane -> Wyatt | attackers 2 (power 9) | defender life 31 | untapped creatures 0 (power 0):  | open mana 1
+Add To Stack: Wishane triggered Immersturm Predator targeting [Return to Dust (167)]
+Resolve Stack: Whenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator. (Targeting: [[Return to Dust (167)]]) [Tapped: Immersturm Predator (348)]
+Phase: Wishane's Declare Blockers Step
+Combat: Wyatt didn't block Serra Ascendant (18).
+Wyatt didn't block Immersturm Predator (348).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Damage: Serra Ascendant (18) deals 6 combat damage to Wyatt.
+Life: Life: Wishane 37 > 43
+Damage: Immersturm Predator (348) deals 4 combat damage to Wyatt.
+Life: Life: Wyatt 31 > 21
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Dominic | life 37 | hand 3 | lands 5 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Mirror Entity 1/1; Kambal, Profiteering Mayor 2/4 | hand cards: Barad-dûr(land); Rankle, Master of Pranks(4); Deadly Dispute(2)
+Information: BOARD turn 22 (Dominic) | Wyatt | life 21 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Nazgûl 3/4* | hand cards: Council's Judgment(3); Exotic Orchard(land); Spectacular Spider-Man(2)
+Information: BOARD turn 22 (Dominic) | Codern | life 39 | hand 7 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 22 (Dominic) | Wishane | life 43 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 2 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 4/4* | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Wake the Dead(2)
+Information: BOARD threat | turn 22 | Serra Ascendant (Wishane) 89; Nazgûl (Wyatt) 61; Frodo, Sauron's Bane (Wyatt) 42; Nazgûl (Wyatt) 38; Immersturm Predator (Wishane) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Barad-dûr enters tapped unless you control a legendary creature.
+Land: Dominic played Barad-dûr (76)
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Add To Stack: Dominic cast Rankle, Master of Pranks
+Information: BOARD cast | Rankle, Master of Pranks (mv 4) by Dominic | open mana: Wyatt 1, Codern 3, Wishane 5
+Resolve Stack: Rankle, Master of Pranks - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Rankle, Master of Pranks (88) to attack Wishane.
+Information: BOARD attack | Dominic -> Wishane | attackers 1 (power 3) | defender life 43 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Dominic's Declare Blockers Step
+Combat: Wishane didn't block Rankle, Master of Pranks (88).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Rankle, Master of Pranks (88) deals 3 combat damage to Wishane.
+Life: Life: Wishane 43 > 40
+Add To Stack: Dominic triggered Rankle, Master of Pranks
+Life: Life: Dominic 37 > 36
+Life: Life: Wyatt 21 > 20
+Life: Life: Codern 39 > 38
+Life: Life: Wishane 40 > 39
+Zone Change: Mirror Entity (63) was put into Graveyard from Battlefield.
+Zone Change: Nazgûl (127) was put into Graveyard from Battlefield.
+Zone Change: Immersturm Predator (348) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever Rankle, Master of Pranks deals combat damage to a player, each player loses 1 life and draws a card.  Each player sacrifices a creature. [Damage Source: Rankle, Master of Pranks (88), Damaged: Wishane, Amount: 3]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 23 (Wyatt)
+Information: BOARD turn 23 (Wyatt) | Dominic | life 36 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 2/4; Rankle, Master of Pranks 3/3* | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3); Demonic Tutor(2)
+Information: BOARD turn 23 (Wyatt) | Wyatt | life 20 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4* | hand cards: Council's Judgment(3); Exotic Orchard(land); Spectacular Spider-Man(2); Ringwraiths(6)
+Information: BOARD turn 23 (Wyatt) | Codern | life 38 | hand 8 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 23 (Wyatt) | Wishane | life 39 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Wake the Dead(2); Perennation(6)
+Information: BOARD threat | turn 23 | Serra Ascendant (Wishane) 85; Frodo, Sauron's Bane (Wyatt) 40; Nazgûl (Wyatt) 37; Rankle, Master of Pranks (Dominic) 32
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Land: Wyatt played Swamp (179)
+Mana: Plains (154) - {T}: Add {W}.
+Mana: Plains (152) - {T}: Add {W}.
+Mana: Swamp (181) - {T}: Add {B}.
+Add To Stack: Wyatt cast Council's Judgment
+Information: BOARD cast | Council's Judgment (mv 3) by Wyatt | open mana: Dominic 3, Codern 3, Wishane 5
+Resolve Stack: Wyatt voted for Rankle, Master of Pranks (88)
+Codern voted for Rankle, Master of Pranks (88)
+Wishane voted for Rankle, Master of Pranks (88)
+Dominic voted for Serra Ascendant (18)
+Zone Change: Rankle, Master of Pranks (88) was put into Exile from Battlefield.
+Resolve Stack: Council's Judgment (194) - Wyatt, Codern, Wishane and Dominic vote for a nonland permanent you don't control.
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Nazgûl (121) and Frodo, Sauron's Bane (201) to attack Wishane.
+Information: BOARD attack | Wyatt -> Wishane | attackers 2 (power 5) | defender life 39 | untapped creatures 0 (power 0):  | open mana 5
+Add To Stack: Wyatt triggered The Ring
+Mana: Bojuka Bog (347) - {T}: Add {B}.
+Mana: Reflecting Pool (400) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Mountain (396) - {T}: Add {R}.
+Add To Stack: Wishane cast Wake the Dead targeting [Immersturm Predator (348)]
+Information: BOARD cast | Wake the Dead (mv 2) by Wishane | open mana: Dominic 3, Wyatt 3, Codern 3
+Resolve Stack: Cast this spell only during combat on an opponent's turn.
+Discard: Wyatt discards Exotic Orchard (187).
+Resolve Stack: Whenever your ring-bearer attacks, draw a card, then discard a card. [Attacker: Frodo, Sauron's Bane (201)]
+Phase: Wyatt's Declare Blockers Step
+Combat: Wishane assigned Immersturm Predator (348) to block Nazgûl (121).
+Wishane didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Nazgûl (121) deals 3 damage (Deathtouch) to Immersturm Predator (348).
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Wishane.
+Life: Life: Wyatt 20 > 22
+Damage: Immersturm Predator (348) deals 3 damage to Nazgûl (121).
+Life: Life: Wishane 39 > 37
+Zone Change: Immersturm Predator (348) was put into Graveyard from Battlefield.
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Phase: Wyatt's End step
+Add To Stack: Wishane triggered Wake the Dead
+Resolve Stack: Sacrifice Immersturm Predator (348) at the beginning of the next end step. ([Immersturm Predator (348)]) [Phase: Wyatt]
+Phase: Wyatt's Cleanup step
+Turn: Turn 24 (Codern)
+Information: BOARD turn 24 (Codern) | Dominic | life 36 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3); Demonic Tutor(2)
+Information: BOARD turn 24 (Codern) | Wyatt | life 22 | hand 3 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4* | hand cards: Spectacular Spider-Man(2); Ringwraiths(6); Destined Confrontation(4)
+Information: BOARD turn 24 (Codern) | Codern | life 38 | hand 8 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Sevinne's Reclamation(3); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 24 (Codern) | Wishane | life 37 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6)
+Information: BOARD threat | turn 24 | Serra Ascendant (Wishane) 82; Frodo, Sauron's Bane (Wyatt) 50; Nazgûl (Wyatt) 35
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Plains (284)
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Codern picked {W}
+Mana: Arcane Signet (247) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (284) - {T}: Add {W}.
+Mana: Secluded Courtyard (207) - {T}: Add {C}.
+Add To Stack: Codern cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Codern | open mana: Dominic 3, Wyatt 3, Wishane 2
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Discard: Codern discards Sevinne's Reclamation (301).
+Turn: Turn 25 (Wishane)
+Information: BOARD turn 25 (Wishane) | Dominic | life 36 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3); Demonic Tutor(2)
+Information: BOARD turn 25 (Wishane) | Wyatt | life 22 | hand 3 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4* | hand cards: Spectacular Spider-Man(2); Ringwraiths(6); Destined Confrontation(4)
+Information: BOARD turn 25 (Wishane) | Codern | life 38 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 25 (Wishane) | Wishane | life 37 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6)
+Information: BOARD threat | turn 25 | Serra Ascendant (Wishane) 79; Frodo, Sauron's Bane (Wyatt) 48; Nazgûl (Wyatt) 34
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) to attack Wyatt.
+Information: BOARD attack | Wishane -> Wyatt | attackers 1 (power 6) | defender life 22 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Wishane's Declare Blockers Step
+Combat: Wyatt didn't block Serra Ascendant (18).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Damage: Serra Ascendant (18) deals 6 combat damage to Wyatt.
+Life: Life: Wishane 37 > 43
+Life: Life: Wyatt 22 > 16
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Dominic | life 36 | hand 3 | lands 6 (2 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3); Demonic Tutor(2)
+Information: BOARD turn 26 (Dominic) | Wyatt | life 16 | hand 3 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4* | hand cards: Spectacular Spider-Man(2); Ringwraiths(6); Destined Confrontation(4)
+Information: BOARD turn 26 (Dominic) | Codern | life 38 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 26 (Dominic) | Wishane | life 43 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 26 | Serra Ascendant (Wishane) 110; Frodo, Sauron's Bane (Wyatt) 46; Nazgûl (Wyatt) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Dominic played Temple of Malice (8)
+Add To Stack: Dominic triggered Temple of Malice
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (8)]
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Add To Stack: Dominic cast Demonic Tutor
+Information: BOARD cast | Demonic Tutor (mv 2) by Dominic | open mana: Wyatt 3, Codern 0, Wishane 5
+Resolve Stack: Demonic Tutor (95) - Search your library for a card, put that card into your hand, then shuffle.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast The Reaver Cleaver
+Information: BOARD cast | The Reaver Cleaver (mv 3) by Dominic | open mana: Wyatt 3, Codern 0, Wishane 5
+Resolve Stack: The Reaver Cleaver
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 27 (Wyatt)
+Information: BOARD turn 27 (Wyatt) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 27 (Wyatt) | Wyatt | life 16 | hand 3 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4* | hand cards: Spectacular Spider-Man(2); Ringwraiths(6); Destined Confrontation(4)
+Information: BOARD turn 27 (Wyatt) | Codern | life 38 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 27 (Wyatt) | Wishane | life 43 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 27 | Serra Ascendant (Wishane) 106; Frodo, Sauron's Bane (Wyatt) 44; Nazgûl (Wyatt) 31
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Nazgûl (121) and Frodo, Sauron's Bane (201) to attack Wishane.
+Information: BOARD attack | Wyatt -> Wishane | attackers 2 (power 5) | defender life 43 | untapped creatures 0 (power 0):  | open mana 5
+Add To Stack: Wyatt triggered The Ring
+Discard: Wyatt discards Spectacular Spider-Man (169).
+Resolve Stack: Whenever your ring-bearer attacks, draw a card, then discard a card. [Attacker: Frodo, Sauron's Bane (201)]
+Phase: Wyatt's Declare Blockers Step
+Combat: Wishane didn't block Nazgûl (121).
+Wishane didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Nazgûl (121) deals 3 combat damage to Wishane.
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Wishane.
+Life: Life: Wyatt 16 > 18
+Life: Life: Wishane 43 > 38
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Mana: Bojuka Bog (147) - {T}: Add {B}.
+Mana: Swamp (179) - {T}: Add {B}.
+Mana: Plains (154) - {T}: Add {W}.
+Add To Stack: Wyatt cast Witch-king of Angmar
+Information: BOARD cast | Witch-king of Angmar (mv 5) by Wyatt | open mana: Dominic 5, Codern 0, Wishane 5
+Resolve Stack: Witch-king of Angmar - Creature 5 / 3
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 28 (Codern)
+Information: BOARD turn 28 (Codern) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 28 (Codern) | Wyatt | life 18 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 3/4*; Witch-king of Angmar 5/3 | hand cards: Ringwraiths(6); Destined Confrontation(4); Demonic Tutor(2)
+Information: BOARD turn 28 (Codern) | Codern | life 38 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Akroma's Will(4); Smothering Tithe(4); Sun Titan(6); Plains(land)
+Information: BOARD turn 28 (Codern) | Wishane | life 38 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 28 | Serra Ascendant (Wishane) 101; Frodo, Sauron's Bane (Wyatt) 54; Nazgûl (Wyatt) 47
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Codern picked {W}
+Mana: Arcane Signet (247) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (284) - {T}: Add {W}.
+Add To Stack: Codern cast Akroma's Will
+Information: BOARD cast | Akroma's Will (mv 4) by Codern | open mana: Dominic 5, Wyatt 1, Wishane 5
+Resolve Stack: Akroma's Will (217) -  Creatures you control gain flying, vigilance, and double strike until end of turn. Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Plains (276)
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Combat: Codern assigned Seluma, Light of Aysen (302) to attack Wyatt.
+Information: BOARD attack | Codern -> Wyatt | attackers 1 (power 4) | defender life 18 | untapped creatures 1 (power 5): Witch-king of Angmar 5/3 | open mana 1
+Phase: Codern's Declare Blockers Step
+Combat: Wyatt didn't block Seluma, Light of Aysen (302).
+Phase: Codern's First Strike Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Wyatt.
+Life: Life: Codern 38 > 42
+Life: Life: Wyatt 18 > 14
+Add To Stack: Wyatt triggered Witch-king of Angmar
+Zone Change: Seluma, Light of Aysen (302) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever one or more creatures deal combat damage to you, each opponent sacrifices a creature that dealt combat damage to you this turn. The Ring tempts you. [Damaged: Wyatt, Amount: 4]
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Mana: Plains (276) - {T}: Add {W}.
+Add To Stack: Codern cast Weathered Wayfarer
+Information: BOARD cast | Weathered Wayfarer (mv 1) by Codern | open mana: Dominic 5, Wyatt 1, Wishane 5
+Resolve Stack: Weathered Wayfarer - Creature 1 / 1
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 29 (Wishane)
+Information: BOARD turn 29 (Wishane) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Kambal, Profiteering Mayor 2/4 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 29 (Wishane) | Wyatt | life 14 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Witch-king of Angmar 6/4 | hand cards: Ringwraiths(6); Destined Confrontation(4); Demonic Tutor(2)
+Information: BOARD turn 29 (Wishane) | Codern | life 42 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 29 (Wishane) | Wishane | life 38 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 29 | Serra Ascendant (Wishane) 97; Nazgûl (Wyatt) 60; Frodo, Sauron's Bane (Wyatt) 52
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Mana: Bojuka Bog (347) - {T}: Add {B}.
+Mana: Reflecting Pool (400) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Mountain (396) - {T}: Add {R}.
+Mana: Turbulent Wetlands (356) - {T}: Add {B}.
+Mana: Turbulent Crater (307) - {T}: Add {R}.
+Add To Stack: Wishane cast Patriarch's Bidding
+Information: BOARD cast | Patriarch's Bidding (mv 5) by Wishane | open mana: Dominic 5, Wyatt 1, Codern 1
+Resolve Stack: Patriarch's Bidding (402) - Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from their graveyard to the battlefield.  
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) to attack Dominic.
+Information: BOARD attack | Wishane -> Dominic | attackers 1 (power 6) | defender life 36 | untapped creatures 2 (power 3): Kambal, Profiteering Mayor 2/4; Mirror Entity 1/1 | open mana 5
+Mana: Plains (152) - {T}: Add {W}.
+Add To Stack: Wyatt activated Spectacular Spider-Man
+Resolve Stack: Spectacular Spider-Man (169) - Spectacular Spider-Man (169) gains flying until end of turn.
+Phase: Wishane's Declare Blockers Step
+Combat: Dominic didn't block Serra Ascendant (18).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Damage: Serra Ascendant (18) deals 6 combat damage to Dominic.
+Life: Life: Wishane 38 > 44
+Life: Life: Dominic 36 > 30
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 30 (Dominic)
+Information: BOARD turn 30 (Dominic) | Dominic | life 30 | hand 2 | lands 7 (1 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Kambal, Profiteering Mayor 2/4; Mirror Entity 1/1 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 30 (Dominic) | Wyatt | life 14 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Witch-king of Angmar 6/4; Spectacular Spider-Man 3/2 | hand cards: Ringwraiths(6); Destined Confrontation(4); Demonic Tutor(2)
+Information: BOARD turn 30 (Dominic) | Codern | life 42 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 30 (Dominic) | Wishane | life 44 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 30 | Serra Ascendant (Wishane) 128; Nazgûl (Wyatt) 58; Frodo, Sauron's Bane (Wyatt) 50
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Dominic played Clifftop Retreat (55)
+Phase: devDominic's Main phase, precombat
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Add To Stack: Dominic activated The Reaver Cleaver targeting [Kambal, Profiteering Mayor (93)]
+Resolve Stack: The Reaver Cleaver (28) -  Attach to Kambal, Profiteering Mayor (93)
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Add To Stack: Dominic activated Mirror Entity
+Resolve Stack: Mirror Entity (63) - Until end of turn, creatures you control have base power and toughness X/X and gain all creature types. (X=4)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Kambal, Profiteering Mayor (93) to attack Codern.
+Information: BOARD attack | Dominic -> Codern | attackers 1 (power 5) | defender life 42 | untapped creatures 1 (power 1): Weathered Wayfarer 1/1 | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: Codern didn't block Kambal, Profiteering Mayor (93).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Kambal, Profiteering Mayor (93) deals 5 combat damage to Codern.
+Life: Life: Codern 42 > 37
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Kambal, Profiteering Mayor (93), Damaged: Codern, Amount: 5]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Wyatt 14 > 13
+Life: Life: Codern 37 > 36
+Life: Life: Wishane 44 > 43
+Life: Life: Dominic 30 > 31
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 5]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 31 (Wyatt)
+Information: BOARD turn 31 (Wyatt) | Dominic | life 31 | hand 2 | lands 8 (0 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 3/5*[The Reaver Cleaver]; Mirror Entity 1/1 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 31 (Wyatt) | Wyatt | life 13 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Witch-king of Angmar 6/4; Spectacular Spider-Man 3/2 | hand cards: Ringwraiths(6); Destined Confrontation(4); Demonic Tutor(2)
+Information: BOARD turn 31 (Wyatt) | Codern | life 36 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 31 (Wyatt) | Wishane | life 43 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Serra Ascendant 6/6*[Lightning Greaves]; Immersturm Predator 3/3 | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 31 | Serra Ascendant (Wishane) 123; Kambal, Profiteering Mayor (Dominic) 67; Nazgûl (Wyatt) 55; Frodo, Sauron's Bane (Wyatt) 48
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Combat: Wyatt assigned Witch-king of Angmar (111), Nazgûl (121) and Frodo, Sauron's Bane (201) to attack Wishane.
+Information: BOARD attack | Wyatt -> Wishane | attackers 3 (power 12) | defender life 43 | untapped creatures 1 (power 3): Immersturm Predator 3/3 | open mana 0
+Add To Stack: Wyatt triggered The Ring
+Discard: Wyatt discards Arcane Signet (106).
+Resolve Stack: Whenever your ring-bearer attacks, draw a card, then discard a card. [Attacker: Frodo, Sauron's Bane (201)]
+Phase: Wyatt's Declare Blockers Step
+Combat: Wishane didn't block Witch-king of Angmar (111).
+Wishane didn't block Nazgûl (121).
+Wishane didn't block Frodo, Sauron's Bane (201).
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Damage: Witch-king of Angmar (111) deals 6 combat damage to Wishane.
+Damage: Nazgûl (121) deals 4 combat damage to Wishane.
+Damage: Frodo, Sauron's Bane (201) deals 2 combat damage to Wishane.
+Life: Life: Wyatt 13 > 15
+Life: Life: Wishane 43 > 31
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Mana: Bojuka Bog (147) - {T}: Add {B}.
+Mana: Swamp (179) - {T}: Add {B}.
+Mana: Plains (154) - {T}: Add {W}.
+Mana: Plains (152) - {T}: Add {W}.
+Add To Stack: Wyatt cast Ringwraiths
+Information: BOARD cast | Ringwraiths (mv 6) by Wyatt | open mana: Dominic 6, Codern 1, Wishane 0
+Resolve Stack: Ringwraiths - Creature 5 / 5
+Add To Stack: Wyatt triggered Ringwraiths targeting [Immersturm Predator (348)]
+Resolve Stack: When Ringwraiths enters, target creature an opponent controls gets -3/-3 until end of turn. If that creature is legendary, its controller loses 3 life. (Targeting: [[Immersturm Predator (348)]]) [Zone Changer: Ringwraiths (160)]
+Zone Change: Immersturm Predator (348) was put into Graveyard from Battlefield.
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 32 (Codern)
+Information: BOARD turn 32 (Codern) | Dominic | life 31 | hand 2 | lands 8 (0 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 3/5*[The Reaver Cleaver]; Mirror Entity 1/1 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 32 (Codern) | Wyatt | life 15 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Witch-king of Angmar 6/4*; Spectacular Spider-Man 3/2; Ringwraiths 5/5 | hand cards: Destined Confrontation(4); Demonic Tutor(2); Nazgûl(3)
+Information: BOARD turn 32 (Codern) | Codern | life 36 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Gisela, Blade of Goldnight(7); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 32 (Codern) | Wishane | life 31 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 32 | Serra Ascendant (Wishane) 118; Nazgûl (Wyatt) 76; Kambal, Profiteering Mayor (Dominic) 64; Frodo, Sauron's Bane (Wyatt) 57; Witch-king of Angmar (Wyatt) 47
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Rogue's Passage (224)
+Land: Secluded Courtyard (207) picked {R}
+Mana: Secluded Courtyard (207) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Codern picked {W}
+Mana: Arcane Signet (247) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (284) - {T}: Add {W}.
+Mana: Plains (276) - {T}: Add {W}.
+Mana: Rogue's Passage (224) - {T}: Add {C}.
+Add To Stack: Codern cast Gisela, Blade of Goldnight
+Information: BOARD cast | Gisela, Blade of Goldnight (mv 7) by Codern | open mana: Dominic 6, Wyatt 0, Wishane 0
+Resolve Stack: Gisela, Blade of Goldnight - Creature 5 / 5
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 33 (Wishane)
+Information: BOARD turn 33 (Wishane) | Dominic | life 31 | hand 2 | lands 8 (0 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 3/5*[The Reaver Cleaver]; Mirror Entity 1/1 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 33 (Wishane) | Wyatt | life 15 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Witch-king of Angmar 6/4*; Spectacular Spider-Man 3/2; Ringwraiths 5/5 | hand cards: Destined Confrontation(4); Demonic Tutor(2); Nazgûl(3)
+Information: BOARD turn 33 (Wishane) | Codern | life 36 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Weathered Wayfarer 1/1; Gisela, Blade of Goldnight 5/5 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 33 (Wishane) | Wishane | life 31 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Path to Exile(1); Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 33 | Serra Ascendant (Wishane) 113; Nazgûl (Wyatt) 73; Kambal, Profiteering Mayor (Dominic) 62; Frodo, Sauron's Bane (Wyatt) 55; Witch-king of Angmar (Wyatt) 45
+Phase: Wishane's Untap step
+Phase: Wishane's Upkeep step
+Phase: Wishane's Draw step
+Phase: Wishane's Main phase, precombat
+Land: Wishane played Mystic Gate (320)
+Mana: Reflecting Pool (400) - {T}: Add one mana of any type that a land you control could produce.
+Add To Stack: Wishane cast Path to Exile targeting [Witch-king of Angmar (111)]
+Information: BOARD cast | Path to Exile (mv 1) by Wishane | open mana: Dominic 6, Wyatt 0, Codern 0
+Zone Change: Witch-king of Angmar (111) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (310) - Exile Witch-king of Angmar (111). Wyatt may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Wishane's Beginning of Combat Step
+Phase: Wishane's Declare Attackers Step
+Combat: Wishane assigned Serra Ascendant (18) to attack Wyatt.
+Information: BOARD attack | Wishane -> Wyatt | attackers 1 (power 6) | defender life 15 | untapped creatures 2 (power 8): Spectacular Spider-Man 3/2; Ringwraiths 5/5 | open mana 0
+Phase: Wishane's Declare Blockers Step
+Combat: Wyatt didn't block Serra Ascendant (18).
+Phase: Wishane's First Strike Damage Step
+Phase: Wishane's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Serra Ascendant (18) deals 12 combat damage to Wyatt.
+Life: Life: Wishane 31 > 43
+Life: Life: Wyatt 15 > 3
+Phase: Wishane's End of Combat Step
+Phase: Wishane's Main phase, postcombat
+Phase: Wishane's End step
+Phase: Wishane's Cleanup step
+Turn: Turn 34 (Dominic)
+Information: BOARD turn 34 (Dominic) | Dominic | life 31 | hand 2 | lands 8 (0 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Kambal, Profiteering Mayor 3/5*[The Reaver Cleaver]; Mirror Entity 1/1 | hand cards: Deadly Dispute(2); Vihaan, Goldwaker(3)
+Information: BOARD turn 34 (Dominic) | Wyatt | life 3 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Spectacular Spider-Man 3/2; Ringwraiths 5/5 | hand cards: Destined Confrontation(4); Demonic Tutor(2); Nazgûl(3)
+Information: BOARD turn 34 (Dominic) | Codern | life 36 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Weathered Wayfarer 1/1; Gisela, Blade of Goldnight 5/5 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD turn 34 (Dominic) | Wishane | life 43 | hand 4 | lands 6 (5 untapped) | open mana 9 | commander Command | creatures 1 (0 untapped): Serra Ascendant 6/6*[Lightning Greaves] | hand cards: Delighted Halfling(1); Savage Ventmaw(6); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 34 | Serra Ascendant (Wishane) 178; Nazgûl (Wyatt) 70; Kambal, Profiteering Mayor (Dominic) 59; Frodo, Sauron's Bane (Wyatt) 53
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Sulfurous Springs (70)
+Mana: Clifftop Retreat (55) - {T}: Add {R} or {W}.
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Vihaan, Goldwaker
+Information: BOARD cast | Vihaan, Goldwaker (mv 3) by Dominic | open mana: Wyatt 0, Codern 0, Wishane 9
+Resolve Stack: Vihaan, Goldwaker - Creature 3 / 3
+Mana: Sulfurous Springs (70) - {T}: Add {C}.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Wyatt 0, Codern 0, Wishane 9
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Add To Stack: Dominic triggered Vihaan, Goldwaker
+Resolve Stack: At the beginning of combat on your turn, you may have Treasures you control become 3/3 Construct Assassin artifact creatures in addition to their other types until end of turn. [Phase: Dominic]
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (100), Kambal, Profiteering Mayor (93), Treasure Token (408), Treasure Token (410), Treasure Token (411), Treasure Token (412), Treasure Token (413) and Treasure Token (414) to attack Wishane.
+Information: BOARD attack | Dominic -> Wishane | attackers 8 (power 24) | defender life 43 | untapped creatures 0 (power 0):  | open mana 9
+Phase: Dominic's Declare Blockers Step
+Combat: Wishane didn't block Olivia, Opulent Outlaw (100).
+Wishane didn't block Kambal, Profiteering Mayor (93).
+Wishane didn't block Treasure Token (408).
+Wishane didn't block Treasure Token (410).
+Wishane didn't block Treasure Token (411).
+Wishane didn't block Treasure Token (412).
+Wishane didn't block Treasure Token (413).
+Wishane didn't block Treasure Token (414).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Olivia, Opulent Outlaw (100) deals 6 combat damage to Wishane.
+Life: Life: Dominic 31 > 37
+Damage: Kambal, Profiteering Mayor (93) deals 6 combat damage to Wishane.
+Damage: Treasure Token (408) deals 6 combat damage to Wishane.
+Damage: Treasure Token (410) deals 6 combat damage to Wishane.
+Damage: Treasure Token (411) deals 6 combat damage to Wishane.
+Damage: Treasure Token (412) deals 6 combat damage to Wishane.
+Damage: Treasure Token (413) deals 6 combat damage to Wishane.
+Damage: Treasure Token (414) deals 6 combat damage to Wishane.
+Life: Life: Wishane 43 > -5
+Zone Change: Serra Ascendant (18) was put into Exile from Battlefield.
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Kambal, Profiteering Mayor (93), Damaged: Wishane, Amount: 6]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Wyatt 3 > 2
+Life: Life: Codern 36 > 35
+Life: Life: Dominic 37 > 38
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 6]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Wishane, Amount: 42]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Wyatt 2 > 1
+Life: Life: Codern 35 > 34
+Life: Life: Dominic 38 > 39
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Zone Change: Treasure Token (412) was put into Graveyard from Battlefield.
+Mana: Treasure Token (412) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (414) was put into Graveyard from Battlefield.
+Mana: Treasure Token (414) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (413) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (410) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Olivia, Opulent Outlaw
+Resolve Stack: Olivia, Opulent Outlaw (100) - Put two +1/+1 counters on each creature you control.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 35 (Wyatt)
+Information: BOARD turn 35 (Wyatt) | Dominic | life 39 | hand 1 | lands 9 (0 untapped) | open mana 9 | commander Battlefield | creatures 4 (3 untapped): Kambal, Profiteering Mayor 5/7*[The Reaver Cleaver]; Mirror Entity 3/3; Vihaan, Goldwaker 5/5; Olivia, Opulent Outlaw 5/5 | hand cards: Deadly Dispute(2)
+Information: BOARD turn 35 (Wyatt) | Wyatt | life 1 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 2/3*; Nazgûl 4/5*; Spectacular Spider-Man 3/2; Ringwraiths 5/5 | hand cards: Destined Confrontation(4); Demonic Tutor(2); Nazgûl(3)
+Information: BOARD turn 35 (Wyatt) | Codern | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Weathered Wayfarer 1/1; Gisela, Blade of Goldnight 5/5 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD threat | turn 35 | Kambal, Profiteering Mayor (Dominic) 134; Nazgûl (Wyatt) 67; Olivia, Opulent Outlaw (Dominic) 63; Frodo, Sauron's Bane (Wyatt) 51; Treasure Token (Dominic) 35
+Phase: Wyatt's Untap step
+Phase: Wyatt's Upkeep step
+Phase: Wyatt's Draw step
+Phase: Wyatt's Main phase, precombat
+Phase: Wyatt's Beginning of Combat Step
+Phase: Wyatt's Declare Attackers Step
+Phase: Wyatt's Declare Blockers Step
+Phase: Wyatt's First Strike Damage Step
+Phase: Wyatt's Combat Damage Step
+Phase: Wyatt's End of Combat Step
+Phase: Wyatt's Main phase, postcombat
+Mana: Plains (154) - {T}: Add {W}.
+Mana: Swamp (181) - {T}: Add {B}.
+Mana: Swamp (178) - {T}: Add {B}.
+Add To Stack: Wyatt cast Prideful Feastling
+Information: BOARD cast | Prideful Feastling (mv 3) by Wyatt | open mana: Dominic 9, Codern 0
+Resolve Stack: Prideful Feastling - Creature 2 / 3
+Mana: Bojuka Bog (147) - {T}: Add {B}.
+Mana: Swamp (179) - {T}: Add {B}.
+Mana: Plains (152) - {T}: Add {W}.
+Add To Stack: Wyatt cast Nazgûl
+Information: BOARD cast | Nazgûl (mv 3) by Wyatt | open mana: Dominic 9, Codern 0
+Resolve Stack: Nazgûl - Creature 1 / 2
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: When Nazgûl enters, the Ring tempts you. [Zone Changer: Nazgûl (126)]
+Add To Stack: Wyatt triggered Nazgûl
+Add To Stack: Wyatt triggered Nazgûl
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Resolve Stack: Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control. [Player: Wyatt, ]
+Phase: Wyatt's End step
+Phase: Wyatt's Cleanup step
+Turn: Turn 36 (Codern)
+Information: BOARD turn 36 (Codern) | Dominic | life 39 | hand 1 | lands 9 (0 untapped) | open mana 9 | commander Battlefield | creatures 4 (3 untapped): Kambal, Profiteering Mayor 5/7*[The Reaver Cleaver]; Mirror Entity 3/3; Vihaan, Goldwaker 5/5; Olivia, Opulent Outlaw 5/5 | hand cards: Deadly Dispute(2)
+Information: BOARD turn 36 (Codern) | Wyatt | life 1 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Frodo, Sauron's Bane 2/3; Nazgûl 6/7; Spectacular Spider-Man 3/2; Ringwraiths 7/7; Prideful Feastling 4/5; Nazgûl 3/4 | hand cards: Destined Confrontation(4); Demonic Tutor(2)
+Information: BOARD turn 36 (Codern) | Codern | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Weathered Wayfarer 1/1; Gisela, Blade of Goldnight 5/5 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD threat | turn 36 | Kambal, Profiteering Mayor (Dominic) 129; Nazgûl (Wyatt) 79; Olivia, Opulent Outlaw (Dominic) 61; Frodo, Sauron's Bane (Wyatt) 49; Treasure Token (Dominic) 33
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Mana: Plains (287) - {T}: Add {W}.
+Add To Stack: Codern cast Path to Exile targeting [Olivia, Opulent Outlaw (100)]
+Information: BOARD cast | Path to Exile (mv 1) by Codern | open mana: Dominic 9, Wyatt 1
+Zone Change: Olivia, Opulent Outlaw (100) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (211) - Exile Olivia, Opulent Outlaw (100). Dominic may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Codern's Main phase, precombat
+Mana: Plains (290) - {T}: Add {W}.
+Land: Codern picked {W}
+Mana: Arcane Signet (247) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (284) - {T}: Add {W}.
+Mana: Plains (276) - {T}: Add {W}.
+Add To Stack: Codern activated Rogue's Passage targeting [Weathered Wayfarer (267)]
+Resolve Stack: Rogue's Passage (224) - Weathered Wayfarer (267) can't be blocked this turn.
+Phase: Codern's Beginning of Combat Step
+Mana: Plains (155) - {T}: Add {W}.
+Add To Stack: Wyatt activated Spectacular Spider-Man
+Resolve Stack: Spectacular Spider-Man (169) - Spectacular Spider-Man (169) gains flying until end of turn.
+Phase: Codern's Declare Attackers Step
+Combat: Codern assigned Gisela, Blade of Goldnight (252) and Weathered Wayfarer (267) to attack Wyatt.
+Information: BOARD attack | Codern -> Wyatt | attackers 2 (power 6) | defender life 1 | untapped creatures 6 (power 25): Frodo, Sauron's Bane 2/3; Nazgûl 6/7; Spectacular Spider-Man 3/2; Ringwraiths 7/7; Prideful Feastling 4/5; Nazgûl 3/4 | open mana 0
+Phase: Codern's Declare Blockers Step
+Combat: Wyatt assigned Spectacular Spider-Man (169) to block Gisela, Blade of Goldnight (252).
+Wyatt didn't block Weathered Wayfarer (267).
+Phase: Codern's First Strike Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Gisela, Blade of Goldnight (252) deals 10 damage to Spectacular Spider-Man (169).
+Zone Change: Spectacular Spider-Man (169) was put into Graveyard from Battlefield.
+Phase: Codern's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Weathered Wayfarer (267) deals 2 combat damage to Wyatt.
+Life: Life: Wyatt 1 > -1
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 37 (Dominic)
+Information: BOARD turn 37 (Dominic) | Dominic | life 39 | hand 1 | lands 10 (0 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Kambal, Profiteering Mayor 5/7*[The Reaver Cleaver]; Mirror Entity 3/3; Vihaan, Goldwaker 5/5 | hand cards: Deadly Dispute(2)
+Information: BOARD turn 37 (Dominic) | Codern | life 34 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (0 untapped): Weathered Wayfarer 1/1*; Gisela, Blade of Goldnight 5/5* | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD threat | turn 37 | Kambal, Profiteering Mayor (Dominic) 124; Treasure Token (Dominic) 32; Treasure Token (Dominic) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Mana: Swamp (57) - {T}: Add {B}.
+Mana: Sulfurous Springs (70) - {T}: Add {C}.
+Zone Change: Treasure Token (411) was put into Graveyard from Battlefield.
+Add To Stack: Dominic cast Deadly Dispute
+Information: BOARD cast | Deadly Dispute (mv 2) by Dominic | open mana: Codern 1
+Resolve Stack: Deadly Dispute (2) - Draw two cards and create a Treasure token. 
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Codern 34 > 33
+Life: Life: Dominic 39 > 40
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 1]
+Phase: Dominic's Main phase, precombat
+Mana: Temple of Silence (92) - {T}: Add {W} or {B}.
+Mana: Clifftop Retreat (55) - {T}: Add {R} or {W}.
+Mana: Blackcleave Cliffs (41) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Prop Room
+Information: BOARD cast | Prop Room (mv 3) by Dominic | open mana: Codern 1
+Resolve Stack: Dominic unlocks Prop Room's Door
+Resolve Stack: Prop Room
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Temple of Malice (8) - {T}: Add {B} or {R}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Add To Stack: Dominic cast Shadow the Hedgehog
+Information: BOARD cast | Shadow the Hedgehog (mv 4) by Dominic | open mana: Codern 1
+Resolve Stack: Shadow the Hedgehog - Creature 4 / 2
+Zone Change: Treasure Token (426) was put into Graveyard from Battlefield.
+Mana: Treasure Token (426) - {T}, Sacrifice this token: Add one mana of any color.
+Information: BOARD cast | Ragavan, Nimble Pilferer (mv 1) by Dominic | open mana: Codern 1
+Resolve Stack: Ragavan, Nimble Pilferer - Creature 2 / 1
+Phase: Dominic's Beginning of Combat Step
+Add To Stack: Dominic triggered Vihaan, Goldwaker
+Resolve Stack: At the beginning of combat on your turn, you may have Treasures you control become 3/3 Construct Assassin artifact creatures in addition to their other types until end of turn. [Phase: Dominic]
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Kambal, Profiteering Mayor (93), Treasure Token (408), Mirror Entity (63), Vihaan, Goldwaker (40), Treasure Token (416), Treasure Token (417), Treasure Token (418), Treasure Token (419), Treasure Token (420), Treasure Token (421), Treasure Token (423), Shadow the Hedgehog (36) and Ragavan, Nimble Pilferer (66) to attack Codern.
+Information: BOARD attack | Dominic -> Codern | attackers 13 (power 45) | defender life 33 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: Codern didn't block Kambal, Profiteering Mayor (93).
+Codern didn't block Treasure Token (408).
+Codern didn't block Mirror Entity (63).
+Codern didn't block Vihaan, Goldwaker (40).
+Codern didn't block Treasure Token (416).
+Codern didn't block Treasure Token (417).
+Codern didn't block Treasure Token (418).
+Codern didn't block Treasure Token (419).
+Codern didn't block Treasure Token (420).
+Codern didn't block Treasure Token (421).
+Codern didn't block Treasure Token (423).
+Codern didn't block Shadow the Hedgehog (36).
+Codern didn't block Ragavan, Nimble Pilferer (66).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Replacement Effect: If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Damage: Kambal, Profiteering Mayor (93) deals 2 combat damage to Codern.
+Damage: Treasure Token (408) deals 2 combat damage to Codern.
+Damage: Mirror Entity (63) deals 1 combat damage to Codern.
+Damage: Vihaan, Goldwaker (40) deals 2 combat damage to Codern.
+Damage: Treasure Token (416) deals 1 combat damage to Codern.
+Damage: Treasure Token (417) deals 1 combat damage to Codern.
+Damage: Treasure Token (418) deals 1 combat damage to Codern.
+Damage: Treasure Token (419) deals 1 combat damage to Codern.
+Damage: Treasure Token (420) deals 1 combat damage to Codern.
+Damage: Treasure Token (421) deals 1 combat damage to Codern.
+Damage: Treasure Token (423) deals 1 combat damage to Codern.
+Damage: Shadow the Hedgehog (36) deals 2 combat damage to Codern.
+Damage: Ragavan, Nimble Pilferer (66) deals 1 combat damage to Codern.
+Life: Life: Codern 33 > 16
+Add To Stack: Dominic triggered Ragavan, Nimble Pilferer
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Kambal, Profiteering Mayor (93), Damaged: Codern, Amount: 2]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Codern 16 > 15
+Life: Life: Dominic 40 > 41
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 2]
+Resolve Stack: Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card. [Damage Source: Ragavan, Nimble Pilferer (66), Damaged: Codern, Amount: 1]
+Add To Stack: Dominic triggered Kambal, Profiteering Mayor
+Life: Life: Codern 15 > 14
+Life: Life: Dominic 41 > 42
+Resolve Stack: Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life. [Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (431) was put into Graveyard from Battlefield.
+Mana: Treasure Token (431) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Desolate Mire (6) - {1}, {T}: Add {W}{B}.
+Zone Change: Treasure Token (429) was put into Graveyard from Battlefield.
+Mana: Treasure Token (429) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (423) was put into Graveyard from Battlefield.
+Mana: Treasure Token (423) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (421) was put into Graveyard from Battlefield.
+Mana: Treasure Token (421) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Codern 1
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (423)]
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (421)]
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (420)]
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Mana: Treasure Token (419) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (418) was put into Graveyard from Battlefield.
+Mana: Treasure Token (418) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (416) was put into Graveyard from Battlefield.
+Mana: Treasure Token (416) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Opposition Agent
+Information: BOARD cast | Opposition Agent (mv 3) by Dominic | open mana: Codern 1
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Add To Stack: Dominic triggered Shadow the Hedgehog
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (419)]
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (418)]
+Resolve Stack: Whenever Shadow the Hedgehog or another creature you control with flash or haste dies, draw a card. [Zone Changer: Treasure Token (416)]
+Resolve Stack: Opposition Agent - Creature 3 / 2
+Phase: devDominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 38 (Codern)
+Information: BOARD turn 38 (Codern) | Dominic | life 42 | hand 5 | lands 10 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (5 untapped): Kambal, Profiteering Mayor 5/7*[The Reaver Cleaver]; Mirror Entity 3/3; Vihaan, Goldwaker 5/5*; Shadow the Hedgehog 4/2; Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3; Opposition Agent 3/2 | hand cards: Swiftfoot Boots(2); Mountain(land); The Sackville-Bagginses(2); Crime Novelist(3); Sol Ring(1)
+Information: BOARD turn 38 (Codern) | Codern | life 14 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (0 untapped): Weathered Wayfarer 1/1*; Gisela, Blade of Goldnight 5/5* | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4); Sun Titan(6)
+Information: BOARD threat | turn 38 | Kambal, Profiteering Mayor (Dominic) 188; Shadow the Hedgehog (Dominic) 98; Treasure Token (Dominic) 42; Vihaan, Goldwaker (Dominic) 39
+Phase: Codern's Untap step
+Phase: Codern's Upkeep step
+Phase: Codern's Draw step
+Phase: Codern's Main phase, precombat
+Land: Codern played Plains (268)
+Phase: Codern's Beginning of Combat Step
+Phase: Codern's Declare Attackers Step
+Phase: Codern's Declare Blockers Step
+Phase: Codern's First Strike Damage Step
+Phase: Codern's Combat Damage Step
+Phase: Codern's End of Combat Step
+Phase: Codern's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Land: Codern picked {W}
+Mana: Arcane Signet (247) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (284) - {T}: Add {W}.
+Mana: Plains (276) - {T}: Add {W}.
+Mana: Plains (268) - {T}: Add {W}.
+Add To Stack: Codern cast Sun Titan
+Information: BOARD cast | Sun Titan (mv 6) by Codern | open mana: Dominic 1
+Resolve Stack: Sun Titan - Creature 6 / 6
+Phase: Codern's End step
+Phase: Codern's Cleanup step
+Turn: Turn 39 (Dominic)
+Information: BOARD turn 39 (Dominic) | Dominic | life 42 | hand 5 | lands 10 (0 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Kambal, Profiteering Mayor 5/7[The Reaver Cleaver]; Mirror Entity 3/3; Vihaan, Goldwaker 5/5; Shadow the Hedgehog 4/2; Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3; Opposition Agent 3/2 | hand cards: Swiftfoot Boots(2); Mountain(land); The Sackville-Bagginses(2); Crime Novelist(3); Sol Ring(1)
+Information: BOARD turn 39 (Dominic) | Codern | life 14 | hand 3 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 3 (3 untapped): Weathered Wayfarer 1/1; Gisela, Blade of Goldnight 5/5; Sun Titan 6/6 | hand cards: Teferi's Protection(3); Miraculous Recovery(5); Smothering Tithe(4)
+Information: BOARD threat | turn 39 | Kambal, Profiteering Mayor (Dominic) 181; Shadow the Hedgehog (Dominic) 94; Treasure Token (Dominic) 40; Vihaan, Goldwaker (Dominic) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Sulfurous Springs (70) - {T}: Add {C}.
+Add To Stack: Dominic cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Dominic | open mana: Codern 2
+Resolve Stack: Sol Ring
+
+Game Result: unfinished (Forge closed mid-game)

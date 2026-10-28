@@ -1,0 +1,399 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Hayden (AI) deck=Captain America v8
+Player: Albert (AI) deck=Scion
+Player: Basden (AI) deck=Tidus v3
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Hayden has mulliganed down to 7 cards.
+Mulligan: Albert has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Hayden has kept a hand of 7 cards
+Mulligan: Albert has kept a hand of 7 cards
+Mulligan: Basden has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Unclaimed Territory(land); Plains(land); Swords to Plowshares(1); Emeria Shepherd(7); Gleaming Splendor(2); Sol Ring(1)
+Information: BOARD turn 1 (Dominic) | Hayden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Steelshaper's Gift(1); Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2)
+Information: BOARD turn 1 (Dominic) | Albert | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Island(land); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4)
+Information: BOARD turn 1 (Dominic) | Basden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Dominic played Unclaimed Territory (43)
+Mana: Unclaimed Territory (43) - {T}: Add {C}.
+Add To Stack: Dominic cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Dominic | open mana: Hayden 0, Albert 0, Basden 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Mesmeric Orb
+Information: BOARD cast | Mesmeric Orb (mv 2) by Dominic | open mana: Hayden 0, Albert 0, Basden 0
+Resolve Stack: Mesmeric Orb
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Hayden)
+Information: BOARD turn 2 (Hayden) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Plains(land); Swords to Plowshares(1); Emeria Shepherd(7); Gleaming Splendor(2)
+Information: BOARD turn 2 (Hayden) | Hayden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Steelshaper's Gift(1); Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2)
+Information: BOARD turn 2 (Hayden) | Albert | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Island(land); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4)
+Information: BOARD turn 2 (Hayden) | Basden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2)
+Phase: Hayden's Untap step
+Phase: Hayden's Upkeep step
+Phase: Hayden's Draw step
+Phase: Hayden's Main phase, precombat
+Land: Hayden played Plains (183)
+Phase: Hayden's Beginning of Combat Step
+Phase: Hayden's Declare Attackers Step
+Phase: Hayden's Declare Blockers Step
+Phase: Hayden's First Strike Damage Step
+Phase: Hayden's Combat Damage Step
+Phase: Hayden's End of Combat Step
+Phase: Hayden's Main phase, postcombat
+Mana: Plains (183) - {T}: Add {W}.
+Add To Stack: Hayden cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Hayden | open mana: Dominic 0, Albert 0, Basden 0
+Resolve Stack: Steelshaper's Gift (148) - Hayden searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Phase: Hayden's End step
+Phase: Hayden's Cleanup step
+Turn: Turn 3 (Albert)
+Information: BOARD turn 3 (Albert) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Plains(land); Swords to Plowshares(1); Emeria Shepherd(7); Gleaming Splendor(2)
+Information: BOARD turn 3 (Albert) | Hayden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2); Mana Drain(2); Cloudsteel Kirin(3)
+Information: BOARD turn 3 (Albert) | Albert | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Island(land); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4)
+Information: BOARD turn 3 (Albert) | Basden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2)
+Phase: Albert's Untap step
+Phase: Albert's Upkeep step
+Phase: Albert's Draw step
+Phase: Albert's Main phase, precombat
+Land: Albert played Island (234)
+Phase: Albert's Beginning of Combat Step
+Phase: Albert's Declare Attackers Step
+Phase: Albert's Declare Blockers Step
+Phase: Albert's First Strike Damage Step
+Phase: Albert's Combat Damage Step
+Phase: Albert's End of Combat Step
+Phase: Albert's Main phase, postcombat
+Phase: Albert's End step
+Phase: Albert's Cleanup step
+Turn: Turn 4 (Basden)
+Information: BOARD turn 4 (Basden) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Plains(land); Swords to Plowshares(1); Emeria Shepherd(7); Gleaming Splendor(2)
+Information: BOARD turn 4 (Basden) | Hayden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2); Mana Drain(2); Cloudsteel Kirin(3)
+Information: BOARD turn 4 (Basden) | Albert | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5)
+Information: BOARD turn 4 (Basden) | Basden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2)
+Phase: Basden's Untap step
+Phase: Basden's Upkeep step
+Phase: Basden's Draw step
+Phase: Basden's Main phase, precombat
+Replacement Effect: Tangled Islet enters tapped.
+Land: Basden played Tangled Islet (350)
+Phase: Basden's Beginning of Combat Step
+Phase: Basden's Declare Attackers Step
+Phase: Basden's Declare Blockers Step
+Phase: Basden's First Strike Damage Step
+Phase: Basden's Combat Damage Step
+Phase: Basden's End of Combat Step
+Phase: Basden's Main phase, postcombat
+Phase: Basden's End step
+Phase: Basden's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Plains(land); Swords to Plowshares(1); Emeria Shepherd(7); Gleaming Splendor(2)
+Information: BOARD turn 5 (Dominic) | Hayden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2); Mana Drain(2); Cloudsteel Kirin(3)
+Information: BOARD turn 5 (Dominic) | Albert | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5)
+Information: BOARD turn 5 (Dominic) | Basden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2); Sunpetal Grove(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Dominic milled Atraxa, Grand Unifier (20).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Unclaimed Territory (43)]
+Zone Change: Dominic milled Shalai, Voice of Plenty (23).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Sol Ring (48)]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (84)
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Gleaming Splendor
+Information: BOARD cast | Gleaming Splendor (mv 2) by Dominic | open mana: Hayden 0, Albert 1, Basden 0
+Resolve Stack: Gleaming Splendor
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Hayden)
+Information: BOARD turn 6 (Hayden) | Dominic | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Swords to Plowshares(1); Emeria Shepherd(7); Mind Stone(2)
+Information: BOARD turn 6 (Hayden) | Hayden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Puresteel Paladin(2); Mana Drain(2); Cloudsteel Kirin(3)
+Information: BOARD turn 6 (Hayden) | Albert | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5)
+Information: BOARD turn 6 (Hayden) | Basden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2); Sunpetal Grove(land)
+Phase: Hayden's Untap step
+Phase: Hayden's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Hayden milled Sram, Senior Edificer (161).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Plains (183)]
+Phase: Hayden's Draw step
+Phase: Hayden's Main phase, precombat
+Land: Hayden played Plains (186)
+Phase: Hayden's Beginning of Combat Step
+Phase: Hayden's Declare Attackers Step
+Phase: Hayden's Declare Blockers Step
+Phase: Hayden's First Strike Damage Step
+Phase: Hayden's Combat Damage Step
+Phase: Hayden's End of Combat Step
+Phase: Hayden's Main phase, postcombat
+Mana: Plains (183) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Add To Stack: Hayden cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Hayden | open mana: Dominic 1, Albert 1, Basden 0
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Phase: Hayden's End step
+Phase: Hayden's Cleanup step
+Turn: Turn 7 (Albert)
+Information: BOARD turn 7 (Albert) | Dominic | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Swords to Plowshares(1); Emeria Shepherd(7); Mind Stone(2)
+Information: BOARD turn 7 (Albert) | Hayden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Mana Drain(2); Cloudsteel Kirin(3); Counterspell(2)
+Information: BOARD turn 7 (Albert) | Albert | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5)
+Information: BOARD turn 7 (Albert) | Basden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2); Sunpetal Grove(land)
+Information: BOARD threat | turn 7 | Mesmeric Orb (Dominic) 42
+Phase: Albert's Untap step
+Phase: Albert's Upkeep step
+Phase: Albert's Draw step
+Phase: Albert's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Albert played Turbulent Shore (292)
+Phase: Albert's Beginning of Combat Step
+Phase: Albert's Declare Attackers Step
+Phase: Albert's Declare Blockers Step
+Phase: Albert's First Strike Damage Step
+Phase: Albert's Combat Damage Step
+Phase: Albert's End of Combat Step
+Phase: Albert's Main phase, postcombat
+Phase: Albert's End step
+Phase: Albert's Cleanup step
+Turn: Turn 8 (Basden)
+Information: BOARD turn 8 (Basden) | Dominic | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Swords to Plowshares(1); Emeria Shepherd(7); Mind Stone(2)
+Information: BOARD turn 8 (Basden) | Hayden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Mana Drain(2); Cloudsteel Kirin(3); Counterspell(2)
+Information: BOARD turn 8 (Basden) | Albert | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 8 (Basden) | Basden | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Together Forever(2); Glacial Fortress(land); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Shelinda, Yevon Acolyte(2); Sunpetal Grove(land)
+Information: BOARD threat | turn 8 | Mesmeric Orb (Dominic) 40
+Phase: Basden's Untap step
+Phase: Basden's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Basden milled The Earth King (373).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Tangled Islet (350)]
+Phase: Basden's Draw step
+Phase: Basden's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Basden played Glacial Fortress (380)
+Phase: Basden's Beginning of Combat Step
+Phase: Basden's Declare Attackers Step
+Phase: Basden's Declare Blockers Step
+Phase: Basden's First Strike Damage Step
+Phase: Basden's Combat Damage Step
+Phase: Basden's End of Combat Step
+Phase: Basden's Main phase, postcombat
+Land: Basden picked {W}
+Mana: Glacial Fortress (380) - {T}: Add {W} or {U}.
+Mana: Tangled Islet (350) - {T}: Add {G}.
+Add To Stack: Basden cast Shelinda, Yevon Acolyte
+Information: BOARD cast | Shelinda, Yevon Acolyte (mv 2) by Basden | open mana: Dominic 1, Hayden 0, Albert 1
+Resolve Stack: Shelinda, Yevon Acolyte - Creature 2 / 2
+Phase: Basden's End step
+Phase: Basden's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 4 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Swords to Plowshares(1); Emeria Shepherd(7); Mind Stone(2)
+Information: BOARD turn 9 (Dominic) | Hayden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Mana Drain(2); Cloudsteel Kirin(3); Counterspell(2)
+Information: BOARD turn 9 (Dominic) | Albert | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 9 (Dominic) | Basden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shelinda, Yevon Acolyte 2/2 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Sunpetal Grove(land); Summon: Valefor(5)
+Information: BOARD threat | turn 9 | Mesmeric Orb (Dominic) 53
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Dominic milled Righteous Valkyrie (3).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Sol Ring (48)]
+Zone Change: Dominic milled Plains (91).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Plains (84)]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Dominic | open mana: Hayden 0, Albert 1, Basden 0
+Resolve Stack: Mind Stone
+Phase: devDominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Hayden)
+Information: BOARD turn 10 (Hayden) | Dominic | life 40 | hand 4 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Emeria Shepherd(7); Angel of Finality(4); Swords to Plowshares(1)
+Information: BOARD turn 10 (Hayden) | Hayden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Deserted Beach(land); Mana Drain(2); Cloudsteel Kirin(3); Counterspell(2)
+Information: BOARD turn 10 (Hayden) | Albert | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 10 (Hayden) | Basden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shelinda, Yevon Acolyte 2/2 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Sunpetal Grove(land); Summon: Valefor(5)
+Information: BOARD threat | turn 10 | Mesmeric Orb (Dominic) 80
+Phase: Hayden's Untap step
+Phase: Hayden's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Hayden milled Raugrin Triome (189).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Plains (183)]
+Zone Change: Hayden milled Plains (182).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Plains (186)]
+Phase: Hayden's Draw step
+Phase: Hayden's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Hayden played Deserted Beach (163)
+Mana: Plains (183) - {T}: Add {W}.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Hayden picked {U}
+Mana: Deserted Beach (163) - {T}: Add {W} or {U}.
+Add To Stack: Hayden cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Hayden | open mana: Dominic 3, Albert 1, Basden 0
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Add To Stack: Hayden triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Cloudsteel Kirin (160)]
+Add To Stack: Dominic triggered Gleaming Splendor
+Resolve Stack: Whenever an opponent draws their second card each turn, you create a Treasure token. [Player: Hayden]
+Phase: Hayden's Beginning of Combat Step
+Phase: Hayden's Declare Attackers Step
+Combat: Hayden assigned Puresteel Paladin (125) to attack Dominic.
+Information: BOARD attack | Hayden -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Hayden's Declare Blockers Step
+Combat: Dominic didn't block Puresteel Paladin (125).
+Phase: Hayden's First Strike Damage Step
+Phase: Hayden's Combat Damage Step
+Damage: Puresteel Paladin (125) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: Hayden's End of Combat Step
+Phase: Hayden's Main phase, postcombat
+Phase: Hayden's End step
+Phase: Hayden's Cleanup step
+Turn: Turn 11 (Albert)
+Information: BOARD turn 11 (Albert) | Dominic | life 38 | hand 4 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Emeria Shepherd(7); Angel of Finality(4); Swords to Plowshares(1)
+Information: BOARD turn 11 (Albert) | Hayden | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Cloudsteel Kirin 3/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Mana Drain(2); Counterspell(2); Plains(land); Glacial Fortress(land)
+Information: BOARD turn 11 (Albert) | Albert | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Talisman of Progress(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 11 (Albert) | Basden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shelinda, Yevon Acolyte 2/2 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Sunpetal Grove(land); Summon: Valefor(5)
+Information: BOARD threat | turn 11 | Mesmeric Orb (Dominic) 105
+Phase: Albert's Untap step
+Phase: Albert's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Albert milled Dispelling Exhale (237).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Turbulent Shore (292)]
+Phase: Albert's Draw step
+Phase: Albert's Main phase, precombat
+Land: Albert played Fetid Heath (213)
+Mana: Island (234) - {T}: Add {U}.
+Mana: Turbulent Shore (292) - {T}: Add {U}.
+Add To Stack: Albert cast Talisman of Progress
+Information: BOARD cast | Talisman of Progress (mv 2) by Albert | open mana: Dominic 4, Hayden 0, Basden 0
+Resolve Stack: Talisman of Progress
+Phase: Albert's Beginning of Combat Step
+Phase: Albert's Declare Attackers Step
+Phase: Albert's Declare Blockers Step
+Phase: Albert's First Strike Damage Step
+Phase: Albert's Combat Damage Step
+Phase: Albert's End of Combat Step
+Phase: Albert's Main phase, postcombat
+Phase: Albert's End step
+Phase: Albert's Cleanup step
+Turn: Turn 12 (Basden)
+Information: BOARD turn 12 (Basden) | Dominic | life 38 | hand 4 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Emeria Shepherd(7); Angel of Finality(4); Swords to Plowshares(1)
+Information: BOARD turn 12 (Basden) | Hayden | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Cloudsteel Kirin 3/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Mana Drain(2); Counterspell(2); Plains(land); Glacial Fortress(land)
+Information: BOARD turn 12 (Basden) | Albert | life 40 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 12 (Basden) | Basden | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shelinda, Yevon Acolyte 2/2 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Sunpetal Grove(land); Summon: Valefor(5)
+Information: BOARD threat | turn 12 | Mesmeric Orb (Dominic) 116
+Phase: Basden's Untap step
+Phase: Basden's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Basden milled Overflowing Basin (337).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Tangled Islet (350)]
+Zone Change: Basden milled Yuna, Grand Summoner (326).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Glacial Fortress (380)]
+Phase: Basden's Draw step
+Phase: Basden's Main phase, precombat
+Replacement Effect: Sunpetal Grove enters tapped unless you control a Forest or a Plains.
+Land: Basden played Sunpetal Grove (369)
+Land: Basden picked {W}
+Mana: Glacial Fortress (380) - {T}: Add {W} or {U}.
+Mana: Tangled Islet (350) - {T}: Add {U}.
+Land: Basden picked {G}
+Mana: Sunpetal Grove (369) - {T}: Add {G} or {W}.
+Add To Stack: Basden cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Basden | open mana: Dominic 4, Hayden 0, Albert 8
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Add To Stack: Basden triggered Shelinda, Yevon Acolyte
+Resolve Stack: Whenever another creature you control enters, put a +1/+1 counter on that creature if its power is less than Shelinda's power. Otherwise, put a +1/+1 counter on Shelinda. [Zone Changer: Tidus, Yuna's Guardian (403)]
+Phase: Basden's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Basden's Declare Attackers Step
+Combat: Basden assigned Shelinda, Yevon Acolyte (372) to attack Dominic.
+Information: BOARD attack | Basden -> Dominic | attackers 1 (power 3) | defender life 38 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Basden's Declare Blockers Step
+Combat: Dominic didn't block Shelinda, Yevon Acolyte (372).
+Phase: Basden's First Strike Damage Step
+Phase: Basden's Combat Damage Step
+Damage: Shelinda, Yevon Acolyte (372) deals 3 combat damage to Dominic.
+Life: Life: Basden 40 > 43
+Life: Life: Dominic 38 > 35
+Add To Stack: Basden triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Dominic, Amount: 3]
+Phase: Basden's End of Combat Step
+Phase: Basden's Main phase, postcombat
+Phase: Basden's End step
+Phase: Basden's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Dominic | life 35 | hand 4 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Subjugator Angel(6); Emeria Shepherd(7); Angel of Finality(4); Swords to Plowshares(1)
+Information: BOARD turn 13 (Dominic) | Hayden | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Cloudsteel Kirin 3/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Mana Drain(2); Counterspell(2); Plains(land); Glacial Fortress(land)
+Information: BOARD turn 13 (Dominic) | Albert | life 40 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 13 (Dominic) | Basden | life 43 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shelinda, Yevon Acolyte 3/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Summon: Valefor(5); Tireless Tracker(3)
+Information: BOARD threat | turn 13 | Mesmeric Orb (Dominic) 140; Shelinda, Yevon Acolyte (Basden) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Zone Change: Dominic milled Baneslayer Angel (44).
+Resolve Stack: Whenever a permanent becomes untapped, that permanent's controller mills a card. [Untapped: Sol Ring (48)]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Mana: Unclaimed Territory (43) - {T}: Add {C}.
+Mana: Mind Stone (31) - {T}: Add {C}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Hayden 0, Albert 8, Basden 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Hayden)
+Information: BOARD turn 14 (Hayden) | Dominic | life 35 | hand 5 | lands 2 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Subjugator Angel(6); Emeria Shepherd(7); Angel of Finality(4); Swords to Plowshares(1); Avacyn, Angel of Horror(8)
+Information: BOARD turn 14 (Hayden) | Hayden | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Puresteel Paladin 2/2*; Cloudsteel Kirin 3/2 | hand cards: Blacksmith's Talent(1); Sokka and Suki(3); Mana Drain(2); Counterspell(2); Plains(land); Glacial Fortress(land)
+Information: BOARD turn 14 (Hayden) | Albert | life 40 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Wake the Dead(2); Rugged Highlands(land); Ancient Silver Dragon(8); Defense of the Heart(4); Harbinger of the Hunt(5); Delighted Halfling(1)
+Information: BOARD turn 14 (Hayden) | Basden | life 43 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shelinda, Yevon Acolyte 3/3*; Tidus, Yuna's Guardian 3/3 | hand cards: Together Forever(2); Canopy Vista(land); Forest(land); Vineglimmer Snarl(land); Summon: Valefor(5); Tireless Tracker(3)
+Information: BOARD threat | turn 14 | Mesmeric Orb (Dominic) 149; Shelinda, Yevon Acolyte (Basden) 30
+Phase: Hayden's Untap step
+Phase: Hayden's Upkeep step
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+Add To Stack: Dominic triggered Mesmeric Orb
+
+Game Result: unfinished (Forge closed mid-game)

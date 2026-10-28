@@ -1,0 +1,852 @@
+Player: Dominic (HUMAN) deck=DackToCapsFace
+Player: Beeron (AI) deck=Scion
+Player: Conner (AI) deck=Angels
+Player: Cecil (AI) deck=Captain America v7
+Mulligan: Conner has mulliganed down to 7 cards.
+Mulligan: Beeron has mulliganed down to 7 cards.
+Mulligan: Beeron has mulliganed down to 6 cards.
+Mulligan: Conner has kept a hand of 7 cards
+Mulligan: Cecil has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Beeron has kept a hand of 6 cards
+Turn: Turn 1 (Conner)
+Information: BOARD turn 1 (Conner) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Snow-Covered Plains(land); Preston, the Vanisher(4); Seal of Cleansing(2)
+Information: BOARD turn 1 (Conner) | Beeron | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Haven of the Spirit Dragon(land)
+Information: BOARD turn 1 (Conner) | Conner | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Plains(land); Plains(land); Gisela, Blade of Goldnight(7); Plains(land); Plains(land)
+Information: BOARD turn 1 (Conner) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Commander's Plate(1); Sword of Forge and Frontier(3); Plains(land)
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Land: Conner played Plains (293)
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Phase: Conner's Declare Blockers Step
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 2 (Cecil)
+Information: BOARD turn 2 (Cecil) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Snow-Covered Plains(land); Preston, the Vanisher(4); Seal of Cleansing(2)
+Information: BOARD turn 2 (Cecil) | Beeron | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Haven of the Spirit Dragon(land)
+Information: BOARD turn 2 (Cecil) | Conner | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Plains(land); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 2 (Cecil) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Commander's Plate(1); Sword of Forge and Frontier(3); Plains(land)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Plains (386)
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Cecil cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Cecil | open mana: Dominic 0, Beeron 0, Conner 1
+Resolve Stack: Commander's Plate
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 3 (Dominic)
+Information: BOARD turn 3 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Snow-Covered Plains(land); Preston, the Vanisher(4); Seal of Cleansing(2)
+Information: BOARD turn 3 (Dominic) | Beeron | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Haven of the Spirit Dragon(land)
+Information: BOARD turn 3 (Dominic) | Conner | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Plains(land); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 3 (Dominic) | Cecil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Sword of Forge and Frontier(3); Kellan, the Fae-Blooded(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Snow-Covered Plains (85)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 4 (Beeron)
+Information: BOARD turn 4 (Beeron) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3)
+Information: BOARD turn 4 (Beeron) | Beeron | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Haven of the Spirit Dragon(land)
+Information: BOARD turn 4 (Beeron) | Conner | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Plains(land); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 4 (Beeron) | Cecil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Sword of Forge and Frontier(3); Kellan, the Fae-Blooded(3)
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Land: Beeron played Haven of the Spirit Dragon (123)
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 5 (Conner)
+Information: BOARD turn 5 (Conner) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3)
+Information: BOARD turn 5 (Conner) | Beeron | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Mystic Gate(land)
+Information: BOARD turn 5 (Conner) | Conner | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Plains(land); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 5 (Conner) | Cecil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Sword of Forge and Frontier(3); Kellan, the Fae-Blooded(3)
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Land: Conner played Plains (280)
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Phase: Conner's Declare Blockers Step
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 6 (Cecil)
+Information: BOARD turn 6 (Cecil) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3)
+Information: BOARD turn 6 (Cecil) | Beeron | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Mystic Gate(land)
+Information: BOARD turn 6 (Cecil) | Conner | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 6 (Cecil) | Cecil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Mountain(land); Inventors' Fair(land); Sword of Forge and Frontier(3); Kellan, the Fae-Blooded(3)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Mountain (382)
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Mountain (382) - {T}: Add {R}.
+Add To Stack: Cecil cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Cecil | open mana: Dominic 1, Beeron 1, Conner 2
+Resolve Stack: Birthright Boon (366) - Cecil searches their library for an Aura or Equipment card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Adventure
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 7 (Dominic)
+Information: BOARD turn 7 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Snow-Covered Plains(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3)
+Information: BOARD turn 7 (Dominic) | Beeron | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Mystic Gate(land)
+Information: BOARD turn 7 (Dominic) | Conner | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 7 (Dominic) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Inventors' Fair(land); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Snow-Covered Plains (86)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 8 (Beeron)
+Information: BOARD turn 8 (Beeron) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2)
+Information: BOARD turn 8 (Beeron) | Beeron | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Mystic Gate(land)
+Information: BOARD turn 8 (Beeron) | Conner | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 8 (Beeron) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Inventors' Fair(land); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3)
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Land: Beeron played Mystic Gate (118)
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 9 (Conner)
+Information: BOARD turn 9 (Conner) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2)
+Information: BOARD turn 9 (Conner) | Beeron | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Abrade(2)
+Information: BOARD turn 9 (Conner) | Conner | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Righteous Valkyrie(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 9 (Conner) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Inventors' Fair(land); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3)
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Land: Conner played Swamp (251)
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Phase: Conner's Declare Blockers Step
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Swamp (251) - {T}: Add {B}.
+Mana: Plains (280) - {T}: Add {W}.
+Add To Stack: Conner cast Righteous Valkyrie
+Information: BOARD cast | Righteous Valkyrie (mv 3) by Conner | open mana: Dominic 2, Beeron 6, Cecil 0
+Resolve Stack: Righteous Valkyrie - Creature 2 / 4
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 10 (Cecil)
+Information: BOARD turn 10 (Cecil) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2)
+Information: BOARD turn 10 (Cecil) | Beeron | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Abrade(2)
+Information: BOARD turn 10 (Cecil) | Conner | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Righteous Valkyrie 2/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 10 (Cecil) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Akroma's Will(4); Inventors' Fair(land); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Inventors' Fair (306)
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Mana: Mountain (382) - {T}: Add {R}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Inventors' Fair (306) - {T}: Add {C}.
+Add To Stack: Cecil cast Kellan, the Fae-Blooded
+Information: BOARD cast | Kellan, the Fae-Blooded (mv 3) by Cecil | open mana: Dominic 2, Beeron 6, Conner 0
+Resolve Stack: Kellan, the Fae-Blooded - Creature 2 / 2
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 11 (Dominic)
+Information: BOARD turn 11 (Dominic) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Urza's Cave(land); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2)
+Information: BOARD turn 11 (Dominic) | Beeron | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Abrade(2)
+Information: BOARD turn 11 (Dominic) | Conner | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Righteous Valkyrie 2/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 11 (Dominic) | Cecil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: Path to Exile(1); Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3); Kediss, Emberclaw Familiar(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Urza's Cave (42)
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Add To Stack: Dominic cast Expedition Map
+Information: BOARD cast | Expedition Map (mv 1) by Dominic | open mana: Beeron 6, Conner 0, Cecil 0
+Resolve Stack: Expedition Map
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Zone Change: Expedition Map (76) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Expedition Map
+Resolve Stack: Expedition Map (76) - Dominic searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 12 (Beeron)
+Information: BOARD turn 12 (Beeron) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2); Ancient Tomb(land)
+Information: BOARD turn 12 (Beeron) | Beeron | life 40 | hand 6 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Deserted Beach(land); Abrade(2)
+Information: BOARD turn 12 (Beeron) | Conner | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Righteous Valkyrie 2/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 12 (Beeron) | Cecil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: Path to Exile(1); Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3); Kediss, Emberclaw Familiar(2)
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Beeron played Deserted Beach (169)
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Land: Beeron picked {W}
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Mana: Mystic Gate (118) - {T}: Add {C}.
+Add To Stack: Beeron cast Talisman of Progress
+Information: BOARD cast | Talisman of Progress (mv 2) by Beeron | open mana: Dominic 0, Conner 0, Cecil 0
+Resolve Stack: Talisman of Progress
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 13 (Conner)
+Information: BOARD turn 13 (Conner) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2); Ancient Tomb(land)
+Information: BOARD turn 13 (Conner) | Beeron | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Abrade(2)
+Information: BOARD turn 13 (Conner) | Conner | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Righteous Valkyrie 2/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Plains(land); Subjugator Angel(6); Linvala, Keeper of Silence(4)
+Information: BOARD turn 13 (Conner) | Cecil | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: Path to Exile(1); Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3); Kediss, Emberclaw Familiar(2)
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Land: Conner played Plains (284)
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Plains (280) - {T}: Add {W}.
+Mana: Swamp (251) - {T}: Add {B}.
+Mana: Plains (284) - {T}: Add {W}.
+Add To Stack: Conner cast Linvala, Keeper of Silence
+Information: BOARD cast | Linvala, Keeper of Silence (mv 4) by Conner | open mana: Dominic 0, Beeron 4, Cecil 0
+Resolve Stack: Linvala, Keeper of Silence - Creature 3 / 4
+Add To Stack: Conner triggered Righteous Valkyrie
+Life: Life: Conner 40 > 44
+Resolve Stack: Whenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness. [Zone Changer: Linvala, Keeper of Silence (223)]
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Combat: Conner assigned Righteous Valkyrie (205) to attack Cecil.
+Information: BOARD attack | Conner -> Cecil | attackers 1 (power 2) | defender life 40 | untapped creatures 1 (power 2): Kellan, the Fae-Blooded 2/2 | open mana 0
+Phase: Conner's Declare Blockers Step
+Combat: Cecil didn't block Righteous Valkyrie (205).
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Damage: Righteous Valkyrie (205) deals 2 combat damage to Cecil.
+Life: Life: Cecil 40 > 38
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 14 (Cecil)
+Information: BOARD turn 14 (Cecil) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2); Ancient Tomb(land)
+Information: BOARD turn 14 (Cecil) | Beeron | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Abrade(2)
+Information: BOARD turn 14 (Cecil) | Conner | life 44 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Righteous Valkyrie 2/4*; Linvala, Keeper of Silence 3/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Subjugator Angel(6); Herald's Horn(3)
+Information: BOARD turn 14 (Cecil) | Cecil | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: Path to Exile(1); Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Cloudsteel Kirin(3); Kediss, Emberclaw Familiar(2)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Cecil cast Path to Exile targeting [Linvala, Keeper of Silence (223)]
+Information: BOARD cast | Path to Exile (mv 1) by Cecil | open mana: Dominic 0, Beeron 4, Conner 0
+Zone Change: Linvala, Keeper of Silence (223) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (313) - Exile Linvala, Keeper of Silence (223). Conner may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Plains (388)
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Combat: Cecil assigned Kellan, the Fae-Blooded (366) to attack Conner.
+Information: BOARD attack | Cecil -> Conner | attackers 1 (power 2) | defender life 44 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Cecil's Declare Blockers Step
+Combat: Conner didn't block Kellan, the Fae-Blooded (366).
+Phase: Cecil's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 44 > 42
+Phase: Cecil's Combat Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 42 > 40
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Mana: Plains (388) - {T}: Add {W}.
+Mana: Mountain (382) - {T}: Add {R}.
+Mana: Inventors' Fair (306) - {T}: Add {C}.
+Add To Stack: Cecil cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Cecil | open mana: Dominic 0, Beeron 4, Conner 0
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 15 (Dominic)
+Information: BOARD turn 15 (Dominic) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Trinisphere(3); Calamity's Wake(2); Ancient Tomb(land)
+Information: BOARD turn 15 (Dominic) | Beeron | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Abrade(2)
+Information: BOARD turn 15 (Dominic) | Conner | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Righteous Valkyrie 2/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Subjugator Angel(6); Herald's Horn(3)
+Information: BOARD turn 15 (Dominic) | Cecil | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Cloudsteel Kirin 3/2 | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Ancient Tomb (39)
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Add To Stack: Dominic cast Trinisphere
+Information: BOARD cast | Trinisphere (mv 3) by Dominic | open mana: Beeron 4, Conner 0, Cecil 0
+Resolve Stack: Trinisphere
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 16 (Beeron)
+Information: BOARD turn 16 (Beeron) | Dominic | life 40 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1)
+Information: BOARD turn 16 (Beeron) | Beeron | life 40 | hand 5 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Reflecting Pool(land); Abrade(2)
+Information: BOARD turn 16 (Beeron) | Conner | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Righteous Valkyrie 2/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Subjugator Angel(6); Herald's Horn(3)
+Information: BOARD turn 16 (Beeron) | Cecil | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Cloudsteel Kirin 3/2 | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Land: Beeron played Reflecting Pool (198)
+Mana: Reflecting Pool (198) - {T}: Add one mana of any type that a land you control could produce.
+Land: Beeron picked {W}
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Mana: Talisman of Progress (187) - {T}: Add {C}.
+Add To Stack: Beeron cast Abrade
+Information: BOARD cast | Abrade (mv 2) by Beeron | open mana: Dominic 2, Conner 0, Cecil 0
+Damage: Abrade (158) deals 3 damage to Cloudsteel Kirin (361).
+Resolve Stack: Abrade (158) -  Abrade deals 3 damage to target creature. (Targeting: Cloudsteel Kirin (361))
+Zone Change: Cloudsteel Kirin (361) was put into Graveyard from Battlefield.
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 17 (Conner)
+Information: BOARD turn 17 (Conner) | Dominic | life 40 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1)
+Information: BOARD turn 17 (Conner) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Swords to Plowshares(1)
+Information: BOARD turn 17 (Conner) | Conner | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Righteous Valkyrie 2/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Plains(land); Subjugator Angel(6); Herald's Horn(3)
+Information: BOARD turn 17 (Conner) | Cecil | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Kellan, the Fae-Blooded 2/2* | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Land: Conner played Plains (269)
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Swamp (251) - {T}: Add {B}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Plains (280) - {T}: Add {W}.
+Mana: Plains (284) - {T}: Add {W}.
+Add To Stack: Conner cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Conner | open mana: Dominic 2, Beeron 6, Cecil 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Add To Stack: Conner triggered Righteous Valkyrie
+Life: Life: Conner 40 > 44
+Resolve Stack: Whenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness. [Zone Changer: Seluma, Light of Aysen (302)]
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Combat: Conner assigned Righteous Valkyrie (205) to attack Cecil.
+Information: BOARD attack | Conner -> Cecil | attackers 1 (power 2) | defender life 38 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Conner's Declare Blockers Step
+Combat: Cecil didn't block Righteous Valkyrie (205).
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Damage: Righteous Valkyrie (205) deals 2 combat damage to Cecil.
+Life: Life: Cecil 38 > 36
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 18 (Cecil)
+Information: BOARD turn 18 (Cecil) | Dominic | life 40 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1)
+Information: BOARD turn 18 (Cecil) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Swords to Plowshares(1)
+Information: BOARD turn 18 (Cecil) | Conner | life 44 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6); Herald's Horn(3); Emeria, the Sky Ruin(land)
+Information: BOARD turn 18 (Cecil) | Cecil | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Kellan, the Fae-Blooded 2/2* | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Information: BOARD threat | turn 18 | Righteous Valkyrie (Conner) 48
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Adarkar Wastes (400)
+Land: Cecil picked {U}
+Damage: Adarkar Wastes (400) deals 1 non-combat damage to Cecil.
+Life: Life: Cecil 36 > 35
+Mana: Adarkar Wastes (400) - {T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you. 
+Mana: Mountain (382) - {T}: Add {R}.
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Cecil cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Cecil | open mana: Dominic 2, Beeron 6, Conner 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Cecil's Beginning of Combat Step
+Add To Stack: Cecil triggered Captain America, First Avenger targeting [Commander's Plate (359)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (359)]]) [Phase: Cecil]
+Phase: Cecil's Declare Attackers Step
+Combat: Cecil assigned Kellan, the Fae-Blooded (366) to attack Dominic.
+Information: BOARD attack | Cecil -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Cecil's Declare Blockers Step
+Combat: Dominic didn't block Kellan, the Fae-Blooded (366).
+Phase: Cecil's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: Cecil's Combat Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Dominic.
+Life: Life: Dominic 38 > 36
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 19 (Dominic)
+Information: BOARD turn 19 (Dominic) | Dominic | life 36 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Portable Hole(1); Mox Diamond(0); Preston, the Vanisher(4); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1)
+Information: BOARD turn 19 (Dominic) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Swords to Plowshares(1)
+Information: BOARD turn 19 (Dominic) | Conner | life 44 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6); Herald's Horn(3); Emeria, the Sky Ruin(land)
+Information: BOARD turn 19 (Dominic) | Cecil | life 35 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Information: BOARD threat | turn 19 | Righteous Valkyrie (Conner) 46; Kellan, the Fae-Blooded (Cecil) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Damage: Ancient Tomb (39) deals 2 non-combat damage to Dominic.
+Life: Life: Dominic 36 > 34
+Mana: Ancient Tomb (39) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Add To Stack: Dominic cast Preston, the Vanisher
+Information: BOARD cast | Preston, the Vanisher (mv 4) by Dominic | open mana: Beeron 6, Conner 1, Cecil 2
+Resolve Stack: Preston, the Vanisher - Creature 2 / 5
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 20 (Beeron)
+Information: BOARD turn 20 (Beeron) | Dominic | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Cursed Totem(2)
+Information: BOARD turn 20 (Beeron) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Steely Resolve(2); Perennation(6); Swords to Plowshares(1)
+Information: BOARD turn 20 (Beeron) | Conner | life 44 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6); Herald's Horn(3); Emeria, the Sky Ruin(land)
+Information: BOARD turn 20 (Beeron) | Cecil | life 35 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Information: BOARD threat | turn 20 | Righteous Valkyrie (Conner) 44; Kellan, the Fae-Blooded (Cecil) 41
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Mana: Reflecting Pool (198) - {T}: Add one mana of any type that a land you control could produce.
+Land: Beeron picked {W}
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Mana: Talisman of Progress (187) - {T}: Add {C}.
+Add To Stack: Beeron cast Steely Resolve
+Information: BOARD cast | Steely Resolve (mv 2) by Beeron | open mana: Dominic 0, Conner 1, Cecil 2
+Replacement Effect: As Steely Resolve enters, choose a creature type.
+Resolve Stack: Steely Resolve
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 21 (Conner)
+Information: BOARD turn 21 (Conner) | Dominic | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Cursed Totem(2)
+Information: BOARD turn 21 (Conner) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 21 (Conner) | Conner | life 44 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6); Herald's Horn(3); Emeria, the Sky Ruin(land)
+Information: BOARD turn 21 (Conner) | Cecil | life 35 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Information: BOARD threat | turn 21 | Righteous Valkyrie (Conner) 42; Kellan, the Fae-Blooded (Cecil) 39
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Combat: Conner assigned Seluma, Light of Aysen (302) and Righteous Valkyrie (205) to attack Cecil.
+Information: BOARD attack | Conner -> Cecil | attackers 2 (power 6) | defender life 35 | untapped creatures 1 (power 7): Captain America, First Avenger 7/7[Commander's Plate] | open mana 2
+Phase: Conner's Declare Blockers Step
+Combat: Cecil didn't block Seluma, Light of Aysen (302).
+Cecil didn't block Righteous Valkyrie (205).
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Cecil.
+Damage: Righteous Valkyrie (205) deals 2 combat damage to Cecil.
+Life: Life: Cecil 35 > 29
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Replacement Effect: Emeria, the Sky Ruin enters tapped.
+Land: Conner played Emeria, the Sky Ruin (298)
+Mana: Swamp (251) - {T}: Add {B}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Plains (293) - {T}: Add {W}.
+Add To Stack: Conner cast Herald's Horn
+Information: BOARD cast | Herald's Horn (mv 3) by Conner | open mana: Dominic 0, Beeron 6, Cecil 2
+Replacement Effect: As Herald's Horn enters, choose a creature type.
+Resolve Stack: Herald's Horn
+Mana: Plains (280) - {T}: Add {W}.
+Mana: Plains (284) - {T}: Add {W}.
+Mana: Plains (269) - {T}: Add {W}.
+Add To Stack: Conner cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Conner | open mana: Dominic 0, Beeron 6, Cecil 2
+Resolve Stack: Mind Stone
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 22 (Cecil)
+Information: BOARD turn 22 (Cecil) | Dominic | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Cursed Totem(2)
+Information: BOARD turn 22 (Cecil) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 22 (Cecil) | Conner | life 44 | hand 3 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 22 (Cecil) | Cecil | life 29 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Akroma's Will(4); Sword of Forge and Frontier(3); Fighter Class(2); Kediss, Emberclaw Familiar(2)
+Information: BOARD threat | turn 22 | Righteous Valkyrie (Conner) 52; Kellan, the Fae-Blooded (Cecil) 38
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Phase: Cecil's Beginning of Combat Step
+Add To Stack: Cecil triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Cecil]
+Phase: Cecil's Declare Attackers Step
+Combat: Cecil assigned Captain America, First Avenger (403) and Kellan, the Fae-Blooded (366) to attack Conner.
+Information: BOARD attack | Cecil -> Conner | attackers 2 (power 9) | defender life 44 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Cecil's Declare Blockers Step
+Combat: Conner didn't block Captain America, First Avenger (403).
+Conner didn't block Kellan, the Fae-Blooded (366).
+Phase: Cecil's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 44 > 42
+Phase: Cecil's Combat Damage Step
+Damage: Captain America, First Avenger (403) deals 7 combat damage to Conner.
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 42 > 33
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Mana: Mountain (382) - {T}: Add {R}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (388) - {T}: Add {W}.
+Add To Stack: Cecil cast Sword of Forge and Frontier
+Information: BOARD cast | Sword of Forge and Frontier (mv 3) by Cecil | open mana: Dominic 0, Beeron 6, Conner 1
+Resolve Stack: Sword of Forge and Frontier
+Mana: Inventors' Fair (306) - {T}: Add {C}.
+Mana: Adarkar Wastes (400) - {T}: Add {C}.
+Add To Stack: Cecil activated Sword of Forge and Frontier targeting [Captain America, First Avenger (403)]
+Resolve Stack: Sword of Forge and Frontier (338) -  Attach to Captain America, First Avenger (403)
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 23 (Dominic)
+Information: BOARD turn 23 (Dominic) | Dominic | life 34 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Cursed Totem(2)
+Information: BOARD turn 23 (Dominic) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 23 (Dominic) | Conner | life 33 | hand 3 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 23 (Dominic) | Cecil | life 29 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 9/9*[Commander's Plate,Sword of Forge and Frontier] | hand cards: Akroma's Will(4); Fighter Class(2); Kediss, Emberclaw Familiar(2); Arcane Signet(2)
+Information: BOARD threat | turn 23 | Captain America, First Avenger (Cecil) 67; Kellan, the Fae-Blooded (Cecil) 59; Righteous Valkyrie (Conner) 50
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Add To Stack: Dominic cast Cursed Totem
+Information: BOARD cast | Cursed Totem (mv 2) by Dominic | open mana: Beeron 6, Conner 1, Cecil 0
+Resolve Stack: Cursed Totem
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 24 (Beeron)
+Information: BOARD turn 24 (Beeron) | Dominic | life 34 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Voltaic Key(1)
+Information: BOARD turn 24 (Beeron) | Beeron | life 40 | hand 4 | lands 4 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 24 (Beeron) | Conner | life 33 | hand 3 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 24 (Beeron) | Cecil | life 29 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 9/9*[Commander's Plate,Sword of Forge and Frontier] | hand cards: Akroma's Will(4); Fighter Class(2); Kediss, Emberclaw Familiar(2); Arcane Signet(2)
+Information: BOARD threat | turn 24 | Captain America, First Avenger (Cecil) 64; Kellan, the Fae-Blooded (Cecil) 57; Righteous Valkyrie (Conner) 48
+Phase: Beeron's Untap step
+Phase: Beeron's Upkeep step
+Phase: Beeron's Draw step
+Phase: Beeron's Main phase, precombat
+Land: Beeron played Underground River (116)
+Mana: Reflecting Pool (198) - {T}: Add one mana of any type that a land you control could produce.
+Land: Haven of the Spirit Dragon (123) picked {G}
+Mana: Haven of the Spirit Dragon (123) - {T}: Add one mana of any color. Spend this mana only to cast a Dragon creature spell.
+Land: Beeron picked {B}
+Damage: Underground River (116) deals 1 non-combat damage to Beeron.
+Life: Life: Beeron 40 > 39
+Mana: Underground River (116) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Land: Beeron picked {W}
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Land: Beeron picked {U}
+Damage: Talisman of Progress (187) deals 1 non-combat damage to Beeron.
+Life: Life: Beeron 39 > 38
+Mana: Talisman of Progress (187) - {T}: Add {W} or {U}. Talisman of Progress deals 1 damage to you. 
+Add To Stack: Beeron cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Beeron | open mana: Dominic 2, Conner 1, Cecil 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Beeron's Beginning of Combat Step
+Phase: Beeron's Declare Attackers Step
+Phase: Beeron's Declare Blockers Step
+Phase: Beeron's First Strike Damage Step
+Phase: Beeron's Combat Damage Step
+Phase: Beeron's End of Combat Step
+Phase: Beeron's Main phase, postcombat
+Phase: Beeron's End step
+Phase: Beeron's Cleanup step
+Turn: Turn 25 (Conner)
+Information: BOARD turn 25 (Conner) | Dominic | life 34 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Voltaic Key(1)
+Information: BOARD turn 25 (Conner) | Beeron | life 38 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 25 (Conner) | Conner | life 33 | hand 3 | lands 7 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4* | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 25 (Conner) | Cecil | life 29 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 9/9*[Commander's Plate,Sword of Forge and Frontier] | hand cards: Akroma's Will(4); Fighter Class(2); Kediss, Emberclaw Familiar(2); Arcane Signet(2)
+Information: BOARD threat | turn 25 | Captain America, First Avenger (Cecil) 62; Kellan, the Fae-Blooded (Cecil) 55; Righteous Valkyrie (Conner) 46
+Phase: Conner's Untap step
+Phase: Conner's Upkeep step
+Add To Stack: Conner triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Conner]
+Phase: Conner's Draw step
+Phase: Conner's Main phase, precombat
+Mana: Swamp (251) - {T}: Add {B}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Plains (293) - {T}: Add {W}.
+Add To Stack: Conner cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Conner | open mana: Dominic 2, Beeron 5, Cecil 0
+Resolve Stack: Lightning Greaves
+Add To Stack: Conner activated Lightning Greaves targeting [Seluma, Light of Aysen (302)]
+Resolve Stack: Lightning Greaves (296) -  Attach to Seluma, Light of Aysen (302)
+Phase: Conner's Beginning of Combat Step
+Phase: Conner's Declare Attackers Step
+Combat: Conner assigned Seluma, Light of Aysen (302) and Righteous Valkyrie (205) to attack Cecil.
+Information: BOARD attack | Conner -> Cecil | attackers 2 (power 6) | defender life 29 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Conner's Declare Blockers Step
+Combat: Cecil didn't block Seluma, Light of Aysen (302).
+Cecil didn't block Righteous Valkyrie (205).
+Phase: Conner's First Strike Damage Step
+Phase: Conner's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Cecil.
+Damage: Righteous Valkyrie (205) deals 2 combat damage to Cecil.
+Life: Life: Cecil 29 > 23
+Phase: Conner's End of Combat Step
+Phase: Conner's Main phase, postcombat
+Phase: Conner's End step
+Phase: Conner's Cleanup step
+Turn: Turn 26 (Cecil)
+Information: BOARD turn 26 (Cecil) | Dominic | life 34 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Voltaic Key(1)
+Information: BOARD turn 26 (Cecil) | Beeron | life 38 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 26 (Cecil) | Conner | life 33 | hand 3 | lands 7 (4 untapped) | open mana 5 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4*[Lightning Greaves] | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 26 (Cecil) | Cecil | life 23 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 9/9*[Commander's Plate,Sword of Forge and Frontier] | hand cards: Akroma's Will(4); Fighter Class(2); Kediss, Emberclaw Familiar(2); Arcane Signet(2)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Cecil) 59; Righteous Valkyrie (Conner) 56; Kellan, the Fae-Blooded (Cecil) 52; Seluma, Light of Aysen (Conner) 43
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Phase: Cecil's Beginning of Combat Step
+Add To Stack: Cecil triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Cecil]
+Phase: Cecil's Declare Attackers Step
+Combat: Cecil assigned Captain America, First Avenger (403) and Kellan, the Fae-Blooded (366) to attack Conner.
+Information: BOARD attack | Cecil -> Conner | attackers 2 (power 11) | defender life 33 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Cecil's Declare Blockers Step
+Combat: Conner didn't block Captain America, First Avenger (403).
+Conner didn't block Kellan, the Fae-Blooded (366).
+Phase: Cecil's First Strike Damage Step
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 33 > 31
+Phase: Cecil's Combat Damage Step
+Damage: Captain America, First Avenger (403) deals 9 combat damage to Conner.
+Damage: Kellan, the Fae-Blooded (366) deals 2 combat damage to Conner.
+Life: Life: Conner 31 > 20
+Add To Stack: Cecil triggered Sword of Forge and Frontier
+Resolve Stack: Whenever equipped creature deals combat damage to a player, exile the top two cards of your library. You may play those cards this turn. You may play an additional land this turn. [Damage Source: Captain America, First Avenger (403), Damaged: Conner, Amount: 9]
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Mana: Mountain (382) - {T}: Add {R}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (388) - {T}: Add {W}.
+Add To Stack: Cecil cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Cecil | open mana: Dominic 2, Beeron 5, Conner 5
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 27 (Dominic)
+Information: BOARD turn 27 (Dominic) | Dominic | life 34 | hand 6 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Portable Hole(1); Mox Diamond(0); Seal of Cleansing(2); Calamity's Wake(2); Orim's Chant(1); Voltaic Key(1)
+Information: BOARD turn 27 (Dominic) | Beeron | life 38 | hand 4 | lands 5 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Perennation(6); Swords to Plowshares(1); Sol Ring(1)
+Information: BOARD turn 27 (Dominic) | Conner | life 20 | hand 3 | lands 7 (4 untapped) | open mana 5 | commander Battlefield | creatures 2 (0 untapped): Righteous Valkyrie 2/4*; Seluma, Light of Aysen 4/4*[Lightning Greaves] | hand cards: Teferi's Protection(3); Gisela, Blade of Goldnight(7); Subjugator Angel(6)
+Information: BOARD turn 27 (Dominic) | Cecil | life 23 | hand 4 | lands 5 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (1 untapped): Kellan, the Fae-Blooded 2/2*; Captain America, First Avenger 9/9*[Commander's Plate,Sword of Forge and Frontier]; Kediss, Emberclaw Familiar 1/1 | hand cards: Akroma's Will(4); Fighter Class(2); Arcane Signet(2); Basilisk Collar(1)
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Cecil) 123; Kellan, the Fae-Blooded (Cecil) 73; Righteous Valkyrie (Conner) 54; Seluma, Light of Aysen (Conner) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Crystal Vein (1)
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Damage: Ancient Tomb (39) deals 2 non-combat damage to Dominic.
+Life: Life: Dominic 34 > 32
+Mana: Ancient Tomb (39) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Mana: Crystal Vein (1) - {T}: Add {C}.
+Add To Stack: Dominic cast Dack Fayden, Helping Hand
+Information: BOARD cast | Dack Fayden, Helping Hand (mv 6) by Dominic | open mana: Beeron 5, Conner 5, Cecil 4
+Resolve Stack: Dack Fayden, Helping Hand - Creature 4 / 6
+Add To Stack: Dominic triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (100)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Ancient Tomb (39)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Add To Stack: Dominic triggered Fiend Hunter targeting [Captain America, First Avenger (403)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Add To Stack: Dominic triggered Flickerwisp targeting [Lightning Greaves (296)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Flickerwisp (13)]
+Add To Stack: Dominic triggered Flickerwisp targeting [Sword of Forge and Frontier (338)]
+Zone Change: Sword of Forge and Frontier (338) was put into Exile from Battlefield.
+Resolve Stack: When Flickerwisp enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step. (Targeting: [[Sword of Forge and Frontier (338)]]) [Zone Changer: Flickerwisp (413)]
+Zone Change: Lightning Greaves (296) was put into Exile from Battlefield.
+Resolve Stack: When Flickerwisp enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step. (Targeting: [[Lightning Greaves (296)]]) [Zone Changer: Flickerwisp (13)]
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Fiend Hunter (70)]
+Add To Stack: Dominic triggered Fiend Hunter targeting [Felidar Guardian (66)]
+Zone Change: Felidar Guardian (66) was put into Exile from Battlefield.
+Resolve Stack: When Fiend Hunter enters, you may exile another target creature. (Targeting: [[Felidar Guardian (66)]]) [Zone Changer: Fiend Hunter (415)]
+Zone Change: Captain America, First Avenger (403) was put into Exile from Battlefield.
+Resolve Stack: When Fiend Hunter enters, you may exile another target creature. (Targeting: [[Captain America, First Avenger (403)]]) [Zone Changer: Fiend Hunter (70)]
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Fiend Hunter (415)]
+Zone Change: Fiend Hunter (415) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Fiend Hunter (415)]]) [Zone Changer: Felidar Guardian (417)]
+Add To Stack: Dominic triggered Fiend Hunter
+Resolve Stack: When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control. [Zone Changer: Fiend Hunter (415)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Crystal Vein (1)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Felidar Guardian (66)]
+Zone Change: Felidar Guardian (66) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Felidar Guardian (66)]]) [Zone Changer: Felidar Guardian (419)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Urza's Cave (42)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Felidar Guardian (66)]
+Zone Change: Felidar Guardian (66) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Felidar Guardian (66)]]) [Zone Changer: Felidar Guardian (421)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Snow-Covered Plains (86)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Felidar Guardian (66)]
+Zone Change: Felidar Guardian (66) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Felidar Guardian (66)]]) [Zone Changer: Felidar Guardian (423)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Snow-Covered Plains (85)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Felidar Guardian (66)]
+Zone Change: Felidar Guardian (66) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Felidar Guardian (66)]]) [Zone Changer: Felidar Guardian (425)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Trinisphere (55)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Cursed Totem (74)]
+Zone Change: Cursed Totem (74) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Cursed Totem (74)]]) [Zone Changer: Felidar Guardian (427)]
+Zone Change: Trinisphere (55) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Trinisphere (55)]]) [Zone Changer: Felidar Guardian (66)]
+Zone Change: Snow-Covered Plains (85) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Snow-Covered Plains (85)]]) [Zone Changer: Felidar Guardian (66)]
+Zone Change: Snow-Covered Plains (86) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Snow-Covered Plains (86)]]) [Zone Changer: Felidar Guardian (66)]
+Zone Change: Urza's Cave (42) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Urza's Cave (42)]]) [Zone Changer: Felidar Guardian (66)]
+Zone Change: Crystal Vein (1) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Crystal Vein (1)]]) [Zone Changer: Felidar Guardian (66)]
+Zone Change: Ancient Tomb (39) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Ancient Tomb (39)]]) [Zone Changer: Felidar Guardian (66)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Snow-Covered Plains (85) - {T}: Add {W}.
+Mana: Snow-Covered Plains (86) - {T}: Add {W}.
+Mana: Urza's Cave (42) - {T}: Add {C}.
+Add To Stack: Dominic cast Portable Hole
+Information: BOARD cast | Portable Hole (mv 1) by Dominic | open mana: Beeron 5, Conner 5, Cecil 4
+Resolve Stack: Portable Hole
+Add To Stack: Dominic triggered Portable Hole targeting [Steely Resolve (124)]
+Zone Change: Steely Resolve (124) was put into Exile from Battlefield.
+Resolve Stack: When Portable Hole enters, exile target nonland permanent an opponent controls with mana value 2 or less until Portable Hole leaves the battlefield. (Targeting: [[Steely Resolve (124)]]) [Zone Changer: Portable Hole (62)]
+
+Game Result: unfinished (Forge closed mid-game)

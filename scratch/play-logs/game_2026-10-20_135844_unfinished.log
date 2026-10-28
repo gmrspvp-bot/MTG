@@ -1,0 +1,136 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Sharon (AI) deck=Captain America v8
+Player: Kellan Oakenhelm (AI) deck=Mr House v4
+Player: Tibolt (AI) deck=Olivia
+Mulligan: Tibolt has mulliganed down to 7 cards.
+Mulligan: Kellan Oakenhelm has mulliganed down to 7 cards.
+Mulligan: Kellan Oakenhelm has mulliganed down to 6 cards.
+Mulligan: Tibolt has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Sharon has kept a hand of 7 cards
+Mulligan: Kellan Oakenhelm has kept a hand of 6 cards
+Turn: Turn 1 (Tibolt)
+Information: BOARD turn 1 (Tibolt) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 1 (Tibolt) | Sharon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Plains(land)
+Information: BOARD turn 1 (Tibolt) | Kellan Oakenhelm | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2)
+Information: BOARD turn 1 (Tibolt) | Tibolt | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Smoldering Marsh(land); Painful Truths(3)
+Phase: Tibolt's Untap step
+Phase: Tibolt's Upkeep step
+Phase: Tibolt's Draw step
+Phase: Tibolt's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Tibolt played Smoldering Marsh (384)
+Phase: Tibolt's Beginning of Combat Step
+Phase: Tibolt's Declare Attackers Step
+Phase: Tibolt's Declare Blockers Step
+Phase: Tibolt's First Strike Damage Step
+Phase: Tibolt's Combat Damage Step
+Phase: Tibolt's End of Combat Step
+Phase: Tibolt's Main phase, postcombat
+Phase: Tibolt's End step
+Phase: Tibolt's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 2 (Xenil) | Sharon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Plains(land)
+Information: BOARD turn 2 (Xenil) | Kellan Oakenhelm | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2)
+Information: BOARD turn 2 (Xenil) | Tibolt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Painful Truths(3); Shadowblood Ridge(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (83)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 3 (Sharon)
+Information: BOARD turn 3 (Sharon) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Swiftfoot Boots(2); Herald's Horn(3)
+Information: BOARD turn 3 (Sharon) | Sharon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Basilisk Collar(1); Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Plains(land)
+Information: BOARD turn 3 (Sharon) | Kellan Oakenhelm | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2)
+Information: BOARD turn 3 (Sharon) | Tibolt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Painful Truths(3); Shadowblood Ridge(land)
+Phase: Sharon's Untap step
+Phase: Sharon's Upkeep step
+Phase: Sharon's Draw step
+Phase: Sharon's Main phase, precombat
+Land: Sharon played Plains (183)
+Phase: Sharon's Beginning of Combat Step
+Phase: Sharon's Declare Attackers Step
+Phase: Sharon's Declare Blockers Step
+Phase: Sharon's First Strike Damage Step
+Phase: Sharon's Combat Damage Step
+Phase: Sharon's End of Combat Step
+Phase: Sharon's Main phase, postcombat
+Mana: Plains (183) - {T}: Add {W}.
+Add To Stack: Sharon cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Sharon | open mana: Xenil 1, Kellan Oakenhelm 0, Tibolt 0
+Resolve Stack: Basilisk Collar
+Phase: Sharon's End step
+Phase: Sharon's Cleanup step
+Turn: Turn 4 (Kellan Oakenhelm)
+Information: BOARD turn 4 (Kellan Oakenhelm) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Swiftfoot Boots(2); Herald's Horn(3)
+Information: BOARD turn 4 (Kellan Oakenhelm) | Sharon | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 4 (Kellan Oakenhelm) | Kellan Oakenhelm | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2)
+Information: BOARD turn 4 (Kellan Oakenhelm) | Tibolt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Painful Truths(3); Shadowblood Ridge(land)
+Phase: Kellan Oakenhelm's Untap step
+Phase: Kellan Oakenhelm's Upkeep step
+Phase: Kellan Oakenhelm's Draw step
+Phase: Kellan Oakenhelm's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Kellan Oakenhelm played Smoldering Marsh (267)
+Phase: Kellan Oakenhelm's Beginning of Combat Step
+Phase: Kellan Oakenhelm's Declare Attackers Step
+Phase: Kellan Oakenhelm's Declare Blockers Step
+Phase: Kellan Oakenhelm's First Strike Damage Step
+Phase: Kellan Oakenhelm's Combat Damage Step
+Phase: Kellan Oakenhelm's End of Combat Step
+Phase: Kellan Oakenhelm's Main phase, postcombat
+Phase: Kellan Oakenhelm's End step
+Phase: Kellan Oakenhelm's Cleanup step
+Turn: Turn 5 (Tibolt)
+Information: BOARD turn 5 (Tibolt) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Swiftfoot Boots(2); Herald's Horn(3)
+Information: BOARD turn 5 (Tibolt) | Sharon | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 5 (Tibolt) | Kellan Oakenhelm | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2); Blood Crypt(land)
+Information: BOARD turn 5 (Tibolt) | Tibolt | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Painful Truths(3); Shadowblood Ridge(land)
+Phase: Tibolt's Untap step
+Phase: Tibolt's Upkeep step
+Phase: Tibolt's Draw step
+Phase: Tibolt's Main phase, precombat
+Replacement Effect: Temple of Silence enters tapped.
+Land: Tibolt played Temple of Silence (404)
+Add To Stack: Tibolt triggered Temple of Silence
+Resolve Stack: Tibolt scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Silence enters, scry 1. [Zone Changer: Temple of Silence (404)]
+Phase: Tibolt's Beginning of Combat Step
+Phase: Tibolt's Declare Attackers Step
+Phase: Tibolt's Declare Blockers Step
+Phase: Tibolt's First Strike Damage Step
+Phase: Tibolt's Combat Damage Step
+Phase: Tibolt's End of Combat Step
+Phase: Tibolt's Main phase, postcombat
+Phase: Tibolt's End step
+Phase: Tibolt's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Bruna, the Fading Light(7); Breath of Life(4); Wand of Vertebrae(1); Plains(land); Plains(land); Swiftfoot Boots(2); Herald's Horn(3)
+Information: BOARD turn 6 (Xenil) | Sharon | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Adaptive Omnitool(2); Mana Drain(2); Needleverge Pathway(land); Swords to Plowshares(1); Path of Ancestry(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 6 (Xenil) | Kellan Oakenhelm | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Wear // Tear(3); Needleverge Pathway(land); Wyll, Blade of Frontiers(2); Terminate(2); Blood Crypt(land)
+Information: BOARD turn 6 (Xenil) | Tibolt | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Vindicate(3); Opposition Agent(3); Mountain(land); Kellogg, Dangerous Mind(3); Painful Truths(3); Shadowblood Ridge(land); Mahadi, Emporium Master(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

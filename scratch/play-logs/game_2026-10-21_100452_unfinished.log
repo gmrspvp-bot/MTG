@@ -1,0 +1,103 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Olivia (AI) deck=Captain America v8
+Player: Adrian (AI) deck=Scion
+Player: Hyten (AI) deck=Tidus v3
+Mulligan: Adrian has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Olivia has kept a hand of 7 cards
+Mulligan: Adrian has kept a hand of 7 cards
+Mulligan: Hyten has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Archaeomancer's Map(3); Subjugator Angel(6); Plains(land); Linvala, Keeper of Silence(4); Darksteel Angel(9); Knight of the White Orchid(2)
+Information: BOARD turn 1 (Dominic) | Olivia | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Arcane Signet(2); Spectator Seating(land); Adaptive Omnitool(2); Floodfarm Verge(land); Puresteel Paladin(2)
+Information: BOARD turn 1 (Dominic) | Adrian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Reality Ripple(2); Ancient Copper Dragon(6); Arcane Signet(2); Forest(land); Temple of Epiphany(land)
+Information: BOARD turn 1 (Dominic) | Hyten | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Path of Discovery(4); Arcane Signet(2); Hinterland Harbor(land); Luminous Broodmoth(4); Shelinda, Yevon Acolyte(2); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Subjugator Angel (35).
+Turn: Turn 2 (Olivia)
+Information: BOARD turn 2 (Olivia) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Archaeomancer's Map(3); Plains(land); Linvala, Keeper of Silence(4); Darksteel Angel(9); Knight of the White Orchid(2); Giada, Font of Hope(2)
+Information: BOARD turn 2 (Olivia) | Olivia | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Arcane Signet(2); Spectator Seating(land); Adaptive Omnitool(2); Floodfarm Verge(land); Puresteel Paladin(2)
+Information: BOARD turn 2 (Olivia) | Adrian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Reality Ripple(2); Ancient Copper Dragon(6); Arcane Signet(2); Forest(land); Temple of Epiphany(land)
+Information: BOARD turn 2 (Olivia) | Hyten | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Path of Discovery(4); Arcane Signet(2); Hinterland Harbor(land); Luminous Broodmoth(4); Shelinda, Yevon Acolyte(2); Plains(land)
+Phase: Olivia's Untap step
+Phase: Olivia's Upkeep step
+Phase: Olivia's Draw step
+Phase: Olivia's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Olivia played Spectator Seating (178)
+Phase: Olivia's Beginning of Combat Step
+Phase: Olivia's Declare Attackers Step
+Phase: Olivia's Declare Blockers Step
+Phase: Olivia's First Strike Damage Step
+Phase: Olivia's Combat Damage Step
+Phase: Olivia's End of Combat Step
+Phase: Olivia's Main phase, postcombat
+Phase: Olivia's End step
+Phase: Olivia's Cleanup step
+Turn: Turn 3 (Adrian)
+Information: BOARD turn 3 (Adrian) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Archaeomancer's Map(3); Plains(land); Linvala, Keeper of Silence(4); Darksteel Angel(9); Knight of the White Orchid(2); Giada, Font of Hope(2)
+Information: BOARD turn 3 (Adrian) | Olivia | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Arcane Signet(2); Adaptive Omnitool(2); Floodfarm Verge(land); Puresteel Paladin(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 3 (Adrian) | Adrian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Reality Ripple(2); Ancient Copper Dragon(6); Arcane Signet(2); Forest(land); Temple of Epiphany(land)
+Information: BOARD turn 3 (Adrian) | Hyten | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Path of Discovery(4); Arcane Signet(2); Hinterland Harbor(land); Luminous Broodmoth(4); Shelinda, Yevon Acolyte(2); Plains(land)
+Phase: Adrian's Untap step
+Phase: Adrian's Upkeep step
+Phase: Adrian's Draw step
+Phase: Adrian's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Adrian played Temple of Epiphany (250)
+Add To Stack: Adrian triggered Temple of Epiphany
+Resolve Stack: Adrian scried 1 card(s) to the bottom of the library
+Resolve Stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (250)]
+Phase: Adrian's Beginning of Combat Step
+Phase: Adrian's Declare Attackers Step
+Phase: Adrian's Declare Blockers Step
+Phase: Adrian's First Strike Damage Step
+Phase: Adrian's Combat Damage Step
+Phase: Adrian's End of Combat Step
+Phase: Adrian's Main phase, postcombat
+Phase: Adrian's End step
+Phase: Adrian's Cleanup step
+Turn: Turn 4 (Hyten)
+Information: BOARD turn 4 (Hyten) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Archaeomancer's Map(3); Plains(land); Linvala, Keeper of Silence(4); Darksteel Angel(9); Knight of the White Orchid(2); Giada, Font of Hope(2)
+Information: BOARD turn 4 (Hyten) | Olivia | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Arcane Signet(2); Adaptive Omnitool(2); Floodfarm Verge(land); Puresteel Paladin(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 4 (Hyten) | Adrian | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Reality Ripple(2); Ancient Copper Dragon(6); Arcane Signet(2); Forest(land); Desolation of Smaug(4)
+Information: BOARD turn 4 (Hyten) | Hyten | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canopy Vista(land); Path of Discovery(4); Arcane Signet(2); Hinterland Harbor(land); Luminous Broodmoth(4); Shelinda, Yevon Acolyte(2); Plains(land)
+Phase: Hyten's Untap step
+Phase: Hyten's Upkeep step
+Phase: Hyten's Draw step
+Phase: Hyten's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Hyten played Canopy Vista (376)
+Phase: Hyten's Beginning of Combat Step
+Phase: Hyten's Declare Attackers Step
+Phase: Hyten's Declare Blockers Step
+Phase: Hyten's First Strike Damage Step
+Phase: Hyten's Combat Damage Step
+Phase: Hyten's End of Combat Step
+Phase: Hyten's Main phase, postcombat
+Phase: Hyten's End step
+Phase: Hyten's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Archaeomancer's Map(3); Plains(land); Linvala, Keeper of Silence(4); Darksteel Angel(9); Knight of the White Orchid(2); Giada, Font of Hope(2)
+Information: BOARD turn 5 (Dominic) | Olivia | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Arcane Signet(2); Adaptive Omnitool(2); Floodfarm Verge(land); Puresteel Paladin(2); Excalibur, Sword of Eden(12)
+Information: BOARD turn 5 (Dominic) | Adrian | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Reality Ripple(2); Ancient Copper Dragon(6); Arcane Signet(2); Forest(land); Desolation of Smaug(4)
+Information: BOARD turn 5 (Dominic) | Hyten | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Discovery(4); Arcane Signet(2); Hinterland Harbor(land); Luminous Broodmoth(4); Shelinda, Yevon Acolyte(2); Plains(land); Court of Garenbrig(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (88)
+
+Game Result: unfinished (Forge closed mid-game)

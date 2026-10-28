@@ -1,0 +1,1077 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Derand (HUMAN) deck=Captain America v7
+Player: Zrye (AI) deck=Scion
+Player: Kimdar (AI) deck=Tidus v3
+Mulligan: Derand has mulliganed down to 7 cards.
+Mulligan: Derand has kept a hand of 7 cards
+Mulligan: Zrye has kept a hand of 7 cards
+Mulligan: Kimdar has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Derand)
+Information: BOARD turn 1 (Derand) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3)
+Information: BOARD turn 1 (Derand) | Derand | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Seachrome Coast(land); Esper Sentinel(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Plains(land)
+Information: BOARD turn 1 (Derand) | Zrye | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Battlefield Forge(land); Swamp(land); Solemn Simulacrum(4)
+Information: BOARD turn 1 (Derand) | Kimdar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Vineglimmer Snarl(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Derand played Seachrome Coast (199)
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Derand cast Esper Sentinel
+Information: BOARD cast | Esper Sentinel (mv 1) by Derand | open mana: Dominic 0, Zrye 0, Kimdar 0
+Resolve Stack: Esper Sentinel - Creature 1 / 1
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 2 (Zrye)
+Information: BOARD turn 2 (Zrye) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3)
+Information: BOARD turn 2 (Zrye) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Plains(land); Flawless Maneuver(3)
+Information: BOARD turn 2 (Zrye) | Zrye | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Battlefield Forge(land); Swamp(land); Solemn Simulacrum(4)
+Information: BOARD turn 2 (Zrye) | Kimdar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Vineglimmer Snarl(land)
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Land: Zrye played Battlefield Forge (300)
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 3 (Kimdar)
+Information: BOARD turn 3 (Kimdar) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3)
+Information: BOARD turn 3 (Kimdar) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Plains(land); Flawless Maneuver(3)
+Information: BOARD turn 3 (Kimdar) | Zrye | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Swamp(land); Solemn Simulacrum(4); Perennation(6)
+Information: BOARD turn 3 (Kimdar) | Kimdar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Vineglimmer Snarl(land)
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Replacement Effect: As Vineglimmer Snarl enters, you may reveal a Forest or Island card from your hand. If you don't, Vineglimmer Snarl enters tapped.
+Land: Kimdar played Vineglimmer Snarl (325)
+Phase: Kimdar's Beginning of Combat Step
+Phase: Kimdar's Declare Attackers Step
+Phase: Kimdar's Declare Blockers Step
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Phase: Kimdar's End step
+Phase: Kimdar's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3)
+Information: BOARD turn 4 (Dominic) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Plains(land); Flawless Maneuver(3)
+Information: BOARD turn 4 (Dominic) | Zrye | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Swamp(land); Solemn Simulacrum(4); Perennation(6)
+Information: BOARD turn 4 (Dominic) | Kimdar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Gyre Sage(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (77)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (Derand)
+Information: BOARD turn 5 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 5 (Derand) | Derand | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Plains(land); Flawless Maneuver(3)
+Information: BOARD turn 5 (Derand) | Zrye | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Swamp(land); Solemn Simulacrum(4); Perennation(6)
+Information: BOARD turn 5 (Derand) | Kimdar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Gyre Sage(2)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (183)
+Mana: Plains (183) - {T}: Add {W}.
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Derand cast Captain America's Shield
+Information: BOARD cast | Captain America's Shield (mv 2) by Derand | open mana: Dominic 1, Zrye 3, Kimdar 3
+Resolve Stack: Captain America's Shield
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 6 (Zrye)
+Information: BOARD turn 6 (Zrye) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 6 (Zrye) | Derand | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Flawless Maneuver(3)
+Information: BOARD turn 6 (Zrye) | Zrye | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Swamp(land); Solemn Simulacrum(4); Perennation(6)
+Information: BOARD turn 6 (Zrye) | Kimdar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Gyre Sage(2)
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Land: Zrye played Swamp (262)
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 7 (Kimdar)
+Information: BOARD turn 7 (Kimdar) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 7 (Kimdar) | Derand | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Flawless Maneuver(3)
+Information: BOARD turn 7 (Kimdar) | Zrye | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 7 (Kimdar) | Kimdar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Gyre Sage(2)
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Land: Kimdar played Forest (342)
+Phase: Kimdar's Beginning of Combat Step
+Phase: Kimdar's Declare Attackers Step
+Phase: Kimdar's Declare Blockers Step
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Mana: Forest (342) - {T}: Add {G}.
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Add To Stack: Kimdar cast Gyre Sage
+Information: BOARD cast | Gyre Sage (mv 2) by Kimdar | open mana: Dominic 1, Derand 0, Zrye 4
+Resolve Stack: Gyre Sage - Creature 1 / 2
+Phase: Kimdar's End step
+Phase: Kimdar's Cleanup step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 8 (Dominic) | Derand | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Flawless Maneuver(3)
+Information: BOARD turn 8 (Dominic) | Zrye | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 8 (Dominic) | Kimdar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Hinterland Harbor(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (88)
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Add To Stack: Dominic cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Dominic | open mana: Derand 0, Zrye 4, Kimdar 0
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Fellwar Stone (59), Activator: Dominic, SpellAbility: Fellwar Stone]
+Resolve Stack: Fellwar Stone
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 9 (Derand)
+Information: BOARD turn 9 (Derand) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 9 (Derand) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: Swords to Plowshares(1); Commander's Plate(1); Danitha Capashen, Paragon(3); Flawless Maneuver(3); Port Town(land)
+Information: BOARD turn 9 (Derand) | Zrye | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 9 (Derand) | Kimdar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Hinterland Harbor(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Derand played Spectator Seating (179)
+Mana: Plains (183) - {T}: Add {W}.
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Derand picked {W}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Add To Stack: Derand cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Derand | open mana: Dominic 1, Zrye 4, Kimdar 0
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Add To Stack: Derand cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Derand | open mana: Dominic 1, Zrye 4, Kimdar 0
+Resolve Stack: Commander's Plate
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 10 (Zrye)
+Information: BOARD turn 10 (Zrye) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 10 (Zrye) | Derand | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land)
+Information: BOARD turn 10 (Zrye) | Zrye | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 10 (Zrye) | Kimdar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Hinterland Harbor(land)
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Land: Zrye played Fetid Heath (213)
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 11 (Kimdar)
+Information: BOARD turn 11 (Kimdar) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 11 (Kimdar) | Derand | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land)
+Information: BOARD turn 11 (Kimdar) | Zrye | life 40 | hand 7 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 11 (Kimdar) | Kimdar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Court of Garenbrig(3); Hinterland Harbor(land)
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Replacement Effect: Hinterland Harbor enters tapped unless you control a Forest or an Island.
+Land: Kimdar played Hinterland Harbor (327)
+Phase: Kimdar's Beginning of Combat Step
+Phase: Kimdar's Declare Attackers Step
+Phase: Kimdar's Declare Blockers Step
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Mana: Forest (342) - {T}: Add {G}.
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Add To Stack: Kimdar cast Court of Garenbrig
+Information: BOARD cast | Court of Garenbrig (mv 3) by Kimdar | open mana: Dominic 1, Derand 0, Zrye 9
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Court of Garenbrig (401), Activator: Kimdar, SpellAbility: Court of Garenbrig]
+Resolve Stack: Court of Garenbrig
+Add To Stack: Kimdar triggered Court of Garenbrig
+Resolve Stack: When Court of Garenbrig enters, you become the monarch. [Zone Changer: Court of Garenbrig (401)]
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 12 (Dominic) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2)
+Information: BOARD turn 12 (Dominic) | Zrye | life 40 | hand 7 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 12 (Dominic) | Kimdar | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Sol Ring(1); Canopy Vista(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (91)
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Fellwar Stone (59) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Dominic cast Resplendent Angel
+Information: BOARD cast | Resplendent Angel (mv 3) by Dominic | open mana: Derand 0, Zrye 9, Kimdar 0
+Resolve Stack: Resplendent Angel - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 13 (Derand)
+Information: BOARD turn 13 (Derand) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Swords to Plowshares(1)
+Information: BOARD turn 13 (Derand) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2)
+Information: BOARD turn 13 (Derand) | Zrye | life 40 | hand 7 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 13 (Derand) | Kimdar | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Sol Ring(1); Canopy Vista(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played City of Brass (146)
+Land: Derand picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Derand picked {R}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Mana: Plains (183) - {T}: Add {W}.
+Add To Stack: Derand cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Derand | open mana: Dominic 1, Zrye 9, Kimdar 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Commander's Plate (157)]
+Mana: Plains (91) - {T}: Add {W}.
+Add To Stack: Dominic cast Swords to Plowshares targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Dominic | open mana: Derand 1, Zrye 9, Kimdar 0
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Swords to Plowshares (64), Activator: Dominic, SpellAbility: Exile target creature. Its controller gains life equal to its power.]
+Zone Change: Captain America, First Avenger (201) was put into Exile from Battlefield.
+Life: Life: Derand 40 > 44
+Resolve Stack: Swords to Plowshares (64) - Exile Captain America, First Avenger (201). Derand gains life equal to its power.
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (157)]]) [Phase: Derand]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 14 (Zrye)
+Information: BOARD turn 14 (Zrye) | Dominic | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 14 (Zrye) | Derand | life 44 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5)
+Information: BOARD turn 14 (Zrye) | Zrye | life 40 | hand 7 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Reconnaissance(1); Reflecting Pool(land); Ancient Gold Dragon(7); Solemn Simulacrum(4); Perennation(6); Scorned Villager(2)
+Information: BOARD turn 14 (Zrye) | Kimdar | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Sol Ring(1); Canopy Vista(land)
+Information: BOARD threat | turn 14 | Esper Sentinel (Derand) 39
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Land: Zrye played Reflecting Pool (298)
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Zrye cast Solemn Simulacrum
+Information: BOARD cast | Solemn Simulacrum (mv 4) by Zrye | open mana: Dominic 0, Derand 1, Kimdar 0
+Resolve Stack: Solemn Simulacrum - Creature 2 / 2
+Add To Stack: Zrye triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (241)]
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 15 (Kimdar)
+Information: BOARD turn 15 (Kimdar) | Dominic | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 15 (Kimdar) | Derand | life 44 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5)
+Information: BOARD turn 15 (Kimdar) | Zrye | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3)
+Information: BOARD turn 15 (Kimdar) | Kimdar | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Gyre Sage 1/2 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Sol Ring(1); Canopy Vista(land)
+Information: BOARD threat | turn 15 | Esper Sentinel (Derand) 38
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Add To Stack: Kimdar triggered Court of Garenbrig targeting [Gyre Sage (312)]
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Gyre Sage (312)]]) [Phase: Kimdar]
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Phase: Kimdar's Beginning of Combat Step
+Phase: Kimdar's Declare Attackers Step
+Combat: Kimdar assigned Gyre Sage (312) to attack Derand.
+Information: BOARD attack | Kimdar -> Derand | attackers 1 (power 5) | defender life 44 | untapped creatures 2 (power 3): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | open mana 1
+Phase: Kimdar's Declare Blockers Step
+Combat: Derand didn't block Gyre Sage (312).
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Damage: Gyre Sage (312) deals 5 combat damage to Derand.
+Life: Life: Derand 44 > 39
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Land: Kimdar played Plains (396)
+Mana: Plains (396) - {T}: Add {W}.
+Land: Kimdar picked {U}
+Land: Kimdar picked {U}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Mana: Forest (342) - {T}: Add {G}.
+Add To Stack: Kimdar cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Kimdar | open mana: Dominic 0, Derand 1, Zrye 0
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Add To Stack: Kimdar cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Kimdar | open mana: Dominic 0, Derand 1, Zrye 0
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Sol Ring (365), Activator: Kimdar, SpellAbility: Sol Ring]
+Resolve Stack: Sol Ring
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Dominic | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Akroma's Will(4); Island(land); Sevinne's Reclamation(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 16 (Dominic) | Derand | life 39 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3)
+Information: BOARD turn 16 (Dominic) | Zrye | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3)
+Information: BOARD turn 16 (Dominic) | Kimdar | life 40 | hand 6 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Gyre Sage 5/6*; Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Canopy Vista(land); Summon: Valefor(5)
+Information: BOARD threat | turn 16 | Esper Sentinel (Derand) 51
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: devDominic's Main phase, precombat
+Land: Dominic played Island (30)
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Fellwar Stone (59) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (91) - {T}: Add {W}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Derand 1, Zrye 0, Kimdar 2
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 17 (Derand)
+Information: BOARD turn 17 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Emeria, the Sky Ruin(land); Akroma's Will(4)
+Information: BOARD turn 17 (Derand) | Derand | life 39 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Port Town(land); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3)
+Information: BOARD turn 17 (Derand) | Zrye | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3)
+Information: BOARD turn 17 (Derand) | Kimdar | life 40 | hand 6 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Gyre Sage 5/6*; Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Canopy Vista(land); Summon: Valefor(5)
+Information: BOARD threat | turn 17 | Esper Sentinel (Derand) 49
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Derand played Port Town (181)
+Mana: Plains (183) - {T}: Add {W}.
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Derand cast Spectacular Spider-Man
+Information: BOARD cast | Spectacular Spider-Man (mv 2) by Derand | open mana: Dominic 0, Zrye 0, Kimdar 2
+Resolve Stack: Spectacular Spider-Man - Creature 3 / 2
+Land: Derand picked {W}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Land: City of Brass (146) picked {W}
+Mana: City of Brass (146) - {T}: Add one mana of any color.
+Add To Stack: Derand activated Captain America's Shield targeting [Danitha Capashen, Paragon (200)]
+Add To Stack: Derand triggered City of Brass
+Damage: City of Brass (146) deals 1 non-combat damage to Derand.
+Life: Life: Derand 39 > 38
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (146)]
+Resolve Stack: Captain America's Shield (197) -  Attach to Danitha Capashen, Paragon (200)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 18 (Zrye)
+Information: BOARD turn 18 (Zrye) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Emeria, the Sky Ruin(land); Akroma's Will(4)
+Information: BOARD turn 18 (Zrye) | Derand | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/10[Captain America's Shield]; Spectacular Spider-Man 3/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3)
+Information: BOARD turn 18 (Zrye) | Zrye | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3)
+Information: BOARD turn 18 (Zrye) | Kimdar | life 40 | hand 6 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Gyre Sage 5/6*; Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Canopy Vista(land); Summon: Valefor(5)
+Information: BOARD threat | turn 18 | Esper Sentinel (Derand) 47
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Mana: Swamp (262) - {T}: Add {B}.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Add To Stack: Zrye cast Immersturm Predator
+Information: BOARD cast | Immersturm Predator (mv 4) by Zrye | open mana: Dominic 0, Derand 0, Kimdar 2
+Resolve Stack: Immersturm Predator - Creature 3 / 3
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 19 (Kimdar)
+Information: BOARD turn 19 (Kimdar) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Emeria, the Sky Ruin(land); Akroma's Will(4)
+Information: BOARD turn 19 (Kimdar) | Derand | life 38 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/10[Captain America's Shield]; Spectacular Spider-Man 3/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3)
+Information: BOARD turn 19 (Kimdar) | Zrye | life 40 | hand 6 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Solemn Simulacrum 2/2; Immersturm Predator 3/3 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3)
+Information: BOARD turn 19 (Kimdar) | Kimdar | life 40 | hand 6 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Gyre Sage 5/6*; Tidus, Yuna's Guardian 3/3 | hand cards: Endless Detour(3); Innkeeper's Talent(2); Forest(land); Yuna, Grand Summoner(4); Canopy Vista(land); Summon: Valefor(5)
+Information: BOARD threat | turn 19 | Esper Sentinel (Derand) 45
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Add To Stack: Kimdar triggered Court of Garenbrig targeting [Gyre Sage (312), Tidus, Yuna's Guardian (403)]
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Gyre Sage (312), Tidus, Yuna's Guardian (403)]]) [Phase: Kimdar]
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Phase: Kimdar's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Kimdar's Declare Attackers Step
+Combat: Kimdar assigned Gyre Sage (312) and Tidus, Yuna's Guardian (403) to attack Dominic.
+Information: BOARD attack | Kimdar -> Dominic | attackers 2 (power 16) | defender life 40 | untapped creatures 2 (power 7): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | open mana 0
+Phase: Kimdar's Declare Blockers Step
+Combat: Dominic didn't block Gyre Sage (312).
+Dominic didn't block Tidus, Yuna's Guardian (403).
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Damage: Gyre Sage (312) deals 11 combat damage to Dominic.
+Damage: Tidus, Yuna's Guardian (403) deals 5 combat damage to Dominic.
+Life: Life: Dominic 40 > 24
+Add To Stack: Kimdar triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Dominic, Amount: 16]
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Kimdar played Canopy Vista (376)
+Land: Kimdar picked {U}
+Land: Kimdar picked {U}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Mana: Sol Ring (365) - {T}: Add {C}{C}.
+Mana: Forest (342) - {T}: Add {G}.
+Mana: Plains (396) - {T}: Add {W}.
+Add To Stack: Kimdar cast Summon: Valefor
+Information: BOARD cast | Summon: Valefor (mv 5) by Kimdar | open mana: Dominic 0, Derand 0, Zrye 3
+Replacement Effect: Summon: Valefor enters with a lore counter on it.
+Resolve Stack: Summon: Valefor - Creature 5 / 4
+Add To Stack: Kimdar triggered Summon: Valefor
+Resolve Stack: I — Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands. [Added once: Summon: Valefor (324)]
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (376) - {T}: Add {G}.
+Add To Stack: Kimdar cast Innkeeper's Talent
+Information: BOARD cast | Innkeeper's Talent (mv 2) by Kimdar | open mana: Dominic 0, Derand 0, Zrye 3
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Innkeeper's Talent (347), Activator: Kimdar, SpellAbility: Innkeeper's Talent]
+Resolve Stack: Innkeeper's Talent
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 24 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Elsewhere | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Emeria, the Sky Ruin(land); Akroma's Will(4); Seluma, Light of Aysen(5)
+Information: BOARD turn 20 (Dominic) | Derand | life 38 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Spectacular Spider-Man 3/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Island(land)
+Information: BOARD turn 20 (Dominic) | Zrye | life 40 | hand 7 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4)
+Information: BOARD turn 20 (Dominic) | Kimdar | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Gyre Sage 11/12*; Tidus, Yuna's Guardian 5/5*; Summon: Valefor 5/4 | hand cards: Endless Detour(3); Forest(land); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 20 | Gyre Sage (Kimdar) 88; Esper Sentinel (Derand) 57; Tidus, Yuna's Guardian (Kimdar) 43; Court of Garenbrig (Kimdar) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Emeria, the Sky Ruin enters tapped.
+Land: Dominic played Emeria, the Sky Ruin (96)
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Fellwar Stone (59) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Derand 0, Zrye 3, Kimdar 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 21 (Derand)
+Information: BOARD turn 21 (Derand) | Dominic | life 24 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 21 (Derand) | Derand | life 38 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Spectacular Spider-Man 3/2 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Island(land)
+Information: BOARD turn 21 (Derand) | Zrye | life 40 | hand 7 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4)
+Information: BOARD turn 21 (Derand) | Kimdar | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Gyre Sage 11/12*; Tidus, Yuna's Guardian 5/5*; Summon: Valefor 5/4 | hand cards: Endless Detour(3); Forest(land); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 21 | Gyre Sage (Kimdar) 84; Esper Sentinel (Derand) 55; Tidus, Yuna's Guardian (Kimdar) 41; Court of Garenbrig (Kimdar) 36
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (130)
+Land: Derand picked {R}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Mana: Plains (183) - {T}: Add {W}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Land: Derand picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Derand cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Derand | open mana: Dominic 0, Zrye 3, Kimdar 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Commander's Plate (157)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Commander's Plate (157)]]) [Phase: Derand]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 22 (Zrye)
+Information: BOARD turn 22 (Zrye) | Dominic | life 24 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Resplendent Angel 3/3; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 22 (Zrye) | Derand | life 38 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Esper Sentinel 1/1; Spectacular Spider-Man 3/2; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Inspiring Vantage(land)
+Information: BOARD turn 22 (Zrye) | Zrye | life 40 | hand 7 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Supreme Verdict(4); Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4)
+Information: BOARD turn 22 (Zrye) | Kimdar | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Gyre Sage 11/12*; Tidus, Yuna's Guardian 5/5*; Summon: Valefor 5/4 | hand cards: Endless Detour(3); Forest(land); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 22 | Gyre Sage (Kimdar) 81; Esper Sentinel (Derand) 53; Tidus, Yuna's Guardian (Kimdar) 40; Court of Garenbrig (Kimdar) 34
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Replacement Effect: Dreamroot Cascade enters tapped unless you control two or more other lands.
+Land: Zrye played Dreamroot Cascade (269)
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Plains (296) - {T}: Add {W}.
+Land: Zrye picked {W}
+Land: Zrye picked {W}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Zrye.
+Life: Life: Zrye 40 > 39
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Mana: Swamp (262) - {T}: Add {B}.
+Add To Stack: Zrye cast Supreme Verdict
+Information: BOARD cast | Supreme Verdict (mv 4) by Zrye | open mana: Dominic 0, Derand 1, Kimdar 0
+Add To Stack: Derand triggered Esper Sentinel
+Land: City of Brass (146) picked {W}
+Mana: City of Brass (146) - {T}: Add one mana of any color.
+Add To Stack: Derand triggered City of Brass
+Zone Change: Spectacular Spider-Man (140) was put into Graveyard from Battlefield.
+Add To Stack: Derand activated Spectacular Spider-Man
+Resolve Stack: Spectacular Spider-Man (140) - Creatures you control gain hexproof and indestructible until end of turn.
+Damage: City of Brass (146) deals 1 non-combat damage to Derand.
+Life: Life: Derand 38 > 37
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (146)]
+Land: Zrye picked {G}
+Land: Zrye picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Supreme Verdict (261), Activator: Zrye, SpellAbility: Destroy all creatures.]
+Zone Change: Solemn Simulacrum (241) was put into Graveyard from Battlefield.
+Zone Change: Gyre Sage (312) was put into Graveyard from Battlefield.
+Zone Change: Tidus, Yuna's Guardian (403) was put into Graveyard from Battlefield.
+Zone Change: Summon: Valefor (324) was put into Graveyard from Battlefield.
+Zone Change: Resplendent Angel (2) was put into Graveyard from Battlefield.
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Resolve Stack: Supreme Verdict (261) - Destroy all creatures.
+Add To Stack: Zrye triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (241)]
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Turn: Turn 23 (Kimdar)
+Information: BOARD turn 23 (Kimdar) | Dominic | life 24 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 23 (Kimdar) | Derand | life 37 | hand 7 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Esper Sentinel 1/1; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Inspiring Vantage(land)
+Information: BOARD turn 23 (Kimdar) | Zrye | life 39 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 23 (Kimdar) | Kimdar | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Forest(land); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2)
+Information: BOARD threat | turn 23 | Esper Sentinel (Derand) 65; Court of Garenbrig (Kimdar) 33
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Add To Stack: Kimdar triggered Court of Garenbrig targeting []
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[]]) [Phase: Kimdar]
+Phase: Kimdar's Draw step
+Phase: Kimdar's Main phase, precombat
+Land: Kimdar played Forest (340)
+Mana: Forest (342) - {T}: Add {G}.
+Add To Stack: Kimdar activated Innkeeper's Talent
+Resolve Stack: Innkeeper's Talent (347) - Level 2
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Sol Ring (365) - {T}: Add {C}{C}.
+Mana: Plains (396) - {T}: Add {W}.
+Add To Stack: Kimdar activated Innkeeper's Talent
+Resolve Stack: Innkeeper's Talent (347) - Level 3
+Phase: Kimdar's Beginning of Combat Step
+Phase: Kimdar's Declare Attackers Step
+Phase: Kimdar's Declare Blockers Step
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Land: Kimdar picked {U}
+Land: Kimdar picked {U}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (376) - {T}: Add {G}.
+Add To Stack: Kimdar cast Chasm Skulker
+Information: BOARD cast | Chasm Skulker (mv 3) by Kimdar | open mana: Dominic 0, Derand 0, Zrye 5
+Resolve Stack: Chasm Skulker - Creature 1 / 1
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Add To Stack: Kimdar triggered Chasm Skulker
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 24 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Sephara, Sky's Blade(7); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 24 (Dominic) | Derand | life 37 | hand 7 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Esper Sentinel 1/1; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Inspiring Vantage(land)
+Information: BOARD turn 24 (Dominic) | Zrye | life 39 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 24 (Dominic) | Kimdar | life 40 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Chasm Skulker 3/3 | hand cards: Endless Detour(3); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2)
+Information: BOARD threat | turn 24 | Esper Sentinel (Derand) 63; Court of Garenbrig (Kimdar) 46
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (85)
+Mana: Island (30) - {T}: Add {U}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Fellwar Stone (59) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Emeria, the Sky Ruin (96) - {T}: Add {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Add To Stack: Dominic cast Sephara, Sky's Blade
+Information: BOARD cast | Sephara, Sky's Blade (mv 7) by Dominic | open mana: Derand 0, Zrye 5, Kimdar 0
+Resolve Stack: Sephara, Sky's Blade - Creature 7 / 7
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 25 (Derand)
+Information: BOARD turn 25 (Derand) | Dominic | life 24 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sephara, Sky's Blade 7/7 | hand cards: Sevinne's Reclamation(3); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 25 (Derand) | Derand | life 37 | hand 7 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Esper Sentinel 1/1; Captain America, First Avenger 7/7[Commander's Plate] | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Kediss, Emberclaw Familiar(2); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Inspiring Vantage(land)
+Information: BOARD turn 25 (Derand) | Zrye | life 39 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 25 (Derand) | Kimdar | life 40 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Chasm Skulker 3/3 | hand cards: Endless Detour(3); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2)
+Information: BOARD threat | turn 25 | Esper Sentinel (Derand) 60; Court of Garenbrig (Kimdar) 44
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand picked {R}
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Mana: Island (130) - {T}: Add {U}.
+Add To Stack: Derand cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Derand | open mana: Dominic 0, Zrye 5, Kimdar 0
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Mana: Plains (183) - {T}: Add {W}.
+Add To Stack: Derand cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Derand | open mana: Dominic 0, Zrye 5, Kimdar 0
+Resolve Stack: Steelshaper's Gift (149) - Derand searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Land: Derand picked {W}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Add To Stack: Derand cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Derand | open mana: Dominic 0, Zrye 5, Kimdar 0
+Resolve Stack: Colossus Hammer
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Colossus Hammer (141)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (141)]]) [Phase: Derand]
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Captain America, First Avenger (201) to attack Zrye.
+Information: BOARD attack | Derand -> Zrye | attackers 1 (power 17) | defender life 39 | untapped creatures 0 (power 0):  | open mana 5
+Phase: Derand's Declare Blockers Step
+Combat: Zrye didn't block Captain America, First Avenger (201).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 17 combat damage to Zrye.
+Life: Life: Zrye 39 > 22
+Add To Stack: Derand triggered Kediss, Emberclaw Familiar
+Damage: Captain America, First Avenger (201) deals 17 non-combat damage to Kimdar.
+Damage: Captain America, First Avenger (201) deals 17 non-combat damage to Dominic.
+Life: Life: Dominic 24 > 7
+Life: Life: Kimdar 40 > 23
+Resolve Stack: Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent. [Damage Source: Captain America, First Avenger (201), Damaged: Zrye, Amount: 17]
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Replacement Effect: Inspiring Vantage enters tapped unless you control two or fewer other lands.
+Land: Derand played Inspiring Vantage (155)
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 26 (Zrye)
+Information: BOARD turn 26 (Zrye) | Dominic | life 7 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sephara, Sky's Blade 7/7 | hand cards: Sevinne's Reclamation(3); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 26 (Zrye) | Derand | life 37 | hand 5 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Esper Sentinel 1/1; Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3)
+Information: BOARD turn 26 (Zrye) | Zrye | life 22 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 26 (Zrye) | Kimdar | life 23 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Chasm Skulker 3/3 | hand cards: Endless Detour(3); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2)
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Derand) 288; Esper Sentinel (Derand) 58; Court of Garenbrig (Kimdar) 42
+Phase: Zrye's Untap step
+Phase: Zrye's Upkeep step
+Phase: Zrye's Draw step
+Phase: Zrye's Main phase, precombat
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Swamp (262) - {T}: Add {B}.
+Land: Zrye picked {R}
+Land: Zrye picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Zrye.
+Life: Life: Zrye 22 > 21
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Mana: Plains (296) - {T}: Add {W}.
+Land: Zrye picked {G}
+Land: Zrye picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Add To Stack: Zrye cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Zrye | open mana: Dominic 0, Derand 4, Kimdar 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Zrye's Beginning of Combat Step
+Phase: Zrye's Declare Attackers Step
+Phase: Zrye's Declare Blockers Step
+Phase: Zrye's First Strike Damage Step
+Phase: Zrye's Combat Damage Step
+Phase: Zrye's End of Combat Step
+Phase: Zrye's Main phase, postcombat
+Phase: Zrye's End step
+Phase: Zrye's Cleanup step
+Discard: Zrye discards The Ur-Dragon (214).
+Turn: Turn 27 (Kimdar)
+Information: BOARD turn 27 (Kimdar) | Dominic | life 7 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sephara, Sky's Blade 7/7 | hand cards: Sevinne's Reclamation(3); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 27 (Kimdar) | Derand | life 37 | hand 5 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Esper Sentinel 1/1; Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3)
+Information: BOARD turn 27 (Kimdar) | Zrye | life 21 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 27 (Kimdar) | Kimdar | life 23 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Chasm Skulker 3/3 | hand cards: Endless Detour(3); Yuna, Grand Summoner(4); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2)
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Derand) 276; Esper Sentinel (Derand) 55; Court of Garenbrig (Kimdar) 41
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Add To Stack: Kimdar triggered Court of Garenbrig targeting [Chasm Skulker (353)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Chasm Skulker (353)]]) [Phase: Kimdar]
+Phase: Kimdar's Draw step
+Add To Stack: Kimdar triggered Chasm Skulker
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Kimdar]
+Mana: Forest (342) - {T}: Add {G}.
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Sol Ring (365) - {T}: Add {C}{C}.
+Add To Stack: Kimdar cast Yuna's Whistle
+Information: BOARD cast | Yuna's Whistle (mv 3) by Kimdar | open mana: Dominic 0, Derand 4, Zrye 5
+Add To Stack: Derand triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Yuna's Whistle (329), Activator: Kimdar, SpellAbility: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order. When you reveal a creature card this way, put X +1/+1 counters on target creature you control, where X is the mana value of that card.]
+Resolve Stack: Yuna's Whistle (329) - Kimdar reveals cards from the top of their library until they reveal a creature card. Kimdar puts that card into their hand and the rest on the bottom of their library in a random order. When Kimdar reveals a creature card this way, they put X +1/+1 counters on target creature they control, where X is the mana value of that card.
+Add To Stack: Kimdar triggered Yuna's Whistle targeting [Chasm Skulker (353)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: When you reveal a creature card this way, put X +1/+1 counters on target creature you control, where X is the mana value of that card. (Targeting: [[Chasm Skulker (353)]])
+Phase: Kimdar's Main phase, precombat
+Phase: Kimdar's Beginning of Combat Step
+Add To Stack: Kimdar triggered Innkeeper's Talent targeting [Chasm Skulker (353)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. (Targeting: [[Chasm Skulker (353)]]) [Phase: Kimdar]
+Phase: Kimdar's Declare Attackers Step
+Combat: Kimdar assigned Chasm Skulker (353) to attack Derand.
+Information: BOARD attack | Kimdar -> Derand | attackers 1 (power 29) | defender life 37 | untapped creatures 2 (power 2): Esper Sentinel 1/1; Kediss, Emberclaw Familiar 1/1 | open mana 4
+Phase: Kimdar's Declare Blockers Step
+Combat: Derand assigned Esper Sentinel (172) to block Chasm Skulker (353).
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Damage: Chasm Skulker (353) deals 29 damage to Esper Sentinel (172).
+Damage: Esper Sentinel (172) deals 1 damage to Chasm Skulker (353).
+Zone Change: Esper Sentinel (172) was put into Graveyard from Battlefield.
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Mana: Plains (396) - {T}: Add {W}.
+Land: Kimdar picked {U}
+Land: Kimdar picked {U}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Land: Kimdar picked {G}
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (376) - {T}: Add {G}.
+Add To Stack: Kimdar cast Yuna, Grand Summoner
+Information: BOARD cast | Yuna, Grand Summoner (mv 4) by Kimdar | open mana: Dominic 0, Derand 4, Zrye 5
+Resolve Stack: Yuna, Grand Summoner - Creature 1 / 5
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Add To Stack: Kimdar triggered Chasm Skulker
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 7 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sephara, Sky's Blade 7/7 | hand cards: Sevinne's Reclamation(3); Akroma's Will(4); Angel of Finality(4)
+Information: BOARD turn 28 (Dominic) | Derand | life 37 | hand 5 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3)
+Information: BOARD turn 28 (Dominic) | Zrye | life 21 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 28 (Dominic) | Kimdar | life 23 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Chasm Skulker 31/31*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2); Tromell, Seymour's Butler(3); Fathom Mage(4)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Derand) 265; Court of Garenbrig (Kimdar) 53; Chasm Skulker (Kimdar) 41; Innkeeper's Talent (Kimdar) 39
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Sephara, Sky's Blade (27) to attack Derand.
+Information: BOARD attack | Dominic -> Derand | attackers 1 (power 7) | defender life 37 | untapped creatures 1 (power 1): Kediss, Emberclaw Familiar 1/1 | open mana 4
+Phase: Dominic's Declare Blockers Step
+Combat: Derand didn't block Sephara, Sky's Blade (27).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Sephara, Sky's Blade (27) deals 7 combat damage to Derand.
+Life: Life: Dominic 7 > 14
+Life: Life: Derand 37 > 30
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 29 (Derand)
+Information: BOARD turn 29 (Derand) | Dominic | life 14 | hand 4 | lands 6 (6 untapped) | open mana 7 | commander Command | creatures 1 (0 untapped): Sephara, Sky's Blade 7/7* | hand cards: Sevinne's Reclamation(3); Akroma's Will(4); Angel of Finality(4); Smuggler's Copter(2)
+Information: BOARD turn 29 (Derand) | Derand | life 30 | hand 5 | lands 7 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 17/17*[Commander's Plate,Colossus Hammer]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3)
+Information: BOARD turn 29 (Derand) | Zrye | life 21 | hand 7 | lands 6 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Reconnaissance(1); Ancient Gold Dragon(7); Perennation(6); Scorned Villager(2); Cursed Mirror(3); Immersturm Predator(4); Talisman of Progress(2)
+Information: BOARD turn 29 (Derand) | Kimdar | life 23 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Chasm Skulker 31/31*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2); Tromell, Seymour's Butler(3); Fathom Mage(4)
+Information: BOARD threat | turn 29 | Captain America, First Avenger (Derand) 255; Court of Garenbrig (Kimdar) 51; Sephara, Sky's Blade (Dominic) 40; Chasm Skulker (Kimdar) 39; Innkeeper's Talent (Kimdar) 37
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Leyline Axe (150)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Leyline Axe (150)]]) [Phase: Derand]
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Captain America, First Avenger (201) to attack Zrye.
+Information: BOARD attack | Derand -> Zrye | attackers 1 (power 18) | defender life 21 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 5
+Phase: Derand's Declare Blockers Step
+Combat: Zrye didn't block Captain America, First Avenger (201).
+Phase: Derand's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 18 combat damage to Zrye.
+Life: Life: Zrye 21 > 3
+Add To Stack: Derand triggered Kediss, Emberclaw Familiar
+Damage: Captain America, First Avenger (201) deals 18 non-combat damage to Kimdar.
+Damage: Captain America, First Avenger (201) deals 18 non-combat damage to Dominic.
+Life: Life: Dominic 14 > -4
+Life: Life: Kimdar 23 > 5
+Resolve Stack: Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent. [Damage Source: Captain America, First Avenger (201), Damaged: Zrye, Amount: 18]
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 30 (Kimdar)
+Information: BOARD turn 30 (Kimdar) | Derand | life 30 | hand 6 | lands 7 (7 untapped) | open mana 15 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 18/18*[Commander's Plate,Colossus Hammer,Leyline Axe]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 30 (Kimdar) | Kimdar | life 5 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Chasm Skulker 31/31*; Yuna, Grand Summoner 1/5 | hand cards: Endless Detour(3); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2); Tromell, Seymour's Butler(3); Fathom Mage(4)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Derand) 288; Court of Garenbrig (Kimdar) 49; Chasm Skulker (Kimdar) 38; Innkeeper's Talent (Kimdar) 36
+Phase: Kimdar's Untap step
+Phase: Kimdar's Upkeep step
+Add To Stack: Kimdar triggered Court of Garenbrig targeting [Chasm Skulker (353), Yuna, Grand Summoner (326)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control. (Targeting: [[Chasm Skulker (353), Yuna, Grand Summoner (326)]]) [Phase: Kimdar]
+Phase: Kimdar's Draw step
+Add To Stack: Kimdar triggered Chasm Skulker
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Kimdar]
+Phase: Kimdar's Main phase, precombat
+Mana: Sol Ring (365) - {T}: Add {C}{C}.
+Mana: Forest (342) - {T}: Add {G}.
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Plains (396) - {T}: Add {W}.
+Land: Kimdar picked {G}
+Mana: Vineglimmer Snarl (325) - {T}: Add {G} or {U}.
+Land: Kimdar picked {G}
+Mana: Hinterland Harbor (327) - {T}: Add {G} or {U}.
+Mana: Canopy Vista (376) - {T}: Add {G}.
+Add To Stack: Kimdar cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Kimdar | open mana: Derand 15
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Everflowing Chalice
+Phase: Kimdar's Beginning of Combat Step
+Add To Stack: Kimdar triggered Innkeeper's Talent targeting [Chasm Skulker (353)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. (Targeting: [[Chasm Skulker (353)]]) [Phase: Kimdar]
+Phase: Kimdar's Declare Attackers Step
+Phase: Kimdar's Declare Blockers Step
+Phase: Kimdar's First Strike Damage Step
+Phase: Kimdar's Combat Damage Step
+Phase: Kimdar's End of Combat Step
+Phase: Kimdar's Main phase, postcombat
+Land: Yuna, Grand Summoner (326) picked {G}
+Mana: Yuna, Grand Summoner (326) - Grand Summon — {T}: Add one mana of any color. When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. 
+Mana: Everflowing Chalice (348) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Kimdar cast Tromell, Seymour's Butler
+Information: BOARD cast | Tromell, Seymour's Butler (mv 3) by Kimdar | open mana: Derand 15
+Add To Stack: Kimdar triggered Yuna, Grand Summoner (326)'s Effect
+Resolve Stack: When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it. [Card: Tromell, Seymour's Butler (378), Activator: Kimdar, SpellAbility: Tromell, Seymour's Butler - Creature 2 / 3]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Tromell, Seymour's Butler - Creature 2 / 3
+Phase: Kimdar's End step
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: At the beginning of your end step, draw a card. [Phase: Kimdar]
+Add To Stack: Kimdar triggered Chasm Skulker
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever you draw a card, put a +1/+1 counter on Chasm Skulker. [Player: Kimdar]
+Phase: Kimdar's Cleanup step
+Turn: Turn 31 (Derand)
+Information: BOARD turn 31 (Derand) | Derand | life 30 | hand 6 | lands 7 (7 untapped) | open mana 15 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 18/18*[Commander's Plate,Colossus Hammer,Leyline Axe]; Kediss, Emberclaw Familiar 1/1 | hand cards: Swords to Plowshares(1); Flawless Maneuver(3); Nazgûl Battle-Mace(5); Cloudsteel Kirin(3); Danitha Capashen, Paragon(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 31 (Derand) | Kimdar | life 5 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (2 untapped): Chasm Skulker 103/103; Yuna, Grand Summoner 7/11*; Tromell, Seymour's Butler 6/7 | hand cards: Endless Detour(3); Sunscorch Regent(5); Grateful Apparition(2); Metastatic Evangel(2); Fathom Mage(4); Protection Magic(2)
+Information: BOARD threat | turn 31 | Captain America, First Avenger (Derand) 276; Chasm Skulker (Kimdar) 65; Court of Garenbrig (Kimdar) 62; Innkeeper's Talent (Kimdar) 49
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Plains (183) - {T}: Add {W}.
+Add To Stack: Derand cast Swords to Plowshares targeting [Chasm Skulker (353)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Derand | open mana: Kimdar 0
+Add To Stack: Kimdar triggered Chasm Skulker
+Mana: Island (130) - {T}: Add {U}.
+Resolve Stack: Ward {1} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.) [Source: Swords to Plowshares (178), Target: Chasm Skulker (353)]
+Zone Change: Chasm Skulker (353) was put into Exile from Battlefield.
+Life: Life: Kimdar 5 > 108
+Resolve Stack: Swords to Plowshares (178) - Exile Chasm Skulker (353). Kimdar gains life equal to its power.
+Mana: Spectator Seating (179) - {T}: Add {R} or {W}.
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Mana: City of Brass (146) - {T}: Add one mana of any color.
+Add To Stack: Derand cast Nazgûl Battle-Mace
+Information: BOARD cast | Nazgûl Battle-Mace (mv 5) by Derand | open mana: Kimdar 0
+Add To Stack: Derand triggered City of Brass
+Damage: City of Brass (146) deals 1 non-combat damage to Derand.
+Life: Life: Derand 30 > 29
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (146)]
+Resolve Stack: Nazgûl Battle-Mace
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (137)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (137)]]) [Phase: Derand]
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Captain America, First Avenger (201) to attack Kimdar.
+Information: BOARD attack | Derand -> Kimdar | attackers 1 (power 18) | defender life 108 | untapped creatures 1 (power 6): Tromell, Seymour's Butler 6/7 | open mana 0
+Add To Stack: Derand triggered Captain America, First Avenger
+Zone Change: Everflowing Chalice (348) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (201)]
+Add To Stack: Derand triggered Captain America, First Avenger
+Add To Stack: Kimdar triggered Yuna, Grand Summoner targeting [Yuna, Grand Summoner (326)]
+Replacement Effect: If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
+Resolve Stack: Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature. (Targeting: [[Yuna, Grand Summoner (326)]]) [Zone Changer: Everflowing Chalice (348)]
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life. [Sacrificed: Everflowing Chalice (348)]
+Phase: Derand's Declare Blockers Step
+Combat: Kimdar didn't block Captain America, First Avenger (201).
+Phase: Derand's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 18 combat damage to Kimdar.
+Life: Life: Kimdar 108 > 90
+Add To Stack: Derand triggered Kediss, Emberclaw Familiar
+Add To Stack: Kimdar triggered The Monarch
+Resolve Stack: Whenever a creature deals combat damage to you, its controller becomes the monarch. [Damage Source: Captain America, First Avenger (201), Damaged: Kimdar, Amount: 18]
+Resolve Stack: Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent. [Damage Source: Captain America, First Avenger (201), Damaged: Kimdar, Amount: 18]
+Phase: Derand's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 18 combat damage to Kimdar.
+Life: Life: Kimdar 90 > 72
+Player Control: Dominic has restored control over themself
+Player Control: Derand has restored control over themself
+Player Control: Zrye has restored control over themself
+Player Control: Kimdar has restored control over themself
+Game Outcome: Match Duration 26m : 12s
+Game Outcome: Turn 16
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: Derand has won because all opponents have lost
+Game Outcome: Zrye has lost due to accumulation of 21 damage from generals
+Game Outcome: Kimdar has lost due to accumulation of 21 damage from generals
+Match Result: Dominic: 0 Derand: 1 Zrye: 0 Kimdar: 0 
+
+Game Result: Derand has won

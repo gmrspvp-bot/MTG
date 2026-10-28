@@ -1,0 +1,134 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Travis (AI) deck=Captain America v8
+Player: Alexandra (AI) deck=Scion
+Player: Peyton (AI) deck=Tidus v3
+Mulligan: Travis has mulliganed down to 7 cards.
+Mulligan: Travis has mulliganed down to 6 cards.
+Mulligan: Travis has mulliganed down to 5 cards.
+Mulligan: Peyton has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Travis has kept a hand of 5 cards
+Mulligan: Alexandra has kept a hand of 7 cards
+Turn: Turn 1 (Peyton)
+Information: BOARD turn 1 (Peyton) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resplendent Angel(3); Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land)
+Information: BOARD turn 1 (Peyton) | Travis | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Blacksmith's Talent(1); Plains(land); Fighter Class(2); Counterspell(2)
+Information: BOARD turn 1 (Peyton) | Alexandra | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Command Tower(land); Mountain(land)
+Information: BOARD turn 1 (Peyton) | Peyton | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Seaside Citadel(land); Canopy Vista(land); Tromell, Seymour's Butler(3)
+Phase: Peyton's Untap step
+Phase: Peyton's Upkeep step
+Phase: Peyton's Draw step
+Phase: Peyton's Main phase, precombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Peyton played Seaside Citadel (386)
+Phase: Peyton's Beginning of Combat Step
+Phase: Peyton's Declare Attackers Step
+Phase: Peyton's Declare Blockers Step
+Phase: Peyton's First Strike Damage Step
+Phase: Peyton's Combat Damage Step
+Phase: Peyton's End of Combat Step
+Phase: Peyton's Main phase, postcombat
+Phase: Peyton's End step
+Phase: Peyton's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resplendent Angel(3); Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land)
+Information: BOARD turn 2 (Dominic) | Travis | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Blacksmith's Talent(1); Plains(land); Fighter Class(2); Counterspell(2)
+Information: BOARD turn 2 (Dominic) | Alexandra | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Command Tower(land); Mountain(land)
+Information: BOARD turn 2 (Dominic) | Peyton | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Canopy Vista(land); Tromell, Seymour's Butler(3); Glacial Fortress(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Resplendent Angel (2).
+Turn: Turn 3 (Travis)
+Information: BOARD turn 3 (Travis) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 3 (Travis) | Travis | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Blacksmith's Talent(1); Plains(land); Fighter Class(2); Counterspell(2)
+Information: BOARD turn 3 (Travis) | Alexandra | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Command Tower(land); Mountain(land)
+Information: BOARD turn 3 (Travis) | Peyton | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Canopy Vista(land); Tromell, Seymour's Butler(3); Glacial Fortress(land)
+Phase: Travis' Untap step
+Phase: Travis' Upkeep step
+Phase: Travis' Draw step
+Phase: Travis' Main phase, precombat
+Land: Travis played Mountain (180)
+Phase: Travis' Beginning of Combat Step
+Phase: Travis' Declare Attackers Step
+Phase: Travis' Declare Blockers Step
+Phase: Travis' First Strike Damage Step
+Phase: Travis' Combat Damage Step
+Phase: Travis' End of Combat Step
+Phase: Travis' Main phase, postcombat
+Mana: Mountain (180) - {T}: Add {R}.
+Add To Stack: Travis cast Blacksmith's Talent
+Information: BOARD cast | Blacksmith's Talent (mv 1) by Travis | open mana: Dominic 0, Alexandra 0, Peyton 0
+Resolve Stack: Blacksmith's Talent
+Add To Stack: Travis triggered Blacksmith's Talent
+Resolve Stack: When Blacksmith's Talent enters, create a colorless Equipment artifact token named Sword with "Equipped creature gets +1/+1" and equip {2}. [Zone Changer: Blacksmith's Talent (167)]
+Phase: Travis' End step
+Phase: Travis' Cleanup step
+Turn: Turn 4 (Alexandra)
+Information: BOARD turn 4 (Alexandra) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 4 (Alexandra) | Travis | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Fighter Class(2); Counterspell(2); Raugrin Triome(land)
+Information: BOARD turn 4 (Alexandra) | Alexandra | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Command Tower(land); Mountain(land)
+Information: BOARD turn 4 (Alexandra) | Peyton | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Canopy Vista(land); Tromell, Seymour's Butler(3); Glacial Fortress(land)
+Phase: Alexandra's Untap step
+Phase: Alexandra's Upkeep step
+Phase: Alexandra's Draw step
+Phase: Alexandra's Main phase, precombat
+Land: Alexandra played Command Tower (233)
+Phase: Alexandra's Beginning of Combat Step
+Phase: Alexandra's Declare Attackers Step
+Phase: Alexandra's Declare Blockers Step
+Phase: Alexandra's First Strike Damage Step
+Phase: Alexandra's Combat Damage Step
+Phase: Alexandra's End of Combat Step
+Phase: Alexandra's Main phase, postcombat
+Phase: Alexandra's End step
+Phase: Alexandra's Cleanup step
+Turn: Turn 5 (Peyton)
+Information: BOARD turn 5 (Peyton) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 5 (Peyton) | Travis | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Fighter Class(2); Counterspell(2); Raugrin Triome(land)
+Information: BOARD turn 5 (Peyton) | Alexandra | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Mountain(land); Bojuka Bog(land)
+Information: BOARD turn 5 (Peyton) | Peyton | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Canopy Vista(land); Tromell, Seymour's Butler(3); Glacial Fortress(land)
+Phase: Peyton's Untap step
+Phase: Peyton's Upkeep step
+Phase: Peyton's Draw step
+Phase: Peyton's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Peyton played Canopy Vista (376)
+Phase: Peyton's Beginning of Combat Step
+Phase: Peyton's Declare Attackers Step
+Phase: Peyton's Declare Blockers Step
+Phase: Peyton's First Strike Damage Step
+Phase: Peyton's Combat Damage Step
+Phase: Peyton's End of Combat Step
+Phase: Peyton's Main phase, postcombat
+Phase: Peyton's End step
+Phase: Peyton's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Plains(land); Bishop of Wings(2); Karmic Guide(5); Emeria, the Sky Ruin(land); Plains(land); Weathered Wayfarer(1)
+Information: BOARD turn 6 (Dominic) | Travis | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Fighter Class(2); Counterspell(2); Raugrin Triome(land)
+Information: BOARD turn 6 (Dominic) | Alexandra | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Crater(land); Haven of the Spirit Dragon(land); Swamp(land); Sunken Ruins(land); Relic of Sauron(4); Mountain(land); Bojuka Bog(land)
+Information: BOARD turn 6 (Dominic) | Peyton | life 40 | hand 7 | lands 2 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Court of Garenbrig(3); Farseek(2); Sunscorch Regent(5); Hinterland Harbor(land); Tromell, Seymour's Butler(3); Glacial Fortress(land); Protection Magic(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

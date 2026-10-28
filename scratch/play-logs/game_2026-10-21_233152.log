@@ -1,0 +1,1603 @@
+Player: Dominic (HUMAN) deck=Tinybones
+Player: Alec (HUMAN) deck=Alec
+Player: Captain (HUMAN) deck=Rin and Seri
+Player: 2nd Captain (HUMAN) deck=Mr House
+Mulligan: Alec has kept a hand of 7 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: 2nd Captain has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Alec)
+Information: BOARD turn 1 (Alec) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Sol Ring(1); Swamp(land)
+Information: BOARD turn 1 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Outlaw Medic(2); Orzhov Signet(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Plains(land)
+Information: BOARD turn 1 (Alec) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Basilisk Collar(1); Spirited Companion(2); Sunpetal Grove(land); Forest(land)
+Information: BOARD turn 1 (Alec) | 2nd Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Barbarian Class(1); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Command Tower(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (159)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 2 (Captain)
+Information: BOARD turn 2 (Captain) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Sol Ring(1); Swamp(land)
+Information: BOARD turn 2 (Captain) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Orzhov Signet(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 2 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Basilisk Collar(1); Spirited Companion(2); Sunpetal Grove(land); Forest(land)
+Information: BOARD turn 2 (Captain) | 2nd Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Barbarian Class(1); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Command Tower(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Forest (228)
+Mana: Forest (228) - {T}: Add {G}.
+Add To Stack: Captain cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Captain | open mana: Dominic 0, Alec 1, 2nd Captain 0
+Resolve Stack: Basilisk Collar
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 3 (2nd Captain)
+Information: BOARD turn 3 (2nd Captain) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Sol Ring(1); Swamp(land)
+Information: BOARD turn 3 (2nd Captain) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Orzhov Signet(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 3 (2nd Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Spirited Companion(2); Sunpetal Grove(land); Chalice of Life(3)
+Information: BOARD turn 3 (2nd Captain) | 2nd Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Barbarian Class(1); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Command Tower(land)
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Land: 2nd Captain played Command Tower (332)
+Land: 2nd Captain picked {R}
+Land: 2nd Captain picked {R}
+Land: 2nd Captain picked {R}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: 2nd Captain cast Barbarian Class
+Information: BOARD cast | Barbarian Class (mv 1) by 2nd Captain | open mana: Dominic 0, Alec 1, Captain 0
+Resolve Stack: Barbarian Class
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Sol Ring(1); Swamp(land)
+Information: BOARD turn 4 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Orzhov Signet(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 4 (Dominic) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Spirited Companion(2); Sunpetal Grove(land); Chalice of Life(3)
+Information: BOARD turn 4 (Dominic) | 2nd Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (42)
+Mana: Swamp (42) - {T}: Add {B}.
+Add To Stack: Dominic cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Dominic | open mana: Alec 1, Captain 0, 2nd Captain 0
+Resolve Stack: Sol Ring
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (Alec)
+Information: BOARD turn 5 (Alec) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Swamp(land)
+Information: BOARD turn 5 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Orzhov Signet(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 5 (Alec) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Spirited Companion(2); Sunpetal Grove(land); Chalice of Life(3)
+Information: BOARD turn 5 (Alec) | 2nd Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (187)
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Swamp (159) - {T}: Add {B}.
+Add To Stack: Alec cast Orzhov Signet
+Information: BOARD cast | Orzhov Signet (mv 2) by Alec | open mana: Dominic 2, Captain 0, 2nd Captain 0
+Resolve Stack: Orzhov Signet
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 6 (Captain)
+Information: BOARD turn 6 (Captain) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Swamp(land)
+Information: BOARD turn 6 (Captain) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 6 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Spirited Companion(2); Sunpetal Grove(land); Chalice of Life(3)
+Information: BOARD turn 6 (Captain) | 2nd Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Sunpetal Grove enters tapped unless you control a Forest or a Plains.
+Land: Captain played Sunpetal Grove (258)
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Add To Stack: Captain cast Spirited Companion
+Information: BOARD cast | Spirited Companion (mv 2) by Captain | open mana: Dominic 2, Alec 0, 2nd Captain 0
+Resolve Stack: Spirited Companion - Creature 1 / 1
+Add To Stack: Captain triggered Spirited Companion
+Resolve Stack: When Spirited Companion enters, draw a card. [Zone Changer: Spirited Companion (203)]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 7 (2nd Captain)
+Information: BOARD turn 7 (2nd Captain) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Swamp(land)
+Information: BOARD turn 7 (2nd Captain) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 7 (2nd Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Chalice of Life(3); Mountain(land); Mountain(land)
+Information: BOARD turn 7 (2nd Captain) | 2nd Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Mountain(land); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Land: 2nd Captain played Mountain (386)
+Mana: Mountain (386) - {T}: Add {R}.
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: 2nd Captain cast Talisman of Hierarchy
+Information: BOARD cast | Talisman of Hierarchy (mv 2) by 2nd Captain | open mana: Dominic 2, Alec 0, Captain 0
+Resolve Stack: Talisman of Hierarchy
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Bottomless Pit(3); Swamp(land); Go for the Throat(2); Swamp(land)
+Information: BOARD turn 8 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 8 (Dominic) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Chalice of Life(3); Mountain(land); Mountain(land)
+Information: BOARD turn 8 (Dominic) | 2nd Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: devDominic's Main phase, precombat
+Phase: devDominic's Main phase, precombat
+Land: Dominic played Swamp (49)
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Bottomless Pit
+Information: BOARD cast | Bottomless Pit (mv 3) by Dominic | open mana: Alec 0, Captain 0, 2nd Captain 3
+Resolve Stack: Bottomless Pit
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 9 (Alec)
+Information: BOARD turn 9 (Alec) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Swamp(land); Go for the Throat(2); Bone Shards(1)
+Information: BOARD turn 9 (Alec) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Outlaw Medic(2); Cruel Tutor(3); Grim Servant(4); Ob Nixilis of the Black Oath(5); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 9 (Alec) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Chalice of Life(3); Mountain(land); Mountain(land)
+Information: BOARD turn 9 (Alec) | 2nd Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Alec discards Ob Nixilis of the Black Oath (138).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (156)
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Orzhov Signet (140) - {1}, {T}: Add {W}{B}.
+Add To Stack: Alec cast Elas il-Kor, Sadistic Pilgrim
+Information: BOARD cast | Elas il-Kor, Sadistic Pilgrim (mv 2) by Alec | open mana: Dominic 0, Captain 0, 2nd Captain 3
+Resolve Stack: Elas il-Kor, Sadistic Pilgrim - Creature 2 / 2
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Swamp (159) - {T}: Add {B}.
+Add To Stack: Alec cast Outlaw Medic
+Information: BOARD cast | Outlaw Medic (mv 2) by Alec | open mana: Dominic 0, Captain 0, 2nd Captain 3
+Resolve Stack: Outlaw Medic - Creature 1 / 3
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Alec 40 > 41
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Outlaw Medic (182)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 10 (Captain)
+Information: BOARD turn 10 (Captain) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Swamp(land); Go for the Throat(2); Bone Shards(1)
+Information: BOARD turn 10 (Captain) | Alec | life 41 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Cruel Tutor(3); Grim Servant(4); Go for the Throat(2)
+Information: BOARD turn 10 (Captain) | Captain | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Caretaker's Talent(3); Forest(land); Enduring Courage(4); Chalice of Life(3); Mountain(land); Mountain(land)
+Information: BOARD turn 10 (Captain) | 2nd Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Captain discards Enduring Courage (217).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (284)
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Add To Stack: Captain cast Caretaker's Talent
+Information: BOARD cast | Caretaker's Talent (mv 3) by Captain | open mana: Dominic 0, Alec 0, 2nd Captain 3
+Resolve Stack: Caretaker's Talent
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 11 (2nd Captain)
+Information: BOARD turn 11 (2nd Captain) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Swamp(land); Go for the Throat(2); Bone Shards(1)
+Information: BOARD turn 11 (2nd Captain) | Alec | life 41 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Cruel Tutor(3); Grim Servant(4); Go for the Throat(2)
+Information: BOARD turn 11 (2nd Captain) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Forest(land); Chalice of Life(3); Mountain(land); Release the Dogs(4)
+Information: BOARD turn 11 (2nd Captain) | 2nd Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Memorial to Glory(land); Stridehangar Automaton(3); Mondrak, Glory Dominus(4); Plains(land)
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: 2nd Captain discards Memorial to Glory (373).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: 2nd Captain]
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Land: 2nd Captain played Plains (392)
+Mana: Plains (392) - {T}: Add {W}.
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Talisman of Hierarchy (318) - {T}: Add {C}.
+Add To Stack: 2nd Captain cast Mondrak, Glory Dominus
+Information: BOARD cast | Mondrak, Glory Dominus (mv 4) by 2nd Captain | open mana: Dominic 0, Alec 0, Captain 0
+Resolve Stack: Mondrak, Glory Dominus - Creature 4 / 4
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Shrieking Affliction(1); Swamp(land); Go for the Throat(2); Bone Shards(1)
+Information: BOARD turn 12 (Dominic) | Alec | life 41 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Cruel Tutor(3); Grim Servant(4); Go for the Throat(2)
+Information: BOARD turn 12 (Dominic) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Forest(land); Chalice of Life(3); Mountain(land); Release the Dogs(4)
+Information: BOARD turn 12 (Dominic) | 2nd Captain | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4 | hand cards: Mirkwood Bats(4); Stridehangar Automaton(3); Terminate(2)
+Information: BOARD threat | turn 12 | Bottomless Pit (Dominic) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Dominic discards Swamp (70).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (54)
+Mana: Swamp (54) - {T}: Add {B}.
+Add To Stack: Dominic cast Shrieking Affliction
+Information: BOARD cast | Shrieking Affliction (mv 1) by Dominic | open mana: Alec 0, Captain 0, 2nd Captain 0
+Resolve Stack: Shrieking Affliction
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Tinybones, Trinket Thief
+Information: BOARD cast | Tinybones, Trinket Thief (mv 2) by Dominic | open mana: Alec 0, Captain 0, 2nd Captain 0
+Resolve Stack: Tinybones, Trinket Thief - Creature 1 / 2
+Mana: Swamp (49) - {T}: Add {B}.
+Add To Stack: Dominic cast Go for the Throat targeting [Mondrak, Glory Dominus (375)]
+Information: BOARD cast | Go for the Throat (mv 2) by Dominic | open mana: Alec 0, Captain 0, 2nd Captain 0
+Zone Change: Mondrak, Glory Dominus (375) was put into Graveyard from Battlefield.
+Resolve Stack: Go for the Throat (1) - Destroy Mondrak, Glory Dominus (375).
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 13 (Alec)
+Information: BOARD turn 13 (Alec) | Dominic | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Bone Shards(1); Hostile Investigator(4)
+Information: BOARD turn 13 (Alec) | Alec | life 41 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Cruel Tutor(3); Grim Servant(4); Go for the Throat(2)
+Information: BOARD turn 13 (Alec) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Forest(land); Chalice of Life(3); Mountain(land); Release the Dogs(4)
+Information: BOARD turn 13 (Alec) | 2nd Captain | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Stridehangar Automaton(3); Terminate(2)
+Information: BOARD threat | turn 13 | Bottomless Pit (Dominic) 54
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Alec discards Cruel Tutor (181).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Swamp (159) - {T}: Add {B}.
+Add To Stack: Alec cast Sign in Blood targeting [Alec]
+Information: BOARD cast | Sign in Blood (mv 2) by Alec | open mana: Dominic 0, Captain 0, 2nd Captain 0
+Life: Life: Alec 41 > 39
+Resolve Stack: Sign in Blood (184) - Alec draws two cards. Alec loses 2 life.
+Land: Alec played Swamp (155)
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Swamp (155) - {T}: Add {B}.
+Phase: devAlec's Main phase, precombat
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Orzhov Signet (140) - {1}, {T}: Add {W}{B}.
+Add To Stack: Alec cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Alec | open mana: Dominic 0, Captain 0, 2nd Captain 0
+Mana: Swamp (155) - {T}: Add {B}.
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Mana: Swamp (155) - {T}: Add {B}.
+Phase: devAlec's Main phase, precombat
+Phase: devAlec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Add To Stack: Dominic triggered Tinybones, Trinket Thief
+Life: Life: Dominic 40 > 39
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Alec]
+Phase: Alec's Cleanup step
+Turn: Turn 14 (Captain)
+Information: BOARD turn 14 (Captain) | Dominic | life 39 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Bone Shards(1); Hostile Investigator(4); Disrupting Scepter(3)
+Information: BOARD turn 14 (Captain) | Alec | life 39 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Servant(4); Go for the Throat(2); Grim Haruspex(3)
+Information: BOARD turn 14 (Captain) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Spirited Companion 1/1 | hand cards: Forest(land); Chalice of Life(3); Mountain(land); Release the Dogs(4)
+Information: BOARD turn 14 (Captain) | 2nd Captain | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Stridehangar Automaton(3); Terminate(2)
+Information: BOARD threat | turn 14 | Bottomless Pit (Dominic) 66
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Captain discards Forest (223).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (280)
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Mountain (280) - {T}: Add {R}.
+Add To Stack: Captain cast Release the Dogs
+Information: BOARD cast | Release the Dogs (mv 4) by Captain | open mana: Dominic 0, Alec 1, 2nd Captain 0
+Resolve Stack: Release the Dogs (266) - Captain creates four 1/1 white Dog creature tokens.
+Add To Stack: Captain triggered Caretaker's Talent
+Resolve Stack: Whenever one or more tokens you control enter, draw a card. This ability triggers only once each turn. [Amount: 4]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Add To Stack: Dominic triggered Tinybones, Trinket Thief
+Life: Life: Dominic 39 > 38
+Resolve Stack: At the beginning of each end step, if an opponent discarded a card this turn, you draw a card and you lose 1 life. [Phase: Captain]
+Phase: Captain's Cleanup step
+Turn: Turn 15 (2nd Captain)
+Information: BOARD turn 15 (2nd Captain) | Dominic | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Bone Shards(1); Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3)
+Information: BOARD turn 15 (2nd Captain) | Alec | life 39 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Servant(4); Go for the Throat(2); Grim Haruspex(3)
+Information: BOARD turn 15 (2nd Captain) | Captain | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 5 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 15 (2nd Captain) | 2nd Captain | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Stridehangar Automaton(3); Terminate(2)
+Information: BOARD threat | turn 15 | Bottomless Pit (Dominic) 78
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: 2nd Captain discards Stridehangar Automaton (320).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: 2nd Captain]
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (386) - {T}: Add {R}.
+Add To Stack: 2nd Captain cast Terminate targeting [Tinybones, Trinket Thief (100)]
+Information: BOARD cast | Terminate (mv 2) by 2nd Captain | open mana: Dominic 0, Alec 1, Captain 0
+Zone Change: Tinybones, Trinket Thief (100) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (366) - Destroy Tinybones, Trinket Thief (100). It can't be regenerated.
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Dominic | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bone Shards(1); Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3)
+Information: BOARD turn 16 (Dominic) | Alec | life 39 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Servant(4); Go for the Throat(2); Grim Haruspex(3)
+Information: BOARD turn 16 (Dominic) | Captain | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 5 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 16 (Dominic) | 2nd Captain | life 40 | hand 2 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 16 | Bottomless Pit (Dominic) 89
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Dominic discards Bone Shards (30).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Mana: Swamp (49) - {T}: Add {B}.
+Add To Stack: Dominic cast Tinybones, Trinket Thief
+Information: BOARD cast | Tinybones, Trinket Thief (mv 2) by Dominic | open mana: Alec 1, Captain 0, 2nd Captain 4
+Resolve Stack: Tinybones, Trinket Thief - Creature 1 / 2
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 17 (Alec)
+Information: BOARD turn 17 (Alec) | Dominic | life 38 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Tinybones, Trinket Thief 1/2 | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3); Gibbering Descent(6)
+Information: BOARD turn 17 (Alec) | Alec | life 39 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Servant(4); Go for the Throat(2); Grim Haruspex(3)
+Information: BOARD turn 17 (Alec) | Captain | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 5 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 17 (Alec) | 2nd Captain | life 40 | hand 2 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 17 | Bottomless Pit (Dominic) 100
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Dominic triggered Bottomless Pit
+Discard: Alec discards Grim Servant (108).
+Resolve Stack: At the beginning of each player's upkeep, that player discards a card at random. [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Alec cast Anguished Unmaking targeting [Bottomless Pit (87)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Alec | open mana: Dominic 1, Captain 0, 2nd Captain 4
+Zone Change: Bottomless Pit (87) was put into Exile from Battlefield.
+Life: Life: Alec 39 > 36
+Resolve Stack: Anguished Unmaking (199) - Exile Bottomless Pit (87). Alec loses 3 life.
+Mana: Swamp (159) - {T}: Add {B}.
+Phase: devAlec's Main phase, precombat
+Mana: Swamp (159) - {T}: Add {B}.
+Mana: Orzhov Signet (140) - {1}, {T}: Add {W}{B}.
+Add To Stack: Alec cast Go for the Throat targeting [Tinybones, Trinket Thief (100)]
+Information: BOARD cast | Go for the Throat (mv 2) by Alec | open mana: Dominic 1, Captain 0, 2nd Captain 4
+Zone Change: Tinybones, Trinket Thief (100) was put into Graveyard from Battlefield.
+Resolve Stack: Go for the Throat (102) - Destroy Tinybones, Trinket Thief (100).
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 18 (Captain)
+Information: BOARD turn 18 (Captain) | Dominic | life 38 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3); Gibbering Descent(6)
+Information: BOARD turn 18 (Captain) | Alec | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Haruspex(3)
+Information: BOARD turn 18 (Captain) | Captain | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 5 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 18 (Captain) | 2nd Captain | life 40 | hand 2 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Captain played Canopy Vista (265)
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Mountain (280) - {T}: Add {R}.
+Add To Stack: Captain cast Rin and Seri, Inseparable
+Information: BOARD cast | Rin and Seri, Inseparable (mv 4) by Captain | open mana: Dominic 1, Alec 0, 2nd Captain 4
+Resolve Stack: Rin and Seri, Inseparable - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Dog Token (419), Dog Token (418), Dog Token (417) and Dog Token (416) to attack Dominic.
+Information: BOARD attack | Captain -> Dominic | attackers 4 (power 4) | defender life 38 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Captain's Declare Blockers Step
+Combat: Dominic didn't block Dog Token (419).
+Dominic didn't block Dog Token (418).
+Dominic didn't block Dog Token (417).
+Dominic didn't block Dog Token (416).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Dog Token (419) deals 1 combat damage to Dominic.
+Damage: Dog Token (418) deals 1 combat damage to Dominic.
+Damage: Dog Token (417) deals 1 combat damage to Dominic.
+Damage: Dog Token (416) deals 1 combat damage to Dominic.
+Life: Life: Dominic 38 > 34
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 19 (2nd Captain)
+Information: BOARD turn 19 (2nd Captain) | Dominic | life 34 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3); Gibbering Descent(6)
+Information: BOARD turn 19 (2nd Captain) | Alec | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Haruspex(3)
+Information: BOARD turn 19 (2nd Captain) | Captain | life 40 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 1/1; Dog Token 1/1* x4; Rin and Seri, Inseparable 4/4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 19 (2nd Captain) | 2nd Captain | life 40 | hand 2 | lands 3 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Land: 2nd Captain played Plains (391)
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Add To Stack: 2nd Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by 2nd Captain | open mana: Dominic 1, Alec 0, Captain 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 34 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Paupers' Cage(3); Gibbering Descent(6)
+Information: BOARD turn 20 (Dominic) | Alec | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Haruspex(3)
+Information: BOARD turn 20 (Dominic) | Captain | life 40 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 1/1; Dog Token 1/1* x4; Rin and Seri, Inseparable 4/4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 20 (Dominic) | 2nd Captain | life 40 | hand 2 | lands 4 (1 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Charcoal Diamond
+Information: BOARD cast | Charcoal Diamond (mv 2) by Dominic | open mana: Alec 0, Captain 1, 2nd Captain 4
+Replacement Effect: Charcoal Diamond enters tapped.
+Resolve Stack: Charcoal Diamond
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (54) - {T}: Add {B}.
+Add To Stack: Dominic cast Paupers' Cage
+Information: BOARD cast | Paupers' Cage (mv 3) by Dominic | open mana: Alec 0, Captain 1, 2nd Captain 4
+Resolve Stack: Paupers' Cage
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 21 (Alec)
+Information: BOARD turn 21 (Alec) | Dominic | life 34 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Gibbering Descent(6)
+Information: BOARD turn 21 (Alec) | Alec | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3 | hand cards: Grim Haruspex(3)
+Information: BOARD turn 21 (Alec) | Captain | life 40 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 1/1; Dog Token 1/1* x4; Rin and Seri, Inseparable 4/4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 21 (Alec) | 2nd Captain | life 40 | hand 2 | lands 4 (1 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Shrieking Affliction
+Life: Life: Alec 36 > 33
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Alec]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to Alec.
+Life: Life: Alec 33 > 31
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Alec cast Grim Haruspex
+Information: BOARD cast | Grim Haruspex (mv 3) by Alec | open mana: Dominic 0, Captain 1, 2nd Captain 4
+Resolve Stack: Grim Haruspex - Creature 3 / 2
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Alec 31 > 32
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Grim Haruspex (172)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Elas il-Kor, Sadistic Pilgrim (135) and Outlaw Medic (182) to attack Dominic.
+Information: BOARD attack | Alec -> Dominic | attackers 2 (power 3) | defender life 34 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Alec's Declare Blockers Step
+Combat: Dominic didn't block Elas il-Kor, Sadistic Pilgrim (135).
+Dominic didn't block Outlaw Medic (182).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Elas il-Kor, Sadistic Pilgrim (135) deals 2 combat damage to Dominic.
+Damage: Outlaw Medic (182) deals 1 combat damage to Dominic.
+Life: Life: Alec 32 > 33
+Life: Life: Dominic 34 > 31
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 22 (Captain)
+Information: BOARD turn 22 (Captain) | Dominic | life 31 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Gibbering Descent(6)
+Information: BOARD turn 22 (Captain) | Alec | life 33 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Grim Haruspex 3/2 | hand cards: Ashen Rider(8)
+Information: BOARD turn 22 (Captain) | Captain | life 40 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 1/1; Dog Token 1/1* x4; Rin and Seri, Inseparable 4/4 | hand cards: Chalice of Life(3); Boros Charm(2); Swiftfoot Boots(2)
+Information: BOARD turn 22 (Captain) | 2nd Captain | life 40 | hand 2 | lands 4 (1 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 22 | Elas il-Kor, Sadistic Pilgrim (Alec) 35
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Mountain (280) - {T}: Add {R}.
+Add To Stack: Captain cast Cultivate
+Information: BOARD cast | Cultivate (mv 3) by Captain | open mana: Dominic 0, Alec 2, 2nd Captain 4
+Resolve Stack: Cultivate (206) - Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.   
+Land: Captain played Forest (230)
+Mana: Forest (230) - {T}: Add {G}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Add To Stack: Captain cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Captain | open mana: Dominic 0, Alec 2, 2nd Captain 4
+Resolve Stack: Swiftfoot Boots
+Mana: Canopy Vista (265) - {T}: Add {G}.
+Add To Stack: Captain activated Swiftfoot Boots targeting [Rin and Seri, Inseparable (302)]
+Resolve Stack: Swiftfoot Boots (248) -  Attach to Rin and Seri, Inseparable (302)
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 23 (2nd Captain)
+Information: BOARD turn 23 (2nd Captain) | Dominic | life 31 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Gibbering Descent(6)
+Information: BOARD turn 23 (2nd Captain) | Alec | life 33 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Grim Haruspex 3/2 | hand cards: Ashen Rider(8)
+Information: BOARD turn 23 (2nd Captain) | Captain | life 40 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: Chalice of Life(3); Boros Charm(2)
+Information: BOARD turn 23 (2nd Captain) | 2nd Captain | life 40 | hand 2 | lands 4 (1 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 23 | Elas il-Kor, Sadistic Pilgrim (Alec) 33
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Damage: Paupers' Cage (95) deals 2 non-combat damage to 2nd Captain.
+Life: Life: 2nd Captain 40 > 38
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: 2nd Captain]
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: 2nd Captain cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by 2nd Captain | open mana: Dominic 0, Alec 2, Captain 0
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 6]
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 31 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3); Gibbering Descent(6)
+Information: BOARD turn 24 (Dominic) | Alec | life 33 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Grim Haruspex 3/2 | hand cards: Ashen Rider(8)
+Information: BOARD turn 24 (Dominic) | Captain | life 40 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: Chalice of Life(3); Boros Charm(2)
+Information: BOARD turn 24 (Dominic) | 2nd Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 24 | Paupers' Cage (Dominic) 50; Elas il-Kor, Sadistic Pilgrim (Alec) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (63)
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Charcoal Diamond (84) - {T}: Add {B}.
+Add To Stack: Dominic cast Gibbering Descent
+Information: BOARD cast | Gibbering Descent (mv 6) by Dominic | open mana: Alec 2, Captain 0, 2nd Captain 4
+Resolve Stack: Gibbering Descent
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 25 (Alec)
+Information: BOARD turn 25 (Alec) | Dominic | life 31 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3)
+Information: BOARD turn 25 (Alec) | Alec | life 33 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Grim Haruspex 3/2 | hand cards: Ashen Rider(8)
+Information: BOARD turn 25 (Alec) | Captain | life 40 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: Chalice of Life(3); Boros Charm(2)
+Information: BOARD turn 25 (Alec) | 2nd Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 25 | Paupers' Cage (Dominic) 48; Elas il-Kor, Sadistic Pilgrim (Alec) 31
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Shrieking Affliction
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: Alec 33 > 32
+Discard: Alec discards Ashen Rider (124).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Alec]
+Life: Life: Alec 32 > 29
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Alec]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to Alec.
+Life: Life: Alec 29 > 27
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Swamp (159) - {T}: Add {B}.
+Mana: Orzhov Signet (140) - {1}, {T}: Add {W}{B}.
+Add To Stack: Alec cast Indulgent Tormentor
+Information: BOARD cast | Indulgent Tormentor (mv 5) by Alec | open mana: Dominic 1, Captain 0, 2nd Captain 4
+Resolve Stack: Indulgent Tormentor - Creature 5 / 3
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Alec 27 > 28
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Indulgent Tormentor (144)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Grim Haruspex (172), Athreos, God of Passage (201), Elas il-Kor, Sadistic Pilgrim (135) and Outlaw Medic (182) to attack Dominic.
+Information: BOARD attack | Alec -> Dominic | attackers 4 (power 11) | defender life 31 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: Dominic didn't block Grim Haruspex (172).
+Dominic didn't block Athreos, God of Passage (201).
+Dominic didn't block Elas il-Kor, Sadistic Pilgrim (135).
+Dominic didn't block Outlaw Medic (182).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Grim Haruspex (172) deals 3 combat damage to Dominic.
+Damage: Athreos, God of Passage (201) deals 5 combat damage to Dominic.
+Damage: Elas il-Kor, Sadistic Pilgrim (135) deals 2 combat damage to Dominic.
+Damage: Outlaw Medic (182) deals 1 combat damage to Dominic.
+Life: Life: Alec 28 > 29
+Life: Life: Dominic 31 > 20
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 26 (Captain)
+Information: BOARD turn 26 (Captain) | Dominic | life 20 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3)
+Information: BOARD turn 26 (Captain) | Alec | life 29 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3 | hand cards: 
+Information: BOARD turn 26 (Captain) | Captain | life 40 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: Chalice of Life(3); Boros Charm(2)
+Information: BOARD turn 26 (Captain) | 2nd Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 26 | Paupers' Cage (Dominic) 72; Elas il-Kor, Sadistic Pilgrim (Alec) 55
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: Captain 40 > 39
+Discard: Captain discards Chalice of Life (236).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Captain]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to Captain.
+Life: Life: Captain 39 > 37
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Plains (289)
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Forest (230) - {T}: Add {G}.
+Add To Stack: Captain activated Basilisk Collar targeting [Rin and Seri, Inseparable (302)]
+Resolve Stack: Basilisk Collar (212) -  Attach to Rin and Seri, Inseparable (302)
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [Alec]
+Damage: Rin and Seri, Inseparable (302) deals 6 non-combat damage to Alec.
+Life: Life: Captain 37 > 43
+Life: Life: Alec 29 > 23
+Life: Life: Captain 43 > 44
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 6 damage to Alec. Captain gains 1 life.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Add To Stack: Captain activated Caretaker's Talent
+Resolve Stack: Caretaker's Talent (208) - Level 2
+Add To Stack: Captain triggered Caretaker's Talent targeting [Dog Token (419)]
+Resolve Stack: When this Class becomes level 2, create a token that's a copy of target token you control. (Targeting: [[Dog Token (419)]]) [Class Level: 2]
+Add To Stack: Captain triggered Caretaker's Talent
+Resolve Stack: Whenever one or more tokens you control enter, draw a card. This ability triggers only once each turn. [Amount: 1]
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 27 (2nd Captain)
+Information: BOARD turn 27 (2nd Captain) | Dominic | life 20 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3)
+Information: BOARD turn 27 (2nd Captain) | Alec | life 23 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3 | hand cards: 
+Information: BOARD turn 27 (2nd Captain) | Captain | life 44 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 7 (6 untapped): Spirited Companion 1/1; Dog Token 1/1 x5; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2); Plains(land)
+Information: BOARD turn 27 (2nd Captain) | 2nd Captain | life 38 | hand 2 | lands 4 (0 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: Mirkwood Bats(4); Faithless Looting(1)
+Information: BOARD threat | turn 27 | Paupers' Cage (Dominic) 95; Elas il-Kor, Sadistic Pilgrim (Alec) 53; Caretaker's Talent (Captain) 52; Rin and Seri, Inseparable (Captain) 49
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: 2nd Captain 38 > 37
+Discard: 2nd Captain discards Faithless Looting (349).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: 2nd Captain]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to 2nd Captain.
+Life: Life: 2nd Captain 37 > 35
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: 2nd Captain]
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Replacement Effect: Boros Guildgate enters tapped.
+Land: 2nd Captain played Boros Guildgate (330)
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Add To Stack: 2nd Captain cast Mirkwood Bats
+Information: BOARD cast | Mirkwood Bats (mv 4) by 2nd Captain | open mana: Dominic 1, Alec 0, Captain 2
+Resolve Stack: Mirkwood Bats - Creature 2 / 3
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Damage: Comet, Stellar Pup (383) deals 6 damage to Dog Token (428).
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Zone Change: Dog Token (428) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Dominic 20 > 19
+Life: Life: Alec 23 > 22
+Life: Life: Captain 44 > 43
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Combat: 2nd Captain assigned Robot Token (425), Robot Token (422) and Mr. House, President and CEO (403) to attack Dominic.
+Information: BOARD attack | 2nd Captain -> Dominic | attackers 3 (power 6) | defender life 19 | untapped creatures 0 (power 0):  | open mana 1
+Phase: 2nd Captain's Declare Blockers Step
+Combat: Dominic didn't block Robot Token (425).
+Dominic didn't block Robot Token (422).
+Dominic didn't block Mr. House, President and CEO (403).
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Damage: Robot Token (425) deals 3 combat damage to Dominic.
+Damage: Robot Token (422) deals 3 combat damage to Dominic.
+Life: Life: Dominic 19 > 13
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 13 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hostile Investigator(4); Disrupting Scepter(3)
+Information: BOARD turn 28 (Dominic) | Alec | life 22 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3 | hand cards: 
+Information: BOARD turn 28 (Dominic) | Captain | life 43 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2); Plains(land)
+Information: BOARD turn 28 (Dominic) | 2nd Captain | life 35 | hand 0 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3* x2; Mirkwood Bats 2/3; Robot Token 3/3 | hand cards: 
+Information: BOARD threat | turn 28 | Paupers' Cage (Dominic) 117; Elas il-Kor, Sadistic Pilgrim (Alec) 51; Caretaker's Talent (Captain) 50; Rin and Seri, Inseparable (Captain) 47; Gibbering Descent (Dominic) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: Dominic 13 > 12
+Discard: Dominic discards Hostile Investigator (28).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Dominic]
+Phase: Dominic's Draw step
+Mana: Sol Ring (37) - {T}: Add {C}{C}.
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Swamp (49) - {T}: Add {B}.
+Add To Stack: Dominic cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Dominic | open mana: Alec 0, Captain 2, 2nd Captain 4
+Resolve Stack: Arcane Signet
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Charcoal Diamond (84) - {T}: Add {B}.
+Mana: Swamp (63) - {T}: Add {B}.
+Add To Stack: Dominic cast Disrupting Scepter
+Information: BOARD cast | Disrupting Scepter (mv 3) by Dominic | open mana: Alec 0, Captain 2, 2nd Captain 4
+Resolve Stack: Disrupting Scepter
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 29 (Alec)
+Information: BOARD turn 29 (Alec) | Dominic | life 12 | hand 0 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 29 (Alec) | Alec | life 22 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2*; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3 | hand cards: 
+Information: BOARD turn 29 (Alec) | Captain | life 43 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2); Plains(land)
+Information: BOARD turn 29 (Alec) | 2nd Captain | life 35 | hand 0 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3* x2; Mirkwood Bats 2/3; Robot Token 3/3 | hand cards: 
+Information: BOARD threat | turn 29 | Paupers' Cage (Dominic) 112; Gibbering Descent (Dominic) 54; Elas il-Kor, Sadistic Pilgrim (Alec) 49; Caretaker's Talent (Captain) 48; Rin and Seri, Inseparable (Captain) 45
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [2nd Captain]
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Shrieking Affliction
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: Alec 22 > 21
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Alec]
+Life: Life: Alec 21 > 18
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. [Phase: Alec]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to Alec.
+Life: Life: Alec 18 > 16
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: Alec]
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[2nd Captain]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (185)
+Mana: Swamp (155) - {T}: Add {B}.
+Add To Stack: Alec cast Greedy Freebooter
+Information: BOARD cast | Greedy Freebooter (mv 1) by Alec | open mana: Dominic 2, Captain 2, 2nd Captain 4
+Resolve Stack: Greedy Freebooter - Creature 1 / 1
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Alec 16 > 17
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Greedy Freebooter (107)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 30 (Captain)
+Information: BOARD turn 30 (Captain) | Dominic | life 12 | hand 0 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 30 (Captain) | Alec | life 17 | hand 0 | lands 5 (4 untapped) | open mana 5 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: 
+Information: BOARD turn 30 (Captain) | Captain | life 43 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2); Plains(land)
+Information: BOARD turn 30 (Captain) | 2nd Captain | life 35 | hand 0 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3* x2; Mirkwood Bats 2/3; Robot Token 3/3 | hand cards: 
+Information: BOARD threat | turn 30 | Paupers' Cage (Dominic) 134; Gibbering Descent (Dominic) 66; Elas il-Kor, Sadistic Pilgrim (Alec) 61; Caretaker's Talent (Captain) 46; Rin and Seri, Inseparable (Captain) 43
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Add To Stack: Dominic triggered Paupers' Cage
+Add To Stack: Dominic triggered Gibbering Descent
+Life: Life: Captain 43 > 42
+Discard: Captain discards Plains (295).
+Resolve Stack: At the beginning of each player's upkeep, that player loses 1 life and discards a card. [Phase: Captain]
+Damage: Paupers' Cage (95) deals 2 non-combat damage to Captain.
+Life: Life: Captain 42 > 40
+Resolve Stack: At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player. [Phase: Captain]
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Forest (230) - {T}: Add {G}.
+Add To Stack: Captain cast Generous Gift targeting [Gibbering Descent (2)]
+Information: BOARD cast | Generous Gift (mv 3) by Captain | open mana: Dominic 2, Alec 5, 2nd Captain 4
+Zone Change: Gibbering Descent (2) was put into Graveyard from Battlefield.
+Resolve Stack: Generous Gift (205) - Destroy Gibbering Descent (2). 
+Mana: Mountain (284) - {T}: Add {R}.
+Land: Captain picked {G}
+Land: Captain picked {G}
+Land: Captain picked {G}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [Dominic]
+Damage: Rin and Seri, Inseparable (302) deals 6 non-combat damage to Dominic.
+Life: Life: Captain 40 > 46
+Life: Life: Dominic 12 > 6
+Life: Life: Captain 46 > 47
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 6 damage to Dominic. Captain gains 1 life.
+Phase: devCaptain's Main phase, precombat
+Phase: devCaptain's Main phase, precombat
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 31 (2nd Captain)
+Information: BOARD turn 31 (2nd Captain) | Alec | life 17 | hand 0 | lands 5 (4 untapped) | open mana 5 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: 
+Information: BOARD turn 31 (2nd Captain) | Captain | life 47 | hand 1 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 31 (2nd Captain) | 2nd Captain | life 35 | hand 0 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 5 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3* x2; Mirkwood Bats 2/3; Robot Token 3/3 | hand cards: 
+Information: BOARD threat | turn 31 | Rin and Seri, Inseparable (Captain) 91; Elas il-Kor, Sadistic Pilgrim (Alec) 59; Caretaker's Talent (Captain) 44; Mr. House, President and CEO (2nd Captain) 34
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Replacement Effect: Jagged Barrens enters tapped.
+Land: 2nd Captain played Jagged Barrens (379)
+Add To Stack: 2nd Captain triggered Jagged Barrens targeting [Captain]
+Damage: Jagged Barrens (379) deals 1 non-combat damage to Captain.
+Life: Life: Captain 47 > 46
+Resolve Stack: When Jagged Barrens enters, it deals 1 damage to target opponent. (Targeting: [[Captain]]) [Zone Changer: Jagged Barrens (379)]
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 17 > 16
+Life: Life: Captain 46 > 45
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Life: Life: Alec 16 > 15
+Life: Life: Captain 45 > 44
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 32 (Alec)
+Information: BOARD turn 32 (Alec) | Alec | life 15 | hand 0 | lands 5 (4 untapped) | open mana 5 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: 
+Information: BOARD turn 32 (Alec) | Captain | life 44 | hand 1 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 32 (Alec) | 2nd Captain | life 35 | hand 0 | lands 6 (5 untapped) | open mana 12 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x3; Mirkwood Bats 2/3; Squirrel Token 1/1 x2 | hand cards: 
+Information: BOARD threat | turn 32 | Rin and Seri, Inseparable (Captain) 87; Elas il-Kor, Sadistic Pilgrim (Alec) 57; Caretaker's Talent (Captain) 42; Mirkwood Bats (2nd Captain) 41; Comet, Stellar Pup (2nd Captain) 37
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [Captain]
+Mana: Plains (391) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Zone Change: Treasure Token (426) was put into Graveyard from Battlefield.
+Land: Treasure Token (426) picked {B}
+Land: Treasure Token (426) picked {B}
+Mana: Treasure Token (426) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Mountain (386) - {T}: Add {R}.
+Add To Stack: 2nd Captain activated Mr. House, President and CEO
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 15 > 14
+Life: Life: Captain 44 > 43
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Sacrificed: Treasure Token (426)]
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Mr. House, President and CEO (403) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 14 > 13
+Life: Life: Captain 43 > 42
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 5]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 13 > 12
+Life: Life: Captain 42 > 41
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Captain]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 33 (Captain)
+Information: BOARD turn 33 (Captain) | Alec | life 12 | hand 2 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land)
+Information: BOARD turn 33 (Captain) | Captain | life 41 | hand 1 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 1/1 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 33 (Captain) | 2nd Captain | life 35 | hand 0 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 9 (8 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x5; Mirkwood Bats 2/3; Squirrel Token 1/1 x2 | hand cards: 
+Information: BOARD threat | turn 33 | Rin and Seri, Inseparable (Captain) 83; Mirkwood Bats (2nd Captain) 83; Mr. House, President and CEO (2nd Captain) 75; Elas il-Kor, Sadistic Pilgrim (Alec) 54; Caretaker's Talent (Captain) 41
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Captain played Temple of Triumph (276)
+Add To Stack: Captain triggered Temple of Triumph
+Resolve Stack: Captain scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (276)]
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Forest (230) - {T}: Add {G}.
+Mana: Mountain (284) - {T}: Add {R}.
+Add To Stack: Captain activated Caretaker's Talent
+Resolve Stack: Caretaker's Talent (208) - Level 3
+Mana: Mountain (280) - {T}: Add {R}.
+Land: Captain picked {G}
+Land: Captain picked {G}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [2nd Captain]
+Damage: Rin and Seri, Inseparable (302) deals 6 non-combat damage to 2nd Captain.
+Life: Life: Captain 41 > 47
+Life: Life: 2nd Captain 35 > 29
+Life: Life: Captain 47 > 48
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 6 damage to 2nd Captain. Captain gains 1 life.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 34 (2nd Captain)
+Information: BOARD turn 34 (2nd Captain) | Alec | life 12 | hand 2 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land)
+Information: BOARD turn 34 (2nd Captain) | Captain | life 48 | hand 1 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 1/1; Dog Token 3/3 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 34 (2nd Captain) | 2nd Captain | life 29 | hand 0 | lands 6 (2 untapped) | open mana 8 | commander Battlefield | creatures 9 (8 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x5; Mirkwood Bats 2/3; Squirrel Token 1/1 x2 | hand cards: 
+Information: BOARD threat | turn 34 | Rin and Seri, Inseparable (Captain) 129; Mirkwood Bats (2nd Captain) 79; Mr. House, President and CEO (2nd Captain) 72; Caretaker's Talent (Captain) 53; Elas il-Kor, Sadistic Pilgrim (Alec) 52
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Add To Stack: 2nd Captain cast Goblin Bombardment
+Information: BOARD cast | Goblin Bombardment (mv 2) by 2nd Captain | open mana: Alec 6, Captain 1
+Resolve Stack: Goblin Bombardment
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 12 > 11
+Life: Life: Captain 48 > 47
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Life: Life: Alec 11 > 10
+Life: Life: Captain 47 > 46
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Mana: Plains (391) - {T}: Add {W}.
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Mana: Boros Guildgate (330) - {T}: Add {R} or {W}.
+Land: 2nd Captain picked {B}
+Land: 2nd Captain picked {B}
+Mana: Jagged Barrens (379) - {T}: Add {B} or {R}.
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Mana: Command Tower (332) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: 2nd Captain activated Mr. House, President and CEO
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Mr. House, President and CEO (403) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 10 > 9
+Life: Life: Captain 46 > 45
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Player: 2nd Captain]
+Zone Change: Squirrel Token (442) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Squirrel Token (442)]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 9 > 8
+Life: Life: Captain 45 > 44
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Sacrificed: Squirrel Token (442)]
+Resolve Stack: Goblin Bombardment ability fizzles.
+Zone Change: Squirrel Token (441) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Squirrel Token (441)]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 8 > 7
+Life: Life: Captain 44 > 43
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Sacrificed: Squirrel Token (441)]
+Resolve Stack: Goblin Bombardment ability fizzles.
+Zone Change: Squirrel Token (435) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Spirited Companion (203)]
+Add To Stack: 2nd Captain triggered Mirkwood Bats
+Life: Life: Alec 7 > 6
+Life: Life: Captain 43 > 42
+Resolve Stack: Whenever you create or sacrifice a token, each opponent loses 1 life. [Sacrificed: Squirrel Token (435)]
+Damage: Goblin Bombardment (331) deals 1 damage to Spirited Companion (203).
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Spirited Companion (203).
+Zone Change: Spirited Companion (203) was put into Graveyard from Battlefield.
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Phase: 2nd Captain's Declare Blockers Step
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 35 (Alec)
+Information: BOARD turn 35 (Alec) | Alec | life 6 | hand 2 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land)
+Information: BOARD turn 35 (Alec) | Captain | life 42 | hand 1 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (4 untapped): Dog Token 3/3 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 35 (Alec) | 2nd Captain | life 29 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 9 (8 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x6; Mirkwood Bats 2/3; Squirrel Token 1/1 | hand cards: 
+Information: BOARD threat | turn 35 | Mirkwood Bats (2nd Captain) 163; Rin and Seri, Inseparable (Captain) 124; Mr. House, President and CEO (2nd Captain) 98; Caretaker's Talent (Captain) 51; Elas il-Kor, Sadistic Pilgrim (Alec) 50
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [Captain]
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Captain]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 36 (Captain)
+Information: BOARD turn 36 (Captain) | Alec | life 6 | hand 4 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land); Fell the Profane(4); Plains(land)
+Information: BOARD turn 36 (Captain) | Captain | life 42 | hand 1 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (4 untapped): Dog Token 3/3 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar] | hand cards: Boros Charm(2)
+Information: BOARD turn 36 (Captain) | 2nd Captain | life 29 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 9 (8 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x6; Mirkwood Bats 2/3; Squirrel Token 1/1 | hand cards: 
+Information: BOARD threat | turn 36 | Mirkwood Bats (2nd Captain) 156; Rin and Seri, Inseparable (Captain) 119; Mr. House, President and CEO (2nd Captain) 94; Caretaker's Talent (Captain) 49; Elas il-Kor, Sadistic Pilgrim (Alec) 48
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Forest (230) - {T}: Add {G}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Mountain (280) - {T}: Add {R}.
+Add To Stack: Captain cast Ojer Taq, Deepest Foundation
+Information: BOARD cast | Ojer Taq, Deepest Foundation (mv 6) by Captain | open mana: Alec 6, 2nd Captain 3
+Resolve Stack: Ojer Taq, Deepest Foundation - Creature 6 / 6
+Land: Captain picked {R}
+Land: Captain picked {R}
+Mana: Temple of Triumph (276) - {T}: Add {R} or {W}.
+Land: Captain picked {W}
+Land: Captain picked {W}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Canopy Vista (265) - {T}: Add {G}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [Mirkwood Bats (337)]
+Damage: Rin and Seri, Inseparable (302) deals 5 damage (Deathtouch) to Mirkwood Bats (337).
+Life: Life: Captain 42 > 47
+Life: Life: Captain 47 > 48
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 5 damage to Mirkwood Bats (337). Captain gains 1 life.
+Zone Change: Mirkwood Bats (337) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 37 (2nd Captain)
+Information: BOARD turn 37 (2nd Captain) | Alec | life 6 | hand 4 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land); Fell the Profane(4); Plains(land)
+Information: BOARD turn 37 (2nd Captain) | Captain | life 48 | hand 1 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Dog Token 3/3 x4; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar]; Ojer Taq, Deepest Foundation 6/6 | hand cards: Boros Charm(2)
+Information: BOARD turn 37 (2nd Captain) | 2nd Captain | life 29 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 8 (7 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x6; Squirrel Token 1/1 | hand cards: 
+Information: BOARD threat | turn 37 | Rin and Seri, Inseparable (Captain) 129; Mr. House, President and CEO (2nd Captain) 90; Caretaker's Talent (Captain) 47; Elas il-Kor, Sadistic Pilgrim (Alec) 46; Comet, Stellar Pup (2nd Captain) 43
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: 2nd Captain played Canyon Slough (345)
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Zone Change: Squirrel Token (447) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Dog Token (419)]
+Zone Change: Squirrel Token (446) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Dog Token (419)]
+Zone Change: Squirrel Token (434) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Dog Token (419)]
+Damage: Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Damage: Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Damage: Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Dog Token (419).
+Zone Change: Dog Token (419) was put into Graveyard from Battlefield.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Land: 2nd Captain picked {W}
+Land: 2nd Captain picked {W}
+Mana: Boros Guildgate (330) - {T}: Add {R} or {W}.
+Add To Stack: 2nd Captain activated Mr. House, President and CEO
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Mr. House, President and CEO (403) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Combat: 2nd Captain assigned Robot Token (444), Robot Token (439), Robot Token (437), Robot Token (430) and Robot Token (425) to attack Captain.
+Information: BOARD attack | 2nd Captain -> Captain | attackers 5 (power 15) | defender life 48 | untapped creatures 4 (power 15): Dog Token 3/3 x3; Ojer Taq, Deepest Foundation 6/6 | open mana 0
+Phase: 2nd Captain's Declare Blockers Step
+Combat: Captain didn't block Robot Token (444).
+Captain didn't block Robot Token (439).
+Captain didn't block Robot Token (437).
+Captain didn't block Robot Token (430).
+Captain didn't block Robot Token (425).
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Damage: Robot Token (444) deals 3 combat damage to Captain.
+Damage: Robot Token (439) deals 3 combat damage to Captain.
+Damage: Robot Token (437) deals 3 combat damage to Captain.
+Damage: Robot Token (430) deals 3 combat damage to Captain.
+Damage: Robot Token (425) deals 3 combat damage to Captain.
+Life: Life: Captain 48 > 33
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Phase: 2nd Captain's End step
+Phase: dev2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 38 (Alec)
+Information: BOARD turn 38 (Alec) | Alec | life 6 | hand 4 | lands 5 (5 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3; Athreos, God of Passage 5/4; Grim Haruspex 3/2; Indulgent Tormentor 5/3; Greedy Freebooter 1/1 | hand cards: Swamp(land); Swamp(land); Plains(land); Fell the Profane(4)
+Information: BOARD turn 38 (Alec) | Captain | life 33 | hand 1 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Dog Token 3/3 x3; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar]; Ojer Taq, Deepest Foundation 6/6 | hand cards: Boros Charm(2)
+Information: BOARD turn 38 (Alec) | 2nd Captain | life 29 | hand 0 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 8 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x2; Robot Token 3/3* x5 | hand cards: 
+Information: BOARD threat | turn 38 | Rin and Seri, Inseparable (Captain) 123; Mr. House, President and CEO (2nd Captain) 115; Goblin Bombardment (2nd Captain) 81; Comet, Stellar Pup (2nd Captain) 56; Caretaker's Talent (Captain) 45
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [Captain]
+Life: Life: Captain 33 > 30
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Captain]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Mana: Plains (185) - {T}: Add {W}.
+Add To Stack: Alec cast Ashnod's Altar
+Information: BOARD cast | Ashnod's Altar (mv 3) by Alec | open mana: Captain 0, 2nd Captain 8
+Resolve Stack: Ashnod's Altar
+Land: Alec played Swamp (158)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Outlaw Medic (182), Athreos, God of Passage (201), Grim Haruspex (172), Indulgent Tormentor (144) and Greedy Freebooter (107) to attack Captain.
+Information: BOARD attack | Alec -> Captain | attackers 5 (power 15) | defender life 30 | untapped creatures 4 (power 15): Dog Token 3/3 x3; Ojer Taq, Deepest Foundation 6/6 | open mana 0
+Phase: Alec's Declare Blockers Step
+Combat: Captain didn't block Outlaw Medic (182).
+Captain didn't block Athreos, God of Passage (201).
+Captain didn't block Grim Haruspex (172).
+Captain didn't block Indulgent Tormentor (144).
+Captain didn't block Greedy Freebooter (107).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Outlaw Medic (182) deals 1 combat damage to Captain.
+Life: Life: Alec 6 > 7
+Damage: Athreos, God of Passage (201) deals 5 combat damage to Captain.
+Damage: Grim Haruspex (172) deals 3 combat damage to Captain.
+Damage: Indulgent Tormentor (144) deals 5 combat damage to Captain.
+Damage: Greedy Freebooter (107) deals 1 combat damage to Captain.
+Life: Life: Captain 30 > 15
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 39 (Captain)
+Information: BOARD turn 39 (Captain) | Alec | life 7 | hand 3 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 6 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3*; Greedy Freebooter 1/1* | hand cards: Swamp(land); Plains(land); Fell the Profane(4)
+Information: BOARD turn 39 (Captain) | Captain | life 15 | hand 1 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Dog Token 3/3 x3; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar]; Ojer Taq, Deepest Foundation 6/6 | hand cards: Boros Charm(2)
+Information: BOARD turn 39 (Captain) | 2nd Captain | life 29 | hand 0 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 8 (2 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 x2; Robot Token 3/3* x5 | hand cards: 
+Information: BOARD threat | turn 39 | Rin and Seri, Inseparable (Captain) 119; Mr. House, President and CEO (2nd Captain) 111; Goblin Bombardment (2nd Captain) 78; Indulgent Tormentor (Alec) 77; Comet, Stellar Pup (2nd Captain) 54
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Forest (230) - {T}: Add {G}.
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Mountain (280) - {T}: Add {R}.
+Add To Stack: Captain cast Second Harvest
+Information: BOARD cast | Second Harvest (mv 4) by Captain | open mana: Alec 6, 2nd Captain 8
+Replacement Effect: If one or more creature tokens would be created under your control, three times that many of those tokens are created instead.
+Resolve Stack: Second Harvest (267) - Captain creates a token that's a copy of Dog Token (416), Dog Token (417), Dog Token (418), Dog Token (453), Dog Token (454), Dog Token (455), Dog Token (456), Dog Token (457), Dog Token (458), Dog Token (459), Dog Token (460) and Dog Token (461).
+Add To Stack: Captain triggered Caretaker's Talent
+Resolve Stack: Whenever one or more tokens you control enter, draw a card. This ability triggers only once each turn. [Amount: 9]
+Land: Captain picked {R}
+Land: Captain picked {R}
+Mana: Temple of Triumph (276) - {T}: Add {R} or {W}.
+Land: Captain picked {G}
+Land: Captain picked {G}
+Mana: Sunpetal Grove (258) - {T}: Add {G} or {W}.
+Mana: Plains (296) - {T}: Add {W}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [2nd Captain]
+Damage: Rin and Seri, Inseparable (302) deals 13 non-combat damage to 2nd Captain.
+Life: Life: Captain 15 > 28
+Life: Life: 2nd Captain 29 > 16
+Life: Life: Captain 28 > 29
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 13 damage to 2nd Captain. Captain gains 1 life.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Combat: Captain assigned Dog Token (416), Dog Token (417), Dog Token (418) and Ojer Taq, Deepest Foundation (216) to attack 2nd Captain.
+Information: BOARD attack | Captain -> 2nd Captain | attackers 4 (power 15) | defender life 16 | untapped creatures 2 (power 6): Robot Token 3/3 x2 | open mana 8
+Phase: Captain's Declare Blockers Step
+Combat: 2nd Captain assigned Robot Token (422) to block Dog Token (416).
+2nd Captain didn't block Dog Token (417).
+2nd Captain assigned Robot Token (449) to block Dog Token (418).
+2nd Captain didn't block Ojer Taq, Deepest Foundation (216).
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Damage: Dog Token (416) deals 3 damage to Robot Token (422).
+Damage: Dog Token (417) deals 3 combat damage to 2nd Captain.
+Damage: Dog Token (418) deals 3 damage to Robot Token (449).
+Damage: Ojer Taq, Deepest Foundation (216) deals 6 combat damage to 2nd Captain.
+Damage: Robot Token (422) deals 3 damage to Dog Token (416).
+Damage: Robot Token (449) deals 3 damage to Dog Token (418).
+Life: Life: 2nd Captain 16 > 7
+Zone Change: Dog Token (416) was put into Graveyard from Battlefield.
+Zone Change: Dog Token (418) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (422) was put into Graveyard from Battlefield.
+Zone Change: Robot Token (449) was put into Graveyard from Battlefield.
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 40 (2nd Captain)
+Information: BOARD turn 40 (2nd Captain) | Alec | life 7 | hand 3 | lands 6 (3 untapped) | open mana 6 | commander Battlefield | creatures 6 (1 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Outlaw Medic 1/3*; Athreos, God of Passage 5/4*; Grim Haruspex 3/2*; Indulgent Tormentor 5/3*; Greedy Freebooter 1/1* | hand cards: Swamp(land); Plains(land); Fell the Profane(4)
+Information: BOARD turn 40 (2nd Captain) | Captain | life 29 | hand 2 | lands 9 (2 untapped) | open mana 2 | commander Battlefield | creatures 12 (10 untapped): Dog Token 3/3*; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar]; Ojer Taq, Deepest Foundation 6/6; Dog Token 3/3 x9 | hand cards: Boros Charm(2); Mirari's Wake(5)
+Information: BOARD turn 40 (2nd Captain) | 2nd Captain | life 7 | hand 0 | lands 7 (2 untapped) | open mana 8 | commander Battlefield | creatures 6 (0 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3* x5 | hand cards: 
+Information: BOARD threat | turn 40 | Rin and Seri, Inseparable (Captain) 203; Mr. House, President and CEO (2nd Captain) 106; Goblin Bombardment (2nd Captain) 75; Indulgent Tormentor (Alec) 74; Caretaker's Talent (Captain) 56
+Phase: 2nd Captain's Untap step
+Phase: 2nd Captain's Upkeep step
+Phase: 2nd Captain's Draw step
+Phase: 2nd Captain's Main phase, precombat
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Add To Stack: 2nd Captain cast All That Glitters targeting [Mr. House, President and CEO (403)]
+Information: BOARD cast | All That Glitters (mv 2) by 2nd Captain | open mana: Alec 6, Captain 2
+Resolve Stack: All That Glitters (382) -  Attach to Mr. House, President and CEO (403)
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 6]
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Damage: Comet, Stellar Pup (383) deals 11 non-combat damage to Captain.
+Life: Life: Captain 29 > 18
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Add To Stack: 2nd Captain activated Comet, Stellar Pup
+Replacement Effect: If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.
+Damage: Comet, Stellar Pup (383) deals 9 non-combat damage to Captain.
+Life: Life: Captain 18 > 9
+Resolve Stack: Comet, Stellar Pup (383) - Roll a d6.
+Add To Stack: 2nd Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: 2nd Captain, Result: 4]
+Phase: 2nd Captain's Beginning of Combat Step
+Phase: 2nd Captain's Declare Attackers Step
+Combat: 2nd Captain assigned Mr. House, President and CEO (403), Robot Token (425), Robot Token (430) and Robot Token (437) to attack Alec.
+Information: BOARD attack | 2nd Captain -> Alec | attackers 4 (power 23) | defender life 7 | untapped creatures 1 (power 2): Elas il-Kor, Sadistic Pilgrim 2/2 | open mana 6
+Phase: 2nd Captain's Declare Blockers Step
+Combat: Alec didn't block Mr. House, President and CEO (403).
+Alec didn't block Robot Token (425).
+Alec didn't block Robot Token (430).
+Alec didn't block Robot Token (437).
+Phase: 2nd Captain's First Strike Damage Step
+Phase: 2nd Captain's Combat Damage Step
+Damage: Mr. House, President and CEO (403) deals 14 combat damage to Alec.
+Damage: Robot Token (425) deals 3 combat damage to Alec.
+Damage: Robot Token (430) deals 3 combat damage to Alec.
+Damage: Robot Token (437) deals 3 combat damage to Alec.
+Life: Life: Alec 7 > -16
+Phase: 2nd Captain's End of Combat Step
+Phase: 2nd Captain's Main phase, postcombat
+Zone Change: Robot Token (470) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Robot Token (470)]
+Phase: dev2nd Captain's Main phase, postcombat
+Zone Change: Robot Token (468) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Zone Change: Robot Token (465) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Mana: Canyon Slough (345) - {T}: Add {B}.
+Zone Change: Robot Token (444) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Zone Change: Robot Token (439) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Zone Change: Robot Token (437) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Zone Change: Robot Token (430) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Robot Token (430)]
+Zone Change: Robot Token (425) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 9 > 8
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Resolve Stack: Goblin Bombardment ability fizzles.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 8 > 7
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 7 > 6
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 6 > 5
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 5 > 4
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 4 > 3
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Resolve Stack: Goblin Bombardment ability fizzles.
+Phase: dev2nd Captain's Main phase, postcombat
+Phase: dev2nd Captain's Main phase, postcombat
+Zone Change: Mr. House, President and CEO (403) was put into Graveyard from Battlefield.
+Add To Stack: 2nd Captain activated Goblin Bombardment targeting [Captain]
+Zone Change: All That Glitters (382) was put into Graveyard from Battlefield.
+Damage: Goblin Bombardment (331) deals 1 non-combat damage to Captain.
+Life: Life: Captain 3 > 2
+Resolve Stack: Goblin Bombardment (331) - Goblin Bombardment (331) deals 1 damage to Captain.
+Phase: 2nd Captain's End step
+Phase: 2nd Captain's Cleanup step
+Turn: Turn 41 (Captain)
+Information: BOARD turn 41 (Captain) | Captain | life 2 | hand 2 | lands 9 (2 untapped) | open mana 2 | commander Battlefield | creatures 12 (10 untapped): Dog Token 3/3*; Rin and Seri, Inseparable 4/4*[Swiftfoot Boots,Basilisk Collar]; Ojer Taq, Deepest Foundation 6/6; Dog Token 3/3 x9 | hand cards: Boros Charm(2); Mirari's Wake(5)
+Information: BOARD turn 41 (Captain) | 2nd Captain | life 7 | hand 0 | lands 7 (4 untapped) | open mana 13 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD threat | turn 41 | Goblin Bombardment (2nd Captain) 242; Comet, Stellar Pup (2nd Captain) 208; Rin and Seri, Inseparable (Captain) 195; Caretaker's Talent (Captain) 54; Ojer Taq, Deepest Foundation (Captain) 33
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Mountain (284) - {T}: Add {R}.
+Mana: Forest (228) - {T}: Add {G}.
+Mana: Plains (296) - {T}: Add {W}.
+Add To Stack: Captain activated Rin and Seri, Inseparable targeting [2nd Captain]
+Land: 2nd Captain picked {B}
+Damage: Talisman of Hierarchy (318) deals 1 non-combat damage to 2nd Captain.
+Life: Life: 2nd Captain 7 > 6
+Mana: Talisman of Hierarchy (318) - {T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you. 
+Damage: Rin and Seri, Inseparable (302) deals 11 non-combat damage to 2nd Captain.
+Life: Life: Captain 2 > 13
+Life: Life: 2nd Captain 6 > -5
+Life: Life: Captain 13 > 14
+Resolve Stack: Rin and Seri, Inseparable (302) - Rin and Seri, Inseparable (302) deals 11 damage to 2nd Captain. Captain gains 1 life.
+Player Control: Dominic has restored control over themself
+Player Control: Alec has restored control over themself
+Player Control: Captain has restored control over themself
+Player Control: 2nd Captain has restored control over themself
+Game Outcome: Match Duration 1h : 12m : 34s
+Game Outcome: Turn 21
+Game Outcome: Dominic has conceded
+Game Outcome: Alec has lost because life total reached 0
+Game Outcome: Captain has won because all opponents have lost
+Game Outcome: 2nd Captain has lost because life total reached 0
+Match Result: Dominic: 0 Alec: 0 Captain: 1 2nd Captain: 0 
+
+Game Result: Captain has won

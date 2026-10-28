@@ -1,0 +1,23 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Achard (AI) deck=Mr House v4
+Player: Tabithi (AI) deck=Alec
+Player: Samot (AI) deck=Claudes Neyali
+Mulligan: Samot has mulliganed down to 7 cards.
+Mulligan: Achard has mulliganed down to 7 cards.
+Mulligan: Tabithi has mulliganed down to 7 cards.
+Mulligan: Achard has mulliganed down to 6 cards.
+Mulligan: Tabithi has mulliganed down to 6 cards.
+Mulligan: Tabithi has mulliganed down to 5 cards.
+Mulligan: Samot has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Achard has kept a hand of 6 cards
+Mulligan: Tabithi has kept a hand of 5 cards
+Turn: Turn 1 (Samot)
+Information: BOARD turn 1 (Samot) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Path of Ancestry(land); Deadly Dispute(2); Sulfurous Springs(land); The Meathook Massacre(2); Mount Doom(land); Breena, the Demagogue(3)
+Information: BOARD turn 1 (Samot) | Achard | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blood Crypt(land); Reanimate(1); Plains(land); Gamble(1); Arcane Signet(2); Terminate(2)
+Information: BOARD turn 1 (Samot) | Tabithi | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Chthonian Nightmare(2); Plains(land); Orzhov Signet(2); Fatal Push(1); Arcane Signet(2)
+Information: BOARD turn 1 (Samot) | Samot | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Mountain(land); Mountain(land); Sol Ring(1); Elspeth Tirel(5); Mountain(land)
+Phase: Samot's Untap step
+Phase: Samot's Upkeep step
+
+Game Result: unfinished (Forge closed mid-game)

@@ -1,0 +1,1335 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: DJ (HUMAN) deck=Mr House v4
+Player: CaptainPeen (HUMAN) deck=Rin and Seri
+Player: Alec (AI) deck=Alec
+Mulligan: DJ has kept a hand of 7 cards
+Mulligan: CaptainPeen has kept a hand of 7 cards
+Mulligan: Alec has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (DJ)
+Information: BOARD turn 1 (DJ) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4)
+Information: BOARD turn 1 (DJ) | DJ | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land); Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land)
+Information: BOARD turn 1 (DJ) | CaptainPeen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Forest(land); Dragonfire Blade(1); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Sol Ring(1)
+Information: BOARD turn 1 (DJ) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Plains(land); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: DJ played Godless Shrine (137)
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 2 (CaptainPeen)
+Information: BOARD turn 2 (CaptainPeen) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4)
+Information: BOARD turn 2 (CaptainPeen) | DJ | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Mountain(land)
+Information: BOARD turn 2 (CaptainPeen) | CaptainPeen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Forest(land); Dragonfire Blade(1); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Sol Ring(1)
+Information: BOARD turn 2 (CaptainPeen) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Plains(land); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Forest (241)
+Mana: Forest (241) - {T}: Add {G}.
+Add To Stack: CaptainPeen cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by CaptainPeen | open mana: Dominic 0, DJ 0, Alec 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Add To Stack: CaptainPeen cast Dragonfire Blade
+Information: BOARD cast | Dragonfire Blade (mv 1) by CaptainPeen | open mana: Dominic 0, DJ 0, Alec 0
+Resolve Stack: Dragonfire Blade
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 3 (Alec)
+Information: BOARD turn 3 (Alec) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4)
+Information: BOARD turn 3 (Alec) | DJ | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Mountain(land)
+Information: BOARD turn 3 (Alec) | CaptainPeen | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Kodama's Reach(3)
+Information: BOARD turn 3 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Plains(land); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (402)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4)
+Information: BOARD turn 4 (Dominic) | DJ | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Mountain(land)
+Information: BOARD turn 4 (Dominic) | CaptainPeen | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Kodama's Reach(3)
+Information: BOARD turn 4 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Isolated Chapel(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (75)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (DJ)
+Information: BOARD turn 5 (DJ) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 5 (DJ) | DJ | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Mountain(land)
+Information: BOARD turn 5 (DJ) | CaptainPeen | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Kodama's Reach(3)
+Information: BOARD turn 5 (DJ) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Isolated Chapel(land)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Land: DJ played Mountain (185)
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 6 (CaptainPeen)
+Information: BOARD turn 6 (CaptainPeen) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 6 (CaptainPeen) | DJ | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 6 (CaptainPeen) | CaptainPeen | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2); Kodama's Reach(3)
+Information: BOARD turn 6 (CaptainPeen) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Isolated Chapel(land)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Mana: Forest (241) - {T}: Add {G}.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Add To Stack: CaptainPeen cast Kodama's Reach
+Information: BOARD cast | Kodama's Reach (mv 3) by CaptainPeen | open mana: Dominic 1, DJ 2, Alec 1
+Resolve Stack: Kodama's Reach (297) - Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.   
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Replacement Effect: As Fortified Village enters, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters tapped.
+Land: CaptainPeen played Fortified Village (253)
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 7 (Alec)
+Information: BOARD turn 7 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 7 (Alec) | DJ | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 7 (Alec) | CaptainPeen | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2)
+Information: BOARD turn 7 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Orzhov Enforcer(2); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Isolated Chapel(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Alec played Isolated Chapel (348)
+Mana: Plains (402) - {T}: Add {W}.
+Land: Alec picked {B}
+Land: Alec picked {B}
+Land: Alec picked {B}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Add To Stack: Alec cast Orzhov Enforcer
+Information: BOARD cast | Orzhov Enforcer (mv 2) by Alec | open mana: Dominic 1, DJ 2, CaptainPeen 0
+Resolve Stack: Orzhov Enforcer - Creature 1 / 2
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 8 (Dominic) | DJ | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 8 (Dominic) | CaptainPeen | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2)
+Information: BOARD turn 8 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (76)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 9 (DJ)
+Information: BOARD turn 9 (DJ) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 9 (DJ) | DJ | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 9 (DJ) | CaptainPeen | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2)
+Information: BOARD turn 9 (DJ) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Plains(land)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: DJ played Windbrisk Heights (172)
+Add To Stack: DJ triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (172)]
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 10 (CaptainPeen)
+Information: BOARD turn 10 (CaptainPeen) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 10 (CaptainPeen) | DJ | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 10 (CaptainPeen) | CaptainPeen | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Release the Dogs(4); Patchwork Banner(3); Maskwood Nexus(4); Spirited Companion(2)
+Information: BOARD turn 10 (CaptainPeen) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Plains(land)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Reliquary Tower (265)
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Add To Stack: CaptainPeen cast Spirited Companion
+Information: BOARD cast | Spirited Companion (mv 2) by CaptainPeen | open mana: Dominic 2, DJ 2, Alec 0
+Resolve Stack: Spirited Companion - Creature 1 / 1
+Add To Stack: CaptainPeen triggered Spirited Companion
+Resolve Stack: When Spirited Companion enters, draw a card. [Zone Changer: Spirited Companion (213)]
+Mana: Forest (241) - {T}: Add {G}.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Add To Stack: CaptainPeen cast Patchwork Banner
+Information: BOARD cast | Patchwork Banner (mv 3) by CaptainPeen | open mana: Dominic 2, DJ 2, Alec 0
+Replacement Effect: As Patchwork Banner enters, choose a creature type.
+Resolve Stack: Patchwork Banner
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 11 (Alec)
+Information: BOARD turn 11 (Alec) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 11 (Alec) | DJ | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 11 (Alec) | CaptainPeen | life 40 | hand 3 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirited Companion 2/2 | hand cards: Release the Dogs(4); Maskwood Nexus(4); Plains(land)
+Information: BOARD turn 11 (Alec) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3); Plains(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (400)
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Plains (402) - {T}: Add {W}.
+Add To Stack: Alec cast Marble Diamond
+Information: BOARD cast | Marble Diamond (mv 2) by Alec | open mana: Dominic 2, DJ 2, CaptainPeen 1
+Replacement Effect: Marble Diamond enters tapped.
+Resolve Stack: Marble Diamond
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Exotic Orchard(land); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5)
+Information: BOARD turn 12 (Dominic) | DJ | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 12 (Dominic) | CaptainPeen | life 40 | hand 3 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirited Companion 2/2 | hand cards: Release the Dogs(4); Maskwood Nexus(4); Plains(land)
+Information: BOARD turn 12 (Dominic) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (37)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 13 (DJ)
+Information: BOARD turn 13 (DJ) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 13 (DJ) | DJ | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Ghostly Prison(3); Treasure Chest(3); Plains(land); Night Shift of the Living Dead(4)
+Information: BOARD turn 13 (DJ) | CaptainPeen | life 40 | hand 3 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirited Companion 2/2 | hand cards: Release the Dogs(4); Maskwood Nexus(4); Plains(land)
+Information: BOARD turn 13 (DJ) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Land: DJ played Plains (187)
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Add To Stack: DJ cast Ghostly Prison
+Information: BOARD cast | Ghostly Prison (mv 3) by DJ | open mana: Dominic 3, CaptainPeen 1, Alec 3
+Resolve Stack: Ghostly Prison
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 14 (CaptainPeen)
+Information: BOARD turn 14 (CaptainPeen) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 14 (CaptainPeen) | DJ | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); Deadbeat Attendant(2)
+Information: BOARD turn 14 (CaptainPeen) | CaptainPeen | life 40 | hand 3 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Spirited Companion 2/2 | hand cards: Release the Dogs(4); Maskwood Nexus(4); Plains(land)
+Information: BOARD turn 14 (CaptainPeen) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Plains (301)
+Mana: Plains (301) - {T}: Add {W}.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Land: Patchwork Banner (289) picked {W}
+Land: Patchwork Banner (289) picked {W}
+Land: Patchwork Banner (289) picked {W}
+Mana: Patchwork Banner (289) - {T}: Add one mana of any color.
+Add To Stack: CaptainPeen cast Release the Dogs
+Information: BOARD cast | Release the Dogs (mv 4) by CaptainPeen | open mana: Dominic 3, DJ 1, Alec 3
+Resolve Stack: Release the Dogs (276) - CaptainPeen creates four 1/1 white Dog creature tokens.
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 15 (Alec)
+Information: BOARD turn 15 (Alec) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 15 (Alec) | DJ | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); Deadbeat Attendant(2)
+Information: BOARD turn 15 (Alec) | CaptainPeen | life 40 | hand 2 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 5 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4 | hand cards: Maskwood Nexus(4); Felidar Retreat(4)
+Information: BOARD turn 15 (Alec) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Orzhov Enforcer 1/2 | hand cards: Swamp(land); Ashen Rider(8); Indulgent Tormentor(5); Orzhov Cluestone(3); Dutiful Attendant(3)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (366)
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Plains (402) - {T}: Add {W}.
+Mana: Swamp (366) - {T}: Add {B}.
+Add To Stack: Alec cast Orzhov Cluestone
+Information: BOARD cast | Orzhov Cluestone (mv 3) by Alec | open mana: Dominic 3, DJ 1, CaptainPeen 5
+Resolve Stack: Orzhov Cluestone
+Land: Alec picked {B}
+Land: Alec picked {B}
+Land: Alec picked {B}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Mana: Marble Diamond (324) - {T}: Add {W}.
+Land: Alec picked {B}
+Land: Alec picked {B}
+Land: Alec picked {B}
+Mana: Orzhov Cluestone (331) - {T}: Add {W} or {B}.
+Add To Stack: Alec cast Dutiful Attendant
+Information: BOARD cast | Dutiful Attendant (mv 3) by Alec | open mana: Dominic 3, DJ 1, CaptainPeen 5
+Resolve Stack: Dutiful Attendant - Creature 1 / 2
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Sigarda, Host of Herons(5); Plains(land)
+Information: BOARD turn 16 (Dominic) | DJ | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); Deadbeat Attendant(2)
+Information: BOARD turn 16 (Dominic) | CaptainPeen | life 40 | hand 2 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 5 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4 | hand cards: Maskwood Nexus(4); Felidar Retreat(4)
+Information: BOARD turn 16 (Dominic) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2 | hand cards: Ashen Rider(8); Indulgent Tormentor(5); Ob Nixilis, Unshackled(6)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Sigarda, Host of Herons (24).
+Turn: Turn 17 (DJ)
+Information: BOARD turn 17 (DJ) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Plains(land); Emeria, the Sky Ruin(land)
+Information: BOARD turn 17 (DJ) | DJ | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Academy Manufactor(3); Swamp(land); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); Deadbeat Attendant(2)
+Information: BOARD turn 17 (DJ) | CaptainPeen | life 40 | hand 2 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 5 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4 | hand cards: Maskwood Nexus(4); Felidar Retreat(4)
+Information: BOARD turn 17 (DJ) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2 | hand cards: Ashen Rider(8); Indulgent Tormentor(5); Ob Nixilis, Unshackled(6)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Land: DJ played Swamp (154)
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Windbrisk Heights (172) - {T}: Add {W}.
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Add To Stack: DJ cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by DJ | open mana: Dominic 3, CaptainPeen 5, Alec 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: DJ cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by DJ | open mana: Dominic 3, CaptainPeen 5, Alec 0
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: DJ triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (178)]
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 18 (CaptainPeen)
+Information: BOARD turn 18 (CaptainPeen) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Plains(land); Emeria, the Sky Ruin(land)
+Information: BOARD turn 18 (CaptainPeen) | DJ | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Academy Manufactor(3); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); The Deck of Many Things(5)
+Information: BOARD turn 18 (CaptainPeen) | CaptainPeen | life 40 | hand 2 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 5 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4 | hand cards: Maskwood Nexus(4); Felidar Retreat(4)
+Information: BOARD turn 18 (CaptainPeen) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2 | hand cards: Ashen Rider(8); Indulgent Tormentor(5); Ob Nixilis, Unshackled(6)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Forest (235)
+Mana: Forest (235) - {T}: Add {G}.
+Mana: Plains (301) - {T}: Add {W}.
+Land: Patchwork Banner (289) picked {R}
+Land: Patchwork Banner (289) picked {R}
+Land: Patchwork Banner (289) picked {R}
+Mana: Patchwork Banner (289) - {T}: Add one mana of any color.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Add To Stack: CaptainPeen cast Rin and Seri, Inseparable
+Information: BOARD cast | Rin and Seri, Inseparable (mv 4) by CaptainPeen | open mana: Dominic 3, DJ 0, Alec 0
+Resolve Stack: Rin and Seri, Inseparable - Creature 4 / 4
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Mana: Forest (241) - {T}: Add {G}.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Add To Stack: CaptainPeen cast Maskwood Nexus
+Information: BOARD cast | Maskwood Nexus (mv 4) by CaptainPeen | open mana: Dominic 3, DJ 0, Alec 0
+Resolve Stack: Maskwood Nexus
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Combat: CaptainPeen assigned Dog Token (420), Dog Token (419), Dog Token (418) and Dog Token (417) to attack Dominic.
+Information: BOARD attack | CaptainPeen -> Dominic | attackers 4 (power 8) | defender life 40 | untapped creatures 0 (power 0):  | open mana 3
+Phase: CaptainPeen's Declare Blockers Step
+Combat: Dominic didn't block Dog Token (420).
+Dominic didn't block Dog Token (419).
+Dominic didn't block Dog Token (418).
+Dominic didn't block Dog Token (417).
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Damage: Dog Token (420) deals 2 combat damage to Dominic.
+Damage: Dog Token (419) deals 2 combat damage to Dominic.
+Damage: Dog Token (418) deals 2 combat damage to Dominic.
+Damage: Dog Token (417) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 32
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 19 (Alec)
+Information: BOARD turn 19 (Alec) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Plains(land); Emeria, the Sky Ruin(land)
+Information: BOARD turn 19 (Alec) | DJ | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Academy Manufactor(3); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); The Deck of Many Things(5)
+Information: BOARD turn 19 (Alec) | CaptainPeen | life 40 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 2/2; Dog Token 2/2* x4; Rin and Seri, Inseparable 5/5 | hand cards: Felidar Retreat(4)
+Information: BOARD turn 19 (Alec) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2 | hand cards: Ashen Rider(8); Indulgent Tormentor(5); Ob Nixilis, Unshackled(6)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (377)
+Mana: Swamp (366) - {T}: Add {B}.
+Mana: Swamp (377) - {T}: Add {B}.
+Mana: Plains (402) - {T}: Add {W}.
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Marble Diamond (324) - {T}: Add {W}.
+Land: Alec picked {B}
+Land: Alec picked {B}
+Land: Alec picked {B}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Add To Stack: Alec cast Ob Nixilis, Unshackled
+Information: BOARD cast | Ob Nixilis, Unshackled (mv 6) by Alec | open mana: Dominic 3, DJ 0, CaptainPeen 0
+Resolve Stack: Ob Nixilis, Unshackled - Creature 4 / 4
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Plains(land); Emeria, the Sky Ruin(land)
+Information: BOARD turn 20 (Dominic) | DJ | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Academy Manufactor(3); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); The Deck of Many Things(5)
+Information: BOARD turn 20 (Dominic) | CaptainPeen | life 40 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 2/2; Dog Token 2/2* x4; Rin and Seri, Inseparable 5/5 | hand cards: Felidar Retreat(4)
+Information: BOARD turn 20 (Dominic) | Alec | life 40 | hand 2 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4 | hand cards: Ashen Rider(8); Indulgent Tormentor(5)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Plains (84).
+Turn: Turn 21 (DJ)
+Information: BOARD turn 21 (DJ) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2)
+Information: BOARD turn 21 (DJ) | DJ | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1 | hand cards: Academy Manufactor(3); Caves of Koilos(land); Treasure Chest(3); Night Shift of the Living Dead(4); The Deck of Many Things(5)
+Information: BOARD turn 21 (DJ) | CaptainPeen | life 40 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 2/2; Dog Token 2/2* x4; Rin and Seri, Inseparable 5/5 | hand cards: Felidar Retreat(4)
+Information: BOARD turn 21 (DJ) | Alec | life 40 | hand 2 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4 | hand cards: Ashen Rider(8); Indulgent Tormentor(5)
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Add To Stack: DJ triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: DJ, Result: 5]
+Land: DJ played Caves of Koilos (164)
+Phase: devDJ's Main phase, precombat
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: DJ cast Treasure Chest
+Information: BOARD cast | Treasure Chest (mv 3) by DJ | open mana: Dominic 3, CaptainPeen 0, Alec 3
+Resolve Stack: Treasure Chest
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Mana: Caves of Koilos (164) - {T}: Add {C}.
+Mana: Windbrisk Heights (172) - {T}: Add {W}.
+Add To Stack: DJ cast Academy Manufactor
+Information: BOARD cast | Academy Manufactor (mv 3) by DJ | open mana: Dominic 3, CaptainPeen 0, Alec 3
+Resolve Stack: Academy Manufactor - Creature 1 / 3
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 22 (CaptainPeen)
+Information: BOARD turn 22 (CaptainPeen) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2)
+Information: BOARD turn 22 (CaptainPeen) | DJ | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3; Academy Manufactor 1/3 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4)
+Information: BOARD turn 22 (CaptainPeen) | CaptainPeen | life 40 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Spirited Companion 2/2; Dog Token 2/2* x4; Rin and Seri, Inseparable 5/5 | hand cards: Felidar Retreat(4)
+Information: BOARD turn 22 (CaptainPeen) | Alec | life 40 | hand 2 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4 | hand cards: Ashen Rider(8); Indulgent Tormentor(5)
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Mountain (291)
+Mana: Forest (235) - {T}: Add {G}.
+Mana: Plains (301) - {T}: Add {W}.
+Mana: Mountain (291) - {T}: Add {R}.
+Add To Stack: CaptainPeen activated Rin and Seri, Inseparable targeting [Alec]
+Damage: Rin and Seri, Inseparable (312) deals 6 non-combat damage to Alec.
+Life: Life: Alec 40 > 34
+Life: Life: CaptainPeen 40 > 46
+Resolve Stack: Rin and Seri, Inseparable (312) - Rin and Seri, Inseparable (312) deals 6 damage to Alec. CaptainPeen gains 6 life.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Land: Patchwork Banner (289) picked {W}
+Land: Patchwork Banner (289) picked {W}
+Land: Patchwork Banner (289) picked {W}
+Mana: Patchwork Banner (289) - {T}: Add one mana of any color.
+Add To Stack: CaptainPeen cast Felidar Retreat
+Information: BOARD cast | Felidar Retreat (mv 4) by CaptainPeen | open mana: Dominic 3, DJ 0, Alec 3
+Resolve Stack: Felidar Retreat
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 23 (Alec)
+Information: BOARD turn 23 (Alec) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2)
+Information: BOARD turn 23 (Alec) | DJ | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3; Academy Manufactor 1/3 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4)
+Information: BOARD turn 23 (Alec) | CaptainPeen | life 46 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5* | hand cards: 
+Information: BOARD turn 23 (Alec) | Alec | life 34 | hand 2 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4 | hand cards: Ashen Rider(8); Indulgent Tormentor(5)
+Information: BOARD threat | turn 23 | Rin and Seri, Inseparable (CaptainPeen) 49
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (368)
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Swamp (368) - {T}: Add {B}.
+Mana: Swamp (377) - {T}: Add {B}.
+Add To Stack: Alec cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Alec | open mana: Dominic 3, DJ 0, CaptainPeen 4
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Mana: Swamp (366) - {T}: Add {B}.
+Land: Alec picked {B}
+Land: Alec picked {B}
+Land: Alec picked {B}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Mana: Plains (402) - {T}: Add {W}.
+Mana: Marble Diamond (324) - {T}: Add {W}.
+Land: Alec picked {W}
+Land: Alec picked {W}
+Land: Alec picked {W}
+Mana: Orzhov Cluestone (331) - {T}: Add {W} or {B}.
+Add To Stack: Alec cast Indulgent Tormentor
+Information: BOARD cast | Indulgent Tormentor (mv 5) by Alec | open mana: Dominic 3, DJ 0, CaptainPeen 4
+Resolve Stack: Indulgent Tormentor - Creature 5 / 3
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Ob Nixilis, Unshackled (395) to attack CaptainPeen.
+Information: BOARD attack | Alec -> CaptainPeen | attackers 1 (power 4) | defender life 46 | untapped creatures 5 (power 10): Spirited Companion 2/2; Dog Token 2/2 x4 | open mana 4
+Phase: Alec's Declare Blockers Step
+Combat: CaptainPeen didn't block Ob Nixilis, Unshackled (395).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Ob Nixilis, Unshackled (395) deals 4 combat damage to CaptainPeen.
+Life: Life: CaptainPeen 46 > 42
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 32 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Plains(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2)
+Information: BOARD turn 24 (Dominic) | DJ | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3; Academy Manufactor 1/3 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4)
+Information: BOARD turn 24 (Dominic) | CaptainPeen | life 42 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5* | hand cards: 
+Information: BOARD turn 24 (Dominic) | Alec | life 34 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4; Indulgent Tormentor 5/3 | hand cards: Ashen Rider(8)
+Information: BOARD threat | turn 24 | Rin and Seri, Inseparable (CaptainPeen) 47
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (72)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 25 (DJ)
+Information: BOARD turn 25 (DJ) | Dominic | life 32 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3)
+Information: BOARD turn 25 (DJ) | DJ | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3; Academy Manufactor 1/3 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4)
+Information: BOARD turn 25 (DJ) | CaptainPeen | life 42 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5* | hand cards: 
+Information: BOARD turn 25 (DJ) | Alec | life 34 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4; Indulgent Tormentor 5/3 | hand cards: Ashen Rider(8)
+Information: BOARD threat | turn 25 | Rin and Seri, Inseparable (CaptainPeen) 45
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Add To Stack: DJ triggered Balloon Stand
+Add To Stack: DJ triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: DJ, Result: 6]
+Resolve Stack: Visit — Choose one —
+• Create a 1/1 red Balloon creature token with flying.
+• Sacrifice a Balloon. If you do, target creature gains flying until end of turn. [Player: DJ]
+Land: DJ played Plains (188)
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Zone Change: Treasure Chest (158) was put into Graveyard from Battlefield.
+Add To Stack: DJ activated Treasure Chest
+Life: Life: DJ 40 > 43
+Resolve Stack: Treasure Chest (158) - Roll a d20.
+Add To Stack: DJ triggered Mr. House, President and CEO
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: DJ, Result: 16]
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 26 (CaptainPeen)
+Information: BOARD turn 26 (CaptainPeen) | Dominic | life 32 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3)
+Information: BOARD turn 26 (CaptainPeen) | DJ | life 43 | hand 6 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4); Reanimate(1); Blightstep Pathway(land); Mountain(land)
+Information: BOARD turn 26 (CaptainPeen) | CaptainPeen | life 42 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 6 (5 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5* | hand cards: 
+Information: BOARD turn 26 (CaptainPeen) | Alec | life 34 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4; Indulgent Tormentor 5/3 | hand cards: Ashen Rider(8)
+Information: BOARD threat | turn 26 | Rin and Seri, Inseparable (CaptainPeen) 43; Mr. House, President and CEO (DJ) 41
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Add To Stack: CaptainPeen cast Chromatic Lantern
+Information: BOARD cast | Chromatic Lantern (mv 3) by CaptainPeen | open mana: Dominic 4, DJ 7, Alec 0
+Resolve Stack: Chromatic Lantern
+Land: Chromatic Lantern (310) picked {U}
+Land: Chromatic Lantern (310) picked {U}
+Land: Chromatic Lantern (310) picked {U}
+Mana: Chromatic Lantern (310) - {T}: Add one mana of any color.
+Land: Patchwork Banner (289) picked {B}
+Land: Patchwork Banner (289) picked {B}
+Land: Patchwork Banner (289) picked {B}
+Mana: Patchwork Banner (289) - {T}: Add one mana of any color.
+Land: Plains (301) picked {B}
+Land: Plains (301) picked {B}
+Land: Plains (301) picked {B}
+Mana: Plains (301) - {T}: Add one mana of any color.
+Add To Stack: CaptainPeen activated Maskwood Nexus
+Resolve Stack: Maskwood Nexus (214) - CaptainPeen creates a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)
+Mana: Forest (235) - {T}: Add {G}.
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Mana: Mountain (291) - {T}: Add {R}.
+Add To Stack: CaptainPeen activated Rin and Seri, Inseparable targeting [DJ]
+Damage: Rin and Seri, Inseparable (312) deals 7 non-combat damage to DJ.
+Life: Life: DJ 43 > 36
+Life: Life: CaptainPeen 42 > 49
+Resolve Stack: Rin and Seri, Inseparable (312) - Rin and Seri, Inseparable (312) deals 7 damage to DJ. CaptainPeen gains 7 life.
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 27 (Alec)
+Information: BOARD turn 27 (Alec) | Dominic | life 32 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3)
+Information: BOARD turn 27 (Alec) | DJ | life 36 | hand 6 | lands 7 (3 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4); Reanimate(1); Blightstep Pathway(land); Mountain(land)
+Information: BOARD turn 27 (Alec) | CaptainPeen | life 49 | hand 0 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5*; Shapeshifter Token 3/3 | hand cards: 
+Information: BOARD turn 27 (Alec) | Alec | life 34 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4; Indulgent Tormentor 5/3 | hand cards: Ashen Rider(8)
+Information: BOARD threat | turn 27 | Rin and Seri, Inseparable (CaptainPeen) 96; Mr. House, President and CEO (DJ) 39
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Athreos, God of Passage (413), Indulgent Tormentor (356) and Ob Nixilis, Unshackled (395) to attack CaptainPeen.
+Information: BOARD attack | Alec -> CaptainPeen | attackers 3 (power 14) | defender life 49 | untapped creatures 6 (power 13): Spirited Companion 2/2; Dog Token 2/2 x4; Shapeshifter Token 3/3 | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: CaptainPeen didn't block Athreos, God of Passage (413).
+CaptainPeen didn't block Indulgent Tormentor (356).
+CaptainPeen didn't block Ob Nixilis, Unshackled (395).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Athreos, God of Passage (413) deals 5 combat damage to CaptainPeen.
+Damage: Indulgent Tormentor (356) deals 5 combat damage to CaptainPeen.
+Damage: Ob Nixilis, Unshackled (395) deals 4 combat damage to CaptainPeen.
+Life: Life: CaptainPeen 49 > 35
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Land: Alec played Plains (405)
+Mana: Swamp (366) - {T}: Add {B}.
+Mana: Swamp (377) - {T}: Add {B}.
+Mana: Plains (402) - {T}: Add {W}.
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Marble Diamond (324) - {T}: Add {W}.
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Swamp (368) - {T}: Add {B}.
+Land: Alec picked {W}
+Land: Alec picked {W}
+Land: Alec picked {W}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Add To Stack: Alec cast Ashen Rider
+Information: BOARD cast | Ashen Rider (mv 8) by Alec | open mana: Dominic 4, DJ 7, CaptainPeen 1
+Resolve Stack: Ashen Rider - Creature 5 / 5
+Add To Stack: Alec triggered Ashen Rider targeting [Mr. House, President and CEO (201)]
+Zone Change: Mr. House, President and CEO (201) was put into Exile from Battlefield.
+Resolve Stack: When Ashen Rider enters or dies, exile target permanent. (Targeting: [[Mr. House, President and CEO (201)]]) [Zone Changer: Ashen Rider (336)]
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 32 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Plains(land); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3)
+Information: BOARD turn 28 (Dominic) | DJ | life 36 | hand 6 | lands 7 (3 untapped) | open mana 7 | commander Command | creatures 6 (6 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4); Reanimate(1); Blightstep Pathway(land); Mountain(land)
+Information: BOARD turn 28 (Dominic) | CaptainPeen | life 35 | hand 0 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5*; Shapeshifter Token 3/3 | hand cards: 
+Information: BOARD turn 28 (Dominic) | Alec | life 34 | hand 0 | lands 7 (0 untapped) | open mana 3 | commander Battlefield | creatures 6 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5 | hand cards: 
+Information: BOARD threat | turn 28 | Rin and Seri, Inseparable (CaptainPeen) 92; Ob Nixilis, Unshackled (Alec) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (90)
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: DJ 7, CaptainPeen 1, Alec 3
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Mana: Caves of Koilos (164) - {T}: Add {C}.
+Zone Change: Clue Token (440) was put into Graveyard from Battlefield.
+Add To Stack: DJ activated Clue Token
+Resolve Stack: Clue Token (440) - DJ draws a card.
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 29 (DJ)
+Information: BOARD turn 29 (DJ) | Dominic | life 32 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 29 (DJ) | DJ | life 36 | hand 7 | lands 7 (1 untapped) | open mana 3 | commander Command | creatures 6 (6 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 | hand cards: The Deck of Many Things(5); Ingenious Artillerist(3); Night Shift of the Living Dead(4); Reanimate(1); Blightstep Pathway(land); Mountain(land); Haunted Ridge(land)
+Information: BOARD turn 29 (DJ) | CaptainPeen | life 35 | hand 0 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5*; Shapeshifter Token 3/3 | hand cards: 
+Information: BOARD turn 29 (DJ) | Alec | life 34 | hand 0 | lands 7 (0 untapped) | open mana 3 | commander Battlefield | creatures 6 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5 | hand cards: 
+Information: BOARD threat | turn 29 | Rin and Seri, Inseparable (CaptainPeen) 89; Ob Nixilis, Unshackled (Alec) 41
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Land: DJ played Mountain (184)
+Mana: Mountain (184) - {T}: Add {R}.
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Windbrisk Heights (172) - {T}: Add {W}.
+Add To Stack: DJ cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by DJ | open mana: Dominic 0, CaptainPeen 1, Alec 3
+Resolve Stack: The Deck of Many Things
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: DJ cast Reanimate targeting [Sigarda, Host of Herons (24)]
+Information: BOARD cast | Reanimate (mv 1) by DJ | open mana: Dominic 0, CaptainPeen 1, Alec 3
+Life: Life: DJ 36 > 31
+Resolve Stack: Reanimate (148) - Return Sigarda, Host of Herons (24) from the graveyard to the battlefield under your control. DJ loses 5 life.
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 30 (CaptainPeen)
+Information: BOARD turn 30 (CaptainPeen) | Dominic | life 32 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 30 (CaptainPeen) | DJ | life 31 | hand 5 | lands 8 (2 untapped) | open mana 6 | commander Command | creatures 7 (7 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Ingenious Artillerist(3); Night Shift of the Living Dead(4); Blightstep Pathway(land); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 30 (CaptainPeen) | CaptainPeen | life 35 | hand 0 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (6 untapped): Spirited Companion 2/2; Dog Token 2/2 x4; Rin and Seri, Inseparable 5/5*; Shapeshifter Token 3/3 | hand cards: 
+Information: BOARD turn 30 (CaptainPeen) | Alec | life 34 | hand 0 | lands 7 (0 untapped) | open mana 3 | commander Battlefield | creatures 6 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5 | hand cards: 
+Information: BOARD threat | turn 30 | Rin and Seri, Inseparable (CaptainPeen) 85; Ob Nixilis, Unshackled (Alec) 39
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Mana: Forest (235) - {T}: Add {G}.
+Mana: Plains (301) - {T}: Add {W}.
+Add To Stack: CaptainPeen cast Faithful Watchdog
+Information: BOARD cast | Faithful Watchdog (mv 2) by CaptainPeen | open mana: Dominic 0, DJ 6, Alec 3
+Add To Stack: CaptainPeen triggered Rin and Seri, Inseparable
+Add To Stack: CaptainPeen triggered Rin and Seri, Inseparable
+Resolve Stack: Whenever you cast a Dog spell, create a 1/1 green Cat creature token. [Card: Faithful Watchdog (264), Activator: CaptainPeen, SpellAbility: Faithful Watchdog - Creature 0 / 0]
+Resolve Stack: Whenever you cast a Cat spell, create a 1/1 white Dog creature token. [Card: Faithful Watchdog (264), Activator: CaptainPeen, SpellAbility: Faithful Watchdog - Creature 0 / 0]
+Replacement Effect: Faithful Watchdog enters with three +1/+1 counters on it.
+Resolve Stack: Faithful Watchdog - Creature 0 / 0
+Mana: Mountain (291) - {T}: Add {R}.
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Mana: Forest (241) - {T}: Add {G}.
+Add To Stack: CaptainPeen activated Rin and Seri, Inseparable targeting [Dominic]
+Damage: Rin and Seri, Inseparable (312) deals 10 non-combat damage to Dominic.
+Life: Life: Dominic 32 > 22
+Life: Life: CaptainPeen 35 > 45
+Resolve Stack: Rin and Seri, Inseparable (312) - Rin and Seri, Inseparable (312) deals 10 damage to Dominic. CaptainPeen gains 10 life.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Add To Stack: CaptainPeen activated Dragonfire Blade targeting [Rin and Seri, Inseparable (312)]
+Resolve Stack: Dragonfire Blade (282) -  Attach to Rin and Seri, Inseparable (312)
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Phase: CaptainPeen's Declare Blockers Step
+Phase: CaptainPeen's First Strike Damage Step
+Phase: CaptainPeen's Combat Damage Step
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 31 (Alec)
+Information: BOARD turn 31 (Alec) | Dominic | life 22 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 31 (Alec) | DJ | life 31 | hand 5 | lands 8 (2 untapped) | open mana 6 | commander Command | creatures 7 (7 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Ingenious Artillerist(3); Night Shift of the Living Dead(4); Blightstep Pathway(land); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 31 (Alec) | CaptainPeen | life 45 | hand 0 | lands 6 (0 untapped) | open mana 4 | commander Battlefield | creatures 10 (9 untapped): Spirited Companion 2/2; Dog Token 2/2 x5; Rin and Seri, Inseparable 7/7*[Dragonfire Blade]; Shapeshifter Token 3/3; Cat Token 2/2; Faithful Watchdog 4/4 | hand cards: 
+Information: BOARD turn 31 (Alec) | Alec | life 34 | hand 0 | lands 7 (0 untapped) | open mana 3 | commander Battlefield | creatures 6 (3 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5 | hand cards: 
+Information: BOARD threat | turn 31 | Rin and Seri, Inseparable (CaptainPeen) 183; Ob Nixilis, Unshackled (Alec) 38
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [Dominic]
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Dominic]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (402) - {T}: Add {W}.
+Mana: Plains (400) - {T}: Add {W}.
+Mana: Marble Diamond (324) - {T}: Add {W}.
+Mana: Plains (405) - {T}: Add {W}.
+Mana: Swamp (366) - {T}: Add {B}.
+Add To Stack: Alec cast Divinity of Pride
+Information: BOARD cast | Divinity of Pride (mv 5) by Alec | open mana: Dominic 0, DJ 6, CaptainPeen 4
+Land: Chromatic Lantern (310) picked {W}
+Land: Chromatic Lantern (310) picked {W}
+Mana: Chromatic Lantern (310) - {T}: Add one mana of any color.
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Add To Stack: CaptainPeen activated Maskwood Nexus
+Resolve Stack: Maskwood Nexus (214) - CaptainPeen creates a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)
+Resolve Stack: Divinity of Pride - Creature 4 / 4
+Land: Alec picked {W}
+Land: Alec picked {W}
+Land: Alec picked {W}
+Mana: Isolated Chapel (348) - {T}: Add {W} or {B}.
+Mana: Swamp (377) - {T}: Add {B}.
+Add To Stack: Alec cast Elas il-Kor, Sadistic Pilgrim
+Information: BOARD cast | Elas il-Kor, Sadistic Pilgrim (mv 2) by Alec | open mana: Dominic 0, DJ 6, CaptainPeen 1
+Resolve Stack: Elas il-Kor, Sadistic Pilgrim - Creature 2 / 2
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Athreos, God of Passage (413), Indulgent Tormentor (356), Ashen Rider (336) and Ob Nixilis, Unshackled (395) to attack CaptainPeen.
+Information: BOARD attack | Alec -> CaptainPeen | attackers 4 (power 19) | defender life 45 | untapped creatures 10 (power 24): Spirited Companion 2/2; Dog Token 2/2 x5; Shapeshifter Token 3/3 x2; Cat Token 2/2; Faithful Watchdog 4/4 | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: CaptainPeen didn't block Athreos, God of Passage (413).
+CaptainPeen didn't block Indulgent Tormentor (356).
+CaptainPeen didn't block Ashen Rider (336).
+CaptainPeen didn't block Ob Nixilis, Unshackled (395).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Athreos, God of Passage (413) deals 5 combat damage to CaptainPeen.
+Damage: Indulgent Tormentor (356) deals 5 combat damage to CaptainPeen.
+Damage: Ashen Rider (336) deals 5 combat damage to CaptainPeen.
+Damage: Ob Nixilis, Unshackled (395) deals 4 combat damage to CaptainPeen.
+Life: Life: CaptainPeen 45 > 26
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 32 (Dominic)
+Information: BOARD turn 32 (Dominic) | Dominic | life 22 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 32 (Dominic) | DJ | life 31 | hand 5 | lands 8 (2 untapped) | open mana 6 | commander Command | creatures 7 (7 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Ingenious Artillerist(3); Night Shift of the Living Dead(4); Blightstep Pathway(land); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 32 (Dominic) | CaptainPeen | life 26 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 11 (10 untapped): Spirited Companion 2/2; Dog Token 2/2 x5; Rin and Seri, Inseparable 7/7*[Dragonfire Blade]; Shapeshifter Token 3/3 x2; Cat Token 2/2; Faithful Watchdog 4/4 | hand cards: 
+Information: BOARD turn 32 (Dominic) | Alec | life 34 | hand 0 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 8 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 8/8; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: 
+Information: BOARD threat | turn 32 | Rin and Seri, Inseparable (CaptainPeen) 175; Indulgent Tormentor (Alec) 68; Ob Nixilis, Unshackled (Alec) 59; Athreos, God of Passage (Alec) 53; Ashen Rider (Alec) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Seluma, Light of Aysen (100) to attack CaptainPeen.
+Information: BOARD attack | Dominic -> CaptainPeen | attackers 1 (power 4) | defender life 26 | untapped creatures 10 (power 24): Spirited Companion 2/2; Dog Token 2/2 x5; Shapeshifter Token 3/3 x2; Cat Token 2/2; Faithful Watchdog 4/4 | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: CaptainPeen didn't block Seluma, Light of Aysen (100).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to CaptainPeen.
+Life: Life: CaptainPeen 26 > 22
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Sephara, Sky's Blade (27).
+Turn: Turn 33 (DJ)
+Information: BOARD turn 33 (DJ) | Dominic | life 22 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Seluma, Light of Aysen 4/4* | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Plains(land)
+Information: BOARD turn 33 (DJ) | DJ | life 31 | hand 5 | lands 8 (2 untapped) | open mana 6 | commander Command | creatures 7 (7 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Ingenious Artillerist(3); Night Shift of the Living Dead(4); Blightstep Pathway(land); Haunted Ridge(land); Blood Crypt(land)
+Information: BOARD turn 33 (DJ) | CaptainPeen | life 22 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 11 (10 untapped): Spirited Companion 2/2; Dog Token 2/2 x5; Rin and Seri, Inseparable 7/7*[Dragonfire Blade]; Shapeshifter Token 3/3 x2; Cat Token 2/2; Faithful Watchdog 4/4 | hand cards: 
+Information: BOARD turn 33 (DJ) | Alec | life 34 | hand 0 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 8 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 8/8; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: 
+Information: BOARD threat | turn 33 | Rin and Seri, Inseparable (CaptainPeen) 168; Indulgent Tormentor (Alec) 65; Ob Nixilis, Unshackled (Alec) 57; Athreos, God of Passage (Alec) 51; Ashen Rider (Alec) 39
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Add To Stack: DJ triggered Balloon Stand
+Resolve Stack: Visit — Choose one —
+• Create a 1/1 red Balloon creature token with flying.
+• Sacrifice a Balloon. If you do, target creature gains flying until end of turn. [Player: DJ]
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: DJ played Haunted Ridge (182)
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Mountain (184) - {T}: Add {R}.
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Add To Stack: DJ cast Ingenious Artillerist
+Information: BOARD cast | Ingenious Artillerist (mv 3) by DJ | open mana: Dominic 5, CaptainPeen 1, Alec 4
+Resolve Stack: Ingenious Artillerist - Creature 3 / 1
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Phase: DJ's Declare Blockers Step
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 34 (CaptainPeen)
+Information: BOARD turn 34 (CaptainPeen) | Dominic | life 22 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (0 untapped): Seluma, Light of Aysen 4/4* | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Teferi's Protection(3); Plains(land)
+Information: BOARD turn 34 (CaptainPeen) | DJ | life 31 | hand 4 | lands 9 (6 untapped) | open mana 12 | commander Command | creatures 9 (9 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 x2; Sigarda, Host of Herons 5/5; Ingenious Artillerist 3/1 | hand cards: Night Shift of the Living Dead(4); Blightstep Pathway(land); Blood Crypt(land); Swamp(land)
+Information: BOARD turn 34 (CaptainPeen) | CaptainPeen | life 22 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 11 (10 untapped): Spirited Companion 2/2; Dog Token 2/2 x5; Rin and Seri, Inseparable 7/7*[Dragonfire Blade]; Shapeshifter Token 3/3 x2; Cat Token 2/2; Faithful Watchdog 4/4 | hand cards: 
+Information: BOARD turn 34 (CaptainPeen) | Alec | life 34 | hand 0 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 8 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 8/8; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: 
+Information: BOARD threat | turn 34 | Rin and Seri, Inseparable (CaptainPeen) 162; Indulgent Tormentor (Alec) 62; Ob Nixilis, Unshackled (Alec) 55; Athreos, God of Passage (Alec) 49; Ashen Rider (Alec) 38
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Mana: Forest (235) - {T}: Add {G}.
+Mana: Plains (301) - {T}: Add {W}.
+Mana: Mountain (291) - {T}: Add {R}.
+Add To Stack: CaptainPeen cast Jetmir, Nexus of Revels
+Information: BOARD cast | Jetmir, Nexus of Revels (mv 4) by CaptainPeen | open mana: Dominic 5, DJ 12, Alec 4
+Add To Stack: CaptainPeen triggered Rin and Seri, Inseparable
+Add To Stack: CaptainPeen triggered Rin and Seri, Inseparable
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: DJ activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (200) - Roll a d20.
+Resolve Stack: Whenever you cast a Dog spell, create a 1/1 green Cat creature token. [Card: Jetmir, Nexus of Revels (229), Activator: CaptainPeen, SpellAbility: Jetmir, Nexus of Revels - Creature 5 / 4]
+Resolve Stack: Whenever you cast a Cat spell, create a 1/1 white Dog creature token. [Card: Jetmir, Nexus of Revels (229), Activator: CaptainPeen, SpellAbility: Jetmir, Nexus of Revels - Creature 5 / 4]
+Resolve Stack: Jetmir, Nexus of Revels - Creature 5 / 4
+Mana: Forest (241) - {T}: Add {G}.
+Land: CaptainPeen picked {W}
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Land: Chromatic Lantern (310) picked {R}
+Land: Chromatic Lantern (310) picked {R}
+Mana: Chromatic Lantern (310) - {T}: Add one mana of any color.
+Add To Stack: CaptainPeen activated Rin and Seri, Inseparable targeting [Alec]
+Damage: Rin and Seri, Inseparable (312) deals 14 non-combat damage to Alec.
+Life: Life: Alec 34 > 20
+Life: Life: CaptainPeen 22 > 36
+Resolve Stack: Rin and Seri, Inseparable (312) - Rin and Seri, Inseparable (312) deals 14 damage to Alec. CaptainPeen gains 14 life.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: DJ picked {B}
+Land: DJ picked {B}
+Mana: Haunted Ridge (182) - {T}: Add {B} or {R}.
+Zone Change: Clue Token (429) was put into Graveyard from Battlefield.
+Add To Stack: DJ activated Clue Token
+Resolve Stack: Clue Token (429) - DJ draws a card.
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Combat: CaptainPeen assigned Dog Token (417), Dog Token (418), Dog Token (419), Dog Token (420), Shapeshifter Token (450), Shapeshifter Token (444), Cat Token (446), Dog Token (448) and Spirited Companion (213) to attack Dominic.
+Information: BOARD attack | CaptainPeen -> Dominic | attackers 9 (power 47) | defender life 22 | untapped creatures 0 (power 0):  | open mana 5
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Add To Stack: Dominic cast Teferi's Protection
+Information: BOARD cast | Teferi's Protection (mv 3) by Dominic | open mana: DJ 6, CaptainPeen 3, Alec 4
+Resolve Stack: Teferi's Protection (32) - Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.) Exile Teferi's Protection. Dominic gains protection from everything until end of turn.  phase out. Exile Teferi's Protection (32).
+Phase: CaptainPeen's Declare Blockers Step
+Combat: Dominic didn't block Dog Token (417).
+Dominic didn't block Dog Token (418).
+Dominic didn't block Dog Token (419).
+Dominic didn't block Dog Token (420).
+Dominic didn't block Shapeshifter Token (450).
+Dominic didn't block Shapeshifter Token (444).
+Dominic didn't block Cat Token (446).
+Dominic didn't block Dog Token (448).
+Dominic didn't block Spirited Companion (213).
+Phase: CaptainPeen's First Strike Damage Step
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Phase: CaptainPeen's Combat Damage Step
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Phase: CaptainPeen's End of Combat Step
+Phase: CaptainPeen's Main phase, postcombat
+Phase: CaptainPeen's End step
+Phase: CaptainPeen's Cleanup step
+Turn: Turn 35 (Alec)
+Information: BOARD turn 35 (Alec) | Dominic | life 22 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Plains(land)
+Information: BOARD turn 35 (Alec) | DJ | life 31 | hand 6 | lands 9 (2 untapped) | open mana 6 | commander Command | creatures 9 (9 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 x2; Sigarda, Host of Herons 5/5; Ingenious Artillerist 3/1 | hand cards: Night Shift of the Living Dead(4); Blightstep Pathway(land); Blood Crypt(land); Swamp(land); Treasure Chest(3); Pitiless Plunderer(4)
+Information: BOARD turn 35 (Alec) | CaptainPeen | life 36 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 14 (13 untapped): Spirited Companion 5/2; Dog Token 5/2 x6; Rin and Seri, Inseparable 10/7*[Dragonfire Blade]; Shapeshifter Token 6/3 x2; Cat Token 5/2 x2; Faithful Watchdog 7/4; Jetmir, Nexus of Revels 9/5 | hand cards: 
+Information: BOARD turn 35 (Alec) | Alec | life 20 | hand 0 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 8 (4 untapped): Orzhov Enforcer 1/2; Dutiful Attendant 1/2; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 4/4; Elas il-Kor, Sadistic Pilgrim 2/2 | hand cards: 
+Information: BOARD threat | turn 35 | Rin and Seri, Inseparable (CaptainPeen) 279; Indulgent Tormentor (Alec) 60; Ob Nixilis, Unshackled (Alec) 52; Athreos, God of Passage (Alec) 47; Ashen Rider (Alec) 36
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Indulgent Tormentor targeting [DJ]
+Life: Life: DJ 31 > 28
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[DJ]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Orzhov Enforcer (321), Dutiful Attendant (327), Ob Nixilis, Unshackled (395), Athreos, God of Passage (413), Indulgent Tormentor (356), Ashen Rider (336), Divinity of Pride (351) and Elas il-Kor, Sadistic Pilgrim (347) to attack Dominic.
+Information: BOARD attack | Alec -> Dominic | attackers 8 (power 27) | defender life 22 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Alec's Declare Blockers Step
+Combat: Dominic didn't block Orzhov Enforcer (321).
+Dominic didn't block Dutiful Attendant (327).
+Dominic didn't block Ob Nixilis, Unshackled (395).
+Dominic didn't block Athreos, God of Passage (413).
+Dominic didn't block Indulgent Tormentor (356).
+Dominic didn't block Ashen Rider (336).
+Dominic didn't block Divinity of Pride (351).
+Dominic didn't block Elas il-Kor, Sadistic Pilgrim (347).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 36 (Dominic)
+Information: BOARD turn 36 (Dominic) | Dominic | life 22 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Sevinne's Reclamation(3); Island(land); Quicksilver Amulet(4); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Plains(land)
+Information: BOARD turn 36 (Dominic) | DJ | life 28 | hand 6 | lands 9 (2 untapped) | open mana 6 | commander Command | creatures 9 (9 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 x2; Sigarda, Host of Herons 5/5; Ingenious Artillerist 3/1 | hand cards: Night Shift of the Living Dead(4); Blightstep Pathway(land); Blood Crypt(land); Swamp(land); Treasure Chest(3); Pitiless Plunderer(4)
+Information: BOARD turn 36 (Dominic) | CaptainPeen | life 36 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 14 (13 untapped): Spirited Companion 5/2; Dog Token 5/2 x6; Rin and Seri, Inseparable 10/7*[Dragonfire Blade]; Shapeshifter Token 6/3 x2; Cat Token 5/2 x2; Faithful Watchdog 7/4; Jetmir, Nexus of Revels 9/5 | hand cards: 
+Information: BOARD turn 36 (Dominic) | Alec | life 20 | hand 1 | lands 7 (7 untapped) | open mana 13 | commander Battlefield | creatures 8 (0 untapped): Orzhov Enforcer 1/2*; Dutiful Attendant 1/2*; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 4/4*; Elas il-Kor, Sadistic Pilgrim 2/2* | hand cards: Orzhov Signet(2)
+Information: BOARD threat | turn 36 | Rin and Seri, Inseparable (CaptainPeen) 268; Indulgent Tormentor (Alec) 72; Ob Nixilis, Unshackled (Alec) 50; Athreos, God of Passage (Alec) 45; Ashen Rider (Alec) 35
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (71)
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (72) - {T}: Add {W}.
+Add To Stack: Dominic cast Quicksilver Amulet
+Information: BOARD cast | Quicksilver Amulet (mv 4) by Dominic | open mana: DJ 6, CaptainPeen 3, Alec 13
+Resolve Stack: Quicksilver Amulet
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Seluma, Light of Aysen (100) to attack CaptainPeen.
+Information: BOARD attack | Dominic -> CaptainPeen | attackers 1 (power 4) | defender life 36 | untapped creatures 13 (power 73): Spirited Companion 5/2; Dog Token 5/2 x6; Shapeshifter Token 6/3 x2; Cat Token 5/2 x2; Faithful Watchdog 7/4; Jetmir, Nexus of Revels 9/5 | open mana 3
+Phase: Dominic's Declare Blockers Step
+Combat: CaptainPeen didn't block Seluma, Light of Aysen (100).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 4 combat damage to CaptainPeen.
+Life: Life: CaptainPeen 36 > 32
+Add To Stack: Dominic triggered Seluma, Light of Aysen targeting [Sephara, Sky's Blade (27)]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Sephara, Sky's Blade (27)]]) [Damage Source: Seluma, Light of Aysen (100), Damaged: CaptainPeen, Amount: 4]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 37 (DJ)
+Information: BOARD turn 37 (DJ) | Dominic | life 22 | hand 5 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Sephara, Sky's Blade 7/7 | hand cards: Sevinne's Reclamation(3); Island(land); Emeria, the Sky Ruin(land); Smuggler's Copter(2); Mind Stone(2)
+Information: BOARD turn 37 (DJ) | DJ | life 28 | hand 6 | lands 9 (2 untapped) | open mana 6 | commander Command | creatures 9 (9 untapped): Deadbeat Attendant 1/1; Robot Token 3/3 x3; Academy Manufactor 1/3; Balloon Token 1/1 x2; Sigarda, Host of Herons 5/5; Ingenious Artillerist 3/1 | hand cards: Night Shift of the Living Dead(4); Blightstep Pathway(land); Blood Crypt(land); Swamp(land); Treasure Chest(3); Pitiless Plunderer(4)
+Information: BOARD turn 37 (DJ) | CaptainPeen | life 32 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 14 (13 untapped): Spirited Companion 5/2; Dog Token 5/2 x6; Rin and Seri, Inseparable 10/7*[Dragonfire Blade]; Shapeshifter Token 6/3 x2; Cat Token 5/2 x2; Faithful Watchdog 7/4; Jetmir, Nexus of Revels 9/5 | hand cards: 
+Information: BOARD turn 37 (DJ) | Alec | life 20 | hand 1 | lands 7 (7 untapped) | open mana 13 | commander Battlefield | creatures 8 (0 untapped): Orzhov Enforcer 1/2*; Dutiful Attendant 1/2*; Ob Nixilis, Unshackled 4/4*; Athreos, God of Passage 5/4*; Indulgent Tormentor 5/3*; Ashen Rider 5/5*; Divinity of Pride 4/4*; Elas il-Kor, Sadistic Pilgrim 2/2* | hand cards: Orzhov Signet(2)
+Information: BOARD threat | turn 37 | Rin and Seri, Inseparable (CaptainPeen) 257; Indulgent Tormentor (Alec) 69; Seluma, Light of Aysen (Dominic) 57; Ob Nixilis, Unshackled (Alec) 48; Athreos, God of Passage (Alec) 43
+Phase: DJ's Untap step
+Phase: DJ's Upkeep step
+Phase: DJ's Draw step
+Phase: DJ's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: DJ played Isolated Chapel (136)
+Mana: Mountain (185) - {T}: Add {R}.
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: DJ cast Treasure Chest
+Information: BOARD cast | Treasure Chest (mv 3) by DJ | open mana: Dominic 2, CaptainPeen 3, Alec 13
+Resolve Stack: Treasure Chest
+Add To Stack: DJ triggered Ingenious Artillerist
+Mana: Mountain (184) - {T}: Add {R}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: DJ picked {B}
+Land: DJ picked {B}
+Mana: Haunted Ridge (182) - {T}: Add {B} or {R}.
+Land: DJ picked {B}
+Land: DJ picked {B}
+Mana: Isolated Chapel (136) - {T}: Add {W} or {B}.
+Zone Change: Treasure Chest (158) was put into Graveyard from Battlefield.
+Add To Stack: DJ activated Treasure Chest
+Replacement Effect: If you would create a Clue, Food, or Treasure token, instead create one of each.
+Resolve Stack: Treasure Chest (158) - Roll a d20.
+Add To Stack: DJ triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (108) deals 15 non-combat damage to CaptainPeen.
+Damage: Ingenious Artillerist (108) deals 15 non-combat damage to Alec.
+Damage: Ingenious Artillerist (108) deals 15 non-combat damage to Dominic.
+Life: Life: Dominic 22 > 7
+Life: Life: CaptainPeen 32 > 17
+Life: Life: Alec 20 > 5
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 15]
+Mana: Godless Shrine (137) - {T}: Add {B}.
+Mana: Caves of Koilos (164) - {T}: Add {C}.
+Add To Stack: DJ activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (200) - Roll a d20.
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to CaptainPeen.
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to Alec.
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 7 > 6
+Life: Life: CaptainPeen 17 > 16
+Life: Life: Alec 5 > 4
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Zone Change: Treasure Token (477) was put into Graveyard from Battlefield.
+Land: Treasure Token (477) picked {B}
+Land: Treasure Token (477) picked {B}
+Mana: Treasure Token (477) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (476) was put into Graveyard from Battlefield.
+Land: Treasure Token (476) picked {R}
+Land: Treasure Token (476) picked {R}
+Mana: Treasure Token (476) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Windbrisk Heights (172) - {T}: Add {W}.
+Zone Change: Treasure Token (475) was put into Graveyard from Battlefield.
+Land: Treasure Token (475) picked {W}
+Land: Treasure Token (475) picked {W}
+Mana: Treasure Token (475) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (474) was put into Graveyard from Battlefield.
+Land: Treasure Token (474) picked {W}
+Land: Treasure Token (474) picked {W}
+Mana: Treasure Token (474) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: DJ cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by DJ | open mana: Dominic 2, CaptainPeen 3, Alec 13
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: DJ triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to CaptainPeen.
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to Alec.
+Damage: Ingenious Artillerist (108) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 6 > 5
+Life: Life: CaptainPeen 16 > 15
+Life: Life: Alec 4 > 3
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: DJ's Beginning of Combat Step
+Phase: DJ's Declare Attackers Step
+Combat: DJ assigned Robot Token (439) to attack Alec.
+DJ assigned Robot Token (428), Robot Token (422), Balloon Token (452), Deadbeat Attendant (178) and Balloon Token (433) to attack Dominic.
+Information: BOARD attack | DJ -> Alec | attackers 1 (power 3) | defender life 3 | untapped creatures 0 (power 0):  | open mana 13
+Information: BOARD attack | DJ -> Dominic | attackers 5 (power 9) | defender life 5 | untapped creatures 1 (power 7): Sephara, Sky's Blade 7/7 | open mana 2
+Phase: DJ's Declare Blockers Step
+Combat: Alec didn't block Robot Token (439).
+Combat: Dominic didn't block Robot Token (428).
+Dominic didn't block Robot Token (422).
+Dominic didn't block Balloon Token (452).
+Dominic didn't block Deadbeat Attendant (178).
+Dominic didn't block Balloon Token (433).
+Phase: DJ's First Strike Damage Step
+Phase: DJ's Combat Damage Step
+Damage: Robot Token (439) deals 3 combat damage to Alec.
+Damage: Robot Token (428) deals 3 combat damage to Dominic.
+Damage: Robot Token (422) deals 3 combat damage to Dominic.
+Damage: Balloon Token (452) deals 1 combat damage to Dominic.
+Damage: Deadbeat Attendant (178) deals 1 combat damage to Dominic.
+Damage: Balloon Token (433) deals 1 combat damage to Dominic.
+Life: Life: Dominic 5 > -4
+Life: Life: Alec 3 > 0
+Phase: DJ's End of Combat Step
+Phase: DJ's Main phase, postcombat
+Phase: DJ's End step
+Phase: DJ's Cleanup step
+Turn: Turn 38 (CaptainPeen)
+Information: BOARD turn 38 (CaptainPeen) | DJ | life 28 | hand 6 | lands 10 (0 untapped) | open mana 3 | commander Battlefield | creatures 9 (3 untapped): Deadbeat Attendant 1/1*; Robot Token 3/3* x3; Academy Manufactor 1/3; Balloon Token 1/1* x2; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | hand cards: Night Shift of the Living Dead(4); Blightstep Pathway(land); Blood Crypt(land); Swamp(land); Pitiless Plunderer(4); Reanimate(1)
+Information: BOARD turn 38 (CaptainPeen) | CaptainPeen | life 15 | hand 0 | lands 6 (0 untapped) | open mana 3 | commander Battlefield | creatures 14 (13 untapped): Spirited Companion 5/2; Dog Token 5/2 x6; Rin and Seri, Inseparable 10/7*[Dragonfire Blade]; Shapeshifter Token 6/3 x2; Cat Token 5/2 x2; Faithful Watchdog 7/4; Jetmir, Nexus of Revels 9/5 | hand cards: 
+Information: BOARD threat | turn 38 | Ingenious Artillerist (DJ) 288; Rin and Seri, Inseparable (CaptainPeen) 247
+Phase: CaptainPeen's Untap step
+Phase: CaptainPeen's Upkeep step
+Phase: CaptainPeen's Draw step
+Phase: CaptainPeen's Main phase, precombat
+Land: CaptainPeen played Exotic Orchard (249)
+Add To Stack: CaptainPeen triggered Felidar Retreat
+Resolve Stack: Landfall — Whenever a land you control enters, create a 2/2 white Cat Beast creature token. [Zone Changer: Exotic Orchard (249)]
+Mana: Exotic Orchard (249) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Reliquary Tower (265) - {T}: Add {C}.
+Mana: Forest (235) - {T}: Add {G}.
+Add To Stack: CaptainPeen activated Maskwood Nexus
+Resolve Stack: Maskwood Nexus (214) - CaptainPeen creates a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)
+Land: CaptainPeen picked {W}
+Mana: Fortified Village (253) - {T}: Add {G} or {W}.
+Land: Plains (301) picked {R}
+Mana: Plains (301) - {T}: Add one mana of any color.
+Land: Mountain (291) picked {G}
+Mana: Mountain (291) - {T}: Add one mana of any color.
+Add To Stack: CaptainPeen activated Rin and Seri, Inseparable targeting [DJ]
+Damage: Rin and Seri, Inseparable (312) deals 16 non-combat damage to DJ.
+Life: Life: DJ 28 > 12
+Life: Life: CaptainPeen 15 > 31
+Resolve Stack: Rin and Seri, Inseparable (312) - Rin and Seri, Inseparable (312) deals 16 damage to DJ. CaptainPeen gains 16 life.
+Phase: CaptainPeen's Beginning of Combat Step
+Phase: CaptainPeen's Declare Attackers Step
+Mana: Sol Ring (262) - {T}: Add {C}{C}.
+Land: Patchwork Banner (289) picked {W}
+Mana: Patchwork Banner (289) - {T}: Add one mana of any color.
+Land: Chromatic Lantern (310) picked {W}
+Mana: Chromatic Lantern (310) - {T}: Add one mana of any color.
+Combat: CaptainPeen assigned Faithful Watchdog (264) and Jetmir, Nexus of Revels (229) to attack DJ.
+Information: BOARD attack | CaptainPeen -> DJ | attackers 2 (power 16) | defender life 12 | untapped creatures 3 (power 4): Academy Manufactor 1/3; Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4 | open mana 3
+Phase: CaptainPeen's Declare Blockers Step
+Combat: DJ didn't block Faithful Watchdog (264).
+DJ assigned Mr. House, President and CEO (201) to block Jetmir, Nexus of Revels (229).
+Phase: CaptainPeen's First Strike Damage Step
+Damage: Faithful Watchdog (264) deals 7 combat damage to DJ.
+Damage: Jetmir, Nexus of Revels (229) deals 5 combat damage to DJ.
+Damage: Jetmir, Nexus of Revels (229) deals 4 damage to Mr. House, President and CEO (201).
+Life: Life: DJ 12 > 0
+Player Control: Dominic has restored control over themself
+Player Control: DJ has restored control over themself
+Player Control: CaptainPeen has restored control over themself
+Player Control: Alec has restored control over themself
+Game Outcome: Match Duration 1h : 17m : 18s
+Game Outcome: Turn 19
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: DJ has lost because life total reached 0
+Game Outcome: CaptainPeen has won because all opponents have lost
+Game Outcome: Alec has lost because life total reached 0
+Match Result: Dominic: 0 DJ: 0 CaptainPeen: 1 Alec: 0 
+
+Game Result: CaptainPeen has won

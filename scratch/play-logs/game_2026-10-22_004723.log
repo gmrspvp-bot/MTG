@@ -1,0 +1,1444 @@
+Player: Dominic (HUMAN) deck=Scion
+Player: Captain (HUMAN) deck=Mr House v4
+Player: Samantha (AI) deck=Olivia
+Player: Ashton (AI) deck=Angels
+Mulligan: Ashton has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 6 cards.
+Mulligan: Ashton has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 6 cards
+Mulligan: Captain has kept a hand of 7 cards
+Mulligan: Samantha has kept a hand of 7 cards
+Turn: Turn 1 (Ashton)
+Information: BOARD turn 1 (Ashton) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Rugged Highlands(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1)
+Information: BOARD turn 1 (Ashton) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Sol Ring(1); The Deck of Many Things(5); Swamp(land); Fountainport(land); Big Score(4); Treasure Chest(3)
+Information: BOARD turn 1 (Ashton) | Samantha | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2)
+Information: BOARD turn 1 (Ashton) | Ashton | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Plains(land); Sevinne's Reclamation(3); Plains(land); Plains(land); Bruna, the Fading Light(7); Resurrection(4)
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (390)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Phase: Ashton's Declare Blockers Step
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Rugged Highlands(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1)
+Information: BOARD turn 2 (Dominic) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Sol Ring(1); The Deck of Many Things(5); Swamp(land); Fountainport(land); Big Score(4); Treasure Chest(3)
+Information: BOARD turn 2 (Dominic) | Samantha | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2)
+Information: BOARD turn 2 (Dominic) | Ashton | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Dominic played Rugged Highlands (13)
+Add To Stack: Dominic triggered Rugged Highlands
+Life: Life: Dominic 40 > 41
+Resolve Stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (13)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 3 (Captain)
+Information: BOARD turn 3 (Captain) | Dominic | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1); Hellkite Tyrant(6)
+Information: BOARD turn 3 (Captain) | Captain | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Sol Ring(1); The Deck of Many Things(5); Swamp(land); Fountainport(land); Big Score(4); Treasure Chest(3)
+Information: BOARD turn 3 (Captain) | Samantha | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2)
+Information: BOARD turn 3 (Captain) | Ashton | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Swamp (154)
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Captain cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Captain | open mana: Dominic 0, Samantha 0, Ashton 1
+Resolve Stack: Sol Ring
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 4 (Samantha)
+Information: BOARD turn 4 (Samantha) | Dominic | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1); Hellkite Tyrant(6)
+Information: BOARD turn 4 (Samantha) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Treasure Chest(3); Idol of Oblivion(2)
+Information: BOARD turn 4 (Samantha) | Samantha | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2)
+Information: BOARD turn 4 (Samantha) | Ashton | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Land: Samantha played Sunhome, Fortress of the Legion (250)
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 5 (Ashton)
+Information: BOARD turn 5 (Ashton) | Dominic | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1); Hellkite Tyrant(6)
+Information: BOARD turn 5 (Ashton) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Treasure Chest(3); Idol of Oblivion(2)
+Information: BOARD turn 5 (Ashton) | Samantha | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1)
+Information: BOARD turn 5 (Ashton) | Ashton | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (392)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Phase: Ashton's Declare Blockers Step
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Add To Stack: Ashton cast Pearl Medallion
+Information: BOARD cast | Pearl Medallion (mv 2) by Ashton | open mana: Dominic 0, Captain 2, Samantha 1
+Resolve Stack: Pearl Medallion
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Fetid Heath(land); Reanimate(1); Hellkite Tyrant(6)
+Information: BOARD turn 6 (Dominic) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Treasure Chest(3); Idol of Oblivion(2)
+Information: BOARD turn 6 (Dominic) | Samantha | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1)
+Information: BOARD turn 6 (Dominic) | Ashton | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Fetid Heath (11)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Captain)
+Information: BOARD turn 7 (Captain) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4)
+Information: BOARD turn 7 (Captain) | Captain | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Treasure Chest(3); Idol of Oblivion(2)
+Information: BOARD turn 7 (Captain) | Samantha | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1)
+Information: BOARD turn 7 (Captain) | Ashton | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Command Tower (131)
+Land: Captain picked {B}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Captain cast Treasure Chest
+Information: BOARD cast | Treasure Chest (mv 3) by Captain | open mana: Dominic 8, Samantha 1, Ashton 0
+Resolve Stack: Treasure Chest
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 8 (Samantha)
+Information: BOARD turn 8 (Samantha) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4)
+Information: BOARD turn 8 (Samantha) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Idol of Oblivion(2)
+Information: BOARD turn 8 (Samantha) | Samantha | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Canyon Slough(land); Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1)
+Information: BOARD turn 8 (Samantha) | Ashton | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Samantha played Canyon Slough (255)
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 9 (Ashton)
+Information: BOARD turn 9 (Ashton) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4)
+Information: BOARD turn 9 (Ashton) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Idol of Oblivion(2)
+Information: BOARD turn 9 (Ashton) | Samantha | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1); Barad-dûr(land)
+Information: BOARD turn 9 (Ashton) | Ashton | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4); Nim Deathmantle(2)
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Swamp (362)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Phase: Ashton's Declare Blockers Step
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Plains (390) - {T}: Add {W}.
+Add To Stack: Ashton cast Nim Deathmantle
+Information: BOARD cast | Nim Deathmantle (mv 2) by Ashton | open mana: Dominic 8, Captain 0, Samantha 1
+Resolve Stack: Nim Deathmantle
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Mountain(land); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4)
+Information: BOARD turn 10 (Dominic) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Idol of Oblivion(2)
+Information: BOARD turn 10 (Dominic) | Samantha | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1); Barad-dûr(land)
+Information: BOARD turn 10 (Dominic) | Ashton | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mountain (92)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 11 (Captain)
+Information: BOARD turn 11 (Captain) | Dominic | life 41 | hand 6 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4); Ancient Silver Dragon(8)
+Information: BOARD turn 11 (Captain) | Captain | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); The Deck of Many Things(5); Fountainport(land); Big Score(4); Idol of Oblivion(2)
+Information: BOARD turn 11 (Captain) | Samantha | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1); Barad-dûr(land)
+Information: BOARD turn 11 (Captain) | Ashton | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Fountainport (111)
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Captain picked {R}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Fountainport (111) - {T}: Add {C}.
+Add To Stack: Captain cast The Deck of Many Things
+Information: BOARD cast | The Deck of Many Things (mv 5) by Captain | open mana: Dominic 9, Samantha 1, Ashton 1
+Resolve Stack: The Deck of Many Things
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 12 (Samantha)
+Information: BOARD turn 12 (Samantha) | Dominic | life 41 | hand 6 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4); Ancient Silver Dragon(8)
+Information: BOARD turn 12 (Samantha) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Big Score(4); Idol of Oblivion(2); Delete(2)
+Information: BOARD turn 12 (Samantha) | Samantha | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Arcane Signet(2); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1); Barad-dûr(land)
+Information: BOARD turn 12 (Samantha) | Ashton | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Samantha played Temple of Triumph (295)
+Add To Stack: Samantha triggered Temple of Triumph
+Resolve Stack: Samantha scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (295)]
+Mana: Canyon Slough (255) - {T}: Add {R}.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Add To Stack: Samantha cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Samantha | open mana: Dominic 9, Captain 0, Ashton 1
+Resolve Stack: Arcane Signet
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 13 (Ashton)
+Information: BOARD turn 13 (Ashton) | Dominic | life 41 | hand 6 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4); Ancient Silver Dragon(8)
+Information: BOARD turn 13 (Ashton) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Big Score(4); Idol of Oblivion(2); Delete(2)
+Information: BOARD turn 13 (Ashton) | Samantha | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Path to Exile(1); Barad-dûr(land)
+Information: BOARD turn 13 (Ashton) | Ashton | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Plains(land); Bruna, the Fading Light(7); Resurrection(4)
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (386)
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Ashton cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Ashton | open mana: Dominic 9, Captain 0, Samantha 2
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Phase: Ashton's Declare Blockers Step
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Phase: Ashton's End step
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Samantha cast Path to Exile targeting [Seluma, Light of Aysen (413)]
+Information: BOARD cast | Path to Exile (mv 1) by Samantha | open mana: Dominic 9, Captain 0, Ashton 0
+Zone Change: Seluma, Light of Aysen (413) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (222) - Exile Seluma, Light of Aysen (413). Ashton may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Ashton's Cleanup step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Dominic | life 41 | hand 6 | lands 3 (3 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Command Tower(land); Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Defense of the Heart(4); Ancient Silver Dragon(8)
+Information: BOARD turn 14 (Dominic) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Big Score(4); Idol of Oblivion(2); Delete(2)
+Information: BOARD turn 14 (Dominic) | Samantha | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Barad-dûr(land)
+Information: BOARD turn 14 (Dominic) | Ashton | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Bruna, the Fading Light(7); Resurrection(4); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Command Tower (31)
+Land: Dominic picked {G}
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Mountain (92) - {T}: Add {R}.
+Mana: Fetid Heath (11) - {T}: Add {C}.
+Land: Dominic picked {B}
+Mana: Command Tower (31) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Defense of the Heart
+Information: BOARD cast | Defense of the Heart (mv 4) by Dominic | open mana: Captain 0, Samantha 0, Ashton 0
+Resolve Stack: Defense of the Heart
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 15 (Captain)
+Information: BOARD turn 15 (Captain) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 15 (Captain) | Captain | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Big Score(4); Idol of Oblivion(2); Delete(2)
+Information: BOARD turn 15 (Captain) | Samantha | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Barad-dûr(land)
+Information: BOARD turn 15 (Captain) | Ashton | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Bruna, the Fading Light(7); Resurrection(4); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Land: Captain picked {R}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Fountainport (111) - {T}: Add {C}.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Discard: Captain discards Idol of Oblivion (176).
+Add To Stack: Captain cast Big Score
+Information: BOARD cast | Big Score (mv 4) by Captain | open mana: Dominic 0, Samantha 0, Ashton 0
+Resolve Stack: Big Score (171) - Draw two cards and create two Treasure tokens. 
+Phase: Captain's Main phase, precombat
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {W}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (416) was put into Graveyard from Battlefield.
+Land: Treasure Token (416) picked {R}
+Mana: Treasure Token (416) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Captain cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Captain | open mana: Dominic 0, Samantha 0, Ashton 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 16 (Samantha)
+Information: BOARD turn 16 (Samantha) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 16 (Samantha) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Welding Jar(0); Cathartic Reunion(2)
+Information: BOARD turn 16 (Samantha) | Samantha | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Barad-dûr(land)
+Information: BOARD turn 16 (Samantha) | Ashton | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Bruna, the Fading Light(7); Resurrection(4); Plains(land)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Replacement Effect: Barad-dûr enters tapped unless you control a legendary creature.
+Land: Samantha played Barad-dûr (288)
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Mana: Canyon Slough (255) - {T}: Add {B}.
+Land: Samantha picked {R}
+Land: Samantha picked {R}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Add To Stack: Samantha cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Samantha | open mana: Dominic 0, Captain 0, Ashton 0
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 17 (Ashton)
+Information: BOARD turn 17 (Ashton) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 17 (Ashton) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Welding Jar(0); Cathartic Reunion(2)
+Information: BOARD turn 17 (Ashton) | Samantha | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Xorn(3)
+Information: BOARD turn 17 (Ashton) | Ashton | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Bruna, the Fading Light(7); Resurrection(4); Plains(land)
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (403)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Phase: Ashton's Declare Blockers Step
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (403) - {T}: Add {W}.
+Add To Stack: Ashton cast Bruna, the Fading Light
+Information: BOARD cast | Bruna, the Fading Light (mv 7) by Ashton | open mana: Dominic 0, Captain 0, Samantha 0
+Resolve Stack: Bruna, the Fading Light - Creature 5 / 7
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 18 (Dominic) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Welding Jar(0); Cathartic Reunion(2)
+Information: BOARD turn 18 (Dominic) | Samantha | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Xorn(3)
+Information: BOARD turn 18 (Dominic) | Ashton | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bruna, the Fading Light 5/7 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4); Plains(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Dominic played Turbulent Crater (4)
+Land: Dominic picked {R}
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Turbulent Crater (4) - {T}: Add {B}.
+Land: Dominic picked {W}
+Mana: Command Tower (31) - {T}: Add one mana of any color in your commander's color identity.
+Land: Dominic picked {W}{W}
+Mana: Fetid Heath (11) - {W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.
+Phase: devDominic's Main phase, precombat
+Mana: Turbulent Crater (4) - {T}: Add {B}.
+Land: Dominic picked {B}{W}
+Mana: Fetid Heath (11) - {W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.
+Land: Dominic picked {U}
+Mana: Command Tower (31) - {T}: Add one mana of any color in your commander's color identity.
+Land: Dominic picked {G}
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Mountain (92) - {T}: Add {R}.
+Add To Stack: Dominic cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Dominic | open mana: Captain 0, Samantha 0, Ashton 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 19 (Captain)
+Information: BOARD turn 19 (Captain) | Dominic | life 41 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 19 (Captain) | Captain | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Welding Jar(0); Cathartic Reunion(2)
+Information: BOARD turn 19 (Captain) | Samantha | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Xorn(3)
+Information: BOARD turn 19 (Captain) | Ashton | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bruna, the Fading Light 5/7 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4); Plains(land)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Mana: Fountainport (111) - {T}: Add {C}.
+Mana: Swamp (154) - {T}: Add {B}.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (199) - Roll a d20.
+Add To Stack: Captain triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Captain, Result: 12]
+Land: Captain picked {B}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Treasure Token (421) was put into Graveyard from Battlefield.
+Land: Treasure Token (421) picked {R}
+Mana: Treasure Token (421) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Captain cast Terminate targeting [Scion of the Ur-Dragon (100)]
+Information: BOARD cast | Terminate (mv 2) by Captain | open mana: Dominic 0, Samantha 0, Ashton 0
+Zone Change: Scion of the Ur-Dragon (100) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (163) - Destroy Scion of the Ur-Dragon (100). It can't be regenerated.
+Phase: Captain's Main phase, precombat
+Add To Stack: Captain cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Captain | open mana: Dominic 0, Samantha 0, Ashton 0
+Resolve Stack: Welding Jar
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 20 (Samantha)
+Information: BOARD turn 20 (Samantha) | Dominic | life 41 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 20 (Samantha) | Captain | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); The Soul Stone(2); Ingenious Artillerist(3)
+Information: BOARD turn 20 (Samantha) | Samantha | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Crime Novelist(3); Temple of Malice(land); Lightning Greaves(2); Mistmeadow Skulk(2); Xorn(3)
+Information: BOARD turn 20 (Samantha) | Ashton | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bruna, the Fading Light 5/7 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4); Plains(land)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Land: Samantha played Tainted Peak (300)
+Land: Samantha picked {R}
+Land: Samantha picked {R}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Mana: Canyon Slough (255) - {T}: Add {R}.
+Add To Stack: Samantha cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Samantha | open mana: Dominic 0, Captain 2, Ashton 0
+Resolve Stack: Lightning Greaves
+Add To Stack: Samantha activated Lightning Greaves targeting [Olivia, Opulent Outlaw (312)]
+Resolve Stack: Lightning Greaves (305) -  Attach to Olivia, Opulent Outlaw (312)
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Combat: Samantha assigned Olivia, Opulent Outlaw (312) to attack Captain.
+Information: BOARD attack | Samantha -> Captain | attackers 1 (power 3) | defender life 40 | untapped creatures 2 (power 3): Mr. House, President and CEO 0/4; Robot Token 3/3 | open mana 2
+Phase: Samantha's Declare Blockers Step
+Combat: Captain didn't block Olivia, Opulent Outlaw (312).
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (312) deals 3 combat damage to Captain.
+Life: Life: Samantha 40 > 43
+Life: Life: Captain 40 > 37
+Add To Stack: Samantha triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Captain, Amount: 3]
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Land: Samantha picked {R}
+Land: Samantha picked {R}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Tainted Peak (300) - {T}: Add {C}.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Add To Stack: Samantha cast Xorn
+Information: BOARD cast | Xorn (mv 3) by Samantha | open mana: Dominic 0, Captain 2, Ashton 0
+Resolve Stack: Xorn - Creature 3 / 2
+Zone Change: Treasure Token (424) was put into Graveyard from Battlefield.
+Land: Treasure Token (424) picked {W}
+Land: Treasure Token (424) picked {W}
+Mana: Treasure Token (424) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Barad-dûr (288) - {T}: Add {B}.
+Add To Stack: Samantha cast Mistmeadow Skulk
+Information: BOARD cast | Mistmeadow Skulk (mv 2) by Samantha | open mana: Dominic 0, Captain 2, Ashton 0
+Resolve Stack: Mistmeadow Skulk - Creature 1 / 1
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 21 (Ashton)
+Information: BOARD turn 21 (Ashton) | Dominic | life 41 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 21 (Ashton) | Captain | life 37 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); The Soul Stone(2); Ingenious Artillerist(3)
+Information: BOARD turn 21 (Ashton) | Samantha | life 43 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Xorn 3/2; Mistmeadow Skulk 1/1 | hand cards: Crime Novelist(3); Temple of Malice(land)
+Information: BOARD turn 21 (Ashton) | Ashton | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Bruna, the Fading Light 5/7 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4); Plains(land)
+Information: BOARD threat | turn 21 | Olivia, Opulent Outlaw (Samantha) 32
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (399)
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (403) - {T}: Add {W}.
+Add To Stack: Ashton cast Angel of Serenity
+Information: BOARD cast | Angel of Serenity (mv 7) by Ashton | open mana: Dominic 0, Captain 2, Samantha 0
+Resolve Stack: Angel of Serenity - Creature 5 / 6
+Add To Stack: Ashton triggered Angel of Serenity targeting [Scion of the Ur-Dragon (100), Robot Token (420), Xorn (296)]
+Zone Change: Robot Token (420) was put into Exile from Battlefield.
+Zone Change: Xorn (296) was put into Exile from Battlefield.
+Resolve Stack: When Angel of Serenity enters, you may exile up to three other target creatures from the battlefield and/or creature cards from graveyards. (Targeting: [[Scion of the Ur-Dragon (100), Robot Token (420), Xorn (296)]]) [Zone Changer: Angel of Serenity (373)]
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Bruna, the Fading Light (364) to attack Samantha.
+Information: BOARD attack | Ashton -> Samantha | attackers 1 (power 5) | defender life 43 | untapped creatures 1 (power 1): Mistmeadow Skulk 1/1 | open mana 0
+Phase: Ashton's Declare Blockers Step
+Combat: Samantha didn't block Bruna, the Fading Light (364).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Bruna, the Fading Light (364) deals 5 combat damage to Samantha.
+Life: Life: Samantha 43 > 38
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Dominic | life 41 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 22 (Dominic) | Captain | life 37 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); The Soul Stone(2); Ingenious Artillerist(3)
+Information: BOARD turn 22 (Dominic) | Samantha | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1 | hand cards: Crime Novelist(3); Temple of Malice(land)
+Information: BOARD turn 22 (Dominic) | Ashton | life 40 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Bruna, the Fading Light 5/7; Angel of Serenity 5/6 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4)
+Information: BOARD threat | turn 22 | Olivia, Opulent Outlaw (Samantha) 30
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Dominic played Temple of Epiphany (48)
+Add To Stack: Dominic triggered Temple of Epiphany
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (48)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 23 (Captain)
+Information: BOARD turn 23 (Captain) | Dominic | life 41 | hand 5 | lands 6 (5 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 23 (Captain) | Captain | life 37 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); The Soul Stone(2); Ingenious Artillerist(3)
+Information: BOARD turn 23 (Captain) | Samantha | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1 | hand cards: Crime Novelist(3); Temple of Malice(land)
+Information: BOARD turn 23 (Captain) | Ashton | life 40 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Bruna, the Fading Light 5/7; Angel of Serenity 5/6 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4)
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Fountainport (111) - {T}: Add {C}.
+Phase: Captain's Main phase, precombat
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: Fountainport (111) - {T}: Add {C}.
+Add To Stack: Captain cast The Soul Stone
+Information: BOARD cast | The Soul Stone (mv 2) by Captain | open mana: Dominic 12, Samantha 0, Ashton 1
+Resolve Stack: The Soul Stone
+Land: Captain picked {W}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Captain cast Tear targeting [Defense of the Heart (82)]
+Information: BOARD cast | Tear (mv 1) by Captain | open mana: Dominic 12, Samantha 0, Ashton 1
+Zone Change: Defense of the Heart (82) was put into Graveyard from Battlefield.
+Resolve Stack: Tear (105) - Destroy Defense of the Heart (82).
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Add To Stack: Captain activated The Deck of Many Things
+Resolve Stack: The Deck of Many Things (199) - Roll a d20.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 24 (Samantha)
+Information: BOARD turn 24 (Samantha) | Dominic | life 41 | hand 5 | lands 6 (5 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 24 (Samantha) | Captain | life 37 | hand 6 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 24 (Samantha) | Samantha | life 38 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1 | hand cards: Crime Novelist(3); Temple of Malice(land)
+Information: BOARD turn 24 (Samantha) | Ashton | life 40 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Bruna, the Fading Light 5/7; Angel of Serenity 5/6 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4)
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Land: Samantha picked {B}
+Land: Samantha picked {B}
+Mana: Tainted Peak (300) - {T}: Add {B} or {R}. Activate only if you control a Swamp.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Add To Stack: Samantha cast Feed the Swarm targeting [Bruna, the Fading Light (364)]
+Information: BOARD cast | Feed the Swarm (mv 2) by Samantha | open mana: Dominic 12, Captain 1, Ashton 1
+Zone Change: Bruna, the Fading Light (364) was put into Graveyard from Battlefield.
+Life: Life: Samantha 38 > 31
+Resolve Stack: Feed the Swarm (277) - Destroy Bruna, the Fading Light (364). Samantha loses 7 life.
+Add To Stack: Ashton triggered Nim Deathmantle
+Resolve Stack: Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it. [Zone Changer: Bruna, the Fading Light (364)]
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Combat: Samantha assigned Mistmeadow Skulk (273) to attack Ashton.
+Samantha assigned Olivia, Opulent Outlaw (312) to attack Captain.
+Information: BOARD attack | Samantha -> Ashton | attackers 1 (power 1) | defender life 40 | untapped creatures 1 (power 5): Angel of Serenity 5/6 | open mana 1
+Information: BOARD attack | Samantha -> Captain | attackers 1 (power 3) | defender life 37 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Phase: Samantha's Declare Blockers Step
+Combat: Ashton didn't block Mistmeadow Skulk (273).
+Combat: Captain didn't block Olivia, Opulent Outlaw (312).
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (312) deals 3 combat damage to Captain.
+Life: Life: Samantha 31 > 34
+Damage: Mistmeadow Skulk (273) deals 1 combat damage to Ashton.
+Life: Life: Samantha 34 > 35
+Life: Life: Captain 37 > 34
+Life: Life: Ashton 40 > 39
+Add To Stack: Samantha triggered Olivia, Opulent Outlaw
+Add To Stack: Samantha triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Ashton, Amount: 1]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Captain, Amount: 3]
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Samantha played Temple of Malice (220)
+Add To Stack: Samantha triggered Temple of Malice
+Resolve Stack: Samantha scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (220)]
+Land: Samantha picked {R}
+Land: Samantha picked {R}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Mana: Canyon Slough (255) - {T}: Add {R}.
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Samantha cast Crime Novelist
+Information: BOARD cast | Crime Novelist (mv 3) by Samantha | open mana: Dominic 12, Captain 1, Ashton 1
+Resolve Stack: Crime Novelist - Creature 1 / 3
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 25 (Ashton)
+Information: BOARD turn 25 (Ashton) | Dominic | life 41 | hand 5 | lands 6 (5 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 25 (Ashton) | Captain | life 34 | hand 6 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 25 (Ashton) | Samantha | life 35 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1*; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 25 (Ashton) | Ashton | life 39 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Angel of Serenity 5/6 | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3); Resurrection(4)
+Information: BOARD threat | turn 25 | Olivia, Opulent Outlaw (Samantha) 73
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (394)
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Add To Stack: Ashton cast Resurrection targeting [Bruna, the Fading Light (364)]
+Information: BOARD cast | Resurrection (mv 4) by Ashton | open mana: Dominic 12, Captain 1, Samantha 3
+Resolve Stack: Resurrection (367) - Return Bruna, the Fading Light (364) from the graveyard to the battlefield.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Ashton activated Nim Deathmantle targeting [Bruna, the Fading Light (364)]
+Resolve Stack: Nim Deathmantle (314) -  Attach to Bruna, the Fading Light (364)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Angel of Serenity (373) to attack Samantha.
+Information: BOARD attack | Ashton -> Samantha | attackers 1 (power 5) | defender life 35 | untapped creatures 1 (power 1): Crime Novelist 1/3 | open mana 3
+Phase: Ashton's Declare Blockers Step
+Combat: Samantha didn't block Angel of Serenity (373).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Angel of Serenity (373) deals 5 combat damage to Samantha.
+Life: Life: Samantha 35 > 30
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Dominic | life 41 | hand 5 | lands 6 (5 untapped) | open mana 12 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Hellkite Tyrant(6); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 26 (Dominic) | Captain | life 34 | hand 6 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 26 (Dominic) | Samantha | life 30 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1*; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 26 (Dominic) | Ashton | life 39 | hand 2 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle] | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3)
+Information: BOARD threat | turn 26 | Olivia, Opulent Outlaw (Samantha) 70; Angel of Serenity (Ashton) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (60)
+Mana: Mountain (92) - {T}: Add {R}.
+Land: Dominic picked {R}
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Swamp (60) - {T}: Add {B}.
+Land: Dominic picked {U}
+Mana: Temple of Epiphany (48) - {T}: Add {U} or {R}.
+Mana: Turbulent Crater (4) - {T}: Add {R}.
+Mana: Fetid Heath (11) - {T}: Add {C}.
+Add To Stack: Dominic cast Hellkite Tyrant
+Information: BOARD cast | Hellkite Tyrant (mv 6) by Dominic | open mana: Captain 1, Samantha 3, Ashton 1
+Resolve Stack: Hellkite Tyrant - Creature 6 / 5
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 27 (Captain)
+Information: BOARD turn 27 (Captain) | Dominic | life 41 | hand 4 | lands 7 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Hellkite Tyrant 6/5 | hand cards: Inkshield(5); Reanimate(1); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 27 (Captain) | Captain | life 34 | hand 6 | lands 3 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Delete(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 27 (Captain) | Samantha | life 30 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Mistmeadow Skulk 1/1*; Crime Novelist 1/3 | hand cards: 
+Information: BOARD turn 27 (Captain) | Ashton | life 39 | hand 2 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle] | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3)
+Information: BOARD threat | turn 27 | Olivia, Opulent Outlaw (Samantha) 67; Angel of Serenity (Ashton) 39
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Land: Captain played Mountain (184)
+Mana: Mountain (184) - {T}: Add {R}.
+Land: Captain picked {R}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Swamp (154) - {T}: Add {B}.
+Mana: The Soul Stone (161) - {T}: Add {B}.
+Mana: Fountainport (111) - {T}: Add {C}.
+Add To Stack: Captain cast Delete
+Information: BOARD cast | Delete (mv 2) by Captain | open mana: Dominic 2, Samantha 3, Ashton 1
+Damage: Delete (169) deals 5 damage to Hellkite Tyrant (50).
+Damage: Delete (169) deals 5 damage to Olivia, Opulent Outlaw (312).
+Damage: Delete (169) deals 5 damage to Mistmeadow Skulk (273).
+Damage: Delete (169) deals 5 damage to Crime Novelist (262).
+Damage: Delete (169) deals 5 damage to Angel of Serenity (373).
+Damage: Delete (169) deals 5 damage to Bruna, the Fading Light (364).
+Damage: Delete (169) deals 5 non-combat damage to Dominic.
+Damage: Delete (169) deals 5 non-combat damage to Captain.
+Damage: Delete (169) deals 5 non-combat damage to Samantha.
+Damage: Delete (169) deals 5 non-combat damage to Ashton.
+Life: Life: Dominic 41 > 36
+Life: Life: Captain 34 > 29
+Life: Life: Samantha 30 > 25
+Life: Life: Ashton 39 > 34
+Resolve Stack: Delete (169) - Deals 5 damage to each nonartifact creature and each player.
+Zone Change: Olivia, Opulent Outlaw (312) was put into Graveyard from Battlefield.
+Zone Change: Mistmeadow Skulk (273) was put into Graveyard from Battlefield.
+Zone Change: Crime Novelist (262) was put into Graveyard from Battlefield.
+Zone Change: Hellkite Tyrant (50) was put into Graveyard from Battlefield.
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 28 (Samantha)
+Information: BOARD turn 28 (Samantha) | Dominic | life 36 | hand 4 | lands 7 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 28 (Samantha) | Captain | life 29 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 28 (Samantha) | Samantha | life 25 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 28 (Samantha) | Ashton | life 34 | hand 2 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle] | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3)
+Information: BOARD threat | turn 28 | Angel of Serenity (Ashton) 38
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Land: Samantha picked {R}
+Land: Samantha picked {R}
+Mana: Temple of Malice (220) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (255) - {T}: Add {B}.
+Land: Samantha picked {B}
+Land: Samantha picked {B}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Tainted Peak (300) - {T}: Add {C}.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Add To Stack: Samantha cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Samantha | open mana: Dominic 2, Captain 0, Ashton 1
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Add To Stack: Samantha activated Lightning Greaves targeting [Olivia, Opulent Outlaw (312)]
+Resolve Stack: Lightning Greaves (305) -  Attach to Olivia, Opulent Outlaw (312)
+Mana: Barad-dûr (288) - {T}: Add {B}.
+Zone Change: Treasure Token (435) was put into Graveyard from Battlefield.
+Land: Treasure Token (435) picked {W}
+Land: Treasure Token (435) picked {W}
+Mana: Treasure Token (435) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Samantha cast Demonic Tutor
+Information: BOARD cast | Demonic Tutor (mv 2) by Samantha | open mana: Dominic 2, Captain 0, Ashton 1
+Resolve Stack: Demonic Tutor (306) - Search your library for a card, put that card into your hand, then shuffle.
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Combat: Samantha assigned Olivia, Opulent Outlaw (312) to attack Captain.
+Information: BOARD attack | Samantha -> Captain | attackers 1 (power 3) | defender life 29 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Samantha's Declare Blockers Step
+Combat: Captain didn't block Olivia, Opulent Outlaw (312).
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (312) deals 3 combat damage to Captain.
+Life: Life: Samantha 25 > 28
+Life: Life: Captain 29 > 26
+Add To Stack: Samantha triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Captain, Amount: 3]
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 29 (Ashton)
+Information: BOARD turn 29 (Ashton) | Dominic | life 36 | hand 4 | lands 7 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 29 (Ashton) | Captain | life 26 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 29 (Ashton) | Samantha | life 28 | hand 1 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Bloodthirsty Conqueror(5)
+Information: BOARD turn 29 (Ashton) | Ashton | life 34 | hand 2 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle] | hand cards: Archangel of Thune(5); Sevinne's Reclamation(3)
+Information: BOARD threat | turn 29 | Angel of Serenity (Ashton) 36; Olivia, Opulent Outlaw (Samantha) 32
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Mana: Plains (390) - {T}: Add {W}.
+Add To Stack: Ashton cast Path to Exile targeting [Mr. House, President and CEO (201)]
+Information: BOARD cast | Path to Exile (mv 1) by Ashton | open mana: Dominic 2, Captain 0, Samantha 2
+Zone Change: Mr. House, President and CEO (201) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (322) - Exile Mr. House, President and CEO (201). Captain may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Ashton's Main phase, precombat
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Angel of Serenity (373) and Bruna, the Fading Light (364) to attack Samantha.
+Information: BOARD attack | Ashton -> Samantha | attackers 2 (power 12) | defender life 28 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Ashton's Declare Blockers Step
+Combat: Samantha didn't block Angel of Serenity (373).
+Samantha didn't block Bruna, the Fading Light (364).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Angel of Serenity (373) deals 5 combat damage to Samantha.
+Damage: Bruna, the Fading Light (364) deals 7 combat damage to Samantha.
+Life: Life: Samantha 28 > 16
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Add To Stack: Ashton cast Archangel of Thune
+Information: BOARD cast | Archangel of Thune (mv 5) by Ashton | open mana: Dominic 2, Captain 0, Samantha 2
+Resolve Stack: Archangel of Thune - Creature 3 / 4
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 30 (Dominic)
+Information: BOARD turn 30 (Dominic) | Dominic | life 36 | hand 4 | lands 7 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Reanimate(1); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 30 (Dominic) | Captain | life 26 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 30 (Dominic) | Samantha | life 16 | hand 1 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Bloodthirsty Conqueror(5)
+Information: BOARD turn 30 (Dominic) | Ashton | life 34 | hand 1 | lands 8 (3 untapped) | open mana 3 | commander Command | creatures 3 (2 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle]; Archangel of Thune 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 30 | Angel of Serenity (Ashton) 64; Bruna, the Fading Light (Ashton) 40; Olivia, Opulent Outlaw (Samantha) 30
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (60) - {T}: Add {B}.
+Add To Stack: Dominic cast Reanimate targeting [Hellkite Tyrant (50)]
+Information: BOARD cast | Reanimate (mv 1) by Dominic | open mana: Captain 0, Samantha 2, Ashton 3
+Life: Life: Dominic 36 > 30
+Resolve Stack: Reanimate (54) - Return Hellkite Tyrant (50) from the graveyard to the battlefield under your control. Dominic loses 6 life.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 31 (Captain)
+Information: BOARD turn 31 (Captain) | Dominic | life 30 | hand 4 | lands 7 (6 untapped) | open mana 15 | commander Command | creatures 1 (1 untapped): Hellkite Tyrant 6/5 | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Make Your Move(3)
+Information: BOARD turn 31 (Captain) | Captain | life 26 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 31 (Captain) | Samantha | life 16 | hand 1 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Bloodthirsty Conqueror(5)
+Information: BOARD turn 31 (Captain) | Ashton | life 34 | hand 1 | lands 8 (3 untapped) | open mana 3 | commander Command | creatures 3 (2 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle]; Archangel of Thune 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 31 | Angel of Serenity (Ashton) 61; Bruna, the Fading Light (Ashton) 39
+Phase: Captain's Untap step
+Phase: Captain's Upkeep step
+Phase: Captain's Draw step
+Phase: Captain's Main phase, precombat
+Mana: Swamp (154) - {T}: Add {B}.
+Land: Captain picked {B}
+Mana: Command Tower (131) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Sol Ring (150) - {T}: Add {C}{C}.
+Mana: Mountain (184) - {T}: Add {R}.
+Add To Stack: Captain cast Skithiryx, the Blight Dragon
+Information: BOARD cast | Skithiryx, the Blight Dragon (mv 5) by Captain | open mana: Dominic 15, Samantha 2, Ashton 3
+Resolve Stack: Skithiryx, the Blight Dragon - Creature 4 / 4
+Phase: Captain's Beginning of Combat Step
+Phase: Captain's Declare Attackers Step
+Phase: Captain's Declare Blockers Step
+Phase: Captain's First Strike Damage Step
+Phase: Captain's Combat Damage Step
+Phase: Captain's End of Combat Step
+Land: Dominic picked {W}
+Mana: Command Tower (31) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (92) - {T}: Add {R}.
+Land: Dominic picked {R}
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Add To Stack: Dominic cast Make Your Move targeting [Skithiryx, the Blight Dragon (124)]
+Information: BOARD cast | Make Your Move (mv 3) by Dominic | open mana: Captain 3, Samantha 2, Ashton 3
+Zone Change: Skithiryx, the Blight Dragon (124) was put into Graveyard from Battlefield.
+Resolve Stack: Make Your Move (86) - Destroy Skithiryx, the Blight Dragon (124).
+Phase: Captain's Main phase, postcombat
+Phase: Captain's End step
+Phase: Captain's Cleanup step
+Turn: Turn 32 (Samantha)
+Information: BOARD turn 32 (Samantha) | Dominic | life 30 | hand 3 | lands 7 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Hellkite Tyrant 6/5 | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 32 (Samantha) | Captain | life 26 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 32 (Samantha) | Samantha | life 16 | hand 1 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Bloodthirsty Conqueror(5)
+Information: BOARD turn 32 (Samantha) | Ashton | life 34 | hand 1 | lands 8 (3 untapped) | open mana 3 | commander Command | creatures 3 (2 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle]; Archangel of Thune 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 32 | Angel of Serenity (Ashton) 59; Bruna, the Fading Light (Ashton) 37
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Land: Samantha picked {B}
+Land: Samantha picked {B}
+Mana: Temple of Malice (220) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (255) - {T}: Add {B}.
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Land: Samantha picked {W}
+Land: Samantha picked {W}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Tainted Peak (300) - {T}: Add {C}.
+Add To Stack: Samantha cast Bloodthirsty Conqueror
+Information: BOARD cast | Bloodthirsty Conqueror (mv 5) by Samantha | open mana: Dominic 9, Captain 3, Ashton 3
+Resolve Stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 33 (Ashton)
+Information: BOARD turn 33 (Ashton) | Dominic | life 30 | hand 3 | lands 7 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Hellkite Tyrant 6/5 | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 33 (Ashton) | Captain | life 26 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 33 (Ashton) | Samantha | life 16 | hand 1 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves]; Bloodthirsty Conqueror 5/5 | hand cards: Orzhov Signet(2)
+Information: BOARD turn 33 (Ashton) | Ashton | life 34 | hand 1 | lands 8 (3 untapped) | open mana 3 | commander Command | creatures 3 (2 untapped): Angel of Serenity 5/6*; Bruna, the Fading Light 7/9[Nim Deathmantle]; Archangel of Thune 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 33 | Angel of Serenity (Ashton) 56; Bruna, the Fading Light (Ashton) 36
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Archangel of Thune (352) to attack Captain.
+Ashton assigned Angel of Serenity (373) and Bruna, the Fading Light (364) to attack Samantha.
+Information: BOARD attack | Ashton -> Captain | attackers 1 (power 3) | defender life 26 | untapped creatures 0 (power 0):  | open mana 3
+Information: BOARD attack | Ashton -> Samantha | attackers 2 (power 12) | defender life 16 | untapped creatures 2 (power 8): Olivia, Opulent Outlaw 3/3[Lightning Greaves]; Bloodthirsty Conqueror 5/5 | open mana 4
+Phase: Ashton's Declare Blockers Step
+Combat: Captain didn't block Archangel of Thune (352).
+Combat: Samantha didn't block Angel of Serenity (373).
+Samantha assigned Bloodthirsty Conqueror (258) to block Bruna, the Fading Light (364).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Angel of Serenity (373) deals 5 combat damage to Samantha.
+Damage: Bruna, the Fading Light (364) deals 7 damage to Bloodthirsty Conqueror (258).
+Damage: Archangel of Thune (352) deals 3 combat damage to Captain.
+Life: Life: Ashton 34 > 37
+Damage: Bloodthirsty Conqueror (258) deals 5 damage (Deathtouch) to Bruna, the Fading Light (364).
+Life: Life: Captain 26 > 23
+Life: Life: Samantha 16 > 11
+Zone Change: Bruna, the Fading Light (364) was put into Graveyard from Battlefield.
+Zone Change: Bloodthirsty Conqueror (258) was put into Graveyard from Battlefield.
+Add To Stack: Ashton triggered Nim Deathmantle
+Add To Stack: Ashton triggered Archangel of Thune
+Add To Stack: Samantha triggered Bloodthirsty Conqueror
+Life: Life: Samantha 11 > 14
+Resolve Stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Captain, Lost Amount: 3]
+Resolve Stack: Whenever you gain life, put a +1/+1 counter on each creature you control. [Player: Ashton, Gained Amount: 3]
+Resolve Stack: Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it. [Zone Changer: Bruna, the Fading Light (364)]
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (403) - {T}: Add {W}.
+Add To Stack: Ashton cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Ashton | open mana: Dominic 9, Captain 3, Samantha 4
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 34 (Dominic)
+Information: BOARD turn 34 (Dominic) | Dominic | life 30 | hand 3 | lands 7 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Hellkite Tyrant 6/5 | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5)
+Information: BOARD turn 34 (Dominic) | Captain | life 23 | hand 5 | lands 5 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Wyll, Blade of Frontiers(2); Cathartic Reunion(2); Ingenious Artillerist(3); Wear // Tear(3)
+Information: BOARD turn 34 (Dominic) | Samantha | life 14 | hand 1 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Orzhov Signet(2)
+Information: BOARD turn 34 (Dominic) | Ashton | life 37 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Angel of Serenity 6/7*; Archangel of Thune 4/5*; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Angel of Finality(4)
+Information: BOARD threat | turn 34 | Angel of Serenity (Ashton) 83; Nim Deathmantle (Ashton) 35; Archangel of Thune (Ashton) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Hellkite Tyrant (50) to attack Captain.
+Information: BOARD attack | Dominic -> Captain | attackers 1 (power 6) | defender life 23 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Dominic's Declare Blockers Step
+Combat: Captain didn't block Hellkite Tyrant (50).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Hellkite Tyrant (50) deals 6 combat damage to Captain.
+Life: Life: Captain 23 > 17
+Add To Stack: Dominic triggered Hellkite Tyrant
+Resolve Stack: Whenever Hellkite Tyrant deals combat damage to a player, gain control of all artifacts that player controls. [Damage Source: Hellkite Tyrant (50), Damaged: Captain, Amount: 6]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Mountain (92) - {T}: Add {R}.
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Temple of Epiphany (48) - {T}: Add {U} or {R}.
+Mana: Turbulent Crater (4) - {T}: Add {R}.
+Mana: Fetid Heath (11) - {T}: Add {C}.
+Mana: Command Tower (31) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Hellkite Tyrant (50) was put into Exile from Battlefield.
+Add To Stack: Dominic activated The Soul Stone
+Resolve Stack: The Soul Stone (161) - Harness The Soul Stone.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 35 (Samantha)
+Information: BOARD turn 35 (Samantha) | Dominic | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 35 (Samantha) | Samantha | life 14 | hand 1 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Orzhov Signet(2)
+Information: BOARD turn 35 (Samantha) | Ashton | life 37 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Angel of Serenity 6/7*; Archangel of Thune 4/5*; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Angel of Finality(4)
+Information: BOARD threat | turn 35 | Angel of Serenity (Ashton) 80; Nim Deathmantle (Ashton) 33; Archangel of Thune (Ashton) 30
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 36 (Ashton)
+Information: BOARD turn 36 (Ashton) | Dominic | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 36 (Ashton) | Samantha | life 14 | hand 2 | lands 6 (6 untapped) | open mana 16 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Orzhov Signet(2); Mount Doom(land)
+Information: BOARD turn 36 (Ashton) | Ashton | life 37 | hand 2 | lands 8 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Angel of Serenity 6/7*; Archangel of Thune 4/5*; Seluma, Light of Aysen 4/4 | hand cards: Sevinne's Reclamation(3); Angel of Finality(4)
+Information: BOARD threat | turn 36 | Angel of Serenity (Ashton) 76; Nim Deathmantle (Ashton) 32
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Land: Ashton played Plains (401)
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Add To Stack: Ashton activated Nim Deathmantle targeting [Angel of Serenity (373)]
+Resolve Stack: Nim Deathmantle (314) -  Attach to Angel of Serenity (373)
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Angel of Serenity (373), Archangel of Thune (352) and Seluma, Light of Aysen (413) to attack Samantha.
+Information: BOARD attack | Ashton -> Samantha | attackers 3 (power 16) | defender life 14 | untapped creatures 1 (power 3): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | open mana 16
+Phase: Ashton's Declare Blockers Step
+Combat: Samantha assigned Olivia, Opulent Outlaw (312) to block Angel of Serenity (373).
+Samantha didn't block Archangel of Thune (352).
+Samantha didn't block Seluma, Light of Aysen (413).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Angel of Serenity (373) deals 8 damage to Olivia, Opulent Outlaw (312).
+Damage: Archangel of Thune (352) deals 4 combat damage to Samantha.
+Life: Life: Ashton 37 > 41
+Damage: Seluma, Light of Aysen (413) deals 4 combat damage to Samantha.
+Damage: Olivia, Opulent Outlaw (312) deals 3 damage to Angel of Serenity (373).
+Life: Life: Samantha 14 > 17
+Life: Life: Samantha 17 > 9
+Zone Change: Olivia, Opulent Outlaw (312) was put into Graveyard from Battlefield.
+Add To Stack: Ashton triggered Seluma, Light of Aysen targeting [Bruna, the Fading Light (364)]
+Add To Stack: Ashton triggered Archangel of Thune
+Resolve Stack: Whenever you gain life, put a +1/+1 counter on each creature you control. [Player: Ashton, Gained Amount: 4]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Bruna, the Fading Light (364)]]) [Damage Source: Seluma, Light of Aysen (413), Damaged: Samantha, Amount: 4]
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Plains (403) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Ashton cast Angel of Finality
+Information: BOARD cast | Angel of Finality (mv 4) by Ashton | open mana: Dominic 0, Samantha 16
+Resolve Stack: Angel of Finality - Creature 3 / 4
+Add To Stack: Ashton triggered Angel of Finality targeting [Samantha]
+Resolve Stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Samantha]]) [Zone Changer: Angel of Finality (331)]
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 37 (Dominic)
+Information: BOARD turn 37 (Dominic) | Dominic | life 30 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 37 (Dominic) | Samantha | life 9 | hand 2 | lands 6 (6 untapped) | open mana 16 | commander Command | creatures 0 (0 untapped):  | hand cards: Orzhov Signet(2); Mount Doom(land)
+Information: BOARD turn 37 (Dominic) | Ashton | life 41 | hand 1 | lands 9 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (2 untapped): Angel of Serenity 9/10*[Nim Deathmantle]; Archangel of Thune 5/6*; Seluma, Light of Aysen 5/5*; Bruna, the Fading Light 5/7; Angel of Finality 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 37 | Angel of Serenity (Ashton) 73; Archangel of Thune (Ashton) 65; Nim Deathmantle (Ashton) 45; Seluma, Light of Aysen (Ashton) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Dominic played Turbulent Shore (90)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 38 (Samantha)
+Information: BOARD turn 38 (Samantha) | Dominic | life 30 | hand 4 | lands 8 (8 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 38 (Samantha) | Samantha | life 9 | hand 2 | lands 6 (6 untapped) | open mana 16 | commander Command | creatures 0 (0 untapped):  | hand cards: Orzhov Signet(2); Mount Doom(land)
+Information: BOARD turn 38 (Samantha) | Ashton | life 41 | hand 1 | lands 9 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (2 untapped): Angel of Serenity 9/10*[Nim Deathmantle]; Archangel of Thune 5/6*; Seluma, Light of Aysen 5/5*; Bruna, the Fading Light 5/7; Angel of Finality 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 38 | Angel of Serenity (Ashton) 70; Archangel of Thune (Ashton) 63; Nim Deathmantle (Ashton) 43; Seluma, Light of Aysen (Ashton) 36
+Phase: Samantha's Untap step
+Phase: Samantha's Upkeep step
+Phase: Samantha's Draw step
+Phase: Samantha's Main phase, precombat
+Land: Samantha played Mount Doom (221)
+Land: Samantha picked {W}
+Mana: Temple of Triumph (295) - {T}: Add {R} or {W}.
+Land: Samantha picked {R}
+Mana: Temple of Malice (220) - {T}: Add {B} or {R}.
+Mana: Canyon Slough (255) - {T}: Add {B}.
+Land: Samantha picked {W}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Tainted Peak (300) - {T}: Add {C}.
+Mana: Sunhome, Fortress of the Legion (250) - {T}: Add {C}.
+Mana: Barad-dûr (288) - {T}: Add {B}.
+Zone Change: Treasure Token (448) was put into Graveyard from Battlefield.
+Land: Treasure Token (448) picked {W}
+Mana: Treasure Token (448) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Samantha cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Samantha | open mana: Dominic 17, Ashton 2
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Add To Stack: Samantha activated Lightning Greaves targeting [Olivia, Opulent Outlaw (312)]
+Resolve Stack: Lightning Greaves (305) -  Attach to Olivia, Opulent Outlaw (312)
+Phase: Samantha's Beginning of Combat Step
+Phase: Samantha's Declare Attackers Step
+Phase: Samantha's Declare Blockers Step
+Phase: Samantha's First Strike Damage Step
+Phase: Samantha's Combat Damage Step
+Phase: Samantha's End of Combat Step
+Phase: Samantha's Main phase, postcombat
+Phase: Samantha's End step
+Phase: Samantha's Cleanup step
+Turn: Turn 39 (Ashton)
+Information: BOARD turn 39 (Ashton) | Dominic | life 30 | hand 4 | lands 8 (8 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 39 (Ashton) | Samantha | life 9 | hand 2 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Orzhov Signet(2); Swamp(land)
+Information: BOARD turn 39 (Ashton) | Ashton | life 41 | hand 1 | lands 9 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (2 untapped): Angel of Serenity 9/10*[Nim Deathmantle]; Archangel of Thune 5/6*; Seluma, Light of Aysen 5/5*; Bruna, the Fading Light 5/7; Angel of Finality 3/4 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 39 | Angel of Serenity (Ashton) 68; Archangel of Thune (Ashton) 60; Nim Deathmantle (Ashton) 42; Seluma, Light of Aysen (Ashton) 35; Lightning Greaves (Samantha) 31
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Angel of Serenity (373), Archangel of Thune (352), Seluma, Light of Aysen (413), Bruna, the Fading Light (364) and Angel of Finality (331) to attack Samantha.
+Information: BOARD attack | Ashton -> Samantha | attackers 5 (power 27) | defender life 9 | untapped creatures 1 (power 3): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | open mana 4
+Phase: Ashton's Declare Blockers Step
+Combat: Samantha assigned Olivia, Opulent Outlaw (312) to block Angel of Serenity (373).
+Samantha didn't block Archangel of Thune (352).
+Samantha didn't block Seluma, Light of Aysen (413).
+Samantha didn't block Bruna, the Fading Light (364).
+Samantha didn't block Angel of Finality (331).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Damage: Angel of Serenity (373) deals 9 damage to Olivia, Opulent Outlaw (312).
+Damage: Archangel of Thune (352) deals 5 combat damage to Samantha.
+Life: Life: Ashton 41 > 46
+Damage: Seluma, Light of Aysen (413) deals 5 combat damage to Samantha.
+Damage: Bruna, the Fading Light (364) deals 5 combat damage to Samantha.
+Damage: Angel of Finality (331) deals 3 combat damage to Samantha.
+Damage: Olivia, Opulent Outlaw (312) deals 3 damage to Angel of Serenity (373).
+Life: Life: Samantha 9 > 12
+Life: Life: Samantha 12 > -6
+Add To Stack: Ashton triggered Archangel of Thune
+Resolve Stack: Whenever you gain life, put a +1/+1 counter on each creature you control. [Player: Ashton, Gained Amount: 5]
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Mana: Plains (390) - {T}: Add {W}.
+Add To Stack: Ashton cast Giada, Font of Hope
+Information: BOARD cast | Giada, Font of Hope (mv 2) by Ashton | open mana: Dominic 17
+Resolve Stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 40 (Dominic)
+Information: BOARD turn 40 (Dominic) | Dominic | life 30 | hand 4 | lands 8 (8 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 40 (Dominic) | Ashton | life 46 | hand 1 | lands 9 (8 untapped) | open mana 8 | commander Battlefield | creatures 6 (2 untapped): Angel of Serenity 10/11*[Nim Deathmantle]; Archangel of Thune 6/7*; Seluma, Light of Aysen 6/6*; Bruna, the Fading Light 6/8; Angel of Finality 4/5*; Giada, Font of Hope 2/2 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 40 | Archangel of Thune (Ashton) 101; Angel of Serenity (Ashton) 65; Seluma, Light of Aysen (Ashton) 62; Nim Deathmantle (Ashton) 40; Angel of Finality (Ashton) 30
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Dominic played Jungle Hollow (84)
+Add To Stack: Dominic triggered Jungle Hollow
+Life: Life: Dominic 30 > 31
+Resolve Stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (84)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 41 (Ashton)
+Information: BOARD turn 41 (Ashton) | Dominic | life 31 | hand 4 | lands 9 (8 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Inkshield(5); Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 41 (Ashton) | Ashton | life 46 | hand 1 | lands 9 (8 untapped) | open mana 8 | commander Battlefield | creatures 6 (2 untapped): Angel of Serenity 10/11*[Nim Deathmantle]; Archangel of Thune 6/7*; Seluma, Light of Aysen 6/6*; Bruna, the Fading Light 6/8; Angel of Finality 4/5*; Giada, Font of Hope 2/2 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 41 | Archangel of Thune (Ashton) 97; Angel of Serenity (Ashton) 62; Seluma, Light of Aysen (Ashton) 59; Nim Deathmantle (Ashton) 38
+Phase: Ashton's Untap step
+Phase: Ashton's Upkeep step
+Phase: Ashton's Draw step
+Phase: Ashton's Main phase, precombat
+Mana: Plains (390) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Swamp (362) - {T}: Add {B}.
+Mana: Island (343) - {T}: Add {U}.
+Mana: Plains (403) - {T}: Add {W}.
+Add To Stack: Ashton cast Sephara, Sky's Blade
+Information: BOARD cast | Sephara, Sky's Blade (mv 7) by Ashton | open mana: Dominic 17
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve Stack: Sephara, Sky's Blade - Creature 7 / 7
+Phase: Ashton's Beginning of Combat Step
+Phase: Ashton's Declare Attackers Step
+Combat: Ashton assigned Angel of Serenity (373), Archangel of Thune (352), Seluma, Light of Aysen (413), Bruna, the Fading Light (364), Angel of Finality (331) and Giada, Font of Hope (355) to attack Dominic.
+Information: BOARD attack | Ashton -> Dominic | attackers 6 (power 34) | defender life 31 | untapped creatures 0 (power 0):  | open mana 17
+Mana: Turbulent Shore (90) - {T}: Add {W}.
+Mana: Swamp (60) - {T}: Add {B}.
+Mana: Mountain (92) - {T}: Add {R}.
+Mana: Rugged Highlands (13) - {T}: Add {R} or {G}.
+Mana: Temple of Epiphany (48) - {T}: Add {U} or {R}.
+Add To Stack: Dominic cast Inkshield
+Information: BOARD cast | Inkshield (mv 5) by Dominic | open mana: Ashton 4
+Resolve Stack: Inkshield (5) - Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Phase: Ashton's Declare Blockers Step
+Combat: Dominic didn't block Angel of Serenity (373).
+Dominic didn't block Archangel of Thune (352).
+Dominic didn't block Seluma, Light of Aysen (413).
+Dominic didn't block Bruna, the Fading Light (364).
+Dominic didn't block Angel of Finality (331).
+Dominic didn't block Giada, Font of Hope (355).
+Phase: Ashton's First Strike Damage Step
+Phase: Ashton's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Replacement Effect: Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.
+Phase: Ashton's End of Combat Step
+Phase: Ashton's Main phase, postcombat
+Phase: Ashton's End step
+Phase: Ashton's Cleanup step
+Turn: Turn 42 (Dominic)
+Information: BOARD turn 42 (Dominic) | Dominic | life 31 | hand 3 | lands 9 (3 untapped) | open mana 8 | commander Command | creatures 34 (34 untapped): Inkling Token 2/1 x34 | hand cards: Ancient Silver Dragon(8); Child of Alara(5); Abrade(2)
+Information: BOARD turn 42 (Dominic) | Ashton | life 46 | hand 1 | lands 9 (3 untapped) | open mana 4 | commander Battlefield | creatures 7 (3 untapped): Angel of Serenity 10/11*[Nim Deathmantle]; Archangel of Thune 6/7*; Seluma, Light of Aysen 6/6*; Bruna, the Fading Light 6/8; Angel of Finality 4/5*; Giada, Font of Hope 2/2; Sephara, Sky's Blade 12/12 | hand cards: Sevinne's Reclamation(3)
+Information: BOARD threat | turn 42 | Archangel of Thune (Ashton) 93; Angel of Serenity (Ashton) 60; Seluma, Light of Aysen (Ashton) 57; Nim Deathmantle (Ashton) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Inkling Token (466), Inkling Token (467), Inkling Token (468), Inkling Token (469), Inkling Token (470), Inkling Token (471), Inkling Token (472), Inkling Token (473), Inkling Token (474), Inkling Token (475), Inkling Token (476), Inkling Token (477), Inkling Token (478), Inkling Token (479), Inkling Token (480), Inkling Token (481), Inkling Token (482), Inkling Token (483), Inkling Token (484), Inkling Token (485), Inkling Token (486), Inkling Token (487), Inkling Token (488), Inkling Token (489), Inkling Token (490), Inkling Token (491), Inkling Token (492), Inkling Token (493), Inkling Token (494), Inkling Token (495), Inkling Token (496), Inkling Token (497), Inkling Token (498) and Inkling Token (499) to attack Ashton.
+Information: BOARD attack | Dominic -> Ashton | attackers 34 (power 68) | defender life 46 | untapped creatures 3 (power 20): Bruna, the Fading Light 6/8; Giada, Font of Hope 2/2; Sephara, Sky's Blade 12/12 | open mana 4
+Phase: Dominic's Declare Blockers Step
+Combat: Ashton assigned Giada, Font of Hope (355) to block Inkling Token (466).
+Ashton assigned Bruna, the Fading Light (364) to block Inkling Token (467).
+Ashton assigned Sephara, Sky's Blade (340) to block Inkling Token (468).
+Ashton didn't block Inkling Token (469).
+Ashton didn't block Inkling Token (470).
+Ashton didn't block Inkling Token (471).
+Ashton didn't block Inkling Token (472).
+Ashton didn't block Inkling Token (473).
+Ashton didn't block Inkling Token (474).
+Ashton didn't block Inkling Token (475).
+Ashton didn't block Inkling Token (476).
+Ashton didn't block Inkling Token (477).
+Ashton didn't block Inkling Token (478).
+Ashton didn't block Inkling Token (479).
+Ashton didn't block Inkling Token (480).
+Ashton didn't block Inkling Token (481).
+Ashton didn't block Inkling Token (482).
+Ashton didn't block Inkling Token (483).
+Ashton didn't block Inkling Token (484).
+Ashton didn't block Inkling Token (485).
+Ashton didn't block Inkling Token (486).
+Ashton didn't block Inkling Token (487).
+Ashton didn't block Inkling Token (488).
+Ashton didn't block Inkling Token (489).
+Ashton didn't block Inkling Token (490).
+Ashton didn't block Inkling Token (491).
+Ashton didn't block Inkling Token (492).
+Ashton didn't block Inkling Token (493).
+Ashton didn't block Inkling Token (494).
+Ashton didn't block Inkling Token (495).
+Ashton didn't block Inkling Token (496).
+Ashton didn't block Inkling Token (497).
+Ashton didn't block Inkling Token (498).
+Ashton didn't block Inkling Token (499).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Inkling Token (466) deals 2 damage to Giada, Font of Hope (355).
+Damage: Inkling Token (467) deals 2 damage to Bruna, the Fading Light (364).
+Damage: Inkling Token (468) deals 2 damage to Sephara, Sky's Blade (340).
+Damage: Inkling Token (469) deals 2 combat damage to Ashton.
+Damage: Inkling Token (470) deals 2 combat damage to Ashton.
+Damage: Inkling Token (471) deals 2 combat damage to Ashton.
+Damage: Inkling Token (472) deals 2 combat damage to Ashton.
+Damage: Inkling Token (473) deals 2 combat damage to Ashton.
+Damage: Inkling Token (474) deals 2 combat damage to Ashton.
+Damage: Inkling Token (475) deals 2 combat damage to Ashton.
+Damage: Inkling Token (476) deals 2 combat damage to Ashton.
+Damage: Inkling Token (477) deals 2 combat damage to Ashton.
+Damage: Inkling Token (478) deals 2 combat damage to Ashton.
+Damage: Inkling Token (479) deals 2 combat damage to Ashton.
+Damage: Inkling Token (480) deals 2 combat damage to Ashton.
+Damage: Inkling Token (481) deals 2 combat damage to Ashton.
+Damage: Inkling Token (482) deals 2 combat damage to Ashton.
+Damage: Inkling Token (483) deals 2 combat damage to Ashton.
+Damage: Inkling Token (484) deals 2 combat damage to Ashton.
+Damage: Inkling Token (485) deals 2 combat damage to Ashton.
+Damage: Inkling Token (486) deals 2 combat damage to Ashton.
+Damage: Inkling Token (487) deals 2 combat damage to Ashton.
+Damage: Inkling Token (488) deals 2 combat damage to Ashton.
+Damage: Inkling Token (489) deals 2 combat damage to Ashton.
+Damage: Inkling Token (490) deals 2 combat damage to Ashton.
+Damage: Inkling Token (491) deals 2 combat damage to Ashton.
+Damage: Inkling Token (492) deals 2 combat damage to Ashton.
+Damage: Inkling Token (493) deals 2 combat damage to Ashton.
+Damage: Inkling Token (494) deals 2 combat damage to Ashton.
+Damage: Inkling Token (495) deals 2 combat damage to Ashton.
+Damage: Inkling Token (496) deals 2 combat damage to Ashton.
+Damage: Inkling Token (497) deals 2 combat damage to Ashton.
+Damage: Inkling Token (498) deals 2 combat damage to Ashton.
+Damage: Inkling Token (499) deals 2 combat damage to Ashton.
+Damage: Giada, Font of Hope (355) deals 2 damage to Inkling Token (466).
+Damage: Bruna, the Fading Light (364) deals 6 damage to Inkling Token (467).
+Damage: Sephara, Sky's Blade (340) deals 12 damage to Inkling Token (468).
+Life: Life: Ashton 46 > 58
+Life: Life: Ashton 58 > -4
+Player Control: Dominic has restored control over themself
+Player Control: Captain has restored control over themself
+Player Control: Samantha has restored control over themself
+Player Control: Ashton has restored control over themself
+Game Outcome: Match Duration 29m : 37s
+Game Outcome: Turn 21
+Game Outcome: Dominic has won because all opponents have lost
+Game Outcome: Captain has conceded
+Game Outcome: Samantha has lost because life total reached 0
+Game Outcome: Ashton has lost because life total reached 0
+Match Result: Dominic: 1 Captain: 0 Samantha: 0 Ashton: 0 
+
+Game Result: Dominic has won

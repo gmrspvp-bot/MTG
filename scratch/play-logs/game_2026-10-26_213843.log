@@ -1,0 +1,1305 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Ledale (AI) deck=Scion
+Player: David (AI) deck=Angels
+Player: Ilgenar (AI) deck=Scion
+Mulligan: Ledale has mulliganed down to 7 cards.
+Mulligan: Ledale has mulliganed down to 6 cards.
+Mulligan: Ledale has mulliganed down to 5 cards.
+Mulligan: Ledale has kept a hand of 5 cards
+Mulligan: David has kept a hand of 7 cards
+Mulligan: Ilgenar has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Ledale)
+Information: BOARD turn 1 (Ledale) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Barad-dûr(land)
+Information: BOARD turn 1 (Ledale) | Ledale | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Shivan Reef(land); Harbinger of the Hunt(5); Supreme Verdict(4); Sunken Ruins(land)
+Information: BOARD turn 1 (Ledale) | David | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Plains(land); Swiftfoot Boots(2); Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6)
+Information: BOARD turn 1 (Ledale) | Ilgenar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Fetid Heath(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Shivan Reef (127)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 2 (David)
+Information: BOARD turn 2 (David) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Barad-dûr(land)
+Information: BOARD turn 2 (David) | Ledale | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Sunken Ruins(land); Temple of Epiphany(land)
+Information: BOARD turn 2 (David) | David | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sol Ring(1); Plains(land); Swiftfoot Boots(2); Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6)
+Information: BOARD turn 2 (David) | Ilgenar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Fetid Heath(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4)
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Land: David played Plains (291)
+Mana: Plains (291) - {T}: Add {W}.
+Add To Stack: David cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by David | open mana: Dominic 0, Ledale 3, Ilgenar 0
+Resolve Stack: Sol Ring
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Phase: David's Declare Blockers Step
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Add To Stack: David cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by David | open mana: Dominic 0, Ledale 3, Ilgenar 0
+Resolve Stack: Swiftfoot Boots
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 3 (Ilgenar)
+Information: BOARD turn 3 (Ilgenar) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Barad-dûr(land)
+Information: BOARD turn 3 (Ilgenar) | Ledale | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Sunken Ruins(land); Temple of Epiphany(land)
+Information: BOARD turn 3 (Ilgenar) | David | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6); Unclaimed Territory(land)
+Information: BOARD turn 3 (Ilgenar) | Ilgenar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Fetid Heath(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4)
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Phase: Ilgenar's Main phase, precombat
+Land: Ilgenar played Fetid Heath (314)
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Barad-dûr(land)
+Information: BOARD turn 4 (Dominic) | Ledale | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Sunken Ruins(land); Temple of Epiphany(land)
+Information: BOARD turn 4 (Dominic) | David | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6); Unclaimed Territory(land)
+Information: BOARD turn 4 (Dominic) | Ilgenar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Barad-dûr enters tapped unless you control a legendary creature.
+Land: Dominic played Barad-dûr (76)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (Ledale)
+Information: BOARD turn 5 (Ledale) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6)
+Information: BOARD turn 5 (Ledale) | Ledale | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Sunken Ruins(land); Temple of Epiphany(land)
+Information: BOARD turn 5 (Ledale) | David | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6); Unclaimed Territory(land)
+Information: BOARD turn 5 (Ledale) | Ilgenar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Sunken Ruins (102)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 6 (David)
+Information: BOARD turn 6 (David) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6)
+Information: BOARD turn 6 (David) | Ledale | life 40 | hand 5 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Temple of Epiphany(land); Exotic Orchard(land)
+Information: BOARD turn 6 (David) | David | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Island(land); Shalai, Voice of Plenty(4); Sun Titan(6); Unclaimed Territory(land)
+Information: BOARD turn 6 (David) | Ilgenar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Land: David played Island (232)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Add To Stack: David cast Shalai, Voice of Plenty
+Information: BOARD cast | Shalai, Voice of Plenty (mv 4) by David | open mana: Dominic 0, Ledale 8, Ilgenar 5
+Resolve Stack: Shalai, Voice of Plenty - Creature 3 / 4
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Phase: David's Declare Blockers Step
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 7 (Ilgenar)
+Information: BOARD turn 7 (Ilgenar) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6)
+Information: BOARD turn 7 (Ilgenar) | Ledale | life 40 | hand 5 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Temple of Epiphany(land); Exotic Orchard(land)
+Information: BOARD turn 7 (Ilgenar) | David | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shalai, Voice of Plenty 3/4 | hand cards: Plains(land); Sun Titan(6); Unclaimed Territory(land); Path of Ancestry(land)
+Information: BOARD turn 7 (Ilgenar) | Ilgenar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Plains(land); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Phase: Ilgenar's Main phase, precombat
+Land: Ilgenar played Plains (398)
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Fetid Heath (314) - {T}: Add {C}.
+Add To Stack: Ilgenar cast Marvin, Murderous Mimic
+Information: BOARD cast | Marvin, Murderous Mimic (mv 2) by Ilgenar | open mana: Dominic 0, Ledale 8, David 0
+Resolve Stack: Marvin, Murderous Mimic - Creature 2 / 2
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4); Rogue's Passage(land); Changeling Outcast(1); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6)
+Information: BOARD turn 8 (Dominic) | Ledale | life 40 | hand 5 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Temple of Epiphany(land); Exotic Orchard(land)
+Information: BOARD turn 8 (Dominic) | David | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shalai, Voice of Plenty 3/4 | hand cards: Plains(land); Sun Titan(6); Unclaimed Territory(land); Path of Ancestry(land)
+Information: BOARD turn 8 (Dominic) | Ilgenar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rogue's Passage (25)
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Add To Stack: Dominic cast Changeling Outcast
+Information: BOARD cast | Changeling Outcast (mv 1) by Dominic | open mana: Ledale 8, David 0, Ilgenar 0
+Resolve Stack: Changeling Outcast - Creature 1 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 9 (Ledale)
+Information: BOARD turn 9 (Ledale) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Changeling Outcast 1/1 | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 9 (Ledale) | Ledale | life 40 | hand 5 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Temple of Epiphany(land); Exotic Orchard(land)
+Information: BOARD turn 9 (Ledale) | David | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shalai, Voice of Plenty 3/4 | hand cards: Plains(land); Sun Titan(6); Unclaimed Territory(land); Path of Ancestry(land)
+Information: BOARD turn 9 (Ledale) | Ilgenar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ledale played Temple of Epiphany (149)
+Add To Stack: Ledale triggered Temple of Epiphany
+Resolve Stack: Ledale scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (149)]
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 10 (David)
+Information: BOARD turn 10 (David) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Changeling Outcast 1/1 | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 10 (David) | Ledale | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 10 (David) | David | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Shalai, Voice of Plenty 3/4 | hand cards: Plains(land); Sun Titan(6); Unclaimed Territory(land); Path of Ancestry(land)
+Information: BOARD turn 10 (David) | Ilgenar | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: David played Unclaimed Territory (245)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: David cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by David | open mana: Dominic 1, Ledale 8, Ilgenar 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Shalai, Voice of Plenty (225) to attack Ilgenar.
+Information: BOARD attack | David -> Ilgenar | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 2): Marvin, Murderous Mimic 2/2 | open mana 0
+Phase: David's Declare Blockers Step
+Combat: Ilgenar didn't block Shalai, Voice of Plenty (225).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Shalai, Voice of Plenty (225) deals 3 combat damage to Ilgenar.
+Life: Life: Ilgenar 40 > 37
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 11 (Ilgenar)
+Information: BOARD turn 11 (Ilgenar) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Changeling Outcast 1/1 | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 11 (Ilgenar) | Ledale | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 11 (Ilgenar) | David | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Sun Titan(6); Path of Ancestry(land); Exotic Orchard(land)
+Information: BOARD turn 11 (Ilgenar) | Ilgenar | life 37 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Thornwood Falls(land); Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6)
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Phase: Ilgenar's Main phase, precombat
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Combat: Ilgenar assigned Marvin, Murderous Mimic (330) to attack Dominic.
+Information: BOARD attack | Ilgenar -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 1 (power 1): Changeling Outcast 1/1 | open mana 1
+Phase: Ilgenar's Declare Blockers Step
+Combat: Dominic didn't block Marvin, Murderous Mimic (330).
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Damage: Marvin, Murderous Mimic (330) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ilgenar played Thornwood Falls (373)
+Add To Stack: Ilgenar triggered Thornwood Falls
+Life: Life: Ilgenar 37 > 38
+Resolve Stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (373)]
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Dominic | life 38 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Changeling Outcast 1/1 | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 12 (Dominic) | Ledale | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 12 (Dominic) | David | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Sun Titan(6); Path of Ancestry(land); Exotic Orchard(land)
+Information: BOARD turn 12 (Dominic) | Ilgenar | life 38 | hand 6 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Dominic played Smoldering Marsh (71)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Changeling Outcast (16) to attack Ilgenar.
+Information: BOARD attack | Dominic -> Ilgenar | attackers 1 (power 1) | defender life 38 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Dominic's Declare Blockers Step
+Combat: Ilgenar didn't block Changeling Outcast (16).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Changeling Outcast (16) deals 1 combat damage to Ilgenar.
+Life: Life: Ilgenar 38 > 37
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 13 (Ledale)
+Information: BOARD turn 13 (Ledale) | Dominic | life 38 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Changeling Outcast 1/1* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 13 (Ledale) | Ledale | life 40 | hand 5 | lands 3 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 13 (Ledale) | David | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Sun Titan(6); Path of Ancestry(land); Exotic Orchard(land)
+Information: BOARD turn 13 (Ledale) | Ilgenar | life 37 | hand 6 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Underground River (116)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Land: Ledale picked {U}
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Mana: Underground River (116) - {T}: Add {C}.
+Mana: Shivan Reef (127) - {T}: Add {C}.
+Add To Stack: Ledale cast Burnished Hart
+Information: BOARD cast | Burnished Hart (mv 3) by Ledale | open mana: Dominic 2, David 0, Ilgenar 6
+Resolve Stack: Burnished Hart - Creature 2 / 2
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 14 (David)
+Information: BOARD turn 14 (David) | Dominic | life 38 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Changeling Outcast 1/1* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 14 (David) | Ledale | life 40 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Burnished Hart 2/2 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 14 (David) | David | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Sun Titan(6); Path of Ancestry(land); Exotic Orchard(land)
+Information: BOARD turn 14 (David) | Ilgenar | life 37 | hand 6 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2)
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Land: David played Plains (287)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: David cast Sun Titan
+Information: BOARD cast | Sun Titan (mv 6) by David | open mana: Dominic 2, Ledale 5, Ilgenar 6
+Resolve Stack: Sun Titan - Creature 6 / 6
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Seluma, Light of Aysen (302) and Shalai, Voice of Plenty (225) to attack Ilgenar.
+Information: BOARD attack | David -> Ilgenar | attackers 2 (power 7) | defender life 37 | untapped creatures 0 (power 0):  | open mana 6
+Phase: David's Declare Blockers Step
+Combat: Ilgenar didn't block Seluma, Light of Aysen (302).
+Ilgenar didn't block Shalai, Voice of Plenty (225).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Ilgenar.
+Damage: Shalai, Voice of Plenty (225) deals 3 combat damage to Ilgenar.
+Life: Life: Ilgenar 37 > 30
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 15 (Ilgenar)
+Information: BOARD turn 15 (Ilgenar) | Dominic | life 38 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Changeling Outcast 1/1* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 15 (Ilgenar) | Ledale | life 40 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Burnished Hart 2/2 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 15 (Ilgenar) | David | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Sun Titan 6/6 | hand cards: Path of Ancestry(land); Exotic Orchard(land); Restoration Angel(4)
+Information: BOARD turn 15 (Ilgenar) | Ilgenar | life 30 | hand 6 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Savage Ventmaw(6); Scorned Villager(2); Temple of Epiphany(land); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2)
+Information: BOARD threat | turn 15 | Shalai, Voice of Plenty (David) 32
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Phase: Ilgenar's Main phase, precombat
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Combat: Ilgenar assigned Marvin, Murderous Mimic (330) to attack Dominic.
+Information: BOARD attack | Ilgenar -> Dominic | attackers 1 (power 2) | defender life 38 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Ilgenar's Declare Blockers Step
+Combat: Dominic didn't block Marvin, Murderous Mimic (330).
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Damage: Marvin, Murderous Mimic (330) deals 2 combat damage to Dominic.
+Life: Life: Dominic 38 > 36
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ilgenar played Temple of Epiphany (351)
+Add To Stack: Ilgenar triggered Temple of Epiphany
+Resolve Stack: Ilgenar scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (351)]
+Land: Ilgenar picked {G}
+Mana: Thornwood Falls (373) - {T}: Add {G} or {U}.
+Mana: Plains (398) - {T}: Add {W}.
+Add To Stack: Ilgenar cast Scorned Villager
+Information: BOARD cast | Scorned Villager (mv 2) by Ilgenar | open mana: Dominic 2, Ledale 5, David 0
+Resolve Stack: Scorned Villager - Creature 1 / 1
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Dominic | life 36 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Changeling Outcast 1/1* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Kellogg, Dangerous Mind(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 16 (Dominic) | Ledale | life 40 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Burnished Hart 2/2 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 16 (Dominic) | David | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Sun Titan 6/6 | hand cards: Path of Ancestry(land); Exotic Orchard(land); Restoration Angel(4)
+Information: BOARD turn 16 (Dominic) | Ilgenar | life 30 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Scorned Villager 1/1 | hand cards: Savage Ventmaw(6); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4)
+Information: BOARD threat | turn 16 | Shalai, Voice of Plenty (David) 31
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (56)
+Mana: Smoldering Marsh (71) - {T}: Add {R}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Rogue's Passage (25) - {T}: Add {C}.
+Add To Stack: Dominic cast Kellogg, Dangerous Mind
+Information: BOARD cast | Kellogg, Dangerous Mind (mv 3) by Dominic | open mana: Ledale 5, David 0, Ilgenar 5
+Resolve Stack: Kellogg, Dangerous Mind - Creature 3 / 2
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Kellogg, Dangerous Mind (60) to attack Ilgenar.
+Information: BOARD attack | Dominic -> Ilgenar | attackers 1 (power 3) | defender life 30 | untapped creatures 1 (power 1): Scorned Villager 1/1 | open mana 5
+Add To Stack: Dominic triggered Kellogg, Dangerous Mind
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (60)]
+Phase: Dominic's Declare Blockers Step
+Combat: Ilgenar didn't block Kellogg, Dangerous Mind (60).
+Phase: Dominic's First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (60) deals 3 combat damage to Ilgenar.
+Life: Life: Ilgenar 30 > 27
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 17 (Ledale)
+Information: BOARD turn 17 (Ledale) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 17 (Ledale) | Ledale | life 40 | hand 4 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Burnished Hart 2/2 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Exotic Orchard(land); Slip Out the Back(1)
+Information: BOARD turn 17 (Ledale) | David | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Sun Titan 6/6 | hand cards: Path of Ancestry(land); Exotic Orchard(land); Restoration Angel(4)
+Information: BOARD turn 17 (Ledale) | Ilgenar | life 27 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Scorned Villager 1/1 | hand cards: Savage Ventmaw(6); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4)
+Information: BOARD threat | turn 17 | Kellogg, Dangerous Mind (Dominic) 32
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Land: Ledale picked {U}
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Mana: Underground River (116) - {T}: Add {C}.
+Mana: Shivan Reef (127) - {T}: Add {C}.
+Zone Change: Burnished Hart (117) was put into Graveyard from Battlefield.
+Add To Stack: Ledale activated Burnished Hart
+Resolve Stack: Burnished Hart (117) - Ledale searches their library for  up to two basic land cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Exotic Orchard (142)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 18 (David)
+Information: BOARD turn 18 (David) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 18 (David) | Ledale | life 40 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 18 (David) | David | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Sun Titan 6/6 | hand cards: Path of Ancestry(land); Exotic Orchard(land); Restoration Angel(4)
+Information: BOARD turn 18 (David) | Ilgenar | life 27 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Scorned Villager 1/1 | hand cards: Savage Ventmaw(6); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4)
+Information: BOARD threat | turn 18 | Kellogg, Dangerous Mind (Dominic) 30
+Phase: David's Untap step
+Phase: David's Upkeep step
+Add To Stack: Ilgenar triggered Scorned Villager
+Resolve Stack: At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager. [Phase: David]
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Add To Stack: David cast Restoration Angel
+Information: BOARD cast | Restoration Angel (mv 4) by David | open mana: Dominic 2, Ledale 6, Ilgenar 5
+Resolve Stack: Restoration Angel - Creature 3 / 4
+Add To Stack: David triggered Restoration Angel targeting [Sun Titan (260)]
+Zone Change: Sun Titan (260) was put into Exile from Battlefield.
+Resolve Stack: When Restoration Angel enters, you may exile target non-Angel creature you control, then return that creature to the battlefield under your control. (Targeting: [[Sun Titan (260)]]) [Zone Changer: Restoration Angel (295)]
+Mana: Plains (287) - {T}: Add {W}.
+Add To Stack: David activated Swiftfoot Boots targeting [Sun Titan (260)]
+Resolve Stack: Swiftfoot Boots (249) -  Attach to Sun Titan (260)
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Sun Titan (260), Seluma, Light of Aysen (302) and Shalai, Voice of Plenty (225) to attack Ilgenar.
+Information: BOARD attack | David -> Ilgenar | attackers 3 (power 13) | defender life 27 | untapped creatures 1 (power 2): Moonscarred Werewolf 2/2 | open mana 5
+Phase: David's Declare Blockers Step
+Combat: Ilgenar assigned Moonscarred Werewolf (312) to block Sun Titan (260).
+Ilgenar didn't block Seluma, Light of Aysen (302).
+Ilgenar didn't block Shalai, Voice of Plenty (225).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Sun Titan (260) deals 6 damage to Moonscarred Werewolf (312).
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Ilgenar.
+Damage: Shalai, Voice of Plenty (225) deals 3 combat damage to Ilgenar.
+Damage: Moonscarred Werewolf (312) deals 2 damage to Sun Titan (260).
+Life: Life: Ilgenar 27 > 20
+Zone Change: Moonscarred Werewolf (312) was put into Graveyard from Battlefield.
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: David played Path of Ancestry (212)
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 19 (Ilgenar)
+Information: BOARD turn 19 (Ilgenar) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 19 (Ilgenar) | Ledale | life 40 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 19 (Ilgenar) | David | life 40 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Sun Titan 6/6[Swiftfoot Boots] | hand cards: Exotic Orchard(land); Teferi's Protection(3)
+Information: BOARD turn 19 (Ilgenar) | Ilgenar | life 20 | hand 5 | lands 4 (1 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Savage Ventmaw(6); Solemn Simulacrum(4); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4)
+Information: BOARD threat | turn 19 | Shalai, Voice of Plenty (David) 44; Seluma, Light of Aysen (David) 43
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Phase: Ilgenar's Main phase, precombat
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Mana: Plains (398) - {T}: Add {W}.
+Land: Ilgenar picked {G}
+Mana: Thornwood Falls (373) - {T}: Add {G} or {U}.
+Land: Ilgenar picked {R}
+Mana: Temple of Epiphany (351) - {T}: Add {U} or {R}.
+Mana: Fetid Heath (314) - {T}: Add {C}.
+Add To Stack: Ilgenar cast Solemn Simulacrum
+Information: BOARD cast | Solemn Simulacrum (mv 4) by Ilgenar | open mana: Dominic 2, Ledale 6, David 1
+Resolve Stack: Solemn Simulacrum - Creature 2 / 2
+Add To Stack: Ilgenar triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (342)]
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Smothering Tithe(4); Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 20 (Dominic) | Ledale | life 40 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 20 (Dominic) | David | life 40 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Sun Titan 6/6[Swiftfoot Boots] | hand cards: Exotic Orchard(land); Teferi's Protection(3)
+Information: BOARD turn 20 (Dominic) | Ilgenar | life 20 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Relic of Sauron(4)
+Information: BOARD threat | turn 20 | Shalai, Voice of Plenty (David) 43; Seluma, Light of Aysen (David) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Zone Change: Treasure Token (407) was put into Graveyard from Battlefield.
+Mana: Treasure Token (407) - {T}, Sacrifice this token: Add one mana of any color.
+Phase: Dominic's Main phase, precombat
+Phase: devDominic's Main phase, precombat
+Information: ROLLBACK to the start of MAIN1 (turn 20)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Kellogg, Dangerous Mind (60) to attack Ledale.
+Information: BOARD attack | Dominic -> Ledale | attackers 1 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 6
+Add To Stack: Dominic triggered Kellogg, Dangerous Mind
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (60)]
+Phase: Dominic's Declare Blockers Step
+Combat: Ledale didn't block Kellogg, Dangerous Mind (60).
+Phase: Dominic's First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (60) deals 3 combat damage to Ledale.
+Life: Life: Ledale 40 > 37
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (409) was put into Graveyard from Battlefield.
+Mana: Treasure Token (409) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Smoldering Marsh (71) - {T}: Add {R}.
+Mana: Rogue's Passage (25) - {T}: Add {C}.
+Add To Stack: Dominic cast Smothering Tithe
+Information: BOARD cast | Smothering Tithe (mv 4) by Dominic | open mana: Ledale 6, David 1, Ilgenar 0
+Resolve Stack: Smothering Tithe
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 21 (Ledale)
+Information: BOARD turn 21 (Ledale) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1); Bloodthirsty Conqueror(5)
+Information: BOARD turn 21 (Ledale) | Ledale | life 37 | hand 4 | lands 7 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 21 (Ledale) | David | life 40 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Sun Titan 6/6[Swiftfoot Boots] | hand cards: Exotic Orchard(land); Teferi's Protection(3)
+Information: BOARD turn 21 (Ledale) | Ilgenar | life 20 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Relic of Sauron(4)
+Information: BOARD threat | turn 21 | Kellogg, Dangerous Mind (Dominic) 59; Shalai, Voice of Plenty (David) 41; Seluma, Light of Aysen (David) 39
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Mountain (193)
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (196) - {T}: Add {W}.
+Land: Ledale picked {B}
+Damage: Underground River (116) deals 1 non-combat damage to Ledale.
+Life: Life: Ledale 37 > 36
+Mana: Underground River (116) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Mana: Island (134) - {T}: Add {U}.
+Mana: Mountain (193) - {T}: Add {R}.
+Add To Stack: Ledale cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Ledale | open mana: Dominic 2, David 1, Ilgenar 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Land: Ledale picked {U}
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Mana: Shivan Reef (127) - {T}: Add {C}.
+Add To Stack: Ledale activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (201) - Ledale searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (201) becomes a copy of The Ur-Dragon (201).
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 22 (David)
+Information: BOARD turn 22 (David) | Dominic | life 36 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1); Bloodthirsty Conqueror(5)
+Information: BOARD turn 22 (David) | Ledale | life 36 | hand 4 | lands 8 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 22 (David) | David | life 40 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Sun Titan 6/6[Swiftfoot Boots] | hand cards: Exotic Orchard(land); Teferi's Protection(3)
+Information: BOARD turn 22 (David) | Ilgenar | life 20 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Relic of Sauron(4)
+Information: BOARD threat | turn 22 | Kellogg, Dangerous Mind (Dominic) 56; Shalai, Voice of Plenty (David) 39; Seluma, Light of Aysen (David) 38
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: David]
+Phase: David's Main phase, precombat
+Land: David played Exotic Orchard (239)
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Seluma, Light of Aysen (302), Shalai, Voice of Plenty (225) and Restoration Angel (295) to attack Dominic.
+David assigned Sun Titan (260) to attack Ledale.
+Information: BOARD attack | David -> Dominic | attackers 3 (power 10) | defender life 36 | untapped creatures 1 (power 1): Changeling Outcast 1/1 | open mana 3
+Information: BOARD attack | David -> Ledale | attackers 1 (power 6) | defender life 36 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 5
+Phase: David's Declare Blockers Step
+Combat: Dominic didn't block Seluma, Light of Aysen (302).
+Dominic didn't block Shalai, Voice of Plenty (225).
+Dominic didn't block Restoration Angel (295).
+Combat: Ledale didn't block Sun Titan (260).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Dominic.
+Damage: Shalai, Voice of Plenty (225) deals 3 combat damage to Dominic.
+Damage: Restoration Angel (295) deals 3 combat damage to Dominic.
+Damage: Sun Titan (260) deals 6 combat damage to Ledale.
+Life: Life: Dominic 36 > 26
+Life: Life: Ledale 36 > 30
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Add To Stack: David cast Giada, Font of Hope
+Information: BOARD cast | Giada, Font of Hope (mv 2) by David | open mana: Dominic 3, Ledale 5, Ilgenar 0
+Resolve Stack: Giada, Font of Hope - Creature 2 / 2
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 23 (Ilgenar)
+Information: BOARD turn 23 (Ilgenar) | Dominic | life 26 | hand 5 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1); Bloodthirsty Conqueror(5)
+Information: BOARD turn 23 (Ilgenar) | Ledale | life 30 | hand 4 | lands 8 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 23 (Ilgenar) | David | life 40 | hand 1 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4*; Sun Titan 6/6[Swiftfoot Boots]; Giada, Font of Hope 2/2 | hand cards: Teferi's Protection(3)
+Information: BOARD turn 23 (Ilgenar) | Ilgenar | life 20 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Relic of Sauron(4)
+Information: BOARD threat | turn 23 | Seluma, Light of Aysen (David) 59; Shalai, Voice of Plenty (David) 55; Kellogg, Dangerous Mind (Dominic) 54; Sun Titan (David) 35
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ilgenar]
+Phase: Ilgenar's Main phase, precombat
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Mana: Island (335) - {T}: Add {U}.
+Mana: Plains (398) - {T}: Add {W}.
+Land: Ilgenar picked {G}
+Mana: Thornwood Falls (373) - {T}: Add {G} or {U}.
+Land: Ilgenar picked {R}
+Mana: Temple of Epiphany (351) - {T}: Add {U} or {R}.
+Add To Stack: Ilgenar cast Relic of Sauron
+Information: BOARD cast | Relic of Sauron (mv 4) by Ilgenar | open mana: Dominic 4, Ledale 5, David 6
+Resolve Stack: Relic of Sauron
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 26 | hand 5 | lands 4 (1 untapped) | open mana 4 | commander Command | creatures 2 (1 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2* | hand cards: Knuckles the Echidna(4); Breena, the Demagogue(3); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1); Bloodthirsty Conqueror(5)
+Information: BOARD turn 24 (Dominic) | Ledale | life 30 | hand 4 | lands 8 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 24 (Dominic) | David | life 40 | hand 1 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4*; Sun Titan 6/6[Swiftfoot Boots]; Giada, Font of Hope 2/2 | hand cards: Teferi's Protection(3)
+Information: BOARD turn 24 (Dominic) | Ilgenar | life 20 | hand 5 | lands 5 (1 untapped) | open mana 13 | commander Command | creatures 2 (2 untapped): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Dragon Mage(7)
+Information: BOARD threat | turn 24 | Seluma, Light of Aysen (David) 57; Shalai, Voice of Plenty (David) 53; Kellogg, Dangerous Mind (Dominic) 52; Smothering Tithe (Dominic) 41; Sun Titan (David) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Smoldering Marsh (71) - {T}: Add {B}.
+Mana: Rogue's Passage (25) - {T}: Add {C}.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Add To Stack: Dominic cast Rankle, Master of Pranks
+Information: BOARD cast | Rankle, Master of Pranks (mv 4) by Dominic | open mana: Ledale 5, David 6, Ilgenar 13
+Resolve Stack: Rankle, Master of Pranks - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Kellogg, Dangerous Mind (60) and Rankle, Master of Pranks (88) to attack Ilgenar.
+Information: BOARD attack | Dominic -> Ilgenar | attackers 2 (power 6) | defender life 20 | untapped creatures 2 (power 4): Marvin, Murderous Mimic 2/2; Solemn Simulacrum 2/2 | open mana 13
+Add To Stack: Dominic triggered Kellogg, Dangerous Mind
+Resolve Stack: Whenever this creature attacks, create a Treasure token. [Attacker: Kellogg, Dangerous Mind (60)]
+Phase: Dominic's Declare Blockers Step
+Combat: Ilgenar assigned Marvin, Murderous Mimic (330) to block Kellogg, Dangerous Mind (60).
+Ilgenar didn't block Rankle, Master of Pranks (88).
+Phase: Dominic's First Strike Damage Step
+Damage: Kellogg, Dangerous Mind (60) deals 3 damage to Marvin, Murderous Mimic (330).
+Zone Change: Marvin, Murderous Mimic (330) was put into Graveyard from Battlefield.
+Phase: Dominic's Combat Damage Step
+Damage: Rankle, Master of Pranks (88) deals 3 combat damage to Ilgenar.
+Life: Life: Ilgenar 20 > 17
+Add To Stack: Dominic triggered Rankle, Master of Pranks
+Life: Life: Dominic 26 > 25
+Life: Life: Ledale 30 > 29
+Life: Life: David 40 > 39
+Life: Life: Ilgenar 17 > 16
+Resolve Stack: Whenever Rankle, Master of Pranks deals combat damage to a player, each player loses 1 life and draws a card. [Damage Source: Rankle, Master of Pranks (88), Damaged: Ilgenar, Amount: 3]
+Add To Stack: Dominic triggered Smothering Tithe
+Add To Stack: Dominic triggered Smothering Tithe
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: David]
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ilgenar]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic played Command Tower (27)
+Mana: Command Tower (27) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Treasure Token (429) was put into Graveyard from Battlefield.
+Mana: Treasure Token (429) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (426) was put into Graveyard from Battlefield.
+Mana: Treasure Token (426) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (423) was put into Graveyard from Battlefield.
+Mana: Treasure Token (423) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Bloodthirsty Conqueror
+Information: BOARD cast | Bloodthirsty Conqueror (mv 5) by Dominic | open mana: Ledale 5, David 6, Ilgenar 13
+Resolve Stack: Bloodthirsty Conqueror - Creature 5 / 5
+Zone Change: Treasure Token (418) was put into Graveyard from Battlefield.
+Mana: Treasure Token (418) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (415) was put into Graveyard from Battlefield.
+Mana: Treasure Token (415) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (412) was put into Graveyard from Battlefield.
+Mana: Treasure Token (412) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Breena, the Demagogue
+Information: BOARD cast | Breena, the Demagogue (mv 3) by Dominic | open mana: Ledale 5, David 6, Ilgenar 13
+Resolve Stack: Breena, the Demagogue - Creature 1 / 3
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 25 (Ledale)
+Information: BOARD turn 25 (Ledale) | Dominic | life 25 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 5 (3 untapped): Changeling Outcast 1/1; Kellogg, Dangerous Mind 3/2*; Rankle, Master of Pranks 3/3*; Bloodthirsty Conqueror 5/5; Breena, the Demagogue 1/3 | hand cards: Knuckles the Echidna(4); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 25 (Ledale) | Ledale | life 29 | hand 5 | lands 8 (1 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Harbinger of the Hunt(5); Supreme Verdict(4); Slip Out the Back(1); Living Death(5); Deserted Beach(land)
+Information: BOARD turn 25 (Ledale) | David | life 39 | hand 2 | lands 6 (5 untapped) | open mana 6 | commander Battlefield | creatures 5 (2 untapped): Shalai, Voice of Plenty 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4*; Sun Titan 6/6[Swiftfoot Boots]; Giada, Font of Hope 2/2 | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 25 (Ledale) | Ilgenar | life 16 | hand 6 | lands 5 (1 untapped) | open mana 13 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Dragon Mage(7); Lathliss, Dragon Queen(6)
+Information: BOARD threat | turn 25 | Smothering Tithe (Dominic) 83; Kellogg, Dangerous Mind (Dominic) 64; Seluma, Light of Aysen (David) 55; Shalai, Voice of Plenty (David) 51; Sun Titan (David) 32
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Ledale played Deserted Beach (169)
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Island (134) - {T}: Add {U}.
+Mana: Mountain (193) - {T}: Add {R}.
+Add To Stack: Ledale cast Supreme Verdict
+Information: BOARD cast | Supreme Verdict (mv 4) by Ledale | open mana: Dominic 1, David 6, Ilgenar 13
+Zone Change: Scion of the Ur-Dragon (201) was put into Graveyard from Battlefield.
+Zone Change: Shalai, Voice of Plenty (225) was put into Graveyard from Battlefield.
+Zone Change: Seluma, Light of Aysen (302) was put into Graveyard from Battlefield.
+Zone Change: Restoration Angel (295) was put into Graveyard from Battlefield.
+Zone Change: Sun Titan (260) was put into Graveyard from Battlefield.
+Zone Change: Giada, Font of Hope (244) was put into Graveyard from Battlefield.
+Zone Change: Solemn Simulacrum (342) was put into Graveyard from Battlefield.
+Zone Change: Changeling Outcast (16) was put into Graveyard from Battlefield.
+Zone Change: Kellogg, Dangerous Mind (60) was put into Graveyard from Battlefield.
+Zone Change: Rankle, Master of Pranks (88) was put into Graveyard from Battlefield.
+Zone Change: Bloodthirsty Conqueror (46) was put into Graveyard from Battlefield.
+Zone Change: Breena, the Demagogue (73) was put into Graveyard from Battlefield.
+Resolve Stack: Supreme Verdict (160) - Destroy all creatures.
+Add To Stack: Ilgenar triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (342)]
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ilgenar]
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 26 (David)
+Information: BOARD turn 26 (David) | Dominic | life 25 | hand 3 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 26 (David) | Ledale | life 29 | hand 4 | lands 9 (5 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Slip Out the Back(1); Living Death(5); Dragon Mage(7)
+Information: BOARD turn 26 (David) | David | life 39 | hand 2 | lands 6 (5 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 26 (David) | Ilgenar | life 16 | hand 7 | lands 5 (1 untapped) | open mana 13 | commander Command | creatures 0 (0 untapped):  | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Dragon Mage(7); Lathliss, Dragon Queen(6); Bribery(5)
+Information: BOARD threat | turn 26 | Smothering Tithe (Dominic) 109
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: David]
+Phase: David's Main phase, precombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (287) - {T}: Add {W}.
+Land: David picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Exotic Orchard (239) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: David cast Serra's Emissary
+Information: BOARD cast | Serra's Emissary (mv 7) by David | open mana: Dominic 3, Ledale 17, Ilgenar 13
+Add To Stack: David triggered Path of Ancestry
+Resolve Stack: David scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Serra's Emissary - Creature 7 / 7]) [Card: Serra's Emissary (242), Activator: David, SpellAbility: Serra's Emissary - Creature 7 / 7]
+Replacement Effect: As Serra's Emissary enters, choose a card type.
+Resolve Stack: Serra's Emissary - Creature 7 / 7
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: David activated Swiftfoot Boots targeting [Serra's Emissary (242)]
+Resolve Stack: Swiftfoot Boots (249) -  Attach to Serra's Emissary (242)
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Serra's Emissary (242) to attack Dominic.
+Information: BOARD attack | David -> Dominic | attackers 1 (power 7) | defender life 25 | untapped creatures 0 (power 0):  | open mana 3
+Phase: David's Declare Blockers Step
+Combat: Dominic didn't block Serra's Emissary (242).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Serra's Emissary (242) deals 7 combat damage to Dominic.
+Life: Life: Dominic 25 > 18
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 27 (Ilgenar)
+Information: BOARD turn 27 (Ilgenar) | Dominic | life 18 | hand 3 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 27 (Ilgenar) | Ledale | life 29 | hand 4 | lands 9 (5 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Slip Out the Back(1); Living Death(5); Dragon Mage(7)
+Information: BOARD turn 27 (Ilgenar) | David | life 39 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra's Emissary 7/7*[Swiftfoot Boots] | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 27 (Ilgenar) | Ilgenar | life 16 | hand 7 | lands 5 (1 untapped) | open mana 13 | commander Command | creatures 0 (0 untapped):  | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Dragon Mage(7); Lathliss, Dragon Queen(6); Bribery(5)
+Information: BOARD threat | turn 27 | Smothering Tithe (Dominic) 119; Serra's Emissary (David) 40
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ilgenar]
+Phase: Ilgenar's Main phase, precombat
+Mana: Plains (398) - {T}: Add {W}.
+Land: Ilgenar picked {B}{U}
+Mana: Relic of Sauron (337) - {T}: Add two mana in any combination of {U}, {B} and/or {R}.
+Land: Ilgenar picked {R}
+Mana: Temple of Epiphany (351) - {T}: Add {U} or {R}.
+Land: Ilgenar picked {G}
+Mana: Thornwood Falls (373) - {T}: Add {G} or {U}.
+Add To Stack: Ilgenar cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Ilgenar | open mana: Dominic 4, Ledale 17, David 0
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Mana: Island (335) - {T}: Add {U}.
+Mana: Fetid Heath (314) - {T}: Add {C}.
+Add To Stack: Ilgenar activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (403) - Ilgenar searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (403) becomes a copy of The Ur-Dragon (403).
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Discard: Ilgenar discards Dragon Mage (328).
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 18 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Aurelia, the Warleader(6); Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 28 (Dominic) | Ledale | life 29 | hand 4 | lands 9 (5 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Slip Out the Back(1); Living Death(5); Dragon Mage(7)
+Information: BOARD turn 28 (Dominic) | David | life 39 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra's Emissary 7/7*[Swiftfoot Boots] | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 28 (Dominic) | Ilgenar | life 16 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Lathliss, Dragon Queen(6); Bribery(5); Delighted Halfling(1)
+Information: BOARD threat | turn 28 | Smothering Tithe (Dominic) 128; Serra's Emissary (David) 39
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (90)
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Command Tower (27) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Smoldering Marsh (71) - {T}: Add {R}.
+Zone Change: Treasure Token (442) was put into Graveyard from Battlefield.
+Mana: Treasure Token (442) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Rogue's Passage (25) - {T}: Add {C}.
+Add To Stack: Dominic cast Aurelia, the Warleader
+Information: BOARD cast | Aurelia, the Warleader (mv 6) by Dominic | open mana: Ledale 17, David 0, Ilgenar 0
+Resolve Stack: Aurelia, the Warleader - Creature 3 / 4
+Zone Change: Treasure Token (438) was put into Graveyard from Battlefield.
+Mana: Treasure Token (438) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (435) was put into Graveyard from Battlefield.
+Mana: Treasure Token (435) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Zone Change: Treasure Token (432) was put into Graveyard from Battlefield.
+Mana: Treasure Token (432) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Knuckles the Echidna
+Information: BOARD cast | Knuckles the Echidna (mv 4) by Dominic | open mana: Ledale 17, David 0, Ilgenar 0
+Resolve Stack: Knuckles the Echidna - Creature 2 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Knuckles the Echidna (23) and Aurelia, the Warleader (33) to attack Ledale.
+Information: BOARD attack | Dominic -> Ledale | attackers 2 (power 5) | defender life 29 | untapped creatures 0 (power 0):  | open mana 17
+Add To Stack: Dominic triggered Aurelia, the Warleader
+Resolve Stack: Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase. [Attacker: Aurelia, the Warleader (33)]
+Phase: Dominic's Declare Blockers Step
+Combat: Ledale didn't block Knuckles the Echidna (23).
+Ledale didn't block Aurelia, the Warleader (33).
+Phase: Dominic's First Strike Damage Step
+Damage: Knuckles the Echidna (23) deals 2 combat damage to Ledale.
+Life: Life: Ledale 29 > 27
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ledale, Amount: 2]
+Phase: Dominic's Combat Damage Step
+Damage: Knuckles the Echidna (23) deals 2 combat damage to Ledale.
+Damage: Aurelia, the Warleader (33) deals 3 combat damage to Ledale.
+Life: Life: Ledale 27 > 22
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ledale, Amount: 5]
+Phase: Dominic's End of Combat Step
+Phase: AdditionalDominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Knuckles the Echidna (23) and Aurelia, the Warleader (33) to attack Ledale.
+Information: BOARD attack | Dominic -> Ledale | attackers 2 (power 5) | defender life 22 | untapped creatures 0 (power 0):  | open mana 17
+Phase: Dominic's Declare Blockers Step
+Combat: Ledale didn't block Knuckles the Echidna (23).
+Ledale didn't block Aurelia, the Warleader (33).
+Phase: Dominic's First Strike Damage Step
+Damage: Knuckles the Echidna (23) deals 2 combat damage to Ledale.
+Life: Life: Ledale 22 > 20
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ledale, Amount: 2]
+Phase: Dominic's Combat Damage Step
+Damage: Knuckles the Echidna (23) deals 2 combat damage to Ledale.
+Damage: Aurelia, the Warleader (33) deals 3 combat damage to Ledale.
+Life: Life: Ledale 20 > 15
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ledale, Amount: 5]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 29 (Ledale)
+Information: BOARD turn 29 (Ledale) | Dominic | life 18 | hand 1 | lands 6 (0 untapped) | open mana 4 | commander Command | creatures 2 (1 untapped): Aurelia, the Warleader 3/4; Knuckles the Echidna 2/4* | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 29 (Ledale) | Ledale | life 15 | hand 4 | lands 9 (5 untapped) | open mana 17 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Slip Out the Back(1); Living Death(5); Dragon Mage(7)
+Information: BOARD turn 29 (Ledale) | David | life 39 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra's Emissary 7/7*[Swiftfoot Boots] | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 29 (Ledale) | Ilgenar | life 16 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Lathliss, Dragon Queen(6); Bribery(5); Delighted Halfling(1)
+Information: BOARD threat | turn 29 | Smothering Tithe (Dominic) 123; Knuckles the Echidna (Dominic) 104; Aurelia, the Warleader (Dominic) 49; Serra's Emissary (David) 37
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Ledale played Jungle Hollow (186)
+Add To Stack: Ledale triggered Jungle Hollow
+Life: Life: Ledale 15 > 16
+Resolve Stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (186)]
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (193) - {T}: Add {R}.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Island (134) - {T}: Add {U}.
+Land: Ledale picked {U}
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Land: Ledale picked {U}
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Mana: Sunken Ruins (102) - {T}: Add {C}.
+Add To Stack: Ledale cast Dragon Mage
+Information: BOARD cast | Dragon Mage (mv 7) by Ledale | open mana: Dominic 5, David 0, Ilgenar 0
+Resolve Stack: Dragon Mage - Creature 5 / 5
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 30 (David)
+Information: BOARD turn 30 (David) | Dominic | life 18 | hand 1 | lands 6 (0 untapped) | open mana 5 | commander Command | creatures 2 (1 untapped): Aurelia, the Warleader 3/4; Knuckles the Echidna 2/4* | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 30 (David) | Ledale | life 16 | hand 3 | lands 10 (2 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Dragon Mage 5/5 | hand cards: Harbinger of the Hunt(5); Slip Out the Back(1); Living Death(5)
+Information: BOARD turn 30 (David) | David | life 39 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Serra's Emissary 7/7*[Swiftfoot Boots] | hand cards: Teferi's Protection(3); Resplendent Angel(3)
+Information: BOARD turn 30 (David) | Ilgenar | life 16 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Lathliss, Dragon Queen(6); Bribery(5); Delighted Halfling(1)
+Information: BOARD threat | turn 30 | Smothering Tithe (Dominic) 133; Knuckles the Echidna (Dominic) 100; Aurelia, the Warleader (Dominic) 47; Serra's Emissary (David) 36
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: David]
+Phase: David's Main phase, precombat
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Serra's Emissary (242) to attack Dominic.
+Information: BOARD attack | David -> Dominic | attackers 1 (power 7) | defender life 18 | untapped creatures 1 (power 3): Aurelia, the Warleader 3/4 | open mana 6
+Phase: David's Declare Blockers Step
+Combat: Dominic didn't block Serra's Emissary (242).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Serra's Emissary (242) deals 7 combat damage to Dominic.
+Life: Life: Dominic 18 > 11
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Mana: Plains (287) - {T}: Add {W}.
+Land: David picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Exotic Orchard (239) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: David cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by David | open mana: Dominic 6, Ledale 6, Ilgenar 0
+Add To Stack: David triggered Path of Ancestry
+Resolve Stack: David scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Seluma, Light of Aysen - Creature 4 / 4]) [Card: Seluma, Light of Aysen (302), Activator: David, SpellAbility: Seluma, Light of Aysen - Creature 4 / 4]
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: David's End step
+Land: Ledale picked {U}
+Damage: Underground River (116) deals 1 non-combat damage to Ledale.
+Life: Life: Ledale 16 > 15
+Mana: Underground River (116) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Add To Stack: Ledale cast Slip Out the Back targeting [Dragon Mage (126)]
+Information: BOARD cast | Slip Out the Back (mv 1) by Ledale | open mana: Dominic 6, David 1, Ilgenar 0
+Resolve Stack: Slip Out the Back (119) - Ledale puts a +1/+1 counter on Dragon Mage (126). Dragon Mage (126) phases out.
+Phase: David's Cleanup step
+Turn: Turn 31 (Ilgenar)
+Information: BOARD turn 31 (Ilgenar) | Dominic | life 11 | hand 1 | lands 6 (0 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Aurelia, the Warleader 3/4; Knuckles the Echidna 2/4* | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 31 (Ilgenar) | Ledale | life 15 | hand 2 | lands 10 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Living Death(5)
+Information: BOARD turn 31 (Ilgenar) | David | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Resplendent Angel(3); Gleaming Splendor(2)
+Information: BOARD turn 31 (Ilgenar) | Ilgenar | life 16 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Lathliss, Dragon Queen(6); Bribery(5); Delighted Halfling(1)
+Information: BOARD threat | turn 31 | Smothering Tithe (Dominic) 142; Knuckles the Echidna (Dominic) 96; Serra's Emissary (David) 75; Aurelia, the Warleader (Dominic) 45
+Phase: Ilgenar's Untap step
+Phase: Ilgenar's Upkeep step
+Phase: Ilgenar's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ilgenar]
+Phase: Ilgenar's Main phase, precombat
+Land: Ilgenar played Forest (340)
+Mana: Island (335) - {T}: Add {U}.
+Land: Ilgenar picked {U}
+Mana: Thornwood Falls (373) - {T}: Add {G} or {U}.
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Plains (398) - {T}: Add {W}.
+Land: Ilgenar picked {R}
+Mana: Temple of Epiphany (351) - {T}: Add {U} or {R}.
+Add To Stack: Ilgenar cast Bribery targeting [Dominic]
+Information: BOARD cast | Bribery (mv 5) by Ilgenar | open mana: Dominic 7, Ledale 3, David 1
+Resolve Stack: Bribery (361) - Search target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles. (Targeting: Dominic)
+Phase: Ilgenar's Beginning of Combat Step
+Phase: Ilgenar's Declare Attackers Step
+Phase: Ilgenar's Declare Blockers Step
+Phase: Ilgenar's First Strike Damage Step
+Phase: Ilgenar's Combat Damage Step
+Phase: Ilgenar's End of Combat Step
+Phase: Ilgenar's Main phase, postcombat
+Mana: Fetid Heath (314) - {T}: Add {C}.
+Land: Ilgenar picked {R}{R}
+Mana: Relic of Sauron (337) - {T}: Add two mana in any combination of {U}, {B} and/or {R}.
+Add To Stack: Ilgenar activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (403) - Ilgenar searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (403) becomes a copy of Ancient Silver Dragon (403).
+Phase: Ilgenar's End step
+Phase: Ilgenar's Cleanup step
+Turn: Turn 32 (Dominic)
+Information: BOARD turn 32 (Dominic) | Dominic | life 11 | hand 1 | lands 6 (0 untapped) | open mana 7 | commander Command | creatures 2 (1 untapped): Aurelia, the Warleader 3/4; Knuckles the Echidna 2/4* | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 32 (Dominic) | Ledale | life 15 | hand 2 | lands 10 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Living Death(5)
+Information: BOARD turn 32 (Dominic) | David | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Resplendent Angel(3); Gleaming Splendor(2)
+Information: BOARD turn 32 (Dominic) | Ilgenar | life 16 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Scion of the Ur-Dragon 4/4; Goldspan Dragon 4/4 | hand cards: Savage Ventmaw(6); Hellkite Tyrant(6); Slip On the Ring(2); Immersturm Predator(4); Lathliss, Dragon Queen(6); Delighted Halfling(1)
+Information: BOARD threat | turn 32 | Smothering Tithe (Dominic) 150; Knuckles the Echidna (Dominic) 92; Serra's Emissary (David) 72; Aurelia, the Warleader (Dominic) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Swamp (56) - {T}: Add {B}.
+Add To Stack: Dominic cast Mistmeadow Skulk
+Information: BOARD cast | Mistmeadow Skulk (mv 2) by Dominic | open mana: Ledale 3, David 1, Ilgenar 0
+Resolve Stack: Mistmeadow Skulk - Creature 1 / 1
+Mana: Command Tower (27) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Smoldering Marsh (71) - {T}: Add {R}.
+Mana: Barad-dûr (76) - {T}: Add {B}.
+Mana: Rogue's Passage (25) - {T}: Add {C}.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Ledale 3, David 1, Ilgenar 0
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Zone Change: Treasure Token (459) was put into Graveyard from Battlefield.
+Mana: Treasure Token (459) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (456) was put into Graveyard from Battlefield.
+Mana: Treasure Token (456) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (453) was put into Graveyard from Battlefield.
+Mana: Treasure Token (453) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (450) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (448) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Olivia, Opulent Outlaw
+Resolve Stack: Olivia, Opulent Outlaw (100) - Put two +1/+1 counters on each creature you control.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Aurelia, the Warleader (33) and Knuckles the Echidna (23) to attack Ilgenar.
+Information: BOARD attack | Dominic -> Ilgenar | attackers 2 (power 9) | defender life 16 | untapped creatures 2 (power 8): Scion of the Ur-Dragon 4/4; Goldspan Dragon 4/4 | open mana 0
+Add To Stack: Dominic triggered Aurelia, the Warleader
+Resolve Stack: Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase. [Attacker: Aurelia, the Warleader (33)]
+Phase: Dominic's Declare Blockers Step
+Combat: Ilgenar assigned Goldspan Dragon (1) to block Aurelia, the Warleader (33).
+Ilgenar didn't block Knuckles the Echidna (23).
+Phase: Dominic's First Strike Damage Step
+Damage: Knuckles the Echidna (23) deals 4 combat damage to Ilgenar.
+Life: Life: Ilgenar 16 > 12
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ilgenar, Amount: 4]
+Phase: Dominic's Combat Damage Step
+Damage: Aurelia, the Warleader (33) deals 5 damage to Goldspan Dragon (1).
+Damage: Knuckles the Echidna (23) deals 4 combat damage to Ilgenar.
+Damage: Goldspan Dragon (1) deals 4 damage to Aurelia, the Warleader (33).
+Life: Life: Ilgenar 12 > 8
+Zone Change: Goldspan Dragon (1) was put into Graveyard from Battlefield.
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ilgenar, Amount: 4]
+Phase: Dominic's End of Combat Step
+Phase: AdditionalDominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Knuckles the Echidna (23) and Aurelia, the Warleader (33) to attack Ilgenar.
+Information: BOARD attack | Dominic -> Ilgenar | attackers 2 (power 9) | defender life 8 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Ilgenar didn't block Knuckles the Echidna (23).
+Ilgenar assigned Scion of the Ur-Dragon (403) to block Aurelia, the Warleader (33).
+Phase: Dominic's First Strike Damage Step
+Damage: Knuckles the Echidna (23) deals 4 combat damage to Ilgenar.
+Life: Life: Ilgenar 8 > 4
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ilgenar, Amount: 4]
+Phase: Dominic's Combat Damage Step
+Damage: Knuckles the Echidna (23) deals 4 combat damage to Ilgenar.
+Damage: Aurelia, the Warleader (33) deals 5 damage to Scion of the Ur-Dragon (403).
+Damage: Scion of the Ur-Dragon (403) deals 4 damage to Aurelia, the Warleader (33).
+Life: Life: Ilgenar 4 > 0
+Zone Change: Aurelia, the Warleader (33) was put into Graveyard from Battlefield.
+Add To Stack: Dominic triggered Knuckles the Echidna
+Resolve Stack: Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. [Damaged: Ilgenar, Amount: 4]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (467) was put into Graveyard from Battlefield.
+Mana: Treasure Token (467) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (465) was put into Graveyard from Battlefield.
+Mana: Treasure Token (465) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (463) was put into Graveyard from Battlefield.
+Mana: Treasure Token (463) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (446) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (461) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Olivia, Opulent Outlaw
+Resolve Stack: Olivia, Opulent Outlaw (100) - Put two +1/+1 counters on each creature you control.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 33 (Ledale)
+Information: BOARD turn 33 (Ledale) | Dominic | life 11 | hand 1 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Knuckles the Echidna 6/8*; Mistmeadow Skulk 5/5; Olivia, Opulent Outlaw 7/7 | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 33 (Ledale) | Ledale | life 15 | hand 2 | lands 10 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Harbinger of the Hunt(5); Living Death(5)
+Information: BOARD turn 33 (Ledale) | David | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Resplendent Angel(3); Gleaming Splendor(2)
+Information: BOARD threat | turn 33 | Knuckles the Echidna (Dominic) 238; Smothering Tithe (Dominic) 144; Serra's Emissary (David) 69
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Add To Stack: Ledale cast Mox Jasper
+Information: BOARD cast | Mox Jasper (mv 0) by Ledale | open mana: Dominic 2, David 1
+Resolve Stack: Mox Jasper
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (193) - {T}: Add {R}.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Island (134) - {T}: Add {U}.
+Land: Ledale picked {U}
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Add To Stack: Ledale cast Harbinger of the Hunt
+Information: BOARD cast | Harbinger of the Hunt (mv 5) by Ledale | open mana: Dominic 2, David 1
+Resolve Stack: Harbinger of the Hunt - Creature 5 / 3
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 34 (David)
+Information: BOARD turn 34 (David) | Dominic | life 11 | hand 1 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Knuckles the Echidna 6/8*; Mistmeadow Skulk 5/5; Olivia, Opulent Outlaw 7/7 | hand cards: Ragavan, Nimble Pilferer(1)
+Information: BOARD turn 34 (David) | Ledale | life 15 | hand 1 | lands 10 (5 untapped) | open mana 18 | commander Command | creatures 2 (2 untapped): Dragon Mage 6/6; Harbinger of the Hunt 5/3 | hand cards: Living Death(5)
+Information: BOARD turn 34 (David) | David | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4 | hand cards: Teferi's Protection(3); Resplendent Angel(3); Gleaming Splendor(2)
+Information: BOARD threat | turn 34 | Knuckles the Echidna (Dominic) 228; Smothering Tithe (Dominic) 153; Serra's Emissary (David) 66
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: David]
+Phase: David's Main phase, precombat
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Serra's Emissary (242) and Seluma, Light of Aysen (302) to attack Dominic.
+Information: BOARD attack | David -> Dominic | attackers 2 (power 11) | defender life 11 | untapped creatures 2 (power 12): Mistmeadow Skulk 5/5; Olivia, Opulent Outlaw 7/7 | open mana 3
+Phase: David's Declare Blockers Step
+Combat: Dominic didn't block Serra's Emissary (242).
+Dominic didn't block Seluma, Light of Aysen (302).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Serra's Emissary (242) deals 7 combat damage to Dominic.
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Dominic.
+Life: Life: Dominic 11 > 0
+Add To Stack: David triggered Seluma, Light of Aysen targeting [Restoration Angel (295)]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Restoration Angel (295)]]) [Damage Source: Seluma, Light of Aysen (302), Damaged: Dominic, Amount: 4]
+Phase: David's End of Combat Step
+Phase: David's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Sol Ring (250) - {T}: Add {C}{C}.
+Mana: Island (232) - {T}: Add {U}.
+Add To Stack: David cast Angel of Finality
+Information: BOARD cast | Angel of Finality (mv 4) by David | open mana: Ledale 18
+Resolve Stack: Angel of Finality - Creature 3 / 4
+Add To Stack: David triggered Angel of Finality targeting [Ledale]
+Resolve Stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ledale]]) [Zone Changer: Angel of Finality (220)]
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Exotic Orchard (239) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: David cast Resplendent Angel
+Information: BOARD cast | Resplendent Angel (mv 3) by David | open mana: Ledale 18
+Add To Stack: David triggered Path of Ancestry
+Resolve Stack: David scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Resplendent Angel - Creature 3 / 3]) [Card: Resplendent Angel (204), Activator: David, SpellAbility: Resplendent Angel - Creature 3 / 3]
+Resolve Stack: Resplendent Angel - Creature 3 / 3
+Phase: David's End step
+Phase: David's Cleanup step
+Turn: Turn 35 (Ledale)
+Information: BOARD turn 35 (Ledale) | Ledale | life 15 | hand 1 | lands 10 (5 untapped) | open mana 18 | commander Command | creatures 2 (2 untapped): Dragon Mage 6/6; Harbinger of the Hunt 5/3 | hand cards: Living Death(5)
+Information: BOARD turn 35 (Ledale) | David | life 39 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (3 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Angel of Finality 3/4; Resplendent Angel 3/3 | hand cards: Teferi's Protection(3); Gleaming Splendor(2)
+Information: BOARD threat | turn 35 | Serra's Emissary (David) 104; Seluma, Light of Aysen (David) 37; Path of Ancestry (David) 37
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Jungle Hollow (186) - {T}: Add {B} or {G}.
+Mana: Mountain (193) - {T}: Add {R}.
+Mana: Island (134) - {T}: Add {U}.
+Mana: Deserted Beach (169) - {T}: Add {W} or {U}.
+Mana: Temple of Epiphany (149) - {T}: Add {U} or {R}.
+Add To Stack: Ledale cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Ledale | open mana: David 1
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Mana: Mox Jasper (143) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Mana: Sunken Ruins (102) - {T}: Add {C}.
+Mana: Shivan Reef (127) - {T}: Add {C}.
+Mana: Underground River (116) - {T}: Add {C}.
+Add To Stack: Ledale cast Solemn Simulacrum
+Information: BOARD cast | Solemn Simulacrum (mv 4) by Ledale | open mana: David 1
+Resolve Stack: Solemn Simulacrum - Creature 2 / 2
+Add To Stack: Ledale triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (140)]
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 36 (David)
+Information: BOARD turn 36 (David) | Ledale | life 15 | hand 1 | lands 11 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Dragon Mage 6/6; Harbinger of the Hunt 5/3; Scion of the Ur-Dragon 4/4; Solemn Simulacrum 2/2 | hand cards: Living Death(5)
+Information: BOARD turn 36 (David) | David | life 39 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (3 untapped): Serra's Emissary 7/7*[Swiftfoot Boots]; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4; Angel of Finality 3/4; Resplendent Angel 3/3 | hand cards: Teferi's Protection(3); Gleaming Splendor(2)
+Information: BOARD threat | turn 36 | Serra's Emissary (David) 100; Seluma, Light of Aysen (David) 36; Path of Ancestry (David) 36
+Phase: David's Untap step
+Phase: David's Upkeep step
+Phase: David's Draw step
+Phase: David's Main phase, precombat
+Phase: David's Beginning of Combat Step
+Phase: David's Declare Attackers Step
+Combat: David assigned Serra's Emissary (242), Seluma, Light of Aysen (302), Restoration Angel (295), Angel of Finality (220) and Resplendent Angel (204) to attack Ledale.
+Information: BOARD attack | David -> Ledale | attackers 5 (power 20) | defender life 15 | untapped creatures 4 (power 17): Dragon Mage 6/6; Harbinger of the Hunt 5/3; Scion of the Ur-Dragon 4/4; Solemn Simulacrum 2/2 | open mana 0
+Phase: David's Declare Blockers Step
+Combat: Ledale didn't block Serra's Emissary (242).
+Ledale didn't block Seluma, Light of Aysen (302).
+Ledale didn't block Restoration Angel (295).
+Ledale didn't block Angel of Finality (220).
+Ledale didn't block Resplendent Angel (204).
+Phase: David's First Strike Damage Step
+Phase: David's Combat Damage Step
+Damage: Serra's Emissary (242) deals 7 combat damage to Ledale.
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Ledale.
+Damage: Restoration Angel (295) deals 3 combat damage to Ledale.
+Damage: Angel of Finality (220) deals 3 combat damage to Ledale.
+Damage: Resplendent Angel (204) deals 3 combat damage to Ledale.
+Life: Life: Ledale 15 > -5
+Player Control: Dominic has restored control over themself
+Player Control: Ledale has restored control over themself
+Player Control: David has restored control over themself
+Player Control: Ilgenar has restored control over themself
+Game Outcome: Match Duration 11m : 59s
+Game Outcome: Turn 18
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: Ledale has lost because life total reached 0
+Game Outcome: David has won because all opponents have lost
+Game Outcome: Ilgenar has lost because life total reached 0
+Match Result: Dominic: 0 Ledale: 0 David: 1 Ilgenar: 0 
+
+Game Result: David has won

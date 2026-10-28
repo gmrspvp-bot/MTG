@@ -1,0 +1,122 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Sophia Skullpin (AI) deck=Captain America v8
+Player: Emma (AI) deck=Scion
+Player: Shawn (AI) deck=Tidus v3
+Mulligan: Emma has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Sophia Skullpin has kept a hand of 7 cards
+Mulligan: Emma has kept a hand of 7 cards
+Mulligan: Shawn has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Shalai, Voice of Plenty(4); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 1 (Dominic) | Sophia Skullpin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Command Tower(land); Skullclamp(1); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3)
+Information: BOARD turn 1 (Dominic) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Command Tower(land)
+Information: BOARD turn 1 (Dominic) | Shawn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Shalai, Voice of Plenty (23).
+Turn: Turn 2 (Sophia Skullpin)
+Information: BOARD turn 2 (Sophia Skullpin) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 2 (Sophia Skullpin) | Sophia Skullpin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Command Tower(land); Skullclamp(1); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3)
+Information: BOARD turn 2 (Sophia Skullpin) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Command Tower(land)
+Information: BOARD turn 2 (Sophia Skullpin) | Shawn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2)
+Phase: Sophia Skullpin's Untap step
+Phase: Sophia Skullpin's Upkeep step
+Phase: Sophia Skullpin's Draw step
+Phase: Sophia Skullpin's Main phase, precombat
+Land: Sophia Skullpin played Command Tower (127)
+Phase: Sophia Skullpin's Beginning of Combat Step
+Phase: Sophia Skullpin's Declare Attackers Step
+Phase: Sophia Skullpin's Declare Blockers Step
+Phase: Sophia Skullpin's First Strike Damage Step
+Phase: Sophia Skullpin's Combat Damage Step
+Phase: Sophia Skullpin's End of Combat Step
+Phase: Sophia Skullpin's Main phase, postcombat
+Land: Sophia Skullpin picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Sophia Skullpin cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Sophia Skullpin | open mana: Dominic 0, Emma 0, Shawn 0
+Resolve Stack: Skullclamp
+Phase: Sophia Skullpin's End step
+Phase: Sophia Skullpin's Cleanup step
+Turn: Turn 3 (Emma)
+Information: BOARD turn 3 (Emma) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 3 (Emma) | Sophia Skullpin | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3); Raugrin Triome(land)
+Information: BOARD turn 3 (Emma) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Command Tower(land)
+Information: BOARD turn 3 (Emma) | Shawn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2)
+Phase: Emma's Untap step
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Command Tower (233)
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's Declare Blockers Step
+Phase: Emma's First Strike Damage Step
+Phase: Emma's Combat Damage Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Phase: Emma's Cleanup step
+Turn: Turn 4 (Shawn)
+Information: BOARD turn 4 (Shawn) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 4 (Shawn) | Sophia Skullpin | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3); Raugrin Triome(land)
+Information: BOARD turn 4 (Shawn) | Emma | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Mountain(land)
+Information: BOARD turn 4 (Shawn) | Shawn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2)
+Phase: Shawn's Untap step
+Phase: Shawn's Upkeep step
+Phase: Shawn's Draw step
+Phase: Shawn's Main phase, precombat
+Land: Shawn played Island (335)
+Phase: Shawn's Beginning of Combat Step
+Phase: Shawn's Declare Attackers Step
+Phase: Shawn's Declare Blockers Step
+Phase: Shawn's First Strike Damage Step
+Phase: Shawn's Combat Damage Step
+Phase: Shawn's End of Combat Step
+Phase: Shawn's Main phase, postcombat
+Phase: Shawn's End step
+Phase: Shawn's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 5 (Dominic) | Sophia Skullpin | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3); Raugrin Triome(land)
+Information: BOARD turn 5 (Dominic) | Emma | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Mountain(land)
+Information: BOARD turn 5 (Dominic) | Shawn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2); Fathom Mage(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Angel of Finality (18).
+Turn: Turn 6 (Sophia Skullpin)
+Information: BOARD turn 6 (Sophia Skullpin) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resurrection(4); Secluded Courtyard(land); Plains(land); Plains(land); Plains(land); Swiftfoot Boots(2)
+Information: BOARD turn 6 (Sophia Skullpin) | Sophia Skullpin | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Geist of Saint Thalia(2); Island(land); Sundown Pass(land); Sram, Senior Edificer(2); Sword of Feast and Famine(3); Raugrin Triome(land)
+Information: BOARD turn 6 (Sophia Skullpin) | Emma | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Ancient Silver Dragon(8); Thriving Isle(land); Exotic Orchard(land); Wake the Dead(2); Fetid Heath(land); Mountain(land)
+Information: BOARD turn 6 (Sophia Skullpin) | Shawn | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: The Earth King(4); Canopy Vista(land); Path to Exile(1); Island(land); Tangled Islet(land); Protection Magic(2); Fathom Mage(4)
+Phase: Sophia Skullpin's Untap step
+Phase: Sophia Skullpin's Upkeep step
+Phase: Sophia Skullpin's Draw step
+Phase: Sophia Skullpin's Main phase, precombat
+Land: Sophia Skullpin played Island (130)
+Phase: Sophia Skullpin's Beginning of Combat Step
+
+Game Result: unfinished (Forge closed mid-game)

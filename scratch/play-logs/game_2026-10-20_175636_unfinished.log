@@ -1,0 +1,398 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Cecil (AI) deck=Captain America v8
+Player: Asdern (AI) deck=Mr House v4
+Player: Werymn (AI) deck=Olivia
+Mulligan: Asdern has kept a hand of 7 cards
+Mulligan: Werymn has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Cecil has kept a hand of 7 cards
+Turn: Turn 1 (Asdern)
+Information: BOARD turn 1 (Asdern) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 1 (Asdern) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Command Tower(land)
+Information: BOARD turn 1 (Asdern) | Asdern | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Godless Shrine(land); Talisman of Indulgence(2); Arcane Signet(2); Clifftop Retreat(land)
+Information: BOARD turn 1 (Asdern) | Werymn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Smoldering Marsh(land); Orzhov Signet(2); Vihaan, Goldwaker(3)
+Phase: Asdern's Untap step
+Phase: Asdern's Upkeep step
+Phase: Asdern's Draw step
+Phase: Asdern's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Asdern played Godless Shrine (239)
+Phase: Asdern's Beginning of Combat Step
+Phase: Asdern's Declare Attackers Step
+Phase: Asdern's Declare Blockers Step
+Phase: Asdern's First Strike Damage Step
+Phase: Asdern's Combat Damage Step
+Phase: Asdern's End of Combat Step
+Phase: Asdern's Main phase, postcombat
+Phase: Asdern's End step
+Phase: Asdern's Cleanup step
+Turn: Turn 2 (Werymn)
+Information: BOARD turn 2 (Werymn) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 2 (Werymn) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Command Tower(land)
+Information: BOARD turn 2 (Werymn) | Asdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Talisman of Indulgence(2); Arcane Signet(2); Clifftop Retreat(land); Wear // Tear(3)
+Information: BOARD turn 2 (Werymn) | Werymn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Smoldering Marsh(land); Orzhov Signet(2); Vihaan, Goldwaker(3)
+Phase: Werymn's Untap step
+Phase: Werymn's Upkeep step
+Phase: Werymn's Draw step
+Phase: Werymn's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Werymn played Smoldering Marsh (384)
+Phase: Werymn's Beginning of Combat Step
+Phase: Werymn's Declare Attackers Step
+Phase: Werymn's Declare Blockers Step
+Phase: Werymn's First Strike Damage Step
+Phase: Werymn's Combat Damage Step
+Phase: Werymn's End of Combat Step
+Phase: Werymn's Main phase, postcombat
+Phase: Werymn's End step
+Phase: Werymn's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 3 (Xenil) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Command Tower(land)
+Information: BOARD turn 3 (Xenil) | Asdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Talisman of Indulgence(2); Arcane Signet(2); Clifftop Retreat(land); Wear // Tear(3)
+Information: BOARD turn 3 (Xenil) | Werymn | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (81)
+Mana: Plains (81) - {T}: Add {W}.
+Add To Stack: Xenil cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Xenil | open mana: Cecil 0, Asdern 0, Werymn 0
+Resolve Stack: Sol Ring
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Xenil cast Smuggler's Copter
+Information: BOARD cast | Smuggler's Copter (mv 2) by Xenil | open mana: Cecil 0, Asdern 0, Werymn 0
+Resolve Stack: Smuggler's Copter
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 4 (Cecil)
+Information: BOARD turn 4 (Cecil) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3)
+Information: BOARD turn 4 (Cecil) | Cecil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Command Tower(land)
+Information: BOARD turn 4 (Cecil) | Asdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Talisman of Indulgence(2); Arcane Signet(2); Clifftop Retreat(land); Wear // Tear(3)
+Information: BOARD turn 4 (Cecil) | Werymn | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Command Tower (127)
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 5 (Asdern)
+Information: BOARD turn 5 (Asdern) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3)
+Information: BOARD turn 5 (Asdern) | Cecil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2)
+Information: BOARD turn 5 (Asdern) | Asdern | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Talisman of Indulgence(2); Arcane Signet(2); Clifftop Retreat(land); Wear // Tear(3)
+Information: BOARD turn 5 (Asdern) | Werymn | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land)
+Phase: Asdern's Untap step
+Phase: Asdern's Upkeep step
+Phase: Asdern's Draw step
+Phase: Asdern's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Asdern played Clifftop Retreat (259)
+Land: Asdern picked {W}
+Mana: Clifftop Retreat (259) - {T}: Add {R} or {W}.
+Mana: Godless Shrine (239) - {T}: Add {B}.
+Add To Stack: Asdern cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Asdern | open mana: Xenil 0, Cecil 2, Werymn 0
+Resolve Stack: Talisman of Indulgence
+Phase: Asdern's Beginning of Combat Step
+Phase: Asdern's Declare Attackers Step
+Phase: Asdern's Declare Blockers Step
+Phase: Asdern's First Strike Damage Step
+Phase: Asdern's Combat Damage Step
+Phase: Asdern's End of Combat Step
+Phase: Asdern's Main phase, postcombat
+Phase: Asdern's End step
+Phase: Asdern's Cleanup step
+Turn: Turn 6 (Werymn)
+Information: BOARD turn 6 (Werymn) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3)
+Information: BOARD turn 6 (Werymn) | Cecil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2)
+Information: BOARD turn 6 (Werymn) | Asdern | life 40 | hand 6 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Arcane Signet(2); Wear // Tear(3); The Deck of Many Things(5)
+Information: BOARD turn 6 (Werymn) | Werymn | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Blackcleave Cliffs(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land)
+Phase: Werymn's Untap step
+Phase: Werymn's Upkeep step
+Phase: Werymn's Draw step
+Phase: Werymn's Main phase, precombat
+Replacement Effect: Blackcleave Cliffs enters tapped unless you control two or fewer other lands.
+Land: Werymn played Blackcleave Cliffs (355)
+Phase: Werymn's Beginning of Combat Step
+Phase: Werymn's Declare Attackers Step
+Phase: Werymn's Declare Blockers Step
+Phase: Werymn's First Strike Damage Step
+Phase: Werymn's Combat Damage Step
+Phase: Werymn's End of Combat Step
+Phase: Werymn's Main phase, postcombat
+Phase: Werymn's End step
+Phase: Werymn's Cleanup step
+Turn: Turn 7 (Xenil)
+Information: BOARD turn 7 (Xenil) | Xenil | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3)
+Information: BOARD turn 7 (Xenil) | Cecil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2)
+Information: BOARD turn 7 (Xenil) | Asdern | life 40 | hand 6 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Arcane Signet(2); Wear // Tear(3); The Deck of Many Things(5)
+Information: BOARD turn 7 (Xenil) | Werymn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 8 (Cecil)
+Information: BOARD turn 8 (Cecil) | Xenil | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9)
+Information: BOARD turn 8 (Cecil) | Cecil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Kediss, Emberclaw Familiar(2); Sundown Pass(land); Sword of Light and Shadow(3); Plains(land); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2)
+Information: BOARD turn 8 (Cecil) | Asdern | life 40 | hand 6 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Arcane Signet(2); Wear // Tear(3); The Deck of Many Things(5)
+Information: BOARD turn 8 (Cecil) | Werymn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Land: Cecil played Plains (188)
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Land: Cecil picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Cecil cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Cecil | open mana: Xenil 3, Asdern 3, Werymn 4
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 9 (Asdern)
+Information: BOARD turn 9 (Asdern) | Xenil | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9)
+Information: BOARD turn 9 (Asdern) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kediss, Emberclaw Familiar 1/1 | hand cards: Sundown Pass(land); Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2); Sword of Feast and Famine(3)
+Information: BOARD turn 9 (Asdern) | Asdern | life 40 | hand 6 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Swamp(land); Infernal Grasp(2); Arcane Signet(2); Wear // Tear(3); The Deck of Many Things(5)
+Information: BOARD turn 9 (Asdern) | Werymn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Asdern's Untap step
+Phase: Asdern's Upkeep step
+Mana: Godless Shrine (239) - {T}: Add {B}.
+Land: Asdern picked {W}
+Mana: Clifftop Retreat (259) - {T}: Add {R} or {W}.
+Add To Stack: Asdern cast Infernal Grasp targeting [Kediss, Emberclaw Familiar (143)]
+Information: BOARD cast | Infernal Grasp (mv 2) by Asdern | open mana: Xenil 3, Cecil 0, Werymn 4
+Zone Change: Kediss, Emberclaw Familiar (143) was put into Graveyard from Battlefield.
+Life: Life: Asdern 40 > 38
+Resolve Stack: Infernal Grasp (294) - Destroy Kediss, Emberclaw Familiar (143). Asdern loses 2 life.
+Phase: Asdern's Draw step
+Phase: Asdern's Main phase, precombat
+Land: Asdern played Mountain (283)
+Mana: Mountain (283) - {T}: Add {R}.
+Mana: Talisman of Indulgence (212) - {T}: Add {C}.
+Add To Stack: Asdern cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Asdern | open mana: Xenil 3, Cecil 0, Werymn 4
+Resolve Stack: Arcane Signet
+Phase: Asdern's Beginning of Combat Step
+Phase: Asdern's Declare Attackers Step
+Phase: Asdern's Declare Blockers Step
+Phase: Asdern's First Strike Damage Step
+Phase: Asdern's Combat Damage Step
+Phase: Asdern's End of Combat Step
+Phase: Asdern's Main phase, postcombat
+Phase: Asdern's End step
+Phase: Asdern's Cleanup step
+Turn: Turn 10 (Werymn)
+Information: BOARD turn 10 (Werymn) | Xenil | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9)
+Information: BOARD turn 10 (Werymn) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sundown Pass(land); Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2); Sword of Feast and Famine(3)
+Information: BOARD turn 10 (Werymn) | Asdern | life 38 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Wear // Tear(3); The Deck of Many Things(5); Mountain(land)
+Information: BOARD turn 10 (Werymn) | Werymn | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Triumph(land); Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Werymn's Untap step
+Phase: Werymn's Upkeep step
+Phase: Werymn's Draw step
+Phase: Werymn's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Werymn played Temple of Triumph (396)
+Add To Stack: Werymn triggered Temple of Triumph
+Resolve Stack: Werymn scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (396)]
+Phase: Werymn's Beginning of Combat Step
+Phase: Werymn's Declare Attackers Step
+Phase: Werymn's Declare Blockers Step
+Phase: Werymn's First Strike Damage Step
+Phase: Werymn's Combat Damage Step
+Phase: Werymn's End of Combat Step
+Phase: Werymn's Main phase, postcombat
+Land: Werymn picked {B}
+Mana: Blackcleave Cliffs (355) - {T}: Add {B} or {R}.
+Mana: Smoldering Marsh (384) - {T}: Add {R}.
+Add To Stack: Werymn cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Werymn | open mana: Xenil 3, Cecil 0, Asdern 2
+Resolve Stack: Arcane Signet
+Phase: Werymn's End step
+Phase: Werymn's Cleanup step
+Turn: Turn 11 (Xenil)
+Information: BOARD turn 11 (Xenil) | Xenil | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9)
+Information: BOARD turn 11 (Xenil) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sundown Pass(land); Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2); Sword of Feast and Famine(3)
+Information: BOARD turn 11 (Xenil) | Asdern | life 38 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Wear // Tear(3); The Deck of Many Things(5); Mountain(land)
+Information: BOARD turn 11 (Xenil) | Werymn | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 12 (Cecil)
+Information: BOARD turn 12 (Cecil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9); Wand of Vertebrae(1)
+Information: BOARD turn 12 (Cecil) | Cecil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sundown Pass(land); Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Codsworth, Handy Helper(3); Arcane Signet(2); Sword of Feast and Famine(3)
+Information: BOARD turn 12 (Cecil) | Asdern | life 38 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Wear // Tear(3); The Deck of Many Things(5); Mountain(land)
+Information: BOARD turn 12 (Cecil) | Werymn | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Phase: Cecil's Draw step
+Phase: Cecil's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Cecil played Sundown Pass (128)
+Mana: Plains (188) - {T}: Add {W}.
+Land: Cecil picked {W}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Land: Cecil picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Cecil cast Codsworth, Handy Helper
+Information: BOARD cast | Codsworth, Handy Helper (mv 3) by Cecil | open mana: Xenil 3, Asdern 2, Werymn 2
+Resolve Stack: Codsworth, Handy Helper - Creature 2 / 3
+Phase: Cecil's Beginning of Combat Step
+Phase: Cecil's Declare Attackers Step
+Phase: Cecil's Declare Blockers Step
+Phase: Cecil's First Strike Damage Step
+Phase: Cecil's Combat Damage Step
+Phase: Cecil's End of Combat Step
+Phase: Cecil's Main phase, postcombat
+Phase: Cecil's End step
+Phase: Cecil's Cleanup step
+Turn: Turn 13 (Asdern)
+Information: BOARD turn 13 (Asdern) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9); Wand of Vertebrae(1)
+Information: BOARD turn 13 (Asdern) | Cecil | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Codsworth, Handy Helper 2/3 | hand cards: Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Arcane Signet(2); Sword of Feast and Famine(3); Generous Gift(3)
+Information: BOARD turn 13 (Asdern) | Asdern | life 38 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Swamp(land); Wear // Tear(3); The Deck of Many Things(5); Mountain(land)
+Information: BOARD turn 13 (Asdern) | Werymn | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Asdern's Untap step
+Phase: Asdern's Upkeep step
+Mana: Mountain (283) - {T}: Add {R}.
+Land: Asdern picked {W}
+Mana: Clifftop Retreat (259) - {T}: Add {R} or {W}.
+Add To Stack: Asdern cast Wear targeting [Codsworth, Handy Helper (147)]
+Information: BOARD cast | Wear (mv 2) by Asdern | open mana: Xenil 3, Cecil 0, Werymn 2
+Zone Change: Codsworth, Handy Helper (147) was put into Graveyard from Battlefield.
+Resolve Stack: Wear (207) - Destroy Codsworth, Handy Helper (147).
+Phase: Asdern's Draw step
+Phase: Asdern's Main phase, precombat
+Land: Asdern played Swamp (258)
+Mana: Godless Shrine (239) - {T}: Add {W}.
+Land: Asdern picked {R}
+Mana: Arcane Signet (245) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (258) - {T}: Add {B}.
+Add To Stack: Asdern cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Asdern | open mana: Xenil 3, Cecil 0, Werymn 2
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Asdern's Beginning of Combat Step
+Phase: Asdern's Declare Attackers Step
+Phase: Asdern's Declare Blockers Step
+Phase: Asdern's First Strike Damage Step
+Phase: Asdern's Combat Damage Step
+Phase: Asdern's End of Combat Step
+Phase: Asdern's Main phase, postcombat
+Phase: Asdern's End step
+Phase: Asdern's Cleanup step
+Turn: Turn 14 (Werymn)
+Information: BOARD turn 14 (Werymn) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9); Wand of Vertebrae(1)
+Information: BOARD turn 14 (Werymn) | Cecil | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Arcane Signet(2); Sword of Feast and Famine(3); Generous Gift(3)
+Information: BOARD turn 14 (Werymn) | Asdern | life 38 | hand 3 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Mountain(land); Cyberman Patrol(2)
+Information: BOARD turn 14 (Werymn) | Werymn | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Temple of Malice(land); Deadly Dispute(2)
+Phase: Werymn's Untap step
+Phase: Werymn's Upkeep step
+Phase: Werymn's Draw step
+Phase: Werymn's Main phase, precombat
+Land: Werymn picked {W}
+Mana: Temple of Triumph (396) - {T}: Add {R} or {W}.
+Land: Werymn picked {B}
+Mana: Blackcleave Cliffs (355) - {T}: Add {B} or {R}.
+Mana: Smoldering Marsh (384) - {T}: Add {R}.
+Land: Werymn picked {B}
+Mana: Arcane Signet (358) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Werymn cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Werymn | open mana: Xenil 3, Cecil 0, Asdern 3
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Werymn's Beginning of Combat Step
+Phase: Werymn's Declare Attackers Step
+Phase: Werymn's Declare Blockers Step
+Phase: Werymn's First Strike Damage Step
+Phase: Werymn's Combat Damage Step
+Phase: Werymn's End of Combat Step
+Phase: Werymn's Main phase, postcombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Werymn played Temple of Malice (322)
+Add To Stack: Werymn triggered Temple of Malice
+Resolve Stack: Werymn scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Malice enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.) [Zone Changer: Temple of Malice (322)]
+Phase: Werymn's End step
+Phase: Werymn's Cleanup step
+Turn: Turn 15 (Xenil)
+Information: BOARD turn 15 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Mesmeric Orb(2); Resplendent Angel(3); Darksteel Angel(9); Wand of Vertebrae(1)
+Information: BOARD turn 15 (Xenil) | Cecil | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Arcane Signet(2); Sword of Feast and Famine(3); Generous Gift(3)
+Information: BOARD turn 15 (Xenil) | Asdern | life 38 | hand 3 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Mountain(land); Cyberman Patrol(2)
+Information: BOARD turn 15 (Xenil) | Werymn | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Deadly Dispute(2); Requisition Raid(1)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (80)
+Mana: Sol Ring (48) - {T}: Add {C}{C}.
+Add To Stack: Xenil cast Mesmeric Orb
+Information: BOARD cast | Mesmeric Orb (mv 2) by Xenil | open mana: Cecil 0, Asdern 3, Werymn 0
+Resolve Stack: Mesmeric Orb
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 16 (Cecil)
+Information: BOARD turn 16 (Cecil) | Xenil | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Atraxa, Grand Unifier(7); Swamp(land); Quicksilver Amulet(4); Resplendent Angel(3); Darksteel Angel(9); Wand of Vertebrae(1)
+Information: BOARD turn 16 (Cecil) | Cecil | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sword of Light and Shadow(3); Wraith, Vicious Vigilante(3); Arcane Signet(2); Sword of Feast and Famine(3); Generous Gift(3)
+Information: BOARD turn 16 (Cecil) | Asdern | life 38 | hand 3 | lands 4 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: The Deck of Many Things(5); Mountain(land); Cyberman Patrol(2)
+Information: BOARD turn 16 (Cecil) | Werymn | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3 | hand cards: Mahadi, Emporium Master(3); Bloodthirsty Conqueror(5); Orzhov Signet(2); Vihaan, Goldwaker(3); Deadly Dispute(2); Requisition Raid(1)
+Phase: Cecil's Untap step
+Phase: Cecil's Upkeep step
+Add To Stack: Xenil triggered Mesmeric Orb
+Add To Stack: Xenil triggered Mesmeric Orb
+Add To Stack: Xenil triggered Mesmeric Orb
+Mana: Plains (188) - {T}: Add {W}.
+Land: Cecil picked {W}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Land: Cecil picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Cecil cast Generous Gift targeting [Olivia, Opulent Outlaw (413)]
+Information: BOARD cast | Generous Gift (mv 3) by Cecil | open mana: Xenil 2, Asdern 3, Werymn 0
+
+Game Result: unfinished (Forge closed mid-game)

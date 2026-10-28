@@ -1,0 +1,53 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Oscar (AI) deck=Captain America v8
+Player: Auden (AI) deck=Scion
+Player: Jasmine (AI) deck=Tidus v3
+Mulligan: Jasmine has mulliganed down to 7 cards.
+Mulligan: Oscar has mulliganed down to 7 cards.
+Mulligan: Auden has mulliganed down to 7 cards.
+Mulligan: Oscar has mulliganed down to 6 cards.
+Mulligan: Auden has mulliganed down to 6 cards.
+Mulligan: Jasmine has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Oscar has kept a hand of 6 cards
+Mulligan: Auden has kept a hand of 6 cards
+Turn: Turn 1 (Jasmine)
+Information: BOARD turn 1 (Jasmine) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Wrath of the Skies(2); Plains(land); Plains(land); Fellwar Stone(2); Weathered Wayfarer(1); Darksteel Angel(9)
+Information: BOARD turn 1 (Jasmine) | Oscar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Leonin Shikari(2); Island(land); Plains(land); Danitha Capashen, Paragon(3); Mithril Coat(3)
+Information: BOARD turn 1 (Jasmine) | Auden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Forest(land); Arcane Signet(2); Dragon Tempest(2); Bojuka Bog(land); Thornwood Falls(land)
+Information: BOARD turn 1 (Jasmine) | Jasmine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Auron, Venerated Guardian(4); Tangled Islet(land); Maester Seymour(3); Vineglimmer Snarl(land); Port Town(land); Protection Magic(2)
+Phase: Jasmine's Untap step
+Phase: Jasmine's Upkeep step
+Phase: Jasmine's Draw step
+Phase: Jasmine's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Jasmine played Port Town (400)
+Phase: Jasmine's Beginning of Combat Step
+Phase: Jasmine's Declare Attackers Step
+Phase: Jasmine's Declare Blockers Step
+Phase: Jasmine's First Strike Damage Step
+Phase: Jasmine's Combat Damage Step
+Phase: Jasmine's End of Combat Step
+Phase: Jasmine's Main phase, postcombat
+Phase: Jasmine's End step
+Phase: Jasmine's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Wrath of the Skies(2); Plains(land); Plains(land); Fellwar Stone(2); Weathered Wayfarer(1); Darksteel Angel(9)
+Information: BOARD turn 2 (Dominic) | Oscar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Leonin Shikari(2); Island(land); Plains(land); Danitha Capashen, Paragon(3); Mithril Coat(3)
+Information: BOARD turn 2 (Dominic) | Auden | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Forest(land); Arcane Signet(2); Dragon Tempest(2); Bojuka Bog(land); Thornwood Falls(land)
+Information: BOARD turn 2 (Dominic) | Jasmine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Path to Exile(1); Auron, Venerated Guardian(4); Tangled Islet(land); Maester Seymour(3); Vineglimmer Snarl(land); Protection Magic(2); Endless Detour(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

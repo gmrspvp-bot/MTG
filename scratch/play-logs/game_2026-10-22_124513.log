@@ -1,0 +1,1353 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Valentine (AI) deck=Mr House v4
+Player: Zecele (AI) deck=Alec
+Player: Javier (AI) deck=Claudes Neyali
+Mulligan: Valentine has mulliganed down to 7 cards.
+Mulligan: Javier has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Valentine has kept a hand of 7 cards
+Mulligan: Zecele has kept a hand of 7 cards
+Mulligan: Javier has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Nomad Outpost(land); Bonders' Enclave(land); Serra Ascendant(1); Swamp(land)
+Information: BOARD turn 1 (Dominic) | Valentine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land); Smoldering Marsh(land); Welding Jar(0); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2)
+Information: BOARD turn 1 (Dominic) | Zecele | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Plains(land); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 1 (Dominic) | Javier | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Plains(land); Enlightened Tutor(1); Impact Tremors(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Dominic played Nomad Outpost (7)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Valentine)
+Information: BOARD turn 2 (Valentine) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Serra Ascendant(1); Swamp(land); Olivia, Crimson Bride(6)
+Information: BOARD turn 2 (Valentine) | Valentine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Godless Shrine(land); Smoldering Marsh(land); Welding Jar(0); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2)
+Information: BOARD turn 2 (Valentine) | Zecele | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Plains(land); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 2 (Valentine) | Javier | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Plains(land); Enlightened Tutor(1); Impact Tremors(2)
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Valentine played Godless Shrine (135)
+Add To Stack: Valentine cast Welding Jar
+Information: BOARD cast | Welding Jar (mv 0) by Valentine | open mana: Dominic 0, Zecele 0, Javier 0
+Resolve Stack: Welding Jar
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 3 (Zecele)
+Information: BOARD turn 3 (Zecele) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Serra Ascendant(1); Swamp(land); Olivia, Crimson Bride(6)
+Information: BOARD turn 3 (Zecele) | Valentine | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 3 (Zecele) | Zecele | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Plains(land); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2)
+Information: BOARD turn 3 (Zecele) | Javier | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Plains(land); Enlightened Tutor(1); Impact Tremors(2)
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Plains (301)
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Phase: Zecele's Declare Blockers Step
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 4 (Javier)
+Information: BOARD turn 4 (Javier) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Serra Ascendant(1); Swamp(land); Olivia, Crimson Bride(6)
+Information: BOARD turn 4 (Javier) | Valentine | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 4 (Javier) | Zecele | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 4 (Javier) | Javier | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Plains(land); Enlightened Tutor(1); Impact Tremors(2)
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Land: Javier played Plains (406)
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Phase: Javier's Declare Blockers Step
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Mana: Plains (406) - {T}: Add {W}.
+Add To Stack: Javier cast Enlightened Tutor
+Information: BOARD cast | Enlightened Tutor (mv 1) by Javier | open mana: Dominic 0, Valentine 0, Zecele 1
+Resolve Stack: Enlightened Tutor (370) - Javier searches their library for an artifact or enchantment card, reveals it, puts it , then shuffles.
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Serra Ascendant(1); Swamp(land); Olivia, Crimson Bride(6)
+Information: BOARD turn 5 (Dominic) | Valentine | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 5 (Dominic) | Zecele | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 5 (Dominic) | Javier | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Impact Tremors(2); Dazzling Angel(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Add To Stack: Dominic cast Serra Ascendant
+Information: BOARD cast | Serra Ascendant (mv 1) by Dominic | open mana: Valentine 0, Zecele 1, Javier 0
+Resolve Stack: Serra Ascendant - Creature 1 / 1
+Land: Dominic played Swamp (56)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Valentine)
+Information: BOARD turn 6 (Valentine) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Serra Ascendant 6/6 | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Dragonskull Summit(land)
+Information: BOARD turn 6 (Valentine) | Valentine | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Infernal Grasp(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 6 (Valentine) | Zecele | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 6 (Valentine) | Javier | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Impact Tremors(2); Dazzling Angel(3)
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Land: Valentine played Mountain (187)
+Mana: Godless Shrine (135) - {T}: Add {B}.
+Mana: Mountain (187) - {T}: Add {R}.
+Add To Stack: Valentine cast Infernal Grasp targeting [Serra Ascendant (18)]
+Information: BOARD cast | Infernal Grasp (mv 2) by Valentine | open mana: Dominic 1, Zecele 1, Javier 0
+Zone Change: Serra Ascendant (18) was put into Graveyard from Battlefield.
+Life: Life: Valentine 40 > 38
+Resolve Stack: Infernal Grasp (141) - Destroy Serra Ascendant (18). Valentine loses 2 life.
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 7 (Zecele)
+Information: BOARD turn 7 (Zecele) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Dragonskull Summit(land)
+Information: BOARD turn 7 (Zecele) | Valentine | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 7 (Zecele) | Zecele | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Arcane Signet(2); Swamp(land); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land)
+Information: BOARD turn 7 (Zecele) | Javier | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Impact Tremors(2); Dazzling Angel(3)
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Swamp (268)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (301) - {T}: Add {W}.
+Add To Stack: Zecele cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Zecele | open mana: Dominic 1, Valentine 0, Javier 0
+Resolve Stack: Arcane Signet
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Phase: Zecele's Declare Blockers Step
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 8 (Javier)
+Information: BOARD turn 8 (Javier) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Dragonskull Summit(land)
+Information: BOARD turn 8 (Javier) | Valentine | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 8 (Javier) | Zecele | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2)
+Information: BOARD turn 8 (Javier) | Javier | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Horn of Valhalla(2); Plains(land); Plains(land); Impact Tremors(2); Dazzling Angel(3)
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Land: Javier played Plains (399)
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Phase: Javier's Declare Blockers Step
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Javier cast Horn of Valhalla
+Information: BOARD cast | Horn of Valhalla (mv 2) by Javier | open mana: Dominic 1, Valentine 0, Zecele 2
+Resolve Stack: Horn of Valhalla
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Breena, the Demagogue(3); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Dragonskull Summit(land)
+Information: BOARD turn 9 (Dominic) | Valentine | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 9 (Dominic) | Zecele | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2)
+Information: BOARD turn 9 (Dominic) | Javier | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Dazzling Angel(3); Arabella, Abandoned Doll(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Dominic played Dragonskull Summit (45)
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Breena, the Demagogue
+Information: BOARD cast | Breena, the Demagogue (mv 3) by Dominic | open mana: Valentine 0, Zecele 2, Javier 0
+Resolve Stack: Breena, the Demagogue - Creature 1 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Valentine)
+Information: BOARD turn 10 (Valentine) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Breena, the Demagogue 1/3 | hand cards: Impulsive Pilferer(1); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 10 (Valentine) | Valentine | life 38 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Terminate(2); Blind Obedience(2)
+Information: BOARD turn 10 (Valentine) | Zecele | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2)
+Information: BOARD turn 10 (Valentine) | Javier | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Dazzling Angel(3); Arabella, Abandoned Doll(2)
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Mana: Godless Shrine (135) - {T}: Add {B}.
+Mana: Mountain (187) - {T}: Add {R}.
+Add To Stack: Valentine cast Terminate targeting [Breena, the Demagogue (73)]
+Information: BOARD cast | Terminate (mv 2) by Valentine | open mana: Dominic 0, Zecele 2, Javier 0
+Zone Change: Breena, the Demagogue (73) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (176) - Destroy Breena, the Demagogue (73). It can't be regenerated.
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Land: Valentine played Caves of Koilos (164)
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 11 (Zecele)
+Information: BOARD turn 11 (Zecele) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 11 (Zecele) | Valentine | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Blind Obedience(2)
+Information: BOARD turn 11 (Zecele) | Zecele | life 40 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Plains(land); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2)
+Information: BOARD turn 11 (Zecele) | Javier | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Dazzling Angel(3); Arabella, Abandoned Doll(2)
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Plains (303)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (301) - {T}: Add {W}.
+Mana: Plains (303) - {T}: Add {W}.
+Add To Stack: Zecele cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Zecele | open mana: Dominic 0, Valentine 3, Javier 0
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Phase: Zecele's Declare Blockers Step
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 12 (Javier)
+Information: BOARD turn 12 (Javier) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 12 (Javier) | Valentine | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Blind Obedience(2)
+Information: BOARD turn 12 (Javier) | Zecele | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 12 (Javier) | Javier | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Dazzling Angel(3); Arabella, Abandoned Doll(2)
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Land: Javier played Mountain (391)
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Mountain (391) - {T}: Add {R}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Javier cast Dazzling Angel
+Information: BOARD cast | Dazzling Angel (mv 3) by Javier | open mana: Dominic 0, Valentine 3, Zecele 2
+Resolve Stack: Dazzling Angel - Creature 2 / 3
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Phase: Javier's Declare Blockers Step
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Sulfurous Springs(land); Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 13 (Dominic) | Valentine | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Blind Obedience(2)
+Information: BOARD turn 13 (Dominic) | Zecele | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 13 (Dominic) | Javier | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Dazzling Angel 2/3 | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Arabella, Abandoned Doll(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Sulfurous Springs (70)
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Swamp (56) - {T}: Add {B}.
+Add To Stack: Dominic cast Zirda, the Dawnwaker
+Information: BOARD cast | Zirda, the Dawnwaker (mv 3) by Dominic | open mana: Valentine 3, Zecele 2, Javier 0
+Resolve Stack: Zirda, the Dawnwaker - Creature 3 / 3
+Damage: Sulfurous Springs (70) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 40 > 39
+Mana: Sulfurous Springs (70) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Dominic cast Impulsive Pilferer
+Information: BOARD cast | Impulsive Pilferer (mv 1) by Dominic | open mana: Valentine 3, Zecele 2, Javier 0
+Resolve Stack: Impulsive Pilferer - Creature 1 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Valentine)
+Information: BOARD turn 14 (Valentine) | Dominic | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Zirda, the Dawnwaker 3/3; Impulsive Pilferer 1/1 | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 14 (Valentine) | Valentine | life 38 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Windbrisk Heights(land); Grab the Prize(2); Blind Obedience(2)
+Information: BOARD turn 14 (Valentine) | Zecele | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 14 (Valentine) | Javier | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Dazzling Angel 2/3 | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Arabella, Abandoned Doll(2)
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Godless Shrine (135) - {T}: Add {W}.
+Land: Valentine picked {B}
+Damage: Caves of Koilos (164) deals 1 non-combat damage to Valentine.
+Life: Life: Valentine 38 > 37
+Mana: Caves of Koilos (164) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Add To Stack: Valentine cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Valentine | open mana: Dominic 0, Zecele 2, Javier 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: Valentine played Windbrisk Heights (171)
+Add To Stack: Valentine triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (171)]
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 15 (Zecele)
+Information: BOARD turn 15 (Zecele) | Dominic | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Zirda, the Dawnwaker 3/3; Impulsive Pilferer 1/1 | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 15 (Zecele) | Valentine | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2); Blind Obedience(2); Ingenious Artillerist(3)
+Information: BOARD turn 15 (Zecele) | Zecele | life 40 | hand 6 | lands 3 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Commander's Sphere(3); Elas il-Kor, Sadistic Pilgrim(2); Swamp(land); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 15 (Zecele) | Javier | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Dazzling Angel 2/3 | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Arabella, Abandoned Doll(2)
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (301) - {T}: Add {W}.
+Add To Stack: Zecele cast Go for the Throat targeting [Zirda, the Dawnwaker (62)]
+Information: BOARD cast | Go for the Throat (mv 2) by Zecele | open mana: Dominic 0, Valentine 0, Javier 0
+Zone Change: Zirda, the Dawnwaker (62) was put into Graveyard from Battlefield.
+Resolve Stack: Go for the Throat (213) - Destroy Zirda, the Dawnwaker (62).
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Swamp (272)
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Land: Zecele picked {B}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Zecele cast Commander's Sphere
+Information: BOARD cast | Commander's Sphere (mv 3) by Zecele | open mana: Dominic 0, Valentine 0, Javier 0
+Resolve Stack: Commander's Sphere
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Phase: Zecele's Declare Blockers Step
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 16 (Javier)
+Information: BOARD turn 16 (Javier) | Dominic | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 16 (Javier) | Valentine | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2); Blind Obedience(2); Ingenious Artillerist(3)
+Information: BOARD turn 16 (Javier) | Zecele | life 40 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Elas il-Kor, Sadistic Pilgrim(2); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 16 (Javier) | Javier | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Dazzling Angel 2/3 | hand cards: Daxos, Blessed by the Sun(2); Plains(land); Impact Tremors(2); Arabella, Abandoned Doll(2)
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Land: Javier played Plains (396)
+Mana: Mountain (391) - {T}: Add {R}.
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Mana: Plains (396) - {T}: Add {W}.
+Add To Stack: Javier cast Neyali, Suns' Vanguard
+Information: BOARD cast | Neyali, Suns' Vanguard (mv 4) by Javier | open mana: Dominic 0, Valentine 0, Zecele 2
+Resolve Stack: Neyali, Suns' Vanguard - Creature 3 / 3
+Add To Stack: Javier triggered Dazzling Angel
+Life: Life: Javier 40 > 41
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Neyali, Suns' Vanguard (413)]
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Combat: Javier assigned Dazzling Angel (320) to attack Valentine.
+Information: BOARD attack | Javier -> Valentine | attackers 1 (power 2) | defender life 37 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Javier's Declare Blockers Step
+Combat: Valentine didn't block Dazzling Angel (320).
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Damage: Dazzling Angel (320) deals 2 combat damage to Valentine.
+Life: Life: Valentine 37 > 35
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Dominic | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 17 (Dominic) | Valentine | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2); Blind Obedience(2); Ingenious Artillerist(3)
+Information: BOARD turn 17 (Dominic) | Zecele | life 40 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Elas il-Kor, Sadistic Pilgrim(2); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 17 (Dominic) | Javier | life 41 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3 | hand cards: Daxos, Blessed by the Sun(2); Impact Tremors(2); Arabella, Abandoned Doll(2); Finale of Glory(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Add To Stack: Dominic cast Vindicate targeting [Mr. House, President and CEO (201)]
+Information: BOARD cast | Vindicate (mv 3) by Dominic | open mana: Valentine 0, Zecele 2, Javier 0
+Zone Change: Mr. House, President and CEO (201) was put into Graveyard from Battlefield.
+Resolve Stack: Vindicate (48) - Destroy Mr. House, President and CEO (201).
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Impulsive Pilferer (80) to attack Valentine.
+Information: BOARD attack | Dominic -> Valentine | attackers 1 (power 1) | defender life 35 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Valentine didn't block Impulsive Pilferer (80).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Impulsive Pilferer (80) deals 1 combat damage to Valentine.
+Life: Life: Valentine 35 > 34
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Valentine)
+Information: BOARD turn 18 (Valentine) | Dominic | life 39 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 18 (Valentine) | Valentine | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Smoldering Marsh(land); Grab the Prize(2); Blind Obedience(2); Ingenious Artillerist(3)
+Information: BOARD turn 18 (Valentine) | Zecele | life 40 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Elas il-Kor, Sadistic Pilgrim(2); Marionette Apprentice(2); Swamp(land)
+Information: BOARD turn 18 (Valentine) | Javier | life 41 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3 | hand cards: Daxos, Blessed by the Sun(2); Impact Tremors(2); Arabella, Abandoned Doll(2); Finale of Glory(2)
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Land: Valentine played Ash Barrens (168)
+Mana: Godless Shrine (135) - {T}: Add {W}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Add To Stack: Valentine cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by Valentine | open mana: Dominic 3, Zecele 2, Javier 0
+Resolve Stack: Blind Obedience
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Windbrisk Heights (171) - {T}: Add {W}.
+Mana: Caves of Koilos (164) - {T}: Add {C}.
+Add To Stack: Valentine cast Ingenious Artillerist
+Information: BOARD cast | Ingenious Artillerist (mv 3) by Valentine | open mana: Dominic 3, Zecele 2, Javier 0
+Add To Stack: Valentine triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Ingenious Artillerist (107), Activator: Valentine, SpellAbility: Ingenious Artillerist - Creature 3 / 1]
+Resolve Stack: Ingenious Artillerist - Creature 3 / 1
+Phase: Valentine's End step
+Zone Change: Commander's Sphere (225) was put into Graveyard from Battlefield.
+Add To Stack: Zecele activated Commander's Sphere
+Resolve Stack: Commander's Sphere (225) - Zecele draws a card.
+Phase: Valentine's Cleanup step
+Turn: Turn 19 (Zecele)
+Information: BOARD turn 19 (Zecele) | Dominic | life 39 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 19 (Zecele) | Valentine | life 34 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Artillerist 3/1 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 19 (Zecele) | Zecele | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Tithe Drinker(2); Elas il-Kor, Sadistic Pilgrim(2); Marionette Apprentice(2); Swamp(land); Miner's Guidewing(1)
+Information: BOARD turn 19 (Zecele) | Javier | life 41 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3 | hand cards: Daxos, Blessed by the Sun(2); Impact Tremors(2); Arabella, Abandoned Doll(2); Finale of Glory(2)
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Swamp (274)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Swamp (274) - {T}: Add {B}.
+Add To Stack: Zecele cast Braids, Arisen Nightmare
+Information: BOARD cast | Braids, Arisen Nightmare (mv 3) by Zecele | open mana: Dominic 3, Valentine 0, Javier 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Braids, Arisen Nightmare - Creature 3 / 3
+Land: Zecele picked {B}
+Mana: Arcane Signet (256) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (301) - {T}: Add {W}.
+Add To Stack: Zecele cast Elas il-Kor, Sadistic Pilgrim
+Information: BOARD cast | Elas il-Kor, Sadistic Pilgrim (mv 2) by Zecele | open mana: Dominic 3, Valentine 0, Javier 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Elas il-Kor, Sadistic Pilgrim - Creature 2 / 2
+Mana: Plains (303) - {T}: Add {W}.
+Add To Stack: Zecele cast Miner's Guidewing
+Information: BOARD cast | Miner's Guidewing (mv 1) by Zecele | open mana: Dominic 3, Valentine 0, Javier 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Miner's Guidewing - Creature 1 / 1
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Zecele 40 > 41
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Miner's Guidewing (284)]
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Combat: Zecele assigned Athreos, God of Passage (312) to attack Javier.
+Information: BOARD attack | Zecele -> Javier | attackers 1 (power 5) | defender life 41 | untapped creatures 1 (power 3): Neyali, Suns' Vanguard 3/3 | open mana 0
+Phase: Zecele's Declare Blockers Step
+Combat: Javier didn't block Athreos, God of Passage (312).
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Javier.
+Life: Life: Javier 41 > 36
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Add To Stack: Zecele triggered Braids, Arisen Nightmare
+Zone Change: Arcane Signet (256) was put into Graveyard from Battlefield.
+Life: Life: Javier 36 > 34
+Life: Life: Dominic 39 > 37
+Life: Life: Valentine 34 > 32
+Resolve Stack: At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card. [Phase: Zecele]
+Phase: Zecele's Cleanup step
+Turn: Turn 20 (Javier)
+Information: BOARD turn 20 (Javier) | Dominic | life 37 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 20 (Javier) | Valentine | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Artillerist 3/1 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 20 (Javier) | Zecele | life 41 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); Swamp(land); The One Ring(4); Indulgent Tormentor(5)
+Information: BOARD turn 20 (Javier) | Javier | life 34 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3 | hand cards: Daxos, Blessed by the Sun(2); Impact Tremors(2); Arabella, Abandoned Doll(2); Finale of Glory(2)
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Javier cast Daxos, Blessed by the Sun
+Information: BOARD cast | Daxos, Blessed by the Sun (mv 2) by Javier | open mana: Dominic 3, Valentine 0, Zecele 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Daxos, Blessed by the Sun - Creature 2 / *
+Add To Stack: Javier triggered Dazzling Angel
+Life: Life: Javier 34 > 35
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Daxos, Blessed by the Sun (327)]
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Mountain (391) - {T}: Add {R}.
+Add To Stack: Javier cast Arabella, Abandoned Doll
+Information: BOARD cast | Arabella, Abandoned Doll (mv 2) by Javier | open mana: Dominic 3, Valentine 0, Zecele 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Arabella, Abandoned Doll - Creature 1 / 3
+Add To Stack: Javier triggered Dazzling Angel
+Add To Stack: Javier triggered Daxos, Blessed by the Sun
+Life: Life: Javier 35 > 36
+Resolve Stack: Whenever another creature you control enters or dies, you gain 1 life. [Zone Changer: Arabella, Abandoned Doll (383)]
+Life: Life: Javier 36 > 37
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arabella, Abandoned Doll (383)]
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Combat: Javier assigned Neyali, Suns' Vanguard (413) and Dazzling Angel (320) to attack Zecele.
+Information: BOARD attack | Javier -> Zecele | attackers 2 (power 5) | defender life 41 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Javier's Declare Blockers Step
+Combat: Zecele didn't block Neyali, Suns' Vanguard (413).
+Zecele didn't block Dazzling Angel (320).
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Damage: Neyali, Suns' Vanguard (413) deals 3 combat damage to Zecele.
+Damage: Dazzling Angel (320) deals 2 combat damage to Zecele.
+Life: Life: Zecele 41 > 36
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Replacement Effect: Windbrisk Heights enters tapped.
+Land: Javier played Windbrisk Heights (372)
+Add To Stack: Javier triggered Windbrisk Heights
+Resolve Stack: Hideaway 4 (When this permanent enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.) [Zone Changer: Windbrisk Heights (372)]
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Dominic | life 37 | hand 3 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Bonders' Enclave(land); Olivia, Crimson Bride(6); Opposition Agent(3)
+Information: BOARD turn 21 (Dominic) | Valentine | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Artillerist 3/1 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 21 (Dominic) | Zecele | life 36 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); Swamp(land); The One Ring(4); Indulgent Tormentor(5)
+Information: BOARD turn 21 (Dominic) | Javier | life 37 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/6*; Arabella, Abandoned Doll 1/3* | hand cards: Impact Tremors(2); Finale of Glory(2)
+Information: BOARD threat | turn 21 | Dazzling Angel (Javier) 62
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Bonders' Enclave (64)
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Bonders' Enclave (64) - {T}: Add {C}.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Valentine 0, Zecele 0, Javier 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Impulsive Pilferer (80) to attack Javier.
+Information: BOARD attack | Dominic -> Javier | attackers 1 (power 1) | defender life 37 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Javier didn't block Impulsive Pilferer (80).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Impulsive Pilferer (80) deals 1 combat damage to Javier.
+Life: Life: Javier 37 > 36
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Javier, Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Valentine)
+Information: BOARD turn 22 (Valentine) | Dominic | life 37 | hand 3 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Roaming Throne(4)
+Information: BOARD turn 22 (Valentine) | Valentine | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Artillerist 3/1 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 22 (Valentine) | Zecele | life 36 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); Swamp(land); The One Ring(4); Indulgent Tormentor(5)
+Information: BOARD turn 22 (Valentine) | Javier | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/6*; Arabella, Abandoned Doll 1/3* | hand cards: Impact Tremors(2); Finale of Glory(2)
+Information: BOARD threat | turn 22 | Dazzling Angel (Javier) 60
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Combat: Valentine assigned Ingenious Artillerist (107) to attack Javier.
+Information: BOARD attack | Valentine -> Javier | attackers 1 (power 3) | defender life 36 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Valentine's Declare Blockers Step
+Combat: Javier didn't block Ingenious Artillerist (107).
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Damage: Ingenious Artillerist (107) deals 3 combat damage to Javier.
+Life: Life: Javier 36 > 33
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Land: Valentine played Swamp (155)
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Godless Shrine (135) - {T}: Add {W}.
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Mana: Windbrisk Heights (171) - {T}: Add {W}.
+Add To Stack: Valentine cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Valentine | open mana: Dominic 3, Zecele 0, Javier 0
+Add To Stack: Valentine triggered Blind Obedience
+Land: Valentine picked {W}
+Damage: Caves of Koilos (164) deals 1 non-combat damage to Valentine.
+Life: Life: Valentine 32 > 31
+Mana: Caves of Koilos (164) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Life: Life: Zecele 36 > 35
+Life: Life: Javier 33 > 32
+Life: Life: Dominic 37 > 36
+Life: Life: Valentine 31 > 34
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Mr. House, President and CEO (201), Activator: Valentine, SpellAbility: Mr. House, President and CEO - Creature 0 / 4]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: Valentine triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Zecele.
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Javier.
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 36 > 35
+Life: Life: Zecele 35 > 34
+Life: Life: Javier 32 > 31
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 23 (Zecele)
+Information: BOARD turn 23 (Zecele) | Dominic | life 35 | hand 3 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Roaming Throne(4)
+Information: BOARD turn 23 (Zecele) | Valentine | life 34 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ingenious Artillerist 3/1*; Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 23 (Zecele) | Zecele | life 34 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); Swamp(land); The One Ring(4); Indulgent Tormentor(5)
+Information: BOARD turn 23 (Zecele) | Javier | life 31 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/6*; Arabella, Abandoned Doll 1/3* | hand cards: Impact Tremors(2); Finale of Glory(2)
+Information: BOARD threat | turn 23 | Dazzling Angel (Javier) 57; Ingenious Artillerist (Valentine) 49
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Swamp (266)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Swamp (274) - {T}: Add {B}.
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Plains (301) - {T}: Add {W}.
+Add To Stack: Zecele cast Indulgent Tormentor
+Information: BOARD cast | Indulgent Tormentor (mv 5) by Zecele | open mana: Dominic 3, Valentine 0, Javier 0
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Indulgent Tormentor - Creature 5 / 3
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Zecele 34 > 35
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Indulgent Tormentor (255)]
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Combat: Zecele assigned Athreos, God of Passage (312), Braids, Arisen Nightmare (228), Elas il-Kor, Sadistic Pilgrim (246) and Miner's Guidewing (284) to attack Javier.
+Information: BOARD attack | Zecele -> Javier | attackers 4 (power 11) | defender life 31 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Zecele's Declare Blockers Step
+Combat: Javier didn't block Athreos, God of Passage (312).
+Javier didn't block Braids, Arisen Nightmare (228).
+Javier didn't block Elas il-Kor, Sadistic Pilgrim (246).
+Javier didn't block Miner's Guidewing (284).
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Javier.
+Damage: Braids, Arisen Nightmare (228) deals 3 combat damage to Javier.
+Damage: Elas il-Kor, Sadistic Pilgrim (246) deals 2 combat damage to Javier.
+Damage: Miner's Guidewing (284) deals 1 combat damage to Javier.
+Life: Life: Javier 31 > 20
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Add To Stack: Zecele triggered Braids, Arisen Nightmare
+Zone Change: Plains (301) was put into Graveyard from Battlefield.
+Life: Life: Javier 20 > 18
+Life: Life: Dominic 35 > 33
+Life: Life: Valentine 34 > 32
+Resolve Stack: At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card. [Phase: Zecele]
+Phase: Zecele's Cleanup step
+Turn: Turn 24 (Javier)
+Information: BOARD turn 24 (Javier) | Dominic | life 33 | hand 3 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Roaming Throne(4)
+Information: BOARD turn 24 (Javier) | Valentine | life 32 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ingenious Artillerist 3/1*; Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 24 (Javier) | Zecele | life 35 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); The One Ring(4); Ashnod's Altar(3); Plains(land); Swamp(land); Bastion of Remembrance(3)
+Information: BOARD turn 24 (Javier) | Javier | life 18 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Dazzling Angel 2/3*; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/6*; Arabella, Abandoned Doll 1/3* | hand cards: Impact Tremors(2); Finale of Glory(2)
+Information: BOARD threat | turn 24 | Dazzling Angel (Javier) 55; Athreos, God of Passage (Zecele) 53; Ingenious Artillerist (Valentine) 47; Braids, Arisen Nightmare (Zecele) 44; Elas il-Kor, Sadistic Pilgrim (Zecele) 38
+Phase: Javier's Untap step
+Phase: Javier's Upkeep step
+Phase: Javier's Draw step
+Phase: Javier's Main phase, precombat
+Land: Javier played Kher Keep (349)
+Mana: Mountain (391) - {T}: Add {R}.
+Mana: Plains (406) - {T}: Add {W}.
+Mana: Plains (399) - {T}: Add {W}.
+Add To Stack: Javier activated Horn of Valhalla targeting [Dazzling Angel (320)]
+Resolve Stack: Horn of Valhalla (317) -  Attach to Dazzling Angel (320)
+Phase: Javier's Beginning of Combat Step
+Phase: Javier's Declare Attackers Step
+Combat: Javier assigned Arabella, Abandoned Doll (383), Dazzling Angel (320), Neyali, Suns' Vanguard (413) and Daxos, Blessed by the Sun (327) to attack Zecele.
+Information: BOARD attack | Javier -> Zecele | attackers 4 (power 12) | defender life 35 | untapped creatures 1 (power 1): Miner's Guidewing 1/1 | open mana 1
+Add To Stack: Javier triggered Arabella, Abandoned Doll
+Damage: Arabella, Abandoned Doll (383) deals 2 non-combat damage to Dominic.
+Damage: Arabella, Abandoned Doll (383) deals 2 non-combat damage to Valentine.
+Damage: Arabella, Abandoned Doll (383) deals 2 non-combat damage to Zecele.
+Life: Life: Dominic 33 > 31
+Life: Life: Valentine 32 > 30
+Life: Life: Zecele 35 > 33
+Life: Life: Javier 18 > 20
+Resolve Stack: Whenever Arabella, Abandoned Doll attacks, it deals X damage to each opponent and you gain X life, where X is the number of creatures you control with power 2 or less. [Attacker: Arabella, Abandoned Doll (383)]
+Mana: Plains (396) - {T}: Add {W}.
+Add To Stack: Javier activated Windbrisk Heights
+Add To Stack: Javier cast Exemplar of Light
+Information: BOARD cast | Exemplar of Light (mv 4) by Javier | open mana: Dominic 3, Valentine 0, Zecele 1
+Resolve Stack: Windbrisk Heights (372) - Javier may play Exemplar of Light (411) without paying its mana cost.
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Exemplar of Light - Creature 3 / 3
+Add To Stack: Javier triggered Dazzling Angel
+Add To Stack: Javier triggered Daxos, Blessed by the Sun
+Life: Life: Javier 20 > 21
+Resolve Stack: Whenever another creature you control enters or dies, you gain 1 life. [Zone Changer: Exemplar of Light (411)]
+Add To Stack: Javier triggered Exemplar of Light
+Resolve Stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Javier, Gained Amount: 1]
+Add To Stack: Javier triggered Exemplar of Light
+Resolve Stack: Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn. [Added once: Exemplar of Light (411) Amount: 1]
+Life: Life: Javier 21 > 22
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Exemplar of Light (411)]
+Add To Stack: Javier triggered Exemplar of Light
+Resolve Stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Javier, Gained Amount: 1]
+Phase: Javier's Declare Blockers Step
+Combat: Zecele didn't block Arabella, Abandoned Doll (383).
+Zecele didn't block Dazzling Angel (320).
+Zecele didn't block Neyali, Suns' Vanguard (413).
+Zecele didn't block Daxos, Blessed by the Sun (327).
+Phase: Javier's First Strike Damage Step
+Phase: Javier's Combat Damage Step
+Damage: Arabella, Abandoned Doll (383) deals 1 combat damage to Zecele.
+Damage: Dazzling Angel (320) deals 7 combat damage to Zecele.
+Damage: Neyali, Suns' Vanguard (413) deals 3 combat damage to Zecele.
+Damage: Daxos, Blessed by the Sun (327) deals 2 combat damage to Zecele.
+Life: Life: Zecele 33 > 20
+Phase: Javier's End of Combat Step
+Phase: Javier's Main phase, postcombat
+Phase: Javier's End step
+Phase: Javier's Cleanup step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Dominic | life 31 | hand 3 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Roaming Throne(4)
+Information: BOARD turn 25 (Dominic) | Valentine | life 30 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ingenious Artillerist 3/1*; Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 25 (Dominic) | Zecele | life 20 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); The One Ring(4); Ashnod's Altar(3); Plains(land); Swamp(land); Bastion of Remembrance(3)
+Information: BOARD turn 25 (Dominic) | Javier | life 22 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (0 untapped): Dazzling Angel 7/8*[Horn of Valhalla]; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/8*; Arabella, Abandoned Doll 1/3*; Exemplar of Light 5/5* | hand cards: Impact Tremors(2); Finale of Glory(2); Song of Totentanz(1)
+Information: BOARD threat | turn 25 | Dazzling Angel (Javier) 108; Arabella, Abandoned Doll (Javier) 55; Athreos, God of Passage (Zecele) 51; Ingenious Artillerist (Valentine) 45; Exemplar of Light (Javier) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Bonders' Enclave (64) - {T}: Add {C}.
+Add To Stack: Dominic cast Roaming Throne
+Information: BOARD cast | Roaming Throne (mv 4) by Dominic | open mana: Valentine 0, Zecele 1, Javier 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Replacement Effect: As Roaming Throne enters, choose a creature type.
+Resolve Stack: Roaming Throne - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (100) to attack Valentine.
+Dominic assigned Impulsive Pilferer (80) to attack Javier.
+Information: BOARD attack | Dominic -> Valentine | attackers 1 (power 3) | defender life 30 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Information: BOARD attack | Dominic -> Javier | attackers 1 (power 1) | defender life 22 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: Valentine didn't block Olivia, Opulent Outlaw (100).
+Combat: Javier didn't block Impulsive Pilferer (80).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (100) deals 3 combat damage to Valentine.
+Life: Life: Dominic 31 > 34
+Damage: Impulsive Pilferer (80) deals 1 combat damage to Javier.
+Life: Life: Valentine 30 > 27
+Life: Life: Javier 22 > 21
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Valentine, Amount: 3]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Javier, Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Valentine)
+Information: BOARD turn 26 (Valentine) | Dominic | life 34 | hand 3 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 3 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3*; Roaming Throne 4/4* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Boros Charm(2)
+Information: BOARD turn 26 (Valentine) | Valentine | life 27 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ingenious Artillerist 3/1*; Mr. House, President and CEO 0/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 26 (Valentine) | Zecele | life 20 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); The One Ring(4); Ashnod's Altar(3); Plains(land); Swamp(land); Bastion of Remembrance(3)
+Information: BOARD turn 26 (Valentine) | Javier | life 21 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (0 untapped): Dazzling Angel 7/8*[Horn of Valhalla]; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/8*; Arabella, Abandoned Doll 1/3*; Exemplar of Light 5/5* | hand cards: Impact Tremors(2); Finale of Glory(2); Song of Totentanz(1)
+Information: BOARD threat | turn 26 | Dazzling Angel (Javier) 103; Olivia, Opulent Outlaw (Dominic) 58; Arabella, Abandoned Doll (Javier) 53; Athreos, God of Passage (Zecele) 49; Ingenious Artillerist (Valentine) 43
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Mountain (187) - {T}: Add {R}.
+Add To Stack: Valentine cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by Valentine | open mana: Dominic 4, Zecele 1, Javier 1
+Add To Stack: Valentine triggered Blind Obedience
+Mana: Godless Shrine (135) - {T}: Add {W}.
+Life: Life: Zecele 20 > 19
+Life: Life: Javier 21 > 20
+Life: Life: Dominic 34 > 33
+Life: Life: Valentine 27 > 30
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Stridehangar Automaton (137), Activator: Valentine, SpellAbility: Stridehangar Automaton - Creature 1 / 4]
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Add To Stack: Valentine triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Zecele.
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Javier.
+Damage: Ingenious Artillerist (107) deals 1 non-combat damage to Dominic.
+Life: Life: Dominic 33 > 32
+Life: Life: Zecele 19 > 18
+Life: Life: Javier 20 > 19
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 1]
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 27 (Zecele)
+Information: BOARD turn 27 (Zecele) | Dominic | life 32 | hand 3 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 3 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3*; Roaming Throne 4/4* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Boros Charm(2)
+Information: BOARD turn 27 (Zecele) | Valentine | life 30 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 27 (Zecele) | Zecele | life 18 | hand 7 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3* | hand cards: Tithe Drinker(2); Marionette Apprentice(2); The One Ring(4); Ashnod's Altar(3); Plains(land); Swamp(land); Bastion of Remembrance(3)
+Information: BOARD turn 27 (Zecele) | Javier | life 19 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (0 untapped): Dazzling Angel 7/8*[Horn of Valhalla]; Neyali, Suns' Vanguard 3/3*; Daxos, Blessed by the Sun 2/8*; Arabella, Abandoned Doll 1/3*; Exemplar of Light 5/5* | hand cards: Impact Tremors(2); Finale of Glory(2); Song of Totentanz(1)
+Information: BOARD threat | turn 27 | Dazzling Angel (Javier) 99; Ingenious Artillerist (Valentine) 73; Olivia, Opulent Outlaw (Dominic) 56; Arabella, Abandoned Doll (Javier) 50; Athreos, God of Passage (Zecele) 47
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Add To Stack: Zecele triggered Indulgent Tormentor targeting [Javier]
+Life: Life: Javier 19 > 16
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Javier]]) [Phase: Zecele]
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Plains (300)
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Swamp (268) - {T}: Add {B}.
+Add To Stack: Zecele cast Tithe Drinker
+Information: BOARD cast | Tithe Drinker (mv 2) by Zecele | open mana: Dominic 4, Valentine 4, Javier 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Tithe Drinker - Creature 2 / 1
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Zecele 18 > 19
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Tithe Drinker (227)]
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Plains (300) - {T}: Add {W}.
+Add To Stack: Zecele cast Marionette Apprentice
+Information: BOARD cast | Marionette Apprentice (mv 2) by Zecele | open mana: Dominic 4, Valentine 4, Javier 1
+Add To Stack: Zecele triggered Tithe Drinker
+Mana: Swamp (274) - {T}: Add {B}.
+Life: Life: Javier 16 > 15
+Life: Life: Dominic 32 > 31
+Life: Life: Valentine 30 > 29
+Life: Life: Zecele 19 > 22
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Marionette Apprentice (224), Activator: Zecele, SpellAbility: Marionette Apprentice - Creature 1 / 2]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Marionette Apprentice - Creature 1 / 2
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Marionette Apprentice
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Fabricate 1 (When this creature enters, put a +1/+1 counter on it, or create a 1/1 colorless Servo artifact creature token.) [Zone Changer: Marionette Apprentice (224)]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Life: Life: Zecele 22 > 23
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Servo Token (504)]
+Life: Life: Zecele 23 > 24
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Marionette Apprentice (224)]
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Combat: Zecele assigned Athreos, God of Passage (312), Indulgent Tormentor (255), Braids, Arisen Nightmare (228), Elas il-Kor, Sadistic Pilgrim (246) and Miner's Guidewing (284) to attack Javier.
+Information: BOARD attack | Zecele -> Javier | attackers 5 (power 16) | defender life 15 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Zecele's Declare Blockers Step
+Combat: Javier didn't block Athreos, God of Passage (312).
+Javier didn't block Indulgent Tormentor (255).
+Javier didn't block Braids, Arisen Nightmare (228).
+Javier didn't block Elas il-Kor, Sadistic Pilgrim (246).
+Javier didn't block Miner's Guidewing (284).
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 combat damage to Javier.
+Damage: Indulgent Tormentor (255) deals 5 combat damage to Javier.
+Damage: Braids, Arisen Nightmare (228) deals 3 combat damage to Javier.
+Damage: Elas il-Kor, Sadistic Pilgrim (246) deals 2 combat damage to Javier.
+Damage: Miner's Guidewing (284) deals 1 combat damage to Javier.
+Life: Life: Javier 15 > -1
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Add To Stack: Zecele triggered Braids, Arisen Nightmare
+Zone Change: Servo Token (504) was put into Graveyard from Battlefield.
+Life: Life: Dominic 31 > 29
+Life: Life: Valentine 29 > 27
+Resolve Stack: At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card. [Phase: Zecele]
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Marionette Apprentice
+Life: Life: Dominic 29 > 28
+Life: Life: Valentine 27 > 26
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Servo Token (504)]
+Life: Life: Dominic 28 > 27
+Life: Life: Valentine 26 > 25
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Servo Token (504)]
+Life: Life: Dominic 27 > 24
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Servo Token (504)]
+Phase: Zecele's Cleanup step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Dominic | life 24 | hand 3 | lands 5 (1 untapped) | open mana 4 | commander Battlefield | creatures 3 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3*; Roaming Throne 4/4* | hand cards: Olivia, Crimson Bride(6); Opposition Agent(3); Boros Charm(2)
+Information: BOARD turn 28 (Dominic) | Valentine | life 25 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 28 (Dominic) | Zecele | life 24 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3*; Tithe Drinker 2/1*; Marionette Apprentice 1/2* | hand cards: The One Ring(4); Ashnod's Altar(3); Swamp(land); Bastion of Remembrance(3); Corrupted Conviction(1); Plains(land); Magister of Worth(6)
+Information: BOARD threat | turn 28 | Elas il-Kor, Sadistic Pilgrim (Zecele) 102; Athreos, God of Passage (Zecele) 88; Ingenious Artillerist (Valentine) 70; Braids, Arisen Nightmare (Zecele) 69; Olivia, Opulent Outlaw (Dominic) 54
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Dragonskull Summit (45) - {T}: Add {B} or {R}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Bonders' Enclave (64) - {T}: Add {C}.
+Mana: Sulfurous Springs (70) - {T}: Add {C}.
+Zone Change: Treasure Token (464) was put into Graveyard from Battlefield.
+Mana: Treasure Token (464) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Olivia, Crimson Bride
+Information: BOARD cast | Olivia, Crimson Bride (mv 6) by Dominic | open mana: Valentine 4, Zecele 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Olivia, Crimson Bride - Creature 3 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (100) and Roaming Throne (4) to attack Valentine.
+Dominic assigned Impulsive Pilferer (80) to attack Zecele.
+Information: BOARD attack | Dominic -> Valentine | attackers 2 (power 7) | defender life 25 | untapped creatures 3 (power 4): Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4 | open mana 4
+Information: BOARD attack | Dominic -> Zecele | attackers 1 (power 1) | defender life 24 | untapped creatures 1 (power 1): Miner's Guidewing 1/1 | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: Valentine didn't block Olivia, Opulent Outlaw (100).
+Valentine assigned Stridehangar Automaton (137) to block Roaming Throne (4).
+Combat: Zecele didn't block Impulsive Pilferer (80).
+Zone Change: Welding Jar (119) was put into Graveyard from Battlefield.
+Add To Stack: Valentine activated Welding Jar targeting [Stridehangar Automaton (137)]
+Resolve Stack: Welding Jar (119) - Regenerate Stridehangar Automaton (137).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (100) deals 3 combat damage to Valentine.
+Life: Life: Dominic 24 > 27
+Damage: Roaming Throne (4) deals 4 damage to Stridehangar Automaton (137).
+Damage: Impulsive Pilferer (80) deals 1 combat damage to Zecele.
+Damage: Stridehangar Automaton (137) deals 1 damage to Roaming Throne (4).
+Life: Life: Valentine 25 > 22
+Life: Life: Zecele 24 > 23
+Replacement Effect: Regeneration (if creature would be destroyed, regenerate it instead)
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Valentine, Amount: 3]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Zecele, Amount: 1]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 29 (Valentine)
+Information: BOARD turn 29 (Valentine) | Dominic | life 27 | hand 3 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 4 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3*; Roaming Throne 4/4*; Olivia, Crimson Bride 3/4* | hand cards: Opposition Agent(3); Boros Charm(2); Breeches, Eager Pillager(3)
+Information: BOARD turn 29 (Valentine) | Valentine | life 22 | hand 2 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4* | hand cards: Smoldering Marsh(land); Grab the Prize(2)
+Information: BOARD turn 29 (Valentine) | Zecele | life 23 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3*; Tithe Drinker 2/1*; Marionette Apprentice 1/2* | hand cards: The One Ring(4); Ashnod's Altar(3); Swamp(land); Bastion of Remembrance(3); Corrupted Conviction(1); Plains(land); Magister of Worth(6)
+Information: BOARD threat | turn 29 | Olivia, Opulent Outlaw (Dominic) 98; Elas il-Kor, Sadistic Pilgrim (Zecele) 97; Athreos, God of Passage (Zecele) 85; Ingenious Artillerist (Valentine) 68; Braids, Arisen Nightmare (Zecele) 66
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Combat: Valentine assigned Stridehangar Automaton (137) to attack Zecele.
+Information: BOARD attack | Valentine -> Zecele | attackers 1 (power 1) | defender life 23 | untapped creatures 1 (power 1): Miner's Guidewing 1/1 | open mana 1
+Phase: Valentine's Declare Blockers Step
+Combat: Zecele didn't block Stridehangar Automaton (137).
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Damage: Stridehangar Automaton (137) deals 1 combat damage to Zecele.
+Life: Life: Zecele 23 > 22
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Mana: Godless Shrine (135) - {T}: Add {W}.
+Mana: Swamp (155) - {T}: Add {B}.
+Add To Stack: Valentine cast Lotho, Corrupt Shirriff
+Information: BOARD cast | Lotho, Corrupt Shirriff (mv 2) by Valentine | open mana: Dominic 2, Zecele 1
+Add To Stack: Valentine triggered Blind Obedience
+Mana: Windbrisk Heights (171) - {T}: Add {W}.
+Life: Life: Zecele 22 > 21
+Life: Life: Dominic 27 > 26
+Life: Life: Valentine 22 > 24
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Lotho, Corrupt Shirriff (112), Activator: Valentine, SpellAbility: Lotho, Corrupt Shirriff - Creature 2 / 1]
+Resolve Stack: Lotho, Corrupt Shirriff - Creature 2 / 1
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Discard: Valentine discards Smoldering Marsh (167).
+Add To Stack: Valentine cast Grab the Prize
+Information: BOARD cast | Grab the Prize (mv 2) by Valentine | open mana: Dominic 2, Zecele 1
+Add To Stack: Valentine triggered Blind Obedience
+Add To Stack: Valentine triggered Lotho, Corrupt Shirriff
+Life: Life: Valentine 24 > 23
+Replacement Effect: If one or more artifact tokens would be created under your control, those tokens plus an additional 1/1 colorless Thopter artifact creature token with flying are created instead.
+Resolve Stack: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Card: Grab the Prize (106), Activator: Valentine, SpellAbility: As an additional cost to cast this spell, discard a card. Draw two cards. If the discarded card wasn't a land card, Grab the Prize deals 2 damage to each opponent. ]
+Add To Stack: Valentine triggered Ingenious Artillerist
+Damage: Ingenious Artillerist (107) deals 2 non-combat damage to Zecele.
+Damage: Ingenious Artillerist (107) deals 2 non-combat damage to Dominic.
+Life: Life: Dominic 26 > 24
+Life: Life: Zecele 21 > 19
+Resolve Stack: Whenever one or more artifacts you control enter, Ingenious Artillerist deals that much damage to each opponent. [Amount: 2]
+Land: Valentine picked {W}
+Damage: Caves of Koilos (164) deals 1 non-combat damage to Valentine.
+Life: Life: Valentine 23 > 22
+Mana: Caves of Koilos (164) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Life: Life: Zecele 19 > 18
+Life: Life: Dominic 24 > 23
+Life: Life: Valentine 22 > 24
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Grab the Prize (106), Activator: Valentine, SpellAbility: As an additional cost to cast this spell, discard a card. Draw two cards. If the discarded card wasn't a land card, Grab the Prize deals 2 damage to each opponent. ]
+Resolve Stack: Grab the Prize (106) - Valentine draws two cards. Grab the Prize (106) deals 0 damage to something.
+Land: Valentine played Battlefield Forge (173)
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 30 (Zecele)
+Information: BOARD turn 30 (Zecele) | Dominic | life 23 | hand 3 | lands 5 (0 untapped) | open mana 2 | commander Battlefield | creatures 4 (0 untapped): Impulsive Pilferer 1/1*; Olivia, Opulent Outlaw 3/3*; Roaming Throne 4/4*; Olivia, Crimson Bride 3/4* | hand cards: Opposition Agent(3); Boros Charm(2); Breeches, Eager Pillager(3)
+Information: BOARD turn 30 (Zecele) | Valentine | life 24 | hand 1 | lands 7 (1 untapped) | open mana 4 | commander Battlefield | creatures 5 (4 untapped): Ingenious Artillerist 3/1; Mr. House, President and CEO 0/4; Stridehangar Automaton 1/4*; Lotho, Corrupt Shirriff 2/1; Thopter Token 2/2 | hand cards: Needleverge Pathway(land)
+Information: BOARD turn 30 (Zecele) | Zecele | life 18 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (1 untapped): Athreos, God of Passage 5/4*; Braids, Arisen Nightmare 3/3*; Elas il-Kor, Sadistic Pilgrim 2/2*; Miner's Guidewing 1/1; Indulgent Tormentor 5/3*; Tithe Drinker 2/1*; Marionette Apprentice 1/2* | hand cards: The One Ring(4); Ashnod's Altar(3); Swamp(land); Bastion of Remembrance(3); Corrupted Conviction(1); Plains(land); Magister of Worth(6)
+Information: BOARD threat | turn 30 | Ingenious Artillerist (Valentine) 102; Olivia, Opulent Outlaw (Dominic) 94; Elas il-Kor, Sadistic Pilgrim (Zecele) 94; Athreos, God of Passage (Zecele) 82; Braids, Arisen Nightmare (Zecele) 64
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Add To Stack: Zecele triggered Indulgent Tormentor targeting [Dominic]
+Life: Life: Dominic 23 > 20
+Resolve Stack: At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life. (Targeting: [[Dominic]]) [Phase: Zecele]
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Plains (302)
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (300) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Swamp (274) - {T}: Add {B}.
+Add To Stack: Zecele cast Magister of Worth
+Information: BOARD cast | Magister of Worth (mv 6) by Zecele | open mana: Dominic 2, Valentine 4
+Add To Stack: Zecele triggered Tithe Drinker
+Mana: Swamp (266) - {T}: Add {B}.
+Life: Life: Dominic 20 > 19
+Life: Life: Valentine 24 > 23
+Life: Life: Zecele 18 > 20
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Magister of Worth (245), Activator: Zecele, SpellAbility: Magister of Worth - Creature 4 / 4]
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Magister of Worth - Creature 4 / 4
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Magister of Worth
+Resolve Stack: Zecele voted for Condemnation
+Dominic voted for Grace
+Valentine voted for Condemnation
+Zone Change: Braids, Arisen Nightmare (228) was put into Graveyard from Battlefield.
+Zone Change: Elas il-Kor, Sadistic Pilgrim (246) was put into Graveyard from Battlefield.
+Zone Change: Miner's Guidewing (284) was put into Graveyard from Battlefield.
+Zone Change: Indulgent Tormentor (255) was put into Graveyard from Battlefield.
+Zone Change: Tithe Drinker (227) was put into Graveyard from Battlefield.
+Zone Change: Marionette Apprentice (224) was put into Graveyard from Battlefield.
+Zone Change: Impulsive Pilferer (80) was put into Graveyard from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (100) was put into Graveyard from Battlefield.
+Zone Change: Roaming Throne (4) was put into Graveyard from Battlefield.
+Zone Change: Olivia, Crimson Bride (81) was put into Graveyard from Battlefield.
+Zone Change: Ingenious Artillerist (107) was put into Graveyard from Battlefield.
+Zone Change: Mr. House, President and CEO (201) was put into Graveyard from Battlefield.
+Zone Change: Stridehangar Automaton (137) was put into Graveyard from Battlefield.
+Zone Change: Lotho, Corrupt Shirriff (112) was put into Graveyard from Battlefield.
+Zone Change: Thopter Token (523) was put into Graveyard from Battlefield.
+Resolve Stack: Will of the Council — When Magister of Worth enters, starting with you, each player votes for grace or condemnation. If grace gets more votes, each player returns each creature card from their graveyard to the battlefield. If condemnation gets more votes or the vote is tied, destroy all creatures other than Magister of Worth. [Zone Changer: Magister of Worth (245)]
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Marionette Apprentice
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Zecele triggered Marionette Apprentice
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Valentine]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Miner's Guidewing targeting [Magister of Worth (245)]
+Add To Stack: Zecele triggered Marionette Apprentice
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Valentine]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Marionette Apprentice
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Zecele triggered Marionette Apprentice
+Add To Stack: Zecele triggered Athreos, God of Passage targeting [Dominic]
+Add To Stack: Zecele triggered Elas il-Kor, Sadistic Pilgrim
+Add To Stack: Dominic triggered Impulsive Pilferer
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When Impulsive Pilferer dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Impulsive Pilferer (80)]
+Life: Life: Dominic 19 > 18
+Life: Life: Valentine 23 > 22
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Marionette Apprentice (224)]
+Life: Life: Dominic 18 > 15
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Marionette Apprentice (224)]
+Life: Life: Dominic 15 > 14
+Life: Life: Valentine 22 > 21
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Tithe Drinker (227)]
+Life: Life: Dominic 14 > 13
+Life: Life: Valentine 21 > 20
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Tithe Drinker (227)]
+Life: Life: Dominic 13 > 10
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Tithe Drinker (227)]
+Life: Life: Dominic 10 > 9
+Life: Life: Valentine 20 > 19
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Indulgent Tormentor (255)]
+Life: Life: Dominic 9 > 8
+Life: Life: Valentine 19 > 18
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Indulgent Tormentor (255)]
+Life: Life: Valentine 18 > 15
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Valentine]]) [Zone Changer: Indulgent Tormentor (255)]
+Life: Life: Dominic 8 > 7
+Life: Life: Valentine 15 > 14
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Miner's Guidewing (284)]
+Resolve Stack: When Miner's Guidewing dies, target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.) (Targeting: [[Magister of Worth (245)]]) [Zone Changer: Miner's Guidewing (284)]
+Life: Life: Dominic 7 > 6
+Life: Life: Valentine 14 > 13
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Miner's Guidewing (284)]
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Valentine]]) [Zone Changer: Miner's Guidewing (284)]
+Life: Life: Dominic 6 > 5
+Life: Life: Valentine 13 > 12
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Elas il-Kor, Sadistic Pilgrim (246)]
+Life: Life: Dominic 5 > 2
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Elas il-Kor, Sadistic Pilgrim (246)]
+Life: Life: Dominic 2 > 1
+Life: Life: Valentine 12 > 11
+Resolve Stack: Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life. [Zone Changer: Braids, Arisen Nightmare (228)]
+Life: Life: Dominic 1 > 0
+Life: Life: Valentine 11 > 10
+Resolve Stack: Whenever another creature you control dies, each opponent loses 1 life. [Zone Changer: Braids, Arisen Nightmare (228)]
+Resolve Stack: Athreos, God of Passage ability fizzles.
+Life: Life: Zecele 20 > 21
+Resolve Stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Magister of Worth (245)]
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Phase: Zecele's Declare Blockers Step
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 31 (Valentine)
+Information: BOARD turn 31 (Valentine) | Valentine | life 10 | hand 1 | lands 7 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land)
+Information: BOARD turn 31 (Valentine) | Zecele | life 21 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Magister of Worth 5/5* | hand cards: The One Ring(4); Ashnod's Altar(3); Swamp(land); Bastion of Remembrance(3); Corrupted Conviction(1); Shadowheart, Dark Justiciar(4); Miner's Guidewing(1)
+Information: BOARD threat | turn 31 | Athreos, God of Passage (Zecele) 165; Blind Obedience (Valentine) 59
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Valentine played Isolated Chapel (134)
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Isolated Chapel (134) - {T}: Add {W} or {B}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Mana: Godless Shrine (135) - {T}: Add {B}.
+Mana: Battlefield Forge (173) - {T}: Add {C}.
+Mana: Windbrisk Heights (171) - {T}: Add {W}.
+Add To Stack: Valentine cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Valentine | open mana: Zecele 0
+Add To Stack: Valentine triggered Blind Obedience
+Damage: Caves of Koilos (164) deals 1 non-combat damage to Valentine.
+Life: Life: Valentine 10 > 9
+Mana: Caves of Koilos (164) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Life: Life: Zecele 21 > 20
+Life: Life: Valentine 9 > 10
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Mr. House, President and CEO (201), Activator: Valentine, SpellAbility: Mr. House, President and CEO - Creature 0 / 4]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 32 (Zecele)
+Information: BOARD turn 32 (Zecele) | Valentine | life 10 | hand 1 | lands 8 (0 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land)
+Information: BOARD turn 32 (Zecele) | Zecele | life 20 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Magister of Worth 5/5* | hand cards: The One Ring(4); Ashnod's Altar(3); Swamp(land); Bastion of Remembrance(3); Corrupted Conviction(1); Shadowheart, Dark Justiciar(4); Miner's Guidewing(1)
+Information: BOARD threat | turn 32 | Athreos, God of Passage (Zecele) 158; Blind Obedience (Valentine) 71
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Land: Zecele played Swamp (267)
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Swamp (272) - {T}: Add {B}.
+Mana: Swamp (274) - {T}: Add {B}.
+Mana: Swamp (266) - {T}: Add {B}.
+Add To Stack: Zecele cast Shadowheart, Dark Justiciar
+Information: BOARD cast | Shadowheart, Dark Justiciar (mv 4) by Zecele | open mana: Valentine 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Shadowheart, Dark Justiciar - Creature 3 / 4
+Mana: Swamp (267) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (300) - {T}: Add {W}.
+Add To Stack: Zecele cast Warren Soultrader
+Information: BOARD cast | Warren Soultrader (mv 3) by Zecele | open mana: Valentine 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Warren Soultrader - Creature 3 / 3
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Zecele cast Miner's Guidewing
+Information: BOARD cast | Miner's Guidewing (mv 1) by Zecele | open mana: Valentine 1
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: Miner's Guidewing - Creature 1 / 1
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Combat: Zecele assigned Athreos, God of Passage (312) and Magister of Worth (245) to attack Valentine.
+Information: BOARD attack | Zecele -> Valentine | attackers 2 (power 10) | defender life 10 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Phase: Zecele's Declare Blockers Step
+Combat: Valentine assigned Mr. House, President and CEO (201) to block Athreos, God of Passage (312).
+Valentine didn't block Magister of Worth (245).
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 damage to Mr. House, President and CEO (201).
+Damage: Magister of Worth (245) deals 5 combat damage to Valentine.
+Life: Life: Valentine 10 > 5
+Zone Change: Mr. House, President and CEO (201) was put into Graveyard from Battlefield.
+Phase: Zecele's End of Combat Step
+Phase: Zecele's Main phase, postcombat
+Phase: Zecele's End step
+Phase: Zecele's Cleanup step
+Turn: Turn 33 (Valentine)
+Information: BOARD turn 33 (Valentine) | Valentine | life 5 | hand 1 | lands 8 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land)
+Information: BOARD turn 33 (Valentine) | Zecele | life 20 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (0 untapped): Athreos, God of Passage 5/4*; Magister of Worth 5/5*; Shadowheart, Dark Justiciar 3/4*; Warren Soultrader 3/3*; Miner's Guidewing 1/1* | hand cards: The One Ring(4); Ashnod's Altar(3); Bastion of Remembrance(3); Corrupted Conviction(1)
+Information: BOARD threat | turn 33 | Athreos, God of Passage (Zecele) 152; Blind Obedience (Valentine) 68; Magister of Worth (Zecele) 42
+Phase: Valentine's Untap step
+Phase: Valentine's Upkeep step
+Phase: Valentine's Draw step
+Phase: Valentine's Main phase, precombat
+Phase: Valentine's Beginning of Combat Step
+Phase: Valentine's Declare Attackers Step
+Phase: Valentine's Declare Blockers Step
+Phase: Valentine's First Strike Damage Step
+Phase: Valentine's Combat Damage Step
+Phase: Valentine's End of Combat Step
+Phase: Valentine's Main phase, postcombat
+Mana: Mountain (187) - {T}: Add {R}.
+Mana: Swamp (155) - {T}: Add {B}.
+Mana: Isolated Chapel (134) - {T}: Add {W} or {B}.
+Mana: Ash Barrens (168) - {T}: Add {C}.
+Mana: Godless Shrine (135) - {T}: Add {B}.
+Mana: Battlefield Forge (173) - {T}: Add {C}.
+Mana: Windbrisk Heights (171) - {T}: Add {W}.
+Mana: Caves of Koilos (164) - {T}: Add {C}.
+Zone Change: Treasure Token (522) was put into Graveyard from Battlefield.
+Mana: Treasure Token (522) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Valentine cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Valentine | open mana: Zecele 0
+Add To Stack: Valentine triggered Blind Obedience
+Resolve Stack: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.) [Card: Mr. House, President and CEO (201), Activator: Valentine, SpellAbility: Mr. House, President and CEO - Creature 0 / 4]
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Valentine's End step
+Phase: Valentine's Cleanup step
+Turn: Turn 34 (Zecele)
+Information: BOARD turn 34 (Zecele) | Valentine | life 5 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Needleverge Pathway(land); Gamble(1)
+Information: BOARD turn 34 (Zecele) | Zecele | life 20 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (0 untapped): Athreos, God of Passage 5/4*; Magister of Worth 5/5*; Shadowheart, Dark Justiciar 3/4*; Warren Soultrader 3/3*; Miner's Guidewing 1/1* | hand cards: The One Ring(4); Ashnod's Altar(3); Bastion of Remembrance(3); Corrupted Conviction(1)
+Information: BOARD threat | turn 34 | Athreos, God of Passage (Zecele) 146; Blind Obedience (Valentine) 80; Magister of Worth (Zecele) 40
+Phase: Zecele's Untap step
+Phase: Zecele's Upkeep step
+Phase: Zecele's Draw step
+Phase: Zecele's Main phase, precombat
+Mana: Swamp (268) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (300) - {T}: Add {W}.
+Add To Stack: Zecele cast Bastion of Remembrance
+Information: BOARD cast | Bastion of Remembrance (mv 3) by Zecele | open mana: Valentine 0
+Resolve Stack: Bastion of Remembrance
+Add To Stack: Zecele triggered Bastion of Remembrance
+Replacement Effect: Artifacts and creatures your opponents control enter tapped.
+Resolve Stack: When Bastion of Remembrance enters, create a 1/1 white Human Soldier creature token. [Zone Changer: Bastion of Remembrance (244)]
+Phase: Zecele's Beginning of Combat Step
+Phase: Zecele's Declare Attackers Step
+Combat: Zecele assigned Athreos, God of Passage (312), Magister of Worth (245), Shadowheart, Dark Justiciar (238), Warren Soultrader (241) and Miner's Guidewing (284) to attack Valentine.
+Information: BOARD attack | Zecele -> Valentine | attackers 5 (power 17) | defender life 5 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 0
+Phase: Zecele's Declare Blockers Step
+Combat: Valentine assigned Mr. House, President and CEO (201) to block Athreos, God of Passage (312).
+Valentine didn't block Magister of Worth (245).
+Valentine didn't block Shadowheart, Dark Justiciar (238).
+Valentine didn't block Warren Soultrader (241).
+Valentine didn't block Miner's Guidewing (284).
+Phase: Zecele's First Strike Damage Step
+Phase: Zecele's Combat Damage Step
+Damage: Athreos, God of Passage (312) deals 5 damage to Mr. House, President and CEO (201).
+Damage: Magister of Worth (245) deals 5 combat damage to Valentine.
+Damage: Shadowheart, Dark Justiciar (238) deals 3 combat damage to Valentine.
+Damage: Warren Soultrader (241) deals 3 combat damage to Valentine.
+Damage: Miner's Guidewing (284) deals 1 combat damage to Valentine.
+Life: Life: Valentine 5 > -7
+Player Control: Dominic has restored control over themself
+Player Control: Valentine has restored control over themself
+Player Control: Zecele has restored control over themself
+Player Control: Javier has restored control over themself
+Game Outcome: Match Duration 6m : 54s
+Game Outcome: Turn 17
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: Valentine has lost because life total reached 0
+Game Outcome: Zecele has won because all opponents have lost
+Game Outcome: Javier has lost because life total reached 0
+Match Result: Dominic: 0 Valentine: 0 Zecele: 1 Javier: 0 
+
+Game Result: Zecele has won

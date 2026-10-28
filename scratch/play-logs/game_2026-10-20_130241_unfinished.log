@@ -1,0 +1,133 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Shane (AI) deck=Captain America v8
+Player: Niro (AI) deck=Mr House v4
+Player: Vilan (AI) deck=Olivia
+Mulligan: Xenil has mulliganed down to 7 cards.
+Mulligan: Shane has mulliganed down to 7 cards.
+Mulligan: Shane has mulliganed down to 6 cards.
+Mulligan: Shane has mulliganed down to 5 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Shane has kept a hand of 5 cards
+Mulligan: Niro has kept a hand of 7 cards
+Mulligan: Vilan has kept a hand of 7 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Rogue's Passage(land); Exotic Orchard(land); Lightning Greaves(2); Angel of Despair(7); Bishop of Wings(2)
+Information: BOARD turn 1 (Xenil) | Shane | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Plains(land); Arcane Signet(2)
+Information: BOARD turn 1 (Xenil) | Niro | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Swamp(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land)
+Information: BOARD turn 1 (Xenil) | Vilan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Command Tower(land); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Exotic Orchard (37)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Shane)
+Information: BOARD turn 2 (Shane) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Rogue's Passage(land); Lightning Greaves(2); Angel of Despair(7); Bishop of Wings(2); Baneslayer Angel(5)
+Information: BOARD turn 2 (Shane) | Shane | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Plains(land); Arcane Signet(2)
+Information: BOARD turn 2 (Shane) | Niro | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Swamp(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land)
+Information: BOARD turn 2 (Shane) | Vilan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Command Tower(land); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Shane's Untap step
+Phase: Shane's Upkeep step
+Phase: Shane's Draw step
+Phase: Shane's Main phase, precombat
+Land: Shane played Plains (188)
+Phase: Shane's Beginning of Combat Step
+Phase: Shane's Declare Attackers Step
+Phase: Shane's Declare Blockers Step
+Phase: Shane's First Strike Damage Step
+Phase: Shane's Combat Damage Step
+Phase: Shane's End of Combat Step
+Phase: Shane's Main phase, postcombat
+Phase: Shane's End step
+Phase: Shane's Cleanup step
+Turn: Turn 3 (Niro)
+Information: BOARD turn 3 (Niro) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Rogue's Passage(land); Lightning Greaves(2); Angel of Despair(7); Bishop of Wings(2); Baneslayer Angel(5)
+Information: BOARD turn 3 (Niro) | Shane | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Arcane Signet(2); Swiftfoot Boots(2)
+Information: BOARD turn 3 (Niro) | Niro | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Swamp(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land)
+Information: BOARD turn 3 (Niro) | Vilan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Command Tower(land); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Niro's Untap step
+Phase: Niro's Upkeep step
+Phase: Niro's Draw step
+Phase: Niro's Main phase, precombat
+Land: Niro played Swamp (256)
+Phase: Niro's Beginning of Combat Step
+Phase: Niro's Declare Attackers Step
+Phase: Niro's Declare Blockers Step
+Phase: Niro's First Strike Damage Step
+Phase: Niro's Combat Damage Step
+Phase: Niro's End of Combat Step
+Phase: Niro's Main phase, postcombat
+Phase: Niro's End step
+Phase: Niro's Cleanup step
+Turn: Turn 4 (Vilan)
+Information: BOARD turn 4 (Vilan) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Rogue's Passage(land); Lightning Greaves(2); Angel of Despair(7); Bishop of Wings(2); Baneslayer Angel(5)
+Information: BOARD turn 4 (Vilan) | Shane | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Arcane Signet(2); Swiftfoot Boots(2)
+Information: BOARD turn 4 (Vilan) | Niro | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land); Reanimate(1)
+Information: BOARD turn 4 (Vilan) | Vilan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Knuckles the Echidna(4); Command Tower(land); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Vilan's Untap step
+Phase: Vilan's Upkeep step
+Phase: Vilan's Draw step
+Phase: Vilan's Main phase, precombat
+Land: Vilan played Command Tower (341)
+Phase: Vilan's Beginning of Combat Step
+Phase: Vilan's Declare Attackers Step
+Phase: Vilan's Declare Blockers Step
+Phase: Vilan's First Strike Damage Step
+Phase: Vilan's Combat Damage Step
+Phase: Vilan's End of Combat Step
+Phase: Vilan's Main phase, postcombat
+Land: Vilan picked {R}
+Mana: Command Tower (341) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Vilan cast Impulsive Pilferer
+Information: BOARD cast | Impulsive Pilferer (mv 1) by Vilan | open mana: Xenil 1, Shane 1, Niro 1
+Resolve Stack: Impulsive Pilferer - Creature 1 / 1
+Phase: Vilan's End step
+Phase: Vilan's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Rogue's Passage(land); Lightning Greaves(2); Angel of Despair(7); Bishop of Wings(2); Baneslayer Angel(5)
+Information: BOARD turn 5 (Xenil) | Shane | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Arcane Signet(2); Swiftfoot Boots(2)
+Information: BOARD turn 5 (Xenil) | Niro | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land); Reanimate(1)
+Information: BOARD turn 5 (Xenil) | Vilan | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Knuckles the Echidna(4); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Land: Xenil played Rogue's Passage (22)
+Mana: Exotic Orchard (37) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Rogue's Passage (22) - {T}: Add {C}.
+Add To Stack: Xenil cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Xenil | open mana: Shane 1, Niro 1, Vilan 0
+Resolve Stack: Lightning Greaves
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 6 (Shane)
+Information: BOARD turn 6 (Shane) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Resurrection(4); Angelic Renewal(2); Angel of Despair(7); Bishop of Wings(2); Baneslayer Angel(5); Plains(land)
+Information: BOARD turn 6 (Shane) | Shane | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Riverglide Pathway(land); Sokka and Suki(3); Path to Exile(1); Arcane Signet(2); Swiftfoot Boots(2)
+Information: BOARD turn 6 (Shane) | Niro | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Plains(land); Deadbeat Attendant(2); Terminate(2); Delina, Wild Mage(4); Caves of Koilos(land); Reanimate(1)
+Information: BOARD turn 6 (Shane) | Vilan | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Knuckles the Echidna(4); Zirda, the Dawnwaker(3); Nomad Outpost(land); Feed the Swarm(2); Swamp(land); Grenzo, Havoc Raiser(2)
+Phase: Shane's Untap step
+Phase: Shane's Upkeep step
+Phase: Shane's Draw step
+Phase: Shane's Main phase, precombat
+Land: Shane played Riverglide Pathway (194)
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Shane cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Shane | open mana: Xenil 0, Niro 1, Vilan 0
+
+Game Result: unfinished (Forge closed mid-game)

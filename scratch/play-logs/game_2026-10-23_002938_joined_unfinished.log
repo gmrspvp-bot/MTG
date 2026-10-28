@@ -1,0 +1,322 @@
+Player: Dominic (HUMAN) deck=? (commander Frodo, Sauron's Bane) [this PC]
+Player: Derand (HUMAN) deck=? (commander Mr. House, President and CEO)
+Player: Peen (HUMAN) deck=? (commander Baylen, the Haymaker)
+Player: Alec (HUMAN) deck=? (commander Ulalek, Fused Atrocity)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Derand)
+Information: BOARD turn 1 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Derand) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Shineshadow Snarl(land)
+Information: BOARD turn 1 (Derand) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Derand) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Battlefield Forge (72)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Shineshadow Snarl(land)
+Information: BOARD turn 2 (Dominic) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Shineshadow Snarl (139)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 3 (Peen)
+Information: BOARD turn 3 (Peen) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Peen) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Command Beacon(land)
+Information: BOARD turn 3 (Peen) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Peen) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Forest (230)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 4 (Alec)
+Information: BOARD turn 4 (Alec) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Command Beacon(land)
+Information: BOARD turn 4 (Alec) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Llanowar Wastes (398)
+Add To Stack: Alec cast Mana Vault
+Zone Change: Mana Vault (342) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 5 (Derand)
+Information: BOARD turn 5 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Command Beacon(land)
+Information: BOARD turn 5 (Derand) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Derand) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Caves of Koilos (63)
+Life: Life: Derand 40 > 39
+Add To Stack: Derand cast Wyll, Blade of Frontiers
+Zone Change: Wyll, Blade of Frontiers (26) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Derand | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swamp(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Call of the Ring(2); Command Beacon(land)
+Information: BOARD turn 6 (Dominic) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (187)
+Add To Stack: Dominic cast Call of the Ring
+Zone Change: Call of the Ring (145) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 7 (Peen)
+Information: BOARD turn 7 (Peen) | Derand | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: hidden
+Information: BOARD turn 7 (Peen) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Command Beacon(land); Swamp(land)
+Information: BOARD turn 7 (Peen) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Peen) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Forest (228)
+Add To Stack: Peen cast Arcane Signet
+Zone Change: Arcane Signet (298) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 8 (Alec)
+Information: BOARD turn 8 (Alec) | Derand | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Command Beacon(land); Swamp(land)
+Information: BOARD turn 8 (Alec) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Alec | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Mana Vault
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Secluded Courtyard (362)
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (413) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 9 (Derand)
+Information: BOARD turn 9 (Derand) | Derand | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Wyll, Blade of Frontiers 1/1 | hand cards: hidden
+Information: BOARD turn 9 (Derand) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Command Beacon(land); Swamp(land)
+Information: BOARD turn 9 (Derand) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Shattered Sanctum (7)
+Life: Life: Derand 39 > 37
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Derand | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Swords to Plowshares(1); Snuff Out(4); Talisman of Hierarchy(2); Command Beacon(land); Swamp(land)
+Information: BOARD turn 10 (Dominic) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Call of the Ring
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (168)
+Add To Stack: Dominic cast Talisman of Hierarchy
+Zone Change: Talisman of Hierarchy (127) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Key to the Side-Door
+Zone Change: Key to the Side-Door (140) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 11 (Peen)
+Information: BOARD turn 11 (Peen) | Derand | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 11 (Peen) | Dominic | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 11 (Peen) | Peen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Peen) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Plains (285)
+Add To Stack: Peen cast Cadira, Caller of the Small
+Zone Change: Cadira, Caller of the Small (302) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 12 (Alec)
+Information: BOARD turn 12 (Alec) | Derand | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Dominic | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 12 (Alec) | Peen | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cadira, Caller of the Small 3/3 | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Mana Vault
+Phase: Alec's Draw step
+Add To Stack: Alec triggered Mana Vault
+Life: Life: Alec 40 > 39
+Phase: Alec's Main phase, precombat
+Land: Alec played Ash Barrens (346)
+Add To Stack: Alec cast Avengers Monitoring Station
+Zone Change: Avengers Monitoring Station (335) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 13 (Derand)
+Information: BOARD turn 13 (Derand) | Derand | life 37 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 13 (Derand) | Dominic | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 13 (Derand) | Peen | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cadira, Caller of the Small 3/3 | hand cards: hidden
+Information: BOARD turn 13 (Derand) | Alec | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (93)
+Add To Stack: Derand cast Caretaker's Talent
+Zone Change: Caretaker's Talent (4) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Derand | life 37 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Dominic | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 14 (Dominic) | Peen | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cadira, Caller of the Small 3/3 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Alec | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Call of the Ring
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (167)
+Add To Stack: Dominic cast Frodo, Sauron's Bane
+Zone Change: Frodo, Sauron's Bane (211) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Frodo, Sauron's Bane
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 15 (Peen)
+Information: BOARD turn 15 (Peen) | Derand | life 37 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 15 (Peen) | Dominic | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 2/3 | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 15 (Peen) | Peen | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Cadira, Caller of the Small 3/3 | hand cards: hidden
+Information: BOARD turn 15 (Peen) | Alec | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen cast Hop to It
+Zone Change: Rabbit Token (417) was put onto the Battlefield under Peen.
+Zone Change: Rabbit Token (418) was put onto the Battlefield under Peen.
+Zone Change: Rabbit Token (419) was put onto the Battlefield under Peen.
+Land: Peen played Fabled Passage (273)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Combat: Peen assigned Cadira, Caller of the Small (302) to attack Dominic.
+Phase: Peen's First Strike Damage Step
+Combat: Dominic didn't block Cadira, Caller of the Small (302).
+Phase: Peen's Combat Damage Step
+Add To Stack: Peen triggered Cadira, Caller of the Small
+Life: Life: Dominic 40 > 37
+Zone Change: Rabbit Token (421) was put onto the Battlefield under Peen.
+Zone Change: Rabbit Token (422) was put onto the Battlefield under Peen.
+Zone Change: Rabbit Token (423) was put onto the Battlefield under Peen.
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Phase: Peen's Cleanup step
+Turn: Turn 16 (Alec)
+Information: BOARD turn 16 (Alec) | Derand | life 37 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Dominic | life 37 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 2/3 | hand cards: Swords to Plowshares(1); Snuff Out(4); Command Beacon(land); Swamp(land)
+Information: BOARD turn 16 (Alec) | Peen | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 7 (6 untapped): Cadira, Caller of the Small 3/3*; Rabbit Token 1/1 x6 | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Alec | life 39 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Mana Vault
+Add To Stack: Alec triggered Avengers Monitoring Station
+Phase: Alec's Draw step
+Add To Stack: Alec triggered Mana Vault
+Life: Life: Alec 39 > 38
+Phase: Alec's Main phase, precombat
+Land: Alec played Eye of Ugin (380)
+Life: Life: Alec 38 > 37
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec cast Sire of Stagnation
+Zone Change: Sire of Stagnation (354) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 17 (Derand)
+Information: BOARD turn 17 (Derand) | Derand | life 37 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Wyll, Blade of Frontiers 1/1; Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 17 (Derand) | Dominic | life 37 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 2/3 | hand cards: Snuff Out(4); Command Beacon(land); Swamp(land); Swords to Plowshares(1)
+Information: BOARD turn 17 (Derand) | Peen | life 40 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 7 (6 untapped): Cadira, Caller of the Small 3/3*; Rabbit Token 1/1 x6 | hand cards: hidden
+Information: BOARD turn 17 (Derand) | Alec | life 37 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Ulalek, Fused Atrocity 2/5; Sire of Stagnation 5/7 | hand cards: hidden
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Alec triggered Sire of Stagnation
+Zone Change: Clifftop Retreat (51) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Myrkul's Edict
+Zone Change: Frodo, Sauron's Bane (211) was put into another zone from Battlefield.
+Zone Change: Rabbit Token (423) was put into nowhere (token) from Battlefield.
+Zone Change: Ulalek, Fused Atrocity (413) was put into another zone from Battlefield.
+Add To Stack: Derand triggered Wyll, Blade of Frontiers
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Caretaker's Talent
+Zone Change: Robot Token (426) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (427) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (430) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (431) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (431) was put into nowhere (token) from Battlefield.
+Life: Life: Derand 37 > 36
+Add To Stack: Derand cast Pitiless Plunderer
+Add To Stack: Dominic cast Swords to Plowshares targeting [Mr. House, President and CEO (100)]
+
+Game Result: unfinished (Forge closed mid-game)

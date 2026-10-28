@@ -1,0 +1,811 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Boaldelr (AI) deck=Captain America v8
+Player: Lisa (AI) deck=Scion
+Player: Drakone (AI) deck=Tidus v3
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Boaldelr has kept a hand of 7 cards
+Mulligan: Lisa has kept a hand of 7 cards
+Mulligan: Drakone has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Thought Vessel(2); Bishop of Wings(2); Plains(land); Plains(land); Righteous Valkyrie(3)
+Information: BOARD turn 1 (Dominic) | Boaldelr | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Plains(land); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land)
+Information: BOARD turn 1 (Dominic) | Lisa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Shivan Reef(land); Sunken Ruins(land); Gruul Guildgate(land)
+Information: BOARD turn 1 (Dominic) | Drakone | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Command Tower(land); Bred for the Hunt(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (82)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Boaldelr)
+Information: BOARD turn 2 (Boaldelr) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Thought Vessel(2); Bishop of Wings(2); Plains(land); Righteous Valkyrie(3); Rogue's Passage(land)
+Information: BOARD turn 2 (Boaldelr) | Boaldelr | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Plains(land); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land)
+Information: BOARD turn 2 (Boaldelr) | Lisa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Shivan Reef(land); Sunken Ruins(land); Gruul Guildgate(land)
+Information: BOARD turn 2 (Boaldelr) | Drakone | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Command Tower(land); Bred for the Hunt(3)
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Land: Boaldelr played Plains (188)
+Phase: Boaldelr's Beginning of Combat Step
+Phase: Boaldelr's Declare Attackers Step
+Phase: Boaldelr's Declare Blockers Step
+Phase: Boaldelr's First Strike Damage Step
+Phase: Boaldelr's Combat Damage Step
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 3 (Lisa)
+Information: BOARD turn 3 (Lisa) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Thought Vessel(2); Bishop of Wings(2); Plains(land); Righteous Valkyrie(3); Rogue's Passage(land)
+Information: BOARD turn 3 (Lisa) | Boaldelr | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 3 (Lisa) | Lisa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Shivan Reef(land); Sunken Ruins(land); Gruul Guildgate(land)
+Information: BOARD turn 3 (Lisa) | Drakone | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Command Tower(land); Bred for the Hunt(3)
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Land: Lisa played Shivan Reef (228)
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Phase: Lisa's Declare Blockers Step
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 4 (Drakone)
+Information: BOARD turn 4 (Drakone) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Thought Vessel(2); Bishop of Wings(2); Plains(land); Righteous Valkyrie(3); Rogue's Passage(land)
+Information: BOARD turn 4 (Drakone) | Boaldelr | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 4 (Drakone) | Lisa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Sunken Ruins(land); Gruul Guildgate(land); Turbulent Crater(land)
+Information: BOARD turn 4 (Drakone) | Drakone | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Command Tower(land); Bred for the Hunt(3)
+Phase: Drakone's Untap step
+Phase: Drakone's Upkeep step
+Phase: Drakone's Draw step
+Phase: Drakone's Main phase, precombat
+Land: Drakone played Command Tower (331)
+Phase: Drakone's Beginning of Combat Step
+Phase: Drakone's Declare Attackers Step
+Phase: Drakone's Declare Blockers Step
+Phase: Drakone's First Strike Damage Step
+Phase: Drakone's Combat Damage Step
+Phase: Drakone's End of Combat Step
+Phase: Drakone's Main phase, postcombat
+Phase: Drakone's End step
+Phase: Drakone's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Thought Vessel(2); Bishop of Wings(2); Plains(land); Righteous Valkyrie(3); Rogue's Passage(land)
+Information: BOARD turn 5 (Dominic) | Boaldelr | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 5 (Dominic) | Lisa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Sunken Ruins(land); Gruul Guildgate(land); Turbulent Crater(land)
+Information: BOARD turn 5 (Dominic) | Drakone | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (83)
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Dominic cast Thought Vessel
+Information: BOARD cast | Thought Vessel (mv 2) by Dominic | open mana: Boaldelr 1, Lisa 3, Drakone 2
+Resolve Stack: Thought Vessel
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: devDominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Boaldelr)
+Information: BOARD turn 6 (Boaldelr) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Bishop of Wings(2); Righteous Valkyrie(3); Rogue's Passage(land); Subjugator Angel(6)
+Information: BOARD turn 6 (Boaldelr) | Boaldelr | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 6 (Boaldelr) | Lisa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Sunken Ruins(land); Gruul Guildgate(land); Turbulent Crater(land)
+Information: BOARD turn 6 (Boaldelr) | Drakone | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land)
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Land: Boaldelr played Shivan Reef (122)
+Phase: Boaldelr's Beginning of Combat Step
+Phase: Boaldelr's Declare Attackers Step
+Phase: Boaldelr's Declare Blockers Step
+Phase: Boaldelr's First Strike Damage Step
+Phase: Boaldelr's Combat Damage Step
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 7 (Lisa)
+Information: BOARD turn 7 (Lisa) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Bishop of Wings(2); Righteous Valkyrie(3); Rogue's Passage(land); Subjugator Angel(6)
+Information: BOARD turn 7 (Lisa) | Boaldelr | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 7 (Lisa) | Lisa | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Marvin, Murderous Mimic(2); Sunken Ruins(land); Gruul Guildgate(land); Turbulent Crater(land)
+Information: BOARD turn 7 (Lisa) | Drakone | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land)
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Land: Lisa played Sunken Ruins (203)
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Phase: Lisa's Declare Blockers Step
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Sunken Ruins (203) - {T}: Add {C}.
+Add To Stack: Lisa cast Marvin, Murderous Mimic
+Information: BOARD cast | Marvin, Murderous Mimic (mv 2) by Lisa | open mana: Dominic 1, Boaldelr 4, Drakone 2
+Resolve Stack: Marvin, Murderous Mimic - Creature 2 / 2
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 8 (Drakone)
+Information: BOARD turn 8 (Drakone) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Bishop of Wings(2); Righteous Valkyrie(3); Rogue's Passage(land); Subjugator Angel(6)
+Information: BOARD turn 8 (Drakone) | Boaldelr | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 8 (Drakone) | Lisa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Turbulent Crater(land); Island(land)
+Information: BOARD turn 8 (Drakone) | Drakone | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Blitzball Stadium(1); Forest(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land)
+Phase: Drakone's Untap step
+Phase: Drakone's Upkeep step
+Phase: Drakone's Draw step
+Phase: Drakone's Main phase, precombat
+Land: Drakone played Forest (343)
+Land: Drakone picked {U}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Drakone cast Blitzball Stadium
+Information: BOARD cast | Blitzball Stadium (mv 2) by Drakone | open mana: Dominic 1, Boaldelr 4, Lisa 0
+Resolve Stack: Blitzball Stadium (X=1)
+Add To Stack: Drakone triggered Blitzball Stadium targeting []
+Resolve Stack: When this artifact enters, support X. (Put a +1/+1 counter on each of up to X target creatures.) (Targeting: [[]]) [Zone Changer: Blitzball Stadium (391)]
+Phase: Drakone's Beginning of Combat Step
+Phase: Drakone's Declare Attackers Step
+Phase: Drakone's Declare Blockers Step
+Phase: Drakone's First Strike Damage Step
+Phase: Drakone's Combat Damage Step
+Phase: Drakone's End of Combat Step
+Phase: Drakone's Main phase, postcombat
+Phase: Drakone's End step
+Phase: Drakone's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Bishop of Wings(2); Righteous Valkyrie(3); Rogue's Passage(land); Subjugator Angel(6)
+Information: BOARD turn 9 (Dominic) | Boaldelr | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 9 (Dominic) | Lisa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Turbulent Crater(land); Island(land)
+Information: BOARD turn 9 (Dominic) | Drakone | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rogue's Passage (22)
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Dominic cast Bishop of Wings
+Information: BOARD cast | Bishop of Wings (mv 2) by Dominic | open mana: Boaldelr 4, Lisa 0, Drakone 0
+Resolve Stack: Bishop of Wings - Creature 1 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Boaldelr)
+Information: BOARD turn 10 (Boaldelr) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bishop of Wings 1/4 | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7)
+Information: BOARD turn 10 (Boaldelr) | Boaldelr | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Sundown Pass(land); Masterwork of Ingenuity(1)
+Information: BOARD turn 10 (Boaldelr) | Lisa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Turbulent Crater(land); Island(land)
+Information: BOARD turn 10 (Boaldelr) | Drakone | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land)
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Replacement Effect: Sundown Pass enters tapped unless you control two or more other lands.
+Land: Boaldelr played Sundown Pass (128)
+Phase: Boaldelr's Beginning of Combat Step
+Phase: Boaldelr's Declare Attackers Step
+Phase: Boaldelr's Declare Blockers Step
+Phase: Boaldelr's First Strike Damage Step
+Phase: Boaldelr's Combat Damage Step
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Mana: Plains (188) - {T}: Add {W}.
+Land: Boaldelr picked {R}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Boaldelr cast Danitha Capashen, Paragon
+Information: BOARD cast | Danitha Capashen, Paragon (mv 3) by Boaldelr | open mana: Dominic 2, Lisa 0, Drakone 0
+Resolve Stack: Danitha Capashen, Paragon - Creature 2 / 2
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 11 (Lisa)
+Information: BOARD turn 11 (Lisa) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bishop of Wings 1/4 | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7)
+Information: BOARD turn 11 (Lisa) | Boaldelr | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Hengegate Pathway(land); Masterwork of Ingenuity(1); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 11 (Lisa) | Lisa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Turbulent Crater(land); Island(land)
+Information: BOARD turn 11 (Lisa) | Drakone | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land)
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Lisa played Turbulent Crater (206)
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Combat: Lisa assigned Marvin, Murderous Mimic (229) to attack Drakone.
+Information: BOARD attack | Lisa -> Drakone | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Lisa's Declare Blockers Step
+Combat: Drakone didn't block Marvin, Murderous Mimic (229).
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Damage: Marvin, Murderous Mimic (229) deals 2 combat damage to Drakone.
+Life: Life: Drakone 40 > 38
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Mana: Turbulent Crater (206) - {T}: Add {R}.
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Sunken Ruins (203) - {T}: Add {C}.
+Add To Stack: Lisa cast Burnished Hart
+Information: BOARD cast | Burnished Hart (mv 3) by Lisa | open mana: Dominic 2, Boaldelr 0, Drakone 0
+Resolve Stack: Burnished Hart - Creature 2 / 2
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 12 (Drakone)
+Information: BOARD turn 12 (Drakone) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Bishop of Wings 1/4 | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7)
+Information: BOARD turn 12 (Drakone) | Boaldelr | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Hengegate Pathway(land); Masterwork of Ingenuity(1); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 12 (Drakone) | Lisa | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Burnished Hart 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Island(land)
+Information: BOARD turn 12 (Drakone) | Drakone | life 38 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Tangled Islet(land); Altered Ego(4); Destroy Evil(2); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land)
+Phase: Drakone's Untap step
+Phase: Drakone's Upkeep step
+Land: Drakone picked {W}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Drakone cast Destroy Evil
+Information: BOARD cast | Destroy Evil (mv 2) by Drakone | open mana: Dominic 2, Boaldelr 0, Lisa 0
+Zone Change: Bishop of Wings (62) was put into Graveyard from Battlefield.
+Resolve Stack: Destroy Evil (385) -  Destroy target creature with toughness 4 or greater. (Targeting: Bishop of Wings (62))
+Phase: Drakone's Draw step
+Phase: Drakone's Main phase, precombat
+Phase: Drakone's Beginning of Combat Step
+Phase: Drakone's Declare Attackers Step
+Phase: Drakone's Declare Blockers Step
+Phase: Drakone's First Strike Damage Step
+Phase: Drakone's Combat Damage Step
+Phase: Drakone's End of Combat Step
+Phase: Drakone's Main phase, postcombat
+Replacement Effect: Tangled Islet enters tapped.
+Land: Drakone played Tangled Islet (350)
+Phase: Drakone's End step
+Phase: Drakone's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7)
+Information: BOARD turn 13 (Dominic) | Boaldelr | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Hengegate Pathway(land); Masterwork of Ingenuity(1); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 13 (Dominic) | Lisa | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Burnished Hart 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Island(land)
+Information: BOARD turn 13 (Dominic) | Drakone | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Altered Ego(4); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Boaldelr)
+Information: BOARD turn 14 (Boaldelr) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8)
+Information: BOARD turn 14 (Boaldelr) | Boaldelr | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Danitha Capashen, Paragon 2/2 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Sword of Feast and Famine(3); Hengegate Pathway(land); Masterwork of Ingenuity(1); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 14 (Boaldelr) | Lisa | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Burnished Hart 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Gruul Guildgate(land); Island(land)
+Information: BOARD turn 14 (Boaldelr) | Drakone | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Altered Ego(4); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Land: Boaldelr played Hengegate Pathway (144)
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Boaldelr cast Sword of Feast and Famine
+Information: BOARD cast | Sword of Feast and Famine (mv 3) by Boaldelr | open mana: Dominic 4, Lisa 0, Drakone 0
+Resolve Stack: Sword of Feast and Famine
+Land: Boaldelr picked {R}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Boaldelr activated Sword of Feast and Famine targeting [Danitha Capashen, Paragon (200)]
+Resolve Stack: Sword of Feast and Famine (192) -  Attach to Danitha Capashen, Paragon (200)
+Add To Stack: Boaldelr cast Masterwork of Ingenuity
+Information: BOARD cast | Masterwork of Ingenuity (mv 1) by Boaldelr | open mana: Dominic 4, Lisa 0, Drakone 0
+Replacement Effect: You may have Sword of Feast and Famine enter as a copy of any Equipment on the battlefield.
+Resolve Stack: Masterwork of Ingenuity
+Phase: Boaldelr's Beginning of Combat Step
+Phase: Boaldelr's Declare Attackers Step
+Combat: Boaldelr assigned Danitha Capashen, Paragon (200) to attack Lisa.
+Information: BOARD attack | Boaldelr -> Lisa | attackers 1 (power 4) | defender life 40 | untapped creatures 1 (power 2): Burnished Hart 2/2 | open mana 0
+Phase: Boaldelr's Declare Blockers Step
+Combat: Lisa didn't block Danitha Capashen, Paragon (200).
+Phase: Boaldelr's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 4 combat damage to Lisa.
+Life: Life: Boaldelr 40 > 44
+Life: Life: Lisa 40 > 36
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Discard: Lisa discards Gruul Guildgate (204).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Danitha Capashen, Paragon (200), Damaged: Lisa, Amount: 4]
+Phase: Boaldelr's Combat Damage Step
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Land: Boaldelr picked {U}
+Damage: Shivan Reef (122) deals 1 non-combat damage to Boaldelr.
+Life: Life: Boaldelr 44 > 43
+Mana: Shivan Reef (122) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Land: Boaldelr picked {R}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Boaldelr cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Boaldelr | open mana: Dominic 4, Lisa 0, Drakone 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 15 (Lisa)
+Information: BOARD turn 15 (Lisa) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8)
+Information: BOARD turn 15 (Lisa) | Boaldelr | life 43 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Shuri, Wakandan Inventor(2); Talisman of Conviction(2)
+Information: BOARD turn 15 (Lisa) | Lisa | life 36 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Marvin, Murderous Mimic 2/2*; Burnished Hart 2/2 | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Island(land)
+Information: BOARD turn 15 (Lisa) | Drakone | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Altered Ego(4); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Mana: Turbulent Crater (206) - {T}: Add {R}.
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Sunken Ruins (203) - {T}: Add {C}.
+Zone Change: Marvin, Murderous Mimic (229) was put into Graveyard from Battlefield.
+Add To Stack: Lisa activated Marvin, Murderous Mimic
+Resolve Stack: Marvin, Murderous Mimic (229) - Lisa searches their library for  up to two basic land cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Land: Lisa played Island (234)
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Combat: Lisa assigned Burnished Hart (218) to attack Drakone.
+Information: BOARD attack | Lisa -> Drakone | attackers 1 (power 2) | defender life 38 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Lisa's Declare Blockers Step
+Combat: Drakone didn't block Burnished Hart (218).
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Damage: Burnished Hart (218) deals 2 combat damage to Drakone.
+Life: Life: Drakone 38 > 36
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 16 (Drakone)
+Information: BOARD turn 16 (Drakone) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8)
+Information: BOARD turn 16 (Drakone) | Boaldelr | life 43 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Shuri, Wakandan Inventor(2); Talisman of Conviction(2)
+Information: BOARD turn 16 (Drakone) | Lisa | life 36 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Burnished Hart 2/2* | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Reflecting Pool(land)
+Information: BOARD turn 16 (Drakone) | Drakone | life 36 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Altered Ego(4); Bred for the Hunt(3); Fortified Village(land); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Phase: Drakone's Untap step
+Phase: Drakone's Upkeep step
+Phase: Drakone's Draw step
+Phase: Drakone's Main phase, precombat
+Replacement Effect: As Fortified Village enters, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters tapped.
+Land: Drakone played Fortified Village (354)
+Land: Drakone picked {W}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Tangled Islet (350) - {T}: Add {U}.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Drakone cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Drakone | open mana: Dominic 4, Boaldelr 1, Lisa 1
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Drakone's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Drakone's Declare Attackers Step
+Phase: Drakone's Declare Blockers Step
+Phase: Drakone's First Strike Damage Step
+Phase: Drakone's Combat Damage Step
+Phase: Drakone's End of Combat Step
+Phase: Drakone's Main phase, postcombat
+Phase: Drakone's End step
+Phase: Drakone's Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8)
+Information: BOARD turn 17 (Dominic) | Boaldelr | life 43 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Shuri, Wakandan Inventor(2); Talisman of Conviction(2)
+Information: BOARD turn 17 (Dominic) | Lisa | life 36 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Burnished Hart 2/2* | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Reflecting Pool(land)
+Information: BOARD turn 17 (Dominic) | Drakone | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Bred for the Hunt(3); Vineglimmer Snarl(land); Metastatic Evangel(2); Wakka, Devoted Guardian(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Boaldelr)
+Information: BOARD turn 18 (Boaldelr) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 18 (Boaldelr) | Boaldelr | life 43 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Danitha Capashen, Paragon 4/4[Sword of Feast and Famine]; Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Winds of Abandon(2); Shuri, Wakandan Inventor(2); Talisman of Conviction(2)
+Information: BOARD turn 18 (Boaldelr) | Lisa | life 36 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Burnished Hart 2/2* | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Reflecting Pool(land)
+Information: BOARD turn 18 (Boaldelr) | Drakone | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Bred for the Hunt(3); Vineglimmer Snarl(land); Metastatic Evangel(2); Wakka, Devoted Guardian(4)
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Land: Boaldelr played Island (129)
+Mana: Island (129) - {T}: Add {U}.
+Land: Boaldelr picked {R}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Boaldelr cast Iron Man, Titan of Innovation
+Information: BOARD cast | Iron Man, Titan of Innovation (mv 5) by Boaldelr | open mana: Dominic 4, Lisa 1, Drakone 0
+Resolve Stack: Iron Man, Titan of Innovation - Creature 4 / 4
+Phase: Boaldelr's Beginning of Combat Step
+Add To Stack: Boaldelr triggered Captain America, First Avenger targeting [Sword of Feast and Famine (192)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Sword of Feast and Famine (192)]]) [Phase: Boaldelr]
+Phase: Boaldelr's Declare Attackers Step
+Combat: Boaldelr assigned Danitha Capashen, Paragon (200) to attack Lisa.
+Boaldelr assigned Iron Man, Titan of Innovation (134) and Captain America, First Avenger (201) to attack Drakone.
+Information: BOARD attack | Boaldelr -> Lisa | attackers 1 (power 2) | defender life 36 | untapped creatures 0 (power 0):  | open mana 1
+Information: BOARD attack | Boaldelr -> Drakone | attackers 2 (power 10) | defender life 36 | untapped creatures 1 (power 3): Tidus, Yuna's Guardian 3/3 | open mana 0
+Add To Stack: Boaldelr triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (407) was put into Graveyard from Battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (134)]
+Phase: Boaldelr's Declare Blockers Step
+Combat: Lisa didn't block Danitha Capashen, Paragon (200).
+Combat: Drakone didn't block Iron Man, Titan of Innovation (134).
+Drakone didn't block Captain America, First Avenger (201).
+Phase: Boaldelr's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 2 combat damage to Lisa.
+Life: Life: Boaldelr 43 > 45
+Life: Life: Lisa 36 > 34
+Phase: Boaldelr's Combat Damage Step
+Damage: Iron Man, Titan of Innovation (134) deals 4 combat damage to Drakone.
+Damage: Captain America, First Avenger (201) deals 6 combat damage to Drakone.
+Life: Life: Drakone 36 > 26
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Discard: Drakone discards Bred for the Hunt (330).
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Drakone, Amount: 6]
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Mana: Island (129) - {T}: Add {U}.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Boaldelr cast Shuri, Wakandan Inventor
+Information: BOARD cast | Shuri, Wakandan Inventor (mv 2) by Boaldelr | open mana: Dominic 4, Lisa 1, Drakone 0
+Resolve Stack: Shuri, Wakandan Inventor - Creature 2 / 1
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Boaldelr cast Talisman of Conviction
+Information: BOARD cast | Talisman of Conviction (mv 2) by Boaldelr | open mana: Dominic 4, Lisa 1, Drakone 0
+Resolve Stack: Talisman of Conviction
+Land: Boaldelr picked {W}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Mana: Talisman of Conviction (112) - {T}: Add {C}.
+Add To Stack: Boaldelr activated Sword of Feast and Famine targeting [Captain America, First Avenger (201)]
+Resolve Stack: Sword of Feast and Famine (141) -  Attach to Captain America, First Avenger (201)
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 19 (Lisa)
+Information: BOARD turn 19 (Lisa) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 19 (Lisa) | Boaldelr | life 45 | hand 1 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 8/8*[Sword of Feast and Famine,Sword of Feast and Famine]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1 | hand cards: Winds of Abandon(2)
+Information: BOARD turn 19 (Lisa) | Lisa | life 34 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Burnished Hart 2/2* | hand cards: Supreme Verdict(4); Delighted Halfling(1); Ancient Brass Dragon(7); Reflecting Pool(land)
+Information: BOARD turn 19 (Lisa) | Drakone | life 26 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Vineglimmer Snarl(land); Metastatic Evangel(2); Wakka, Devoted Guardian(4)
+Information: BOARD threat | turn 19 | Captain America, First Avenger (Boaldelr) 49; Sword of Feast and Famine (Boaldelr) 39; Iron Man, Titan of Innovation (Boaldelr) 37; Danitha Capashen, Paragon (Boaldelr) 31
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Mana: Forest (239) - {T}: Add {G}.
+Mana: Island (234) - {T}: Add {U}.
+Mana: Plains (296) - {T}: Add {W}.
+Zone Change: Burnished Hart (218) was put into Graveyard from Battlefield.
+Add To Stack: Lisa activated Burnished Hart
+Resolve Stack: Burnished Hart (218) - Lisa searches their library for  up to two basic land cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Land: Lisa played Reflecting Pool (298)
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Phase: Lisa's Declare Blockers Step
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Add To Stack: Lisa cast Delighted Halfling
+Information: BOARD cast | Delighted Halfling (mv 1) by Lisa | open mana: Dominic 4, Boaldelr 3, Drakone 0
+Resolve Stack: Delighted Halfling - Creature 1 / 2
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 20 (Drakone)
+Information: BOARD turn 20 (Drakone) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 20 (Drakone) | Boaldelr | life 45 | hand 1 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 8/8*[Sword of Feast and Famine,Sword of Feast and Famine]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1 | hand cards: Winds of Abandon(2)
+Information: BOARD turn 20 (Drakone) | Lisa | life 34 | hand 3 | lands 9 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7); Savage Ventmaw(6)
+Information: BOARD turn 20 (Drakone) | Drakone | life 26 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Vineglimmer Snarl(land); Metastatic Evangel(2); Wakka, Devoted Guardian(4)
+Information: BOARD threat | turn 20 | Captain America, First Avenger (Boaldelr) 47; Sword of Feast and Famine (Boaldelr) 37; Iron Man, Titan of Innovation (Boaldelr) 36
+Phase: Drakone's Untap step
+Phase: Drakone's Upkeep step
+Phase: Drakone's Draw step
+Phase: Drakone's Main phase, precombat
+Land: Drakone played Island (336)
+Phase: Drakone's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Drakone's Declare Attackers Step
+Phase: Drakone's Declare Blockers Step
+Phase: Drakone's First Strike Damage Step
+Phase: Drakone's Combat Damage Step
+Phase: Drakone's End of Combat Step
+Phase: Drakone's Main phase, postcombat
+Land: Drakone picked {W}
+Mana: Fortified Village (354) - {T}: Add {G} or {W}.
+Mana: Forest (343) - {T}: Add {G}.
+Mana: Island (336) - {T}: Add {U}.
+Mana: Tangled Islet (350) - {T}: Add {G}.
+Add To Stack: Drakone cast Wakka, Devoted Guardian
+Information: BOARD cast | Wakka, Devoted Guardian (mv 4) by Drakone | open mana: Dominic 4, Boaldelr 3, Lisa 9
+Resolve Stack: Wakka, Devoted Guardian - Creature 4 / 4
+Phase: Drakone's End step
+Phase: Drakone's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 21 (Dominic) | Boaldelr | life 45 | hand 1 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 8/8*[Sword of Feast and Famine,Sword of Feast and Famine]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1 | hand cards: Winds of Abandon(2)
+Information: BOARD turn 21 (Dominic) | Lisa | life 34 | hand 3 | lands 9 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7); Savage Ventmaw(6)
+Information: BOARD turn 21 (Dominic) | Drakone | life 26 | hand 3 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 3/3; Wakka, Devoted Guardian 4/4 | hand cards: Altered Ego(4); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Information: BOARD threat | turn 21 | Captain America, First Avenger (Boaldelr) 45; Sword of Feast and Famine (Boaldelr) 36; Iron Man, Titan of Innovation (Boaldelr) 35
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (74)
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Thought Vessel (33) - {T}: Add {C}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Rogue's Passage (22) - {T}: Add {C}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Boaldelr 3, Lisa 9, Drakone 2
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Boaldelr)
+Information: BOARD turn 22 (Boaldelr) | Dominic | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 22 (Boaldelr) | Boaldelr | life 45 | hand 1 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Danitha Capashen, Paragon 2/2; Captain America, First Avenger 8/8*[Sword of Feast and Famine,Sword of Feast and Famine]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1 | hand cards: Winds of Abandon(2)
+Information: BOARD turn 22 (Boaldelr) | Lisa | life 34 | hand 3 | lands 9 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7); Savage Ventmaw(6)
+Information: BOARD turn 22 (Boaldelr) | Drakone | life 26 | hand 3 | lands 5 (1 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Tidus, Yuna's Guardian 3/3; Wakka, Devoted Guardian 4/4 | hand cards: Altered Ego(4); Vineglimmer Snarl(land); Metastatic Evangel(2)
+Information: BOARD threat | turn 22 | Captain America, First Avenger (Boaldelr) 43; Sword of Feast and Famine (Boaldelr) 34; Iron Man, Titan of Innovation (Boaldelr) 33
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Land: Boaldelr played Exotic Orchard (142)
+Mana: Island (129) - {T}: Add {U}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Boaldelr activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (403)]
+Damage: Captain America, First Avenger (201) deals 3 damage to Tidus, Yuna's Guardian (403).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 3 damage divided to 
+Tidus, Yuna's Guardian (403) (3 damage).
+Zone Change: Tidus, Yuna's Guardian (403) was put into Graveyard from Battlefield.
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Boaldelr picked {W}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Add To Stack: Boaldelr cast Winds of Abandon targeting [Seluma, Light of Aysen (100)]
+Information: BOARD cast | Winds of Abandon (mv 2) by Boaldelr | open mana: Dominic 0, Lisa 9, Drakone 2
+Zone Change: Seluma, Light of Aysen (100) was put into Exile from Battlefield.
+Resolve Stack: Winds of Abandon (137) - Exile Seluma, Light of Aysen (100).  
+Mana: Talisman of Conviction (112) - {T}: Add {C}.
+Mana: Shivan Reef (122) - {T}: Add {C}.
+Add To Stack: Boaldelr activated Sword of Feast and Famine targeting [Captain America, First Avenger (201)]
+Resolve Stack: Sword of Feast and Famine (192) -  Attach to Captain America, First Avenger (201)
+Phase: Boaldelr's Beginning of Combat Step
+Add To Stack: Boaldelr triggered Captain America, First Avenger targeting [Colossus Hammer (140)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Colossus Hammer (140)]]) [Phase: Boaldelr]
+Phase: Boaldelr's Declare Attackers Step
+Combat: Boaldelr assigned Iron Man, Titan of Innovation (134), Captain America, First Avenger (201), Danitha Capashen, Paragon (200) and Shuri, Wakandan Inventor (171) to attack Drakone.
+Information: BOARD attack | Boaldelr -> Drakone | attackers 4 (power 26) | defender life 26 | untapped creatures 1 (power 4): Wakka, Devoted Guardian 4/4 | open mana 2
+Add To Stack: Boaldelr triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (410) was put into Graveyard from Battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (134)]
+Phase: Boaldelr's Declare Blockers Step
+Combat: Drakone didn't block Iron Man, Titan of Innovation (134).
+Drakone didn't block Captain America, First Avenger (201).
+Drakone assigned Wakka, Devoted Guardian (318) to block Danitha Capashen, Paragon (200).
+Drakone didn't block Shuri, Wakandan Inventor (171).
+Phase: Boaldelr's First Strike Damage Step
+Damage: Danitha Capashen, Paragon (200) deals 2 damage to Wakka, Devoted Guardian (318).
+Life: Life: Boaldelr 45 > 47
+Phase: Boaldelr's Combat Damage Step
+Damage: Iron Man, Titan of Innovation (134) deals 4 combat damage to Drakone.
+Damage: Captain America, First Avenger (201) deals 18 combat damage to Drakone.
+Damage: Shuri, Wakandan Inventor (171) deals 2 combat damage to Drakone.
+Damage: Wakka, Devoted Guardian (318) deals 4 damage to Danitha Capashen, Paragon (200).
+Life: Life: Drakone 26 > 2
+Zone Change: Danitha Capashen, Paragon (200) was put into Graveyard from Battlefield.
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Drakone, Amount: 18]
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Drakone, Amount: 18]
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Mana: Island (129) - {T}: Add {U}.
+Mana: Exotic Orchard (142) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Boaldelr picked {W}
+Mana: Sundown Pass (128) - {T}: Add {R} or {W}.
+Add To Stack: Boaldelr activated Commander's Plate targeting [Captain America, First Avenger (201)]
+Resolve Stack: Commander's Plate (157) -  Attach to Captain America, First Avenger (201)
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 23 (Lisa)
+Information: BOARD turn 23 (Lisa) | Dominic | life 40 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 23 (Lisa) | Boaldelr | life 47 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Captain America, First Avenger 21/21*[Sword of Feast and Famine,Sword of Feast and Famine,Colossus Hammer,Commander's Plate]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1* | hand cards: 
+Information: BOARD turn 23 (Lisa) | Lisa | life 34 | hand 3 | lands 9 (3 untapped) | open mana 9 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7); Savage Ventmaw(6)
+Information: BOARD threat | turn 23 | Captain America, First Avenger (Boaldelr) 174; Iron Man, Titan of Innovation (Boaldelr) 69; Sword of Feast and Famine (Boaldelr) 62
+Phase: Lisa's Untap step
+Phase: Lisa's Upkeep step
+Phase: Lisa's Draw step
+Phase: Lisa's Main phase, precombat
+Land: Lisa played Mountain (295)
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Mana: Swamp (263) - {T}: Add {B}.
+Mana: Island (234) - {T}: Add {U}.
+Mana: Mountain (295) - {T}: Add {R}.
+Add To Stack: Lisa cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Lisa | open mana: Dominic 0, Boaldelr 3
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Lisa's Beginning of Combat Step
+Phase: Lisa's Declare Attackers Step
+Phase: Lisa's Declare Blockers Step
+Phase: Lisa's First Strike Damage Step
+Phase: Lisa's Combat Damage Step
+Phase: Lisa's End of Combat Step
+Phase: Lisa's Main phase, postcombat
+Mana: Forest (239) - {T}: Add {G}.
+Mana: Turbulent Crater (206) - {T}: Add {R}.
+Mana: Island (235) - {T}: Add {U}.
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Sunken Ruins (203) - {T}: Add {C}.
+Mana: Delighted Halfling (283) - {T}: Add {C}.
+Add To Stack: Lisa cast Savage Ventmaw
+Information: BOARD cast | Savage Ventmaw (mv 6) by Lisa | open mana: Dominic 0, Boaldelr 3
+Resolve Stack: Savage Ventmaw - Creature 4 / 4
+Phase: Lisa's End step
+Phase: Lisa's Cleanup step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Dominic | life 40 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3)
+Information: BOARD turn 24 (Dominic) | Boaldelr | life 47 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Captain America, First Avenger 21/21*[Sword of Feast and Famine,Sword of Feast and Famine,Colossus Hammer,Commander's Plate]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1* | hand cards: 
+Information: BOARD turn 24 (Dominic) | Lisa | life 34 | hand 2 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4; Savage Ventmaw 4/4 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7)
+Information: BOARD threat | turn 24 | Captain America, First Avenger (Boaldelr) 167; Iron Man, Titan of Innovation (Boaldelr) 66; Sword of Feast and Famine (Boaldelr) 59
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 25 (Boaldelr)
+Information: BOARD turn 25 (Boaldelr) | Dominic | life 40 | hand 8 | lands 5 (5 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 25 (Boaldelr) | Boaldelr | life 47 | hand 0 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Captain America, First Avenger 21/21*[Sword of Feast and Famine,Sword of Feast and Famine,Colossus Hammer,Commander's Plate]; Iron Man, Titan of Innovation 4/4*; Shuri, Wakandan Inventor 2/1* | hand cards: 
+Information: BOARD turn 25 (Boaldelr) | Lisa | life 34 | hand 2 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4; Savage Ventmaw 4/4 | hand cards: Supreme Verdict(4); Ancient Brass Dragon(7)
+Information: BOARD threat | turn 25 | Captain America, First Avenger (Boaldelr) 160; Iron Man, Titan of Innovation (Boaldelr) 64; Sword of Feast and Famine (Boaldelr) 57
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Boaldelr played Deserted Beach (163)
+Phase: Boaldelr's Beginning of Combat Step
+Add To Stack: Boaldelr triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Boaldelr]
+Phase: Boaldelr's Declare Attackers Step
+Combat: Boaldelr assigned Iron Man, Titan of Innovation (134), Captain America, First Avenger (201) and Shuri, Wakandan Inventor (171) to attack Lisa.
+Information: BOARD attack | Boaldelr -> Lisa | attackers 3 (power 27) | defender life 34 | untapped creatures 2 (power 8): Scion of the Ur-Dragon 4/4; Savage Ventmaw 4/4 | open mana 0
+Add To Stack: Boaldelr triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (413) was put into Graveyard from Battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (134)]
+Phase: Boaldelr's Declare Blockers Step
+Combat: Lisa assigned Savage Ventmaw (290) to block Iron Man, Titan of Innovation (134).
+Lisa didn't block Captain America, First Avenger (201).
+Lisa assigned Scion of the Ur-Dragon (302) to block Shuri, Wakandan Inventor (171).
+Phase: Boaldelr's First Strike Damage Step
+Phase: Boaldelr's Combat Damage Step
+Damage: Iron Man, Titan of Innovation (134) deals 4 damage to Savage Ventmaw (290).
+Damage: Captain America, First Avenger (201) deals 21 combat damage to Lisa.
+Damage: Shuri, Wakandan Inventor (171) deals 2 damage to Scion of the Ur-Dragon (302).
+Damage: Savage Ventmaw (290) deals 4 damage to Iron Man, Titan of Innovation (134).
+Damage: Scion of the Ur-Dragon (302) deals 4 damage to Shuri, Wakandan Inventor (171).
+Life: Life: Lisa 34 > 13
+Zone Change: Iron Man, Titan of Innovation (134) was put into Graveyard from Battlefield.
+Zone Change: Shuri, Wakandan Inventor (171) was put into Graveyard from Battlefield.
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Add To Stack: Boaldelr triggered Sword of Feast and Famine
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Lisa, Amount: 21]
+Resolve Stack: Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control. [Damage Source: Captain America, First Avenger (201), Damaged: Lisa, Amount: 21]
+Phase: Boaldelr's End of Combat Step
+Phase: Boaldelr's Main phase, postcombat
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Boaldelr activated Basilisk Collar targeting [Captain America, First Avenger (201)]
+Resolve Stack: Basilisk Collar (114) -  Attach to Captain America, First Avenger (201)
+Phase: Boaldelr's End step
+Phase: Boaldelr's Cleanup step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Dominic | life 40 | hand 8 | lands 5 (5 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Righteous Valkyrie(3); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3); Sephara, Sky's Blade(7)
+Information: BOARD turn 26 (Dominic) | Boaldelr | life 47 | hand 0 | lands 7 (5 untapped) | open mana 14 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 21/21*[Sword of Feast and Famine,Sword of Feast and Famine,Colossus Hammer,Commander's Plate,Basilisk Collar] | hand cards: 
+Information: BOARD threat | turn 26 | Captain America, First Avenger (Boaldelr) 288; Sword of Feast and Famine (Boaldelr) 69; Sword of Feast and Famine (Boaldelr) 38
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Thought Vessel (33) - {T}: Add {C}.
+Mana: Plains (83) - {T}: Add {W}.
+Add To Stack: Dominic cast Righteous Valkyrie
+Information: BOARD cast | Righteous Valkyrie (mv 3) by Dominic | open mana: Boaldelr 14
+Resolve Stack: Righteous Valkyrie - Creature 2 / 4
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 27 (Boaldelr)
+Information: BOARD turn 27 (Boaldelr) | Dominic | life 40 | hand 8 | lands 5 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Righteous Valkyrie 2/4 | hand cards: Gisela, Blade of Goldnight(7); Serra's Emissary(7); Subjugator Angel(6); Emeria Shepherd(7); Avacyn, Angel of Horror(8); Resplendent Angel(3); Sephara, Sky's Blade(7); Mazemind Tome(2)
+Information: BOARD turn 27 (Boaldelr) | Boaldelr | life 47 | hand 0 | lands 7 (5 untapped) | open mana 14 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 21/21*[Sword of Feast and Famine,Sword of Feast and Famine,Colossus Hammer,Commander's Plate,Basilisk Collar] | hand cards: 
+Information: BOARD threat | turn 27 | Captain America, First Avenger (Boaldelr) 276; Sword of Feast and Famine (Boaldelr) 66; Sword of Feast and Famine (Boaldelr) 36
+Phase: Boaldelr's Untap step
+Phase: Boaldelr's Upkeep step
+Phase: Boaldelr's Draw step
+Phase: Boaldelr's Main phase, precombat
+Phase: Boaldelr's Beginning of Combat Step
+Add To Stack: Boaldelr triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Boaldelr]
+Phase: Boaldelr's Declare Attackers Step
+Combat: Boaldelr assigned Captain America, First Avenger (201) to attack Dominic.
+Information: BOARD attack | Boaldelr -> Dominic | attackers 1 (power 21) | defender life 40 | untapped creatures 1 (power 2): Righteous Valkyrie 2/4 | open mana 3
+Phase: Boaldelr's Declare Blockers Step
+Combat: Dominic didn't block Captain America, First Avenger (201).
+Phase: Boaldelr's First Strike Damage Step
+Phase: Boaldelr's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 21 combat damage to Dominic.
+Life: Life: Boaldelr 47 > 68
+Life: Life: Dominic 40 > 19
+Player Control: Dominic has restored control over themself
+Player Control: Boaldelr has restored control over themself
+Player Control: Lisa has restored control over themself
+Player Control: Drakone has restored control over themself
+Game Outcome: Match Duration 8m : 17s
+Game Outcome: Turn 14
+Game Outcome: Dominic has lost due to accumulation of 21 damage from generals
+Game Outcome: Boaldelr has won because all opponents have lost
+Game Outcome: Lisa has lost due to accumulation of 21 damage from generals
+Game Outcome: Drakone has lost due to accumulation of 21 damage from generals
+Match Result: Dominic: 0 Boaldelr: 1 Lisa: 0 Drakone: 0 
+
+Game Result: Boaldelr has won

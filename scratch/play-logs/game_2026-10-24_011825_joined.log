@@ -1,0 +1,582 @@
+Player: Dominic (HUMAN) deck=? (commander Olivia, Opulent Outlaw) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Naomi (AI) deck=? (commander Temmet, Naktamun's Will)
+Player: Jillian (AI) deck=? (commander Captain America, Team Leader)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Silence(land); Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Desolate Mire(land); Lightning Greaves(2); Battlefield Forge(land)
+Information: BOARD turn 1 (Dominic) | Naomi | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Jillian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Temple of Silence (193)
+Add To Stack: Dominic triggered Temple of Silence
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Naomi)
+Information: BOARD turn 2 (Naomi) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Naomi) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Desolate Mire(land); Lightning Greaves(2); Battlefield Forge(land); Path to Exile(1)
+Information: BOARD turn 2 (Naomi) | Naomi | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Naomi) | Jillian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Naomi's Upkeep step
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Land: Naomi played Plains (244)
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Phase: Naomi's Declare Blockers Step
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Phase: Naomi's End step
+Turn: Turn 3 (Jillian)
+Information: BOARD turn 3 (Jillian) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Jillian) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Desolate Mire(land); Lightning Greaves(2); Battlefield Forge(land); Path to Exile(1)
+Information: BOARD turn 3 (Jillian) | Naomi | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Jillian) | Jillian | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Land: Jillian played Scorched Geyser (393)
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Desolate Mire(land); Lightning Greaves(2); Battlefield Forge(land); Path to Exile(1)
+Information: BOARD turn 4 (Derand) | Naomi | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Jillian | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Command Tower (26)
+Add To Stack: Derand cast Colossus Hammer
+Zone Change: Colossus Hammer (40) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Desolate Mire(land); Lightning Greaves(2); Battlefield Forge(land); Path to Exile(1)
+Information: BOARD turn 5 (Dominic) | Naomi | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Jillian | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Desolate Mire (107)
+Add To Stack: Dominic cast Lightning Greaves
+Zone Change: Lightning Greaves (195) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Naomi)
+Information: BOARD turn 6 (Naomi) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Naomi) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Battlefield Forge(land); Path to Exile(1); Mondrak, Glory Dominus(4)
+Information: BOARD turn 6 (Naomi) | Naomi | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Naomi) | Jillian | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Naomi's Upkeep step
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Land: Naomi played Accursed Duneyard (263)
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Phase: Naomi's Declare Blockers Step
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Phase: Naomi's End step
+Turn: Turn 7 (Jillian)
+Information: BOARD turn 7 (Jillian) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Jillian) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Battlefield Forge(land); Path to Exile(1); Mondrak, Glory Dominus(4)
+Information: BOARD turn 7 (Jillian) | Naomi | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Jillian) | Jillian | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Land: Jillian played Island (340)
+Add To Stack: Jillian cast Speed, Young Avenger
+Zone Change: Speed, Young Avenger (326) was put onto the Battlefield under Jillian.
+Add To Stack: Naomi cast Swords to Plowshares targeting [Speed, Young Avenger (326)]
+Zone Change: Speed, Young Avenger (326) was put into another zone from Battlefield.
+Life: Life: Jillian 40 > 42
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Battlefield Forge(land); Path to Exile(1); Mondrak, Glory Dominus(4)
+Information: BOARD turn 8 (Derand) | Naomi | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Jillian | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Battlefield Forge (70)
+Add To Stack: Derand cast Birthright Boon
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Battlefield Forge(land); Path to Exile(1); Mondrak, Glory Dominus(4)
+Information: BOARD turn 9 (Dominic) | Naomi | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Jillian | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Battlefield Forge (178)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 10 (Naomi)
+Information: BOARD turn 10 (Naomi) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Naomi) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2)
+Information: BOARD turn 10 (Naomi) | Naomi | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Naomi) | Jillian | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Naomi's Upkeep step
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Land: Naomi played Plains (223)
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Phase: Naomi's Combat Damage Step
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Add To Stack: Naomi cast Gate to the Afterlife
+Zone Change: Gate to the Afterlife (276) was put onto the Battlefield under Naomi.
+Phase: Naomi's End step
+Turn: Turn 11 (Jillian)
+Information: BOARD turn 11 (Jillian) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Jillian) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2)
+Information: BOARD turn 11 (Jillian) | Naomi | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Jillian) | Jillian | life 42 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Add To Stack: Jillian cast Captain America, Team Leader
+Zone Change: Port Town (396) was put onto the Battlefield under Jillian.
+Zone Change: Captain America, Team Leader (403) was put onto the Battlefield under Jillian.
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2)
+Information: BOARD turn 12 (Derand) | Naomi | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Jillian | life 42 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, Team Leader 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sulfur Falls (53)
+Add To Stack: Derand cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (50) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Swamp(land); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2)
+Information: BOARD turn 13 (Dominic) | Naomi | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Jillian | life 42 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, Team Leader 3/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (159)
+Life: Life: Dominic 40 > 39
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Zone Change: Olivia, Opulent Outlaw (201) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Olivia, Opulent Outlaw (201)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (201) to attack Jillian.
+Phase: Dominic's Combat Damage Step
+Combat: Jillian didn't block Olivia, Opulent Outlaw (201).
+Life: Life: Dominic 39 > 42
+Life: Life: Jillian 42 > 39
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Zone Change: Treasure Token (411) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 14 (Naomi)
+Information: BOARD turn 14 (Naomi) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Naomi) | Dominic | life 42 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 14 (Naomi) | Naomi | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Naomi) | Jillian | life 39 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, Team Leader 3/3 | hand cards: hidden
+Phase: Naomi's Upkeep step
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Land: Naomi played Prairie Stream (296)
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Phase: Naomi's Declare Blockers Step
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Add To Stack: Naomi cast Priest of the Crossing
+Zone Change: Priest of the Crossing (230) was put onto the Battlefield under Naomi.
+Phase: Naomi's End step
+Add To Stack: Naomi triggered Priest of the Crossing
+Turn: Turn 15 (Jillian)
+Information: BOARD turn 15 (Jillian) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Jillian) | Dominic | life 42 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 15 (Jillian) | Naomi | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Priest of the Crossing 3/3 | hand cards: hidden
+Information: BOARD turn 15 (Jillian) | Jillian | life 39 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, Team Leader 3/3 | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Land: Jillian played Coastal Peak (363)
+Add To Stack: Jillian cast Director Nick Fury
+Add To Stack: Jillian triggered Captain America, Team Leader
+Zone Change: Director Nick Fury (329) was put onto the Battlefield under Jillian.
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Add To Stack: Jillian triggered Director Nick Fury
+Phase: Jillian's Declare Blockers Step
+Combat: Jillian assigned Captain America, Team Leader (403), Director Nick Fury (329) to attack Dominic.
+Phase: Jillian's Combat Damage Step
+Combat: Dominic didn't block Captain America, Team Leader (403).
+Combat: Dominic didn't block Director Nick Fury (329).
+Life: Life: Dominic 42 > 35
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Add To Stack: Naomi triggered Priest of the Crossing
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 35 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Olivia, Opulent Outlaw 3/3*[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Path to Exile(1); Mondrak, Glory Dominus(4); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 16 (Derand) | Naomi | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Priest of the Crossing 3/3 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, Team Leader 4/4*; Director Nick Fury 3/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Furycalm Snarl (55)
+Life: Life: Derand 40 > 39
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (411) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Path to Exile targeting [Captain America, First Avenger (100)]
+Zone Change: Captain America, First Avenger (100) was put into another zone from Battlefield.
+Zone Change: Mountain (79) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Naomi triggered Priest of the Crossing
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 39 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 35 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Mondrak, Glory Dominus(4); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 17 (Dominic) | Naomi | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Priest of the Crossing 3/3 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, Team Leader 4/4*; Director Nick Fury 3/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mountain (187)
+Add To Stack: Dominic cast Mondrak, Glory Dominus
+Zone Change: Mondrak, Glory Dominus (179) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (201) to attack Naomi.
+Phase: Dominic's Combat Damage Step
+Zone Change: Olivia, Opulent Outlaw (201) was put into another zone from Battlefield.
+Zone Change: Priest of the Crossing (230) was put into another zone from Battlefield.
+Life: Life: Dominic 35 > 38
+Add To Stack: Naomi triggered Gate to the Afterlife
+Life: Life: Naomi 40 > 41
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic activated Lightning Greaves targeting [Mondrak, Glory Dominus (179)]
+Phase: Dominic's End step
+Turn: Turn 18 (Naomi)
+Information: BOARD turn 18 (Naomi) | Derand | life 39 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Naomi) | Dominic | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 18 (Naomi) | Naomi | life 41 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Naomi) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain America, Team Leader 4/4*; Director Nick Fury 3/5 | hand cards: hidden
+Phase: Naomi's Upkeep step
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Phase: Naomi's Declare Blockers Step
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Add To Stack: Naomi triggered Temple of Deceit
+Zone Change: Temple of Deceit (214) was put onto the Battlefield under Naomi.
+Add To Stack: Naomi cast Forgotten Creation
+Zone Change: Forgotten Creation (242) was put onto the Battlefield under Naomi.
+Phase: Naomi's End step
+Turn: Turn 19 (Jillian)
+Information: BOARD turn 19 (Jillian) | Derand | life 39 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Jillian) | Dominic | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 19 (Jillian) | Naomi | life 41 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Forgotten Creation 3/3 | hand cards: hidden
+Information: BOARD turn 19 (Jillian) | Jillian | life 39 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Captain America, Team Leader 4/4; Director Nick Fury 3/5 | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Add To Stack: Jillian cast War Machine, Avenging Arsenal
+Zone Change: War Machine, Avenging Arsenal (322) was put onto the Battlefield under Jillian.
+Add To Stack: Jillian triggered Captain America, Team Leader
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Add To Stack: Jillian triggered War Machine, Avenging Arsenal
+Add To Stack: Jillian triggered Director Nick Fury
+Phase: Jillian's Declare Blockers Step
+Combat: Jillian assigned War Machine, Avenging Arsenal (322), Captain America, Team Leader (403), Director Nick Fury (329) to attack Naomi.
+Phase: Jillian's First Strike Damage Step
+Combat: Naomi didn't block War Machine, Avenging Arsenal (322).
+Combat: Naomi didn't block Captain America, Team Leader (403).
+Combat: Naomi didn't block Director Nick Fury (329).
+Life: Life: Naomi 41 > 29
+Phase: Jillian's Combat Damage Step
+Life: Life: Naomi 29 > 17
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 39 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 38 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 20 (Derand) | Naomi | life 17 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Forgotten Creation 3/3 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Captain America, Team Leader 5/5*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6 | hand cards: hidden
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Darksteel Plate
+Zone Change: Darksteel Plate (4) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 39 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 38 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Dictate of Erebos(5); Everybody Lives!(2); Raucous Carnival(land)
+Information: BOARD turn 21 (Dominic) | Naomi | life 17 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Forgotten Creation 3/3 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Captain America, Team Leader 5/5*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Dictate of Erebos
+Add To Stack: Derand cast Mana Drain
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Naomi)
+Information: BOARD turn 22 (Naomi) | Derand | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 22 (Naomi) | Dominic | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Everybody Lives!(2); Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 22 (Naomi) | Naomi | life 17 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Forgotten Creation 3/3 | hand cards: hidden
+Information: BOARD turn 22 (Naomi) | Jillian | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Captain America, Team Leader 5/5*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6 | hand cards: hidden
+Phase: Naomi's Upkeep step
+Add To Stack: Naomi triggered Forgotten Creation
+Phase: Naomi's Draw step
+Phase: Naomi's Main phase, precombat
+Add To Stack: Naomi cast Temmet, Naktamun's Will
+Zone Change: Temmet, Naktamun's Will (302) was put onto the Battlefield under Naomi.
+Phase: Naomi's Beginning of Combat Step
+Phase: Naomi's Declare Attackers Step
+Add To Stack: Naomi triggered Temmet, Naktamun's Will
+Add To Stack: Naomi triggered Temmet, Naktamun's Will
+Phase: Naomi's Declare Blockers Step
+Combat: Naomi assigned Forgotten Creation (242) to attack Jillian.
+Phase: Naomi's Combat Damage Step
+Combat: Jillian assigned War Machine, Avenging Arsenal (322) to block Forgotten Creation (242).
+Add To Stack: Naomi triggered Gate to the Afterlife
+Zone Change: Forgotten Creation (242) was put into another zone from Battlefield.
+Add To Stack: Naomi triggered Temmet, Naktamun's Will
+Life: Life: Naomi 17 > 18
+Phase: Naomi's End of Combat Step
+Phase: Naomi's Main phase, postcombat
+Phase: Naomi's End step
+Turn: Turn 23 (Jillian)
+Information: BOARD turn 23 (Jillian) | Derand | life 39 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 23 (Jillian) | Dominic | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Everybody Lives!(2); Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 23 (Jillian) | Naomi | life 18 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Temmet, Naktamun's Will 4/4 | hand cards: hidden
+Information: BOARD turn 23 (Jillian) | Jillian | life 39 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Captain America, Team Leader 5/5; Director Nick Fury 3/5; War Machine, Avenging Arsenal 4/6 | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Land: Jillian played Mountain (344)
+Add To Stack: Jillian cast Jocasta, Automaton Avenger
+Add To Stack: Jillian triggered Captain America, Team Leader
+Zone Change: Jocasta, Automaton Avenger (304) was put onto the Battlefield under Jillian.
+Add To Stack: Jillian cast Black Widow, Agile Avenger
+Add To Stack: Jillian triggered Captain America, Team Leader
+Zone Change: Black Widow, Agile Avenger (336) was put onto the Battlefield under Jillian.
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Add To Stack: Jillian triggered War Machine, Avenging Arsenal
+Add To Stack: Jillian triggered Director Nick Fury
+Phase: Jillian's Declare Blockers Step
+Combat: Jillian assigned Jocasta, Automaton Avenger (304), Black Widow, Agile Avenger (336), War Machine, Avenging Arsenal (322), Captain America, Team Leader (403), Director Nick Fury (329) to attack Naomi.
+Phase: Jillian's First Strike Damage Step
+Combat: Naomi didn't block Jocasta, Automaton Avenger (304).
+Combat: Naomi didn't block Black Widow, Agile Avenger (336).
+Combat: Naomi didn't block War Machine, Avenging Arsenal (322).
+Combat: Naomi didn't block Captain America, Team Leader (403).
+Combat: Naomi didn't block Director Nick Fury (329).
+Life: Life: Naomi 18 > -2
+Add To Stack: Jillian triggered Jocasta, Automaton Avenger
+Zone Change: Accursed Duneyard (263) was put into another zone from Battlefield.
+Zone Change: Gate to the Afterlife (276) was put into another zone from Battlefield.
+Zone Change: Temple of Deceit (214) was put into another zone from Battlefield.
+Zone Change: Plains (223) was put into another zone from Battlefield.
+Zone Change: Prairie Stream (296) was put into another zone from Battlefield.
+Zone Change: Temmet, Naktamun's Will (302) was put into another zone from Battlefield.
+Zone Change: Plains (244) was put into another zone from Battlefield.
+Phase: Jillian's Combat Damage Step
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 39 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Dominic | life 38 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Everybody Lives!(2); Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 24 (Derand) | Naomi | out
+Information: BOARD turn 24 (Derand) | Jillian | life 39 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (2 untapped): Captain America, Team Leader 7/7*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6*; Jocasta, Automaton Avenger 4/4; Black Widow, Agile Avenger 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand triggered Mana Drain
+Land: Derand played Glacial Fortress (68)
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Sword of War and Peace
+Zone Change: Sword of War and Peace (92) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Sword of War and Peace targeting [Captain America, First Avenger (100)]
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Darksteel Plate (4)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 39 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Darksteel Plate,Sword of War and Peace] | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Dominic | life 38 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves] | hand cards: Vault of the Archangel(land); Everybody Lives!(2); Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 25 (Dominic) | Naomi | out
+Information: BOARD turn 25 (Dominic) | Jillian | life 39 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (2 untapped): Captain America, Team Leader 7/7*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6*; Jocasta, Automaton Avenger 4/4; Black Widow, Agile Avenger 3/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic played Vault of the Archangel (120)
+Life: Life: Dominic 38 > 37
+Add To Stack: Dominic cast Knuckles the Echidna
+Zone Change: Knuckles the Echidna (124) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Turn: Turn 26 (Jillian)
+Information: BOARD turn 26 (Jillian) | Derand | life 39 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Darksteel Plate,Sword of War and Peace] | hand cards: hidden
+Information: BOARD turn 26 (Jillian) | Dominic | life 37 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Command | creatures 2 (2 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves]; Knuckles the Echidna 2/4 | hand cards: Everybody Lives!(2); Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 26 (Jillian) | Naomi | out
+Information: BOARD turn 26 (Jillian) | Jillian | life 39 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Captain America, Team Leader 7/7; Director Nick Fury 3/5; War Machine, Avenging Arsenal 4/6; Jocasta, Automaton Avenger 4/4; Black Widow, Agile Avenger 3/3 | hand cards: hidden
+Phase: Jillian's Upkeep step
+Phase: Jillian's Draw step
+Phase: Jillian's Main phase, precombat
+Add To Stack: Jillian cast Captain Mar-Vell, Space-Born
+Add To Stack: Jillian triggered Captain America, Team Leader
+Zone Change: Captain Mar-Vell, Space-Born (377) was put onto the Battlefield under Jillian.
+Phase: Jillian's Beginning of Combat Step
+Phase: Jillian's Declare Attackers Step
+Add To Stack: Jillian triggered War Machine, Avenging Arsenal
+Add To Stack: Jillian triggered Director Nick Fury
+Add To Stack: Dominic cast Everybody Lives!
+Phase: Jillian's Declare Blockers Step
+Combat: Jillian assigned Jocasta, Automaton Avenger (304), War Machine, Avenging Arsenal (322), Captain America, Team Leader (403), Captain Mar-Vell, Space-Born (377) to attack Derand.
+Combat: Jillian assigned Director Nick Fury (329) to attack Dominic.
+Phase: Jillian's First Strike Damage Step
+Combat: Derand didn't block Jocasta, Automaton Avenger (304).
+Combat: Derand didn't block War Machine, Avenging Arsenal (322).
+Combat: Derand assigned Captain America, First Avenger (100) to block Captain America, Team Leader (403).
+Combat: Derand didn't block Captain Mar-Vell, Space-Born (377).
+Combat: Dominic didn't block Director Nick Fury (329).
+Phase: Jillian's Combat Damage Step
+Phase: Jillian's End of Combat Step
+Phase: Jillian's Main phase, postcombat
+Phase: Jillian's End step
+Phase: Jillian's Cleanup step
+Turn: Turn 27 (Derand)
+Information: BOARD turn 27 (Derand) | Derand | life 39 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Darksteel Plate,Sword of War and Peace] | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Dominic | life 37 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves]; Knuckles the Echidna 2/4 | hand cards: Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 27 (Derand) | Naomi | out
+Information: BOARD turn 27 (Derand) | Jillian | life 39 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (2 untapped): Captain America, Team Leader 8/8*; Director Nick Fury 3/5*; War Machine, Avenging Arsenal 4/6*; Jocasta, Automaton Avenger 4/4*; Black Widow, Agile Avenger 3/3; Captain Mar-Vell, Space-Born 5/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Spectator Seating (78)
+Add To Stack: Derand cast Genji Glove
+Zone Change: Genji Glove (94) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Genji Glove (94)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Genji Glove
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Jillian.
+Phase: Derand's First Strike Damage Step
+Add To Stack: Derand triggered Sword of War and Peace
+Combat: Jillian didn't block Captain America, First Avenger (100).
+Life: Life: Jillian 39 > 33
+Life: Life: Derand 39 > 41
+Life: Life: Jillian 33 > 27
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Sword of War and Peace
+Life: Life: Jillian 27 > 21
+Life: Life: Derand 41 > 43
+Life: Life: Jillian 21 > 15
+Phase: Derand's End of Combat Step
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Colossus Hammer (40)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Life: Life: Jillian 15 > -1
+Add To Stack: Derand triggered Sword of War and Peace
+Zone Change: War Machine, Avenging Arsenal (322) was put into another zone from Battlefield.
+Zone Change: Scorched Geyser (393) was put into another zone from Battlefield.
+Zone Change: Director Nick Fury (329) was put into another zone from Battlefield.
+Zone Change: Port Town (396) was put into another zone from Battlefield.
+Zone Change: Black Widow, Agile Avenger (336) was put into another zone from Battlefield.
+Zone Change: Captain America, Team Leader (403) was put into another zone from Battlefield.
+Zone Change: Island (340) was put into another zone from Battlefield.
+Zone Change: Mountain (344) was put into another zone from Battlefield.
+Zone Change: Coastal Peak (363) was put into None from Battlefield.
+Zone Change: Jocasta, Automaton Avenger (304) was put into another zone from Battlefield.
+Zone Change: Captain Mar-Vell, Space-Born (377) was put into another zone from Battlefield.
+Life: Life: Derand 43 > 45
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Derand | life 45 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 16/16*[Colossus Hammer,Darksteel Plate,Sword of War and Peace,Genji Glove] | hand cards: hidden
+Information: BOARD turn 28 (Dominic) | Dominic | life 37 | hand 2 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Mondrak, Glory Dominus 4/4[Lightning Greaves]; Knuckles the Echidna 2/4 | hand cards: Raucous Carnival(land); The Sackville-Bagginses(2)
+Information: BOARD turn 28 (Dominic) | Naomi | out
+Information: BOARD turn 28 (Dominic) | Jillian | out
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+
+Game Result: Derand has won

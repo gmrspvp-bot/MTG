@@ -1,0 +1,81 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Wendy (AI) deck=Captain America v8
+Player: Blake (AI) deck=Mr House v4
+Player: Sidathe (AI) deck=Olivia
+Mulligan: Sidathe has mulliganed down to 7 cards.
+Mulligan: Sidathe has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Wendy has kept a hand of 7 cards
+Mulligan: Blake has kept a hand of 7 cards
+Mulligan: Sidathe has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Gisela, Blade of Goldnight(7); Resplendent Angel(3); Rogue's Passage(land); Land Tax(1); Swords to Plowshares(1); Emeria, the Sky Ruin(land)
+Information: BOARD turn 1 (Xenil) | Wendy | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Spectator Seating(land); Sword of Forge and Frontier(3); Exotic Orchard(land); Blasphemous Act(9); Battlefield Forge(land); Blacksmith's Talent(1)
+Information: BOARD turn 1 (Xenil) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gamble(1); Clifftop Retreat(land); Haunted Ridge(land); Exsanguinate(2); Impact Tremors(2); Smuggler's Share(3); Battlefield Forge(land)
+Information: BOARD turn 1 (Xenil) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Malice(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Command Tower(land); Breena, the Demagogue(3); Alesha, Who Laughs at Fate(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (70).
+Turn: Turn 2 (Wendy)
+Information: BOARD turn 2 (Wendy) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Resplendent Angel(3); Rogue's Passage(land); Land Tax(1); Swords to Plowshares(1); Emeria, the Sky Ruin(land); Plains(land)
+Information: BOARD turn 2 (Wendy) | Wendy | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Spectator Seating(land); Sword of Forge and Frontier(3); Exotic Orchard(land); Blasphemous Act(9); Battlefield Forge(land); Blacksmith's Talent(1)
+Information: BOARD turn 2 (Wendy) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gamble(1); Clifftop Retreat(land); Haunted Ridge(land); Exsanguinate(2); Impact Tremors(2); Smuggler's Share(3); Battlefield Forge(land)
+Information: BOARD turn 2 (Wendy) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Malice(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Command Tower(land); Breena, the Demagogue(3); Alesha, Who Laughs at Fate(3)
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Wendy played Spectator Seating (178)
+Phase: Wendy's Beginning of Combat Step
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Land: Wendy picked {R}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Add To Stack: Wendy cast Blacksmith's Talent
+Information: BOARD cast | Blacksmith's Talent (mv 1) by Wendy | open mana: Xenil 0, Blake 0, Sidathe 0
+Resolve Stack: Blacksmith's Talent
+Add To Stack: Wendy triggered Blacksmith's Talent
+Resolve Stack: When Blacksmith's Talent enters, create a colorless Equipment artifact token named Sword with "Equipped creature gets +1/+1" and equip {2}. [Zone Changer: Blacksmith's Talent (167)]
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 3 (Blake)
+Information: BOARD turn 3 (Blake) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gisela, Blade of Goldnight(7); Resplendent Angel(3); Rogue's Passage(land); Land Tax(1); Swords to Plowshares(1); Emeria, the Sky Ruin(land); Plains(land)
+Information: BOARD turn 3 (Blake) | Wendy | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Sword of Forge and Frontier(3); Exotic Orchard(land); Blasphemous Act(9); Battlefield Forge(land); Sword of War and Peace(3)
+Information: BOARD turn 3 (Blake) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Gamble(1); Clifftop Retreat(land); Haunted Ridge(land); Exsanguinate(2); Impact Tremors(2); Smuggler's Share(3); Battlefield Forge(land)
+Information: BOARD turn 3 (Blake) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Temple of Malice(land); Crime Novelist(3); Sunhome, Fortress of the Legion(land); Command Tower(land); Breena, the Demagogue(3); Alesha, Who Laughs at Fate(3)
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Battlefield Forge (300)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Land: Blake picked {R}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Blake.
+Life: Life: Blake 40 > 39
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: Blake cast Gamble
+Information: BOARD cast | Gamble (mv 1) by Blake | open mana: Xenil 0, Wendy 0, Sidathe 0
+
+Game Result: unfinished (Forge closed mid-game)

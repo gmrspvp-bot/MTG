@@ -1,0 +1,31 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Adeen (AI) deck=Captain America v8
+Player: Dinfar (AI) deck=Scion
+Player: Jaython (AI) deck=Tidus v3
+Mulligan: Dinfar has mulliganed down to 7 cards.
+Mulligan: Adeen has kept a hand of 7 cards
+Mulligan: Dinfar has kept a hand of 7 cards
+Mulligan: Jaython has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Adeen)
+Information: BOARD turn 1 (Adeen) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Fellwar Stone(2); Rogue's Passage(land); Emeria Shepherd(7); Plains(land); Plains(land); Smothering Tithe(4)
+Information: BOARD turn 1 (Adeen) | Adeen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Nazgûl Battle-Mace(5); Furycalm Snarl(land); Leonin Shikari(2); Plains(land); Riverglide Pathway(land); Geist of Saint Thalia(2); Steelshaper's Gift(1)
+Information: BOARD turn 1 (Adeen) | Dinfar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Deserted Beach(land); Supreme Verdict(4); Lathliss, Dragon Queen(6); Llanowar Elves(1); Mountain(land); Forest(land)
+Information: BOARD turn 1 (Adeen) | Jaython | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hinterland Harbor(land); Endless Detour(3); Chasm Skulker(3); Flooded Grove(land); Yuna, Grand Summoner(4); Tromell, Seymour's Butler(3); Ash Barrens(land)
+Phase: Adeen's Untap step
+Phase: Adeen's Upkeep step
+Phase: Adeen's Draw step
+Phase: Adeen's Main phase, precombat
+Land: Adeen played Plains (184)
+Phase: Adeen's Beginning of Combat Step
+Phase: Adeen's Declare Attackers Step
+Phase: Adeen's Declare Blockers Step
+Phase: Adeen's First Strike Damage Step
+Phase: Adeen's Combat Damage Step
+Phase: Adeen's End of Combat Step
+Phase: Adeen's Main phase, postcombat
+Mana: Plains (184) - {T}: Add {W}.
+Add To Stack: Adeen cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Adeen | open mana: Dominic 0, Dinfar 0, Jaython 0
+
+Game Result: unfinished (Forge closed mid-game)

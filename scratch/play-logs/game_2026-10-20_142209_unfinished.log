@@ -1,0 +1,478 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Jeffrey (AI) deck=Captain America v8
+Player: Lacspor (AI) deck=Mr House v4
+Player: Gothikar (AI) deck=Olivia
+Mulligan: Lacspor has mulliganed down to 7 cards.
+Mulligan: Gothikar has mulliganed down to 7 cards.
+Mulligan: Gothikar has mulliganed down to 6 cards.
+Mulligan: Lacspor has kept a hand of 7 cards
+Mulligan: Gothikar has kept a hand of 6 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Jeffrey has kept a hand of 7 cards
+Turn: Turn 1 (Lacspor)
+Information: BOARD turn 1 (Lacspor) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Plains(land); Restoration Angel(4); Swiftfoot Boots(2)
+Information: BOARD turn 1 (Lacspor) | Jeffrey | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Hengegate Pathway(land); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3)
+Information: BOARD turn 1 (Lacspor) | Lacspor | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swiftfoot Boots(2); Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Mountain(land); Terminate(2); Battlefield Forge(land); Plains(land)
+Information: BOARD turn 1 (Lacspor) | Gothikar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mount Doom(land); Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Sol Ring(1)
+Phase: Lacspor's Untap step
+Phase: Lacspor's Upkeep step
+Phase: Lacspor's Draw step
+Phase: Lacspor's Main phase, precombat
+Land: Lacspor played Battlefield Forge (300)
+Phase: Lacspor's Beginning of Combat Step
+Phase: Lacspor's Declare Attackers Step
+Phase: Lacspor's Declare Blockers Step
+Phase: Lacspor's First Strike Damage Step
+Phase: Lacspor's Combat Damage Step
+Phase: Lacspor's End of Combat Step
+Phase: Lacspor's Main phase, postcombat
+Phase: Lacspor's End step
+Phase: Lacspor's Cleanup step
+Turn: Turn 2 (Gothikar)
+Information: BOARD turn 2 (Gothikar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Plains(land); Restoration Angel(4); Swiftfoot Boots(2)
+Information: BOARD turn 2 (Gothikar) | Jeffrey | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Hengegate Pathway(land); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3)
+Information: BOARD turn 2 (Gothikar) | Lacspor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swiftfoot Boots(2); Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Mountain(land); Terminate(2); Plains(land); Stridehangar Automaton(3)
+Information: BOARD turn 2 (Gothikar) | Gothikar | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mount Doom(land); Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Sol Ring(1)
+Phase: Gothikar's Untap step
+Phase: Gothikar's Upkeep step
+Phase: Gothikar's Draw step
+Phase: Gothikar's Main phase, precombat
+Land: Gothikar played Mount Doom (323)
+Life: Life: Gothikar 40 > 39
+Land: Gothikar picked {B}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Add To Stack: Gothikar cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Gothikar | open mana: Xenil 0, Jeffrey 0, Lacspor 3
+Resolve Stack: Sol Ring
+Phase: Gothikar's Beginning of Combat Step
+Phase: Gothikar's Declare Attackers Step
+Phase: Gothikar's Declare Blockers Step
+Phase: Gothikar's First Strike Damage Step
+Phase: Gothikar's Combat Damage Step
+Phase: Gothikar's End of Combat Step
+Phase: Gothikar's Main phase, postcombat
+Phase: Gothikar's End step
+Phase: Gothikar's Cleanup step
+Turn: Turn 3 (Xenil)
+Information: BOARD turn 3 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Plains(land); Restoration Angel(4); Swiftfoot Boots(2)
+Information: BOARD turn 3 (Xenil) | Jeffrey | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Hengegate Pathway(land); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3)
+Information: BOARD turn 3 (Xenil) | Lacspor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swiftfoot Boots(2); Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Mountain(land); Terminate(2); Plains(land); Stridehangar Automaton(3)
+Information: BOARD turn 3 (Xenil) | Gothikar | life 39 | hand 5 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Crime Novelist(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (89)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 4 (Jeffrey)
+Information: BOARD turn 4 (Jeffrey) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Restoration Angel(4); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 4 (Jeffrey) | Jeffrey | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Hengegate Pathway(land); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3)
+Information: BOARD turn 4 (Jeffrey) | Lacspor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swiftfoot Boots(2); Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Mountain(land); Terminate(2); Plains(land); Stridehangar Automaton(3)
+Information: BOARD turn 4 (Jeffrey) | Gothikar | life 39 | hand 5 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Crime Novelist(3)
+Phase: Jeffrey's Untap step
+Phase: Jeffrey's Upkeep step
+Phase: Jeffrey's Draw step
+Phase: Jeffrey's Main phase, precombat
+Land: Jeffrey played Hengegate Pathway (144)
+Phase: Jeffrey's Beginning of Combat Step
+Phase: Jeffrey's Declare Attackers Step
+Phase: Jeffrey's Declare Blockers Step
+Phase: Jeffrey's First Strike Damage Step
+Phase: Jeffrey's Combat Damage Step
+Phase: Jeffrey's End of Combat Step
+Phase: Jeffrey's Main phase, postcombat
+Phase: Jeffrey's End step
+Phase: Jeffrey's Cleanup step
+Turn: Turn 5 (Lacspor)
+Information: BOARD turn 5 (Lacspor) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Restoration Angel(4); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 5 (Lacspor) | Jeffrey | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3); Flawless Maneuver(3)
+Information: BOARD turn 5 (Lacspor) | Lacspor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swiftfoot Boots(2); Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Mountain(land); Terminate(2); Plains(land); Stridehangar Automaton(3)
+Information: BOARD turn 5 (Lacspor) | Gothikar | life 39 | hand 5 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Crime Novelist(3)
+Phase: Lacspor's Untap step
+Phase: Lacspor's Upkeep step
+Phase: Lacspor's Draw step
+Phase: Lacspor's Main phase, precombat
+Land: Lacspor played Mountain (286)
+Phase: Lacspor's Beginning of Combat Step
+Phase: Lacspor's Declare Attackers Step
+Phase: Lacspor's Declare Blockers Step
+Phase: Lacspor's First Strike Damage Step
+Phase: Lacspor's Combat Damage Step
+Phase: Lacspor's End of Combat Step
+Phase: Lacspor's Main phase, postcombat
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Lacspor cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Lacspor | open mana: Xenil 1, Jeffrey 1, Gothikar 2
+Resolve Stack: Swiftfoot Boots
+Phase: Lacspor's End step
+Phase: Lacspor's Cleanup step
+Turn: Turn 6 (Gothikar)
+Information: BOARD turn 6 (Gothikar) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Restoration Angel(4); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 6 (Gothikar) | Jeffrey | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Swords to Plowshares(1); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3); Flawless Maneuver(3)
+Information: BOARD turn 6 (Gothikar) | Lacspor | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Plains(land); Stridehangar Automaton(3); Exsanguinate(2)
+Information: BOARD turn 6 (Gothikar) | Gothikar | life 39 | hand 5 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Canyon Slough(land); Demonic Tutor(2); Changeling Outcast(1); Crime Novelist(3)
+Phase: Gothikar's Untap step
+Phase: Gothikar's Upkeep step
+Phase: Gothikar's Draw step
+Phase: Gothikar's Main phase, precombat
+Phase: Gothikar's Beginning of Combat Step
+Phase: Gothikar's Declare Attackers Step
+Phase: Gothikar's Declare Blockers Step
+Phase: Gothikar's First Strike Damage Step
+Phase: Gothikar's Combat Damage Step
+Phase: Gothikar's End of Combat Step
+Phase: Gothikar's Main phase, postcombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Gothikar played Canyon Slough (357)
+Life: Life: Gothikar 39 > 38
+Land: Gothikar picked {R}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Mana: Sol Ring (368) - {T}: Add {C}{C}.
+Add To Stack: Gothikar cast Crime Novelist
+Information: BOARD cast | Crime Novelist (mv 3) by Gothikar | open mana: Xenil 1, Jeffrey 1, Lacspor 0
+Resolve Stack: Crime Novelist - Creature 1 / 3
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Jeffrey cast Swords to Plowshares targeting [Crime Novelist (364)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Jeffrey | open mana: Xenil 1, Lacspor 0, Gothikar 0
+Zone Change: Crime Novelist (364) was put into Exile from Battlefield.
+Life: Life: Gothikar 38 > 39
+Resolve Stack: Swords to Plowshares (177) - Exile Crime Novelist (364). Gothikar gains life equal to its power.
+Phase: Gothikar's End step
+Phase: Gothikar's Cleanup step
+Turn: Turn 7 (Xenil)
+Information: BOARD turn 7 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Plains(land); Angelic Renewal(2); Restoration Angel(4); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 7 (Xenil) | Jeffrey | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3); Flawless Maneuver(3)
+Information: BOARD turn 7 (Xenil) | Lacspor | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Plains(land); Stridehangar Automaton(3); Exsanguinate(2)
+Information: BOARD turn 7 (Xenil) | Gothikar | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Demonic Tutor(2); Changeling Outcast(1); Swamp(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (78)
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add To Stack: Xenil cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Xenil | open mana: Jeffrey 0, Lacspor 0, Gothikar 0
+Resolve Stack: Swiftfoot Boots
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 8 (Jeffrey)
+Information: BOARD turn 8 (Jeffrey) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Plains(land)
+Information: BOARD turn 8 (Jeffrey) | Jeffrey | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Island(land); Plains(land); Talisman of Conviction(2); Sword of Light and Shadow(3); Flawless Maneuver(3)
+Information: BOARD turn 8 (Jeffrey) | Lacspor | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Plains(land); Stridehangar Automaton(3); Exsanguinate(2)
+Information: BOARD turn 8 (Jeffrey) | Gothikar | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Demonic Tutor(2); Changeling Outcast(1); Swamp(land)
+Phase: Jeffrey's Untap step
+Phase: Jeffrey's Upkeep step
+Phase: Jeffrey's Draw step
+Phase: Jeffrey's Main phase, precombat
+Land: Jeffrey played Island (129)
+Mana: Island (129) - {T}: Add {U}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Jeffrey cast Talisman of Conviction
+Information: BOARD cast | Talisman of Conviction (mv 2) by Jeffrey | open mana: Xenil 0, Lacspor 0, Gothikar 0
+Resolve Stack: Talisman of Conviction
+Phase: Jeffrey's Beginning of Combat Step
+Phase: Jeffrey's Declare Attackers Step
+Phase: Jeffrey's Declare Blockers Step
+Phase: Jeffrey's First Strike Damage Step
+Phase: Jeffrey's Combat Damage Step
+Phase: Jeffrey's End of Combat Step
+Phase: Jeffrey's Main phase, postcombat
+Phase: Jeffrey's End step
+Phase: Jeffrey's Cleanup step
+Turn: Turn 9 (Lacspor)
+Information: BOARD turn 9 (Lacspor) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Plains(land)
+Information: BOARD turn 9 (Lacspor) | Jeffrey | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 9 (Lacspor) | Lacspor | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Plains(land); Stridehangar Automaton(3); Exsanguinate(2)
+Information: BOARD turn 9 (Lacspor) | Gothikar | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Demonic Tutor(2); Changeling Outcast(1); Swamp(land)
+Phase: Lacspor's Untap step
+Phase: Lacspor's Upkeep step
+Phase: Lacspor's Draw step
+Phase: Lacspor's Main phase, precombat
+Land: Lacspor played Plains (289)
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Lacspor cast Stridehangar Automaton
+Information: BOARD cast | Stridehangar Automaton (mv 3) by Lacspor | open mana: Xenil 0, Jeffrey 3, Gothikar 0
+Resolve Stack: Stridehangar Automaton - Creature 1 / 4
+Phase: Lacspor's Beginning of Combat Step
+Phase: Lacspor's Declare Attackers Step
+Phase: Lacspor's Declare Blockers Step
+Phase: Lacspor's First Strike Damage Step
+Phase: Lacspor's Combat Damage Step
+Phase: Lacspor's End of Combat Step
+Phase: Lacspor's Main phase, postcombat
+Phase: Lacspor's End step
+Phase: Lacspor's Cleanup step
+Turn: Turn 10 (Gothikar)
+Information: BOARD turn 10 (Gothikar) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Plains(land)
+Information: BOARD turn 10 (Gothikar) | Jeffrey | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 10 (Gothikar) | Lacspor | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stridehangar Automaton 1/4 | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Exsanguinate(2); The Soul Stone(2)
+Information: BOARD turn 10 (Gothikar) | Gothikar | life 39 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Impulsive Pilferer(1); Demonic Tutor(2); Changeling Outcast(1); Swamp(land)
+Phase: Gothikar's Untap step
+Phase: Gothikar's Upkeep step
+Phase: Gothikar's Draw step
+Phase: Gothikar's Main phase, precombat
+Land: Gothikar played Swamp (370)
+Phase: Gothikar's Beginning of Combat Step
+Phase: Gothikar's Declare Attackers Step
+Phase: Gothikar's Declare Blockers Step
+Phase: Gothikar's First Strike Damage Step
+Phase: Gothikar's Combat Damage Step
+Phase: Gothikar's End of Combat Step
+Phase: Gothikar's Main phase, postcombat
+Mana: Canyon Slough (357) - {T}: Add {R}.
+Add To Stack: Gothikar cast Impulsive Pilferer
+Information: BOARD cast | Impulsive Pilferer (mv 1) by Gothikar | open mana: Xenil 0, Jeffrey 3, Lacspor 0
+Resolve Stack: Impulsive Pilferer - Creature 1 / 1
+Mana: Swamp (370) - {T}: Add {B}.
+Mana: Sol Ring (368) - {T}: Add {C}{C}.
+Add To Stack: Gothikar cast Demonic Tutor
+Information: BOARD cast | Demonic Tutor (mv 2) by Gothikar | open mana: Xenil 0, Jeffrey 3, Lacspor 0
+Resolve Stack: Demonic Tutor (407) - Search your library for a card, put that card into your hand, then shuffle.
+Life: Life: Gothikar 39 > 38
+Land: Gothikar picked {B}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Add To Stack: Gothikar cast Changeling Outcast
+Information: BOARD cast | Changeling Outcast (mv 1) by Gothikar | open mana: Xenil 0, Jeffrey 3, Lacspor 0
+Resolve Stack: Changeling Outcast - Creature 1 / 1
+Phase: Gothikar's End step
+Phase: Gothikar's Cleanup step
+Turn: Turn 11 (Xenil)
+Information: BOARD turn 11 (Xenil) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Plains(land)
+Information: BOARD turn 11 (Xenil) | Jeffrey | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 11 (Xenil) | Lacspor | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stridehangar Automaton 1/4 | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Exsanguinate(2); The Soul Stone(2)
+Information: BOARD turn 11 (Xenil) | Gothikar | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Changeling Outcast 1/1 | hand cards: Orzhov Signet(2); Bloodthirsty Conqueror(5)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (82)
+Mana: Plains (82) - {T}: Add {W}.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 12 (Jeffrey)
+Information: BOARD turn 12 (Jeffrey) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 12 (Jeffrey) | Jeffrey | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mithril Coat(3); Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 12 (Jeffrey) | Lacspor | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stridehangar Automaton 1/4 | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Exsanguinate(2); The Soul Stone(2)
+Information: BOARD turn 12 (Jeffrey) | Gothikar | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Changeling Outcast 1/1 | hand cards: Orzhov Signet(2); Bloodthirsty Conqueror(5)
+Phase: Jeffrey's Untap step
+Phase: Jeffrey's Upkeep step
+Mana: Island (129) - {T}: Add {U}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Mana: Talisman of Conviction (112) - {T}: Add {C}.
+Add To Stack: Jeffrey cast Mithril Coat
+Information: BOARD cast | Mithril Coat (mv 3) by Jeffrey | open mana: Xenil 1, Lacspor 0, Gothikar 0
+Resolve Stack: Mithril Coat
+Phase: Jeffrey's Draw step
+Phase: Jeffrey's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Jeffrey played Seachrome Coast (199)
+Phase: Jeffrey's Beginning of Combat Step
+Phase: Jeffrey's Declare Attackers Step
+Phase: Jeffrey's Declare Blockers Step
+Phase: Jeffrey's First Strike Damage Step
+Phase: Jeffrey's Combat Damage Step
+Phase: Jeffrey's End of Combat Step
+Phase: Jeffrey's Main phase, postcombat
+Phase: Jeffrey's End step
+Phase: Jeffrey's Cleanup step
+Turn: Turn 13 (Lacspor)
+Information: BOARD turn 13 (Lacspor) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 13 (Lacspor) | Jeffrey | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 13 (Lacspor) | Lacspor | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Stridehangar Automaton 1/4 | hand cards: Lotho, Corrupt Shirriff(2); Academy Manufactor(3); Terminate(2); Exsanguinate(2); The Soul Stone(2)
+Information: BOARD turn 13 (Lacspor) | Gothikar | life 38 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Changeling Outcast 1/1 | hand cards: Orzhov Signet(2); Bloodthirsty Conqueror(5)
+Phase: Lacspor's Untap step
+Phase: Lacspor's Upkeep step
+Phase: Lacspor's Draw step
+Phase: Lacspor's Main phase, precombat
+Mana: Mountain (286) - {T}: Add {R}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Lacspor cast Academy Manufactor
+Information: BOARD cast | Academy Manufactor (mv 3) by Lacspor | open mana: Xenil 1, Jeffrey 3, Gothikar 0
+Resolve Stack: Academy Manufactor - Creature 1 / 3
+Phase: Lacspor's Beginning of Combat Step
+Phase: Lacspor's Declare Attackers Step
+Combat: Lacspor assigned Stridehangar Automaton (220) to attack Gothikar.
+Information: BOARD attack | Lacspor -> Gothikar | attackers 1 (power 1) | defender life 38 | untapped creatures 2 (power 2): Impulsive Pilferer 1/1; Changeling Outcast 1/1 | open mana 0
+Phase: Lacspor's Declare Blockers Step
+Combat: Gothikar didn't block Stridehangar Automaton (220).
+Phase: Lacspor's First Strike Damage Step
+Phase: Lacspor's Combat Damage Step
+Damage: Stridehangar Automaton (220) deals 1 combat damage to Gothikar.
+Life: Life: Gothikar 38 > 37
+Phase: Lacspor's End of Combat Step
+Phase: Lacspor's Main phase, postcombat
+Phase: Lacspor's End step
+Phase: Lacspor's Cleanup step
+Turn: Turn 14 (Gothikar)
+Information: BOARD turn 14 (Gothikar) | Xenil | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 14 (Gothikar) | Jeffrey | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 14 (Gothikar) | Lacspor | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stridehangar Automaton 1/4*; Academy Manufactor 1/3 | hand cards: Lotho, Corrupt Shirriff(2); Terminate(2); Exsanguinate(2); The Soul Stone(2); Talisman of Indulgence(2)
+Information: BOARD turn 14 (Gothikar) | Gothikar | life 37 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Changeling Outcast 1/1 | hand cards: Orzhov Signet(2); Bloodthirsty Conqueror(5)
+Phase: Gothikar's Untap step
+Phase: Gothikar's Upkeep step
+Phase: Gothikar's Draw step
+Phase: Gothikar's Main phase, precombat
+Phase: Gothikar's Beginning of Combat Step
+Phase: Gothikar's Declare Attackers Step
+Combat: Gothikar assigned Impulsive Pilferer (393) to attack Xenil.
+Gothikar assigned Changeling Outcast (330) to attack Lacspor.
+Information: BOARD attack | Gothikar -> Xenil | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Information: BOARD attack | Gothikar -> Lacspor | attackers 1 (power 1) | defender life 40 | untapped creatures 1 (power 1): Academy Manufactor 1/3 | open mana 0
+Phase: Gothikar's Declare Blockers Step
+Combat: Xenil didn't block Impulsive Pilferer (393).
+Combat: Lacspor didn't block Changeling Outcast (330).
+Phase: Gothikar's First Strike Damage Step
+Phase: Gothikar's Combat Damage Step
+Damage: Changeling Outcast (330) deals 1 combat damage to Lacspor.
+Damage: Impulsive Pilferer (393) deals 1 combat damage to Xenil.
+Life: Life: Xenil 40 > 39
+Life: Life: Lacspor 40 > 39
+Phase: Gothikar's End of Combat Step
+Phase: Gothikar's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Gothikar played Temple of Triumph (396)
+Add To Stack: Gothikar triggered Temple of Triumph
+Resolve Stack: Gothikar scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (396)]
+Mana: Swamp (370) - {T}: Add {B}.
+Mana: Canyon Slough (357) - {T}: Add {B}.
+Mana: Sol Ring (368) - {T}: Add {C}{C}.
+Life: Life: Gothikar 37 > 36
+Land: Gothikar picked {B}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Add To Stack: Gothikar cast Bloodthirsty Conqueror
+Information: BOARD cast | Bloodthirsty Conqueror (mv 5) by Gothikar | open mana: Xenil 1, Jeffrey 3, Lacspor 0
+Resolve Stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Gothikar's End step
+Phase: Gothikar's Cleanup step
+Turn: Turn 15 (Xenil)
+Information: BOARD turn 15 (Xenil) | Xenil | life 39 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 15 (Xenil) | Jeffrey | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 15 (Xenil) | Lacspor | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stridehangar Automaton 1/4*; Academy Manufactor 1/3 | hand cards: Lotho, Corrupt Shirriff(2); Terminate(2); Exsanguinate(2); The Soul Stone(2); Talisman of Indulgence(2)
+Information: BOARD turn 15 (Xenil) | Gothikar | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Changeling Outcast 1/1*; Bloodthirsty Conqueror 5/5 | hand cards: Orzhov Signet(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 16 (Jeffrey)
+Information: BOARD turn 16 (Jeffrey) | Xenil | life 39 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4); Aurelia, the Warleader(6)
+Information: BOARD turn 16 (Jeffrey) | Jeffrey | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Sword of Light and Shadow(3); Flawless Maneuver(3); Shuri, Wakandan Inventor(2)
+Information: BOARD turn 16 (Jeffrey) | Lacspor | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stridehangar Automaton 1/4*; Academy Manufactor 1/3 | hand cards: Lotho, Corrupt Shirriff(2); Terminate(2); Exsanguinate(2); The Soul Stone(2); Talisman of Indulgence(2)
+Information: BOARD turn 16 (Jeffrey) | Gothikar | life 36 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Changeling Outcast 1/1*; Bloodthirsty Conqueror 5/5 | hand cards: Orzhov Signet(2)
+Phase: Jeffrey's Untap step
+Phase: Jeffrey's Upkeep step
+Phase: Jeffrey's Draw step
+Phase: Jeffrey's Main phase, precombat
+Land: Jeffrey played Plains (184)
+Land: Jeffrey picked {R}
+Damage: Talisman of Conviction (112) deals 1 non-combat damage to Jeffrey.
+Life: Life: Jeffrey 40 > 39
+Mana: Talisman of Conviction (112) - {T}: Add {R} or {W}. Talisman of Conviction deals 1 damage to you. 
+Mana: Island (129) - {T}: Add {U}.
+Mana: Hengegate Pathway (144) - {T}: Add {W}.
+Add To Stack: Jeffrey cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Jeffrey | open mana: Xenil 3, Lacspor 0, Gothikar 0
+Add To Stack: Gothikar triggered Bloodthirsty Conqueror
+Life: Life: Gothikar 36 > 37
+Resolve Stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Jeffrey, Lost Amount: 1]
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Jeffrey's Beginning of Combat Step
+Add To Stack: Jeffrey triggered Captain America, First Avenger targeting [Mithril Coat (172)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Mithril Coat (172)]]) [Phase: Jeffrey]
+Phase: Jeffrey's Declare Attackers Step
+Phase: Jeffrey's Declare Blockers Step
+Phase: Jeffrey's First Strike Damage Step
+Phase: Jeffrey's Combat Damage Step
+Phase: Jeffrey's End of Combat Step
+Phase: Jeffrey's Main phase, postcombat
+Land: Jeffrey picked {U}
+Mana: Seachrome Coast (199) - {T}: Add {W} or {U}.
+Mana: Plains (184) - {T}: Add {W}.
+Add To Stack: Jeffrey cast Shuri, Wakandan Inventor
+Information: BOARD cast | Shuri, Wakandan Inventor (mv 2) by Jeffrey | open mana: Xenil 3, Lacspor 0, Gothikar 0
+Resolve Stack: Shuri, Wakandan Inventor - Creature 2 / 1
+Phase: Jeffrey's End step
+Phase: Jeffrey's Cleanup step
+Turn: Turn 17 (Lacspor)
+Information: BOARD turn 17 (Lacspor) | Xenil | life 39 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Lightning Greaves(2); Archangel of Thune(5); Angelic Renewal(2); Restoration Angel(4); Plains(land); Gisela, the Broken Blade(4); Aurelia, the Warleader(6)
+Information: BOARD turn 17 (Lacspor) | Jeffrey | life 39 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4[Mithril Coat]; Shuri, Wakandan Inventor 2/1 | hand cards: Sword of Light and Shadow(3); Flawless Maneuver(3); Leyline Axe(4)
+Information: BOARD turn 17 (Lacspor) | Lacspor | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Stridehangar Automaton 1/4*; Academy Manufactor 1/3 | hand cards: Lotho, Corrupt Shirriff(2); Terminate(2); Exsanguinate(2); The Soul Stone(2); Talisman of Indulgence(2)
+Information: BOARD turn 17 (Lacspor) | Gothikar | life 37 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Changeling Outcast 1/1*; Bloodthirsty Conqueror 5/5 | hand cards: Orzhov Signet(2)
+Phase: Lacspor's Untap step
+Phase: Lacspor's Upkeep step
+Phase: Lacspor's Draw step
+Phase: Lacspor's Main phase, precombat
+Land: Lacspor played Fountainport (213)
+Mana: Mountain (286) - {T}: Add {R}.
+Add To Stack: Lacspor activated Swiftfoot Boots targeting [Stridehangar Automaton (220)]
+Resolve Stack: Swiftfoot Boots (249) -  Attach to Stridehangar Automaton (220)
+Phase: Lacspor's Beginning of Combat Step
+Phase: Lacspor's Declare Attackers Step
+Combat: Lacspor assigned Stridehangar Automaton (220) and Academy Manufactor (243) to attack Xenil.
+Information: BOARD attack | Lacspor -> Xenil | attackers 2 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Lacspor's Declare Blockers Step
+Combat: Xenil didn't block Stridehangar Automaton (220).
+Xenil didn't block Academy Manufactor (243).
+Phase: Lacspor's First Strike Damage Step
+Phase: Lacspor's Combat Damage Step
+Damage: Stridehangar Automaton (220) deals 1 combat damage to Xenil.
+Damage: Academy Manufactor (243) deals 1 combat damage to Xenil.
+Life: Life: Xenil 39 > 37
+Add To Stack: Gothikar triggered Bloodthirsty Conqueror
+Life: Life: Gothikar 37 > 39
+Resolve Stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Xenil, Lost Amount: 2]
+Phase: Lacspor's End of Combat Step
+Phase: Lacspor's Main phase, postcombat
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Battlefield Forge (300) - {T}: Add {C}.
+Add To Stack: Lacspor cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Lacspor | open mana: Xenil 3, Jeffrey 0, Gothikar 0
+Phase: devLacspor's Main phase, postcombat
+Resolve Stack: Talisman of Indulgence
+Land: Lacspor picked {B}
+Damage: Talisman of Indulgence (212) deals 1 non-combat damage to Lacspor.
+Life: Life: Lacspor 39 > 38
+Mana: Talisman of Indulgence (212) - {T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you. 
+Mana: Fountainport (213) - {T}: Add {C}.
+Add To Stack: Lacspor cast The Soul Stone
+Information: BOARD cast | The Soul Stone (mv 2) by Lacspor | open mana: Xenil 3, Jeffrey 0, Gothikar 0
+Add To Stack: Gothikar triggered Bloodthirsty Conqueror
+
+Game Result: unfinished (Forge closed mid-game)

@@ -1,0 +1,95 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Lydia (AI) deck=Captain America v8
+Player: Drophar (AI) deck=Mr House v4
+Player: Enaldie (AI) deck=Olivia
+Mulligan: Lydia has mulliganed down to 7 cards.
+Mulligan: Lydia has mulliganed down to 6 cards.
+Mulligan: Lydia has mulliganed down to 5 cards.
+Mulligan: Lydia has kept a hand of 5 cards
+Mulligan: Drophar has kept a hand of 7 cards
+Mulligan: Enaldie has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Lydia)
+Information: BOARD turn 1 (Lydia) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lyra Dawnbringer(5); Sigarda, Host of Herons(5); Plains(land); Plains(land); Serra's Emissary(7); Plains(land); Plains(land)
+Information: BOARD turn 1 (Lydia) | Lydia | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seachrome Coast(land); Force of Negation(3); Sword of Forge and Frontier(3); Sokka and Suki(3); Rogue's Passage(land)
+Information: BOARD turn 1 (Lydia) | Drophar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blood Crypt(land); Plains(land); Stridehangar Automaton(3); Sundown Pass(land); Isolated Chapel(land); Cathartic Reunion(2); Ghostly Prison(3)
+Information: BOARD turn 1 (Lydia) | Enaldie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Vault of the Archangel(land); Mahadi, Emporium Master(3); Vandalblast(1); Temple of Triumph(land); Deadly Dispute(2); Captain Lannery Storm(3)
+Phase: Lydia's Untap step
+Phase: Lydia's Upkeep step
+Phase: Lydia's Draw step
+Phase: Lydia's Main phase, precombat
+Replacement Effect: Seachrome Coast enters tapped unless you control two or fewer other lands.
+Land: Lydia played Seachrome Coast (199)
+Phase: Lydia's Beginning of Combat Step
+Phase: Lydia's Declare Attackers Step
+Phase: Lydia's Declare Blockers Step
+Phase: Lydia's First Strike Damage Step
+Phase: Lydia's Combat Damage Step
+Phase: Lydia's End of Combat Step
+Phase: Lydia's Main phase, postcombat
+Phase: Lydia's End step
+Phase: Lydia's Cleanup step
+Turn: Turn 2 (Drophar)
+Information: BOARD turn 2 (Drophar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lyra Dawnbringer(5); Sigarda, Host of Herons(5); Plains(land); Plains(land); Serra's Emissary(7); Plains(land); Plains(land)
+Information: BOARD turn 2 (Drophar) | Lydia | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Force of Negation(3); Sword of Forge and Frontier(3); Sokka and Suki(3); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 2 (Drophar) | Drophar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blood Crypt(land); Plains(land); Stridehangar Automaton(3); Sundown Pass(land); Isolated Chapel(land); Cathartic Reunion(2); Ghostly Prison(3)
+Information: BOARD turn 2 (Drophar) | Enaldie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Vault of the Archangel(land); Mahadi, Emporium Master(3); Vandalblast(1); Temple of Triumph(land); Deadly Dispute(2); Captain Lannery Storm(3)
+Phase: Drophar's Untap step
+Phase: Drophar's Upkeep step
+Phase: Drophar's Draw step
+Phase: Drophar's Main phase, precombat
+Land: Drophar played Plains (287)
+Phase: Drophar's Beginning of Combat Step
+Phase: Drophar's Declare Attackers Step
+Phase: Drophar's Declare Blockers Step
+Phase: Drophar's First Strike Damage Step
+Phase: Drophar's Combat Damage Step
+Phase: Drophar's End of Combat Step
+Phase: Drophar's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Add To Stack: Drophar cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Drophar | open mana: Xenil 0, Lydia 3, Enaldie 0
+Resolve Stack: Sol Ring
+Phase: Drophar's End step
+Phase: Drophar's Cleanup step
+Turn: Turn 3 (Enaldie)
+Information: BOARD turn 3 (Enaldie) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lyra Dawnbringer(5); Sigarda, Host of Herons(5); Plains(land); Plains(land); Serra's Emissary(7); Plains(land); Plains(land)
+Information: BOARD turn 3 (Enaldie) | Lydia | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Force of Negation(3); Sword of Forge and Frontier(3); Sokka and Suki(3); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 3 (Enaldie) | Drophar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Blood Crypt(land); Stridehangar Automaton(3); Sundown Pass(land); Isolated Chapel(land); Cathartic Reunion(2); Ghostly Prison(3)
+Information: BOARD turn 3 (Enaldie) | Enaldie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Vault of the Archangel(land); Mahadi, Emporium Master(3); Vandalblast(1); Temple of Triumph(land); Deadly Dispute(2); Captain Lannery Storm(3)
+Phase: Enaldie's Untap step
+Phase: Enaldie's Upkeep step
+Phase: Enaldie's Draw step
+Phase: Enaldie's Main phase, precombat
+Land: Enaldie played Fetid Heath (326)
+Phase: Enaldie's Beginning of Combat Step
+Phase: Enaldie's Declare Attackers Step
+Phase: Enaldie's Declare Blockers Step
+Phase: Enaldie's First Strike Damage Step
+Phase: Enaldie's Combat Damage Step
+Phase: Enaldie's End of Combat Step
+Phase: Enaldie's Main phase, postcombat
+Phase: Enaldie's End step
+Phase: Enaldie's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Lyra Dawnbringer(5); Sigarda, Host of Herons(5); Plains(land); Plains(land); Serra's Emissary(7); Plains(land); Plains(land)
+Information: BOARD turn 4 (Xenil) | Lydia | life 40 | hand 5 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Force of Negation(3); Sword of Forge and Frontier(3); Sokka and Suki(3); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 4 (Xenil) | Drophar | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Blood Crypt(land); Stridehangar Automaton(3); Sundown Pass(land); Isolated Chapel(land); Cathartic Reunion(2); Ghostly Prison(3)
+Information: BOARD turn 4 (Xenil) | Enaldie | life 40 | hand 7 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Vault of the Archangel(land); Mahadi, Emporium Master(3); Vandalblast(1); Temple of Triumph(land); Deadly Dispute(2); Captain Lannery Storm(3); Plains(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Player Control: Xenil has restored control over themself
+Player Control: Lydia has restored control over themself
+Player Control: Drophar has restored control over themself
+Player Control: Enaldie has restored control over themself
+Game Outcome: Match Duration 0m : 17s
+Game Outcome: Turn 2
+Game Outcome: Xenil has conceded
+Game Outcome: Lydia has won because all opponents have lost
+Game Outcome: Drophar has won because all opponents have lost
+Game Outcome: Enaldie has won because all opponents have lost
+Match Result: Xenil: 0 Lydia: 1 Drophar: 0 Enaldie: 0 
+
+Game Result: Lydia has won

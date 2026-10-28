@@ -1,0 +1,36 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Evelyn (AI) deck=Captain America v8
+Player: Airen (AI) deck=Scion
+Player: Urda (AI) deck=Tidus v3
+Mulligan: Evelyn has mulliganed down to 7 cards.
+Mulligan: Airen has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Evelyn has kept a hand of 7 cards
+Mulligan: Airen has kept a hand of 7 cards
+Mulligan: Urda has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Evelyn)
+Information: BOARD turn 1 (Evelyn) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Whispersilk Cloak(3); Sephara, Sky's Blade(7); Plains(land); Plains(land); Baneslayer Angel(5); Righteous Valkyrie(3); Wand of Vertebrae(1)
+Information: BOARD turn 1 (Evelyn) | Evelyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Raugrin Triome(land); Adarkar Wastes(land); Kediss, Emberclaw Familiar(2); Sigarda's Aid(1); Mountain(land); Sword of Forge and Frontier(3)
+Information: BOARD turn 1 (Evelyn) | Airen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scorned Villager(2); Ancient Bronze Dragon(7); Reanimate(1); Broken Wings(3); Bojuka Bog(land); Swamp(land); Sunken Ruins(land)
+Information: BOARD turn 1 (Evelyn) | Urda | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Promise of Loyalty(5); Plains(land); Forest(land); Island(land); Court of Garenbrig(3); Command Tower(land); Arcane Signet(2)
+Phase: Evelyn's Untap step
+Phase: Evelyn's Upkeep step
+Phase: Evelyn's Draw step
+Phase: Evelyn's Main phase, precombat
+Land: Evelyn played Adarkar Wastes (158)
+Phase: Evelyn's Beginning of Combat Step
+Phase: Evelyn's Declare Attackers Step
+Phase: Evelyn's Declare Blockers Step
+Phase: Evelyn's First Strike Damage Step
+Phase: Evelyn's Combat Damage Step
+Phase: Evelyn's End of Combat Step
+Phase: Evelyn's Main phase, postcombat
+Land: Evelyn picked {W}
+Damage: Adarkar Wastes (158) deals 1 non-combat damage to Evelyn.
+Life: Life: Evelyn 40 > 39
+Mana: Adarkar Wastes (158) - {T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you. 
+Add To Stack: Evelyn cast Sigarda's Aid
+Information: BOARD cast | Sigarda's Aid (mv 1) by Evelyn | open mana: Dominic 0, Airen 0, Urda 0
+
+Game Result: unfinished (Forge closed mid-game)

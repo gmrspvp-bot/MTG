@@ -1,0 +1,127 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Zotar (AI) deck=Captain America v8
+Player: Kaleb (AI) deck=Scion
+Player: Marcus (AI) deck=Tidus v3
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Zotar has kept a hand of 7 cards
+Mulligan: Kaleb has kept a hand of 7 cards
+Mulligan: Marcus has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Plains(land); Plains(land); Swords to Plowshares(1); Aurelia, the Warleader(6)
+Information: BOARD turn 1 (Dominic) | Zotar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Plains(land); Kaldra Compleat(7); Plains(land)
+Information: BOARD turn 1 (Dominic) | Kaleb | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Temple of Epiphany(land); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3)
+Information: BOARD turn 1 (Dominic) | Marcus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Idyllic Beachfront(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (76)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Zotar)
+Information: BOARD turn 2 (Zotar) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Plains(land); Swords to Plowshares(1); Aurelia, the Warleader(6); Shalai, Voice of Plenty(4)
+Information: BOARD turn 2 (Zotar) | Zotar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Plains(land); Kaldra Compleat(7); Plains(land)
+Information: BOARD turn 2 (Zotar) | Kaleb | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Temple of Epiphany(land); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3)
+Information: BOARD turn 2 (Zotar) | Marcus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Idyllic Beachfront(land)
+Phase: Zotar's Untap step
+Phase: Zotar's Upkeep step
+Phase: Zotar's Draw step
+Phase: Zotar's Main phase, precombat
+Land: Zotar played Plains (184)
+Phase: Zotar's Beginning of Combat Step
+Phase: Zotar's Declare Attackers Step
+Phase: Zotar's Declare Blockers Step
+Phase: Zotar's First Strike Damage Step
+Phase: Zotar's Combat Damage Step
+Phase: Zotar's End of Combat Step
+Phase: Zotar's Main phase, postcombat
+Phase: Zotar's End step
+Phase: Zotar's Cleanup step
+Turn: Turn 3 (Kaleb)
+Information: BOARD turn 3 (Kaleb) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Plains(land); Swords to Plowshares(1); Aurelia, the Warleader(6); Shalai, Voice of Plenty(4)
+Information: BOARD turn 3 (Kaleb) | Zotar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Kaldra Compleat(7); Plains(land); Clifftop Retreat(land)
+Information: BOARD turn 3 (Kaleb) | Kaleb | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Temple of Epiphany(land); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3)
+Information: BOARD turn 3 (Kaleb) | Marcus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Idyllic Beachfront(land)
+Phase: Kaleb's Untap step
+Phase: Kaleb's Upkeep step
+Phase: Kaleb's Draw step
+Phase: Kaleb's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Kaleb played Temple of Epiphany (250)
+Add To Stack: Kaleb triggered Temple of Epiphany
+Resolve Stack: Kaleb scried 1 card(s) to the bottom of the library
+Resolve Stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (250)]
+Phase: Kaleb's Beginning of Combat Step
+Phase: Kaleb's Declare Attackers Step
+Phase: Kaleb's Declare Blockers Step
+Phase: Kaleb's First Strike Damage Step
+Phase: Kaleb's Combat Damage Step
+Phase: Kaleb's End of Combat Step
+Phase: Kaleb's Main phase, postcombat
+Phase: Kaleb's End step
+Phase: Kaleb's Cleanup step
+Turn: Turn 4 (Marcus)
+Information: BOARD turn 4 (Marcus) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Plains(land); Swords to Plowshares(1); Aurelia, the Warleader(6); Shalai, Voice of Plenty(4)
+Information: BOARD turn 4 (Marcus) | Zotar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Kaldra Compleat(7); Plains(land); Clifftop Retreat(land)
+Information: BOARD turn 4 (Marcus) | Kaleb | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3); Bojuka Bog(land)
+Information: BOARD turn 4 (Marcus) | Marcus | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Idyllic Beachfront(land)
+Phase: Marcus' Untap step
+Phase: Marcus' Upkeep step
+Phase: Marcus' Draw step
+Phase: Marcus' Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Marcus played Idyllic Beachfront (323)
+Phase: Marcus' Beginning of Combat Step
+Phase: Marcus' Declare Attackers Step
+Phase: Marcus' Declare Blockers Step
+Phase: Marcus' First Strike Damage Step
+Phase: Marcus' Combat Damage Step
+Phase: Marcus' End of Combat Step
+Phase: Marcus' Main phase, postcombat
+Phase: Marcus' End step
+Phase: Marcus' Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Plains(land); Swords to Plowshares(1); Aurelia, the Warleader(6); Shalai, Voice of Plenty(4)
+Information: BOARD turn 5 (Dominic) | Zotar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Kaldra Compleat(7); Plains(land); Clifftop Retreat(land)
+Information: BOARD turn 5 (Dominic) | Kaleb | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3); Bojuka Bog(land)
+Information: BOARD turn 5 (Dominic) | Marcus | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Prairie Stream(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Plains (73).
+Turn: Turn 6 (Zotar)
+Information: BOARD turn 6 (Zotar) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Swiftfoot Boots(2); Swords to Plowshares(1); Aurelia, the Warleader(6); Shalai, Voice of Plenty(4); Emeria, the Sky Ruin(land)
+Information: BOARD turn 6 (Zotar) | Zotar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Kellan, the Fae-Blooded(3); Glacial Fortress(land); Deserted Beach(land); Kaldra Compleat(7); Plains(land); Clifftop Retreat(land)
+Information: BOARD turn 6 (Zotar) | Kaleb | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Thriving Isle(land); Mountain(land); Burnished Hart(3); Child of Alara(5); Ancient Gold Dragon(7); Dragon's Hoard(3); Bojuka Bog(land)
+Information: BOARD turn 6 (Zotar) | Marcus | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Glacial Fortress(land); Summon: Magus Sisters(5); Sphere Grid(2); Court of Garenbrig(3); Path of Discovery(4); Prairie Stream(land)
+Phase: Zotar's Untap step
+Phase: Zotar's Upkeep step
+Phase: Zotar's Draw step
+Phase: Zotar's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Zotar played Glacial Fortress (170)
+Mana: Plains (184) - {T}: Add {W}.
+Land: Zotar picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Add To Stack: Zotar cast Birthright Boon
+Information: BOARD cast | Birthright Boon (mv 2) by Zotar | open mana: Dominic 1, Kaleb 0, Marcus 0
+
+Game Result: unfinished (Forge closed mid-game)

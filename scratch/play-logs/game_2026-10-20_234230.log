@@ -1,0 +1,1889 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Rosa (AI) deck=Captain America v8
+Player: Bathelie (AI) deck=Scion
+Player: Busma (AI) deck=Tidus v3
+Mulligan: Busma has mulliganed down to 7 cards.
+Mulligan: Busma has mulliganed down to 6 cards.
+Mulligan: Busma has kept a hand of 6 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Rosa has kept a hand of 7 cards
+Mulligan: Bathelie has kept a hand of 7 cards
+Turn: Turn 1 (Busma)
+Information: BOARD turn 1 (Busma) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Plains(land); Subjugator Angel(6); Unclaimed Territory(land); Plains(land)
+Information: BOARD turn 1 (Busma) | Rosa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Sulfur Falls(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5)
+Information: BOARD turn 1 (Busma) | Bathelie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Dreamroot Cascade(land); Forest(land); Child of Alara(5); Rugged Highlands(land)
+Information: BOARD turn 1 (Busma) | Busma | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Ingenious Prodigy(1); Plains(land); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Land: Busma played Forest (345)
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Plains(land); Subjugator Angel(6); Unclaimed Territory(land); Plains(land)
+Information: BOARD turn 2 (Dominic) | Rosa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Sulfur Falls(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5)
+Information: BOARD turn 2 (Dominic) | Bathelie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Dreamroot Cascade(land); Forest(land); Child of Alara(5); Rugged Highlands(land)
+Information: BOARD turn 2 (Dominic) | Busma | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Plains(land); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (74)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 3 (Rosa)
+Information: BOARD turn 3 (Rosa) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Subjugator Angel(6); Unclaimed Territory(land); Plains(land); Breath of Life(4)
+Information: BOARD turn 3 (Rosa) | Rosa | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Sulfur Falls(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5)
+Information: BOARD turn 3 (Rosa) | Bathelie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Dreamroot Cascade(land); Forest(land); Child of Alara(5); Rugged Highlands(land)
+Information: BOARD turn 3 (Rosa) | Busma | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Plains(land); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Rosa played Sulfur Falls (154)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Phase: Rosa's Declare Blockers Step
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 4 (Bathelie)
+Information: BOARD turn 4 (Bathelie) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Subjugator Angel(6); Unclaimed Territory(land); Plains(land); Breath of Life(4)
+Information: BOARD turn 4 (Bathelie) | Rosa | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 4 (Bathelie) | Bathelie | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Dreamroot Cascade(land); Forest(land); Child of Alara(5); Rugged Highlands(land)
+Information: BOARD turn 4 (Bathelie) | Busma | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Plains(land); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land)
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Replacement Effect: Dreamroot Cascade enters tapped unless you control two or more other lands.
+Land: Bathelie played Dreamroot Cascade (269)
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 5 (Busma)
+Information: BOARD turn 5 (Busma) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Subjugator Angel(6); Unclaimed Territory(land); Plains(land); Breath of Life(4)
+Information: BOARD turn 5 (Busma) | Rosa | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 5 (Busma) | Bathelie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Forest(land); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7)
+Information: BOARD turn 5 (Busma) | Busma | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Plains(land); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Land: Busma played Plains (396)
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Knight of the White Orchid(2); Subjugator Angel(6); Unclaimed Territory(land); Plains(land); Breath of Life(4)
+Information: BOARD turn 6 (Dominic) | Rosa | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 6 (Dominic) | Bathelie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Forest(land); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7)
+Information: BOARD turn 6 (Dominic) | Busma | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Island(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (77)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Add To Stack: Dominic cast Knight of the White Orchid
+Information: BOARD cast | Knight of the White Orchid (mv 2) by Dominic | open mana: Rosa 0, Bathelie 0, Busma 2
+Resolve Stack: Knight of the White Orchid - Creature 2 / 2
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Rosa)
+Information: BOARD turn 7 (Rosa) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7)
+Information: BOARD turn 7 (Rosa) | Rosa | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stroke of Midnight(3); Island(land); Port Town(land); Brotherhood Regalia(2); Enthusiastic Mechanaut(2); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 7 (Rosa) | Bathelie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Forest(land); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7)
+Information: BOARD turn 7 (Rosa) | Busma | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Island(land)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Rosa played Port Town (181)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Phase: Rosa's Declare Blockers Step
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Land: Rosa picked {R}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {U}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Rosa cast Enthusiastic Mechanaut
+Information: BOARD cast | Enthusiastic Mechanaut (mv 2) by Rosa | open mana: Dominic 0, Bathelie 0, Busma 2
+Resolve Stack: Enthusiastic Mechanaut - Creature 2 / 2
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 8 (Bathelie)
+Information: BOARD turn 8 (Bathelie) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7)
+Information: BOARD turn 8 (Bathelie) | Rosa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Stroke of Midnight(3); Island(land); Brotherhood Regalia(2); Genji Glove(5); Excalibur, Sword of Eden(12); Path to Exile(1)
+Information: BOARD turn 8 (Bathelie) | Bathelie | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Forest(land); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7)
+Information: BOARD turn 8 (Bathelie) | Busma | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Island(land)
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Land: Bathelie played Forest (238)
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 9 (Busma)
+Information: BOARD turn 9 (Busma) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7)
+Information: BOARD turn 9 (Busma) | Rosa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Stroke of Midnight(3); Island(land); Brotherhood Regalia(2); Genji Glove(5); Excalibur, Sword of Eden(12); Path to Exile(1)
+Information: BOARD turn 9 (Busma) | Bathelie | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Arcane Denial(2)
+Information: BOARD turn 9 (Busma) | Busma | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Island(land)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Land: Busma played Island (332)
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Island (332) - {T}: Add {U}.
+Mana: Forest (345) - {T}: Add {G}.
+Add To Stack: Busma cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 4
+Land: Bathelie picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Forest (238) - {T}: Add {G}.
+Add To Stack: Bathelie cast Arcane Denial targeting [Tidus, Yuna's Guardian - Creature 3 / 3]
+Information: BOARD cast | Arcane Denial (mv 2) by Bathelie | open mana: Dominic 0, Rosa 0, Busma 0
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Arcane Denial (268) - Counter Tidus, Yuna's Guardian (403). Draw a card. Draw up to two cards. 
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7)
+Information: BOARD turn 10 (Dominic) | Rosa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Stroke of Midnight(3); Island(land); Brotherhood Regalia(2); Genji Glove(5); Excalibur, Sword of Eden(12); Path to Exile(1)
+Information: BOARD turn 10 (Dominic) | Bathelie | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7)
+Information: BOARD turn 10 (Dominic) | Busma | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Fathom Mage(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Bathelie triggered Arcane Denial
+Add To Stack: Bathelie triggered Arcane Denial
+Resolve Stack: Draw up to two cards. ([Busma]) [Phase: Dominic]
+Resolve Stack: Draw a card. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 11 (Rosa)
+Information: BOARD turn 11 (Rosa) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Knight of the White Orchid 2/2 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 11 (Rosa) | Rosa | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Stroke of Midnight(3); Island(land); Brotherhood Regalia(2); Genji Glove(5); Excalibur, Sword of Eden(12); Path to Exile(1)
+Information: BOARD turn 11 (Rosa) | Bathelie | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Mountain(land)
+Information: BOARD turn 11 (Rosa) | Busma | life 40 | hand 8 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Fathom Mage(4); Forest(land); Three Visits(2)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Rosa cast Path to Exile targeting [Knight of the White Orchid (98)]
+Information: BOARD cast | Path to Exile (mv 1) by Rosa | open mana: Dominic 2, Bathelie 0, Busma 0
+Zone Change: Knight of the White Orchid (98) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (111) - Exile Knight of the White Orchid (98). Dominic may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Rosa's Main phase, precombat
+Land: Rosa played Island (129)
+Mana: Island (129) - {T}: Add {U}.
+Add To Stack: Rosa cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Rosa | open mana: Dominic 2, Bathelie 0, Busma 0
+Resolve Stack: Brotherhood Regalia
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Bathelie.
+Information: BOARD attack | Rosa -> Bathelie | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Rosa's Declare Blockers Step
+Combat: Bathelie didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 2 combat damage to Bathelie.
+Life: Life: Bathelie 40 > 38
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Rosa cast Adaptive Omnitool
+Information: BOARD cast | Adaptive Omnitool (mv 2) by Rosa | open mana: Dominic 2, Bathelie 0, Busma 0
+Resolve Stack: Adaptive Omnitool
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 12 (Bathelie)
+Information: BOARD turn 12 (Bathelie) | Dominic | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 12 (Bathelie) | Rosa | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 12 (Bathelie) | Bathelie | life 38 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Mountain(land)
+Information: BOARD turn 12 (Bathelie) | Busma | life 40 | hand 8 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Fathom Mage(4); Forest(land); Three Visits(2)
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Land: Bathelie played Mountain (295)
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 13 (Busma)
+Information: BOARD turn 13 (Busma) | Dominic | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 13 (Busma) | Rosa | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 13 (Busma) | Bathelie | life 38 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 13 (Busma) | Busma | life 40 | hand 8 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ingenious Prodigy(1); Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Forest(land); Fathom Mage(4); Forest(land); Three Visits(2)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Land: Busma played Forest (343)
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Busma cast Three Visits
+Information: BOARD cast | Three Visits (mv 2) by Busma | open mana: Dominic 2, Rosa 0, Bathelie 5
+Replacement Effect: Tangled Islet enters tapped.
+Resolve Stack: Three Visits (351) - Busma searches their library for a Forest card, puts it onto the battlefield, then shuffles.
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Mana: Island (332) - {T}: Add {U}.
+Mana: Plains (396) - {T}: Add {W}.
+Add To Stack: Busma cast Ingenious Prodigy
+Information: BOARD cast | Ingenious Prodigy (mv 2) by Busma | open mana: Dominic 2, Rosa 0, Bathelie 5
+Replacement Effect: Ingenious Prodigy enters with X +1/+1 counters on it.
+Resolve Stack: Ingenious Prodigy - Creature 0 / 1 (X=1)
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Dominic | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 14 (Dominic) | Rosa | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 14 (Dominic) | Bathelie | life 38 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 14 (Dominic) | Busma | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Forest(land); Promise of Loyalty(5)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (90)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 15 (Rosa)
+Information: BOARD turn 15 (Rosa) | Dominic | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 15 (Rosa) | Rosa | life 40 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3); Genji Glove(5); Excalibur, Sword of Eden(12)
+Information: BOARD turn 15 (Rosa) | Bathelie | life 38 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 15 (Rosa) | Busma | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Forest(land); Promise of Loyalty(5)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Rosa played Spectator Seating (178)
+Mana: Island (129) - {T}: Add {U}.
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Add To Stack: Rosa cast Genji Glove
+Information: BOARD cast | Genji Glove (mv 5) by Rosa | open mana: Dominic 4, Bathelie 5, Busma 0
+Resolve Stack: Genji Glove
+Add To Stack: Rosa cast Excalibur, Sword of Eden
+Information: BOARD cast | Excalibur, Sword of Eden (mv 12) by Rosa | open mana: Dominic 4, Bathelie 5, Busma 0
+Resolve Stack: Excalibur, Sword of Eden
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Busma.
+Information: BOARD attack | Rosa -> Busma | attackers 1 (power 2) | defender life 40 | untapped creatures 1 (power 1): Ingenious Prodigy 1/2 | open mana 0
+Phase: Rosa's Declare Blockers Step
+Combat: Busma didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 2 combat damage to Busma.
+Life: Life: Busma 40 > 38
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 16 (Bathelie)
+Information: BOARD turn 16 (Bathelie) | Dominic | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 16 (Bathelie) | Rosa | life 40 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 16 (Bathelie) | Bathelie | life 38 | hand 7 | lands 3 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 16 (Bathelie) | Busma | life 38 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Forest(land); Promise of Loyalty(5)
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Bathelie played Blossoming Sands (226)
+Add To Stack: Bathelie triggered Blossoming Sands
+Life: Life: Bathelie 38 > 39
+Resolve Stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (226)]
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 17 (Busma)
+Information: BOARD turn 17 (Busma) | Dominic | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 17 (Busma) | Rosa | life 40 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 17 (Busma) | Bathelie | life 39 | hand 7 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 17 (Busma) | Busma | life 38 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 1/2 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Forest(land); Promise of Loyalty(5)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Add To Stack: Busma triggered Ingenious Prodigy
+Resolve Stack: At the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card. [Phase: Busma]
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Forest (343) - {T}: Add {G}.
+Mana: Island (332) - {T}: Add {U}.
+Mana: Tangled Islet (350) - {T}: Add {G}.
+Add To Stack: Busma cast Promise of Loyalty
+Information: BOARD cast | Promise of Loyalty (mv 5) by Busma | open mana: Dominic 4, Rosa 0, Bathelie 5
+Resolve Stack: Promise of Loyalty (355) - Each player puts a vow counter on a creature they control and sacrifices the rest. Each of those creatures can't attack you or planeswalkers you control for as long as it has a vow counter on it.  
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Land: Busma played Forest (340)
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Dominic | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 18 (Dominic) | Rosa | life 40 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 18 (Dominic) | Bathelie | life 39 | hand 7 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 18 (Dominic) | Busma | life 38 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Gisela, Blade of Goldnight (50).
+Turn: Turn 19 (Rosa)
+Information: BOARD turn 19 (Rosa) | Dominic | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 19 (Rosa) | Rosa | life 40 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2* | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 19 (Rosa) | Bathelie | life 39 | hand 7 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 19 (Rosa) | Busma | life 38 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Land: Rosa played Island (130)
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Rosa activated Brotherhood Regalia targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Brotherhood Regalia (190) -  Attach to Enthusiastic Mechanaut (132)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Dominic.
+Information: BOARD attack | Rosa -> Dominic | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 4
+Phase: Rosa's Declare Blockers Step
+Combat: Dominic didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 2 combat damage to Dominic.
+Life: Life: Dominic 40 > 38
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 20 (Bathelie)
+Information: BOARD turn 20 (Bathelie) | Dominic | life 38 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 20 (Bathelie) | Rosa | life 40 | hand 1 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia] | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 20 (Bathelie) | Bathelie | life 39 | hand 7 | lands 4 (3 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Make Your Move(3); Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Rugged Highlands(land); Dragon Mage(7); Thriving Isle(land)
+Information: BOARD turn 20 (Bathelie) | Busma | life 38 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3)
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Mana: Forest (238) - {T}: Add {G}.
+Mana: Mountain (295) - {T}: Add {R}.
+Add To Stack: Bathelie cast Make Your Move targeting [Excalibur, Sword of Eden (133)]
+Information: BOARD cast | Make Your Move (mv 3) by Bathelie | open mana: Dominic 4, Rosa 6, Busma 1
+Zone Change: Excalibur, Sword of Eden (133) was put into Graveyard from Battlefield.
+Resolve Stack: Make Your Move (288) - Destroy Excalibur, Sword of Eden (133).
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Bathelie played Rugged Highlands (215)
+Add To Stack: Bathelie triggered Rugged Highlands
+Life: Life: Bathelie 39 > 40
+Resolve Stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (215)]
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 21 (Busma)
+Information: BOARD turn 21 (Busma) | Dominic | life 38 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 21 (Busma) | Rosa | life 40 | hand 1 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia] | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 21 (Busma) | Bathelie | life 40 | hand 6 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 21 (Busma) | Busma | life 38 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Ingenious Prodigy 0/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Radiant Grove(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3)
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Phase: Busma's Beginning of Combat Step
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Busma played Radiant Grove (395)
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Island (332) - {T}: Add {U}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Forest (343) - {T}: Add {G}.
+Mana: Forest (340) - {T}: Add {G}.
+Add To Stack: Busma cast Tidus, Yuna's Guardian
+Information: BOARD cast | Tidus, Yuna's Guardian (mv 3) by Busma | open mana: Dominic 4, Rosa 6, Bathelie 3
+Resolve Stack: Tidus, Yuna's Guardian - Creature 3 / 3
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Dominic | life 38 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Unclaimed Territory(land); Breath of Life(4); Emeria Shepherd(7); Plains(land)
+Information: BOARD turn 22 (Dominic) | Rosa | life 40 | hand 1 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia] | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 22 (Dominic) | Bathelie | life 40 | hand 6 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 22 (Dominic) | Busma | life 38 | hand 6 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Temple of Mystery(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3); Grateful Apparition(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Dominic played Unclaimed Territory (43)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Unclaimed Territory (43) - {T}: Add {C}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Rosa 6, Bathelie 3, Busma 1
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 23 (Rosa)
+Information: BOARD turn 23 (Rosa) | Dominic | life 38 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 23 (Rosa) | Rosa | life 40 | hand 1 | lands 5 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia] | hand cards: Stroke of Midnight(3)
+Information: BOARD turn 23 (Rosa) | Bathelie | life 40 | hand 6 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 23 (Rosa) | Busma | life 38 | hand 6 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Temple of Mystery(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3); Grateful Apparition(2)
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Add To Stack: Rosa cast Stroke of Midnight targeting [Seluma, Light of Aysen (100)]
+Information: BOARD cast | Stroke of Midnight (mv 3) by Rosa | open mana: Dominic 0, Bathelie 3, Busma 1
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Resolve Stack: Stroke of Midnight (110) - Destroy Seluma, Light of Aysen (100). 
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Dominic.
+Information: BOARD attack | Rosa -> Dominic | attackers 1 (power 2) | defender life 38 | untapped creatures 1 (power 1): Human Token 1/1 | open mana 0
+Phase: Rosa's Declare Blockers Step
+Combat: Dominic didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 2 combat damage to Dominic.
+Life: Life: Dominic 38 > 36
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Add To Stack: Rosa cast Shuri, Wakandan Inventor
+Information: BOARD cast | Shuri, Wakandan Inventor (mv 2) by Rosa | open mana: Dominic 0, Bathelie 3, Busma 1
+Resolve Stack: Shuri, Wakandan Inventor - Creature 2 / 1
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 24 (Bathelie)
+Information: BOARD turn 24 (Bathelie) | Dominic | life 36 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 24 (Bathelie) | Rosa | life 40 | hand 0 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1 | hand cards: 
+Information: BOARD turn 24 (Bathelie) | Bathelie | life 40 | hand 6 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 24 (Bathelie) | Busma | life 38 | hand 6 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Temple of Mystery(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3); Grateful Apparition(2)
+Information: BOARD threat | turn 24 | Enthusiastic Mechanaut (Rosa) 37
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Land: Bathelie played Underground River (217)
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Bathelie picked {B}
+Damage: Underground River (217) deals 1 non-combat damage to Bathelie.
+Life: Life: Bathelie 40 > 39
+Mana: Underground River (217) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Land: Bathelie picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Mountain (295) - {T}: Add {R}.
+Mana: Forest (238) - {T}: Add {G}.
+Add To Stack: Bathelie cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bathelie | open mana: Dominic 0, Rosa 0, Busma 1
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 25 (Busma)
+Information: BOARD turn 25 (Busma) | Dominic | life 36 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 25 (Busma) | Rosa | life 40 | hand 0 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1 | hand cards: 
+Information: BOARD turn 25 (Busma) | Bathelie | life 39 | hand 6 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 25 (Busma) | Busma | life 38 | hand 6 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3 | hand cards: Altered Ego(4); Temple of Mystery(land); Fathom Mage(4); Arcane Signet(2); Resourceful Defense(3); Grateful Apparition(2)
+Information: BOARD threat | turn 25 | Enthusiastic Mechanaut (Rosa) 35
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Phase: Busma's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Busma's Declare Attackers Step
+Combat: Busma assigned Tidus, Yuna's Guardian (403) to attack Rosa.
+Information: BOARD attack | Busma -> Rosa | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 2): Shuri, Wakandan Inventor 2/1 | open mana 0
+Phase: Busma's Declare Blockers Step
+Combat: Rosa didn't block Tidus, Yuna's Guardian (403).
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Damage: Tidus, Yuna's Guardian (403) deals 3 combat damage to Rosa.
+Life: Life: Rosa 40 > 37
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Busma played Path of Ancestry (313)
+Mana: Island (332) - {T}: Add {U}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Forest (343) - {T}: Add {G}.
+Mana: Forest (340) - {T}: Add {G}.
+Add To Stack: Busma cast Fathom Mage
+Information: BOARD cast | Fathom Mage (mv 4) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 3
+Resolve Stack: Fathom Mage - Creature 1 / 1
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Tangled Islet (350) - {T}: Add {G}.
+Add To Stack: Busma cast Grateful Apparition
+Information: BOARD cast | Grateful Apparition (mv 2) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 3
+Resolve Stack: Grateful Apparition - Creature 1 / 1
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Dominic | life 36 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Human Token 1/1 | hand cards: Nim Deathmantle(2); Sigarda, Host of Herons(5); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 26 (Dominic) | Rosa | life 37 | hand 0 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1 | hand cards: 
+Information: BOARD turn 26 (Dominic) | Bathelie | life 39 | hand 6 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 26 (Dominic) | Busma | life 38 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3*; Fathom Mage 1/1; Grateful Apparition 1/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3)
+Information: BOARD threat | turn 26 | Enthusiastic Mechanaut (Rosa) 34
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (86)
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Unclaimed Territory (43) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add To Stack: Dominic cast Sigarda, Host of Herons
+Information: BOARD cast | Sigarda, Host of Herons (mv 5) by Dominic | open mana: Rosa 0, Bathelie 3, Busma 1
+Resolve Stack: Sigarda, Host of Herons - Creature 5 / 5
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 27 (Rosa)
+Information: BOARD turn 27 (Rosa) | Dominic | life 36 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 27 (Rosa) | Rosa | life 37 | hand 0 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1 | hand cards: 
+Information: BOARD turn 27 (Rosa) | Bathelie | life 39 | hand 6 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 27 (Rosa) | Busma | life 38 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3*; Fathom Mage 1/1; Grateful Apparition 1/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3)
+Information: BOARD threat | turn 27 | Enthusiastic Mechanaut (Rosa) 32
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Replacement Effect: Inspiring Vantage enters tapped unless you control two or fewer other lands.
+Land: Rosa played Inspiring Vantage (155)
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Land: Rosa picked {R}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Mana: Island (129) - {T}: Add {U}.
+Add To Stack: Rosa cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Rosa | open mana: Dominic 1, Bathelie 3, Busma 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Rosa's Beginning of Combat Step
+Add To Stack: Rosa triggered Captain America, First Avenger targeting [Genji Glove (195)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Genji Glove (195)]]) [Phase: Rosa]
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Dominic.
+Information: BOARD attack | Rosa -> Dominic | attackers 1 (power 2) | defender life 36 | untapped creatures 2 (power 6): Human Token 1/1; Sigarda, Host of Herons 5/5 | open mana 1
+Phase: Rosa's Declare Blockers Step
+Combat: Dominic didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 2 combat damage to Dominic.
+Life: Life: Dominic 36 > 34
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 28 (Bathelie)
+Information: BOARD turn 28 (Bathelie) | Dominic | life 34 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 28 (Bathelie) | Rosa | life 37 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 28 (Bathelie) | Bathelie | life 39 | hand 6 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 4/4 | hand cards: Living Death(5); Solemn Simulacrum(4); Child of Alara(5); Dragon Mage(7); Thriving Isle(land); Inkshield(5)
+Information: BOARD turn 28 (Bathelie) | Busma | life 38 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3*; Fathom Mage 1/1; Grateful Apparition 1/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3)
+Information: BOARD threat | turn 28 | Enthusiastic Mechanaut (Rosa) 43
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Mana: Mountain (295) - {T}: Add {R}.
+Mana: Forest (238) - {T}: Add {G}.
+Add To Stack: Bathelie cast Ruby, Daring Tracker
+Information: BOARD cast | Ruby, Daring Tracker (mv 2) by Bathelie | open mana: Dominic 1, Rosa 4, Busma 1
+Resolve Stack: Ruby, Daring Tracker - Creature 1 / 2
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Combat: Bathelie assigned Scion of the Ur-Dragon (302) to attack Rosa.
+Information: BOARD attack | Bathelie -> Rosa | attackers 1 (power 4) | defender life 37 | untapped creatures 2 (power 6): Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | open mana 4
+Phase: Bathelie's Declare Blockers Step
+Combat: Rosa didn't block Scion of the Ur-Dragon (302).
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Rosa.
+Life: Life: Rosa 37 > 33
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Replacement Effect: Thriving Isle enters tapped.
+Replacement Effect: As Thriving Isle enters, choose a color other than blue.
+Land: Bathelie played Thriving Isle (257)
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Bathelie picked {B}
+Damage: Underground River (217) deals 1 non-combat damage to Bathelie.
+Life: Life: Bathelie 39 > 38
+Mana: Underground River (217) - {T}: Add {U} or {B}. Underground River deals 1 damage to you. 
+Land: Bathelie picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Land: Bathelie picked {G}
+Mana: Ruby, Daring Tracker (280) - {T}: Add {R} or {G}.
+Add To Stack: Bathelie cast Child of Alara
+Information: BOARD cast | Child of Alara (mv 5) by Bathelie | open mana: Dominic 1, Rosa 4, Busma 1
+Resolve Stack: Child of Alara - Creature 6 / 6
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 29 (Busma)
+Information: BOARD turn 29 (Busma) | Dominic | life 34 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 29 (Busma) | Rosa | life 33 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 29 (Busma) | Bathelie | life 38 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Scion of the Ur-Dragon 4/4*; Ruby, Daring Tracker 1/2*; Child of Alara 6/6 | hand cards: Living Death(5); Solemn Simulacrum(4); Dragon Mage(7); Inkshield(5)
+Information: BOARD turn 29 (Busma) | Busma | life 38 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (3 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3*; Fathom Mage 1/1; Grateful Apparition 1/1 | hand cards: Altered Ego(4); Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3)
+Information: BOARD threat | turn 29 | Enthusiastic Mechanaut (Rosa) 41
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Island (332) - {T}: Add {U}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Busma cast Yuna, Grand Summoner
+Information: BOARD cast | Yuna, Grand Summoner (mv 4) by Busma | open mana: Dominic 1, Rosa 4, Bathelie 0
+Resolve Stack: Yuna, Grand Summoner - Creature 1 / 5
+Add To Stack: Busma triggered Fathom Mage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Yuna, Grand Summoner (326)]
+Add To Stack: Busma triggered Fathom Mage
+Resolve Stack: Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card. [Added once: Fathom Mage (402)]
+Phase: Busma's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Phase: Busma's Declare Attackers Step
+Combat: Busma assigned Grateful Apparition (370) to attack Bathelie.
+Information: BOARD attack | Busma -> Bathelie | attackers 1 (power 1) | defender life 38 | untapped creatures 1 (power 6): Child of Alara 6/6 | open mana 0
+Phase: Busma's Declare Blockers Step
+Combat: Bathelie didn't block Grateful Apparition (370).
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Damage: Grateful Apparition (370) deals 1 combat damage to Bathelie.
+Life: Life: Bathelie 38 > 37
+Add To Stack: Busma triggered Grateful Apparition
+Resolve Stack: Whenever Grateful Apparition deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.) [Damage Source: Grateful Apparition (370), Damaged: Bathelie, Amount: 1]
+Add To Stack: Busma triggered Fathom Mage
+Resolve Stack: Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card. [Added once: Fathom Mage (402)]
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Land: Busma played Brushland (357)
+Mana: Tangled Islet (350) - {T}: Add {U}.
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Radiant Grove (395) - {T}: Add {G}.
+Land: Busma picked {W}
+Mana: Path of Ancestry (313) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Brushland (357) - {T}: Add {C}.
+Add To Stack: Busma cast Altered Ego
+Information: BOARD cast | Altered Ego (mv 5) by Busma | open mana: Dominic 1, Rosa 4, Bathelie 0
+Replacement Effect: You may have Captain America, First Avenger enter as a copy of any creature on the battlefield, except it enters with X additional +1/+1 counters on it.
+Resolve Stack: Altered Ego - Creature 0 / 0 (X=1)
+Add To Stack: Busma triggered Fathom Mage
+Resolve Stack: Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.) [Zone Changer: Captain America, First Avenger (368)]
+Add To Stack: Busma triggered Fathom Mage
+Resolve Stack: Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card. [Added once: Fathom Mage (402)]
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 30 (Dominic)
+Information: BOARD turn 30 (Dominic) | Dominic | life 34 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 30 (Dominic) | Rosa | life 33 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 30 (Dominic) | Bathelie | life 37 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Scion of the Ur-Dragon 4/4*; Ruby, Daring Tracker 1/2*; Child of Alara 6/6 | hand cards: Living Death(5); Solemn Simulacrum(4); Dragon Mage(7); Inkshield(5)
+Information: BOARD turn 30 (Dominic) | Busma | life 38 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1*; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5 | hand cards: Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3); Island(land); Evolving Wilds(land)
+Information: BOARD threat | turn 30 | Fathom Mage (Busma) 72; Enthusiastic Mechanaut (Rosa) 39
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 31 (Rosa)
+Information: BOARD turn 31 (Rosa) | Dominic | life 34 | hand 7 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2); Secluded Courtyard(land)
+Information: BOARD turn 31 (Rosa) | Rosa | life 33 | hand 0 | lands 6 (2 untapped) | open mana 4 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2*[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 31 (Rosa) | Bathelie | life 37 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Scion of the Ur-Dragon 4/4*; Ruby, Daring Tracker 1/2*; Child of Alara 6/6 | hand cards: Living Death(5); Solemn Simulacrum(4); Dragon Mage(7); Inkshield(5)
+Information: BOARD turn 31 (Rosa) | Busma | life 38 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1*; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5 | hand cards: Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3); Island(land); Evolving Wilds(land)
+Information: BOARD threat | turn 31 | Fathom Mage (Busma) 69; Enthusiastic Mechanaut (Rosa) 38
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Rosa activated Captain America, First Avenger targeting [Scion of the Ur-Dragon (302)]
+Damage: Captain America, First Avenger (201) deals 5 damage to Scion of the Ur-Dragon (302).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 5 damage divided to 
+Scion of the Ur-Dragon (302) (5 damage).
+Zone Change: Scion of the Ur-Dragon (302) was put into Graveyard from Battlefield.
+Land: Rosa picked {R}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Rosa cast The Reaver Cleaver
+Information: BOARD cast | The Reaver Cleaver (mv 3) by Rosa | open mana: Dominic 6, Bathelie 0, Busma 0
+Resolve Stack: The Reaver Cleaver
+Phase: Rosa's Beginning of Combat Step
+Add To Stack: Rosa triggered Captain America, First Avenger targeting [Genji Glove (195)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Genji Glove (195)]]) [Phase: Rosa]
+Phase: Rosa's Declare Attackers Step
+Phase: Rosa's Declare Blockers Step
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 32 (Bathelie)
+Information: BOARD turn 32 (Bathelie) | Dominic | life 34 | hand 7 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2); Secluded Courtyard(land)
+Information: BOARD turn 32 (Bathelie) | Rosa | life 33 | hand 0 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Enthusiastic Mechanaut 2/2[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 32 (Bathelie) | Bathelie | life 37 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Ruby, Daring Tracker 1/2*; Child of Alara 6/6 | hand cards: Living Death(5); Solemn Simulacrum(4); Dragon Mage(7); Inkshield(5)
+Information: BOARD turn 32 (Bathelie) | Busma | life 38 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1*; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5 | hand cards: Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3); Island(land); Evolving Wilds(land)
+Information: BOARD threat | turn 32 | Fathom Mage (Busma) 66; Captain America, First Avenger (Rosa) 41; Enthusiastic Mechanaut (Rosa) 36
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Land: Bathelie played Haven of the Spirit Dragon (224)
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Mana: Mountain (295) - {T}: Add {R}.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Mana: Forest (238) - {T}: Add {G}.
+Land: Bathelie picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Land: Bathelie picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bathelie picked {G}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Bathelie picked {R}
+Mana: Ruby, Daring Tracker (280) - {T}: Add {R} or {G}.
+Add To Stack: Bathelie cast Dragon Mage
+Information: BOARD cast | Dragon Mage (mv 7) by Bathelie | open mana: Dominic 6, Rosa 6, Busma 0
+Resolve Stack: Dragon Mage - Creature 5 / 5
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 33 (Busma)
+Information: BOARD turn 33 (Busma) | Dominic | life 34 | hand 7 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2); Secluded Courtyard(land)
+Information: BOARD turn 33 (Busma) | Rosa | life 33 | hand 0 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Enthusiastic Mechanaut 2/2[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 33 (Busma) | Bathelie | life 37 | hand 3 | lands 8 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Ruby, Daring Tracker 1/2*; Child of Alara 6/6; Dragon Mage 5/5 | hand cards: Living Death(5); Solemn Simulacrum(4); Inkshield(5)
+Information: BOARD turn 33 (Busma) | Busma | life 38 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1*; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5 | hand cards: Temple of Mystery(land); Arcane Signet(2); Resourceful Defense(3); Island(land); Evolving Wilds(land)
+Information: BOARD threat | turn 33 | Fathom Mage (Busma) 64; Captain America, First Avenger (Rosa) 39; Enthusiastic Mechanaut (Rosa) 35
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Land: Busma played Island (333)
+Phase: Busma's Beginning of Combat Step
+Add To Stack: Tidus, Yuna's Guardian (403) - [Couldn't add to stack, failed to target] - 
+Add To Stack: Busma triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Busma]
+Phase: Busma's Declare Attackers Step
+Combat: Busma assigned Captain America, First Avenger (368) to attack Rosa.
+Information: BOARD attack | Busma -> Rosa | attackers 1 (power 5) | defender life 33 | untapped creatures 3 (power 8): Enthusiastic Mechanaut 2/2[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | open mana 6
+Phase: Busma's Declare Blockers Step
+Combat: Rosa didn't block Captain America, First Avenger (368).
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Damage: Captain America, First Avenger (368) deals 5 combat damage to Rosa.
+Life: Life: Rosa 33 > 28
+Add To Stack: Busma triggered Tidus, Yuna's Guardian
+Resolve Stack: Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn. [Damaged: Rosa, Amount: 5]
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Island (332) - {T}: Add {U}.
+Add To Stack: Busma cast Resourceful Defense
+Information: BOARD cast | Resourceful Defense (mv 3) by Busma | open mana: Dominic 6, Rosa 6, Bathelie 4
+Resolve Stack: Resourceful Defense
+Mana: Radiant Grove (395) - {T}: Add {W}.
+Mana: Forest (343) - {T}: Add {G}.
+Add To Stack: Busma cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Busma | open mana: Dominic 6, Rosa 6, Bathelie 4
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Mana: Forest (340) - {T}: Add {G}.
+Mana: Island (333) - {T}: Add {U}.
+Add To Stack: Busma cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Busma | open mana: Dominic 6, Rosa 6, Bathelie 4
+Resolve Stack: Arcane Signet
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 34 (Dominic)
+Information: BOARD turn 34 (Dominic) | Dominic | life 34 | hand 7 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Plains(land); Bishop of Wings(2); Secluded Courtyard(land)
+Information: BOARD turn 34 (Dominic) | Rosa | life 28 | hand 0 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Enthusiastic Mechanaut 2/2[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 34 (Dominic) | Bathelie | life 37 | hand 3 | lands 8 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Ruby, Daring Tracker 1/2*; Child of Alara 6/6; Dragon Mage 5/5 | hand cards: Living Death(5); Solemn Simulacrum(4); Inkshield(5)
+Information: BOARD turn 34 (Dominic) | Busma | life 38 | hand 2 | lands 10 (3 untapped) | open mana 9 | commander Battlefield | creatures 7 (6 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5*; Metastatic Evangel 3/1 | hand cards: Temple of Mystery(land); Evolving Wilds(land)
+Information: BOARD threat | turn 34 | Fathom Mage (Busma) 61; Captain America, First Avenger (Busma) 43; Captain America, First Avenger (Rosa) 38; Enthusiastic Mechanaut (Rosa) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (89)
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Unclaimed Territory (43) - {T}: Add {C}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Rosa 6, Bathelie 4, Busma 9
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 35 (Rosa)
+Information: BOARD turn 35 (Rosa) | Dominic | life 34 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Human Token 1/1; Sigarda, Host of Herons 5/5; Seluma, Light of Aysen 4/4 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Bishop of Wings(2); Secluded Courtyard(land); Angel of the Ruins(7)
+Information: BOARD turn 35 (Rosa) | Rosa | life 28 | hand 0 | lands 6 (2 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Enthusiastic Mechanaut 2/2[Brotherhood Regalia]; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4[Genji Glove] | hand cards: 
+Information: BOARD turn 35 (Rosa) | Bathelie | life 37 | hand 3 | lands 8 (2 untapped) | open mana 4 | commander Command | creatures 3 (2 untapped): Ruby, Daring Tracker 1/2*; Child of Alara 6/6; Dragon Mage 5/5 | hand cards: Living Death(5); Solemn Simulacrum(4); Inkshield(5)
+Information: BOARD turn 35 (Rosa) | Busma | life 38 | hand 2 | lands 10 (3 untapped) | open mana 9 | commander Battlefield | creatures 7 (6 untapped): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1; Yuna, Grand Summoner 1/5; Captain America, First Avenger 5/5*; Metastatic Evangel 3/1 | hand cards: Temple of Mystery(land); Evolving Wilds(land)
+Information: BOARD threat | turn 35 | Fathom Mage (Busma) 59; Captain America, First Avenger (Busma) 41; Captain America, First Avenger (Rosa) 36; Enthusiastic Mechanaut (Rosa) 32
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Rosa activated Captain America, First Avenger targeting [Seluma, Light of Aysen (100), Human Token (407)]
+Damage: Captain America, First Avenger (201) deals 4 damage to Seluma, Light of Aysen (100).
+Damage: Captain America, First Avenger (201) deals 1 damage to Human Token (407).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 5 damage divided to 
+Seluma, Light of Aysen (100) (4 damage) and Human Token (407) (1 damage).
+Zone Change: Human Token (407) was put into Graveyard from Battlefield.
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Add To Stack: Rosa activated Brotherhood Regalia targeting [Captain America, First Avenger (201)]
+Resolve Stack: Brotherhood Regalia (190) -  Attach to Captain America, First Avenger (201)
+Phase: Rosa's Beginning of Combat Step
+Add To Stack: Rosa triggered Captain America, First Avenger targeting [Genji Glove (195)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Genji Glove (195)]]) [Phase: Rosa]
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Captain America, First Avenger (201) to attack Busma.
+Information: BOARD attack | Rosa -> Busma | attackers 1 (power 4) | defender life 38 | untapped creatures 6 (power 12): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1; Yuna, Grand Summoner 1/5; Metastatic Evangel 3/1 | open mana 9
+Add To Stack: Rosa triggered Genji Glove
+Resolve Stack: Whenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase. [Attacker: Captain America, First Avenger (201)]
+Phase: Rosa's Declare Blockers Step
+Combat: Busma didn't block Captain America, First Avenger (201).
+Phase: Rosa's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 4 combat damage to Busma.
+Life: Life: Busma 38 > 34
+Phase: Rosa's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 4 combat damage to Busma.
+Life: Life: Busma 34 > 30
+Phase: Rosa's End of Combat Step
+Phase: AdditionalRosa's Beginning of Combat Step
+Add To Stack: Rosa triggered Captain America, First Avenger targeting [The Reaver Cleaver (126)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[The Reaver Cleaver (126)]]) [Phase: Rosa]
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Captain America, First Avenger (201) to attack Busma.
+Information: BOARD attack | Rosa -> Busma | attackers 1 (power 5) | defender life 30 | untapped creatures 6 (power 12): Ingenious Prodigy 0/1; Tidus, Yuna's Guardian 3/3; Fathom Mage 4/4; Grateful Apparition 1/1; Yuna, Grand Summoner 1/5; Metastatic Evangel 3/1 | open mana 9
+Phase: Rosa's Declare Blockers Step
+Combat: Busma didn't block Captain America, First Avenger (201).
+Phase: Rosa's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to Busma.
+Life: Life: Busma 30 > 25
+Add To Stack: Rosa triggered Captain America, First Avenger
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Captain America, First Avenger (201), Damaged: Busma, Amount: 5]
+Phase: Rosa's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 5 combat damage to Busma.
+Life: Life: Busma 25 > 20
+Add To Stack: Rosa triggered Captain America, First Avenger
+Resolve Stack: Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens. [Damage Source: Captain America, First Avenger (201), Damaged: Busma, Amount: 5]
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Rosa played Path of Ancestry (113)
+Zone Change: Treasure Token (421) was put into Graveyard from Battlefield.
+Land: Treasure Token (421) picked {W}
+Mana: Treasure Token (421) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (420) was put into Graveyard from Battlefield.
+Land: Treasure Token (420) picked {W}
+Mana: Treasure Token (420) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Land: Treasure Token (419) picked {W}
+Mana: Treasure Token (419) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Rosa activated Captain America, First Avenger targeting [Grateful Apparition (370), Metastatic Evangel (319)]
+Damage: Captain America, First Avenger (201) deals 1 damage to Grateful Apparition (370).
+Damage: Captain America, First Avenger (201) deals 1 damage to Metastatic Evangel (319).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 2 damage divided to 
+Grateful Apparition (370) (1 damage) and Metastatic Evangel (319) (1 damage).
+Zone Change: Grateful Apparition (370) was put into Graveyard from Battlefield.
+Zone Change: Metastatic Evangel (319) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (418) was put into Graveyard from Battlefield.
+Land: Treasure Token (418) picked {W}
+Mana: Treasure Token (418) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {W}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (414) was put into Graveyard from Battlefield.
+Land: Treasure Token (414) picked {W}
+Mana: Treasure Token (414) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Rosa activated Captain America, First Avenger targeting [Ruby, Daring Tracker (280), Ingenious Prodigy (367)]
+Damage: Captain America, First Avenger (201) deals 2 damage to Ruby, Daring Tracker (280).
+Damage: Captain America, First Avenger (201) deals 1 damage to Ingenious Prodigy (367).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 3 damage divided to 
+Ruby, Daring Tracker (280) (2 damage) and Ingenious Prodigy (367) (1 damage).
+Zone Change: Ruby, Daring Tracker (280) was put into Graveyard from Battlefield.
+Zone Change: Ingenious Prodigy (367) was put into Graveyard from Battlefield.
+Add To Stack: Busma triggered Yuna, Grand Summoner targeting [Captain America, First Avenger (368)]
+Add To Stack: Busma triggered Resourceful Defense targeting [Yuna, Grand Summoner (326)]
+Zone Change: Treasure Token (413) was put into Graveyard from Battlefield.
+Land: Treasure Token (413) picked {W}
+Mana: Treasure Token (413) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (412) was put into Graveyard from Battlefield.
+Land: Treasure Token (412) picked {W}
+Mana: Treasure Token (412) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (411) was put into Graveyard from Battlefield.
+Land: Treasure Token (411) picked {W}
+Mana: Treasure Token (411) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Rosa activated Captain America, First Avenger targeting [Tidus, Yuna's Guardian (403)]
+Damage: Captain America, First Avenger (201) deals 5 damage to Tidus, Yuna's Guardian (403).
+Resolve Stack: Captain America, First Avenger (201) - Captain America, First Avenger (201) deals 5 damage divided to 
+Tidus, Yuna's Guardian (403) (5 damage).
+Zone Change: Tidus, Yuna's Guardian (403) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a permanent you control leaves the battlefield, if it had counters on it, put those counters on target permanent you control. (Targeting: [[Yuna, Grand Summoner (326)]]) [Zone Changer: Ingenious Prodigy (367)]
+Resolve Stack: Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature. (Targeting: [[Captain America, First Avenger (368)]]) [Zone Changer: Ingenious Prodigy (367)]
+Zone Change: Treasure Token (410) was put into Graveyard from Battlefield.
+Land: Treasure Token (410) picked {W}
+Mana: Treasure Token (410) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Rosa activated Brotherhood Regalia targeting [Captain America, First Avenger (201)]
+Resolve Stack: Brotherhood Regalia (190) -  Attach to Captain America, First Avenger (201)
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 36 (Bathelie)
+Information: BOARD turn 36 (Bathelie) | Dominic | life 34 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Nim Deathmantle(2); Subjugator Angel(6); Breath of Life(4); Emeria Shepherd(7); Bishop of Wings(2); Secluded Courtyard(land); Angel of the Ruins(7)
+Information: BOARD turn 36 (Bathelie) | Rosa | life 28 | hand 0 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Brotherhood Regalia] | hand cards: 
+Information: BOARD turn 36 (Bathelie) | Bathelie | life 37 | hand 3 | lands 8 (2 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Child of Alara 6/6; Dragon Mage 5/5 | hand cards: Living Death(5); Solemn Simulacrum(4); Inkshield(5)
+Information: BOARD turn 36 (Bathelie) | Busma | life 20 | hand 2 | lands 10 (3 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Fathom Mage 4/4; Yuna, Grand Summoner 1/5; Captain America, First Avenger 7/7* | hand cards: Temple of Mystery(land); Evolving Wilds(land)
+Information: BOARD threat | turn 36 | Captain America, First Avenger (Rosa) 254; Fathom Mage (Busma) 56; Captain America, First Avenger (Busma) 40; Brotherhood Regalia (Rosa) 36; Enthusiastic Mechanaut (Rosa) 31
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Combat: Bathelie assigned Child of Alara (267) and Dragon Mage (227) to attack Rosa.
+Information: BOARD attack | Bathelie -> Rosa | attackers 2 (power 11) | defender life 28 | untapped creatures 2 (power 4): Enthusiastic Mechanaut 2/2; Shuri, Wakandan Inventor 2/1 | open mana 0
+Phase: Bathelie's Declare Blockers Step
+Combat: Rosa didn't block Child of Alara (267).
+Rosa didn't block Dragon Mage (227).
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Damage: Child of Alara (267) deals 6 combat damage to Rosa.
+Damage: Dragon Mage (227) deals 5 combat damage to Rosa.
+Life: Life: Rosa 28 > 17
+Add To Stack: Bathelie triggered Dragon Mage
+Discard: Dominic discards Nim Deathmantle (1).
+Discard: Dominic discards Subjugator Angel (35).
+Discard: Dominic discards Breath of Life (17).
+Discard: Dominic discards Emeria Shepherd (7).
+Discard: Dominic discards Bishop of Wings (62).
+Discard: Dominic discards Secluded Courtyard (5).
+Discard: Dominic discards Angel of the Ruins (8).
+Discard: Bathelie discards Living Death (230).
+Discard: Bathelie discards Solemn Simulacrum (241).
+Discard: Bathelie discards Inkshield (207).
+Discard: Bathelie discards Patriarch's Bidding (301).
+Discard: Busma discards Temple of Mystery (305).
+Discard: Busma discards Evolving Wilds (338).
+Resolve Stack: Whenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards. [Damage Source: Dragon Mage (227), Damaged: Rosa, Amount: 5]
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Land: Bathelie played Shivan Reef (228)
+Add To Stack: Bathelie cast Mox Jasper
+Information: BOARD cast | Mox Jasper (mv 0) by Bathelie | open mana: Dominic 0, Rosa 0, Busma 9
+Resolve Stack: Mox Jasper
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Mox Jasper (244) picked {B}
+Mana: Mox Jasper (244) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Mana: Forest (238) - {T}: Add {G}.
+Land: Bathelie picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Mountain (295) - {T}: Add {R}.
+Land: Bathelie picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Add To Stack: Bathelie cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Bathelie | open mana: Dominic 0, Rosa 0, Busma 9
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Haven of the Spirit Dragon (224) - {T}: Add {C}.
+Add To Stack: Bathelie activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (302) - Bathelie searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (302) becomes a copy of The Ur-Dragon (302).
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 37 (Busma)
+Information: BOARD turn 37 (Busma) | Dominic | life 34 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Plains(land); Plains(land); Mazemind Tome(2); Herald's Horn(3); Plains(land); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 37 (Busma) | Rosa | life 17 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Brotherhood Regalia] | hand cards: Kediss, Emberclaw Familiar(2); Darksteel Plate(3); Hengegate Pathway(land); Exotic Orchard(land); Plains(land); Leonin Shikari(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 37 (Busma) | Bathelie | life 37 | hand 5 | lands 9 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Child of Alara 6/6*; Dragon Mage 5/5*; Scion of the Ur-Dragon 4/4 | hand cards: Swords to Plowshares(1); Slip On the Ring(2); Arcane Signet(2); Perennation(6); Ghostly Prison(3)
+Information: BOARD turn 37 (Busma) | Busma | life 20 | hand 7 | lands 10 (3 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Fathom Mage 4/4; Yuna, Grand Summoner 1/5; Captain America, First Avenger 7/7* | hand cards: Forest(land); Island(land); Bred for the Hunt(3); Luminous Broodmoth(4); Canopy Vista(land); Court of Garenbrig(3); Temple of Enlightenment(land)
+Information: BOARD threat | turn 37 | Captain America, First Avenger (Rosa) 244; Fathom Mage (Busma) 54; Dragon Mage (Bathelie) 43; Captain America, First Avenger (Busma) 38; Brotherhood Regalia (Rosa) 35
+Phase: Busma's Untap step
+Phase: Busma's Upkeep step
+Phase: Busma's Draw step
+Phase: Busma's Main phase, precombat
+Replacement Effect: Canopy Vista enters tapped unless you control two or more basic lands.
+Land: Busma played Canopy Vista (376)
+Mana: Island (332) - {T}: Add {U}.
+Mana: Forest (345) - {T}: Add {G}.
+Mana: Island (333) - {T}: Add {U}.
+Add To Stack: Busma cast Bred for the Hunt
+Information: BOARD cast | Bred for the Hunt (mv 3) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 3
+Resolve Stack: Bred for the Hunt
+Phase: Busma's Beginning of Combat Step
+Add To Stack: Busma triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Busma]
+Phase: Busma's Declare Attackers Step
+Phase: Busma's Declare Blockers Step
+Phase: Busma's First Strike Damage Step
+Phase: Busma's Combat Damage Step
+Phase: Busma's End of Combat Step
+Phase: Busma's Main phase, postcombat
+Mana: Plains (396) - {T}: Add {W}.
+Mana: Radiant Grove (395) - {T}: Add {W}.
+Mana: Forest (343) - {T}: Add {G}.
+Mana: Forest (340) - {T}: Add {G}.
+Add To Stack: Busma cast Luminous Broodmoth
+Information: BOARD cast | Luminous Broodmoth (mv 4) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 3
+Resolve Stack: Luminous Broodmoth - Creature 3 / 4
+Mana: Tangled Islet (350) - {T}: Add {U}.
+Mana: Canopy Vista (376) - {T}: Add {G}.
+Land: Busma picked {G}
+Mana: Path of Ancestry (313) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Busma picked {G}
+Mana: Arcane Signet (362) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Busma cast Dreamdew Entrancer
+Information: BOARD cast | Dreamdew Entrancer (mv 4) by Busma | open mana: Dominic 0, Rosa 0, Bathelie 3
+Resolve Stack: Dreamdew Entrancer - Creature 3 / 4
+Add To Stack: Busma triggered Dreamdew Entrancer targeting [Scion of the Ur-Dragon (302)]
+Resolve Stack: When Dreamdew Entrancer enters, tap up to one creature and put three stun counters on it. If you control that creature, draw two cards. (Targeting: [[Scion of the Ur-Dragon (302)]]) [Zone Changer: Dreamdew Entrancer (392)]
+Phase: Busma's End step
+Phase: Busma's Cleanup step
+Turn: Turn 38 (Dominic)
+Information: BOARD turn 38 (Dominic) | Dominic | life 34 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Plains(land); Plains(land); Mazemind Tome(2); Herald's Horn(3); Plains(land); Swiftfoot Boots(2); Plains(land)
+Information: BOARD turn 38 (Dominic) | Rosa | life 17 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Brotherhood Regalia] | hand cards: Kediss, Emberclaw Familiar(2); Darksteel Plate(3); Hengegate Pathway(land); Exotic Orchard(land); Plains(land); Leonin Shikari(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 38 (Dominic) | Bathelie | life 37 | hand 5 | lands 9 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Child of Alara 6/6*; Dragon Mage 5/5*; Scion of the Ur-Dragon 4/4* | hand cards: Swords to Plowshares(1); Slip On the Ring(2); Arcane Signet(2); Perennation(6); Ghostly Prison(3)
+Information: BOARD turn 38 (Dominic) | Busma | life 20 | hand 4 | lands 11 (1 untapped) | open mana 4 | commander Command | creatures 5 (5 untapped): Fathom Mage 4/4; Yuna, Grand Summoner 1/5; Captain America, First Avenger 7/7; Luminous Broodmoth 3/4; Dreamdew Entrancer 3/4 | hand cards: Forest(land); Island(land); Court of Garenbrig(3); Temple of Enlightenment(land)
+Information: BOARD threat | turn 38 | Captain America, First Avenger (Rosa) 234; Fathom Mage (Busma) 52; Captain America, First Avenger (Busma) 51; Dragon Mage (Bathelie) 41; Brotherhood Regalia (Rosa) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (73)
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Phase: devDominic's Main phase, precombat
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Add To Stack: Dominic cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Dominic | open mana: Rosa 0, Bathelie 3, Busma 4
+Resolve Stack: Swiftfoot Boots
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Add To Stack: Dominic cast Herald's Horn
+Information: BOARD cast | Herald's Horn (mv 3) by Dominic | open mana: Rosa 0, Bathelie 3, Busma 4
+Replacement Effect: As Herald's Horn enters, choose a creature type.
+Resolve Stack: Herald's Horn
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Add To Stack: Dominic cast Mazemind Tome
+Information: BOARD cast | Mazemind Tome (mv 2) by Dominic | open mana: Rosa 0, Bathelie 3, Busma 4
+Resolve Stack: Mazemind Tome
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 39 (Rosa)
+Information: BOARD turn 39 (Rosa) | Dominic | life 34 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Plains(land); Plains(land); Plains(land); Angel of Despair(7)
+Information: BOARD turn 39 (Rosa) | Rosa | life 17 | hand 7 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Enthusiastic Mechanaut 2/2; Shuri, Wakandan Inventor 2/1; Captain America, First Avenger 4/4*[Brotherhood Regalia] | hand cards: Kediss, Emberclaw Familiar(2); Darksteel Plate(3); Hengegate Pathway(land); Exotic Orchard(land); Plains(land); Leonin Shikari(2); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 39 (Rosa) | Bathelie | life 37 | hand 5 | lands 9 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Child of Alara 6/6*; Dragon Mage 5/5*; Scion of the Ur-Dragon 4/4* | hand cards: Swords to Plowshares(1); Slip On the Ring(2); Arcane Signet(2); Perennation(6); Ghostly Prison(3)
+Information: BOARD turn 39 (Rosa) | Busma | life 20 | hand 4 | lands 11 (1 untapped) | open mana 4 | commander Command | creatures 5 (5 untapped): Fathom Mage 4/4; Yuna, Grand Summoner 1/5; Captain America, First Avenger 7/7; Luminous Broodmoth 3/4; Dreamdew Entrancer 3/4 | hand cards: Forest(land); Island(land); Court of Garenbrig(3); Temple of Enlightenment(land)
+Information: BOARD threat | turn 39 | Captain America, First Avenger (Rosa) 224; Fathom Mage (Busma) 50; Captain America, First Avenger (Busma) 49; Dragon Mage (Bathelie) 40; Brotherhood Regalia (Rosa) 32
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Land: Rosa played Plains (187)
+Land: Rosa picked {R}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Add To Stack: Rosa cast Iron Man, Titan of Innovation
+Information: BOARD cast | Iron Man, Titan of Innovation (mv 5) by Rosa | open mana: Dominic 1, Bathelie 3, Busma 4
+Resolve Stack: Iron Man, Titan of Innovation - Creature 4 / 4
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Rosa cast Darksteel Plate
+Information: BOARD cast | Darksteel Plate (mv 3) by Rosa | open mana: Dominic 1, Bathelie 3, Busma 4
+Resolve Stack: Darksteel Plate
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Rosa activated Adaptive Omnitool targeting [Captain America, First Avenger (201)]
+Resolve Stack: Adaptive Omnitool (164) -  Attach to Captain America, First Avenger (201)
+Phase: Rosa's Beginning of Combat Step
+Add To Stack: Rosa triggered Captain America, First Avenger targeting [Darksteel Plate (105)]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Darksteel Plate (105)]]) [Phase: Rosa]
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Captain America, First Avenger (201), Shuri, Wakandan Inventor (171) and Iron Man, Titan of Innovation (134) to attack Busma.
+Information: BOARD attack | Rosa -> Busma | attackers 3 (power 17) | defender life 20 | untapped creatures 5 (power 18): Fathom Mage 4/4; Yuna, Grand Summoner 1/5; Captain America, First Avenger 7/7; Luminous Broodmoth 3/4; Dreamdew Entrancer 3/4 | open mana 4
+Add To Stack: Rosa triggered Adaptive Omnitool
+Add To Stack: Rosa triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (424) was put into Graveyard from Battlefield.
+Replacement Effect: You may have Genji Glove enter as a copy of any Equipment on the battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (134)]
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Captain America, First Avenger (201)]
+Phase: Rosa's Declare Blockers Step
+Combat: Busma didn't block Captain America, First Avenger (201).
+Busma assigned Yuna, Grand Summoner (326) to block Shuri, Wakandan Inventor (171).
+Busma didn't block Iron Man, Titan of Innovation (134).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 12 combat damage to Busma.
+Damage: Shuri, Wakandan Inventor (171) deals 2 damage to Yuna, Grand Summoner (326).
+Damage: Iron Man, Titan of Innovation (134) deals 4 combat damage to Busma.
+Damage: Yuna, Grand Summoner (326) deals 1 damage to Shuri, Wakandan Inventor (171).
+Life: Life: Busma 20 > 4
+Zone Change: Shuri, Wakandan Inventor (171) was put into Graveyard from Battlefield.
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 40 (Bathelie)
+Information: BOARD turn 40 (Bathelie) | Dominic | life 34 | hand 4 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Plains(land); Plains(land); Plains(land); Angel of Despair(7)
+Information: BOARD turn 40 (Bathelie) | Rosa | life 17 | hand 6 | lands 8 (1 untapped) | open mana 2 | commander Battlefield | creatures 3 (1 untapped): Enthusiastic Mechanaut 2/2; Captain America, First Avenger 12/12*[Brotherhood Regalia,Adaptive Omnitool,Darksteel Plate]; Iron Man, Titan of Innovation 4/4* | hand cards: Kediss, Emberclaw Familiar(2); Hengegate Pathway(land); Exotic Orchard(land); Leonin Shikari(2); Sokka and Suki(3); Embercleave(6)
+Information: BOARD turn 40 (Bathelie) | Bathelie | life 37 | hand 5 | lands 9 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (0 untapped): Child of Alara 6/6*; Dragon Mage 5/5*; Scion of the Ur-Dragon 4/4* | hand cards: Swords to Plowshares(1); Slip On the Ring(2); Arcane Signet(2); Perennation(6); Ghostly Prison(3)
+Information: BOARD threat | turn 40 | Captain America, First Avenger (Rosa) 288; Dragon Mage (Bathelie) 38; Iron Man, Titan of Innovation (Rosa) 37; Brotherhood Regalia (Rosa) 31; Child of Alara (Bathelie) 31
+Phase: Bathelie's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Bathelie's Upkeep step
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Mana: Mountain (295) - {T}: Add {R}.
+Add To Stack: Bathelie cast Slip On the Ring targeting [Scion of the Ur-Dragon (302)]
+Information: BOARD cast | Slip On the Ring (mv 2) by Bathelie | open mana: Dominic 1, Rosa 2
+Zone Change: Scion of the Ur-Dragon (302) was put into Exile from Battlefield.
+Resolve Stack: Slip On the Ring (216) - Exile Scion of the Ur-Dragon (302).   The Ring tempts Bathelie
+Land: Mox Jasper (244) picked {W}
+Mana: Mox Jasper (244) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Add To Stack: Bathelie cast Swords to Plowshares targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Bathelie | open mana: Dominic 1, Rosa 2
+Add To Stack: Rosa triggered Captain America, First Avenger
+Mana: Forest (238) - {T}: Add {G}.
+Land: Bathelie picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Resolve Stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Swords to Plowshares (285), Target: Captain America, First Avenger (201)]
+Zone Change: Captain America, First Avenger (201) was put into Exile from Battlefield.
+Life: Life: Rosa 17 > 29
+Resolve Stack: Swords to Plowshares (285) - Exile Captain America, First Avenger (201). Rosa gains life equal to its power.
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Combat: Bathelie assigned Child of Alara (267) and Dragon Mage (227) to attack Rosa.
+Information: BOARD attack | Bathelie -> Rosa | attackers 2 (power 11) | defender life 29 | untapped creatures 1 (power 2): Enthusiastic Mechanaut 2/2 | open mana 2
+Phase: Bathelie's Declare Blockers Step
+Combat: Rosa didn't block Child of Alara (267).
+Rosa didn't block Dragon Mage (227).
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Damage: Child of Alara (267) deals 6 combat damage to Rosa.
+Damage: Dragon Mage (227) deals 5 combat damage to Rosa.
+Life: Life: Rosa 29 > 18
+Add To Stack: Bathelie triggered Dragon Mage
+Discard: Dominic discards Plains (71).
+Discard: Dominic discards Plains (75).
+Discard: Dominic discards Plains (92).
+Discard: Dominic discards Angel of Despair (28).
+Discard: Rosa discards Kediss, Emberclaw Familiar (143).
+Discard: Rosa discards Hengegate Pathway (144).
+Discard: Rosa discards Exotic Orchard (142).
+Discard: Rosa discards Leonin Shikari (175).
+Discard: Rosa discards Sokka and Suki (109).
+Discard: Rosa discards Embercleave (179).
+Discard: Bathelie discards Arcane Signet (251).
+Discard: Bathelie discards Perennation (254).
+Discard: Bathelie discards Ghostly Prison (221).
+Discard: Bathelie discards Dracogenesis (289).
+Resolve Stack: Whenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards. [Damage Source: Dragon Mage (227), Damaged: Rosa, Amount: 5]
+Land: Rosa picked {W}
+Mana: Path of Ancestry (113) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Rosa cast Swords to Plowshares targeting [Dragon Mage (227)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Rosa | open mana: Dominic 1, Bathelie 13
+Zone Change: Dragon Mage (227) was put into Exile from Battlefield.
+Life: Life: Bathelie 37 > 42
+Resolve Stack: Swords to Plowshares (177) - Exile Dragon Mage (227). Bathelie gains life equal to its power.
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Land: Bathelie played Fetid Heath (213)
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Land: Bathelie picked {R}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Add To Stack: Bathelie cast Desolation of Smaug
+Information: BOARD cast | Desolation of Smaug (mv 4) by Bathelie | open mana: Dominic 1, Rosa 0
+Add To Stack: Rosa cast Force of Negation targeting [Desolation of Smaug deals 3 damage to each non-Dragon creature. Add four mana in any combination of colors. Spend this mana only to cast Dragon spells.]
+Information: BOARD cast | Force of Negation (mv 3) by Rosa | open mana: Dominic 1, Bathelie 4
+Mana: Haven of the Spirit Dragon (224) - {T}: Add {C}.
+Mana: Underground River (217) - {T}: Add {C}.
+Add To Stack: Bathelie activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (302) - Bathelie searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (302) becomes a copy of Ancient Silver Dragon (302).
+Zone Change: Send countered spell to Exile
+Resolve Stack: Force of Negation (116) - Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. (Targeting: Desolation of Smaug deals 3 damage to each non-Dragon creature. Add four mana in any combination of colors. Spend this mana only to cast Dragon spells.)
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 41 (Dominic)
+Information: BOARD turn 41 (Dominic) | Dominic | life 34 | hand 7 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Sigarda, Host of Herons 5/5 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Righteous Valkyrie(3); Plains(land); Smuggler's Copter(2); Lyra Dawnbringer(5); Land Tax(1)
+Information: BOARD turn 41 (Dominic) | Rosa | life 18 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2; Iron Man, Titan of Innovation 4/4* | hand cards: Leyline Axe(4); Riverglide Pathway(land); Deserted Beach(land); Akroma's Will(4)
+Information: BOARD turn 41 (Dominic) | Bathelie | life 42 | hand 5 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4 | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land); Fiery Annihilation(3); Burnished Hart(3)
+Information: BOARD threat | turn 41 | Child of Alara (Bathelie) 64; Iron Man, Titan of Innovation (Rosa) 36
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (70)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (70) - {T}: Add {W}.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Dominic | open mana: Rosa 0, Bathelie 0
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 42 (Rosa)
+Information: BOARD turn 42 (Rosa) | Dominic | life 34 | hand 7 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Sigarda, Host of Herons 5/5; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Righteous Valkyrie(3); Smuggler's Copter(2); Lyra Dawnbringer(5); Land Tax(1); Sun Titan(6)
+Information: BOARD turn 42 (Rosa) | Rosa | life 18 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2; Iron Man, Titan of Innovation 4/4* | hand cards: Leyline Axe(4); Riverglide Pathway(land); Deserted Beach(land); Akroma's Will(4)
+Information: BOARD turn 42 (Rosa) | Bathelie | life 42 | hand 5 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4 | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land); Fiery Annihilation(3); Burnished Hart(3)
+Information: BOARD threat | turn 42 | Child of Alara (Bathelie) 61; Iron Man, Titan of Innovation (Rosa) 35
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Rosa played Deserted Beach (163)
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Rosa cast Leyline Axe
+Information: BOARD cast | Leyline Axe (mv 4) by Rosa | open mana: Dominic 1, Bathelie 0
+Resolve Stack: Leyline Axe
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Add To Stack: Rosa cast Sword of War and Peace
+Information: BOARD cast | Sword of War and Peace (mv 3) by Rosa | open mana: Dominic 1, Bathelie 0
+Resolve Stack: Sword of War and Peace
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Deserted Beach (163) - {T}: Add {W} or {U}.
+Add To Stack: Rosa activated Brotherhood Regalia targeting [Iron Man, Titan of Innovation (134)]
+Resolve Stack: Brotherhood Regalia (190) -  Attach to Iron Man, Titan of Innovation (134)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Iron Man, Titan of Innovation (134) to attack Bathelie.
+Information: BOARD attack | Rosa -> Bathelie | attackers 1 (power 4) | defender life 42 | untapped creatures 1 (power 4): Scion of the Ur-Dragon 4/4 | open mana 0
+Add To Stack: Rosa triggered Iron Man, Titan of Innovation
+Zone Change: Treasure Token (428) was put into Graveyard from Battlefield.
+Resolve Stack: Genius Industrialist — Whenever Iron Man attacks, create a Treasure token, then you may sacrifice a noncreature artifact. If you do, search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield tapped, then shuffle. [Attacker: Iron Man, Titan of Innovation (134)]
+Phase: Rosa's Declare Blockers Step
+Combat: Bathelie didn't block Iron Man, Titan of Innovation (134).
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Damage: Iron Man, Titan of Innovation (134) deals 4 combat damage to Bathelie.
+Life: Life: Bathelie 42 > 38
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 43 (Bathelie)
+Information: BOARD turn 43 (Bathelie) | Dominic | life 34 | hand 7 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Sigarda, Host of Herons 5/5; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Righteous Valkyrie(3); Smuggler's Copter(2); Lyra Dawnbringer(5); Land Tax(1); Sun Titan(6)
+Information: BOARD turn 43 (Bathelie) | Rosa | life 18 | hand 2 | lands 9 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Enthusiastic Mechanaut 2/2; Iron Man, Titan of Innovation 4/4*[Brotherhood Regalia] | hand cards: Riverglide Pathway(land); Akroma's Will(4)
+Information: BOARD turn 43 (Bathelie) | Bathelie | life 38 | hand 5 | lands 10 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4 | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land); Fiery Annihilation(3); Burnished Hart(3)
+Information: BOARD threat | turn 43 | Iron Man, Titan of Innovation (Rosa) 71; Child of Alara (Bathelie) 59; Brotherhood Regalia (Rosa) 42
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Mana: Mountain (295) - {T}: Add {R}.
+Mana: Forest (238) - {T}: Add {G}.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Add To Stack: Bathelie cast Fiery Annihilation targeting [Iron Man, Titan of Innovation (134)] [Brotherhood Regalia (190)]
+Information: BOARD cast | Fiery Annihilation (mv 3) by Bathelie | open mana: Dominic 1, Rosa 2
+Add To Stack: Rosa triggered Iron Man, Titan of Innovation
+Land: Bathelie picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bathelie picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Resolve Stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Fiery Annihilation (245), Target: Iron Man, Titan of Innovation (134)]
+Damage: Fiery Annihilation (245) deals 5 damage to Iron Man, Titan of Innovation (134).
+Zone Change: Brotherhood Regalia (190) was put into Exile from Battlefield.
+Resolve Stack: Fiery Annihilation (245) - Fiery Annihilation (245) deals 5 damage to Iron Man, Titan of Innovation (134).  If that creature would die this turn, exile it instead Exile Brotherhood Regalia (190).
+Zone Change: Iron Man, Titan of Innovation (134) was put into Exile from Battlefield.
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Land: Bathelie played Mountain (293)
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Combat: Bathelie assigned Child of Alara (267) to attack Dominic.
+Bathelie assigned Scion of the Ur-Dragon (302) to attack Rosa.
+Information: BOARD attack | Bathelie -> Dominic | attackers 1 (power 6) | defender life 34 | untapped creatures 2 (power 9): Sigarda, Host of Herons 5/5; Seluma, Light of Aysen 4/4 | open mana 1
+Information: BOARD attack | Bathelie -> Rosa | attackers 1 (power 4) | defender life 18 | untapped creatures 1 (power 2): Enthusiastic Mechanaut 2/2 | open mana 2
+Phase: Bathelie's Declare Blockers Step
+Combat: Dominic didn't block Child of Alara (267).
+Combat: Rosa didn't block Scion of the Ur-Dragon (302).
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Damage: Scion of the Ur-Dragon (302) deals 4 combat damage to Rosa.
+Damage: Child of Alara (267) deals 6 combat damage to Dominic.
+Life: Life: Dominic 34 > 28
+Life: Life: Rosa 18 > 14
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Mana: Mountain (293) - {T}: Add {R}.
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Mox Jasper (244) picked {W}
+Mana: Mox Jasper (244) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Add To Stack: Bathelie cast Burnished Hart
+Information: BOARD cast | Burnished Hart (mv 3) by Bathelie | open mana: Dominic 1, Rosa 2
+Resolve Stack: Burnished Hart - Creature 2 / 2
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Mana: Haven of the Spirit Dragon (224) - {T}: Add {C}.
+Zone Change: Burnished Hart (218) was put into Graveyard from Battlefield.
+Add To Stack: Bathelie activated Burnished Hart
+Resolve Stack: Burnished Hart (218) - Bathelie searches their library for  up to two basic land cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 44 (Dominic)
+Information: BOARD turn 44 (Dominic) | Dominic | life 28 | hand 7 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Sigarda, Host of Herons 5/5; Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Righteous Valkyrie(3); Smuggler's Copter(2); Lyra Dawnbringer(5); Land Tax(1); Sun Titan(6)
+Information: BOARD turn 44 (Dominic) | Rosa | life 14 | hand 2 | lands 9 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Riverglide Pathway(land); Akroma's Will(4)
+Information: BOARD turn 44 (Dominic) | Bathelie | life 38 | hand 3 | lands 13 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4* | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land)
+Information: BOARD threat | turn 44 | Child of Alara (Bathelie) 91; Scion of the Ur-Dragon (Bathelie) 36
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add To Stack: Dominic cast Lyra Dawnbringer
+Information: BOARD cast | Lyra Dawnbringer (mv 5) by Dominic | open mana: Rosa 2, Bathelie 3
+Resolve Stack: Lyra Dawnbringer - Creature 5 / 5
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add To Stack: Dominic cast Righteous Valkyrie
+Information: BOARD cast | Righteous Valkyrie (mv 3) by Dominic | open mana: Rosa 2, Bathelie 3
+Resolve Stack: Righteous Valkyrie - Creature 2 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Seluma, Light of Aysen (100) to attack Bathelie.
+Information: BOARD attack | Dominic -> Bathelie | attackers 1 (power 5) | defender life 38 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Dominic's Declare Blockers Step
+Combat: Bathelie didn't block Seluma, Light of Aysen (100).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Seluma, Light of Aysen (100) deals 5 combat damage to Bathelie.
+Life: Life: Dominic 28 > 33
+Life: Life: Bathelie 38 > 33
+Add To Stack: Dominic triggered Seluma, Light of Aysen targeting [Gisela, Blade of Goldnight (50)]
+Resolve Stack: Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield. (Targeting: [[Gisela, Blade of Goldnight (50)]]) [Damage Source: Seluma, Light of Aysen (100), Damaged: Bathelie, Amount: 5]
+Add To Stack: Dominic triggered Righteous Valkyrie
+Life: Life: Dominic 33 > 39
+Resolve Stack: Whenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness. [Zone Changer: Gisela, Blade of Goldnight (50)]
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 45 (Rosa)
+Information: BOARD turn 45 (Rosa) | Dominic | life 39 | hand 6 | lands 9 (3 untapped) | open mana 3 | commander Battlefield | creatures 5 (4 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 45 (Rosa) | Rosa | life 14 | hand 2 | lands 9 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Riverglide Pathway(land); Akroma's Will(4)
+Information: BOARD turn 45 (Rosa) | Bathelie | life 33 | hand 3 | lands 13 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4* | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land)
+Information: BOARD threat | turn 45 | Child of Alara (Bathelie) 87; Seluma, Light of Aysen (Dominic) 43; Scion of the Ur-Dragon (Bathelie) 34
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Land: Rosa played Riverglide Pathway (194)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Island (129) - {T}: Add {U}.
+Add To Stack: Rosa activated Adaptive Omnitool targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Adaptive Omnitool (164) -  Attach to Enthusiastic Mechanaut (132)
+Mana: Island (130) - {T}: Add {U}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Plains (187) - {T}: Add {W}.
+Add To Stack: Rosa activated Genji Glove targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Genji Glove (195) -  Attach to Enthusiastic Mechanaut (132)
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Add To Stack: Rosa activated The Reaver Cleaver targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: The Reaver Cleaver (126) -  Attach to Enthusiastic Mechanaut (132)
+Land: Rosa picked {W}
+Mana: Inspiring Vantage (155) - {T}: Add {R} or {W}.
+Land: Rosa picked {W}
+Mana: Deserted Beach (163) - {T}: Add {W} or {U}.
+Add To Stack: Rosa activated Darksteel Plate targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Darksteel Plate (105) -  Attach to Enthusiastic Mechanaut (132)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Phase: Rosa's Declare Blockers Step
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 46 (Bathelie)
+Information: BOARD turn 46 (Bathelie) | Dominic | life 39 | hand 6 | lands 9 (3 untapped) | open mana 3 | commander Battlefield | creatures 5 (4 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 46 (Bathelie) | Rosa | life 14 | hand 2 | lands 10 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 12/12[Adaptive Omnitool,Genji Glove,The Reaver Cleaver,Darksteel Plate] | hand cards: Akroma's Will(4); Plains(land)
+Information: BOARD turn 46 (Bathelie) | Bathelie | life 33 | hand 3 | lands 13 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (0 untapped): Child of Alara 6/6*; Scion of the Ur-Dragon 4/4* | hand cards: Bojuka Bog(land); Thornwood Falls(land); Gruul Guildgate(land)
+Information: BOARD threat | turn 46 | Child of Alara (Bathelie) 84; Seluma, Light of Aysen (Dominic) 41; Adaptive Omnitool (Rosa) 37; Scion of the Ur-Dragon (Bathelie) 33
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Bathelie played Thornwood Falls (272)
+Add To Stack: Bathelie triggered Thornwood Falls
+Life: Life: Bathelie 33 > 34
+Resolve Stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (272)]
+Mana: Mountain (295) - {T}: Add {R}.
+Mana: Mountain (293) - {T}: Add {R}.
+Mana: Forest (238) - {T}: Add {G}.
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Island (234) - {T}: Add {U}.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Add To Stack: Bathelie cast Lathliss, Dragon Queen
+Information: BOARD cast | Lathliss, Dragon Queen (mv 6) by Bathelie | open mana: Dominic 3, Rosa 2
+Resolve Stack: Lathliss, Dragon Queen - Creature 6 / 6
+Land: Bathelie picked {G}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Land: Bathelie picked {W}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Add To Stack: Bathelie activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Gold Dragon (302) - Bathelie searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Gold Dragon (302) becomes a copy of Ancient Gold Dragon (302).
+Land: Bathelie picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Land: Mox Jasper (244) picked {W}
+Mana: Mox Jasper (244) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Zone Change: Haven of the Spirit Dragon (224) was put into Graveyard from Battlefield.
+Add To Stack: Bathelie activated Haven of the Spirit Dragon targeting [The Ur-Dragon (214)]
+Resolve Stack: Haven of the Spirit Dragon (224) - Return The Ur-Dragon (214) from the graveyard to its owner's hand.
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 47 (Dominic)
+Information: BOARD turn 47 (Dominic) | Dominic | life 39 | hand 6 | lands 9 (3 untapped) | open mana 3 | commander Battlefield | creatures 5 (4 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5*; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6 | hand cards: Plains(land); Shalai, Voice of Plenty(4); Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3)
+Information: BOARD turn 47 (Dominic) | Rosa | life 14 | hand 2 | lands 10 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 12/12[Adaptive Omnitool,Genji Glove,The Reaver Cleaver,Darksteel Plate] | hand cards: Akroma's Will(4); Plains(land)
+Information: BOARD turn 47 (Dominic) | Bathelie | life 34 | hand 3 | lands 13 (3 untapped) | open mana 11 | commander Battlefield | creatures 3 (3 untapped): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | hand cards: Bojuka Bog(land); Gruul Guildgate(land); The Ur-Dragon(9)
+Information: BOARD threat | turn 47 | Child of Alara (Bathelie) 81; Scion of the Ur-Dragon (Bathelie) 46; Seluma, Light of Aysen (Dominic) 40; Adaptive Omnitool (Rosa) 35
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Add To Stack: Bathelie activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Bronze Dragon (302) - Bathelie searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Bronze Dragon (302) becomes a copy of Ancient Bronze Dragon (302).
+Land: Dominic played Plains (88)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (70) - {T}: Add {W}.
+Add To Stack: Dominic cast Shalai, Voice of Plenty
+Information: BOARD cast | Shalai, Voice of Plenty (mv 4) by Dominic | open mana: Rosa 2, Bathelie 3
+Resolve Stack: Shalai, Voice of Plenty - Creature 3 / 4
+Add To Stack: Dominic triggered Righteous Valkyrie
+Life: Life: Dominic 39 > 44
+Resolve Stack: Whenever another Angel or Cleric you control enters, you gain life equal to that creature's toughness. [Zone Changer: Shalai, Voice of Plenty (23)]
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 48 (Rosa)
+Information: BOARD turn 48 (Rosa) | Dominic | life 44 | hand 5 | lands 10 (7 untapped) | open mana 7 | commander Battlefield | creatures 6 (6 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6; Shalai, Voice of Plenty 4/5 | hand cards: Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3); Lightning Greaves(2)
+Information: BOARD turn 48 (Rosa) | Rosa | life 14 | hand 2 | lands 10 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 12/12[Adaptive Omnitool,Genji Glove,The Reaver Cleaver,Darksteel Plate] | hand cards: Akroma's Will(4); Plains(land)
+Information: BOARD turn 48 (Rosa) | Bathelie | life 34 | hand 3 | lands 13 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (3 untapped): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | hand cards: Bojuka Bog(land); Gruul Guildgate(land); The Ur-Dragon(9)
+Information: BOARD threat | turn 48 | Child of Alara (Bathelie) 77; Scion of the Ur-Dragon (Bathelie) 59; Herald's Horn (Dominic) 38; Seluma, Light of Aysen (Dominic) 38; Adaptive Omnitool (Rosa) 34
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Land: Rosa played Plains (182)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Add To Stack: Rosa activated Sword of War and Peace targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Sword of War and Peace (193) -  Attach to Enthusiastic Mechanaut (132)
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Add To Stack: Rosa activated Leyline Axe targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Leyline Axe (149) -  Attach to Enthusiastic Mechanaut (132)
+Add To Stack: Rosa cast Commander's Plate
+Information: BOARD cast | Commander's Plate (mv 1) by Rosa | open mana: Dominic 7, Bathelie 3
+Resolve Stack: Commander's Plate
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (182) - {T}: Add {W}.
+Land: Rosa picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Land: Rosa picked {W}
+Mana: Port Town (181) - {T}: Add {W} or {U}.
+Land: Rosa picked {W}
+Mana: Spectator Seating (178) - {T}: Add {R} or {W}.
+Add To Stack: Rosa activated Commander's Plate targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Commander's Plate (157) -  Attach to Enthusiastic Mechanaut (132)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Phase: Rosa's Declare Blockers Step
+Phase: Rosa's First Strike Damage Step
+Phase: Rosa's Combat Damage Step
+Phase: Rosa's End of Combat Step
+Phase: Rosa's Main phase, postcombat
+Phase: Rosa's End step
+Phase: Rosa's Cleanup step
+Turn: Turn 49 (Bathelie)
+Information: BOARD turn 49 (Bathelie) | Dominic | life 44 | hand 5 | lands 10 (7 untapped) | open mana 7 | commander Battlefield | creatures 6 (6 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6; Shalai, Voice of Plenty 4/5 | hand cards: Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3); Lightning Greaves(2)
+Information: BOARD turn 49 (Bathelie) | Rosa | life 14 | hand 1 | lands 11 (3 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 18/18[Adaptive Omnitool,Genji Glove,Darksteel Plate,Sword of War and Peace,Leyline Axe,Commander's Plate] | hand cards: Akroma's Will(4)
+Information: BOARD turn 49 (Bathelie) | Bathelie | life 34 | hand 3 | lands 13 (1 untapped) | open mana 3 | commander Battlefield | creatures 3 (3 untapped): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | hand cards: Bojuka Bog(land); Gruul Guildgate(land); The Ur-Dragon(9)
+Information: BOARD threat | turn 49 | Child of Alara (Bathelie) 74; Scion of the Ur-Dragon (Bathelie) 56; Herald's Horn (Dominic) 37; Seluma, Light of Aysen (Dominic) 37; Adaptive Omnitool (Rosa) 33
+Phase: Bathelie's Untap step
+Phase: Bathelie's Upkeep step
+Phase: Bathelie's Draw step
+Phase: Bathelie's Main phase, precombat
+Phase: Bathelie's Beginning of Combat Step
+Phase: Bathelie's Declare Attackers Step
+Phase: Bathelie's Declare Blockers Step
+Phase: Bathelie's First Strike Damage Step
+Phase: Bathelie's Combat Damage Step
+Phase: Bathelie's End of Combat Step
+Phase: Bathelie's Main phase, postcombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Bathelie played Gruul Guildgate (204)
+Land: Mox Jasper (244) picked {B}
+Mana: Mox Jasper (244) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Mana: Plains (296) - {T}: Add {W}.
+Mana: Mountain (295) - {T}: Add {R}.
+Land: Bathelie picked {G}
+Mana: Blossoming Sands (226) - {T}: Add {G} or {W}.
+Land: Bathelie picked {U}
+Mana: Dreamroot Cascade (269) - {T}: Add {G} or {U}.
+Mana: Mountain (293) - {T}: Add {R}.
+Land: Bathelie picked {R}
+Mana: Rugged Highlands (215) - {T}: Add {R} or {G}.
+Land: Bathelie picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Land: Bathelie picked {U}
+Mana: Thornwood Falls (272) - {T}: Add {G} or {U}.
+Add To Stack: Bathelie cast The Ur-Dragon
+Information: BOARD cast | The Ur-Dragon (mv 9) by Bathelie | open mana: Dominic 7, Rosa 8
+Resolve Stack: The Ur-Dragon - Creature 10 / 10
+Add To Stack: Bathelie triggered Lathliss, Dragon Queen
+Resolve Stack: Whenever another nontoken Dragon you control enters, create a 5/5 red Dragon creature token with flying. [Zone Changer: The Ur-Dragon (214)]
+Mana: Fetid Heath (213) - {T}: Add {C}.
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Add To Stack: Bathelie activated Scion of the Ur-Dragon
+Resolve Stack: Dragonlord Dromoka (302) - Bathelie searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Dragonlord Dromoka (302) becomes a copy of Dragonlord Dromoka (302).
+Phase: Bathelie's End step
+Phase: Bathelie's Cleanup step
+Turn: Turn 50 (Dominic)
+Information: BOARD turn 50 (Dominic) | Dominic | life 44 | hand 5 | lands 10 (7 untapped) | open mana 7 | commander Battlefield | creatures 6 (6 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6; Shalai, Voice of Plenty 4/5 | hand cards: Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3); Lightning Greaves(2)
+Information: BOARD turn 50 (Dominic) | Rosa | life 14 | hand 1 | lands 11 (3 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 18/18[Adaptive Omnitool,Genji Glove,Darksteel Plate,Sword of War and Peace,Leyline Axe,Commander's Plate] | hand cards: Akroma's Will(4)
+Information: BOARD turn 50 (Dominic) | Bathelie | life 34 | hand 2 | lands 14 (3 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; The Ur-Dragon 10/10; Dragon Token 5/5 | hand cards: Bojuka Bog(land); Dispelling Exhale(2)
+Information: BOARD threat | turn 50 | Child of Alara (Bathelie) 71; Scion of the Ur-Dragon (Bathelie) 68; Herald's Horn (Dominic) 35; Seluma, Light of Aysen (Dominic) 35; Adaptive Omnitool (Rosa) 31
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 51 (Rosa)
+Information: BOARD turn 51 (Rosa) | Dominic | life 44 | hand 6 | lands 10 (10 untapped) | open mana 10 | commander Battlefield | creatures 6 (6 untapped): Sigarda, Host of Herons 6/6; Seluma, Light of Aysen 5/5; Lyra Dawnbringer 5/5; Righteous Valkyrie 3/5; Gisela, Blade of Goldnight 6/6; Shalai, Voice of Plenty 4/5 | hand cards: Smuggler's Copter(2); Land Tax(1); Sun Titan(6); Archaeomancer's Map(3); Lightning Greaves(2); Teferi's Protection(3)
+Information: BOARD turn 51 (Rosa) | Rosa | life 14 | hand 1 | lands 11 (3 untapped) | open mana 8 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 18/18[Adaptive Omnitool,Genji Glove,Darksteel Plate,Sword of War and Peace,Leyline Axe,Commander's Plate] | hand cards: Akroma's Will(4)
+Information: BOARD turn 51 (Rosa) | Bathelie | life 34 | hand 2 | lands 14 (3 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; The Ur-Dragon 10/10; Dragon Token 5/5 | hand cards: Bojuka Bog(land); Dispelling Exhale(2)
+Information: BOARD threat | turn 51 | Child of Alara (Bathelie) 68; Scion of the Ur-Dragon (Bathelie) 66; Herald's Horn (Dominic) 48; Seluma, Light of Aysen (Dominic) 34; Adaptive Omnitool (Rosa) 30
+Phase: Rosa's Untap step
+Phase: Rosa's Upkeep step
+Phase: Rosa's Draw step
+Phase: Rosa's Main phase, precombat
+Add To Stack: Rosa cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Rosa | open mana: Dominic 10, Bathelie 5
+Resolve Stack: Colossus Hammer
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Island (129) - {T}: Add {U}.
+Mana: Island (130) - {T}: Add {U}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Plains (187) - {T}: Add {W}.
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Rosa activated Colossus Hammer targeting [Enthusiastic Mechanaut (132)]
+Resolve Stack: Colossus Hammer (140) -  Attach to Enthusiastic Mechanaut (132)
+Phase: Rosa's Beginning of Combat Step
+Phase: Rosa's Declare Attackers Step
+Combat: Rosa assigned Enthusiastic Mechanaut (132) to attack Bathelie.
+Information: BOARD attack | Rosa -> Bathelie | attackers 1 (power 29) | defender life 34 | untapped creatures 5 (power 31): Child of Alara 6/6; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; The Ur-Dragon 10/10; Dragon Token 5/5 | open mana 5
+Add To Stack: Rosa triggered Adaptive Omnitool
+Add To Stack: Rosa triggered Genji Glove
+Resolve Stack: Whenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase. [Attacker: Enthusiastic Mechanaut (132)]
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Enthusiastic Mechanaut (132)]
+Phase: Rosa's Declare Blockers Step
+Combat: Bathelie didn't block Enthusiastic Mechanaut (132).
+Phase: Rosa's First Strike Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 29 combat damage to Bathelie.
+Life: Life: Bathelie 34 > 5
+Add To Stack: Rosa triggered Sword of War and Peace
+Damage: Sword of War and Peace (193) deals 2 non-combat damage to Bathelie.
+Life: Life: Bathelie 5 > 3
+Life: Life: Rosa 14 > 16
+Resolve Stack: Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand. [Damage Source: Enthusiastic Mechanaut (132), Damaged: Bathelie, Amount: 29]
+Phase: Rosa's Combat Damage Step
+Damage: Enthusiastic Mechanaut (132) deals 29 combat damage to Bathelie.
+Life: Life: Bathelie 3 > -26
+Player Control: Dominic has restored control over themself
+Player Control: Rosa has restored control over themself
+Player Control: Bathelie has restored control over themself
+Player Control: Busma has restored control over themself
+Game Outcome: Match Duration 18m : 43s
+Game Outcome: Turn 26
+Game Outcome: Dominic has conceded
+Game Outcome: Rosa has won because all opponents have lost
+Game Outcome: Bathelie has lost because life total reached 0
+Game Outcome: Busma has lost due to accumulation of 21 damage from generals
+Match Result: Dominic: 0 Rosa: 1 Bathelie: 0 Busma: 0 
+
+Game Result: Rosa has won

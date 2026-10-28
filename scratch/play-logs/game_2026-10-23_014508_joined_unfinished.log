@@ -1,0 +1,930 @@
+Player: Dominic (HUMAN) deck=? (commander Frodo, Sauron's Bane) [this PC]
+Player: Derand (HUMAN) deck=? (commander Mr. House, President and CEO)
+Player: Alec (HUMAN) deck=? (commander Ulalek, Fused Atrocity)
+Player: Peen (HUMAN) deck=? (commander Baylen, the Haymaker)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Invasion of Innistrad(4); Exotic Orchard(land); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land)
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (193)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Alec)
+Information: BOARD turn 2 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Invasion of Innistrad(4); Exotic Orchard(land); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land)
+Information: BOARD turn 2 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Secluded Courtyard (261)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 3 (Peen)
+Information: BOARD turn 3 (Peen) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Peen) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Invasion of Innistrad(4); Exotic Orchard(land); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land)
+Information: BOARD turn 3 (Peen) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Peen) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen triggered Temple of Triumph
+Zone Change: Temple of Triumph (380) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Invasion of Innistrad(4); Exotic Orchard(land); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land)
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Spectator Seating (83)
+Add To Stack: Derand cast Barbarian Class
+Zone Change: Barbarian Class (41) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Invasion of Innistrad(4); Exotic Orchard(land); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land)
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (197)
+Add To Stack: Dominic cast Frodo, Sauron's Bane
+Zone Change: Frodo, Sauron's Bane (211) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Alec)
+Information: BOARD turn 6 (Alec) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land); Nazgûl(3)
+Information: BOARD turn 6 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Corrupted Crossroads (217)
+Add To Stack: Alec cast Ornithopter of Paradise
+Zone Change: Ornithopter of Paradise (228) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 7 (Peen)
+Information: BOARD turn 7 (Peen) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Peen) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land); Nazgûl(3)
+Information: BOARD turn 7 (Peen) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 7 (Peen) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Command Tower (408)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land); Nazgûl(3)
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Peen | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Blightstep Pathway (13)
+Add To Stack: Derand activated Ash Barrens
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Frodo, Sauron's Bane 1/2 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Shattered Sanctum(land); Nazgûl(3)
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Peen | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Shattered Sanctum (120)
+Add To Stack: Dominic cast Nazgûl
+Zone Change: Nazgûl (137) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Nazgûl
+Add To Stack: Dominic triggered Nazgûl
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 10 (Alec)
+Information: BOARD turn 10 (Alec) | Derand | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 10 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Peen | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Eldrazi Temple (270)
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (312) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 11 (Peen)
+Information: BOARD turn 11 (Peen) | Derand | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Peen) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 11 (Peen) | Alec | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ornithopter of Paradise 0/2*; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 11 (Peen) | Peen | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Forest (329)
+Add To Stack: Peen cast Caretaker's Talent
+Zone Change: Caretaker's Talent (318) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 12 (Derand) | Alec | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ornithopter of Paradise 0/2*; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (89)
+Add To Stack: Derand cast Component Pouch
+Zone Change: Component Pouch (46) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Component Pouch
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Invasion of Innistrad(4); Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Ornithopter of Paradise 0/2*; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (181)
+Add To Stack: Dominic cast Invasion of Innistrad
+Zone Change: Invasion of Innistrad (199) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Invasion of Innistrad targeting [Ulalek, Fused Atrocity (312)]
+Zone Change: Ulalek, Fused Atrocity (312) was put into another zone from Battlefield.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 14 (Alec)
+Information: BOARD turn 14 (Alec) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 14 (Alec) | Alec | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Sulfurous Springs (244)
+Add To Stack: Alec cast Arcane Signet
+Zone Change: Arcane Signet (231) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 15 (Peen)
+Information: BOARD turn 15 (Peen) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Peen) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 15 (Peen) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 15 (Peen) | Peen | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen cast Toby, Beastie Befriender
+Add To Stack: Peen triggered Toby, Beastie Befriender
+Zone Change: Toby, Beastie Befriender (358) was put onto the Battlefield under Peen.
+Add To Stack: Peen triggered Caretaker's Talent
+Zone Change: Beast Token (417) was put onto the Battlefield under Peen.
+Land: Peen played Arena of Glory (369)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 16 (Derand) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Peen | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (420) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (421) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (424) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (425) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Frodo, Sauron's Bane 1/2; Nazgûl 2/3 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Hammer of Nazahn(4)
+Information: BOARD turn 17 (Dominic) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Peen | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Hammer of Nazahn
+Zone Change: Hammer of Nazahn (119) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Hammer of Nazahn targeting [Frodo, Sauron's Bane (211)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Frodo, Sauron's Bane (211), Nazgûl (137) to attack Invasion of Innistrad.
+Phase: Dominic's Combat Damage Step
+Combat: Dominic didn't block Frodo, Sauron's Bane (211).
+Combat: Dominic didn't block Nazgûl (137).
+Add To Stack: Dominic triggered Invasion of Innistrad
+Zone Change: Invasion of Innistrad (199) was put into another zone from Battlefield.
+Add To Stack: Dominic cast Deluge of the Dead
+Zone Change: Deluge of the Dead (199) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Deluge of the Dead
+Zone Change: Zombie Token (427) was put onto the Battlefield under Dominic.
+Zone Change: Zombie Token (428) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 18 (Alec)
+Information: BOARD turn 18 (Alec) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 3/2*[Hammer of Nazahn]; Nazgûl 2/3*; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Epic Downfall(2)
+Information: BOARD turn 18 (Alec) | Alec | life 40 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Peen | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Eye of Ugin (279)
+Add To Stack: Alec cast Dreamstone Hedron
+Zone Change: Dreamstone Hedron (295) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 19 (Peen)
+Information: BOARD turn 19 (Peen) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: hidden
+Information: BOARD turn 19 (Peen) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 3/2*[Hammer of Nazahn]; Nazgûl 2/3*; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Epic Downfall(2)
+Information: BOARD turn 19 (Peen) | Alec | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Ornithopter of Paradise 0/2* | hand cards: hidden
+Information: BOARD turn 19 (Peen) | Peen | life 40 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen cast Release the Dogs
+Zone Change: Dog Token (430) was put onto the Battlefield under Peen.
+Zone Change: Dog Token (431) was put onto the Battlefield under Peen.
+Zone Change: Dog Token (432) was put onto the Battlefield under Peen.
+Zone Change: Dog Token (433) was put onto the Battlefield under Peen.
+Add To Stack: Peen triggered Caretaker's Talent
+Land: Peen played Forest (333)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x2 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 3/2*[Hammer of Nazahn]; Nazgûl 2/3*; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Epic Downfall(2)
+Information: BOARD turn 20 (Derand) | Alec | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Ornithopter of Paradise 0/2* | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Peen | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Swamp (52)
+Add To Stack: Derand cast Vexing Puzzlebox
+Zone Change: Vexing Puzzlebox (56) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (436) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (437) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (440) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (441) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Zone Change: Treasure Token (437) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (441) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Unwinding Clock
+Zone Change: Unwinding Clock (44) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 x4 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Frodo, Sauron's Bane 3/2*[Hammer of Nazahn]; Nazgûl 2/3*; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3); Epic Downfall(2)
+Information: BOARD turn 21 (Dominic) | Alec | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Ornithopter of Paradise 0/2* | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Peen | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Epic Downfall targeting [Mr. House, President and CEO (100)]
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (444) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (445) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (448) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (449) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (452) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (453) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (453) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (421) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (425) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand activated Mr. House, President and CEO
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (455) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (457) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (459) was put onto the Battlefield under Derand.
+Zone Change: Mr. House, President and CEO (100) was put into another zone from Battlefield.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (196) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Hammer of Nazahn targeting [Frodo, Sauron's Bane (211)]
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Alec)
+Information: BOARD turn 22 (Alec) | Derand | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 10 (10 untapped): Robot Token 3/3 x10 | hand cards: hidden
+Information: BOARD turn 22 (Alec) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Frodo, Sauron's Bane 3/2[Hammer of Nazahn,Swiftfoot Boots]; Nazgûl 2/3; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3)
+Information: BOARD turn 22 (Alec) | Alec | life 40 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Ornithopter of Paradise 0/2 | hand cards: hidden
+Information: BOARD turn 22 (Alec) | Peen | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Phase: Alec's Main phase, precombat
+Land: Alec played Caves of Koilos (243)
+Add To Stack: Alec cast Ancient Stirrings
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (312) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 23 (Peen)
+Information: BOARD turn 23 (Peen) | Derand | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 10 (10 untapped): Robot Token 3/3 x10 | hand cards: hidden
+Information: BOARD turn 23 (Peen) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Frodo, Sauron's Bane 3/2[Hammer of Nazahn,Swiftfoot Boots]; Nazgûl 2/3; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3)
+Information: BOARD turn 23 (Peen) | Alec | life 40 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Ornithopter of Paradise 0/2; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 23 (Peen) | Peen | life 40 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen cast Doubling Season
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Vexing Puzzlebox
+Zone Change: Swiftfoot Boots (73) was put onto the Battlefield under Derand.
+Zone Change: Doubling Season (410) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Combat: Peen assigned Dog Token (432), Beast Token (417), Dog Token (433), Dog Token (430), Dog Token (431) to attack Dominic.
+Phase: Peen's Combat Damage Step
+Combat: Dominic didn't block Dog Token (432).
+Combat: Dominic didn't block Beast Token (417).
+Combat: Dominic didn't block Dog Token (433).
+Combat: Dominic didn't block Dog Token (430).
+Combat: Dominic didn't block Dog Token (431).
+Life: Life: Dominic 40 > 32
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 10 (10 untapped): Robot Token 3/3 x10 | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Dominic | life 32 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Frodo, Sauron's Bane 3/2[Hammer of Nazahn,Swiftfoot Boots]; Nazgûl 2/3; Zombie Token 2/2 x2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3)
+Information: BOARD turn 24 (Derand) | Alec | life 40 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Ornithopter of Paradise 0/2; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Peen | life 40 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (1 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4*; Dog Token 1/1* x4 | hand cards: hidden
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Zone Change: Treasure Token (449) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (445) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Swiftfoot Boots targeting [Mr. House, President and CEO (100)]
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand cast Professional Face-Breaker
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (462) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (463) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (466) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (467) was put onto the Battlefield under Derand.
+Zone Change: Professional Face-Breaker (15) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Professional Face-Breaker
+Zone Change: Treasure Token (467) was put into nowhere (token) from Battlefield.
+Land: Derand played Dragonskull Summit (42)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Robot Token (436), Robot Token (440) to attack Dominic.
+Combat: Derand assigned Robot Token (448), Robot Token (444) to attack Alec.
+Combat: Derand assigned Robot Token (420), Robot Token (424) to attack Peen.
+Phase: Derand's First Strike Damage Step
+Combat: Alec assigned Ulalek, Fused Atrocity (312) to block Robot Token (448).
+Combat: Peen didn't block Robot Token (420).
+Combat: Dominic assigned Frodo, Sauron's Bane (211) to block Robot Token (436).
+Combat: Peen didn't block Robot Token (424).
+Combat: Dominic assigned Zombie Token (427) to block Robot Token (440).
+Combat: Alec didn't block Robot Token (444).
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Professional Face-Breaker
+Zone Change: Zombie Token (427) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (436) was put into nowhere (token) from Battlefield.
+Life: Life: Alec 40 > 37
+Life: Life: Peen 40 > 34
+Add To Stack: Derand triggered Professional Face-Breaker
+Zone Change: Treasure Token (470) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (472) was put onto the Battlefield under Derand.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Zone Change: Treasure Token (470) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (472) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Treasure Chest
+Zone Change: Treasure Chest (71) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 13 (13 untapped): Robot Token 3/3 x11; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Professional Face-Breaker 2/3 | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Dominic | life 32 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Frodo, Sauron's Bane 3/2[Hammer of Nazahn,Swiftfoot Boots]; Nazgûl 2/3; Zombie Token 2/2 | hand cards: Ghostly Prison(3); Nazgûl(3); Nazgûl(3); Whispersilk Cloak(3)
+Information: BOARD turn 25 (Dominic) | Alec | life 37 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Ornithopter of Paradise 0/2; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Peen | life 34 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (1 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4*; Dog Token 1/1* x4 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (164)
+Add To Stack: Dominic cast Nazgûl
+Zone Change: Nazgûl (134) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Nazgûl
+Add To Stack: Dominic triggered Nazgûl
+Add To Stack: Dominic triggered Nazgûl
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (475) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (476) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (479) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (480) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (482) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (485) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (486) was put onto the Battlefield under Derand.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 26 (Alec)
+Information: BOARD turn 26 (Alec) | Derand | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 17 (17 untapped): Robot Token 3/3 x15; Mr. House, President and CEO 0/4[Swiftfoot Boots]; Professional Face-Breaker 2/3 | hand cards: hidden
+Information: BOARD turn 26 (Alec) | Dominic | life 32 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 4 (4 untapped): Frodo, Sauron's Bane 3/2[Hammer of Nazahn,Swiftfoot Boots]; Nazgûl 4/5; Zombie Token 2/2; Nazgûl 3/4 | hand cards: Nazgûl(3); Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 26 (Alec) | Alec | life 37 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Ornithopter of Paradise 0/2; Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 26 (Alec) | Peen | life 34 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (1 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4*; Dog Token 1/1* x4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec triggered Ugin's Labyrinth
+Zone Change: Ugin's Labyrinth (260) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Emrakul, the World Anew
+Add To Stack: Alec triggered Emrakul, the World Anew targeting [Derand]
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec cast Emrakul, the World Anew
+Add To Stack: Alec triggered Emrakul, the World Anew targeting [Dominic]
+Add To Stack: Derand activated Professional Face-Breaker
+Zone Change: Treasure Token (486) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (480) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand activated Professional Face-Breaker
+Zone Change: Treasure Token (476) was put into nowhere (token) from Battlefield.
+Zone Change: Emrakul, the World Anew (487) was put onto the Battlefield under Alec.
+Zone Change: Emrakul, the World Anew (239) was put onto the Battlefield under Alec.
+Zone Change: Emrakul, the World Anew (487) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec triggered Emrakul, the World Anew
+Zone Change: Robot Token (420) was put into nowhere (token) from Battlefield.
+Zone Change: Ulalek, Fused Atrocity (312) was put into another zone from Battlefield.
+Zone Change: Ornithopter of Paradise (228) was put into another zone from Battlefield.
+Zone Change: Emrakul, the World Anew (239) was put into another zone from Battlefield.
+Zone Change: Robot Token (424) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (440) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (444) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (448) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (452) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (455) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (457) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (459) was put into nowhere (token) from Battlefield.
+Zone Change: Professional Face-Breaker (15) was put into another zone from Battlefield.
+Zone Change: Robot Token (462) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (466) was put into nowhere (token) from Battlefield.
+Zone Change: Frodo, Sauron's Bane (211) was put into another zone from Battlefield.
+Zone Change: Robot Token (475) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (479) was put into nowhere (token) from Battlefield.
+Zone Change: Robot Token (482) was put into nowhere (token) from Battlefield.
+Zone Change: Mr. House, President and CEO (100) was put into another zone from Battlefield.
+Zone Change: Robot Token (485) was put into nowhere (token) from Battlefield.
+Zone Change: Nazgûl (134) was put into another zone from Battlefield.
+Zone Change: Nazgûl (137) was put into another zone from Battlefield.
+Zone Change: Zombie Token (428) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec triggered Emrakul, the World Anew
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 27 (Peen)
+Information: BOARD turn 27 (Peen) | Derand | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 27 (Peen) | Dominic | life 32 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nazgûl(3); Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 27 (Peen) | Alec | life 37 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 27 (Peen) | Peen | life 34 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen cast Season of the Bold
+Zone Change: Treasure Token (491) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (492) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (494) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (495) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (497) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (498) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (500) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (501) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (503) was put onto the Battlefield under Peen.
+Zone Change: Treasure Token (504) was put onto the Battlefield under Peen.
+Add To Stack: Peen triggered Caretaker's Talent
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 28 (Derand)
+Information: BOARD turn 28 (Derand) | Derand | life 40 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Dominic | life 32 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nazgûl(3); Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 28 (Derand) | Alec | life 37 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Peen | life 34 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Haunted Ridge (85)
+Zone Change: Treasure Token (463) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Swiftfoot Boots targeting [Mr. House, President and CEO (100)]
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (507) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (508) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (511) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (512) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (512) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (508) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand activated Treasure Chest
+Zone Change: Treasure Chest (71) was put into another zone from Battlefield.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Zone Change: Treasure Token (514) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (515) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (516) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (517) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (518) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (521) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (522) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (525) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (526) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Derand | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Robot Token 3/3 x4 | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Dominic | life 32 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Nazgûl(3); Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 29 (Dominic) | Alec | life 37 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Peen | life 34 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Nazgûl
+Zone Change: Nazgûl (133) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Nazgûl
+Add To Stack: Dominic triggered Nazgûl
+Add To Stack: Dominic cast Gleaming Splendor
+Zone Change: Gleaming Splendor (112) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Add To Stack: Derand activated Vexing Puzzlebox
+Zone Change: Idol of Oblivion (82) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (529) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (530) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Idol of Oblivion
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 30 (Alec)
+Information: BOARD turn 30 (Alec) | Derand | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Robot Token 3/3 x5 | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Dominic | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nazgûl 2/3 | hand cards: Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 30 (Alec) | Alec | life 37 | hand 1 | lands 7 (7 untapped) | open mana 7 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Peen | life 34 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (312) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Ugin's Labyrinth
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (533) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (534) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Idol of Oblivion
+Zone Change: Robot Token (537) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (538) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (541) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (542) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (545) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (546) was put onto the Battlefield under Derand.
+Turn: Turn 31 (Peen)
+Information: BOARD turn 31 (Peen) | Derand | life 40 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (10 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Robot Token 3/3 x9 | hand cards: hidden
+Information: BOARD turn 31 (Peen) | Dominic | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nazgûl 2/3 | hand cards: Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 31 (Peen) | Alec | life 37 | hand 3 | lands 7 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 31 (Peen) | Peen | life 34 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 6 (6 untapped): Toby, Beastie Befriender 1/1; Beast Token 4/4; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Zone Change: Treasure Token (504) was put into nowhere (token) from Battlefield.
+Add To Stack: Peen cast Baylen, the Haymaker
+Zone Change: Baylen, the Haymaker (413) was put onto the Battlefield under Peen.
+Add To Stack: Peen cast Will of the Mardu
+Zone Change: Warrior Token (548) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (549) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (550) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (551) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (552) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (553) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (554) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (555) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (556) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (557) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (558) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (559) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (560) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (561) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (562) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (563) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (564) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (565) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (566) was put onto the Battlefield under Peen.
+Zone Change: Warrior Token (567) was put onto the Battlefield under Peen.
+Zone Change: Ulalek, Fused Atrocity (312) was put into another zone from Battlefield.
+Add To Stack: Peen triggered Caretaker's Talent
+Add To Stack: Dominic triggered Gleaming Splendor
+Zone Change: Treasure Token (569) was put onto the Battlefield under Dominic.
+Land: Peen played Plains (385)
+Add To Stack: Peen cast Ocelot Pride
+Zone Change: Ocelot Pride (378) was put onto the Battlefield under Peen.
+Add To Stack: Peen activated Caretaker's Talent
+Add To Stack: Peen triggered Caretaker's Talent targeting [Beast Token (417)]
+Zone Change: Beast Token (572) was put onto the Battlefield under Peen.
+Zone Change: Beast Token (573) was put onto the Battlefield under Peen.
+Add To Stack: Peen activated Caretaker's Talent
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Phase: Peen's End of Combat Step
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (576) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (577) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Idol of Oblivion
+Zone Change: Robot Token (580) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (581) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (584) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (585) was put onto the Battlefield under Derand.
+Zone Change: Robot Token (588) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (589) was put onto the Battlefield under Derand.
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Phase: Peen's Cleanup step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 40 | hand 6 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 14 (14 untapped): Mr. House, President and CEO 0/4[Swiftfoot Boots]; Robot Token 3/3 x13 | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Dominic | life 32 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nazgûl 2/3 | hand cards: Whispersilk Cloak(3); Ghostly Prison(3)
+Information: BOARD turn 32 (Derand) | Alec | life 37 | hand 3 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Peen | life 34 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 30 (26 untapped): Toby, Beastie Befriender 1/1; Beast Token 6/6 x3; Dog Token 3/3 x4; Baylen, the Haymaker 4/3; Warrior Token 3/3 x16; Warrior Token 3/3* x4; Ocelot Pride 1/1 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Shattered Sanctum (7)
+Add To Stack: Derand cast Caesar, Legion's Emperor
+Zone Change: Caesar, Legion's Emperor (37) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Stridehangar Automaton
+Zone Change: Stridehangar Automaton (36) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (585) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (589) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (581) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Ghostly Prison
+Zone Change: Ghostly Prison (47) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (546) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (577) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Reckless Fireweaver
+Zone Change: Reckless Fireweaver (9) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Component Pouch
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand activated Vexing Puzzlebox
+Add To Stack: Derand triggered Reckless Fireweaver
+Zone Change: Academy Manufactor (19) was put onto the Battlefield under Derand.
+Life: Life: Dominic 32 > 31
+Life: Life: Alec 37 > 36
+Life: Life: Peen 34 > 33
+Zone Change: Treasure Token (538) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (534) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (530) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (522) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand activated Mr. House, President and CEO
+Add To Stack: Derand triggered Vexing Puzzlebox
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (592) was put onto the Battlefield under Derand.
+Zone Change: Thopter Token (593) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Life: Life: Dominic 31 > 30
+Life: Life: Alec 36 > 35
+Life: Life: Peen 33 > 32
+Life: Life: Dominic 30 > 29
+Life: Life: Alec 35 > 34
+Life: Life: Peen 32 > 31
+Zone Change: Robot Token (600) was put onto the Battlefield under Derand.
+Zone Change: Thopter Token (601) was put onto the Battlefield under Derand.
+Zone Change: Clue Token (602) was put onto the Battlefield under Derand.
+Zone Change: Food Token (603) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (604) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Life: Life: Dominic 29 > 28
+Life: Life: Alec 34 > 33
+Life: Life: Peen 31 > 30
+Life: Life: Dominic 28 > 27
+Life: Life: Alec 33 > 32
+Life: Life: Peen 30 > 29
+Life: Life: Dominic 27 > 26
+Life: Life: Alec 32 > 31
+Life: Life: Peen 29 > 28
+Life: Life: Dominic 26 > 25
+Life: Life: Alec 31 > 30
+Life: Life: Peen 28 > 27
+Life: Life: Dominic 25 > 24
+Life: Life: Alec 30 > 29
+Life: Life: Peen 27 > 26
+Zone Change: Robot Token (611) was put onto the Battlefield under Derand.
+Zone Change: Thopter Token (612) was put onto the Battlefield under Derand.
+Zone Change: Clue Token (613) was put onto the Battlefield under Derand.
+Zone Change: Food Token (614) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Reckless Fireweaver
+Zone Change: Treasure Token (615) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Add To Stack: Derand triggered Reckless Fireweaver
+Life: Life: Dominic 24 > 23
+Life: Life: Alec 29 > 28
+Life: Life: Peen 26 > 25
+Life: Life: Dominic 23 > 22
+Life: Life: Alec 28 > 27
+Life: Life: Peen 25 > 24
+Life: Life: Dominic 22 > 21
+Life: Life: Alec 27 > 26
+Life: Life: Peen 24 > 23
+Life: Life: Dominic 21 > 20
+Life: Life: Alec 26 > 25
+Life: Life: Peen 23 > 22
+Life: Life: Dominic 20 > 19
+Life: Life: Alec 25 > 24
+Life: Life: Peen 22 > 21
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Zone Change: Treasure Token (569) was put into nowhere (token) from Battlefield.
+Zone Change: Gleaming Splendor (112) was put into another zone from Battlefield.
+Zone Change: Hammer of Nazahn (119) was put into another zone from Battlefield.
+Zone Change: Shattered Sanctum (120) was put into another zone from Battlefield.
+Zone Change: Nazgûl (133) was put into another zone from Battlefield.
+Zone Change: Plains (164) was put into another zone from Battlefield.
+Zone Change: Swamp (181) was put into another zone from Battlefield.
+Zone Change: Swamp (193) was put into another zone from Battlefield.
+Zone Change: Swiftfoot Boots (196) was put into another zone from Battlefield.
+Zone Change: Exotic Orchard (197) was put into another zone from Battlefield.
+Zone Change: Deluge of the Dead (199) was put into another zone from Battlefield.
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Zone Change: Thopter Token (612) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand triggered Caesar, Legion's Emperor
+Zone Change: Soldier Token (617) was put onto the Battlefield under Derand.
+Zone Change: Soldier Token (618) was put onto the Battlefield under Derand.
+Life: Life: Peen 21 > 1
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Robot Token (521), Soldier Token (617), Soldier Token (618), Robot Token (507), Robot Token (525), Robot Token (511) to attack Alec.
+
+Game Result: unfinished (Forge closed mid-game)

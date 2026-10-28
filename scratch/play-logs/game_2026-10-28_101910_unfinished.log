@@ -1,0 +1,548 @@
+Player: Dominic (HUMAN) deck=DackToCapsFace
+Player: Acholate (AI) deck=Scion
+Player: Lidorn (AI) deck=Angels
+Player: Cuparun (AI) deck=Captain America v7
+Mulligan: Cuparun has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Acholate has mulliganed down to 7 cards.
+Mulligan: Cuparun has mulliganed down to 6 cards.
+Mulligan: Cuparun has mulliganed down to 5 cards.
+Mulligan: Cuparun has mulliganed down to 4 cards.
+Mulligan: Cuparun has kept a hand of 4 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Acholate has kept a hand of 7 cards
+Mulligan: Lidorn has kept a hand of 7 cards
+Turn: Turn 1 (Cuparun)
+Information: BOARD turn 1 (Cuparun) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Fellwar Stone(2); Snow-Covered Plains(land); Orim's Chant(1); Sol Ring(1)
+Information: BOARD turn 1 (Cuparun) | Acholate | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Shivan Reef(land); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2)
+Information: BOARD turn 1 (Cuparun) | Lidorn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Pearl Medallion(2); Wand of Vertebrae(1); Plains(land); Mind Stone(2); Plains(land)
+Information: BOARD turn 1 (Cuparun) | Cuparun | life 40 | hand 4 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Winds of Abandon(2); Adarkar Wastes(land); Cloudsteel Kirin(3)
+Phase: Cuparun's Untap step
+Phase: Cuparun's Upkeep step
+Phase: Cuparun's Draw step
+Phase: Cuparun's Main phase, precombat
+Land: Cuparun played Adarkar Wastes (400)
+Phase: Cuparun's Beginning of Combat Step
+Phase: Cuparun's Declare Attackers Step
+Phase: Cuparun's Declare Blockers Step
+Phase: Cuparun's First Strike Damage Step
+Phase: Cuparun's Combat Damage Step
+Phase: Cuparun's End of Combat Step
+Phase: Cuparun's Main phase, postcombat
+Phase: Cuparun's End step
+Phase: Cuparun's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Fellwar Stone(2); Snow-Covered Plains(land); Orim's Chant(1); Sol Ring(1)
+Information: BOARD turn 2 (Dominic) | Acholate | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Shivan Reef(land); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2)
+Information: BOARD turn 2 (Dominic) | Lidorn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Pearl Medallion(2); Wand of Vertebrae(1); Plains(land); Mind Stone(2); Plains(land)
+Information: BOARD turn 2 (Dominic) | Cuparun | life 40 | hand 4 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Snow-Covered Plains (93)
+Mana: Snow-Covered Plains (93) - {T}: Add {W}.
+Add To Stack: Dominic cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Dominic | open mana: Acholate 0, Lidorn 0, Cuparun 3
+Resolve Stack: Sol Ring
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Dominic | open mana: Acholate 0, Lidorn 0, Cuparun 3
+Resolve Stack: Fellwar Stone
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 3 (Acholate)
+Information: BOARD turn 3 (Acholate) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Orim's Chant(1); Defense Grid(2)
+Information: BOARD turn 3 (Acholate) | Acholate | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Shivan Reef(land); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2)
+Information: BOARD turn 3 (Acholate) | Lidorn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Pearl Medallion(2); Wand of Vertebrae(1); Plains(land); Mind Stone(2); Plains(land)
+Information: BOARD turn 3 (Acholate) | Cuparun | life 40 | hand 4 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5)
+Phase: Acholate's Untap step
+Phase: Acholate's Upkeep step
+Phase: Acholate's Draw step
+Phase: Acholate's Main phase, precombat
+Land: Acholate played Shivan Reef (127)
+Phase: Acholate's Beginning of Combat Step
+Phase: Acholate's Declare Attackers Step
+Phase: Acholate's Declare Blockers Step
+Phase: Acholate's First Strike Damage Step
+Phase: Acholate's Combat Damage Step
+Phase: Acholate's End of Combat Step
+Phase: Acholate's Main phase, postcombat
+Phase: Acholate's End step
+Phase: Acholate's Cleanup step
+Turn: Turn 4 (Lidorn)
+Information: BOARD turn 4 (Lidorn) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Orim's Chant(1); Defense Grid(2)
+Information: BOARD turn 4 (Lidorn) | Acholate | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Sunken Ruins(land)
+Information: BOARD turn 4 (Lidorn) | Lidorn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Plains(land); Pearl Medallion(2); Wand of Vertebrae(1); Plains(land); Mind Stone(2); Plains(land)
+Information: BOARD turn 4 (Lidorn) | Cuparun | life 40 | hand 4 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5)
+Phase: Lidorn's Untap step
+Phase: Lidorn's Upkeep step
+Phase: Lidorn's Draw step
+Phase: Lidorn's Main phase, precombat
+Land: Lidorn played Plains (274)
+Phase: Lidorn's Beginning of Combat Step
+Phase: Lidorn's Declare Attackers Step
+Phase: Lidorn's Declare Blockers Step
+Phase: Lidorn's First Strike Damage Step
+Phase: Lidorn's Combat Damage Step
+Phase: Lidorn's End of Combat Step
+Phase: Lidorn's Main phase, postcombat
+Mana: Plains (274) - {T}: Add {W}.
+Add To Stack: Lidorn cast Wand of Vertebrae
+Information: BOARD cast | Wand of Vertebrae (mv 1) by Lidorn | open mana: Dominic 1, Acholate 3, Cuparun 3
+Resolve Stack: Wand of Vertebrae
+Phase: Lidorn's End step
+Phase: Lidorn's Cleanup step
+Turn: Turn 5 (Cuparun)
+Information: BOARD turn 5 (Cuparun) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Orim's Chant(1); Defense Grid(2)
+Information: BOARD turn 5 (Cuparun) | Acholate | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Sunken Ruins(land)
+Information: BOARD turn 5 (Cuparun) | Lidorn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Mind Stone(2); Plains(land); Everflowing Chalice(0)
+Information: BOARD turn 5 (Cuparun) | Cuparun | life 40 | hand 4 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5)
+Phase: Cuparun's Untap step
+Phase: Cuparun's Upkeep step
+Phase: Cuparun's Draw step
+Phase: Cuparun's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Cuparun played Port Town (383)
+Phase: Cuparun's Beginning of Combat Step
+Phase: Cuparun's Declare Attackers Step
+Phase: Cuparun's Declare Blockers Step
+Phase: Cuparun's First Strike Damage Step
+Phase: Cuparun's Combat Damage Step
+Phase: Cuparun's End of Combat Step
+Phase: Cuparun's Main phase, postcombat
+Phase: Cuparun's End step
+Phase: Cuparun's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 5 | lands 1 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Snow-Covered Plains(land); Soul Partition(2); Orim's Chant(1); Defense Grid(2)
+Information: BOARD turn 6 (Dominic) | Acholate | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Sunken Ruins(land)
+Information: BOARD turn 6 (Dominic) | Lidorn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Mind Stone(2); Plains(land); Everflowing Chalice(0)
+Information: BOARD turn 6 (Dominic) | Cuparun | life 40 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Snow-Covered Plains (83)
+Mana: Fellwar Stone (67) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Add To Stack: Dominic cast Defense Grid
+Information: BOARD cast | Defense Grid (mv 2) by Dominic | open mana: Acholate 3, Lidorn 0, Cuparun 3
+Resolve Stack: Defense Grid
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Acholate)
+Information: BOARD turn 7 (Acholate) | Dominic | life 40 | hand 4 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Command Beacon(land)
+Information: BOARD turn 7 (Acholate) | Acholate | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Sunken Ruins(land)
+Information: BOARD turn 7 (Acholate) | Lidorn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Mind Stone(2); Plains(land); Everflowing Chalice(0)
+Information: BOARD turn 7 (Acholate) | Cuparun | life 40 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5)
+Phase: Acholate's Untap step
+Phase: Acholate's Upkeep step
+Phase: Acholate's Draw step
+Phase: Acholate's Main phase, precombat
+Land: Acholate played Sunken Ruins (102)
+Phase: Acholate's Beginning of Combat Step
+Phase: Acholate's Declare Attackers Step
+Phase: Acholate's Declare Blockers Step
+Phase: Acholate's First Strike Damage Step
+Phase: Acholate's Combat Damage Step
+Phase: Acholate's End of Combat Step
+Phase: Acholate's Main phase, postcombat
+Phase: Acholate's End step
+Add To Stack: Lidorn activated Wand of Vertebrae
+Zone Change: Lidorn milled Plains (279).
+Resolve Stack: Wand of Vertebrae (215) - Lidorn mills a card.
+Phase: Acholate's Cleanup step
+Turn: Turn 8 (Lidorn)
+Information: BOARD turn 8 (Lidorn) | Dominic | life 40 | hand 4 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Command Beacon(land)
+Information: BOARD turn 8 (Lidorn) | Acholate | life 40 | hand 7 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Forest(land)
+Information: BOARD turn 8 (Lidorn) | Lidorn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Mind Stone(2); Plains(land); Everflowing Chalice(0)
+Information: BOARD turn 8 (Lidorn) | Cuparun | life 40 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5)
+Phase: Lidorn's Untap step
+Phase: Lidorn's Upkeep step
+Phase: Lidorn's Draw step
+Phase: Lidorn's Main phase, precombat
+Land: Lidorn played Plains (287)
+Mana: Plains (274) - {T}: Add {W}.
+Mana: Plains (287) - {T}: Add {W}.
+Add To Stack: Lidorn cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Lidorn | open mana: Dominic 2, Acholate 8, Cuparun 3
+Resolve Stack: Mind Stone
+Phase: Lidorn's Beginning of Combat Step
+Phase: Lidorn's Declare Attackers Step
+Phase: Lidorn's Declare Blockers Step
+Phase: Lidorn's First Strike Damage Step
+Phase: Lidorn's Combat Damage Step
+Phase: Lidorn's End of Combat Step
+Phase: Lidorn's Main phase, postcombat
+Phase: Lidorn's End step
+Phase: Lidorn's Cleanup step
+Turn: Turn 9 (Cuparun)
+Information: BOARD turn 9 (Cuparun) | Dominic | life 40 | hand 4 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Command Beacon(land)
+Information: BOARD turn 9 (Cuparun) | Acholate | life 40 | hand 7 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Forest(land)
+Information: BOARD turn 9 (Cuparun) | Lidorn | life 40 | hand 5 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Everflowing Chalice(0); Breath of Life(4)
+Information: BOARD turn 9 (Cuparun) | Cuparun | life 40 | hand 4 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5)
+Phase: Cuparun's Untap step
+Phase: Cuparun's Upkeep step
+Phase: Cuparun's Draw step
+Phase: Cuparun's Main phase, precombat
+Phase: Cuparun's Beginning of Combat Step
+Phase: Cuparun's Declare Attackers Step
+Phase: Cuparun's Declare Blockers Step
+Phase: Cuparun's First Strike Damage Step
+Phase: Cuparun's Combat Damage Step
+Phase: Cuparun's End of Combat Step
+Phase: Cuparun's Main phase, postcombat
+Phase: Cuparun's End step
+Phase: Cuparun's Cleanup step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 4 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Command Beacon(land)
+Information: BOARD turn 10 (Dominic) | Acholate | life 40 | hand 7 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Forest(land)
+Information: BOARD turn 10 (Dominic) | Lidorn | life 40 | hand 5 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Everflowing Chalice(0); Breath of Life(4)
+Information: BOARD turn 10 (Dominic) | Cuparun | life 40 | hand 5 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Command Beacon (6)
+Mana: Snow-Covered Plains (93) - {T}: Add {W}.
+Mana: Fellwar Stone (67) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Snow-Covered Plains (83) - {T}: Add {W}.
+Mana: Command Beacon (6) - {T}: Add {C}.
+Add To Stack: Dominic cast Dack Fayden, Helping Hand
+Information: BOARD cast | Dack Fayden, Helping Hand (mv 6) by Dominic | open mana: Acholate 8, Lidorn 1, Cuparun 6
+Resolve Stack: Dack Fayden, Helping Hand - Creature 4 / 6
+Add To Stack: Dominic triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (100)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Add To Stack: Dominic triggered All-Fates Stalker targeting [Dack Fayden, Helping Hand (100)]
+Add To Stack: Dominic triggered Preston, the Vanisher
+Add To Stack: Dominic triggered Felidar Guardian targeting [Dack Fayden, Helping Hand (100)]
+Zone Change: Dack Fayden, Helping Hand (100) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Dack Fayden, Helping Hand (100)]]) [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (100)]
+Add To Stack: Dominic triggered Radiant Solar
+Add To Stack: Dominic triggered Radiant Solar
+Add To Stack: Dominic triggered Fiend Hunter targeting [Radiant Solar (64)]
+Add To Stack: Dominic triggered Radiant Solar
+Add To Stack: Dominic triggered Flickerwisp targeting [Dack Fayden, Helping Hand (100)]
+Zone Change: Dack Fayden, Helping Hand (100) was put into Exile from Battlefield.
+Resolve Stack: When Flickerwisp enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step. (Targeting: [[Dack Fayden, Helping Hand (100)]]) [Zone Changer: Flickerwisp (13)]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Flickerwisp (13)]
+Add To Stack: Dominic triggered Dungeon of the Mad Mage
+Life: Life: Dominic 40 > 41
+Resolve Stack: Yawning Portal — You gain 1 life.  (Leads to: Dungeon Level) [Room: Yawning Portal]
+Zone Change: Radiant Solar (64) was put into Exile from Battlefield.
+Resolve Stack: When Fiend Hunter enters, you may exile another target creature. (Targeting: [[Radiant Solar (64)]]) [Zone Changer: Fiend Hunter (70)]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Fiend Hunter (70)]
+Add To Stack: Dominic triggered Dungeon of the Mad Mage
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: Dungeon Level — Scry 1.  (Leads to: Goblin Bazaar, Twisted Caverns) [Room: Dungeon Level]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Radiant Solar (64)]
+Add To Stack: Dominic triggered Dungeon of the Mad Mage
+Resolve Stack: Goblin Bazaar — Create a Treasure token.  (Leads to: Lost Level) [Room: Goblin Bazaar]
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Felidar Guardian (66)]
+Add To Stack: Dominic triggered Felidar Guardian targeting [Sol Ring (49)]
+Zone Change: Sol Ring (49) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Sol Ring (49)]]) [Zone Changer: Felidar Guardian (409)]
+Resolve Stack: All-Fates Stalker ability fizzles.
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: All-Fates Stalker (15)]
+Add To Stack: Dominic triggered All-Fates Stalker targeting [Felidar Guardian (409)]
+Zone Change: Felidar Guardian (409) was put into Exile from Battlefield.
+Resolve Stack: When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield. (Targeting: [[Felidar Guardian (409)]]) [Zone Changer: All-Fates Stalker (411)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Add To Stack: Dominic triggered Flickerwisp
+Resolve Stack: Return exiled permanent to the battlefield. ([Dack Fayden, Helping Hand (100)]) [Phase: Dominic]
+Phase: Dominic's Cleanup step
+Turn: Turn 11 (Acholate)
+Information: BOARD turn 11 (Acholate) | Dominic | life 41 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Untaidake, the Cloud Keeper(land)
+Information: BOARD turn 11 (Acholate) | Acholate | life 40 | hand 7 | lands 2 (2 untapped) | open mana 8 | commander Command | creatures 2 (2 untapped): Felidar Guardian 1/4; Flickerwisp 3/1 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Ruby, Daring Tracker(2); Forest(land)
+Information: BOARD turn 11 (Acholate) | Lidorn | life 40 | hand 5 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): All-Fates Stalker 2/3; Fiend Hunter 1/3 | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Everflowing Chalice(0); Breath of Life(4)
+Information: BOARD turn 11 (Acholate) | Cuparun | life 40 | hand 5 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Phase: Acholate's Untap step
+Phase: Acholate's Upkeep step
+Phase: Acholate's Draw step
+Phase: Acholate's Main phase, precombat
+Land: Acholate played Forest (138)
+Land: Acholate picked {R}
+Damage: Shivan Reef (127) deals 1 non-combat damage to Acholate.
+Life: Life: Acholate 40 > 39
+Mana: Shivan Reef (127) - {T}: Add {U} or {R}. Shivan Reef deals 1 damage to you. 
+Mana: Forest (138) - {T}: Add {G}.
+Add To Stack: Acholate cast Ruby, Daring Tracker
+Information: BOARD cast | Ruby, Daring Tracker (mv 2) by Acholate | open mana: Dominic 3, Lidorn 1, Cuparun 6
+Resolve Stack: Ruby, Daring Tracker - Creature 1 / 2
+Phase: Acholate's Beginning of Combat Step
+Phase: Acholate's Declare Attackers Step
+Combat: Acholate assigned Felidar Guardian (66) and Flickerwisp (13) to attack Lidorn.
+Information: BOARD attack | Acholate -> Lidorn | attackers 2 (power 4) | defender life 40 | untapped creatures 2 (power 3): All-Fates Stalker 2/3; Fiend Hunter 1/3 | open mana 1
+Phase: Acholate's Declare Blockers Step
+Combat: Lidorn assigned Fiend Hunter (70) and All-Fates Stalker (15) to block Felidar Guardian (66).
+Lidorn didn't block Flickerwisp (13).
+Phase: Acholate's First Strike Damage Step
+Phase: Acholate's Combat Damage Step
+Damage: Felidar Guardian (66) deals 1 damage to All-Fates Stalker (15).
+Damage: Flickerwisp (13) deals 3 combat damage to Lidorn.
+Damage: Fiend Hunter (70) deals 1 damage to Felidar Guardian (66).
+Damage: All-Fates Stalker (15) deals 2 damage to Felidar Guardian (66).
+Life: Life: Lidorn 40 > 37
+Phase: Acholate's End of Combat Step
+Phase: Acholate's Main phase, postcombat
+Phase: Acholate's End step
+Add To Stack: Lidorn activated Wand of Vertebrae
+Zone Change: Lidorn milled Plains (289).
+Resolve Stack: Wand of Vertebrae (215) - Lidorn mills a card.
+Phase: Acholate's Cleanup step
+Turn: Turn 12 (Lidorn)
+Information: BOARD turn 12 (Lidorn) | Dominic | life 41 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Untaidake, the Cloud Keeper(land)
+Information: BOARD turn 12 (Lidorn) | Acholate | life 39 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): Felidar Guardian 1/4*; Flickerwisp 3/1*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Island(land)
+Information: BOARD turn 12 (Lidorn) | Lidorn | life 37 | hand 5 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): All-Fates Stalker 2/3; Fiend Hunter 1/3 | hand cards: Restoration Angel(4); Pearl Medallion(2); Plains(land); Everflowing Chalice(0); Breath of Life(4)
+Information: BOARD turn 12 (Lidorn) | Cuparun | life 40 | hand 5 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 12 | Flickerwisp (Acholate) 45
+Phase: Lidorn's Untap step
+Phase: Lidorn's Upkeep step
+Phase: Lidorn's Draw step
+Phase: Lidorn's Main phase, precombat
+Land: Lidorn played Plains (290)
+Mana: Plains (274) - {T}: Add {W}.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Mind Stone (233) - {T}: Add {C}.
+Add To Stack: Lidorn cast Restoration Angel
+Information: BOARD cast | Restoration Angel (mv 4) by Lidorn | open mana: Dominic 3, Acholate 8, Cuparun 6
+Resolve Stack: Restoration Angel - Creature 3 / 4
+Add To Stack: Lidorn triggered Restoration Angel targeting [All-Fates Stalker (15)]
+Resolve Stack: When Restoration Angel enters, you may exile target non-Angel creature you control, then return that creature to the battlefield under your control. (Targeting: [[All-Fates Stalker (15)]]) [Zone Changer: Restoration Angel (295)]
+Phase: Lidorn's Beginning of Combat Step
+Phase: Lidorn's Declare Attackers Step
+Combat: Lidorn assigned All-Fates Stalker (15) and Fiend Hunter (70) to attack Acholate.
+Information: BOARD attack | Lidorn -> Acholate | attackers 2 (power 3) | defender life 39 | untapped creatures 1 (power 1): Ruby, Daring Tracker 1/2 | open mana 8
+Phase: Lidorn's Declare Blockers Step
+Combat: Acholate didn't block All-Fates Stalker (15).
+Acholate assigned Ruby, Daring Tracker (180) to block Fiend Hunter (70).
+Phase: Lidorn's First Strike Damage Step
+Phase: Lidorn's Combat Damage Step
+Damage: All-Fates Stalker (15) deals 2 combat damage to Acholate.
+Damage: Fiend Hunter (70) deals 1 damage to Ruby, Daring Tracker (180).
+Damage: Ruby, Daring Tracker (180) deals 1 damage to Fiend Hunter (70).
+Life: Life: Acholate 39 > 37
+Phase: Lidorn's End of Combat Step
+Phase: Lidorn's Main phase, postcombat
+Phase: Lidorn's End step
+Phase: Lidorn's Cleanup step
+Turn: Turn 13 (Cuparun)
+Information: BOARD turn 13 (Cuparun) | Dominic | life 41 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Untaidake, the Cloud Keeper(land)
+Information: BOARD turn 13 (Cuparun) | Acholate | life 37 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): Felidar Guardian 1/4*; Flickerwisp 3/1*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Island(land)
+Information: BOARD turn 13 (Cuparun) | Lidorn | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3*; Restoration Angel 3/4 | hand cards: Pearl Medallion(2); Everflowing Chalice(0); Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 13 (Cuparun) | Cuparun | life 40 | hand 5 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Preston, the Vanisher 2/5 | hand cards: Winds of Abandon(2); Cloudsteel Kirin(3); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 13 | Flickerwisp (Acholate) 43
+Phase: Cuparun's Untap step
+Phase: Cuparun's Upkeep step
+Phase: Cuparun's Draw step
+Phase: Cuparun's Main phase, precombat
+Land: Cuparun played Island (332)
+Land: Cuparun picked {W}
+Mana: Port Town (383) - {T}: Add {W} or {U}.
+Mana: Island (332) - {T}: Add {U}.
+Mana: Adarkar Wastes (400) - {T}: Add {C}.
+Add To Stack: Cuparun cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Cuparun | open mana: Dominic 3, Acholate 8, Lidorn 0
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Cuparun's Beginning of Combat Step
+Phase: Cuparun's Declare Attackers Step
+Combat: Cuparun assigned Preston, the Vanisher (57) to attack Lidorn.
+Information: BOARD attack | Cuparun -> Lidorn | attackers 1 (power 2) | defender life 37 | untapped creatures 1 (power 3): Restoration Angel 3/4 | open mana 0
+Phase: Cuparun's Declare Blockers Step
+Combat: Lidorn assigned Restoration Angel (295) to block Preston, the Vanisher (57).
+Phase: Cuparun's First Strike Damage Step
+Phase: Cuparun's Combat Damage Step
+Damage: Preston, the Vanisher (57) deals 2 damage to Restoration Angel (295).
+Damage: Restoration Angel (295) deals 3 damage to Preston, the Vanisher (57).
+Phase: Cuparun's End of Combat Step
+Phase: Cuparun's Main phase, postcombat
+Phase: Cuparun's End step
+Phase: Cuparun's Cleanup step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Dominic | life 41 | hand 4 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Untaidake, the Cloud Keeper(land)
+Information: BOARD turn 14 (Dominic) | Acholate | life 37 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): Felidar Guardian 1/4*; Flickerwisp 3/1*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Island(land)
+Information: BOARD turn 14 (Dominic) | Lidorn | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3*; Restoration Angel 3/4 | hand cards: Pearl Medallion(2); Everflowing Chalice(0); Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 14 (Dominic) | Cuparun | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Preston, the Vanisher 2/5*; Cloudsteel Kirin 3/2 | hand cards: Winds of Abandon(2); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 14 | Flickerwisp (Acholate) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Untaidake, the Cloud Keeper enters tapped.
+Land: Dominic played Untaidake, the Cloud Keeper (41)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 15 (Acholate)
+Information: BOARD turn 15 (Acholate) | Dominic | life 41 | hand 4 | lands 4 (3 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Ruins of Trokair(land)
+Information: BOARD turn 15 (Acholate) | Acholate | life 37 | hand 6 | lands 3 (1 untapped) | open mana 8 | commander Command | creatures 3 (1 untapped): Felidar Guardian 1/4*; Flickerwisp 3/1*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Swamp(land); Island(land)
+Information: BOARD turn 15 (Acholate) | Lidorn | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3*; Restoration Angel 3/4 | hand cards: Pearl Medallion(2); Everflowing Chalice(0); Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 15 (Acholate) | Cuparun | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Preston, the Vanisher 2/5*; Cloudsteel Kirin 3/2 | hand cards: Winds of Abandon(2); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 15 | Flickerwisp (Acholate) 40
+Phase: Acholate's Untap step
+Phase: Acholate's Upkeep step
+Phase: Acholate's Draw step
+Phase: Acholate's Main phase, precombat
+Land: Acholate played Swamp (161)
+Phase: Acholate's Beginning of Combat Step
+Phase: Acholate's Declare Attackers Step
+Combat: Acholate assigned Felidar Guardian (66) and Flickerwisp (13) to attack Lidorn.
+Information: BOARD attack | Acholate -> Lidorn | attackers 2 (power 4) | defender life 37 | untapped creatures 1 (power 3): Restoration Angel 3/4 | open mana 0
+Phase: Acholate's Declare Blockers Step
+Combat: Lidorn didn't block Felidar Guardian (66).
+Lidorn assigned Restoration Angel (295) to block Flickerwisp (13).
+Phase: Acholate's First Strike Damage Step
+Phase: Acholate's Combat Damage Step
+Damage: Felidar Guardian (66) deals 1 combat damage to Lidorn.
+Damage: Flickerwisp (13) deals 3 damage to Restoration Angel (295).
+Damage: Restoration Angel (295) deals 3 damage to Flickerwisp (13).
+Life: Life: Lidorn 37 > 36
+Zone Change: Flickerwisp (13) was put into Graveyard from Battlefield.
+Phase: Acholate's End of Combat Step
+Phase: Acholate's Main phase, postcombat
+Phase: Acholate's End step
+Add To Stack: Lidorn activated Wand of Vertebrae
+Zone Change: Lidorn milled Plains (272).
+Resolve Stack: Wand of Vertebrae (215) - Lidorn mills a card.
+Phase: Acholate's Cleanup step
+Turn: Turn 16 (Lidorn)
+Information: BOARD turn 16 (Lidorn) | Dominic | life 41 | hand 4 | lands 4 (3 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Ruins of Trokair(land)
+Information: BOARD turn 16 (Lidorn) | Acholate | life 37 | hand 6 | lands 4 (4 untapped) | open mana 13 | commander Command | creatures 2 (1 untapped): Felidar Guardian 1/4*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Island(land); Swamp(land)
+Information: BOARD turn 16 (Lidorn) | Lidorn | life 36 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3*; Restoration Angel 3/4 | hand cards: Pearl Medallion(2); Everflowing Chalice(0); Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 16 (Lidorn) | Cuparun | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Preston, the Vanisher 2/5*; Cloudsteel Kirin 3/2 | hand cards: Winds of Abandon(2); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 16 | Wand of Vertebrae (Lidorn) 37
+Phase: Lidorn's Untap step
+Phase: Lidorn's Upkeep step
+Phase: Lidorn's Draw step
+Phase: Lidorn's Main phase, precombat
+Land: Lidorn played Plains (288)
+Mana: Plains (274) - {T}: Add {W}.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Plains (290) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Lidorn cast Everflowing Chalice
+Information: BOARD cast | Everflowing Chalice (mv 0) by Lidorn | open mana: Dominic 7, Acholate 13, Cuparun 0
+Replacement Effect: Everflowing Chalice enters with a charge counter on it for each time it was kicked.
+Resolve Stack: Everflowing Chalice
+Phase: Lidorn's Beginning of Combat Step
+Phase: Lidorn's Declare Attackers Step
+Combat: Lidorn assigned Restoration Angel (295) to attack Cuparun.
+Lidorn assigned All-Fates Stalker (15) and Fiend Hunter (70) to attack Acholate.
+Information: BOARD attack | Lidorn -> Cuparun | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 3): Cloudsteel Kirin 3/2 | open mana 0
+Information: BOARD attack | Lidorn -> Acholate | attackers 2 (power 3) | defender life 37 | untapped creatures 1 (power 1): Ruby, Daring Tracker 1/2 | open mana 13
+Phase: Lidorn's Declare Blockers Step
+Combat: Cuparun didn't block Restoration Angel (295).
+Combat: Acholate didn't block All-Fates Stalker (15).
+Acholate assigned Ruby, Daring Tracker (180) to block Fiend Hunter (70).
+Phase: Lidorn's First Strike Damage Step
+Phase: Lidorn's Combat Damage Step
+Damage: All-Fates Stalker (15) deals 2 combat damage to Acholate.
+Damage: Fiend Hunter (70) deals 1 damage to Ruby, Daring Tracker (180).
+Damage: Restoration Angel (295) deals 3 combat damage to Cuparun.
+Damage: Ruby, Daring Tracker (180) deals 1 damage to Fiend Hunter (70).
+Life: Life: Acholate 37 > 35
+Life: Life: Cuparun 40 > 37
+Phase: Lidorn's End of Combat Step
+Phase: Lidorn's Main phase, postcombat
+Mana: Mind Stone (233) - {T}: Add {C}.
+Mana: Everflowing Chalice (236) - {T}: Add {C} for each charge counter on Everflowing Chalice.
+Add To Stack: Lidorn cast Pearl Medallion
+Information: BOARD cast | Pearl Medallion (mv 2) by Lidorn | open mana: Dominic 7, Acholate 13, Cuparun 0
+Resolve Stack: Pearl Medallion
+Phase: Lidorn's End step
+Phase: Lidorn's Cleanup step
+Turn: Turn 17 (Cuparun)
+Information: BOARD turn 17 (Cuparun) | Dominic | life 41 | hand 4 | lands 4 (3 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Ruins of Trokair(land)
+Information: BOARD turn 17 (Cuparun) | Acholate | life 35 | hand 6 | lands 4 (4 untapped) | open mana 13 | commander Command | creatures 2 (1 untapped): Felidar Guardian 1/4*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Island(land); Swamp(land)
+Information: BOARD turn 17 (Cuparun) | Lidorn | life 36 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (0 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3*; Restoration Angel 3/4* | hand cards: Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 17 (Cuparun) | Cuparun | life 37 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Preston, the Vanisher 2/5*; Cloudsteel Kirin 3/2 | hand cards: Winds of Abandon(2); Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 17 | Wand of Vertebrae (Lidorn) 36; All-Fates Stalker (Lidorn) 33
+Phase: Cuparun's Untap step
+Phase: Cuparun's Upkeep step
+Phase: Cuparun's Draw step
+Phase: Cuparun's Main phase, precombat
+Land: Cuparun picked {W}
+Mana: Port Town (383) - {T}: Add {W} or {U}.
+Mana: Island (332) - {T}: Add {U}.
+Add To Stack: Cuparun cast Winds of Abandon targeting [Restoration Angel (295)]
+Information: BOARD cast | Winds of Abandon (mv 2) by Cuparun | open mana: Dominic 7, Acholate 13, Lidorn 0
+Zone Change: Restoration Angel (295) was put into Exile from Battlefield.
+Resolve Stack: Winds of Abandon (340) - Exile Restoration Angel (295).  
+Phase: Cuparun's Beginning of Combat Step
+Phase: Cuparun's Declare Attackers Step
+Combat: Cuparun assigned Preston, the Vanisher (57) and Cloudsteel Kirin (361) to attack Lidorn.
+Information: BOARD attack | Cuparun -> Lidorn | attackers 2 (power 5) | defender life 36 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Cuparun's Declare Blockers Step
+Combat: Lidorn didn't block Preston, the Vanisher (57).
+Lidorn didn't block Cloudsteel Kirin (361).
+Phase: Cuparun's First Strike Damage Step
+Phase: Cuparun's Combat Damage Step
+Damage: Preston, the Vanisher (57) deals 2 combat damage to Lidorn.
+Damage: Cloudsteel Kirin (361) deals 3 combat damage to Lidorn.
+Life: Life: Lidorn 36 > 31
+Phase: Cuparun's End of Combat Step
+Phase: Cuparun's Main phase, postcombat
+Mana: Adarkar Wastes (400) - {T}: Add {C}.
+Add To Stack: Cuparun cast Soul-Guide Lantern
+Information: BOARD cast | Soul-Guide Lantern (mv 1) by Cuparun | open mana: Dominic 7, Acholate 13, Lidorn 0
+Resolve Stack: Soul-Guide Lantern
+Add To Stack: Cuparun triggered Soul-Guide Lantern targeting [Flickerwisp (13)]
+Resolve Stack: When Soul-Guide Lantern enters, exile target card from a graveyard. (Targeting: [[Flickerwisp (13)]]) [Zone Changer: Soul-Guide Lantern (337)]
+Phase: Cuparun's End step
+Phase: Cuparun's Cleanup step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Dominic | life 41 | hand 4 | lands 4 (3 untapped) | open mana 7 | commander Command | creatures 1 (1 untapped): All-Fates Stalker 0/1 | hand cards: Silence(1); Soul Partition(2); Orim's Chant(1); Ruins of Trokair(land)
+Information: BOARD turn 18 (Dominic) | Acholate | life 35 | hand 6 | lands 4 (4 untapped) | open mana 13 | commander Command | creatures 2 (1 untapped): Felidar Guardian 1/4*; Ruby, Daring Tracker 1/2 | hand cards: Dragonlord Dromoka(6); Perennation(6); Exotic Orchard(land); Savage Ventmaw(6); Island(land); Swamp(land)
+Information: BOARD turn 18 (Dominic) | Lidorn | life 31 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): All-Fates Stalker 2/3*; Fiend Hunter 1/3* | hand cards: Breath of Life(4); Marshal's Anthem(4)
+Information: BOARD turn 18 (Dominic) | Cuparun | life 37 | hand 3 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Preston, the Vanisher 2/5*; Cloudsteel Kirin 3/2* | hand cards: Iron Man, Titan of Innovation(5); Chandra's Ignition(5); Counterspell(2)
+Information: BOARD threat | turn 18 | Wand of Vertebrae (Lidorn) 34; Preston, the Vanisher (Cuparun) 33; All-Fates Stalker (Lidorn) 31
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Snow-Covered Plains (93) - {T}: Add {W}.
+Mana: Fellwar Stone (67) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Sol Ring (49) - {T}: Add {C}{C}.
+Mana: Snow-Covered Plains (83) - {T}: Add {W}.
+Mana: Command Beacon (6) - {T}: Add {C}.
+Life: Life: Dominic 41 > 39
+Mana: Untaidake, the Cloud Keeper (41) - {T}, Pay 2 life: Add {C}{C}. Spend this mana only to cast legendary spells.
+Add To Stack: Dominic cast Dack Fayden, Helping Hand
+Information: BOARD cast | Dack Fayden, Helping Hand (mv 6) by Dominic | open mana: Acholate 13, Lidorn 0, Cuparun 0
+Resolve Stack: Dack Fayden, Helping Hand - Creature 4 / 6
+Add To Stack: Dominic triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (100)]
+
+Game Result: unfinished (Forge closed mid-game)

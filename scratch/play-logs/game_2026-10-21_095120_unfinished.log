@@ -1,0 +1,146 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Claire (AI) deck=Captain America v8
+Player: Deathmar (AI) deck=Scion
+Player: Bradley (AI) deck=Tidus v3
+Mulligan: Bradley has mulliganed down to 7 cards.
+Mulligan: Claire has mulliganed down to 7 cards.
+Mulligan: Deathmar has kept a hand of 7 cards
+Mulligan: Bradley has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Claire has kept a hand of 7 cards
+Turn: Turn 1 (Deathmar)
+Information: BOARD turn 1 (Deathmar) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Wrath of the Skies(2); Herald's Horn(3)
+Information: BOARD turn 1 (Deathmar) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Battlefield Forge(land); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3)
+Information: BOARD turn 1 (Deathmar) | Deathmar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land)
+Information: BOARD turn 1 (Deathmar) | Bradley | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land)
+Phase: Deathmar's Untap step
+Phase: Deathmar's Upkeep step
+Phase: Deathmar's Draw step
+Phase: Deathmar's Main phase, precombat
+Land: Deathmar played Mountain (294)
+Phase: Deathmar's Beginning of Combat Step
+Phase: Deathmar's Declare Attackers Step
+Phase: Deathmar's Declare Blockers Step
+Phase: Deathmar's First Strike Damage Step
+Phase: Deathmar's Combat Damage Step
+Phase: Deathmar's End of Combat Step
+Phase: Deathmar's Main phase, postcombat
+Phase: Deathmar's End step
+Phase: Deathmar's Cleanup step
+Turn: Turn 2 (Bradley)
+Information: BOARD turn 2 (Bradley) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Wrath of the Skies(2); Herald's Horn(3)
+Information: BOARD turn 2 (Bradley) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Battlefield Forge(land); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3)
+Information: BOARD turn 2 (Bradley) | Deathmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 2 (Bradley) | Bradley | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Seaside Citadel(land); Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land)
+Phase: Bradley's Untap step
+Phase: Bradley's Upkeep step
+Phase: Bradley's Draw step
+Phase: Bradley's Main phase, precombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Bradley played Seaside Citadel (386)
+Phase: Bradley's Beginning of Combat Step
+Phase: Bradley's Declare Attackers Step
+Phase: Bradley's Declare Blockers Step
+Phase: Bradley's First Strike Damage Step
+Phase: Bradley's Combat Damage Step
+Phase: Bradley's End of Combat Step
+Phase: Bradley's Main phase, postcombat
+Phase: Bradley's End step
+Phase: Bradley's Cleanup step
+Turn: Turn 3 (Dominic)
+Information: BOARD turn 3 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Wrath of the Skies(2); Herald's Horn(3)
+Information: BOARD turn 3 (Dominic) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Battlefield Forge(land); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3)
+Information: BOARD turn 3 (Dominic) | Deathmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 3 (Dominic) | Bradley | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land); Grateful Apparition(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Wrath of the Skies (26).
+Turn: Turn 4 (Claire)
+Information: BOARD turn 4 (Claire) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Herald's Horn(3); Plains(land)
+Information: BOARD turn 4 (Claire) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Battlefield Forge(land); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3)
+Information: BOARD turn 4 (Claire) | Deathmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 4 (Claire) | Bradley | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land); Grateful Apparition(2)
+Phase: Claire's Untap step
+Phase: Claire's Upkeep step
+Phase: Claire's Draw step
+Phase: Claire's Main phase, precombat
+Land: Claire played Battlefield Forge (198)
+Phase: Claire's Beginning of Combat Step
+Phase: Claire's Declare Attackers Step
+Phase: Claire's Declare Blockers Step
+Phase: Claire's First Strike Damage Step
+Phase: Claire's Combat Damage Step
+Phase: Claire's End of Combat Step
+Phase: Claire's Main phase, postcombat
+Phase: Claire's End step
+Phase: Claire's Cleanup step
+Turn: Turn 5 (Deathmar)
+Information: BOARD turn 5 (Deathmar) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Herald's Horn(3); Plains(land)
+Information: BOARD turn 5 (Deathmar) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Adarkar Wastes(land)
+Information: BOARD turn 5 (Deathmar) | Deathmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 5 (Deathmar) | Bradley | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land); Grateful Apparition(2)
+Phase: Deathmar's Untap step
+Phase: Deathmar's Upkeep step
+Phase: Deathmar's Draw step
+Phase: Deathmar's Main phase, precombat
+Land: Deathmar played Fetid Heath (213)
+Phase: Deathmar's Beginning of Combat Step
+Phase: Deathmar's Declare Attackers Step
+Phase: Deathmar's Declare Blockers Step
+Phase: Deathmar's First Strike Damage Step
+Phase: Deathmar's Combat Damage Step
+Phase: Deathmar's End of Combat Step
+Phase: Deathmar's Main phase, postcombat
+Phase: Deathmar's End step
+Phase: Deathmar's Cleanup step
+Turn: Turn 6 (Bradley)
+Information: BOARD turn 6 (Bradley) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Herald's Horn(3); Plains(land)
+Information: BOARD turn 6 (Bradley) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Adarkar Wastes(land)
+Information: BOARD turn 6 (Bradley) | Deathmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 6 (Bradley) | Bradley | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Prime Speaker Zegana(6); Wildwood Scourge(1); Radiant Grove(land); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land); Grateful Apparition(2)
+Phase: Bradley's Untap step
+Phase: Bradley's Upkeep step
+Phase: Bradley's Draw step
+Phase: Bradley's Main phase, precombat
+Replacement Effect: Radiant Grove enters tapped.
+Land: Bradley played Radiant Grove (395)
+Phase: Bradley's Beginning of Combat Step
+Phase: Bradley's Declare Attackers Step
+Phase: Bradley's Declare Blockers Step
+Phase: Bradley's First Strike Damage Step
+Phase: Bradley's Combat Damage Step
+Phase: Bradley's End of Combat Step
+Phase: Bradley's Main phase, postcombat
+Phase: Bradley's End step
+Phase: Bradley's Cleanup step
+Turn: Turn 7 (Dominic)
+Information: BOARD turn 7 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Smuggler's Copter(2); Plains(land); Whispersilk Cloak(3); Swamp(land); Herald's Horn(3); Plains(land)
+Information: BOARD turn 7 (Dominic) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Glacial Fortress(land); Sram, Senior Edificer(2); Riverglide Pathway(land); Kellan, the Fae-Blooded(3); Zirda, the Dawnwaker(3); Adarkar Wastes(land)
+Information: BOARD turn 7 (Dominic) | Deathmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Child of Alara(5); Arcane Denial(2); Perennation(6); Temple of Epiphany(land); Ancient Copper Dragon(6); Bojuka Bog(land); Reconnaissance(1)
+Information: BOARD turn 7 (Dominic) | Bradley | life 40 | hand 7 | lands 2 (1 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Prime Speaker Zegana(6); Wildwood Scourge(1); Sphere Grid(2); Protection Magic(2); Temple of Plenty(land); Grateful Apparition(2); Farseek(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

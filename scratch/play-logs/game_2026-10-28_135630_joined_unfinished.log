@@ -1,0 +1,115 @@
+Player: Dominic (HUMAN) deck=? (commander Adrix and Nev, Twincasters) [this PC]
+Player: Derand (HUMAN) deck=? (commander Doctor Doom, King of Latveria)
+Player: Jemsh (HUMAN) deck=? (commander Satya, Aetherflux Genius)
+Player: dan (AI) deck=? (commander Admiral Brass, Unsinkable)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (dan)
+Information: BOARD turn 1 (dan) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (dan) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Sol Ring(1); Gilded Lotus(5); Run Away Together(2); Lair of the Hydra(land)
+Information: BOARD turn 1 (dan) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (dan) | dan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: dan's Upkeep step
+Phase: dan's Draw step
+Phase: dan's Main phase, precombat
+Land: dan played Sulfur Falls (305)
+Phase: dan's Beginning of Combat Step
+Phase: dan's Declare Attackers Step
+Phase: dan's Declare Blockers Step
+Phase: dan's End of Combat Step
+Phase: dan's Main phase, postcombat
+Phase: dan's End step
+Phase: dan's Cleanup step
+Turn: Turn 2 (Derand)
+Information: BOARD turn 2 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Derand) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Sol Ring(1); Gilded Lotus(5); Run Away Together(2); Lair of the Hydra(land)
+Information: BOARD turn 2 (Derand) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Derand) | dan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Coastal Peak (36)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 3 (Dominic)
+Information: BOARD turn 3 (Dominic) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Sol Ring(1); Gilded Lotus(5); Run Away Together(2); Lair of the Hydra(land)
+Information: BOARD turn 3 (Dominic) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Dominic) | dan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Lair of the Hydra (140)
+Add To Stack: Dominic cast Sol Ring
+Zone Change: Sol Ring (169) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 4 (Jemsh)
+Information: BOARD turn 4 (Jemsh) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Jemsh) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Gilded Lotus(5); Run Away Together(2); An Offer You Can't Refuse(1)
+Information: BOARD turn 4 (Jemsh) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Jemsh) | dan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Mountain (279)
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's Declare Blockers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 5 (dan)
+Information: BOARD turn 5 (dan) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (dan) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Gilded Lotus(5); Run Away Together(2); An Offer You Can't Refuse(1)
+Information: BOARD turn 5 (dan) | Jemsh | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (dan) | dan | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: dan's Upkeep step
+Phase: dan's Draw step
+Phase: dan's Main phase, precombat
+Land: dan played Rogue's Passage (376)
+Phase: dan's Beginning of Combat Step
+Phase: dan's Declare Attackers Step
+Phase: dan's Declare Blockers Step
+Phase: dan's End of Combat Step
+Phase: dan's Main phase, postcombat
+Add To Stack: dan cast Enterprising Scallywag
+Zone Change: Enterprising Scallywag (367) was put onto the Battlefield under dan.
+Phase: dan's End step
+Turn: Turn 6 (Derand)
+Information: BOARD turn 6 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Gilded Lotus(5); Run Away Together(2); An Offer You Can't Refuse(1)
+Information: BOARD turn 6 (Derand) | Jemsh | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Derand) | dan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enterprising Scallywag 2/2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (24)
+Add To Stack: Derand cast Glorious Purpose
+Zone Change: Glorious Purpose (20) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 7 (Dominic)
+Information: BOARD turn 7 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Circuitous Route(4); Mischievous Mystic(2); Heritage Reclamation(2); Gilded Lotus(5); Run Away Together(2); An Offer You Can't Refuse(1)
+Information: BOARD turn 7 (Dominic) | Jemsh | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Dominic) | dan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Enterprising Scallywag 2/2 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (128)
+Add To Stack: Dominic cast Circuitous Route
+Zone Change: Forest (144) was put onto the Battlefield under Dominic.
+Zone Change: Island (129) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+
+Game Result: unfinished (Forge closed mid-game)

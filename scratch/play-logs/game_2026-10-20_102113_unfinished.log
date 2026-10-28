@@ -1,0 +1,409 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Pelphides (AI) deck=Captain America v8
+Player: Ivan (AI) deck=Mr House v4
+Player: Molly (AI) deck=Olivia
+Mulligan: Molly has mulliganed down to 7 cards.
+Mulligan: Molly has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Pelphides has kept a hand of 7 cards
+Mulligan: Ivan has kept a hand of 7 cards
+Mulligan: Molly has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Aurelia, the Warleader(6)
+Information: BOARD turn 1 (Xenil) | Pelphides | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Floodfarm Verge(land); Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land)
+Information: BOARD turn 1 (Xenil) | Ivan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Godless Shrine(land); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2)
+Information: BOARD turn 1 (Xenil) | Molly | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Aurelia, the Warleader (36).
+Turn: Turn 2 (Pelphides)
+Information: BOARD turn 2 (Pelphides) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 2 (Pelphides) | Pelphides | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Floodfarm Verge(land); Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land)
+Information: BOARD turn 2 (Pelphides) | Ivan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Godless Shrine(land); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2)
+Information: BOARD turn 2 (Pelphides) | Molly | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3)
+Phase: Pelphides' Untap step
+Phase: Pelphides' Upkeep step
+Phase: Pelphides' Draw step
+Phase: Pelphides' Main phase, precombat
+Land: Pelphides played Floodfarm Verge (166)
+Phase: Pelphides' Beginning of Combat Step
+Phase: Pelphides' Declare Attackers Step
+Phase: Pelphides' Declare Blockers Step
+Phase: Pelphides' First Strike Damage Step
+Phase: Pelphides' Combat Damage Step
+Phase: Pelphides' End of Combat Step
+Phase: Pelphides' Main phase, postcombat
+Phase: Pelphides' End step
+Phase: Pelphides' Cleanup step
+Turn: Turn 3 (Ivan)
+Information: BOARD turn 3 (Ivan) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 3 (Ivan) | Pelphides | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land); Plains(land)
+Information: BOARD turn 3 (Ivan) | Ivan | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Godless Shrine(land); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2)
+Information: BOARD turn 3 (Ivan) | Molly | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3)
+Phase: Ivan's Untap step
+Phase: Ivan's Upkeep step
+Phase: Ivan's Draw step
+Phase: Ivan's Main phase, precombat
+Replacement Effect: As Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Ivan played Godless Shrine (239)
+Phase: Ivan's Beginning of Combat Step
+Phase: Ivan's Declare Attackers Step
+Phase: Ivan's Declare Blockers Step
+Phase: Ivan's First Strike Damage Step
+Phase: Ivan's Combat Damage Step
+Phase: Ivan's End of Combat Step
+Phase: Ivan's Main phase, postcombat
+Phase: Ivan's End step
+Phase: Ivan's Cleanup step
+Turn: Turn 4 (Molly)
+Information: BOARD turn 4 (Molly) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 4 (Molly) | Pelphides | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land); Plains(land)
+Information: BOARD turn 4 (Molly) | Ivan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 4 (Molly) | Molly | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3)
+Phase: Molly's Untap step
+Phase: Molly's Upkeep step
+Phase: Molly's Draw step
+Phase: Molly's Main phase, precombat
+Land: Molly played Rogue's Passage (339)
+Phase: Molly's Beginning of Combat Step
+Phase: Molly's Declare Attackers Step
+Phase: Molly's Declare Blockers Step
+Phase: Molly's First Strike Damage Step
+Phase: Molly's Combat Damage Step
+Phase: Molly's End of Combat Step
+Phase: Molly's Main phase, postcombat
+Phase: Molly's End step
+Phase: Molly's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 5 (Xenil) | Pelphides | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land); Plains(land)
+Information: BOARD turn 5 (Xenil) | Ivan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 5 (Xenil) | Molly | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Lyra Dawnbringer (16).
+Turn: Turn 6 (Pelphides)
+Information: BOARD turn 6 (Pelphides) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 6 (Pelphides) | Pelphides | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Island(land); Plains(land); Plains(land)
+Information: BOARD turn 6 (Pelphides) | Ivan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 6 (Pelphides) | Molly | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2)
+Phase: Pelphides' Untap step
+Phase: Pelphides' Upkeep step
+Phase: Pelphides' Draw step
+Phase: Pelphides' Main phase, precombat
+Land: Pelphides played Island (130)
+Phase: Pelphides' Beginning of Combat Step
+Phase: Pelphides' Declare Attackers Step
+Phase: Pelphides' Declare Blockers Step
+Phase: Pelphides' First Strike Damage Step
+Phase: Pelphides' Combat Damage Step
+Phase: Pelphides' End of Combat Step
+Phase: Pelphides' Main phase, postcombat
+Phase: Pelphides' End step
+Phase: Pelphides' Cleanup step
+Turn: Turn 7 (Ivan)
+Information: BOARD turn 7 (Ivan) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 7 (Ivan) | Pelphides | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 7 (Ivan) | Ivan | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Mountain(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 7 (Ivan) | Molly | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2)
+Phase: Ivan's Untap step
+Phase: Ivan's Upkeep step
+Phase: Ivan's Draw step
+Phase: Ivan's Main phase, precombat
+Land: Ivan played Mountain (283)
+Phase: Ivan's Beginning of Combat Step
+Phase: Ivan's Declare Attackers Step
+Phase: Ivan's Declare Blockers Step
+Phase: Ivan's First Strike Damage Step
+Phase: Ivan's Combat Damage Step
+Phase: Ivan's End of Combat Step
+Phase: Ivan's Main phase, postcombat
+Mana: Godless Shrine (239) - {T}: Add {B}.
+Mana: Mountain (283) - {T}: Add {R}.
+Add To Stack: Ivan cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Ivan | open mana: Xenil 0, Pelphides 2, Molly 1
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Ivan triggered Deadbeat Attendant
+Resolve Stack: When Deadbeat Attendant enters the battlefield, open an Attraction. [Zone Changer: Deadbeat Attendant (278)]
+Phase: Ivan's End step
+Phase: Ivan's Cleanup step
+Turn: Turn 8 (Molly)
+Information: BOARD turn 8 (Molly) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 8 (Molly) | Pelphides | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 8 (Molly) | Ivan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 8 (Molly) | Molly | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Dragonskull Summit(land); Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2)
+Phase: Molly's Untap step
+Phase: Molly's Upkeep step
+Phase: Molly's Draw step
+Phase: Molly's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Molly played Dragonskull Summit (359)
+Phase: Molly's Beginning of Combat Step
+Phase: Molly's Declare Attackers Step
+Phase: Molly's Declare Blockers Step
+Phase: Molly's First Strike Damage Step
+Phase: Molly's Combat Damage Step
+Phase: Molly's End of Combat Step
+Phase: Molly's Main phase, postcombat
+Phase: Molly's End step
+Phase: Molly's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Plains(land)
+Information: BOARD turn 9 (Xenil) | Pelphides | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 9 (Xenil) | Ivan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 9 (Xenil) | Molly | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (79).
+Turn: Turn 10 (Pelphides)
+Information: BOARD turn 10 (Pelphides) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2)
+Information: BOARD turn 10 (Pelphides) | Pelphides | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Sulfur Falls(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 10 (Pelphides) | Ivan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 10 (Pelphides) | Molly | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Pelphides' Untap step
+Phase: Pelphides' Upkeep step
+Phase: Pelphides' Draw step
+Phase: Pelphides' Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Pelphides played Sulfur Falls (154)
+Phase: Pelphides' Beginning of Combat Step
+Phase: Pelphides' Declare Attackers Step
+Phase: Pelphides' Declare Blockers Step
+Phase: Pelphides' First Strike Damage Step
+Phase: Pelphides' Combat Damage Step
+Phase: Pelphides' End of Combat Step
+Phase: Pelphides' Main phase, postcombat
+Mana: Island (130) - {T}: Add {U}.
+Land: Pelphides picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Pelphides cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Pelphides | open mana: Xenil 0, Ivan 0, Molly 1
+Resolve Stack: Brotherhood Regalia
+Phase: Pelphides' End step
+Phase: Pelphides' Cleanup step
+Turn: Turn 11 (Ivan)
+Information: BOARD turn 11 (Ivan) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2)
+Information: BOARD turn 11 (Ivan) | Pelphides | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 11 (Ivan) | Ivan | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Deadbeat Attendant 1/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 11 (Ivan) | Molly | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Ivan's Untap step
+Phase: Ivan's Upkeep step
+Phase: Ivan's Draw step
+Phase: Ivan's Main phase, precombat
+Land: Ivan played Command Tower (233)
+Mana: Godless Shrine (239) - {T}: Add {W}.
+Land: Ivan picked {B}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Mountain (283) - {T}: Add {R}.
+Add To Stack: Ivan cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Ivan | open mana: Xenil 0, Pelphides 1, Molly 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Ivan's Beginning of Combat Step
+Phase: Ivan's Declare Attackers Step
+Combat: Ivan assigned Deadbeat Attendant (278) to attack Pelphides.
+Information: BOARD attack | Ivan -> Pelphides | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Ivan's Declare Blockers Step
+Combat: Pelphides didn't block Deadbeat Attendant (278).
+Phase: Ivan's First Strike Damage Step
+Phase: Ivan's Combat Damage Step
+Damage: Deadbeat Attendant (278) deals 1 combat damage to Pelphides.
+Life: Life: Pelphides 40 > 39
+Phase: Ivan's End of Combat Step
+Phase: Ivan's Main phase, postcombat
+Phase: Ivan's End step
+Phase: Ivan's Cleanup step
+Turn: Turn 12 (Molly)
+Information: BOARD turn 12 (Molly) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2)
+Information: BOARD turn 12 (Molly) | Pelphides | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 12 (Molly) | Ivan | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 12 (Molly) | Molly | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Breeches, Eager Pillager(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Molly's Untap step
+Phase: Molly's Upkeep step
+Phase: Molly's Draw step
+Phase: Molly's Main phase, precombat
+Land: Molly played Battlefield Forge (409)
+Phase: Molly's Beginning of Combat Step
+Phase: Molly's Declare Attackers Step
+Phase: Molly's Declare Blockers Step
+Phase: Molly's First Strike Damage Step
+Phase: Molly's Combat Damage Step
+Phase: Molly's End of Combat Step
+Phase: Molly's Main phase, postcombat
+Land: Molly picked {R}
+Mana: Dragonskull Summit (359) - {T}: Add {B} or {R}.
+Mana: Rogue's Passage (339) - {T}: Add {C}.
+Mana: Battlefield Forge (409) - {T}: Add {C}.
+Add To Stack: Molly cast Breeches, Eager Pillager
+Information: BOARD cast | Breeches, Eager Pillager (mv 3) by Molly | open mana: Xenil 0, Pelphides 1, Ivan 0
+Resolve Stack: Breeches, Eager Pillager - Creature 3 / 3
+Phase: Molly's End step
+Phase: Molly's Cleanup step
+Turn: Turn 13 (Xenil)
+Information: BOARD turn 13 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Sun Titan(6); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2)
+Information: BOARD turn 13 (Xenil) | Pelphides | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 13 (Xenil) | Ivan | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 13 (Xenil) | Molly | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Breeches, Eager Pillager 3/3 | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Sun Titan (58).
+Turn: Turn 14 (Pelphides)
+Information: BOARD turn 14 (Pelphides) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2); Sevinne's Reclamation(3)
+Information: BOARD turn 14 (Pelphides) | Pelphides | life 39 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 14 (Pelphides) | Ivan | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 14 (Pelphides) | Molly | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Breeches, Eager Pillager 3/3 | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Pelphides' Untap step
+Phase: Pelphides' Upkeep step
+Phase: Pelphides' Draw step
+Phase: Pelphides' Main phase, precombat
+Land: Pelphides played Inventors' Fair (104)
+Phase: Pelphides' Beginning of Combat Step
+Phase: Pelphides' Declare Attackers Step
+Phase: Pelphides' Declare Blockers Step
+Phase: Pelphides' First Strike Damage Step
+Phase: Pelphides' Combat Damage Step
+Phase: Pelphides' End of Combat Step
+Phase: Pelphides' Main phase, postcombat
+Phase: Pelphides' End step
+Phase: Pelphides' Cleanup step
+Turn: Turn 15 (Ivan)
+Information: BOARD turn 15 (Ivan) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2); Sevinne's Reclamation(3)
+Information: BOARD turn 15 (Ivan) | Pelphides | life 39 | hand 5 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 15 (Ivan) | Ivan | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Lotho, Corrupt Shirriff(2); Plains(land); Infernal Grasp(2); Goblin Bombardment(2)
+Information: BOARD turn 15 (Ivan) | Molly | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Breeches, Eager Pillager 3/3 | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Ivan's Untap step
+Phase: Ivan's Upkeep step
+Phase: Ivan's Draw step
+Phase: Ivan's Main phase, precombat
+Add To Stack: Ivan triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Ivan, Result: 4]
+Land: Ivan played Battlefield Forge (300)
+Mana: Godless Shrine (239) - {T}: Add {B}.
+Mana: Mountain (283) - {T}: Add {R}.
+Add To Stack: Ivan cast Infernal Grasp targeting [Breeches, Eager Pillager (363)]
+Information: BOARD cast | Infernal Grasp (mv 2) by Ivan | open mana: Xenil 0, Pelphides 6, Molly 0
+Zone Change: Breeches, Eager Pillager (363) was put into Graveyard from Battlefield.
+Life: Life: Ivan 40 > 38
+Resolve Stack: Infernal Grasp (294) - Destroy Breeches, Eager Pillager (363). Ivan loses 2 life.
+Phase: Ivan's Beginning of Combat Step
+Phase: Ivan's Declare Attackers Step
+Combat: Ivan assigned Deadbeat Attendant (278) to attack Pelphides.
+Information: BOARD attack | Ivan -> Pelphides | attackers 1 (power 1) | defender life 39 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Ivan's Declare Blockers Step
+Combat: Pelphides didn't block Deadbeat Attendant (278).
+Phase: Ivan's First Strike Damage Step
+Phase: Ivan's Combat Damage Step
+Damage: Deadbeat Attendant (278) deals 1 combat damage to Pelphides.
+Life: Life: Pelphides 39 > 38
+Phase: Ivan's End of Combat Step
+Phase: Ivan's Main phase, postcombat
+Land: Ivan picked {B}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Land: Ivan picked {W}
+Damage: Battlefield Forge (300) deals 1 non-combat damage to Ivan.
+Life: Life: Ivan 38 > 37
+Mana: Battlefield Forge (300) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Add To Stack: Ivan cast Lotho, Corrupt Shirriff
+Information: BOARD cast | Lotho, Corrupt Shirriff (mv 2) by Ivan | open mana: Xenil 0, Pelphides 6, Molly 0
+Resolve Stack: Lotho, Corrupt Shirriff - Creature 2 / 1
+Phase: Ivan's End step
+Phase: Ivan's Cleanup step
+Turn: Turn 16 (Molly)
+Information: BOARD turn 16 (Molly) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2); Sevinne's Reclamation(3)
+Information: BOARD turn 16 (Molly) | Pelphides | life 38 | hand 5 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Counterspell(2); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 16 (Molly) | Ivan | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4; Robot Token 3/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Plains(land); Goblin Bombardment(2)
+Information: BOARD turn 16 (Molly) | Molly | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Molly's Untap step
+Phase: Molly's Upkeep step
+Phase: Molly's Draw step
+Phase: Molly's Main phase, precombat
+Land: Molly played Mountain (399)
+Land: Molly picked {W}
+Damage: Battlefield Forge (409) deals 1 non-combat damage to Molly.
+Life: Life: Molly 40 > 39
+Mana: Battlefield Forge (409) - {T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you. 
+Land: Molly picked {B}
+Mana: Dragonskull Summit (359) - {T}: Add {B} or {R}.
+Mana: Mountain (399) - {T}: Add {R}.
+Mana: Rogue's Passage (339) - {T}: Add {C}.
+Add To Stack: Molly cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Molly | open mana: Xenil 0, Pelphides 6, Ivan 0
+Mana: Island (130) - {T}: Add {U}.
+Land: Pelphides picked {U}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Add To Stack: Pelphides cast Counterspell targeting [Olivia, Opulent Outlaw - Creature 3 / 3]
+Information: BOARD cast | Counterspell (mv 2) by Pelphides | open mana: Xenil 0, Ivan 0, Molly 0
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Counterspell (120) - Counter Olivia, Opulent Outlaw (413).
+Phase: Molly's Beginning of Combat Step
+Phase: Molly's Declare Attackers Step
+Phase: Molly's Declare Blockers Step
+Phase: Molly's First Strike Damage Step
+Phase: Molly's Combat Damage Step
+Phase: Molly's End of Combat Step
+Phase: Molly's Main phase, postcombat
+Phase: Molly's End step
+Phase: Molly's Cleanup step
+Turn: Turn 17 (Xenil)
+Information: BOARD turn 17 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Wand of Vertebrae(1); Unclaimed Territory(land); Fellwar Stone(2); Plains(land); Wrath of the Skies(2); Mind Stone(2); Sevinne's Reclamation(3)
+Information: BOARD turn 17 (Xenil) | Pelphides | life 38 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Port Town(land); Plains(land); Plains(land); Plains(land)
+Information: BOARD turn 17 (Xenil) | Ivan | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Deadbeat Attendant 1/1*; Mr. House, President and CEO 0/4; Robot Token 3/3; Lotho, Corrupt Shirriff 2/1 | hand cards: Treasure Chest(3); Gisela, Blade of Goldnight(7); Plains(land); Goblin Bombardment(2)
+Information: BOARD turn 17 (Xenil) | Molly | life 39 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Boros Charm(2); Toxic Deluge(3); Heliod's Intervention(2); The Meathook Massacre(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

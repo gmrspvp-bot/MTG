@@ -1,0 +1,597 @@
+Player: Dominic (HUMAN) deck=? (commander Scion of the Ur-Dragon) [this PC]
+Player: Derand (HUMAN) deck=? (commander Doctor Doom, King of Latveria)
+Player: Alec (HUMAN) deck=? (commander Eivor, Battle-Ready)
+Player: jim (HUMAN) deck=? (commander Cloud, Ex-SOLDIER)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Derand)
+Information: BOARD turn 1 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Derand) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Derand) | jim | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Derand) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Exotic Orchard(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Choked Estuary (13)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 2 (Alec)
+Information: BOARD turn 2 (Alec) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | jim | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Exotic Orchard(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (184)
+Add To Stack: Alec cast Sol Ring
+Zone Change: Sol Ring (145) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Arcane Signet
+Zone Change: Arcane Signet (139) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Bloodforged Battle-Axe
+Zone Change: Bloodforged Battle-Axe (132) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 3 (jim)
+Information: BOARD turn 3 (jim) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (jim) | Alec | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (jim) | jim | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (jim) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Exotic Orchard(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Land: jim played Fortified Village (239)
+Phase: jim's Beginning of Combat Step
+Phase: jim's Declare Attackers Step
+Phase: jim's Declare Blockers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Dominic) | Alec | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Dominic) | jim | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Exotic Orchard(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (344)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 5 (Derand)
+Information: BOARD turn 5 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Derand) | Alec | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Derand) | jim | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (86)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 6 (Alec)
+Information: BOARD turn 6 (Alec) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Alec | life 40 | hand 4 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | jim | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (183)
+Add To Stack: Alec cast Relic of Legends
+Zone Change: Relic of Legends (104) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Kassandra, Eagle Bearer
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Zone Change: Kassandra, Eagle Bearer (108) was put onto the Battlefield under Alec.
+Zone Change: The Spear of Leonidas (103) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 7 (jim)
+Information: BOARD turn 7 (jim) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (jim) | Alec | life 40 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 2/2 | hand cards: hidden
+Information: BOARD turn 7 (jim) | jim | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (jim) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Land: jim played Plains (289)
+Add To Stack: jim cast Helitrooper
+Zone Change: Helitrooper (223) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Phase: jim's Declare Attackers Step
+Phase: jim's Declare Blockers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Dominic) | Alec | life 40 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 2/2 | hand cards: hidden
+Information: BOARD turn 8 (Dominic) | jim | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Helitrooper 1/2 | hand cards: hidden
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Shivan Reef (329)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 9 (Derand)
+Information: BOARD turn 9 (Derand) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Derand) | Alec | life 40 | hand 2 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 2/2 | hand cards: hidden
+Information: BOARD turn 9 (Derand) | jim | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Helitrooper 1/2 | hand cards: hidden
+Information: BOARD turn 9 (Derand) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (21)
+Add To Stack: Derand cast Tombstone, Career Criminal
+Zone Change: Tombstone, Career Criminal (92) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 10 (Alec)
+Information: BOARD turn 10 (Alec) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tombstone, Career Criminal 2/2 | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Alec | life 40 | hand 2 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 2/2 | hand cards: hidden
+Information: BOARD turn 10 (Alec) | jim | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Helitrooper 1/2 | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Slip Out the Back(1); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Brotherhood Headquarters (124)
+Add To Stack: Alec cast Eivor, Battle-Ready
+Zone Change: Eivor, Battle-Ready (201) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Bloodforged Battle-Axe targeting [Eivor, Battle-Ready (201)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Dominic cast Slip Out the Back targeting [Eivor, Battle-Ready (201)]
+Life: Life: jim 40 > 39
+Life: Life: Dominic 40 > 39
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Kassandra, Eagle Bearer (108) to attack jim.
+Phase: Alec's Combat Damage Step
+Combat: jim didn't block Kassandra, Eagle Bearer (108).
+Life: Life: jim 39 > 37
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 11 (jim)
+Information: BOARD turn 11 (jim) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tombstone, Career Criminal 2/2 | hand cards: hidden
+Information: BOARD turn 11 (jim) | Alec | life 40 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Kassandra, Eagle Bearer 2/2*; Eivor, Battle-Ready 6/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 11 (jim) | jim | life 37 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Helitrooper 1/2 | hand cards: hidden
+Information: BOARD turn 11 (jim) | Dominic | life 39 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Land: jim played Mountain (281)
+Add To Stack: jim cast Trailblazer's Boots
+Zone Change: Trailblazer's Boots (297) was put onto the Battlefield under jim.
+Add To Stack: jim activated Trailblazer's Boots targeting [Helitrooper (223)]
+Phase: jim's Beginning of Combat Step
+Phase: jim's Declare Attackers Step
+Phase: jim's Declare Blockers Step
+Combat: jim assigned Helitrooper (223) to attack Alec.
+Phase: jim's First Strike Damage Step
+Combat: Alec didn't block Helitrooper (223).
+Phase: jim's Combat Damage Step
+Life: Life: Alec 40 > 39
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tombstone, Career Criminal 2/2 | hand cards: hidden
+Information: BOARD turn 12 (Dominic) | Alec | life 39 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Kassandra, Eagle Bearer 2/2*; Eivor, Battle-Ready 6/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 12 (Dominic) | jim | life 37 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Helitrooper 1/2*[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 12 (Dominic) | Dominic | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4); Dragon Tempest(2)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Gruul Guildgate (305)
+Add To Stack: Dominic cast Dragon Tempest
+Zone Change: Dragon Tempest (373) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 13 (Derand)
+Information: BOARD turn 13 (Derand) | Derand | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Tombstone, Career Criminal 2/2 | hand cards: hidden
+Information: BOARD turn 13 (Derand) | Alec | life 39 | hand 2 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Kassandra, Eagle Bearer 2/2*; Eivor, Battle-Ready 6/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 13 (Derand) | jim | life 37 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Helitrooper 1/2*[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 13 (Derand) | Dominic | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Crumbling Necropolis (57)
+Add To Stack: Derand cast The Frightful Four
+Zone Change: The Frightful Four (70) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 14 (Alec)
+Information: BOARD turn 14 (Alec) | Derand | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; The Frightful Four 4/4 | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Alec | life 39 | hand 2 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 8/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 14 (Alec) | jim | life 37 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Helitrooper 1/2*[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Dominic | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (192)
+Add To Stack: Alec activated The Spear of Leonidas targeting [Eivor, Battle-Ready (201)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered The Spear of Leonidas
+Life: Life: jim 37 > 35
+Life: Life: Dominic 39 > 37
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Eivor, Battle-Ready (201) to attack Dominic.
+Phase: Alec's First Strike Damage Step
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Combat: Dominic didn't block Eivor, Battle-Ready (201).
+Life: Life: Dominic 37 > 29
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Zone Change: Bloodforged Battle-Axe (406) was put onto the Battlefield under Alec.
+Phase: Alec's Combat Damage Step
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Life: Life: Dominic 29 > 21
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Zone Change: Bloodforged Battle-Axe (408) was put onto the Battlefield under Alec.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec cast Commander's Sphere
+Zone Change: Commander's Sphere (118) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Mirror Shield
+Zone Change: Mirror Shield (157) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Mirror Shield targeting [Eivor, Battle-Ready (201)]
+Phase: Alec's End step
+Turn: Turn 15 (jim)
+Information: BOARD turn 15 (jim) | Derand | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; The Frightful Four 4/4 | hand cards: hidden
+Information: BOARD turn 15 (jim) | Alec | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 8/8[Bloodforged Battle-Axe,The Spear of Leonidas,Mirror Shield] | hand cards: hidden
+Information: BOARD turn 15 (jim) | jim | life 35 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Helitrooper 1/2[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 15 (jim) | Dominic | life 21 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Land: jim played Cinder Glade (214)
+Add To Stack: jim cast Barret, Avalanche Leader
+Zone Change: Barret, Avalanche Leader (279) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Add To Stack: jim triggered Barret, Avalanche Leader targeting [Trailblazer's Boots (297)]
+Phase: jim's Declare Attackers Step
+Phase: jim's Declare Blockers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Derand | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; The Frightful Four 4/4 | hand cards: hidden
+Information: BOARD turn 16 (Dominic) | Alec | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 8/8[Bloodforged Battle-Axe,The Spear of Leonidas,Mirror Shield] | hand cards: hidden
+Information: BOARD turn 16 (Dominic) | jim | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 16 (Dominic) | Dominic | life 21 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Defense of the Heart(4)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Haven of the Spirit Dragon (325)
+Add To Stack: Derand triggered The Frightful Four
+Add To Stack: Dominic cast Defense of the Heart
+Life: Life: Dominic 21 > 17
+Zone Change: Defense of the Heart (386) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 17 (Derand)
+Information: BOARD turn 17 (Derand) | Derand | life 40 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; The Frightful Four 4/4 | hand cards: hidden
+Information: BOARD turn 17 (Derand) | Alec | life 39 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 8/8[Bloodforged Battle-Axe,The Spear of Leonidas,Mirror Shield] | hand cards: hidden
+Information: BOARD turn 17 (Derand) | jim | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 17 (Derand) | Dominic | life 17 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Patchwork Banner
+Zone Change: Patchwork Banner (83) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 18 (Alec)
+Information: BOARD turn 18 (Alec) | Derand | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 3/3; The Frightful Four 5/5 | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Alec | life 39 | hand 2 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 8/8[Bloodforged Battle-Axe,The Spear of Leonidas,Mirror Shield] | hand cards: hidden
+Information: BOARD turn 18 (Alec) | jim | life 35 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Dominic | life 17 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Ruby Medallion
+Zone Change: Ruby Medallion (119) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Bloodforged Battle-Axe targeting [Eivor, Battle-Ready (201)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered The Spear of Leonidas
+Life: Life: jim 35 > 30
+Life: Life: Dominic 17 > 12
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Eivor, Battle-Ready (201) to attack jim.
+Phase: Alec's First Strike Damage Step
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Combat: jim didn't block Eivor, Battle-Ready (201).
+Life: Life: jim 30 > 20
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Zone Change: Bloodforged Battle-Axe (410) was put onto the Battlefield under Alec.
+Zone Change: Bloodforged Battle-Axe (412) was put onto the Battlefield under Alec.
+Phase: Alec's Combat Damage Step
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Life: Life: jim 20 > 10
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Zone Change: Bloodforged Battle-Axe (414) was put onto the Battlefield under Alec.
+Zone Change: Bloodforged Battle-Axe (416) was put onto the Battlefield under Alec.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Land: Alec played Citadel Gate (171)
+Add To Stack: Alec cast Ancient Copper Dragon
+Zone Change: Ancient Copper Dragon (113) was put onto the Battlefield under Alec.
+Phase: Alec's End step
+Turn: Turn 19 (jim)
+Information: BOARD turn 19 (jim) | Derand | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 3/3; The Frightful Four 5/5 | hand cards: hidden
+Information: BOARD turn 19 (jim) | Alec | life 39 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 10/8[Bloodforged Battle-Axe,The Spear of Leonidas,Bloodforged Battle-Axe,Mirror Shield]; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 19 (jim) | jim | life 10 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots] | hand cards: hidden
+Information: BOARD turn 19 (jim) | Dominic | life 12 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Land: jim played Scavenger Grounds (249)
+Add To Stack: jim cast Cloud, Ex-SOLDIER
+Add To Stack: jim triggered Cloud, Ex-SOLDIER targeting [Trailblazer's Boots (297)]
+Zone Change: Cloud, Ex-SOLDIER (302) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Add To Stack: jim triggered Barret, Avalanche Leader targeting [Trailblazer's Boots (297)]
+Phase: jim's Declare Attackers Step
+Phase: jim's Declare Blockers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Derand | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 3/3; The Frightful Four 5/5 | hand cards: hidden
+Information: BOARD turn 20 (Dominic) | Alec | life 39 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Kassandra, Eagle Bearer 2/2; Eivor, Battle-Ready 10/8[Bloodforged Battle-Axe,The Spear of Leonidas,Bloodforged Battle-Axe,Mirror Shield]; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 20 (Dominic) | jim | life 10 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots]; Cloud, Ex-SOLDIER 4/4 | hand cards: hidden
+Information: BOARD turn 20 (Dominic) | Dominic | life 12 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Defense of the Heart
+Zone Change: Defense of the Heart (386) was put into another zone from Battlefield.
+Zone Change: Dragonlord Dromoka (333) was put onto the Battlefield under Dominic.
+Zone Change: Ancient Gold Dragon (341) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Dragon Tempest targeting [jim]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [jim]
+Add To Stack: Dominic triggered Dragon Tempest
+Life: Life: jim 10 > 8
+Life: Life: jim 8 > 6
+Life: Life: Dominic 12 > 14
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Fetid Heath (314)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ancient Gold Dragon (341) to attack Derand.
+Phase: Dominic's Combat Damage Step
+Combat: Derand didn't block Ancient Gold Dragon (341).
+Life: Life: Derand 40 > 33
+Add To Stack: Dominic triggered Ancient Gold Dragon
+Zone Change: Faerie Dragon Token (418) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (419) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (420) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (421) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (422) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (423) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (424) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (425) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (426) was put onto the Battlefield under Dominic.
+Zone Change: Faerie Dragon Token (427) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Dragon Tempest targeting [Derand]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Alec]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Derand]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Alec]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Derand]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Alec]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Derand]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Alec]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Derand]
+Add To Stack: Dominic triggered Dragon Tempest
+Add To Stack: Dominic triggered Dragon Tempest targeting [Alec]
+Add To Stack: Dominic triggered Dragon Tempest
+Life: Life: Alec 39 > 27
+Life: Life: Derand 33 > 21
+Life: Life: Alec 27 > 15
+Life: Life: Derand 21 > 9
+Life: Life: Alec 15 > 3
+Life: Life: Derand 9 > -3
+Zone Change: Choked Estuary (13) was put into another zone from Battlefield.
+Zone Change: Island (21) was put into None from Battlefield.
+Zone Change: Crumbling Necropolis (57) was put into another zone from Battlefield.
+Zone Change: The Frightful Four (70) was put into another zone from Battlefield.
+Zone Change: Patchwork Banner (83) was put into another zone from Battlefield.
+Zone Change: Mountain (86) was put into another zone from Battlefield.
+Zone Change: Tombstone, Career Criminal (92) was put into another zone from Battlefield.
+Add To Stack: Alec activated Commander's Sphere
+Zone Change: Commander's Sphere (118) was put into another zone from Battlefield.
+Life: Life: Alec 3 > -9
+Zone Change: Bloodforged Battle-Axe (132) was put into another zone from Battlefield.
+Zone Change: Arcane Signet (139) was put into another zone from Battlefield.
+Zone Change: Sol Ring (145) was put into another zone from Battlefield.
+Zone Change: Bloodforged Battle-Axe (406) was put into nowhere (token) from Battlefield.
+Zone Change: Bloodforged Battle-Axe (408) was put into nowhere (token) from Battlefield.
+Zone Change: Bloodforged Battle-Axe (410) was put into nowhere (token) from Battlefield.
+Zone Change: Bloodforged Battle-Axe (412) was put into nowhere (token) from Battlefield.
+Zone Change: Mirror Shield (157) was put into another zone from Battlefield.
+Zone Change: Bloodforged Battle-Axe (414) was put into nowhere (token) from Battlefield.
+Zone Change: Bloodforged Battle-Axe (416) was put into nowhere (token) from Battlefield.
+Zone Change: Citadel Gate (171) was put into another zone from Battlefield.
+Zone Change: Mountain (183) was put into another zone from Battlefield.
+Zone Change: Mountain (184) was put into another zone from Battlefield.
+Zone Change: Plains (192) was put into another zone from Battlefield.
+Zone Change: Eivor, Battle-Ready (201) was put into another zone from Battlefield.
+Zone Change: The Spear of Leonidas (103) was put into another zone from Battlefield.
+Zone Change: Relic of Legends (104) was put into another zone from Battlefield.
+Zone Change: Kassandra, Eagle Bearer (108) was put into another zone from Battlefield.
+Zone Change: Ancient Copper Dragon (113) was put into another zone from Battlefield.
+Zone Change: Ruby Medallion (119) was put into another zone from Battlefield.
+Zone Change: Brotherhood Headquarters (124) was put into another zone from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Turn: Turn 21 (jim)
+Information: BOARD turn 21 (jim) | Derand | out
+Information: BOARD turn 21 (jim) | Alec | out
+Information: BOARD turn 21 (jim) | jim | life 6 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 3 (3 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots]; Cloud, Ex-SOLDIER 4/4 | hand cards: hidden
+Information: BOARD turn 21 (jim) | Dominic | life 14 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 12 (11 untapped): Ancient Gold Dragon 7/10*; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Add To Stack: jim cast Hero's Blade
+Zone Change: Path of Ancestry (212) was put onto the Battlefield under jim.
+Add To Stack: jim triggered Barret, Avalanche Leader
+Zone Change: Hero's Blade (235) was put onto the Battlefield under jim.
+Zone Change: Rebel Token (430) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Add To Stack: jim triggered Barret, Avalanche Leader targeting [Hero's Blade (235)]
+Phase: jim's Declare Attackers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Derand | out
+Information: BOARD turn 22 (Dominic) | Alec | out
+Information: BOARD turn 22 (Dominic) | jim | life 6 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots]; Cloud, Ex-SOLDIER 4/4; Rebel Token 5/4[Hero's Blade] | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Dominic | life 14 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 12 (12 untapped): Ancient Gold Dragon 7/10; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 23 (jim)
+Information: BOARD turn 23 (jim) | Derand | out
+Information: BOARD turn 23 (jim) | Alec | out
+Information: BOARD turn 23 (jim) | jim | life 6 | hand 2 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 4 (4 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots]; Cloud, Ex-SOLDIER 4/4; Rebel Token 5/4[Hero's Blade] | hand cards: hidden
+Information: BOARD turn 23 (jim) | Dominic | life 14 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 12 (12 untapped): Ancient Gold Dragon 7/10; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Lightning Greaves(2)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Add To Stack: jim cast Conqueror's Flail
+Add To Stack: jim triggered Barret, Avalanche Leader
+Zone Change: Conqueror's Flail (292) was put onto the Battlefield under jim.
+Add To Stack: jim activated Conqueror's Flail targeting [Cloud, Ex-SOLDIER (302)]
+Zone Change: Rebel Token (433) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Add To Stack: jim triggered Barret, Avalanche Leader targeting [Conqueror's Flail (292)]
+Phase: jim's Declare Attackers Step
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Derand | out
+Information: BOARD turn 24 (Dominic) | Alec | out
+Information: BOARD turn 24 (Dominic) | jim | life 6 | hand 2 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Helitrooper 1/2; Barret, Avalanche Leader 4/4[Trailblazer's Boots]; Cloud, Ex-SOLDIER 4/4; Rebel Token 5/4[Hero's Blade]; Rebel Token 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 24 (Dominic) | Dominic | life 14 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 12 (12 untapped): Ancient Gold Dragon 7/10; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Utter End(4); Ancient Bronze Dragon(7); Lightning Greaves(2)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Utter End targeting [Helitrooper (223)]
+Zone Change: Helitrooper (223) was put into another zone from Battlefield.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ancient Gold Dragon (341) to attack jim.
+Phase: Dominic's Combat Damage Step
+Zone Change: Barret, Avalanche Leader (279) was put into another zone from Battlefield.
+Combat: jim didn't block Ancient Gold Dragon (341).
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 25 (jim)
+Information: BOARD turn 25 (jim) | Derand | out
+Information: BOARD turn 25 (jim) | Alec | out
+Information: BOARD turn 25 (jim) | jim | life 6 | hand 2 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Cloud, Ex-SOLDIER 4/4; Rebel Token 5/4[Hero's Blade]; Rebel Token 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 25 (jim) | Dominic | life 14 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 12 (11 untapped): Ancient Gold Dragon 7/10*; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Ancient Bronze Dragon(7); Lightning Greaves(2); Dragon's Hoard(3)
+Phase: jim's Upkeep step
+Phase: jim's Draw step
+Phase: jim's Main phase, precombat
+Add To Stack: jim activated Trailblazer's Boots targeting [Cloud, Ex-SOLDIER (302)]
+Add To Stack: jim cast Andúril, Flame of the West
+Zone Change: Andúril, Flame of the West (233) was put onto the Battlefield under jim.
+Phase: jim's Beginning of Combat Step
+Phase: jim's Declare Attackers Step
+Add To Stack: jim triggered Cloud, Ex-SOLDIER
+Phase: jim's Declare Blockers Step
+Combat: jim assigned Cloud, Ex-SOLDIER (302) to attack Dominic.
+Phase: jim's First Strike Damage Step
+Combat: Dominic didn't block Cloud, Ex-SOLDIER (302).
+Phase: jim's Combat Damage Step
+Life: Life: Dominic 14 > 10
+Phase: jim's End of Combat Step
+Phase: jim's Main phase, postcombat
+Phase: jim's End step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Derand | out
+Information: BOARD turn 26 (Dominic) | Alec | out
+Information: BOARD turn 26 (Dominic) | jim | life 6 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Cloud, Ex-SOLDIER 4/4*[Trailblazer's Boots]; Rebel Token 5/4[Hero's Blade]; Rebel Token 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Dominic | life 10 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 12 (12 untapped): Ancient Gold Dragon 7/10; Dragonlord Dromoka 5/7; Faerie Dragon Token 1/1 x10 | hand cards: Sunken Ruins(land); Lathliss, Dragon Queen(6); Ancient Bronze Dragon(7); Lightning Greaves(2); Dragon's Hoard(3)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Faerie Dragon Token (418), Faerie Dragon Token (419), Faerie Dragon Token (420), Faerie Dragon Token (421), Faerie Dragon Token (422), Faerie Dragon Token (423), Faerie Dragon Token (424), Faerie Dragon Token (425), Faerie Dragon Token (426), Faerie Dragon Token (427), Dragonlord Dromoka (333), Ancient Gold Dragon (341) to attack jim.
+Phase: Dominic's Combat Damage Step
+Combat: jim didn't block Faerie Dragon Token (418).
+Combat: jim didn't block Faerie Dragon Token (419).
+Combat: jim didn't block Faerie Dragon Token (420).
+Combat: jim didn't block Faerie Dragon Token (421).
+Combat: jim didn't block Ancient Gold Dragon (341).
+Combat: jim didn't block Faerie Dragon Token (422).
+Combat: jim didn't block Faerie Dragon Token (423).
+Combat: jim didn't block Faerie Dragon Token (424).
+Combat: jim didn't block Faerie Dragon Token (425).
+Combat: jim didn't block Faerie Dragon Token (426).
+Combat: jim didn't block Faerie Dragon Token (427).
+Combat: jim didn't block Dragonlord Dromoka (333).
+Life: Life: jim 6 > -16
+Life: Life: Dominic 10 > 15
+
+Game Result: Dominic has won

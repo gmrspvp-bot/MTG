@@ -1,0 +1,220 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Celestine (AI) deck=Captain America v8
+Player: Melvin (AI) deck=Mr House v4
+Player: Marilyn (AI) deck=Olivia
+Mulligan: Marilyn has mulliganed down to 7 cards.
+Mulligan: Marilyn has mulliganed down to 6 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Celestine has kept a hand of 7 cards
+Mulligan: Melvin has kept a hand of 7 cards
+Mulligan: Marilyn has kept a hand of 6 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Mind Stone(2); Secluded Courtyard(land); Sun Titan(6); Plains(land); Breath of Life(4)
+Information: BOARD turn 1 (Xenil) | Celestine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Adarkar Wastes(land); Excalibur, Sword of Eden(12)
+Information: BOARD turn 1 (Xenil) | Melvin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Haunted Ridge(land); Sundown Pass(land); Caretaker's Talent(3); Swamp(land)
+Information: BOARD turn 1 (Xenil) | Marilyn | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Fetid Heath(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (82)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 2 (Celestine)
+Information: BOARD turn 2 (Celestine) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Mind Stone(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Plains(land)
+Information: BOARD turn 2 (Celestine) | Celestine | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Adarkar Wastes(land); Excalibur, Sword of Eden(12)
+Information: BOARD turn 2 (Celestine) | Melvin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Haunted Ridge(land); Sundown Pass(land); Caretaker's Talent(3); Swamp(land)
+Information: BOARD turn 2 (Celestine) | Marilyn | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Fetid Heath(land)
+Phase: Celestine's Untap step
+Phase: Celestine's Upkeep step
+Phase: Celestine's Draw step
+Phase: Celestine's Main phase, precombat
+Land: Celestine played Adarkar Wastes (158)
+Phase: Celestine's Beginning of Combat Step
+Phase: Celestine's Declare Attackers Step
+Phase: Celestine's Declare Blockers Step
+Phase: Celestine's First Strike Damage Step
+Phase: Celestine's Combat Damage Step
+Phase: Celestine's End of Combat Step
+Phase: Celestine's Main phase, postcombat
+Phase: Celestine's End step
+Phase: Celestine's Cleanup step
+Turn: Turn 3 (Melvin)
+Information: BOARD turn 3 (Melvin) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Mind Stone(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Plains(land)
+Information: BOARD turn 3 (Melvin) | Celestine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 3 (Melvin) | Melvin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Haunted Ridge(land); Sundown Pass(land); Caretaker's Talent(3); Swamp(land)
+Information: BOARD turn 3 (Melvin) | Marilyn | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Fetid Heath(land)
+Phase: Melvin's Untap step
+Phase: Melvin's Upkeep step
+Phase: Melvin's Draw step
+Phase: Melvin's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Melvin played Haunted Ridge (282)
+Phase: Melvin's Beginning of Combat Step
+Phase: Melvin's Declare Attackers Step
+Phase: Melvin's Declare Blockers Step
+Phase: Melvin's First Strike Damage Step
+Phase: Melvin's Combat Damage Step
+Phase: Melvin's End of Combat Step
+Phase: Melvin's Main phase, postcombat
+Phase: Melvin's End step
+Phase: Melvin's Cleanup step
+Turn: Turn 4 (Marilyn)
+Information: BOARD turn 4 (Marilyn) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Mind Stone(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Plains(land)
+Information: BOARD turn 4 (Marilyn) | Celestine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 4 (Marilyn) | Melvin | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Sundown Pass(land); Caretaker's Talent(3); Swamp(land); Ghostly Prison(3)
+Information: BOARD turn 4 (Marilyn) | Marilyn | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Fetid Heath(land)
+Phase: Marilyn's Untap step
+Phase: Marilyn's Upkeep step
+Phase: Marilyn's Draw step
+Phase: Marilyn's Main phase, precombat
+Land: Marilyn played Fetid Heath (326)
+Phase: Marilyn's Beginning of Combat Step
+Phase: Marilyn's Declare Attackers Step
+Phase: Marilyn's Declare Blockers Step
+Phase: Marilyn's First Strike Damage Step
+Phase: Marilyn's Combat Damage Step
+Phase: Marilyn's End of Combat Step
+Phase: Marilyn's Main phase, postcombat
+Phase: Marilyn's End step
+Phase: Marilyn's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Mind Stone(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Plains(land)
+Information: BOARD turn 5 (Xenil) | Celestine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 5 (Xenil) | Melvin | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Sundown Pass(land); Caretaker's Talent(3); Swamp(land); Ghostly Prison(3)
+Information: BOARD turn 5 (Xenil) | Marilyn | life 40 | hand 6 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (73)
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Add To Stack: Xenil cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Xenil | open mana: Celestine 3, Melvin 0, Marilyn 5
+Resolve Stack: Mind Stone
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 6 (Celestine)
+Information: BOARD turn 6 (Celestine) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Resplendent Angel(3)
+Information: BOARD turn 6 (Celestine) | Celestine | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Deserted Beach(land); Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 6 (Celestine) | Melvin | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Sundown Pass(land); Caretaker's Talent(3); Swamp(land); Ghostly Prison(3)
+Information: BOARD turn 6 (Celestine) | Marilyn | life 40 | hand 6 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2)
+Phase: Celestine's Untap step
+Phase: Celestine's Upkeep step
+Phase: Celestine's Draw step
+Phase: Celestine's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Celestine played Deserted Beach (163)
+Phase: Celestine's Beginning of Combat Step
+Phase: Celestine's Declare Attackers Step
+Phase: Celestine's Declare Blockers Step
+Phase: Celestine's First Strike Damage Step
+Phase: Celestine's Combat Damage Step
+Phase: Celestine's End of Combat Step
+Phase: Celestine's Main phase, postcombat
+Phase: Celestine's End step
+Phase: Celestine's Cleanup step
+Turn: Turn 7 (Melvin)
+Information: BOARD turn 7 (Melvin) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Resplendent Angel(3)
+Information: BOARD turn 7 (Melvin) | Celestine | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land); Swords to Plowshares(1)
+Information: BOARD turn 7 (Melvin) | Melvin | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Cyberman Patrol(2); Sundown Pass(land); Caretaker's Talent(3); Swamp(land); Ghostly Prison(3)
+Information: BOARD turn 7 (Melvin) | Marilyn | life 40 | hand 6 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2)
+Phase: Melvin's Untap step
+Phase: Melvin's Upkeep step
+Phase: Melvin's Draw step
+Phase: Melvin's Main phase, precombat
+Land: Melvin played Swamp (258)
+Phase: Melvin's Beginning of Combat Step
+Phase: Melvin's Declare Attackers Step
+Phase: Melvin's Declare Blockers Step
+Phase: Melvin's First Strike Damage Step
+Phase: Melvin's Combat Damage Step
+Phase: Melvin's End of Combat Step
+Phase: Melvin's Main phase, postcombat
+Mana: Swamp (258) - {T}: Add {B}.
+Land: Melvin picked {B}
+Mana: Haunted Ridge (282) - {T}: Add {B} or {R}.
+Add To Stack: Melvin cast Cyberman Patrol
+Information: BOARD cast | Cyberman Patrol (mv 2) by Melvin | open mana: Xenil 1, Celestine 3, Marilyn 5
+Resolve Stack: Cyberman Patrol - Creature 2 / 2
+Phase: Melvin's End step
+Phase: Melvin's Cleanup step
+Turn: Turn 8 (Marilyn)
+Information: BOARD turn 8 (Marilyn) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Resplendent Angel(3)
+Information: BOARD turn 8 (Marilyn) | Celestine | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land); Swords to Plowshares(1)
+Information: BOARD turn 8 (Marilyn) | Melvin | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cyberman Patrol 2/2 | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Sundown Pass(land); Caretaker's Talent(3); Ghostly Prison(3); Unwinding Clock(4)
+Information: BOARD turn 8 (Marilyn) | Marilyn | life 40 | hand 6 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Nomad Outpost(land); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2)
+Phase: Marilyn's Untap step
+Phase: Marilyn's Upkeep step
+Phase: Marilyn's Draw step
+Land: Celestine picked {W}
+Damage: Adarkar Wastes (158) deals 1 non-combat damage to Celestine.
+Life: Life: Celestine 40 > 39
+Mana: Adarkar Wastes (158) - {T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you. 
+Add To Stack: Celestine cast Swords to Plowshares targeting [Cyberman Patrol (223)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Celestine | open mana: Xenil 1, Melvin 0, Marilyn 5
+Zone Change: Cyberman Patrol (223) was put into Exile from Battlefield.
+Life: Life: Melvin 40 > 42
+Resolve Stack: Swords to Plowshares (177) - Exile Cyberman Patrol (223). Melvin gains life equal to its power.
+Phase: Marilyn's Main phase, precombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Marilyn played Nomad Outpost (321)
+Phase: Marilyn's Beginning of Combat Step
+Phase: Marilyn's Declare Attackers Step
+Phase: Marilyn's Declare Blockers Step
+Phase: Marilyn's First Strike Damage Step
+Phase: Marilyn's Combat Damage Step
+Phase: Marilyn's End of Combat Step
+Phase: Marilyn's Main phase, postcombat
+Phase: Marilyn's End step
+Phase: Marilyn's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Resplendent Angel(3)
+Information: BOARD turn 9 (Xenil) | Celestine | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 9 (Xenil) | Melvin | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Sundown Pass(land); Caretaker's Talent(3); Ghostly Prison(3); Unwinding Clock(4)
+Information: BOARD turn 9 (Xenil) | Marilyn | life 40 | hand 6 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2); Plains(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 10 (Celestine)
+Information: BOARD turn 10 (Celestine) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mazemind Tome(2); Angelic Renewal(2); Secluded Courtyard(land); Sun Titan(6); Breath of Life(4); Resplendent Angel(3); Quicksilver Amulet(4)
+Information: BOARD turn 10 (Celestine) | Celestine | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Needleverge Pathway(land); Arcane Signet(2); Puresteel Paladin(2); Masterwork of Ingenuity(1); Excalibur, Sword of Eden(12); Hengegate Pathway(land)
+Information: BOARD turn 10 (Celestine) | Melvin | life 42 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Windbrisk Heights(land); Stridehangar Automaton(3); Sundown Pass(land); Caretaker's Talent(3); Ghostly Prison(3); Unwinding Clock(4)
+Information: BOARD turn 10 (Celestine) | Marilyn | life 40 | hand 6 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Ragavan, Nimble Pilferer(1); Breena, the Demagogue(3); Temple of Silence(land); Zirda, the Dawnwaker(3); Belladonna Took(2); Plains(land)
+Phase: Celestine's Untap step
+Phase: Celestine's Upkeep step
+Phase: Celestine's Draw step
+Phase: Celestine's Main phase, precombat
+Land: Celestine played Needleverge Pathway (138)
+Mana: Needleverge Pathway (138) - {T}: Add {R}.
+Land: Celestine picked {W}
+Mana: Deserted Beach (163) - {T}: Add {W} or {U}.
+Add To Stack: Celestine cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Celestine | open mana: Xenil 3, Melvin 0, Marilyn 5
+
+Game Result: unfinished (Forge closed mid-game)

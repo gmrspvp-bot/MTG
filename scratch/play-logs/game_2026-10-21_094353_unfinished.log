@@ -1,0 +1,171 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Rachel (AI) deck=Captain America v8
+Player: Mathew (AI) deck=Scion
+Player: Biedgar (AI) deck=Tidus v3
+Mulligan: Rachel has mulliganed down to 7 cards.
+Mulligan: Mathew has mulliganed down to 7 cards.
+Mulligan: Biedgar has mulliganed down to 7 cards.
+Mulligan: Mathew has mulliganed down to 6 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Rachel has kept a hand of 7 cards
+Mulligan: Mathew has kept a hand of 6 cards
+Mulligan: Biedgar has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Fellwar Stone(2); Baneslayer Angel(5); Aurelia, the Warleader(6); Plains(land); Sevinne's Reclamation(3); Plains(land)
+Information: BOARD turn 1 (Dominic) | Rachel | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Command Tower(land); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land)
+Information: BOARD turn 1 (Dominic) | Mathew | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 1 (Dominic) | Biedgar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Path of Ancestry(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (72)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Rachel)
+Information: BOARD turn 2 (Rachel) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Fellwar Stone(2); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 2 (Rachel) | Rachel | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Command Tower(land); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land)
+Information: BOARD turn 2 (Rachel) | Mathew | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 2 (Rachel) | Biedgar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Path of Ancestry(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3)
+Phase: Rachel's Untap step
+Phase: Rachel's Upkeep step
+Phase: Rachel's Draw step
+Phase: Rachel's Main phase, precombat
+Land: Rachel played Command Tower (127)
+Phase: Rachel's Beginning of Combat Step
+Phase: Rachel's Declare Attackers Step
+Phase: Rachel's Declare Blockers Step
+Phase: Rachel's First Strike Damage Step
+Phase: Rachel's Combat Damage Step
+Phase: Rachel's End of Combat Step
+Phase: Rachel's Main phase, postcombat
+Phase: Rachel's End step
+Phase: Rachel's Cleanup step
+Turn: Turn 3 (Mathew)
+Information: BOARD turn 3 (Mathew) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Fellwar Stone(2); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 3 (Mathew) | Rachel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 3 (Mathew) | Mathew | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 3 (Mathew) | Biedgar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Path of Ancestry(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3)
+Phase: Mathew's Untap step
+Phase: Mathew's Upkeep step
+Phase: Mathew's Draw step
+Phase: Mathew's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Mathew played Path of Ancestry (210)
+Phase: Mathew's Beginning of Combat Step
+Phase: Mathew's Declare Attackers Step
+Phase: Mathew's Declare Blockers Step
+Phase: Mathew's First Strike Damage Step
+Phase: Mathew's Combat Damage Step
+Phase: Mathew's End of Combat Step
+Phase: Mathew's Main phase, postcombat
+Phase: Mathew's End step
+Phase: Mathew's Cleanup step
+Turn: Turn 4 (Biedgar)
+Information: BOARD turn 4 (Biedgar) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Fellwar Stone(2); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 4 (Biedgar) | Rachel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 4 (Biedgar) | Mathew | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 4 (Biedgar) | Biedgar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Path of Ancestry(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3)
+Phase: Biedgar's Untap step
+Phase: Biedgar's Upkeep step
+Phase: Biedgar's Draw step
+Phase: Biedgar's Main phase, precombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Biedgar played Path of Ancestry (313)
+Phase: Biedgar's Beginning of Combat Step
+Phase: Biedgar's Declare Attackers Step
+Phase: Biedgar's Declare Blockers Step
+Phase: Biedgar's First Strike Damage Step
+Phase: Biedgar's Combat Damage Step
+Phase: Biedgar's End of Combat Step
+Phase: Biedgar's Main phase, postcombat
+Phase: Biedgar's End step
+Phase: Biedgar's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Fellwar Stone(2); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Plains(land); Smuggler's Copter(2)
+Information: BOARD turn 5 (Dominic) | Rachel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 5 (Dominic) | Mathew | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 5 (Dominic) | Biedgar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3); Temple of Enlightenment(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (85)
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Add To Stack: Dominic cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Dominic | open mana: Rachel 2, Mathew 0, Biedgar 0
+Resolve Stack: Fellwar Stone
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Rachel)
+Information: BOARD turn 6 (Rachel) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Smuggler's Copter(2); Quicksilver Amulet(4)
+Information: BOARD turn 6 (Rachel) | Rachel | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 6 (Rachel) | Mathew | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 6 (Rachel) | Biedgar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3); Temple of Enlightenment(land)
+Phase: Rachel's Untap step
+Phase: Rachel's Upkeep step
+Phase: Rachel's Draw step
+Phase: Rachel's Main phase, precombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Rachel played Raugrin Triome (189)
+Phase: Rachel's Beginning of Combat Step
+Phase: Rachel's Declare Attackers Step
+Phase: Rachel's Declare Blockers Step
+Phase: Rachel's First Strike Damage Step
+Phase: Rachel's Combat Damage Step
+Phase: Rachel's End of Combat Step
+Phase: Rachel's Main phase, postcombat
+Phase: Rachel's End step
+Phase: Rachel's Cleanup step
+Turn: Turn 7 (Mathew)
+Information: BOARD turn 7 (Mathew) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Smuggler's Copter(2); Quicksilver Amulet(4)
+Information: BOARD turn 7 (Mathew) | Rachel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 7 (Mathew) | Mathew | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fetid Heath(land); Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 7 (Mathew) | Biedgar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3); Temple of Enlightenment(land)
+Phase: Mathew's Untap step
+Phase: Mathew's Upkeep step
+Phase: Mathew's Draw step
+Phase: Mathew's Main phase, precombat
+Land: Mathew played Fetid Heath (213)
+Phase: Mathew's Beginning of Combat Step
+Phase: Mathew's Declare Attackers Step
+Phase: Mathew's Declare Blockers Step
+Phase: Mathew's First Strike Damage Step
+Phase: Mathew's Combat Damage Step
+Phase: Mathew's End of Combat Step
+Phase: Mathew's Main phase, postcombat
+Land: Mathew picked {G}
+Mana: Path of Ancestry (210) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Mathew cast Delighted Halfling
+Information: BOARD cast | Delighted Halfling (mv 1) by Mathew | open mana: Dominic 1, Rachel 2, Biedgar 0
+Resolve Stack: Delighted Halfling - Creature 1 / 2
+Phase: Mathew's End step
+Phase: Mathew's Cleanup step
+Turn: Turn 8 (Biedgar)
+Information: BOARD turn 8 (Biedgar) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sigarda, Host of Herons(5); Baneslayer Angel(5); Aurelia, the Warleader(6); Sevinne's Reclamation(3); Smuggler's Copter(2); Quicksilver Amulet(4)
+Information: BOARD turn 8 (Biedgar) | Rachel | life 40 | hand 7 | lands 2 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Champion's Helm(3); Mithril Coat(3); The Reaver Cleaver(3); Furycalm Snarl(land); Swords to Plowshares(1); Clifftop Retreat(land); Cloudsteel Kirin(3)
+Information: BOARD turn 8 (Biedgar) | Mathew | life 40 | hand 5 | lands 2 (1 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Solemn Simulacrum(4); Living Death(5); Dreamroot Cascade(land); Dracogenesis(8); Deserted Beach(land)
+Information: BOARD turn 8 (Biedgar) | Biedgar | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Forest(land); Island(land); Forest(land); Sphere Grid(2); Three Visits(2); Summon: Ixion(3); Temple of Enlightenment(land)
+Phase: Biedgar's Untap step
+Phase: Biedgar's Upkeep step
+Land: Rachel picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Rachel cast Swords to Plowshares targeting [Delighted Halfling (283)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Rachel | open mana: Dominic 1, Mathew 5, Biedgar 2
+
+Game Result: unfinished (Forge closed mid-game)

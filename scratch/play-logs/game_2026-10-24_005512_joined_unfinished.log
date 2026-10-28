@@ -1,0 +1,446 @@
+Player: Dominic (HUMAN) deck=? (commander Olivia, Opulent Outlaw) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Caroline (AI) deck=? (commander Auntie Ool, Cursewretch)
+Player: Angelina (AI) deck=? (commander Miku, Song of the People)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Blackcleave Cliffs(land); Vandalblast(1)
+Information: BOARD turn 1 (Dominic) | Caroline | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Angelina | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Blackcleave Cliffs (142)
+Add To Stack: Dominic cast Impulsive Pilferer
+Zone Change: Impulsive Pilferer (182) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Caroline)
+Information: BOARD turn 2 (Caroline) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Caroline) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 2 (Caroline) | Caroline | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Caroline) | Angelina | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Caroline's Upkeep step
+Phase: Caroline's Draw step
+Phase: Caroline's Main phase, precombat
+Add To Stack: Caroline cast Sol Ring
+Zone Change: Nesting Grounds (271) was put onto the Battlefield under Caroline.
+Zone Change: Sol Ring (235) was put onto the Battlefield under Caroline.
+Phase: Caroline's Beginning of Combat Step
+Phase: Caroline's Declare Attackers Step
+Phase: Caroline's Declare Blockers Step
+Phase: Caroline's End of Combat Step
+Phase: Caroline's Main phase, postcombat
+Phase: Caroline's End step
+Turn: Turn 3 (Angelina)
+Information: BOARD turn 3 (Angelina) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Angelina) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 3 (Angelina) | Caroline | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Angelina) | Angelina | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Land: Angelina played Command Tower (334)
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 4 (Derand) | Caroline | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Angelina | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Hengegate Pathway (44)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 5 (Dominic) | Caroline | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Angelina | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Path of Ancestry (112)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Impulsive Pilferer (182) to attack Caroline.
+Phase: Dominic's Combat Damage Step
+Combat: Caroline didn't block Impulsive Pilferer (182).
+Life: Life: Caroline 40 > 39
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Caroline)
+Information: BOARD turn 6 (Caroline) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Caroline) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 6 (Caroline) | Caroline | life 39 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Caroline) | Angelina | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Caroline's Upkeep step
+Phase: Caroline's Draw step
+Phase: Caroline's Main phase, precombat
+Land: Caroline played Forest (288)
+Phase: Caroline's Beginning of Combat Step
+Phase: Caroline's Declare Attackers Step
+Phase: Caroline's Declare Blockers Step
+Phase: Caroline's End of Combat Step
+Phase: Caroline's Main phase, postcombat
+Phase: Caroline's End step
+Turn: Turn 7 (Angelina)
+Information: BOARD turn 7 (Angelina) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Angelina) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 7 (Angelina) | Caroline | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Angelina) | Angelina | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Impulsive Pilferer 1/1* | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 8 (Derand) | Caroline | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Angelina | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Adarkar Wastes (97)
+Add To Stack: Derand cast Birthright Boon
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Swamp(land); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 9 (Dominic) | Caroline | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Angelina | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (157)
+Add To Stack: Dominic cast Ragavan, Nimble Pilferer
+Zone Change: Ragavan, Nimble Pilferer (167) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Caroline)
+Information: BOARD turn 10 (Caroline) | Derand | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Caroline) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 10 (Caroline) | Caroline | life 39 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Caroline) | Angelina | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Caroline's Upkeep step
+Phase: Caroline's Draw step
+Phase: Caroline's Main phase, precombat
+Land: Caroline played Swamp (214)
+Phase: Caroline's Beginning of Combat Step
+Phase: Caroline's Declare Attackers Step
+Phase: Caroline's Declare Blockers Step
+Phase: Caroline's End of Combat Step
+Phase: Caroline's Main phase, postcombat
+Add To Stack: Caroline cast Grave Venerations
+Add To Stack: Caroline triggered Grave Venerations
+Zone Change: Grave Venerations (270) was put onto the Battlefield under Caroline.
+Phase: Caroline's End step
+Add To Stack: Caroline triggered The Monarch
+Add To Stack: Caroline triggered Grave Venerations
+Turn: Turn 11 (Angelina)
+Information: BOARD turn 11 (Angelina) | Derand | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Angelina) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 11 (Angelina) | Caroline | life 39 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Angelina) | Angelina | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Add To Stack: Angelina cast Soul Warden
+Zone Change: Soul Warden (352) was put onto the Battlefield under Angelina.
+Phase: Angelina's End step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 12 (Derand) | Caroline | life 39 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Angelina | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sundown Pass (27)
+Add To Stack: Derand cast Kellan, the Fae-Blooded
+Add To Stack: Angelina triggered Soul Warden
+Zone Change: Kellan, the Fae-Blooded (63) was put onto the Battlefield under Derand.
+Life: Life: Angelina 40 > 41
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1)
+Information: BOARD turn 13 (Dominic) | Caroline | life 39 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Angelina | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Desolate Mire (107)
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Path of Ancestry
+Add To Stack: Angelina triggered Soul Warden
+Zone Change: Olivia, Opulent Outlaw (201) was put onto the Battlefield under Dominic.
+Life: Life: Angelina 41 > 42
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ragavan, Nimble Pilferer (167) to attack Caroline.
+Combat: Dominic assigned Impulsive Pilferer (182) to attack Angelina.
+Phase: Dominic's Combat Damage Step
+Combat: Angelina didn't block Impulsive Pilferer (182).
+Combat: Caroline didn't block Ragavan, Nimble Pilferer (167).
+Life: Life: Caroline 39 > 37
+Life: Life: Angelina 42 > 41
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Caroline triggered The Monarch
+Add To Stack: Dominic triggered Ragavan, Nimble Pilferer
+Zone Change: Treasure Token (409) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (412) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (414) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Add To Stack: Dominic triggered The Monarch
+Turn: Turn 14 (Caroline)
+Information: BOARD turn 14 (Caroline) | Derand | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: hidden
+Information: BOARD turn 14 (Caroline) | Dominic | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1); Requisition Raid(1)
+Information: BOARD turn 14 (Caroline) | Caroline | life 37 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Caroline) | Angelina | life 41 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: hidden
+Phase: Caroline's Upkeep step
+Phase: Caroline's Draw step
+Phase: Caroline's Main phase, precombat
+Phase: Caroline's Beginning of Combat Step
+Phase: Caroline's Declare Attackers Step
+Phase: Caroline's Declare Blockers Step
+Phase: Caroline's End of Combat Step
+Phase: Caroline's Main phase, postcombat
+Land: Caroline played Savage Lands (268)
+Phase: Caroline's End step
+Turn: Turn 15 (Angelina)
+Information: BOARD turn 15 (Angelina) | Derand | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: hidden
+Information: BOARD turn 15 (Angelina) | Dominic | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1); Requisition Raid(1)
+Information: BOARD turn 15 (Angelina) | Caroline | life 37 | hand 6 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Angelina) | Angelina | life 41 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: hidden
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's Declare Blockers Step
+Combat: Angelina assigned Soul Warden (352) to attack Caroline.
+Phase: Angelina's Combat Damage Step
+Combat: Caroline didn't block Soul Warden (352).
+Life: Life: Caroline 37 > 36
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1); Requisition Raid(1)
+Information: BOARD turn 16 (Derand) | Caroline | life 36 | hand 6 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Angelina | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Rogue's Passage (22)
+Add To Stack: Derand cast Codsworth, Handy Helper
+Add To Stack: Angelina triggered Soul Warden
+Zone Change: Codsworth, Handy Helper (47) was put onto the Battlefield under Derand.
+Life: Life: Angelina 41 > 42
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Kellan, the Fae-Blooded 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1; Olivia, Opulent Outlaw 3/3 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Shoot the Sheriff(2); Vandalblast(1); Requisition Raid(1)
+Information: BOARD turn 17 (Dominic) | Caroline | life 36 | hand 6 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Angelina | life 42 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Zone Change: Treasure Token (414) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (412) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Aurelia, the Warleader
+Add To Stack: Angelina triggered Soul Warden
+Zone Change: Aurelia, the Warleader (134) was put onto the Battlefield under Dominic.
+Life: Life: Angelina 42 > 43
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (201) to attack Derand.
+Combat: Dominic assigned Impulsive Pilferer (182) to attack Caroline.
+Combat: Dominic assigned Ragavan, Nimble Pilferer (167) to attack Angelina.
+Phase: Dominic's Combat Damage Step
+Combat: Caroline didn't block Impulsive Pilferer (182).
+Combat: Angelina didn't block Ragavan, Nimble Pilferer (167).
+Combat: Derand didn't block Olivia, Opulent Outlaw (201).
+Life: Life: Derand 40 > 37
+Life: Life: Dominic 40 > 43
+Life: Life: Caroline 36 > 35
+Life: Life: Angelina 43 > 41
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Ragavan, Nimble Pilferer
+Zone Change: Treasure Token (416) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (419) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (421) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (423) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Add To Stack: Dominic triggered The Monarch
+Turn: Turn 18 (Caroline)
+Information: BOARD turn 18 (Caroline) | Derand | life 37 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Kellan, the Fae-Blooded 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 18 (Caroline) | Dominic | life 43 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Olivia, Opulent Outlaw 3/3*; Aurelia, the Warleader 3/4 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Vandalblast(1); Requisition Raid(1); Shoot the Sheriff(2); Fetid Heath(land)
+Information: BOARD turn 18 (Caroline) | Caroline | life 35 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Caroline) | Angelina | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: hidden
+Phase: Caroline's Upkeep step
+Phase: Caroline's Draw step
+Add To Stack: Caroline cast Terminate targeting [Olivia, Opulent Outlaw (201)]
+Zone Change: Olivia, Opulent Outlaw (201) was put into another zone from Battlefield.
+Phase: Caroline's Main phase, precombat
+Land: Caroline played Mountain (276)
+Phase: Caroline's Beginning of Combat Step
+Phase: Caroline's Declare Attackers Step
+Phase: Caroline's Declare Blockers Step
+Phase: Caroline's End of Combat Step
+Phase: Caroline's Main phase, postcombat
+Phase: Caroline's End step
+Phase: Caroline's Cleanup step
+Turn: Turn 19 (Angelina)
+Information: BOARD turn 19 (Angelina) | Derand | life 37 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Kellan, the Fae-Blooded 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 19 (Angelina) | Dominic | life 43 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Aurelia, the Warleader 3/4 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Vandalblast(1); Requisition Raid(1); Shoot the Sheriff(2); Fetid Heath(land)
+Information: BOARD turn 19 (Angelina) | Caroline | life 35 | hand 5 | lands 5 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Angelina) | Angelina | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: hidden
+Phase: Angelina's Upkeep step
+Phase: Angelina's Draw step
+Phase: Angelina's Main phase, precombat
+Phase: Angelina's Beginning of Combat Step
+Phase: Angelina's Declare Attackers Step
+Phase: Angelina's Declare Blockers Step
+Combat: Angelina assigned Soul Warden (352) to attack Caroline.
+Phase: Angelina's Combat Damage Step
+Combat: Caroline didn't block Soul Warden (352).
+Life: Life: Caroline 35 > 34
+Phase: Angelina's End of Combat Step
+Phase: Angelina's Main phase, postcombat
+Phase: Angelina's End step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 37 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Kellan, the Fae-Blooded 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 43 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (1 untapped): Impulsive Pilferer 1/1*; Ragavan, Nimble Pilferer 2/1*; Aurelia, the Warleader 3/4 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Vandalblast(1); Requisition Raid(1); Shoot the Sheriff(2); Fetid Heath(land)
+Information: BOARD turn 20 (Derand) | Caroline | life 34 | hand 5 | lands 5 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Angelina | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Zone Change: Treasure Token (423) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (421) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Shoot the Sheriff targeting [Codsworth, Handy Helper (47)]
+Zone Change: Codsworth, Handy Helper (47) was put into another zone from Battlefield.
+Phase: Derand's Main phase, precombat
+Land: Derand played Clifftop Retreat (52)
+Add To Stack: Derand cast Fighter Class
+Add To Stack: Derand triggered Fighter Class
+Zone Change: Fighter Class (67) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Colossus Hammer
+Zone Change: Colossus Hammer (40) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 37 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Kellan, the Fae-Blooded 2/2 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 43 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 3 (3 untapped): Impulsive Pilferer 1/1; Ragavan, Nimble Pilferer 2/1; Aurelia, the Warleader 3/4 | hand cards: Feed the Swarm(2); Boros Charm(2); Temple of the False God(land); Vandalblast(1); Requisition Raid(1); Fetid Heath(land)
+Information: BOARD turn 21 (Dominic) | Caroline | life 34 | hand 5 | lands 5 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Angelina | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Temple of the False God (130)
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Path of Ancestry
+Add To Stack: Angelina triggered Soul Warden
+Zone Change: Olivia, Opulent Outlaw (201) was put onto the Battlefield under Dominic.
+Life: Life: Angelina 41 > 42
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Aurelia, the Warleader
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Aurelia, the Warleader (134) to attack Derand.
+Combat: Dominic assigned Impulsive Pilferer (182) to attack Caroline.
+Combat: Dominic assigned Ragavan, Nimble Pilferer (167) to attack Angelina.
+Phase: Dominic's Combat Damage Step
+Combat: Derand didn't block Aurelia, the Warleader (134).
+Combat: Caroline didn't block Impulsive Pilferer (182).
+Combat: Angelina didn't block Ragavan, Nimble Pilferer (167).
+Life: Life: Derand 37 > 34
+Life: Life: Caroline 34 > 33
+Life: Life: Angelina 42 > 40
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Ragavan, Nimble Pilferer
+Zone Change: Treasure Token (425) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (428) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (430) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's Combat Damage Step
+Life: Life: Derand 34 > 31
+Life: Life: Caroline 33 > 32
+Life: Life: Angelina 40 > 38
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Ragavan, Nimble Pilferer
+Zone Change: Treasure Token (432) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (435) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (437) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (435) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (437) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Prosperous Innkeeper
+Zone Change: Prosperous Innkeeper (381) was put onto the Battlefield under Dominic.
+Add To Stack: Angelina triggered Soul Warden
+Add To Stack: Dominic triggered Prosperous Innkeeper
+Life: Life: Angelina 38 > 39
+Zone Change: Treasure Token (439) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (439) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (432) was put into nowhere (token) from Battlefield.
+
+Game Result: unfinished (Forge closed mid-game)

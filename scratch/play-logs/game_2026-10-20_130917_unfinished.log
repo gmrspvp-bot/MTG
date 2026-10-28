@@ -1,0 +1,167 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Kirder (AI) deck=Captain America v8
+Player: Claire (AI) deck=Mr House v4
+Player: Markard (AI) deck=Olivia
+Mulligan: Kirder has mulliganed down to 7 cards.
+Mulligan: Markard has mulliganed down to 7 cards.
+Mulligan: Kirder has mulliganed down to 6 cards.
+Mulligan: Kirder has kept a hand of 6 cards
+Mulligan: Claire has kept a hand of 7 cards
+Mulligan: Markard has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Turn: Turn 1 (Kirder)
+Information: BOARD turn 1 (Kirder) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Plains(land); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3)
+Information: BOARD turn 1 (Kirder) | Kirder | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Plains(land); Conqueror's Flail(2); City of Brass(land); Spectacular Spider-Man(2)
+Information: BOARD turn 1 (Kirder) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Sulfurous Springs(land); Grab the Prize(2); Smoldering Marsh(land)
+Information: BOARD turn 1 (Kirder) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Canyon Slough(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3)
+Phase: Kirder's Untap step
+Phase: Kirder's Upkeep step
+Phase: Kirder's Draw step
+Phase: Kirder's Main phase, precombat
+Land: Kirder played Plains (186)
+Phase: Kirder's Beginning of Combat Step
+Phase: Kirder's Declare Attackers Step
+Phase: Kirder's Declare Blockers Step
+Phase: Kirder's First Strike Damage Step
+Phase: Kirder's Combat Damage Step
+Phase: Kirder's End of Combat Step
+Phase: Kirder's Main phase, postcombat
+Phase: Kirder's End step
+Phase: Kirder's Cleanup step
+Turn: Turn 2 (Claire)
+Information: BOARD turn 2 (Claire) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Plains(land); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3)
+Information: BOARD turn 2 (Claire) | Kirder | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Conqueror's Flail(2); City of Brass(land); Spectacular Spider-Man(2); Sword of Forge and Frontier(3)
+Information: BOARD turn 2 (Claire) | Claire | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Sulfurous Springs(land); Grab the Prize(2); Smoldering Marsh(land)
+Information: BOARD turn 2 (Claire) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Canyon Slough(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3)
+Phase: Claire's Untap step
+Phase: Claire's Upkeep step
+Phase: Claire's Draw step
+Phase: Claire's Main phase, precombat
+Land: Claire played Sulfurous Springs (266)
+Phase: Claire's Beginning of Combat Step
+Phase: Claire's Declare Attackers Step
+Phase: Claire's Declare Blockers Step
+Phase: Claire's First Strike Damage Step
+Phase: Claire's Combat Damage Step
+Phase: Claire's End of Combat Step
+Phase: Claire's Main phase, postcombat
+Phase: Claire's End step
+Phase: Claire's Cleanup step
+Turn: Turn 3 (Markard)
+Information: BOARD turn 3 (Markard) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Plains(land); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3)
+Information: BOARD turn 3 (Markard) | Kirder | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Conqueror's Flail(2); City of Brass(land); Spectacular Spider-Man(2); Sword of Forge and Frontier(3)
+Information: BOARD turn 3 (Markard) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Smoldering Marsh(land); Blightstep Pathway(land)
+Information: BOARD turn 3 (Markard) | Markard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Canyon Slough(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3)
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Replacement Effect: Canyon Slough enters tapped.
+Land: Markard played Canyon Slough (357)
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 4 (Xenil)
+Information: BOARD turn 4 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Plains(land); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3)
+Information: BOARD turn 4 (Xenil) | Kirder | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Conqueror's Flail(2); City of Brass(land); Spectacular Spider-Man(2); Sword of Forge and Frontier(3)
+Information: BOARD turn 4 (Xenil) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Smoldering Marsh(land); Blightstep Pathway(land)
+Information: BOARD turn 4 (Xenil) | Markard | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3); Vault of the Archangel(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (92)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 5 (Kirder)
+Information: BOARD turn 5 (Kirder) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3); Swords to Plowshares(1)
+Information: BOARD turn 5 (Kirder) | Kirder | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Conqueror's Flail(2); City of Brass(land); Spectacular Spider-Man(2); Sword of Forge and Frontier(3)
+Information: BOARD turn 5 (Kirder) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Smoldering Marsh(land); Blightstep Pathway(land)
+Information: BOARD turn 5 (Kirder) | Markard | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3); Vault of the Archangel(land)
+Phase: Kirder's Untap step
+Phase: Kirder's Upkeep step
+Phase: Kirder's Draw step
+Phase: Kirder's Main phase, precombat
+Land: Kirder played City of Brass (145)
+Phase: Kirder's Beginning of Combat Step
+Phase: Kirder's Declare Attackers Step
+Phase: Kirder's Declare Blockers Step
+Phase: Kirder's First Strike Damage Step
+Phase: Kirder's Combat Damage Step
+Phase: Kirder's End of Combat Step
+Phase: Kirder's Main phase, postcombat
+Mana: Plains (186) - {T}: Add {W}.
+Land: City of Brass (145) picked {W}
+Mana: City of Brass (145) - {T}: Add one mana of any color.
+Add To Stack: Kirder cast Conqueror's Flail
+Information: BOARD cast | Conqueror's Flail (mv 2) by Kirder | open mana: Xenil 1, Claire 3, Markard 0
+Add To Stack: Kirder triggered City of Brass
+Damage: City of Brass (145) deals 1 non-combat damage to Kirder.
+Life: Life: Kirder 40 > 39
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (145)]
+Resolve Stack: Conqueror's Flail
+Phase: Kirder's End step
+Phase: Kirder's Cleanup step
+Turn: Turn 6 (Claire)
+Information: BOARD turn 6 (Claire) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3); Swords to Plowshares(1)
+Information: BOARD turn 6 (Claire) | Kirder | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Spectacular Spider-Man(2); Sword of Forge and Frontier(3); Embercleave(6)
+Information: BOARD turn 6 (Claire) | Claire | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Smoldering Marsh(land); Blightstep Pathway(land)
+Information: BOARD turn 6 (Claire) | Markard | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3); Vault of the Archangel(land)
+Phase: Claire's Untap step
+Phase: Claire's Upkeep step
+Phase: Claire's Draw step
+Phase: Claire's Main phase, precombat
+Replacement Effect: Smoldering Marsh enters tapped unless you control two or more basic lands.
+Land: Claire played Smoldering Marsh (267)
+Phase: Claire's Beginning of Combat Step
+Phase: Claire's Declare Attackers Step
+Phase: Claire's Declare Blockers Step
+Phase: Claire's First Strike Damage Step
+Phase: Claire's Combat Damage Step
+Phase: Claire's End of Combat Step
+Phase: Claire's Main phase, postcombat
+Phase: Claire's End step
+Phase: Claire's Cleanup step
+Turn: Turn 7 (Markard)
+Information: BOARD turn 7 (Markard) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3); Swords to Plowshares(1)
+Information: BOARD turn 7 (Markard) | Kirder | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Spectacular Spider-Man(2); Sword of Forge and Frontier(3); Embercleave(6)
+Information: BOARD turn 7 (Markard) | Claire | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Blightstep Pathway(land); Plains(land)
+Information: BOARD turn 7 (Markard) | Markard | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3); Vault of the Archangel(land)
+Phase: Markard's Untap step
+Phase: Markard's Upkeep step
+Phase: Markard's Draw step
+Phase: Markard's Main phase, precombat
+Land: Markard played Vault of the Archangel (333)
+Phase: Markard's Beginning of Combat Step
+Phase: Markard's Declare Attackers Step
+Phase: Markard's Declare Blockers Step
+Phase: Markard's First Strike Damage Step
+Phase: Markard's Combat Damage Step
+Phase: Markard's End of Combat Step
+Phase: Markard's Main phase, postcombat
+Phase: Markard's End step
+Phase: Markard's Cleanup step
+Turn: Turn 8 (Xenil)
+Information: BOARD turn 8 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Aurelia, the Warleader(6); Faith's Reward(4); Sun Titan(6); Plains(land); Archaeomancer's Map(3); Swords to Plowshares(1)
+Information: BOARD turn 8 (Xenil) | Kirder | life 39 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sokka and Suki(3); Darksteel Plate(3); Spectacular Spider-Man(2); Sword of Forge and Frontier(3); Embercleave(6)
+Information: BOARD turn 8 (Xenil) | Claire | life 40 | hand 7 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Ruinous Ultimatum(7); Ghostly Prison(3); Swamp(land); Goblin Bombardment(2); Grab the Prize(2); Blightstep Pathway(land); Plains(land)
+Information: BOARD turn 8 (Xenil) | Markard | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Goldspan Dragon(5); Exotic Orchard(land); Massacre Girl(5); Swamp(land); Raucous Carnival(land); Painful Truths(3); Rakdos Signet(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

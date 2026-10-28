@@ -1,0 +1,354 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Enoon (AI) deck=Captain America v8
+Player: Jayden (AI) deck=Mr House v4
+Player: Tuk (AI) deck=Olivia
+Mulligan: Tuk has mulliganed down to 7 cards.
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Enoon has kept a hand of 7 cards
+Mulligan: Jayden has kept a hand of 7 cards
+Mulligan: Tuk has kept a hand of 7 cards
+Turn: Turn 1 (Xenil)
+Information: BOARD turn 1 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Weathered Wayfarer(1); Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Plains(land)
+Information: BOARD turn 1 (Xenil) | Enoon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Command Tower(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land)
+Information: BOARD turn 1 (Xenil) | Jayden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Spectator Seating(land); Mountain(land)
+Information: BOARD turn 1 (Xenil) | Tuk | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Plains (87).
+Turn: Turn 2 (Enoon)
+Information: BOARD turn 2 (Enoon) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Weathered Wayfarer(1); Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Plains(land)
+Information: BOARD turn 2 (Enoon) | Enoon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Command Tower(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land)
+Information: BOARD turn 2 (Enoon) | Jayden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Spectator Seating(land); Mountain(land)
+Information: BOARD turn 2 (Enoon) | Tuk | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Enoon's Untap step
+Phase: Enoon's Upkeep step
+Phase: Enoon's Draw step
+Phase: Enoon's Main phase, precombat
+Land: Enoon played Command Tower (127)
+Phase: Enoon's Beginning of Combat Step
+Phase: Enoon's Declare Attackers Step
+Phase: Enoon's Declare Blockers Step
+Phase: Enoon's First Strike Damage Step
+Phase: Enoon's Combat Damage Step
+Phase: Enoon's End of Combat Step
+Phase: Enoon's Main phase, postcombat
+Phase: Enoon's End step
+Phase: Enoon's Cleanup step
+Turn: Turn 3 (Jayden)
+Information: BOARD turn 3 (Jayden) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Weathered Wayfarer(1); Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Plains(land)
+Information: BOARD turn 3 (Jayden) | Enoon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 3 (Jayden) | Jayden | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Spectator Seating(land); Mountain(land)
+Information: BOARD turn 3 (Jayden) | Tuk | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Jayden's Untap step
+Phase: Jayden's Upkeep step
+Phase: Jayden's Draw step
+Phase: Jayden's Main phase, precombat
+Replacement Effect: Spectator Seating enters tapped unless you have two or more opponents.
+Land: Jayden played Spectator Seating (281)
+Phase: Jayden's Beginning of Combat Step
+Phase: Jayden's Declare Attackers Step
+Phase: Jayden's Declare Blockers Step
+Phase: Jayden's First Strike Damage Step
+Phase: Jayden's Combat Damage Step
+Phase: Jayden's End of Combat Step
+Phase: Jayden's Main phase, postcombat
+Phase: Jayden's End step
+Phase: Jayden's Cleanup step
+Turn: Turn 4 (Tuk)
+Information: BOARD turn 4 (Tuk) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Weathered Wayfarer(1); Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Plains(land)
+Information: BOARD turn 4 (Tuk) | Enoon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 4 (Tuk) | Jayden | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Mountain(land); Isolated Chapel(land)
+Information: BOARD turn 4 (Tuk) | Tuk | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Caves of Koilos(land); Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Tuk's Untap step
+Phase: Tuk's Upkeep step
+Phase: Tuk's Draw step
+Phase: Tuk's Main phase, precombat
+Land: Tuk played Caves of Koilos (315)
+Phase: Tuk's Beginning of Combat Step
+Phase: Tuk's Declare Attackers Step
+Phase: Tuk's Declare Blockers Step
+Phase: Tuk's First Strike Damage Step
+Phase: Tuk's Combat Damage Step
+Phase: Tuk's End of Combat Step
+Phase: Tuk's Main phase, postcombat
+Phase: Tuk's End step
+Phase: Tuk's Cleanup step
+Turn: Turn 5 (Xenil)
+Information: BOARD turn 5 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Weathered Wayfarer(1); Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Plains(land)
+Information: BOARD turn 5 (Xenil) | Enoon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 5 (Xenil) | Jayden | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Mountain(land); Isolated Chapel(land)
+Information: BOARD turn 5 (Xenil) | Tuk | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2); Belladonna Took(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (66)
+Mana: Plains (66) - {T}: Add {W}.
+Add To Stack: Xenil cast Weathered Wayfarer
+Information: BOARD cast | Weathered Wayfarer (mv 1) by Xenil | open mana: Enoon 2, Jayden 3, Tuk 3
+Resolve Stack: Weathered Wayfarer - Creature 1 / 1
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 6 (Enoon)
+Information: BOARD turn 6 (Enoon) | Xenil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7)
+Information: BOARD turn 6 (Enoon) | Enoon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Enthusiastic Mechanaut(2); Floodfarm Verge(land); Champion's Helm(3); Codsworth, Handy Helper(3); Kediss, Emberclaw Familiar(2); Clifftop Retreat(land); Iron Man, Titan of Innovation(5)
+Information: BOARD turn 6 (Enoon) | Jayden | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Mountain(land); Isolated Chapel(land)
+Information: BOARD turn 6 (Enoon) | Tuk | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2); Belladonna Took(2)
+Phase: Enoon's Untap step
+Phase: Enoon's Upkeep step
+Phase: Enoon's Draw step
+Phase: Enoon's Main phase, precombat
+Land: Enoon played Floodfarm Verge (166)
+Phase: Enoon's Beginning of Combat Step
+Phase: Enoon's Declare Attackers Step
+Phase: Enoon's Declare Blockers Step
+Phase: Enoon's First Strike Damage Step
+Phase: Enoon's Combat Damage Step
+Phase: Enoon's End of Combat Step
+Phase: Enoon's Main phase, postcombat
+Land: Enoon picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Floodfarm Verge (166) - {T}: Add {W}.
+Add To Stack: Enoon cast Kediss, Emberclaw Familiar
+Information: BOARD cast | Kediss, Emberclaw Familiar (mv 2) by Enoon | open mana: Xenil 0, Jayden 3, Tuk 3
+Resolve Stack: Kediss, Emberclaw Familiar - Creature 1 / 1
+Phase: Enoon's End step
+Phase: Enoon's Cleanup step
+Turn: Turn 7 (Jayden)
+Information: BOARD turn 7 (Jayden) | Xenil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7)
+Information: BOARD turn 7 (Jayden) | Enoon | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kediss, Emberclaw Familiar 1/1 | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Clifftop Retreat(land); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 7 (Jayden) | Jayden | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Mountain(land); Isolated Chapel(land)
+Information: BOARD turn 7 (Jayden) | Tuk | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2); Belladonna Took(2)
+Phase: Jayden's Untap step
+Phase: Jayden's Upkeep step
+Phase: Jayden's Draw step
+Phase: Jayden's Main phase, precombat
+Land: Jayden played Mountain (285)
+Phase: Jayden's Beginning of Combat Step
+Phase: Jayden's Declare Attackers Step
+Phase: Jayden's Declare Blockers Step
+Phase: Jayden's First Strike Damage Step
+Phase: Jayden's Combat Damage Step
+Phase: Jayden's End of Combat Step
+Phase: Jayden's Main phase, postcombat
+Phase: Jayden's End step
+Phase: Jayden's Cleanup step
+Turn: Turn 8 (Tuk)
+Information: BOARD turn 8 (Tuk) | Xenil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7)
+Information: BOARD turn 8 (Tuk) | Enoon | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kediss, Emberclaw Familiar 1/1 | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Clifftop Retreat(land); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 8 (Tuk) | Jayden | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Isolated Chapel(land); Exsanguinate(2)
+Information: BOARD turn 8 (Tuk) | Tuk | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2); Belladonna Took(2)
+Phase: Tuk's Untap step
+Phase: Tuk's Upkeep step
+Phase: Tuk's Draw step
+Phase: Tuk's Main phase, precombat
+Land: Tuk played Tainted Peak (401)
+Phase: Tuk's Beginning of Combat Step
+Phase: Tuk's Declare Attackers Step
+Phase: Tuk's Declare Blockers Step
+Phase: Tuk's First Strike Damage Step
+Phase: Tuk's Combat Damage Step
+Phase: Tuk's End of Combat Step
+Phase: Tuk's Main phase, postcombat
+Land: Tuk picked {W}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Tuk.
+Life: Life: Tuk 40 > 39
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Tainted Peak (401) - {T}: Add {C}.
+Add To Stack: Tuk cast Belladonna Took
+Information: BOARD cast | Belladonna Took (mv 2) by Tuk | open mana: Xenil 0, Enoon 0, Jayden 4
+Resolve Stack: Belladonna Took - Creature 2 / 2
+Phase: Tuk's End step
+Phase: Tuk's Cleanup step
+Turn: Turn 9 (Xenil)
+Information: BOARD turn 9 (Xenil) | Xenil | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Weathered Wayfarer 1/1 | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7)
+Information: BOARD turn 9 (Xenil) | Enoon | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kediss, Emberclaw Familiar 1/1 | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Clifftop Retreat(land); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 9 (Xenil) | Jayden | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Isolated Chapel(land); Exsanguinate(2)
+Information: BOARD turn 9 (Xenil) | Tuk | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Belladonna Took 2/2 | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (66) - {T}: Add {W}.
+Add To Stack: Xenil activated Weathered Wayfarer
+Resolve Stack: Weathered Wayfarer (65) - Xenil searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 10 (Enoon)
+Information: BOARD turn 10 (Enoon) | Xenil | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3)
+Information: BOARD turn 10 (Enoon) | Enoon | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kediss, Emberclaw Familiar 1/1 | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Clifftop Retreat(land); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 10 (Enoon) | Jayden | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Isolated Chapel(land); Exsanguinate(2)
+Information: BOARD turn 10 (Enoon) | Tuk | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Belladonna Took 2/2 | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Enoon's Untap step
+Phase: Enoon's Upkeep step
+Phase: Enoon's Draw step
+Phase: Enoon's Main phase, precombat
+Replacement Effect: Clifftop Retreat enters tapped unless you control a Mountain or a Plains.
+Land: Enoon played Clifftop Retreat (153)
+Mana: Floodfarm Verge (166) - {T}: Add {W}.
+Add To Stack: Enoon cast Colossus Hammer
+Information: BOARD cast | Colossus Hammer (mv 1) by Enoon | open mana: Xenil 0, Jayden 4, Tuk 0
+Resolve Stack: Colossus Hammer
+Phase: Enoon's Beginning of Combat Step
+Phase: Enoon's Declare Attackers Step
+Combat: Enoon assigned Kediss, Emberclaw Familiar (143) to attack Xenil.
+Information: BOARD attack | Enoon -> Xenil | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Enoon's Declare Blockers Step
+Combat: Xenil didn't block Kediss, Emberclaw Familiar (143).
+Phase: Enoon's First Strike Damage Step
+Phase: Enoon's Combat Damage Step
+Damage: Kediss, Emberclaw Familiar (143) deals 1 combat damage to Xenil.
+Life: Life: Xenil 40 > 39
+Phase: Enoon's End of Combat Step
+Phase: Enoon's Main phase, postcombat
+Phase: Enoon's End step
+Phase: Enoon's Cleanup step
+Turn: Turn 11 (Jayden)
+Information: BOARD turn 11 (Jayden) | Xenil | life 39 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3)
+Information: BOARD turn 11 (Jayden) | Enoon | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kediss, Emberclaw Familiar 1/1* | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 11 (Jayden) | Jayden | life 40 | hand 7 | lands 2 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Isolated Chapel(land); Exsanguinate(2)
+Information: BOARD turn 11 (Jayden) | Tuk | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Belladonna Took 2/2 | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Jayden's Untap step
+Phase: Jayden's Upkeep step
+Phase: Jayden's Draw step
+Phase: Jayden's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Jayden played Isolated Chapel (238)
+Phase: Jayden's Beginning of Combat Step
+Phase: Jayden's Declare Attackers Step
+Phase: Jayden's Declare Blockers Step
+Phase: Jayden's First Strike Damage Step
+Phase: Jayden's Combat Damage Step
+Phase: Jayden's End of Combat Step
+Phase: Jayden's Main phase, postcombat
+Phase: Jayden's End step
+Phase: Jayden's Cleanup step
+Turn: Turn 12 (Tuk)
+Information: BOARD turn 12 (Tuk) | Xenil | life 39 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Weathered Wayfarer 1/1* | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3)
+Information: BOARD turn 12 (Tuk) | Enoon | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kediss, Emberclaw Familiar 1/1* | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 12 (Tuk) | Jayden | life 40 | hand 7 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 12 (Tuk) | Tuk | life 39 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Belladonna Took 2/2 | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Path to Exile(1); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Tuk's Untap step
+Phase: Tuk's Upkeep step
+Land: Tuk picked {W}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Tuk.
+Life: Life: Tuk 39 > 38
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Add To Stack: Tuk cast Path to Exile targeting [Weathered Wayfarer (65)]
+Information: BOARD cast | Path to Exile (mv 1) by Tuk | open mana: Xenil 0, Enoon 2, Jayden 4
+Zone Change: Weathered Wayfarer (65) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (324) - Exile Weathered Wayfarer (65). Xenil may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Tuk's Draw step
+Phase: Tuk's Main phase, precombat
+Land: Tuk played Rugged Prairie (361)
+Phase: Tuk's Beginning of Combat Step
+Phase: Tuk's Declare Attackers Step
+Combat: Tuk assigned Belladonna Took (387) to attack Enoon.
+Information: BOARD attack | Tuk -> Enoon | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Tuk's Declare Blockers Step
+Combat: Enoon didn't block Belladonna Took (387).
+Phase: Tuk's First Strike Damage Step
+Phase: Tuk's Combat Damage Step
+Damage: Belladonna Took (387) deals 2 combat damage to Enoon.
+Life: Life: Enoon 40 > 38
+Phase: Tuk's End of Combat Step
+Phase: Tuk's Main phase, postcombat
+Phase: Tuk's End step
+Phase: Tuk's Cleanup step
+Turn: Turn 13 (Xenil)
+Information: BOARD turn 13 (Xenil) | Xenil | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Righteous Valkyrie(3); Giada, Font of Hope(2); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3)
+Information: BOARD turn 13 (Xenil) | Enoon | life 38 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kediss, Emberclaw Familiar 1/1* | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 13 (Xenil) | Jayden | life 40 | hand 7 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 13 (Xenil) | Tuk | life 38 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Belladonna Took 2/2* | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (66) - {T}: Add {W}.
+Mana: Plains (67) - {T}: Add {W}.
+Add To Stack: Xenil cast Giada, Font of Hope
+Information: BOARD cast | Giada, Font of Hope (mv 2) by Xenil | open mana: Enoon 2, Jayden 4, Tuk 6
+Resolve Stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 14 (Enoon)
+Information: BOARD turn 14 (Enoon) | Xenil | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Giada, Font of Hope 2/2 | hand cards: Righteous Valkyrie(3); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3); Angel of the Ruins(7)
+Information: BOARD turn 14 (Enoon) | Enoon | life 38 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Kediss, Emberclaw Familiar 1/1* | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Codsworth, Handy Helper(3); Iron Man, Titan of Innovation(5); Plains(land)
+Information: BOARD turn 14 (Enoon) | Jayden | life 40 | hand 7 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 14 (Enoon) | Tuk | life 38 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Belladonna Took 2/2* | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Enoon's Untap step
+Phase: Enoon's Upkeep step
+Phase: Enoon's Draw step
+Phase: Enoon's Main phase, precombat
+Land: Enoon played Plains (187)
+Mana: Plains (187) - {T}: Add {W}.
+Land: Enoon picked {R}
+Mana: Clifftop Retreat (153) - {T}: Add {R} or {W}.
+Mana: Floodfarm Verge (166) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Add To Stack: Enoon cast Codsworth, Handy Helper
+Information: BOARD cast | Codsworth, Handy Helper (mv 3) by Enoon | open mana: Xenil 0, Jayden 4, Tuk 6
+Resolve Stack: Codsworth, Handy Helper - Creature 2 / 3
+Phase: Enoon's Beginning of Combat Step
+Phase: Enoon's Declare Attackers Step
+Combat: Enoon assigned Kediss, Emberclaw Familiar (143) to attack Tuk.
+Information: BOARD attack | Enoon -> Tuk | attackers 1 (power 1) | defender life 38 | untapped creatures 0 (power 0):  | open mana 6
+Phase: Enoon's Declare Blockers Step
+Combat: Tuk didn't block Kediss, Emberclaw Familiar (143).
+Phase: Enoon's First Strike Damage Step
+Phase: Enoon's Combat Damage Step
+Damage: Kediss, Emberclaw Familiar (143) deals 1 combat damage to Tuk.
+Life: Life: Tuk 38 > 37
+Phase: Enoon's End of Combat Step
+Phase: Enoon's Main phase, postcombat
+Phase: Enoon's End step
+Phase: Enoon's Cleanup step
+Turn: Turn 15 (Jayden)
+Information: BOARD turn 15 (Jayden) | Xenil | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Giada, Font of Hope 2/2 | hand cards: Righteous Valkyrie(3); Herald's Horn(3); Gisela, the Broken Blade(4); Quicksilver Amulet(4); Angel of Serenity(7); Urza's Incubator(3); Angel of the Ruins(7)
+Information: BOARD turn 15 (Jayden) | Enoon | life 38 | hand 4 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 2 (1 untapped): Kediss, Emberclaw Familiar 1/1*; Codsworth, Handy Helper 2/3 | hand cards: Enthusiastic Mechanaut(2); Champion's Helm(3); Iron Man, Titan of Innovation(5); Sulfur Falls(land)
+Information: BOARD turn 15 (Jayden) | Jayden | life 40 | hand 7 | lands 3 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Pitiless Plunderer(4); Treasure Chest(3); Delina, Wild Mage(4); Brightclimb Pathway(land); Reanimate(1); Exsanguinate(2); Blightstep Pathway(land)
+Information: BOARD turn 15 (Jayden) | Tuk | life 37 | hand 5 | lands 3 (2 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Belladonna Took 2/2* | hand cards: Rogue's Passage(land); Blackcleave Cliffs(land); Opposition Agent(3); Rankle, Master of Pranks(4); Everybody Lives!(2)
+Phase: Jayden's Untap step
+Phase: Jayden's Upkeep step
+Phase: Jayden's Draw step
+Phase: Jayden's Main phase, precombat
+Land: Jayden played Blightstep Pathway (216)
+Land: Jayden picked {W}
+Mana: Spectator Seating (281) - {T}: Add {R} or {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Blightstep Pathway (216) - {T}: Add {B}.
+Add To Stack: Jayden cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Jayden | open mana: Xenil 0, Enoon 2, Tuk 6
+
+Game Result: unfinished (Forge closed mid-game)

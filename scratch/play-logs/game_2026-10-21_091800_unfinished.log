@@ -1,0 +1,323 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Sidathe (AI) deck=Captain America v8
+Player: Jessica (AI) deck=Scion
+Player: Nydale (AI) deck=Tidus v3
+Mulligan: Sidathe has mulliganed down to 7 cards.
+Mulligan: Jessica has mulliganed down to 7 cards.
+Mulligan: Sidathe has mulliganed down to 6 cards.
+Mulligan: Nydale has kept a hand of 7 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Sidathe has kept a hand of 6 cards
+Mulligan: Jessica has kept a hand of 7 cards
+Turn: Turn 1 (Nydale)
+Information: BOARD turn 1 (Nydale) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Plains(land); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5)
+Information: BOARD turn 1 (Nydale) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Brotherhood Regalia(2); Flawless Maneuver(3); Sol Ring(1); Raugrin Triome(land); Skullclamp(1); Plains(land)
+Information: BOARD turn 1 (Nydale) | Jessica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Haven of the Spirit Dragon(land); Call the Spirit Dragons(5); Thriving Isle(land)
+Information: BOARD turn 1 (Nydale) | Nydale | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Overflowing Basin(land); Fortified Village(land)
+Phase: Nydale's Untap step
+Phase: Nydale's Upkeep step
+Phase: Nydale's Draw step
+Phase: Nydale's Main phase, precombat
+Land: Nydale played Overflowing Basin (337)
+Phase: Nydale's Beginning of Combat Step
+Phase: Nydale's Declare Attackers Step
+Phase: Nydale's Declare Blockers Step
+Phase: Nydale's First Strike Damage Step
+Phase: Nydale's Combat Damage Step
+Phase: Nydale's End of Combat Step
+Phase: Nydale's Main phase, postcombat
+Phase: Nydale's End step
+Phase: Nydale's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Plains(land); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5)
+Information: BOARD turn 2 (Dominic) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Brotherhood Regalia(2); Flawless Maneuver(3); Sol Ring(1); Raugrin Triome(land); Skullclamp(1); Plains(land)
+Information: BOARD turn 2 (Dominic) | Jessica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Haven of the Spirit Dragon(land); Call the Spirit Dragons(5); Thriving Isle(land)
+Information: BOARD turn 2 (Dominic) | Nydale | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Idyllic Beachfront(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (77)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 3 (Sidathe)
+Information: BOARD turn 3 (Sidathe) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land)
+Information: BOARD turn 3 (Sidathe) | Sidathe | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Brotherhood Regalia(2); Flawless Maneuver(3); Sol Ring(1); Raugrin Triome(land); Skullclamp(1); Plains(land)
+Information: BOARD turn 3 (Sidathe) | Jessica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Haven of the Spirit Dragon(land); Call the Spirit Dragons(5); Thriving Isle(land)
+Information: BOARD turn 3 (Sidathe) | Nydale | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Idyllic Beachfront(land)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Plains (182)
+Mana: Plains (182) - {T}: Add {W}.
+Add To Stack: Sidathe cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Sidathe | open mana: Dominic 1, Jessica 0, Nydale 0
+Resolve Stack: Sol Ring
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Add To Stack: Sidathe cast Brotherhood Regalia
+Information: BOARD cast | Brotherhood Regalia (mv 2) by Sidathe | open mana: Dominic 1, Jessica 0, Nydale 0
+Resolve Stack: Brotherhood Regalia
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 4 (Jessica)
+Information: BOARD turn 4 (Jessica) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land)
+Information: BOARD turn 4 (Jessica) | Sidathe | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Raugrin Triome(land); Skullclamp(1); Leonin Abunas(4)
+Information: BOARD turn 4 (Jessica) | Jessica | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Haven of the Spirit Dragon(land); Call the Spirit Dragons(5); Thriving Isle(land)
+Information: BOARD turn 4 (Jessica) | Nydale | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Idyllic Beachfront(land)
+Phase: Jessica's Untap step
+Phase: Jessica's Upkeep step
+Phase: Jessica's Draw step
+Phase: Jessica's Main phase, precombat
+Land: Jessica played Haven of the Spirit Dragon (224)
+Phase: Jessica's Beginning of Combat Step
+Phase: Jessica's Declare Attackers Step
+Phase: Jessica's Declare Blockers Step
+Phase: Jessica's First Strike Damage Step
+Phase: Jessica's Combat Damage Step
+Phase: Jessica's End of Combat Step
+Phase: Jessica's Main phase, postcombat
+Phase: Jessica's End step
+Phase: Jessica's Cleanup step
+Turn: Turn 5 (Nydale)
+Information: BOARD turn 5 (Nydale) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land)
+Information: BOARD turn 5 (Nydale) | Sidathe | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Raugrin Triome(land); Skullclamp(1); Leonin Abunas(4)
+Information: BOARD turn 5 (Nydale) | Jessica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Thriving Isle(land); Bribery(5)
+Information: BOARD turn 5 (Nydale) | Nydale | life 40 | hand 7 | lands 1 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Idyllic Beachfront(land)
+Phase: Nydale's Untap step
+Phase: Nydale's Upkeep step
+Phase: Nydale's Draw step
+Phase: Nydale's Main phase, precombat
+Replacement Effect: Idyllic Beachfront enters tapped.
+Land: Nydale played Idyllic Beachfront (323)
+Phase: Nydale's Beginning of Combat Step
+Phase: Nydale's Declare Attackers Step
+Phase: Nydale's Declare Blockers Step
+Phase: Nydale's First Strike Damage Step
+Phase: Nydale's Combat Damage Step
+Phase: Nydale's End of Combat Step
+Phase: Nydale's Main phase, postcombat
+Phase: Nydale's End step
+Phase: Nydale's Cleanup step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land)
+Information: BOARD turn 6 (Dominic) | Sidathe | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Raugrin Triome(land); Skullclamp(1); Leonin Abunas(4)
+Information: BOARD turn 6 (Dominic) | Jessica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Thriving Isle(land); Bribery(5)
+Information: BOARD turn 6 (Dominic) | Nydale | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Sunpetal Grove(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Angel of the Ruins (8).
+Turn: Turn 7 (Sidathe)
+Information: BOARD turn 7 (Sidathe) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land)
+Information: BOARD turn 7 (Sidathe) | Sidathe | life 40 | hand 4 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Raugrin Triome(land); Skullclamp(1); Leonin Abunas(4)
+Information: BOARD turn 7 (Sidathe) | Jessica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Thriving Isle(land); Bribery(5)
+Information: BOARD turn 7 (Sidathe) | Nydale | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Sunpetal Grove(land)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Sidathe played Raugrin Triome (189)
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Add To Stack: Sidathe cast Skullclamp
+Information: BOARD cast | Skullclamp (mv 1) by Sidathe | open mana: Dominic 1, Jessica 1, Nydale 0
+Resolve Stack: Skullclamp
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 8 (Jessica)
+Information: BOARD turn 8 (Jessica) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land)
+Information: BOARD turn 8 (Jessica) | Sidathe | life 40 | hand 3 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Leonin Abunas(4); Excalibur, Sword of Eden(12)
+Information: BOARD turn 8 (Jessica) | Jessica | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Thriving Isle(land); Bribery(5)
+Information: BOARD turn 8 (Jessica) | Nydale | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Sunpetal Grove(land)
+Phase: Jessica's Untap step
+Phase: Jessica's Upkeep step
+Phase: Jessica's Draw step
+Phase: Jessica's Main phase, precombat
+Replacement Effect: Thriving Isle enters tapped.
+Replacement Effect: As Thriving Isle enters, choose a color other than blue.
+Land: Jessica played Thriving Isle (257)
+Phase: Jessica's Beginning of Combat Step
+Phase: Jessica's Declare Attackers Step
+Phase: Jessica's Declare Blockers Step
+Phase: Jessica's First Strike Damage Step
+Phase: Jessica's Combat Damage Step
+Phase: Jessica's End of Combat Step
+Phase: Jessica's Main phase, postcombat
+Phase: Jessica's End step
+Phase: Jessica's Cleanup step
+Turn: Turn 9 (Nydale)
+Information: BOARD turn 9 (Nydale) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land)
+Information: BOARD turn 9 (Nydale) | Sidathe | life 40 | hand 3 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Leonin Abunas(4); Excalibur, Sword of Eden(12)
+Information: BOARD turn 9 (Nydale) | Jessica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 9 (Nydale) | Nydale | life 40 | hand 7 | lands 2 (1 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Hardened Scales(1); Fortified Village(land); Sunpetal Grove(land)
+Phase: Nydale's Untap step
+Phase: Nydale's Upkeep step
+Phase: Nydale's Draw step
+Phase: Nydale's Main phase, precombat
+Replacement Effect: Sunpetal Grove enters tapped unless you control a Forest or a Plains.
+Land: Nydale played Sunpetal Grove (369)
+Land: Nydale picked {G}
+Mana: Sunpetal Grove (369) - {T}: Add {G} or {W}.
+Add To Stack: Nydale cast Hardened Scales
+Information: BOARD cast | Hardened Scales (mv 1) by Nydale | open mana: Dominic 1, Sidathe 1, Jessica 1
+Resolve Stack: Hardened Scales
+Phase: Nydale's Beginning of Combat Step
+Phase: Nydale's Declare Attackers Step
+Phase: Nydale's Declare Blockers Step
+Phase: Nydale's First Strike Damage Step
+Phase: Nydale's Combat Damage Step
+Phase: Nydale's End of Combat Step
+Phase: Nydale's Main phase, postcombat
+Phase: Nydale's End step
+Phase: Nydale's Cleanup step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of Finality(4); Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land)
+Information: BOARD turn 10 (Dominic) | Sidathe | life 40 | hand 3 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Leonin Abunas(4); Excalibur, Sword of Eden(12)
+Information: BOARD turn 10 (Dominic) | Jessica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 10 (Dominic) | Nydale | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Fortified Village(land); Metastatic Evangel(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Discard: Dominic discards Angel of Finality (18).
+Turn: Turn 11 (Sidathe)
+Information: BOARD turn 11 (Sidathe) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 11 (Sidathe) | Sidathe | life 40 | hand 3 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Flawless Maneuver(3); Leonin Abunas(4); Excalibur, Sword of Eden(12)
+Information: BOARD turn 11 (Sidathe) | Jessica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 11 (Sidathe) | Nydale | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Fortified Village(land); Metastatic Evangel(2)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Sol Ring (152) - {T}: Add {C}{C}.
+Mana: Raugrin Triome (189) - {T}: Add {R}.
+Add To Stack: Sidathe cast Leonin Abunas
+Information: BOARD cast | Leonin Abunas (mv 4) by Sidathe | open mana: Dominic 1, Jessica 1, Nydale 2
+Resolve Stack: Leonin Abunas - Creature 2 / 5
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 12 (Jessica)
+Information: BOARD turn 12 (Jessica) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 12 (Jessica) | Sidathe | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Abunas 2/5 | hand cards: Flawless Maneuver(3); Excalibur, Sword of Eden(12); Sigarda's Aid(1)
+Information: BOARD turn 12 (Jessica) | Jessica | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Reflecting Pool(land); Arcane Signet(2); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 12 (Jessica) | Nydale | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Fortified Village(land); Metastatic Evangel(2)
+Phase: Jessica's Untap step
+Phase: Jessica's Upkeep step
+Phase: Jessica's Draw step
+Phase: Jessica's Main phase, precombat
+Land: Jessica played Reflecting Pool (298)
+Mana: Reflecting Pool (298) - {T}: Add one mana of any type that a land you control could produce.
+Land: Jessica picked {U}
+Mana: Thriving Isle (257) - {T}: Add {U} or one mana of the chosen color.
+Add To Stack: Jessica cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Jessica | open mana: Dominic 1, Sidathe 0, Nydale 2
+Resolve Stack: Arcane Signet
+Phase: Jessica's Beginning of Combat Step
+Phase: Jessica's Declare Attackers Step
+Phase: Jessica's Declare Blockers Step
+Phase: Jessica's First Strike Damage Step
+Phase: Jessica's Combat Damage Step
+Phase: Jessica's End of Combat Step
+Phase: Jessica's Main phase, postcombat
+Land: Jessica picked {G}
+Mana: Arcane Signet (251) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Jessica cast Llanowar Elves
+Information: BOARD cast | Llanowar Elves (mv 1) by Jessica | open mana: Dominic 1, Sidathe 0, Nydale 2
+Resolve Stack: Llanowar Elves - Creature 1 / 1
+Phase: Jessica's End step
+Phase: Jessica's Cleanup step
+Turn: Turn 13 (Nydale)
+Information: BOARD turn 13 (Nydale) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 13 (Nydale) | Sidathe | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Abunas 2/5 | hand cards: Flawless Maneuver(3); Excalibur, Sword of Eden(12); Sigarda's Aid(1)
+Information: BOARD turn 13 (Nydale) | Jessica | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Llanowar Elves 1/1 | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 13 (Nydale) | Nydale | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Voidslime(3); Seaside Citadel(land); Evolving Wilds(land); Sphere Grid(2); Fortified Village(land); Metastatic Evangel(2)
+Phase: Nydale's Untap step
+Phase: Nydale's Upkeep step
+Phase: Nydale's Draw step
+Phase: Nydale's Main phase, precombat
+Phase: Nydale's Beginning of Combat Step
+Phase: Nydale's Declare Attackers Step
+Phase: Nydale's Declare Blockers Step
+Phase: Nydale's First Strike Damage Step
+Phase: Nydale's Combat Damage Step
+Phase: Nydale's End of Combat Step
+Phase: Nydale's Main phase, postcombat
+Replacement Effect: Seaside Citadel enters tapped.
+Land: Nydale played Seaside Citadel (386)
+Land: Nydale picked {W}
+Mana: Sunpetal Grove (369) - {T}: Add {G} or {W}.
+Mana: Idyllic Beachfront (323) - {T}: Add {U}.
+Add To Stack: Nydale cast Metastatic Evangel
+Information: BOARD cast | Metastatic Evangel (mv 2) by Nydale | open mana: Dominic 1, Sidathe 0, Jessica 1
+Resolve Stack: Metastatic Evangel - Creature 3 / 1
+Phase: Nydale's End step
+Phase: Nydale's Cleanup step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Smothering Tithe(4); Everflowing Chalice(0); Karmic Guide(5); Plains(land); Rogue's Passage(land); Plains(land)
+Information: BOARD turn 14 (Dominic) | Sidathe | life 40 | hand 3 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Abunas 2/5 | hand cards: Flawless Maneuver(3); Excalibur, Sword of Eden(12); Sigarda's Aid(1)
+Information: BOARD turn 14 (Dominic) | Jessica | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Llanowar Elves 1/1 | hand cards: Burnished Hart(3); Harbinger of the Hunt(5); Call the Spirit Dragons(5); Bribery(5); Ancient Gold Dragon(7)
+Information: BOARD turn 14 (Dominic) | Nydale | life 40 | hand 5 | lands 4 (1 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metastatic Evangel 3/1 | hand cards: Voidslime(3); Evolving Wilds(land); Sphere Grid(2); Fortified Village(land); Prairie Stream(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

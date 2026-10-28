@@ -1,0 +1,1422 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Wendy (AI) deck=Captain America v8
+Player: Blake (AI) deck=Mr House v4
+Player: Sidathe (AI) deck=Olivia
+Mulligan: Wendy has mulliganed down to 7 cards.
+Mulligan: Wendy has mulliganed down to 6 cards.
+Mulligan: Sidathe has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Wendy has kept a hand of 6 cards
+Mulligan: Blake has kept a hand of 7 cards
+Turn: Turn 1 (Sidathe)
+Information: BOARD turn 1 (Sidathe) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 1 (Sidathe) | Wendy | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Steelshaper's Gift(1); Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Command Tower(land)
+Information: BOARD turn 1 (Sidathe) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: "Lifetime" Pass Holder(1); Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Swamp(land); Fountainport(land)
+Information: BOARD turn 1 (Sidathe) | Sidathe | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Mount Doom(land); Path to Exile(1)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Mount Doom (323)
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Plains(land); Subjugator Angel(6)
+Information: BOARD turn 2 (Xenil) | Wendy | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Steelshaper's Gift(1); Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Command Tower(land)
+Information: BOARD turn 2 (Xenil) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: "Lifetime" Pass Holder(1); Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Swamp(land); Fountainport(land)
+Information: BOARD turn 2 (Xenil) | Sidathe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (78)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 3 (Wendy)
+Information: BOARD turn 3 (Wendy) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Subjugator Angel(6); Path to Exile(1)
+Information: BOARD turn 3 (Wendy) | Wendy | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Steelshaper's Gift(1); Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Command Tower(land)
+Information: BOARD turn 3 (Wendy) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: "Lifetime" Pass Holder(1); Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Swamp(land); Fountainport(land)
+Information: BOARD turn 3 (Wendy) | Sidathe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy played Command Tower (127)
+Phase: Wendy's Beginning of Combat Step
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Land: Wendy picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy cast Steelshaper's Gift
+Information: BOARD cast | Steelshaper's Gift (mv 1) by Wendy | open mana: Xenil 1, Blake 0, Sidathe 3
+Resolve Stack: Steelshaper's Gift (148) - Wendy searches their library for an Equipment card, reveals it, puts it into their hand, then shuffles.
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 4 (Blake)
+Information: BOARD turn 4 (Blake) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Subjugator Angel(6); Path to Exile(1)
+Information: BOARD turn 4 (Blake) | Wendy | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Arcane Signet(2); Cloudsteel Kirin(3)
+Information: BOARD turn 4 (Blake) | Blake | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: "Lifetime" Pass Holder(1); Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Swamp(land); Fountainport(land)
+Information: BOARD turn 4 (Blake) | Sidathe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Swamp (255)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Swamp (255) - {T}: Add {B}.
+Add To Stack: Blake cast "Lifetime" Pass Holder
+Information: BOARD cast | "Lifetime" Pass Holder (mv 1) by Blake | open mana: Xenil 1, Wendy 0, Sidathe 3
+Replacement Effect: "Lifetime" Pass Holder enters tapped.
+Resolve Stack: "Lifetime" Pass Holder - Creature 2 / 1
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 5 (Sidathe)
+Information: BOARD turn 5 (Sidathe) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Subjugator Angel(6); Path to Exile(1)
+Information: BOARD turn 5 (Sidathe) | Wendy | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Arcane Signet(2); Cloudsteel Kirin(3)
+Information: BOARD turn 5 (Sidathe) | Blake | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Fountainport(land); Comet, Stellar Pup(4)
+Information: BOARD turn 5 (Sidathe) | Sidathe | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Caves of Koilos (315)
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Plains(land); Subjugator Angel(6); Path to Exile(1)
+Information: BOARD turn 6 (Xenil) | Wendy | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Arcane Signet(2); Cloudsteel Kirin(3)
+Information: BOARD turn 6 (Xenil) | Blake | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Fountainport(land); Comet, Stellar Pup(4)
+Information: BOARD turn 6 (Xenil) | Sidathe | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (69)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 7 (Wendy)
+Information: BOARD turn 7 (Wendy) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Plains(land)
+Information: BOARD turn 7 (Wendy) | Wendy | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Blacksmith's Talent(1); Generous Gift(3); Riverglide Pathway(land); Arcane Signet(2); Cloudsteel Kirin(3)
+Information: BOARD turn 7 (Wendy) | Blake | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Fountainport(land); Comet, Stellar Pup(4)
+Information: BOARD turn 7 (Wendy) | Sidathe | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy played Riverglide Pathway (194)
+Phase: Wendy's Beginning of Combat Step
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Land: Wendy picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Wendy | open mana: Xenil 2, Blake 0, Sidathe 6
+Resolve Stack: Arcane Signet
+Land: Wendy picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy cast Blacksmith's Talent
+Information: BOARD cast | Blacksmith's Talent (mv 1) by Wendy | open mana: Xenil 2, Blake 0, Sidathe 6
+Resolve Stack: Blacksmith's Talent
+Add To Stack: Wendy triggered Blacksmith's Talent
+Resolve Stack: When Blacksmith's Talent enters, create a colorless Equipment artifact token named Sword with "Equipped creature gets +1/+1" and equip {2}. [Zone Changer: Blacksmith's Talent (167)]
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 8 (Blake)
+Information: BOARD turn 8 (Blake) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Plains(land)
+Information: BOARD turn 8 (Blake) | Wendy | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Glacial Fortress(land)
+Information: BOARD turn 8 (Blake) | Blake | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): "Lifetime" Pass Holder 2/1* | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Fountainport(land); Comet, Stellar Pup(4)
+Information: BOARD turn 8 (Blake) | Sidathe | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Path to Exile(1); Zirda, the Dawnwaker(3)
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Fountainport (213)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Combat: Blake assigned "Lifetime" Pass Holder (264) to attack Wendy.
+Information: BOARD attack | Blake -> Wendy | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Land: Sidathe picked {W}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Sidathe.
+Life: Life: Sidathe 40 > 39
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Add To Stack: Sidathe cast Path to Exile targeting ["Lifetime" Pass Holder (264)]
+Information: BOARD cast | Path to Exile (mv 1) by Sidathe | open mana: Xenil 2, Wendy 0, Blake 2
+Zone Change: "Lifetime" Pass Holder (264) was put into Exile from Battlefield.
+Resolve Stack: Path to Exile (324) - Exile "Lifetime" Pass Holder (264). Blake may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library. 
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 9 (Sidathe)
+Information: BOARD turn 9 (Sidathe) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Plains(land)
+Information: BOARD turn 9 (Sidathe) | Wendy | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Glacial Fortress(land)
+Information: BOARD turn 9 (Sidathe) | Blake | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1)
+Information: BOARD turn 9 (Sidathe) | Sidathe | life 39 | hand 6 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Captain Lannery Storm(3); Vault of the Archangel(land); Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Zirda, the Dawnwaker(3)
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Vault of the Archangel (333)
+Life: Life: Sidathe 39 > 38
+Land: Sidathe picked {R}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Mana: Caves of Koilos (315) - {T}: Add {C}.
+Add To Stack: Sidathe cast Captain Lannery Storm
+Information: BOARD cast | Captain Lannery Storm (mv 3) by Sidathe | open mana: Xenil 2, Wendy 0, Blake 2
+Resolve Stack: Captain Lannery Storm - Creature 2 / 2
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Combat: Sidathe assigned Captain Lannery Storm (408) to attack Wendy.
+Information: BOARD attack | Sidathe -> Wendy | attackers 1 (power 2) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Attacker: Captain Lannery Storm (408)]
+Phase: Sidathe's Declare Blockers Step
+Combat: Wendy didn't block Captain Lannery Storm (408).
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Damage: Captain Lannery Storm (408) deals 2 combat damage to Wendy.
+Life: Life: Wendy 40 > 38
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 10 (Xenil)
+Information: BOARD turn 10 (Xenil) | Xenil | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Plains(land)
+Information: BOARD turn 10 (Xenil) | Wendy | life 38 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Glacial Fortress(land)
+Information: BOARD turn 10 (Xenil) | Blake | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1)
+Information: BOARD turn 10 (Xenil) | Sidathe | life 38 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Captain Lannery Storm 2/2* | hand cards: Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (91)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 11 (Wendy)
+Information: BOARD turn 11 (Wendy) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land)
+Information: BOARD turn 11 (Wendy) | Wendy | life 38 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Glacial Fortress(land)
+Information: BOARD turn 11 (Wendy) | Blake | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1)
+Information: BOARD turn 11 (Wendy) | Sidathe | life 38 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Captain Lannery Storm 2/2* | hand cards: Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Wendy played Glacial Fortress (170)
+Land: Wendy picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Land: Wendy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy activated Blacksmith's Talent
+Resolve Stack: Blacksmith's Talent (167) - Level 2
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Sword (419)] []
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Sword (419)], []]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 12 (Blake)
+Information: BOARD turn 12 (Blake) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land)
+Information: BOARD turn 12 (Blake) | Wendy | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Floodfarm Verge(land)
+Information: BOARD turn 12 (Blake) | Blake | life 40 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Weftstalker Ardent(3); Mountain(land); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1)
+Information: BOARD turn 12 (Blake) | Sidathe | life 38 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Captain Lannery Storm 2/2* | hand cards: Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 12 | Blacksmith's Talent (Wendy) 41
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Mountain (285)
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Blake | open mana: Xenil 3, Wendy 0, Sidathe 1
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 13 (Sidathe)
+Information: BOARD turn 13 (Sidathe) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land)
+Information: BOARD turn 13 (Sidathe) | Wendy | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Floodfarm Verge(land)
+Information: BOARD turn 13 (Sidathe) | Blake | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1); Norn's Annex(5)
+Information: BOARD turn 13 (Sidathe) | Sidathe | life 38 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Captain Lannery Storm 2/2* | hand cards: Nomad Outpost(land); Lethal Scheme(4); Bonders' Enclave(land); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 13 | Blacksmith's Talent (Wendy) 39
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Bonders' Enclave (378)
+Land: Sidathe picked {W}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Sidathe.
+Life: Life: Sidathe 38 > 37
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Zone Change: Treasure Token (452) was put into Graveyard from Battlefield.
+Land: Treasure Token (452) picked {B}
+Mana: Treasure Token (452) - {T}, Sacrifice this token: Add one mana of any color.
+Life: Life: Sidathe 37 > 36
+Land: Sidathe picked {R}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Add To Stack: Sidathe cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Sidathe | open mana: Xenil 3, Wendy 0, Blake 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (452)]
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Combat: Sidathe assigned Captain Lannery Storm (408) to attack Blake.
+Information: BOARD attack | Sidathe -> Blake | attackers 1 (power 3) | defender life 40 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Attacker: Captain Lannery Storm (408)]
+Phase: Sidathe's Declare Blockers Step
+Combat: Blake assigned Mr. House, President and CEO (302) to block Captain Lannery Storm (408).
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Damage: Captain Lannery Storm (408) deals 3 damage to Mr. House, President and CEO (302).
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Mana: Bonders' Enclave (378) - {T}: Add {C}.
+Zone Change: Treasure Token (563) was put into Graveyard from Battlefield.
+Land: Treasure Token (563) picked {W}
+Mana: Treasure Token (563) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sidathe cast Lightning Greaves
+Information: BOARD cast | Lightning Greaves (mv 2) by Sidathe | open mana: Xenil 3, Wendy 0, Blake 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (563)]
+Resolve Stack: Lightning Greaves
+Add To Stack: Sidathe activated Lightning Greaves targeting [Olivia, Opulent Outlaw (413)]
+Resolve Stack: Lightning Greaves (406) -  Attach to Olivia, Opulent Outlaw (413)
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 14 (Xenil)
+Information: BOARD turn 14 (Xenil) | Xenil | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Plains(land); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land)
+Information: BOARD turn 14 (Xenil) | Wendy | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Floodfarm Verge(land)
+Information: BOARD turn 14 (Xenil) | Blake | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1); Norn's Annex(5)
+Information: BOARD turn 14 (Xenil) | Sidathe | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Nomad Outpost(land); Lethal Scheme(4); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 14 | Captain Lannery Storm (Sidathe) 65; Blacksmith's Talent (Wendy) 38
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (88)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 15 (Wendy)
+Information: BOARD turn 15 (Wendy) | Xenil | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land); Angelic Renewal(2)
+Information: BOARD turn 15 (Wendy) | Wendy | life 38 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Floodfarm Verge(land)
+Information: BOARD turn 15 (Wendy) | Blake | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1); Norn's Annex(5)
+Information: BOARD turn 15 (Wendy) | Sidathe | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Nomad Outpost(land); Lethal Scheme(4); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 15 | Captain Lannery Storm (Sidathe) 63; Blacksmith's Talent (Wendy) 36
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy played Floodfarm Verge (166)
+Land: Wendy picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {W}.
+Add To Stack: Wendy activated Blacksmith's Talent
+Resolve Stack: Blacksmith's Talent (167) - Level 3
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Sword (419)] []
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Sword (419)], []]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 16 (Blake)
+Information: BOARD turn 16 (Blake) | Xenil | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land); Angelic Renewal(2)
+Information: BOARD turn 16 (Blake) | Wendy | life 38 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Adaptive Omnitool(2)
+Information: BOARD turn 16 (Blake) | Blake | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Swamp(land); Comet, Stellar Pup(4); Faithless Looting(1); Norn's Annex(5)
+Information: BOARD turn 16 (Blake) | Sidathe | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Nomad Outpost(land); Lethal Scheme(4); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 16 | Blacksmith's Talent (Wendy) 64; Captain Lannery Storm (Sidathe) 60
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Swamp (254)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Life: Life: Blake 40 > 38
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake cast Norn's Annex
+Information: BOARD cast | Norn's Annex (mv 5) by Blake | open mana: Xenil 4, Wendy 2, Sidathe 0
+Resolve Stack: Norn's Annex
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 17 (Sidathe)
+Information: BOARD turn 17 (Sidathe) | Xenil | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land); Angelic Renewal(2)
+Information: BOARD turn 17 (Sidathe) | Wendy | life 38 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Adaptive Omnitool(2)
+Information: BOARD turn 17 (Sidathe) | Blake | life 38 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3)
+Information: BOARD turn 17 (Sidathe) | Sidathe | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3[Lightning Greaves] | hand cards: Nomad Outpost(land); Lethal Scheme(4); Zirda, the Dawnwaker(3); Tainted Peak(land)
+Information: BOARD threat | turn 17 | Blacksmith's Talent (Wendy) 61; Captain Lannery Storm (Sidathe) 58
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Land: Sidathe played Tainted Peak (401)
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Life: Life: Sidathe 36 > 34
+Life: Life: Sidathe 34 > 32
+Combat: Sidathe assigned Captain Lannery Storm (408) and Olivia, Opulent Outlaw (413) to attack Blake.
+Information: BOARD attack | Sidathe -> Blake | attackers 2 (power 5) | defender life 38 | untapped creatures 1 (power 0): Mr. House, President and CEO 0/4 | open mana 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Attacker: Captain Lannery Storm (408)]
+Phase: Sidathe's Declare Blockers Step
+Combat: Blake assigned Mr. House, President and CEO (302) to block Captain Lannery Storm (408).
+Blake didn't block Olivia, Opulent Outlaw (413).
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Damage: Captain Lannery Storm (408) deals 2 damage to Mr. House, President and CEO (302).
+Damage: Olivia, Opulent Outlaw (413) deals 3 combat damage to Blake.
+Life: Life: Sidathe 32 > 35
+Life: Life: Blake 38 > 35
+Add To Stack: Sidathe triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Blake, Amount: 3]
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Land: Sidathe picked {B}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Sidathe.
+Life: Life: Sidathe 35 > 34
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Zone Change: Treasure Token (697) was put into Graveyard from Battlefield.
+Land: Treasure Token (697) picked {B}
+Mana: Treasure Token (697) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Tainted Peak (401) - {T}: Add {C}.
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Add To Stack: Sidathe cast Rankle, Master of Pranks
+Information: BOARD cast | Rankle, Master of Pranks (mv 4) by Sidathe | open mana: Xenil 4, Wendy 2, Blake 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (697)]
+Resolve Stack: Rankle, Master of Pranks - Creature 3 / 3
+Zone Change: Treasure Token (682) was put into Graveyard from Battlefield.
+Land: Treasure Token (682) picked {W}
+Mana: Treasure Token (682) - {T}, Sacrifice this token: Add one mana of any color.
+Life: Life: Sidathe 34 > 33
+Land: Sidathe picked {R}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Mana: Bonders' Enclave (378) - {T}: Add {C}.
+Add To Stack: Sidathe cast Zirda, the Dawnwaker
+Information: BOARD cast | Zirda, the Dawnwaker (mv 3) by Sidathe | open mana: Xenil 4, Wendy 2, Blake 1
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (682)]
+Resolve Stack: Zirda, the Dawnwaker - Creature 3 / 3
+Phase: Sidathe's End step
+Phase: Sidathe's Cleanup step
+Turn: Turn 18 (Xenil)
+Information: BOARD turn 18 (Xenil) | Xenil | life 40 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Rogue's Passage(land); Angelic Renewal(2)
+Information: BOARD turn 18 (Xenil) | Wendy | life 38 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Adaptive Omnitool(2)
+Information: BOARD turn 18 (Xenil) | Blake | life 35 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3)
+Information: BOARD turn 18 (Xenil) | Sidathe | life 33 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Rankle, Master of Pranks 3/3; Zirda, the Dawnwaker 3/3 | hand cards: Nomad Outpost(land); Lethal Scheme(4)
+Information: BOARD threat | turn 18 | Captain Lannery Storm (Sidathe) 99; Blacksmith's Talent (Wendy) 59; Olivia, Opulent Outlaw (Sidathe) 32
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Rogue's Passage (22)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 19 (Wendy)
+Information: BOARD turn 19 (Wendy) | Xenil | life 40 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Lyra Dawnbringer(5)
+Information: BOARD turn 19 (Wendy) | Wendy | life 38 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Generous Gift(3); Cloudsteel Kirin(3); Adaptive Omnitool(2)
+Information: BOARD turn 19 (Wendy) | Blake | life 35 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3)
+Information: BOARD turn 19 (Wendy) | Sidathe | life 33 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Rankle, Master of Pranks 3/3; Zirda, the Dawnwaker 3/3 | hand cards: Nomad Outpost(land); Lethal Scheme(4)
+Information: BOARD threat | turn 19 | Captain Lannery Storm (Sidathe) 95; Blacksmith's Talent (Wendy) 56; Olivia, Opulent Outlaw (Sidathe) 30
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy played City of Brass (145)
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {W}.
+Add To Stack: Wendy cast Generous Gift targeting [Rankle, Master of Pranks (400)]
+Information: BOARD cast | Generous Gift (mv 3) by Wendy | open mana: Xenil 5, Blake 1, Sidathe 0
+Zone Change: Rankle, Master of Pranks (400) was put into Graveyard from Battlefield.
+Resolve Stack: Generous Gift (103) - Destroy Rankle, Master of Pranks (400). 
+Land: Wendy picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Land: Wendy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Land: City of Brass (145) picked {W}
+Mana: City of Brass (145) - {T}: Add one mana of any color.
+Add To Stack: Wendy cast Cloudsteel Kirin
+Information: BOARD cast | Cloudsteel Kirin (mv 3) by Wendy | open mana: Xenil 5, Blake 1, Sidathe 0
+Add To Stack: Wendy triggered City of Brass
+Damage: City of Brass (145) deals 1 non-combat damage to Wendy.
+Life: Life: Wendy 38 > 37
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (145)]
+Resolve Stack: Cloudsteel Kirin - Creature 3 / 2
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Cloudsteel Kirin (160)] [Cloudsteel Kirin (160)]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Cloudsteel Kirin (160)], [Cloudsteel Kirin (160)]]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 20 (Blake)
+Information: BOARD turn 20 (Blake) | Xenil | life 40 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Lyra Dawnbringer(5)
+Information: BOARD turn 20 (Blake) | Wendy | life 37 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cloudsteel Kirin 3/2 | hand cards: Conqueror's Flail(2); Adaptive Omnitool(2)
+Information: BOARD turn 20 (Blake) | Blake | life 35 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Weftstalker Ardent(3); Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3)
+Information: BOARD turn 20 (Blake) | Sidathe | life 33 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3; Elephant Token 3/3 | hand cards: Nomad Outpost(land); Lethal Scheme(4)
+Information: BOARD threat | turn 20 | Captain Lannery Storm (Sidathe) 91; Blacksmith's Talent (Wendy) 68
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: Blake cast Weftstalker Ardent
+Information: BOARD cast | Weftstalker Ardent (mv 3) by Blake | open mana: Xenil 5, Wendy 0, Sidathe 0
+Resolve Stack: Weftstalker Ardent - Creature 2 / 3
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 21 (Sidathe)
+Information: BOARD turn 21 (Sidathe) | Xenil | life 40 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Lyra Dawnbringer(5)
+Information: BOARD turn 21 (Sidathe) | Wendy | life 37 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Cloudsteel Kirin 3/2 | hand cards: Conqueror's Flail(2); Adaptive Omnitool(2)
+Information: BOARD turn 21 (Sidathe) | Blake | life 35 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3); Unwinding Clock(4)
+Information: BOARD turn 21 (Sidathe) | Sidathe | life 33 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3; Elephant Token 3/3 | hand cards: Nomad Outpost(land); Lethal Scheme(4)
+Information: BOARD threat | turn 21 | Captain Lannery Storm (Sidathe) 87; Blacksmith's Talent (Wendy) 66
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Land: Sidathe picked {B}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Sidathe.
+Life: Life: Sidathe 33 > 32
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Life: Life: Sidathe 32 > 31
+Land: Sidathe picked {B}
+Mana: Mount Doom (323) - {T}, Pay 1 life: Add {B} or {R}.
+Mana: Tainted Peak (401) - {T}: Add {C}.
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Add To Stack: Sidathe cast Lethal Scheme targeting [Cloudsteel Kirin (160)]
+Information: BOARD cast | Lethal Scheme (mv 4) by Sidathe | open mana: Xenil 5, Wendy 0, Blake 2
+Zone Change: Cloudsteel Kirin (160) was put into Graveyard from Battlefield.
+Resolve Stack: Lethal Scheme (412) - Destroy Cloudsteel Kirin (160). 
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Life: Life: Sidathe 31 > 29
+Life: Life: Sidathe 29 > 27
+Combat: Sidathe assigned Captain Lannery Storm (408) to attack Wendy.
+Sidathe assigned Olivia, Opulent Outlaw (413) and Elephant Token (761) to attack Blake.
+Information: BOARD attack | Sidathe -> Wendy | attackers 1 (power 2) | defender life 37 | untapped creatures 0 (power 0):  | open mana 0
+Information: BOARD attack | Sidathe -> Blake | attackers 2 (power 6) | defender life 35 | untapped creatures 2 (power 2): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | open mana 2
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Attacker: Captain Lannery Storm (408)]
+Mana: Bonders' Enclave (378) - {T}: Add {C}.
+Add To Stack: Sidathe activated Zirda, the Dawnwaker targeting [Weftstalker Ardent (253)]
+Resolve Stack: Zirda, the Dawnwaker (376) - Weftstalker Ardent (253) gains hidden cardname can't block. until end of turn.
+Phase: Sidathe's Declare Blockers Step
+Combat: Wendy didn't block Captain Lannery Storm (408).
+Combat: Blake didn't block Olivia, Opulent Outlaw (413).
+Blake assigned Mr. House, President and CEO (302) to block Elephant Token (761).
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Damage: Olivia, Opulent Outlaw (413) deals 3 combat damage to Blake.
+Life: Life: Sidathe 27 > 30
+Damage: Elephant Token (761) deals 3 damage to Mr. House, President and CEO (302).
+Damage: Captain Lannery Storm (408) deals 2 combat damage to Wendy.
+Life: Life: Wendy 37 > 35
+Life: Life: Blake 35 > 32
+Add To Stack: Sidathe triggered Olivia, Opulent Outlaw
+Add To Stack: Sidathe triggered Olivia, Opulent Outlaw
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Wendy, Amount: 2]
+Resolve Stack: Whenever one or more outlaws you control deal combat damage to a player, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.) [Damaged: Blake, Amount: 3]
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Sidathe played Nomad Outpost (321)
+Zone Change: Treasure Token (846) was put into Graveyard from Battlefield.
+Land: Treasure Token (846) picked {B}
+Mana: Treasure Token (846) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (840) was put into Graveyard from Battlefield.
+Land: Treasure Token (840) picked {R}
+Mana: Treasure Token (840) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (820) was put into Graveyard from Battlefield.
+Land: Treasure Token (820) picked {W}
+Mana: Treasure Token (820) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Sidathe cast Mahadi, Emporium Master
+Information: BOARD cast | Mahadi, Emporium Master (mv 3) by Sidathe | open mana: Xenil 5, Wendy 0, Blake 2
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Add To Stack: Sidathe triggered Captain Lannery Storm
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (820)]
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (840)]
+Resolve Stack: Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. [Sacrificed: Treasure Token (846)]
+Resolve Stack: Mahadi, Emporium Master - Creature 3 / 3
+Phase: Sidathe's End step
+Add To Stack: Sidathe triggered Mahadi, Emporium Master
+Resolve Stack: At the beginning of your end step, create a Treasure token for each creature that died this turn. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Phase: Sidathe]
+Phase: Sidathe's Cleanup step
+Turn: Turn 22 (Xenil)
+Information: BOARD turn 22 (Xenil) | Xenil | life 40 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Lyra Dawnbringer(5)
+Information: BOARD turn 22 (Xenil) | Wendy | life 35 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Adaptive Omnitool(2)
+Information: BOARD turn 22 (Xenil) | Blake | life 32 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3); Unwinding Clock(4)
+Information: BOARD turn 22 (Xenil) | Sidathe | life 30 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3*; Mahadi, Emporium Master 3/3 | hand cards: 
+Information: BOARD threat | turn 22 | Captain Lannery Storm (Sidathe) 153; Olivia, Opulent Outlaw (Sidathe) 73; Blacksmith's Talent (Wendy) 63
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Rogue's Passage (22) - {T}: Add {C}.
+Add To Stack: Xenil cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Xenil | open mana: Wendy 0, Blake 2, Sidathe 1
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Lyra Dawnbringer (16).
+Turn: Turn 23 (Wendy)
+Information: BOARD turn 23 (Wendy) | Xenil | life 40 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2)
+Information: BOARD turn 23 (Wendy) | Wendy | life 35 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Conqueror's Flail(2); Adaptive Omnitool(2)
+Information: BOARD turn 23 (Wendy) | Blake | life 32 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3); Unwinding Clock(4)
+Information: BOARD turn 23 (Wendy) | Sidathe | life 30 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3*; Mahadi, Emporium Master 3/3 | hand cards: 
+Information: BOARD threat | turn 23 | Captain Lannery Storm (Sidathe) 147; Olivia, Opulent Outlaw (Sidathe) 70; Blacksmith's Talent (Wendy) 61
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy played Plains (186)
+Land: Wendy picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Add To Stack: Wendy cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Wendy | open mana: Xenil 0, Blake 2, Sidathe 1
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Add To Stack: Wendy activated Sword targeting [Captain America, First Avenger (201)]
+Resolve Stack: Sword (419) -  Attach to Captain America, First Avenger (201)
+Land: Wendy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Land: City of Brass (145) picked {W}
+Mana: City of Brass (145) - {T}: Add one mana of any color.
+Add To Stack: Wendy cast Conqueror's Flail
+Information: BOARD cast | Conqueror's Flail (mv 2) by Wendy | open mana: Xenil 0, Blake 2, Sidathe 1
+Add To Stack: Wendy triggered City of Brass
+Damage: City of Brass (145) deals 1 non-combat damage to Wendy.
+Life: Life: Wendy 35 > 34
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (145)]
+Resolve Stack: Conqueror's Flail
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Captain America, First Avenger targeting [Conqueror's Flail (191)]
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Conqueror's Flail (191)] [Captain America, First Avenger (201)]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Conqueror's Flail (191)], [Captain America, First Avenger (201)]]) [Phase: Wendy]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Conqueror's Flail (191)]]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Combat: Wendy assigned Captain America, First Avenger (201) to attack Sidathe.
+Information: BOARD attack | Wendy -> Sidathe | attackers 1 (power 8) | defender life 30 | untapped creatures 1 (power 3): Mahadi, Emporium Master 3/3 | open mana 1
+Phase: Wendy's Declare Blockers Step
+Combat: Sidathe didn't block Captain America, First Avenger (201).
+Phase: Wendy's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 8 combat damage to Sidathe.
+Life: Life: Sidathe 30 > 22
+Phase: Wendy's Combat Damage Step
+Damage: Captain America, First Avenger (201) deals 8 combat damage to Sidathe.
+Life: Life: Sidathe 22 > 14
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 24 (Blake)
+Information: BOARD turn 24 (Blake) | Xenil | life 40 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2)
+Information: BOARD turn 24 (Blake) | Wendy | life 34 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 8/8*[Sword,Conqueror's Flail] | hand cards: Adaptive Omnitool(2)
+Information: BOARD turn 24 (Blake) | Blake | life 32 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3 | hand cards: Mondrak, Glory Dominus(4); Comet, Stellar Pup(4); Faithless Looting(1); Treasure Chest(3); Unwinding Clock(4)
+Information: BOARD turn 24 (Blake) | Sidathe | life 14 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3*; Mahadi, Emporium Master 3/3 | hand cards: 
+Information: BOARD threat | turn 24 | Captain Lannery Storm (Sidathe) 141; Captain America, First Avenger (Wendy) 107; Blacksmith's Talent (Wendy) 73; Olivia, Opulent Outlaw (Sidathe) 67
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Command Tower (233)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Land: Blake picked {W}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Swamp (254) - {T}: Add {B}.
+Add To Stack: Blake cast Mondrak, Glory Dominus
+Information: BOARD cast | Mondrak, Glory Dominus (mv 4) by Blake | open mana: Xenil 0, Wendy 0, Sidathe 1
+Resolve Stack: Mondrak, Glory Dominus - Creature 4 / 4
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Sidathe.
+Life: Life: Xenil 40 > 39
+Life: Life: Wendy 34 > 33
+Life: Life: Sidathe 14 > 13
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Mondrak, Glory Dominus (274)]
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake cast Faithless Looting
+Information: BOARD cast | Faithless Looting (mv 1) by Blake | open mana: Xenil 0, Wendy 0, Sidathe 1
+Discard: Blake discards Spectator Seating (281).
+Discard: Blake discards Treasure Chest (260).
+Resolve Stack: Faithless Looting (247) - Blake draws two cards. Blake discards two cards.
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 25 (Sidathe)
+Information: BOARD turn 25 (Sidathe) | Xenil | life 39 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2)
+Information: BOARD turn 25 (Sidathe) | Wendy | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 8/8*[Sword,Conqueror's Flail] | hand cards: Adaptive Omnitool(2)
+Information: BOARD turn 25 (Sidathe) | Blake | life 32 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4 | hand cards: Comet, Stellar Pup(4); Unwinding Clock(4); Myrkul's Edict(2)
+Information: BOARD turn 25 (Sidathe) | Sidathe | life 13 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (1 untapped): Captain Lannery Storm 2/2*; Olivia, Opulent Outlaw 3/3*[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3*; Mahadi, Emporium Master 3/3 | hand cards: 
+Information: BOARD threat | turn 25 | Captain Lannery Storm (Sidathe) 135; Captain America, First Avenger (Wendy) 102; Blacksmith's Talent (Wendy) 70; Olivia, Opulent Outlaw (Sidathe) 65; Weftstalker Ardent (Blake) 32
+Phase: Sidathe's Untap step
+Phase: Sidathe's Upkeep step
+Phase: Sidathe's Draw step
+Phase: Sidathe's Main phase, precombat
+Phase: Sidathe's Beginning of Combat Step
+Phase: Sidathe's Declare Attackers Step
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Add To Stack: Sidathe activated Zirda, the Dawnwaker targeting [Seluma, Light of Aysen (100)]
+Resolve Stack: Zirda, the Dawnwaker (376) - Seluma, Light of Aysen (100) gains hidden cardname can't block. until end of turn.
+Phase: Sidathe's Declare Blockers Step
+Phase: Sidathe's First Strike Damage Step
+Phase: Sidathe's Combat Damage Step
+Phase: Sidathe's End of Combat Step
+Phase: Sidathe's Main phase, postcombat
+Land: Sidathe picked {W}
+Mana: Nomad Outpost (321) - {T}: Add {R}, {W}, or {B}.
+Land: Sidathe picked {B}
+Damage: Caves of Koilos (315) deals 1 non-combat damage to Sidathe.
+Life: Life: Sidathe 13 > 12
+Mana: Caves of Koilos (315) - {T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you. 
+Mana: Tainted Peak (401) - {T}: Add {C}.
+Add To Stack: Sidathe cast Kambal, Profiteering Mayor
+Information: BOARD cast | Kambal, Profiteering Mayor (mv 3) by Sidathe | open mana: Xenil 0, Wendy 0, Blake 1
+Resolve Stack: Kambal, Profiteering Mayor - Creature 2 / 4
+Phase: Sidathe's End step
+Add To Stack: Sidathe triggered Mahadi, Emporium Master
+Resolve Stack: At the beginning of your end step, create a Treasure token for each creature that died this turn. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Phase: Sidathe]
+Phase: Sidathe's Cleanup step
+Turn: Turn 26 (Xenil)
+Information: BOARD turn 26 (Xenil) | Xenil | life 39 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Darksteel Angel(9); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2)
+Information: BOARD turn 26 (Xenil) | Wendy | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 8/8*[Sword,Conqueror's Flail] | hand cards: Adaptive Omnitool(2)
+Information: BOARD turn 26 (Xenil) | Blake | life 32 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4 | hand cards: Comet, Stellar Pup(4); Unwinding Clock(4); Myrkul's Edict(2)
+Information: BOARD turn 26 (Xenil) | Sidathe | life 12 | hand 0 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 6 (5 untapped): Captain Lannery Storm 2/2; Olivia, Opulent Outlaw 3/3[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3; Mahadi, Emporium Master 3/3; Kambal, Profiteering Mayor 2/4 | hand cards: 
+Information: BOARD threat | turn 26 | Captain Lannery Storm (Sidathe) 130; Captain America, First Avenger (Wendy) 98; Blacksmith's Talent (Wendy) 67; Olivia, Opulent Outlaw (Sidathe) 62; Weftstalker Ardent (Blake) 30
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Darksteel Angel (97).
+Turn: Turn 27 (Wendy)
+Information: BOARD turn 27 (Wendy) | Xenil | life 39 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land)
+Information: BOARD turn 27 (Wendy) | Wendy | life 33 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 8/8*[Sword,Conqueror's Flail] | hand cards: Adaptive Omnitool(2)
+Information: BOARD turn 27 (Wendy) | Blake | life 32 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4 | hand cards: Comet, Stellar Pup(4); Unwinding Clock(4); Myrkul's Edict(2)
+Information: BOARD turn 27 (Wendy) | Sidathe | life 12 | hand 0 | lands 6 (2 untapped) | open mana 5 | commander Battlefield | creatures 6 (5 untapped): Captain Lannery Storm 2/2; Olivia, Opulent Outlaw 3/3[Lightning Greaves]; Zirda, the Dawnwaker 3/3*; Elephant Token 3/3; Mahadi, Emporium Master 3/3; Kambal, Profiteering Mayor 2/4 | hand cards: 
+Information: BOARD threat | turn 27 | Captain Lannery Storm (Sidathe) 125; Captain America, First Avenger (Wendy) 94; Blacksmith's Talent (Wendy) 64; Olivia, Opulent Outlaw (Sidathe) 60
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Plains (186) - {T}: Add {W}.
+Add To Stack: Wendy cast Adaptive Omnitool
+Information: BOARD cast | Adaptive Omnitool (mv 2) by Wendy | open mana: Xenil 5, Blake 1, Sidathe 5
+Resolve Stack: Adaptive Omnitool
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Land: Wendy picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy activated Adaptive Omnitool targeting [Captain America, First Avenger (201)]
+Resolve Stack: Adaptive Omnitool (164) -  Attach to Captain America, First Avenger (201)
+Land: Wendy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Land: City of Brass (145) picked {W}
+Mana: City of Brass (145) - {T}: Add one mana of any color.
+Add To Stack: Wendy cast Captain America's Shield
+Information: BOARD cast | Captain America's Shield (mv 2) by Wendy | open mana: Xenil 5, Blake 1, Sidathe 5
+Add To Stack: Wendy triggered City of Brass
+Damage: City of Brass (145) deals 1 non-combat damage to Wendy.
+Life: Life: Wendy 33 > 32
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (145)]
+Resolve Stack: Captain America's Shield
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Captain America, First Avenger targeting [Captain America's Shield (197)]
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Captain America's Shield (197)] [Captain America, First Avenger (201)]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Captain America's Shield (197)], [Captain America, First Avenger (201)]]) [Phase: Wendy]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Captain America's Shield (197)]]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Combat: Wendy assigned Captain America, First Avenger (201) to attack Sidathe.
+Information: BOARD attack | Wendy -> Sidathe | attackers 1 (power 13) | defender life 12 | untapped creatures 5 (power 13): Captain Lannery Storm 2/2; Olivia, Opulent Outlaw 3/3[Lightning Greaves]; Elephant Token 3/3; Mahadi, Emporium Master 3/3; Kambal, Profiteering Mayor 2/4 | open mana 5
+Add To Stack: Wendy triggered Adaptive Omnitool
+Add To Stack: Wendy triggered Captain America's Shield targeting [Captain Lannery Storm (408)]
+Resolve Stack: Whenever equipped creature attacks, tap target creature defending player controls. (Targeting: [[Captain Lannery Storm (408)]]) [Attacker: Captain America, First Avenger (201)]
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Captain America, First Avenger (201)]
+Phase: Wendy's Declare Blockers Step
+Combat: Sidathe didn't block Captain America, First Avenger (201).
+Phase: Wendy's First Strike Damage Step
+Damage: Captain America, First Avenger (201) deals 13 combat damage to Sidathe.
+Life: Life: Sidathe 12 > -1
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 28 (Blake)
+Information: BOARD turn 28 (Blake) | Xenil | life 39 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land)
+Information: BOARD turn 28 (Blake) | Wendy | life 32 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 13/21[Sword,Conqueror's Flail,Adaptive Omnitool,Captain America's Shield] | hand cards: Nazgûl Battle-Mace(5)
+Information: BOARD turn 28 (Blake) | Blake | life 32 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4 | hand cards: Comet, Stellar Pup(4); Unwinding Clock(4); Myrkul's Edict(2)
+Information: BOARD threat | turn 28 | Captain America, First Avenger (Wendy) 180; Blacksmith's Talent (Wendy) 76; City of Brass (Wendy) 37
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Land: Blake played Ash Barrens (269)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Phase: Blake's Declare Blockers Step
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (255) - {T}: Add {B}.
+Add To Stack: Blake cast Comet, Stellar Pup
+Information: BOARD cast | Comet, Stellar Pup (mv 4) by Blake | open mana: Xenil 5, Wendy 0
+Replacement Effect: Comet, Stellar Pup enters with five loyalty counters on it.
+Resolve Stack: Comet, Stellar Pup
+Add To Stack: Blake activated Comet, Stellar Pup
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Comet, Stellar Pup (279) - Roll a d6.
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 39 > 38
+Life: Life: Wendy 32 > 31
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Squirrel Token (1111)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 38 > 37
+Life: Life: Wendy 31 > 30
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Squirrel Token (1110)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 37 > 36
+Life: Life: Wendy 30 > 29
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Squirrel Token (1109)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 36 > 35
+Life: Life: Wendy 29 > 28
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Squirrel Token (1108)]
+Land: Blake picked {R}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Fountainport (213) - {T}: Add {C}.
+Add To Stack: Blake cast Faithless Looting
+Information: BOARD cast | Faithless Looting (mv 1) by Blake | open mana: Xenil 5, Wendy 0
+Discard: Blake discards Caves of Koilos (203).
+Discard: Blake discards Unwinding Clock (268).
+Resolve Stack: Faithless Looting (247) - Blake draws two cards. Blake discards two cards.
+Replacement Effect: Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 29 (Xenil)
+Information: BOARD turn 29 (Xenil) | Xenil | life 35 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Angel of the Ruins(7); Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land)
+Information: BOARD turn 29 (Xenil) | Wendy | life 28 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 13/21[Sword,Conqueror's Flail,Adaptive Omnitool,Captain America's Shield] | hand cards: Nazgûl Battle-Mace(5)
+Information: BOARD turn 29 (Xenil) | Blake | life 32 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4; Squirrel Token 1/1 x4 | hand cards: Myrkul's Edict(2); Anguished Unmaking(3)
+Information: BOARD threat | turn 29 | Captain America, First Avenger (Wendy) 173; Weftstalker Ardent (Blake) 131; Blacksmith's Talent (Wendy) 73; City of Brass (Wendy) 36
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Angel of the Ruins (8).
+Turn: Turn 30 (Wendy)
+Information: BOARD turn 30 (Wendy) | Xenil | life 35 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 30 (Wendy) | Wendy | life 28 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 13/21[Sword,Conqueror's Flail,Adaptive Omnitool,Captain America's Shield] | hand cards: Nazgûl Battle-Mace(5)
+Information: BOARD turn 30 (Wendy) | Blake | life 32 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3; Mondrak, Glory Dominus 4/4; Squirrel Token 1/1 x4 | hand cards: Myrkul's Edict(2); Anguished Unmaking(3)
+Information: BOARD threat | turn 30 | Captain America, First Avenger (Wendy) 166; Weftstalker Ardent (Blake) 125; Blacksmith's Talent (Wendy) 70; City of Brass (Wendy) 34
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Land: Wendy picked {W}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Wendy cast Nazgûl Battle-Mace
+Information: BOARD cast | Nazgûl Battle-Mace (mv 5) by Wendy | open mana: Xenil 5, Blake 0
+Resolve Stack: Nazgûl Battle-Mace
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (136)]
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Nazgûl Battle-Mace (136)] [Captain America, First Avenger (201)]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Nazgûl Battle-Mace (136)], [Captain America, First Avenger (201)]]) [Phase: Wendy]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (136)]]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Land: Wendy picked {W}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Combat: Wendy assigned Captain America, First Avenger (201) to attack Comet, Stellar Pup (279).
+Add To Stack: Wendy triggered Captain America, First Avenger
+Add To Stack: Wendy triggered Adaptive Omnitool
+Add To Stack: Wendy triggered Captain America's Shield targeting [Weftstalker Ardent (253)]
+Resolve Stack: Whenever equipped creature attacks, tap target creature defending player controls. (Targeting: [[Weftstalker Ardent (253)]]) [Attacker: Captain America, First Avenger (201)]
+Resolve Stack: Whenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. [Attacker: Captain America, First Avenger (201)]
+Zone Change: Squirrel Token (1108) was put into Graveyard from Battlefield.
+Resolve Stack: Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.) [Attacker: Captain America, First Avenger (201)]
+Phase: Wendy's Declare Blockers Step
+Combat: Blake didn't block Captain America, First Avenger (201).
+Phase: Wendy's First Strike Damage Step
+Zone Change: Comet, Stellar Pup (279) was put into Graveyard from Battlefield.
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 31 (Blake)
+Information: BOARD turn 31 (Blake) | Xenil | life 35 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 31 (Blake) | Wendy | life 28 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 14/22[Sword,Conqueror's Flail,Adaptive Omnitool,Captain America's Shield,Nazgûl Battle-Mace] | hand cards: Akiri, Fearless Voyager(3); Sword of Light and Shadow(3)
+Information: BOARD turn 31 (Blake) | Blake | life 32 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Mondrak, Glory Dominus 4/4; Squirrel Token 1/1 x3 | hand cards: Myrkul's Edict(2); Anguished Unmaking(3)
+Information: BOARD threat | turn 31 | Captain America, First Avenger (Wendy) 188; Weftstalker Ardent (Blake) 120; Blacksmith's Talent (Wendy) 82; Adaptive Omnitool (Wendy) 40; City of Brass (Wendy) 33
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Add To Stack: Blake cast Anguished Unmaking targeting [Captain America, First Avenger (201)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Blake | open mana: Xenil 5, Wendy 1
+Zone Change: Captain America, First Avenger (201) was put into Exile from Battlefield.
+Life: Life: Blake 32 > 29
+Resolve Stack: Anguished Unmaking (297) - Exile Captain America, First Avenger (201). Blake loses 3 life.
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Combat: Blake assigned Mondrak, Glory Dominus (274), Weftstalker Ardent (253), Squirrel Token (1109), Squirrel Token (1110) and Squirrel Token (1111) to attack Wendy.
+Information: BOARD attack | Blake -> Wendy | attackers 5 (power 9) | defender life 28 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Blake's Declare Blockers Step
+Combat: Wendy didn't block Mondrak, Glory Dominus (274).
+Wendy didn't block Weftstalker Ardent (253).
+Wendy didn't block Squirrel Token (1109).
+Wendy didn't block Squirrel Token (1110).
+Wendy didn't block Squirrel Token (1111).
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Damage: Mondrak, Glory Dominus (274) deals 4 combat damage to Wendy.
+Damage: Weftstalker Ardent (253) deals 2 combat damage to Wendy.
+Damage: Squirrel Token (1109) deals 1 combat damage to Wendy.
+Damage: Squirrel Token (1110) deals 1 combat damage to Wendy.
+Damage: Squirrel Token (1111) deals 1 combat damage to Wendy.
+Life: Life: Wendy 28 > 19
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Mana: Swamp (254) - {T}: Add {B}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake cast Myrkul's Edict
+Information: BOARD cast | Myrkul's Edict (mv 2) by Blake | open mana: Xenil 5, Wendy 1
+Zone Change: Seluma, Light of Aysen (100) was put into Graveyard from Battlefield.
+Resolve Stack: Myrkul's Edict (293) - Roll a d20.
+Add To Stack: Blake triggered Mr. House, President and CEO
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Blake, Result: 19]
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 35 > 34
+Life: Life: Wendy 19 > 18
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (1137)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 34 > 33
+Life: Life: Wendy 18 > 17
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (1136)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 33 > 32
+Life: Life: Wendy 17 > 16
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (1135)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 32 > 31
+Life: Life: Wendy 16 > 15
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (1134)]
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 32 (Xenil)
+Information: BOARD turn 32 (Xenil) | Xenil | life 31 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Fellwar Stone(2); Plains(land); Bishop of Wings(2)
+Information: BOARD turn 32 (Xenil) | Wendy | life 15 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Akiri, Fearless Voyager(3); Sword of Light and Shadow(3)
+Information: BOARD turn 32 (Xenil) | Blake | life 29 | hand 1 | lands 7 (2 untapped) | open mana 5 | commander Battlefield | creatures 8 (3 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Mondrak, Glory Dominus 4/4*; Squirrel Token 1/1* x3; Robot Token 3/3 x2 | hand cards: Shattered Sanctum(land)
+Information: BOARD threat | turn 32 | Weftstalker Ardent (Blake) 231; Blacksmith's Talent (Wendy) 78; Adaptive Omnitool (Wendy) 38; City of Brass (Wendy) 31
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (67)
+Mana: Rogue's Passage (22) - {T}: Add {C}.
+Mana: Plains (67) - {T}: Add {W}.
+Add To Stack: Xenil cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Xenil | open mana: Wendy 1, Blake 5
+Resolve Stack: Fellwar Stone
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Land: Blake picked {W}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Treasure Token (1137) was put into Graveyard from Battlefield.
+Land: Treasure Token (1137) picked {W}
+Mana: Treasure Token (1137) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (1136) was put into Graveyard from Battlefield.
+Land: Treasure Token (1136) picked {W}
+Mana: Treasure Token (1136) - {T}, Sacrifice this token: Add one mana of any color.
+Life: Life: Blake 29 > 28
+Add To Stack: Blake activated Fountainport
+Replacement Effect: If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Resolve Stack: Fountainport (213) - Blake creates a 1/1 blue Fish creature token.
+Add To Stack: Blake triggered Weftstalker Ardent
+Add To Stack: Blake triggered Weftstalker Ardent
+Mana: Plains (91) - {T}: Add {W}.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 31 > 30
+Life: Life: Wendy 15 > 14
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Fish Token (1170)]
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Wendy.
+Life: Life: Xenil 30 > 29
+Life: Life: Wendy 14 > 13
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Fish Token (1169)]
+Phase: Xenil's Cleanup step
+Turn: Turn 33 (Wendy)
+Information: BOARD turn 33 (Wendy) | Xenil | life 29 | hand 6 | lands 6 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4)
+Information: BOARD turn 33 (Wendy) | Wendy | life 13 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Akiri, Fearless Voyager(3); Sword of Light and Shadow(3)
+Information: BOARD turn 33 (Wendy) | Blake | life 28 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Mondrak, Glory Dominus 4/4*; Squirrel Token 1/1* x3; Robot Token 3/3 x2; Fish Token 1/1 x2 | hand cards: Shattered Sanctum(land)
+Information: BOARD threat | turn 33 | Weftstalker Ardent (Blake) 273; Blacksmith's Talent (Wendy) 75; Adaptive Omnitool (Wendy) 37; City of Brass (Wendy) 30
+Phase: Wendy's Untap step
+Phase: Wendy's Upkeep step
+Phase: Wendy's Draw step
+Phase: Wendy's Main phase, precombat
+Land: Wendy picked {R}
+Mana: Command Tower (127) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Riverglide Pathway (194) - {T}: Add {U}.
+Land: Wendy picked {W}
+Mana: Glacial Fortress (170) - {T}: Add {W} or {U}.
+Mana: Floodfarm Verge (166) - {T}: Add {U}. Activate only if you control a Plains or an Island.
+Add To Stack: Wendy cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Wendy | open mana: Xenil 4, Blake 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Land: Wendy picked {R}
+Mana: Arcane Signet (146) - {T}: Add one mana of any color in your commander's color identity.
+Land: City of Brass (145) picked {W}
+Mana: City of Brass (145) - {T}: Add one mana of any color.
+Add To Stack: Wendy activated Sword targeting [Captain America, First Avenger (201)]
+Add To Stack: Wendy triggered City of Brass
+Damage: City of Brass (145) deals 1 non-combat damage to Wendy.
+Life: Life: Wendy 13 > 12
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (145)]
+Resolve Stack: Sword (419) -  Attach to Captain America, First Avenger (201)
+Phase: Wendy's Beginning of Combat Step
+Add To Stack: Wendy triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (136)]
+Add To Stack: Wendy triggered Blacksmith's Talent targeting [Nazgûl Battle-Mace (136)] [Captain America, First Avenger (201)]
+Resolve Stack: At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control. (Targeting: [[Nazgûl Battle-Mace (136)], [Captain America, First Avenger (201)]]) [Phase: Wendy]
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[Nazgûl Battle-Mace (136)]]) [Phase: Wendy]
+Phase: Wendy's Declare Attackers Step
+Phase: Wendy's Declare Blockers Step
+Phase: Wendy's First Strike Damage Step
+Phase: Wendy's Combat Damage Step
+Phase: Wendy's End of Combat Step
+Phase: Wendy's Main phase, postcombat
+Phase: Wendy's End step
+Phase: Wendy's Cleanup step
+Turn: Turn 34 (Blake)
+Information: BOARD turn 34 (Blake) | Xenil | life 29 | hand 6 | lands 6 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4)
+Information: BOARD turn 34 (Blake) | Wendy | life 12 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 5/5[Sword,Nazgûl Battle-Mace] | hand cards: Akiri, Fearless Voyager(3); Sword of Light and Shadow(3); The Reaver Cleaver(3)
+Information: BOARD turn 34 (Blake) | Blake | life 28 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (5 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Mondrak, Glory Dominus 4/4*; Squirrel Token 1/1* x3; Robot Token 3/3 x2; Fish Token 1/1 x2 | hand cards: Shattered Sanctum(land)
+Information: BOARD threat | turn 34 | Weftstalker Ardent (Blake) 262; Blacksmith's Talent (Wendy) 87; City of Brass (Wendy) 43; Adaptive Omnitool (Wendy) 35
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Replacement Effect: Shattered Sanctum enters tapped unless you control two or more other lands.
+Land: Blake played Shattered Sanctum (211)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Combat: Blake assigned Mondrak, Glory Dominus (274), Robot Token (1134), Robot Token (1135), Weftstalker Ardent (253), Squirrel Token (1109), Squirrel Token (1110), Squirrel Token (1111), Fish Token (1169) and Fish Token (1170) to attack Wendy.
+Information: BOARD attack | Blake -> Wendy | attackers 9 (power 17) | defender life 12 | untapped creatures 1 (power 5): Captain America, First Avenger 5/5[Sword,Nazgûl Battle-Mace] | open mana 0
+Phase: Blake's Declare Blockers Step
+Combat: Wendy assigned Captain America, First Avenger (201) to block Mondrak, Glory Dominus (274).
+Wendy didn't block Robot Token (1134).
+Wendy didn't block Robot Token (1135).
+Wendy didn't block Weftstalker Ardent (253).
+Wendy didn't block Squirrel Token (1109).
+Wendy didn't block Squirrel Token (1110).
+Wendy didn't block Squirrel Token (1111).
+Wendy didn't block Fish Token (1169).
+Wendy didn't block Fish Token (1170).
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Damage: Mondrak, Glory Dominus (274) deals 4 damage to Captain America, First Avenger (201).
+Damage: Robot Token (1134) deals 3 combat damage to Wendy.
+Damage: Robot Token (1135) deals 3 combat damage to Wendy.
+Damage: Weftstalker Ardent (253) deals 2 combat damage to Wendy.
+Damage: Squirrel Token (1109) deals 1 combat damage to Wendy.
+Damage: Squirrel Token (1110) deals 1 combat damage to Wendy.
+Damage: Squirrel Token (1111) deals 1 combat damage to Wendy.
+Damage: Fish Token (1169) deals 1 combat damage to Wendy.
+Damage: Fish Token (1170) deals 1 combat damage to Wendy.
+Damage: Captain America, First Avenger (201) deals 5 damage (Deathtouch) to Mondrak, Glory Dominus (274).
+Life: Life: Wendy 12 > -1
+Zone Change: Mondrak, Glory Dominus (274) was put into Graveyard from Battlefield.
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 35 (Xenil)
+Information: BOARD turn 35 (Xenil) | Xenil | life 29 | hand 6 | lands 6 (3 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4)
+Information: BOARD turn 35 (Xenil) | Blake | life 28 | hand 1 | lands 8 (8 untapped) | open mana 11 | commander Battlefield | creatures 9 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Squirrel Token 1/1* x3; Robot Token 3/3* x2; Fish Token 1/1* x2 | hand cards: Dragonskull Summit(land)
+Information: BOARD threat | turn 35 | Weftstalker Ardent (Blake) 263
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake activated Fountainport
+Resolve Stack: Fountainport (213) - Blake creates a Treasure token.
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Life: Life: Xenil 29 > 28
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (1206)]
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Zone Change: Treasure Token (1206) was put into Graveyard from Battlefield.
+Land: Treasure Token (1206) picked {W}
+Mana: Treasure Token (1206) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (254) - {T}: Add {B}.
+Land: Blake picked {W}
+Mana: Shattered Sanctum (211) - {T}: Add {W} or {B}.
+Land: Blake picked {W}
+Mana: Command Tower (233) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Blake activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Blake triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Blake, Result: 4]
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Life: Life: Xenil 28 > 27
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (1208)]
+Phase: Xenil's Cleanup step
+Turn: Turn 36 (Blake)
+Information: BOARD turn 36 (Blake) | Xenil | life 27 | hand 7 | lands 6 (6 untapped) | open mana 7 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4); Plains(land)
+Information: BOARD turn 36 (Blake) | Blake | life 28 | hand 1 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (1 untapped): Mr. House, President and CEO 0/4*; Weftstalker Ardent 2/3*; Squirrel Token 1/1* x3; Robot Token 3/3* x2; Fish Token 1/1* x2; Robot Token 3/3 | hand cards: Dragonskull Summit(land)
+Information: BOARD threat | turn 36 | Weftstalker Ardent (Blake) 288; Mr. House, President and CEO (Blake) 41
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Replacement Effect: Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.
+Land: Blake played Dragonskull Summit (246)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Combat: Blake assigned Robot Token (1134), Robot Token (1135), Robot Token (1208), Weftstalker Ardent (253), Squirrel Token (1109), Squirrel Token (1110), Squirrel Token (1111), Fish Token (1169) and Fish Token (1170) to attack Xenil.
+Information: BOARD attack | Blake -> Xenil | attackers 9 (power 16) | defender life 27 | untapped creatures 0 (power 0):  | open mana 7
+Phase: Blake's Declare Blockers Step
+Combat: Xenil didn't block Robot Token (1134).
+Xenil didn't block Robot Token (1135).
+Xenil didn't block Robot Token (1208).
+Xenil didn't block Weftstalker Ardent (253).
+Xenil didn't block Squirrel Token (1109).
+Xenil didn't block Squirrel Token (1110).
+Xenil didn't block Squirrel Token (1111).
+Xenil didn't block Fish Token (1169).
+Xenil didn't block Fish Token (1170).
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Damage: Robot Token (1134) deals 3 combat damage to Xenil.
+Damage: Robot Token (1135) deals 3 combat damage to Xenil.
+Damage: Robot Token (1208) deals 3 combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 2 combat damage to Xenil.
+Damage: Squirrel Token (1109) deals 1 combat damage to Xenil.
+Damage: Squirrel Token (1110) deals 1 combat damage to Xenil.
+Damage: Squirrel Token (1111) deals 1 combat damage to Xenil.
+Damage: Fish Token (1169) deals 1 combat damage to Xenil.
+Damage: Fish Token (1170) deals 1 combat damage to Xenil.
+Life: Life: Xenil 27 > 11
+Phase: Blake's End of Combat Step
+Phase: Blake's Main phase, postcombat
+Phase: Blake's End step
+Phase: Blake's Cleanup step
+Turn: Turn 37 (Xenil)
+Information: BOARD turn 37 (Xenil) | Xenil | life 11 | hand 7 | lands 6 (6 untapped) | open mana 7 | commander Command | creatures 0 (0 untapped):  | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4); Plains(land)
+Information: BOARD turn 37 (Xenil) | Blake | life 28 | hand 1 | lands 9 (9 untapped) | open mana 14 | commander Battlefield | creatures 10 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3*; Squirrel Token 1/1* x3; Robot Token 3/3* x3; Fish Token 1/1* x2 | hand cards: Blood Crypt(land)
+Information: BOARD threat | turn 37 | Weftstalker Ardent (Blake) 288; Mr. House, President and CEO (Blake) 39; Robot Token (Blake) 33; Robot Token (Blake) 33
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Rogue's Passage (22) - {T}: Add {C}.
+Mana: Plains (67) - {T}: Add {W}.
+Mana: Fellwar Stone (59) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Xenil cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Xenil | open mana: Blake 14
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Mana: Ash Barrens (269) - {T}: Add {C}.
+Mana: Swamp (255) - {T}: Add {B}.
+Mana: Plains (287) - {T}: Add {W}.
+Mana: Mountain (285) - {T}: Add {R}.
+Add To Stack: Blake activated Fountainport
+Resolve Stack: Fountainport (213) - Blake creates a Treasure token.
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Life: Life: Xenil 11 > 10
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Treasure Token (1242)]
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Zone Change: Treasure Token (1242) was put into Graveyard from Battlefield.
+Land: Treasure Token (1242) picked {W}
+Mana: Treasure Token (1242) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Swamp (254) - {T}: Add {B}.
+Land: Blake picked {W}
+Mana: Shattered Sanctum (211) - {T}: Add {W} or {B}.
+Land: Blake picked {B}
+Mana: Dragonskull Summit (246) - {T}: Add {B} or {R}.
+Add To Stack: Blake activated Mr. House, President and CEO
+Resolve Stack: Mr. House, President and CEO (302) - Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
+Add To Stack: Blake triggered Mr. House, President and CEO
+Add To Stack: Blake triggered Mr. House, President and CEO
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Blake, Result: 5]
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Life: Life: Xenil 10 > 9
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (1244)]
+Resolve Stack: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token. [Player: Blake, Result: 5]
+Add To Stack: Blake triggered Weftstalker Ardent
+Damage: Weftstalker Ardent (253) deals 1 non-combat damage to Xenil.
+Life: Life: Xenil 9 > 8
+Resolve Stack: Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent. [Zone Changer: Robot Token (1246)]
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Archangel of Thune (39).
+Turn: Turn 38 (Blake)
+Information: BOARD turn 38 (Blake) | Xenil | life 8 | hand 7 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Akroma's Will(4); Subjugator Angel(6); Path to Exile(1); Angelic Renewal(2); Bishop of Wings(2); Restoration Angel(4); Plains(land)
+Information: BOARD turn 38 (Blake) | Blake | life 28 | hand 1 | lands 9 (1 untapped) | open mana 2 | commander Battlefield | creatures 12 (2 untapped): Mr. House, President and CEO 0/4*; Weftstalker Ardent 2/3*; Squirrel Token 1/1* x3; Robot Token 3/3* x3; Fish Token 1/1* x2; Robot Token 3/3 x2 | hand cards: Blood Crypt(land)
+Information: BOARD threat | turn 38 | Weftstalker Ardent (Blake) 288; Mr. House, President and CEO (Blake) 81; Fountainport (Blake) 39; Robot Token (Blake) 32; Robot Token (Blake) 32
+Phase: Blake's Untap step
+Phase: Blake's Upkeep step
+Phase: Blake's Draw step
+Phase: Blake's Main phase, precombat
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Blake played Blood Crypt (214)
+Phase: Blake's Beginning of Combat Step
+Phase: Blake's Declare Attackers Step
+Combat: Blake assigned Robot Token (1134), Robot Token (1135), Robot Token (1208), Robot Token (1244), Robot Token (1246), Weftstalker Ardent (253), Squirrel Token (1109), Squirrel Token (1110), Squirrel Token (1111), Fish Token (1169) and Fish Token (1170) to attack Xenil.
+Information: BOARD attack | Blake -> Xenil | attackers 11 (power 22) | defender life 8 | untapped creatures 1 (power 4): Seluma, Light of Aysen 4/4 | open mana 0
+Phase: Blake's Declare Blockers Step
+Combat: Xenil didn't block Robot Token (1134).
+Xenil didn't block Robot Token (1135).
+Xenil didn't block Robot Token (1208).
+Xenil didn't block Robot Token (1244).
+Xenil didn't block Robot Token (1246).
+Xenil didn't block Weftstalker Ardent (253).
+Xenil didn't block Squirrel Token (1109).
+Xenil didn't block Squirrel Token (1110).
+Xenil didn't block Squirrel Token (1111).
+Xenil didn't block Fish Token (1169).
+Xenil didn't block Fish Token (1170).
+Phase: Blake's First Strike Damage Step
+Phase: Blake's Combat Damage Step
+Damage: Robot Token (1134) deals 3 combat damage to Xenil.
+Damage: Robot Token (1135) deals 3 combat damage to Xenil.
+Damage: Robot Token (1208) deals 3 combat damage to Xenil.
+Damage: Robot Token (1244) deals 3 combat damage to Xenil.
+Damage: Robot Token (1246) deals 3 combat damage to Xenil.
+Damage: Weftstalker Ardent (253) deals 2 combat damage to Xenil.
+Damage: Squirrel Token (1109) deals 1 combat damage to Xenil.
+Damage: Squirrel Token (1110) deals 1 combat damage to Xenil.
+Damage: Squirrel Token (1111) deals 1 combat damage to Xenil.
+Damage: Fish Token (1169) deals 1 combat damage to Xenil.
+Damage: Fish Token (1170) deals 1 combat damage to Xenil.
+Life: Life: Xenil 8 > -14
+Player Control: Xenil has restored control over themself
+Player Control: Wendy has restored control over themself
+Player Control: Blake has restored control over themself
+Player Control: Sidathe has restored control over themself
+Game Outcome: Match Duration 9m : 54s
+Game Outcome: Turn 19
+Game Outcome: Xenil has lost because life total reached 0
+Game Outcome: Wendy has lost because life total reached 0
+Game Outcome: Blake has won because all opponents have lost
+Game Outcome: Sidathe has lost because life total reached 0
+Match Result: Xenil: 0 Wendy: 0 Blake: 1 Sidathe: 0 
+
+Game Result: Blake has won

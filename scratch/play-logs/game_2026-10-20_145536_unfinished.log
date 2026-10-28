@@ -1,0 +1,40 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Iona (AI) deck=Captain America v8
+Player: Andrew (AI) deck=Mr House v4
+Player: Martin (AI) deck=Olivia
+Mulligan: Andrew has mulliganed down to 7 cards.
+Mulligan: Andrew has mulliganed down to 6 cards.
+Mulligan: Martin has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Iona has kept a hand of 7 cards
+Mulligan: Andrew has kept a hand of 6 cards
+Turn: Turn 1 (Martin)
+Information: BOARD turn 1 (Martin) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Miraculous Recovery(5); Mind Stone(2); Secluded Courtyard(land); Swiftfoot Boots(2); Plains(land); Bruna, the Fading Light(7); Plains(land)
+Information: BOARD turn 1 (Martin) | Iona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clifftop Retreat(land); Plains(land); Swiftfoot Boots(2); Island(land); Sword of Feast and Famine(3); Skullclamp(1); Glacial Fortress(land)
+Information: BOARD turn 1 (Martin) | Andrew | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Isolated Chapel(land); Professional Face-Breaker(3); Myrkul's Edict(2); Caesar, Legion's Emperor(4); Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 1 (Martin) | Martin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Massacre Girl(5); Belladonna Took(2); Olivia, Crimson Bride(6); Xorn(3); Mountain(land); Mount Doom(land); Raucous Carnival(land)
+Phase: Martin's Untap step
+Phase: Martin's Upkeep step
+Phase: Martin's Draw step
+Phase: Martin's Main phase, precombat
+Land: Martin played Mount Doom (323)
+Phase: Martin's Beginning of Combat Step
+Phase: Martin's Declare Attackers Step
+Phase: Martin's Declare Blockers Step
+Phase: Martin's First Strike Damage Step
+Phase: Martin's Combat Damage Step
+Phase: Martin's End of Combat Step
+Phase: Martin's Main phase, postcombat
+Phase: Martin's End step
+Phase: Martin's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Miraculous Recovery(5); Mind Stone(2); Secluded Courtyard(land); Swiftfoot Boots(2); Plains(land); Bruna, the Fading Light(7); Plains(land)
+Information: BOARD turn 2 (Xenil) | Iona | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Clifftop Retreat(land); Plains(land); Swiftfoot Boots(2); Island(land); Sword of Feast and Famine(3); Skullclamp(1); Glacial Fortress(land)
+Information: BOARD turn 2 (Xenil) | Andrew | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Isolated Chapel(land); Professional Face-Breaker(3); Myrkul's Edict(2); Caesar, Legion's Emperor(4); Attempted Murder(2); Blightstep Pathway(land)
+Information: BOARD turn 2 (Xenil) | Martin | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Massacre Girl(5); Belladonna Took(2); Olivia, Crimson Bride(6); Xorn(3); Mountain(land); Raucous Carnival(land); Breeches, Eager Pillager(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

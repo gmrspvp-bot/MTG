@@ -1,0 +1,106 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Yve (AI) deck=Captain America v8
+Player: Gronalyn (AI) deck=Scion
+Player: Markdoon (AI) deck=Tidus v3
+Mulligan: Gronalyn has mulliganed down to 7 cards.
+Mulligan: Markdoon has mulliganed down to 7 cards.
+Mulligan: Markdoon has mulliganed down to 6 cards.
+Mulligan: Yve has kept a hand of 7 cards
+Mulligan: Gronalyn has kept a hand of 7 cards
+Mulligan: Markdoon has kept a hand of 6 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Yve)
+Information: BOARD turn 1 (Yve) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Plains(land); Archangel of Thune(5); Karmic Guide(5); Thought Vessel(2); Avacyn, Angel of Horror(8)
+Information: BOARD turn 1 (Yve) | Yve | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Exotic Orchard(land); Plains(land); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Deserted Beach(land)
+Information: BOARD turn 1 (Yve) | Gronalyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Sol Ring(1); Living Death(5); Arcane Denial(2); Turbulent Shore(land); Utter End(4); Mystic Gate(land)
+Information: BOARD turn 1 (Yve) | Markdoon | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Summon: Ixion(3); Protection Magic(2); Plains(land); Hardened Scales(1); Island(land)
+Phase: Yve's Untap step
+Phase: Yve's Upkeep step
+Phase: Yve's Draw step
+Phase: Yve's Main phase, precombat
+Land: Yve played Plains (182)
+Phase: Yve's Beginning of Combat Step
+Phase: Yve's Declare Attackers Step
+Phase: Yve's Declare Blockers Step
+Phase: Yve's First Strike Damage Step
+Phase: Yve's Combat Damage Step
+Phase: Yve's End of Combat Step
+Phase: Yve's Main phase, postcombat
+Phase: Yve's End step
+Phase: Yve's Cleanup step
+Turn: Turn 2 (Gronalyn)
+Information: BOARD turn 2 (Gronalyn) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Plains(land); Archangel of Thune(5); Karmic Guide(5); Thought Vessel(2); Avacyn, Angel of Horror(8)
+Information: BOARD turn 2 (Gronalyn) | Yve | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Exotic Orchard(land); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Deserted Beach(land); Darksteel Plate(3)
+Information: BOARD turn 2 (Gronalyn) | Gronalyn | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Shivan Reef(land); Sol Ring(1); Living Death(5); Arcane Denial(2); Turbulent Shore(land); Utter End(4); Mystic Gate(land)
+Information: BOARD turn 2 (Gronalyn) | Markdoon | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Summon: Ixion(3); Protection Magic(2); Plains(land); Hardened Scales(1); Island(land)
+Phase: Gronalyn's Untap step
+Phase: Gronalyn's Upkeep step
+Phase: Gronalyn's Draw step
+Phase: Gronalyn's Main phase, precombat
+Land: Gronalyn played Shivan Reef (228)
+Mana: Shivan Reef (228) - {T}: Add {C}.
+Add To Stack: Gronalyn cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Gronalyn | open mana: Dominic 0, Yve 1, Markdoon 0
+Resolve Stack: Sol Ring
+Phase: Gronalyn's Beginning of Combat Step
+Phase: Gronalyn's Declare Attackers Step
+Phase: Gronalyn's Declare Blockers Step
+Phase: Gronalyn's First Strike Damage Step
+Phase: Gronalyn's Combat Damage Step
+Phase: Gronalyn's End of Combat Step
+Phase: Gronalyn's Main phase, postcombat
+Phase: Gronalyn's End step
+Phase: Gronalyn's Cleanup step
+Turn: Turn 3 (Markdoon)
+Information: BOARD turn 3 (Markdoon) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Plains(land); Archangel of Thune(5); Karmic Guide(5); Thought Vessel(2); Avacyn, Angel of Horror(8)
+Information: BOARD turn 3 (Markdoon) | Yve | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Exotic Orchard(land); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Deserted Beach(land); Darksteel Plate(3)
+Information: BOARD turn 3 (Markdoon) | Gronalyn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Arcane Denial(2); Turbulent Shore(land); Utter End(4); Mystic Gate(land); Bribery(5)
+Information: BOARD turn 3 (Markdoon) | Markdoon | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Summon: Ixion(3); Protection Magic(2); Plains(land); Hardened Scales(1); Island(land)
+Phase: Markdoon's Untap step
+Phase: Markdoon's Upkeep step
+Phase: Markdoon's Draw step
+Phase: Markdoon's Main phase, precombat
+Land: Markdoon played Plains (399)
+Phase: Markdoon's Beginning of Combat Step
+Phase: Markdoon's Declare Attackers Step
+Phase: Markdoon's Declare Blockers Step
+Phase: Markdoon's First Strike Damage Step
+Phase: Markdoon's Combat Damage Step
+Phase: Markdoon's End of Combat Step
+Phase: Markdoon's Main phase, postcombat
+Phase: Markdoon's End step
+Phase: Markdoon's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Plains(land); Archangel of Thune(5); Karmic Guide(5); Thought Vessel(2); Avacyn, Angel of Horror(8)
+Information: BOARD turn 4 (Dominic) | Yve | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Exotic Orchard(land); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Deserted Beach(land); Darksteel Plate(3)
+Information: BOARD turn 4 (Dominic) | Gronalyn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Arcane Denial(2); Turbulent Shore(land); Utter End(4); Mystic Gate(land); Bribery(5)
+Information: BOARD turn 4 (Dominic) | Markdoon | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Summon: Ixion(3); Protection Magic(2); Hardened Scales(1); Island(land); Court of Garenbrig(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (67)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 5 (Yve)
+Information: BOARD turn 5 (Yve) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Archangel of Thune(5); Karmic Guide(5); Thought Vessel(2); Avacyn, Angel of Horror(8); Plains(land)
+Information: BOARD turn 5 (Yve) | Yve | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Blacksmith's Talent(1); Exotic Orchard(land); Danitha Capashen, Paragon(3); Hengegate Pathway(land); Deserted Beach(land); Darksteel Plate(3)
+Information: BOARD turn 5 (Yve) | Gronalyn | life 40 | hand 6 | lands 1 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Living Death(5); Arcane Denial(2); Turbulent Shore(land); Utter End(4); Mystic Gate(land); Bribery(5)
+Information: BOARD turn 5 (Yve) | Markdoon | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Endless Detour(3); Summon: Ixion(3); Protection Magic(2); Hardened Scales(1); Island(land); Court of Garenbrig(3)
+Phase: Yve's Untap step
+Phase: Yve's Upkeep step
+Phase: Yve's Draw step
+Phase: Yve's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Yve played Deserted Beach (163)
+Phase: Yve's Beginning of Combat Step
+Phase: Yve's Declare Attackers Step
+
+Game Result: unfinished (Forge closed mid-game)

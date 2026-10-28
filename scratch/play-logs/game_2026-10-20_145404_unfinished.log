@@ -1,0 +1,259 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Riandur (AI) deck=Captain America v8
+Player: Ludokrin (AI) deck=Mr House v4
+Player: Wiltmar (AI) deck=Olivia
+Mulligan: Wiltmar has mulliganed down to 7 cards.
+Mulligan: Riandur has mulliganed down to 7 cards.
+Mulligan: Wiltmar has mulliganed down to 6 cards.
+Mulligan: Riandur has mulliganed down to 6 cards.
+Mulligan: Wiltmar has mulliganed down to 5 cards.
+Mulligan: Wiltmar has kept a hand of 5 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Riandur has kept a hand of 6 cards
+Mulligan: Ludokrin has kept a hand of 7 cards
+Turn: Turn 1 (Wiltmar)
+Information: BOARD turn 1 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Linvala, Keeper of Silence(4); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2)
+Information: BOARD turn 1 (Wiltmar) | Riandur | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Adarkar Wastes(land); Force of Negation(3); Enthusiastic Mechanaut(2); Basilisk Collar(1); Raugrin Triome(land)
+Information: BOARD turn 1 (Wiltmar) | Ludokrin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Caves of Koilos(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land)
+Information: BOARD turn 1 (Wiltmar) | Wiltmar | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Trailblazer's Boots(2); Changeling Outcast(1); Mountain(land); Orzhov Signet(2); The Meathook Massacre(2)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Vault of the Archangel (333)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's First Strike Damage Step
+Phase: Wiltmar's Combat Damage Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Linvala, Keeper of Silence(4); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2)
+Information: BOARD turn 2 (Xenil) | Riandur | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Adarkar Wastes(land); Force of Negation(3); Enthusiastic Mechanaut(2); Basilisk Collar(1); Raugrin Triome(land)
+Information: BOARD turn 2 (Xenil) | Ludokrin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Caves of Koilos(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land)
+Information: BOARD turn 2 (Xenil) | Wiltmar | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Trailblazer's Boots(2); Changeling Outcast(1); Mountain(land); Orzhov Signet(2); The Meathook Massacre(2)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Linvala, Keeper of Silence (21).
+Turn: Turn 3 (Riandur)
+Information: BOARD turn 3 (Riandur) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4)
+Information: BOARD turn 3 (Riandur) | Riandur | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Adarkar Wastes(land); Force of Negation(3); Enthusiastic Mechanaut(2); Basilisk Collar(1); Raugrin Triome(land)
+Information: BOARD turn 3 (Riandur) | Ludokrin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Caves of Koilos(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land)
+Information: BOARD turn 3 (Riandur) | Wiltmar | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Trailblazer's Boots(2); Changeling Outcast(1); Mountain(land); Orzhov Signet(2); The Meathook Massacre(2)
+Phase: Riandur's Untap step
+Phase: Riandur's Upkeep step
+Phase: Riandur's Draw step
+Phase: Riandur's Main phase, precombat
+Land: Riandur played Adarkar Wastes (158)
+Phase: Riandur's Beginning of Combat Step
+Phase: Riandur's Declare Attackers Step
+Phase: Riandur's Declare Blockers Step
+Phase: Riandur's First Strike Damage Step
+Phase: Riandur's Combat Damage Step
+Phase: Riandur's End of Combat Step
+Phase: Riandur's Main phase, postcombat
+Mana: Adarkar Wastes (158) - {T}: Add {C}.
+Add To Stack: Riandur cast Basilisk Collar
+Information: BOARD cast | Basilisk Collar (mv 1) by Riandur | open mana: Xenil 0, Ludokrin 0, Wiltmar 1
+Resolve Stack: Basilisk Collar
+Phase: Riandur's End step
+Phase: Riandur's Cleanup step
+Turn: Turn 4 (Ludokrin)
+Information: BOARD turn 4 (Ludokrin) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4)
+Information: BOARD turn 4 (Ludokrin) | Riandur | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Raugrin Triome(land); Sulfur Falls(land)
+Information: BOARD turn 4 (Ludokrin) | Ludokrin | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Caves of Koilos(land); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land)
+Information: BOARD turn 4 (Ludokrin) | Wiltmar | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Trailblazer's Boots(2); Changeling Outcast(1); Mountain(land); Orzhov Signet(2); The Meathook Massacre(2)
+Phase: Ludokrin's Untap step
+Phase: Ludokrin's Upkeep step
+Phase: Ludokrin's Draw step
+Phase: Ludokrin's Main phase, precombat
+Land: Ludokrin played Caves of Koilos (203)
+Phase: Ludokrin's Beginning of Combat Step
+Phase: Ludokrin's Declare Attackers Step
+Phase: Ludokrin's Declare Blockers Step
+Phase: Ludokrin's First Strike Damage Step
+Phase: Ludokrin's Combat Damage Step
+Phase: Ludokrin's End of Combat Step
+Phase: Ludokrin's Main phase, postcombat
+Phase: Ludokrin's End step
+Phase: Ludokrin's Cleanup step
+Turn: Turn 5 (Wiltmar)
+Information: BOARD turn 5 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4)
+Information: BOARD turn 5 (Wiltmar) | Riandur | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Raugrin Triome(land); Sulfur Falls(land)
+Information: BOARD turn 5 (Wiltmar) | Ludokrin | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land)
+Information: BOARD turn 5 (Wiltmar) | Wiltmar | life 40 | hand 5 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Trailblazer's Boots(2); Changeling Outcast(1); Mountain(land); Orzhov Signet(2); The Meathook Massacre(2)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Mountain (399)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's First Strike Damage Step
+Phase: Wiltmar's Combat Damage Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Mana: Mountain (399) - {T}: Add {R}.
+Mana: Vault of the Archangel (333) - {T}: Add {C}.
+Add To Stack: Wiltmar cast Trailblazer's Boots
+Information: BOARD cast | Trailblazer's Boots (mv 2) by Wiltmar | open mana: Xenil 0, Riandur 0, Ludokrin 3
+Resolve Stack: Trailblazer's Boots
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 6 (Xenil)
+Information: BOARD turn 6 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Angel of Despair(7); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4)
+Information: BOARD turn 6 (Xenil) | Riandur | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Raugrin Triome(land); Sulfur Falls(land)
+Information: BOARD turn 6 (Xenil) | Ludokrin | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land)
+Information: BOARD turn 6 (Xenil) | Wiltmar | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Discard: Xenil discards Angel of Despair (28).
+Turn: Turn 7 (Riandur)
+Information: BOARD turn 7 (Riandur) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4)
+Information: BOARD turn 7 (Riandur) | Riandur | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Raugrin Triome(land); Sulfur Falls(land)
+Information: BOARD turn 7 (Riandur) | Ludokrin | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land)
+Information: BOARD turn 7 (Riandur) | Wiltmar | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4)
+Phase: Riandur's Untap step
+Phase: Riandur's Upkeep step
+Phase: Riandur's Draw step
+Phase: Riandur's Main phase, precombat
+Phase: Riandur's Beginning of Combat Step
+Phase: Riandur's Declare Attackers Step
+Phase: Riandur's Declare Blockers Step
+Phase: Riandur's First Strike Damage Step
+Phase: Riandur's Combat Damage Step
+Phase: Riandur's End of Combat Step
+Phase: Riandur's Main phase, postcombat
+Replacement Effect: Raugrin Triome enters tapped.
+Land: Riandur played Raugrin Triome (189)
+Phase: Riandur's End step
+Phase: Riandur's Cleanup step
+Turn: Turn 8 (Ludokrin)
+Information: BOARD turn 8 (Ludokrin) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4)
+Information: BOARD turn 8 (Ludokrin) | Riandur | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Sulfur Falls(land); Deserted Beach(land)
+Information: BOARD turn 8 (Ludokrin) | Ludokrin | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Luxury Suite(land); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land)
+Information: BOARD turn 8 (Ludokrin) | Wiltmar | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4)
+Phase: Ludokrin's Untap step
+Phase: Ludokrin's Upkeep step
+Phase: Ludokrin's Draw step
+Phase: Ludokrin's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Ludokrin played Luxury Suite (236)
+Phase: Ludokrin's Beginning of Combat Step
+Phase: Ludokrin's Declare Attackers Step
+Phase: Ludokrin's Declare Blockers Step
+Phase: Ludokrin's First Strike Damage Step
+Phase: Ludokrin's Combat Damage Step
+Phase: Ludokrin's End of Combat Step
+Phase: Ludokrin's Main phase, postcombat
+Phase: Ludokrin's End step
+Phase: Ludokrin's Cleanup step
+Turn: Turn 9 (Wiltmar)
+Information: BOARD turn 9 (Wiltmar) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4)
+Information: BOARD turn 9 (Wiltmar) | Riandur | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Sulfur Falls(land); Deserted Beach(land)
+Information: BOARD turn 9 (Wiltmar) | Ludokrin | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land); Treasure Chest(3)
+Information: BOARD turn 9 (Wiltmar) | Wiltmar | life 40 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4)
+Phase: Wiltmar's Untap step
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's First Strike Damage Step
+Phase: Wiltmar's Combat Damage Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 10 (Xenil)
+Information: BOARD turn 10 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Plains(land); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4)
+Information: BOARD turn 10 (Xenil) | Riandur | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Sulfur Falls(land); Deserted Beach(land)
+Information: BOARD turn 10 (Xenil) | Ludokrin | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land); Treasure Chest(3)
+Information: BOARD turn 10 (Xenil) | Wiltmar | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4); Alesha, Who Laughs at Fate(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+Land: Xenil played Plains (75)
+Phase: Xenil's Beginning of Combat Step
+Phase: Xenil's Declare Attackers Step
+Phase: Xenil's Declare Blockers Step
+Phase: Xenil's First Strike Damage Step
+Phase: Xenil's Combat Damage Step
+Phase: Xenil's End of Combat Step
+Phase: Xenil's Main phase, postcombat
+Phase: Xenil's End step
+Phase: Xenil's Cleanup step
+Turn: Turn 11 (Riandur)
+Information: BOARD turn 11 (Riandur) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4); Thought Vessel(2)
+Information: BOARD turn 11 (Riandur) | Riandur | life 40 | hand 5 | lands 2 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Hengegate Pathway(land); Force of Negation(3); Enthusiastic Mechanaut(2); Sulfur Falls(land); Deserted Beach(land)
+Information: BOARD turn 11 (Riandur) | Ludokrin | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land); Treasure Chest(3)
+Information: BOARD turn 11 (Riandur) | Wiltmar | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4); Alesha, Who Laughs at Fate(3)
+Phase: Riandur's Untap step
+Phase: Riandur's Upkeep step
+Phase: Riandur's Draw step
+Phase: Riandur's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Riandur played Sulfur Falls (154)
+Phase: Riandur's Beginning of Combat Step
+Phase: Riandur's Declare Attackers Step
+Phase: Riandur's Declare Blockers Step
+Phase: Riandur's First Strike Damage Step
+Phase: Riandur's Combat Damage Step
+Phase: Riandur's End of Combat Step
+Phase: Riandur's Main phase, postcombat
+Land: Riandur picked {R}
+Mana: Sulfur Falls (154) - {T}: Add {U} or {R}.
+Mana: Raugrin Triome (189) - {T}: Add {U}.
+Add To Stack: Riandur cast Enthusiastic Mechanaut
+Information: BOARD cast | Enthusiastic Mechanaut (mv 2) by Riandur | open mana: Xenil 1, Ludokrin 6, Wiltmar 2
+Resolve Stack: Enthusiastic Mechanaut - Creature 2 / 2
+Phase: Riandur's End step
+Phase: Riandur's Cleanup step
+Turn: Turn 12 (Ludokrin)
+Information: BOARD turn 12 (Ludokrin) | Xenil | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Karmic Guide(5); Baneslayer Angel(5); Fellwar Stone(2); Pearl Medallion(2); Breath of Life(4); Smothering Tithe(4); Thought Vessel(2)
+Information: BOARD turn 12 (Ludokrin) | Riandur | life 40 | hand 4 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Enthusiastic Mechanaut 2/2 | hand cards: Hengegate Pathway(land); Force of Negation(3); Deserted Beach(land); Kaldra Compleat(7)
+Information: BOARD turn 12 (Ludokrin) | Ludokrin | life 40 | hand 7 | lands 2 (2 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Mondrak, Glory Dominus(4); Skithiryx, the Blight Dragon(5); Blood Crypt(land); Dragonskull Summit(land); Evolving Wilds(land); Treasure Chest(3)
+Information: BOARD turn 12 (Ludokrin) | Wiltmar | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Changeling Outcast(1); Orzhov Signet(2); The Meathook Massacre(2); Queen Marchesa(4); Alesha, Who Laughs at Fate(3)
+Phase: Ludokrin's Untap step
+Phase: Ludokrin's Upkeep step
+Phase: Ludokrin's Draw step
+Phase: Ludokrin's Main phase, precombat
+Replacement Effect: As Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Ludokrin played Blood Crypt (214)
+Land: Ludokrin picked {B}
+Mana: Luxury Suite (236) - {T}: Add {B} or {R}.
+Mana: Caves of Koilos (203) - {T}: Add {C}.
+Add To Stack: Ludokrin cast Deadbeat Attendant
+Information: BOARD cast | Deadbeat Attendant (mv 2) by Ludokrin | open mana: Xenil 1, Riandur 3, Wiltmar 2
+Resolve Stack: Deadbeat Attendant - Creature 1 / 1
+Add To Stack: Ludokrin triggered Deadbeat Attendant
+
+Game Result: unfinished (Forge closed mid-game)

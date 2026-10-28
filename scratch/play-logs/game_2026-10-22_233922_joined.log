@@ -1,0 +1,786 @@
+Player: Dominic (HUMAN) deck=? (commander Seluma, Light of Aysen) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Alec (HUMAN) deck=? (commander Eivor, Battle-Ready)
+Player: peen (HUMAN) deck=? (commander Rin and Seri, Inseparable)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Plains(land); Mind Stone(2); Land Tax(1); Swiftfoot Boots(2); Linvala, Keeper of Silence(4)
+Information: BOARD turn 1 (Dominic) | peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (276)
+Add To Stack: Dominic cast Land Tax
+Zone Change: Land Tax (221) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (peen)
+Information: BOARD turn 2 (peen) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (peen) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (peen) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7)
+Information: BOARD turn 2 (peen) | peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: peen's Upkeep step
+Phase: peen's Draw step
+Phase: peen's Main phase, precombat
+Land: peen played Forest (333)
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 3 (Derand)
+Information: BOARD turn 3 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7)
+Information: BOARD turn 3 (Derand) | peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Furycalm Snarl (55)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 4 (Alec)
+Information: BOARD turn 4 (Alec) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7)
+Information: BOARD turn 4 (Alec) | peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (193)
+Add To Stack: Alec cast Steelshaper's Gift
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7)
+Information: BOARD turn 5 (Dominic) | peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (peen)
+Information: BOARD turn 6 (peen) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (peen) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (peen) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7); Smothering Tithe(4)
+Information: BOARD turn 6 (peen) | peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: peen's Upkeep step
+Phase: peen's Draw step
+Phase: peen's Main phase, precombat
+Land: peen played Fortified Village (344)
+Add To Stack: peen cast Rampant Growth
+Zone Change: Mountain (381) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 7 (Derand)
+Information: BOARD turn 7 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7); Smothering Tithe(4)
+Information: BOARD turn 7 (Derand) | peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (28)
+Add To Stack: Derand cast Talisman of Conviction
+Zone Change: Talisman of Conviction (11) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 8 (Alec)
+Information: BOARD turn 8 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7); Smothering Tithe(4)
+Information: BOARD turn 8 (Alec) | peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (176)
+Add To Stack: Alec cast Goldvein Pick
+Zone Change: Goldvein Pick (148) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Mind Stone(2); Swiftfoot Boots(2); Linvala, Keeper of Silence(4); Angel of the Ruins(7); Smothering Tithe(4)
+Information: BOARD turn 9 (Dominic) | peen | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Land Tax
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (269)
+Add To Stack: Dominic cast Mind Stone
+Zone Change: Mind Stone (233) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (peen)
+Information: BOARD turn 10 (peen) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (peen) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (peen) | Dominic | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Smothering Tithe(4); Swamp(land); Plains(land); Plains(land)
+Information: BOARD turn 10 (peen) | peen | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: peen's Upkeep step
+Discard: Dominic discards Linvala, Keeper of Silence (223).
+Phase: peen's Draw step
+Phase: peen's Main phase, precombat
+Land: peen played Plains (398)
+Add To Stack: peen cast Farseek
+Zone Change: Plains (394) was put onto the Battlefield under peen.
+Add To Stack: peen cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (349) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 11 (Derand)
+Information: BOARD turn 11 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Dominic | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Smothering Tithe(4); Swamp(land); Plains(land); Plains(land)
+Information: BOARD turn 11 (Derand) | peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Riverglide Pathway (93)
+Add To Stack: Derand cast Whispersilk Cloak
+Zone Change: Whispersilk Cloak (23) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 12 (Alec)
+Information: BOARD turn 12 (Alec) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Dominic | life 40 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Smothering Tithe(4); Swamp(land); Plains(land); Plains(land)
+Information: BOARD turn 12 (Alec) | peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (180)
+Add To Stack: Alec cast Commander's Sphere
+Zone Change: Commander's Sphere (118) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Smothering Tithe(4); Swamp(land); Plains(land); Plains(land)
+Information: BOARD turn 13 (Dominic) | peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Land Tax
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (278)
+Add To Stack: Dominic cast Smothering Tithe
+Zone Change: Smothering Tithe (214) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (peen)
+Information: BOARD turn 14 (peen) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (peen) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (peen) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 14 (peen) | peen | life 40 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: peen's Upkeep step
+Discard: Dominic discards Gisela, the Broken Blade (213).
+Phase: peen's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (406) was put onto the Battlefield under Dominic.
+Phase: peen's Main phase, precombat
+Add To Stack: peen cast Rin and Seri, Inseparable
+Zone Change: Rin and Seri, Inseparable (403) was put onto the Battlefield under peen.
+Add To Stack: peen activated Swiftfoot Boots targeting [Rin and Seri, Inseparable (403)]
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 15 (Derand)
+Information: BOARD turn 15 (Derand) | Derand | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 15 (Derand) | peen | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (408) was put onto the Battlefield under Dominic.
+Phase: Derand's Main phase, precombat
+Land: Derand played Needleverge Pathway (38)
+Add To Stack: Derand cast Sword of Feast and Famine
+Zone Change: Sword of Feast and Famine (91) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 16 (Alec)
+Information: BOARD turn 16 (Alec) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Alec | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Dominic | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 16 (Alec) | peen | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (410) was put onto the Battlefield under Dominic.
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Kassandra, Eagle Bearer
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Zone Change: Kassandra, Eagle Bearer (108) was put onto the Battlefield under Alec.
+Zone Change: The Spear of Leonidas (103) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec activated Goldvein Pick targeting [Kassandra, Eagle Bearer (108)]
+Phase: Alec's End step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 3/3[Goldvein Pick] | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 17 (Dominic) | peen | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Land Tax
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (272)
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Add To Stack: Derand cast Mana Drain
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (408) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (410) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Nim Deathmantle
+Zone Change: Nim Deathmantle (203) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (peen)
+Information: BOARD turn 18 (peen) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (peen) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 3/3[Goldvein Pick] | hand cards: hidden
+Information: BOARD turn 18 (peen) | Dominic | life 40 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 18 (peen) | peen | life 40 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Rin and Seri, Inseparable 4/4[Swiftfoot Boots] | hand cards: hidden
+Phase: peen's Upkeep step
+Discard: Dominic discards Plains (273).
+Phase: peen's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (412) was put onto the Battlefield under Dominic.
+Phase: peen's Main phase, precombat
+Land: peen played Forest (327)
+Add To Stack: peen cast Release the Dogs
+Zone Change: Dog Token (414) was put onto the Battlefield under peen.
+Zone Change: Dog Token (415) was put onto the Battlefield under peen.
+Zone Change: Dog Token (416) was put onto the Battlefield under peen.
+Zone Change: Dog Token (417) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Combat: peen assigned Rin and Seri, Inseparable (403) to attack Dominic.
+Phase: peen's First Strike Damage Step
+Combat: Dominic didn't block Rin and Seri, Inseparable (403).
+Phase: peen's Combat Damage Step
+Life: Life: Dominic 40 > 36
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 19 (Derand)
+Information: BOARD turn 19 (Derand) | Derand | life 40 | hand 3 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 3/3[Goldvein Pick] | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Dominic | life 36 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 19 (Derand) | peen | life 40 | hand 4 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (4 untapped): Rin and Seri, Inseparable 4/4*[Swiftfoot Boots]; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (419) was put onto the Battlefield under Dominic.
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand triggered Mana Drain
+Add To Stack: Derand cast Nazgûl Battle-Mace
+Zone Change: Nazgûl Battle-Mace (36) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Whispersilk Cloak targeting [Captain America, First Avenger (100)]
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (36)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 20 (Alec)
+Information: BOARD turn 20 (Alec) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Whispersilk Cloak,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 20 (Alec) | Alec | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Kassandra, Eagle Bearer 3/3[Goldvein Pick] | hand cards: hidden
+Information: BOARD turn 20 (Alec) | Dominic | life 36 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 20 (Alec) | peen | life 40 | hand 4 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (4 untapped): Rin and Seri, Inseparable 4/4*[Swiftfoot Boots]; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (421) was put onto the Battlefield under Dominic.
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (179)
+Add To Stack: Alec activated The Spear of Leonidas targeting [Kassandra, Eagle Bearer (108)]
+Add To Stack: Alec cast Caduceus, Staff of Hermes
+Zone Change: Caduceus, Staff of Hermes (116) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered The Spear of Leonidas
+Zone Change: Phobos (423) was put onto the Battlefield under Alec.
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Kassandra, Eagle Bearer (108) to attack Dominic.
+Phase: Alec's Combat Damage Step
+Add To Stack: Alec triggered Kassandra, Eagle Bearer
+Combat: Dominic didn't block Kassandra, Eagle Bearer (108).
+Life: Life: Dominic 36 > 33
+Add To Stack: Alec triggered Goldvein Pick
+Zone Change: Treasure Token (425) was put onto the Battlefield under Alec.
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (427) was put onto the Battlefield under Dominic.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Zone Change: Treasure Token (425) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Reconnaissance
+Zone Change: Reconnaissance (156) was put onto the Battlefield under Alec.
+Phase: Alec's End step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Whispersilk Cloak,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Alec | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kassandra, Eagle Bearer 3/3*[Goldvein Pick,The Spear of Leonidas]; Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 33 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Mazemind Tome(2); Swiftfoot Boots(2); Swamp(land); Plains(land); Plains(land); Island(land)
+Information: BOARD turn 21 (Dominic) | peen | life 40 | hand 4 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (4 untapped): Rin and Seri, Inseparable 4/4*[Swiftfoot Boots]; Dog Token 1/1 x4 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Land Tax
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (291)
+Zone Change: Treasure Token (427) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Seluma, Light of Aysen
+Zone Change: Seluma, Light of Aysen (302) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (419) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (421) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (249) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (412) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic activated Swiftfoot Boots targeting [Seluma, Light of Aysen (302)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Seluma, Light of Aysen (302) to attack Alec.
+Phase: Dominic's First Strike Damage Step
+Combat: Alec didn't block Seluma, Light of Aysen (302).
+Phase: Dominic's Combat Damage Step
+Life: Life: Alec 40 > 36
+Add To Stack: Dominic triggered Seluma, Light of Aysen targeting [Angel of the Ruins (210)]
+Zone Change: Angel of the Ruins (210) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Angel of the Ruins targeting [Caduceus, Staff of Hermes (116), The Spear of Leonidas (103)]
+Zone Change: The Spear of Leonidas (103) was put into another zone from Battlefield.
+Zone Change: Caduceus, Staff of Hermes (116) was put into another zone from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (peen)
+Information: BOARD turn 22 (peen) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Whispersilk Cloak,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 22 (peen) | Alec | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kassandra, Eagle Bearer 3/3*[Goldvein Pick]; Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 22 (peen) | Dominic | life 33 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*[Swiftfoot Boots]; Angel of the Ruins 5/7 | hand cards: Plains(land); Mazemind Tome(2); Swamp(land); Plains(land); Plains(land); Island(land); Gleaming Splendor(2)
+Information: BOARD turn 22 (peen) | peen | life 40 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 5 (5 untapped): Rin and Seri, Inseparable 4/4[Swiftfoot Boots]; Dog Token 1/1 x4 | hand cards: hidden
+Phase: peen's Upkeep step
+Discard: Dominic discards Plains (290).
+Phase: peen's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (429) was put onto the Battlefield under Dominic.
+Phase: peen's Main phase, precombat
+Land: peen played Forest (334)
+Add To Stack: peen triggered Rin and Seri, Inseparable
+Add To Stack: peen cast Prideful Parent
+Zone Change: Dog Token (431) was put onto the Battlefield under peen.
+Add To Stack: peen triggered Prideful Parent
+Zone Change: Prideful Parent (375) was put onto the Battlefield under peen.
+Zone Change: Cat Token (433) was put onto the Battlefield under peen.
+Add To Stack: peen cast Patchwork Banner
+Zone Change: Patchwork Banner (380) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Phase: peen's Declare Blockers Step
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 23 (Derand)
+Information: BOARD turn 23 (Derand) | Derand | life 40 | hand 3 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4[Whispersilk Cloak,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Alec | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Kassandra, Eagle Bearer 3/3*[Goldvein Pick]; Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Dominic | life 33 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*[Swiftfoot Boots]; Angel of the Ruins 5/7 | hand cards: Plains(land); Mazemind Tome(2); Swamp(land); Plains(land); Plains(land); Island(land); Gleaming Splendor(2)
+Information: BOARD turn 23 (Derand) | peen | life 40 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 8 (8 untapped): Rin and Seri, Inseparable 5/5[Swiftfoot Boots]; Dog Token 2/2 x5; Prideful Parent 2/2; Cat Token 1/1 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (435) was put onto the Battlefield under Dominic.
+Phase: Derand's Main phase, precombat
+Life: Life: Derand 40 > 39
+Add To Stack: Derand cast Puresteel Paladin
+Zone Change: Puresteel Paladin (24) was put onto the Battlefield under Derand.
+Land: Derand played Command Tower (26)
+Add To Stack: Derand cast Sword of Forge and Frontier
+Add To Stack: Derand triggered Puresteel Paladin
+Zone Change: Sword of Forge and Frontier (35) was put onto the Battlefield under Derand.
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (437) was put onto the Battlefield under Dominic.
+Add To Stack: Derand activated Sword of Forge and Frontier targeting [Puresteel Paladin (24)]
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Sword of Feast and Famine (91)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Zone Change: Dog Token (431) was put into nowhere (token) from Battlefield.
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack peen.
+Phase: Derand's First Strike Damage Step
+Combat: peen didn't block Captain America, First Avenger (100).
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Sword of Feast and Famine
+Life: Life: peen 40 > 34
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand activated Nazgûl Battle-Mace targeting [Puresteel Paladin (24)]
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 24 (Alec)
+Information: BOARD turn 24 (Alec) | Derand | life 39 | hand 2 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 6/6*[Whispersilk Cloak,Sword of Feast and Famine]; Puresteel Paladin 4/4[Nazgûl Battle-Mace,Sword of Forge and Frontier] | hand cards: hidden
+Information: BOARD turn 24 (Alec) | Alec | life 36 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Kassandra, Eagle Bearer 3/3[Goldvein Pick]; Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 24 (Alec) | Dominic | life 33 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*[Swiftfoot Boots]; Angel of the Ruins 5/7 | hand cards: Plains(land); Mazemind Tome(2); Swamp(land); Plains(land); Plains(land); Island(land); Gleaming Splendor(2)
+Information: BOARD turn 24 (Alec) | peen | life 34 | hand 1 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Rin and Seri, Inseparable 5/5[Swiftfoot Boots]; Dog Token 2/2 x4; Prideful Parent 2/2; Cat Token 1/1 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (439) was put onto the Battlefield under Dominic.
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (187)
+Add To Stack: Alec cast Vandalblast
+Add To Stack: Derand activated Captain America, First Avenger targeting [Kassandra, Eagle Bearer (108)]
+Zone Change: Kassandra, Eagle Bearer (108) was put into another zone from Battlefield.
+Zone Change: Treasure Token (406) was put into nowhere (token) from Battlefield.
+Zone Change: Nim Deathmantle (203) was put into another zone from Battlefield.
+Zone Change: Angel of the Ruins (210) was put into another zone from Battlefield.
+Zone Change: Mind Stone (233) was put into another zone from Battlefield.
+Zone Change: Swiftfoot Boots (249) was put into another zone from Battlefield.
+Zone Change: Talisman of Conviction (11) was put into another zone from Battlefield.
+Zone Change: Whispersilk Cloak (23) was put into another zone from Battlefield.
+Zone Change: Treasure Token (429) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (435) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (437) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (439) was put into nowhere (token) from Battlefield.
+Zone Change: Swiftfoot Boots (349) was put into another zone from Battlefield.
+Zone Change: Patchwork Banner (380) was put into another zone from Battlefield.
+Zone Change: Sword of Forge and Frontier (35) was put into another zone from Battlefield.
+Zone Change: Nazgûl Battle-Mace (36) was put into another zone from Battlefield.
+Zone Change: Sword of Feast and Famine (91) was put into another zone from Battlefield.
+Add To Stack: Dominic triggered Nim Deathmantle
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 39 | hand 2 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 4/4*; Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Alec | life 36 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Dominic | life 33 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Seluma, Light of Aysen 4/4 | hand cards: Plains(land); Mazemind Tome(2); Swamp(land); Plains(land); Plains(land); Island(land); Gleaming Splendor(2)
+Information: BOARD turn 25 (Dominic) | peen | life 34 | hand 1 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Rin and Seri, Inseparable 4/4; Dog Token 1/1 x4; Prideful Parent 2/2; Cat Token 1/1 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Land Tax
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Seluma, Light of Aysen (302) to attack peen.
+Phase: Dominic's First Strike Damage Step
+Combat: peen didn't block Seluma, Light of Aysen (302).
+Phase: Dominic's Combat Damage Step
+Life: Life: peen 34 > 30
+Add To Stack: Dominic triggered Seluma, Light of Aysen targeting [Linvala, Keeper of Silence (223)]
+Zone Change: Linvala, Keeper of Silence (223) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic played Plains (277)
+Add To Stack: Dominic cast Gleaming Splendor
+Zone Change: Gleaming Splendor (248) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Gleaming Splendor targeting [peen, Alec]
+Add To Stack: Dominic triggered Smothering Tithe
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (441) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (443) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (peen)
+Information: BOARD turn 26 (peen) | Derand | life 39 | hand 2 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 4/4*; Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 26 (peen) | Alec | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 26 (peen) | Dominic | life 33 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Seluma, Light of Aysen 4/4*; Linvala, Keeper of Silence 3/4 | hand cards: Plains(land); Mazemind Tome(2); Swamp(land); Plains(land); Plains(land); Island(land); Plains(land)
+Information: BOARD turn 26 (peen) | peen | life 30 | hand 2 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Rin and Seri, Inseparable 4/4; Dog Token 1/1 x4; Prideful Parent 2/2; Cat Token 1/1 | hand cards: hidden
+Phase: peen's Upkeep step
+Discard: Dominic discards Lyra Dawnbringer (218).
+Phase: peen's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (445) was put onto the Battlefield under Dominic.
+Phase: peen's Main phase, precombat
+Land: peen played Forest (326)
+Add To Stack: peen cast Beastmaster Ascension
+Zone Change: Beastmaster Ascension (339) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Zone Change: Treasure Token (443) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (445) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic activated Gleaming Splendor targeting [Dominic, peen]
+Add To Stack: Dominic triggered Gleaming Splendor
+Add To Stack: Dominic triggered Smothering Tithe
+Zone Change: Treasure Token (447) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (449) was put onto the Battlefield under Dominic.
+Phase: peen's Declare Attackers Step
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Phase: peen's Declare Blockers Step
+Combat: peen assigned Dog Token (416), Dog Token (417), Cat Token (433), Rin and Seri, Inseparable (403), Prideful Parent (375), Dog Token (414), Dog Token (415) to attack Dominic.
+Phase: peen's First Strike Damage Step
+Combat: Dominic didn't block Dog Token (416).
+Combat: Dominic didn't block Dog Token (417).
+Combat: Dominic didn't block Cat Token (433).
+Combat: Dominic assigned Linvala, Keeper of Silence (223) to block Rin and Seri, Inseparable (403).
+Combat: Dominic didn't block Prideful Parent (375).
+Combat: Dominic didn't block Dog Token (414).
+Combat: Dominic didn't block Dog Token (415).
+Phase: peen's Combat Damage Step
+Life: Life: Dominic 33 > -4
+Zone Change: Plains (269) was put into None from Battlefield.
+Zone Change: Plains (272) was put into None from Battlefield.
+Zone Change: Plains (276) was put into another zone from Battlefield.
+Zone Change: Plains (277) was put into None from Battlefield.
+Zone Change: Plains (278) was put into another zone from Battlefield.
+Zone Change: Plains (291) was put into None from Battlefield.
+Zone Change: Seluma, Light of Aysen (302) was put into another zone from Battlefield.
+Zone Change: Treasure Token (441) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (447) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (449) was put into nowhere (token) from Battlefield.
+Zone Change: Smothering Tithe (214) was put into another zone from Battlefield.
+Zone Change: Land Tax (221) was put into another zone from Battlefield.
+Zone Change: Linvala, Keeper of Silence (223) was put into another zone from Battlefield.
+Zone Change: Gleaming Splendor (248) was put into another zone from Battlefield.
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 27 (Derand)
+Information: BOARD turn 27 (Derand) | Derand | life 39 | hand 2 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4; Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Alec | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Dominic | out
+Information: BOARD turn 27 (Derand) | peen | life 30 | hand 2 | lands 8 (5 untapped) | open mana 5 | commander Battlefield | creatures 7 (1 untapped): Rin and Seri, Inseparable 9/9*; Dog Token 6/6* x4; Prideful Parent 7/7; Cat Token 6/6* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (82)
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand cast Akroma's Will
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100), Puresteel Paladin (24) to attack peen.
+Phase: Derand's First Strike Damage Step
+Combat: peen didn't block Captain America, First Avenger (100).
+Combat: peen didn't block Puresteel Paladin (24).
+Life: Life: Derand 39 > 45
+Life: Life: peen 30 > 24
+Phase: Derand's Combat Damage Step
+Life: Life: Derand 45 > 51
+Life: Life: peen 24 > 18
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 28 (Alec)
+Information: BOARD turn 28 (Alec) | Derand | life 51 | hand 1 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (0 untapped): Captain America, First Avenger 4/4*; Puresteel Paladin 2/2* | hand cards: hidden
+Information: BOARD turn 28 (Alec) | Alec | life 36 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Phobos 3/2 | hand cards: hidden
+Information: BOARD turn 28 (Alec) | Dominic | out
+Information: BOARD turn 28 (Alec) | peen | life 18 | hand 2 | lands 8 (5 untapped) | open mana 5 | commander Battlefield | creatures 7 (1 untapped): Rin and Seri, Inseparable 9/9*; Dog Token 6/6* x4; Prideful Parent 7/7; Cat Token 6/6* | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Ancient Copper Dragon
+Zone Change: Ancient Copper Dragon (113) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 29 (peen)
+Information: BOARD turn 29 (peen) | Derand | life 51 | hand 1 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (0 untapped): Captain America, First Avenger 4/4*; Puresteel Paladin 2/2* | hand cards: hidden
+Information: BOARD turn 29 (peen) | Alec | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Phobos 3/2; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 29 (peen) | Dominic | out
+Information: BOARD turn 29 (peen) | peen | life 18 | hand 2 | lands 8 (8 untapped) | open mana 8 | commander Battlefield | creatures 7 (7 untapped): Rin and Seri, Inseparable 9/9; Dog Token 6/6 x4; Prideful Parent 7/7; Cat Token 6/6 | hand cards: hidden
+Phase: peen's Upkeep step
+Phase: peen's Draw step
+Phase: peen's Main phase, precombat
+Add To Stack: peen triggered Rin and Seri, Inseparable
+Add To Stack: peen cast Pridemalkin
+Zone Change: Dog Token (451) was put onto the Battlefield under peen.
+Zone Change: Pridemalkin (399) was put onto the Battlefield under peen.
+Add To Stack: peen triggered Pridemalkin targeting [Prideful Parent (375)]
+Add To Stack: peen triggered Temple of Triumph
+Zone Change: Temple of Triumph (377) was put onto the Battlefield under peen.
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Phase: peen's Declare Blockers Step
+Combat: peen assigned Dog Token (416), Dog Token (417), Cat Token (433), Rin and Seri, Inseparable (403), Prideful Parent (375), Dog Token (414), Dog Token (415) to attack Derand.
+Phase: peen's Combat Damage Step
+Combat: Derand didn't block Dog Token (416).
+Combat: Derand didn't block Dog Token (417).
+Combat: Derand didn't block Cat Token (433).
+Combat: Derand didn't block Rin and Seri, Inseparable (403).
+Combat: Derand didn't block Prideful Parent (375).
+Combat: Derand didn't block Dog Token (414).
+Combat: Derand didn't block Dog Token (415).
+Life: Life: Derand 51 > 4
+Phase: peen's End of Combat Step
+Phase: peen's Main phase, postcombat
+Phase: peen's End step
+Turn: Turn 30 (Derand)
+Information: BOARD turn 30 (Derand) | Derand | life 4 | hand 1 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Captain America, First Avenger 4/4; Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 30 (Derand) | Alec | life 36 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Phobos 3/2; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 30 (Derand) | Dominic | out
+Information: BOARD turn 30 (Derand) | peen | life 18 | hand 1 | lands 9 (5 untapped) | open mana 5 | commander Battlefield | creatures 9 (3 untapped): Rin and Seri, Inseparable 9/9*; Dog Token 6/6* x4; Prideful Parent 8/8; Cat Token 6/6*; Dog Token 6/6; Pridemalkin 7/6 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mistgate Pathway (44)
+Add To Stack: Derand cast Danitha Capashen, Paragon
+Zone Change: Danitha Capashen, Paragon (99) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 31 (Alec)
+Information: BOARD turn 31 (Alec) | Derand | life 4 | hand 0 | lands 7 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Captain America, First Avenger 4/4; Puresteel Paladin 2/2; Danitha Capashen, Paragon 2/2 | hand cards: hidden
+Information: BOARD turn 31 (Alec) | Alec | life 36 | hand 4 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Phobos 3/2; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 31 (Alec) | Dominic | out
+Information: BOARD turn 31 (Alec) | peen | life 18 | hand 1 | lands 9 (5 untapped) | open mana 5 | commander Battlefield | creatures 9 (3 untapped): Rin and Seri, Inseparable 9/9*; Dog Token 6/6* x4; Prideful Parent 8/8; Cat Token 6/6*; Dog Token 6/6; Pridemalkin 7/6 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (182)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Ancient Copper Dragon (113) to attack peen.
+Phase: Alec's Combat Damage Step
+Add To Stack: Alec triggered Ancient Copper Dragon
+Combat: peen didn't block Ancient Copper Dragon (113).
+Life: Life: peen 18 > 12
+Zone Change: Treasure Token (453) was put onto the Battlefield under Alec.
+Zone Change: Treasure Token (454) was put onto the Battlefield under Alec.
+Phase: Alec's End of Combat Step
+Add To Stack: Alec activated Reconnaissance targeting [Ancient Copper Dragon (113)]
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec cast Slash the Ranks
+Add To Stack: peen cast Boros Charm
+Zone Change: Puresteel Paladin (24) was put into another zone from Battlefield.
+Zone Change: Phobos (423) was put into nowhere (token) from Battlefield.
+Zone Change: Danitha Capashen, Paragon (99) was put into another zone from Battlefield.
+Zone Change: Ancient Copper Dragon (113) was put into another zone from Battlefield.
+Phase: Alec's End step
+Turn: Turn 32 (peen)
+Information: BOARD turn 32 (peen) | Derand | life 4 | hand 0 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: hidden
+Information: BOARD turn 32 (peen) | Alec | life 36 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 32 (peen) | Dominic | out
+Information: BOARD turn 32 (peen) | peen | life 12 | hand 0 | lands 9 (9 untapped) | open mana 9 | commander Battlefield | creatures 9 (9 untapped): Rin and Seri, Inseparable 9/9; Dog Token 6/6 x5; Prideful Parent 8/8; Cat Token 6/6; Pridemalkin 7/6 | hand cards: hidden
+Phase: peen's Upkeep step
+Phase: peen's Draw step
+Phase: peen's Main phase, precombat
+Phase: peen's Beginning of Combat Step
+Phase: peen's Declare Attackers Step
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Add To Stack: peen triggered Beastmaster Ascension
+Phase: peen's Declare Blockers Step
+Combat: peen assigned Prideful Parent (375) to attack Derand.
+Combat: peen assigned Dog Token (416), Dog Token (417), Cat Token (433), Rin and Seri, Inseparable (403), Dog Token (451), Dog Token (414), Pridemalkin (399), Dog Token (415) to attack Alec.
+Phase: peen's First Strike Damage Step
+Combat: Alec didn't block Dog Token (416).
+Combat: Alec didn't block Dog Token (417).
+Combat: Alec didn't block Cat Token (433).
+Combat: Alec didn't block Rin and Seri, Inseparable (403).
+Combat: Alec didn't block Dog Token (451).
+Combat: Derand assigned Captain America, First Avenger (100) to block Prideful Parent (375).
+Combat: Alec didn't block Dog Token (414).
+Combat: Alec didn't block Pridemalkin (399).
+Combat: Alec didn't block Dog Token (415).
+Phase: peen's Combat Damage Step
+Zone Change: Command Tower (26) was put into another zone from Battlefield.
+Zone Change: Island (28) was put into another zone from Battlefield.
+Zone Change: Needleverge Pathway (38) was put into another zone from Battlefield.
+Zone Change: Mistgate Pathway (44) was put into another zone from Battlefield.
+Zone Change: Furycalm Snarl (55) was put into another zone from Battlefield.
+Zone Change: Plains (82) was put into another zone from Battlefield.
+Zone Change: Riverglide Pathway (93) was put into another zone from Battlefield.
+Zone Change: Captain America, First Avenger (100) was put into another zone from Battlefield.
+Life: Life: Alec 36 > -16
+
+Game Result: peen has won

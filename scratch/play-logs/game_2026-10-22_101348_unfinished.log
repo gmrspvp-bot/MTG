@@ -1,0 +1,50 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Enoona (AI) deck=Mr House v4
+Player: Alain (AI) deck=Alec
+Player: Austin (AI) deck=Claudes Neyali
+Mulligan: Austin has mulliganed down to 7 cards.
+Mulligan: Enoona has mulliganed down to 7 cards.
+Mulligan: Alain has mulliganed down to 7 cards.
+Mulligan: Austin has mulliganed down to 6 cards.
+Mulligan: Enoona has mulliganed down to 6 cards.
+Mulligan: Alain has mulliganed down to 6 cards.
+Mulligan: Alain has mulliganed down to 5 cards.
+Mulligan: Austin has kept a hand of 6 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Enoona has kept a hand of 6 cards
+Mulligan: Alain has kept a hand of 5 cards
+Turn: Turn 1 (Austin)
+Information: BOARD turn 1 (Austin) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Olivia, Crimson Bride(6); Mondrak, Glory Dominus(4); Demonic Tutor(2); Path of Ancestry(land); Desolate Mire(land); Dragonskull Summit(land); Plains(land)
+Information: BOARD turn 1 (Austin) | Enoona | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Caves of Koilos(land); Wyll, Blade of Frontiers(2); Mountain(land); General's Enforcer(2); Unwinding Clock(4)
+Information: BOARD turn 1 (Austin) | Alain | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Command Tower(land); Swamp(land); Elas il-Kor, Sadistic Pilgrim(2); Anguished Unmaking(3)
+Information: BOARD turn 1 (Austin) | Austin | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Spear of Heliod(3); Ocelot Pride(1); Idyllic Tutor(3); Plains(land); Flowering of the White Tree(2); Plains(land)
+Phase: Austin's Untap step
+Phase: Austin's Upkeep step
+Phase: Austin's Draw step
+Phase: Austin's Main phase, precombat
+Land: Austin played Plains (405)
+Phase: Austin's Beginning of Combat Step
+Phase: Austin's Declare Attackers Step
+Phase: Austin's Declare Blockers Step
+Phase: Austin's First Strike Damage Step
+Phase: Austin's Combat Damage Step
+Phase: Austin's End of Combat Step
+Phase: Austin's Main phase, postcombat
+Mana: Plains (405) - {T}: Add {W}.
+Add To Stack: Austin cast Ocelot Pride
+Information: BOARD cast | Ocelot Pride (mv 1) by Austin | open mana: Dominic 0, Enoona 0, Alain 0
+Resolve Stack: Ocelot Pride - Creature 1 / 1
+Phase: Austin's End step
+Phase: Austin's Cleanup step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Olivia, Crimson Bride(6); Mondrak, Glory Dominus(4); Demonic Tutor(2); Path of Ancestry(land); Desolate Mire(land); Dragonskull Summit(land); Plains(land)
+Information: BOARD turn 2 (Dominic) | Enoona | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Exsanguinate(2); Caves of Koilos(land); Wyll, Blade of Frontiers(2); Mountain(land); General's Enforcer(2); Unwinding Clock(4)
+Information: BOARD turn 2 (Dominic) | Alain | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bastion of Remembrance(3); Command Tower(land); Swamp(land); Elas il-Kor, Sadistic Pilgrim(2); Anguished Unmaking(3)
+Information: BOARD turn 2 (Dominic) | Austin | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Ocelot Pride 1/1 | hand cards: Spear of Heliod(3); Idyllic Tutor(3); Flowering of the White Tree(2); Plains(land); Wind-Scarred Crag(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+
+Game Result: unfinished (Forge closed mid-game)

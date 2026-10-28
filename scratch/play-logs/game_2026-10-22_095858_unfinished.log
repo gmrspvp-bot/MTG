@@ -1,0 +1,897 @@
+Player: Dominic (HUMAN) deck=Olivia
+Player: Afflon (AI) deck=Mr House v4
+Player: Connor (AI) deck=Alec
+Player: Ledale (AI) deck=Claudes Neyali
+Mulligan: Connor has mulliganed down to 7 cards.
+Mulligan: Ledale has mulliganed down to 7 cards.
+Mulligan: Ledale has mulliganed down to 6 cards.
+Mulligan: Connor has kept a hand of 7 cards
+Mulligan: Ledale has kept a hand of 6 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Afflon has kept a hand of 7 cards
+Turn: Turn 1 (Connor)
+Information: BOARD turn 1 (Connor) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Nomad Outpost(land); Smothering Tithe(4); Swamp(land)
+Information: BOARD turn 1 (Connor) | Afflon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Mountain(land); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3)
+Information: BOARD turn 1 (Connor) | Connor | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Swamp(land); Plains(land); Plains(land); Magister of Worth(6)
+Information: BOARD turn 1 (Connor) | Ledale | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Soul Warden(1); Dawn's Truce(2); Plains(land); Plains(land); Idyllic Tutor(3)
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Phase: Connor's Main phase, precombat
+Land: Connor played Swamp (266)
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 2 (Ledale)
+Information: BOARD turn 2 (Ledale) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Nomad Outpost(land); Smothering Tithe(4); Swamp(land)
+Information: BOARD turn 2 (Ledale) | Afflon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Mountain(land); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3)
+Information: BOARD turn 2 (Ledale) | Connor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9)
+Information: BOARD turn 2 (Ledale) | Ledale | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Daxos, Blessed by the Sun(2); Soul Warden(1); Dawn's Truce(2); Plains(land); Plains(land); Idyllic Tutor(3)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Plains (401)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Plains (401) - {T}: Add {W}.
+Add To Stack: Ledale cast Soul Warden
+Information: BOARD cast | Soul Warden (mv 1) by Ledale | open mana: Dominic 0, Afflon 0, Connor 1
+Resolve Stack: Soul Warden - Creature 1 / 1
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 3 (Dominic)
+Information: BOARD turn 3 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Nomad Outpost(land); Smothering Tithe(4); Swamp(land)
+Information: BOARD turn 3 (Dominic) | Afflon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Mountain(land); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3)
+Information: BOARD turn 3 (Dominic) | Connor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9)
+Information: BOARD turn 3 (Dominic) | Ledale | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: Daxos, Blessed by the Sun(2); Dawn's Truce(2); Plains(land); Idyllic Tutor(3); Cathars' Crusade(5)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Nomad Outpost enters tapped.
+Land: Dominic played Nomad Outpost (7)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 4 (Afflon)
+Information: BOARD turn 4 (Afflon) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Swamp(land); Isolated Chapel(land)
+Information: BOARD turn 4 (Afflon) | Afflon | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Mountain(land); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3)
+Information: BOARD turn 4 (Afflon) | Connor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9)
+Information: BOARD turn 4 (Afflon) | Ledale | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: Daxos, Blessed by the Sun(2); Dawn's Truce(2); Plains(land); Idyllic Tutor(3); Cathars' Crusade(5)
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Mountain (189)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 5 (Connor)
+Information: BOARD turn 5 (Connor) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Swamp(land); Isolated Chapel(land)
+Information: BOARD turn 5 (Connor) | Afflon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land)
+Information: BOARD turn 5 (Connor) | Connor | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9)
+Information: BOARD turn 5 (Connor) | Ledale | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: Daxos, Blessed by the Sun(2); Dawn's Truce(2); Plains(land); Idyllic Tutor(3); Cathars' Crusade(5)
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Phase: Connor's Main phase, precombat
+Land: Connor played Plains (303)
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 6 (Ledale)
+Information: BOARD turn 6 (Ledale) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Swamp(land); Isolated Chapel(land)
+Information: BOARD turn 6 (Ledale) | Afflon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land)
+Information: BOARD turn 6 (Ledale) | Connor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3)
+Information: BOARD turn 6 (Ledale) | Ledale | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Soul Warden 1/1 | hand cards: Daxos, Blessed by the Sun(2); Dawn's Truce(2); Plains(land); Idyllic Tutor(3); Cathars' Crusade(5)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Plains (398)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Combat: Ledale assigned Soul Warden (359) to attack Dominic.
+Information: BOARD attack | Ledale -> Dominic | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Ledale's Declare Blockers Step
+Combat: Dominic didn't block Soul Warden (359).
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Damage: Soul Warden (359) deals 1 combat damage to Dominic.
+Life: Life: Dominic 40 > 39
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Plains (401) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Add To Stack: Ledale cast Daxos, Blessed by the Sun
+Information: BOARD cast | Daxos, Blessed by the Sun (mv 2) by Ledale | open mana: Dominic 0, Afflon 1, Connor 2
+Resolve Stack: Daxos, Blessed by the Sun - Creature 2 / *
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 40 > 41
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Daxos, Blessed by the Sun (327)]
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 7 (Dominic)
+Information: BOARD turn 7 (Dominic) | Dominic | life 39 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Signet(2); Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Swamp(land); Isolated Chapel(land)
+Information: BOARD turn 7 (Dominic) | Afflon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land)
+Information: BOARD turn 7 (Dominic) | Connor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3)
+Information: BOARD turn 7 (Dominic) | Ledale | life 41 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3 | hand cards: Dawn's Truce(2); Idyllic Tutor(3); Cathars' Crusade(5); Goblin Bombardment(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (58)
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Swamp (58) - {T}: Add {B}.
+Add To Stack: Dominic cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Dominic | open mana: Afflon 1, Connor 2, Ledale 0
+Resolve Stack: Arcane Signet
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 8 (Afflon)
+Information: BOARD turn 8 (Afflon) | Dominic | life 39 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Isolated Chapel(land); Painful Truths(3)
+Information: BOARD turn 8 (Afflon) | Afflon | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Plains(land); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land)
+Information: BOARD turn 8 (Afflon) | Connor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3)
+Information: BOARD turn 8 (Afflon) | Ledale | life 41 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3 | hand cards: Dawn's Truce(2); Idyllic Tutor(3); Cathars' Crusade(5); Goblin Bombardment(2)
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Plains (193)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 9 (Connor)
+Information: BOARD turn 9 (Connor) | Dominic | life 39 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Isolated Chapel(land); Painful Truths(3)
+Information: BOARD turn 9 (Connor) | Afflon | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4)
+Information: BOARD turn 9 (Connor) | Connor | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Swamp(land); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3)
+Information: BOARD turn 9 (Connor) | Ledale | life 41 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3 | hand cards: Dawn's Truce(2); Idyllic Tutor(3); Cathars' Crusade(5); Goblin Bombardment(2)
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Phase: Connor's Main phase, precombat
+Land: Connor played Swamp (276)
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Swamp (276) - {T}: Add {B}.
+Add To Stack: Connor cast Athreos, God of Passage
+Information: BOARD cast | Athreos, God of Passage (mv 3) by Connor | open mana: Dominic 2, Afflon 2, Ledale 0
+Resolve Stack: Athreos, God of Passage - Creature 5 / 4
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 10 (Ledale)
+Information: BOARD turn 10 (Ledale) | Dominic | life 39 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Isolated Chapel(land); Painful Truths(3)
+Information: BOARD turn 10 (Ledale) | Afflon | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4)
+Information: BOARD turn 10 (Ledale) | Connor | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land)
+Information: BOARD turn 10 (Ledale) | Ledale | life 41 | hand 4 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3 | hand cards: Dawn's Truce(2); Idyllic Tutor(3); Cathars' Crusade(5); Goblin Bombardment(2)
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Phase: Ledale's Main phase, precombat
+Land: Ledale played Exotic Orchard (344)
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Combat: Ledale assigned Daxos, Blessed by the Sun (327) and Soul Warden (359) to attack Connor.
+Information: BOARD attack | Ledale -> Connor | attackers 2 (power 3) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Ledale's Declare Blockers Step
+Combat: Connor didn't block Daxos, Blessed by the Sun (327).
+Connor didn't block Soul Warden (359).
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Damage: Daxos, Blessed by the Sun (327) deals 2 combat damage to Connor.
+Damage: Soul Warden (359) deals 1 combat damage to Connor.
+Life: Life: Connor 40 > 37
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Plains (401) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Exotic Orchard (344) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Ledale cast Idyllic Tutor
+Information: BOARD cast | Idyllic Tutor (mv 3) by Ledale | open mana: Dominic 2, Afflon 2, Connor 0
+Resolve Stack: Idyllic Tutor (315) - Ledale searches their library for an enchantment card, reveals it, puts it into their hand, then shuffles.
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 11 (Dominic)
+Information: BOARD turn 11 (Dominic) | Dominic | life 39 | hand 6 | lands 2 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Smothering Tithe(4); Isolated Chapel(land); Painful Truths(3)
+Information: BOARD turn 11 (Dominic) | Afflon | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4)
+Information: BOARD turn 11 (Dominic) | Connor | life 37 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land)
+Information: BOARD turn 11 (Dominic) | Ledale | life 41 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Isolated Chapel enters tapped unless you control a Plains or a Swamp.
+Land: Dominic played Isolated Chapel (31)
+Mana: Isolated Chapel (31) - {T}: Add {W} or {B}.
+Mana: Swamp (58) - {T}: Add {B}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Smothering Tithe
+Information: BOARD cast | Smothering Tithe (mv 4) by Dominic | open mana: Afflon 2, Connor 0, Ledale 0
+Resolve Stack: Smothering Tithe
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 12 (Afflon)
+Information: BOARD turn 12 (Afflon) | Dominic | life 39 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Rugged Prairie(land)
+Information: BOARD turn 12 (Afflon) | Afflon | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4)
+Information: BOARD turn 12 (Afflon) | Connor | life 37 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land)
+Information: BOARD turn 12 (Afflon) | Ledale | life 41 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Afflon]
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Swamp (185)
+Mana: Plains (193) - {T}: Add {W}.
+Mana: Swamp (185) - {T}: Add {B}.
+Mana: Mountain (189) - {T}: Add {R}.
+Add To Stack: Afflon cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Afflon | open mana: Dominic 1, Connor 0, Ledale 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 41 > 42
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Mr. House, President and CEO (201)]
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 13 (Connor)
+Information: BOARD turn 13 (Connor) | Dominic | life 39 | hand 5 | lands 3 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Rugged Prairie(land)
+Information: BOARD turn 13 (Connor) | Afflon | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 13 (Connor) | Connor | life 37 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Fell the Profane(4); Grim Haruspex(3); Plains(land); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land)
+Information: BOARD turn 13 (Connor) | Ledale | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Soul Warden 1/1*; Daxos, Blessed by the Sun 2/3* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 13 | Soul Warden (Ledale) 35
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Connor]
+Phase: Connor's Main phase, precombat
+Land: Connor played Plains (302)
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Swamp (276) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Connor cast Fell the Profane targeting [Daxos, Blessed by the Sun (327)]
+Information: BOARD cast | Fell the Profane (mv 4) by Connor | open mana: Dominic 2, Afflon 0, Ledale 0
+Zone Change: Daxos, Blessed by the Sun (327) was put into Graveyard from Battlefield.
+Resolve Stack: Fell the Profane (233) - Destroy Daxos, Blessed by the Sun (327).
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 14 (Ledale)
+Information: BOARD turn 14 (Ledale) | Dominic | life 39 | hand 5 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Rugged Prairie(land)
+Information: BOARD turn 14 (Ledale) | Afflon | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 14 (Ledale) | Connor | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Grim Haruspex(3); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Hidden Courtyard(land)
+Information: BOARD turn 14 (Ledale) | Ledale | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Soul Warden 1/1* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 14 | Soul Warden (Ledale) 34
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Mana: Plains (401) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Exotic Orchard (344) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Ledale cast Spear of Heliod
+Information: BOARD cast | Spear of Heliod (mv 3) by Ledale | open mana: Dominic 3, Afflon 0, Connor 0
+Resolve Stack: Spear of Heliod
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Combat: Ledale assigned Soul Warden (359) to attack Dominic.
+Information: BOARD attack | Ledale -> Dominic | attackers 1 (power 2) | defender life 39 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Ledale's Declare Blockers Step
+Combat: Dominic didn't block Soul Warden (359).
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Damage: Soul Warden (359) deals 2 combat damage to Dominic.
+Life: Life: Dominic 39 > 37
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 15 (Dominic)
+Information: BOARD turn 15 (Dominic) | Dominic | life 37 | hand 5 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mistmeadow Skulk(2); Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Rugged Prairie(land)
+Information: BOARD turn 15 (Dominic) | Afflon | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 15 (Dominic) | Connor | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Grim Haruspex(3); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Hidden Courtyard(land)
+Information: BOARD turn 15 (Dominic) | Ledale | life 42 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 15 | Soul Warden (Ledale) 44; Smothering Tithe (Dominic) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rugged Prairie (47)
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Isolated Chapel (31) - {T}: Add {W} or {B}.
+Mana: Swamp (58) - {T}: Add {B}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Afflon 0, Connor 0, Ledale 0
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 42 > 43
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Olivia, Opulent Outlaw (100)]
+Zone Change: Treasure Token (425) was put into Graveyard from Battlefield.
+Mana: Treasure Token (425) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Rugged Prairie (47) - {T}: Add {C}.
+Add To Stack: Dominic cast Mistmeadow Skulk
+Information: BOARD cast | Mistmeadow Skulk (mv 2) by Dominic | open mana: Afflon 0, Connor 0, Ledale 0
+Resolve Stack: Mistmeadow Skulk - Creature 1 / 1
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 43 > 44
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Mistmeadow Skulk (61)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 16 (Afflon)
+Information: BOARD turn 16 (Afflon) | Dominic | life 37 | hand 4 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Olivia, Opulent Outlaw 3/3; Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Temple of Triumph(land)
+Information: BOARD turn 16 (Afflon) | Afflon | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Anguished Unmaking(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 16 (Afflon) | Connor | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Grim Haruspex(3); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Hidden Courtyard(land)
+Information: BOARD turn 16 (Afflon) | Ledale | life 44 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 16 | Soul Warden (Ledale) 71; Smothering Tithe (Dominic) 40
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Mana: Plains (193) - {T}: Add {W}.
+Mana: Swamp (185) - {T}: Add {B}.
+Mana: Mountain (189) - {T}: Add {R}.
+Add To Stack: Afflon cast Anguished Unmaking targeting [Olivia, Opulent Outlaw (100)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Afflon | open mana: Dominic 2, Connor 0, Ledale 0
+Zone Change: Olivia, Opulent Outlaw (100) was put into Exile from Battlefield.
+Life: Life: Afflon 40 > 37
+Resolve Stack: Anguished Unmaking (118) - Exile Olivia, Opulent Outlaw (100). Afflon loses 3 life.
+Phase: Afflon's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Afflon]
+Phase: Afflon's Main phase, precombat
+Replacement Effect: Haunted Ridge enters tapped unless you control two or more other lands.
+Land: Afflon played Haunted Ridge (186)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 17 (Connor)
+Information: BOARD turn 17 (Connor) | Dominic | life 37 | hand 4 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Temple of Triumph(land)
+Information: BOARD turn 17 (Connor) | Afflon | life 37 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 17 (Connor) | Connor | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Grim Haruspex(3); Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Hidden Courtyard(land)
+Information: BOARD turn 17 (Connor) | Ledale | life 44 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 17 | Soul Warden (Ledale) 68; Smothering Tithe (Dominic) 53
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Connor]
+Phase: Connor's Main phase, precombat
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Connor cast Grim Haruspex
+Information: BOARD cast | Grim Haruspex (mv 3) by Connor | open mana: Dominic 4, Afflon 3, Ledale 0
+Resolve Stack: Grim Haruspex - Creature 3 / 2
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 44 > 45
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Grim Haruspex (283)]
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Replacement Effect: Hidden Courtyard enters tapped.
+Land: Connor played Hidden Courtyard (240)
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 18 (Ledale)
+Information: BOARD turn 18 (Ledale) | Dominic | life 37 | hand 4 | lands 4 (0 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Temple of Triumph(land)
+Information: BOARD turn 18 (Ledale) | Afflon | life 37 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 18 (Ledale) | Connor | life 37 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Grim Haruspex 3/2 | hand cards: Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 18 (Ledale) | Ledale | life 45 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Goblin Bombardment(2); Overlord of the Mistmoors(7)
+Information: BOARD threat | turn 18 | Soul Warden (Ledale) 80; Smothering Tithe (Dominic) 65
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Combat: Ledale assigned Soul Warden (359) to attack Dominic.
+Information: BOARD attack | Ledale -> Dominic | attackers 1 (power 2) | defender life 37 | untapped creatures 1 (power 1): Mistmeadow Skulk 1/1 | open mana 5
+Phase: Ledale's Declare Blockers Step
+Combat: Dominic didn't block Soul Warden (359).
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Damage: Soul Warden (359) deals 2 combat damage to Dominic.
+Life: Life: Dominic 37 > 35
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Exotic Orchard (344) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (401) - {T}: Add {W}.
+Add To Stack: Ledale cast Goblin Bombardment
+Information: BOARD cast | Goblin Bombardment (mv 2) by Ledale | open mana: Dominic 5, Afflon 3, Connor 1
+Resolve Stack: Goblin Bombardment
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 19 (Dominic)
+Information: BOARD turn 19 (Dominic) | Dominic | life 35 | hand 4 | lands 4 (0 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Painful Truths(3); Temple of Triumph(land)
+Information: BOARD turn 19 (Dominic) | Afflon | life 37 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 19 (Dominic) | Connor | life 37 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Grim Haruspex 3/2 | hand cards: Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 19 (Dominic) | Ledale | life 45 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5)
+Information: BOARD threat | turn 19 | Soul Warden (Ledale) 88; Smothering Tithe (Dominic) 77
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Swamp (58) - {T}: Add {B}.
+Mana: Isolated Chapel (31) - {T}: Add {W} or {B}.
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Rugged Prairie (47) - {T}: Add {C}.
+Add To Stack: Dominic cast Dictate of Erebos
+Information: BOARD cast | Dictate of Erebos (mv 5) by Dominic | open mana: Afflon 3, Connor 1, Ledale 1
+Resolve Stack: Dictate of Erebos
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Dominic played Temple of Triumph (83)
+Add To Stack: Dominic triggered Temple of Triumph
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (83)]
+Zone Change: Treasure Token (436) was put into Graveyard from Battlefield.
+Mana: Treasure Token (436) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (433) was put into Graveyard from Battlefield.
+Mana: Treasure Token (433) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (430) was put into Graveyard from Battlefield.
+Mana: Treasure Token (430) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Painful Truths
+Information: BOARD cast | Painful Truths (mv 3) by Dominic | open mana: Afflon 3, Connor 1, Ledale 1
+Life: Life: Dominic 35 > 32
+Resolve Stack: Painful Truths (32) - Dominic draws three cards. Dominic loses 3 life.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 20 (Afflon)
+Information: BOARD turn 20 (Afflon) | Dominic | life 32 | hand 5 | lands 5 (0 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Crime Novelist(3); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 20 (Afflon) | Afflon | life 37 | hand 6 | lands 4 (1 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Delina, Wild Mage(4); Blightstep Pathway(land)
+Information: BOARD turn 20 (Afflon) | Connor | life 37 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Grim Haruspex 3/2 | hand cards: Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 20 (Afflon) | Ledale | life 45 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5)
+Information: BOARD threat | turn 20 | Soul Warden (Ledale) 85; Smothering Tithe (Dominic) 74
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Afflon]
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Silent Clearing (115)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Plains (193) - {T}: Add {W}.
+Mana: Swamp (185) - {T}: Add {B}.
+Land: Afflon picked {R}
+Mana: Haunted Ridge (186) - {T}: Add {B} or {R}.
+Add To Stack: Afflon cast Delina, Wild Mage
+Information: BOARD cast | Delina, Wild Mage (mv 4) by Afflon | open mana: Dominic 3, Connor 1, Ledale 1
+Resolve Stack: Delina, Wild Mage - Creature 3 / 2
+Add To Stack: Ledale triggered Soul Warden
+Life: Life: Ledale 45 > 46
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Delina, Wild Mage (196)]
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 21 (Connor)
+Information: BOARD turn 21 (Connor) | Dominic | life 32 | hand 5 | lands 5 (0 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Crime Novelist(3); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 21 (Connor) | Afflon | life 37 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Delina, Wild Mage 3/2 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 21 (Connor) | Connor | life 37 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Grim Haruspex 3/2 | hand cards: Magister of Worth(6); In Garruk's Wake(9); Anguished Unmaking(3); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 21 (Connor) | Ledale | life 46 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5)
+Information: BOARD threat | turn 21 | Soul Warden (Ledale) 96; Smothering Tithe (Dominic) 85
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Add To Stack: Connor cast Anguished Unmaking targeting [Mr. House, President and CEO (201)]
+Information: BOARD cast | Anguished Unmaking (mv 3) by Connor | open mana: Dominic 3, Afflon 3, Ledale 1
+Zone Change: Mr. House, President and CEO (201) was put into Exile from Battlefield.
+Life: Life: Connor 37 > 34
+Resolve Stack: Anguished Unmaking (310) - Exile Mr. House, President and CEO (201). Connor loses 3 life.
+Phase: Connor's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Connor]
+Phase: Connor's Main phase, precombat
+Land: Connor played Swamp (264)
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Combat: Connor assigned Grim Haruspex (283) to attack Dominic.
+Information: BOARD attack | Connor -> Dominic | attackers 1 (power 3) | defender life 32 | untapped creatures 1 (power 1): Mistmeadow Skulk 1/1 | open mana 4
+Phase: Connor's Declare Blockers Step
+Combat: Dominic assigned Mistmeadow Skulk (61) to block Grim Haruspex (283).
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Replacement Effect: Protection:Card.cmcGE3:mana value 3 or greater
+Damage: Mistmeadow Skulk (61) deals 1 damage to Grim Haruspex (283).
+Life: Life: Dominic 32 > 33
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 22 (Ledale)
+Information: BOARD turn 22 (Ledale) | Dominic | life 33 | hand 5 | lands 5 (0 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Mistmeadow Skulk 1/1 | hand cards: Opposition Agent(3); Feed the Swarm(2); Crime Novelist(3); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 22 (Ledale) | Afflon | life 37 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Delina, Wild Mage 3/2 | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 22 (Ledale) | Connor | life 34 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (0 untapped): Grim Haruspex 3/2* | hand cards: Magister of Worth(6); In Garruk's Wake(9); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 22 (Ledale) | Ledale | life 46 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Soul Warden 2/2* | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5)
+Information: BOARD threat | turn 22 | Smothering Tithe (Dominic) 96; Soul Warden (Ledale) 92
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Phase: Ledale's Beginning of Combat Step
+Phase: Ledale's Declare Attackers Step
+Combat: Ledale assigned Soul Warden (359) to attack Dominic.
+Information: BOARD attack | Ledale -> Dominic | attackers 1 (power 2) | defender life 33 | untapped creatures 1 (power 1): Mistmeadow Skulk 1/1 | open mana 5
+Phase: Ledale's Declare Blockers Step
+Combat: Dominic didn't block Soul Warden (359).
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Damage: Soul Warden (359) deals 2 combat damage to Dominic.
+Life: Life: Dominic 33 > 31
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Mana: Plains (401) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Add To Stack: Ledale cast Staff of the Storyteller
+Information: BOARD cast | Staff of the Storyteller (mv 2) by Ledale | open mana: Dominic 5, Afflon 3, Connor 3
+Resolve Stack: Staff of the Storyteller
+Add To Stack: Ledale triggered Staff of the Storyteller
+Resolve Stack: When Staff of the Storyteller enters, create a 1/1 white Spirit creature token with flying. [Zone Changer: Staff of the Storyteller (331)]
+Add To Stack: Ledale triggered Soul Warden
+Add To Stack: Ledale triggered Staff of the Storyteller
+Resolve Stack: Whenever you create one or more creature tokens, put a story counter on Staff of the Storyteller.
+Life: Life: Ledale 46 > 47
+Resolve Stack: Whenever another creature enters, you gain 1 life. [Zone Changer: Spirit Token (455)]
+Zone Change: Spirit Token (455) was put into Graveyard from Battlefield.
+Add To Stack: Ledale activated Goblin Bombardment targeting [Mistmeadow Skulk (61)]
+Damage: Goblin Bombardment (334) deals 1 damage to Mistmeadow Skulk (61).
+Resolve Stack: Goblin Bombardment (334) - Goblin Bombardment (334) deals 1 damage to Mistmeadow Skulk (61).
+Zone Change: Mistmeadow Skulk (61) was put into Graveyard from Battlefield.
+Add To Stack: Dominic triggered Dictate of Erebos
+Mana: Exotic Orchard (344) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Ledale activated Staff of the Storyteller
+Resolve Stack: Staff of the Storyteller (331) - Ledale draws a card.
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Zone Change: Soul Warden (359) was put into Graveyard from Battlefield.
+Zone Change: Delina, Wild Mage (196) was put into Graveyard from Battlefield.
+Zone Change: Grim Haruspex (283) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Mistmeadow Skulk (61)]
+Add To Stack: Connor triggered Athreos, God of Passage targeting [Dominic]
+Life: Life: Dominic 31 > 28
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Grim Haruspex (283)]
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 23 (Dominic)
+Information: BOARD turn 23 (Dominic) | Dominic | life 28 | hand 5 | lands 5 (0 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: Opposition Agent(3); Feed the Swarm(2); Crime Novelist(3); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 23 (Dominic) | Afflon | life 37 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 23 (Dominic) | Connor | life 34 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Magister of Worth(6); In Garruk's Wake(9); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 23 (Dominic) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 23 | Smothering Tithe (Dominic) 121; Staff of the Storyteller (Ledale) 43
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Temple of Silence enters tapped.
+Land: Dominic played Temple of Silence (91)
+Add To Stack: Dominic triggered Temple of Silence
+Resolve Stack: Dominic scried 1 card(s) to the top of the library
+Resolve Stack: When Temple of Silence enters, scry 1. [Zone Changer: Temple of Silence (91)]
+Mana: Rugged Prairie (47) - {T}: Add {C}.
+Mana: Temple of Triumph (83) - {T}: Add {R} or {W}.
+Mana: Isolated Chapel (31) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Crime Novelist
+Information: BOARD cast | Crime Novelist (mv 3) by Dominic | open mana: Afflon 3, Connor 3, Ledale 0
+Resolve Stack: Crime Novelist - Creature 1 / 3
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Swamp (58) - {T}: Add {B}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Zone Change: Treasure Token (458) was put into Graveyard from Battlefield.
+Mana: Treasure Token (458) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (449) was put into Graveyard from Battlefield.
+Mana: Treasure Token (449) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (446) was put into Graveyard from Battlefield.
+Mana: Treasure Token (446) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Information: BOARD cast | Olivia, Opulent Outlaw (mv 4) by Dominic | open mana: Afflon 3, Connor 3, Ledale 0
+Add To Stack: Dominic triggered Crime Novelist
+Add To Stack: Dominic triggered Crime Novelist
+Add To Stack: Dominic triggered Crime Novelist
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (458)]
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (449)]
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (446)]
+Resolve Stack: Olivia, Opulent Outlaw - Creature 3 / 3
+Zone Change: Treasure Token (443) was put into Graveyard from Battlefield.
+Zone Change: Treasure Token (419) was put into Graveyard from Battlefield.
+Add To Stack: Dominic activated Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Crime Novelist
+Add To Stack: Dominic triggered Crime Novelist
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (443)]
+Resolve Stack: Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}. [Sacrificed: Treasure Token (419)]
+Resolve Stack: Olivia, Opulent Outlaw (100) - Put two +1/+1 counters on each creature you control.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 24 (Afflon)
+Information: BOARD turn 24 (Afflon) | Dominic | life 28 | hand 4 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Crime Novelist 8/10; Olivia, Opulent Outlaw 5/5 | hand cards: Opposition Agent(3); Feed the Swarm(2); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 24 (Afflon) | Afflon | life 37 | hand 5 | lands 5 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Professional Face-Breaker(3); Academy Manufactor(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 24 (Afflon) | Connor | life 34 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Magister of Worth(6); In Garruk's Wake(9); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 24 (Afflon) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 24 | Smothering Tithe (Dominic) 116; Crime Novelist (Dominic) 72; Staff of the Storyteller (Ledale) 41
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Afflon]
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Fountainport (111)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Plains (193) - {T}: Add {W}.
+Mana: Swamp (185) - {T}: Add {B}.
+Add To Stack: Afflon cast Professional Face-Breaker
+Information: BOARD cast | Professional Face-Breaker (mv 3) by Afflon | open mana: Dominic 2, Connor 3, Ledale 0
+Resolve Stack: Professional Face-Breaker - Creature 2 / 3
+Land: Afflon picked {B}
+Mana: Haunted Ridge (186) - {T}: Add {B} or {R}.
+Mana: Fountainport (111) - {T}: Add {C}.
+Life: Life: Afflon 37 > 36
+Land: Afflon picked {W}
+Mana: Silent Clearing (115) - {T}, Pay 1 life: Add {W} or {B}.
+Add To Stack: Afflon cast Academy Manufactor
+Information: BOARD cast | Academy Manufactor (mv 3) by Afflon | open mana: Dominic 2, Connor 3, Ledale 0
+Resolve Stack: Academy Manufactor - Creature 1 / 3
+Phase: Afflon's End step
+Phase: Afflon's Cleanup step
+Turn: Turn 25 (Connor)
+Information: BOARD turn 25 (Connor) | Dominic | life 28 | hand 4 | lands 6 (0 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Crime Novelist 8/10; Olivia, Opulent Outlaw 5/5 | hand cards: Opposition Agent(3); Feed the Swarm(2); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 25 (Connor) | Afflon | life 36 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Professional Face-Breaker 2/3; Academy Manufactor 1/3 | hand cards: Treasure Chest(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 25 (Connor) | Connor | life 34 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: Magister of Worth(6); In Garruk's Wake(9); Plains(land); Harvester of Souls(6)
+Information: BOARD turn 25 (Connor) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 25 | Smothering Tithe (Dominic) 126; Crime Novelist (Dominic) 69; Staff of the Storyteller (Ledale) 40
+Phase: Connor's Untap step
+Phase: Connor's Upkeep step
+Phase: Connor's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Connor]
+Phase: Connor's Main phase, precombat
+Land: Connor played Plains (307)
+Mana: Swamp (266) - {T}: Add {B}.
+Mana: Plains (303) - {T}: Add {W}.
+Mana: Plains (302) - {T}: Add {W}.
+Mana: Plains (307) - {T}: Add {W}.
+Mana: Swamp (276) - {T}: Add {B}.
+Mana: Swamp (264) - {T}: Add {B}.
+Add To Stack: Connor cast Magister of Worth
+Information: BOARD cast | Magister of Worth (mv 6) by Connor | open mana: Dominic 3, Afflon 0, Ledale 0
+Resolve Stack: Magister of Worth - Creature 4 / 4
+Add To Stack: Connor triggered Magister of Worth
+Resolve Stack: Connor voted for Condemnation
+Ledale voted for Condemnation
+Dominic voted for Grace
+Afflon voted for Condemnation
+Zone Change: Crime Novelist (50) was put into Graveyard from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (100) was put into Graveyard from Battlefield.
+Zone Change: Professional Face-Breaker (116) was put into Graveyard from Battlefield.
+Zone Change: Academy Manufactor (120) was put into Graveyard from Battlefield.
+Resolve Stack: Will of the Council — When Magister of Worth enters, starting with you, each player votes for grace or condemnation. If grace gets more votes, each player returns each creature card from their graveyard to the battlefield. If condemnation gets more votes or the vote is tied, destroy all creatures other than Magister of Worth. [Zone Changer: Magister of Worth (245)]
+Add To Stack: Dominic triggered Dictate of Erebos
+Add To Stack: Dominic triggered Dictate of Erebos
+Zone Change: Magister of Worth (245) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Crime Novelist (50)]
+Add To Stack: Connor triggered Athreos, God of Passage targeting [Dominic]
+Life: Life: Dominic 28 > 25
+Resolve Stack: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life. (Targeting: [[Dominic]]) [Zone Changer: Magister of Worth (245)]
+Resolve Stack: Whenever a creature you control dies, each opponent sacrifices a creature. [Zone Changer: Olivia, Opulent Outlaw (100)]
+Phase: Connor's Beginning of Combat Step
+Phase: Connor's Declare Attackers Step
+Phase: Connor's Declare Blockers Step
+Phase: Connor's First Strike Damage Step
+Phase: Connor's Combat Damage Step
+Phase: Connor's End of Combat Step
+Phase: Connor's Main phase, postcombat
+Phase: Connor's End step
+Phase: Connor's Cleanup step
+Turn: Turn 26 (Ledale)
+Information: BOARD turn 26 (Ledale) | Dominic | life 25 | hand 4 | lands 6 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Opposition Agent(3); Feed the Swarm(2); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 26 (Ledale) | Afflon | life 36 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 26 (Ledale) | Connor | life 34 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: In Garruk's Wake(9); Harvester of Souls(6); Swamp(land)
+Information: BOARD turn 26 (Ledale) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 26 | Smothering Tithe (Dominic) 135; Dictate of Erebos (Dominic) 42; Staff of the Storyteller (Ledale) 38
+Phase: Ledale's Untap step
+Phase: Ledale's Upkeep step
+Phase: Ledale's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Ledale]
+Phase: Ledale's Main phase, precombat
+Phase: Ledale's Beginning of Combat Step
+Mana: Plains (401) - {T}: Add {W}.
+Mana: Plains (398) - {T}: Add {W}.
+Mana: Exotic Orchard (344) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Ledale cast Will of the Mardu
+Information: BOARD cast | Will of the Mardu (mv 3) by Ledale | open mana: Dominic 4, Afflon 0, Connor 1
+Resolve Stack: Will of the Mardu (336) -  Create a number of 1/1 red Warrior creature tokens equal to the number of creatures target player controls. (Targeting: Ledale) 
+Phase: Ledale's Declare Attackers Step
+Phase: Ledale's Declare Blockers Step
+Phase: Ledale's First Strike Damage Step
+Phase: Ledale's Combat Damage Step
+Phase: Ledale's End of Combat Step
+Phase: Ledale's Main phase, postcombat
+Phase: Ledale's End step
+Phase: Ledale's Cleanup step
+Turn: Turn 27 (Dominic)
+Information: BOARD turn 27 (Dominic) | Dominic | life 25 | hand 4 | lands 6 (0 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Opposition Agent(3); Feed the Swarm(2); Raucous Carnival(land); Deadly Dispute(2)
+Information: BOARD turn 27 (Dominic) | Afflon | life 36 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 27 (Dominic) | Connor | life 34 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: In Garruk's Wake(9); Harvester of Souls(6); Swamp(land)
+Information: BOARD turn 27 (Dominic) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 27 | Smothering Tithe (Dominic) 144; Dictate of Erebos (Dominic) 40; Staff of the Storyteller (Ledale) 37
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Raucous Carnival enters tapped unless a player has 13 or less life.
+Land: Dominic played Raucous Carnival (78)
+Mana: Swamp (58) - {T}: Add {B}.
+Mana: Temple of Triumph (83) - {T}: Add {R} or {W}.
+Mana: Isolated Chapel (31) - {T}: Add {W} or {B}.
+Mana: Temple of Silence (91) - {T}: Add {W} or {B}.
+Add To Stack: Dominic cast Pitiless Plunderer
+Information: BOARD cast | Pitiless Plunderer (mv 4) by Dominic | open mana: Afflon 0, Connor 1, Ledale 0
+Resolve Stack: Pitiless Plunderer - Creature 1 / 4
+Mana: Nomad Outpost (7) - {T}: Add {R}, {W}, or {B}.
+Mana: Arcane Signet (44) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Rugged Prairie (47) - {T}: Add {C}.
+Add To Stack: Dominic cast Opposition Agent
+Information: BOARD cast | Opposition Agent (mv 3) by Dominic | open mana: Afflon 0, Connor 1, Ledale 0
+Resolve Stack: Opposition Agent - Creature 3 / 2
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 28 (Afflon)
+Information: BOARD turn 28 (Afflon) | Dominic | life 25 | hand 2 | lands 7 (0 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Pitiless Plunderer 1/4; Opposition Agent 3/2 | hand cards: Feed the Swarm(2); Deadly Dispute(2)
+Information: BOARD turn 28 (Afflon) | Afflon | life 36 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Treasure Chest(3); Swamp(land); Blightstep Pathway(land)
+Information: BOARD turn 28 (Afflon) | Connor | life 34 | hand 3 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: In Garruk's Wake(9); Harvester of Souls(6); Swamp(land)
+Information: BOARD turn 28 (Afflon) | Ledale | life 47 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Dawn's Truce(2); Cathars' Crusade(5); Overlord of the Mistmoors(7); Divine Visitation(5); Elspeth Tirel(5)
+Information: BOARD threat | turn 28 | Smothering Tithe (Dominic) 139; Dictate of Erebos (Dominic) 38; Staff of the Storyteller (Ledale) 35
+Phase: Afflon's Untap step
+Phase: Afflon's Upkeep step
+Phase: Afflon's Draw step
+Add To Stack: Dominic triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Afflon]
+Phase: Afflon's Main phase, precombat
+Land: Afflon played Swamp (156)
+Phase: Afflon's Beginning of Combat Step
+Phase: Afflon's Declare Attackers Step
+Phase: Afflon's Declare Blockers Step
+Phase: Afflon's First Strike Damage Step
+Phase: Afflon's Combat Damage Step
+Phase: Afflon's End of Combat Step
+Phase: Afflon's Main phase, postcombat
+Mana: Plains (193) - {T}: Add {W}.
+Mana: Mountain (189) - {T}: Add {R}.
+Mana: Swamp (185) - {T}: Add {B}.
+Mana: Swamp (156) - {T}: Add {B}.
+Land: Afflon picked {B}
+Mana: Haunted Ridge (186) - {T}: Add {B} or {R}.
+Add To Stack: Afflon cast Mr. House, President and CEO
+Information: BOARD cast | Mr. House, President and CEO (mv 3) by Afflon | open mana: Dominic 5, Connor 1, Ledale 0
+Resolve Stack: Mr. House, President and CEO - Creature 0 / 4
+Phase: Afflon's End step
+
+Game Result: unfinished (Forge closed mid-game)

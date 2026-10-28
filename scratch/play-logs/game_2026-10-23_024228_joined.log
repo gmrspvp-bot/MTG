@@ -1,0 +1,789 @@
+Player: Dominic (HUMAN) deck=? (commander Scion of the Ur-Dragon) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Peen (HUMAN) deck=? (commander Baylen, the Haymaker)
+Player: Alec (HUMAN) deck=? (commander Ulalek, Fused Atrocity)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Alec)
+Information: BOARD turn 1 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Sunken Ruins(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Sol Ring(1); Thriving Isle(land)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Eye of Ugin (269)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Sunken Ruins(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Sol Ring(1); Thriving Isle(land)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Sunken Ruins (304)
+Add To Stack: Dominic cast Sol Ring
+Zone Change: Sol Ring (359) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 3 (Derand)
+Information: BOARD turn 3 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Path of Ancestry (12)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 4 (Peen)
+Information: BOARD turn 4 (Peen) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Peen) | Peen | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Peen) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Peen) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3)
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen triggered Temple of Plenty
+Zone Change: Temple of Plenty (122) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 5 (Alec)
+Information: BOARD turn 5 (Alec) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Island (268)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Rugged Highlands(land); Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rugged Highlands (316)
+Add To Stack: Dominic triggered Rugged Highlands
+Life: Life: Dominic 40 > 41
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 7 (Derand)
+Information: BOARD turn 7 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Peen | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (84)
+Add To Stack: Derand triggered Path of Ancestry
+Add To Stack: Derand cast Leonin Shikari
+Zone Change: Leonin Shikari (75) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 8 (Peen)
+Information: BOARD turn 8 (Peen) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 8 (Peen) | Peen | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Peen) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Peen) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6)
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Forest (118)
+Add To Stack: Peen cast Crystal Barricade
+Zone Change: Crystal Barricade (189) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 9 (Alec)
+Information: BOARD turn 9 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Temple of Malady (265)
+Add To Stack: Alec triggered Temple of Malady
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Alec | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Thornwood Falls(land); Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Thornwood Falls (373)
+Add To Stack: Dominic triggered Thornwood Falls
+Life: Life: Dominic 41 > 42
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 11 (Derand)
+Information: BOARD turn 11 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Peen | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Alec | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Dominic | life 42 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sundown Pass (27)
+Add To Stack: Derand cast Enthusiastic Mechanaut
+Zone Change: Enthusiastic Mechanaut (31) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Conqueror's Flail
+Zone Change: Conqueror's Flail (90) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 12 (Peen)
+Information: BOARD turn 12 (Peen) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 2/2 | hand cards: hidden
+Information: BOARD turn 12 (Peen) | Peen | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 12 (Peen) | Alec | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Peen) | Dominic | life 42 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Mountain (126)
+Add To Stack: Peen cast Farseek
+Zone Change: Plains (175) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Phase: Peen's End step
+Turn: Turn 13 (Alec)
+Information: BOARD turn 13 (Alec) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 2/2 | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Peen | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Alec | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Dominic | life 42 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Yavimaya Coast (264)
+Add To Stack: Alec cast Avengers Monitoring Station
+Zone Change: Avengers Monitoring Station (224) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Derand | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 2/2 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Peen | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Alec | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Dominic | life 42 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Turbulent Shore(land); Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Turbulent Shore (394)
+Add To Stack: Dominic cast Scorned Villager
+Zone Change: Scorned Villager (312) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 15 (Derand)
+Information: BOARD turn 15 (Derand) | Derand | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 2/2 | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Peen | life 40 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Alec | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Dominic | life 42 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Scorned Villager 1/1 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Deserted Beach (61)
+Add To Stack: Derand cast Blacksmith's Talent
+Add To Stack: Derand triggered Blacksmith's Talent
+Zone Change: Blacksmith's Talent (65) was put onto the Battlefield under Derand.
+Zone Change: Sword (407) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Conqueror's Flail targeting [Enthusiastic Mechanaut (31)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 16 (Peen)
+Information: BOARD turn 16 (Peen) | Derand | life 40 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 16 (Peen) | Peen | life 40 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Crystal Barricade 0/4 | hand cards: hidden
+Information: BOARD turn 16 (Peen) | Alec | life 40 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Peen) | Dominic | life 42 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Scorned Villager 1/1 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Mountain (125)
+Add To Stack: Peen cast Baylen, the Haymaker
+Zone Change: Baylen, the Haymaker (201) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Add To Stack: Peen cast Tender Wildguide
+Zone Change: Tender Wildguide (108) was put onto the Battlefield under Peen.
+Phase: Peen's End step
+Turn: Turn 17 (Alec)
+Information: BOARD turn 17 (Alec) | Derand | life 40 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2 | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Alec | life 40 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Dominic | life 42 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Scorned Villager 1/1 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Avengers Monitoring Station
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Twisted Landscape (206)
+Add To Stack: Alec cast Mana Vault
+Zone Change: Mana Vault (231) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (302) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Derand | life 40 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Alec | life 40 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Dominic | life 42 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Scorned Villager 1/1 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Dreamroot Cascade (370)
+Add To Stack: Dominic cast Scion of the Ur-Dragon
+Zone Change: Scion of the Ur-Dragon (403) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 19 (Derand)
+Information: BOARD turn 19 (Derand) | Derand | life 40 | hand 3 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2 | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Alec | life 40 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Dominic | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Scorned Villager 1/1*; Scion of the Ur-Dragon 4/4 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Glacial Fortress (68)
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Sword (407)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 20 (Peen)
+Information: BOARD turn 20 (Peen) | Derand | life 40 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 5/5[Sword] | hand cards: hidden
+Information: BOARD turn 20 (Peen) | Peen | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2 | hand cards: hidden
+Information: BOARD turn 20 (Peen) | Alec | life 40 | hand 5 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 20 (Peen) | Dominic | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Scorned Villager 1/1*; Scion of the Ur-Dragon 4/4 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Peen's Untap step
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Forest (117)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Add To Stack: Peen cast Ojer Taq, Deepest Foundation
+Zone Change: Ojer Taq, Deepest Foundation (114) was put onto the Battlefield under Peen.
+Phase: Peen's End step
+Turn: Turn 21 (Alec)
+Information: BOARD turn 21 (Alec) | Derand | life 40 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 5/5[Sword] | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Peen | life 40 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2; Ojer Taq, Deepest Foundation 6/6 | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Alec | life 40 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 1 (1 untapped): Ulalek, Fused Atrocity 2/5 | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Dominic | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Scorned Villager 1/1*; Scion of the Ur-Dragon 4/4 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Avengers Monitoring Station
+Add To Stack: Alec triggered Mana Vault
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec cast Glaring Fleshraker
+Add To Stack: Alec cast Glaring Fleshraker
+Zone Change: Glaring Fleshraker (419) was put onto the Battlefield under Alec.
+Zone Change: Glaring Fleshraker (213) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 40 > 39
+Life: Life: Peen 40 > 39
+Life: Life: Dominic 42 > 41
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Derand | life 39 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 5/5[Sword] | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Peen | life 39 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2; Ojer Taq, Deepest Foundation 6/6 | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Alec | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2 | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Dominic | life 41 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (2 untapped): Scorned Villager 1/1; Scion of the Ur-Dragon 4/4 | hand cards: Mox Jasper(0); Thriving Isle(land); Broken Wings(3); Lathliss, Dragon Queen(6); Atarka, World Render(7)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Mox Jasper
+Zone Change: Mox Jasper (345) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Dracogenesis
+Zone Change: Dracogenesis (391) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Lathliss, Dragon Queen
+Zone Change: Lathliss, Dragon Queen (354) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Atarka, World Render
+Zone Change: Atarka, World Render (376) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Lathliss, Dragon Queen
+Zone Change: Dragon Token (429) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Turn: Turn 23 (Derand)
+Information: BOARD turn 23 (Derand) | Derand | life 39 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 3 (3 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 5/5[Sword] | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Peen | life 39 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 2/2; Ojer Taq, Deepest Foundation 6/6 | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Alec | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2 | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Dominic | life 41 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Scorned Villager 1/1; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; Atarka, World Render 6/4; Dragon Token 5/5 | hand cards: Thriving Isle(land); Broken Wings(3)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (85)
+Add To Stack: Derand cast Kaldra Compleat
+Zone Change: Kaldra Compleat (6) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Kaldra Compleat
+Zone Change: Phyrexian Germ Token (433) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Kaldra Compleat (6)]
+Zone Change: Phyrexian Germ Token (433) was put into nowhere (token) from Battlefield.
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Dominic.
+Phase: Derand's First Strike Damage Step
+Combat: Dominic assigned Dragon Token (429) to block Captain America, First Avenger (100).
+Add To Stack: Derand triggered Captain America, First Avenger
+Zone Change: Dragon Token (429) was put into nowhere (token) from Battlefield.
+Life: Life: Dominic 41 > 36
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Peen activated Tender Wildguide
+Phase: Derand's Cleanup step
+Turn: Turn 24 (Peen)
+Information: BOARD turn 24 (Peen) | Derand | life 39 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 10/10*[Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 24 (Peen) | Peen | life 39 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 4 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 3/3; Ojer Taq, Deepest Foundation 6/6 | hand cards: hidden
+Information: BOARD turn 24 (Peen) | Alec | life 40 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2 | hand cards: hidden
+Information: BOARD turn 24 (Peen) | Dominic | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Scorned Villager 1/1; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; Atarka, World Render 6/4 | hand cards: Thriving Isle(land); Broken Wings(3)
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Land: Peen played Plains (179)
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Combat: Peen assigned Ojer Taq, Deepest Foundation (114) to attack Derand.
+Phase: Peen's Combat Damage Step
+Combat: Derand didn't block Ojer Taq, Deepest Foundation (114).
+Life: Life: Derand 39 > 33
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Add To Stack: Peen cast Felidar Retreat
+Zone Change: Felidar Retreat (134) was put onto the Battlefield under Peen.
+Add To Stack: Peen cast Three Blind Mice
+Add To Stack: Peen triggered Three Blind Mice
+Zone Change: Three Blind Mice (170) was put onto the Battlefield under Peen.
+Zone Change: Mouse Token (439) was put onto the Battlefield under Peen.
+Zone Change: Mouse Token (440) was put onto the Battlefield under Peen.
+Zone Change: Mouse Token (441) was put onto the Battlefield under Peen.
+Add To Stack: Peen activated Baylen, the Haymaker
+Phase: Peen's End step
+Turn: Turn 25 (Alec)
+Information: BOARD turn 25 (Alec) | Derand | life 33 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 10/10*[Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Peen | life 39 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 3/3; Ojer Taq, Deepest Foundation 6/6; Mouse Token 1/1* x3 | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Alec | life 40 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 3 (3 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2 | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Dominic | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Scorned Villager 1/1; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; Atarka, World Render 6/4 | hand cards: Thriving Isle(land); Broken Wings(3)
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Avengers Monitoring Station
+Add To Stack: Alec triggered Mana Vault
+Phase: Alec's Draw step
+Add To Stack: Alec triggered Mana Vault
+Life: Life: Alec 40 > 39
+Phase: Alec's Main phase, precombat
+Land: Alec played Shivan Reef (259)
+Add To Stack: Alec cast Ugin's Binding targeting [Dracogenesis (391)]
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (443) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 33 > 32
+Life: Life: Peen 39 > 38
+Life: Life: Dominic 36 > 35
+Life: Life: Derand 32 > 31
+Life: Life: Peen 38 > 37
+Life: Life: Dominic 35 > 34
+Zone Change: Eldrazi Spawn Token (445) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 31 > 30
+Life: Life: Peen 37 > 36
+Life: Life: Dominic 34 > 33
+Life: Life: Derand 30 > 29
+Life: Life: Peen 36 > 35
+Life: Life: Dominic 33 > 32
+Zone Change: Dracogenesis (391) was put into another zone from Battlefield.
+Zone Change: Eldrazi Spawn Token (445) was put into nowhere (token) from Battlefield.
+Zone Change: Eldrazi Spawn Token (443) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Everflowing Chalice
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (447) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 29 > 28
+Life: Life: Peen 35 > 34
+Life: Life: Dominic 32 > 31
+Life: Life: Derand 28 > 27
+Life: Life: Peen 34 > 33
+Life: Life: Dominic 31 > 30
+Zone Change: Eldrazi Spawn Token (449) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 27 > 26
+Life: Life: Peen 33 > 32
+Life: Life: Dominic 30 > 29
+Life: Life: Derand 26 > 25
+Life: Life: Peen 32 > 31
+Life: Life: Dominic 29 > 28
+Zone Change: Everflowing Chalice (271) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Derand | life 25 | hand 2 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 10/10*[Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Peen | life 31 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 3/3; Ojer Taq, Deepest Foundation 6/6; Mouse Token 1/1* x3 | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Alec | life 39 | hand 4 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2; Eldrazi Spawn Token 0/1 x2 | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Dominic | life 28 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 4 (4 untapped): Scorned Villager 1/1; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6; Atarka, World Render 6/4 | hand cards: Thriving Isle(land); Broken Wings(3); Dracogenesis(8)
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Thriving Isle (358)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Atarka, World Render
+Add To Stack: Dominic triggered Atarka, World Render
+Add To Stack: Dominic triggered Atarka, World Render
+Zone Change: Eldrazi Spawn Token (447) was put into nowhere (token) from Battlefield.
+Zone Change: Eldrazi Spawn Token (449) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Eldrazi Confluence
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (451) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 25 > 24
+Life: Life: Peen 31 > 30
+Life: Life: Dominic 28 > 27
+Life: Life: Derand 24 > 23
+Life: Life: Peen 30 > 29
+Life: Life: Dominic 27 > 26
+Zone Change: Eldrazi Spawn Token (453) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 23 > 22
+Life: Life: Peen 29 > 28
+Life: Life: Dominic 26 > 25
+Life: Life: Derand 22 > 21
+Life: Life: Peen 28 > 27
+Life: Life: Dominic 25 > 24
+Zone Change: Atarka, World Render (376) was put into another zone from Battlefield.
+Zone Change: Atarka, World Render (376) was put onto the Battlefield under Dominic.
+Zone Change: Lathliss, Dragon Queen (354) was put into another zone from Battlefield.
+Zone Change: Lathliss, Dragon Queen (354) was put onto the Battlefield under Dominic.
+Zone Change: Ancient Silver Dragon (403) was put into another zone from Battlefield.
+Zone Change: Scion of the Ur-Dragon (403) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Lathliss, Dragon Queen
+Add To Stack: Dominic triggered Lathliss, Dragon Queen
+Zone Change: Dragon Token (455) was put onto the Battlefield under Dominic.
+Zone Change: Dragon Token (457) was put onto the Battlefield under Dominic.
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Broken Wings targeting [Kaldra Compleat (6)]
+Phase: Dominic's End step
+Turn: Turn 27 (Derand)
+Information: BOARD turn 27 (Derand) | Derand | life 21 | hand 2 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 5/5[Conqueror's Flail]; Captain America, First Avenger 10/10[Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Peen | life 27 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (4 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 3/3; Ojer Taq, Deepest Foundation 6/6; Mouse Token 1/1* x3 | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Alec | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2; Eldrazi Spawn Token 0/1 x2 | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Dominic | life 24 | hand 2 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (3 untapped): Scorned Villager 1/1; Atarka, World Render 6/4*; Lathliss, Dragon Queen 6/6*; Scion of the Ur-Dragon 4/4*; Dragon Token 5/5 x2 | hand cards: Dracogenesis(8); Savage Ventmaw(6)
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Exotic Orchard (42)
+Add To Stack: Derand activated Blacksmith's Talent
+Add To Stack: Derand activated Blacksmith's Talent
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Conqueror's Flail (90)]
+Add To Stack: Derand triggered Blacksmith's Talent targeting [Conqueror's Flail (90)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Dominic.
+Phase: Derand's First Strike Damage Step
+Combat: Dominic assigned Dragon Token (455), Dragon Token (457) to block Captain America, First Avenger (100).
+Zone Change: Dragon Token (455) was put into nowhere (token) from Battlefield.
+Zone Change: Dragon Token (457) was put into nowhere (token) from Battlefield.
+Life: Life: Dominic 24 > 21
+Add To Stack: Derand triggered Captain America, First Avenger
+Add To Stack: Derand triggered Captain America, First Avenger
+Phase: Derand's Combat Damage Step
+Life: Life: Dominic 21 > 8
+Zone Change: Turbulent Shore (394) was put into another zone from Battlefield.
+Zone Change: Scion of the Ur-Dragon (403) was put into another zone from Battlefield.
+Zone Change: Sunken Ruins (304) was put into another zone from Battlefield.
+Zone Change: Scorned Villager (312) was put into another zone from Battlefield.
+Zone Change: Rugged Highlands (316) was put into another zone from Battlefield.
+Zone Change: Mox Jasper (345) was put into another zone from Battlefield.
+Zone Change: Lathliss, Dragon Queen (354) was put into another zone from Battlefield.
+Zone Change: Thriving Isle (358) was put into another zone from Battlefield.
+Zone Change: Sol Ring (359) was put into another zone from Battlefield.
+Zone Change: Dreamroot Cascade (370) was put into another zone from Battlefield.
+Zone Change: Thornwood Falls (373) was put into another zone from Battlefield.
+Zone Change: Atarka, World Render (376) was put into another zone from Battlefield.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Peen activated Tender Wildguide
+Turn: Turn 28 (Peen)
+Information: BOARD turn 28 (Peen) | Derand | life 21 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (2 untapped): Leonin Shikari 2/2; Enthusiastic Mechanaut 2/2; Captain America, First Avenger 13/13*[Conqueror's Flail,Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 28 (Peen) | Peen | life 27 | hand 2 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Crystal Barricade 0/4; Baylen, the Haymaker 4/3; Tender Wildguide 4/4; Ojer Taq, Deepest Foundation 6/6; Mouse Token 1/1 x3 | hand cards: hidden
+Information: BOARD turn 28 (Peen) | Alec | life 39 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 5 (5 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2; Eldrazi Spawn Token 0/1 x2 | hand cards: hidden
+Information: BOARD turn 28 (Peen) | Dominic | out
+Phase: Peen's Upkeep step
+Phase: Peen's Draw step
+Phase: Peen's Main phase, precombat
+Add To Stack: Peen triggered Three Blind Mice targeting [Mouse Token (439)]
+Zone Change: Mouse Token (459) was put onto the Battlefield under Peen.
+Zone Change: Mouse Token (460) was put onto the Battlefield under Peen.
+Zone Change: Mouse Token (461) was put onto the Battlefield under Peen.
+Add To Stack: Peen triggered Felidar Retreat
+Zone Change: Rogue's Passage (104) was put onto the Battlefield under Peen.
+Phase: Peen's Beginning of Combat Step
+Phase: Peen's Declare Attackers Step
+Phase: Peen's Declare Blockers Step
+Combat: Peen assigned Ojer Taq, Deepest Foundation (114), Mouse Token (439), Mouse Token (440), Baylen, the Haymaker (201), Mouse Token (441), Tender Wildguide (108) to attack Derand.
+Add To Stack: Peen activated Tender Wildguide
+Phase: Peen's Combat Damage Step
+Zone Change: Enthusiastic Mechanaut (31) was put into another zone from Battlefield.
+Zone Change: Leonin Shikari (75) was put into another zone from Battlefield.
+Combat: Derand didn't block Ojer Taq, Deepest Foundation (114).
+Combat: Derand didn't block Mouse Token (439).
+Combat: Derand didn't block Mouse Token (440).
+Combat: Derand didn't block Baylen, the Haymaker (201).
+Combat: Derand didn't block Mouse Token (441).
+Combat: Derand didn't block Tender Wildguide (108).
+Life: Life: Derand 21 > 9
+Phase: Peen's End of Combat Step
+Phase: Peen's Main phase, postcombat
+Add To Stack: Peen activated Baylen, the Haymaker
+Add To Stack: Peen activated Baylen, the Haymaker
+Phase: Peen's End step
+Turn: Turn 29 (Alec)
+Information: BOARD turn 29 (Alec) | Derand | life 9 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 13/13*[Conqueror's Flail,Sword,Kaldra Compleat] | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Peen | life 27 | hand 4 | lands 8 (8 untapped) | open mana 8 | commander Battlefield | creatures 10 (3 untapped): Crystal Barricade 1/5; Baylen, the Haymaker 5/4; Tender Wildguide 6/6*; Ojer Taq, Deepest Foundation 7/7; Mouse Token 2/2* x6 | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Alec | life 39 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 5 (5 untapped): Ulalek, Fused Atrocity 2/5; Glaring Fleshraker 2/2 x2; Eldrazi Spawn Token 0/1 x2 | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Dominic | out
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Avengers Monitoring Station
+Add To Stack: Alec triggered Mana Vault
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Life: Life: Alec 39 > 38
+Add To Stack: Alec cast Chittering Dispatcher
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec cast Chittering Dispatcher
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (465) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 9 > 8
+Life: Life: Peen 27 > 26
+Life: Life: Derand 8 > 7
+Life: Life: Peen 26 > 25
+Zone Change: Eldrazi Spawn Token (467) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 7 > 6
+Life: Life: Peen 25 > 24
+Life: Life: Derand 6 > 5
+Life: Life: Peen 24 > 23
+Zone Change: Chittering Dispatcher (463) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 5 > 4
+Life: Life: Peen 23 > 22
+Life: Life: Derand 4 > 3
+Life: Life: Peen 22 > 21
+Zone Change: Eldrazi Spawn Token (469) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 3 > 2
+Life: Life: Peen 21 > 20
+Life: Life: Derand 2 > 1
+Life: Life: Peen 20 > 19
+Zone Change: Eldrazi Spawn Token (471) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Derand 1 > 0
+Life: Life: Peen 19 > 18
+Zone Change: Kaldra Compleat (6) was put into another zone from Battlefield.
+Zone Change: Path of Ancestry (12) was put into another zone from Battlefield.
+Zone Change: Sword (407) was put into nowhere (token) from Battlefield.
+Zone Change: Sundown Pass (27) was put into another zone from Battlefield.
+Zone Change: Exotic Orchard (42) was put into another zone from Battlefield.
+Zone Change: Deserted Beach (61) was put into another zone from Battlefield.
+Zone Change: Blacksmith's Talent (65) was put into another zone from Battlefield.
+Zone Change: Glacial Fortress (68) was put into another zone from Battlefield.
+Zone Change: Plains (84) was put into another zone from Battlefield.
+Zone Change: Plains (85) was put into another zone from Battlefield.
+Zone Change: Conqueror's Flail (90) was put into another zone from Battlefield.
+Zone Change: Captain America, First Avenger (100) was put into another zone from Battlefield.
+Life: Life: Peen 18 > 17
+Zone Change: Chittering Dispatcher (223) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Peen 17 > 16
+Life: Life: Peen 16 > 15
+Life: Life: Alec 38 > 37
+Life: Life: Alec 37 > 38
+Zone Change: Eldrazi Spawn Token (469) was put into nowhere (token) from Battlefield.
+Zone Change: Eldrazi Spawn Token (471) was put into nowhere (token) from Battlefield.
+Life: Life: Alec 38 > 37
+Add To Stack: Alec cast Hideous Taskmaster
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Ugin's Binding
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec triggered Hideous Taskmaster targeting [Ojer Taq, Deepest Foundation (114)]
+Zone Change: Eldrazi Spawn Token (465) was put into nowhere (token) from Battlefield.
+Zone Change: Eldrazi Spawn Token (467) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Hideous Taskmaster
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Ugin's Binding
+Add To Stack: Alec triggered Hideous Taskmaster targeting [Baylen, the Haymaker (201)]
+Zone Change: Eldrazi Spawn Token (474) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Peen 15 > 14
+Life: Life: Peen 14 > 13
+Zone Change: Eldrazi Spawn Token (476) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Peen 13 > 12
+Life: Life: Peen 12 > 11
+Add To Stack: Alec triggered Ugin's Binding
+Zone Change: Felidar Retreat (134) was put into another zone from Battlefield.
+Zone Change: Three Blind Mice (170) was put into another zone from Battlefield.
+Zone Change: Mouse Token (439) was put into nowhere (token) from Battlefield.
+Zone Change: Mouse Token (440) was put into nowhere (token) from Battlefield.
+Zone Change: Crystal Barricade (189) was put into another zone from Battlefield.
+Zone Change: Tender Wildguide (108) was put into another zone from Battlefield.
+Zone Change: Ojer Taq, Deepest Foundation (114) was put into another zone from Battlefield.
+Zone Change: Mouse Token (441) was put into nowhere (token) from Battlefield.
+Zone Change: Mouse Token (459) was put into nowhere (token) from Battlefield.
+Zone Change: Mouse Token (460) was put into nowhere (token) from Battlefield.
+Zone Change: Mouse Token (461) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Hideous Taskmaster (472) was put onto the Battlefield under Alec.
+Life: Life: Peen 11 > 10
+Life: Life: Peen 10 > 9
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (483) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Glaring Fleshraker
+Life: Life: Peen 9 > 8
+Life: Life: Peen 8 > 7
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Eldrazi Spawn Token (488) was put onto the Battlefield under Alec.
+Life: Life: Peen 7 > 6
+Life: Life: Peen 6 > 5
+Add To Stack: Alec triggered Glaring Fleshraker
+Add To Stack: Alec triggered Glaring Fleshraker
+Zone Change: Hideous Taskmaster (298) was put onto the Battlefield under Alec.
+Life: Life: Peen 5 > 4
+Life: Life: Peen 4 > 3
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Hideous Taskmaster
+Add To Stack: Alec triggered Baylen, the Haymaker
+Add To Stack: Alec triggered Hideous Taskmaster
+Zone Change: Forest (118) was put into another zone from Battlefield.
+Zone Change: Mountain (126) was put into another zone from Battlefield.
+Zone Change: Plains (175) was put into another zone from Battlefield.
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Glaring Fleshraker (419), Eldrazi Spawn Token (451), Glaring Fleshraker (213), Eldrazi Spawn Token (453), Hideous Taskmaster (472), Baylen, the Haymaker (201), Hideous Taskmaster (298), Ulalek, Fused Atrocity (302) to attack Peen.
+Phase: Alec's Combat Damage Step
+Combat: Peen didn't block Glaring Fleshraker (419).
+Combat: Peen didn't block Eldrazi Spawn Token (451).
+Combat: Peen didn't block Glaring Fleshraker (213).
+Combat: Peen didn't block Eldrazi Spawn Token (453).
+Combat: Peen didn't block Hideous Taskmaster (472).
+Combat: Peen didn't block Baylen, the Haymaker (201).
+Combat: Peen didn't block Hideous Taskmaster (298).
+Combat: Peen didn't block Ulalek, Fused Atrocity (302).
+Life: Life: Peen 3 > -22
+
+Game Result: Alec has won

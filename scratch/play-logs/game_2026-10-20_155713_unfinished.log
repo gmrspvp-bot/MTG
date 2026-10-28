@@ -1,0 +1,38 @@
+Player: Xenil (HUMAN) deck=Angels
+Player: Anna (AI) deck=Captain America v8
+Player: Jason (AI) deck=Mr House v4
+Player: Brianna (AI) deck=Olivia
+Mulligan: Brianna has kept a hand of 7 cards
+Mulligan: Xenil has kept a hand of 7 cards
+Mulligan: Anna has kept a hand of 7 cards
+Mulligan: Jason has kept a hand of 7 cards
+Turn: Turn 1 (Brianna)
+Information: BOARD turn 1 (Brianna) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Emeria Shepherd(7); Archaeomancer's Map(3); Gisela, Blade of Goldnight(7); Baneslayer Angel(5); Everflowing Chalice(0); Path of Ancestry(land)
+Information: BOARD turn 1 (Brianna) | Anna | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Champion's Helm(3); Hengegate Pathway(land); Island(land); Kaldra Compleat(7); Kellan, the Fae-Blooded(3); City of Brass(land)
+Information: BOARD turn 1 (Brianna) | Jason | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Plains(land); Goblin Bombardment(2); Evolving Wilds(land); Command Tower(land); Battlefield Forge(land); Sol Ring(1)
+Information: BOARD turn 1 (Brianna) | Brianna | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rakdos Signet(2); Grenzo, Havoc Raiser(2); Knuckles the Echidna(4); Sulfurous Springs(land); Swamp(land); Caves of Koilos(land); Temple of the False God(land)
+Phase: Brianna's Untap step
+Phase: Brianna's Upkeep step
+Phase: Brianna's Draw step
+Phase: Brianna's Main phase, precombat
+Land: Brianna played Sulfurous Springs (383)
+Phase: Brianna's Beginning of Combat Step
+Phase: Brianna's Declare Attackers Step
+Phase: Brianna's Declare Blockers Step
+Phase: Brianna's First Strike Damage Step
+Phase: Brianna's Combat Damage Step
+Phase: Brianna's End of Combat Step
+Phase: Brianna's Main phase, postcombat
+Phase: Brianna's End step
+Phase: Brianna's Cleanup step
+Turn: Turn 2 (Xenil)
+Information: BOARD turn 2 (Xenil) | Xenil | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Emeria Shepherd(7); Archaeomancer's Map(3); Gisela, Blade of Goldnight(7); Baneslayer Angel(5); Everflowing Chalice(0); Path of Ancestry(land)
+Information: BOARD turn 2 (Xenil) | Anna | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Stoneforge Mystic(2); Champion's Helm(3); Hengegate Pathway(land); Island(land); Kaldra Compleat(7); Kellan, the Fae-Blooded(3); City of Brass(land)
+Information: BOARD turn 2 (Xenil) | Jason | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: The Deck of Many Things(5); Plains(land); Goblin Bombardment(2); Evolving Wilds(land); Command Tower(land); Battlefield Forge(land); Sol Ring(1)
+Information: BOARD turn 2 (Xenil) | Brianna | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Rakdos Signet(2); Grenzo, Havoc Raiser(2); Knuckles the Echidna(4); Swamp(land); Caves of Koilos(land); Temple of the False God(land); Kambal, Profiteering Mayor(3)
+Phase: Xenil's Untap step
+Phase: Xenil's Upkeep step
+Phase: Xenil's Draw step
+Phase: Xenil's Main phase, precombat
+
+Game Result: unfinished (Forge closed mid-game)

@@ -1,0 +1,93 @@
+Player: Dominic (HUMAN) deck=Angels
+Player: Linovahle (AI) deck=Captain America v8
+Player: Ariana (AI) deck=Scion
+Player: Akassa (AI) deck=Tidus v3
+Mulligan: Linovahle has mulliganed down to 7 cards.
+Mulligan: Akassa has mulliganed down to 7 cards.
+Mulligan: Akassa has mulliganed down to 6 cards.
+Mulligan: Akassa has mulliganed down to 5 cards.
+Mulligan: Linovahle has kept a hand of 7 cards
+Mulligan: Ariana has kept a hand of 7 cards
+Mulligan: Akassa has kept a hand of 5 cards
+Mulligan: Dominic has kept a hand of 7 cards
+Turn: Turn 1 (Linovahle)
+Information: BOARD turn 1 (Linovahle) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Plains(land); Plains(land); Resplendent Angel(3); Quicksilver Amulet(4); Smuggler's Copter(2); Land Tax(1)
+Information: BOARD turn 1 (Linovahle) | Linovahle | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sulfur Falls(land); Blasphemous Act(9); Island(land); Stroke of Midnight(3); Needleverge Pathway(land); Conqueror's Flail(2); Nazgûl Battle-Mace(5)
+Information: BOARD turn 1 (Linovahle) | Ariana | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Reflecting Pool(land); Savage Ventmaw(6); Solemn Simulacrum(4); Mox Jasper(0); Supreme Verdict(4); Underground River(land)
+Information: BOARD turn 1 (Linovahle) | Akassa | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Metastatic Evangel(2); Hardened Scales(1); Path of Ancestry(land); Tromell, Seymour's Butler(3); Flooded Grove(land)
+Phase: Linovahle's Untap step
+Phase: Linovahle's Upkeep step
+Phase: Linovahle's Draw step
+Phase: Linovahle's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Linovahle played Sulfur Falls (154)
+Phase: Linovahle's Beginning of Combat Step
+Phase: Linovahle's Declare Attackers Step
+Phase: Linovahle's Declare Blockers Step
+Phase: Linovahle's First Strike Damage Step
+Phase: Linovahle's Combat Damage Step
+Phase: Linovahle's End of Combat Step
+Phase: Linovahle's Main phase, postcombat
+Phase: Linovahle's End step
+Phase: Linovahle's Cleanup step
+Turn: Turn 2 (Ariana)
+Information: BOARD turn 2 (Ariana) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Plains(land); Plains(land); Resplendent Angel(3); Quicksilver Amulet(4); Smuggler's Copter(2); Land Tax(1)
+Information: BOARD turn 2 (Ariana) | Linovahle | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Island(land); Stroke of Midnight(3); Needleverge Pathway(land); Conqueror's Flail(2); Nazgûl Battle-Mace(5); Sword of Light and Shadow(3)
+Information: BOARD turn 2 (Ariana) | Ariana | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Reflecting Pool(land); Savage Ventmaw(6); Solemn Simulacrum(4); Mox Jasper(0); Supreme Verdict(4); Underground River(land)
+Information: BOARD turn 2 (Ariana) | Akassa | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Metastatic Evangel(2); Hardened Scales(1); Path of Ancestry(land); Tromell, Seymour's Butler(3); Flooded Grove(land)
+Phase: Ariana's Untap step
+Phase: Ariana's Upkeep step
+Phase: Ariana's Draw step
+Phase: Ariana's Main phase, precombat
+Land: Ariana played Underground River (217)
+Add To Stack: Ariana cast Mox Jasper
+Information: BOARD cast | Mox Jasper (mv 0) by Ariana | open mana: Dominic 0, Linovahle 0, Akassa 0
+Resolve Stack: Mox Jasper
+Phase: Ariana's Beginning of Combat Step
+Phase: Ariana's Declare Attackers Step
+Phase: Ariana's Declare Blockers Step
+Phase: Ariana's First Strike Damage Step
+Phase: Ariana's Combat Damage Step
+Phase: Ariana's End of Combat Step
+Phase: Ariana's Main phase, postcombat
+Phase: Ariana's End step
+Phase: Ariana's Cleanup step
+Turn: Turn 3 (Akassa)
+Information: BOARD turn 3 (Akassa) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Plains(land); Plains(land); Resplendent Angel(3); Quicksilver Amulet(4); Smuggler's Copter(2); Land Tax(1)
+Information: BOARD turn 3 (Akassa) | Linovahle | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Island(land); Stroke of Midnight(3); Needleverge Pathway(land); Conqueror's Flail(2); Nazgûl Battle-Mace(5); Sword of Light and Shadow(3)
+Information: BOARD turn 3 (Akassa) | Ariana | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Reflecting Pool(land); Savage Ventmaw(6); Solemn Simulacrum(4); Supreme Verdict(4); Gruul Guildgate(land)
+Information: BOARD turn 3 (Akassa) | Akassa | life 40 | hand 5 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Metastatic Evangel(2); Hardened Scales(1); Path of Ancestry(land); Tromell, Seymour's Butler(3); Flooded Grove(land)
+Phase: Akassa's Untap step
+Phase: Akassa's Upkeep step
+Phase: Akassa's Draw step
+Phase: Akassa's Main phase, precombat
+Land: Akassa played Flooded Grove (387)
+Phase: Akassa's Beginning of Combat Step
+Phase: Akassa's Declare Attackers Step
+Phase: Akassa's Declare Blockers Step
+Phase: Akassa's First Strike Damage Step
+Phase: Akassa's Combat Damage Step
+Phase: Akassa's End of Combat Step
+Phase: Akassa's Main phase, postcombat
+Phase: Akassa's End step
+Phase: Akassa's Cleanup step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Angel of the Ruins(7); Plains(land); Plains(land); Resplendent Angel(3); Quicksilver Amulet(4); Smuggler's Copter(2); Land Tax(1)
+Information: BOARD turn 4 (Dominic) | Linovahle | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Blasphemous Act(9); Island(land); Stroke of Midnight(3); Needleverge Pathway(land); Conqueror's Flail(2); Nazgûl Battle-Mace(5); Sword of Light and Shadow(3)
+Information: BOARD turn 4 (Dominic) | Ariana | life 40 | hand 6 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mountain(land); Reflecting Pool(land); Savage Ventmaw(6); Solemn Simulacrum(4); Supreme Verdict(4); Gruul Guildgate(land)
+Information: BOARD turn 4 (Dominic) | Akassa | life 40 | hand 5 | lands 1 (1 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Metastatic Evangel(2); Hardened Scales(1); Path of Ancestry(land); Tromell, Seymour's Butler(3); Evolving Wilds(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+
+Game Result: unfinished (Forge closed mid-game)

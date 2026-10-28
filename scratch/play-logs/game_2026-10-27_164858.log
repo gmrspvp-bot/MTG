@@ -1,0 +1,1419 @@
+Player: Dominic (HUMAN) deck=Captain America v7
+Player: Jacinta (AI) deck=Scion
+Player: Syth (AI) deck=Angels
+Player: Iarmod (AI) deck=DackToCapsFace
+Mulligan: Dominic has mulliganed down to 7 cards.
+Mulligan: Jacinta has mulliganed down to 7 cards.
+Mulligan: Iarmod has mulliganed down to 7 cards.
+Mulligan: Dominic has mulliganed down to 6 cards.
+Mulligan: Iarmod has mulliganed down to 6 cards.
+Mulligan: Dominic has kept a hand of 6 cards
+Mulligan: Jacinta has kept a hand of 7 cards
+Mulligan: Syth has kept a hand of 7 cards
+Mulligan: Iarmod has kept a hand of 6 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Sulfur Falls(land); Flawless Maneuver(3)
+Information: BOARD turn 1 (Dominic) | Jacinta | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Forest(land); Delighted Halfling(1); Solemn Simulacrum(4)
+Information: BOARD turn 1 (Dominic) | Syth | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land)
+Information: BOARD turn 1 (Dominic) | Iarmod | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Snow-Covered Plains(land); Ancient Tomb(land); Urza's Cave(land); Paladin Class(1); Razorgrass Ambush(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Sulfur Falls enters tapped unless you control an Island or a Mountain.
+Land: Dominic played Sulfur Falls (53)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Jacinta)
+Information: BOARD turn 2 (Jacinta) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Talisman of Conviction(2)
+Information: BOARD turn 2 (Jacinta) | Jacinta | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Forest(land); Delighted Halfling(1); Solemn Simulacrum(4)
+Information: BOARD turn 2 (Jacinta) | Syth | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land)
+Information: BOARD turn 2 (Jacinta) | Iarmod | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Snow-Covered Plains(land); Ancient Tomb(land); Urza's Cave(land); Paladin Class(1); Razorgrass Ambush(2)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Land: Jacinta played Forest (137)
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Phase: Jacinta's Declare Blockers Step
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Mana: Forest (137) - {T}: Add {G}.
+Add To Stack: Jacinta cast Delighted Halfling
+Information: BOARD cast | Delighted Halfling (mv 1) by Jacinta | open mana: Dominic 0, Syth 0, Iarmod 0
+Resolve Stack: Delighted Halfling - Creature 1 / 2
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 3 (Syth)
+Information: BOARD turn 3 (Syth) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Talisman of Conviction(2)
+Information: BOARD turn 3 (Syth) | Jacinta | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 3 (Syth) | Syth | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land)
+Information: BOARD turn 3 (Syth) | Iarmod | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Snow-Covered Plains(land); Ancient Tomb(land); Urza's Cave(land); Paladin Class(1); Razorgrass Ambush(2)
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Land: Syth played Plains (291)
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Phase: Syth's Declare Blockers Step
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 4 (Iarmod)
+Information: BOARD turn 4 (Iarmod) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Talisman of Conviction(2)
+Information: BOARD turn 4 (Iarmod) | Jacinta | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 4 (Iarmod) | Syth | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 4 (Iarmod) | Iarmod | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Snow-Covered Plains(land); Ancient Tomb(land); Urza's Cave(land); Paladin Class(1); Razorgrass Ambush(2)
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Land: Iarmod played Snow-Covered Plains (393)
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Add To Stack: Iarmod cast Paladin Class
+Information: BOARD cast | Paladin Class (mv 1) by Iarmod | open mana: Dominic 0, Jacinta 0, Syth 1
+Resolve Stack: Paladin Class
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Talisman of Conviction(2)
+Information: BOARD turn 5 (Dominic) | Jacinta | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 5 (Dominic) | Syth | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 5 (Dominic) | Iarmod | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Ancient Tomb(land); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (86)
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Add To Stack: Dominic cast Talisman of Conviction
+Information: BOARD cast | Talisman of Conviction (mv 2) by Dominic | open mana: Jacinta 0, Syth 1, Iarmod 0
+Resolve Stack: Talisman of Conviction
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Jacinta)
+Information: BOARD turn 6 (Jacinta) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 6 (Jacinta) | Jacinta | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Path of Ancestry(land); Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 6 (Jacinta) | Syth | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 6 (Jacinta) | Iarmod | life 40 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Ancient Tomb(land); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Combat: Jacinta assigned Delighted Halfling (183) to attack Iarmod.
+Information: BOARD attack | Jacinta -> Iarmod | attackers 1 (power 1) | defender life 40 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Jacinta's Declare Blockers Step
+Combat: Iarmod didn't block Delighted Halfling (183).
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Damage: Delighted Halfling (183) deals 1 combat damage to Iarmod.
+Life: Life: Iarmod 40 > 39
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Jacinta played Path of Ancestry (109)
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 7 (Syth)
+Information: BOARD turn 7 (Syth) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 7 (Syth) | Jacinta | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land); Steely Resolve(2)
+Information: BOARD turn 7 (Syth) | Syth | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Unclaimed Territory(land); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4)
+Information: BOARD turn 7 (Syth) | Iarmod | life 39 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Ancient Tomb(land); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4)
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Syth played Unclaimed Territory (245)
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Phase: Syth's Declare Blockers Step
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 8 (Iarmod)
+Information: BOARD turn 8 (Iarmod) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 8 (Iarmod) | Jacinta | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land); Steely Resolve(2)
+Information: BOARD turn 8 (Iarmod) | Syth | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4)
+Information: BOARD turn 8 (Iarmod) | Iarmod | life 39 | hand 5 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Ancient Tomb(land); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4)
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Land: Iarmod played Ancient Tomb (342)
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Damage: Ancient Tomb (342) deals 2 non-combat damage to Iarmod.
+Life: Life: Iarmod 39 > 37
+Mana: Ancient Tomb (342) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Add To Stack: Iarmod activated Paladin Class
+Resolve Stack: Paladin Class (349) - Level 2
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 9 (Dominic) | Jacinta | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land); Steely Resolve(2)
+Information: BOARD turn 9 (Dominic) | Syth | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4)
+Information: BOARD turn 9 (Dominic) | Iarmod | life 37 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Dominic played Glacial Fortress (68)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Jacinta)
+Information: BOARD turn 10 (Jacinta) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 10 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 10 (Jacinta) | Jacinta | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Turbulent Crater(land); Solemn Simulacrum(4); Rugged Highlands(land); Steely Resolve(2)
+Information: BOARD turn 10 (Jacinta) | Syth | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4)
+Information: BOARD turn 10 (Jacinta) | Iarmod | life 37 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Add To Stack: Jacinta cast Mox Jasper
+Information: BOARD cast | Mox Jasper (mv 0) by Jacinta | open mana: Dominic 10, Syth 2, Iarmod 0
+Resolve Stack: Mox Jasper
+Replacement Effect: This land enters tapped unless your opponents control eight or more lands.
+Land: Jacinta played Turbulent Crater (105)
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Combat: Jacinta assigned Delighted Halfling (183) to attack Iarmod.
+Information: BOARD attack | Jacinta -> Iarmod | attackers 1 (power 1) | defender life 37 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Jacinta's Declare Blockers Step
+Combat: Iarmod didn't block Delighted Halfling (183).
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Damage: Delighted Halfling (183) deals 1 combat damage to Iarmod.
+Life: Life: Iarmod 37 > 36
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Mana: Forest (137) - {T}: Add {G}.
+Land: Jacinta picked {R}
+Mana: Path of Ancestry (109) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Jacinta cast Steely Resolve
+Information: BOARD cast | Steely Resolve (mv 2) by Jacinta | open mana: Dominic 10, Syth 2, Iarmod 0
+Replacement Effect: As Steely Resolve enters, choose a creature type.
+Resolve Stack: Steely Resolve
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 11 (Syth)
+Information: BOARD turn 11 (Syth) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 10 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 11 (Syth) | Jacinta | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 11 (Syth) | Syth | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Resplendent Angel(3); Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4)
+Information: BOARD turn 11 (Syth) | Iarmod | life 36 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1)
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Land: Syth played Plains (289)
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Phase: Syth's Declare Blockers Step
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: Syth cast Resplendent Angel
+Information: BOARD cast | Resplendent Angel (mv 3) by Syth | open mana: Dominic 10, Jacinta 0, Iarmod 0
+Resolve Stack: Resplendent Angel - Creature 3 / 3
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 12 (Iarmod)
+Information: BOARD turn 12 (Iarmod) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 10 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 12 (Iarmod) | Jacinta | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 12 (Iarmod) | Syth | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Swords to Plowshares(1)
+Information: BOARD turn 12 (Iarmod) | Iarmod | life 36 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Urza's Cave(land); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1)
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Land: Iarmod played Urza's Cave (345)
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Damage: Ancient Tomb (342) deals 2 non-combat damage to Iarmod.
+Life: Life: Iarmod 36 > 34
+Mana: Ancient Tomb (342) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Zone Change: Urza's Cave (345) was put into Graveyard from Battlefield.
+Add To Stack: Iarmod activated Urza's Cave
+Resolve Stack: Urza's Cave (345) - Iarmod searches their library for a land card, puts it onto the battlefield tapped, then shuffles.
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 10 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3)
+Information: BOARD turn 13 (Dominic) | Jacinta | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 13 (Dominic) | Syth | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Swords to Plowshares(1)
+Information: BOARD turn 13 (Dominic) | Iarmod | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1); Mana Vault(1)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Glacial Fortress (68) - {T}: Add {W} or {U}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Add To Stack: Dominic cast Captain America, First Avenger
+Information: BOARD cast | Captain America, First Avenger (mv 3) by Dominic | open mana: Jacinta 0, Syth 0, Iarmod 0
+Resolve Stack: Captain America, First Avenger - Creature 4 / 4
+Phase: Dominic's Beginning of Combat Step
+Add To Stack: Dominic triggered Captain America, First Avenger targeting []
+Resolve Stack: . . . Catch — At the beginning of combat on your turn, attach up one target Equipment you control to Captain America. (Targeting: [[]]) [Phase: Dominic]
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Jacinta)
+Information: BOARD turn 14 (Jacinta) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Captain America's Shield(2)
+Information: BOARD turn 14 (Jacinta) | Jacinta | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Delighted Halfling 1/2* | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Rugged Highlands(land)
+Information: BOARD turn 14 (Jacinta) | Syth | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Swords to Plowshares(1)
+Information: BOARD turn 14 (Jacinta) | Iarmod | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1); Mana Vault(1)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Mana: Turbulent Crater (105) - {T}: Add {R}.
+Mana: Forest (137) - {T}: Add {G}.
+Add To Stack: Jacinta cast Ruby, Daring Tracker
+Information: BOARD cast | Ruby, Daring Tracker (mv 2) by Jacinta | open mana: Dominic 3, Syth 0, Iarmod 0
+Resolve Stack: Ruby, Daring Tracker - Creature 1 / 2
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Phase: Jacinta's Declare Blockers Step
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Jacinta played Rugged Highlands (114)
+Add To Stack: Jacinta triggered Rugged Highlands
+Life: Life: Jacinta 40 > 41
+Resolve Stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (114)]
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 15 (Syth)
+Information: BOARD turn 15 (Syth) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 4/4 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Captain America's Shield(2)
+Information: BOARD turn 15 (Syth) | Jacinta | life 41 | hand 3 | lands 4 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4)
+Information: BOARD turn 15 (Syth) | Syth | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Resplendent Angel 3/3 | hand cards: Plains(land); Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Swords to Plowshares(1)
+Information: BOARD turn 15 (Syth) | Iarmod | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1); Mana Vault(1)
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Mana: Plains (291) - {T}: Add {W}.
+Add To Stack: Syth cast Swords to Plowshares targeting [Captain America, First Avenger (100)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Syth | open mana: Dominic 3, Jacinta 6, Iarmod 0
+Zone Change: Captain America, First Avenger (100) was put into Exile from Battlefield.
+Life: Life: Dominic 40 > 44
+Resolve Stack: Swords to Plowshares (266) - Exile Captain America, First Avenger (100). Dominic gains life equal to its power.
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Land: Syth played Plains (277)
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Resplendent Angel (204) to attack Jacinta.
+Information: BOARD attack | Syth -> Jacinta | attackers 1 (power 3) | defender life 41 | untapped creatures 2 (power 2): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2 | open mana 6
+Phase: Syth's Declare Blockers Step
+Combat: Jacinta didn't block Resplendent Angel (204).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Damage: Resplendent Angel (204) deals 3 combat damage to Jacinta.
+Life: Life: Jacinta 41 > 38
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 16 (Iarmod)
+Information: BOARD turn 16 (Iarmod) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Captain America's Shield(2)
+Information: BOARD turn 16 (Iarmod) | Jacinta | life 38 | hand 3 | lands 4 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4)
+Information: BOARD turn 16 (Iarmod) | Syth | life 40 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Resplendent Angel 3/3* | hand cards: Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 16 (Iarmod) | Iarmod | life 34 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Bucknard's Everfull Purse(2); Razorgrass Ambush(2); Thran Dynamo(4); Swords to Plowshares(1); Mana Vault(1)
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Replacement Effect: As Razorgrass Field enters, you may pay 3 life. If you don't, it enters tapped.
+Land: Iarmod played Razorgrass Field (313)
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Mana: Command Beacon (309) - {T}: Add {C}.
+Damage: Ancient Tomb (342) deals 2 non-combat damage to Iarmod.
+Life: Life: Iarmod 34 > 32
+Mana: Ancient Tomb (342) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Add To Stack: Iarmod cast Thran Dynamo
+Information: BOARD cast | Thran Dynamo (mv 4) by Iarmod | open mana: Dominic 3, Jacinta 6, Syth 3
+Resolve Stack: Thran Dynamo
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod cast Bucknard's Everfull Purse
+Information: BOARD cast | Bucknard's Everfull Purse (mv 2) by Iarmod | open mana: Dominic 3, Jacinta 6, Syth 3
+Resolve Stack: Bucknard's Everfull Purse
+Add To Stack: Iarmod cast Mana Vault
+Information: BOARD cast | Mana Vault (mv 1) by Iarmod | open mana: Dominic 3, Jacinta 6, Syth 3
+Resolve Stack: Mana Vault
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Puresteel Paladin(2); Winds of Abandon(2); Flawless Maneuver(3); Captain America's Shield(2)
+Information: BOARD turn 17 (Dominic) | Jacinta | life 38 | hand 3 | lands 4 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4)
+Information: BOARD turn 17 (Dominic) | Syth | life 40 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Resplendent Angel 3/3* | hand cards: Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 17 (Dominic) | Iarmod | life 32 | hand 2 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Enlightened Tutor(1)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Glacial Fortress (68) - {T}: Add {W} or {U}.
+Add To Stack: Dominic cast Puresteel Paladin
+Information: BOARD cast | Puresteel Paladin (mv 2) by Dominic | open mana: Jacinta 6, Syth 3, Iarmod 3
+Resolve Stack: Puresteel Paladin - Creature 2 / 2
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Mana: Talisman of Conviction (11) - {T}: Add {C}.
+Add To Stack: Dominic cast Captain America's Shield
+Information: BOARD cast | Captain America's Shield (mv 2) by Dominic | open mana: Jacinta 6, Syth 3, Iarmod 3
+Resolve Stack: Captain America's Shield
+Add To Stack: Dominic triggered Puresteel Paladin
+Resolve Stack: Whenever an Equipment you control enters, you may draw a card. [Zone Changer: Captain America's Shield (96)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Jacinta)
+Information: BOARD turn 18 (Jacinta) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Leonin Abunas(4)
+Information: BOARD turn 18 (Jacinta) | Jacinta | life 38 | hand 3 | lands 4 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4)
+Information: BOARD turn 18 (Jacinta) | Syth | life 40 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Resplendent Angel 3/3* | hand cards: Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 18 (Jacinta) | Iarmod | life 32 | hand 2 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Enlightened Tutor(1)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Land: Jacinta picked {W}
+Mana: Path of Ancestry (109) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Delighted Halfling (183) picked {U}
+Mana: Delighted Halfling (183) - {T}: Add one mana of any color. Spend this mana only to cast a legendary spell, and that spell can't be countered.
+Mana: Turbulent Crater (105) - {T}: Add {B}.
+Land: Jacinta picked {R}
+Mana: Rugged Highlands (114) - {T}: Add {R} or {G}.
+Mana: Forest (137) - {T}: Add {G}.
+Add To Stack: Jacinta cast Scion of the Ur-Dragon
+Information: BOARD cast | Scion of the Ur-Dragon (mv 5) by Jacinta | open mana: Dominic 0, Syth 3, Iarmod 3
+Add To Stack: Jacinta triggered Path of Ancestry
+Resolve Stack: Jacinta scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Scion of the Ur-Dragon - Creature 4 / 4]) [Card: Scion of the Ur-Dragon (201), Activator: Jacinta, SpellAbility: Scion of the Ur-Dragon - Creature 4 / 4]
+Resolve Stack: Scion of the Ur-Dragon - Creature 4 / 4
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Phase: Jacinta's Declare Blockers Step
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Land: Mox Jasper (143) picked {W}
+Mana: Mox Jasper (143) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Land: Jacinta picked {R}
+Mana: Ruby, Daring Tracker (180) - {T}: Add {R} or {G}.
+Add To Stack: Jacinta activated Scion of the Ur-Dragon
+Resolve Stack: The Ur-Dragon (201) - Jacinta searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. The Ur-Dragon (201) becomes a copy of The Ur-Dragon (201).
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 19 (Syth)
+Information: BOARD turn 19 (Syth) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Leonin Abunas(4)
+Information: BOARD turn 19 (Syth) | Jacinta | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 19 (Syth) | Syth | life 40 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Command | creatures 1 (0 untapped): Resplendent Angel 3/3* | hand cards: Linvala, Keeper of Silence(4); Path of Ancestry(land); Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7)
+Information: BOARD turn 19 (Syth) | Iarmod | life 32 | hand 2 | lands 4 (0 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Swords to Plowshares(1); Enlightened Tutor(1)
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (277) - {T}: Add {W}.
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: Syth cast Linvala, Keeper of Silence
+Information: BOARD cast | Linvala, Keeper of Silence (mv 4) by Syth | open mana: Dominic 0, Jacinta 0, Iarmod 3
+Resolve Stack: Linvala, Keeper of Silence - Creature 3 / 4
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Resplendent Angel (204) to attack Iarmod.
+Information: BOARD attack | Syth -> Iarmod | attackers 1 (power 3) | defender life 32 | untapped creatures 0 (power 0):  | open mana 3
+Phase: Syth's Declare Blockers Step
+Combat: Iarmod didn't block Resplendent Angel (204).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Damage: Resplendent Angel (204) deals 3 combat damage to Iarmod.
+Life: Life: Iarmod 32 > 29
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Replacement Effect: Path of Ancestry enters tapped.
+Land: Syth played Path of Ancestry (212)
+Phase: Syth's End step
+Mana: Mana Vault (356) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod activated Bucknard's Everfull Purse
+Resolve Stack: Bucknard's Everfull Purse (351) - Roll a d4 and create a number of Treasure tokens equal to the result. The player to your right gains control of Bucknard's Everfull Purse.  Syth gains control of Bucknard's Everfull Purse (351).
+Zone Change: Treasure Token (408) was put into Graveyard from Battlefield.
+Land: Treasure Token (408) picked {W}
+Mana: Treasure Token (408) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Iarmod cast Enlightened Tutor
+Information: BOARD cast | Enlightened Tutor (mv 1) by Iarmod | open mana: Dominic 0, Jacinta 0, Syth 0
+Resolve Stack: Enlightened Tutor (359) - Iarmod searches their library for an artifact or enchantment card, reveals it, puts it , then shuffles.
+Zone Change: Treasure Token (407) was put into Graveyard from Battlefield.
+Land: Treasure Token (407) picked {W}
+Mana: Treasure Token (407) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Iarmod cast Swords to Plowshares targeting [Resplendent Angel (204)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Iarmod | open mana: Dominic 0, Jacinta 0, Syth 0
+Zone Change: Resplendent Angel (204) was put into Exile from Battlefield.
+Life: Life: Syth 40 > 43
+Resolve Stack: Swords to Plowshares (380) - Exile Resplendent Angel (204). Syth gains life equal to its power.
+Phase: Syth's Cleanup step
+Turn: Turn 20 (Iarmod)
+Information: BOARD turn 20 (Iarmod) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Leonin Abunas(4)
+Information: BOARD turn 20 (Iarmod) | Jacinta | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 20 (Iarmod) | Syth | life 43 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2)
+Information: BOARD turn 20 (Iarmod) | Iarmod | life 29 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Mana: Razorgrass Field (313) - {T}: Add {W}.
+Mana: Mana Vault (356) - {T}: Add {C}{C}{C}.
+Mana: Command Beacon (309) - {T}: Add {C}.
+Add To Stack: Iarmod activated Paladin Class
+Resolve Stack: Paladin Class (349) - Level 3
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Leonin Abunas(4)
+Information: BOARD turn 21 (Dominic) | Jacinta | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 21 (Dominic) | Syth | life 43 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2)
+Information: BOARD turn 21 (Dominic) | Iarmod | life 29 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Mana: Glacial Fortress (68) - {T}: Add {W} or {U}.
+Mana: Talisman of Conviction (11) - {T}: Add {C}.
+Add To Stack: Dominic cast Leonin Abunas
+Information: BOARD cast | Leonin Abunas (mv 4) by Dominic | open mana: Jacinta 0, Syth 0, Iarmod 2
+Resolve Stack: Leonin Abunas - Creature 2 / 5
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Jacinta)
+Information: BOARD turn 22 (Jacinta) | Dominic | life 44 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 22 (Jacinta) | Jacinta | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Atarka, World Render(7); Lathliss, Dragon Queen(6); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 22 (Jacinta) | Syth | life 43 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2)
+Information: BOARD turn 22 (Jacinta) | Iarmod | life 29 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4)
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Phase: Jacinta's Main phase, precombat
+Land: Jacinta played Battlefield Forge (175)
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Combat: Jacinta assigned Scion of the Ur-Dragon (201) to attack Dominic.
+Information: BOARD attack | Jacinta -> Dominic | attackers 1 (power 4) | defender life 44 | untapped creatures 2 (power 4): Puresteel Paladin 2/2; Leonin Abunas 2/5 | open mana 0
+Phase: Jacinta's Declare Blockers Step
+Combat: Dominic didn't block Scion of the Ur-Dragon (201).
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Damage: Scion of the Ur-Dragon (201) deals 4 combat damage to Dominic.
+Life: Life: Dominic 44 > 40
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Land: Jacinta picked {R}
+Mana: Rugged Highlands (114) - {T}: Add {R} or {G}.
+Mana: Turbulent Crater (105) - {T}: Add {R}.
+Mana: Forest (137) - {T}: Add {G}.
+Land: Mox Jasper (143) picked {W}
+Mana: Mox Jasper (143) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Mana: Battlefield Forge (175) - {T}: Add {C}.
+Land: Jacinta picked {B}
+Mana: Path of Ancestry (109) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Jacinta cast Lathliss, Dragon Queen
+Information: BOARD cast | Lathliss, Dragon Queen (mv 6) by Jacinta | open mana: Dominic 0, Syth 0, Iarmod 2
+Add To Stack: Jacinta triggered Path of Ancestry
+Resolve Stack: Jacinta scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Lathliss, Dragon Queen - Creature 6 / 6]) [Card: Lathliss, Dragon Queen (152), Activator: Jacinta, SpellAbility: Lathliss, Dragon Queen - Creature 6 / 6]
+Resolve Stack: Lathliss, Dragon Queen - Creature 6 / 6
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 23 (Syth)
+Information: BOARD turn 23 (Syth) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 23 (Syth) | Jacinta | life 38 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 4 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 23 (Syth) | Syth | life 43 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Linvala, Keeper of Silence 3/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2)
+Information: BOARD turn 23 (Syth) | Iarmod | life 29 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4)
+Information: BOARD threat | turn 23 | Scion of the Ur-Dragon (Jacinta) 35
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Phase: Syth's Main phase, precombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (277) - {T}: Add {W}.
+Land: Syth picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: Syth cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Syth | open mana: Dominic 0, Jacinta 4, Iarmod 2
+Add To Stack: Syth triggered Path of Ancestry
+Resolve Stack: Syth scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Seluma, Light of Aysen - Creature 4 / 4]) [Card: Seluma, Light of Aysen (302), Activator: Syth, SpellAbility: Seluma, Light of Aysen - Creature 4 / 4]
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Linvala, Keeper of Silence (223) to attack Iarmod.
+Information: BOARD attack | Syth -> Iarmod | attackers 1 (power 3) | defender life 29 | untapped creatures 0 (power 0):  | open mana 2
+Phase: Syth's Declare Blockers Step
+Combat: Iarmod didn't block Linvala, Keeper of Silence (223).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Damage: Linvala, Keeper of Silence (223) deals 3 combat damage to Iarmod.
+Life: Life: Iarmod 29 > 26
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 24 (Iarmod)
+Information: BOARD turn 24 (Iarmod) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 24 (Iarmod) | Jacinta | life 38 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 4 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 24 (Iarmod) | Syth | life 43 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Linvala, Keeper of Silence 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2); Smuggler's Copter(2)
+Information: BOARD turn 24 (Iarmod) | Iarmod | life 26 | hand 1 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Smothering Tithe(4)
+Information: BOARD threat | turn 24 | Scion of the Ur-Dragon (Jacinta) 34
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Razorgrass Field (313) - {T}: Add {W}.
+Mana: Mana Vault (356) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod cast Smothering Tithe
+Information: BOARD cast | Smothering Tithe (mv 4) by Iarmod | open mana: Dominic 0, Jacinta 4, Syth 0
+Resolve Stack: Smothering Tithe
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 25 (Dominic) | Jacinta | life 38 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 4 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 25 (Dominic) | Syth | life 43 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Linvala, Keeper of Silence 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2); Smuggler's Copter(2)
+Information: BOARD turn 25 (Dominic) | Iarmod | life 26 | hand 1 | lands 4 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunscour(7)
+Information: BOARD threat | turn 25 | Scion of the Ur-Dragon (Jacinta) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Dominic]
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Jacinta)
+Information: BOARD turn 26 (Jacinta) | Dominic | life 40 | hand 7 | lands 3 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3); Codsworth, Handy Helper(3)
+Information: BOARD turn 26 (Jacinta) | Jacinta | life 38 | hand 3 | lands 5 (0 untapped) | open mana 4 | commander Battlefield | creatures 4 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Solemn Simulacrum(4); Wake the Dead(2)
+Information: BOARD turn 26 (Jacinta) | Syth | life 43 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Linvala, Keeper of Silence 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2); Smuggler's Copter(2)
+Information: BOARD turn 26 (Jacinta) | Iarmod | life 26 | hand 1 | lands 4 (2 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunscour(7)
+Information: BOARD threat | turn 26 | Scion of the Ur-Dragon (Jacinta) 31
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Jacinta]
+Phase: Jacinta's Main phase, precombat
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Combat: Jacinta assigned Lathliss, Dragon Queen (152) to attack Syth.
+Jacinta assigned Scion of the Ur-Dragon (201) to attack Dominic.
+Information: BOARD attack | Jacinta -> Syth | attackers 1 (power 6) | defender life 43 | untapped creatures 1 (power 4): Seluma, Light of Aysen 4/4 | open mana 0
+Information: BOARD attack | Jacinta -> Dominic | attackers 1 (power 4) | defender life 40 | untapped creatures 2 (power 4): Puresteel Paladin 2/2; Leonin Abunas 2/5 | open mana 6
+Phase: Jacinta's Declare Blockers Step
+Combat: Syth didn't block Lathliss, Dragon Queen (152).
+Combat: Dominic didn't block Scion of the Ur-Dragon (201).
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Damage: Scion of the Ur-Dragon (201) deals 4 combat damage to Dominic.
+Damage: Lathliss, Dragon Queen (152) deals 6 combat damage to Syth.
+Life: Life: Dominic 40 > 36
+Life: Life: Syth 43 > 37
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Mana: Forest (137) - {T}: Add {G}.
+Land: Jacinta picked {R}
+Mana: Rugged Highlands (114) - {T}: Add {R} or {G}.
+Mana: Turbulent Crater (105) - {T}: Add {R}.
+Land: Mox Jasper (143) picked {W}
+Mana: Mox Jasper (143) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Add To Stack: Jacinta cast Solemn Simulacrum
+Information: BOARD cast | Solemn Simulacrum (mv 4) by Jacinta | open mana: Dominic 6, Syth 0, Iarmod 4
+Resolve Stack: Solemn Simulacrum - Creature 2 / 2
+Add To Stack: Jacinta triggered Solemn Simulacrum
+Resolve Stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (140)]
+Phase: Jacinta's End step
+Phase: Jacinta's Cleanup step
+Turn: Turn 27 (Syth)
+Information: BOARD turn 27 (Syth) | Dominic | life 36 | hand 7 | lands 3 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3); Codsworth, Handy Helper(3)
+Information: BOARD turn 27 (Syth) | Jacinta | life 38 | hand 3 | lands 6 (2 untapped) | open mana 9 | commander Battlefield | creatures 5 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6*; Solemn Simulacrum 2/2 | hand cards: Atarka, World Render(7); Wake the Dead(2); Dragon's Hoard(3)
+Information: BOARD turn 27 (Syth) | Syth | life 37 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Linvala, Keeper of Silence 3/4*; Seluma, Light of Aysen 4/4 | hand cards: Gisela, the Broken Blade(4); Restoration Angel(4); Gisela, Blade of Goldnight(7); Thought Vessel(2); Smuggler's Copter(2)
+Information: BOARD turn 27 (Syth) | Iarmod | life 26 | hand 1 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunscour(7)
+Information: BOARD threat | turn 27 | Scion of the Ur-Dragon (Jacinta) 53; Lathliss, Dragon Queen (Jacinta) 35
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Phase: Syth's Main phase, precombat
+Land: Syth played Plains (272)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (277) - {T}: Add {W}.
+Land: Syth picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Add To Stack: Syth cast Restoration Angel
+Information: BOARD cast | Restoration Angel (mv 4) by Syth | open mana: Dominic 6, Jacinta 9, Iarmod 5
+Add To Stack: Syth triggered Path of Ancestry
+Resolve Stack: Syth scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Restoration Angel - Creature 3 / 4]) [Card: Restoration Angel (295), Activator: Syth, SpellAbility: Restoration Angel - Creature 3 / 4]
+Resolve Stack: Restoration Angel - Creature 3 / 4
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Seluma, Light of Aysen (302) and Linvala, Keeper of Silence (223) to attack Jacinta.
+Information: BOARD attack | Syth -> Jacinta | attackers 2 (power 7) | defender life 38 | untapped creatures 3 (power 4): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Solemn Simulacrum 2/2 | open mana 9
+Phase: Syth's Declare Blockers Step
+Combat: Jacinta didn't block Seluma, Light of Aysen (302).
+Jacinta didn't block Linvala, Keeper of Silence (223).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Damage: Seluma, Light of Aysen (302) deals 4 combat damage to Jacinta.
+Damage: Linvala, Keeper of Silence (223) deals 3 combat damage to Jacinta.
+Life: Life: Jacinta 38 > 31
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Mana: Plains (272) - {T}: Add {W}.
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: Syth cast Thought Vessel
+Information: BOARD cast | Thought Vessel (mv 2) by Syth | open mana: Dominic 6, Jacinta 9, Iarmod 5
+Resolve Stack: Thought Vessel
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 28 (Iarmod)
+Information: BOARD turn 28 (Iarmod) | Dominic | life 36 | hand 7 | lands 3 (1 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Puresteel Paladin 2/2; Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3); Codsworth, Handy Helper(3)
+Information: BOARD turn 28 (Iarmod) | Jacinta | life 31 | hand 3 | lands 6 (2 untapped) | open mana 9 | commander Battlefield | creatures 5 (3 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6*; Solemn Simulacrum 2/2 | hand cards: Atarka, World Render(7); Wake the Dead(2); Dragon's Hoard(3)
+Information: BOARD turn 28 (Iarmod) | Syth | life 37 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Linvala, Keeper of Silence 3/4*; Seluma, Light of Aysen 4/4*; Restoration Angel 3/4 | hand cards: Gisela, the Broken Blade(4); Gisela, Blade of Goldnight(7); Smuggler's Copter(2)
+Information: BOARD turn 28 (Iarmod) | Iarmod | life 26 | hand 1 | lands 4 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Sunscour(7)
+Information: BOARD threat | turn 28 | Scion of the Ur-Dragon (Jacinta) 51; Smothering Tithe (Iarmod) 41; Lathliss, Dragon Queen (Jacinta) 33; Linvala, Keeper of Silence (Syth) 32
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Mana: Razorgrass Field (313) - {T}: Add {W}.
+Zone Change: Treasure Token (417) was put into Graveyard from Battlefield.
+Land: Treasure Token (417) picked {W}
+Mana: Treasure Token (417) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Mana Vault (356) - {T}: Add {C}{C}{C}.
+Mana: Command Beacon (309) - {T}: Add {C}.
+Add To Stack: Iarmod cast Dack Fayden, Helping Hand
+Information: BOARD cast | Dack Fayden, Helping Hand (mv 6) by Iarmod | open mana: Dominic 6, Jacinta 9, Syth 1
+Resolve Stack: Dack Fayden, Helping Hand - Creature 4 / 6
+Add To Stack: Iarmod triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (403)]
+Add To Stack: Iarmod triggered Radiant Solar
+Add To Stack: Iarmod triggered Radiant Solar
+Add To Stack: Iarmod triggered Felidar Guardian targeting [Dack Fayden, Helping Hand (403)]
+Add To Stack: Iarmod triggered Radiant Solar
+Add To Stack: Iarmod triggered All-Fates Stalker targeting [Radiant Solar (367)]
+Zone Change: Radiant Solar (367) was put into Exile from Battlefield.
+Resolve Stack: When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield. (Targeting: [[Radiant Solar (367)]]) [Zone Changer: All-Fates Stalker (318)]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: All-Fates Stalker (318)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Life: Life: Iarmod 26 > 25
+Life: Life: Dominic 36 > 35
+Life: Life: Jacinta 31 > 30
+Life: Life: Syth 37 > 36
+Resolve Stack: Trapped Entry — Each player loses 1 life.  (Leads to: Veils of Fear, Oubliette) [Room: Trapped Entry]
+Zone Change: Dack Fayden, Helping Hand (403) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Dack Fayden, Helping Hand (403)]]) [Zone Changer: Felidar Guardian (369)]
+Add To Stack: Iarmod triggered Dack Fayden, Helping Hand
+Resolve Stack: When Dack Fayden enters, reveal cards from the top of your library until you reveal X creature cards, where X is the number of opponents you have. Put those creature cards onto the battlefield, then shuffle. They're goaded for the rest of the game. For each of those permanents, choose a different opponent. Each opponent gains control of the permanent for which they were chosen. [Zone Changer: Dack Fayden, Helping Hand (403)]
+Add To Stack: Iarmod triggered Preston, the Vanisher
+Add To Stack: Iarmod triggered Fiend Hunter targeting [Seluma, Light of Aysen (302)]
+Add To Stack: Iarmod triggered Preston, the Vanisher
+Add To Stack: Iarmod triggered Flickerwisp targeting [All-Fates Stalker (318)]
+Zone Change: All-Fates Stalker (318) was put into Exile from Battlefield.
+Resolve Stack: When Flickerwisp enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step. (Targeting: [[All-Fates Stalker (318)]]) [Zone Changer: Flickerwisp (316)]
+Add To Stack: Iarmod triggered Radiant Solar
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Radiant Solar (367)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Discard: Iarmod discards Sunscour (311).
+Life: Life: Dominic 35 > 33
+Life: Life: Jacinta 30 > 28
+Life: Life: Syth 36 > 34
+Resolve Stack: Veils of Fear — Each player loses 2 life unless they discard a card.  (Leads to: Sandfall Cell) [Room: Veils of Fear]
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Flickerwisp (316)]
+Add To Stack: Iarmod triggered Flickerwisp targeting [Felidar Guardian (369)]
+Zone Change: Felidar Guardian (369) was put into Exile from Battlefield.
+Resolve Stack: When Flickerwisp enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step. (Targeting: [[Felidar Guardian (369)]]) [Zone Changer: Flickerwisp (420)]
+Zone Change: Seluma, Light of Aysen (302) was put into Exile from Battlefield.
+Resolve Stack: When Fiend Hunter enters, you may exile another target creature. (Targeting: [[Seluma, Light of Aysen (302)]]) [Zone Changer: Fiend Hunter (373)]
+Resolve Stack: Whenever another nontoken creature you control enters, if it wasn't cast, create a token that's a copy of that creature except it's a 0/1 white Illusion. [Zone Changer: Fiend Hunter (373)]
+Add To Stack: Iarmod triggered Fiend Hunter targeting [Solemn Simulacrum (140)]
+Zone Change: Solemn Simulacrum (140) was put into Exile from Battlefield.
+Resolve Stack: When Fiend Hunter enters, you may exile another target creature. (Targeting: [[Solemn Simulacrum (140)]]) [Zone Changer: Fiend Hunter (422)]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Felidar Guardian (369)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Zone Change: Treasure Token (413) was put into Graveyard from Battlefield.
+Zone Change: Preston, the Vanisher (360) was put into Graveyard from Battlefield.
+Life: Life: Jacinta 28 > 26
+Life: Life: Syth 34 > 32
+Resolve Stack: Sandfall Cell — Each player loses 2 life unless they sacrifice an artifact, a creature, or a land.  (Leads to: Cradle of the Death God) [Room: Sandfall Cell]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Radiant Solar (367)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Resolve Stack: Cradle of the Death God — Create The Atropal, a legendary 4/4 black God Horror creature token with deathtouch. [Room: Cradle of the Death God]
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Damage: Ancient Tomb (342) deals 2 non-combat damage to Iarmod.
+Life: Life: Iarmod 25 > 23
+Mana: Ancient Tomb (342) - {T}: Add {C}{C}. Ancient Tomb deals 2 damage to you. 
+Add To Stack: Iarmod cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Iarmod | open mana: Dominic 6, Jacinta 9, Syth 1
+Resolve Stack: Sol Ring
+Phase: Iarmod's End step
+Add To Stack: Iarmod triggered Flickerwisp
+Add To Stack: Iarmod triggered Flickerwisp
+Resolve Stack: Return exiled permanent to the battlefield. ([Felidar Guardian (369)]) [Phase: Iarmod]
+Add To Stack: Iarmod triggered Radiant Solar
+Add To Stack: Iarmod triggered Felidar Guardian targeting [Radiant Solar (367)]
+Zone Change: Radiant Solar (367) was put into Exile from Battlefield.
+Resolve Stack: When Felidar Guardian enters, you may exile another target permanent you control, then return that card to the battlefield under your control. (Targeting: [[Radiant Solar (367)]]) [Zone Changer: Felidar Guardian (369)]
+Add To Stack: Iarmod triggered Radiant Solar
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Radiant Solar (367)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Life: Life: Iarmod 23 > 22
+Life: Life: Dominic 33 > 32
+Life: Life: Jacinta 26 > 25
+Life: Life: Syth 32 > 31
+Resolve Stack: Trapped Entry — Each player loses 1 life.  (Leads to: Veils of Fear, Oubliette) [Room: Trapped Entry]
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: Felidar Guardian (369)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Life: Life: Iarmod 22 > 20
+Life: Life: Dominic 32 > 30
+Life: Life: Jacinta 25 > 23
+Life: Life: Syth 31 > 29
+Resolve Stack: Veils of Fear — Each player loses 2 life unless they discard a card.  (Leads to: Sandfall Cell) [Room: Veils of Fear]
+Resolve Stack: Return exiled permanent to the battlefield. ([All-Fates Stalker (318)]) [Phase: Iarmod]
+Add To Stack: Iarmod triggered Radiant Solar
+Add To Stack: Iarmod triggered All-Fates Stalker targeting [Linvala, Keeper of Silence (223)]
+Zone Change: Linvala, Keeper of Silence (223) was put into Exile from Battlefield.
+Resolve Stack: When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield. (Targeting: [[Linvala, Keeper of Silence (223)]]) [Zone Changer: All-Fates Stalker (318)]
+Land: Jacinta picked {B}
+Mana: Path of Ancestry (109) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Jacinta picked {R}
+Mana: Ruby, Daring Tracker (180) - {T}: Add {R} or {G}.
+Add To Stack: Jacinta activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Silver Dragon (201) - Jacinta searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Silver Dragon (201) becomes a copy of Ancient Silver Dragon (201).
+Resolve Stack: Whenever Radiant Solar or another nontoken creature you control enters, venture into the dungeon. (Enter the first room or advance to the next room.) [Zone Changer: All-Fates Stalker (318)]
+Add To Stack: Iarmod triggered Tomb of Annihilation
+Zone Change: Sol Ring (352) was put into Graveyard from Battlefield.
+Zone Change: Puresteel Paladin (24) was put into Graveyard from Battlefield.
+Life: Life: Jacinta 23 > 21
+Life: Life: Syth 29 > 27
+Resolve Stack: Sandfall Cell — Each player loses 2 life unless they sacrifice an artifact, a creature, or a land.  (Leads to: Cradle of the Death God) [Room: Sandfall Cell]
+Phase: Iarmod's Cleanup step
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Dominic | life 30 | hand 7 | lands 3 (1 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Leonin Abunas 2/5 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3); Codsworth, Handy Helper(3)
+Information: BOARD turn 29 (Dominic) | Jacinta | life 21 | hand 3 | lands 6 (1 untapped) | open mana 4 | commander Battlefield | creatures 5 (2 untapped): Delighted Halfling 1/2; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6*; Fiend Hunter 1/3 | hand cards: Atarka, World Render(7); Wake the Dead(2); Dragon's Hoard(3)
+Information: BOARD turn 29 (Dominic) | Syth | life 27 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1 | hand cards: Gisela, the Broken Blade(4); Gisela, Blade of Goldnight(7); Smuggler's Copter(2)
+Information: BOARD turn 29 (Dominic) | Iarmod | life 20 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Dack Fayden, Helping Hand 5/7; Flickerwisp 1/2; Fiend Hunter 1/2; The Atropal 5/5; Felidar Guardian 2/5; Radiant Solar 4/7; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 29 | Scion of the Ur-Dragon (Jacinta) 63; Smothering Tithe (Iarmod) 40; Mana Vault (Iarmod) 37; Lathliss, Dragon Queen (Jacinta) 32
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Dominic]
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Battlefield Forge (70)
+Mana: Glacial Fortress (68) - {T}: Add {W} or {U}.
+Mana: Battlefield Forge (70) - {T}: Add {C}.
+Mana: Talisman of Conviction (11) - {T}: Add {C}.
+Add To Stack: Dominic cast Codsworth, Handy Helper
+Information: BOARD cast | Codsworth, Handy Helper (mv 3) by Dominic | open mana: Jacinta 4, Syth 1, Iarmod 0
+Resolve Stack: Codsworth, Handy Helper - Creature 2 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Mana: Delighted Halfling (183) - {T}: Add {C}.
+Mana: Battlefield Forge (175) - {T}: Add {C}.
+Add To Stack: Jacinta activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Gold Dragon (201) - Jacinta searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Gold Dragon (201) becomes a copy of Ancient Gold Dragon (201).
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 30 (Jacinta)
+Information: BOARD turn 30 (Jacinta) | Dominic | life 30 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 30 (Jacinta) | Jacinta | life 21 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4*; Lathliss, Dragon Queen 6/6*; Fiend Hunter 1/3 | hand cards: Atarka, World Render(7); Wake the Dead(2); Dragon's Hoard(3)
+Information: BOARD turn 30 (Jacinta) | Syth | life 27 | hand 3 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1 | hand cards: Gisela, the Broken Blade(4); Gisela, Blade of Goldnight(7); Smuggler's Copter(2)
+Information: BOARD turn 30 (Jacinta) | Iarmod | life 20 | hand 0 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (7 untapped): Dack Fayden, Helping Hand 5/7; Flickerwisp 1/2; Fiend Hunter 1/2; The Atropal 5/5; Felidar Guardian 2/5; Radiant Solar 4/7; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 30 | Scion of the Ur-Dragon (Jacinta) 75; Smothering Tithe (Iarmod) 53; Mana Vault (Iarmod) 36; Lathliss, Dragon Queen (Jacinta) 31
+Phase: Jacinta's Untap step
+Phase: Jacinta's Upkeep step
+Phase: Jacinta's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Mana: Turbulent Crater (105) - {T}: Add {B}.
+Mana: Plains (196) - {T}: Add {W}.
+Mana: Forest (137) - {T}: Add {G}.
+Land: Jacinta picked {R}
+Mana: Rugged Highlands (114) - {T}: Add {R} or {G}.
+Add To Stack: Jacinta cast Utter End targeting [Radiant Solar (367)]
+Information: BOARD cast | Utter End (mv 4) by Jacinta | open mana: Dominic 0, Syth 1, Iarmod 0
+Zone Change: Radiant Solar (367) was put into Exile from Battlefield.
+Resolve Stack: Utter End (147) - Exile Radiant Solar (367).
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Jacinta]
+Phase: Jacinta's Main phase, precombat
+Phase: Jacinta's Beginning of Combat Step
+Phase: Jacinta's Declare Attackers Step
+Combat: Jacinta assigned Fiend Hunter (373) to attack Syth.
+Information: BOARD attack | Jacinta -> Syth | attackers 1 (power 1) | defender life 27 | untapped creatures 2 (power 6): Restoration Angel 3/4; Flickerwisp 3/1 | open mana 1
+Phase: Jacinta's Declare Blockers Step
+Combat: Syth assigned Restoration Angel (295) to block Fiend Hunter (373).
+Phase: Jacinta's First Strike Damage Step
+Phase: Jacinta's Combat Damage Step
+Damage: Fiend Hunter (373) deals 1 damage to Restoration Angel (295).
+Damage: Restoration Angel (295) deals 3 damage to Fiend Hunter (373).
+Zone Change: Fiend Hunter (373) was put into Graveyard from Battlefield.
+Add To Stack: Jacinta triggered Fiend Hunter
+Resolve Stack: When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control. [Zone Changer: Fiend Hunter (373)]
+Phase: Jacinta's End of Combat Step
+Phase: Jacinta's Main phase, postcombat
+Land: Mox Jasper (143) picked {W}
+Mana: Mox Jasper (143) - {T}: Add one mana of any color. Activate only if you control a Dragon.
+Land: Jacinta picked {B}
+Mana: Path of Ancestry (109) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Land: Jacinta picked {R}
+Mana: Ruby, Daring Tracker (180) - {T}: Add {R} or {G}.
+Add To Stack: Jacinta cast Dragon's Hoard
+Information: BOARD cast | Dragon's Hoard (mv 3) by Jacinta | open mana: Dominic 0, Syth 1, Iarmod 1
+Resolve Stack: Dragon's Hoard
+Land: Dragon's Hoard (107) picked {W}
+Mana: Dragon's Hoard (107) - {T}: Add one mana of any color.
+Mana: Delighted Halfling (183) - {T}: Add {C}.
+Add To Stack: Jacinta activated Scion of the Ur-Dragon
+Resolve Stack: Ancient Bronze Dragon (201) - Jacinta searches their library for a Dragon card, puts it into its owner's graveyard, then shuffles. Ancient Bronze Dragon (201) becomes a copy of Ancient Bronze Dragon (201).
+Phase: Jacinta's End step
+Mana: Thought Vessel (235) - {T}: Add {C}.
+Add To Stack: Syth activated Bucknard's Everfull Purse
+Resolve Stack: Bucknard's Everfull Purse (351) - Roll a d4 and create a number of Treasure tokens equal to the result. The player to your right gains control of Bucknard's Everfull Purse.  Jacinta gains control of Bucknard's Everfull Purse (351).
+Phase: Jacinta's Cleanup step
+Turn: Turn 31 (Syth)
+Information: BOARD turn 31 (Syth) | Dominic | life 30 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 31 (Syth) | Jacinta | life 21 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Wake the Dead(2)
+Information: BOARD turn 31 (Syth) | Syth | life 27 | hand 3 | lands 6 (0 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1 | hand cards: Gisela, the Broken Blade(4); Gisela, Blade of Goldnight(7); Smuggler's Copter(2)
+Information: BOARD turn 31 (Syth) | Iarmod | life 20 | hand 0 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Dack Fayden, Helping Hand 5/7; Flickerwisp 1/2; Fiend Hunter 1/2; The Atropal 5/5; Felidar Guardian 2/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 31 | Scion of the Ur-Dragon (Jacinta) 87; Smothering Tithe (Iarmod) 65; Mana Vault (Iarmod) 34
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Phase: Syth's Main phase, precombat
+Land: Unclaimed Territory (245) picked {R}
+Mana: Unclaimed Territory (245) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Thought Vessel (235) - {T}: Add {C}.
+Mana: Plains (277) - {T}: Add {W}.
+Land: Syth picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (272) - {T}: Add {W}.
+Add To Stack: Syth cast Gisela, Blade of Goldnight
+Information: BOARD cast | Gisela, Blade of Goldnight (mv 7) by Syth | open mana: Dominic 0, Jacinta 3, Iarmod 2
+Add To Stack: Syth triggered Path of Ancestry
+Resolve Stack: Syth scried 1 card(s) to the top of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Gisela, Blade of Goldnight - Creature 5 / 5]) [Card: Gisela, Blade of Goldnight (252), Activator: Syth, SpellAbility: Gisela, Blade of Goldnight - Creature 5 / 5]
+Resolve Stack: Gisela, Blade of Goldnight - Creature 5 / 5
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Flickerwisp (316) to attack Dominic.
+Information: BOARD attack | Syth -> Dominic | attackers 1 (power 3) | defender life 30 | untapped creatures 2 (power 4): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | open mana 0
+Phase: Syth's Declare Blockers Step
+Combat: Dominic didn't block Flickerwisp (316).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Flickerwisp (316) deals 6 combat damage to Dominic.
+Life: Life: Dominic 30 > 24
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Zone Change: Treasure Token (435) was put into Graveyard from Battlefield.
+Land: Treasure Token (435) picked {W}
+Mana: Treasure Token (435) - {T}, Sacrifice this token: Add one mana of any color.
+Zone Change: Treasure Token (434) was put into Graveyard from Battlefield.
+Land: Treasure Token (434) picked {W}
+Mana: Treasure Token (434) - {T}, Sacrifice this token: Add one mana of any color.
+Add To Stack: Syth cast Smuggler's Copter
+Information: BOARD cast | Smuggler's Copter (mv 2) by Syth | open mana: Dominic 0, Jacinta 3, Iarmod 2
+Resolve Stack: Smuggler's Copter
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 32 (Iarmod)
+Information: BOARD turn 32 (Iarmod) | Dominic | life 24 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 32 (Iarmod) | Jacinta | life 21 | hand 2 | lands 6 (1 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Delighted Halfling 1/2*; Ruby, Daring Tracker 1/2*; Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | hand cards: Atarka, World Render(7); Wake the Dead(2)
+Information: BOARD turn 32 (Iarmod) | Syth | life 27 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 3 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5 | hand cards: Gisela, the Broken Blade(4); Faith's Reward(4)
+Information: BOARD turn 32 (Iarmod) | Iarmod | life 20 | hand 0 | lands 4 (0 untapped) | open mana 2 | commander Battlefield | creatures 6 (6 untapped): Dack Fayden, Helping Hand 5/7; Flickerwisp 1/2; Fiend Hunter 1/2; The Atropal 5/5; Felidar Guardian 2/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 32 | Scion of the Ur-Dragon (Jacinta) 83; Smothering Tithe (Iarmod) 77; Flickerwisp (Syth) 60; Path of Ancestry (Syth) 37; Mana Vault (Iarmod) 33
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Combat: Iarmod assigned Dack Fayden, Helping Hand (403), The Atropal (425), All-Fates Stalker (318), Felidar Guardian (369), Flickerwisp (420) and Fiend Hunter (422) to attack Jacinta.
+Information: BOARD attack | Iarmod -> Jacinta | attackers 6 (power 17) | defender life 21 | untapped creatures 2 (power 10): Scion of the Ur-Dragon 4/4; Lathliss, Dragon Queen 6/6 | open mana 3
+Add To Stack: Iarmod triggered Paladin Class targeting [Dack Fayden, Helping Hand (403)]
+Resolve Stack: Whenever you attack, until end of turn, target attacking creature gets +1/+1 for each other attacking creature and gains double strike. (Targeting: [[Dack Fayden, Helping Hand (403)]]) [Number Attackers: [Dack Fayden, Helping Hand (403), The Atropal (425), All-Fates Stalker (318), Felidar Guardian (369), Flickerwisp (420), Fiend Hunter (422)]]
+Phase: Iarmod's Declare Blockers Step
+Combat: Jacinta didn't block Dack Fayden, Helping Hand (403).
+Jacinta didn't block The Atropal (425).
+Jacinta didn't block All-Fates Stalker (318).
+Jacinta assigned Lathliss, Dragon Queen (152) to block Felidar Guardian (369).
+Jacinta assigned Scion of the Ur-Dragon (201) to block Flickerwisp (420).
+Jacinta didn't block Fiend Hunter (422).
+Phase: Iarmod's First Strike Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Dack Fayden, Helping Hand (403) deals 20 combat damage to Jacinta.
+Life: Life: Jacinta 21 > 1
+Phase: Iarmod's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Dack Fayden, Helping Hand (403) deals 20 combat damage to Jacinta.
+Damage: The Atropal (425) deals 10 combat damage to Jacinta.
+Damage: All-Fates Stalker (318) deals 6 combat damage to Jacinta.
+Damage: Felidar Guardian (369) deals 4 damage to Lathliss, Dragon Queen (152).
+Damage: Flickerwisp (420) deals 2 damage to Scion of the Ur-Dragon (201).
+Damage: Fiend Hunter (422) deals 2 combat damage to Jacinta.
+Damage: Lathliss, Dragon Queen (152) deals 12 damage to Felidar Guardian (369).
+Damage: Scion of the Ur-Dragon (201) deals 8 damage to Flickerwisp (420).
+Life: Life: Jacinta 1 > -37
+Zone Change: Flickerwisp (420) was put into Graveyard from Battlefield.
+Zone Change: Felidar Guardian (369) was put into Graveyard from Battlefield.
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Razorgrass Field (313) - {T}: Add {W}.
+Add To Stack: Iarmod cast Loyal Tutor
+Information: BOARD cast | Loyal Tutor (mv 1) by Iarmod | open mana: Dominic 0, Syth 1
+Resolve Stack: Loyal Tutor (348) - Iarmod searches their library for a planeswalker card, reveals it, puts it , then shuffles.
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Dominic | life 24 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Sword of Feast and Famine(3)
+Information: BOARD turn 33 (Dominic) | Syth | life 27 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 3 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5 | hand cards: Gisela, the Broken Blade(4); Faith's Reward(4)
+Information: BOARD turn 33 (Dominic) | Iarmod | life 20 | hand 0 | lands 4 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Dack Fayden, Helping Hand 5/7*; Fiend Hunter 1/2*; The Atropal 5/5*; All-Fates Stalker 3/4* | hand cards: 
+Information: BOARD threat | turn 33 | Dack Fayden, Helping Hand (Iarmod) 243; Smothering Tithe (Iarmod) 74; Flickerwisp (Syth) 58; The Atropal (Iarmod) 58; All-Fates Stalker (Iarmod) 47
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Dominic]
+Phase: Dominic's Main phase, precombat
+Land: Dominic played City of Brass (45)
+Mana: Glacial Fortress (68) - {T}: Add {W} or {U}.
+Mana: City of Brass (45) - {T}: Add one mana of any color.
+Mana: Codsworth, Handy Helper (47) - {T}: Add {W}{W}. Spend this mana only to cast Aura and/or Equipment spells.
+Add To Stack: Dominic cast Sword of Feast and Famine
+Information: BOARD cast | Sword of Feast and Famine (mv 3) by Dominic | open mana: Syth 1, Iarmod 8
+Add To Stack: Dominic triggered City of Brass
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: City of Brass (45) deals 2 non-combat damage to Dominic.
+Life: Life: Dominic 24 > 22
+Resolve Stack: Whenever City of Brass becomes tapped, it deals 1 damage to you. [Tapped: City of Brass (45)]
+Resolve Stack: Sword of Feast and Famine
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 34 (Syth)
+Information: BOARD turn 34 (Syth) | Dominic | life 22 | hand 5 | lands 5 (1 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3* | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1)
+Information: BOARD turn 34 (Syth) | Syth | life 27 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 3 (2 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5 | hand cards: Gisela, the Broken Blade(4); Faith's Reward(4)
+Information: BOARD turn 34 (Syth) | Iarmod | life 20 | hand 0 | lands 4 (2 untapped) | open mana 8 | commander Battlefield | creatures 4 (0 untapped): Dack Fayden, Helping Hand 5/7*; Fiend Hunter 1/2*; The Atropal 5/5*; All-Fates Stalker 3/4* | hand cards: 
+Information: BOARD threat | turn 34 | Dack Fayden, Helping Hand (Iarmod) 233; Smothering Tithe (Iarmod) 85; Flickerwisp (Syth) 55; The Atropal (Iarmod) 55; All-Fates Stalker (Iarmod) 45
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Phase: Syth's Main phase, precombat
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Flickerwisp (316) to attack Dominic.
+Information: BOARD attack | Syth -> Dominic | attackers 1 (power 3) | defender life 22 | untapped creatures 1 (power 2): Leonin Abunas 2/5 | open mana 6
+Phase: Syth's Declare Blockers Step
+Combat: Dominic didn't block Flickerwisp (316).
+Phase: Syth's First Strike Damage Step
+Phase: Syth's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Flickerwisp (316) deals 6 combat damage to Dominic.
+Life: Life: Dominic 22 > 16
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Thought Vessel (235) - {T}: Add {C}.
+Mana: Plains (277) - {T}: Add {W}.
+Add To Stack: Syth cast Gisela, the Broken Blade
+Information: BOARD cast | Gisela, the Broken Blade (mv 4) by Syth | open mana: Dominic 6, Iarmod 9
+Resolve Stack: Gisela, the Broken Blade - Creature 4 / 3
+Land: Syth picked {W}
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (272) - {T}: Add {W}.
+Add To Stack: Syth cast Giada, Font of Hope
+Information: BOARD cast | Giada, Font of Hope (mv 2) by Syth | open mana: Dominic 6, Iarmod 9
+Add To Stack: Syth triggered Path of Ancestry
+Resolve Stack: Syth scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Giada, Font of Hope - Creature 2 / 2]) [Card: Giada, Font of Hope (244), Activator: Syth, SpellAbility: Giada, Font of Hope - Creature 2 / 2]
+Resolve Stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 35 (Iarmod)
+Information: BOARD turn 35 (Iarmod) | Dominic | life 16 | hand 5 | lands 5 (1 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3* | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1)
+Information: BOARD turn 35 (Iarmod) | Syth | life 27 | hand 1 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 5 (4 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5; Gisela, the Broken Blade 4/3; Giada, Font of Hope 2/2 | hand cards: Faith's Reward(4)
+Information: BOARD turn 35 (Iarmod) | Iarmod | life 20 | hand 0 | lands 4 (2 untapped) | open mana 9 | commander Battlefield | creatures 4 (0 untapped): Dack Fayden, Helping Hand 5/7*; Fiend Hunter 1/2*; The Atropal 5/5*; All-Fates Stalker 3/4* | hand cards: 
+Information: BOARD threat | turn 35 | Dack Fayden, Helping Hand (Iarmod) 224; Smothering Tithe (Iarmod) 96; Flickerwisp (Syth) 88; The Atropal (Iarmod) 53; Path of Ancestry (Syth) 47
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod cast Tezzeret, Cruel Captain
+Information: BOARD cast | Tezzeret, Cruel Captain (mv 3) by Iarmod | open mana: Dominic 6, Syth 2
+Replacement Effect: Tezzeret, Cruel Captain enters with four loyalty counters on it.
+Resolve Stack: Tezzeret, Cruel Captain
+Add To Stack: Iarmod activated Tezzeret, Cruel Captain
+Resolve Stack: Tezzeret, Cruel Captain (353) - Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Add To Stack: Iarmod cast Voltaic Key
+Information: BOARD cast | Voltaic Key (mv 1) by Iarmod | open mana: Dominic 6, Syth 2
+Resolve Stack: Voltaic Key
+Add To Stack: Iarmod triggered Tezzeret, Cruel Captain
+Resolve Stack: Whenever an artifact you control enters, put a loyalty counter on Tezzeret. [Zone Changer: Voltaic Key (402)]
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 36 (Dominic)
+Information: BOARD turn 36 (Dominic) | Dominic | life 16 | hand 5 | lands 5 (1 untapped) | open mana 6 | commander Command | creatures 2 (1 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3* | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1)
+Information: BOARD turn 36 (Dominic) | Syth | life 27 | hand 1 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 5 (4 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5; Gisela, the Broken Blade 4/3; Giada, Font of Hope 2/2 | hand cards: Faith's Reward(4)
+Information: BOARD turn 36 (Dominic) | Iarmod | life 20 | hand 0 | lands 4 (3 untapped) | open mana 10 | commander Battlefield | creatures 4 (4 untapped): Dack Fayden, Helping Hand 5/7; Fiend Hunter 1/2; The Atropal 5/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 36 | Dack Fayden, Helping Hand (Iarmod) 215; Smothering Tithe (Iarmod) 92; Flickerwisp (Syth) 84; Mana Vault (Iarmod) 55; The Atropal (Iarmod) 51
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Sulfur Falls (53) - {T}: Add {U} or {R}.
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Dominic]
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Mana: Unclaimed Territory (245) - {T}: Add {C}.
+Add To Stack: Syth activated Bucknard's Everfull Purse
+Resolve Stack: Bucknard's Everfull Purse (351) - Roll a d4 and create a number of Treasure tokens equal to the result. The player to your right gains control of Bucknard's Everfull Purse.  Dominic gains control of Bucknard's Everfull Purse (351).
+Phase: Dominic's Cleanup step
+Turn: Turn 37 (Syth)
+Information: BOARD turn 37 (Syth) | Dominic | life 16 | hand 6 | lands 5 (3 untapped) | open mana 12 | commander Command | creatures 2 (2 untapped): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | hand cards: Iron Man, Titan of Innovation(5); Mana Drain(2); Winds of Abandon(2); Flawless Maneuver(3); Swords to Plowshares(1); Spectacular Spider-Man(2)
+Information: BOARD turn 37 (Syth) | Syth | life 27 | hand 1 | lands 6 (0 untapped) | open mana 3 | commander Command | creatures 5 (4 untapped): Restoration Angel 3/4; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5; Gisela, the Broken Blade 4/3; Giada, Font of Hope 2/2 | hand cards: Faith's Reward(4)
+Information: BOARD turn 37 (Syth) | Iarmod | life 20 | hand 0 | lands 4 (3 untapped) | open mana 10 | commander Battlefield | creatures 4 (4 untapped): Dack Fayden, Helping Hand 5/7; Fiend Hunter 1/2; The Atropal 5/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 37 | Dack Fayden, Helping Hand (Iarmod) 206; Smothering Tithe (Iarmod) 103; Flickerwisp (Syth) 81; Mana Vault (Iarmod) 53; The Atropal (Iarmod) 49
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Add To Stack: Iarmod triggered Tezzeret, Cruel Captain
+Resolve Stack: Whenever an artifact you control enters, put a loyalty counter on Tezzeret. [Zone Changer: Treasure Token (452)]
+Phase: Syth's Main phase, precombat
+Phase: Syth's Beginning of Combat Step
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Restoration Angel (295), Flickerwisp (316), Gisela, Blade of Goldnight (252), Gisela, the Broken Blade (213) and Giada, Font of Hope (244) to attack Dominic.
+Information: BOARD attack | Syth -> Dominic | attackers 5 (power 17) | defender life 16 | untapped creatures 2 (power 4): Leonin Abunas 2/5; Codsworth, Handy Helper 2/3 | open mana 12
+Phase: Syth's Declare Blockers Step
+Combat: Dominic didn't block Restoration Angel (295).
+Dominic didn't block Flickerwisp (316).
+Dominic didn't block Gisela, Blade of Goldnight (252).
+Dominic didn't block Gisela, the Broken Blade (213).
+Dominic didn't block Giada, Font of Hope (244).
+Phase: Syth's First Strike Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Gisela, Blade of Goldnight (252) deals 10 combat damage to Dominic.
+Damage: Gisela, the Broken Blade (213) deals 8 combat damage to Dominic.
+Life: Life: Syth 27 > 35
+Life: Life: Dominic 16 > -2
+Phase: Syth's Combat Damage Step
+Phase: Syth's End of Combat Step
+Phase: Syth's Main phase, postcombat
+Land: Syth played Plains (288)
+Mana: Plains (291) - {T}: Add {W}.
+Mana: Thought Vessel (235) - {T}: Add {C}.
+Mana: Plains (289) - {T}: Add {W}.
+Mana: Plains (277) - {T}: Add {W}.
+Mana: Path of Ancestry (212) - {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Mana: Plains (272) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Syth cast Seluma, Light of Aysen
+Information: BOARD cast | Seluma, Light of Aysen (mv 5) by Syth | open mana: Iarmod 11
+Add To Stack: Syth triggered Path of Ancestry
+Resolve Stack: Syth scried 1 card(s) to the bottom of the library
+Resolve Stack: When mana produced by Path of Ancestry is spent to cast a creature spell that shares a creature type with your commander, scry 1. ([Seluma, Light of Aysen - Creature 4 / 4]) [Card: Seluma, Light of Aysen (302), Activator: Syth, SpellAbility: Seluma, Light of Aysen - Creature 4 / 4]
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve Stack: Seluma, Light of Aysen - Creature 4 / 4
+Phase: Syth's End step
+Phase: Syth's Cleanup step
+Turn: Turn 38 (Iarmod)
+Information: BOARD turn 38 (Iarmod) | Syth | life 35 | hand 1 | lands 7 (1 untapped) | open mana 5 | commander Battlefield | creatures 6 (2 untapped): Restoration Angel 3/4*; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5*; Gisela, the Broken Blade 4/3*; Giada, Font of Hope 2/2; Seluma, Light of Aysen 8/8 | hand cards: Faith's Reward(4)
+Information: BOARD turn 38 (Iarmod) | Iarmod | life 20 | hand 0 | lands 4 (3 untapped) | open mana 11 | commander Battlefield | creatures 4 (4 untapped): Dack Fayden, Helping Hand 5/7; Fiend Hunter 1/2; The Atropal 5/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 38 | Dack Fayden, Helping Hand (Iarmod) 198; Smothering Tithe (Iarmod) 113; Flickerwisp (Syth) 78; Gisela, Blade of Goldnight (Syth) 58; Path of Ancestry (Syth) 56
+Phase: Iarmod's Untap step
+Phase: Iarmod's Upkeep step
+Add To Stack: Iarmod triggered Mana Vault
+Resolve Stack: At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact. [Phase: Iarmod]
+Phase: Iarmod's Draw step
+Phase: Iarmod's Main phase, precombat
+Add To Stack: Iarmod activated Tezzeret, Cruel Captain
+Zone Change: Tezzeret, Cruel Captain (353) was put into Graveyard from Battlefield.
+Resolve Stack: Tezzeret, Cruel Captain (353) - Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+Phase: Iarmod's Beginning of Combat Step
+Phase: Iarmod's Declare Attackers Step
+Phase: Iarmod's Declare Blockers Step
+Phase: Iarmod's First Strike Damage Step
+Phase: Iarmod's Combat Damage Step
+Phase: Iarmod's End of Combat Step
+Phase: Iarmod's Main phase, postcombat
+Mana: Thran Dynamo (321) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod cast Expedition Map
+Information: BOARD cast | Expedition Map (mv 1) by Iarmod | open mana: Syth 5
+Resolve Stack: Expedition Map
+Zone Change: Expedition Map (379) was put into Graveyard from Battlefield.
+Add To Stack: Iarmod activated Expedition Map
+Resolve Stack: Expedition Map (379) - Iarmod searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Land: Iarmod played The Mycosynth Gardens (357)
+Mana: Snow-Covered Plains (393) - {T}: Add {W}.
+Add To Stack: Iarmod cast Vexing Bauble
+Information: BOARD cast | Vexing Bauble (mv 1) by Iarmod | open mana: Syth 5
+Resolve Stack: Vexing Bauble
+Mana: Razorgrass Field (313) - {T}: Add {W}.
+Zone Change: Vexing Bauble (397) was put into Graveyard from Battlefield.
+Add To Stack: Iarmod activated Vexing Bauble
+Resolve Stack: Vexing Bauble (397) - Iarmod draws a card.
+Zone Change: Treasure Token (452) was put into Graveyard from Battlefield.
+Mana: Treasure Token (452) - {T}, Sacrifice this token: Add one mana of any color.
+Mana: Mana Vault (356) - {T}: Add {C}{C}{C}.
+Add To Stack: Iarmod cast Blind Obedience
+Information: BOARD cast | Blind Obedience (mv 2) by Iarmod | open mana: Syth 5
+Resolve Stack: Blind Obedience
+Add To Stack: Iarmod activated Voltaic Key targeting [Mana Vault (356)]
+Resolve Stack: Voltaic Key (402) - Untap Mana Vault (356).
+Phase: Iarmod's End step
+Phase: Iarmod's Cleanup step
+Turn: Turn 39 (Syth)
+Information: BOARD turn 39 (Syth) | Syth | life 35 | hand 1 | lands 7 (1 untapped) | open mana 5 | commander Battlefield | creatures 6 (2 untapped): Restoration Angel 3/4*; Flickerwisp 3/1*; Gisela, Blade of Goldnight 5/5*; Gisela, the Broken Blade 4/3*; Giada, Font of Hope 2/2; Seluma, Light of Aysen 8/8 | hand cards: Faith's Reward(4)
+Information: BOARD turn 39 (Syth) | Iarmod | life 20 | hand 0 | lands 5 (3 untapped) | open mana 10 | commander Battlefield | creatures 4 (4 untapped): Dack Fayden, Helping Hand 5/7; Fiend Hunter 1/2; The Atropal 5/5; All-Fates Stalker 3/4 | hand cards: 
+Information: BOARD threat | turn 39 | Dack Fayden, Helping Hand (Iarmod) 190; Smothering Tithe (Iarmod) 109; Flickerwisp (Syth) 74; Mana Vault (Iarmod) 63; Gisela, Blade of Goldnight (Syth) 55
+Phase: Syth's Untap step
+Phase: Syth's Upkeep step
+Phase: Syth's Draw step
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Phase: Syth's Main phase, precombat
+Land: Syth played Plains (278)
+Phase: Syth's Beginning of Combat Step
+Add To Stack: Syth activated Smuggler's Copter
+Resolve Stack: Smuggler's Copter (240) - Smuggler's Copter (240) becomes an artifact creature until end of turn.
+Phase: Syth's Declare Attackers Step
+Combat: Syth assigned Flickerwisp (316), Seluma, Light of Aysen (302), Gisela, Blade of Goldnight (252), Gisela, the Broken Blade (213), Restoration Angel (295) and Smuggler's Copter (240) to attack Iarmod.
+Information: BOARD attack | Syth -> Iarmod | attackers 6 (power 26) | defender life 20 | untapped creatures 4 (power 14): Dack Fayden, Helping Hand 5/7; Fiend Hunter 1/2; The Atropal 5/5; All-Fates Stalker 3/4 | open mana 11
+Add To Stack: Syth triggered Smuggler's Copter
+Discard: Syth discards Breath of Life (219).
+Resolve Stack: Whenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card. [Attacker: Smuggler's Copter (240)]
+Add To Stack: Iarmod triggered Smothering Tithe
+Resolve Stack: Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Player: Syth]
+Phase: Syth's Declare Blockers Step
+Combat: Iarmod didn't block Flickerwisp (316).
+Iarmod didn't block Seluma, Light of Aysen (302).
+Iarmod didn't block Gisela, Blade of Goldnight (252).
+Iarmod didn't block Gisela, the Broken Blade (213).
+Iarmod didn't block Restoration Angel (295).
+Iarmod didn't block Smuggler's Copter (240).
+Phase: Syth's First Strike Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Gisela, Blade of Goldnight (252) deals 10 combat damage to Iarmod.
+Damage: Gisela, the Broken Blade (213) deals 8 combat damage to Iarmod.
+Life: Life: Syth 35 > 43
+Life: Life: Iarmod 20 > 2
+Phase: Syth's Combat Damage Step
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Replacement Effect: If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+Damage: Flickerwisp (316) deals 6 combat damage to Iarmod.
+Damage: Seluma, Light of Aysen (302) deals 16 combat damage to Iarmod.
+Damage: Restoration Angel (295) deals 6 combat damage to Iarmod.
+Damage: Smuggler's Copter (240) deals 6 combat damage to Iarmod.
+Life: Life: Iarmod 2 > -32
+Player Control: Dominic has restored control over themself
+Player Control: Jacinta has restored control over themself
+Player Control: Syth has restored control over themself
+Player Control: Iarmod has restored control over themself
+Game Outcome: Match Duration 8m : 39s
+Game Outcome: Turn 20
+Game Outcome: Dominic has lost because life total reached 0
+Game Outcome: Jacinta has lost because life total reached 0
+Game Outcome: Syth has won because all opponents have lost
+Game Outcome: Iarmod has lost because life total reached 0
+Match Result: Dominic: 0 Jacinta: 0 Syth: 1 Iarmod: 0 
+
+Game Result: Syth has won
