@@ -59,3 +59,16 @@
 # A portable JDK fetched by scripts\setup.ps1 when the machine has none. Downloaded, not
 # committed - 180 MB, and whichever build is current is fine.
 /tools/jdk/
+
+# Machine-local Forge runtime files. These are written by Forge on every run and every one of
+# us has our own, so committing them means the next person's "git pull" ABORTS rather than
+# overwrite the copy already sitting in their working tree - which is exactly what happened on
+# 2026-10-28 ("other people who just update scripts cant pull properly now"). The line above
+# saying preferences are kept means the ones we choose to share, not these.
+/forge-data/preferences/editor.xml
+/forge-data/preferences/deck.preferences
+/forge-data/decks-archive/
+
+# Bug reports written before reportDir() learned where it was running from; the real ones live
+# in scratch/bug-reports.
+/forge-installer-2.0.15/scratch/
