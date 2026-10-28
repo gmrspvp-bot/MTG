@@ -49,6 +49,26 @@ abstract class TableLayout extends TableCamera {
         return mi;
     }
 
+    /** How much of a phased-out permanent is still visible. */
+    static final float GHOST = 0.34f;
+
+    /**
+     * Make an instance see-through, or solid again.
+     *
+     * The blending attribute is added and removed rather than left on with opacity 1, because a
+     * card left in the blended queue sorts differently from an opaque one and the board would
+     * quietly change how it draws the moment anything phased.
+     */
+    static void ghost(ModelInstance inst, boolean on) {
+        if (inst == null || inst.materials.size == 0) return;
+        com.badlogic.gdx.graphics.g3d.Material mat = inst.materials.get(0);
+        if (on) {
+            mat.set(new com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute(GHOST));
+        } else {
+            mat.remove(com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute.Type);
+        }
+    }
+
     /** Called once a frame, before layout(): every pooled instance is free again. */
     void poolReset() {
         for (int[] u : poolUsed.values()) u[0] = 0;
@@ -1538,6 +1558,33 @@ abstract class TableLayout extends TableCamera {
             // Set every frame, lit or dim, because pooled face instances are reused across cards.
             boolean dim = targeting != null && seat != null && !targeting.legal.contains(c.id);
             d.face.materials.get(0).set(dim ? FACE_DIM : FACE_LIT);
+        }
+
+        // Phased out (CR 702.26). The card is on the battlefield and is treated as though it
+        // were not there at all: it cannot block, cannot be targeted, its abilities do nothing,
+        // and what it was attached to is no longer attached to anything. Forge has always known
+        // (CardView.isPhasedOut) and the table never showed it, so a phased-out creature sat in
+        // the line looking exactly like one that could block.
+        //
+        // So it is drawn as the ghost of itself: see-through, cold, and ringed in pale blue. It
+        // is deliberately still THERE and still in its place in the row - it comes back on its
+        // controller's next untap step, and a board you cannot find it on is harder to plan
+        // against than one where it is plainly standing aside.
+        //
+        // Set every frame, both ways, because the instances are pooled and the card that used
+        // this one last frame may not be this one.
+        ghost(d.inst, c.phasedOut);
+        if (d.face != null) {
+            ghost(d.face, c.phasedOut);
+            if (c.phasedOut) d.face.materials.get(0).set(FACE_PHASED);
+        }
+        if (c.phasedOut && seat != null) {
+            // Outranks every other marker: nothing else on this card is true while it is phased
+            // out, so a green "you can click this" slab under it would be a lie.
+            d.marker = inst(phasedModel);
+            d.marker.transform.set(d.inst.transform).translate(0f, MARKER_DROP, 0f);
+            drawn.add(d);
+            return;
         }
         // Targeting mode outranks the other markers: legal targets violet, picked ones gold.
         if (targeting != null && seat != null && targeting.legal.contains(c.id)) {

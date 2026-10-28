@@ -164,20 +164,60 @@ public final class Gui3D implements InvocationHandler {
 
     /**
      * In a joined game there is no Input object to name, so the board modes (targets, attack,
-     * block, pay, mulligan) are switched from Forge's prompt text and the phase instead. English
-     * prompts only; if it guesses wrong the worst case is a mode that does not appear - clicks still
-     * go to the host, which judges them, and Forge's own window still works.
+     * block, pay, mulligan) are switched from Forge's prompt text instead. English prompts only;
+     * if it guesses wrong the worst case is a mode that does not appear - clicks still go to the
+     * host, which judges them, and Forge's own window still works.
+     *
+     * It used to read the phase as well, and that was wrong in a way that cost the owner every
+     * combat of every opponent's turn (2026-10-28: "its asking for my response all the time, even
+     * on enemy turns when they arent attacking me, and i have skipping on").
+     *
+     * The reason is that Forge's ORDINARY priority prompt names the phase in its own text.
+     * InputBase.getTurnPhasePriorityMessage builds this, every time anybody gets priority:
+     *
+     *     Priority:Dominic
+     *     Turn:7 (Derand)
+     *     Phase:Declare Attackers
+     *     Stack:Empty
+     *
+     * Lower-cased, that contains "declare attackers" - so a plain priority window in somebody
+     * else's combat was read as InputAttack, and TableInput.autoPassOthersTurns refuses to pass
+     * anything that is not InputPassPriority (rightly: it must never answer a combat question for
+     * you). The skip therefore stopped dead at every opponent's attack step and waited for a
+     * click, and the combat overlay lit up creatures on a turn you could not attack on. The
+     * declare-blockers step hit the same line and was only saved by attackersAimedAtMe().
+     *
+     * So the standard priority prompt is now recognised for what it is and answered first. It is
+     * unmistakable: nothing else in Forge prints both a "phase:" and a "stack:" line.
+     *
+     * What is left matches the words Forge's actual combat inputs use - lblSelectAttackCreatures
+     * ("Select creatures to attack"), lblSelectBlocker ("Select creatures to block"),
+     * lblDeclareAttackersForCard - not the name of the phase. InputAttack carries one more guard:
+     * you can only ever be asked to declare attackers on your own turn, so if the turn is not
+     * ours the answer is no, whatever the words say.
      */
     static String inferInput(forge.game.GameView gv) {
         String m = PROMPT.message == null ? "" : PROMPT.message.toLowerCase();
-        String phase = gv == null || gv.getPhase() == null ? "" : gv.getPhase().name();
         if (m.contains("bottom of your library") && m.contains("select")) return "InputLondonMulligan";
         if (m.contains("mulligan") || m.contains("keep your hand") || m.contains("keep this hand")) return "InputConfirmMulligan";
-        if (m.contains("declare attackers") || (phase.equals("COMBAT_DECLARE_ATTACKERS") && m.contains("attack"))) return "InputAttack";
-        if (m.contains("declare blockers") || (phase.equals("COMBAT_DECLARE_BLOCKERS") && m.contains("block"))) return "InputBlock";
+        // The ordinary pass, named by its own shape before any word in it is read.
+        if (m.contains("phase:") && m.contains("stack:")) return "InputPassPriority";
+        if (m.contains("creatures to attack") || m.contains("wish to attack")
+                || m.contains("declare attackers for")) {
+            if (myTurn(gv)) return "InputAttack";
+        }
+        if (m.contains("creatures to block") || m.contains("declare blockers for")
+                || m.contains("attacker to declare blockers")) return "InputBlock";
         if (m.contains("pay mana cost") || (m.startsWith("pay") && m.contains("mana"))) return "InputPayManaOfCostPayment";
         if (m.contains("target")) return "InputSelectTargets";
         return "InputPassPriority";
+    }
+
+    /** Is the joined game's current turn ours? False when we do not yet know who we are. */
+    private static boolean myTurn(forge.game.GameView gv) {
+        forge.game.player.PlayerView me = remoteViewer;
+        if (gv == null || me == null) return false;
+        return me.equals(gv.getPlayerTurn());
     }
 
     /**

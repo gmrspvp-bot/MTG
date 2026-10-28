@@ -50,7 +50,7 @@ public final class HelpCard {
         { "SHIFT + 7 / 8 / 9", "save where the camera is standing now" },
         { "", "" },
         { "", "" },
-        { "F1  /  F2", "this help    -    report a bug" },
+        { "F1  /  F2", "this help    -    the flag list (kinds of bug, one click each)" },
         { "F", "follow the turn on and off" },
         { "", "" },
         { "", "CONTROLLER  (if one is plugged in)" },
@@ -64,14 +64,14 @@ public final class HelpCard {
         { "LB / RB", "walk round the table    -    L3  seat    -    R3  overhead" },
         { "right stick", "orbit, and push up for overhead" },
         { "triggers", "zoom in and out" },
-        { "Back", "report a bug" },
+        { "Back", "the flag list" },
         { "", "" },
         { "", "OTHER" },
         { "L", "hide the game log    -    M  sound" },
         { "H", "hand the current decision back to Forge's window" },
         { "V", "put a question aside to look at the board; V brings it back" },
         { "ESC", "close a panel, or open the menu - concede and undo live there" },
-        { "the red cog", "report a bug - the board state is attached for you" },
+        { "FLAG, top right", "the list of bug kinds - it stays up, and one click files one" },
     };
 
     private final float[] btn = { 0f, 0f, 0f, 0f };

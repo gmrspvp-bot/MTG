@@ -32,84 +32,137 @@ public final class BugReport {
 
     private static final int MAX_CHARS = 600;
 
+    /**
+     * The kinds of thing that go wrong, as buttons.
+     *
+     * The cog used to open a Swing text box, and that was the wrong shape for the job (the owner,
+     * 2026-10-28). A bug happens mid-turn, with the game waiting on somebody; stopping to type a
+     * paragraph in a window that is not even the 3D one means either the moment passes or the
+     * report never gets written. One click on the right label is a report, filed where it
+     * happened, with the whole board attached - and the board is the part that has actually
+     * solved these, not the prose.
+     *
+     * The label is what the button says; the slug goes in the file name so a folder of reports
+     * can be read, sorted and grepped by kind without opening any of them.
+     *
+     * Order matters: the ones that have actually bitten us are at the top, where they can be hit
+     * without reading the list.
+     */
+    static final String[][] KINDS = {
+        { "No chance to respond",   "response"   },
+        { "Turn / phase skipped",   "skipped"    },
+        { "Priority is wrong",      "priority"   },
+        { "Click refused",          "refused"    },
+        { "Creature ability",       "creature"   },
+        { "Triggered ability",      "trigger"    },
+        { "Activated ability",      "activated"  },
+        { "Targeting",              "targeting"  },
+        { "Mana / payment",         "mana"       },
+        { "Attacking",              "attack"     },
+        { "Blocking",               "block"      },
+        { "Combat damage",          "damage"     },
+        { "Stack / resolution",     "stack"      },
+        { "Search / library",       "search"     },
+        { "Counters / tokens",      "counters"   },
+        { "Copy / clone",           "copy"       },
+        { "Card text is wrong",     "cardtext"   },
+        { "Card picture missing",   "art"        },
+        { "Something on screen",    "display"    },
+        { "Network / out of sync",  "network"    },
+        { "Crash or freeze",        "crash"      },
+        { "Describe it myself...",  "typed"      },
+    };
+
+    private static final float ROW_H = 21f, MENU_W = 196f, PAD = 6f;
+
     private String lastSaved;
     private long lastSavedAt;
     private volatile boolean asking;
 
-    /** Screen rect of the cog, so the click test and the drawing cannot drift apart. */
+    /** Screen rect of the FLAG button, so the click test and the drawing cannot drift apart. */
     private final float[] cog = { 0f, 0f, 0f, 0f };
 
     /**
-     * Opens a real text box and writes the report when it is answered.
+     * Is the list of kinds on screen?
      *
-     * The first version drew its own box and collected characters from libGDX's keyTyped. It
-     * opened, and then nothing could be typed into it - and an in-window text field also has to
-     * reimplement a caret, selection, backspace and paste before it is as good as the one every
-     * other program already has. libGDX provides getTextInput for exactly this, which on desktop
-     * puts up a proper dialog, so the typing problem and the readability problem both go away by
-     * not writing a text field at all.
+     * It stays up until it is closed. That is the whole point of it: the owner asked for a menu
+     * that "needs to stay on the 3d screen", so that when something goes wrong the report is one
+     * click away rather than a click to open plus a click to file. It is deliberately NOT a panel
+     * in TableBase.panelOpen()'s sense - the game carries on underneath it, keys still work, and
+     * cards behind it are still live; it only eats clicks that land on itself.
      */
-    public void ask(final Snapshot snap) {
-        if (asking) return;
-        asking = true;
-        Keys3D.block(true);   // the dialog owns the keyboard now
-        // A Swing dialog, not libGDX's getTextInput. getTextInput is declared on Input but the
-        // LWJGL3 backend does not implement it - it silently does nothing, which is exactly what
-        // happened: the cog opened no box and logged no error. Forge is a Swing application in
-        // this same JVM, so JOptionPane is available, gives a real text field with a caret and
-        // paste, and parents onto the game window.
-        javax.swing.SwingUtilities.invokeLater(() -> {
-            try {
-                javax.swing.JTextArea area = new javax.swing.JTextArea(5, 44);
-                area.setLineWrap(true);
-                area.setWrapStyleWord(true);
-                javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(area);
-                Object[] content = {
-                    "What went wrong? The board state is attached automatically.", scroll
-                };
-                // Built by hand rather than showConfirmDialog, so it can be put on top. The 3D
-                // window is a GLFW window, not a Swing one, so Swing cannot parent to it - and
-                // without alwaysOnTop the box opens behind the 3D view, which is where the owner
-                // kept finding it: "this dialogue opened on forge ui, not the 3d ui".
-                javax.swing.JOptionPane pane = new javax.swing.JOptionPane(content,
-                    javax.swing.JOptionPane.PLAIN_MESSAGE, javax.swing.JOptionPane.OK_CANCEL_OPTION);
-                javax.swing.JDialog dlg = pane.createDialog(parentWindow(), "Report a bug");
-                dlg.setAlwaysOnTop(true);
-                dlg.toFront();
-                area.requestFocusInWindow();
-                dlg.setVisible(true);
-                Object picked = pane.getValue();
-                int r = (picked instanceof Integer) ? (Integer) picked
-                    : javax.swing.JOptionPane.CANCEL_OPTION;
-                dlg.dispose();
-                if (r == javax.swing.JOptionPane.OK_OPTION) submit(snap, area.getText());
-            } catch (Throwable t) {
-                System.out.println("UI3D: could not open the bug box (" + t + ")");
-            } finally {
-                asking = false;
-                Keys3D.block(false);
-            }
-        });
-    }
+    private boolean menuOpen;
 
-    /** The biggest showing window, so the dialog lands on the game rather than behind it. */
-    private static java.awt.Window parentWindow() {
-        java.awt.Window best = null;
-        long bestArea = -1;
-        for (java.awt.Window w : java.awt.Window.getWindows()) {
-            if (!(w instanceof java.awt.Frame) || !w.isShowing()) continue;
-            long area = (long) w.getWidth() * w.getHeight();
-            if (area > bestArea) { bestArea = area; best = w; }
-        }
-        return best;
+    /** Screen rect of the open menu, for the click test and for keeping clicks off the board. */
+    private final float[] menu = { 0f, 0f, 0f, 0f };
+
+    /** The row the mouse is on, or -1, worked out while drawing and reused by the click test. */
+    private int hoverRow = -1;
+
+    /** What the last flag was, so the confirmation can name it. */
+    private String lastKind = "";
+
+    // ---- the menu -------------------------------------------------------------------------------
+
+    /** Is the list of kinds on screen? */
+    public boolean isMenuOpen() { return menuOpen; }
+
+    /** Open or shut the list. */
+    public void toggleMenu() { menuOpen = !menuOpen; }
+
+    /** Shut the list. */
+    public void closeMenu() { menuOpen = false; }
+
+    /** Is the mouse over the open menu? Used to keep a click off the board underneath it. */
+    public boolean overMenu(float mx, float my) {
+        return menuOpen && mx >= menu[0] && mx <= menu[0] + menu[2]
+            && my >= menu[1] && my <= menu[1] + menu[3];
     }
 
     /**
-     * True while the bug dialog is open.
+     * Which row the mouse is on, or -1. Worked out while drawing so the hit test and the
+     * highlight can never disagree about where a row is.
+     */
+    public int rowAt(float mx, float my) {
+        if (!overMenu(mx, my)) return -1;
+        int i = (int) ((menu[1] + menu[3] - PAD - my) / ROW_H);
+        return i >= 0 && i < KINDS.length ? i : -1;
+    }
+
+    /** The label of a row, for a caller that wants to name it. */
+    public static String label(int row) {
+        return row >= 0 && row < KINDS.length ? KINDS[row][0] : "";
+    }
+
+    /** The file-name slug of a row. */
+    public static String slug(int row) {
+        return row >= 0 && row < KINDS.length ? KINDS[row][1] : "other";
+    }
+
+    /** Is this the row that asks for words rather than filing straight away? */
+    public static boolean isTypedRow(int row) {
+        return "typed".equals(slug(row));
+    }
+
+    /**
+     * File a report of this kind, now, with no questions asked.
      *
-     * The 3D window must stop reading the keyboard while it is: libGDX polls GLFW key state
-     * rather than consuming events, so it keeps seeing keys even when a Swing dialog has
-     * focus - typing a bug report was also passing priority and ending turns.
+     * One click is the whole interaction. `note` is whatever the player chose to add, which for
+     * every row but the last is nothing at all - and that is fine, because the board state is
+     * the part that has actually solved these.
+     */
+    public File flag(Snapshot snap, int row, String note) {
+        return submit(snap, note, label(row), slug(row));
+    }
+
+    /**
+     * True while something else owns the keyboard on the 3D window's behalf.
+     *
+     * There is no longer anything that can set this: the Swing box is gone (2026-10-28, the
+     * owner: "if this new window defaults to forge ui i will not be pleased"). Every kind files
+     * on the click, and the one row that wants words opens the 3D window's own TextPanel, which
+     * blocks keys itself. Kept because the input loop asks, and because it says plainly in one
+     * place that nothing here leaves the 3D window any more.
      */
     public boolean isAsking() {
         return asking;
@@ -122,54 +175,110 @@ public final class BugReport {
 
     // ---- drawing --------------------------------------------------------------------------------
 
-    /** The cog, top right. Bigger and brighter than the first attempt, which was hard to pick out. */
+    /**
+     * The FLAG button, top right, and the list of kinds under it when it is open.
+     *
+     * The cog it replaces was a picture of a cog that opened a window somewhere else. This says
+     * what it does and the thing it opens is right underneath it, in this window.
+     */
     public void drawCog(ShapeRenderer shapes, SpriteBatch ui, BitmapFont font, int w, int h, Matrix4 flat) {
-        float size = 34f, x = w - size - 16f, y = h - size - 16f;
-        cog[0] = x; cog[1] = y; cog[2] = size; cog[3] = size;
-        boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY());
+        float bw = 76f, bh = 26f, x = w - bw - 16f, y = h - bh - 14f;
+        cog[0] = x; cog[1] = y; cog[2] = bw; cog[3] = bh;
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        boolean hot = overCog(mx, my);
 
         Gdx.gl.glEnable(GL20.GL_BLEND);
         shapes.setProjectionMatrix(flat);
         shapes.begin(ShapeRenderer.ShapeType.Filled);
-        shapes.setColor(hot ? 0.98f : 0.74f, hot ? 0.30f : 0.16f, hot ? 0.24f : 0.14f, 1f);
-        shapes.rect(x, y, size, size);
+        // Brighter while the list is open, so it reads as a thing that is currently switched on.
+        float r = menuOpen ? 0.95f : hot ? 0.88f : 0.62f;
+        shapes.setColor(r, menuOpen ? 0.34f : hot ? 0.28f : 0.15f, menuOpen ? 0.26f : hot ? 0.22f : 0.13f, 1f);
+        shapes.rect(x, y, bw, bh);
         shapes.setColor(0.03f, 0.08f, 0.12f, 1f);
-        shapes.rect(x + 14f, y + 5f, 6f, size - 10f);
-        shapes.rect(x + 5f, y + 14f, size - 10f, 6f);
-        shapes.setColor(1f, hot ? 0.80f : 0.62f, hot ? 0.70f : 0.52f, 1f);
-        shapes.rect(x + 13f, y + 13f, 8f, 8f);
+        shapes.rect(x + 2f, y + 2f, bw - 4f, bh - 4f);
+        shapes.end();
+
+        if (menuOpen) drawMenuBox(shapes, w, h, flat, mx, my);
+    }
+
+    /** The list itself: one row per kind, hanging off the bottom of the button. */
+    private void drawMenuBox(ShapeRenderer shapes, int w, int h, Matrix4 flat, float mx, float my) {
+        float mh = KINDS.length * ROW_H + PAD * 2f;
+        float x = w - MENU_W - 16f, y = cog[1] - 6f - mh;
+        menu[0] = x; menu[1] = y; menu[2] = MENU_W; menu[3] = mh;
+        hoverRow = rowAt(mx, my);
+
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        // Nearly opaque. It sits over the board and the board must not read through the labels,
+        // which is the mistake the hover panel made before it was given a solid backing.
+        shapes.setColor(0.04f, 0.06f, 0.09f, 0.95f);
+        shapes.rect(x, y, MENU_W, mh);
+        shapes.setColor(0.62f, 0.15f, 0.13f, 1f);
+        shapes.rect(x, y + mh - 2f, MENU_W, 2f);
+        if (hoverRow >= 0) {
+            float ry = y + mh - PAD - (hoverRow + 1) * ROW_H;
+            shapes.setColor(0.70f, 0.20f, 0.17f, 1f);
+            shapes.rect(x + 3f, ry, MENU_W - 6f, ROW_H - 1f);
+        }
         shapes.end();
     }
 
-    /** The hover label and the saved confirmation. */
+    /** The button's word, the row labels, the hover hint and the confirmation. */
     public void drawCogText(SpriteBatch ui, BitmapFont font, int w, int h) {
-        boolean hot = overCog(Gdx.input.getX(), h - Gdx.input.getY());
-        if (hot) {
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        boolean hot = overCog(mx, my);
+        font.setColor(1f, hot || menuOpen ? 0.86f : 0.70f, hot || menuOpen ? 0.80f : 0.62f, 1f);
+        font.draw(ui, menuOpen ? "FLAG  x" : "FLAG", cog[0] + 14f, cog[1] + 18f);
+        if (hot && !menuOpen) {
             font.setColor(1f, 0.78f, 0.70f, 1f);
-            font.draw(ui, "report a bug  (F2, or Back)", w - 230f, h - 58f);
+            font.draw(ui, "flag a bug  (F2, or Back)", w - 240f, cog[1] - 6f);
+        }
+        if (menuOpen) {
+            float x = menu[0] + 10f, top = menu[1] + menu[3] - PAD;
+            for (int i = 0; i < KINDS.length; i++) {
+                boolean on = i == hoverRow;
+                if (isTypedRow(i)) font.setColor(on ? 1f : 0.62f, on ? 0.95f : 0.68f, on ? 0.80f : 0.52f, 1f);
+                else font.setColor(on ? 1f : 0.80f, on ? 0.94f : 0.76f, on ? 0.92f : 0.74f, 1f);
+                font.draw(ui, KINDS[i][0], x, top - i * ROW_H - 5f);
+            }
         }
         if (lastSaved != null && System.currentTimeMillis() - lastSavedAt < 8000) {
             font.setColor(0.55f, 0.92f, 0.62f, 1f);
-            font.draw(ui, "bug report saved: " + lastSaved, w - 400f, h - 76f);
+            font.draw(ui, "flagged: " + lastKind + "  ->  " + lastSaved,
+                w - 460f, menuOpen ? menu[1] - 10f : cog[1] - 26f);
         }
     }
 
     // ---- writing --------------------------------------------------------------------------------
 
-    /** Writes the report and closes the box. Returns the file, or null if it could not be written. */
+    /** Writes the report. Returns the file, or null if it could not be written. */
     public File submit(Snapshot snap, String typed) {
+        return submit(snap, typed, "Unsorted", "other");
+    }
+
+    /**
+     * Writes the report under a kind.
+     *
+     * The kind is in the file name as well as in the text, so `scratch/bug-reports` sorts itself
+     * into piles and a morning's worth of flags can be read by eye: six `_response` files in one
+     * game says something that one of them on its own does not.
+     */
+    public File submit(Snapshot snap, String typed, String kindLabel, String kindSlug) {
         String what = typed == null ? "" : typed.trim();
+        if (what.length() > MAX_CHARS) what = what.substring(0, MAX_CHARS);
         try {
             File dir = reportDir();
             if (!dir.isDirectory() && !dir.mkdirs()) return null;
             String stamp = new SimpleDateFormat("yyyy-MM-dd_HHmmss").format(new Date());
-            File f = new File(dir, "bug_" + stamp + ".md");
+            File f = new File(dir, "bug_" + stamp + "_" + kindSlug + ".md");
             try (Writer w = new OutputStreamWriter(new FileOutputStream(f), StandardCharsets.UTF_8)) {
-                write(w, what, snap, stamp);
+                write(w, what, snap, stamp, kindLabel, kindSlug);
             }
             lastSaved = f.getName();
+            lastKind = kindLabel;
             lastSavedAt = System.currentTimeMillis();
-            System.out.println("UI3D: bug report written to " + f.getAbsolutePath());
+            System.out.println("UI3D: flagged [" + kindSlug + "] -> " + f.getAbsolutePath());
             return f;
         } catch (Throwable t) {
             System.out.println("UI3D: could not write the bug report (" + t + ")");
@@ -186,10 +295,15 @@ public final class BugReport {
         return rel.getParentFile().isDirectory() ? rel : new File("scratch/bug-reports");
     }
 
-    private void write(Writer w, String what, Snapshot s, String stamp) throws Exception {
-        w.write("# Bug report " + stamp + "\n\n");
+    private void write(Writer w, String what, Snapshot s, String stamp,
+                       String kindLabel, String kindSlug) throws Exception {
+        w.write("# " + kindLabel + " - " + stamp + "\n\n");
+        w.write("- kind: `" + kindSlug + "`\n\n");
         w.write("## What happened\n\n");
-        w.write((what.isEmpty() ? "_(nothing typed)_" : what) + "\n\n");
+        w.write((what.isEmpty()
+            ? "_Flagged from the table with one click - everything below is what the board"
+              + " looked like at that moment._"
+            : what) + "\n\n");
 
         w.write("## Game\n\n");
         w.write("- turn: `" + s.turnLabel + "`\n");
@@ -291,6 +405,7 @@ public final class BugReport {
         if (!c.manaCost.isEmpty()) b.append(' ').append(c.manaCost);
         if (c.creature && !c.power.isEmpty()) b.append(' ').append(c.power).append('/').append(c.toughness);
         if (c.tapped) b.append(" [tapped]");
+        if (c.phasedOut) b.append(" [PHASED OUT]");
         if (c.attacking) b.append(" [attacking]");
         if (c.blocking) b.append(" [blocking]");
         if (c.commander) b.append(" [commander]");

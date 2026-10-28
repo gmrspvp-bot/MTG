@@ -28,6 +28,14 @@ public final class Snapshot {
         public boolean tapped;
         /** Summoning sick and without haste: cannot attack or tap this turn (CardView.isSick). */
         public boolean sick;
+        /**
+         * Phased out: on the battlefield, and treated as though it did not exist (CR 702.26).
+         *
+         * It cannot block, cannot be targeted, its abilities do nothing and nothing it is
+         * attached to counts it. Forge knows (CardView.isPhasedOut) and the table did not, so a
+         * phased-out creature sat on the battlefield looking exactly like one that could block.
+         */
+        public boolean phasedOut;
         public boolean creature;
         public boolean land;
         public boolean artifact;

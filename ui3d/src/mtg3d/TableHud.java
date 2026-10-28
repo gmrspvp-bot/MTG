@@ -76,7 +76,6 @@ abstract class TableHud extends TableScene {
             font.draw(ui, a, w - 190, 18);
         }
         drawPhasePanel(w, h);
-        bug.drawCogText(ui, font, w, h);
         help.drawButtonText(ui, font, w, h);
         help.draw(shapes, ui, font, fontBig, w, h,
             new com.badlogic.gdx.math.Matrix4().setToOrtho2D(0, 0, w, h));
@@ -141,7 +140,6 @@ abstract class TableHud extends TableScene {
         if (hovered != null && (search == null || search.hoveredCard() == null)) {
             drawDetailPanel(w, h, flat);
         }
-        bug.drawCog(shapes, ui, font, w, h, flat);
         help.drawButton(shapes, w, h, flat);
         // Last of all, over everything. It used to be drawn before the seat names, the zone
         // labels and the life totals, all of which are printed on the board behind it - so the
@@ -159,6 +157,28 @@ abstract class TableHud extends TableScene {
      * Everything here is one card over the top of a panel that is already finished, so it owns
      * its own drawing and takes no part in the overlay's batching.
      */
+    /**
+     * FLAG, and its list, over everything.
+     *
+     * Drawn in a pass of its own at the very end of the frame rather than with the rest of the
+     * overlay, because the search and choice panels are drawn after the overlay is: with the
+     * button in the overlay the list came out UNDERNEATH a panel while still answering clicks,
+     * which is the worst of both. A bug is most worth flagging while a panel is up and something
+     * has gone wrong on it, so this one goes last.
+     *
+     * Owns its batches. Nothing else is open at this point in the frame.
+     */
+    void drawFlag() {
+        int w = Gdx.graphics.getWidth(), h = Gdx.graphics.getHeight();
+        Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
+        bug.drawCog(shapes, ui, font, w, h, flat);      // opens and closes its own shape pass
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        bug.drawCogText(ui, font, w, h);
+        ui.end();
+        font.setColor(1f, 1f, 1f, 1f);
+    }
+
     void drawPanelHover() {
         Snapshot.CardV inPanel = search == null ? null : search.hoveredCard();
         if (inPanel == null) return;
@@ -192,7 +212,13 @@ abstract class TableHud extends TableScene {
         Vector3 a = new Vector3(), b = new Vector3();
         for (Drawn d : drawn) {
             Snapshot.CardV c = d.card;
-            if (d.seat == null || d.face == null || !art.hasPicture(c)) continue;   // battlefield, real art
+            if (d.seat == null) continue;                                          // battlefield only
+
+            // A phased-out card gets its chip whether or not Forge has a picture for it. The
+            // other chips are decoration on a card you can already read; this one says the card
+            // is not really there, and a generated face is no reason to leave that off.
+            boolean phased = c != null && c.phasedOut;
+            if (!phased && (d.face == null || !art.hasPicture(c))) continue;        // real art
             if (c.attachedToId >= 0 && hostTargets.containsKey(c.attachedToId)) continue;   // under its host
             // On-screen width of the card, to skip ones too small (or seen edge-on) for a chip.
             cam.project(a.set(-CARD_W / 2f, 0f, 0f).mul(d.inst.transform));
@@ -201,8 +227,12 @@ abstract class TableHud extends TableScene {
             // Both chips stack at the bottom-right corner (counters above P/T): side by side, a
             // counter chip on the left corner ran into the neighbouring card's P/T chip.
             float lift = 0f;
+            if (phased) {
+                lift = badge(d, "PHASED OUT", 0f, new Color(0.62f, 0.82f, 1f, 1f),
+                             gl, boxes, texts, colours);
+            }
             if (c.creature && !c.power.isEmpty()) {
-                lift = badge(d, c.power + "/" + c.toughness, 0f, new Color(0.96f, 0.93f, 0.82f, 1f),
+                lift = badge(d, c.power + "/" + c.toughness, lift, new Color(0.96f, 0.93f, 0.82f, 1f),
                              gl, boxes, texts, colours);
             }
             if (c.counters > 0) {
@@ -1803,6 +1833,7 @@ abstract class TableHud extends TableScene {
         if (c.creature && !c.power.isEmpty()) lines.add(c.power + " / " + c.toughness);
         if (c.counters > 0) lines.add(c.counters + " counters");
         if (c.tapped) lines.add("(tapped)");
+        if (c.phasedOut) lines.add("(PHASED OUT - as though it were not there)");
         if (!c.stackText.isEmpty()) {
             lines.addAll(wrap("ON THE STACK: " + c.stackText, panelW - 24f));
         }
@@ -1859,6 +1890,7 @@ abstract class TableHud extends TableScene {
         else if (c.counters > 0) lines.add(c.counters + " counters");
         if (!c.attachedTo.isEmpty()) lines.addAll(wrap("Attached to " + c.attachedTo, picW - pad * 2));
         List<String> state = new ArrayList<>();
+        if (c.phasedOut) state.add("PHASED OUT - treated as though it were not there");
         if (c.attacking) state.add("attacking");
         if (c.blocking) state.add("blocking");
         if (c.tapped) state.add("tapped");

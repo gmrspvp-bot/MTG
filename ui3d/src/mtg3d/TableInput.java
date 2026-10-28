@@ -733,9 +733,12 @@ abstract class TableInput extends TableHud {
         // ended turns underneath it. Pad reads go through the same gate.
         if (bug.isAsking()) return;
         padBindings();
-        // The cog is always live, so a bug can be reported whatever else is happening. It opens
-        // a proper text dialog rather than an in-window field, so there is no typing state here.
-        if (clickedCog()) { bug.ask(snap); return; }
+        // FLAG is always live, so a bug can be flagged whatever else is happening - and the list
+        // it opens stays open, which is the point of it: when something goes wrong mid-turn the
+        // report is one click, not "open the thing, then find the thing, then type".
+        if (clickedCog()) { bug.toggleMenu(); clickedCard(); return; }
+        if (bug.isMenuOpen() && flagMenuClick()) return;
+        if (bug.isMenuOpen() && Keys3D.just(Input.Keys.ESCAPE)) { bug.closeMenu(); return; }
         // HELP, next to the cog: the keys on screen. Checked before anything else can take the
         // click, the same way the cog is, so it works whatever else is happening.
         if (clickedHelp()) { help.toggle(); return; }
@@ -935,7 +938,7 @@ abstract class TableInput extends TableHud {
         // controller cannot reach a tickbox in a corner, and neither can someone playing from
         // the keyboard (the owner, 2026-10-21).
         if (Keys3D.just(Input.Keys.F1)) help.toggle();
-        if (Keys3D.just(Input.Keys.F2)) { bug.ask(snap); return; }
+        if (Keys3D.just(Input.Keys.F2)) { bug.toggleMenu(); return; }
         if (Keys3D.just(Input.Keys.F)) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
         if (Keys3D.just(Input.Keys.R)) {
             askResponses = !askResponses;
@@ -1110,7 +1113,7 @@ abstract class TableInput extends TableHud {
             System.out.println("UI3D: handing the current decision back to Forge (pad)");
         }
         if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_Y)) help.toggle();
-        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_BACK)) { bug.ask(snap); return; }
+        if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_BACK)) { bug.toggleMenu(); return; }
         // Start is ENTER (confirm) via Keys3D; the overhead toggle moved to R3 so the two do
         // not share a button.
         if (Pad.just(org.lwjgl.glfw.GLFW.GLFW_GAMEPAD_BUTTON_RIGHT_THUMB)) {
@@ -1180,26 +1183,35 @@ abstract class TableInput extends TableHud {
         // (2026-10-22, the whole step lasted under a second). Discards, sacrifices and the like
         // are the same trap.
         //
-        // With the owner's refinement (2026-10-26): a block declaration is only a block
-        // declaration if somebody is actually attacking you. That matters on a CLIENT, where
-        // there is no Input object to name and the window has to guess from the prompt text -
-        // anything with "block" in it during the declare-blockers step reads as InputBlock, so a
-        // plain priority window in that step would have stalled the skip for a player nobody was
-        // attacking. Being attacked is read from the combat itself, not from the words.
-        if ("InputBlock".equals(p.inputName)) {
-            if (attackersAimedAtMe()) {
-                if (!blockHeld) {
-                    blockHeld = true;
-                    toast("Attackers declared against you - skipping is paused",
-                        Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.56f);
-                }
-                return;
+        // With the owner's refinement (2026-10-26): it is only combat's business if somebody is
+        // actually attacking you. Being attacked is read from the combat itself, not from the
+        // words of the prompt, so the answer is the same on the host and on a client.
+        //
+        // THE HOLD IS ON THE COMBAT, NOT ON THE PROMPT (2026-10-28). It used to hang off the
+        // InputBlock branch alone, which worked only because a client misread every combat
+        // priority window as InputBlock - a bug in Gui3D.inferInput that stopped the skip at
+        // every opponent's attack step whether or not you were in it. Fixing that guess would,
+        // on its own, have taken the opposite thing away: once attackers are declared against
+        // you there is a round of ORDINARY priority before blockers, and that round is where
+        // Teferi's Protection, Flawless Maneuver and every removal spell gets cast. Passing it
+        // for you is the same loss as declaring no blocks for you.
+        //
+        // So the moment anything is pointed at you, the skip stops and stays stopped for the
+        // rest of the combat, through every priority window and the block declaration alike. It
+        // ends itself: the arcs go when combat does, and the skip picks up again.
+        boolean underAttack = inCombat() && attackersAimedAtMe();
+        if (underAttack) {
+            if (!blockHeld) {
+                blockHeld = true;
+                toast("Attackers declared against you - skipping is paused",
+                    Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.56f);
             }
-        } else if (!"InputPassPriority".equals(p.inputName)) {
             return;
-        } else {
-            blockHeld = false;
         }
+        blockHeld = false;
+        // Nobody is attacking us. A block declaration here is a formality with nothing in it,
+        // but it is still not a thing to answer blind - only the plain pass is.
+        if (!"InputPassPriority".equals(p.inputName)) return;
         if (!p.okEnabled) return;
         if (!p.okLabel.isEmpty() && !"OK".equalsIgnoreCase(p.okLabel)) return;   // a named question
         Object token = p.token;
@@ -1319,6 +1331,18 @@ abstract class TableInput extends TableHud {
             if (a.defenderCardId >= 0 && onMyBattlefield(a.defenderCardId)) return true;
         }
         return false;
+    }
+
+    /**
+     * Are we inside a combat phase right now?
+     *
+     * A belt to attackersAimedAtMe's braces. The arcs come from the snapshot, and a snapshot that
+     * arrived late or was never cleared would otherwise wedge the skip for a whole turn with a
+     * combat that is already over. The phase says plainly whether combat is still running.
+     */
+    boolean inCombat() {
+        String k = snap.phaseKey == null ? "" : snap.phaseKey;
+        return k.startsWith("COMBAT");
     }
 
     /** True when that card id is a permanent of ours. */
@@ -1513,7 +1537,46 @@ abstract class TableInput extends TableHud {
         return justDown && help.overButton(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
     }
 
-    /** True on the frame the left button goes down on the bug cog. */
+    /** Its own click edge, so the list cannot share one with the board under it. */
+    private boolean leftWasDownFlag;
+
+    /**
+     * A click on the open flag list: file that kind and say so.
+     *
+     * Everything is filed on the click itself - no box, no window, nothing that could land on
+     * the Forge UI (the owner, 2026-10-28: "if this new window defaults to forge ui i will not
+     * be pleased"). The one row that wants words opens the 3D window's OWN TextPanel, the same
+     * field Forge's free-text questions already use, which draws on this table and blocks the
+     * game's keys while it is up.
+     *
+     * The list is left open afterwards. A game that is going wrong usually goes wrong more than
+     * once, and closing it would mean re-opening it every time.
+     *
+     * clickedCard() is called whatever happens, to eat the click edge: without it a click on a
+     * row would also play whatever card was sitting behind the list.
+     */
+    boolean flagMenuClick() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
+        boolean justDown = down && !leftWasDownFlag;
+        leftWasDownFlag = down;
+        float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+        if (!justDown) return bug.overMenu(mx, my);     // still swallow drags over the list
+        if (!bug.overMenu(mx, my)) return false;
+        clickedCard();
+        int row = bug.rowAt(mx, my);
+        if (row < 0) return true;
+        if (BugReport.isTypedRow(row)) {
+            final Snapshot s = snap;
+            text.open("Flag a bug", "What went wrong?", "", false, typed -> {
+                if (typed != null) bug.submit(s, typed, "Described by hand", "typed");
+            });
+            return true;
+        }
+        bug.flag(snap, row, "");
+        return true;
+    }
+
+    /** True on the frame the left button goes down on the FLAG button. */
     boolean clickedCog() {
         // A on the pad counts as the left button, so every picker, pad and panel that already
         // works from a click works from the controller with no second code path.

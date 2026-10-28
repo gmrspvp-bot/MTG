@@ -549,6 +549,7 @@ public final class StateReader {
             Gui3D.remember(v.id, cv);
             v.tapped = cv.isTapped();
             try { v.sick = cv.isSick(); } catch (Throwable ignored) { }
+            try { v.phasedOut = cv.isPhasedOut(); } catch (Throwable ignored) { }
             if (cv.getController() != null) v.controller = cv.getController().getName();
 
             boolean visible;

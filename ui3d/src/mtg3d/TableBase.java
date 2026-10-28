@@ -177,6 +177,8 @@ abstract class TableBase extends ApplicationAdapter {
 
     Targeting targeting;
     Model targetModel, pickedModel, blockModel;
+    /** The ring under a phased-out permanent. See Table3D where it is built. */
+    Model phasedModel;
     /** Teal, the ability ribbon's colour: a permanent whose ability is on the stack or being chosen. */
     Model sourceModel;
 
@@ -248,6 +250,14 @@ abstract class TableBase extends ApplicationAdapter {
     /** Shared, never mutated: the card picture at full brightness, and dimmed for a non-target. */
     static final ColorAttribute FACE_LIT = ColorAttribute.createDiffuse(Color.WHITE);
     static final ColorAttribute FACE_DIM = ColorAttribute.createDiffuse(new Color(0.38f, 0.38f, 0.42f, 1f));
+    /**
+     * A phased-out permanent, drawn as the ghost of itself.
+     *
+     * Colder and darker than FACE_DIM, which is only "not a legal target just now" - this
+     * one means the card is not on the battlefield in any way that matters (CR 702.26), and
+     * it has to be told apart from a card that is merely greyed out.
+     */
+    static final ColorAttribute FACE_PHASED = ColorAttribute.createDiffuse(new Color(0.30f, 0.40f, 0.52f, 1f));
 
     /** True while any panel owns the keyboard and mouse, so the table must not react underneath it. */
     /**

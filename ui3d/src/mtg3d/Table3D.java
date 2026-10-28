@@ -120,6 +120,11 @@ public final class Table3D extends TableInput {
         // Declaring blockers: a creature assigned to block, in the blue of the block arcs.
         blockModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.30f, 0.62f, 1f, 1f))), attrs);
+        // Phased out: a pale, cold slab, wider than any other marker so it reads as "this is not
+        // here" rather than as one more state the card is in. Phasing is rare and it changes
+        // what the board MEANS - a phased-out blocker cannot block - so it is worth the room.
+        phasedModel = builder.createBox(CARD_W * 1.30f, 0.02f, CARD_H * 1.22f,
+            new Material(ColorAttribute.createDiffuse(new Color(0.46f, 0.60f, 0.72f, 1f))), attrs);
         // An ability on the stack, or being chosen: its permanent, in the ability ribbon's teal.
         sourceModel = builder.createBox(CARD_W * 1.22f, 0.02f, CARD_H * 1.14f,
             new Material(ColorAttribute.createDiffuse(new Color(0.35f, 0.88f, 0.82f, 1f))), attrs);
@@ -558,6 +563,9 @@ public final class Table3D extends TableInput {
         if (!snap.gameOver) endShown = false;
         endScreen.update(Gdx.graphics.getDeltaTime());
         endScreen.render(ui, shapes, font, fontBig);
+        // Last of all, over the panels and the end screen alike: the bug flag is the one thing
+        // that must be reachable no matter what else the window is showing.
+        drawFlag();
         maybeShoot();
         WindowMemory.track();
     }
