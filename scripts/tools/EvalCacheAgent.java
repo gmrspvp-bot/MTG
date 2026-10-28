@@ -69,6 +69,13 @@ public class EvalCacheAgent {
          "(IIILjava/util/List;Ljava/util/List;Ljava/util/Map;Ljava/util/Set;Lforge/game/player/Player;Ljava/util/Map;)Ljava/util/List;",
          "DiceIgnoreHook", "static"},
         {"forge/game/trigger/TriggerRolledDie", "performTest", "(Ljava/util/Map;)Z", "DiceIgnoreHook", "instance"},
+        // A seat the AI is holding can be taken by whoever joins next (SeatClaimHook). Two
+        // halves: let the login in, then hand the live Player back to a human controller.
+        {"forge/gamemodes/net/server/FServerManager$RegisterClientHandler", "channelRead",
+         "(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V",
+         "forge/gamemodes/net/server/SeatClaimHook", "instance-object"},
+        {"forge/gamemodes/net/server/RemoteClient", "swapChannel", "(Lio/netty/channel/Channel;)V",
+         "forge/gamemodes/net/server/SeatClaimHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {
@@ -124,12 +131,21 @@ public class EvalCacheAgent {
     }
 
     /**
-     * static:   <name>(args)      { return Hook.<name>(args); }
-     * instance: <name>(args)      { return Hook.<name>(this, args); }
+     * static:          <name>(args)  { return Hook.<name>(args); }
+     * instance:        <name>(args)  { return Hook.<name>(this, args); }
+     * instance-object: the same, but the hook declares `this` as Object.
+     *
+     * The third exists because a hook cannot always NAME the class it is hooking. Forge's
+     * FServerManager$RegisterClientHandler is a PRIVATE inner class, so no source file anywhere
+     * - not even one in the same package - may write its type, and javac refuses the method
+     * signature "instance" would need (SeatClaimHook, 2026-10-28). Bytecode has no such
+     * objection: the receiver is pushed exactly as before and simply widens to Object at the
+     * call. Only use it where the named form will not compile; the named form is checked.
      */
     static void addForwarder(ClassVisitor cv, String owner, String[] hook, int access) {
         String name = hook[1], desc = hook[2], hookClass = hook[3];
         boolean isStatic = "static".equals(hook[4]);
+        boolean asObject = "instance-object".equals(hook[4]);
         MethodVisitor mv = cv.visitMethod(access, name, desc, null, null);
         mv.visitCode();
         int slot = 0;
@@ -137,7 +153,7 @@ public class EvalCacheAgent {
         if (!isStatic) {
             mv.visitVarInsn(Opcodes.ALOAD, 0);
             slot = 1;
-            hookDesc = "(L" + owner + ";" + desc.substring(1);
+            hookDesc = "(" + (asObject ? "Ljava/lang/Object;" : "L" + owner + ";") + desc.substring(1);
         }
         for (Type t : Type.getArgumentTypes(desc)) {
             mv.visitVarInsn(t.getOpcode(Opcodes.ILOAD), slot);

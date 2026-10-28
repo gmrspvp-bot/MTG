@@ -37,6 +37,14 @@ public final class CombatGuardHook {
         } catch (Throwable t) {
             // never block the game because of the guard itself
         }
+        // A phase boundary is also the one safe moment to give a seat the AI is holding back to
+        // a player who has just joined - nothing is inside an Input here. See SeatClaimHook.
+        try {
+            forge.gamemodes.net.server.SeatClaimHook.applyPending(
+                ph.getPlayerTurn() == null ? null : ph.getPlayerTurn().getGame());
+        } catch (Throwable t) {
+            // the guard is not the place to fail over a seat hand-back
+        }
         orig.invoke(ph);
     }
 }
