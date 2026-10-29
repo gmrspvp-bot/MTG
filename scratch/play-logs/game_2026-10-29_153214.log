@@ -1,0 +1,1948 @@
+Player: Derand (HUMAN) deck=Dr. Eggman
+Player: Dominic (HUMAN) deck=Haytham Kenway
+Player: Alec (HUMAN) deck=Kotori
+Player: Hermuck (AI) deck=Toph
+Mulligan: Hermuck has mulliganed down to 7 cards.
+Mulligan: Derand has mulliganed down to 7 cards.
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Alec has kept a hand of 7 cards
+Mulligan: Hermuck has kept a hand of 7 cards
+Mulligan: Derand has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Training Center(land); Mountain(land); Rakdos Signet(2)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Rogue's Passage(land); Hallowed Fountain(land); Metallic Mimic(2); Emeria's Call(7)
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Plains(land); Island(land); Drumbellower(3); Azorius Signet(2)
+Information: BOARD turn 1 (Dominic) | Hermuck | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Forest(land); Erode(1); Origin of Metalbending(2); Mountain(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rogue's Passage (121)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Alec)
+Information: BOARD turn 2 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Training Center(land); Mountain(land); Rakdos Signet(2)
+Information: BOARD turn 2 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Hallowed Fountain(land); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4)
+Information: BOARD turn 2 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Plains(land); Island(land); Drumbellower(3); Azorius Signet(2)
+Information: BOARD turn 2 (Alec) | Hermuck | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Forest(land); Erode(1); Origin of Metalbending(2); Mountain(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (278)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 3 (Hermuck)
+Information: BOARD turn 3 (Hermuck) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Training Center(land); Mountain(land); Rakdos Signet(2)
+Information: BOARD turn 3 (Hermuck) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Hallowed Fountain(land); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4)
+Information: BOARD turn 3 (Hermuck) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Island(land); Drumbellower(3); Azorius Signet(2); Thunderhawk Gunship(6)
+Information: BOARD turn 3 (Hermuck) | Hermuck | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Forest(land); Erode(1); Origin of Metalbending(2); Mountain(land)
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Land: Hermuck played Forest (331)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Training Center(land); Mountain(land); Rakdos Signet(2)
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Hallowed Fountain(land); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4)
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Island(land); Drumbellower(3); Azorius Signet(2); Thunderhawk Gunship(6)
+Information: BOARD turn 4 (Derand) | Hermuck | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Erode(1); Origin of Metalbending(2); Mountain(land); Mishra's Bauble(0)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Training Center enters tapped unless you have two or more opponents.
+Land: Derand played Training Center (22)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Mountain(land); Rakdos Signet(2); Liliana's Caress(2)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Hallowed Fountain(land); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4)
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Island(land); Drumbellower(3); Azorius Signet(2); Thunderhawk Gunship(6)
+Information: BOARD turn 5 (Dominic) | Hermuck | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Erode(1); Origin of Metalbending(2); Mountain(land); Mishra's Bauble(0)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: As Hallowed Fountain enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Dominic played Hallowed Fountain (139)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Alec)
+Information: BOARD turn 6 (Alec) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Mountain(land); Rakdos Signet(2); Liliana's Caress(2)
+Information: BOARD turn 6 (Alec) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 6 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Island(land); Drumbellower(3); Azorius Signet(2); Thunderhawk Gunship(6)
+Information: BOARD turn 6 (Alec) | Hermuck | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Erode(1); Origin of Metalbending(2); Mountain(land); Mishra's Bauble(0)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Island (226)
+Mana: Island (226) - {T}: Add {U}.
+Mana: Plains (278) - {T}: Add {W}.
+Add To Stack: Alec cast Azorius Signet
+Information: BOARD cast | Azorius Signet (mv 2) by Alec | open mana: Derand 3, Dominic 1, Hermuck 1
+Resolve Stack: Azorius Signet
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 7 (Hermuck)
+Information: BOARD turn 7 (Hermuck) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Mountain(land); Rakdos Signet(2); Liliana's Caress(2)
+Information: BOARD turn 7 (Hermuck) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 7 (Hermuck) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Drumbellower(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5)
+Information: BOARD turn 7 (Hermuck) | Hermuck | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Ba Sing Se(land); Erode(1); Origin of Metalbending(2); Mountain(land); Mishra's Bauble(0)
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Replacement Effect: This land enters tapped unless you control a basic land.
+Land: Hermuck played Ba Sing Se (363)
+Mana: Forest (331) - {T}: Add {G}.
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Add To Stack: Hermuck cast Origin of Metalbending
+Information: BOARD cast | Origin of Metalbending (mv 2) by Hermuck | open mana: Derand 3, Dominic 1, Alec 0
+Zone Change: Azorius Signet (291) was put into Graveyard from Battlefield.
+Resolve Stack: Origin of Metalbending (330) -  Destroy target artifact or enchantment. (Targeting: Azorius Signet (291))
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Mountain(land); Rakdos Signet(2); Liliana's Caress(2)
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Drumbellower(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5)
+Information: BOARD turn 8 (Derand) | Hermuck | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Erode(1); Mountain(land); Mishra's Bauble(0); Chromatic Lantern(3)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (91)
+Mana: Mountain (91) - {T}: Add {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Rakdos Signet
+Information: BOARD cast | Rakdos Signet (mv 2) by Derand | open mana: Dominic 1, Alec 0, Hermuck 0
+Resolve Stack: Rakdos Signet
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Herald's Horn(3); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Drumbellower(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5)
+Information: BOARD turn 9 (Dominic) | Hermuck | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Erode(1); Mountain(land); Mishra's Bauble(0); Chromatic Lantern(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Deserted Beach enters tapped unless you control two or more other lands.
+Land: Dominic played Deserted Beach (155)
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Mana: Rogue's Passage (121) - {T}: Add {C}.
+Add To Stack: Dominic cast Herald's Horn
+Information: BOARD cast | Herald's Horn (mv 3) by Dominic | open mana: Derand 0, Alec 0, Hermuck 0
+Replacement Effect: As Herald's Horn enters, choose a creature type.
+Resolve Stack: Herald's Horn
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Alec)
+Information: BOARD turn 10 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 10 (Alec) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 10 (Alec) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Plains(land); Mind Stone(2); Drumbellower(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5)
+Information: BOARD turn 10 (Alec) | Hermuck | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Erode(1); Mountain(land); Mishra's Bauble(0); Chromatic Lantern(3)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (288)
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Island (226) - {T}: Add {U}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Alec cast Drumbellower
+Information: BOARD cast | Drumbellower (mv 3) by Alec | open mana: Derand 0, Dominic 0, Hermuck 0
+Resolve Stack: Drumbellower - Creature 2 / 1
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 11 (Hermuck)
+Information: BOARD turn 11 (Hermuck) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 11 (Hermuck) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 11 (Hermuck) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Drumbellower 2/1 | hand cards: Hanna, Ship's Navigator(3); Mind Stone(2); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8)
+Information: BOARD turn 11 (Hermuck) | Hermuck | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cycle of Renewal(3); Rumble Arena(land); Erode(1); Mountain(land); Mishra's Bauble(0); Chromatic Lantern(3)
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Land: Hermuck played Mountain (384)
+Mana: Forest (331) - {T}: Add {G}.
+Mana: Mountain (384) - {T}: Add {R}.
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Add To Stack: Hermuck cast Cycle of Renewal
+Information: BOARD cast | Cycle of Renewal (mv 3) by Hermuck | open mana: Derand 0, Dominic 0, Alec 0
+Zone Change: Forest (331) was put into Graveyard from Battlefield.
+Resolve Stack: Cycle of Renewal (385) - Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. 
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Waste Not(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 12 (Derand) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Drumbellower 2/1 | hand cards: Hanna, Ship's Navigator(3); Mind Stone(2); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8)
+Information: BOARD turn 12 (Derand) | Hermuck | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rumble Arena(land); Erode(1); Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Great Furnace (93)
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Mana: Rakdos Signet (11) - {1}, {T}: Add {B}{R}.
+Add To Stack: Derand cast Waste Not
+Information: BOARD cast | Waste Not (mv 2) by Derand | open mana: Dominic 0, Alec 0, Hermuck 0
+Resolve Stack: Waste Not
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Metallic Mimic(2); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5)
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Drumbellower 2/1 | hand cards: Hanna, Ship's Navigator(3); Mind Stone(2); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8)
+Information: BOARD turn 13 (Dominic) | Hermuck | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rumble Arena(land); Erode(1); Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Add To Stack: Dominic cast Metallic Mimic
+Information: BOARD cast | Metallic Mimic (mv 2) by Dominic | open mana: Derand 3, Alec 0, Hermuck 0
+Replacement Effect: As Metallic Mimic enters, choose a creature type.
+Resolve Stack: Metallic Mimic - Creature 2 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Alec)
+Information: BOARD turn 14 (Alec) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 14 (Alec) | Dominic | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Metallic Mimic 2/1 | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4)
+Information: BOARD turn 14 (Alec) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Drumbellower 2/1 | hand cards: Hanna, Ship's Navigator(3); Mind Stone(2); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8)
+Information: BOARD turn 14 (Alec) | Hermuck | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rumble Arena(land); Erode(1); Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Island (226) - {T}: Add {U}.
+Mana: Plains (278) - {T}: Add {W}.
+Add To Stack: Alec cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Alec | open mana: Derand 3, Dominic 1, Hermuck 0
+Resolve Stack: Mind Stone
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 15 (Hermuck)
+Information: BOARD turn 15 (Hermuck) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 15 (Hermuck) | Dominic | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Metallic Mimic 2/1 | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4)
+Information: BOARD turn 15 (Hermuck) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Drumbellower 2/1 | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8); Grand Arbiter Augustin IV(4)
+Information: BOARD turn 15 (Hermuck) | Hermuck | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Rumble Arena(land); Erode(1); Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3)
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Hermuck cast Erode targeting [Drumbellower (271)]
+Information: BOARD cast | Erode (mv 1) by Hermuck | open mana: Derand 3, Dominic 1, Alec 2
+Zone Change: Drumbellower (271) was put into Graveyard from Battlefield.
+Resolve Stack: Erode (344) - Destroy Drumbellower (271). 
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Land: Hermuck played Rumble Arena (362)
+Add To Stack: Hermuck triggered Rumble Arena
+Resolve Stack: Hermuck scried 1 card(s) to the top of the library
+Resolve Stack: When this land enters, scry 1. (Look at the top card of your library. You may put it on the bottom.) [Zone Changer: Rumble Arena (362)]
+Mana: Plains (388) - {T}: Add {W}.
+Mana: Mountain (384) - {T}: Add {R}.
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Add To Stack: Hermuck cast Toph, the First Metalbender
+Information: BOARD cast | Toph, the First Metalbender (mv 4) by Hermuck | open mana: Derand 3, Dominic 1, Alec 2
+Resolve Stack: Toph, the First Metalbender - Creature 3 / 3
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Add To Stack: Hermuck triggered Toph, the First Metalbender targeting [Plains (386)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Plains (386)]]) [Phase: Hermuck]
+Phase: Hermuck's Cleanup step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 5 | lands 3 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Liliana's Caress(2); Terror Ballista(7)
+Information: BOARD turn 16 (Derand) | Dominic | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Metallic Mimic 2/1 | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4)
+Information: BOARD turn 16 (Derand) | Alec | life 40 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8); Grand Arbiter Augustin IV(4)
+Information: BOARD turn 16 (Derand) | Hermuck | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3); Mountain(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Xander's Lounge enters tapped.
+Land: Derand played Xander's Lounge (83)
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Rakdos Signet (11) - {1}, {T}: Add {B}{R}.
+Add To Stack: Derand cast Liliana's Caress
+Information: BOARD cast | Liliana's Caress (mv 2) by Derand | open mana: Dominic 1, Alec 2, Hermuck 0
+Resolve Stack: Liliana's Caress
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Terror Ballista(7)
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Metallic Mimic 2/1 | hand cards: March of Otherworldly Light(1); Icon of Ancestry(3); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4)
+Information: BOARD turn 17 (Dominic) | Alec | life 40 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8); Grand Arbiter Augustin IV(4)
+Information: BOARD turn 17 (Dominic) | Hermuck | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3); Mountain(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Mana: Rogue's Passage (121) - {T}: Add {C}.
+Add To Stack: Dominic cast Icon of Ancestry
+Information: BOARD cast | Icon of Ancestry (mv 3) by Dominic | open mana: Derand 4, Alec 2, Hermuck 0
+Replacement Effect: As Icon of Ancestry enters, choose a creature type.
+Resolve Stack: Icon of Ancestry
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Alec)
+Information: BOARD turn 18 (Alec) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Terror Ballista(7)
+Information: BOARD turn 18 (Alec) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metallic Mimic 3/2 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3)
+Information: BOARD turn 18 (Alec) | Alec | life 40 | hand 5 | lands 4 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Skysovereign, Consul Flagship(5); Parhelion II(8); Grand Arbiter Augustin IV(4)
+Information: BOARD turn 18 (Alec) | Hermuck | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3); Mountain(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Island (226) - {T}: Add {U}.
+Mana: Island (235) - {T}: Add {U}.
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec cast Skysovereign, Consul Flagship
+Information: BOARD cast | Skysovereign, Consul Flagship (mv 5) by Alec | open mana: Derand 4, Dominic 0, Hermuck 0
+Resolve Stack: Skysovereign, Consul Flagship
+Add To Stack: Alec triggered Skysovereign, Consul Flagship targeting [Toph, the First Metalbender (398)]
+Damage: Skysovereign, Consul Flagship (249) deals 3 damage to Toph, the First Metalbender (398).
+Resolve Stack: Whenever Skysovereign, Consul Flagship enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls. (Targeting: [[Toph, the First Metalbender (398)]]) [Zone Changer: Skysovereign, Consul Flagship (249)]
+Zone Change: Toph, the First Metalbender (398) was put into Graveyard from Battlefield.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 19 (Hermuck)
+Information: BOARD turn 19 (Hermuck) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Terror Ballista(7)
+Information: BOARD turn 19 (Hermuck) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metallic Mimic 3/2 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3)
+Information: BOARD turn 19 (Hermuck) | Alec | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Parhelion II(8); Grand Arbiter Augustin IV(4); Tempered Steel(3)
+Information: BOARD turn 19 (Hermuck) | Hermuck | life 40 | hand 4 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3); Mountain(land)
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Land: Hermuck played Mountain (381)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Mana: Plains (388) - {T}: Add {W}.
+Mana: Mountain (384) - {T}: Add {R}.
+Mana: Mountain (381) - {T}: Add {R}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Mana: Plains (386) - {T}: Add {W}.
+Add To Stack: Hermuck cast Toph, the First Metalbender
+Information: BOARD cast | Toph, the First Metalbender (mv 4) by Hermuck | open mana: Derand 4, Dominic 0, Alec 0
+Resolve Stack: Toph, the First Metalbender - Creature 3 / 3
+Phase: Hermuck's End step
+Add To Stack: Hermuck triggered Toph, the First Metalbender targeting [Mountain (384)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Mountain (384)]]) [Phase: Hermuck]
+Phase: Hermuck's Cleanup step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 40 | hand 4 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: Scalding Tarn(land); Terminate(2); Reanimate(1); Terror Ballista(7)
+Information: BOARD turn 20 (Derand) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metallic Mimic 3/2 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3)
+Information: BOARD turn 20 (Derand) | Alec | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Parhelion II(8); Grand Arbiter Augustin IV(4); Tempered Steel(3)
+Information: BOARD turn 20 (Derand) | Hermuck | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Mountain 2/2*; Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Mishra's Bauble(0); Chromatic Lantern(3); Tireless Provisioner(3); Toph, the Blind Bandit(3)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Scalding Tarn (50)
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Rakdos Signet (11) - {1}, {T}: Add {B}{R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Mana: Xander's Lounge (83) - {T}: Add {R}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 0, Alec 0, Hermuck 0
+Resolve Stack: Dr. Eggman - Creature 3 / 6
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Alec discards Parhelion II (269).
+Discard: Hermuck discards Mishra's Bauble (356).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Parhelion II (269), Cause: Opponent discards a card.]
+Life: Life: Alec 40 > 38
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Parhelion II (269), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Mishra's Bauble (356), Cause: Opponent discards a card.]
+Life: Life: Hermuck 40 > 38
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Mishra's Bauble (356), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 40 | hand 6 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Dimir Signet(2); Mind Stone(2); Phyrexian Metamorph(4)
+Information: BOARD turn 21 (Dominic) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Metallic Mimic 3/2 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Valiant Knight(4); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3)
+Information: BOARD turn 21 (Dominic) | Alec | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Grand Arbiter Augustin IV(4); Tempered Steel(3)
+Information: BOARD turn 21 (Dominic) | Hermuck | life 38 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Mountain 2/2*; Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3); Toph, the Blind Bandit(3)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Mana: Rogue's Passage (121) - {T}: Add {C}.
+Add To Stack: Dominic cast Valiant Knight
+Information: BOARD cast | Valiant Knight (mv 4) by Dominic | open mana: Derand 0, Alec 0, Hermuck 0
+Replacement Effect: Each other creature you control of the chosen type enters with an additional +1/+1 counter on it.
+Resolve Stack: Valiant Knight - Creature 3 / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Alec)
+Information: BOARD turn 22 (Alec) | Derand | life 40 | hand 6 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Dimir Signet(2); Mind Stone(2); Phyrexian Metamorph(4)
+Information: BOARD turn 22 (Alec) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3); Always Watching(3)
+Information: BOARD turn 22 (Alec) | Alec | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Grand Arbiter Augustin IV(4); Tempered Steel(3)
+Information: BOARD turn 22 (Alec) | Hermuck | life 38 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Mountain 2/2*; Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3); Toph, the Blind Bandit(3)
+Information: BOARD threat | turn 22 | Herald's Horn (Dominic) 37
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Mana: Island (226) - {T}: Add {U}.
+Mana: Plains (278) - {T}: Add {W}.
+Add To Stack: Alec cast Grand Arbiter Augustin IV
+Information: BOARD cast | Grand Arbiter Augustin IV (mv 4) by Alec | open mana: Derand 0, Dominic 0, Hermuck 0
+Resolve Stack: Grand Arbiter Augustin IV - Creature 2 / 3
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 23 (Hermuck)
+Information: BOARD turn 23 (Hermuck) | Derand | life 40 | hand 6 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Dimir Signet(2); Mind Stone(2); Phyrexian Metamorph(4)
+Information: BOARD turn 23 (Hermuck) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3); Always Watching(3)
+Information: BOARD turn 23 (Hermuck) | Alec | life 38 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Grand Arbiter Augustin IV 2/3 | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Tempered Steel(3); Negate(2)
+Information: BOARD turn 23 (Hermuck) | Hermuck | life 38 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (1 untapped): Mountain 2/2*; Plains 2/2*; Toph, the First Metalbender 3/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3); Toph, the Blind Bandit(3)
+Information: BOARD threat | turn 23 | Herald's Horn (Dominic) 36
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Combat: Hermuck assigned Toph, the First Metalbender (398) to attack Alec.
+Information: BOARD attack | Hermuck -> Alec | attackers 1 (power 3) | defender life 38 | untapped creatures 1 (power 2): Grand Arbiter Augustin IV 2/3 | open mana 1
+Phase: Hermuck's Declare Blockers Step
+Combat: Alec didn't block Toph, the First Metalbender (398).
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Damage: Toph, the First Metalbender (398) deals 3 combat damage to Alec.
+Life: Life: Alec 38 > 35
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Mana: Plains (388) - {T}: Add {W}.
+Mana: Mountain (381) - {T}: Add {R}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Add To Stack: Hermuck cast Toph, the Blind Bandit
+Information: BOARD cast | Toph, the Blind Bandit (mv 3) by Hermuck | open mana: Derand 0, Dominic 0, Alec 1
+Resolve Stack: Toph, the Blind Bandit - Creature * / 3
+Add To Stack: Hermuck triggered Toph, the Blind Bandit targeting [Plains (388)]
+Resolve Stack: When Toph enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Plains (388)]]) [Zone Changer: Toph, the Blind Bandit (338)]
+Phase: Hermuck's End step
+Add To Stack: Hermuck triggered Toph, the First Metalbender targeting [Mountain (381)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Mountain (381)]]) [Phase: Hermuck]
+Phase: Hermuck's Cleanup step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 40 | hand 6 | lands 5 (1 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Dimir Signet(2); Mind Stone(2); Phyrexian Metamorph(4)
+Information: BOARD turn 24 (Derand) | Dominic | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: March of Otherworldly Light(1); Emeria's Call(7); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3); Always Watching(3)
+Information: BOARD turn 24 (Derand) | Alec | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Grand Arbiter Augustin IV 2/3 | hand cards: Hanna, Ship's Navigator(3); Thunderhawk Gunship(6); Tempered Steel(3); Negate(2)
+Information: BOARD turn 24 (Derand) | Hermuck | life 38 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (3 untapped): Mountain 2/2; Plains 2/2; Plains 2/2*; Mountain 2/2*; Toph, the First Metalbender 3/3*; Toph, the Blind Bandit 8/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3); Arcane Signet(2)
+Information: BOARD threat | turn 24 | Toph, the First Metalbender (Hermuck) 44; Herald's Horn (Dominic) 34
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Life: Life: Derand 40 > 39
+Zone Change: Scalding Tarn (50) was put into Graveyard from Battlefield.
+Add To Stack: Derand activated Scalding Tarn
+Life: Life: Derand 39 > 37
+Replacement Effect: As Steam Vents enters, you may pay 2 life. If you don't, it enters tapped.
+Resolve Stack: Scalding Tarn (50) - Derand searches their library for an Island or Mountain card, puts it onto the battlefield, then shuffles.
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Derand | open mana: Dominic 0, Alec 1, Hermuck 2
+Resolve Stack: Mind Stone
+Mana: Steam Vents (37) - {T}: Add {R}.
+Mana: Xander's Lounge (83) - {T}: Add {R}.
+Mana: Mind Stone (13) - {T}: Add {C}.
+Add To Stack: Derand cast Dimir Signet
+Information: BOARD cast | Dimir Signet (mv 2) by Derand | open mana: Dominic 0, Alec 1, Hermuck 2
+Resolve Stack: Dimir Signet
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Emeria's Call (138).
+Discard: Alec discards Thunderhawk Gunship (207).
+Discard: Hermuck discards Arcane Signet (350).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Emeria's Call (138), Cause: Opponent discards a card.]
+Life: Life: Dominic 40 > 38
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Emeria's Call (138), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Thunderhawk Gunship (207), Cause: Opponent discards a card.]
+Life: Life: Alec 35 > 33
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Thunderhawk Gunship (207), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Arcane Signet (350), Cause: Opponent discards a card.]
+Life: Life: Hermuck 38 > 36
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Arcane Signet (350), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Discard: Derand discards One with the Machine (27).
+Discard: Derand discards Archway of Innovation (74).
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 37 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Reliquary Tower(land)
+Information: BOARD turn 25 (Dominic) | Dominic | life 38 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: March of Otherworldly Light(1); Cathars' Crusade(5); Akroma's Will(4); Teferi's Protection(3); Always Watching(3)
+Information: BOARD turn 25 (Dominic) | Alec | life 33 | hand 3 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Grand Arbiter Augustin IV 2/3 | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3); Negate(2)
+Information: BOARD turn 25 (Dominic) | Hermuck | life 36 | hand 2 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (3 untapped): Mountain 2/2; Plains 2/2; Plains 2/2*; Mountain 2/2*; Toph, the First Metalbender 3/3*; Toph, the Blind Bandit 8/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3)
+Information: BOARD threat | turn 25 | Waste Not (Derand) 68; Liliana's Caress (Derand) 68; Toph, the First Metalbender (Hermuck) 42; Herald's Horn (Dominic) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Rogue's Passage (121) - {T}: Add {C}.
+Add To Stack: Dominic cast March of Otherworldly Light targeting [Grand Arbiter Augustin IV (210)]
+Information: BOARD cast | March of Otherworldly Light (mv 5) by Dominic | open mana: Derand 0, Alec 1, Hermuck 2
+Mana: Island (235) - {T}: Add {U}.
+Add To Stack: Alec cast Negate targeting [Exile target artifact, creature, or enchantment with mana value X or less.]
+Information: BOARD cast | Negate (mv 2) by Alec | open mana: Derand 0, Dominic 1, Hermuck 2
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Negate (200) - Counter March of Otherworldly Light (170).
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Alec)
+Information: BOARD turn 26 (Alec) | Derand | life 37 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Reliquary Tower(land)
+Information: BOARD turn 26 (Alec) | Dominic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Akroma's Will(4); Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 26 (Alec) | Alec | life 33 | hand 2 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Grand Arbiter Augustin IV 2/3 | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3)
+Information: BOARD turn 26 (Alec) | Hermuck | life 36 | hand 2 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (3 untapped): Mountain 2/2; Plains 2/2; Plains 2/2*; Mountain 2/2*; Toph, the First Metalbender 3/3*; Toph, the Blind Bandit 8/3 | hand cards: Chromatic Lantern(3); Tireless Provisioner(3)
+Information: BOARD threat | turn 26 | Waste Not (Derand) 65; Liliana's Caress (Derand) 65; Herald's Horn (Dominic) 46; Toph, the First Metalbender (Hermuck) 40
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Island (226) - {T}: Add {U}.
+Add To Stack: Alec cast Kotori, Pilot Prodigy
+Information: BOARD cast | Kotori, Pilot Prodigy (mv 3) by Alec | open mana: Derand 0, Dominic 1, Hermuck 2
+Resolve Stack: Kotori, Pilot Prodigy - Creature 2 / 4
+Mana: Island (235) - {T}: Add {U}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Alec cast Urza, Prince of Kroog
+Information: BOARD cast | Urza, Prince of Kroog (mv 4) by Alec | open mana: Derand 0, Dominic 1, Hermuck 2
+Resolve Stack: Urza, Prince of Kroog - Creature 2 / 3
+Add To Stack: Alec activated Skysovereign, Consul Flagship
+Resolve Stack: Skysovereign, Consul Flagship (249) - Skysovereign, Consul Flagship (249) becomes an artifact creature until end of turn.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Skysovereign, Consul Flagship (249)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Skysovereign, Consul Flagship (249)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Skysovereign, Consul Flagship (249) to attack Hermuck.
+Information: BOARD attack | Alec -> Hermuck | attackers 1 (power 8) | defender life 36 | untapped creatures 3 (power 12): Mountain 2/2; Plains 2/2; Toph, the Blind Bandit 8/3 | open mana 2
+Add To Stack: Alec triggered Skysovereign, Consul Flagship targeting [Toph, the Blind Bandit (338)]
+Damage: Skysovereign, Consul Flagship (249) deals 3 damage to Toph, the Blind Bandit (338).
+Life: Life: Alec 33 > 36
+Resolve Stack: Whenever Skysovereign, Consul Flagship enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls. (Targeting: [[Toph, the Blind Bandit (338)]]) [Attacker: Skysovereign, Consul Flagship (249)]
+Zone Change: Toph, the Blind Bandit (338) was put into Graveyard from Battlefield.
+Phase: Alec's Declare Blockers Step
+Combat: Hermuck didn't block Skysovereign, Consul Flagship (249).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Skysovereign, Consul Flagship (249) deals 8 combat damage to Hermuck.
+Life: Life: Alec 36 > 44
+Life: Life: Hermuck 36 > 28
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 27 (Hermuck)
+Information: BOARD turn 27 (Hermuck) | Derand | life 37 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Dr. Eggman 3/6; Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Reliquary Tower(land)
+Information: BOARD turn 27 (Hermuck) | Dominic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Akroma's Will(4); Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 27 (Hermuck) | Alec | life 44 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3)
+Information: BOARD turn 27 (Hermuck) | Hermuck | life 28 | hand 2 | lands 6 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (2 untapped): Mountain 2/2; Plains 2/2; Plains 2/2*; Mountain 2/2*; Toph, the First Metalbender 3/3* | hand cards: Chromatic Lantern(3); Tireless Provisioner(3)
+Information: BOARD threat | turn 27 | Skysovereign, Consul Flagship (Alec) 85; Waste Not (Derand) 62; Liliana's Caress (Derand) 62; Herald's Horn (Dominic) 44; Toph, the First Metalbender (Hermuck) 39
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Mana: Plains (388) - {T}: Add {W}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Add To Stack: Hermuck cast Swords to Plowshares targeting [Dr. Eggman (95)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Hermuck | open mana: Derand 0, Dominic 1, Alec 1
+Zone Change: Dr. Eggman (95) was put into Exile from Battlefield.
+Life: Life: Derand 37 > 40
+Resolve Stack: Swords to Plowshares (375) - Exile Dr. Eggman (95). Derand gains life equal to its power.
+Phase: Hermuck's Main phase, precombat
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Combat: Hermuck assigned Toph, the First Metalbender (398) to attack Alec.
+Information: BOARD attack | Hermuck -> Alec | attackers 1 (power 3) | defender life 44 | untapped creatures 2 (power 4): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4 | open mana 1
+Phase: Hermuck's Declare Blockers Step
+Combat: Alec assigned Kotori, Pilot Prodigy (297) to block Toph, the First Metalbender (398).
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Damage: Toph, the First Metalbender (398) deals 3 damage to Kotori, Pilot Prodigy (297).
+Damage: Kotori, Pilot Prodigy (297) deals 2 damage to Toph, the First Metalbender (398).
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Mana: Mountain (381) - {T}: Add {R}.
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Mountain (384) - {T}: Add {R}.
+Add To Stack: Hermuck cast Tireless Provisioner
+Information: BOARD cast | Tireless Provisioner (mv 3) by Hermuck | open mana: Derand 0, Dominic 1, Alec 1
+Resolve Stack: Tireless Provisioner - Creature 3 / 2
+Phase: Hermuck's End step
+Add To Stack: Hermuck triggered Toph, the First Metalbender targeting [Ba Sing Se (363)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Ba Sing Se (363)]]) [Phase: Hermuck]
+Phase: Hermuck's Cleanup step
+Turn: Turn 28 (Derand)
+Information: BOARD turn 28 (Derand) | Derand | life 40 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Terror Ballista 5/3 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Reliquary Tower(land)
+Information: BOARD turn 28 (Derand) | Dominic | life 38 | hand 3 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Akroma's Will(4); Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 28 (Derand) | Alec | life 44 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3)
+Information: BOARD turn 28 (Derand) | Hermuck | life 28 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (1 untapped): Ba Sing Se 2/2*; Mountain 2/2* x2; Plains 2/2* x2; Toph, the First Metalbender 3/3*; Tireless Provisioner 3/2 | hand cards: Chromatic Lantern(3)
+Information: BOARD threat | turn 28 | Skysovereign, Consul Flagship (Alec) 82; Waste Not (Derand) 60; Liliana's Caress (Derand) 60; Toph, the First Metalbender (Hermuck) 52; Herald's Horn (Dominic) 42
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Rakdos Signet (11) - {1}, {T}: Add {B}{R}.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Mana: Dimir Signet (87) - {1}, {T}: Add {U}{B}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Mana: Steam Vents (37) - {T}: Add {R}.
+Mana: Xander's Lounge (83) - {T}: Add {R}.
+Mana: Mind Stone (13) - {T}: Add {C}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 1, Alec 1, Hermuck 0
+Resolve Stack: Dr. Eggman - Creature 3 / 6
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Land: Derand played Reliquary Tower (32)
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Akroma's Will (109).
+Discard: Hermuck discards Chromatic Lantern (396).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Add To Stack: Derand triggered Myr Battlesphere
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Akroma's Will (109), Cause: Opponent discards a card.]
+Life: Life: Dominic 38 > 36
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Akroma's Will (109), Cause: Opponent discards a card.]
+Resolve Stack: When Myr Battlesphere enters, create four 1/1 colorless Myr artifact creature tokens. [Zone Changer: Myr Battlesphere (28)]
+Resolve Stack: Whenever an opponent discards a noncreature, nonland card, draw a card. [Discarded: Chromatic Lantern (396), Cause: Opponent discards a card.]
+Life: Life: Hermuck 28 > 26
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Chromatic Lantern (396), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Derand | life 40 | hand 9 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Terror Ballista 5/3; Dr. Eggman 3/6; Myr Battlesphere 4/7; Myr Token 1/1 x4 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Golbez, Crystal Collector(2); Urza's Saga(land); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 29 (Dominic) | Dominic | life 36 | hand 2 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 29 (Dominic) | Alec | life 44 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3)
+Information: BOARD turn 29 (Dominic) | Hermuck | life 26 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (1 untapped): Ba Sing Se 2/2*; Mountain 2/2* x2; Plains 2/2* x2; Toph, the First Metalbender 3/3*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 29 | Waste Not (Derand) 86; Liliana's Caress (Derand) 86; Skysovereign, Consul Flagship (Alec) 79; Toph, the First Metalbender (Hermuck) 50; Herald's Horn (Dominic) 41
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (182)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 30 (Alec)
+Information: BOARD turn 30 (Alec) | Derand | life 40 | hand 9 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Terror Ballista 5/3; Dr. Eggman 3/6; Myr Battlesphere 4/7; Myr Token 1/1 x4 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Golbez, Crystal Collector(2); Urza's Saga(land); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 30 (Alec) | Dominic | life 36 | hand 2 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 30 (Alec) | Alec | life 44 | hand 2 | lands 4 (0 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Tempered Steel(3)
+Information: BOARD turn 30 (Alec) | Hermuck | life 26 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (1 untapped): Ba Sing Se 2/2*; Mountain 2/2* x2; Plains 2/2* x2; Toph, the First Metalbender 3/3*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 30 | Waste Not (Derand) 83; Liliana's Caress (Derand) 83; Skysovereign, Consul Flagship (Alec) 75; Herald's Horn (Dominic) 53; Toph, the First Metalbender (Hermuck) 48
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (278) - {T}: Add {W}.
+Add To Stack: Alec cast Tempered Steel
+Information: BOARD cast | Tempered Steel (mv 3) by Alec | open mana: Derand 1, Dominic 6, Hermuck 0
+Resolve Stack: Tempered Steel
+Mana: Island (235) - {T}: Add {U}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec cast Fabricate
+Information: BOARD cast | Fabricate (mv 3) by Alec | open mana: Derand 1, Dominic 6, Hermuck 0
+Resolve Stack: Fabricate (263) - Alec searches their library for an artifact card, reveals it, puts it into their hand, then shuffles.
+Add To Stack: Alec activated Skysovereign, Consul Flagship
+Resolve Stack: Skysovereign, Consul Flagship (249) - Skysovereign, Consul Flagship (249) becomes an artifact creature until end of turn.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Skysovereign, Consul Flagship (249)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Skysovereign, Consul Flagship (249)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Skysovereign, Consul Flagship (249) to attack Hermuck.
+Information: BOARD attack | Alec -> Hermuck | attackers 1 (power 10) | defender life 26 | untapped creatures 1 (power 3): Tireless Provisioner 3/2 | open mana 0
+Add To Stack: Alec triggered Skysovereign, Consul Flagship targeting [Toph, the First Metalbender (398)]
+Damage: Skysovereign, Consul Flagship (249) deals 3 damage to Toph, the First Metalbender (398).
+Life: Life: Alec 44 > 47
+Resolve Stack: Whenever Skysovereign, Consul Flagship enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls. (Targeting: [[Toph, the First Metalbender (398)]]) [Attacker: Skysovereign, Consul Flagship (249)]
+Zone Change: Toph, the First Metalbender (398) was put into Graveyard from Battlefield.
+Phase: Alec's Declare Blockers Step
+Combat: Hermuck didn't block Skysovereign, Consul Flagship (249).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Skysovereign, Consul Flagship (249) deals 10 combat damage to Hermuck.
+Life: Life: Alec 47 > 57
+Life: Life: Hermuck 26 > 16
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 31 (Hermuck)
+Information: BOARD turn 31 (Hermuck) | Derand | life 40 | hand 9 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Terror Ballista 5/3; Dr. Eggman 3/6; Myr Battlesphere 4/7; Myr Token 1/1 x4 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Golbez, Crystal Collector(2); Urza's Saga(land); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 31 (Hermuck) | Dominic | life 36 | hand 2 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 31 (Hermuck) | Alec | life 57 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Shorikai, Genesis Engine(4)
+Information: BOARD turn 31 (Hermuck) | Hermuck | life 16 | hand 0 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 6 (1 untapped): Ba Sing Se 2/2*; Mountain 2/2* x2; Plains 2/2* x2; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 31 | Skysovereign, Consul Flagship (Alec) 159; Waste Not (Derand) 80; Liliana's Caress (Derand) 80; Herald's Horn (Dominic) 51
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Mana: Ba Sing Se (363) - {T}: Add {G}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Mana: Mountain (381) - {T}: Add {R}.
+Add To Stack: Hermuck cast Farseek
+Information: BOARD cast | Farseek (mv 2) by Hermuck | open mana: Derand 1, Dominic 6, Alec 1
+Replacement Effect: Cinder Glade enters tapped unless you control two or more basic lands.
+Resolve Stack: Farseek (324) - Hermuck searches their library for a Plains, Island, Swamp or Mountain card, puts it onto the battlefield tapped, then shuffles.
+Add To Stack: Hermuck triggered Tireless Provisioner
+Resolve Stack: Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life." Treasure is an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Cinder Glade (309)]
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 40 | hand 9 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 7 (7 untapped): Terror Ballista 5/3; Dr. Eggman 3/6; Myr Battlesphere 4/7; Myr Token 1/1 x4 | hand cards: Terminate(2); Reanimate(1); Saheeli, the Gifted(4); Phyrexian Metamorph(4); Otawara, Soaring City(land); Mechan Assembler(5); Golbez, Crystal Collector(2); Urza's Saga(land); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 32 (Derand) | Dominic | life 36 | hand 2 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 32 (Derand) | Alec | life 57 | hand 2 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Grand Arbiter Augustin IV 2/3; Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Hanna, Ship's Navigator(3); Shorikai, Genesis Engine(4)
+Information: BOARD turn 32 (Derand) | Hermuck | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 6 (4 untapped): Ba Sing Se 2/2*; Mountain 2/2; Plains 2/2 x2; Mountain 2/2*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 32 | Skysovereign, Consul Flagship (Alec) 152; Waste Not (Derand) 76; Liliana's Caress (Derand) 76; Herald's Horn (Dominic) 49
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Xander's Lounge (83) - {T}: Add {B}.
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Reliquary Tower (32) - {T}: Add {C}.
+Add To Stack: Derand cast Terminate targeting [Grand Arbiter Augustin IV (210)]
+Information: BOARD cast | Terminate (mv 2) by Derand | open mana: Dominic 6, Alec 1, Hermuck 3
+Zone Change: Grand Arbiter Augustin IV (210) was put into Graveyard from Battlefield.
+Resolve Stack: Terminate (82) - Destroy Grand Arbiter Augustin IV (210). It can't be regenerated.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Mana: Rakdos Signet (11) - {1}, {T}: Add {B}{R}.
+Add To Stack: Derand cast Reanimate targeting [Grand Arbiter Augustin IV (210)]
+Information: BOARD cast | Reanimate (mv 1) by Derand | open mana: Dominic 6, Alec 1, Hermuck 3
+Life: Life: Derand 40 > 36
+Resolve Stack: Reanimate (78) - Return Grand Arbiter Augustin IV (210) from the graveyard to the battlefield under your control. Derand loses 4 life.
+Land: Derand played Otawara, Soaring City (4)
+Mana: Dimir Signet (87) - {1}, {T}: Add {U}{B}.
+Add To Stack: Derand cast Golbez, Crystal Collector
+Information: BOARD cast | Golbez, Crystal Collector (mv 2) by Derand | open mana: Dominic 6, Alec 1, Hermuck 3
+Resolve Stack: Golbez, Crystal Collector - Creature 1 / 4
+Mana: Otawara, Soaring City (4) - {T}: Add {U}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Thought Vessel
+Information: BOARD cast | Thought Vessel (mv 2) by Derand | open mana: Dominic 6, Alec 1, Hermuck 3
+Resolve Stack: Thought Vessel
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Thought Vessel (18)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Terror Ballista (77) and Myr Battlesphere (28) to attack Alec.
+Information: BOARD attack | Derand -> Alec | attackers 2 (power 9) | defender life 57 | untapped creatures 1 (power 2): Kotori, Pilot Prodigy 2/4 | open mana 1
+Add To Stack: Derand triggered Myr Battlesphere
+Add To Stack: Derand triggered Terror Ballista
+Add To Stack: Alec activated Skysovereign, Consul Flagship
+Resolve Stack: Skysovereign, Consul Flagship (249) - Skysovereign, Consul Flagship (249) becomes an artifact creature until end of turn.
+Zone Change: Myr Token (404) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever Terror Ballista attacks, you may sacrifice another creature. When you do, destroy target creature an opponent controls. [Attacker: Terror Ballista (77)]
+Add To Stack: Derand triggered Terror Ballista targeting [Skysovereign, Consul Flagship (249)]
+Zone Change: Skysovereign, Consul Flagship (249) was put into Graveyard from Battlefield.
+Resolve Stack:  (Targeting: [[Skysovereign, Consul Flagship (249)]])
+Damage: Myr Battlesphere (28) deals 1 non-combat damage to Alec.
+Life: Life: Alec 57 > 56
+Resolve Stack: Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking. [Attacker: Myr Battlesphere (28)]
+Phase: Derand's Declare Blockers Step
+Combat: Alec didn't block Terror Ballista (77).
+Alec didn't block Myr Battlesphere (28).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Terror Ballista (77) deals 5 combat damage to Alec.
+Damage: Myr Battlesphere (28) deals 5 combat damage to Alec.
+Life: Life: Alec 56 > 46
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Alec discards Hanna, Ship's Navigator (292).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Mechan Assembler (84)]
+Resolve Stack: Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token. [Discarded: Hanna, Ship's Navigator (292), Cause: Opponent discards a card.]
+Life: Life: Alec 46 > 44
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Hanna, Ship's Navigator (292), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Derand | life 36 | hand 5 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 10 (7 untapped): Terror Ballista 5/3*; Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1*; Myr Token 1/1 x2; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 | hand cards: Saheeli, the Gifted(4); Phyrexian Metamorph(4); Urza's Saga(land); Saheeli, Sublime Artificer(3); Sensei's Divining Top(1)
+Information: BOARD turn 33 (Dominic) | Dominic | life 36 | hand 2 | lands 4 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Metallic Mimic 4/3; Valiant Knight 5/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5)
+Information: BOARD turn 33 (Dominic) | Alec | life 44 | hand 1 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Kotori, Pilot Prodigy 2/4*; Urza, Prince of Kroog 2/3* | hand cards: Shorikai, Genesis Engine(4)
+Information: BOARD turn 33 (Dominic) | Hermuck | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 6 (4 untapped): Ba Sing Se 2/2*; Mountain 2/2; Plains 2/2 x2; Mountain 2/2*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 33 | Waste Not (Derand) 88; Liliana's Caress (Derand) 88; Myr Battlesphere (Derand) 61; Terror Ballista (Derand) 58; Herald's Horn (Dominic) 47
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (125)
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 3, Alec 1, Hermuck 3
+Replacement Effect: Each other creature you control of the chosen type enters with an additional +1/+1 counter on it.
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Terror Ballista (77)]
+Zone Change: Terror Ballista (77) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Terror Ballista (77)]]) [Zone Changer: Haytham Kenway (196)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 34 (Alec)
+Information: BOARD turn 34 (Alec) | Derand | life 36 | hand 5 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 9 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1*; Myr Token 1/1 x2; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 | hand cards: Saheeli, the Gifted(4); Phyrexian Metamorph(4); Urza's Saga(land); Saheeli, Sublime Artificer(3); Sensei's Divining Top(1)
+Information: BOARD turn 34 (Alec) | Dominic | life 36 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 34 (Alec) | Alec | life 44 | hand 1 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Kotori, Pilot Prodigy 2/4*; Urza, Prince of Kroog 2/3* | hand cards: Shorikai, Genesis Engine(4)
+Information: BOARD turn 34 (Alec) | Hermuck | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 6 (4 untapped): Ba Sing Se 2/2*; Mountain 2/2; Plains 2/2 x2; Mountain 2/2*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 34 | Waste Not (Derand) 84; Liliana's Caress (Derand) 84; Herald's Horn (Dominic) 60; Myr Battlesphere (Derand) 59
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Island (226) - {T}: Add {U}.
+Mana: Island (235) - {T}: Add {U}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec cast Shorikai, Genesis Engine
+Information: BOARD cast | Shorikai, Genesis Engine (mv 4) by Alec | open mana: Derand 3, Dominic 1, Hermuck 3
+Resolve Stack: Shorikai, Genesis Engine
+Add To Stack: Alec activated Shorikai, Genesis Engine
+Resolve Stack: Shorikai, Genesis Engine (203) - Shorikai, Genesis Engine (203) becomes an artifact creature until end of turn.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Shorikai, Genesis Engine (203)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Shorikai, Genesis Engine (203)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 35 (Hermuck)
+Information: BOARD turn 35 (Hermuck) | Derand | life 36 | hand 5 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 9 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1*; Myr Token 1/1 x2; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 | hand cards: Saheeli, the Gifted(4); Phyrexian Metamorph(4); Urza's Saga(land); Saheeli, Sublime Artificer(3); Sensei's Divining Top(1)
+Information: BOARD turn 35 (Hermuck) | Dominic | life 36 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 35 (Hermuck) | Alec | life 44 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Farewell(6)
+Information: BOARD turn 35 (Hermuck) | Hermuck | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 6 (4 untapped): Ba Sing Se 2/2*; Mountain 2/2; Plains 2/2 x2; Mountain 2/2*; Tireless Provisioner 3/2 | hand cards: 
+Information: BOARD threat | turn 35 | Waste Not (Derand) 81; Liliana's Caress (Derand) 81; Herald's Horn (Dominic) 57; Myr Battlesphere (Derand) 56; Kotori, Pilot Prodigy (Alec) 37
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Land: Hermuck played Plains (387)
+Add To Stack: Hermuck triggered Tireless Provisioner
+Resolve Stack: Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life." Treasure is an artifact with "{T}, Sacrifice this token: Add one mana of any color.") [Zone Changer: Plains (387)]
+Mana: Cinder Glade (309) - {T}: Add {G}.
+Mana: Plains (387) - {T}: Add {W}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Add To Stack: Hermuck activated Ba Sing Se targeting [Plains (387)]
+Resolve Stack: Ba Sing Se (363) - Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put  two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control.)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 36 (Derand)
+Information: BOARD turn 36 (Derand) | Derand | life 36 | hand 5 | lands 7 (1 untapped) | open mana 3 | commander Battlefield | creatures 9 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1*; Myr Token 1/1 x2; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 | hand cards: Saheeli, the Gifted(4); Phyrexian Metamorph(4); Urza's Saga(land); Saheeli, Sublime Artificer(3); Sensei's Divining Top(1)
+Information: BOARD turn 36 (Derand) | Dominic | life 36 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 36 (Derand) | Alec | life 44 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Kotori, Pilot Prodigy 2/4; Urza, Prince of Kroog 2/3* | hand cards: Farewell(6)
+Information: BOARD turn 36 (Derand) | Hermuck | life 16 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 7 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 36 | Waste Not (Derand) 78; Liliana's Caress (Derand) 78; Herald's Horn (Dominic) 55; Myr Battlesphere (Derand) 54; Kotori, Pilot Prodigy (Alec) 36
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Urza's Saga enters with a lore counter on it.
+Land: Derand played Urza's Saga (55)
+Add To Stack: Derand triggered Urza's Saga
+Resolve Stack: I — Urza's Saga gains "{T}: Add {C}." [Added once: Urza's Saga (55)]
+Mana: Otawara, Soaring City (4) - {T}: Add {U}.
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Reliquary Tower (32) - {T}: Add {C}.
+Add To Stack: Derand cast Saheeli, the Gifted
+Information: BOARD cast | Saheeli, the Gifted (mv 4) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Replacement Effect: Saheeli, the Gifted enters with four loyalty counters on it.
+Resolve Stack: Saheeli, the Gifted
+Add To Stack: Derand activated Saheeli, the Gifted
+Resolve Stack: Saheeli, the Gifted (44) - +1: The next spell you cast this turn has affinity for artifacts. (It costs {1} less to cast for each artifact you control as you cast it.)
+Add To Stack: Derand cast Cityscape Leveler
+Information: BOARD cast | Cityscape Leveler (mv 8) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Add To Stack: Derand triggered Cityscape Leveler targeting [Kotori, Pilot Prodigy (297)]
+Zone Change: Kotori, Pilot Prodigy (297) was put into Graveyard from Battlefield.
+Resolve Stack: When you cast this spell and whenever Cityscape Leveler attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token. (Targeting: [[Kotori, Pilot Prodigy (297)]]) [Card: Cityscape Leveler (81), Activator: Derand, SpellAbility: Cityscape Leveler - Creature 8 / 8]
+Resolve Stack: Cityscape Leveler - Creature 8 / 8
+Add To Stack: Derand triggered Mechan Assembler
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Cityscape Leveler (81)]
+Resolve Stack: Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn. [Zone Changer: Cityscape Leveler (81)]
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Robot Token (415)]
+Mana: Great Furnace (93) - {T}: Add {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Saheeli, Sublime Artificer
+Information: BOARD cast | Saheeli, Sublime Artificer (mv 3) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Replacement Effect: Saheeli, Sublime Artificer enters with five loyalty counters on it.
+Resolve Stack: Saheeli, Sublime Artificer
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Myr Battlesphere (28) to attack Alec.
+Information: BOARD attack | Derand -> Alec | attackers 1 (power 4) | defender life 44 | untapped creatures 0 (power 0):  | open mana 0
+Add To Stack: Derand triggered Myr Battlesphere
+Damage: Myr Battlesphere (28) deals 3 non-combat damage to Alec.
+Life: Life: Alec 44 > 41
+Resolve Stack: Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking. [Attacker: Myr Battlesphere (28)]
+Phase: Derand's Declare Blockers Step
+Combat: Alec didn't block Myr Battlesphere (28).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Myr Battlesphere (28) deals 7 combat damage to Alec.
+Life: Life: Alec 41 > 34
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 37 (Dominic)
+Information: BOARD turn 37 (Dominic) | Derand | life 36 | hand 3 | lands 8 (3 untapped) | open mana 7 | commander Battlefield | creatures 11 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1* x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2; Cityscape Leveler 8/8; Robot Token 2/2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Silverbluff Bridge(land)
+Information: BOARD turn 37 (Dominic) | Dominic | life 36 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 37 (Dominic) | Alec | life 34 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Urza, Prince of Kroog 2/3* | hand cards: Farewell(6)
+Information: BOARD turn 37 (Dominic) | Hermuck | life 16 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 7 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 37 | Myr Battlesphere (Derand) 124; Waste Not (Derand) 74; Liliana's Caress (Derand) 74; Golbez, Crystal Collector (Derand) 53; Herald's Horn (Dominic) 53
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Idyllic Grange enters tapped unless you control three or more other Plains.
+Land: Dominic played Idyllic Grange (171)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 38 (Alec)
+Information: BOARD turn 38 (Alec) | Derand | life 36 | hand 3 | lands 8 (3 untapped) | open mana 7 | commander Battlefield | creatures 11 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1* x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2; Cityscape Leveler 8/8; Robot Token 2/2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Silverbluff Bridge(land)
+Information: BOARD turn 38 (Alec) | Dominic | life 36 | hand 3 | lands 6 (5 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 38 (Alec) | Alec | life 34 | hand 1 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Urza, Prince of Kroog 2/3* | hand cards: Farewell(6)
+Information: BOARD turn 38 (Alec) | Hermuck | life 16 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 7 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 38 | Myr Battlesphere (Derand) 119; Waste Not (Derand) 71; Liliana's Caress (Derand) 71; Herald's Horn (Dominic) 65; Golbez, Crystal Collector (Derand) 51
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Exotic Orchard (241)
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec activated Shorikai, Genesis Engine
+Discard: Alec discards Deserted Beach (256).
+Resolve Stack: Shorikai, Genesis Engine (203) - Alec draws two cards. Alec discards a card. Alec creates a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Resolve Stack: Whenever an opponent discards a land card, add {B}{B}. [Discarded: Deserted Beach (256), Cause: then discard a card. Create a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."]
+Life: Life: Alec 34 > 32
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Deserted Beach (256), Cause: then discard a card. Create a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."]
+Mana: Powerstone Token (413) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Mana: Island (235) - {T}: Add {U}.
+Add To Stack: Alec cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Alec | open mana: Derand 9, Dominic 7, Hermuck 4
+Resolve Stack: Sol Ring
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 39 (Hermuck)
+Information: BOARD turn 39 (Hermuck) | Derand | life 36 | hand 3 | lands 8 (3 untapped) | open mana 7 | commander Battlefield | creatures 11 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1* x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2; Cityscape Leveler 8/8; Robot Token 2/2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Silverbluff Bridge(land)
+Information: BOARD turn 39 (Hermuck) | Dominic | life 36 | hand 3 | lands 6 (5 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 39 (Hermuck) | Alec | life 32 | hand 1 | lands 5 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Urza, Prince of Kroog 2/3; Pilot Token 1/1 | hand cards: Farewell(6)
+Information: BOARD turn 39 (Hermuck) | Hermuck | life 16 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 7 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 39 | Myr Battlesphere (Derand) 114; Waste Not (Derand) 83; Liliana's Caress (Derand) 83; Herald's Horn (Dominic) 63; Golbez, Crystal Collector (Derand) 49
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Mana: Cinder Glade (309) - {T}: Add {G}.
+Mana: Rumble Arena (362) - {T}: Add {C}.
+Mana: Plains (387) - {T}: Add {W}.
+Add To Stack: Hermuck activated Ba Sing Se targeting [Rumble Arena (362)]
+Resolve Stack: Ba Sing Se (363) - Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put  two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control.)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 40 (Derand)
+Information: BOARD turn 40 (Derand) | Derand | life 36 | hand 3 | lands 8 (3 untapped) | open mana 7 | commander Battlefield | creatures 11 (7 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1* x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2; Cityscape Leveler 8/8; Robot Token 2/2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Silverbluff Bridge(land)
+Information: BOARD turn 40 (Derand) | Dominic | life 36 | hand 3 | lands 6 (5 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | hand cards: Teferi's Protection(3); Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 40 (Derand) | Alec | life 32 | hand 1 | lands 5 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Urza, Prince of Kroog 2/3; Pilot Token 1/1 | hand cards: Farewell(6)
+Information: BOARD turn 40 (Derand) | Hermuck | life 16 | hand 1 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 8 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Rumble Arena 2/2*; Tireless Provisioner 3/2; Plains 2/2* | hand cards: Lotus Cobra(2)
+Information: BOARD threat | turn 40 | Myr Battlesphere (Derand) 110; Waste Not (Derand) 80; Liliana's Caress (Derand) 80; Herald's Horn (Dominic) 60; Golbez, Crystal Collector (Derand) 47
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand triggered Urza's Saga
+Resolve Stack: II — Urza's Saga gains "{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'" [Added once: Urza's Saga (55)]
+Replacement Effect: Silverbluff Bridge enters tapped.
+Land: Derand played Silverbluff Bridge (73)
+Add To Stack: Derand triggered Mechan Assembler
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Silverbluff Bridge (73)]
+Resolve Stack: Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn. [Zone Changer: Silverbluff Bridge (73)]
+Add To Stack: Derand triggered Golbez, Crystal Collector
+Resolve Stack: Derand surveiled 1 card(s) to the graveyard
+Resolve Stack: Whenever an artifact you control enters, surveil 1. [Zone Changer: Robot Token (419)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Cityscape Leveler (81) and Myr Battlesphere (28) to attack Dominic.
+Information: BOARD attack | Derand -> Dominic | attackers 2 (power 12) | defender life 36 | untapped creatures 3 (power 19): Metallic Mimic 6/5; Valiant Knight 7/8; Haytham Kenway 6/6 | open mana 7
+Add To Stack: Derand triggered Myr Battlesphere
+Add To Stack: Derand triggered Cityscape Leveler targeting [Haytham Kenway (196)]
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Island (125) - {T}: Add {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Add To Stack: Dominic cast Teferi's Protection
+Information: BOARD cast | Teferi's Protection (mv 3) by Dominic | open mana: Derand 14, Alec 6, Hermuck 4
+Resolve Stack: Teferi's Protection (131) - Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.) Exile Teferi's Protection. Dominic gains protection from everything until end of turn.  phase out. Exile Teferi's Protection (131).
+Resolve Stack: Cityscape Leveler ability fizzles.
+Resolve Stack: Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking. [Attacker: Myr Battlesphere (28)]
+Phase: Derand's Declare Blockers Step
+Combat: Dominic didn't block Cityscape Leveler (81).
+Dominic didn't block Myr Battlesphere (28).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Replacement Effect: Protection from everything
+Replacement Effect: Protection from everything
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Golbez, Crystal Collector targeting [Foundry Inspector (64)]
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Hermuck discards Lotus Cobra (311).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Liliana's Caress
+Add To Stack: Derand triggered Waste Not
+Resolve Stack: Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token. [Discarded: Lotus Cobra (311), Cause: Opponent discards a card.]
+Life: Life: Hermuck 16 > 14
+Resolve Stack: Whenever an opponent discards a card, that player loses 2 life. [Discarded: Lotus Cobra (311), Cause: Opponent discards a card.]
+Life: Life: Alec 32 > 29
+Life: Life: Hermuck 14 > 11
+Resolve Stack: At the beginning of your end step, if you control four or more artifacts, return target creature card from your graveyard to your hand. Then if you control eight or more artifacts, each opponent loses life equal to that card's power. (Targeting: [[Foundry Inspector (64)]]) [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 41 (Dominic)
+Information: BOARD turn 41 (Dominic) | Derand | life 36 | hand 5 | lands 9 (8 untapped) | open mana 14 | commander Battlefield | creatures 13 (11 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1 x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 x2; Cityscape Leveler 8/8*; Robot Token 2/2 x2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Sol Ring(1); Cyberdrive Awakener(6); Foundry Inspector(3)
+Information: BOARD turn 41 (Dominic) | Dominic | life 36 | hand 2 | lands 0 (0 untapped) | open mana 0 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Eldrazi Monument(5); Adeline, Resplendent Cathar(3)
+Information: BOARD turn 41 (Dominic) | Alec | life 29 | hand 1 | lands 5 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Urza, Prince of Kroog 2/3; Pilot Token 1/1 | hand cards: Farewell(6)
+Information: BOARD turn 41 (Dominic) | Hermuck | life 11 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 8 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Rumble Arena 2/2*; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 41 | Myr Battlesphere (Derand) 120; Waste Not (Derand) 91; Liliana's Caress (Derand) 91; Golbez, Crystal Collector (Derand) 88; Dr. Eggman (Derand) 46
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Command Tower (124)
+Mana: Island (125) - {T}: Add {U}.
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Idyllic Grange (171) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Command Tower (124) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Add To Stack: Dominic cast Eldrazi Monument
+Information: BOARD cast | Eldrazi Monument (mv 5) by Dominic | open mana: Derand 14, Alec 6, Hermuck 4
+Resolve Stack: Eldrazi Monument
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 42 (Alec)
+Information: BOARD turn 42 (Alec) | Derand | life 36 | hand 5 | lands 9 (8 untapped) | open mana 14 | commander Battlefield | creatures 13 (11 untapped): Dr. Eggman 3/6; Myr Battlesphere 4/7*; Myr Token 1/1 x3; Grand Arbiter Augustin IV 2/3; Golbez, Crystal Collector 1/4; Mechan Assembler 4/4; Zombie Token 2/2 x2; Cityscape Leveler 8/8*; Robot Token 2/2 x2 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Sol Ring(1); Cyberdrive Awakener(6); Foundry Inspector(3)
+Information: BOARD turn 42 (Alec) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Metallic Mimic 7/6; Valiant Knight 8/9; Haytham Kenway 7/7 | hand cards: Adeline, Resplendent Cathar(3); Worthy Knight(2)
+Information: BOARD turn 42 (Alec) | Alec | life 29 | hand 1 | lands 5 (4 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Urza, Prince of Kroog 2/3; Pilot Token 1/1 | hand cards: Farewell(6)
+Information: BOARD turn 42 (Alec) | Hermuck | life 11 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 8 (5 untapped): Ba Sing Se 2/2*; Mountain 2/2 x2; Plains 2/2 x2; Rumble Arena 2/2*; Tireless Provisioner 3/2; Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 42 | Myr Battlesphere (Derand) 115; Waste Not (Derand) 87; Liliana's Caress (Derand) 87; Golbez, Crystal Collector (Derand) 85; Herald's Horn (Dominic) 70
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Sol Ring (248) - {T}: Add {C}{C}.
+Mana: Exotic Orchard (241) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Island (235) - {T}: Add {U}.
+Mana: Island (226) - {T}: Add {U}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Mana: Plains (278) - {T}: Add {W}.
+Add To Stack: Alec cast Farewell
+Information: BOARD cast | Farewell (mv 6) by Alec | open mana: Derand 14, Dominic 1, Hermuck 4
+Zone Change: Grand Arbiter Augustin IV (210) was put into Exile from Battlefield.
+Zone Change: Urza, Prince of Kroog (290) was put into Exile from Battlefield.
+Zone Change: Pilot Token (417) was put into Exile from Battlefield.
+Zone Change: Ba Sing Se (363) was put into Exile from Battlefield.
+Zone Change: Mountain (384) was put into Exile from Battlefield.
+Zone Change: Plains (386) was put into Exile from Battlefield.
+Zone Change: Plains (388) was put into Exile from Battlefield.
+Zone Change: Rumble Arena (362) was put into Exile from Battlefield.
+Zone Change: Mountain (381) was put into Exile from Battlefield.
+Zone Change: Tireless Provisioner (313) was put into Exile from Battlefield.
+Zone Change: Plains (387) was put into Exile from Battlefield.
+Zone Change: Dr. Eggman (95) was put into Exile from Battlefield.
+Zone Change: Myr Battlesphere (28) was put into Exile from Battlefield.
+Zone Change: Myr Token (401) was put into Exile from Battlefield.
+Zone Change: Myr Token (402) was put into Exile from Battlefield.
+Zone Change: Myr Token (403) was put into Exile from Battlefield.
+Zone Change: Golbez, Crystal Collector (38) was put into Exile from Battlefield.
+Zone Change: Mechan Assembler (84) was put into Exile from Battlefield.
+Zone Change: Zombie Token (408) was put into Exile from Battlefield.
+Zone Change: Cityscape Leveler (81) was put into Exile from Battlefield.
+Zone Change: Robot Token (415) was put into Exile from Battlefield.
+Zone Change: Robot Token (419) was put into Exile from Battlefield.
+Zone Change: Zombie Token (423) was put into Exile from Battlefield.
+Zone Change: Metallic Mimic (165) was put into Exile from Battlefield.
+Zone Change: Valiant Knight (191) was put into Exile from Battlefield.
+Zone Change: Haytham Kenway (196) was put into Exile from Battlefield.
+Zone Change: Tempered Steel (202) was put into Exile from Battlefield.
+Zone Change: Waste Not (92) was put into Exile from Battlefield.
+Zone Change: Liliana's Caress (14) was put into Exile from Battlefield.
+Zone Change: Urza's Saga (55) was put into Exile from Battlefield.
+Resolve Stack: Farewell (215) -  Exile all creatures. Exile all enchantments. Exile all graveyards.
+Add To Stack: Hermuck triggered Toph, the First Metalbender
+Add To Stack: Hermuck triggered Toph, the First Metalbender
+Add To Stack: Hermuck triggered Toph, the First Metalbender
+Add To Stack: Hermuck triggered Toph, the Blind Bandit
+Add To Stack: Hermuck triggered Ba Sing Se
+Add To Stack: Hermuck triggered Toph, the First Metalbender
+Add To Stack: Hermuck triggered Ba Sing Se
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Plains (387)]) [Exiled: Plains (387)]
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Mountain (381)]) [Exiled: Mountain (381)]
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Rumble Arena (362)]) [Exiled: Rumble Arena (362)]
+Add To Stack: Hermuck triggered Rumble Arena
+Resolve Stack: Hermuck scried 1 card(s) to the top of the library
+Resolve Stack: When this land enters, scry 1. (Look at the top card of your library. You may put it on the bottom.) [Zone Changer: Rumble Arena (362)]
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Plains (388)]) [Exiled: Plains (388)]
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Plains (386)]) [Exiled: Plains (386)]
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Mountain (384)]) [Exiled: Mountain (384)]
+Replacement Effect: This land enters tapped unless you control a basic land.
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Ba Sing Se (363)]) [Exiled: Ba Sing Se (363)]
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Alec cast Esper Sentinel
+Information: BOARD cast | Esper Sentinel (mv 1) by Alec | open mana: Derand 13, Dominic 1, Hermuck 0
+Resolve Stack: Esper Sentinel - Creature 1 / 1
+Mana: Powerstone Token (413) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Add To Stack: Alec activated Shorikai, Genesis Engine
+Discard: Alec discards Prairie Stream (277).
+Resolve Stack: Shorikai, Genesis Engine (203) - Alec draws two cards. Alec discards a card. Alec creates a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 43 (Hermuck)
+Information: BOARD turn 43 (Hermuck) | Derand | life 36 | hand 5 | lands 8 (7 untapped) | open mana 13 | commander Command | creatures 1 (1 untapped): Terror Ballista 5/3 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Sol Ring(1); Cyberdrive Awakener(6); Foundry Inspector(3)
+Information: BOARD turn 43 (Hermuck) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Adeline, Resplendent Cathar(3); Worthy Knight(2)
+Information: BOARD turn 43 (Hermuck) | Alec | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Pilot Token 1/1 | hand cards: Consulate Dreadnought(1)
+Information: BOARD turn 43 (Hermuck) | Hermuck | life 11 | hand 0 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD threat | turn 43 | Herald's Horn (Dominic) 67; Shorikai, Genesis Engine (Alec) 37
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Mana: Cinder Glade (309) - {T}: Add {G}.
+Mana: Plains (387) - {T}: Add {W}.
+Mana: Mountain (381) - {T}: Add {R}.
+Add To Stack: Hermuck activated Ba Sing Se targeting [Plains (387)]
+Resolve Stack: Ba Sing Se (363) - Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put  two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control.)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 44 (Derand)
+Information: BOARD turn 44 (Derand) | Derand | life 36 | hand 5 | lands 8 (7 untapped) | open mana 13 | commander Command | creatures 1 (1 untapped): Terror Ballista 5/3 | hand cards: Phyrexian Metamorph(4); Sensei's Divining Top(1); Sol Ring(1); Cyberdrive Awakener(6); Foundry Inspector(3)
+Information: BOARD turn 44 (Derand) | Dominic | life 36 | hand 2 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Adeline, Resplendent Cathar(3); Worthy Knight(2)
+Information: BOARD turn 44 (Derand) | Alec | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Pilot Token 1/1 | hand cards: Consulate Dreadnought(1)
+Information: BOARD turn 44 (Derand) | Hermuck | life 11 | hand 1 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: Earthbending Student(3)
+Information: BOARD threat | turn 44 | Herald's Horn (Dominic) 64; Shorikai, Genesis Engine (Alec) 36
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Xander's Lounge (83) - {T}: Add {B}.
+Mana: Otawara, Soaring City (4) - {T}: Add {U}.
+Mana: Mountain (91) - {T}: Add {R}.
+Mana: Reliquary Tower (32) - {T}: Add {C}.
+Mana: Thought Vessel (18) - {T}: Add {C}.
+Mana: Great Furnace (93) - {T}: Add {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Silverbluff Bridge (73) - {T}: Add {U} or {R}.
+Mana: Steam Vents (37) - {T}: Add {R}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Resolve Stack: Dr. Eggman - Creature 3 / 6
+Mana: Mind Stone (13) - {T}: Add {C}.
+Add To Stack: Derand cast Sol Ring
+Information: BOARD cast | Sol Ring (mv 1) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Add To Stack: Alec triggered Esper Sentinel
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Sol Ring (30), Activator: Derand, SpellAbility: Sol Ring]
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Sol Ring (30), Activator: Derand, SpellAbility: Sol Ring]
+Resolve Stack: Sol Ring
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand activated Saheeli, the Gifted
+Resolve Stack: Saheeli, the Gifted (44) - +1: The next spell you cast this turn has affinity for artifacts. (It costs {1} less to cast for each artifact you control as you cast it.)
+Life: Life: Derand 36 > 34
+Add To Stack: Derand cast Phyrexian Metamorph
+Information: BOARD cast | Phyrexian Metamorph (mv 4) by Derand | open mana: Dominic 1, Alec 0, Hermuck 4
+Replacement Effect: You may have Terror Ballista enter as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.
+Resolve Stack: Phyrexian Metamorph - Creature 0 / 0
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Worthy Knight (144).
+Discard: Alec discards Island (228).
+Discard: Hermuck discards Earthbending Student (374).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 45 (Dominic)
+Information: BOARD turn 45 (Dominic) | Derand | life 34 | hand 5 | lands 8 (0 untapped) | open mana 4 | commander Battlefield | creatures 4 (4 untapped): Terror Ballista 5/3 x2; Dr. Eggman 3/6; Servo Token 1/1 | hand cards: Sensei's Divining Top(1); Cyberdrive Awakener(6); Foundry Inspector(3); Padeem, Consul of Innovation(4); Thought Monitor(7)
+Information: BOARD turn 45 (Dominic) | Dominic | life 36 | hand 1 | lands 7 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Adeline, Resplendent Cathar(3)
+Information: BOARD turn 45 (Dominic) | Alec | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Pilot Token 1/1 | hand cards: Consulate Dreadnought(1)
+Information: BOARD turn 45 (Dominic) | Hermuck | life 11 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 45 | Herald's Horn (Dominic) 62; Shorikai, Genesis Engine (Alec) 34
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Eldrazi Monument
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Zone Change: Eldrazi Monument (104) was put into Graveyard from Battlefield.
+Resolve Stack: At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice Eldrazi Monument. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (126)
+Mana: Rogue's Passage (121) - {T}: Add {C}.
+Mana: Island (126) - {T}: Add {U}.
+Mana: Hallowed Fountain (139) - {T}: Add {W}.
+Land: Dominic picked {U}
+Land: Dominic picked {U}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Mana: Idyllic Grange (171) - {T}: Add {W}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 4, Alec 0, Hermuck 4
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Esper Sentinel (262), Plains (387), Dr. Eggman (95)]
+Zone Change: Esper Sentinel (262) was put into Exile from Battlefield.
+Zone Change: Plains (387) was put into Exile from Battlefield.
+Zone Change: Dr. Eggman (95) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Esper Sentinel (262), Plains (387), Dr. Eggman (95)]]) [Zone Changer: Haytham Kenway (196)]
+Add To Stack: Hermuck triggered Ba Sing Se
+Resolve Stack: When it dies or is exiled, return it to the battlefield tapped. ([Plains (387)]) [Exiled: Plains (387)]
+Mana: Plains (182) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Command Tower (124) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Adeline, Resplendent Cathar
+Information: BOARD cast | Adeline, Resplendent Cathar (mv 3) by Dominic | open mana: Derand 4, Alec 0, Hermuck 4
+Resolve Stack: Adeline, Resplendent Cathar - Creature * / 4
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 46 (Alec)
+Information: BOARD turn 46 (Alec) | Derand | life 34 | hand 5 | lands 8 (0 untapped) | open mana 4 | commander Elsewhere | creatures 3 (3 untapped): Terror Ballista 5/3 x2; Servo Token 1/1 | hand cards: Sensei's Divining Top(1); Cyberdrive Awakener(6); Foundry Inspector(3); Padeem, Consul of Innovation(4); Thought Monitor(7)
+Information: BOARD turn 46 (Alec) | Dominic | life 36 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Haytham Kenway 4/4; Adeline, Resplendent Cathar 5/7 | hand cards: 
+Information: BOARD turn 46 (Alec) | Alec | life 29 | hand 1 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Pilot Token 1/1 | hand cards: Consulate Dreadnought(1)
+Information: BOARD turn 46 (Alec) | Hermuck | life 11 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD threat | turn 46 | Herald's Horn (Dominic) 74; Shorikai, Genesis Engine (Alec) 33
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (279)
+Mana: Powerstone Token (413) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Add To Stack: Alec cast Consulate Dreadnought
+Information: BOARD cast | Consulate Dreadnought (mv 1) by Alec | open mana: Derand 4, Dominic 1, Hermuck 4
+Resolve Stack: Consulate Dreadnought
+Mana: Exotic Orchard (241) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Sol Ring (248) - {T}: Add {C}{C}.
+Mana: Plains (288) - {T}: Add {W}.
+Add To Stack: Alec cast Kotori, Pilot Prodigy
+Information: BOARD cast | Kotori, Pilot Prodigy (mv 3) by Alec | open mana: Derand 4, Dominic 1, Hermuck 4
+Resolve Stack: Kotori, Pilot Prodigy - Creature 2 / 4
+Add To Stack: Alec activated Shorikai, Genesis Engine
+Resolve Stack: Shorikai, Genesis Engine (203) - Shorikai, Genesis Engine (203) becomes an artifact creature until end of turn.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Shorikai, Genesis Engine (203)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Shorikai, Genesis Engine (203)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Shorikai, Genesis Engine (203) to attack Derand.
+Information: BOARD attack | Alec -> Derand | attackers 1 (power 8) | defender life 34 | untapped creatures 3 (power 11): Terror Ballista 5/3 x2; Servo Token 1/1 | open mana 4
+Phase: Alec's Declare Blockers Step
+Combat: Derand assigned Servo Token (427) to block Shorikai, Genesis Engine (203).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Shorikai, Genesis Engine (203) deals 8 damage to Servo Token (427).
+Life: Life: Alec 29 > 37
+Damage: Servo Token (427) deals 1 damage to Shorikai, Genesis Engine (203).
+Zone Change: Servo Token (427) was put into Graveyard from Battlefield.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec activated Shorikai, Genesis Engine
+Discard: Alec discards Prodigy's Prototype (240).
+Resolve Stack: Shorikai, Genesis Engine (203) - Alec draws two cards. Alec discards a card. Alec creates a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 47 (Hermuck)
+Information: BOARD turn 47 (Hermuck) | Derand | life 34 | hand 5 | lands 8 (0 untapped) | open mana 4 | commander Elsewhere | creatures 2 (2 untapped): Terror Ballista 5/3 x2 | hand cards: Sensei's Divining Top(1); Cyberdrive Awakener(6); Foundry Inspector(3); Padeem, Consul of Innovation(4); Thought Monitor(7)
+Information: BOARD turn 47 (Hermuck) | Dominic | life 36 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Haytham Kenway 4/4; Adeline, Resplendent Cathar 5/7 | hand cards: 
+Information: BOARD turn 47 (Hermuck) | Alec | life 37 | hand 1 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Pilot Token 1/1*; Kotori, Pilot Prodigy 2/4; Pilot Token 1/1 | hand cards: Crystal Skull, Isu Spyglass(4)
+Information: BOARD turn 47 (Hermuck) | Hermuck | life 11 | hand 0 | lands 8 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD threat | turn 47 | Herald's Horn (Dominic) 71; Shorikai, Genesis Engine (Alec) 60
+Phase: Hermuck's Untap step
+Phase: Hermuck's Upkeep step
+Phase: Hermuck's Draw step
+Phase: Hermuck's Main phase, precombat
+Mana: Cinder Glade (309) - {T}: Add {G}.
+Mana: Mountain (381) - {T}: Add {R}.
+Mana: Plains (388) - {T}: Add {W}.
+Add To Stack: Hermuck activated Ba Sing Se targeting [Plains (388)]
+Resolve Stack: Ba Sing Se (363) - Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put  two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control.)
+Phase: Hermuck's Beginning of Combat Step
+Phase: Hermuck's Declare Attackers Step
+Phase: Hermuck's Declare Blockers Step
+Phase: Hermuck's First Strike Damage Step
+Phase: Hermuck's Combat Damage Step
+Phase: Hermuck's End of Combat Step
+Phase: Hermuck's Main phase, postcombat
+Mana: Plains (386) - {T}: Add {W}.
+Mana: Mountain (384) - {T}: Add {R}.
+Mana: Plains (387) - {T}: Add {W}.
+Add To Stack: Hermuck cast The Stasis Coffin
+Information: BOARD cast | The Stasis Coffin (mv 3) by Hermuck | open mana: Derand 4, Dominic 1, Alec 3
+Resolve Stack: The Stasis Coffin
+Phase: Hermuck's End step
+Phase: Hermuck's Cleanup step
+Turn: Turn 48 (Derand)
+Information: BOARD turn 48 (Derand) | Derand | life 34 | hand 5 | lands 8 (0 untapped) | open mana 4 | commander Elsewhere | creatures 2 (2 untapped): Terror Ballista 5/3 x2 | hand cards: Sensei's Divining Top(1); Cyberdrive Awakener(6); Foundry Inspector(3); Padeem, Consul of Innovation(4); Thought Monitor(7)
+Information: BOARD turn 48 (Derand) | Dominic | life 36 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Haytham Kenway 4/4; Adeline, Resplendent Cathar 5/7 | hand cards: 
+Information: BOARD turn 48 (Derand) | Alec | life 37 | hand 1 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (2 untapped): Pilot Token 1/1*; Kotori, Pilot Prodigy 2/4; Pilot Token 1/1 | hand cards: Crystal Skull, Isu Spyglass(4)
+Information: BOARD turn 48 (Derand) | Hermuck | life 11 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 48 | Herald's Horn (Dominic) 68; Shorikai, Genesis Engine (Alec) 58; Ba Sing Se (Hermuck) 40
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Luxury Suite enters tapped unless you have two or more opponents.
+Land: Derand played Luxury Suite (72)
+Add To Stack: Derand activated Saheeli, the Gifted
+Resolve Stack: Saheeli, the Gifted (44) - Derand creates a 1/1 colorless Servo artifact creature token.
+Mana: Reliquary Tower (32) - {T}: Add {C}.
+Add To Stack: Derand cast Sensei's Divining Top
+Information: BOARD cast | Sensei's Divining Top (mv 1) by Derand | open mana: Dominic 1, Alec 3, Hermuck 1
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Sensei's Divining Top (94), Activator: Derand, SpellAbility: Sensei's Divining Top]
+Resolve Stack: Sensei's Divining Top
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Terror Ballista (16) to attack Dominic.
+Information: BOARD attack | Derand -> Dominic | attackers 1 (power 5) | defender life 36 | untapped creatures 2 (power 9): Haytham Kenway 4/4; Adeline, Resplendent Cathar 5/7 | open mana 1
+Add To Stack: Derand triggered Terror Ballista
+Zone Change: Servo Token (434) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever Terror Ballista attacks, you may sacrifice another creature. When you do, destroy target creature an opponent controls. [Attacker: Terror Ballista (16)]
+Add To Stack: Derand triggered Terror Ballista targeting [Haytham Kenway (196)]
+Zone Change: Haytham Kenway (196) was put into Graveyard from Battlefield.
+Resolve Stack:  (Targeting: [[Haytham Kenway (196)]])
+Phase: Derand's Declare Blockers Step
+Combat: Dominic didn't block Terror Ballista (16).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Terror Ballista (16) deals 5 combat damage to Dominic.
+Life: Life: Dominic 36 > 31
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Mana: Otawara, Soaring City (4) - {T}: Add {U}.
+Add To Stack: Derand cast Thought Monitor
+Information: BOARD cast | Thought Monitor (mv 7) by Derand | open mana: Dominic 1, Alec 3, Hermuck 1
+Resolve Stack: Thought Monitor - Creature 2 / 2
+Add To Stack: Derand triggered Thought Monitor
+Resolve Stack: When Thought Monitor enters, draw two cards. [Zone Changer: Thought Monitor (56)]
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Mana: Thought Vessel (18) - {T}: Add {C}.
+Mana: Sol Ring (30) - {T}: Add {C}{C}.
+Add To Stack: Derand cast Padeem, Consul of Innovation
+Information: BOARD cast | Padeem, Consul of Innovation (mv 4) by Derand | open mana: Dominic 1, Alec 3, Hermuck 1
+Resolve Stack: Padeem, Consul of Innovation - Creature 1 / 4
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Cyberdrive Awakener
+Resolve Stack: When this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn. [Zone Changer: Cyberdrive Awakener (90)]
+Phase: Derand's Cleanup step
+Turn: Turn 49 (Dominic)
+Information: BOARD turn 49 (Dominic) | Derand | life 34 | hand 4 | lands 9 (6 untapped) | open mana 13 | commander Battlefield | creatures 7 (6 untapped): Terror Ballista 5/3; Terror Ballista 5/3*; Servo Token 1/1; Dr. Eggman 3/6; Thought Monitor 2/2; Padeem, Consul of Innovation 1/4; Cyberdrive Awakener 4/4 | hand cards: Foundry Inspector(3); Talisman of Indulgence(2); Scrapyard Recombiner(3); Megrim(3)
+Information: BOARD turn 49 (Dominic) | Dominic | life 31 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Adeline, Resplendent Cathar 2/5 | hand cards: 
+Information: BOARD turn 49 (Dominic) | Alec | life 37 | hand 1 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 4 (3 untapped): Pilot Token 1/1*; Kotori, Pilot Prodigy 2/4; Pilot Token 1/1; Esper Sentinel 1/1 | hand cards: Crystal Skull, Isu Spyglass(4)
+Information: BOARD turn 49 (Dominic) | Hermuck | life 11 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 49 | Herald's Horn (Dominic) 65; Terror Ballista (Derand) 58; Shorikai, Genesis Engine (Alec) 56; Ba Sing Se (Hermuck) 38; Saheeli, the Gifted (Derand) 35
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Mana: Island (125) - {T}: Add {U}.
+Mana: Island (126) - {T}: Add {U}.
+Discard: Dominic discards Irrigated Farmland (130).
+Add To Stack: Dominic activated Irrigated Farmland
+Resolve Stack: Irrigated Farmland (130) - Dominic draws a card.
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Idyllic Grange (171) - {T}: Add {W}.
+Add To Stack: Dominic cast Archivist of Oghma
+Information: BOARD cast | Archivist of Oghma (mv 2) by Dominic | open mana: Derand 13, Alec 3, Hermuck 1
+Resolve Stack: Archivist of Oghma - Creature 2 / 2
+Phase: Dominic's Main phase, precombat
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Command Tower (124) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Dominic cast Mirror Entity
+Information: BOARD cast | Mirror Entity (mv 3) by Dominic | open mana: Derand 13, Alec 3, Hermuck 1
+Resolve Stack: Mirror Entity - Creature 1 / 1
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Adeline, Resplendent Cathar (173) to attack Alec.
+Information: BOARD attack | Dominic -> Alec | attackers 1 (power 4) | defender life 37 | untapped creatures 3 (power 4): Kotori, Pilot Prodigy 2/4; Pilot Token 1/1; Esper Sentinel 1/1 | open mana 3
+Add To Stack: Dominic triggered Adeline, Resplendent Cathar
+Add To Stack: Alec activated Consulate Dreadnought
+Resolve Stack: Consulate Dreadnought (214) - Consulate Dreadnought (214) becomes an artifact creature until end of turn.
+Resolve Stack: Whenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control. [Number Attackers: [Adeline, Resplendent Cathar (173)]]
+Phase: Dominic's Declare Blockers Step
+Combat: Alec assigned Consulate Dreadnought (214) and Kotori, Pilot Prodigy (297) to block Adeline, Resplendent Cathar (173).
+Alec didn't block Human Token (436).
+Combat: Hermuck didn't block Human Token (438).
+Combat: Derand assigned Terror Ballista (77) to block Human Token (440).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Human Token (436) deals 1 combat damage to Alec.
+Damage: Human Token (438) deals 1 combat damage to Hermuck.
+Damage: Human Token (440) deals 1 damage to Terror Ballista (77).
+Damage: Adeline, Resplendent Cathar (173) deals 7 damage to Consulate Dreadnought (214).
+Damage: Consulate Dreadnought (214) deals 7 damage to Adeline, Resplendent Cathar (173).
+Damage: Kotori, Pilot Prodigy (297) deals 2 damage to Adeline, Resplendent Cathar (173).
+Damage: Terror Ballista (77) deals 5 damage to Human Token (440).
+Life: Life: Alec 37 > 36
+Life: Life: Hermuck 11 > 10
+Zone Change: Adeline, Resplendent Cathar (173) was put into Graveyard from Battlefield.
+Zone Change: Human Token (440) was put into Graveyard from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 50 (Alec)
+Information: BOARD turn 50 (Alec) | Derand | life 34 | hand 4 | lands 9 (6 untapped) | open mana 13 | commander Battlefield | creatures 7 (6 untapped): Terror Ballista 5/3; Terror Ballista 5/3*; Servo Token 1/1; Dr. Eggman 3/6; Thought Monitor 2/2; Padeem, Consul of Innovation 1/4; Cyberdrive Awakener 4/4 | hand cards: Foundry Inspector(3); Talisman of Indulgence(2); Scrapyard Recombiner(3); Megrim(3)
+Information: BOARD turn 50 (Alec) | Dominic | life 31 | hand 0 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 4 (2 untapped): Archivist of Oghma 2/2; Mirror Entity 2/2; Human Token 1/1* x2 | hand cards: 
+Information: BOARD turn 50 (Alec) | Alec | life 36 | hand 1 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 4 (2 untapped): Pilot Token 1/1* x2; Kotori, Pilot Prodigy 2/4; Esper Sentinel 1/1 | hand cards: Crystal Skull, Isu Spyglass(4)
+Information: BOARD turn 50 (Alec) | Hermuck | life 10 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Plains 2/2* | hand cards: 
+Information: BOARD threat | turn 50 | Herald's Horn (Dominic) 77; Terror Ballista (Derand) 55; Shorikai, Genesis Engine (Alec) 53; Ba Sing Se (Hermuck) 37; Saheeli, the Gifted (Derand) 34
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Powerstone Token (413) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Mana: Island (235) - {T}: Add {U}.
+Mana: Island (226) - {T}: Add {U}.
+Mana: Mind Stone (236) - {T}: Add {C}.
+Add To Stack: Alec cast Crystal Skull, Isu Spyglass
+Information: BOARD cast | Crystal Skull, Isu Spyglass (mv 4) by Alec | open mana: Derand 13, Dominic 2, Hermuck 1
+Resolve Stack: Crystal Skull, Isu Spyglass
+Mana: Exotic Orchard (241) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (279) - {T}: Add {W}.
+Mana: Plains (288) - {T}: Add {W}.
+Mana: Plains (278) - {T}: Add {W}.
+Mana: Sol Ring (248) - {T}: Add {C}{C}.
+Add To Stack: Alec cast Cyberdrive Awakener
+Information: BOARD cast | Cyberdrive Awakener (mv 6) by Alec | open mana: Derand 13, Dominic 2, Hermuck 1
+Resolve Stack: Cyberdrive Awakener - Creature 4 / 4
+Add To Stack: Alec triggered Cyberdrive Awakener
+Resolve Stack: When this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn. [Zone Changer: Cyberdrive Awakener (268)]
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Consulate Dreadnought (214)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Consulate Dreadnought (214)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Consulate Dreadnought (214), Shorikai, Genesis Engine (203), Pilot Token (425) and Pilot Token (430) to attack Hermuck.
+Information: BOARD attack | Alec -> Hermuck | attackers 4 (power 10) | defender life 10 | untapped creatures 0 (power 0):  | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: Hermuck didn't block Consulate Dreadnought (214).
+Hermuck didn't block Shorikai, Genesis Engine (203).
+Hermuck didn't block Pilot Token (425).
+Hermuck didn't block Pilot Token (430).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Consulate Dreadnought (214) deals 4 combat damage to Hermuck.
+Life: Life: Alec 36 > 40
+Damage: Shorikai, Genesis Engine (203) deals 4 combat damage to Hermuck.
+Damage: Pilot Token (425) deals 1 combat damage to Hermuck.
+Damage: Pilot Token (430) deals 1 combat damage to Hermuck.
+Life: Life: Hermuck 10 > 0
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 51 (Derand)
+Information: BOARD turn 51 (Derand) | Derand | life 34 | hand 4 | lands 9 (6 untapped) | open mana 13 | commander Battlefield | creatures 7 (6 untapped): Terror Ballista 5/3; Terror Ballista 5/3*; Servo Token 1/1; Dr. Eggman 3/6; Thought Monitor 2/2; Padeem, Consul of Innovation 1/4; Cyberdrive Awakener 4/4 | hand cards: Foundry Inspector(3); Talisman of Indulgence(2); Scrapyard Recombiner(3); Megrim(3)
+Information: BOARD turn 51 (Derand) | Dominic | life 31 | hand 0 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 4 (2 untapped): Archivist of Oghma 2/2; Mirror Entity 2/2; Human Token 1/1* x2 | hand cards: 
+Information: BOARD turn 51 (Derand) | Alec | life 40 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Battlefield | creatures 5 (3 untapped): Pilot Token 1/1* x2; Kotori, Pilot Prodigy 2/4; Esper Sentinel 1/1; Cyberdrive Awakener 4/4 | hand cards: 
+Information: BOARD threat | turn 51 | Shorikai, Genesis Engine (Alec) 74; Herald's Horn (Dominic) 74; Terror Ballista (Derand) 53; Consulate Dreadnought (Alec) 37; Saheeli, the Gifted (Derand) 33
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Add To Stack: Derand triggered Padeem, Consul of Innovation
+Resolve Stack: At the beginning of your upkeep, if you control the artifact with the highest mana value or tied for the highest mana value, draw a card. [Phase: Derand]
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand picked {B}
+Land: Derand picked {B}
+Mana: Luxury Suite (72) - {T}: Add {B} or {R}.
+Mana: Reliquary Tower (32) - {T}: Add {C}.
+Mana: Thought Vessel (18) - {T}: Add {C}.
+Add To Stack: Derand cast Megrim
+Information: BOARD cast | Megrim (mv 3) by Derand | open mana: Dominic 2, Alec 1
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Add To Stack: Alec triggered Esper Sentinel
+Mana: Sol Ring (30) - {T}: Add {C}{C}.
+Resolve Stack: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power. [Card: Megrim (36), Activator: Derand, SpellAbility: Megrim]
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Megrim (36), Activator: Derand, SpellAbility: Megrim]
+Resolve Stack: Megrim
+Mana: Mountain (91) - {T}: Add {R}.
+Add To Stack: Derand cast Talisman of Indulgence
+Information: BOARD cast | Talisman of Indulgence (mv 2) by Derand | open mana: Dominic 2, Alec 1
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Talisman of Indulgence (6), Activator: Derand, SpellAbility: Talisman of Indulgence]
+Resolve Stack: Talisman of Indulgence
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Terror Ballista (77) to attack Dominic.
+Derand assigned Terror Ballista (16) to attack Alec.
+Information: BOARD attack | Derand -> Dominic | attackers 1 (power 5) | defender life 31 | untapped creatures 2 (power 4): Archivist of Oghma 2/2; Mirror Entity 2/2 | open mana 2
+Information: BOARD attack | Derand -> Alec | attackers 1 (power 5) | defender life 40 | untapped creatures 3 (power 7): Kotori, Pilot Prodigy 2/4; Esper Sentinel 1/1; Cyberdrive Awakener 4/4 | open mana 1
+Add To Stack: Derand triggered Terror Ballista
+Add To Stack: Derand triggered Terror Ballista
+Zone Change: Servo Token (442) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever Terror Ballista attacks, you may sacrifice another creature. When you do, destroy target creature an opponent controls. [Attacker: Terror Ballista (16)]
+Add To Stack: Derand triggered Terror Ballista targeting [Mirror Entity (154)]
+Zone Change: Mirror Entity (154) was put into Graveyard from Battlefield.
+Resolve Stack:  (Targeting: [[Mirror Entity (154)]])
+Zone Change: Servo Token (444) was put into Graveyard from Battlefield.
+Resolve Stack: Whenever Terror Ballista attacks, you may sacrifice another creature. When you do, destroy target creature an opponent controls. [Attacker: Terror Ballista (77)]
+Add To Stack: Derand triggered Terror Ballista targeting [Kotori, Pilot Prodigy (297)]
+Zone Change: Kotori, Pilot Prodigy (297) was put into Graveyard from Battlefield.
+Resolve Stack:  (Targeting: [[Kotori, Pilot Prodigy (297)]])
+Phase: Derand's Declare Blockers Step
+Combat: Dominic didn't block Terror Ballista (77).
+Combat: Alec didn't block Terror Ballista (16).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Terror Ballista (16) deals 5 combat damage to Alec.
+Damage: Terror Ballista (77) deals 5 combat damage to Dominic.
+Life: Life: Dominic 31 > 26
+Life: Life: Alec 40 > 35
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Mana: Great Furnace (93) - {T}: Add {R}.
+Mana: Otawara, Soaring City (4) - {T}: Add {U}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (22) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Sculpting Steel
+Information: BOARD cast | Sculpting Steel (mv 3) by Derand | open mana: Dominic 2, Alec 1
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Sculpting Steel (46), Activator: Derand, SpellAbility: Sculpting Steel]
+Replacement Effect: You may have Terror Ballista enter as a copy of any artifact on the battlefield.
+Resolve Stack: Sculpting Steel
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 52 (Dominic)
+Information: BOARD turn 52 (Dominic) | Derand | life 34 | hand 4 | lands 9 (3 untapped) | open mana 11 | commander Battlefield | creatures 9 (7 untapped): Terror Ballista 5/3* x2; Servo Token 1/1 x2; Dr. Eggman 3/6; Thought Monitor 2/2; Padeem, Consul of Innovation 1/4; Cyberdrive Awakener 4/4; Terror Ballista 5/3 | hand cards: Foundry Inspector(3); Scrapyard Recombiner(3); Oildeep Gearhulk(4); Mistvault Bridge(land)
+Information: BOARD turn 52 (Dominic) | Dominic | life 26 | hand 0 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 3 (1 untapped): Archivist of Oghma 2/2; Human Token 1/1* x2 | hand cards: 
+Information: BOARD turn 52 (Dominic) | Alec | life 35 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 4 (2 untapped): Pilot Token 1/1* x2; Esper Sentinel 1/1; Cyberdrive Awakener 4/4 | hand cards: 
+Information: BOARD threat | turn 52 | Terror Ballista (Derand) 109; Shorikai, Genesis Engine (Alec) 71; Herald's Horn (Dominic) 71; Saheeli, Sublime Artificer (Derand) 67; Terror Ballista (Derand) 58
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Add To Stack: Dominic triggered Herald's Horn
+Resolve Stack: At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand. [Phase: Dominic]
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Dominic played Port Town (188)
+Mana: Plains (182) - {T}: Add {W}.
+Mana: Island (125) - {T}: Add {U}.
+Mana: Idyllic Grange (171) - {T}: Add {W}.
+Mana: Island (126) - {T}: Add {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Deserted Beach (155) - {T}: Add {W} or {U}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Command Tower (124) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Hallowed Fountain (139) - {T}: Add {U}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 11, Alec 1
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Padeem, Consul of Innovation (1), Esper Sentinel (262)]
+Zone Change: Padeem, Consul of Innovation (1) was put into Exile from Battlefield.
+Zone Change: Esper Sentinel (262) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Padeem, Consul of Innovation (1), Esper Sentinel (262)]]) [Zone Changer: Haytham Kenway (196)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 53 (Alec)
+Information: BOARD turn 53 (Alec) | Derand | life 34 | hand 4 | lands 9 (3 untapped) | open mana 11 | commander Battlefield | creatures 8 (6 untapped): Terror Ballista 5/3* x2; Servo Token 1/1 x2; Dr. Eggman 3/6; Thought Monitor 2/2; Cyberdrive Awakener 4/4; Terror Ballista 5/3 | hand cards: Foundry Inspector(3); Scrapyard Recombiner(3); Oildeep Gearhulk(4); Mistvault Bridge(land)
+Information: BOARD turn 53 (Alec) | Dominic | life 26 | hand 0 | lands 9 (1 untapped) | open mana 1 | commander Battlefield | creatures 4 (4 untapped): Archivist of Oghma 2/2; Human Token 1/1 x2; Haytham Kenway 4/4 | hand cards: 
+Information: BOARD turn 53 (Alec) | Alec | life 35 | hand 0 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Pilot Token 1/1* x2; Cyberdrive Awakener 4/4 | hand cards: 
+Information: BOARD threat | turn 53 | Terror Ballista (Derand) 104; Herald's Horn (Dominic) 82; Shorikai, Genesis Engine (Alec) 68; Saheeli, Sublime Artificer (Derand) 64; Terror Ballista (Derand) 55
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Player Control: Derand has restored control over themself
+Player Control: Dominic has restored control over themself
+Player Control: Alec has restored control over themself
+Player Control: Hermuck has restored control over themself
+Game Outcome: Match Duration 1h : 20m : 51s
+Game Outcome: Turn 27
+Game Outcome: Derand has won because all opponents have lost
+Game Outcome: Dominic has conceded
+Game Outcome: Alec has conceded
+Game Outcome: Hermuck has lost because life total reached 0
+Match Result: Derand: 1 Dominic: 0 Alec: 0 Hermuck: 0 
+
+Game Result: Derand has won

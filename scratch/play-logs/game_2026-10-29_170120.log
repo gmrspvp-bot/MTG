@@ -1,0 +1,1811 @@
+Player: Derand (HUMAN) deck=Dr. Eggman
+Player: Dominic (HUMAN) deck=Haytham Kenway
+Player: Alec (HUMAN) deck=Kotori
+Player: Joseph (AI) deck=Toph
+Mulligan: Dominic has kept a hand of 7 cards
+Mulligan: Alec has kept a hand of 7 cards
+Mulligan: Joseph has kept a hand of 7 cards
+Mulligan: Derand has kept a hand of 7 cards
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Training Center(land); Rakdos Signet(2)
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); Fellwar Stone(2); Glacial Fortress(land); The Circle of Loyalty(6); Plains(land); Divine Visitation(5)
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Port Town(land); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3)
+Information: BOARD turn 1 (Dominic) | Joseph | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Forest(land); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (186)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 2 (Alec)
+Information: BOARD turn 2 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Training Center(land); Rakdos Signet(2)
+Information: BOARD turn 2 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); Fellwar Stone(2); Glacial Fortress(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3)
+Information: BOARD turn 2 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Port Town(land); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3)
+Information: BOARD turn 2 (Alec) | Joseph | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Forest(land); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Replacement Effect: As Port Town enters, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters tapped.
+Land: Alec played Port Town (294)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 3 (Joseph)
+Information: BOARD turn 3 (Joseph) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Training Center(land); Rakdos Signet(2)
+Information: BOARD turn 3 (Joseph) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); Fellwar Stone(2); Glacial Fortress(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3)
+Information: BOARD turn 3 (Joseph) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 3 (Joseph) | Joseph | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Forest(land); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph played Forest (341)
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Training Center(land); Rakdos Signet(2)
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); Fellwar Stone(2); Glacial Fortress(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3)
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 4 (Derand) | Joseph | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land); Rootbound Crag(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Training Center enters tapped unless you have two or more opponents.
+Land: Derand played Training Center (25)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11)
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); Fellwar Stone(2); Glacial Fortress(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3)
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 5 (Dominic) | Joseph | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land); Rootbound Crag(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: Glacial Fortress enters tapped unless you control a Plains or an Island.
+Land: Dominic played Glacial Fortress (166)
+Mana: Plains (186) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Add To Stack: Dominic cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Dominic | open mana: Derand 3, Alec 3, Joseph 1
+Resolve Stack: Fellwar Stone
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 6 (Alec)
+Information: BOARD turn 6 (Alec) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11)
+Information: BOARD turn 6 (Alec) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3); Idyllic Grange(land)
+Information: BOARD turn 6 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Fellwar Stone(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 6 (Alec) | Joseph | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land); Rootbound Crag(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Exotic Orchard (246)
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Alec picked {W}
+Land: Alec picked {W}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Alec | open mana: Derand 3, Dominic 1, Joseph 1
+Resolve Stack: Fellwar Stone
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 7 (Joseph)
+Information: BOARD turn 7 (Joseph) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11)
+Information: BOARD turn 7 (Joseph) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3); Idyllic Grange(land)
+Information: BOARD turn 7 (Joseph) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 7 (Joseph) | Joseph | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Command Tower(land); Rootbound Crag(land)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph played Command Tower (331)
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Mana: Forest (341) - {T}: Add {G}.
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Joseph cast Liquimetal Torque
+Information: BOARD cast | Liquimetal Torque (mv 2) by Joseph | open mana: Derand 3, Dominic 1, Alec 1
+Resolve Stack: Liquimetal Torque
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Mind Stone(2); Untimely Malfunction(2); Exotic Orchard(land); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11)
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3); Idyllic Grange(land)
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 8 (Derand) | Joseph | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Exotic Orchard (24)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Derand | open mana: Dominic 1, Alec 1, Joseph 1
+Resolve Stack: Mind Stone
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Cyclonic Rift(2); Mobilized District(land); The Circle of Loyalty(6); Divine Visitation(5); Benalish Marshal(3); Idyllic Grange(land)
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 9 (Dominic) | Joseph | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mobilized District (179)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Add To Stack: Dominic cast Benalish Marshal
+Information: BOARD cast | Benalish Marshal (mv 3) by Dominic | open mana: Derand 1, Alec 1, Joseph 1
+Resolve Stack: Benalish Marshal - Creature 3 / 3
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 10 (Alec)
+Information: BOARD turn 10 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 10 (Alec) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Divine Visitation(5); Idyllic Grange(land); Rogue's Passage(land)
+Information: BOARD turn 10 (Alec) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Plains(land); Thoughtcast(5); Azorius Signet(2); Knight Paladin(5); Losheel, Clockwork Scholar(3); Mind Stone(2)
+Information: BOARD turn 10 (Alec) | Joseph | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (286)
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Alec cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Alec | open mana: Derand 1, Dominic 1, Joseph 1
+Resolve Stack: Mind Stone
+Mana: Fellwar Stone (269) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Azorius Signet
+Information: BOARD cast | Azorius Signet (mv 2) by Alec | open mana: Derand 1, Dominic 1, Joseph 1
+Resolve Stack: Azorius Signet
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 11 (Joseph)
+Information: BOARD turn 11 (Joseph) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 11 (Joseph) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Divine Visitation(5); Idyllic Grange(land); Rogue's Passage(land)
+Information: BOARD turn 11 (Joseph) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Thoughtcast(5); Knight Paladin(5); Losheel, Clockwork Scholar(3); Master of Etherium(3)
+Information: BOARD turn 11 (Joseph) | Joseph | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Life: Life: Joseph 40 > 38
+Replacement Effect: As Stomping Ground enters, you may pay 2 life. If you don't, it enters tapped.
+Land: Joseph played Stomping Ground (333)
+Land: Joseph picked {W}
+Land: Joseph picked {W}
+Land: Joseph picked {W}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Mana: Stomping Ground (333) - {T}: Add {R}.
+Mana: Forest (341) - {T}: Add {G}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph cast Toph, the First Metalbender
+Information: BOARD cast | Toph, the First Metalbender (mv 4) by Joseph | open mana: Derand 1, Dominic 1, Alec 2
+Resolve Stack: Toph, the First Metalbender - Creature 3 / 3
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Add To Stack: Joseph triggered Toph, the First Metalbender targeting [Forest (341)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Forest (341)]]) [Phase: Joseph]
+Phase: Joseph's Cleanup step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Rakdos Signet(2); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Divine Visitation(5); Idyllic Grange(land); Rogue's Passage(land)
+Information: BOARD turn 12 (Derand) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Thoughtcast(5); Knight Paladin(5); Losheel, Clockwork Scholar(3); Master of Etherium(3)
+Information: BOARD turn 12 (Derand) | Joseph | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Forest 2/2*; Toph, the First Metalbender 3/3 | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Rakdos Signet
+Information: BOARD cast | Rakdos Signet (mv 2) by Derand | open mana: Dominic 1, Alec 2, Joseph 0
+Resolve Stack: Rakdos Signet
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Add To Stack: Derand cast Tinybones, Bauble Burglar
+Information: BOARD cast | Tinybones, Bauble Burglar (mv 2) by Derand | open mana: Dominic 1, Alec 2, Joseph 0
+Resolve Stack: Tinybones, Bauble Burglar - Creature 1 / 3
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, Bauble Burglar 1/3 | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Divine Visitation(5); Idyllic Grange(land); Rogue's Passage(land)
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Thoughtcast(5); Knight Paladin(5); Losheel, Clockwork Scholar(3); Master of Etherium(3)
+Information: BOARD turn 13 (Dominic) | Joseph | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Forest 2/2*; Toph, the First Metalbender 3/3 | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Rogue's Passage (123)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Mobilized District (179) - {T}: Add {C}.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Dominic cast Divine Visitation
+Information: BOARD cast | Divine Visitation (mv 5) by Dominic | open mana: Derand 0, Alec 2, Joseph 0
+Resolve Stack: Divine Visitation
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Alec)
+Information: BOARD turn 14 (Alec) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, Bauble Burglar 1/3 | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 14 (Alec) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Idyllic Grange(land); Mirror Entity(3)
+Information: BOARD turn 14 (Alec) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Thoughtcast(5); Knight Paladin(5); Losheel, Clockwork Scholar(3); Master of Etherium(3)
+Information: BOARD turn 14 (Alec) | Joseph | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Forest 2/2*; Toph, the First Metalbender 3/3 | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Mana: Plains (286) - {T}: Add {W}.
+Add To Stack: Alec cast Kotori, Pilot Prodigy
+Information: BOARD cast | Kotori, Pilot Prodigy (mv 3) by Alec | open mana: Derand 0, Dominic 0, Joseph 0
+Resolve Stack: Kotori, Pilot Prodigy - Creature 2 / 4
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Fellwar Stone (269) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Losheel, Clockwork Scholar
+Information: BOARD cast | Losheel, Clockwork Scholar (mv 3) by Alec | open mana: Derand 0, Dominic 0, Joseph 0
+Resolve Stack: Losheel, Clockwork Scholar - Creature 2 / 4
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 15 (Joseph)
+Information: BOARD turn 15 (Joseph) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, Bauble Burglar 1/3 | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 15 (Joseph) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Idyllic Grange(land); Mirror Entity(3)
+Information: BOARD turn 15 (Joseph) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kotori, Pilot Prodigy 2/4; Losheel, Clockwork Scholar 2/4 | hand cards: Thoughtcast(5); Knight Paladin(5); Master of Etherium(3); Counterspell(2)
+Information: BOARD turn 15 (Joseph) | Joseph | life 38 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Forest 2/2*; Toph, the First Metalbender 3/3 | hand cards: Sylvan Safekeeper(1); Commander's Sphere(3); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land); Rootbound Crag(land)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Replacement Effect: Rootbound Crag enters tapped unless you control a Mountain or a Forest.
+Land: Joseph played Rootbound Crag (399)
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Stomping Ground (333) - {T}: Add {G}.
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Joseph cast Commander's Sphere
+Information: BOARD cast | Commander's Sphere (mv 3) by Joseph | open mana: Derand 0, Dominic 0, Alec 0
+Resolve Stack: Commander's Sphere
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Combat: Joseph assigned Toph, the First Metalbender (403) to attack Alec.
+Information: BOARD attack | Joseph -> Alec | attackers 1 (power 3) | defender life 40 | untapped creatures 2 (power 4): Kotori, Pilot Prodigy 2/4; Losheel, Clockwork Scholar 2/4 | open mana 0
+Phase: Joseph's Declare Blockers Step
+Combat: Alec assigned Losheel, Clockwork Scholar (262) and Kotori, Pilot Prodigy (302) to block Toph, the First Metalbender (403).
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Damage: Toph, the First Metalbender (403) deals 3 damage to Losheel, Clockwork Scholar (262).
+Damage: Losheel, Clockwork Scholar (262) deals 2 damage to Toph, the First Metalbender (403).
+Damage: Kotori, Pilot Prodigy (302) deals 2 damage to Toph, the First Metalbender (403).
+Zone Change: Toph, the First Metalbender (403) was put into Graveyard from Battlefield.
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Mana: Forest (341) - {T}: Add {G}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Commander's Sphere (317) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Joseph cast Evolution Sage
+Information: BOARD cast | Evolution Sage (mv 3) by Joseph | open mana: Derand 0, Dominic 0, Alec 0
+Resolve Stack: Evolution Sage - Creature 3 / 2
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Tinybones, Bauble Burglar 1/3 | hand cards: Untimely Malfunction(2); One with the Machine(4); Scavenged Brawler(6); Metalwork Colossus(11); Saheeli, Sublime Artificer(3)
+Information: BOARD turn 16 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Idyllic Grange(land); Mirror Entity(3)
+Information: BOARD turn 16 (Derand) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kotori, Pilot Prodigy 2/4; Losheel, Clockwork Scholar 2/4 | hand cards: Thoughtcast(5); Knight Paladin(5); Master of Etherium(3); Counterspell(2)
+Information: BOARD turn 16 (Derand) | Joseph | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Forest 2/2*; Evolution Sage 3/2 | hand cards: Sylvan Safekeeper(1); Planar Engineering(4); Avatar Kyoshi, Earthbender(8); Mountain(land)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Spire of Industry (68)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 0, Alec 0, Joseph 0
+Resolve Stack: Dr. Eggman - Creature 3 / 6
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Idyllic Grange (174).
+Discard: Joseph discards Avatar Kyoshi, Earthbender (384).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Idyllic Grange (174), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Avatar Kyoshi, Earthbender (384), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Tinybones, Bauble Burglar 1/3; Dr. Eggman 3/6; Scavenged Brawler 4/4 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Saheeli, Sublime Artificer(3); Dimir Signet(2)
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Benalish Marshal 3/3 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 17 (Dominic) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Kotori, Pilot Prodigy 2/4; Losheel, Clockwork Scholar 2/4 | hand cards: Thoughtcast(5); Knight Paladin(5); Master of Etherium(3); Counterspell(2)
+Information: BOARD turn 17 (Dominic) | Joseph | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Forest 2/2*; Evolution Sage 3/2 | hand cards: Sylvan Safekeeper(1); Planar Engineering(4); Mountain(land)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Replacement Effect: As Unclaimed Territory enters, choose a creature type.
+Land: Dominic played Unclaimed Territory (142)
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (186) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Unclaimed Territory (142) - {T}: Add {C}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 0, Alec 0, Joseph 0
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Dr. Eggman (100), Kotori, Pilot Prodigy (302), Evolution Sage (377)]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Zone Change: Kotori, Pilot Prodigy (302) was put into Exile from Battlefield.
+Zone Change: Evolution Sage (377) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Dr. Eggman (100), Kotori, Pilot Prodigy (302), Evolution Sage (377)]]) [Zone Changer: Haytham Kenway (201)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Alec)
+Information: BOARD turn 18 (Alec) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Saheeli, Sublime Artificer(3); Dimir Signet(2)
+Information: BOARD turn 18 (Alec) | Dominic | life 40 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Benalish Marshal 5/5; Haytham Kenway 4/4 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 18 (Alec) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Losheel, Clockwork Scholar 2/4 | hand cards: Thoughtcast(5); Knight Paladin(5); Master of Etherium(3); Counterspell(2)
+Information: BOARD turn 18 (Alec) | Joseph | life 38 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Forest 2/2* | hand cards: Sylvan Safekeeper(1); Planar Engineering(4); Mountain(land)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Alec played Azorius Guildgate (218)
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Mana: Plains (286) - {T}: Add {W}.
+Add To Stack: Alec cast Master of Etherium
+Information: BOARD cast | Master of Etherium (mv 3) by Alec | open mana: Derand 0, Dominic 2, Joseph 0
+Resolve Stack: Master of Etherium - Creature * / *
+Add To Stack: Alec triggered Losheel, Clockwork Scholar
+Resolve Stack: Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn. [Amount: 1]
+Mana: Fellwar Stone (269) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Alec cast Thoughtcast
+Information: BOARD cast | Thoughtcast (mv 5) by Alec | open mana: Derand 0, Dominic 2, Joseph 0
+Resolve Stack: Thoughtcast (265) - Alec draws two cards.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Zone Change: Commander's Sphere (317) was put into Graveyard from Battlefield.
+Add To Stack: Joseph activated Commander's Sphere
+Resolve Stack: Commander's Sphere (317) - Joseph draws a card.
+Phase: Alec's Cleanup step
+Turn: Turn 19 (Joseph)
+Information: BOARD turn 19 (Joseph) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Saheeli, Sublime Artificer(3); Dimir Signet(2)
+Information: BOARD turn 19 (Joseph) | Dominic | life 40 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Benalish Marshal 5/5; Haytham Kenway 4/4 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 19 (Joseph) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 4/4 | hand cards: Knight Paladin(5); Counterspell(2); Island(land); Swords to Plowshares(1); Katsumasa, the Animator(4)
+Information: BOARD turn 19 (Joseph) | Joseph | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Forest 2/2* | hand cards: Sylvan Safekeeper(1); Planar Engineering(4); Mountain(land); Ichor Wellspring(2)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph played Mountain (386)
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Mountain (386) - {T}: Add {R}.
+Mana: Stomping Ground (333) - {T}: Add {G}.
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Command Tower (331) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Joseph cast Planar Engineering
+Information: BOARD cast | Planar Engineering (mv 4) by Joseph | open mana: Derand 0, Dominic 2, Alec 4
+Zone Change: Mountain (386) was put into Graveyard from Battlefield.
+Zone Change: Command Tower (331) was put into Graveyard from Battlefield.
+Resolve Stack: Planar Engineering (306) - Sacrifice two lands. Search your library for four basic land cards, put them onto the battlefield tapped, then shuffle. 
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Mana: Forest (341) - {T}: Add {G}.
+Add To Stack: Joseph cast Swiftfoot Boots
+Information: BOARD cast | Swiftfoot Boots (mv 2) by Joseph | open mana: Derand 0, Dominic 2, Alec 4
+Resolve Stack: Swiftfoot Boots
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Saheeli, Sublime Artificer(3); Dimir Signet(2)
+Information: BOARD turn 20 (Derand) | Dominic | life 40 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Benalish Marshal 5/5; Haytham Kenway 4/4 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 20 (Derand) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 4/4 | hand cards: Knight Paladin(5); Counterspell(2); Island(land); Swords to Plowshares(1); Katsumasa, the Animator(4)
+Information: BOARD turn 20 (Derand) | Joseph | life 38 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Forest 2/2* | hand cards: Sylvan Safekeeper(1); Ichor Wellspring(2)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sulfurous Springs (44)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Add To Stack: Derand cast Saheeli, Sublime Artificer
+Information: BOARD cast | Saheeli, Sublime Artificer (mv 3) by Derand | open mana: Dominic 2, Alec 4, Joseph 0
+Replacement Effect: Saheeli, Sublime Artificer enters with five loyalty counters on it.
+Resolve Stack: Saheeli, Sublime Artificer
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Add To Stack: Derand cast Dimir Signet
+Information: BOARD cast | Dimir Signet (mv 2) by Derand | open mana: Dominic 2, Alec 4, Joseph 0
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Dimir Signet (92), Activator: Derand, SpellAbility: Dimir Signet]
+Resolve Stack: Dimir Signet
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Scavenged Brawler (79) to attack Dominic.
+Information: BOARD attack | Derand -> Dominic | attackers 1 (power 4) | defender life 40 | untapped creatures 2 (power 9): Benalish Marshal 5/5; Haytham Kenway 4/4 | open mana 2
+Phase: Derand's Declare Blockers Step
+Combat: Dominic didn't block Scavenged Brawler (79).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Scavenged Brawler (79) deals 4 combat damage to Dominic.
+Life: Life: Derand 40 > 44
+Life: Life: Dominic 40 > 36
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 44 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11)
+Information: BOARD turn 21 (Dominic) | Dominic | life 36 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (2 untapped): Benalish Marshal 5/5; Haytham Kenway 4/4 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 21 (Dominic) | Alec | life 40 | hand 5 | lands 4 (2 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 4/4 | hand cards: Knight Paladin(5); Counterspell(2); Island(land); Swords to Plowshares(1); Katsumasa, the Animator(4)
+Information: BOARD turn 21 (Dominic) | Joseph | life 38 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Forest 2/2* | hand cards: Sylvan Safekeeper(1); Ichor Wellspring(2)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Unclaimed Territory (142) picked {W}
+Land: Unclaimed Territory (142) picked {W}
+Mana: Unclaimed Territory (142) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Mana: Mobilized District (179) - {T}: Add {C}.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Add To Stack: Dominic cast Silverwing Squadron
+Information: BOARD cast | Silverwing Squadron (mv 6) by Dominic | open mana: Derand 0, Alec 4, Joseph 0
+Resolve Stack: Silverwing Squadron - Creature * / *
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Benalish Marshal (116) and Haytham Kenway (201) to attack Alec.
+Information: BOARD attack | Dominic -> Alec | attackers 2 (power 9) | defender life 40 | untapped creatures 2 (power 6): Losheel, Clockwork Scholar 2/4; Master of Etherium 4/4 | open mana 4
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Add To Stack: Alec cast Swords to Plowshares targeting [Haytham Kenway (201)]
+Information: BOARD cast | Swords to Plowshares (mv 1) by Alec | open mana: Derand 0, Dominic 0, Joseph 0
+Zone Change: Haytham Kenway (201) was put into Exile from Battlefield.
+Life: Life: Dominic 36 > 40
+Resolve Stack: Swords to Plowshares (277) - Exile Haytham Kenway (201). Dominic gains life equal to its power.
+Phase: Dominic's Declare Blockers Step
+Combat: Alec assigned Master of Etherium (263) to block Benalish Marshal (116).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Benalish Marshal (116) deals 3 damage to Master of Etherium (263).
+Damage: Master of Etherium (263) deals 4 damage to Benalish Marshal (116).
+Zone Change: Benalish Marshal (116) was put into Graveyard from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Alec)
+Information: BOARD turn 22 (Alec) | Derand | life 44 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11)
+Information: BOARD turn 22 (Alec) | Dominic | life 40 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Silverwing Squadron 1/1 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 22 (Alec) | Alec | life 40 | hand 4 | lands 4 (1 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 4/4 | hand cards: Knight Paladin(5); Counterspell(2); Island(land); Katsumasa, the Animator(4)
+Information: BOARD turn 22 (Alec) | Joseph | life 38 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Forest 2/2*; Evolution Sage 3/2 | hand cards: Sylvan Safekeeper(1); Ichor Wellspring(2)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Skycloud Expanse (272)
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Knight Paladin
+Information: BOARD cast | Knight Paladin (mv 5) by Alec | open mana: Derand 0, Dominic 0, Joseph 0
+Resolve Stack: Knight Paladin
+Add To Stack: Alec triggered Knight Paladin
+Damage: Knight Paladin (221) deals 4 non-combat damage to Joseph.
+Damage: Knight Paladin (221) deals 4 non-combat damage to Derand.
+Damage: Knight Paladin (221) deals 4 non-combat damage to Dominic.
+Life: Life: Derand 44 > 40
+Life: Life: Dominic 40 > 36
+Life: Life: Joseph 38 > 34
+Resolve Stack: Rapid-fire Battle Cannon — When Knight Paladin enters, it deals 4 damage to each opponent. [Zone Changer: Knight Paladin (221)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 23 (Joseph)
+Information: BOARD turn 23 (Joseph) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11)
+Information: BOARD turn 23 (Joseph) | Dominic | life 36 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Silverwing Squadron 1/1 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 23 (Joseph) | Alec | life 40 | hand 3 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5 | hand cards: Counterspell(2); Island(land); Katsumasa, the Animator(4)
+Information: BOARD turn 23 (Joseph) | Joseph | life 34 | hand 2 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Forest 2/2*; Evolution Sage 3/2 | hand cards: Sylvan Safekeeper(1); Ichor Wellspring(2)
+Information: BOARD threat | turn 23 | Knight Paladin (Alec) 84
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Stomping Ground (333) - {T}: Add {G}.
+Mana: Plains (391) - {T}: Add {W}.
+Mana: Plains (394) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (393) - {T}: Add {W}.
+Add To Stack: Joseph cast Toph, the First Metalbender
+Information: BOARD cast | Toph, the First Metalbender (mv 4) by Joseph | open mana: Derand 0, Dominic 0, Alec 5
+Resolve Stack: Toph, the First Metalbender - Creature 3 / 3
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph activated Swiftfoot Boots targeting [Toph, the First Metalbender (403)]
+Resolve Stack: Swiftfoot Boots (360) -  Attach to Toph, the First Metalbender (403)
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Combat: Joseph assigned Evolution Sage (377) and Toph, the First Metalbender (403) to attack Dominic.
+Information: BOARD attack | Joseph -> Dominic | attackers 2 (power 6) | defender life 36 | untapped creatures 1 (power 1): Silverwing Squadron 1/1 | open mana 0
+Phase: Joseph's Declare Blockers Step
+Combat: Dominic didn't block Evolution Sage (377).
+Dominic didn't block Toph, the First Metalbender (403).
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Damage: Evolution Sage (377) deals 3 combat damage to Dominic.
+Damage: Toph, the First Metalbender (403) deals 3 combat damage to Dominic.
+Life: Life: Dominic 36 > 30
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Add To Stack: Joseph triggered Toph, the First Metalbender targeting [Plains (391)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Plains (391)]]) [Phase: Joseph]
+Phase: Joseph's Cleanup step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11)
+Information: BOARD turn 24 (Derand) | Dominic | life 30 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Silverwing Squadron 1/1 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6); Mirror Entity(3)
+Information: BOARD turn 24 (Derand) | Alec | life 40 | hand 3 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5 | hand cards: Counterspell(2); Island(land); Katsumasa, the Animator(4)
+Information: BOARD turn 24 (Derand) | Joseph | life 34 | hand 3 | lands 9 (2 untapped) | open mana 1 | commander Battlefield | creatures 4 (1 untapped): Forest 2/2; Plains 2/2*; Evolution Sage 3/2*; Toph, the First Metalbender 3/3*[Swiftfoot Boots] | hand cards: Sylvan Safekeeper(1); Ichor Wellspring(2); Scute Swarm(3)
+Information: BOARD threat | turn 24 | Knight Paladin (Alec) 80; Toph, the First Metalbender (Joseph) 32
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Idyllic Grange enters tapped unless you control three or more other Plains.
+Land: Derand played Idyllic Grange (174)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Land: Derand picked {R}
+Land: Derand picked {R}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 0, Alec 5, Joseph 1
+Resolve Stack: Dr. Eggman - Creature 3 / 6
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Scavenged Brawler (79) to attack Alec.
+Information: BOARD attack | Derand -> Alec | attackers 1 (power 4) | defender life 40 | untapped creatures 2 (power 7): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5 | open mana 5
+Phase: Derand's Declare Blockers Step
+Combat: Alec didn't block Scavenged Brawler (79).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Scavenged Brawler (79) deals 4 combat damage to Alec.
+Life: Life: Derand 40 > 44
+Life: Life: Alec 40 > 36
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Mirror Entity (156).
+Discard: Alec discards Island (236).
+Discard: Joseph discards Ichor Wellspring (325).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Mirror Entity (156), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Island (236), Cause: Opponent discards a card.]
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Ichor Wellspring (325), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 44 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1; Dr. Eggman 3/6 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Bedevil(3); Scalding Tarn(land)
+Information: BOARD turn 25 (Dominic) | Dominic | life 30 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Silverwing Squadron 1/1 | hand cards: Cyclonic Rift(2); The Circle of Loyalty(6)
+Information: BOARD turn 25 (Dominic) | Alec | life 36 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5 | hand cards: Counterspell(2); Katsumasa, the Animator(4)
+Information: BOARD turn 25 (Dominic) | Joseph | life 34 | hand 2 | lands 9 (2 untapped) | open mana 1 | commander Battlefield | creatures 4 (1 untapped): Forest 2/2; Plains 2/2*; Evolution Sage 3/2*; Toph, the First Metalbender 3/3*[Swiftfoot Boots] | hand cards: Sylvan Safekeeper(1); Scute Swarm(3)
+Information: BOARD threat | turn 25 | Knight Paladin (Alec) 77; Tinybones, Bauble Burglar (Derand) 64; Scavenged Brawler (Derand) 43; Toph, the First Metalbender (Joseph) 30
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Unclaimed Territory (142) - {T}: Add {C}.
+Mana: Mobilized District (179) - {T}: Add {C}.
+Add To Stack: Dominic cast The Circle of Loyalty
+Information: BOARD cast | The Circle of Loyalty (mv 6) by Dominic | open mana: Derand 0, Alec 5, Joseph 1
+Resolve Stack: The Circle of Loyalty
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Silverwing Squadron (149) to attack Joseph.
+Information: BOARD attack | Dominic -> Joseph | attackers 1 (power 2) | defender life 34 | untapped creatures 1 (power 2): Forest 2/2 | open mana 1
+Add To Stack: Dominic triggered Silverwing Squadron
+Replacement Effect: If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.
+Resolve Stack: Whenever Silverwing Squadron attacks, create a number of 2/2 white Knight creature tokens with vigilance equal to the number of opponents you have. [Attacker: Silverwing Squadron (149)]
+Phase: Dominic's Declare Blockers Step
+Combat: Joseph didn't block Silverwing Squadron (149).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Silverwing Squadron (149) deals 5 combat damage to Joseph.
+Life: Life: Joseph 34 > 29
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Alec)
+Information: BOARD turn 26 (Alec) | Derand | life 44 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1; Dr. Eggman 3/6 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Bedevil(3); Scalding Tarn(land)
+Information: BOARD turn 26 (Alec) | Dominic | life 30 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Silverwing Squadron 5/5; Angel Token 5/5 x3 | hand cards: Cyclonic Rift(2); Cathars' Crusade(5)
+Information: BOARD turn 26 (Alec) | Alec | life 36 | hand 2 | lands 5 (2 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5 | hand cards: Counterspell(2); Katsumasa, the Animator(4)
+Information: BOARD turn 26 (Alec) | Joseph | life 29 | hand 2 | lands 9 (2 untapped) | open mana 1 | commander Battlefield | creatures 4 (1 untapped): Forest 2/2; Plains 2/2*; Evolution Sage 3/2*; Toph, the First Metalbender 3/3*[Swiftfoot Boots] | hand cards: Sylvan Safekeeper(1); Scute Swarm(3)
+Information: BOARD threat | turn 26 | Knight Paladin (Alec) 74; Tinybones, Bauble Burglar (Derand) 61; Silverwing Squadron (Dominic) 43; Scavenged Brawler (Derand) 41
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (293)
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Add To Stack: Alec cast Katsumasa, the Animator
+Information: BOARD cast | Katsumasa, the Animator (mv 4) by Alec | open mana: Derand 0, Dominic 1, Joseph 1
+Resolve Stack: Katsumasa, the Animator - Creature 3 / 3
+Add To Stack: Alec activated Knight Paladin
+Resolve Stack: Knight Paladin (221) - Knight Paladin (221) becomes an artifact creature until end of turn.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Knight Paladin (221) to attack Dominic.
+Information: BOARD attack | Alec -> Dominic | attackers 1 (power 7) | defender life 30 | untapped creatures 4 (power 20): Silverwing Squadron 5/5; Angel Token 5/5 x3 | open mana 1
+Phase: Alec's Declare Blockers Step
+Combat: Dominic didn't block Knight Paladin (221).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Damage: Knight Paladin (221) deals 7 combat damage to Dominic.
+Life: Life: Dominic 30 > 23
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 27 (Joseph)
+Information: BOARD turn 27 (Joseph) | Derand | life 44 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1; Dr. Eggman 3/6 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Bedevil(3); Scalding Tarn(land)
+Information: BOARD turn 27 (Joseph) | Dominic | life 23 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Silverwing Squadron 5/5; Angel Token 5/5 x3 | hand cards: Cyclonic Rift(2); Cathars' Crusade(5)
+Information: BOARD turn 27 (Joseph) | Alec | life 36 | hand 1 | lands 6 (4 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Losheel, Clockwork Scholar 2/4*; Master of Etherium 5/5; Katsumasa, the Animator 3/3 | hand cards: Counterspell(2)
+Information: BOARD turn 27 (Joseph) | Joseph | life 29 | hand 2 | lands 9 (2 untapped) | open mana 1 | commander Battlefield | creatures 4 (1 untapped): Forest 2/2; Plains 2/2*; Evolution Sage 3/2*; Toph, the First Metalbender 3/3*[Swiftfoot Boots] | hand cards: Sylvan Safekeeper(1); Scute Swarm(3)
+Information: BOARD threat | turn 27 | Knight Paladin (Alec) 126; Tinybones, Bauble Burglar (Derand) 59; Silverwing Squadron (Dominic) 41; Scavenged Brawler (Derand) 39
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Stomping Ground (333) - {T}: Add {R}.
+Mana: Plains (394) - {T}: Add {W}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (393) - {T}: Add {W}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph cast Moraug, Fury of Akoum
+Information: BOARD cast | Moraug, Fury of Akoum (mv 6) by Joseph | open mana: Derand 0, Dominic 1, Alec 9
+Resolve Stack: Moraug, Fury of Akoum - Creature 6 / 6
+Phase: Joseph's End step
+Add To Stack: Joseph triggered Toph, the First Metalbender targeting [Plains (394)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Plains (394)]]) [Phase: Joseph]
+Phase: Joseph's Cleanup step
+Turn: Turn 28 (Derand)
+Information: BOARD turn 28 (Derand) | Derand | life 44 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1; Dr. Eggman 3/6 | hand cards: Untimely Malfunction(2); One with the Machine(4); Metalwork Colossus(11); Bedevil(3); Scalding Tarn(land)
+Information: BOARD turn 28 (Derand) | Dominic | life 23 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 4 (4 untapped): Silverwing Squadron 5/5; Angel Token 5/5 x3 | hand cards: Cyclonic Rift(2); Cathars' Crusade(5)
+Information: BOARD turn 28 (Derand) | Alec | life 36 | hand 1 | lands 6 (4 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Losheel, Clockwork Scholar 2/4*; Master of Etherium 5/5; Katsumasa, the Animator 3/3 | hand cards: Counterspell(2)
+Information: BOARD turn 28 (Derand) | Joseph | life 29 | hand 2 | lands 9 (3 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Forest 2/2; Plains 2/2; Plains 2/2*; Evolution Sage 3/2; Toph, the First Metalbender 3/3[Swiftfoot Boots]; Moraug, Fury of Akoum 6/6 | hand cards: Sylvan Safekeeper(1); Scute Swarm(3)
+Information: BOARD threat | turn 28 | Knight Paladin (Alec) 121; Tinybones, Bauble Burglar (Derand) 57; Toph, the First Metalbender (Joseph) 41; Silverwing Squadron (Dominic) 40; Scavenged Brawler (Derand) 38
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Replacement Effect: Silverbluff Bridge enters tapped.
+Land: Derand played Silverbluff Bridge (77)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Idyllic Grange (174) - {T}: Add {W}.
+Land: Derand picked {R}
+Land: Derand picked {R}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Add To Stack: Derand cast One with the Machine
+Information: BOARD cast | One with the Machine (mv 4) by Derand | open mana: Dominic 1, Alec 9, Joseph 2
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: One with the Machine (31), Activator: Derand, SpellAbility: Draw cards equal to the highest mana value among artifacts you control.]
+Resolve Stack: One with the Machine (31) - Derand draws six cards.
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Scavenged Brawler (79) to attack Joseph.
+Information: BOARD attack | Derand -> Joseph | attackers 1 (power 4) | defender life 29 | untapped creatures 5 (power 16): Forest 2/2; Plains 2/2; Evolution Sage 3/2; Toph, the First Metalbender 3/3[Swiftfoot Boots]; Moraug, Fury of Akoum 6/6 | open mana 2
+Phase: Derand's Declare Blockers Step
+Combat: Joseph didn't block Scavenged Brawler (79).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Scavenged Brawler (79) deals 4 combat damage to Joseph.
+Life: Life: Derand 44 > 48
+Life: Life: Joseph 29 > 25
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Add To Stack: Derand cast Fell the Profane targeting [Silverwing Squadron (149)]
+Information: BOARD cast | Fell the Profane (mv 4) by Derand | open mana: Dominic 1, Alec 9, Joseph 2
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Fell the Profane (70), Activator: Derand, SpellAbility: Destroy target creature or planeswalker.]
+Zone Change: Silverwing Squadron (149) was put into Graveyard from Battlefield.
+Resolve Stack: Fell the Profane (70) - Destroy Silverwing Squadron (149).
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Joseph discards Sylvan Safekeeper (319).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Tinybones, Bauble Burglar
+Resolve Stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Sylvan Safekeeper (319), Cause: Opponent discards a card.]
+Phase: Derand's Cleanup step
+Discard: Derand discards Scalding Tarn (55).
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Derand | life 48 | hand 7 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (8 untapped): Tinybones, Bauble Burglar 1/3; Scavenged Brawler 4/4; Servo Token 1/1 x3; Dr. Eggman 3/6; Metalwork Colossus 10/10; Cityscape Leveler 8/8 | hand cards: Untimely Malfunction(2); Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Mistvault Bridge(land); Mountain(land); Reanimate(1)
+Information: BOARD turn 29 (Dominic) | Dominic | life 23 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: Cyclonic Rift(2); Cathars' Crusade(5)
+Information: BOARD turn 29 (Dominic) | Alec | life 36 | hand 1 | lands 6 (4 untapped) | open mana 9 | commander Command | creatures 3 (2 untapped): Losheel, Clockwork Scholar 2/4*; Master of Etherium 5/5; Katsumasa, the Animator 3/3 | hand cards: Counterspell(2)
+Information: BOARD turn 29 (Dominic) | Joseph | life 25 | hand 1 | lands 9 (3 untapped) | open mana 2 | commander Battlefield | creatures 6 (5 untapped): Forest 2/2; Plains 2/2; Plains 2/2*; Evolution Sage 3/2; Toph, the First Metalbender 3/3[Swiftfoot Boots]; Moraug, Fury of Akoum 6/6 | hand cards: Scute Swarm(3)
+Information: BOARD threat | turn 29 | Knight Paladin (Alec) 116; Tinybones, Bauble Burglar (Derand) 69; Scavenged Brawler (Derand) 59; Toph, the First Metalbender (Joseph) 40; Saheeli, Sublime Artificer (Derand) 39
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (188)
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Unclaimed Territory (142) - {T}: Add {C}.
+Mana: Mobilized District (179) - {T}: Add {C}.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Dominic cast Cyclonic Rift
+Information: BOARD cast | Cyclonic Rift (mv 2) by Dominic | open mana: Derand 0, Alec 9, Joseph 2
+Replacement Effect: If a commander would be put into its owner's hand or library from anywhere, its owner may put it into the command zone instead.
+Resolve Stack: Cyclonic Rift (107) - Return each nonland permanent you don't control to its owner's hand.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Angel Token (409) to attack Alec.
+Dominic assigned Angel Token (411) and Angel Token (410) to attack Derand.
+Information: BOARD attack | Dominic -> Alec | attackers 1 (power 5) | defender life 36 | untapped creatures 0 (power 0):  | open mana 8
+Information: BOARD attack | Dominic -> Derand | attackers 2 (power 10) | defender life 48 | untapped creatures 0 (power 0):  | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Alec didn't block Angel Token (409).
+Combat: Derand didn't block Angel Token (411).
+Derand didn't block Angel Token (410).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Angel Token (409) deals 5 combat damage to Alec.
+Damage: Angel Token (411) deals 5 combat damage to Derand.
+Damage: Angel Token (410) deals 5 combat damage to Derand.
+Life: Life: Derand 48 > 38
+Life: Life: Alec 36 > 31
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 30 (Alec)
+Information: BOARD turn 30 (Alec) | Derand | life 38 | hand 15 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Mistvault Bridge(land); Mountain(land); Reanimate(1); Mind Stone(2); Rakdos Signet(2); Tinybones, Bauble Burglar(2); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Dimir Signet(2); Metalwork Colossus(11); Cityscape Leveler(8)
+Information: BOARD turn 30 (Alec) | Dominic | life 23 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: Cathars' Crusade(5)
+Information: BOARD turn 30 (Alec) | Alec | life 31 | hand 8 | lands 6 (4 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Counterspell(2); Fellwar Stone(2); Mind Stone(2); Azorius Signet(2); Losheel, Clockwork Scholar(3); Master of Etherium(3); Knight Paladin(5); Katsumasa, the Animator(4)
+Information: BOARD turn 30 (Alec) | Joseph | life 25 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Elsewhere | creatures 3 (2 untapped): Forest 2/2; Plains 2/2; Plains 2/2* | hand cards: Scute Swarm(3); Evolution Sage(3); Toph, the First Metalbender(4); Moraug, Fury of Akoum(6)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Add To Stack: Alec cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Alec | open mana: Derand 0, Dominic 0, Joseph 2
+Resolve Stack: Arcane Signet
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Mana: Plains (286) - {T}: Add {W}.
+Add To Stack: Alec cast Azorius Signet
+Information: BOARD cast | Azorius Signet (mv 2) by Alec | open mana: Derand 0, Dominic 0, Joseph 2
+Resolve Stack: Azorius Signet
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Add To Stack: Alec cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Alec | open mana: Derand 0, Dominic 0, Joseph 2
+Resolve Stack: Mind Stone
+Mana: Mind Stone (241) - {T}: Add {C}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Arcane Signet (249) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec cast Fellwar Stone
+Information: BOARD cast | Fellwar Stone (mv 2) by Alec | open mana: Derand 0, Dominic 0, Joseph 2
+Resolve Stack: Fellwar Stone
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 31 (Joseph)
+Information: BOARD turn 31 (Joseph) | Derand | life 38 | hand 15 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Mistvault Bridge(land); Mountain(land); Reanimate(1); Mind Stone(2); Rakdos Signet(2); Tinybones, Bauble Burglar(2); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Dimir Signet(2); Metalwork Colossus(11); Cityscape Leveler(8)
+Information: BOARD turn 31 (Joseph) | Dominic | life 23 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: Cathars' Crusade(5)
+Information: BOARD turn 31 (Joseph) | Alec | life 31 | hand 5 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Counterspell(2); Losheel, Clockwork Scholar(3); Master of Etherium(3); Knight Paladin(5); Katsumasa, the Animator(4)
+Information: BOARD turn 31 (Joseph) | Joseph | life 25 | hand 4 | lands 7 (2 untapped) | open mana 2 | commander Elsewhere | creatures 3 (2 untapped): Forest 2/2; Plains 2/2; Plains 2/2* | hand cards: Scute Swarm(3); Evolution Sage(3); Toph, the First Metalbender(4); Moraug, Fury of Akoum(6)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph played Mountain (387)
+Mana: Mountain (387) - {T}: Add {R}.
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Land: Joseph picked {R}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (393) - {T}: Add {W}.
+Mana: Stomping Ground (333) - {T}: Add {G}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph cast Moraug, Fury of Akoum
+Information: BOARD cast | Moraug, Fury of Akoum (mv 6) by Joseph | open mana: Derand 0, Dominic 0, Alec 2
+Resolve Stack: Moraug, Fury of Akoum - Creature 6 / 6
+Mana: Forest (341) - {T}: Add {G}.
+Mana: Plains (394) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Add To Stack: Joseph cast Evolution Sage
+Information: BOARD cast | Evolution Sage (mv 3) by Joseph | open mana: Derand 0, Dominic 0, Alec 2
+Resolve Stack: Evolution Sage - Creature 3 / 2
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 38 | hand 15 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Untimely Malfunction(2); Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Mistvault Bridge(land); Mountain(land); Reanimate(1); Mind Stone(2); Rakdos Signet(2); Tinybones, Bauble Burglar(2); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Dimir Signet(2); Metalwork Colossus(11); Cityscape Leveler(8)
+Information: BOARD turn 32 (Derand) | Dominic | life 23 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: Cathars' Crusade(5)
+Information: BOARD turn 32 (Derand) | Alec | life 31 | hand 5 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Counterspell(2); Losheel, Clockwork Scholar(3); Master of Etherium(3); Knight Paladin(5); Katsumasa, the Animator(4)
+Information: BOARD turn 32 (Derand) | Joseph | life 25 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Elsewhere | creatures 5 (2 untapped): Forest 2/2*; Plains 2/2* x2; Moraug, Fury of Akoum 6/6; Evolution Sage 3/2 | hand cards: Scute Swarm(3); Toph, the First Metalbender(4)
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (96)
+Mana: Idyllic Grange (174) - {T}: Add {W}.
+Mana: Mountain (96) - {T}: Add {R}.
+Add To Stack: Derand cast Talisman of Creativity
+Information: BOARD cast | Talisman of Creativity (mv 2) by Derand | open mana: Dominic 0, Alec 2, Joseph 0
+Resolve Stack: Talisman of Creativity
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Mind Stone
+Information: BOARD cast | Mind Stone (mv 2) by Derand | open mana: Dominic 0, Alec 2, Joseph 0
+Resolve Stack: Mind Stone
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Silverbluff Bridge (77) - {T}: Add {U} or {R}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Add To Stack: Derand cast Dimir Signet
+Information: BOARD cast | Dimir Signet (mv 2) by Derand | open mana: Dominic 0, Alec 2, Joseph 0
+Resolve Stack: Dimir Signet
+Mana: Talisman of Creativity (47) - {T}: Add {C}.
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Mana: Talisman of Creativity (47) - {T}: Add {C}.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Add To Stack: Derand cast Rakdos Signet
+Information: BOARD cast | Rakdos Signet (mv 2) by Derand | open mana: Dominic 0, Alec 2, Joseph 0
+Resolve Stack: Rakdos Signet
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Phase: Derand's Cleanup step
+Discard: Derand discards Tinybones, Bauble Burglar (10).
+Discard: Derand discards Mistvault Bridge (53).
+Discard: Derand discards Metalwork Colossus (13).
+Discard: Derand discards Untimely Malfunction (18).
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Derand | life 38 | hand 7 | lands 7 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Reanimate(1); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8)
+Information: BOARD turn 33 (Dominic) | Dominic | life 23 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: Cathars' Crusade(5)
+Information: BOARD turn 33 (Dominic) | Alec | life 31 | hand 5 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Counterspell(2); Losheel, Clockwork Scholar(3); Master of Etherium(3); Knight Paladin(5); Katsumasa, the Animator(4)
+Information: BOARD turn 33 (Dominic) | Joseph | life 25 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Elsewhere | creatures 5 (2 untapped): Forest 2/2*; Plains 2/2* x2; Moraug, Fury of Akoum 6/6; Evolution Sage 3/2 | hand cards: Scute Swarm(3); Toph, the First Metalbender(4)
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Exotic Orchard (136)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Exotic Orchard (136) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Add To Stack: Dominic cast Cathars' Crusade
+Information: BOARD cast | Cathars' Crusade (mv 5) by Dominic | open mana: Derand 5, Alec 2, Joseph 0
+Resolve Stack: Cathars' Crusade
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 34 (Alec)
+Information: BOARD turn 34 (Alec) | Derand | life 38 | hand 7 | lands 7 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Reanimate(1); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8)
+Information: BOARD turn 34 (Alec) | Dominic | life 23 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: 
+Information: BOARD turn 34 (Alec) | Alec | life 31 | hand 5 | lands 6 (1 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Counterspell(2); Losheel, Clockwork Scholar(3); Master of Etherium(3); Knight Paladin(5); Katsumasa, the Animator(4)
+Information: BOARD turn 34 (Alec) | Joseph | life 25 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Elsewhere | creatures 5 (2 untapped): Forest 2/2*; Plains 2/2* x2; Moraug, Fury of Akoum 6/6; Evolution Sage 3/2 | hand cards: Scute Swarm(3); Toph, the First Metalbender(4)
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Katsumasa, the Animator
+Information: BOARD cast | Katsumasa, the Animator (mv 4) by Alec | open mana: Derand 5, Dominic 3, Joseph 0
+Resolve Stack: Katsumasa, the Animator - Creature 3 / 3
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Losheel, Clockwork Scholar
+Information: BOARD cast | Losheel, Clockwork Scholar (mv 3) by Alec | open mana: Derand 5, Dominic 3, Joseph 0
+Resolve Stack: Losheel, Clockwork Scholar - Creature 2 / 4
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 35 (Joseph)
+Information: BOARD turn 35 (Joseph) | Derand | life 38 | hand 7 | lands 7 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Reanimate(1); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8)
+Information: BOARD turn 35 (Joseph) | Dominic | life 23 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: 
+Information: BOARD turn 35 (Joseph) | Alec | life 31 | hand 4 | lands 6 (1 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4 | hand cards: Counterspell(2); Master of Etherium(3); Knight Paladin(5); Cyberdrive Awakener(6)
+Information: BOARD turn 35 (Joseph) | Joseph | life 25 | hand 2 | lands 8 (0 untapped) | open mana 0 | commander Elsewhere | creatures 5 (2 untapped): Forest 2/2*; Plains 2/2* x2; Moraug, Fury of Akoum 6/6; Evolution Sage 3/2 | hand cards: Scute Swarm(3); Toph, the First Metalbender(4)
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Mountain (387) - {T}: Add {R}.
+Mana: Plains (392) - {T}: Add {W}.
+Add To Stack: Joseph cast Emil, Vastlands Roamer
+Information: BOARD cast | Emil, Vastlands Roamer (mv 3) by Joseph | open mana: Derand 5, Dominic 3, Alec 4
+Resolve Stack: Emil, Vastlands Roamer - Creature 3 / 3
+Mana: Stomping Ground (333) - {T}: Add {R}.
+Mana: Forest (341) - {T}: Add {G}.
+Mana: Plains (393) - {T}: Add {W}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph cast Toph, the First Metalbender
+Information: BOARD cast | Toph, the First Metalbender (mv 4) by Joseph | open mana: Derand 5, Dominic 3, Alec 4
+Resolve Stack: Toph, the First Metalbender - Creature 3 / 3
+Mana: Plains (394) - {T}: Add {W}.
+Add To Stack: Joseph activated Swiftfoot Boots targeting [Moraug, Fury of Akoum (322)]
+Resolve Stack: Swiftfoot Boots (360) -  Attach to Moraug, Fury of Akoum (322)
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Combat: Joseph assigned Moraug, Fury of Akoum (322) to attack Dominic.
+Information: BOARD attack | Joseph -> Dominic | attackers 1 (power 6) | defender life 23 | untapped creatures 3 (power 15): Angel Token 5/5 x3 | open mana 3
+Phase: Joseph's Declare Blockers Step
+Combat: Dominic didn't block Moraug, Fury of Akoum (322).
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Damage: Moraug, Fury of Akoum (322) deals 7 combat damage to Dominic.
+Life: Life: Dominic 23 > 16
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Phase: Joseph's End step
+Add To Stack: Joseph triggered Toph, the First Metalbender targeting [Plains (392)]
+Resolve Stack: At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) (Targeting: [[Plains (392)]]) [Phase: Joseph]
+Phase: Joseph's Cleanup step
+Turn: Turn 36 (Derand)
+Information: BOARD turn 36 (Derand) | Derand | life 38 | hand 7 | lands 7 (2 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Temple of Deceit(land); Y'shtola Rhul(6); Reanimate(1); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8)
+Information: BOARD turn 36 (Derand) | Dominic | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: 
+Information: BOARD turn 36 (Derand) | Alec | life 31 | hand 4 | lands 6 (1 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4 | hand cards: Counterspell(2); Master of Etherium(3); Knight Paladin(5); Cyberdrive Awakener(6)
+Information: BOARD turn 36 (Derand) | Joseph | life 25 | hand 1 | lands 10 (2 untapped) | open mana 1 | commander Battlefield | creatures 8 (4 untapped): Forest 2/2*; Plains 2/2; Plains 2/2* x2; Moraug, Fury of Akoum 7/6*[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3; Toph, the First Metalbender 3/3 | hand cards: Scute Swarm(3)
+Information: BOARD threat | turn 36 | Moraug, Fury of Akoum (Joseph) 40
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Mana: Talisman of Creativity (47) - {T}: Add {C}.
+Mana: Dimir Signet (92) - {1}, {T}: Add {U}{B}.
+Mana: Idyllic Grange (174) - {T}: Add {W}.
+Mana: Mountain (96) - {T}: Add {R}.
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Silverbluff Bridge (77) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Dr. Eggman
+Information: BOARD cast | Dr. Eggman (mv 5) by Derand | open mana: Dominic 3, Alec 4, Joseph 1
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Arcane Signet (249) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec cast Wild Rose Rebellion targeting [Dr. Eggman - Creature 3 / 6]
+Information: BOARD cast | Counterspell (mv 2) by Alec | open mana: Derand 4, Dominic 3, Joseph 1
+Zone Change: Send countered spell to Graveyard
+Resolve Stack: Wild Rose Rebellion (227) - Counter Dr. Eggman (100).
+Land: Derand picked {B}
+Land: Derand picked {B}
+Damage: Sulfurous Springs (44) deals 1 non-combat damage to Derand.
+Life: Life: Derand 38 > 37
+Mana: Sulfurous Springs (44) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Add To Stack: Derand cast Reanimate targeting [Dr. Eggman (100)]
+Information: BOARD cast | Reanimate (mv 1) by Derand | open mana: Dominic 3, Alec 1, Joseph 1
+Life: Life: Derand 37 > 32
+Resolve Stack: Reanimate (82) - Return Dr. Eggman (100) from the graveyard to the battlefield under your control. Derand loses 5 life.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Alec discards Knight Paladin (221).
+Discard: Joseph discards Scute Swarm (352).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Phase: Derand's Cleanup step
+Discard: Derand discards Temple of Deceit (7).
+Turn: Turn 37 (Dominic)
+Information: BOARD turn 37 (Dominic) | Derand | life 32 | hand 7 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Dr. Eggman 3/6 | hand cards: Bedevil(3); Y'shtola Rhul(6); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8); Phyrexian Metamorph(4); Megrim(3)
+Information: BOARD turn 37 (Dominic) | Dominic | life 16 | hand 0 | lands 7 (3 untapped) | open mana 3 | commander Command | creatures 3 (3 untapped): Angel Token 5/5 x3 | hand cards: 
+Information: BOARD turn 37 (Dominic) | Alec | life 31 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 2 (2 untapped): Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4 | hand cards: Master of Etherium(3); Cyberdrive Awakener(6)
+Information: BOARD turn 37 (Dominic) | Joseph | life 25 | hand 0 | lands 10 (2 untapped) | open mana 1 | commander Battlefield | creatures 8 (4 untapped): Forest 2/2*; Plains 2/2; Plains 2/2* x2; Moraug, Fury of Akoum 6/6*[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3; Toph, the First Metalbender 3/3 | hand cards: 
+Information: BOARD threat | turn 37 | Moraug, Fury of Akoum (Joseph) 39
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Exotic Orchard (136) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {W}
+Land: Dominic picked {W}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Unclaimed Territory (142) - {T}: Add {C}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 1, Alec 1, Joseph 1
+Add To Stack: Dominic triggered The Circle of Loyalty
+Replacement Effect: If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.
+Resolve Stack: Whenever you cast a legendary spell, create a 2/2 white Knight creature token with vigilance. [Card: Haytham Kenway (201), Activator: Dominic, SpellAbility: Haytham Kenway - Creature 3 / 3]
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Angel Token (418)]
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Dr. Eggman (100), Katsumasa, the Animator (228), Toph, the First Metalbender (403)]
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Haytham Kenway (201)]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Zone Change: Katsumasa, the Animator (228) was put into Exile from Battlefield.
+Zone Change: Toph, the First Metalbender (403) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Dr. Eggman (100), Katsumasa, the Animator (228), Toph, the First Metalbender (403)]]) [Zone Changer: Haytham Kenway (201)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Angel Token (411), Angel Token (410) and Angel Token (409) to attack Joseph.
+Information: BOARD attack | Dominic -> Joseph | attackers 3 (power 21) | defender life 25 | untapped creatures 3 (power 8): Plains 2/2; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3 | open mana 1
+Phase: Dominic's Declare Blockers Step
+Combat: Joseph didn't block Angel Token (411).
+Joseph didn't block Angel Token (410).
+Joseph didn't block Angel Token (409).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Angel Token (411) deals 7 combat damage to Joseph.
+Damage: Angel Token (410) deals 7 combat damage to Joseph.
+Damage: Angel Token (409) deals 7 combat damage to Joseph.
+Life: Life: Joseph 25 > 4
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 38 (Alec)
+Information: BOARD turn 38 (Alec) | Derand | life 32 | hand 7 | lands 7 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Y'shtola Rhul(6); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8); Phyrexian Metamorph(4); Megrim(3)
+Information: BOARD turn 38 (Alec) | Dominic | life 16 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Angel Token 7/7 x4; Haytham Kenway 5/5 | hand cards: Dovin's Veto(2)
+Information: BOARD turn 38 (Alec) | Alec | life 31 | hand 2 | lands 6 (0 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Losheel, Clockwork Scholar 2/4 | hand cards: Master of Etherium(3); Cyberdrive Awakener(6)
+Information: BOARD turn 38 (Alec) | Joseph | life 4 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 7 (3 untapped): Forest 2/2*; Plains 2/2; Plains 2/2* x2; Moraug, Fury of Akoum 6/6*[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3 | hand cards: 
+Information: BOARD threat | turn 38 | Angel Token (Dominic) 61; Angel Token (Dominic) 61; Angel Token (Dominic) 61; Moraug, Fury of Akoum (Joseph) 37
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (285)
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Plains (293) - {T}: Add {W}.
+Add To Stack: Alec cast Master of Etherium
+Information: BOARD cast | Master of Etherium (mv 3) by Alec | open mana: Derand 1, Dominic 2, Joseph 1
+Resolve Stack: Master of Etherium - Creature * / *
+Add To Stack: Alec triggered Losheel, Clockwork Scholar
+Resolve Stack: Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn. [Amount: 1]
+Mana: Mind Stone (241) - {T}: Add {C}.
+Mana: Azorius Signet (296) - {1}, {T}: Add {W}{U}.
+Mana: Plains (285) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Kotori, Pilot Prodigy
+Information: BOARD cast | Kotori, Pilot Prodigy (mv 3) by Alec | open mana: Derand 1, Dominic 2, Joseph 1
+Resolve Stack: Kotori, Pilot Prodigy - Creature 2 / 4
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Master of Etherium (263)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Master of Etherium (263)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 39 (Joseph)
+Information: BOARD turn 39 (Joseph) | Derand | life 32 | hand 7 | lands 7 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Y'shtola Rhul(6); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8); Phyrexian Metamorph(4); Megrim(3)
+Information: BOARD turn 39 (Joseph) | Dominic | life 16 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Angel Token 7/7 x4; Haytham Kenway 5/5 | hand cards: Dovin's Veto(2)
+Information: BOARD turn 39 (Joseph) | Alec | life 31 | hand 2 | lands 7 (1 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5; Kotori, Pilot Prodigy 2/4 | hand cards: Cyberdrive Awakener(6); Island(land)
+Information: BOARD turn 39 (Joseph) | Joseph | life 4 | hand 0 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 7 (3 untapped): Forest 2/2*; Plains 2/2; Plains 2/2* x2; Moraug, Fury of Akoum 6/6*[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3 | hand cards: 
+Information: BOARD threat | turn 39 | Angel Token (Dominic) 59; Angel Token (Dominic) 59; Angel Token (Dominic) 59; Moraug, Fury of Akoum (Joseph) 36
+Phase: Joseph's Untap step
+Phase: Joseph's Upkeep step
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Land: Joseph picked {G}
+Mana: Rootbound Crag (399) - {T}: Add {R} or {G}.
+Mana: Plains (393) - {T}: Add {W}.
+Mana: Mountain (387) - {T}: Add {R}.
+Mana: Stomping Ground (333) - {T}: Add {G}.
+Mana: Liquimetal Torque (348) - {T}: Add {C}.
+Add To Stack: Joseph activated Emil, Vastlands Roamer
+Resolve Stack: Emil, Vastlands Roamer (344) - Joseph creates a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of differently named lands they control. Joseph puts five +1/+1 counters on . 
+Phase: Joseph's Draw step
+Phase: Joseph's Main phase, precombat
+Phase: Joseph's Beginning of Combat Step
+Phase: Joseph's Declare Attackers Step
+Phase: Joseph's Declare Blockers Step
+Phase: Joseph's First Strike Damage Step
+Phase: Joseph's Combat Damage Step
+Phase: Joseph's End of Combat Step
+Phase: Joseph's Main phase, postcombat
+Mana: Forest (341) - {T}: Add {G}.
+Mana: Plains (392) - {T}: Add {W}.
+Mana: Plains (394) - {T}: Add {W}.
+Mana: Plains (391) - {T}: Add {W}.
+Add To Stack: Joseph cast The Boulder, Ready to Rumble
+Information: BOARD cast | The Boulder, Ready to Rumble (mv 4) by Joseph | open mana: Derand 1, Dominic 2, Alec 6
+Resolve Stack: The Boulder, Ready to Rumble - Creature 4 / 4
+Phase: Joseph's End step
+Phase: Joseph's Cleanup step
+Turn: Turn 40 (Derand)
+Information: BOARD turn 40 (Derand) | Derand | life 32 | hand 7 | lands 7 (1 untapped) | open mana 1 | commander Elsewhere | creatures 0 (0 untapped):  | hand cards: Bedevil(3); Y'shtola Rhul(6); Scavenged Brawler(6); Saheeli, Sublime Artificer(3); Cityscape Leveler(8); Phyrexian Metamorph(4); Megrim(3)
+Information: BOARD turn 40 (Derand) | Dominic | life 16 | hand 1 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 5 (5 untapped): Angel Token 7/7 x4; Haytham Kenway 5/5 | hand cards: Dovin's Veto(2)
+Information: BOARD turn 40 (Derand) | Alec | life 31 | hand 2 | lands 7 (1 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5; Kotori, Pilot Prodigy 2/4 | hand cards: Cyberdrive Awakener(6); Island(land)
+Information: BOARD turn 40 (Derand) | Joseph | life 4 | hand 0 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 9 (4 untapped): Forest 2/2*; Plains 2/2* x3; Moraug, Fury of Akoum 6/6[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3*; Fractal Token 5/5; The Boulder, Ready to Rumble 4/4 | hand cards: 
+Information: BOARD threat | turn 40 | Angel Token (Dominic) 56; Angel Token (Dominic) 56; Angel Token (Dominic) 56; Moraug, Fury of Akoum (Joseph) 34
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Derand picked {B}
+Land: Derand picked {B}
+Damage: Sulfurous Springs (44) deals 1 non-combat damage to Derand.
+Life: Life: Derand 32 > 31
+Mana: Sulfurous Springs (44) - {T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you. 
+Mana: Mountain (96) - {T}: Add {R}.
+Add To Stack: Derand cast Bedevil targeting [Haytham Kenway (201)]
+Information: BOARD cast | Bedevil (mv 3) by Derand | open mana: Dominic 2, Alec 6, Joseph 0
+Zone Change: Haytham Kenway (201) was put into Graveyard from Battlefield.
+Resolve Stack: Bedevil (46) - Destroy Haytham Kenway (201).
+Phase: Derand's Main phase, precombat
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Silverbluff Bridge (77) - {T}: Add {U} or {R}.
+Mana: Idyllic Grange (174) - {T}: Add {W}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Talisman of Creativity (47) - {T}: Add {C}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Add To Stack: Derand cast Y'shtola Rhul
+Information: BOARD cast | Y'shtola Rhul (mv 6) by Derand | open mana: Dominic 2, Alec 6, Joseph 0
+Resolve Stack: Y'shtola Rhul - Creature 3 / 5
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Y'shtola Rhul targeting [Dr. Eggman (100)]
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Dovin's Veto (151).
+Discard: Alec discards Island (230).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Resolve Stack: At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step. (Targeting: [[Dr. Eggman (100)]]) [Phase: Derand]
+Phase: RepeatDerand's End step
+Add To Stack: Derand triggered Dr. Eggman
+Add To Stack: Derand triggered Y'shtola Rhul targeting [Dr. Eggman (100)]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Resolve Stack: At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step. (Targeting: [[Dr. Eggman (100)]]) [Phase: Derand]
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 41 (Dominic)
+Information: BOARD turn 41 (Dominic) | Derand | life 31 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Y'shtola Rhul 3/5; Dr. Eggman 3/6; Cityscape Leveler 8/8; Scavenged Brawler 4/4 | hand cards: Saheeli, Sublime Artificer(3); Phyrexian Metamorph(4); Megrim(3); Dauthi Voidwalker(2); Undercity Sewers(land); Arcane Signet(2)
+Information: BOARD turn 41 (Dominic) | Dominic | life 16 | hand 0 | lands 7 (2 untapped) | open mana 2 | commander Command | creatures 4 (4 untapped): Angel Token 7/7 x4 | hand cards: 
+Information: BOARD turn 41 (Dominic) | Alec | life 31 | hand 1 | lands 7 (1 untapped) | open mana 6 | commander Battlefield | creatures 4 (4 untapped): Losheel, Clockwork Scholar 2/4; Master of Etherium 5/5; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3 | hand cards: Cyberdrive Awakener(6)
+Information: BOARD turn 41 (Dominic) | Joseph | life 4 | hand 0 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 9 (4 untapped): Forest 2/2*; Plains 2/2* x3; Moraug, Fury of Akoum 6/6[Swiftfoot Boots]; Evolution Sage 3/2; Emil, Vastlands Roamer 3/3*; Fractal Token 5/5; The Boulder, Ready to Rumble 4/4 | hand cards: 
+Information: BOARD threat | turn 41 | Angel Token (Dominic) 54; Angel Token (Dominic) 54; Angel Token (Dominic) 54; Moraug, Fury of Akoum (Joseph) 33
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Plains (188) - {T}: Add {W}.
+Mana: Exotic Orchard (136) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Dominic picked {U}
+Land: Dominic picked {U}
+Mana: Glacial Fortress (166) - {T}: Add {W} or {U}.
+Mana: Unclaimed Territory (142) - {T}: Add {C}.
+Mana: Mobilized District (179) - {T}: Add {C}.
+Mana: Rogue's Passage (123) - {T}: Add {C}.
+Add To Stack: Dominic cast Haytham Kenway
+Information: BOARD cast | Haytham Kenway (mv 4) by Dominic | open mana: Derand 0, Alec 6, Joseph 0
+Add To Stack: Dominic triggered The Circle of Loyalty
+Replacement Effect: If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.
+Resolve Stack: Whenever you cast a legendary spell, create a 2/2 white Knight creature token with vigilance. [Card: Haytham Kenway (201), Activator: Dominic, SpellAbility: Haytham Kenway - Creature 3 / 3]
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Angel Token (425)]
+Resolve Stack: Haytham Kenway - Creature 3 / 3
+Add To Stack: Dominic triggered Haytham Kenway targeting [Scavenged Brawler (79), The Boulder, Ready to Rumble (305), Losheel, Clockwork Scholar (262)]
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Haytham Kenway (201)]
+Zone Change: Scavenged Brawler (79) was put into Exile from Battlefield.
+Zone Change: The Boulder, Ready to Rumble (305) was put into Exile from Battlefield.
+Zone Change: Losheel, Clockwork Scholar (262) was put into Exile from Battlefield.
+Resolve Stack: When Haytham Kenway enters, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield. (Targeting: [[Scavenged Brawler (79), The Boulder, Ready to Rumble (305), Losheel, Clockwork Scholar (262)]]) [Zone Changer: Haytham Kenway (201)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Angel Token (418) to attack Joseph.
+Dominic assigned Angel Token (411), Angel Token (410) and Angel Token (409) to attack Derand.
+Information: BOARD attack | Dominic -> Joseph | attackers 1 (power 9) | defender life 4 | untapped creatures 3 (power 14): Moraug, Fury of Akoum 6/6[Swiftfoot Boots]; Evolution Sage 3/2; Fractal Token 5/5 | open mana 0
+Information: BOARD attack | Dominic -> Derand | attackers 3 (power 27) | defender life 31 | untapped creatures 3 (power 14): Y'shtola Rhul 3/5; Dr. Eggman 3/6; Cityscape Leveler 8/8 | open mana 0
+Phase: Dominic's Declare Blockers Step
+Combat: Joseph didn't block Angel Token (418).
+Combat: Derand didn't block Angel Token (411).
+Derand didn't block Angel Token (410).
+Derand didn't block Angel Token (409).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Angel Token (418) deals 9 combat damage to Joseph.
+Damage: Angel Token (411) deals 9 combat damage to Derand.
+Damage: Angel Token (410) deals 9 combat damage to Derand.
+Damage: Angel Token (409) deals 9 combat damage to Derand.
+Life: Life: Derand 31 > 4
+Life: Life: Joseph 4 > -5
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 42 (Alec)
+Information: BOARD turn 42 (Alec) | Derand | life 4 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Y'shtola Rhul 3/5; Dr. Eggman 3/6; Cityscape Leveler 8/8 | hand cards: Saheeli, Sublime Artificer(3); Phyrexian Metamorph(4); Megrim(3); Dauthi Voidwalker(2); Undercity Sewers(land); Arcane Signet(2)
+Information: BOARD turn 42 (Alec) | Dominic | life 16 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (6 untapped): Angel Token 9/9 x4; Angel Token 7/7; Haytham Kenway 5/5 | hand cards: Kindred Discovery(5)
+Information: BOARD turn 42 (Alec) | Alec | life 31 | hand 1 | lands 7 (1 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Master of Etherium 5/5; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3 | hand cards: Cyberdrive Awakener(6)
+Information: BOARD threat | turn 42 | Angel Token (Dominic) 104; Angel Token (Dominic) 104; Angel Token (Dominic) 104; Cathars' Crusade (Dominic) 53; Angel Token (Dominic) 52
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Katsumasa, the Animator targeting [Azorius Signet (296), Fellwar Stone (269), Arcane Signet (249)]
+Resolve Stack: At the beginning of your upkeep, put a +1/+1 counter on each of up to three target noncreature artifacts. (Targeting: [[Azorius Signet (296), Fellwar Stone (269), Arcane Signet (249)]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Plains (285) - {T}: Add {W}.
+Add To Stack: Alec cast Dispatch targeting [Haytham Kenway (201)]
+Information: BOARD cast | Dispatch (mv 1) by Alec | open mana: Derand 0, Dominic 0
+Zone Change: Haytham Kenway (201) was put into Exile from Battlefield.
+Resolve Stack: Dispatch (301) - Tap Haytham Kenway (201). If you control three or more artifacts, exile Haytham Kenway (201).
+Mana: Plains (293) - {T}: Add {W}.
+Mana: Skycloud Expanse (272) - {1}, {T}: Add {W}{U}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec cast Cyberdrive Awakener
+Information: BOARD cast | Cyberdrive Awakener (mv 6) by Alec | open mana: Derand 0, Dominic 0
+Resolve Stack: Cyberdrive Awakener - Creature 4 / 4
+Add To Stack: Alec triggered Losheel, Clockwork Scholar
+Add To Stack: Alec triggered Cyberdrive Awakener
+Resolve Stack: When this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn. [Zone Changer: Cyberdrive Awakener (273)]
+Resolve Stack: Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn. [Amount: 1]
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Master of Etherium (263)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Master of Etherium (263)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 43 (Derand)
+Information: BOARD turn 43 (Derand) | Derand | life 4 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Y'shtola Rhul 3/5; Dr. Eggman 3/6; Cityscape Leveler 8/8; Scavenged Brawler 4/4 | hand cards: Saheeli, Sublime Artificer(3); Phyrexian Metamorph(4); Megrim(3); Dauthi Voidwalker(2); Undercity Sewers(land); Arcane Signet(2)
+Information: BOARD turn 43 (Derand) | Dominic | life 16 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 5 (5 untapped): Angel Token 9/9 x4; Angel Token 7/7 | hand cards: Kindred Discovery(5)
+Information: BOARD turn 43 (Derand) | Alec | life 31 | hand 1 | lands 7 (0 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Master of Etherium 6/6; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4; Cyberdrive Awakener 5/5 | hand cards: Mobilizer Mech(2)
+Information: BOARD threat | turn 43 | Angel Token (Dominic) 100; Angel Token (Dominic) 100; Angel Token (Dominic) 100; Cathars' Crusade (Dominic) 51; Angel Token (Dominic) 50
+Phase: Derand's Untap step
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Vault of Whispers (3)
+Mana: Exotic Orchard (24) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mountain (96) - {T}: Add {R}.
+Mana: Idyllic Grange (174) - {T}: Add {W}.
+Add To Stack: Derand cast Saheeli, Sublime Artificer
+Information: BOARD cast | Saheeli, Sublime Artificer (mv 3) by Derand | open mana: Dominic 0, Alec 5
+Replacement Effect: Saheeli, Sublime Artificer enters with five loyalty counters on it.
+Resolve Stack: Saheeli, Sublime Artificer
+Mana: Vault of Whispers (3) - {T}: Add {B}.
+Mana: Rakdos Signet (12) - {1}, {T}: Add {B}{R}.
+Mana: Talisman of Creativity (47) - {T}: Add {C}.
+Mana: Mind Stone (16) - {T}: Add {C}.
+Mana: Spire of Industry (68) - {T}: Add {C}.
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Training Center (25) - {T}: Add {U} or {R}.
+Add To Stack: Derand cast Phyrexian Metamorph
+Information: BOARD cast | Phyrexian Metamorph (mv 4) by Derand | open mana: Dominic 0, Alec 5
+Replacement Effect: You may have Cityscape Leveler enter as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.
+Resolve Stack: Phyrexian Metamorph - Creature 0 / 0
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Combat: Derand assigned Cityscape Leveler (85) to attack Dominic.
+Information: BOARD attack | Derand -> Dominic | attackers 1 (power 8) | defender life 16 | untapped creatures 5 (power 43): Angel Token 9/9 x4; Angel Token 7/7 | open mana 0
+Add To Stack: Derand triggered Cityscape Leveler targeting [Angel Token (409)]
+Zone Change: Angel Token (409) was put into Graveyard from Battlefield.
+Resolve Stack: When you cast this spell and whenever Cityscape Leveler attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token. (Targeting: [[Angel Token (409)]]) [Attacker: Cityscape Leveler (85)]
+Phase: Derand's Declare Blockers Step
+Combat: Dominic assigned Angel Token (411), Angel Token (410) and Angel Token (418) to block Cityscape Leveler (85).
+Phase: Derand's First Strike Damage Step
+Phase: Derand's Combat Damage Step
+Damage: Angel Token (411) deals 9 damage to Cityscape Leveler (85).
+Damage: Angel Token (410) deals 9 damage to Cityscape Leveler (85).
+Damage: Angel Token (418) deals 9 damage to Cityscape Leveler (85).
+Zone Change: Cityscape Leveler (85) was put into Graveyard from Battlefield.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Land: Derand picked {U}
+Land: Derand picked {U}
+Mana: Silverbluff Bridge (77) - {T}: Add {U} or {R}.
+Mana: Sulfurous Springs (44) - {T}: Add {C}.
+Add To Stack: Derand cast Arcane Signet
+Information: BOARD cast | Arcane Signet (mv 2) by Derand | open mana: Dominic 0, Alec 5
+Add To Stack: Derand triggered Saheeli, Sublime Artificer
+Resolve Stack: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. [Card: Arcane Signet (28), Activator: Derand, SpellAbility: Arcane Signet]
+Resolve Stack: Arcane Signet
+Phase: Derand's End step
+Add To Stack: Derand triggered Y'shtola Rhul targeting [Dr. Eggman (100)]
+Add To Stack: Derand triggered Dr. Eggman
+Discard: Dominic discards Kindred Discovery (160).
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Add To Stack: Derand triggered Myr Battlesphere
+Resolve Stack: When Myr Battlesphere enters, create four 1/1 colorless Myr artifact creature tokens. [Zone Changer: Myr Battlesphere (32)]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Resolve Stack: At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step. (Targeting: [[Dr. Eggman (100)]]) [Phase: Derand]
+Phase: RepeatDerand's End step
+Add To Stack: Derand triggered Y'shtola Rhul targeting [Dr. Eggman (100)]
+Add To Stack: Derand triggered Dr. Eggman
+Resolve Stack: At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield. [Phase: Derand]
+Zone Change: Dr. Eggman (100) was put into Exile from Battlefield.
+Resolve Stack: At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step. (Targeting: [[Dr. Eggman (100)]]) [Phase: Derand]
+Phase: Derand's Cleanup step
+Turn: Turn 44 (Dominic)
+Information: BOARD turn 44 (Dominic) | Derand | life 4 | hand 4 | lands 8 (0 untapped) | open mana 3 | commander Battlefield | creatures 10 (10 untapped): Y'shtola Rhul 3/5; Scavenged Brawler 4/4; Cityscape Leveler 8/8; Servo Token 1/1; Myr Battlesphere 4/7; Myr Token 1/1 x4; Dr. Eggman 3/6 | hand cards: Megrim(3); Dauthi Voidwalker(2); Undercity Sewers(land); Geth's Grimoire(4)
+Information: BOARD turn 44 (Dominic) | Dominic | life 16 | hand 0 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 4 (4 untapped): Angel Token 9/9 x3; Angel Token 7/7 | hand cards: 
+Information: BOARD turn 44 (Dominic) | Alec | life 31 | hand 1 | lands 7 (0 untapped) | open mana 5 | commander Battlefield | creatures 5 (5 untapped): Master of Etherium 6/6; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4; Cyberdrive Awakener 5/5 | hand cards: Mobilizer Mech(2)
+Information: BOARD threat | turn 44 | Angel Token (Dominic) 96; Angel Token (Dominic) 96; Y'shtola Rhul (Derand) 54; Cathars' Crusade (Dominic) 49; Angel Token (Dominic) 48
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Adarkar Wastes (198)
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Powerstone Token (427) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Dominic activated The Circle of Loyalty
+Replacement Effect: If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.
+Resolve Stack: The Circle of Loyalty (193) - Dominic creates a 2/2 white Knight creature token with vigilance.
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Angel Token (437)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Angel Token (425) to attack Alec.
+Dominic assigned Angel Token (410), Angel Token (411) and Angel Token (418) to attack Derand.
+Information: BOARD attack | Dominic -> Alec | attackers 1 (power 8) | defender life 31 | untapped creatures 5 (power 18): Master of Etherium 6/6; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4; Cyberdrive Awakener 5/5 | open mana 5
+Information: BOARD attack | Dominic -> Derand | attackers 3 (power 30) | defender life 4 | untapped creatures 10 (power 27): Y'shtola Rhul 3/5; Scavenged Brawler 4/4; Cityscape Leveler 8/8; Servo Token 1/1; Myr Battlesphere 4/7; Myr Token 1/1 x4; Dr. Eggman 3/6 | open mana 3
+Mana: Fellwar Stone (269) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Mind Stone (241) - {T}: Add {C}.
+Land: Alec picked {U}
+Land: Alec picked {U}
+Mana: Arcane Signet (249) - {T}: Add one mana of any color in your commander's color identity.
+Add To Stack: Alec activated Katsumasa, the Animator targeting [Azorius Signet (296)]
+Land: Derand picked {B}
+Land: Derand picked {B}
+Mana: Arcane Signet (28) - {T}: Add one mana of any color in your commander's color identity.
+Resolve Stack: Katsumasa, the Animator (228) - Azorius Signet (296) becomes an artifact creature and  gains flying until end of turn. If it's not a Vehicle, Azorius Signet (296) has base power and toughness 1/1 until end of turn.
+Phase: Dominic's Declare Blockers Step
+Combat: Alec assigned Azorius Signet (296) to block Angel Token (425).
+Combat: Derand assigned Dr. Eggman (100) to block Angel Token (410).
+Derand didn't block Angel Token (411).
+Derand assigned Scavenged Brawler (79) to block Angel Token (418).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Angel Token (410) deals 10 damage to Dr. Eggman (100).
+Damage: Angel Token (411) deals 10 combat damage to Derand.
+Damage: Angel Token (418) deals 10 damage to Scavenged Brawler (79).
+Damage: Angel Token (425) deals 8 damage to Azorius Signet (296).
+Damage: Azorius Signet (296) deals 3 damage to Angel Token (425).
+Damage: Scavenged Brawler (79) deals 4 damage to Angel Token (418).
+Life: Life: Derand 4 > 8
+Damage: Dr. Eggman (100) deals 3 damage to Angel Token (410).
+Life: Life: Derand 8 > -2
+Zone Change: Idyllic Grange (174) was put into Exile from Battlefield.
+Zone Change: Azorius Signet (296) was put into Graveyard from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 45 (Alec)
+Information: BOARD turn 45 (Alec) | Dominic | life 16 | hand 0 | lands 8 (6 untapped) | open mana 10 | commander Command | creatures 5 (5 untapped): Angel Token 10/10 x3; Angel Token 8/8; Angel Token 6/6 | hand cards: 
+Information: BOARD turn 45 (Alec) | Alec | life 31 | hand 1 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (5 untapped): Master of Etherium 5/5; Kotori, Pilot Prodigy 2/4; Katsumasa, the Animator 3/3; Losheel, Clockwork Scholar 2/4; Cyberdrive Awakener 5/5 | hand cards: Mobilizer Mech(2)
+Information: BOARD threat | turn 45 | Angel Token (Dominic) 149; Angel Token (Dominic) 92; Cathars' Crusade (Dominic) 62; Angel Token (Dominic) 46; The Circle of Loyalty (Dominic) 38
+Phase: Alec's Untap step
+Phase: Alec's Upkeep step
+Add To Stack: Alec triggered Katsumasa, the Animator targeting [Arcane Signet (249), Mind Stone (241), Fellwar Stone (269)]
+Resolve Stack: At the beginning of your upkeep, put a +1/+1 counter on each of up to three target noncreature artifacts. (Targeting: [[Arcane Signet (249), Mind Stone (241), Fellwar Stone (269)]]) [Phase: Alec]
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Mana: Exotic Orchard (246) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (286) - {T}: Add {W}.
+Mana: Plains (293) - {T}: Add {W}.
+Add To Stack: Alec activated Katsumasa, the Animator targeting [Arcane Signet (249)]
+Resolve Stack: Katsumasa, the Animator (228) - Arcane Signet (249) becomes an artifact creature and  gains flying until end of turn. If it's not a Vehicle, Arcane Signet (249) has base power and toughness 1/1 until end of turn.
+Mana: Fellwar Stone (269) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (285) - {T}: Add {W}.
+Land: Alec picked {W}
+Mana: Port Town (294) - {T}: Add {W} or {U}.
+Add To Stack: Alec activated Katsumasa, the Animator targeting [Fellwar Stone (269)]
+Resolve Stack: Katsumasa, the Animator (228) - Fellwar Stone (269) becomes an artifact creature and  gains flying until end of turn. If it's not a Vehicle, Fellwar Stone (269) has base power and toughness 1/1 until end of turn.
+Land: Alec picked {U}
+Mana: Azorius Guildgate (218) - {T}: Add {W} or {U}.
+Mana: Mind Stone (241) - {T}: Add {C}.
+Add To Stack: Alec cast Mobilizer Mech
+Information: BOARD cast | Mobilizer Mech (mv 2) by Alec | open mana: Dominic 10
+Resolve Stack: Mobilizer Mech
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Kotori, Pilot Prodigy targeting [Master of Etherium (263)]
+Resolve Stack: At the beginning of combat on your turn, target artifact creature you control gains lifelink and vigilance until end of turn. (Targeting: [[Master of Etherium (263)]]) [Phase: Alec]
+Phase: Alec's Declare Attackers Step
+Combat: Alec assigned Arcane Signet (249), Master of Etherium (263), Kotori, Pilot Prodigy (302), Katsumasa, the Animator (228), Losheel, Clockwork Scholar (262) and Cyberdrive Awakener (273) to attack Dominic.
+Information: BOARD attack | Alec -> Dominic | attackers 6 (power 22) | defender life 16 | untapped creatures 5 (power 44): Angel Token 10/10 x3; Angel Token 8/8; Angel Token 6/6 | open mana 10
+Phase: Alec's Declare Blockers Step
+Combat: Dominic assigned Angel Token (410) and Angel Token (411) to block Arcane Signet (249).
+Dominic assigned Angel Token (418) to block Master of Etherium (263).
+Dominic didn't block Kotori, Pilot Prodigy (302).
+Dominic didn't block Katsumasa, the Animator (228).
+Dominic didn't block Losheel, Clockwork Scholar (262).
+Dominic assigned Angel Token (437) to block Cyberdrive Awakener (273).
+Phase: Alec's First Strike Damage Step
+Phase: Alec's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to attacking artifact creatures you control.
+Replacement Effect: Prevent all combat damage that would be dealt to attacking artifact creatures you control.
+Replacement Effect: Prevent all combat damage that would be dealt to attacking artifact creatures you control.
+Replacement Effect: Prevent all combat damage that would be dealt to attacking artifact creatures you control.
+Damage: Master of Etherium (263) deals 6 damage to Angel Token (418).
+Life: Life: Alec 31 > 37
+Damage: Kotori, Pilot Prodigy (302) deals 2 combat damage to Dominic.
+Damage: Katsumasa, the Animator (228) deals 3 combat damage to Dominic.
+Damage: Losheel, Clockwork Scholar (262) deals 2 combat damage to Dominic.
+Damage: Cyberdrive Awakener (273) deals 5 damage to Angel Token (437).
+Damage: Arcane Signet (249) deals 4 damage to Angel Token (410).
+Life: Life: Dominic 16 > 9
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 46 (Dominic)
+Information: BOARD turn 46 (Dominic) | Dominic | life 9 | hand 0 | lands 8 (6 untapped) | open mana 10 | commander Command | creatures 5 (5 untapped): Angel Token 10/10 x3; Angel Token 8/8; Angel Token 6/6 | hand cards: 
+Information: BOARD turn 46 (Dominic) | Alec | life 37 | hand 1 | lands 7 (1 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Master of Etherium 6/6; Kotori, Pilot Prodigy 2/4*; Katsumasa, the Animator 3/3*; Losheel, Clockwork Scholar 2/4*; Cyberdrive Awakener 5/5* | hand cards: Aeronaut Admiral(4)
+Information: BOARD threat | turn 46 | Angel Token (Dominic) 143; Angel Token (Dominic) 88; Katsumasa, the Animator (Alec) 87; Cathars' Crusade (Dominic) 59; Kotori, Pilot Prodigy (Alec) 49
+Phase: Dominic's Untap step
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Mana: Plains (186) - {T}: Add {W}.
+Mana: Powerstone Token (427) - {T}: Add {C}. This mana can't be spent to cast a nonartifact spell.
+Mana: Fellwar Stone (172) - {T}: Add one mana of any color that a land an opponent controls could produce.
+Mana: Plains (188) - {T}: Add {W}.
+Add To Stack: Dominic activated The Circle of Loyalty
+Replacement Effect: If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.
+Resolve Stack: The Circle of Loyalty (193) - Dominic creates a 2/2 white Knight creature token with vigilance.
+Add To Stack: Dominic triggered Cathars' Crusade
+Resolve Stack: Whenever a creature you control enters, put a +1/+1 counter on each creature you control. [Zone Changer: Angel Token (440)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Combat: Dominic assigned Angel Token (410), Angel Token (411), Angel Token (418), Angel Token (425) and Angel Token (437) to attack Alec.
+Information: BOARD attack | Dominic -> Alec | attackers 5 (power 49) | defender life 37 | untapped creatures 1 (power 6): Master of Etherium 6/6 | open mana 0
+Add To Stack: Alec activated Mobilizer Mech
+Resolve Stack: Mobilizer Mech (213) - Mobilizer Mech (213) becomes an artifact creature until end of turn.
+Add To Stack: Alec triggered Mobilizer Mech targeting []
+Resolve Stack: Whenever Mobilizer Mech becomes crewed, up to one other target Vehicle you control becomes an artifact creature until end of turn. (Targeting: [[]]) [Vehicle: Mobilizer Mech (213)  Crew: [Master of Etherium (263)]]
+Phase: Dominic's Declare Blockers Step
+Combat: Alec assigned Mobilizer Mech (213) to block Angel Token (410).
+Alec didn't block Angel Token (411).
+Alec didn't block Angel Token (418).
+Alec didn't block Angel Token (425).
+Alec didn't block Angel Token (437).
+Phase: Dominic's First Strike Damage Step
+Phase: Dominic's Combat Damage Step
+Damage: Angel Token (410) deals 11 damage to Mobilizer Mech (213).
+Damage: Angel Token (411) deals 11 combat damage to Alec.
+Damage: Angel Token (418) deals 11 combat damage to Alec.
+Damage: Angel Token (425) deals 9 combat damage to Alec.
+Damage: Angel Token (437) deals 7 combat damage to Alec.
+Damage: Mobilizer Mech (213) deals 4 damage to Angel Token (410).
+Life: Life: Alec 37 > -1
+Player Control: Derand has restored control over themself
+Player Control: Dominic has restored control over themself
+Player Control: Alec has restored control over themself
+Player Control: Joseph has restored control over themself
+Game Outcome: Match Duration 1h : 13m : 42s
+Game Outcome: Turn 23
+Game Outcome: Derand has lost because life total reached 0
+Game Outcome: Dominic has won because all opponents have lost
+Game Outcome: Alec has lost because life total reached 0
+Game Outcome: Joseph has lost because life total reached 0
+Match Result: Derand: 0 Dominic: 1 Alec: 0 Joseph: 0 
+
+Game Result: Dominic has won
