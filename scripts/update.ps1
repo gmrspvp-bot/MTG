@@ -91,9 +91,21 @@ if ($useGit) {
             & $git -C $root stash push -q -m ("update.cmd " + (Get-Date -Format s))
             if ($LASTEXITCODE -eq 0) { $stashed = $true; Note "Your local changes are put aside for the update." }
         }
+        # A file of ours that git does not track, where the update adds one of the same name (two
+        # players' recordings of the same joined game, mostly), stops the pull. Move ours aside.
+        $incoming = @(& $git -C $root diff --name-only --diff-filter=A HEAD "origin/$branch")
+        $aside = Join-Path $root ("scratch\update-backup\" + (Get-Date -Format 'yyyy-MM-dd_HHmmss'))
+        foreach ($f in $incoming) {
+            $p = Join-Path $root $f
+            if (-not (Test-Path -LiteralPath $p)) { continue }
+            $dest = Join-Path $aside $f
+            New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
+            Move-Item -LiteralPath $p $dest -Force
+            Note "Kept your own copy of $f in $aside (GitHub has a file with that name)."
+        }
         & $git -C $root pull -q --ff-only origin $branch
         if ($LASTEXITCODE -ne 0) {
-            Bad "Could not update with a fast-forward pull (this copy has commits of its own)."
+            Bad "Could not update with a fast-forward pull (the git message above says why)."
             if ($stashed) { & $git -C $root stash pop -q }
             Note "Ask in the group chat, or run Update with -Zip to copy the latest over this folder."
             exit 1
