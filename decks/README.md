@@ -18,6 +18,8 @@ This folder is the source of truth. Every launch, `play.ps1` makes `forge-data\d
 | Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
 | Tinybones | `Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
 | Baylen | `Baylen.dck` | Baylen, the Haymaker (Naya). Added 2026-10-22 from `manabox\decks\baylen.txt`, printings kept. The AI can't play Sungrass Prairie or Bolt Bend |
+| Kotori | `Kotori.dck` | Kotori, Pilot Prodigy (Azorius vehicles/artifacts): 14 Vehicles, 35 artifacts, 34 lands. Added 2026-10-29 by the owner; printings kept as supplied, no upgrades yet |
+| Haytham Kenway | `Haytham Kenway.dck` | Haytham Kenway (Azorius Knights). Built 2026-10-29 to a NZD 800 Card Kingdom budget: go-wide Knights, with Unnatural Selection turning blockers into Assassins so protection from Assassins makes the team unblockable. Not yet simmed, and most of it isn't owned |
 
 Archived in `archive\`: Captain America original to v6 (v6 was the default for every test up to 2026-10-18), Deadpool original and v2, Doom Prevails original and v2, Mr House original to v3, Tidus original and v2. Neither `play.ps1` nor `run-sims.ps1` looks in `archive\`: to sim an old version again, copy it back up for the run. Also here: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
 
