@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Villainous choice: no impossible options (rule 701.55b, CARD-MECHANICS.md) - agent hook | Stoneforge | 2026-10-29 09:15 | VillainousChoiceEffect, new hook class |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
