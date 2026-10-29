@@ -1,0 +1,744 @@
+Player: Dominic (HUMAN) deck=? (commander Scion of the Ur-Dragon) [this PC]
+Player: Derand (HUMAN) deck=? (commander Mr. House, President and CEO)
+Player: Alec (HUMAN) deck=? (commander Eivor, Battle-Ready)
+Player: Wiltmar (AI) deck=? (commander Admiral Brass, Unsinkable)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Wiltmar)
+Information: BOARD turn 1 (Wiltmar) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Wiltmar) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Wiltmar) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 1 (Wiltmar) | Wiltmar | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Command Tower (370)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Turn: Turn 2 (Derand)
+Information: BOARD turn 2 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Derand) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Derand) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 2 (Derand) | Wiltmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand triggered Windbrisk Heights
+Zone Change: Windbrisk Heights (70) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 3 (Alec)
+Information: BOARD turn 3 (Alec) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Alec) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 3 (Alec) | Wiltmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Brotherhood Headquarters (134)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 4 (Dominic)
+Information: BOARD turn 4 (Dominic) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Dominic) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 4 (Dominic) | Wiltmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Thriving Isle (267)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 5 (Wiltmar)
+Information: BOARD turn 5 (Wiltmar) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Wiltmar) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Wiltmar) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 5 (Wiltmar) | Wiltmar | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Desolate Lighthouse (403)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Turn: Turn 6 (Derand)
+Information: BOARD turn 6 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 6 (Derand) | Wiltmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (87)
+Add To Stack: Derand cast Welding Jar
+Zone Change: Welding Jar (18) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 7 (Alec)
+Information: BOARD turn 7 (Alec) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Alec) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 7 (Alec) | Wiltmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Sunscorched Divide (170)
+Add To Stack: Alec cast Fire Diamond
+Zone Change: Fire Diamond (172) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 8 (Dominic)
+Information: BOARD turn 8 (Dominic) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Arcane Signet(2); Solemn Simulacrum(4); Path to Exile(1); Command Tower(land)
+Information: BOARD turn 8 (Dominic) | Wiltmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Command Tower (243)
+Add To Stack: Dominic cast Arcane Signet
+Zone Change: Arcane Signet (261) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 9 (Wiltmar)
+Information: BOARD turn 9 (Wiltmar) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Wiltmar) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Wiltmar) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Solemn Simulacrum(4); Path to Exile(1); Plains(land)
+Information: BOARD turn 9 (Wiltmar) | Wiltmar | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Smoldering Marsh (383)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Turn: Turn 10 (Derand)
+Information: BOARD turn 10 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Derand) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Solemn Simulacrum(4); Path to Exile(1); Plains(land)
+Information: BOARD turn 10 (Derand) | Wiltmar | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Battlefield Forge (72)
+Add To Stack: Derand cast Smuggler's Share
+Zone Change: Smuggler's Share (32) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Smuggler's Share
+Turn: Turn 11 (Alec)
+Information: BOARD turn 11 (Alec) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Alec) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Solemn Simulacrum(4); Path to Exile(1); Plains(land)
+Information: BOARD turn 11 (Alec) | Wiltmar | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (196)
+Add To Stack: Alec cast Arcane Signet
+Zone Change: Arcane Signet (149) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Sword of Fire and Ice
+Zone Change: Sword of Fire and Ice (122) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Add To Stack: Derand triggered Smuggler's Share
+Turn: Turn 12 (Dominic)
+Information: BOARD turn 12 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Dominic) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Dominic) | Dominic | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Reanimate(1); Mountain(land); Solemn Simulacrum(4); Path to Exile(1); Plains(land)
+Information: BOARD turn 12 (Dominic) | Wiltmar | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mountain (305)
+Add To Stack: Dominic cast Solemn Simulacrum
+Zone Change: Solemn Simulacrum (251) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Solemn Simulacrum
+Zone Change: Swamp (272) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Add To Stack: Derand triggered Smuggler's Share
+Zone Change: Treasure Token (417) was put onto the Battlefield under Derand.
+Turn: Turn 13 (Wiltmar)
+Information: BOARD turn 13 (Wiltmar) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Wiltmar) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Wiltmar) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Reanimate(1); Path to Exile(1); Plains(land); Perennation(6)
+Information: BOARD turn 13 (Wiltmar) | Wiltmar | life 40 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Rogue's Passage (386)
+Add To Stack: Wiltmar cast Commander's Sphere
+Zone Change: Commander's Sphere (402) was put onto the Battlefield under Wiltmar.
+Add To Stack: Wiltmar cast Feed the Swarm targeting [Smuggler's Share (32)]
+Zone Change: Smuggler's Share (32) was put into another zone from Battlefield.
+Life: Life: Wiltmar 40 > 37
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Turn: Turn 14 (Derand)
+Information: BOARD turn 14 (Derand) | Derand | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Derand) | Alec | life 40 | hand 4 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Reanimate(1); Path to Exile(1); Plains(land); Perennation(6)
+Information: BOARD turn 14 (Derand) | Wiltmar | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Zone Change: Treasure Token (417) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast The Soul Stone
+Zone Change: The Soul Stone (58) was put onto the Battlefield under Derand.
+Life: Life: Derand 40 > 39
+Add To Stack: Derand cast Barbarian Class
+Zone Change: Barbarian Class (41) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 15 (Alec)
+Information: BOARD turn 15 (Alec) | Derand | life 39 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Alec) | Alec | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Alec) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Reanimate(1); Path to Exile(1); Plains(land); Perennation(6)
+Information: BOARD turn 15 (Alec) | Wiltmar | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Smothering Tithe
+Zone Change: Smothering Tithe (125) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 16 (Dominic)
+Information: BOARD turn 16 (Dominic) | Derand | life 39 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Dominic) | Alec | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Dominic) | Dominic | life 40 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Solemn Simulacrum 2/2 | hand cards: Reanimate(1); Path to Exile(1); Plains(land); Perennation(6)
+Information: BOARD turn 16 (Dominic) | Wiltmar | life 37 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (419) was put onto the Battlefield under Alec.
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Scion of the Ur-Dragon
+Zone Change: Scion of the Ur-Dragon (312) was put onto the Battlefield under Dominic.
+Land: Dominic played Plains (307)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Add To Stack: Wiltmar activated Commander's Sphere
+Zone Change: Commander's Sphere (402) was put into another zone from Battlefield.
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (422) was put onto the Battlefield under Alec.
+Turn: Turn 17 (Wiltmar)
+Information: BOARD turn 17 (Wiltmar) | Derand | life 39 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Wiltmar) | Alec | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Wiltmar) | Dominic | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Solemn Simulacrum 2/2; Scion of the Ur-Dragon 4/4 | hand cards: Reanimate(1); Path to Exile(1); Perennation(6); Bojuka Bog(land)
+Information: BOARD turn 17 (Wiltmar) | Wiltmar | life 37 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (425) was put onto the Battlefield under Alec.
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Island (321)
+Add To Stack: Wiltmar cast Admiral Brass, Unsinkable
+Add To Stack: Wiltmar triggered Admiral Brass, Unsinkable
+Zone Change: Admiral Brass, Unsinkable (413) was put onto the Battlefield under Wiltmar.
+Phase: Wiltmar's Beginning of Combat Step
+Add To Stack: Wiltmar triggered Admiral Brass, Unsinkable targeting [Breeches, Brazen Plunderer (409)]
+Zone Change: Breeches, Brazen Plunderer (409) was put onto the Battlefield under Wiltmar.
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Combat: Wiltmar assigned Breeches, Brazen Plunderer (409) to attack Derand.
+Phase: Wiltmar's Combat Damage Step
+Add To Stack: Wiltmar triggered Breeches, Brazen Plunderer
+Combat: Derand didn't block Breeches, Brazen Plunderer (409).
+Life: Life: Derand 39 > 35
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Phase: Wiltmar's End step
+Turn: Turn 18 (Derand)
+Information: BOARD turn 18 (Derand) | Derand | life 35 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Derand) | Alec | life 40 | hand 4 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Derand) | Dominic | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Solemn Simulacrum 2/2; Scion of the Ur-Dragon 4/4 | hand cards: Reanimate(1); Path to Exile(1); Perennation(6); Bojuka Bog(land)
+Information: BOARD turn 18 (Derand) | Wiltmar | life 37 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Admiral Brass, Unsinkable 3/3; Breeches, Brazen Plunderer 4/4* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Phase: Derand's Main phase, precombat
+Land: Derand played Haunted Ridge (85)
+Add To Stack: Derand activated Barbarian Class
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 19 (Alec)
+Information: BOARD turn 19 (Alec) | Derand | life 35 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Alec) | Alec | life 40 | hand 4 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Alec) | Dominic | life 40 | hand 4 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Solemn Simulacrum 2/2; Scion of the Ur-Dragon 4/4 | hand cards: Reanimate(1); Path to Exile(1); Perennation(6); Bojuka Bog(land)
+Information: BOARD turn 19 (Alec) | Wiltmar | life 37 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Admiral Brass, Unsinkable 3/3; Breeches, Brazen Plunderer 4/4* | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (202)
+Add To Stack: Alec cast Puresteel Paladin
+Zone Change: Puresteel Paladin (140) was put onto the Battlefield under Alec.
+Zone Change: Treasure Token (422) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (425) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Eivor, Battle-Ready
+Zone Change: Eivor, Battle-Ready (211) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Sword of Fire and Ice targeting [Eivor, Battle-Ready (211)]
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Dominic cast Path to Exile targeting [Eivor, Battle-Ready (211)]
+Zone Change: Eivor, Battle-Ready (211) was put into another zone from Battlefield.
+Zone Change: Mountain (195) was put onto the Battlefield under Alec.
+Life: Life: Derand 35 > 34
+Life: Life: Dominic 40 > 39
+Life: Life: Wiltmar 37 > 36
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Zone Change: Treasure Token (419) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Darksteel Mutation targeting [Scion of the Ur-Dragon (312)]
+Zone Change: Darksteel Mutation (161) was put onto the Battlefield under Alec.
+Phase: Alec's End step
+Turn: Turn 20 (Dominic)
+Information: BOARD turn 20 (Dominic) | Derand | life 34 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 20 (Dominic) | Alec | life 40 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 20 (Dominic) | Dominic | life 39 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (2 untapped): Solemn Simulacrum 2/2; Scion of the Ur-Dragon 0/1 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land)
+Information: BOARD turn 20 (Dominic) | Wiltmar | life 36 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Admiral Brass, Unsinkable 3/3; Breeches, Brazen Plunderer 4/4* | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (429) was put onto the Battlefield under Alec.
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Solemn Simulacrum (251) to attack Wiltmar.
+Phase: Dominic's Combat Damage Step
+Zone Change: Solemn Simulacrum (251) was put into another zone from Battlefield.
+Add To Stack: Dominic triggered Solemn Simulacrum
+Add To Stack: Alec triggered Smothering Tithe
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic played Thornwood Falls (281)
+Add To Stack: Dominic triggered Thornwood Falls
+Life: Life: Dominic 39 > 40
+Phase: Dominic's End step
+Turn: Turn 21 (Wiltmar)
+Information: BOARD turn 21 (Wiltmar) | Derand | life 34 | hand 4 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 21 (Wiltmar) | Alec | life 40 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 21 (Wiltmar) | Dominic | life 40 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 0/1 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 21 (Wiltmar) | Wiltmar | life 36 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (2 untapped): Admiral Brass, Unsinkable 3/3; Breeches, Brazen Plunderer 4/4 | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (432) was put onto the Battlefield under Alec.
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Island (348)
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's Declare Blockers Step
+Combat: Wiltmar assigned Breeches, Brazen Plunderer (409), Admiral Brass, Unsinkable (413) to attack Alec.
+Phase: Wiltmar's Combat Damage Step
+Add To Stack: Wiltmar triggered Breeches, Brazen Plunderer
+Combat: Alec didn't block Breeches, Brazen Plunderer (409).
+Combat: Alec didn't block Admiral Brass, Unsinkable (413).
+Life: Life: Alec 40 > 33
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Add To Stack: Wiltmar cast Vanquisher's Banner
+Zone Change: Vanquisher's Banner (391) was put onto the Battlefield under Wiltmar.
+Phase: Wiltmar's End step
+Phase: Wiltmar's Cleanup step
+Turn: Turn 22 (Derand)
+Information: BOARD turn 22 (Derand) | Derand | life 34 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 22 (Derand) | Alec | life 33 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 22 (Derand) | Dominic | life 40 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 0/1 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 22 (Derand) | Wiltmar | life 36 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Admiral Brass, Unsinkable 4/4*; Breeches, Brazen Plunderer 5/5* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (435) was put onto the Battlefield under Alec.
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (91)
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast "Lifetime" Pass Holder
+Zone Change: "Lifetime" Pass Holder (61) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 23 (Alec)
+Information: BOARD turn 23 (Alec) | Derand | life 34 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; "Lifetime" Pass Holder 2/1* | hand cards: hidden
+Information: BOARD turn 23 (Alec) | Alec | life 33 | hand 2 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Puresteel Paladin 2/2 | hand cards: hidden
+Information: BOARD turn 23 (Alec) | Dominic | life 40 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 0/1 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 23 (Alec) | Wiltmar | life 36 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Admiral Brass, Unsinkable 4/4*; Breeches, Brazen Plunderer 5/5* | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (201)
+Add To Stack: Alec cast Eivor, Battle-Ready
+Zone Change: Eivor, Battle-Ready (211) was put onto the Battlefield under Alec.
+Zone Change: Treasure Token (429) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (432) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (435) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Helm of the Host
+Add To Stack: Alec triggered Puresteel Paladin
+Zone Change: Helm of the Host (136) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Sword of Fire and Ice targeting [Eivor, Battle-Ready (211)]
+Add To Stack: Alec activated Helm of the Host targeting [Eivor, Battle-Ready (211)]
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Zone Change: Eivor, Battle-Ready (437) was put onto the Battlefield under Alec.
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Life: Life: Derand 34 > 32
+Life: Life: Dominic 40 > 38
+Life: Life: Wiltmar 36 > 34
+Life: Life: Derand 32 > 30
+Life: Life: Dominic 38 > 36
+Life: Life: Wiltmar 34 > 32
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Eivor, Battle-Ready (211), Eivor, Battle-Ready (437) to attack Wiltmar.
+Phase: Alec's Combat Damage Step
+Combat: Wiltmar didn't block Eivor, Battle-Ready (211).
+Combat: Wiltmar didn't block Eivor, Battle-Ready (437).
+Life: Life: Wiltmar 32 > 20
+Add To Stack: Alec triggered Sword of Fire and Ice targeting [Dominic]
+Life: Life: Dominic 36 > 34
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 24 (Dominic)
+Information: BOARD turn 24 (Dominic) | Derand | life 30 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; "Lifetime" Pass Holder 2/1* | hand cards: hidden
+Information: BOARD turn 24 (Dominic) | Alec | life 33 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Eivor, Battle-Ready 7/7[Sword of Fire and Ice,Helm of the Host]; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 24 (Dominic) | Dominic | life 34 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Scion of the Ur-Dragon 0/1 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 24 (Dominic) | Wiltmar | life 20 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (0 untapped): Admiral Brass, Unsinkable 4/4*; Breeches, Brazen Plunderer 5/5* | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (439) was put onto the Battlefield under Alec.
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Ancient Copper Dragon
+Zone Change: Ancient Copper Dragon (222) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 25 (Wiltmar)
+Information: BOARD turn 25 (Wiltmar) | Derand | life 30 | hand 3 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; "Lifetime" Pass Holder 2/1* | hand cards: hidden
+Information: BOARD turn 25 (Wiltmar) | Alec | life 33 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Eivor, Battle-Ready 7/7[Sword of Fire and Ice,Helm of the Host]; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 25 (Wiltmar) | Dominic | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Scion of the Ur-Dragon 0/1; Ancient Copper Dragon 6/5 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 25 (Wiltmar) | Wiltmar | life 20 | hand 5 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Admiral Brass, Unsinkable 4/4; Breeches, Brazen Plunderer 5/5 | hand cards: hidden
+Phase: Wiltmar's Upkeep step
+Phase: Wiltmar's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (442) was put onto the Battlefield under Alec.
+Phase: Wiltmar's Main phase, precombat
+Land: Wiltmar played Mountain (330)
+Add To Stack: Wiltmar cast Distant Melody
+Add To Stack: Alec triggered Smothering Tithe
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (445) was put onto the Battlefield under Alec.
+Zone Change: Treasure Token (448) was put onto the Battlefield under Alec.
+Phase: Wiltmar's Beginning of Combat Step
+Phase: Wiltmar's Declare Attackers Step
+Phase: Wiltmar's End of Combat Step
+Phase: Wiltmar's Main phase, postcombat
+Add To Stack: Wiltmar cast Herald's Horn
+Zone Change: Herald's Horn (314) was put onto the Battlefield under Wiltmar.
+Phase: Wiltmar's End step
+Turn: Turn 26 (Derand)
+Information: BOARD turn 26 (Derand) | Derand | life 30 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; "Lifetime" Pass Holder 2/1 | hand cards: hidden
+Information: BOARD turn 26 (Derand) | Alec | life 33 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Eivor, Battle-Ready 7/7[Sword of Fire and Ice,Helm of the Host]; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 26 (Derand) | Dominic | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Scion of the Ur-Dragon 0/1; Ancient Copper Dragon 6/5 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 26 (Derand) | Wiltmar | life 20 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Admiral Brass, Unsinkable 4/4; Breeches, Brazen Plunderer 5/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (450) was put onto the Battlefield under Alec.
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (90)
+Add To Stack: Derand cast Caretaker's Talent
+Zone Change: Caretaker's Talent (4) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Mr. House, President and CEO
+Add To Stack: Derand triggered Barbarian Class targeting [Mr. House, President and CEO (100)]
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Caretaker's Talent
+Zone Change: Robot Token (453) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (454) was put onto the Battlefield under Derand.
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (456) was put onto the Battlefield under Alec.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned "Lifetime" Pass Holder (61) to attack Wiltmar.
+Phase: Derand's Combat Damage Step
+Combat: Wiltmar assigned Admiral Brass, Unsinkable (413), Breeches, Brazen Plunderer (409) to block "Lifetime" Pass Holder (61).
+Add To Stack: Derand triggered "Lifetime" Pass Holder
+Zone Change: "Lifetime" Pass Holder (61) was put into another zone from Battlefield.
+Zone Change: Tunnel of Love (110) was put onto the Battlefield under Derand.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 27 (Alec)
+Information: BOARD turn 27 (Alec) | Derand | life 30 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 | hand cards: hidden
+Information: BOARD turn 27 (Alec) | Alec | life 33 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Puresteel Paladin 2/2; Eivor, Battle-Ready 7/7[Sword of Fire and Ice,Helm of the Host]; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 27 (Alec) | Dominic | life 34 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Scion of the Ur-Dragon 0/1; Ancient Copper Dragon 6/5 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 27 (Alec) | Wiltmar | life 20 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Admiral Brass, Unsinkable 4/4; Breeches, Brazen Plunderer 5/5 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Bloodforged Battle-Axe
+Add To Stack: Alec triggered Puresteel Paladin
+Zone Change: Bloodforged Battle-Axe (142) was put onto the Battlefield under Alec.
+Land: Alec played Plains (205)
+Add To Stack: Alec cast Aurelia, the Law Above
+Zone Change: Aurelia, the Law Above (173) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Bloodforged Battle-Axe targeting [Eivor, Battle-Ready (211)]
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Zone Change: Eivor, Battle-Ready (458) was put onto the Battlefield under Alec.
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Aurelia, the Law Above
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Life: Life: Derand 30 > 27
+Life: Life: Dominic 34 > 31
+Life: Life: Wiltmar 20 > 17
+Life: Life: Derand 27 > 24
+Life: Life: Dominic 31 > 28
+Life: Life: Wiltmar 17 > 14
+Life: Life: Derand 24 > 21
+Life: Life: Dominic 28 > 25
+Life: Life: Wiltmar 14 > 11
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Eivor, Battle-Ready (437), Eivor, Battle-Ready (458) to attack Derand.
+Combat: Alec assigned Eivor, Battle-Ready (211), Aurelia, the Law Above (173) to attack Wiltmar.
+Phase: Alec's First Strike Damage Step
+Combat: Wiltmar didn't block Eivor, Battle-Ready (211).
+Combat: Derand didn't block Eivor, Battle-Ready (437).
+Combat: Derand assigned Robot Token (453) to block Eivor, Battle-Ready (458).
+Combat: Wiltmar didn't block Aurelia, the Law Above (173).
+Phase: Alec's Combat Damage Step
+Life: Life: Derand 21 > 16
+Life: Life: Wiltmar 11 > -2
+Add To Stack: Alec triggered Bloodforged Battle-Axe
+Zone Change: Rogue's Passage (386) was put into another zone from Battlefield.
+Zone Change: Vanquisher's Banner (391) was put into another zone from Battlefield.
+Zone Change: Desolate Lighthouse (403) was put into another zone from Battlefield.
+Zone Change: Breeches, Brazen Plunderer (409) was put into another zone from Battlefield.
+Zone Change: Admiral Brass, Unsinkable (413) was put into another zone from Battlefield.
+Zone Change: Herald's Horn (314) was put into another zone from Battlefield.
+Zone Change: Island (321) was put into another zone from Battlefield.
+Zone Change: Robot Token (453) was put into nowhere (token) from Battlefield.
+Zone Change: Mountain (330) was put into another zone from Battlefield.
+Zone Change: Island (348) was put into another zone from Battlefield.
+Zone Change: Command Tower (370) was put into another zone from Battlefield.
+Zone Change: Smoldering Marsh (383) was put into another zone from Battlefield.
+Add To Stack: Alec triggered Sword of Fire and Ice targeting [Dominic]
+Life: Life: Dominic 25 > 23
+Add To Stack: Alec triggered Puresteel Paladin
+Zone Change: Bloodforged Battle-Axe (460) was put onto the Battlefield under Alec.
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Zone Change: Treasure Token (450) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (456) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (445) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (448) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec cast Heavenly Blademaster
+Add To Stack: Alec triggered Heavenly Blademaster
+Zone Change: Heavenly Blademaster (183) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Bloodforged Battle-Axe targeting [Heavenly Blademaster (183)]
+Phase: Alec's End step
+Turn: Turn 28 (Dominic)
+Information: BOARD turn 28 (Dominic) | Derand | life 16 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Mr. House, President and CEO 0/4* | hand cards: hidden
+Information: BOARD turn 28 (Dominic) | Alec | life 33 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Puresteel Paladin 3/3; Eivor, Battle-Ready 10/8[Sword of Fire and Ice,Helm of the Host,Bloodforged Battle-Axe]; Eivor, Battle-Ready 6/6 x2; Aurelia, the Law Above 5/5; Heavenly Blademaster 5/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 28 (Dominic) | Dominic | life 23 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Scion of the Ur-Dragon 0/1; Ancient Copper Dragon 6/5 | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land); Rugged Highlands(land)
+Information: BOARD turn 28 (Dominic) | Wiltmar | out
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (462) was put onto the Battlefield under Alec.
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ancient Copper Dragon (222) to attack Derand.
+Phase: Dominic's Combat Damage Step
+Combat: Derand didn't block Ancient Copper Dragon (222).
+Life: Life: Derand 16 > 10
+Add To Stack: Dominic triggered Ancient Copper Dragon
+Zone Change: Treasure Token (464) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (465) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (466) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (467) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (468) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (469) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (470) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (471) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (472) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (473) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (474) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (475) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (476) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (477) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (478) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (479) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (480) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Land: Dominic played Rugged Highlands (225)
+Add To Stack: Dominic triggered Rugged Highlands
+Life: Life: Dominic 23 > 24
+Zone Change: Treasure Token (480) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Dracogenesis
+Zone Change: Dracogenesis (300) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Turn: Turn 29 (Derand)
+Information: BOARD turn 29 (Derand) | Derand | life 10 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 29 (Derand) | Alec | life 33 | hand 4 | lands 7 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (6 untapped): Puresteel Paladin 3/3; Eivor, Battle-Ready 10/8[Sword of Fire and Ice,Helm of the Host,Bloodforged Battle-Axe]; Eivor, Battle-Ready 6/6 x2; Aurelia, the Law Above 5/5; Heavenly Blademaster 5/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 29 (Derand) | Dominic | life 24 | hand 3 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Scion of the Ur-Dragon 0/1; Ancient Copper Dragon 6/5* | hand cards: Reanimate(1); Perennation(6); Bojuka Bog(land)
+Information: BOARD turn 29 (Derand) | Wiltmar | out
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (482) was put onto the Battlefield under Alec.
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand triggered Tunnel of Love
+Add To Stack: Derand triggered "Lifetime" Pass Holder
+Add To Stack: Derand triggered Mr. House, President and CEO
+Add To Stack: Derand triggered Barbarian Class targeting [Mr. House, President and CEO (100)]
+Zone Change: "Lifetime" Pass Holder (61) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Caretaker's Talent
+Zone Change: Robot Token (485) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (486) was put onto the Battlefield under Derand.
+Add To Stack: Alec triggered Smothering Tithe
+Zone Change: Treasure Token (488) was put onto the Battlefield under Alec.
+Add To Stack: Derand triggered "Lifetime" Pass Holder
+Zone Change: "Lifetime" Pass Holder (61) was put into another zone from Battlefield.
+Zone Change: Balloon Stand (104) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Gisela, Blade of Goldnight
+Zone Change: Gisela, Blade of Goldnight (57) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Zone Change: Arcane Signet (261) was put into another zone from Battlefield.
+Zone Change: Thriving Isle (267) was put into another zone from Battlefield.
+Zone Change: Swamp (272) was put into another zone from Battlefield.
+Zone Change: Thornwood Falls (281) was put into another zone from Battlefield.
+Zone Change: Mountain (305) was put into another zone from Battlefield.
+Zone Change: Plains (307) was put into another zone from Battlefield.
+Zone Change: Scion of the Ur-Dragon (312) was put into another zone from Battlefield.
+Zone Change: Treasure Token (464) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (465) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (466) was put into nowhere (token) from Battlefield.
+Zone Change: Ancient Copper Dragon (222) was put into another zone from Battlefield.
+Zone Change: Command Tower (243) was put into another zone from Battlefield.
+Zone Change: Dracogenesis (300) was put into another zone from Battlefield.
+Zone Change: Treasure Token (467) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (468) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (469) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (470) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (471) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (472) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (473) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (474) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (475) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (476) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (477) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (478) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (479) was put into nowhere (token) from Battlefield.
+Zone Change: Rugged Highlands (225) was put into another zone from Battlefield.
+Zone Change: Darksteel Mutation (161) was put into another zone from Battlefield.
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 30 (Alec)
+Information: BOARD turn 30 (Alec) | Derand | life 10 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3; Gisela, Blade of Goldnight 5/5 | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Alec | life 33 | hand 4 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 6 (6 untapped): Puresteel Paladin 3/3; Eivor, Battle-Ready 10/8[Sword of Fire and Ice,Helm of the Host,Bloodforged Battle-Axe]; Eivor, Battle-Ready 6/6 x2; Aurelia, the Law Above 5/5; Heavenly Blademaster 5/6[Bloodforged Battle-Axe] | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Dominic | out
+Information: BOARD turn 30 (Alec) | Wiltmar | out
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Caduceus, Staff of Hermes
+Add To Stack: Alec triggered Puresteel Paladin
+Zone Change: Caduceus, Staff of Hermes (126) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Caduceus, Staff of Hermes targeting [Eivor, Battle-Ready (211)]
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Zone Change: Eivor, Battle-Ready (490) was put onto the Battlefield under Alec.
+Phase: Alec's Declare Attackers Step
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Aurelia, the Law Above
+Add To Stack: Alec triggered Aurelia, the Law Above
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Add To Stack: Alec triggered Eivor, Battle-Ready
+Life: Life: Derand 10 > 9
+Life: Life: Alec 33 > 36
+Life: Life: Derand 9 > 7
+Life: Life: Alec 36 > 38
+Life: Life: Derand 7 > 5
+Life: Life: Derand 5 > 3
+Life: Life: Derand 3 > 1
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Eivor, Battle-Ready (211), Eivor, Battle-Ready (437), Heavenly Blademaster (183), Eivor, Battle-Ready (458), Eivor, Battle-Ready (490), Puresteel Paladin (140), Aurelia, the Law Above (173) to attack Derand.
+Phase: Alec's First Strike Damage Step
+Combat: Derand didn't block Eivor, Battle-Ready (211).
+Combat: Derand didn't block Eivor, Battle-Ready (437).
+Combat: Derand didn't block Heavenly Blademaster (183).
+Combat: Derand didn't block Eivor, Battle-Ready (458).
+Combat: Derand didn't block Eivor, Battle-Ready (490).
+Combat: Derand didn't block Puresteel Paladin (140).
+Combat: Derand didn't block Aurelia, the Law Above (173).
+Life: Life: Derand 1 > -1
+
+Game Result: Alec has won

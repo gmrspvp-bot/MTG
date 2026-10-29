@@ -1,0 +1,818 @@
+Player: Dominic (HUMAN) deck=? (commander Scion of the Ur-Dragon) [this PC]
+Player: Derand (HUMAN) deck=? (commander Mr. House, President and CEO)
+Player: Alec (HUMAN) deck=? (commander Eivor, Battle-Ready)
+Player: Alfonso (AI) deck=? (commander Admiral Brass, Unsinkable)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Haven of the Spirit Dragon(land); Arcane Denial(2); Ruby, Daring Tracker(2); Sol Ring(1); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6)
+Information: BOARD turn 1 (Dominic) | Alfonso | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Haven of the Spirit Dragon (234)
+Add To Stack: Dominic cast Sol Ring
+Zone Change: Sol Ring (268) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Alfonso)
+Information: BOARD turn 2 (Alfonso) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alfonso) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alfonso) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 2 (Alfonso) | Alfonso | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Sulfur Falls (315)
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Phase: Alfonso's End step
+Phase: Alfonso's Cleanup step
+Turn: Turn 3 (Derand)
+Information: BOARD turn 3 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 3 (Derand) | Alfonso | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Life: Life: Derand 40 > 38
+Land: Derand played Blood Crypt (12)
+Add To Stack: Derand cast Barbarian Class
+Zone Change: Barbarian Class (41) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 4 (Alec)
+Information: BOARD turn 4 (Alec) | Derand | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Alec) | Dominic | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 4 (Alec) | Alfonso | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Inspiring Vantage (159)
+Add To Stack: Alec cast Basilisk Collar
+Zone Change: Basilisk Collar (124) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 5 (Dominic) | Alfonso | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Marvin, Murderous Mimic
+Zone Change: Marvin, Murderous Mimic (239) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Alfonso)
+Information: BOARD turn 6 (Alfonso) | Derand | life 38 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alfonso) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alfonso) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 6 (Alfonso) | Alfonso | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Unclaimed Territory (412)
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Phase: Alfonso's End step
+Turn: Turn 7 (Derand)
+Information: BOARD turn 7 (Derand) | Derand | life 38 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 7 (Derand) | Alfonso | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (90)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 8 (Alec)
+Information: BOARD turn 8 (Alec) | Derand | life 38 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Alec | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Alec) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 8 (Alec) | Alfonso | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Citadel Gate (181)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 38 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3)
+Information: BOARD turn 9 (Dominic) | Alfonso | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 10 (Alfonso)
+Information: BOARD turn 10 (Alfonso) | Derand | life 38 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Alfonso) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Alfonso) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3); Haystack(2)
+Information: BOARD turn 10 (Alfonso) | Alfonso | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Island (320)
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Add To Stack: Alfonso cast Malcolm, Keen-Eyed Navigator
+Zone Change: Malcolm, Keen-Eyed Navigator (378) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End step
+Turn: Turn 11 (Derand)
+Information: BOARD turn 11 (Derand) | Derand | life 38 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3); Haystack(2)
+Information: BOARD turn 11 (Derand) | Alfonso | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Luxury Suite (31)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Mr. House, President and CEO
+Zone Change: Mr. House, President and CEO (100) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Turn: Turn 12 (Alec)
+Information: BOARD turn 12 (Alec) | Derand | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3); Haystack(2)
+Information: BOARD turn 12 (Alec) | Alfonso | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Mountain (189)
+Add To Stack: Alec cast Champion's Helm
+Zone Change: Champion's Helm (180) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hellkite Tyrant(6); Hero's Downfall(3); Haystack(2)
+Information: BOARD turn 13 (Dominic) | Alfonso | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 14 (Alfonso)
+Information: BOARD turn 14 (Alfonso) | Derand | life 38 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 14 (Alfonso) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 14 (Alfonso) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hero's Downfall(3); Haystack(2); Essence Scatter(2)
+Information: BOARD turn 14 (Alfonso) | Alfonso | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Mountain (389)
+Add To Stack: Alfonso cast Don Andres, the Renegade
+Zone Change: Don Andres, the Renegade (373) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Malcolm, Keen-Eyed Navigator (378) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Combat: Derand didn't block Malcolm, Keen-Eyed Navigator (378).
+Life: Life: Derand 38 > 36
+Zone Change: Treasure Token (420) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Phase: Alfonso's End step
+Turn: Turn 15 (Derand)
+Information: BOARD turn 15 (Derand) | Derand | life 36 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Mr. House, President and CEO 0/4 | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hero's Downfall(3); Haystack(2); Essence Scatter(2)
+Information: BOARD turn 15 (Derand) | Alfonso | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (89)
+Add To Stack: Derand activated Mr. House, President and CEO
+Add To Stack: Derand triggered Mr. House, President and CEO
+Zone Change: Robot Token (423) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 16 (Alec)
+Information: BOARD turn 16 (Alec) | Derand | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Alec | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 16 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hero's Downfall(3); Haystack(2); Essence Scatter(2)
+Information: BOARD turn 16 (Alec) | Alfonso | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Sword of Feast and Famine
+Zone Change: Sword of Feast and Famine (209) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Dispelling Exhale(2); Hero's Downfall(3); Haystack(2); Essence Scatter(2)
+Information: BOARD turn 17 (Dominic) | Alfonso | life 40 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 18 (Alfonso)
+Information: BOARD turn 18 (Alfonso) | Derand | life 36 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4*; Robot Token 3/3 | hand cards: hidden
+Information: BOARD turn 18 (Alfonso) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 18 (Alfonso) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Marvin, Murderous Mimic 2/2 | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Essence Scatter(2); Path to Exile(1)
+Information: BOARD turn 18 (Alfonso) | Alfonso | life 40 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Malcolm, Keen-Eyed Navigator 2/2; Don Andres, the Renegade 4/3 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Island (348)
+Add To Stack: Alfonso cast Admiral Brass, Unsinkable
+Add To Stack: Alfonso triggered Admiral Brass, Unsinkable
+Zone Change: Admiral Brass, Unsinkable (413) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Beginning of Combat Step
+Add To Stack: Alfonso triggered Admiral Brass, Unsinkable targeting [Merchant Raiders (380)]
+Add To Stack: Alfonso triggered Merchant Raiders targeting [Marvin, Murderous Mimic (239)]
+Zone Change: Merchant Raiders (380) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Malcolm, Keen-Eyed Navigator (378), Merchant Raiders (380) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Combat: Derand didn't block Don Andres, the Renegade (373).
+Combat: Derand didn't block Malcolm, Keen-Eyed Navigator (378).
+Combat: Derand didn't block Merchant Raiders (380).
+Life: Life: Derand 36 > 26
+Zone Change: Treasure Token (428) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Phase: Alfonso's End step
+Turn: Turn 19 (Derand)
+Information: BOARD turn 19 (Derand) | Derand | life 26 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3 | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Alec | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Essence Scatter(2); Path to Exile(1)
+Information: BOARD turn 19 (Derand) | Alfonso | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3*; Admiral Brass, Unsinkable 3/3; Merchant Raiders 4/4* | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Godless Shrine (34)
+Add To Stack: Derand cast Weftstalker Ardent
+Zone Change: Weftstalker Ardent (50) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 20 (Alec)
+Information: BOARD turn 20 (Alec) | Derand | life 26 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3; Weftstalker Ardent 2/3 | hand cards: hidden
+Information: BOARD turn 20 (Alec) | Alec | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 20 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Essence Scatter(2); Path to Exile(1)
+Information: BOARD turn 20 (Alec) | Alfonso | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3*; Admiral Brass, Unsinkable 3/3; Merchant Raiders 4/4* | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Boros Guildgate (137)
+Add To Stack: Alec cast Nahiri, Forged in Fury
+Zone Change: Nahiri, Forged in Fury (174) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 26 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3; Weftstalker Ardent 2/3 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Alec | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nahiri, Forged in Fury 5/4 | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Essence Scatter(2); Path to Exile(1)
+Information: BOARD turn 21 (Dominic) | Alfonso | life 40 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Malcolm, Keen-Eyed Navigator 2/2*; Don Andres, the Renegade 4/3*; Admiral Brass, Unsinkable 3/3; Merchant Raiders 4/4* | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Alfonso)
+Information: BOARD turn 22 (Alfonso) | Derand | life 26 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Mr. House, President and CEO 0/4; Robot Token 3/3; Weftstalker Ardent 2/3 | hand cards: hidden
+Information: BOARD turn 22 (Alfonso) | Alec | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Nahiri, Forged in Fury 5/4 | hand cards: hidden
+Information: BOARD turn 22 (Alfonso) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 22 (Alfonso) | Alfonso | life 40 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 4 (4 untapped): Malcolm, Keen-Eyed Navigator 2/2; Don Andres, the Renegade 4/3; Admiral Brass, Unsinkable 3/3; Merchant Raiders 4/4 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Island (347)
+Add To Stack: Alfonso cast Icon of Ancestry
+Zone Change: Icon of Ancestry (318) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Beginning of Combat Step
+Add To Stack: Alfonso triggered Admiral Brass, Unsinkable targeting [Azure Fleet Admiral (367)]
+Add To Stack: Alfonso triggered Azure Fleet Admiral
+Add To Stack: Alfonso triggered Merchant Raiders targeting [Nahiri, Forged in Fury (174)]
+Zone Change: Azure Fleet Admiral (367) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Malcolm, Keen-Eyed Navigator (378), Merchant Raiders (380), Admiral Brass, Unsinkable (413), Azure Fleet Admiral (367) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Zone Change: Robot Token (423) was put into nowhere (token) from Battlefield.
+Combat: Derand didn't block Don Andres, the Renegade (373).
+Combat: Derand didn't block Malcolm, Keen-Eyed Navigator (378).
+Combat: Derand didn't block Merchant Raiders (380).
+Combat: Derand didn't block Admiral Brass, Unsinkable (413).
+Combat: Derand didn't block Azure Fleet Admiral (367).
+Life: Life: Derand 26 > 9
+Zone Change: Treasure Token (435) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Zone Change: Treasure Token (435) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso cast Gemcutter Buccaneer
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Add To Stack: Alfonso triggered Merchant Raiders targeting [Weftstalker Ardent (50)]
+Zone Change: Gemcutter Buccaneer (394) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (439) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (428) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Merchant Raiders (380)]
+Zone Change: Treasure Token (420) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Merchant Raiders (380)]
+Phase: Alfonso's End step
+Add To Stack: Alfonso triggered The Monarch
+Turn: Turn 23 (Derand)
+Information: BOARD turn 23 (Derand) | Derand | life 9 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Alec | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 23 (Derand) | Alfonso | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (1 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 7/5*[Treasure Token]; Azure Fleet Admiral 5/5*; Gemcutter Buccaneer 2/4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Fountainport (10)
+Add To Stack: Derand cast Ghostly Prison
+Zone Change: Ghostly Prison (47) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 24 (Alec)
+Information: BOARD turn 24 (Alec) | Derand | life 9 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 24 (Alec) | Alec | life 40 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 24 (Alec) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 24 (Alec) | Alfonso | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (1 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 7/5*[Treasure Token]; Azure Fleet Admiral 5/5*; Gemcutter Buccaneer 2/4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Darksteel Mutation targeting [Merchant Raiders (380)]
+Zone Change: Darksteel Mutation (161) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Ruby Medallion
+Zone Change: Ruby Medallion (129) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 9 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 25 (Dominic) | Alfonso | life 40 | hand 4 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (1 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 2/1*[Treasure Token]; Azure Fleet Admiral 5/5*; Gemcutter Buccaneer 2/4 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 26 (Alfonso)
+Information: BOARD turn 26 (Alfonso) | Derand | life 9 | hand 4 | lands 6 (3 untapped) | open mana 3 | commander Battlefield | creatures 2 (1 untapped): Mr. House, President and CEO 0/4; Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 26 (Alfonso) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 26 (Alfonso) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 26 (Alfonso) | Alfonso | life 40 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 6 (6 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4; Admiral Brass, Unsinkable 4/4; Merchant Raiders 2/1[Treasure Token]; Azure Fleet Admiral 5/5; Gemcutter Buccaneer 2/4 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Azure Fleet Admiral (367) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Zone Change: Mr. House, President and CEO (100) was put into another zone from Battlefield.
+Combat: Derand didn't block Don Andres, the Renegade (373).
+Combat: Derand didn't block Azure Fleet Admiral (367).
+Life: Life: Derand 9 > 4
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Zone Change: Treasure Token (443) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Add To Stack: Alfonso cast Fathom Fleet Captain
+Zone Change: Thriving Bluff (322) was put onto the Battlefield under Alfonso.
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Zone Change: Fathom Fleet Captain (350) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (446) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (439) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Zone Change: Treasure Token (443) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Phase: Alfonso's End step
+Add To Stack: Alfonso triggered The Monarch
+Turn: Turn 27 (Derand)
+Information: BOARD turn 27 (Derand) | Derand | life 4 | hand 4 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Alec | life 40 | hand 3 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 27 (Derand) | Alfonso | life 40 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Wyll, Blade of Frontiers
+Add To Stack: Derand triggered Weftstalker Ardent
+Zone Change: Wyll, Blade of Frontiers (26) was put onto the Battlefield under Derand.
+Life: Life: Alec 40 > 39
+Life: Life: Dominic 40 > 39
+Life: Life: Alfonso 40 > 39
+Add To Stack: Derand cast Reckless Fireweaver
+Add To Stack: Derand triggered Weftstalker Ardent
+Zone Change: Reckless Fireweaver (9) was put onto the Battlefield under Derand.
+Life: Life: Alec 39 > 38
+Life: Life: Dominic 39 > 38
+Life: Life: Alfonso 39 > 38
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 28 (Alec)
+Information: BOARD turn 28 (Alec) | Derand | life 4 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Weftstalker Ardent 2/3*; Wyll, Blade of Frontiers 1/1; Reckless Fireweaver 1/3 | hand cards: hidden
+Information: BOARD turn 28 (Alec) | Alec | life 38 | hand 3 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 28 (Alec) | Dominic | life 38 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 28 (Alec) | Alfonso | life 38 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Eivor, Battle-Ready
+Zone Change: Eivor, Battle-Ready (211) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Derand | life 4 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Weftstalker Ardent 2/3*; Wyll, Blade of Frontiers 1/1; Reckless Fireweaver 1/3 | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Alec | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Nahiri, Forged in Fury 5/4*; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Dominic | life 38 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Make Your Move(3)
+Information: BOARD turn 29 (Dominic) | Alfonso | life 38 | hand 4 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 30 (Alfonso)
+Information: BOARD turn 30 (Alfonso) | Derand | life 4 | hand 3 | lands 6 (2 untapped) | open mana 2 | commander Command | creatures 3 (2 untapped): Weftstalker Ardent 2/3*; Wyll, Blade of Frontiers 1/1; Reckless Fireweaver 1/3 | hand cards: hidden
+Information: BOARD turn 30 (Alfonso) | Alec | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Nahiri, Forged in Fury 5/4*; Eivor, Battle-Ready 5/5 | hand cards: hidden
+Information: BOARD turn 30 (Alfonso) | Dominic | life 38 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 30 (Alfonso) | Alfonso | life 38 | hand 4 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Add To Stack: Alfonso cast Chaos Warp targeting [Eivor, Battle-Ready (211)]
+Zone Change: Eivor, Battle-Ready (211) was put into another zone from Battlefield.
+Zone Change: Reconnaissance (166) was put onto the Battlefield under Alec.
+Phase: Alfonso's Main phase, precombat
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Azure Fleet Admiral (367) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Zone Change: Reckless Fireweaver (9) was put into another zone from Battlefield.
+Zone Change: Wyll, Blade of Frontiers (26) was put into another zone from Battlefield.
+Combat: Derand didn't block Don Andres, the Renegade (373).
+Combat: Derand didn't block Azure Fleet Admiral (367).
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Phase: Alfonso's End step
+Add To Stack: Alfonso triggered The Monarch
+Turn: Turn 31 (Derand)
+Information: BOARD turn 31 (Derand) | Derand | life 4 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 1 (0 untapped): Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 31 (Derand) | Alec | life 38 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 31 (Derand) | Dominic | life 38 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 31 (Derand) | Alfonso | life 38 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Add To Stack: Derand cast Big Score
+Zone Change: Treasure Token (448) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (449) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Weftstalker Ardent
+Add To Stack: Derand triggered Weftstalker Ardent
+Life: Life: Alec 38 > 37
+Life: Life: Dominic 38 > 37
+Life: Life: Alfonso 38 > 37
+Life: Life: Alec 37 > 36
+Life: Life: Dominic 37 > 36
+Life: Life: Alfonso 37 > 36
+Phase: Derand's Main phase, precombat
+Zone Change: Treasure Token (449) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Wear targeting [Sol Ring (268)]
+Zone Change: Sol Ring (268) was put into another zone from Battlefield.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 32 (Alec)
+Information: BOARD turn 32 (Alec) | Derand | life 4 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 32 (Alec) | Alec | life 36 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 32 (Alec) | Dominic | life 36 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 32 (Alec) | Alfonso | life 36 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Command Tower (139)
+Add To Stack: Alec cast Helm of the Host
+Zone Change: Helm of the Host (136) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Diamond Pick-Axe
+Zone Change: Diamond Pick-Axe (132) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Derand | life 4 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 33 (Dominic) | Alec | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 33 (Dominic) | Dominic | life 36 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 33 (Dominic) | Alfonso | life 36 | hand 5 | lands 7 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (5 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Turbulent Wetlands (265)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 34 (Alfonso)
+Information: BOARD turn 34 (Alfonso) | Derand | life 4 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Weftstalker Ardent 2/3* | hand cards: hidden
+Information: BOARD turn 34 (Alfonso) | Alec | life 36 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 34 (Alfonso) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 34 (Alfonso) | Alfonso | life 36 | hand 5 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 7 (7 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Land: Alfonso played Island (319)
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Malcolm, Keen-Eyed Navigator (378), Admiral Brass, Unsinkable (413), Azure Fleet Admiral (367) to attack Derand.
+Phase: Alfonso's Combat Damage Step
+Combat: Derand didn't block Don Andres, the Renegade (373).
+Combat: Derand didn't block Malcolm, Keen-Eyed Navigator (378).
+Combat: Derand didn't block Admiral Brass, Unsinkable (413).
+Combat: Derand didn't block Azure Fleet Admiral (367).
+Life: Life: Derand 4 > -15
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Zone Change: Treasure Token (448) was put into nowhere (token) from Battlefield.
+Zone Change: Fountainport (10) was put into another zone from Battlefield.
+Zone Change: Blood Crypt (12) was put into another zone from Battlefield.
+Zone Change: Mountain (89) was put into another zone from Battlefield.
+Zone Change: Plains (90) was put into another zone from Battlefield.
+Zone Change: Luxury Suite (31) was put into another zone from Battlefield.
+Zone Change: Godless Shrine (34) was put into another zone from Battlefield.
+Zone Change: Barbarian Class (41) was put into another zone from Battlefield.
+Zone Change: Ghostly Prison (47) was put into another zone from Battlefield.
+Zone Change: Weftstalker Ardent (50) was put into another zone from Battlefield.
+Zone Change: Treasure Token (452) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Zone Change: Treasure Token (452) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (446) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso cast Francisco, Fowl Marauder
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Zone Change: Francisco, Fowl Marauder (376) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (455) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End step
+Add To Stack: Alfonso triggered The Monarch
+Turn: Turn 35 (Alec)
+Information: BOARD turn 35 (Alec) | Derand | out
+Information: BOARD turn 35 (Alec) | Alec | life 36 | hand 2 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4* | hand cards: hidden
+Information: BOARD turn 35 (Alec) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 35 (Alec) | Alfonso | life 36 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (4 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 0/1; Azure Fleet Admiral 5/5*; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2; Francisco, Fowl Marauder 1/2 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Mjölnir, Storm Hammer
+Add To Stack: Alec triggered Mjölnir, Storm Hammer targeting [Nahiri, Forged in Fury (174)]
+Zone Change: Mjölnir, Storm Hammer (133) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 36 (Dominic)
+Information: BOARD turn 36 (Dominic) | Derand | out
+Information: BOARD turn 36 (Dominic) | Alec | life 36 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4*[Mjölnir, Storm Hammer] | hand cards: hidden
+Information: BOARD turn 36 (Dominic) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 36 (Dominic) | Alfonso | life 36 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (4 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 0/1; Azure Fleet Admiral 5/5*; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2; Francisco, Fowl Marauder 1/2 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 37 (Alfonso)
+Information: BOARD turn 37 (Alfonso) | Derand | out
+Information: BOARD turn 37 (Alfonso) | Alec | life 36 | hand 2 | lands 5 (1 untapped) | open mana 1 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4*[Mjölnir, Storm Hammer] | hand cards: hidden
+Information: BOARD turn 37 (Alfonso) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 37 (Alfonso) | Alfonso | life 36 | hand 5 | lands 8 (8 untapped) | open mana 8 | commander Battlefield | creatures 8 (8 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 5/5; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2; Francisco, Fowl Marauder 1/2 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Zone Change: Swamp (399) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Add To Stack: Alfonso triggered Fathom Fleet Captain
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Zone Change: Pirate Token (459) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (462) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Francisco, Fowl Marauder (376), Malcolm, Keen-Eyed Navigator (378), Gemcutter Buccaneer (394), Merchant Raiders (380), Admiral Brass, Unsinkable (413), Fathom Fleet Captain (350), Azure Fleet Admiral (367) to attack Alec.
+Phase: Alfonso's Combat Damage Step
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Add To Stack: Alfonso triggered Francisco, Fowl Marauder
+Combat: Alec didn't block Don Andres, the Renegade (373).
+Combat: Alec didn't block Francisco, Fowl Marauder (376).
+Combat: Alec didn't block Malcolm, Keen-Eyed Navigator (378).
+Combat: Alec didn't block Gemcutter Buccaneer (394).
+Combat: Alec didn't block Merchant Raiders (380).
+Combat: Alec didn't block Admiral Brass, Unsinkable (413).
+Combat: Alec didn't block Fathom Fleet Captain (350).
+Combat: Alec didn't block Azure Fleet Admiral (367).
+Life: Life: Alec 36 > 11
+Zone Change: Treasure Token (465) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Main phase, postcombat
+Zone Change: Treasure Token (465) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso cast Port Razer
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Zone Change: Port Razer (365) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (468) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (455) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Phase: Alfonso's End step
+Add To Stack: Alfonso triggered The Monarch
+Turn: Turn 38 (Alec)
+Information: BOARD turn 38 (Alec) | Derand | out
+Information: BOARD turn 38 (Alec) | Alec | life 11 | hand 2 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (0 untapped): Nahiri, Forged in Fury 5/4*[Mjölnir, Storm Hammer] | hand cards: hidden
+Information: BOARD turn 38 (Alec) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 38 (Alec) | Alfonso | life 36 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (2 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 0/1*; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4*; Fathom Fleet Captain 3/2*; Francisco, Fowl Marauder 2/3*; Pirate Token 3/3; Port Razer 5/5 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Ancient Copper Dragon
+Zone Change: Ancient Copper Dragon (123) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Add To Stack: Alec triggered Helm of the Host
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 39 (Dominic)
+Information: BOARD turn 39 (Dominic) | Derand | out
+Information: BOARD turn 39 (Dominic) | Alec | life 11 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Nahiri, Forged in Fury 5/4*[Mjölnir, Storm Hammer]; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 39 (Dominic) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Hero's Downfall(3); Haystack(2); Path to Exile(1); Desolation of Smaug(4)
+Information: BOARD turn 39 (Dominic) | Alfonso | life 36 | hand 5 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 10 (2 untapped): Malcolm, Keen-Eyed Navigator 3/3*; Don Andres, the Renegade 5/4*; Admiral Brass, Unsinkable 4/4*; Merchant Raiders 0/1*; Azure Fleet Admiral 7/5*[Treasure Token]; Gemcutter Buccaneer 2/4*; Fathom Fleet Captain 3/2*; Francisco, Fowl Marauder 2/3*; Pirate Token 3/3; Port Razer 5/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 40 (Alfonso)
+Information: BOARD turn 40 (Alfonso) | Derand | out
+Information: BOARD turn 40 (Alfonso) | Alec | life 11 | hand 2 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Nahiri, Forged in Fury 5/4*[Mjölnir, Storm Hammer]; Ancient Copper Dragon 6/5 | hand cards: hidden
+Information: BOARD turn 40 (Alfonso) | Dominic | life 36 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (0 untapped): Marvin, Murderous Mimic 2/2* | hand cards: Arcane Denial(2); Ruby, Daring Tracker(2); Zombify(4); Haystack(2); Path to Exile(1); Desolation of Smaug(4); Scorned Villager(2)
+Information: BOARD turn 40 (Alfonso) | Alfonso | life 36 | hand 5 | lands 9 (9 untapped) | open mana 9 | commander Battlefield | creatures 10 (10 untapped): Malcolm, Keen-Eyed Navigator 3/3; Don Andres, the Renegade 5/4; Admiral Brass, Unsinkable 4/4; Merchant Raiders 0/1; Azure Fleet Admiral 7/5[Treasure Token]; Gemcutter Buccaneer 2/4; Fathom Fleet Captain 3/2; Francisco, Fowl Marauder 2/3; Pirate Token 3/3; Port Razer 5/5 | hand cards: hidden
+Phase: Alfonso's Upkeep step
+Phase: Alfonso's Draw step
+Phase: Alfonso's Main phase, precombat
+Add To Stack: Alfonso cast Distant Melody
+Land: Alfonso played Nephalia Drownyard (371)
+Add To Stack: Alfonso cast Hostage Taker
+Add To Stack: Alfonso triggered Gemcutter Buccaneer
+Add To Stack: Alfonso triggered Hostage Taker targeting [Ancient Copper Dragon (123)]
+Zone Change: Hostage Taker (323) was put onto the Battlefield under Alfonso.
+Zone Change: Treasure Token (471) was put onto the Battlefield under Alfonso.
+Zone Change: Ancient Copper Dragon (123) was put into another zone from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Zone Change: Treasure Token (462) was put into nowhere (token) from Battlefield.
+Add To Stack: Alfonso activated Treasure Token targeting [Azure Fleet Admiral (367)]
+Zone Change: Treasure Token (468) was put into nowhere (token) from Battlefield.
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Add To Stack: Alfonso triggered Fathom Fleet Captain
+Phase: Alfonso's Declare Blockers Step
+Combat: Alfonso assigned Don Andres, the Renegade (373), Francisco, Fowl Marauder (376), Malcolm, Keen-Eyed Navigator (378), Gemcutter Buccaneer (394), Pirate Token (459), Merchant Raiders (380), Port Razer (365), Admiral Brass, Unsinkable (413), Fathom Fleet Captain (350), Azure Fleet Admiral (367) to attack Alec.
+Phase: Alfonso's Combat Damage Step
+Combat: Alec didn't block Don Andres, the Renegade (373).
+Combat: Alec didn't block Francisco, Fowl Marauder (376).
+Combat: Alec didn't block Malcolm, Keen-Eyed Navigator (378).
+Combat: Alec didn't block Gemcutter Buccaneer (394).
+Combat: Alec didn't block Pirate Token (459).
+Combat: Alec didn't block Merchant Raiders (380).
+Combat: Alec didn't block Port Razer (365).
+Combat: Alec didn't block Admiral Brass, Unsinkable (413).
+Combat: Alec didn't block Fathom Fleet Captain (350).
+Combat: Alec didn't block Azure Fleet Admiral (367).
+Life: Life: Alec 11 > -23
+Add To Stack: Alfonso triggered Malcolm, Keen-Eyed Navigator
+Add To Stack: Alfonso triggered Francisco, Fowl Marauder
+Add To Stack: Alfonso triggered Port Razer
+Zone Change: Ruby Medallion (129) was put into another zone from Battlefield.
+Zone Change: Diamond Pick-Axe (132) was put into another zone from Battlefield.
+Zone Change: Mjölnir, Storm Hammer (133) was put into another zone from Battlefield.
+Zone Change: Helm of the Host (136) was put into another zone from Battlefield.
+Zone Change: Boros Guildgate (137) was put into another zone from Battlefield.
+Zone Change: Command Tower (139) was put into another zone from Battlefield.
+Zone Change: Sword of Feast and Famine (209) was put into another zone from Battlefield.
+Zone Change: Inspiring Vantage (159) was put into another zone from Battlefield.
+Zone Change: Darksteel Mutation (161) was put into another zone from Battlefield.
+Zone Change: Reconnaissance (166) was put into None from Battlefield.
+Zone Change: Nahiri, Forged in Fury (174) was put into another zone from Battlefield.
+Zone Change: Champion's Helm (180) was put into another zone from Battlefield.
+Zone Change: Citadel Gate (181) was put into another zone from Battlefield.
+Zone Change: Basilisk Collar (124) was put into another zone from Battlefield.
+Zone Change: Mountain (189) was put into another zone from Battlefield.
+Zone Change: Treasure Token (482) was put onto the Battlefield under Alfonso.
+Phase: Alfonso's End of Combat Step
+Phase: Alfonso's Beginning of Combat Step
+Phase: Alfonso's Declare Attackers Step
+Add To Stack: Alfonso triggered Fathom Fleet Captain
+Phase: Alfonso's Declare Blockers Step
+Phase: Alfonso's First Strike Damage Step
+Phase: Alfonso's Combat Damage Step
+Life: Life: Dominic 36 > -4
+
+Game Result: Alfonso has won

@@ -1,0 +1,725 @@
+Player: Dominic (HUMAN) deck=? (commander Adrix and Nev, Twincasters) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Alec (HUMAN) deck=? (commander Athreos, God of Passage)
+Player: Mes'ard (AI) deck=? (commander Doctor Doom, King of Latveria)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Alec)
+Information: BOARD turn 1 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Island(land); Homunculus Horde(4); Run Away Together(2)
+Information: BOARD turn 1 (Alec) | Mes'ard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (163)
+Add To Stack: Alec cast Witch's Cauldron
+Zone Change: Witch's Cauldron (106) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 6 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Island(land); Homunculus Horde(4); Run Away Together(2)
+Information: BOARD turn 2 (Dominic) | Mes'ard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (232)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 3 (Mes'ard)
+Information: BOARD turn 3 (Mes'ard) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Mes'ard) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Mes'ard) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Arcane Signet(2)
+Information: BOARD turn 3 (Mes'ard) | Mes'ard | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Mountain (388)
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Arcane Signet(2)
+Information: BOARD turn 4 (Derand) | Mes'ard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (87)
+Add To Stack: Derand cast Esper Sentinel
+Zone Change: Esper Sentinel (71) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Alec)
+Information: BOARD turn 5 (Alec) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Alec | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Arcane Signet(2)
+Information: BOARD turn 5 (Alec) | Mes'ard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec triggered Orzhov Basilica
+Zone Change: Orzhov Basilica (143) was put onto the Battlefield under Alec.
+Zone Change: Swamp (163) was put into another zone from Battlefield.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Derand | life 40 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 6 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Arcane Signet(2)
+Information: BOARD turn 6 (Dominic) | Mes'ard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (234)
+Add To Stack: Derand triggered Esper Sentinel
+Add To Stack: Dominic cast Arcane Signet
+Zone Change: Arcane Signet (264) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 7 (Mes'ard)
+Information: BOARD turn 7 (Mes'ard) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 7 (Mes'ard) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Mes'ard) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 7 (Mes'ard) | Mes'ard | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Island (324)
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 8 (Derand) | Mes'ard | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Riverglide Pathway (93)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Steelshaper's Gift
+Phase: Derand's End step
+Turn: Turn 9 (Alec)
+Information: BOARD turn 9 (Alec) | Derand | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Dominic | life 40 | hand 5 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 9 (Alec) | Mes'ard | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Cartel Aristocrat
+Zone Change: Cartel Aristocrat (121) was put onto the Battlefield under Alec.
+Land: Alec played Swamp (163)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Derand | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Cartel Aristocrat 2/2 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 5 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 10 (Dominic) | Mes'ard | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Terramorphic Expanse (301)
+Add To Stack: Dominic activated Terramorphic Expanse
+Zone Change: Terramorphic Expanse (301) was put into another zone from Battlefield.
+Zone Change: Forest (245) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 11 (Mes'ard)
+Information: BOARD turn 11 (Mes'ard) | Derand | life 40 | hand 7 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 11 (Mes'ard) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Cartel Aristocrat 2/2 | hand cards: hidden
+Information: BOARD turn 11 (Mes'ard) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 11 (Mes'ard) | Mes'ard | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Terramorphic Expanse (402)
+Add To Stack: Mes'ard activated Terramorphic Expanse
+Zone Change: Terramorphic Expanse (402) was put into another zone from Battlefield.
+Zone Change: Swamp (357) was put onto the Battlefield under Mes'ard.
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Alec | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Cartel Aristocrat 2/2 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 12 (Derand) | Mes'ard | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Glacial Fortress (68)
+Add To Stack: Derand cast Danitha Capashen, Paragon
+Zone Change: Danitha Capashen, Paragon (99) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Alec)
+Information: BOARD turn 13 (Alec) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Cartel Aristocrat 2/2 | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Dominic | life 40 | hand 5 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 13 (Alec) | Mes'ard | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Takenuma, Abandoned Mire (170)
+Add To Stack: Alec cast Athreos, God of Passage
+Zone Change: Athreos, God of Passage (201) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Cartel Aristocrat (121) to attack Mes'ard.
+Phase: Alec's Combat Damage Step
+Combat: Mes'ard didn't block Cartel Aristocrat (121).
+Life: Life: Mes'ard 40 > 38
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Alec | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Cartel Aristocrat 2/2* | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: Island(land); Freyalise, Llanowar's Fury(5); Homunculus Horde(4); Run Away Together(2); Hornet Queen(7)
+Information: BOARD turn 14 (Dominic) | Mes'ard | life 38 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (236)
+Add To Stack: Derand triggered Esper Sentinel
+Add To Stack: Dominic cast Freyalise, Llanowar's Fury
+Zone Change: Freyalise, Llanowar's Fury (226) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Freyalise, Llanowar's Fury
+Zone Change: Elf Druid Token (406) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 15 (Mes'ard)
+Information: BOARD turn 15 (Mes'ard) | Derand | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: hidden
+Information: BOARD turn 15 (Mes'ard) | Alec | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Cartel Aristocrat 2/2* | hand cards: hidden
+Information: BOARD turn 15 (Mes'ard) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Elf Druid Token 1/1 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 15 (Mes'ard) | Mes'ard | life 38 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Add To Stack: Derand triggered Esper Sentinel
+Add To Stack: Mes'ard cast Archnemesis targeting [Derand]
+Zone Change: Archnemesis (394) was put onto the Battlefield under Mes'ard.
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 40 | hand 8 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Alec | life 40 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Cartel Aristocrat 2/2* | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Elf Druid Token 1/1 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 16 (Derand) | Mes'ard | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Mountain (79)
+Add To Stack: Derand cast Dalakos, Crafter of Wonders
+Zone Change: Dalakos, Crafter of Wonders (60) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Danitha Capashen, Paragon (99) to attack Freyalise, Llanowar's Fury.
+Phase: Derand's First Strike Damage Step
+Combat: Dominic didn't block Danitha Capashen, Paragon (99).
+Life: Life: Derand 40 > 42
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (50) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Turn: Turn 17 (Alec)
+Information: BOARD turn 17 (Alec) | Derand | life 42 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4 | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Alec | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Cartel Aristocrat 2/2 | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Elf Druid Token 1/1 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 17 (Alec) | Mes'ard | life 38 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (155)
+Add To Stack: Alec cast Grim Servant
+Add To Stack: Alec triggered Grim Servant
+Zone Change: Grim Servant (108) was put onto the Battlefield under Alec.
+Life: Life: Alec 40 > 37
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Add To Stack: Mes'ard triggered Archnemesis
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Cartel Aristocrat (121) to attack Mes'ard.
+Phase: Alec's Combat Damage Step
+Combat: Mes'ard didn't block Cartel Aristocrat (121).
+Life: Life: Mes'ard 38 > 36
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Derand | life 42 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Alec | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Cartel Aristocrat 2/2*; Grim Servant 3/2 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Dominic | life 40 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 1 (1 untapped): Elf Druid Token 1/1 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 18 (Dominic) | Mes'ard | life 36 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic activated Freyalise, Llanowar's Fury
+Zone Change: Elf Druid Token (408) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Delighted Halfling
+Zone Change: Delighted Halfling (293) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Adrix and Nev, Twincasters
+Zone Change: Adrix and Nev, Twincasters (302) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 19 (Mes'ard)
+Information: BOARD turn 19 (Mes'ard) | Derand | life 42 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4 | hand cards: hidden
+Information: BOARD turn 19 (Mes'ard) | Alec | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Cartel Aristocrat 2/2*; Grim Servant 3/2 | hand cards: hidden
+Information: BOARD turn 19 (Mes'ard) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Elf Druid Token 1/1*; Elf Druid Token 1/1; Delighted Halfling 1/2; Adrix and Nev, Twincasters 2/2 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 19 (Mes'ard) | Mes'ard | life 36 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Luxury Suite (328)
+Add To Stack: Mes'ard cast Doctor Doom, King of Latveria
+Zone Change: Doctor Doom, King of Latveria (403) was put onto the Battlefield under Mes'ard.
+Phase: Mes'ard's Beginning of Combat Step
+Add To Stack: Mes'ard triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 42 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 3 (3 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Alec | life 37 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Cartel Aristocrat 2/2*; Grim Servant 3/2 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Elf Druid Token 1/1*; Elf Druid Token 1/1; Delighted Halfling 1/2; Adrix and Nev, Twincasters 2/2 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 20 (Derand) | Mes'ard | life 36 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Sulfur Falls (53)
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Nazgûl Battle-Mace
+Zone Change: Nazgûl Battle-Mace (36) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Nazgûl Battle-Mace (36)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Zone Change: Elf Druid Token (406) was put into nowhere (token) from Battlefield.
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Freyalise, Llanowar's Fury.
+Phase: Derand's Combat Damage Step
+Combat: Dominic didn't block Captain America, First Avenger (100).
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 21 (Alec)
+Information: BOARD turn 21 (Alec) | Derand | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Alec | life 37 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Cartel Aristocrat 2/2; Grim Servant 3/2 | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Elf Druid Token 1/1; Delighted Halfling 1/2; Adrix and Nev, Twincasters 2/2 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 21 (Alec) | Mes'ard | life 36 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (189)
+Add To Stack: Alec cast Sidisi, Undead Vizier
+Add To Stack: Alec triggered Sidisi, Undead Vizier
+Zone Change: Sidisi, Undead Vizier (147) was put onto the Battlefield under Alec.
+Add To Stack: Alec triggered Sidisi, Undead Vizier
+Zone Change: Grim Servant (108) was put into another zone from Battlefield.
+Add To Stack: Alec triggered Athreos, God of Passage targeting [Mes'ard]
+Add To Stack: Derand triggered Captain America, First Avenger
+Life: Life: Alec 37 > 34
+Life: Life: Mes'ard 36 > 33
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's End step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Derand | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Alec | life 34 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Cartel Aristocrat 2/2; Athreos, God of Passage 5/4; Sidisi, Undead Vizier 4/6 | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Dominic | life 40 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Elf Druid Token 1/1; Delighted Halfling 1/2; Adrix and Nev, Twincasters 2/2 | hand cards: Homunculus Horde(4); Run Away Together(2); Hornet Queen(7); Mischievous Mystic(2)
+Information: BOARD turn 22 (Dominic) | Mes'ard | life 33 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic activated Freyalise, Llanowar's Fury
+Zone Change: Elf Druid Token (410) was put onto the Battlefield under Dominic.
+Zone Change: Elf Druid Token (411) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Hornet Queen
+Zone Change: Hornet Queen (204) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered Hornet Queen
+Zone Change: Insect Token (413) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (414) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (415) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (416) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (417) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (418) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (419) was put onto the Battlefield under Dominic.
+Zone Change: Insect Token (420) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 23 (Mes'ard)
+Information: BOARD turn 23 (Mes'ard) | Derand | life 42 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (2 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 23 (Mes'ard) | Alec | life 34 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Cartel Aristocrat 2/2; Athreos, God of Passage 5/4; Sidisi, Undead Vizier 4/6 | hand cards: hidden
+Information: BOARD turn 23 (Mes'ard) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 14 (12 untapped): Elf Druid Token 1/1*; Delighted Halfling 1/2*; Adrix and Nev, Twincasters 2/2; Elf Druid Token 1/1 x2; Hornet Queen 2/2; Insect Token 1/1 x8 | hand cards: Homunculus Horde(4); Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 23 (Mes'ard) | Mes'ard | life 33 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 4/4 | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Choked Estuary (316)
+Add To Stack: Mes'ard cast Loki, the Deceiver
+Zone Change: Loki, the Deceiver (341) was put onto the Battlefield under Mes'ard.
+Phase: Mes'ard's Beginning of Combat Step
+Add To Stack: Mes'ard triggered Doctor Doom, King of Latveria targeting [Doctor Doom, King of Latveria (403)]
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's Declare Blockers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 42 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 4 (4 untapped): Esper Sentinel 1/1; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4[Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Alec | life 34 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (3 untapped): Cartel Aristocrat 2/2; Athreos, God of Passage 5/4; Sidisi, Undead Vizier 4/6 | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Dominic | life 40 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 14 (12 untapped): Elf Druid Token 1/1*; Delighted Halfling 1/2*; Adrix and Nev, Twincasters 2/2; Elf Druid Token 1/1 x2; Hornet Queen 2/2; Insect Token 1/1 x8 | hand cards: Homunculus Horde(4); Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 24 (Derand) | Mes'ard | life 33 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Doctor Doom, King of Latveria 5/5; Loki, the Deceiver 4/4 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Inventors' Fair (3)
+Add To Stack: Derand cast Winds of Abandon
+Zone Change: Sidisi, Undead Vizier (147) was put into another zone from Battlefield.
+Zone Change: Elf Druid Token (408) was put into nowhere (token) from Battlefield.
+Zone Change: Delighted Halfling (293) was put into another zone from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (302) was put into another zone from Battlefield.
+Zone Change: Athreos, God of Passage (201) was put into another zone from Battlefield.
+Zone Change: Cartel Aristocrat (121) was put into another zone from Battlefield.
+Zone Change: Elf Druid Token (410) was put into nowhere (token) from Battlefield.
+Zone Change: Elf Druid Token (411) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (413) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (414) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (415) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (416) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (417) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (418) was put into nowhere (token) from Battlefield.
+Zone Change: Insect Token (419) was put into nowhere (token) from Battlefield.
+Zone Change: Hornet Queen (204) was put into another zone from Battlefield.
+Zone Change: Doctor Doom, King of Latveria (403) was put into another zone from Battlefield.
+Zone Change: Insect Token (420) was put into nowhere (token) from Battlefield.
+Zone Change: Loki, the Deceiver (341) was put into another zone from Battlefield.
+Zone Change: Plains (196) was put onto the Battlefield under Alec.
+Zone Change: Island (230) was put onto the Battlefield under Dominic.
+Zone Change: Island (231) was put onto the Battlefield under Dominic.
+Zone Change: Island (237) was put onto the Battlefield under Dominic.
+Zone Change: Island (238) was put onto the Battlefield under Dominic.
+Zone Change: Island (239) was put onto the Battlefield under Dominic.
+Zone Change: Forest (243) was put onto the Battlefield under Dominic.
+Zone Change: Forest (244) was put onto the Battlefield under Dominic.
+Zone Change: Forest (247) was put onto the Battlefield under Dominic.
+Zone Change: Forest (252) was put onto the Battlefield under Dominic.
+Zone Change: Island (325) was put onto the Battlefield under Mes'ard.
+Zone Change: Island (327) was put onto the Battlefield under Mes'ard.
+Add To Stack: Derand cast Sword of Light and Shadow
+Zone Change: Sword of Light and Shadow (1) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Swiftfoot Boots (50)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Add To Stack: Derand triggered Captain America, First Avenger
+Zone Change: Witch's Cauldron (106) was put into another zone from Battlefield.
+Zone Change: Witch's Cauldron (106) was put onto the Battlefield under Derand.
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Alec.
+Combat: Derand assigned Danitha Capashen, Paragon (99), Esper Sentinel (71) to attack Freyalise, Llanowar's Fury.
+Phase: Derand's First Strike Damage Step
+Combat: Dominic didn't block Danitha Capashen, Paragon (99).
+Combat: Alec didn't block Captain America, First Avenger (100).
+Combat: Dominic didn't block Esper Sentinel (71).
+Life: Life: Derand 42 > 44
+Phase: Derand's Combat Damage Step
+Zone Change: Freyalise, Llanowar's Fury (226) was put into another zone from Battlefield.
+Life: Life: Alec 34 > 30
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 25 (Alec)
+Information: BOARD turn 25 (Alec) | Derand | life 44 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Esper Sentinel 1/1*; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Swiftfoot Boots,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Alec | life 30 | hand 6 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Dominic | life 40 | hand 4 | lands 13 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Homunculus Horde(4); Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 25 (Alec) | Mes'ard | life 33 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec cast Elas il-Kor, Sadistic Pilgrim
+Zone Change: Elas il-Kor, Sadistic Pilgrim (135) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Teysa Karlov
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Zone Change: Teysa Karlov (146) was put onto the Battlefield under Alec.
+Life: Life: Alec 30 > 31
+Phase: Alec's End step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Derand | life 44 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Esper Sentinel 1/1*; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Swiftfoot Boots,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Alec | life 31 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Dominic | life 40 | hand 4 | lands 13 (13 untapped) | open mana 13 | commander Command | creatures 0 (0 untapped):  | hand cards: Homunculus Horde(4); Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 26 (Dominic) | Mes'ard | life 33 | hand 6 | lands 7 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Homunculus Horde
+Zone Change: Homunculus Horde (265) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Adrix and Nev, Twincasters
+Zone Change: Adrix and Nev, Twincasters (302) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Scrawling Crawler
+Zone Change: Scrawling Crawler (207) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 27 (Mes'ard)
+Information: BOARD turn 27 (Mes'ard) | Derand | life 44 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (1 untapped): Esper Sentinel 1/1*; Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4*; Captain America, First Avenger 4/4*[Swiftfoot Boots,Nazgûl Battle-Mace] | hand cards: hidden
+Information: BOARD turn 27 (Mes'ard) | Alec | life 31 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 27 (Mes'ard) | Dominic | life 40 | hand 3 | lands 13 (0 untapped) | open mana 0 | commander Battlefield | creatures 3 (3 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2; Scrawling Crawler 3/2 | hand cards: Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 27 (Mes'ard) | Mes'ard | life 33 | hand 6 | lands 7 (7 untapped) | open mana 7 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Add To Stack: Dominic triggered Scrawling Crawler
+Life: Life: Mes'ard 33 > 32
+Phase: Mes'ard's Main phase, precombat
+Land: Mes'ard played Exotic Orchard (336)
+Add To Stack: Derand triggered Esper Sentinel
+Add To Stack: Mes'ard cast Vandalblast
+Zone Change: Sword of Light and Shadow (1) was put into another zone from Battlefield.
+Zone Change: Arcane Signet (264) was put into another zone from Battlefield.
+Zone Change: Nazgûl Battle-Mace (36) was put into another zone from Battlefield.
+Zone Change: Swiftfoot Boots (50) was put into another zone from Battlefield.
+Zone Change: Esper Sentinel (71) was put into another zone from Battlefield.
+Zone Change: Witch's Cauldron (106) was put into another zone from Battlefield.
+Zone Change: Scrawling Crawler (207) was put into another zone from Battlefield.
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Phase: Mes'ard's End step
+Turn: Turn 28 (Derand)
+Information: BOARD turn 28 (Derand) | Derand | life 44 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4 | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Alec | life 31 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Dominic | life 40 | hand 3 | lands 13 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2 | hand cards: Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 28 (Derand) | Mes'ard | life 32 | hand 5 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Furycalm Snarl (55)
+Add To Stack: Derand cast Genji Glove
+Zone Change: Genji Glove (94) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Genji Glove (94)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Mes'ard triggered Archnemesis
+Add To Stack: Derand triggered Genji Glove
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Mes'ard.
+Phase: Derand's First Strike Damage Step
+Combat: Mes'ard didn't block Captain America, First Avenger (100).
+Life: Life: Mes'ard 32 > 28
+Phase: Derand's Combat Damage Step
+Life: Life: Mes'ard 28 > 24
+Phase: Derand's End of Combat Step
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger
+Phase: Derand's Declare Attackers Step
+Add To Stack: Mes'ard triggered Archnemesis
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Life: Life: Mes'ard 24 > 20
+Phase: Derand's Combat Damage Step
+Life: Life: Mes'ard 20 > 16
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 29 (Alec)
+Information: BOARD turn 29 (Alec) | Derand | life 44 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4*[Genji Glove] | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Alec | life 31 | hand 5 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 2 (2 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Dominic | life 40 | hand 3 | lands 13 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2 | hand cards: Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 29 (Alec) | Mes'ard | life 16 | hand 5 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec cast Bartolomé del Presidio
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Zone Change: Bartolomé del Presidio (168) was put onto the Battlefield under Alec.
+Life: Life: Alec 31 > 32
+Add To Stack: Alec cast Athreos, God of Passage
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Zone Change: Athreos, God of Passage (201) was put onto the Battlefield under Alec.
+Life: Life: Alec 32 > 33
+Phase: Alec's End step
+Turn: Turn 30 (Dominic)
+Information: BOARD turn 30 (Dominic) | Derand | life 44 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4*[Genji Glove] | hand cards: hidden
+Information: BOARD turn 30 (Dominic) | Alec | life 33 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4; Bartolomé del Presidio 2/1; Athreos, God of Passage 5/4 | hand cards: hidden
+Information: BOARD turn 30 (Dominic) | Dominic | life 40 | hand 3 | lands 13 (13 untapped) | open mana 13 | commander Battlefield | creatures 2 (2 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2 | hand cards: Run Away Together(2); Mischievous Mystic(2); Mossborn Hydra(3)
+Information: BOARD turn 30 (Dominic) | Mes'ard | life 16 | hand 5 | lands 8 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Island (240)
+Add To Stack: Dominic cast Mossborn Hydra
+Zone Change: Mossborn Hydra (284) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Mischievous Mystic
+Zone Change: Mischievous Mystic (221) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 31 (Mes'ard)
+Information: BOARD turn 31 (Mes'ard) | Derand | life 44 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (2 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4*[Genji Glove] | hand cards: hidden
+Information: BOARD turn 31 (Mes'ard) | Alec | life 33 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4; Bartolomé del Presidio 2/1; Athreos, God of Passage 5/4 | hand cards: hidden
+Information: BOARD turn 31 (Mes'ard) | Dominic | life 40 | hand 1 | lands 14 (9 untapped) | open mana 9 | commander Battlefield | creatures 4 (4 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2; Mossborn Hydra 1/1; Mischievous Mystic 2/1 | hand cards: Run Away Together(2)
+Information: BOARD turn 31 (Mes'ard) | Mes'ard | life 16 | hand 5 | lands 8 (8 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Mes'ard's Upkeep step
+Phase: Mes'ard's Draw step
+Phase: Mes'ard's Main phase, precombat
+Phase: Mes'ard's Beginning of Combat Step
+Phase: Mes'ard's Declare Attackers Step
+Phase: Mes'ard's Declare Blockers Step
+Phase: Mes'ard's End of Combat Step
+Phase: Mes'ard's Main phase, postcombat
+Add To Stack: Mes'ard cast Kang Prime
+Add To Stack: Mes'ard triggered Kang Prime
+Zone Change: Kang Prime (349) was put onto the Battlefield under Mes'ard.
+Add To Stack: Mes'ard cast Klaw, Master of Sound
+Zone Change: Klaw, Master of Sound (400) was put onto the Battlefield under Mes'ard.
+Phase: Mes'ard's End step
+Phase: Mes'ard's Cleanup step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 44 | hand 2 | lands 7 (7 untapped) | open mana 7 | commander Battlefield | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4[Genji Glove] | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Alec | life 33 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4; Bartolomé del Presidio 2/1; Athreos, God of Passage 5/4 | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Dominic | life 40 | hand 1 | lands 14 (9 untapped) | open mana 9 | commander Battlefield | creatures 4 (4 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2; Mossborn Hydra 1/1; Mischievous Mystic 2/1 | hand cards: Run Away Together(2)
+Information: BOARD turn 32 (Derand) | Mes'ard | life 16 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Kang Prime 3/5; Klaw, Master of Sound 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Excalibur, Sword of Eden
+Zone Change: Excalibur, Sword of Eden (32) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Excalibur, Sword of Eden (32)]
+Add To Stack: Dominic cast Run Away Together targeting [Captain America, First Avenger (100), Athreos, God of Passage (201)]
+Zone Change: Captain America, First Avenger (100) was put into another zone from Battlefield.
+Zone Change: Athreos, God of Passage (201) was put into another zone from Battlefield.
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Turn: Turn 33 (Alec)
+Information: BOARD turn 33 (Alec) | Derand | life 44 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4 | hand cards: hidden
+Information: BOARD turn 33 (Alec) | Alec | life 33 | hand 5 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 3 (3 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4; Bartolomé del Presidio 2/1 | hand cards: hidden
+Information: BOARD turn 33 (Alec) | Dominic | life 40 | hand 0 | lands 14 (7 untapped) | open mana 7 | commander Battlefield | creatures 4 (4 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2; Mossborn Hydra 1/1; Mischievous Mystic 2/1 | hand cards: 
+Information: BOARD turn 33 (Alec) | Mes'ard | life 16 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Kang Prime 3/5; Klaw, Master of Sound 3/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Add To Stack: Alec cast Athreos, God of Passage
+Add To Stack: Alec triggered Elas il-Kor, Sadistic Pilgrim
+Zone Change: Athreos, God of Passage (201) was put onto the Battlefield under Alec.
+Life: Life: Alec 33 > 34
+Phase: Alec's End step
+Turn: Turn 34 (Dominic)
+Information: BOARD turn 34 (Dominic) | Derand | life 44 | hand 2 | lands 7 (2 untapped) | open mana 2 | commander Battlefield | creatures 3 (3 untapped): Danitha Capashen, Paragon 2/2; Dalakos, Crafter of Wonders 2/4; Captain America, First Avenger 4/4 | hand cards: hidden
+Information: BOARD turn 34 (Dominic) | Alec | life 34 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (4 untapped): Elas il-Kor, Sadistic Pilgrim 2/2; Teysa Karlov 2/4; Bartolomé del Presidio 2/1; Athreos, God of Passage 5/4 | hand cards: hidden
+Information: BOARD turn 34 (Dominic) | Dominic | life 40 | hand 0 | lands 14 (14 untapped) | open mana 14 | commander Battlefield | creatures 4 (4 untapped): Homunculus Horde 2/2; Adrix and Nev, Twincasters 2/2; Mossborn Hydra 1/1; Mischievous Mystic 2/1 | hand cards: 
+Information: BOARD turn 34 (Dominic) | Mes'ard | life 16 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Kang Prime 3/5; Klaw, Master of Sound 3/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Witness Protection targeting [Athreos, God of Passage (201)]
+Zone Change: Witness Protection (223) was put onto the Battlefield under Dominic.
+Zone Change: Elas il-Kor, Sadistic Pilgrim (135) was put into another zone from Battlefield.
+Zone Change: Orzhov Basilica (143) was put into another zone from Battlefield.
+Zone Change: Teysa Karlov (146) was put into another zone from Battlefield.
+Zone Change: Swamp (155) was put into another zone from Battlefield.
+Zone Change: Swamp (163) was put into None from Battlefield.
+Zone Change: Bartolomé del Presidio (168) was put into another zone from Battlefield.
+Zone Change: Takenuma, Abandoned Mire (170) was put into another zone from Battlefield.
+Zone Change: Plains (189) was put into another zone from Battlefield.
+Zone Change: Plains (196) was put into another zone from Battlefield.
+Zone Change: Legitimate Businessperson (201) was put into another zone from Battlefield.
+Zone Change: Homunculus Horde (265) was put into another zone from Battlefield.
+Zone Change: Mossborn Hydra (284) was put into another zone from Battlefield.
+Zone Change: Adrix and Nev, Twincasters (302) was put into another zone from Battlefield.
+Zone Change: Mischievous Mystic (221) was put into another zone from Battlefield.
+Zone Change: Witness Protection (223) was put into another zone from Battlefield.
+Zone Change: Island (230) was put into another zone from Battlefield.
+Zone Change: Island (231) was put into another zone from Battlefield.
+Zone Change: Island (232) was put into another zone from Battlefield.
+Zone Change: Island (234) was put into another zone from Battlefield.
+Zone Change: Island (236) was put into another zone from Battlefield.
+Zone Change: Island (237) was put into another zone from Battlefield.
+Zone Change: Island (238) was put into another zone from Battlefield.
+Zone Change: Island (239) was put into another zone from Battlefield.
+Zone Change: Island (240) was put into another zone from Battlefield.
+Zone Change: Forest (243) was put into another zone from Battlefield.
+Zone Change: Forest (244) was put into another zone from Battlefield.
+Zone Change: Forest (245) was put into another zone from Battlefield.
+Zone Change: Forest (247) was put into another zone from Battlefield.
+Zone Change: Forest (252) was put into another zone from Battlefield.
+
+Game Result: unfinished (Forge closed mid-game)

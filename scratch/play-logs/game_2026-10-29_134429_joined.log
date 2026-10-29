@@ -1,0 +1,973 @@
+Player: Dominic (HUMAN) deck=? (commander Olivia, Opulent Outlaw) [this PC]
+Player: Derand (HUMAN) deck=? (commander Captain America, First Avenger)
+Player: Alec (HUMAN) deck=? (commander Athreos, God of Passage)
+Player: Emma (AI) deck=? (commander Sidar Jabari of Zhalfir)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Alec)
+Information: BOARD turn 1 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Alec) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Dragonskull Summit(land); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4)
+Information: BOARD turn 1 (Alec) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (159)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 2 (Dominic)
+Information: BOARD turn 2 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Dragonskull Summit(land); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4)
+Information: BOARD turn 2 (Dominic) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Dragonskull Summit (247)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 3 (Emma)
+Information: BOARD turn 3 (Emma) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Emma) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Emma) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1)
+Information: BOARD turn 3 (Emma) | Emma | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Path of Ancestry (347)
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 4 (Derand)
+Information: BOARD turn 4 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Derand) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1)
+Information: BOARD turn 4 (Derand) | Emma | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Seachrome Coast (98)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 5 (Alec)
+Information: BOARD turn 5 (Alec) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Alec) | Dominic | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1)
+Information: BOARD turn 5 (Alec) | Emma | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Swamp (164)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 6 (Dominic)
+Information: BOARD turn 6 (Dominic) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Dominic) | Dominic | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Breena, the Demagogue(3); Plains(land); Shadow the Hedgehog(4); Impulsive Pilferer(1); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1)
+Information: BOARD turn 6 (Dominic) | Emma | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (292)
+Add To Stack: Dominic cast Impulsive Pilferer
+Zone Change: Impulsive Pilferer (283) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 7 (Emma)
+Information: BOARD turn 7 (Emma) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Emma) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Emma) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Breena, the Demagogue(3); Shadow the Hedgehog(4); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2)
+Information: BOARD turn 7 (Emma) | Emma | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Island (376)
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 8 (Derand)
+Information: BOARD turn 8 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Derand) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Breena, the Demagogue(3); Shadow the Hedgehog(4); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2)
+Information: BOARD turn 8 (Derand) | Emma | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Island (29)
+Add To Stack: Derand cast Leonin Shikari
+Zone Change: Leonin Shikari (75) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 9 (Alec)
+Information: BOARD turn 9 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Alec | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Alec) | Dominic | life 40 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Breena, the Demagogue(3); Shadow the Hedgehog(4); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2)
+Information: BOARD turn 9 (Alec) | Emma | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Plains (191)
+Add To Stack: Alec cast Athreos, God of Passage
+Zone Change: Athreos, God of Passage (201) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 10 (Dominic)
+Information: BOARD turn 10 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Alec | life 40 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Dominic) | Dominic | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Impulsive Pilferer 1/1 | hand cards: Breena, the Demagogue(3); Shadow the Hedgehog(4); Swamp(land); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2)
+Information: BOARD turn 10 (Dominic) | Emma | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (258)
+Add To Stack: Dominic cast Breena, the Demagogue
+Zone Change: Breena, the Demagogue (275) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Impulsive Pilferer (283) to attack Alec.
+Phase: Dominic's Combat Damage Step
+Combat: Alec didn't block Impulsive Pilferer (283).
+Life: Life: Alec 40 > 39
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 11 (Emma)
+Information: BOARD turn 11 (Emma) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 11 (Emma) | Alec | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Emma) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 1/3 | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2); Plains(land)
+Information: BOARD turn 11 (Emma) | Emma | life 40 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Myriad Landscape (331)
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 12 (Derand)
+Information: BOARD turn 12 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Alec | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Derand) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 1/3 | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2); Plains(land)
+Information: BOARD turn 12 (Derand) | Emma | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Lavaglide Pathway (93)
+Add To Stack: Derand cast Codsworth, Handy Helper
+Zone Change: Codsworth, Handy Helper (47) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 13 (Alec)
+Information: BOARD turn 13 (Alec) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Alec | life 39 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 13 (Alec) | Dominic | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (1 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 1/3 | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2); Plains(land)
+Information: BOARD turn 13 (Alec) | Emma | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Bastion of Remembrance
+Add To Stack: Alec triggered Bastion of Remembrance
+Zone Change: Bastion of Remembrance (133) was put onto the Battlefield under Alec.
+Zone Change: Human Soldier Token (406) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 14 (Dominic)
+Information: BOARD turn 14 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Alec | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Human Soldier Token 1/1 | hand cards: hidden
+Information: BOARD turn 14 (Dominic) | Dominic | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Breena, the Demagogue 1/3 | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Lightning Greaves(2); Plains(land)
+Information: BOARD turn 14 (Dominic) | Emma | life 40 | hand 7 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Mount Doom (211)
+Add To Stack: Dominic cast Lightning Greaves
+Zone Change: Lightning Greaves (296) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Breena, the Demagogue
+Add To Stack: Dominic triggered Breena, the Demagogue
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Breena, the Demagogue (275) to attack Derand.
+Combat: Dominic assigned Impulsive Pilferer (283) to attack Emma.
+Phase: Dominic's Combat Damage Step
+Combat: Derand didn't block Breena, the Demagogue (275).
+Combat: Emma didn't block Impulsive Pilferer (283).
+Life: Life: Derand 40 > 35
+Life: Life: Emma 40 > 39
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Life: Life: Dominic 40 > 39
+Add To Stack: Dominic cast Demonic Tutor
+Add To Stack: Dominic activated Lightning Greaves targeting [Breena, the Demagogue (275)]
+Phase: Dominic's End step
+Turn: Turn 15 (Emma)
+Information: BOARD turn 15 (Emma) | Derand | life 35 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 15 (Emma) | Alec | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Human Soldier Token 1/1 | hand cards: hidden
+Information: BOARD turn 15 (Emma) | Dominic | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 5/7*[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Plains(land); Rakdos Signet(2); Serra Ascendant(1)
+Information: BOARD turn 15 (Emma) | Emma | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Add To Stack: Emma activated Myriad Landscape
+Zone Change: Myriad Landscape (331) was put into another zone from Battlefield.
+Land: Emma played Plains (325)
+Zone Change: Plains (318) was put onto the Battlefield under Emma.
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Add To Stack: Emma triggered Temple of Silence
+Zone Change: Temple of Silence (366) was put onto the Battlefield under Emma.
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 16 (Derand)
+Information: BOARD turn 16 (Derand) | Derand | life 35 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Leonin Shikari 2/2; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Alec | life 39 | hand 7 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Human Soldier Token 1/1 | hand cards: hidden
+Information: BOARD turn 16 (Derand) | Dominic | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 5/7*[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Plains(land); Rakdos Signet(2); Serra Ascendant(1)
+Information: BOARD turn 16 (Derand) | Emma | life 39 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Exotic Orchard (42)
+Add To Stack: Derand cast Adaptive Omnitool
+Zone Change: Adaptive Omnitool (62) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Esper Sentinel
+Zone Change: Esper Sentinel (71) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Codsworth, Handy Helper targeting [Adaptive Omnitool (62)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Adaptive Omnitool
+Add To Stack: Dominic triggered Breena, the Demagogue
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Leonin Shikari (75) to attack Emma.
+Phase: Derand's Combat Damage Step
+Combat: Emma didn't block Leonin Shikari (75).
+Life: Life: Emma 39 > 34
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 17 (Alec)
+Information: BOARD turn 17 (Alec) | Derand | life 35 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Leonin Shikari 5/5*[Adaptive Omnitool]; Codsworth, Handy Helper 2/3*; Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Alec | life 39 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Human Soldier Token 1/1 | hand cards: hidden
+Information: BOARD turn 17 (Alec) | Dominic | life 39 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Impulsive Pilferer 1/1*; Breena, the Demagogue 7/9*[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Plains(land); Rakdos Signet(2); Serra Ascendant(1)
+Information: BOARD turn 17 (Alec) | Emma | life 34 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Command Tower (128)
+Add To Stack: Alec cast Teysa Karlov
+Zone Change: Teysa Karlov (146) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Human Soldier Token (406) to attack Emma.
+Phase: Alec's Combat Damage Step
+Combat: Emma didn't block Human Soldier Token (406).
+Life: Life: Alec 39 > 40
+Life: Life: Emma 34 > 33
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 18 (Dominic)
+Information: BOARD turn 18 (Dominic) | Derand | life 35 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 3 (1 untapped): Leonin Shikari 5/5*[Adaptive Omnitool]; Codsworth, Handy Helper 2/3*; Esper Sentinel 1/1 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Alec | life 40 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Human Soldier Token 1/1; Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 18 (Dominic) | Dominic | life 39 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Impulsive Pilferer 1/1; Breena, the Demagogue 7/9[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rankle, Master of Pranks(4); Vandalblast(1); Plains(land); Rakdos Signet(2); Serra Ascendant(1)
+Information: BOARD turn 18 (Dominic) | Emma | life 33 | hand 7 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (293)
+Add To Stack: Dominic cast Serra Ascendant
+Zone Change: Serra Ascendant (220) was put onto the Battlefield under Dominic.
+Life: Life: Dominic 39 > 38
+Add To Stack: Dominic cast Rankle, Master of Pranks
+Zone Change: Rankle, Master of Pranks (290) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Serra Ascendant (220)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Breena, the Demagogue
+Add To Stack: Dominic triggered Breena, the Demagogue
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Breena, the Demagogue (275) to attack Derand.
+Combat: Dominic assigned Rankle, Master of Pranks (290), Impulsive Pilferer (283), Serra Ascendant (220) to attack Alec.
+Phase: Dominic's First Strike Damage Step
+Combat: Alec didn't block Rankle, Master of Pranks (290).
+Combat: Derand didn't block Breena, the Demagogue (275).
+Combat: Alec didn't block Impulsive Pilferer (283).
+Combat: Alec didn't block Serra Ascendant (220).
+Phase: Dominic's Combat Damage Step
+Life: Life: Derand 35 > 28
+Life: Life: Alec 40 > 26
+Life: Life: Dominic 38 > 46
+Add To Stack: Dominic triggered Rankle, Master of Pranks
+Discard: Dominic discards Battlefield Forge (279).
+Life: Life: Derand 28 > 27
+Life: Life: Alec 26 > 25
+Life: Life: Dominic 46 > 45
+Life: Life: Emma 33 > 32
+Zone Change: Impulsive Pilferer (283) was put into another zone from Battlefield.
+Zone Change: Esper Sentinel (71) was put into another zone from Battlefield.
+Zone Change: Human Soldier Token (406) was put into nowhere (token) from Battlefield.
+Add To Stack: Alec triggered Bastion of Remembrance
+Add To Stack: Dominic triggered Impulsive Pilferer
+Add To Stack: Alec triggered Bastion of Remembrance
+Add To Stack: Alec triggered Athreos, God of Passage targeting [Emma]
+Add To Stack: Alec triggered Athreos, God of Passage targeting [Emma]
+Life: Life: Derand 27 > 26
+Life: Life: Alec 25 > 26
+Life: Life: Dominic 45 > 44
+Life: Life: Emma 32 > 31
+Life: Life: Derand 26 > 25
+Life: Life: Alec 26 > 27
+Life: Life: Dominic 44 > 43
+Life: Life: Emma 31 > 30
+Zone Change: Treasure Token (408) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic activated Lightning Greaves targeting [Breena, the Demagogue (275)]
+Phase: Dominic's End step
+Turn: Turn 19 (Emma)
+Information: BOARD turn 19 (Emma) | Derand | life 25 | hand 5 | lands 4 (1 untapped) | open mana 1 | commander Command | creatures 2 (0 untapped): Leonin Shikari 4/4*[Adaptive Omnitool]; Codsworth, Handy Helper 2/3* | hand cards: hidden
+Information: BOARD turn 19 (Emma) | Alec | life 27 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 19 (Emma) | Dominic | life 43 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 3 (0 untapped): Breena, the Demagogue 7/9*[Lightning Greaves]; Serra Ascendant 8/8*; Rankle, Master of Pranks 5/5* | hand cards: Shadow the Hedgehog(4); Vandalblast(1); Rakdos Signet(2); Belladonna Took(2); Mahadi, Emporium Master(3); Fetid Heath(land)
+Information: BOARD turn 19 (Emma) | Emma | life 30 | hand 7 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Add To Stack: Emma cast Sidar Jabari of Zhalfir
+Zone Change: Thriving Heath (345) was put onto the Battlefield under Emma.
+Zone Change: Sidar Jabari of Zhalfir (403) was put onto the Battlefield under Emma.
+Add To Stack: Emma cast Swords to Plowshares targeting [Serra Ascendant (220)]
+Zone Change: Serra Ascendant (220) was put into another zone from Battlefield.
+Life: Life: Dominic 43 > 51
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 20 (Derand)
+Information: BOARD turn 20 (Derand) | Derand | life 25 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 2 (2 untapped): Leonin Shikari 4/4[Adaptive Omnitool]; Codsworth, Handy Helper 2/3 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Alec | life 27 | hand 6 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 20 (Derand) | Dominic | life 51 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Breena, the Demagogue 7/9*[Lightning Greaves]; Rankle, Master of Pranks 5/5* | hand cards: Shadow the Hedgehog(4); Vandalblast(1); Rakdos Signet(2); Belladonna Took(2); Mahadi, Emporium Master(3); Fetid Heath(land)
+Information: BOARD turn 20 (Derand) | Emma | life 30 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Sidar Jabari of Zhalfir 4/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Plains (83)
+Add To Stack: Derand cast Genji Glove
+Zone Change: Genji Glove (94) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Codsworth, Handy Helper targeting [Genji Glove (94)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Genji Glove
+Add To Stack: Derand triggered Adaptive Omnitool
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Leonin Shikari (75) to attack Dominic.
+Phase: Derand's First Strike Damage Step
+Combat: Dominic didn't block Leonin Shikari (75).
+Life: Life: Dominic 51 > 46
+Phase: Derand's Combat Damage Step
+Life: Life: Dominic 46 > 41
+Phase: Derand's End of Combat Step
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Adaptive Omnitool
+Phase: Derand's Declare Blockers Step
+Phase: Derand's First Strike Damage Step
+Life: Life: Dominic 41 > 36
+Phase: Derand's Combat Damage Step
+Life: Life: Dominic 36 > 31
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 21 (Alec)
+Information: BOARD turn 21 (Alec) | Derand | life 25 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Leonin Shikari 5/5*[Adaptive Omnitool,Genji Glove]; Codsworth, Handy Helper 2/3* | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Alec | life 27 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 1 (1 untapped): Teysa Karlov 2/4 | hand cards: hidden
+Information: BOARD turn 21 (Alec) | Dominic | life 31 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Breena, the Demagogue 7/9*[Lightning Greaves]; Rankle, Master of Pranks 5/5* | hand cards: Shadow the Hedgehog(4); Vandalblast(1); Rakdos Signet(2); Belladonna Took(2); Mahadi, Emporium Master(3); Fetid Heath(land)
+Information: BOARD turn 21 (Alec) | Emma | life 30 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Sidar Jabari of Zhalfir 4/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Commander's Sphere
+Zone Change: Commander's Sphere (114) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Outlaw Medic
+Zone Change: Outlaw Medic (182) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Teysa Karlov (146) to attack Dominic.
+Phase: Alec's Combat Damage Step
+Combat: Dominic didn't block Teysa Karlov (146).
+Life: Life: Dominic 31 > 29
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 22 (Dominic)
+Information: BOARD turn 22 (Dominic) | Derand | life 25 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Leonin Shikari 5/5*[Adaptive Omnitool,Genji Glove]; Codsworth, Handy Helper 2/3* | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Alec | life 27 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Teysa Karlov 2/4*; Outlaw Medic 1/3 | hand cards: hidden
+Information: BOARD turn 22 (Dominic) | Dominic | life 29 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Breena, the Demagogue 7/9[Lightning Greaves]; Rankle, Master of Pranks 5/5 | hand cards: Shadow the Hedgehog(4); Vandalblast(1); Rakdos Signet(2); Belladonna Took(2); Mahadi, Emporium Master(3); Fetid Heath(land)
+Information: BOARD turn 22 (Dominic) | Emma | life 30 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Sidar Jabari of Zhalfir 4/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Fetid Heath (214)
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Zone Change: Olivia, Opulent Outlaw (302) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Olivia, Opulent Outlaw (302)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Breena, the Demagogue
+Add To Stack: Dominic triggered Breena, the Demagogue
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Olivia, Opulent Outlaw (302) to attack Derand.
+Combat: Dominic assigned Rankle, Master of Pranks (290) to attack Alec.
+Combat: Dominic assigned Breena, the Demagogue (275) to attack Emma.
+Phase: Dominic's Combat Damage Step
+Combat: Alec didn't block Rankle, Master of Pranks (290).
+Combat: Emma didn't block Breena, the Demagogue (275).
+Combat: Derand didn't block Olivia, Opulent Outlaw (302).
+Life: Life: Derand 25 > 18
+Life: Life: Alec 27 > 22
+Life: Life: Dominic 29 > 36
+Life: Life: Emma 30 > 23
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Olivia, Opulent Outlaw
+Add To Stack: Dominic triggered Rankle, Master of Pranks
+Discard: Dominic discards Belladonna Took (276).
+Life: Life: Derand 18 > 17
+Life: Life: Alec 22 > 21
+Life: Life: Dominic 36 > 35
+Life: Life: Emma 23 > 22
+Zone Change: Treasure Token (410) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (412) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (414) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (412) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (414) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (408) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (410) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Vandalblast
+Zone Change: Genji Glove (94) was put into another zone from Battlefield.
+Zone Change: Codsworth, Handy Helper (47) was put into another zone from Battlefield.
+Zone Change: Commander's Sphere (114) was put into another zone from Battlefield.
+Zone Change: Adaptive Omnitool (62) was put into another zone from Battlefield.
+Phase: Dominic's End step
+Turn: Turn 23 (Emma)
+Information: BOARD turn 23 (Emma) | Derand | life 17 | hand 5 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Leonin Shikari 2/2* | hand cards: hidden
+Information: BOARD turn 23 (Emma) | Alec | life 21 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Teysa Karlov 2/4*; Outlaw Medic 1/3 | hand cards: hidden
+Information: BOARD turn 23 (Emma) | Dominic | life 35 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Breena, the Demagogue 7/9*; Rankle, Master of Pranks 5/5*; Olivia, Opulent Outlaw 7/7*[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Mahadi, Emporium Master(3); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land); Swiftfoot Boots(2)
+Information: BOARD turn 23 (Emma) | Emma | life 22 | hand 6 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Sidar Jabari of Zhalfir 4/3 | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Add To Stack: Emma cast Vona, Butcher of Magan
+Zone Change: Vona, Butcher of Magan (384) was put onto the Battlefield under Emma.
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Add To Stack: Emma triggered Sidar Jabari of Zhalfir
+Phase: Emma's Declare Blockers Step
+Combat: Emma assigned Sidar Jabari of Zhalfir (403) to attack Dominic.
+Phase: Emma's First Strike Damage Step
+Combat: Dominic didn't block Sidar Jabari of Zhalfir (403).
+Add To Stack: Emma triggered Sidar Jabari of Zhalfir targeting [Silverwing Squadron (364)]
+Life: Life: Dominic 35 > 31
+Zone Change: Silverwing Squadron (364) was put onto the Battlefield under Emma.
+Phase: Emma's Combat Damage Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 24 (Derand)
+Information: BOARD turn 24 (Derand) | Derand | life 17 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 1 (1 untapped): Leonin Shikari 2/2 | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Alec | life 21 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Teysa Karlov 2/4*; Outlaw Medic 1/3 | hand cards: hidden
+Information: BOARD turn 24 (Derand) | Dominic | life 31 | hand 7 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Breena, the Demagogue 7/9*; Rankle, Master of Pranks 5/5*; Olivia, Opulent Outlaw 7/7*[Lightning Greaves] | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Mahadi, Emporium Master(3); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land); Swiftfoot Boots(2)
+Information: BOARD turn 24 (Derand) | Emma | life 22 | hand 6 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (2 untapped): Sidar Jabari of Zhalfir 4/3*; Vona, Butcher of Magan 4/4; Silverwing Squadron 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Deserted Beach (61)
+Add To Stack: Derand cast Sword of Feast and Famine
+Zone Change: Sword of Feast and Famine (91) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Sword of Feast and Famine targeting [Leonin Shikari (75)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Leonin Shikari (75) to attack Dominic.
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Sword of Feast and Famine
+Combat: Dominic didn't block Leonin Shikari (75).
+Life: Life: Dominic 31 > 27
+Discard: Dominic discards Mahadi, Emporium Master (277).
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Winds of Abandon
+Zone Change: Teysa Karlov (146) was put into another zone from Battlefield.
+Zone Change: Breena, the Demagogue (275) was put into another zone from Battlefield.
+Zone Change: Sidar Jabari of Zhalfir (403) was put into another zone from Battlefield.
+Zone Change: Rankle, Master of Pranks (290) was put into another zone from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (302) was put into another zone from Battlefield.
+Zone Change: Outlaw Medic (182) was put into another zone from Battlefield.
+Zone Change: Vona, Butcher of Magan (384) was put into another zone from Battlefield.
+Zone Change: Silverwing Squadron (364) was put into another zone from Battlefield.
+Zone Change: Swamp (259) was put onto the Battlefield under Dominic.
+Zone Change: Mountain (289) was put onto the Battlefield under Dominic.
+Zone Change: Island (377) was put onto the Battlefield under Emma.
+Zone Change: Island (378) was put onto the Battlefield under Emma.
+Zone Change: Island (379) was put onto the Battlefield under Emma.
+Phase: Derand's End step
+Turn: Turn 25 (Alec)
+Information: BOARD turn 25 (Alec) | Derand | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Leonin Shikari 4/4*[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Alec | life 21 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 25 (Alec) | Dominic | life 27 | hand 6 | lands 8 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land); Swiftfoot Boots(2)
+Information: BOARD turn 25 (Alec) | Emma | life 22 | hand 6 | lands 9 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Black Dragon Gate (104)
+Add To Stack: Alec cast Charcoal Diamond
+Zone Change: Charcoal Diamond (176) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Chthonian Nightmare
+Add To Stack: Alec triggered Chthonian Nightmare
+Zone Change: Chthonian Nightmare (152) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 26 (Dominic)
+Information: BOARD turn 26 (Dominic) | Derand | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Leonin Shikari 4/4*[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Alec | life 21 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 26 (Dominic) | Dominic | life 27 | hand 6 | lands 8 (8 untapped) | open mana 8 | commander Command | creatures 0 (0 untapped):  | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land); Swiftfoot Boots(2)
+Information: BOARD turn 26 (Dominic) | Emma | life 22 | hand 6 | lands 9 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic cast Olivia, Crimson Bride
+Zone Change: Olivia, Crimson Bride (284) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Olivia, Crimson Bride (284)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Olivia, Crimson Bride targeting [Belladonna Took (276)]
+Zone Change: Belladonna Took (276) was put onto the Battlefield under Dominic.
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Belladonna Took (276), Olivia, Crimson Bride (284) to attack Alec.
+Phase: Dominic's Combat Damage Step
+Combat: Alec didn't block Belladonna Took (276).
+Combat: Alec didn't block Olivia, Crimson Bride (284).
+Life: Life: Alec 21 > 16
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Life: Life: Dominic 27 > 26
+Add To Stack: Dominic cast Swiftfoot Boots
+Zone Change: Swiftfoot Boots (253) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Turn: Turn 27 (Emma)
+Information: BOARD turn 27 (Emma) | Derand | life 17 | hand 3 | lands 6 (0 untapped) | open mana 0 | commander Command | creatures 1 (0 untapped): Leonin Shikari 4/4*[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 27 (Emma) | Alec | life 16 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 27 (Emma) | Dominic | life 26 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Olivia, Crimson Bride 3/4*[Lightning Greaves]; Belladonna Took 2/2* | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land)
+Information: BOARD turn 27 (Emma) | Emma | life 22 | hand 6 | lands 9 (9 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Add To Stack: Emma cast Sidar Jabari of Zhalfir
+Zone Change: Sidar Jabari of Zhalfir (403) was put onto the Battlefield under Emma.
+Add To Stack: Emma triggered Path of Ancestry
+Add To Stack: Emma cast Acclaimed Contender
+Add To Stack: Emma triggered Acclaimed Contender
+Zone Change: Acclaimed Contender (368) was put onto the Battlefield under Emma.
+Phase: Emma's End step
+Turn: Turn 28 (Derand)
+Information: BOARD turn 28 (Derand) | Derand | life 17 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 1 (1 untapped): Leonin Shikari 4/4[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Alec | life 16 | hand 3 | lands 5 (0 untapped) | open mana 0 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 28 (Derand) | Dominic | life 26 | hand 5 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Olivia, Crimson Bride 3/4*[Lightning Greaves]; Belladonna Took 2/2* | hand cards: Shadow the Hedgehog(4); Rakdos Signet(2); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land)
+Information: BOARD turn 28 (Derand) | Emma | life 22 | hand 7 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Sidar Jabari of Zhalfir 4/3; Acclaimed Contender 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Conqueror's Flail
+Zone Change: Conqueror's Flail (90) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Conqueror's Flail targeting [Leonin Shikari (75)]
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Leonin Shikari (75) to attack Dominic.
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Sword of Feast and Famine
+Combat: Dominic didn't block Leonin Shikari (75).
+Life: Life: Dominic 26 > 21
+Discard: Dominic discards Rakdos Signet (224).
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Sword of Feast and Famine targeting [Captain America, First Avenger (100)]
+Phase: Derand's End step
+Turn: Turn 29 (Alec)
+Information: BOARD turn 29 (Alec) | Derand | life 17 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Leonin Shikari 5/5*[Conqueror's Flail]; Captain America, First Avenger 6/6[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Alec | life 16 | hand 3 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 29 (Alec) | Dominic | life 21 | hand 4 | lands 8 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Olivia, Crimson Bride 3/4*[Lightning Greaves]; Belladonna Took 2/2* | hand cards: Shadow the Hedgehog(4); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land)
+Information: BOARD turn 29 (Alec) | Emma | life 22 | hand 7 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Sidar Jabari of Zhalfir 4/3; Acclaimed Contender 3/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Divinity of Pride
+Zone Change: Divinity of Pride (139) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 30 (Dominic)
+Information: BOARD turn 30 (Dominic) | Derand | life 17 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Leonin Shikari 5/5*[Conqueror's Flail]; Captain America, First Avenger 6/6[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 30 (Dominic) | Alec | life 16 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Athreos, God of Passage 5/4; Divinity of Pride 4/4 | hand cards: hidden
+Information: BOARD turn 30 (Dominic) | Dominic | life 21 | hand 4 | lands 8 (8 untapped) | open mana 8 | commander Command | creatures 2 (2 untapped): Olivia, Crimson Bride 3/4[Lightning Greaves]; Belladonna Took 2/2 | hand cards: Shadow the Hedgehog(4); Trailblazer's Boots(2); Professional Face-Breaker(3); Swamp(land)
+Information: BOARD turn 30 (Dominic) | Emma | life 22 | hand 7 | lands 9 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Sidar Jabari of Zhalfir 4/3; Acclaimed Contender 3/3 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Swamp (260)
+Add To Stack: Dominic cast Bloodthirsty Conqueror
+Zone Change: Bloodthirsty Conqueror (248) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Professional Face-Breaker
+Zone Change: Professional Face-Breaker (222) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Bloodthirsty Conqueror (248)]
+Life: Life: Dominic 21 > 20
+Add To Stack: Dominic activated Swiftfoot Boots targeting [Professional Face-Breaker (222)]
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered Olivia, Crimson Bride targeting [Mahadi, Emporium Master (277)]
+Zone Change: Mahadi, Emporium Master (277) was put onto the Battlefield under Dominic.
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Professional Face-Breaker (222) to attack Derand.
+Combat: Dominic assigned Bloodthirsty Conqueror (248) to attack Alec.
+Combat: Dominic assigned Mahadi, Emporium Master (277), Olivia, Crimson Bride (284) to attack Emma.
+Phase: Dominic's First Strike Damage Step
+Combat: Emma didn't block Mahadi, Emporium Master (277).
+Combat: Alec didn't block Bloodthirsty Conqueror (248).
+Combat: Emma assigned Sidar Jabari of Zhalfir (403) to block Olivia, Crimson Bride (284).
+Combat: Derand didn't block Professional Face-Breaker (222).
+Zone Change: Olivia, Crimson Bride (284) was put into another zone from Battlefield.
+Add To Stack: Dominic triggered Mahadi, Emporium Master
+Add To Stack: Dominic triggered Belladonna Took
+Zone Change: Belladonna Took (276) was put into another zone from Battlefield.
+Zone Change: Mahadi, Emporium Master (277) was put into another zone from Battlefield.
+Phase: Dominic's Combat Damage Step
+Life: Life: Derand 17 > 15
+Life: Life: Alec 16 > 11
+Add To Stack: Dominic triggered Professional Face-Breaker
+Add To Stack: Dominic triggered Professional Face-Breaker
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Life: Life: Dominic 20 > 22
+Life: Life: Dominic 22 > 27
+Zone Change: Treasure Token (416) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (418) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 31 (Emma)
+Information: BOARD turn 31 (Emma) | Derand | life 15 | hand 3 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (1 untapped): Leonin Shikari 5/5*[Conqueror's Flail]; Captain America, First Avenger 6/6[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 31 (Emma) | Alec | life 11 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Athreos, God of Passage 5/4; Divinity of Pride 4/4 | hand cards: hidden
+Information: BOARD turn 31 (Emma) | Dominic | life 27 | hand 2 | lands 9 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Bloodthirsty Conqueror 5/5*[Lightning Greaves]; Professional Face-Breaker 2/3*[Swiftfoot Boots] | hand cards: Shadow the Hedgehog(4); Trailblazer's Boots(2)
+Information: BOARD turn 31 (Emma) | Emma | life 22 | hand 7 | lands 9 (9 untapped) | open mana 9 | commander Battlefield | creatures 2 (2 untapped): Sidar Jabari of Zhalfir 4/3; Acclaimed Contender 3/3 | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Exotic Orchard (306)
+Add To Stack: Emma cast Locthwain Lancer
+Zone Change: Locthwain Lancer (399) was put onto the Battlefield under Emma.
+Add To Stack: Emma cast Adeline, Resplendent Cathar
+Zone Change: Adeline, Resplendent Cathar (388) was put onto the Battlefield under Emma.
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Add To Stack: Emma triggered Sidar Jabari of Zhalfir
+Add To Stack: Emma triggered Adeline, Resplendent Cathar
+Zone Change: Human Token (420) was put onto the Battlefield under Emma.
+Zone Change: Human Token (422) was put onto the Battlefield under Emma.
+Zone Change: Human Token (424) was put onto the Battlefield under Emma.
+Phase: Emma's Declare Blockers Step
+Combat: Emma assigned Sidar Jabari of Zhalfir (403), Human Token (420) to attack Derand.
+Combat: Emma assigned Human Token (422) to attack Alec.
+Combat: Emma assigned Human Token (424) to attack Dominic.
+Phase: Emma's First Strike Damage Step
+Combat: Derand didn't block Sidar Jabari of Zhalfir (403).
+Combat: Derand assigned Captain America, First Avenger (100) to block Human Token (420).
+Combat: Alec assigned Divinity of Pride (139) to block Human Token (422).
+Combat: Dominic didn't block Human Token (424).
+Add To Stack: Emma triggered Sidar Jabari of Zhalfir targeting [Corpse Knight (361)]
+Life: Life: Derand 15 > 11
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Life: Life: Dominic 27 > 31
+Zone Change: Corpse Knight (361) was put onto the Battlefield under Emma.
+Phase: Emma's Combat Damage Step
+Zone Change: Human Token (420) was put into nowhere (token) from Battlefield.
+Zone Change: Human Token (422) was put into nowhere (token) from Battlefield.
+Life: Life: Alec 11 > 15
+Life: Life: Dominic 31 > 30
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Phase: Emma's End step
+Turn: Turn 32 (Derand)
+Information: BOARD turn 32 (Derand) | Derand | life 11 | hand 3 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 2 (2 untapped): Leonin Shikari 5/5[Conqueror's Flail]; Captain America, First Avenger 6/6[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Alec | life 15 | hand 3 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 2 (2 untapped): Athreos, God of Passage 5/4; Divinity of Pride 4/4 | hand cards: hidden
+Information: BOARD turn 32 (Derand) | Dominic | life 30 | hand 2 | lands 9 (0 untapped) | open mana 0 | commander Command | creatures 2 (0 untapped): Bloodthirsty Conqueror 5/5*[Lightning Greaves]; Professional Face-Breaker 2/3*[Swiftfoot Boots] | hand cards: Shadow the Hedgehog(4); Trailblazer's Boots(2)
+Information: BOARD turn 32 (Derand) | Emma | life 22 | hand 5 | lands 10 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (4 untapped): Sidar Jabari of Zhalfir 4/3*; Acclaimed Contender 3/3; Locthwain Lancer 5/5; Adeline, Resplendent Cathar 6/4; Human Token 1/1*; Corpse Knight 2/2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Kediss, Emberclaw Familiar
+Zone Change: Kediss, Emberclaw Familiar (43) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Conqueror's Flail (90)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Dominic.
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Kediss, Emberclaw Familiar
+Combat: Dominic didn't block Captain America, First Avenger (100).
+Life: Life: Dominic 30 > 21
+Add To Stack: Derand triggered Sword of Feast and Famine
+Discard: Dominic discards Trailblazer's Boots (300).
+Life: Life: Alec 15 > 6
+Life: Life: Emma 22 > 13
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Life: Life: Dominic 21 > 30
+Life: Life: Dominic 30 > 39
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Chandra's Ignition targeting [Captain America, First Avenger (100)]
+Life: Life: Alec 6 > -3
+Life: Life: Dominic 39 > 30
+Life: Life: Emma 13 > 4
+Zone Change: Command Tower (128) was put into another zone from Battlefield.
+Zone Change: Bastion of Remembrance (133) was put into another zone from Battlefield.
+Zone Change: Divinity of Pride (139) was put into another zone from Battlefield.
+Zone Change: Chthonian Nightmare (152) was put into another zone from Battlefield.
+Zone Change: Swamp (159) was put into another zone from Battlefield.
+Zone Change: Swamp (164) was put into another zone from Battlefield.
+Zone Change: Charcoal Diamond (176) was put into another zone from Battlefield.
+Zone Change: Plains (191) was put into another zone from Battlefield.
+Zone Change: Athreos, God of Passage (201) was put into another zone from Battlefield.
+Zone Change: Black Dragon Gate (104) was put into another zone from Battlefield.
+Zone Change: Adeline, Resplendent Cathar (388) was put into another zone from Battlefield.
+Zone Change: Locthwain Lancer (399) was put into another zone from Battlefield.
+Zone Change: Sidar Jabari of Zhalfir (403) was put into another zone from Battlefield.
+Zone Change: Human Token (424) was put into nowhere (token) from Battlefield.
+Zone Change: Kediss, Emberclaw Familiar (43) was put into another zone from Battlefield.
+Zone Change: Leonin Shikari (75) was put into another zone from Battlefield.
+Zone Change: Professional Face-Breaker (222) was put into another zone from Battlefield.
+Zone Change: Corpse Knight (361) was put into another zone from Battlefield.
+Zone Change: Acclaimed Contender (368) was put into another zone from Battlefield.
+Zone Change: Bloodthirsty Conqueror (248) was put into another zone from Battlefield.
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Add To Stack: Emma triggered Locthwain Lancer
+Add To Stack: Emma triggered Locthwain Lancer
+Add To Stack: Emma triggered Locthwain Lancer
+Add To Stack: Emma triggered Locthwain Lancer
+Add To Stack: Emma triggered Locthwain Lancer
+Add To Stack: Dominic triggered Bloodthirsty Conqueror
+Life: Life: Derand 11 > 10
+Life: Life: Dominic 30 > 29
+Life: Life: Derand 10 > 9
+Life: Life: Dominic 29 > 28
+Life: Life: Derand 9 > 8
+Life: Life: Dominic 28 > 27
+Life: Life: Derand 8 > 7
+Life: Life: Dominic 27 > 26
+Life: Life: Derand 7 > 6
+Life: Life: Dominic 26 > 25
+Life: Life: Dominic 25 > 34
+Life: Life: Dominic 34 > 43
+Phase: Derand's End step
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Derand | life 6 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Sword of Feast and Famine,Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 33 (Dominic) | Alec | out
+Information: BOARD turn 33 (Dominic) | Dominic | life 43 | hand 1 | lands 9 (9 untapped) | open mana 9 | commander Command | creatures 0 (0 untapped):  | hand cards: Shadow the Hedgehog(4)
+Information: BOARD turn 33 (Dominic) | Emma | life 4 | hand 10 | lands 10 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Sunhome, Fortress of the Legion (240)
+Add To Stack: Dominic cast Shadow the Hedgehog
+Zone Change: Shadow the Hedgehog (238) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (418) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Olivia, Opulent Outlaw
+Zone Change: Olivia, Opulent Outlaw (302) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic activated Lightning Greaves targeting [Olivia, Opulent Outlaw (302)]
+Add To Stack: Derand cast Path to Exile targeting [Olivia, Opulent Outlaw (302)]
+Add To Stack: Emma cast Despark targeting [Shadow the Hedgehog (238)]
+Zone Change: Shadow the Hedgehog (238) was put into another zone from Battlefield.
+Zone Change: Olivia, Opulent Outlaw (302) was put into another zone from Battlefield.
+Zone Change: Mountain (288) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 34 (Emma)
+Information: BOARD turn 34 (Emma) | Derand | life 6 | hand 1 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (0 untapped): Captain America, First Avenger 9/9*[Sword of Feast and Famine,Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 34 (Emma) | Alec | out
+Information: BOARD turn 34 (Emma) | Dominic | life 43 | hand 0 | lands 11 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 34 (Emma) | Emma | life 4 | hand 9 | lands 10 (10 untapped) | open mana 10 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Emma's Upkeep step
+Phase: Emma's Draw step
+Phase: Emma's Main phase, precombat
+Land: Emma played Temple of the False God (354)
+Phase: Emma's Beginning of Combat Step
+Phase: Emma's Declare Attackers Step
+Phase: Emma's End of Combat Step
+Phase: Emma's Main phase, postcombat
+Add To Stack: Emma cast Sidar Jabari of Zhalfir
+Zone Change: Sidar Jabari of Zhalfir (403) was put onto the Battlefield under Emma.
+Add To Stack: Emma triggered Path of Ancestry
+Add To Stack: Emma cast Herald of Hoofbeats
+Zone Change: Herald of Hoofbeats (336) was put onto the Battlefield under Emma.
+Phase: Emma's End step
+Turn: Turn 35 (Derand)
+Information: BOARD turn 35 (Derand) | Derand | life 6 | hand 1 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 9/9[Sword of Feast and Famine,Conqueror's Flail] | hand cards: hidden
+Information: BOARD turn 35 (Derand) | Alec | out
+Information: BOARD turn 35 (Derand) | Dominic | life 43 | hand 0 | lands 11 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 35 (Derand) | Emma | life 4 | hand 7 | lands 11 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (2 untapped): Sidar Jabari of Zhalfir 4/3; Herald of Hoofbeats 3/3 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Zirda, the Dawnwaker
+Zone Change: Zirda, the Dawnwaker (57) was put onto the Battlefield under Derand.
+Add To Stack: Derand activated Captain America, First Avenger targeting [Emma]
+Life: Life: Emma 4 > 1
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Sword of Feast and Famine (91)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Captain America, First Avenger (100) to attack Dominic.
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Sword of Feast and Famine
+Combat: Dominic didn't block Captain America, First Avenger (100).
+Life: Life: Dominic 43 > 34
+Add To Stack: Derand activated Captain America, First Avenger targeting [Emma, Dominic]
+Life: Life: Dominic 34 > 32
+Life: Life: Emma 1 > 0
+Zone Change: Sidar Jabari of Zhalfir (403) was put into another zone from Battlefield.
+Zone Change: Exotic Orchard (306) was put into another zone from Battlefield.
+Zone Change: Plains (318) was put into another zone from Battlefield.
+Zone Change: Plains (325) was put into another zone from Battlefield.
+Zone Change: Herald of Hoofbeats (336) was put into another zone from Battlefield.
+Zone Change: Thriving Heath (345) was put into another zone from Battlefield.
+Zone Change: Path of Ancestry (347) was put into another zone from Battlefield.
+Zone Change: Temple of the False God (354) was put into another zone from Battlefield.
+Zone Change: Temple of Silence (366) was put into another zone from Battlefield.
+Zone Change: Island (376) was put into another zone from Battlefield.
+Zone Change: Island (377) was put into another zone from Battlefield.
+Zone Change: Island (378) was put into another zone from Battlefield.
+Zone Change: Island (379) was put into another zone from Battlefield.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand activated Sword of Feast and Famine targeting [Captain America, First Avenger (100)]
+Phase: Derand's End step
+Turn: Turn 36 (Dominic)
+Information: BOARD turn 36 (Dominic) | Derand | life 6 | hand 1 | lands 6 (5 untapped) | open mana 5 | commander Battlefield | creatures 2 (1 untapped): Captain America, First Avenger 9/9*[Sword of Feast and Famine,Conqueror's Flail]; Zirda, the Dawnwaker 3/3 | hand cards: hidden
+Information: BOARD turn 36 (Dominic) | Alec | out
+Information: BOARD turn 36 (Dominic) | Dominic | life 32 | hand 0 | lands 11 (11 untapped) | open mana 11 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 36 (Dominic) | Emma | out
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Zone Change: Treasure Token (416) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast The Meathook Massacre
+Zone Change: The Meathook Massacre (270) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic triggered The Meathook Massacre
+Zone Change: Zirda, the Dawnwaker (57) was put into another zone from Battlefield.
+Zone Change: Captain America, First Avenger (100) was put into another zone from Battlefield.
+Add To Stack: Dominic triggered The Meathook Massacre
+Add To Stack: Dominic triggered The Meathook Massacre
+Life: Life: Dominic 32 > 33
+Life: Life: Dominic 33 > 34
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 37 (Derand)
+Information: BOARD turn 37 (Derand) | Derand | life 6 | hand 1 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 37 (Derand) | Alec | out
+Information: BOARD turn 37 (Derand) | Dominic | life 34 | hand 0 | lands 11 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 37 (Derand) | Emma | out
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Captain America, First Avenger
+Zone Change: Captain America, First Avenger (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Captain America, First Avenger targeting [Sword of Feast and Famine (91)]
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 38 (Dominic)
+Information: BOARD turn 38 (Dominic) | Derand | life 6 | hand 2 | lands 6 (1 untapped) | open mana 1 | commander Battlefield | creatures 1 (1 untapped): Captain America, First Avenger 6/6[Sword of Feast and Famine] | hand cards: hidden
+Information: BOARD turn 38 (Dominic) | Alec | out
+Information: BOARD turn 38 (Dominic) | Dominic | life 34 | hand 0 | lands 11 (11 untapped) | open mana 11 | commander Command | creatures 0 (0 untapped):  | hand cards: 
+Information: BOARD turn 38 (Dominic) | Emma | out
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic activated Impulsive Pilferer
+Zone Change: Impulsive Pilferer (426) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Impulsive Pilferer (426) to attack Derand.
+Phase: Dominic's First Strike Damage Step
+Combat: Derand didn't block Impulsive Pilferer (426).
+Phase: Dominic's Combat Damage Step
+Life: Life: Derand 6 > 5
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Boros Charm
+Life: Life: Derand 5 > 1
+Phase: Dominic's End step
+Add To Stack: Dominic triggered Impulsive Pilferer
+Zone Change: Impulsive Pilferer (426) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic triggered Impulsive Pilferer
+Add To Stack: Dominic triggered The Meathook Massacre
+Life: Life: Derand 1 > 0
+
+Game Result: Dominic has won

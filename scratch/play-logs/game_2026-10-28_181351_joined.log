@@ -1,0 +1,894 @@
+Player: Dominic (HUMAN) deck=? (commander Scion of the Ur-Dragon) [this PC]
+Player: Derand (HUMAN) deck=? (commander Doctor Doom, King of Latveria)
+Player: Jemsh (HUMAN) deck=? (commander Satya, Aetherflux Genius)
+Player: Alec (HUMAN) deck=? (commander Ulalek, Fused Atrocity)
+Information: RECORDED ON A JOINED CLIENT - rebuilt from the host's views, so damage, mulligan and resolve lines are missing and other players' hands are hidden.
+Turn: Turn 1 (Dominic)
+Information: BOARD turn 1 (Dominic) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 1 (Dominic) | Dominic | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mox Jasper(0); Abrade(2); Delighted Halfling(1); Plains(land); Patriarch's Bidding(5); Thornwood Falls(land); Ancient Bronze Dragon(7)
+Information: BOARD turn 1 (Dominic) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Thornwood Falls (271)
+Add To Stack: Dominic triggered Thornwood Falls
+Life: Life: Dominic 40 > 41
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 2 (Alec)
+Information: BOARD turn 2 (Alec) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 2 (Alec) | Dominic | life 41 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mox Jasper(0); Abrade(2); Delighted Halfling(1); Plains(land); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2)
+Information: BOARD turn 2 (Alec) | Alec | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Llanowar Wastes (388)
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 3 (Derand)
+Information: BOARD turn 3 (Derand) | Derand | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 3 (Derand) | Dominic | life 41 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mox Jasper(0); Abrade(2); Delighted Halfling(1); Plains(land); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2)
+Information: BOARD turn 3 (Derand) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Canyon Slough (40)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 4 (Jemsh)
+Information: BOARD turn 4 (Jemsh) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Jemsh) | Jemsh | life 40 | hand 7 | lands 0 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 4 (Jemsh) | Dominic | life 41 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: Mox Jasper(0); Abrade(2); Delighted Halfling(1); Plains(land); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2)
+Information: BOARD turn 4 (Jemsh) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Adarkar Wastes (200)
+Life: Life: Jemsh 40 > 39
+Add To Stack: Jemsh cast Mystic Remora
+Zone Change: Mystic Remora (112) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 5 (Dominic)
+Information: BOARD turn 5 (Dominic) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Jemsh | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 5 (Dominic) | Dominic | life 41 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: Mox Jasper(0); Abrade(2); Delighted Halfling(1); Plains(land); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2)
+Information: BOARD turn 5 (Dominic) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Plains (297)
+Add To Stack: Dominic cast Delighted Halfling
+Zone Change: Delighted Halfling (283) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 6 (Alec)
+Information: BOARD turn 6 (Alec) | Derand | life 40 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Jemsh | life 39 | hand 6 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 6 (Alec) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 6 (Alec) | Alec | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Urza's Mine (316)
+Add To Stack: Jemsh triggered Mystic Remora
+Add To Stack: Alec cast Talisman of Dominance
+Zone Change: Talisman of Dominance (375) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 7 (Derand)
+Information: BOARD turn 7 (Derand) | Derand | life 40 | hand 7 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Jemsh | life 39 | hand 7 | lands 1 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 7 (Derand) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 7 (Derand) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Dragonskull Summit (44)
+Add To Stack: Jemsh triggered Mystic Remora
+Add To Stack: Derand cast Arcane Signet
+Zone Change: Arcane Signet (43) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 8 (Jemsh)
+Information: BOARD turn 8 (Jemsh) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Jemsh) | Jemsh | life 39 | hand 8 | lands 1 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 8 (Jemsh) | Dominic | life 41 | hand 6 | lands 2 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 8 (Jemsh) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Add To Stack: Jemsh triggered Mystic Remora
+Zone Change: Mystic Remora (112) was put into another zone from Battlefield.
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Plains (186)
+Add To Stack: Jemsh cast Arcane Signet
+Zone Change: Arcane Signet (146) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 9 (Dominic)
+Information: BOARD turn 9 (Dominic) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Jemsh | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 9 (Dominic) | Dominic | life 41 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 9 (Dominic) | Alec | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Turbulent Crater (206)
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 10 (Alec)
+Information: BOARD turn 10 (Alec) | Derand | life 40 | hand 6 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Jemsh | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 10 (Alec) | Dominic | life 41 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 10 (Alec) | Alec | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Tranquil Landscape (378)
+Add To Stack: Alec cast Urza's Incubator
+Zone Change: Urza's Incubator (340) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 11 (Derand)
+Information: BOARD turn 11 (Derand) | Derand | life 40 | hand 6 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Jemsh | life 39 | hand 7 | lands 2 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 11 (Derand) | Dominic | life 41 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 11 (Derand) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Choked Estuary (13)
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Killmonger, Ruthless Usurper
+Zone Change: Killmonger, Ruthless Usurper (96) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Turn: Turn 12 (Jemsh)
+Information: BOARD turn 12 (Jemsh) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Killmonger, Ruthless Usurper 3/3 | hand cards: hidden
+Information: BOARD turn 12 (Jemsh) | Jemsh | life 39 | hand 7 | lands 2 (2 untapped) | open mana 2 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 12 (Jemsh) | Dominic | life 41 | hand 6 | lands 3 (2 untapped) | open mana 2 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 12 (Jemsh) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Add To Stack: Jemsh triggered Elegant Parlor
+Zone Change: Elegant Parlor (169) was put onto the Battlefield under Jemsh.
+Life: Life: Jemsh 39 > 38
+Add To Stack: Jemsh cast Amped Raptor
+Add To Stack: Jemsh triggered Amped Raptor
+Zone Change: Amped Raptor (142) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Turn: Turn 13 (Dominic)
+Information: BOARD turn 13 (Dominic) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Killmonger, Ruthless Usurper 3/3 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Jemsh | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Amped Raptor 2/1 | hand cards: hidden
+Information: BOARD turn 13 (Dominic) | Dominic | life 41 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Delighted Halfling 1/2 | hand cards: Mox Jasper(0); Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 13 (Dominic) | Alec | life 40 | hand 5 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Turbulent Shore (293)
+Add To Stack: Dominic cast Scion of the Ur-Dragon
+Zone Change: Scion of the Ur-Dragon (302) was put onto the Battlefield under Dominic.
+Add To Stack: Dominic cast Mox Jasper
+Zone Change: Mox Jasper (244) was put onto the Battlefield under Dominic.
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Turn: Turn 14 (Alec)
+Information: BOARD turn 14 (Alec) | Derand | life 40 | hand 5 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Killmonger, Ruthless Usurper 3/3 | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Jemsh | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Amped Raptor 2/1 | hand cards: hidden
+Information: BOARD turn 14 (Alec) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 14 (Alec) | Alec | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 15 (Derand)
+Information: BOARD turn 15 (Derand) | Derand | life 40 | hand 5 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Killmonger, Ruthless Usurper 3/3 | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Jemsh | life 38 | hand 6 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Amped Raptor 2/1 | hand cards: hidden
+Information: BOARD turn 15 (Derand) | Dominic | life 41 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 15 (Derand) | Alec | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Doctor Doom, King of Latveria
+Zone Change: Doctor Doom, King of Latveria (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Doctor Doom, King of Latveria targeting [Killmonger, Ruthless Usurper (96)]
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Killmonger, Ruthless Usurper
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Killmonger, Ruthless Usurper (96) to attack Dominic.
+Phase: Derand's Combat Damage Step
+Add To Stack: Derand triggered Killmonger, Ruthless Usurper
+Combat: Dominic didn't block Killmonger, Ruthless Usurper (96).
+Life: Life: Dominic 41 > 36
+Zone Change: Treasure Token (407) was put onto the Battlefield under Derand.
+Zone Change: Mox Jasper (244) was put into another zone from Battlefield.
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 16 (Jemsh)
+Information: BOARD turn 16 (Jemsh) | Derand | life 40 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Killmonger, Ruthless Usurper 4/4*; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 16 (Jemsh) | Jemsh | life 38 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Amped Raptor 2/1 | hand cards: hidden
+Information: BOARD turn 16 (Jemsh) | Dominic | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4 | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 16 (Jemsh) | Alec | life 40 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Mountain (182)
+Add To Stack: Jemsh cast Satya, Aetherflux Genius
+Zone Change: Satya, Aetherflux Genius (201) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Amped Raptor (142)]
+Zone Change: Amped Raptor (409) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Amped Raptor
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Satya, Aetherflux Genius (201) to attack Derand.
+Combat: Jemsh assigned Amped Raptor (409), Amped Raptor (142) to attack Alec.
+Phase: Jemsh's First Strike Damage Step
+Combat: Derand didn't block Satya, Aetherflux Genius (201).
+Combat: Alec didn't block Amped Raptor (409).
+Combat: Alec didn't block Amped Raptor (142).
+Life: Life: Alec 40 > 36
+Phase: Jemsh's Combat Damage Step
+Life: Life: Derand 40 > 37
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius
+Turn: Turn 17 (Dominic)
+Information: BOARD turn 17 (Dominic) | Derand | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (1 untapped): Killmonger, Ruthless Usurper 4/4*; Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Jemsh | life 38 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5* | hand cards: hidden
+Information: BOARD turn 17 (Dominic) | Dominic | life 36 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Delighted Halfling 1/2; Scion of the Ur-Dragon 4/4 | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 17 (Dominic) | Alec | life 36 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ancient Copper Dragon (302) to attack Jemsh.
+Phase: Dominic's First Strike Damage Step
+Combat: Jemsh didn't block Ancient Copper Dragon (302).
+Phase: Dominic's Combat Damage Step
+Life: Life: Jemsh 38 > 32
+Add To Stack: Dominic triggered Ancient Copper Dragon
+Zone Change: Treasure Token (411) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (412) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Fiery Annihilation targeting [Killmonger, Ruthless Usurper (96)]
+Zone Change: Killmonger, Ruthless Usurper (96) was put into another zone from Battlefield.
+Phase: Dominic's End step
+Turn: Turn 18 (Alec)
+Information: BOARD turn 18 (Alec) | Derand | life 37 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Jemsh | life 32 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5* | hand cards: hidden
+Information: BOARD turn 18 (Alec) | Dominic | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 18 (Alec) | Alec | life 36 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec cast Endbringer
+Zone Change: Endbringer (311) was put onto the Battlefield under Alec.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 19 (Derand)
+Information: BOARD turn 19 (Derand) | Derand | life 37 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Battlefield | creatures 1 (1 untapped): Doctor Doom, King of Latveria 3/3 | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Jemsh | life 32 | hand 6 | lands 4 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (0 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5* | hand cards: hidden
+Information: BOARD turn 19 (Derand) | Dominic | life 36 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: Abrade(2); Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 19 (Derand) | Alec | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Villainous Hideout (1)
+Add To Stack: Derand cast Glorious Purpose
+Zone Change: Treasure Token (411) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (412) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Abrade
+Zone Change: Doctor Doom, King of Latveria (100) was put into another zone from Battlefield.
+Zone Change: Glorious Purpose (20) was put onto the Battlefield under Derand.
+Zone Change: Treasure Token (407) was put into nowhere (token) from Battlefield.
+Add To Stack: Derand cast Doom's Time Platform
+Zone Change: Doom's Time Platform (30) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 20 (Jemsh)
+Information: BOARD turn 20 (Jemsh) | Derand | life 37 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 20 (Jemsh) | Jemsh | life 32 | hand 6 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Amped Raptor 2/1 x2; Satya, Aetherflux Genius 3/5 | hand cards: hidden
+Information: BOARD turn 20 (Jemsh) | Dominic | life 36 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 2 (0 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4* | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 20 (Jemsh) | Alec | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Life: Life: Jemsh 32 > 31
+Add To Stack: Jemsh cast Izzet Generatorium
+Zone Change: Izzet Generatorium (105) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh cast Whirler Virtuoso
+Add To Stack: Jemsh triggered Whirler Virtuoso
+Zone Change: Whirler Virtuoso (126) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Whirler Virtuoso (126)]
+Zone Change: Whirler Virtuoso (415) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Whirler Virtuoso
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Amped Raptor (409), Amped Raptor (142) to attack Derand.
+Combat: Jemsh assigned Satya, Aetherflux Genius (201), Whirler Virtuoso (415) to attack Dominic.
+Phase: Jemsh's First Strike Damage Step
+Combat: Dominic didn't block Satya, Aetherflux Genius (201).
+Combat: Derand didn't block Amped Raptor (409).
+Combat: Derand didn't block Amped Raptor (142).
+Combat: Dominic didn't block Whirler Virtuoso (415).
+Life: Life: Derand 37 > 33
+Phase: Jemsh's Combat Damage Step
+Life: Life: Dominic 36 > 31
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius
+Turn: Turn 21 (Dominic)
+Information: BOARD turn 21 (Dominic) | Derand | life 33 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Jemsh | life 31 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 21 (Dominic) | Dominic | life 31 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 2 (2 untapped): Delighted Halfling 1/2; Scion of the Ur-Dragon 4/4 | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Dragonlord Kolaghan(6)
+Information: BOARD turn 21 (Dominic) | Alec | life 36 | hand 6 | lands 3 (0 untapped) | open mana 0 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Add To Stack: Dominic triggered The Ur-Dragon
+Add To Stack: Jemsh activated Whirler Virtuoso
+Zone Change: Thopter Token (417) was put onto the Battlefield under Jemsh.
+Zone Change: Dragonlord Kolaghan (249) was put onto the Battlefield under Dominic.
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned The Ur-Dragon (302) to attack Jemsh.
+Phase: Dominic's First Strike Damage Step
+Combat: Jemsh assigned Thopter Token (417) to block The Ur-Dragon (302).
+Phase: Dominic's Combat Damage Step
+Zone Change: Thopter Token (417) was put into nowhere (token) from Battlefield.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 22 (Alec)
+Information: BOARD turn 22 (Alec) | Derand | life 33 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 22 (Alec) | Jemsh | life 31 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 22 (Alec) | Dominic | life 31 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Reality Ripple(2); Dread Return(4)
+Information: BOARD turn 22 (Alec) | Alec | life 36 | hand 6 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Add To Stack: Alec activated Endbringer
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Phase: Alec's Cleanup step
+Turn: Turn 23 (Derand)
+Information: BOARD turn 23 (Derand) | Derand | life 33 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Jemsh | life 31 | hand 5 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (1 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 23 (Derand) | Dominic | life 31 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Reality Ripple(2); Dread Return(4)
+Information: BOARD turn 23 (Derand) | Alec | life 36 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 24 (Jemsh)
+Information: BOARD turn 24 (Jemsh) | Derand | life 33 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 24 (Jemsh) | Jemsh | life 31 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 5 (5 untapped): Amped Raptor 2/1 x2; Satya, Aetherflux Genius 3/5; Whirler Virtuoso 2/3 x2 | hand cards: hidden
+Information: BOARD turn 24 (Jemsh) | Dominic | life 31 | hand 5 | lands 4 (3 untapped) | open mana 3 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Essence Scatter(2); Reality Ripple(2); Dread Return(4)
+Information: BOARD turn 24 (Jemsh) | Alec | life 36 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Add To Stack: Jemsh cast Talisman of Progress
+Zone Change: Talisman of Progress (175) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh cast Aetherworks Marvel
+Zone Change: Aetherworks Marvel (134) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh activated Aetherworks Marvel
+Add To Stack: Jemsh cast Brudiclad, Telchor Engineer
+Add To Stack: Dominic cast Essence Scatter
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Whirler Virtuoso (126)]
+Zone Change: Whirler Virtuoso (419) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Whirler Virtuoso
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Whirler Virtuoso (419), Amped Raptor (409), Amped Raptor (142) to attack Derand.
+Combat: Jemsh assigned Satya, Aetherflux Genius (201) to attack Dominic.
+Phase: Jemsh's First Strike Damage Step
+Combat: Derand didn't block Whirler Virtuoso (419).
+Combat: Dominic didn't block Satya, Aetherflux Genius (201).
+Combat: Derand didn't block Amped Raptor (409).
+Combat: Derand didn't block Amped Raptor (142).
+Life: Life: Derand 33 > 29
+Phase: Jemsh's Combat Damage Step
+Life: Life: Derand 29 > 27
+Life: Life: Dominic 31 > 28
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius
+Turn: Turn 25 (Dominic)
+Information: BOARD turn 25 (Dominic) | Derand | life 27 | hand 5 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Jemsh | life 31 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x2; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 25 (Dominic) | Dominic | life 28 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 3 (3 untapped): Delighted Halfling 1/2; Scion of the Ur-Dragon 4/4; Dragonlord Kolaghan 6/5 | hand cards: Patriarch's Bidding(5); Ancient Bronze Dragon(7); Reality Ripple(2); Dread Return(4)
+Information: BOARD turn 25 (Dominic) | Alec | life 36 | hand 7 | lands 3 (1 untapped) | open mana 1 | commander Command | creatures 1 (1 untapped): Endbringer 5/5 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Temple of Epiphany (250)
+Add To Stack: Dominic triggered Temple of Epiphany
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Life: Life: Alec 36 > 34
+Add To Stack: Alec cast Ulamog's Nullifier
+Zone Change: Ulamog's Nullifier (313) was put onto the Battlefield under Alec.
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Dragon Mage (302) to attack Alec.
+Phase: Dominic's Combat Damage Step
+Combat: Alec didn't block Dragon Mage (302).
+Life: Life: Alec 34 > 29
+Add To Stack: Dominic triggered Dragon Mage
+Discard: Dominic discards Patriarch's Bidding (301).
+Discard: Dominic discards Ancient Bronze Dragon (277).
+Discard: Dominic discards Reality Ripple (222).
+Discard: Dominic discards Dread Return (273).
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Add To Stack: Dominic cast Arcane Signet
+Zone Change: Arcane Signet (251) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Turn: Turn 26 (Alec)
+Information: BOARD turn 26 (Alec) | Derand | life 27 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 26 (Alec) | Jemsh | life 31 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 6 (2 untapped): Amped Raptor 2/1* x2; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x2; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 26 (Alec) | Dominic | life 28 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Battlefield Forge(land); Zombify(4); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land)
+Information: BOARD turn 26 (Alec) | Alec | life 29 | hand 7 | lands 3 (3 untapped) | open mana 3 | commander Command | creatures 2 (2 untapped): Endbringer 5/5; Ulamog's Nullifier 2/3 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Exotic Orchard (320)
+Add To Stack: Alec cast Sol Ring
+Zone Change: Sol Ring (326) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Arcane Signet
+Zone Change: Arcane Signet (322) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Morophon, the Boundless
+Zone Change: Morophon, the Boundless (331) was put onto the Battlefield under Alec.
+Add To Stack: Alec cast Ulalek, Fused Atrocity
+Zone Change: Ulalek, Fused Atrocity (403) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Endbringer targeting [Amped Raptor (409)]
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Zone Change: Amped Raptor (409) was put into nowhere (token) from Battlefield.
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's Declare Blockers Step
+Combat: Alec assigned Ulamog's Nullifier (313) to attack Jemsh.
+Phase: Alec's Combat Damage Step
+Combat: Jemsh didn't block Ulamog's Nullifier (313).
+Life: Life: Jemsh 31 > 28
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 27 (Derand)
+Information: BOARD turn 27 (Derand) | Derand | life 27 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Command | creatures 0 (0 untapped):  | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Jemsh | life 28 | hand 7 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 5 (2 untapped): Amped Raptor 2/1*; Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x2; Whirler Virtuoso 2/3* | hand cards: hidden
+Information: BOARD turn 27 (Derand) | Dominic | life 28 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Battlefield Forge(land); Zombify(4); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land)
+Information: BOARD turn 27 (Derand) | Alec | life 29 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4*; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6 | hand cards: hidden
+Phase: Derand's Upkeep step
+Add To Stack: Alec activated Endbringer targeting [Amped Raptor (142)]
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Zone Change: Amped Raptor (142) was put into another zone from Battlefield.
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Land: Derand played Frostboil Snarl (4)
+Add To Stack: Derand cast Tombstone, Career Criminal
+Zone Change: Tombstone, Career Criminal (92) was put onto the Battlefield under Derand.
+Add To Stack: Derand triggered Tombstone, Career Criminal targeting [Chameleon, Master of Disguise (18)]
+Add To Stack: Derand cast Moonstone, Harsh Mistress
+Zone Change: Moonstone, Harsh Mistress (9) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Turn: Turn 28 (Jemsh)
+Information: BOARD turn 28 (Jemsh) | Derand | life 27 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Moonstone, Harsh Mistress 2/4 | hand cards: hidden
+Information: BOARD turn 28 (Jemsh) | Jemsh | life 28 | hand 7 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 4 (4 untapped): Satya, Aetherflux Genius 3/5; Whirler Virtuoso 2/3 x3 | hand cards: hidden
+Information: BOARD turn 28 (Jemsh) | Dominic | life 28 | hand 6 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 3 (1 untapped): Delighted Halfling 1/2*; Scion of the Ur-Dragon 4/4*; Dragonlord Kolaghan 6/5 | hand cards: Battlefield Forge(land); Zombify(4); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land)
+Information: BOARD turn 28 (Jemsh) | Alec | life 29 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4*; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6 | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Prairie Stream (177)
+Add To Stack: Jemsh cast Terror of the Peaks
+Zone Change: Terror of the Peaks (117) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Terror of the Peaks (117)]
+Zone Change: Terror of the Peaks (421) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Scion of the Ur-Dragon (302)]
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Add To Stack: Dominic triggered Smaug the Impenetrable
+Zone Change: Treasure Token (423) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (424) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (425) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (426) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (427) was put onto the Battlefield under Dominic.
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Satya, Aetherflux Genius (201) to attack Dominic.
+Combat: Jemsh assigned Terror of the Peaks (421) to attack Alec.
+Phase: Jemsh's Combat Damage Step
+Combat: Alec didn't block Terror of the Peaks (421).
+Combat: Dominic didn't block Satya, Aetherflux Genius (201).
+Life: Life: Dominic 28 > 25
+Life: Life: Alec 29 > 24
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Add To Stack: Jemsh cast Swords to Plowshares targeting [Smaug the Impenetrable (302)]
+Zone Change: Smaug the Impenetrable (302) was put into another zone from Battlefield.
+Life: Life: Dominic 25 > 33
+Phase: Jemsh's End step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius
+Add To Stack: Alec activated Endbringer targeting [Jemsh]
+Life: Life: Jemsh 28 > 27
+Turn: Turn 29 (Dominic)
+Information: BOARD turn 29 (Dominic) | Derand | life 27 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Moonstone, Harsh Mistress 2/4 | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Jemsh | life 27 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (4 untapped): Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4; Terror of the Peaks 5/4* | hand cards: hidden
+Information: BOARD turn 29 (Dominic) | Dominic | life 33 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Delighted Halfling 1/2; Dragonlord Kolaghan 6/5 | hand cards: Battlefield Forge(land); Zombify(4); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land)
+Information: BOARD turn 29 (Dominic) | Alec | life 24 | hand 4 | lands 4 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4*; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6 | hand cards: hidden
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Command Tower (233)
+Add To Stack: Dominic cast Scion of the Ur-Dragon
+Zone Change: Scion of the Ur-Dragon (302) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (426) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (427) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (425) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Zombify targeting [Ancient Copper Dragon (212)]
+Zone Change: Ancient Copper Dragon (212) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (423) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (424) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic activated Scion of the Ur-Dragon
+Phase: Dominic's Beginning of Combat Step
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's Declare Blockers Step
+Combat: Dominic assigned Ancient Copper Dragon (212), Dragonlord Kolaghan (249), Ancient Silver Dragon (302) to attack Alec.
+Phase: Dominic's Combat Damage Step
+Combat: Alec didn't block Ancient Copper Dragon (212).
+Combat: Alec didn't block Dragonlord Kolaghan (249).
+Combat: Alec didn't block Ancient Silver Dragon (302).
+Life: Life: Alec 24 > 4
+Add To Stack: Dominic triggered Ancient Copper Dragon
+Add To Stack: Dominic triggered Ancient Silver Dragon
+Zone Change: Treasure Token (430) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (431) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (432) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (433) was put onto the Battlefield under Dominic.
+Zone Change: Treasure Token (434) was put onto the Battlefield under Dominic.
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Zone Change: Treasure Token (433) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (434) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (432) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Ghostly Prison
+Zone Change: Ghostly Prison (221) was put onto the Battlefield under Dominic.
+Phase: Dominic's End step
+Add To Stack: Alec activated Endbringer targeting [Dominic]
+Life: Life: Dominic 33 > 32
+Phase: Dominic's Cleanup step
+Turn: Turn 30 (Alec)
+Information: BOARD turn 30 (Alec) | Derand | life 27 | hand 6 | lands 5 (0 untapped) | open mana 0 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Moonstone, Harsh Mistress 2/4 | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Jemsh | life 27 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (4 untapped): Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4; Terror of the Peaks 5/4* | hand cards: hidden
+Information: BOARD turn 30 (Alec) | Dominic | life 32 | hand 16 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Delighted Halfling 1/2*; Dragonlord Kolaghan 6/5*; Scion of the Ur-Dragon 4/4*; Ancient Copper Dragon 6/5* | hand cards: Battlefield Forge(land); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land); Make Your Move(3); Scorned Villager(2); Broken Wings(3); Jungle Hollow(land); Slip On the Ring(2); Rugged Highlands(land); Burnished Hart(3); Llanowar Elves(1); Shivan Reef(land); Forest(land); Dispelling Exhale(2)
+Information: BOARD turn 30 (Alec) | Alec | life 4 | hand 4 | lands 4 (4 untapped) | open mana 4 | commander Battlefield | creatures 4 (4 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6 | hand cards: hidden
+Phase: Alec's Upkeep step
+Phase: Alec's Draw step
+Phase: Alec's Main phase, precombat
+Land: Alec played Karplusan Forest (348)
+Add To Stack: Alec triggered Ulalek, Fused Atrocity
+Add To Stack: Alec cast Sire of Stagnation
+Add To Stack: Alec cast Sire of Stagnation
+Zone Change: Sire of Stagnation (435) was put onto the Battlefield under Alec.
+Zone Change: Sire of Stagnation (344) was put onto the Battlefield under Alec.
+Add To Stack: Alec activated Endbringer
+Phase: Alec's Beginning of Combat Step
+Phase: Alec's Declare Attackers Step
+Phase: Alec's End of Combat Step
+Phase: Alec's Main phase, postcombat
+Phase: Alec's End step
+Turn: Turn 31 (Derand)
+Information: BOARD turn 31 (Derand) | Derand | life 27 | hand 6 | lands 5 (5 untapped) | open mana 5 | commander Command | creatures 2 (2 untapped): Tombstone, Career Criminal 2/2; Moonstone, Harsh Mistress 2/4 | hand cards: hidden
+Information: BOARD turn 31 (Derand) | Jemsh | life 27 | hand 5 | lands 5 (1 untapped) | open mana 1 | commander Battlefield | creatures 6 (4 untapped): Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4; Terror of the Peaks 5/4* | hand cards: hidden
+Information: BOARD turn 31 (Derand) | Dominic | life 32 | hand 16 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Delighted Halfling 1/2*; Dragonlord Kolaghan 6/5*; Scion of the Ur-Dragon 4/4*; Ancient Copper Dragon 6/5* | hand cards: Battlefield Forge(land); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land); Make Your Move(3); Scorned Villager(2); Broken Wings(3); Jungle Hollow(land); Slip On the Ring(2); Rugged Highlands(land); Burnished Hart(3); Llanowar Elves(1); Shivan Reef(land); Forest(land); Dispelling Exhale(2)
+Information: BOARD turn 31 (Derand) | Alec | life 4 | hand 4 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (6 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6; Sire of Stagnation 6/8 x2 | hand cards: hidden
+Phase: Derand's Upkeep step
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Alec triggered Sire of Stagnation
+Add To Stack: Alec triggered Sire of Stagnation
+Zone Change: Island (21) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Doctor Doom, King of Latveria
+Zone Change: Doctor Doom, King of Latveria (100) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Add To Stack: Derand triggered Doctor Doom, King of Latveria targeting [Tombstone, Career Criminal (92)]
+Add To Stack: Derand triggered Moonstone, Harsh Mistress
+Add To Stack: Derand triggered Glorious Purpose
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Doom's Time Platform targeting [Tri-Sentinel, Act of Vengeance (14)]
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Tombstone, Career Criminal (92) to attack Jemsh.
+Phase: Derand's First Strike Damage Step
+Combat: Jemsh didn't block Tombstone, Career Criminal (92).
+Phase: Derand's Combat Damage Step
+Life: Life: Jemsh 27 > 23
+Phase: Derand's End of Combat Step
+Phase: Derand's Main phase, postcombat
+Add To Stack: Derand cast Chameleon, Master of Disguise
+Zone Change: Chameleon, Master of Disguise (18) was put onto the Battlefield under Derand.
+Phase: Derand's End step
+Add To Stack: Alec activated Endbringer targeting [Dominic]
+Life: Life: Dominic 32 > 31
+Turn: Turn 32 (Jemsh)
+Information: BOARD turn 32 (Jemsh) | Derand | life 27 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Tombstone, Career Criminal 4/4*; Moonstone, Harsh Mistress 2/4; Doctor Doom, King of Latveria 3/3; Chameleon, Master of Disguise 2/4 | hand cards: hidden
+Information: BOARD turn 32 (Jemsh) | Jemsh | life 23 | hand 5 | lands 5 (5 untapped) | open mana 5 | commander Battlefield | creatures 6 (6 untapped): Satya, Aetherflux Genius 3/5; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4 x2 | hand cards: hidden
+Information: BOARD turn 32 (Jemsh) | Dominic | life 31 | hand 16 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (0 untapped): Delighted Halfling 1/2*; Dragonlord Kolaghan 6/5*; Scion of the Ur-Dragon 4/4*; Ancient Copper Dragon 6/5* | hand cards: Battlefield Forge(land); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land); Make Your Move(3); Scorned Villager(2); Broken Wings(3); Jungle Hollow(land); Slip On the Ring(2); Rugged Highlands(land); Burnished Hart(3); Llanowar Elves(1); Shivan Reef(land); Forest(land); Dispelling Exhale(2)
+Information: BOARD turn 32 (Jemsh) | Alec | life 4 | hand 8 | lands 5 (2 untapped) | open mana 2 | commander Battlefield | creatures 6 (6 untapped): Endbringer 6/6; Ulamog's Nullifier 3/4; Morophon, the Boundless 6/6; Ulalek, Fused Atrocity 3/6; Sire of Stagnation 6/8 x2 | hand cards: hidden
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Add To Stack: Alec triggered Sire of Stagnation
+Add To Stack: Alec triggered Sire of Stagnation
+Zone Change: Mountain (184) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh cast Panharmonicon
+Zone Change: Panharmonicon (163) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh activated Aetherworks Marvel
+Add To Stack: Jemsh cast Stone Idol Generator
+Zone Change: Stone Idol Generator (197) was put onto the Battlefield under Jemsh.
+Phase: Jemsh's Beginning of Combat Step
+Add To Stack: Jemsh activated Izzet Generatorium
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Stone Idol Generator
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Terror of the Peaks (117)]
+Add To Stack: Jemsh triggered Stone Idol Generator
+Add To Stack: Jemsh triggered Stone Idol Generator
+Zone Change: Treasure Token (430) was put into nowhere (token) from Battlefield.
+Zone Change: Treasure Token (431) was put into nowhere (token) from Battlefield.
+Add To Stack: Dominic cast Slip On the Ring targeting [Dragonlord Kolaghan (249)]
+Zone Change: Terror of the Peaks (438) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Dragonlord Kolaghan (249)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Alec]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Dominic]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Dominic]
+Add To Stack: Alec activated Endbringer targeting [Terror of the Peaks (117)]
+Life: Life: Dominic 31 > 26
+Life: Life: Dominic 26 > 21
+Life: Life: Alec 4 > -1
+Zone Change: Llanowar Wastes (388) was put into another zone from Battlefield.
+Zone Change: Ulalek, Fused Atrocity (403) was put into another zone from Battlefield.
+Zone Change: Sire of Stagnation (435) was put into nowhere (token) from Battlefield.
+Zone Change: Endbringer (311) was put into another zone from Battlefield.
+Zone Change: Ulamog's Nullifier (313) was put into another zone from Battlefield.
+Zone Change: Urza's Mine (316) was put into another zone from Battlefield.
+Zone Change: Exotic Orchard (320) was put into another zone from Battlefield.
+Zone Change: Arcane Signet (322) was put into another zone from Battlefield.
+Zone Change: Sol Ring (326) was put into another zone from Battlefield.
+Zone Change: Morophon, the Boundless (331) was put into another zone from Battlefield.
+Zone Change: Urza's Incubator (340) was put into another zone from Battlefield.
+Zone Change: Sire of Stagnation (344) was put into another zone from Battlefield.
+Zone Change: Karplusan Forest (348) was put into another zone from Battlefield.
+Zone Change: Talisman of Dominance (375) was put into another zone from Battlefield.
+Zone Change: Tranquil Landscape (378) was put into another zone from Battlefield.
+Zone Change: Dragonlord Kolaghan (249) was put into another zone from Battlefield.
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Terror of the Peaks (421) to attack Derand.
+Combat: Jemsh assigned Terror of the Peaks (117), Terror of the Peaks (438), Satya, Aetherflux Genius (201) to attack Dominic.
+Phase: Jemsh's First Strike Damage Step
+Combat: Derand didn't block Terror of the Peaks (421).
+Combat: Dominic didn't block Terror of the Peaks (117).
+Combat: Dominic didn't block Terror of the Peaks (438).
+Combat: Dominic didn't block Satya, Aetherflux Genius (201).
+Phase: Jemsh's Combat Damage Step
+Life: Life: Derand 27 > 22
+Life: Life: Dominic 21 > 8
+Phase: Jemsh's End of Combat Step
+Phase: Jemsh's Main phase, postcombat
+Phase: Jemsh's End step
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius
+Turn: Turn 33 (Dominic)
+Information: BOARD turn 33 (Dominic) | Derand | life 22 | hand 6 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 4 (3 untapped): Tombstone, Career Criminal 4/4*; Moonstone, Harsh Mistress 2/4; Doctor Doom, King of Latveria 3/3; Chameleon, Master of Disguise 2/4 | hand cards: hidden
+Information: BOARD turn 33 (Dominic) | Jemsh | life 23 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 7 (3 untapped): Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4* x3 | hand cards: hidden
+Information: BOARD turn 33 (Dominic) | Dominic | life 8 | hand 15 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 3 (3 untapped): Delighted Halfling 1/2; Scion of the Ur-Dragon 4/4; Ancient Copper Dragon 6/5 | hand cards: Battlefield Forge(land); Relic of Sauron(4); Mountain(land); Deserted Beach(land); Swamp(land); Make Your Move(3); Scorned Villager(2); Broken Wings(3); Jungle Hollow(land); Rugged Highlands(land); Burnished Hart(3); Llanowar Elves(1); Shivan Reef(land); Forest(land); Dispelling Exhale(2)
+Information: BOARD turn 33 (Dominic) | Alec | out
+Phase: Dominic's Upkeep step
+Phase: Dominic's Draw step
+Phase: Dominic's Main phase, precombat
+Land: Dominic played Shivan Reef (228)
+Phase: Dominic's Beginning of Combat Step
+Add To Stack: Jemsh activated Whirler Virtuoso
+Add To Stack: Jemsh activated Whirler Virtuoso
+Life: Life: Dominic 8 > 5
+Add To Stack: Dominic cast Broken Wings targeting [Terror of the Peaks (117)]
+Life: Life: Dominic 5 > 2
+Add To Stack: Dominic cast Make Your Move targeting [Terror of the Peaks (421)]
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Zone Change: Terror of the Peaks (421) was put into nowhere (token) from Battlefield.
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Zone Change: Terror of the Peaks (117) was put into another zone from Battlefield.
+Zone Change: Thopter Token (440) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Dominic]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Dominic]
+Life: Life: Dominic 2 > 1
+Life: Life: Dominic 1 > 0
+Zone Change: Thornwood Falls (271) was put into another zone from Battlefield.
+Zone Change: Delighted Halfling (283) was put into another zone from Battlefield.
+Zone Change: Turbulent Shore (293) was put into another zone from Battlefield.
+Zone Change: Plains (297) was put into another zone from Battlefield.
+Zone Change: Scion of the Ur-Dragon (302) was put into another zone from Battlefield.
+Zone Change: Turbulent Crater (206) was put into another zone from Battlefield.
+Zone Change: Ancient Copper Dragon (212) was put into None from Battlefield.
+Zone Change: Ghostly Prison (221) was put into another zone from Battlefield.
+Zone Change: Shivan Reef (228) was put into another zone from Battlefield.
+Zone Change: Command Tower (233) was put into another zone from Battlefield.
+Zone Change: Temple of Epiphany (250) was put into another zone from Battlefield.
+Zone Change: Arcane Signet (251) was put into another zone from Battlefield.
+Zone Change: Thopter Token (442) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Doctor Doom, King of Latveria (100)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Doctor Doom, King of Latveria (100)]
+Add To Stack: Jemsh activated Whirler Virtuoso
+Zone Change: Thopter Token (444) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Doctor Doom, King of Latveria (100)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Derand]
+Life: Life: Derand 22 > 21
+Zone Change: Doctor Doom, King of Latveria (100) was put into another zone from Battlefield.
+Phase: Dominic's Declare Attackers Step
+Phase: Dominic's End of Combat Step
+Phase: Dominic's Main phase, postcombat
+Phase: Dominic's End step
+Phase: Dominic's Cleanup step
+Turn: Turn 34 (Derand)
+Information: BOARD turn 34 (Derand) | Derand | life 21 | hand 6 | lands 6 (6 untapped) | open mana 6 | commander Command | creatures 3 (3 untapped): Tombstone, Career Criminal 4/4; Moonstone, Harsh Mistress 2/4; Chameleon, Master of Disguise 2/4 | hand cards: hidden
+Information: BOARD turn 34 (Derand) | Jemsh | life 23 | hand 5 | lands 6 (0 untapped) | open mana 0 | commander Battlefield | creatures 8 (6 untapped): Satya, Aetherflux Genius 3/5*; Whirler Virtuoso 2/3 x3; Terror of the Peaks 5/4*; Thopter Token 1/1 x3 | hand cards: hidden
+Information: BOARD turn 34 (Derand) | Dominic | out
+Information: BOARD turn 34 (Derand) | Alec | out
+Phase: Derand's Upkeep step
+Add To Stack: Derand triggered Tri-Sentinel, Act of Vengeance
+Phase: Derand's Draw step
+Phase: Derand's Main phase, precombat
+Add To Stack: Derand cast Living Laser
+Zone Change: Living Laser (95) was put onto the Battlefield under Derand.
+Add To Stack: Derand cast Talisman of Dominance
+Zone Change: Talisman of Dominance (35) was put onto the Battlefield under Derand.
+Phase: Derand's Beginning of Combat Step
+Phase: Derand's Declare Attackers Step
+Add To Stack: Derand triggered Living Laser
+Add To Stack: Derand triggered Doom's Time Platform targeting [The Squadron Sinister (27)]
+Phase: Derand's Declare Blockers Step
+Combat: Derand assigned Chameleon, Master of Disguise (18), Moonstone, Harsh Mistress (9), Tombstone, Career Criminal (92), Living Laser (95) to attack Jemsh.
+Phase: Derand's First Strike Damage Step
+Combat: Jemsh didn't block Chameleon, Master of Disguise (18).
+Combat: Jemsh assigned Thopter Token (440) to block Moonstone, Harsh Mistress (9).
+Combat: Jemsh assigned Thopter Token (444), Thopter Token (442) to block Tombstone, Career Criminal (92).
+Combat: Jemsh assigned Whirler Virtuoso (419) to block Living Laser (95).
+Phase: Derand's Combat Damage Step
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Zone Change: Whirler Virtuoso (419) was put into nowhere (token) from Battlefield.
+Zone Change: Thopter Token (440) was put into nowhere (token) from Battlefield.
+Zone Change: Thopter Token (442) was put into nowhere (token) from Battlefield.
+Zone Change: Thopter Token (444) was put into nowhere (token) from Battlefield.
+Life: Life: Jemsh 23 > 19
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Add To Stack: Jemsh triggered Aetherworks Marvel
+Phase: Derand's Main phase, postcombat
+Phase: Derand's End step
+Add To Stack: Derand triggered Living Laser
+Phase: Derand's Cleanup step
+Turn: Turn 35 (Jemsh)
+Information: BOARD turn 35 (Jemsh) | Derand | life 21 | hand 5 | lands 6 (1 untapped) | open mana 1 | commander Command | creatures 4 (0 untapped): Tombstone, Career Criminal 4/4*; Moonstone, Harsh Mistress 2/4*; Chameleon, Master of Disguise 2/4*; Living Laser 4/4* | hand cards: hidden
+Information: BOARD turn 35 (Jemsh) | Jemsh | life 19 | hand 5 | lands 6 (6 untapped) | open mana 6 | commander Battlefield | creatures 4 (4 untapped): Satya, Aetherflux Genius 3/5; Whirler Virtuoso 2/3 x2; Terror of the Peaks 5/4 | hand cards: hidden
+Information: BOARD turn 35 (Jemsh) | Dominic | out
+Information: BOARD turn 35 (Jemsh) | Alec | out
+Phase: Jemsh's Upkeep step
+Phase: Jemsh's Draw step
+Phase: Jemsh's Main phase, precombat
+Land: Jemsh played Plains (187)
+Add To Stack: Jemsh cast Skyclave Apparition
+Zone Change: Skyclave Apparition (153) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Skyclave Apparition targeting [Doom's Time Platform (30)]
+Add To Stack: Jemsh triggered Skyclave Apparition targeting [Chameleon, Master of Disguise (18)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Tombstone, Career Criminal (92)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Derand]
+Life: Life: Derand 21 > 19
+Zone Change: Chameleon, Master of Disguise (18) was put into another zone from Battlefield.
+Zone Change: Doom's Time Platform (30) was put into another zone from Battlefield.
+Phase: Jemsh's Beginning of Combat Step
+Phase: Jemsh's Declare Attackers Step
+Add To Stack: Jemsh triggered Stone Idol Generator
+Add To Stack: Jemsh triggered Satya, Aetherflux Genius targeting [Skyclave Apparition (153)]
+Add To Stack: Jemsh triggered Stone Idol Generator
+Add To Stack: Jemsh triggered Stone Idol Generator
+Add To Stack: Jemsh triggered Stone Idol Generator
+Zone Change: Skyclave Apparition (447) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Skyclave Apparition targeting [Talisman of Dominance (35)]
+Add To Stack: Jemsh triggered Skyclave Apparition targeting [Arcane Signet (43)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Tombstone, Career Criminal (92)]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Derand]
+Life: Life: Derand 19 > 17
+Zone Change: Tombstone, Career Criminal (92) was put into another zone from Battlefield.
+Zone Change: Arcane Signet (43) was put into another zone from Battlefield.
+Zone Change: Talisman of Dominance (35) was put into another zone from Battlefield.
+Phase: Jemsh's Declare Blockers Step
+Combat: Jemsh assigned Terror of the Peaks (438), Satya, Aetherflux Genius (201), Whirler Virtuoso (126), Whirler Virtuoso (415), Skyclave Apparition (447) to attack Derand.
+Phase: Jemsh's End of Combat Step
+Life: Life: Derand 17 > 3
+Phase: Jemsh's Main phase, postcombat
+Add To Stack: Jemsh activated Stone Idol Generator
+Zone Change: Construct Token (449) was put onto the Battlefield under Jemsh.
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Derand]
+Add To Stack: Jemsh triggered Terror of the Peaks targeting [Derand]
+Life: Life: Derand 3 > -3
+
+Game Result: Jemsh has won
