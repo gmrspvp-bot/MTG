@@ -1,6 +1,6 @@
 [metadata]
 Name=Dr. Eggman
-Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies). Added 2026-10-29, not yet played. 56 of 100 cards owned.
+Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies). Added 2026-10-29, not yet played. Budget NZ$800 for the whole deck (Scryfall cheapest printings, 2026-10-29): 10 of the original lands kept, the rest swapped for budget lands.
 [commander]
 1 Dr. Eggman
 [main]
@@ -11,7 +11,6 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Baleful Strix
 1 Bedevil
 1 Blasphemous Act
-1 Blood Crypt
 1 Bloodstained Mire
 1 Canoptek Spyder
 1 Cityscape Leveler
@@ -21,10 +20,12 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Command Tower
 1 Cyberdrive Awakener
 1 Daretti, Scrap Savant
+1 Darksteel Citadel
 1 Dauthi Voidwalker
 1 Davros, Dalek Creator
 1 Demonic Junker
 1 Dimir Signet
+1 Dragonskull Summit
 1 Drossforge Bridge
 1 Enthusiastic Mechanaut
 1 Etherium Sculptor
@@ -40,7 +41,6 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Izzet Signet
 1 Liliana's Caress
 1 Lithoform Engine
-1 Luxury Suite
 1 Malakir Rebirth
 1 Master Transmuter
 1 Mechan Assembler
@@ -59,7 +59,6 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Otawara, Soaring City
 1 Padeem, Consul of Innovation
 1 Phyrexian Metamorph
-1 Polluted Delta
 1 Rakdos Signet
 1 Reanimate
 1 Reliquary Tower
@@ -81,9 +80,11 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Sol Ring
 1 Spire of Industry
 1 Steam Vents
+1 Sulfurous Springs
 1 Swamp
 1 Talisman of Creativity
 1 Talisman of Indulgence
+1 Temple of Deceit
 1 Tergrid, God of Fright
 1 Terminate
 1 Terror Ballista
@@ -97,7 +98,6 @@ Description=Dr. Eggman (Grixis artifacts: Constructs, Robots, Gearhulks, copies)
 1 Trash for Treasure
 1 Undercity Sewers
 1 Untimely Malfunction
-1 Urza's Saga
 1 Vault of Whispers
 1 Waste Not
 1 Watery Grave
