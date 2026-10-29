@@ -4,6 +4,19 @@ Cards or abilities that behave wrongly in Forge (rules or AI), as reported by th
 Separate from the 3D table's list (`ui3d\README.md`). Noted only until someone picks one up;
 claim it in `CLAIMS.md` first.
 
+## Open
+
+- [ ] **Villainous choice lets a player pick an impossible option** (owner, 2026-10-29, Dr.
+      Eggman). Rule 701.55b (Comprehensive Rules of 2025-11-14): "a player may not choose an
+      option that is illegal or impossible" - so an opponent with an empty hand cannot pick Dr.
+      Eggman's "discards a card" and must let him put the Construct/Robot/Vehicle in. Forge 2.0.15
+      predates that wording: `VillainousChoiceEffect.resolve` hands every option in `Choices$` to
+      `chooseSpellAbilitiesForEffect` with no legality check, and the opponents in the owner's
+      game of 2026-10-29 (15:10, 15:16, 15:28, `console_2026-10-29_140835.log`) chose the discard
+      each time. Applies to every villainous choice card (Doctor Who and since). Fix idea: an agent
+      hook on `VillainousChoiceEffect.resolve` that drops options which cannot be done for that
+      player (discard with no cards in hand, sacrifice with nothing valid, ...) before the choice.
+
 ## Fixed
 
 - [x] **Lotho, Clown Car and Mr. House "not working" in the owner's game of 2026-10-20 23:31**
