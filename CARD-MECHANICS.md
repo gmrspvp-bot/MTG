@@ -4,9 +4,17 @@ Cards or abilities that behave wrongly in Forge (rules or AI), as reported by th
 Separate from the 3D table's list (`ui3d\README.md`). Noted only until someone picks one up;
 claim it in `CLAIMS.md` first.
 
-## Open
+## Fixed
 
-- [ ] **Villainous choice lets a player pick an impossible option** (owner, 2026-10-29, Dr.
+- [x] **Villainous choice lets a player pick an impossible option** (fixed 2026-10-29,
+      Stoneforge: `scripts\tools\VillainousChoiceHook.java`, an agent hook on
+      `VillainousChoiceEffect.resolve` - Forge's own resolve, with each player offered only the
+      options they can carry out: no discard with an empty hand, no sacrifice with nothing that
+      matches `SacValid`; one option left is taken without asking, logged `VILLAINAI`. Off with
+      `-Dforge.villainous.legal=false`. Test `scratch\probe\VillainousProbe.java`: Eggman vs an
+      empty hand -> Myr Battlesphere comes in (with the switch off: the opponent dodges it);
+      vs a hand of two -> free choice; The Dalek Emperor vs no creatures -> the Dalek token.
+      Applies to played games and sims.) Reported by the owner, 2026-10-29, Dr.
       Eggman). Rule 701.55b (Comprehensive Rules of 2025-11-14): "a player may not choose an
       option that is illegal or impossible" - so an opponent with an empty hand cannot pick Dr.
       Eggman's "discards a card" and must let him put the Construct/Robot/Vehicle in. Forge 2.0.15
@@ -16,8 +24,6 @@ claim it in `CLAIMS.md` first.
       each time. Applies to every villainous choice card (Doctor Who and since). Fix idea: an agent
       hook on `VillainousChoiceEffect.resolve` that drops options which cannot be done for that
       player (discard with no cards in hand, sacrifice with nothing valid, ...) before the choice.
-
-## Fixed
 
 - [x] **Lotho, Clown Car and Mr. House "not working" in the owner's game of 2026-10-20 23:31**
       (fixed 2026-10-21, Stoneforge). Not the cards: every one of the HUMAN player's mandatory

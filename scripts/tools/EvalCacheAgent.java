@@ -19,6 +19,7 @@
 //   forge.game.phase.PhaseHandler.onPhaseBegin                  -> CombatGuardHook (no crash if a rollback left no Combat)
 //   forge.game.ability.effects.RollDiceEffect.rollDiceForPlayer
 //     / rollAction, forge.game.trigger.TriggerRolledDie.performTest -> DiceIgnoreHook (house rule: ignored dice still seen)
+//   forge.game.ability.effects.VillainousChoiceEffect.resolve  -> VillainousChoiceHook (rule 701.55b: no impossible options)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -69,6 +70,9 @@ public class EvalCacheAgent {
          "(IIILjava/util/List;Ljava/util/List;Ljava/util/Map;Ljava/util/Set;Lforge/game/player/Player;Ljava/util/Map;)Ljava/util/List;",
          "DiceIgnoreHook", "static"},
         {"forge/game/trigger/TriggerRolledDie", "performTest", "(Ljava/util/Map;)Z", "DiceIgnoreHook", "instance"},
+        // Rule 701.55b: a villainous choice offers only the options that player can carry out.
+        {"forge/game/ability/effects/VillainousChoiceEffect", "resolve", "(Lforge/game/spellability/SpellAbility;)V",
+         "VillainousChoiceHook", "instance"},
         // A seat the AI is holding can be taken by whoever joins next (SeatClaimHook). Two
         // halves: let the login in, then hand the live Player back to a human controller.
         {"forge/gamemodes/net/server/FServerManager$RegisterClientHandler", "channelRead",
