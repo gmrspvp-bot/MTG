@@ -38,6 +38,10 @@ abstract class TableHud extends TableScene {
         Matrix4 flat = new Matrix4().setToOrtho2D(0, 0, w, h);
         beatClock += frameDt;
         noticeChanges();
+        // Everything the statistics panel knows that a Snapshot cannot say is gathered here,
+        // one reading a frame, whether the panel is open or not - a total that only started
+        // counting when you opened the panel would be worthless.
+        stats.sample(snap, frameDt);
 
         drawCardBadges(flat);
         // The phase panel's background, BEFORE the label pass below: drawn after it (as it was),
@@ -131,6 +135,9 @@ abstract class TableHud extends TableScene {
         if (phaseBannerAge >= 0f) drawPhaseBanner(w, h, flat);
         if (respondAge >= 0f) drawResponseBanner(w, h, flat);
         drawToast(w, flat);
+        drawStatsButton(w, h, flat);
+        if (showStats) drawStatsPanel(w, h, flat);
+        else statsPanel[2] = 0f;               // shut: it must stop swallowing clicks
         if (showLog) drawEventLog(w, h, flat);
         if (snap.gameOver) drawGameOver(w, h, flat);
         // Last, so the hovered card sits over every label rather than having them bleed through.
@@ -352,6 +359,192 @@ abstract class TableHud extends TableScene {
             font.draw(ui, lines.get(i), x + 10f, top - 30f - i * LOG_LINE);
         }
         ui.end();
+    }
+
+    /**
+     * The Statistics button, beside the phase panel.
+     *
+     * The owner asked for it "in the top right beside the round window" (2026-10-31). The round
+     * window is the phase panel, and that is top-LEFT (PP_X is 14), so this sits against its
+     * right edge - beside the thing named rather than in the opposite corner, where the bug cog
+     * and the game log already live.
+     */
+    void drawStatsButton(int w, int h, Matrix4 flat) {
+        float bw = 92f * PP_SCALE, bh = 24f * PP_SCALE;
+        float x = PP_X + PP_W + 8f, y = h - 14f - bh;
+        statsBtn[0] = x; statsBtn[1] = y; statsBtn[2] = bw; statsBtn[3] = bh;
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        boolean hot = inRect(statsBtn, mx, my);
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        if (showStats) shapes.setColor(0.16f, 0.42f, 0.52f, 0.96f);
+        else shapes.setColor(hot ? 0.10f : 0.04f, hot ? 0.26f : 0.14f, hot ? 0.34f : 0.20f, 0.90f);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(0.24f, 0.66f, 0.80f, showStats || hot ? 1f : 0.55f);
+        shapes.rect(x, y + bh - 2f, bw, 2f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        font.setColor(showStats || hot ? 0.86f : 0.58f, showStats || hot ? 0.94f : 0.72f, 1f, 1f);
+        font.draw(ui, "Statistics", x, y + bh - 7f, bw, 1, false);
+        ui.end();
+    }
+
+    /**
+     * The statistics panel: where the game actually is, past the life totals on the rail.
+     *
+     * Three blocks, in the order someone glances at them. A header with how long this has taken.
+     * A row per seat - life with a per-turn sparkline, board, cards, what has been cast. Then the
+     * superlatives, which are the part worth reading out loud.
+     *
+     * Everything over time comes from {@link Stats}, which has been counting since the window
+     * opened; everything about right now is read straight off the snapshot.
+     */
+    void drawStatsPanel(int w, int h, Matrix4 flat) {
+        List<Snapshot.SeatV> seats = snap.seats;
+        if (seats.isEmpty()) return;
+        float rowH = 46f, headH = 58f, footH = 92f;
+        float pw = Math.min(w - 80f, 760f), ph = headH + seats.size() * rowH + footH;
+        float x = (w - pw) / 2f, top = h / 2f + ph / 2f, y = top - ph;
+        statsPanel[0] = x; statsPanel[1] = y; statsPanel[2] = pw; statsPanel[3] = ph;
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.02f, 0.07f, 0.11f, 0.94f);
+        shapes.rect(x, y, pw, ph);
+        shapes.setColor(0.24f, 0.66f, 0.80f, 1f);
+        shapes.rect(x, top - 3f, pw, 3f);
+        // Life sparklines, drawn as bars in the shape pass so the text pass stays one batch.
+        for (int i = 0; i < seats.size(); i++) {
+            Stats.Seat st = stats.get(seats.get(i).name);
+            float ry = top - headH - (i + 1) * rowH;
+            drawSpark(st, x + pw - 152f, ry + 8f, 140f, rowH - 18f, seats.get(i).isYou);
+        }
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        font.setColor(0.62f, 0.84f, 0.96f, 1f);
+        font.draw(ui, "STATISTICS", x + 14f, top - 16f);
+        font.setColor(0.42f, 0.58f, 0.70f, 1f);
+        font.draw(ui, Stats.clock(stats.elapsed) + " elapsed   " + stats.turns + " turns"
+            + (stats.turns > 0 ? "   " + Stats.clock(stats.elapsed / stats.turns) + " a turn" : ""),
+            x + 120f, top - 16f);
+        font.draw(ui, "T closes", x + pw - 70f, top - 16f);
+        font.setColor(0.34f, 0.46f, 0.56f, 1f);
+        font.draw(ui, "player / life", x + 14f, top - 38f);
+        font.draw(ui, "board", x + 150f, top - 38f);
+        font.draw(ui, "cards", x + 330f, top - 38f);
+        font.draw(ui, "cast", x + 450f, top - 38f);
+        font.draw(ui, "life lost", x + 500f, top - 38f);
+        font.draw(ui, "life, per turn", x + pw - 152f, top - 38f);
+
+        for (int i = 0; i < seats.size(); i++) {
+            Snapshot.SeatV v = seats.get(i);
+            Stats.Seat st = stats.get(v.name);
+            float ry = top - headH - (i + 1) * rowH;
+            Snapshot.CardV big = Stats.biggest(v);
+            Snapshot.CmdDmg cmd = Stats.worstCommander(v);
+
+            if (v.lost) font.setColor(0.42f, 0.36f, 0.36f, 1f);
+            else if (v.isYou) font.setColor(0.70f, 0.95f, 0.78f, 1f);
+            else if (v.active) font.setColor(1f, 0.88f, 0.56f, 1f);
+            else font.setColor(0.76f, 0.84f, 0.92f, 1f);
+            font.draw(ui, v.name + (v.lost ? " (out)" : v.isYou ? " (you)" : ""), x + 14f, ry + rowH - 10f);
+
+            font.setColor(0.86f, 0.90f, 0.96f, 1f);
+            font.draw(ui, String.valueOf(v.life), x + 14f, ry + rowH - 28f);
+            font.setColor(0.52f, 0.64f, 0.74f, 1f);
+            int sinceTurn = v.life - st.lifeAtTurnStart;
+            font.draw(ui, (sinceTurn == 0 ? "" : (sinceTurn > 0 ? "+" : "") + sinceTurn + " this turn"),
+                x + 46f, ry + rowH - 28f);
+
+            font.setColor(0.72f, 0.82f, 0.90f, 1f);
+            font.draw(ui, Stats.boardPower(v) + " power, " + v.creatures.size() + " creature"
+                + (v.creatures.size() == 1 ? "" : "s"), x + 150f, ry + rowH - 10f);
+            font.setColor(0.48f, 0.60f, 0.70f, 1f);
+            font.draw(ui, v.lands.size() + " lands (" + Stats.untappedLands(v) + " up), "
+                + v.others.size() + " other", x + 150f, ry + rowH - 28f);
+
+            font.setColor(0.72f, 0.82f, 0.90f, 1f);
+            font.draw(ui, v.handSize + " hand, " + v.librarySize + " library", x + 330f, ry + rowH - 10f);
+            font.setColor(0.48f, 0.60f, 0.70f, 1f);
+            font.draw(ui, v.graveyardSize + " yard, " + v.exileSize + " exile", x + 330f, ry + rowH - 28f);
+
+            font.setColor(0.72f, 0.82f, 0.90f, 1f);
+            font.draw(ui, String.valueOf(st.spellsCast), x + 450f, ry + rowH - 10f);
+            font.setColor(1f, 0.62f, 0.55f, 1f);
+            font.draw(ui, String.valueOf(st.lifeLost), x + 500f, ry + rowH - 10f);
+            font.setColor(0.48f, 0.60f, 0.70f, 1f);
+            String under = big != null ? "biggest " + big.name + " " + big.power + "/" + big.toughness : "";
+            if (cmd != null) under = (under.isEmpty() ? "" : under + "   ") + "cmd dmg " + cmd.amount + " from " + cmd.from;
+            font.draw(ui, fit(under, 148f, new GlyphLayout()), x + 450f, ry + rowH - 28f);
+        }
+
+        // ---- the superlatives -------------------------------------------------
+        Stats.Seat most = null, bled = null;
+        for (Stats.Seat st : stats.all()) {
+            if (most == null || st.spellsCast > most.spellsCast) most = st;
+            if (bled == null || st.lifeLost > bled.lifeLost) bled = st;
+        }
+        Snapshot.CardV fattest = null; String fattestWho = "";
+        int mostPerms = -1; String mostPermsWho = "";
+        for (Snapshot.SeatV v : seats) {
+            Snapshot.CardV b = Stats.biggest(v);
+            if (b != null && (fattest == null || Stats.intOf(b.power) > Stats.intOf(fattest.power))) {
+                fattest = b; fattestWho = v.name;
+            }
+            int p = v.creatures.size() + v.others.size() + v.lands.size();
+            if (p > mostPerms) { mostPerms = p; mostPermsWho = v.name; }
+        }
+        float fy = y + footH - 14f;
+        font.setColor(0.42f, 0.58f, 0.70f, 1f);
+        font.draw(ui, "NOTABLE", x + 14f, fy);
+        font.setColor(0.70f, 0.80f, 0.88f, 1f);
+        line(x + 14f, fy - 18f, "Most spells", most == null ? "-" : most.name + "  " + most.spellsCast);
+        line(x + 14f, fy - 34f, "Bled most", bled == null ? "-" : bled.name + "  " + bled.lifeLost);
+        line(x + 270f, fy - 18f, "Biggest creature",
+            fattest == null ? "nobody has one" : fattest.name + " " + fattest.power + "/" + fattest.toughness + "  (" + fattestWho + ")");
+        line(x + 270f, fy - 34f, "Most permanents", mostPermsWho + "  " + mostPerms);
+        line(x + 270f, fy - 50f, "Longest turn",
+            stats.longestTurnBy.isEmpty() ? "-" : Stats.clock(stats.longestTurn) + "  (" + stats.longestTurnBy + ")");
+        line(x + 14f, fy - 50f, "First blood",
+            stats.firstBloodOn.isEmpty() ? "nobody yet" : stats.firstBloodOn + "  on turn " + stats.firstBloodTurn);
+        ui.end();
+    }
+
+    /** One "label  value" pair in the notable block. */
+    private void line(float x, float y, String label, String value) {
+        font.setColor(0.44f, 0.56f, 0.66f, 1f);
+        font.draw(ui, label, x, y);
+        font.setColor(0.78f, 0.88f, 0.96f, 1f);
+        font.draw(ui, value, x + 120f, y);
+    }
+
+    /**
+     * A seat's life at the start of each of its turns, as bars.
+     *
+     * Scaled against the highest life anyone has reached, not against this seat's own, so the
+     * four sparklines can be compared to each other - which is the only reason to draw them side
+     * by side. Drawn inside the caller's shape pass.
+     */
+    private void drawSpark(Stats.Seat st, float x, float y, float w, float h, boolean you) {
+        if (st.lifeLine.size() < 2) return;
+        int top = 1;
+        for (Stats.Seat o : stats.all()) top = Math.max(top, Math.max(o.peakLife, 1));
+        int n = st.lifeLine.size();
+        float bw = Math.max(1.5f, w / n - 1f);
+        for (int i = 0; i < n; i++) {
+            float frac = Math.max(0f, Math.min(1f, st.lifeLine.get(i) / (float) top));
+            float bh = Math.max(1f, frac * h);
+            if (you) shapes.setColor(0.40f, 0.80f, 0.55f, 0.55f + 0.45f * (i / (float) n));
+            else shapes.setColor(0.30f, 0.52f, 0.68f, 0.45f + 0.45f * (i / (float) n));
+            shapes.rect(x + i * (w / n), y, bw, bh);
+        }
     }
 
     static Color logColour(String type) {

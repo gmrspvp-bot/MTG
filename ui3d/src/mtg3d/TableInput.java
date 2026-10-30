@@ -44,6 +44,7 @@ abstract class TableInput extends TableHud {
         o.add(new OptionPanel.Option("Resume", "back to the table", null));
         o.add(new OptionPanel.Option("Sound: " + (cues != null && cues.muted() ? "off" : "on"), "M", null));
         o.add(new OptionPanel.Option("Game log: " + (showLog ? "shown" : "hidden"), "L", null));
+        o.add(new OptionPanel.Option("Statistics: " + (showStats ? "shown" : "hidden"), "T, or the button by the phase panel", null));
         o.add(new OptionPanel.Option("Follow the turn: " + (followTurn ? "on" : "off"), "the camera walks to whoever's turn it is", null));
         o.add(new OptionPanel.Option("Undo", "takes back the last action Forge allows (tapping for mana, mostly)", null));
         o.add(new OptionPanel.Option("Concede", "asks first", null));
@@ -54,11 +55,12 @@ abstract class TableInput extends TableHud {
             switch (picked.get(0)) {
                 case 1: if (cues != null) cues.toggleMute(); openMenu(); break;
                 case 2: showLog = !showLog; openMenu(); break;
-                case 3: followTurn = !followTurn; lastActiveSeat = activeSeat(); openMenu(); break;
-                case 4:
+                case 3: showStats = !showStats; openMenu(); break;
+                case 4: followTurn = !followTurn; lastActiveSeat = activeSeat(); openMenu(); break;
+                case 5:
                     if (Gui3D.active()) Gui3D.undo(); else System.out.println("UI3D: undo (demo)");
                     break;
-                case 5: {
+                case 6: {
                     List<OptionPanel.Option> yn = new ArrayList<>();
                     yn.add(new OptionPanel.Option("Yes, concede", "you lose this game", null));
                     yn.add(new OptionPanel.Option("No", "back to the game", null));
@@ -69,8 +71,8 @@ abstract class TableInput extends TableHud {
                     });
                     break;
                 }
-                case 7: GraphicsQuality.next(); applyGraphics(); openMenu(); break;
-                case 6: openMenu(); break;
+                case 8: GraphicsQuality.next(); applyGraphics(); openMenu(); break;
+                case 7: openMenu(); break;         // "Keys" is a reminder, not an action
                 default: break;
             }
         });
@@ -884,6 +886,20 @@ abstract class TableInput extends TableHud {
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
+        // The Statistics button, and the panel it opens, take their clicks before the board does
+        // - the panel sits over the middle of the table, and a click meant for it must not cast
+        // whatever card is underneath. Outside the Gui3D check below so both work in the demo.
+        {
+            float mx = Gdx.input.getX(), my = Gdx.graphics.getHeight() - Gdx.input.getY();
+            if (inRect(statsBtn, mx, my)) {
+                if (clickedCard()) showStats = !showStats;
+                return;
+            }
+            if (showStats && inRect(statsPanel, mx, my)) {
+                clickedCard();                 // swallow it; the panel has nothing to click yet
+                return;
+            }
+        }
         // The prompt bar's buttons take the click before the board does, or pressing OK would
         // also try to play whatever card happens to be behind it.
         if (Gui3D.active() && Gui3D.pendingAsk() == null) {
@@ -901,6 +917,7 @@ abstract class TableInput extends TableHud {
         // A click on an empty graveyard or exile pad browses that pile (any seat's: both are public).
         if (boardClick && hovered == null && openPileUnderMouse()) return;
         if (Keys3D.just(Input.Keys.L)) showLog = !showLog;
+        if (Keys3D.just(Input.Keys.T)) showStats = !showStats;
         if (boardClick && Gui3D.active()) {
             if (hovered != null) {
                 // Remembered so targeting mode can draw its arc from the spell being cast.

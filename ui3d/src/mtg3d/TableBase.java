@@ -795,6 +795,18 @@ abstract class TableBase extends ApplicationAdapter {
     /** The event log is on unless L has hidden it. */
     boolean showLog = !"false".equalsIgnoreCase(System.getProperty("forge.ui3d.log"));
 
+    /** The statistics panel. Off until asked for, since it covers the middle of the table. */
+    boolean showStats;
+
+    /**
+     * Running totals for that panel, gathered every frame whether it is open or not.
+     *
+     * It has to count from the start of the game: a "spells cast" that began counting when you
+     * opened the panel would say nothing. Reading a Snapshot the renderer already holds, from
+     * the render thread only, so it cannot race the game.
+     */
+    final Stats stats = new Stats();
+
     static final float LOG_W = 400f, LOG_LINE = 17f;
 
     /** The text cut to fit a pixel width, with an ellipsis if it had to be cut. */
@@ -817,6 +829,12 @@ abstract class TableBase extends ApplicationAdapter {
 
     /** "Next phase": drawn by TableHud, clicked in TableInput, so the rect lives here. */
     final float[] nextBtn = { 0f, 0f, 0f, 0f };
+
+    /** The Statistics button beside the phase panel - same split, same reason. */
+    final float[] statsBtn = { 0f, 0f, 0f, 0f };
+
+    /** The open statistics panel, so a click on it is swallowed instead of reaching the board. */
+    final float[] statsPanel = { 0f, 0f, 0f, 0f };
 
     boolean nextOn;
 
