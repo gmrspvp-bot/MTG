@@ -7,8 +7,9 @@ rectangle it has always been and nothing is different. This is purely the door b
 
 > ### This is a work in progress
 >
-> Two cards' worth of models exist (Athreos, both forms) and they have been looked at in the demo
-> and in a real game. Everything else here is scaffolding that works but has barely been used.
+> Three cards' worth of models exist: Athreos (both forms), which have been looked at in the demo
+> and in a real game, and Kaalia of the Vast (2026-10-30), which has been built and checked but
+> **not yet seen on a table**. Everything else here is scaffolding that works but has barely been used.
 >
 > Expect to hit rough edges, and expect this document to be wrong in places as the thing settles:
 >
@@ -127,6 +128,12 @@ without adding a dependency. What is missing is not the engine, it is the art an
 can write one directly, which is how `sample-statue.g3dj` was made — a tapered obelisk, 84
 vertices, flat-shaded. For simple carved shapes that is often less work than a modelling tool,
 and it stays in version control as text that can be diffed.
+
+**`make-athreos.py` is the worked example**, and `make-kaalia.py` is the second one - it adds a
+strut between two arbitrary points (arms and wing bones, which a vertical tube cannot do), a
+tapered slab with thickness (feathers and the sword blade), a two-sided triangle for the demon
+wing's membrane, and the three load-silently checks below run as asserts at the end of the script
+rather than being left to the reader.
 
 **`make-athreos.py` is the worked example.** Run it with any Python 3 and it rewrites both
 Athreos models in place:

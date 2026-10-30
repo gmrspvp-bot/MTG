@@ -12,7 +12,7 @@ has claimed. Renaming a deck means renaming both, or the picker and the file dis
 
 | Owner | Decks |
 |---|---|
-| Dominic | Adrix and Nev, Angels, DackToCapsFace, Frodo, Haytham Kenway, Olivia, Scion, Tinybones |
+| Dominic | Adrix and Nev, Angels, DackToCapsFace, Frodo, Haytham Kenway, Olivia, Scion, Sigurd, Tinybones |
 | Alec | Athreos (was `Alec.dck`), Eivor, Eldrazi, Kotori |
 | Derand | Captain America v7, Deadpool v3, Doom Prevails v3, Dr. Eggman, Mr House v4 |
 | Kieran | Rin and Seri |
@@ -42,6 +42,7 @@ keep their original names - they are history, and `play.ps1` and `run-sims.ps1` 
 | Kotori | `Alec - Kotori.dck` | Kotori, Pilot Prodigy (Azorius vehicles/artifacts): 14 Vehicles, 35 artifacts, 34 lands. Added 2026-10-29 by the owner; printings kept as supplied, no upgrades yet |
 | Haytham Kenway | `Dominic - Haytham Kenway.dck` | Haytham Kenway (Azorius Knights). Built 2026-10-29 to a NZD 800 Card Kingdom budget, then revised the same day against EDHREC (706 decks; Knights 52 vs Voltron 2, so go-wide was the consensus too). Herald of Hoofbeats gives every other Knight horsemanship - effectively unblockable - and Shields of Velis Vel turns a whole opponent's board into Assassins, which Haytham's protection then walls off. Not yet simmed, and most of it isn't owned |
 | Goreclaw | `Other - Goreclaw.dck` | Goreclaw, Terror of Qal Sisma (mono-green stompy). Built 2026-10-29 by Claude as a deck tuned to how the Forge **AI** actually plays, using this repo's own measured gaps (`AI-TODO.md`): it taps out every main phase, attacks on 50-81% of turns, fires removal on sight and barely uses activated abilities. So: one colour (no mana-base failures), ramp to tap out into, attack triggers instead of activations (Goreclaw, Pathbreaker Ibex, Toski), trample everywhere to beat the AI's over-blocking, and few fat threats rather than a wide board the pod's sweepers punish. Heroic Intervention and Nykthos were cut for exactly this reason. 0 Game Changers - every green one needs judgement the AI hasn't got. USD 374 / NZD 666 at Card Kingdom; not yet simmed |
+| Sigurd | `Dominic - Sigurd.dck` | Sigurd, Jarl of Ravensthorpe (Naya). Added 2026-10-30 by the owner; printings kept as supplied, no upgrades yet. A Saga deck, which is what Sigurd is for: his boast puts a lore counter on one of your Sagas or takes one off, and every lore counter added puts a +1/+1 counter on a creature. 22 Sagas, 35 enchantments, 36 lands, with Satsuki, The Ozolith, Power Conduit, Nesting Grounds and Karn's Bastion to move counters around. 1 Game Changer (Worldly Tutor) |
 
 Archived in `archive\`: Captain America original to v6 (v6 was the default for every test up to 2026-10-18), Deadpool original and v2, Doom Prevails original and v2, Mr House original to v3, Tidus original and v2. Neither `play.ps1` nor `run-sims.ps1` looks in `archive\`: to sim an old version again, copy it back up for the run.
 
