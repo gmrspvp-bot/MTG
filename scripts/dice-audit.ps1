@@ -19,7 +19,7 @@ foreach ($dir in $RunDirs) {
             $l = $lines[$i]
             if ($l -match '^Ai\(1\)-.+ vs ') {
                 $seat = $null; $houseIn = 0
-                foreach ($m in [regex]::Matches($l, 'Ai\((\d)\)-(.+?)(?= vs |\s+-\s+\w+ games? of|$)')) { if ($m.Groups[2].Value.Trim() -like 'Mr House*') { $seat = $m.Groups[1].Value } }
+                foreach ($m in [regex]::Matches($l, 'Ai\((\d)\)-(.+?)(?= vs |\s+-\s+\w+ games? of|$)')) { if ($m.Groups[2].Value.Trim() -like '*Mr House*') { $seat = $m.Groups[1].Value } }
                 continue
             }
             if (-not $seat) { continue }

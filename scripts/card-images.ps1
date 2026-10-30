@@ -24,7 +24,7 @@
     Check every commander deck and list what has no picture.
 
 .EXAMPLE
-    .\scripts\card-images.ps1 -Deck Alec, "Claudes Neyali" -Download
+    .\scripts\card-images.ps1 -Deck "Alec - Athreos", "Claude - Neyali" -Download
     Fetch the missing pictures for two decks.
 
 .EXAMPLE

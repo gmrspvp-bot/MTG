@@ -4,24 +4,45 @@ Only the latest version of each deck lives here, so Forge's deck picker shows on
 
 This folder is the source of truth. Every launch, `play.ps1` makes `forge-data\decks\commander` match it exactly: decks that are not here, or that differ from the copy here, are **moved** to `forge-data\decks-archive\` (never deleted) and the version from here is copied in. That keeps both machines showing the same picker without anyone tidying by hand — before it did that, the second owner's picker still listed all 31 decks after the archive commit, and his `Angels` had been resaved through Forge's deck editor as `Deck Type=Constructed` with the `[commander]` section gone, which a copy-if-newer rule could never have put right. `play.ps1 -DecksOnly` does just that alignment and exits, without starting Forge.
 
+## Who owns what
+
+Every deck is named `<owner> - <deck>` (2026-10-30, at the owner's request), in the file name and in the
+`Name=` the Forge deck picker shows, so the picker groups by owner. `Other` is for decks nobody in the pod
+has claimed. Renaming a deck means renaming both, or the picker and the file disagree.
+
+| Owner | Decks |
+|---|---|
+| Dominic | Adrix and Nev, Angels, DackToCapsFace, Frodo, Haytham Kenway, Olivia, Scion, Tinybones |
+| Alec | Athreos (was `Alec.dck`), Eivor, Eldrazi, Kotori |
+| Derand | Captain America v7, Deadpool v3, Doom Prevails v3, Dr. Eggman, Mr House v4 |
+| Kieran | Rin and Seri |
+| James | Satya |
+| Claude | Neyali (was `Claudes Neyali.dck`) |
+| Other | Baylen, Caelorna - Octopus Fortress, Caesar - Bulk Legion, Cloud, Goreclaw, Tidus v3, Toph, Vivi, Zinnia |
+
+Sim logs record the deck name, so a deck's name now carries its owner's prefix into every new
+`results\` run. `scripts\house-stats.ps1` and `scripts\dice-audit.ps1` match Mr House by deck name and
+were widened to accept the prefix; they still read the older logs that have none. Decks in `archive\`
+keep their original names - they are history, and `play.ps1` and `run-sims.ps1` never look there.
+
 **Use these in simulation runs:**
 
 | Deck | File to run | Notes |
 |---|---|---|
-| Captain America | `Captain America v7.dck` | **Default.** Since 2026-10-19 10:55 this is the former v8 (the owner had the first v7 replaced): v6 + 25 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver, Genji Glove, Leyline Axe, Captain America's Shield, Blasphemous Act, Winds of Abandon...); most of these cards aren't owned yet. Full list in the deck's Description. Results logged as "Captain America v7" before that time are the first v7 (kept in git history) |
-| Mr House | `Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
-| Doom Prevails | `Doom Prevails v3.dck` | bulk upgrades |
-| Tidus | `Tidus v3.dck` | bulk upgrades |
-| Deadpool | `Deadpool v3.dck` | bulk upgrades |
-| Angels | `Angels.dck` | Seluma, Light of Aysen. Added Oct 2026 from the second owner's collection; no upgrades yet |
-| Olivia | `Olivia.dck` | Olivia, Opulent Outlaw. Added Oct 2026 from the second owner's collection; no upgrades yet |
-| Scion | `Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
-| Tinybones | `Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
-| Baylen | `Baylen.dck` | Baylen, the Haymaker (Naya). Added 2026-10-22 from `manabox\decks\baylen.txt`, printings kept. The AI can't play Sungrass Prairie or Bolt Bend |
-| Kotori | `Kotori.dck` | Kotori, Pilot Prodigy (Azorius vehicles/artifacts): 14 Vehicles, 35 artifacts, 34 lands. Added 2026-10-29 by the owner; printings kept as supplied, no upgrades yet |
-| Haytham Kenway | `Haytham Kenway.dck` | Haytham Kenway (Azorius Knights). Built 2026-10-29 to a NZD 800 Card Kingdom budget, then revised the same day against EDHREC (706 decks; Knights 52 vs Voltron 2, so go-wide was the consensus too). Herald of Hoofbeats gives every other Knight horsemanship - effectively unblockable - and Shields of Velis Vel turns a whole opponent's board into Assassins, which Haytham's protection then walls off. Not yet simmed, and most of it isn't owned |
-| Goreclaw | `Goreclaw.dck` | Goreclaw, Terror of Qal Sisma (mono-green stompy). Built 2026-10-29 by Claude as a deck tuned to how the Forge **AI** actually plays, using this repo's own measured gaps (`AI-TODO.md`): it taps out every main phase, attacks on 50-81% of turns, fires removal on sight and barely uses activated abilities. So: one colour (no mana-base failures), ramp to tap out into, attack triggers instead of activations (Goreclaw, Pathbreaker Ibex, Toski), trample everywhere to beat the AI's over-blocking, and few fat threats rather than a wide board the pod's sweepers punish. Heroic Intervention and Nykthos were cut for exactly this reason. 0 Game Changers - every green one needs judgement the AI hasn't got. USD 374 / NZD 666 at Card Kingdom; not yet simmed |
+| Captain America | `Derand - Captain America v7.dck` | **Default.** Since 2026-10-19 10:55 this is the former v8 (the owner had the first v7 replaced): v6 + 25 swaps chosen with the owner (Kediss, Stoneforge, Kaldra, Embercleave, Akroma's Will, Cloudsteel Kirin, The Reaver Cleaver, Genji Glove, Leyline Axe, Captain America's Shield, Blasphemous Act, Winds of Abandon...); most of these cards aren't owned yet. Full list in the deck's Description. Results logged as "Captain America v7" before that time are the first v7 (kept in git history) |
+| Mr House | `Derand - Mr House v4.dck` | v2 fixed the mana base (14% → 22.5%); v3/v4 bulk upgrades |
+| Doom Prevails | `Derand - Doom Prevails v3.dck` | bulk upgrades |
+| Tidus | `Other - Tidus v3.dck` | bulk upgrades |
+| Deadpool | `Derand - Deadpool v3.dck` | bulk upgrades |
+| Angels | `Dominic - Angels.dck` | Seluma, Light of Aysen. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Olivia | `Dominic - Olivia.dck` | Olivia, Opulent Outlaw. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Scion | `Dominic - Scion.dck` | Scion of the Ur-Dragon. Added Oct 2026 from the second owner's collection; no upgrades yet |
+| Tinybones | `Dominic - Tinybones.dck` | Tinybones, Trinket Thief. Mono-black discard, 34 Swamps. Added Oct 2026; no upgrades yet |
+| Baylen | `Other - Baylen.dck` | Baylen, the Haymaker (Naya). Added 2026-10-22 from `manabox\decks\baylen.txt`, printings kept. The AI can't play Sungrass Prairie or Bolt Bend |
+| Kotori | `Alec - Kotori.dck` | Kotori, Pilot Prodigy (Azorius vehicles/artifacts): 14 Vehicles, 35 artifacts, 34 lands. Added 2026-10-29 by the owner; printings kept as supplied, no upgrades yet |
+| Haytham Kenway | `Dominic - Haytham Kenway.dck` | Haytham Kenway (Azorius Knights). Built 2026-10-29 to a NZD 800 Card Kingdom budget, then revised the same day against EDHREC (706 decks; Knights 52 vs Voltron 2, so go-wide was the consensus too). Herald of Hoofbeats gives every other Knight horsemanship - effectively unblockable - and Shields of Velis Vel turns a whole opponent's board into Assassins, which Haytham's protection then walls off. Not yet simmed, and most of it isn't owned |
+| Goreclaw | `Other - Goreclaw.dck` | Goreclaw, Terror of Qal Sisma (mono-green stompy). Built 2026-10-29 by Claude as a deck tuned to how the Forge **AI** actually plays, using this repo's own measured gaps (`AI-TODO.md`): it taps out every main phase, attacks on 50-81% of turns, fires removal on sight and barely uses activated abilities. So: one colour (no mana-base failures), ramp to tap out into, attack triggers instead of activations (Goreclaw, Pathbreaker Ibex, Toski), trample everywhere to beat the AI's over-blocking, and few fat threats rather than a wide board the pod's sweepers punish. Heroic Intervention and Nykthos were cut for exactly this reason. 0 Game Changers - every green one needs judgement the AI hasn't got. USD 374 / NZD 666 at Card Kingdom; not yet simmed |
 
-Archived in `archive\`: Captain America original to v6 (v6 was the default for every test up to 2026-10-18), Deadpool original and v2, Doom Prevails original and v2, Mr House original to v3, Tidus original and v2. Neither `play.ps1` nor `run-sims.ps1` looks in `archive\`: to sim an old version again, copy it back up for the run. Also here: `Caelorna - Octopus Fortress.dck`, `Caesar - Bulk Legion.dck`.
+Archived in `archive\`: Captain America original to v6 (v6 was the default for every test up to 2026-10-18), Deadpool original and v2, Doom Prevails original and v2, Mr House original to v3, Tidus original and v2. Neither `play.ps1` nor `run-sims.ps1` looks in `archive\`: to sim an old version again, copy it back up for the run.
 
 Note: `scripts\convert-manabox.ps1` regenerates the *original* `.dck` files from the ManaBox exports; it never touches the v2 files. Running it now writes the originals back into this folder, next to the latest versions; move them to `archive\` again afterwards.

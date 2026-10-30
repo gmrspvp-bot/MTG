@@ -9,7 +9,7 @@ param([string] $LastStart = '18:00', [string] $Deadline = '18:40', [int] $Parall
 $pods = @(
     'Eivor,Angels,Captain America v7,Mr House v4',
     'Eivor,Doom Prevails v3,Scion,Rin and Seri',
-    'Eivor,Claudes Neyali,Deadpool v3,Olivia',
+    'Alec - Eivor,Claude - Neyali,Derand - Deadpool v3,Dominic - Olivia',
     'Eivor,Eldrazi,Tidus v3,Alec')
 $pods = @($pods[$StartPod..($pods.Count - 1)]) + @($pods[0..($StartPod - 1)] | Where-Object { $StartPod -gt 0 })
 $twice = @($pods | ForEach-Object { $_; $_ })

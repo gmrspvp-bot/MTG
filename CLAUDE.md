@@ -47,9 +47,13 @@ elsewhere. The `scripts\` ones use paths relative to the repo.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
-  -Decks "Captain America v7,Doom Prevails v3,Mr House v4,Tidus v3" -Games 40 -Parallel 6
+  -Decks "Derand - Captain America v7,Derand - Doom Prevails v3,Derand - Mr House v4,Other - Tidus v3" -Games 40 -Parallel 6
 ```
 
+- **Deck files are named `<owner> - <deck>`** since 2026-10-30 (owner's request), in the file name and
+  in the `Name=` Forge's picker shows, so the picker groups by owner; `Other` means unclaimed. Who owns
+  what is in `decks\README.md`. Older notes below use the pre-rename names. Sim logs carry the deck name,
+  so new `results\` runs carry the prefix too.
 - Current deck versions to run: **every deck in `decks\`** (owner, 2026-10-26: "add all the other
   decks as well to the sims") - 18 on that date: Captain America v7, Doom Prevails v3, Mr House v4,
   Tidus v3, Deadpool v3, Baylen (the owner's), the second owner's Angels, Olivia, Scion and
@@ -61,7 +65,7 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   the v8 deck renamed to v7. So "Captain America v7" in results before that moment (e.g. the
   2026-10-19 overnight league, 22.3%) is the **first** v7 (in git history), and "v8" results are
   today's v7. Results before 2026-10-18 used v6. Older versions, originals included, were moved to `decks\archive\` on 2026-10-22 (owner's request, so Forge's deck picker shows only current decks; their Forge copies went to `forge-data\decks-archive\`). Never delete a deck.
-  **Captain America changes now go straight into `Captain America v7.dck`** (owner's request,
+  **Captain America changes now go straight into `Derand - Captain America v7.dck`** (owner's request,
   2026-10-19: no v8); git history keeps earlier states, and `manabox\decks\captain america v7.txt`
   is kept in sync. Other decks still get a new `vN` file for improvements.
 - `-JvmArgs "-Dforge.x=y"` passes switches (e.g. `-Dforge.captain.split=false`). `scratch\run-until.ps1`
