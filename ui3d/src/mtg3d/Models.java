@@ -2,7 +2,10 @@ package mtg3d;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g3d.Material;
 import com.badlogic.gdx.graphics.g3d.Model;
+import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.ModelInstance;
 import com.badlogic.gdx.graphics.g3d.loader.G3dModelLoader;
 import com.badlogic.gdx.graphics.g3d.loader.ObjLoader;
@@ -180,6 +183,8 @@ final class Models {
         ModelInstance instance;
         AnimationController anim;
         float scale = 1f;
+        /** The emissive each lit material had before anything lit it, so it can be put back. */
+        private Map<String, Color> rest;
 
         /** Stand it at a point on the table, turned to `yaw` degrees. */
         void stand(float x, float y, float z, float yaw) {
@@ -190,6 +195,43 @@ final class Models {
 
         void update(float dt) {
             if (anim != null) anim.update(dt);
+        }
+
+        /**
+         * Light one named material of this figure, or put it back with {@link #unglow}.
+         *
+         * This is the only way the game state reaches a model. A .g3dj file knows nothing and can
+         * be told nothing - it has no script, and its one animation loops whatever is happening -
+         * so a model that should react to the board names the part that reacts and the table does
+         * the deciding. {@link TableLayout#PAIR_GLOW} is the first caller.
+         *
+         * Safe on a model that has no such material: a replaced or hand-edited file simply does
+         * not light, the same way a missing model file simply leaves the card flat.
+         *
+         * A ModelInstance copies its Model's materials, so this lights one figure and not every
+         * other copy of the same card on the table.
+         */
+        void glow(String materialId, float r, float g, float b) {
+            Material mt = instance.getMaterial(materialId);
+            if (mt == null) return;
+            remember(materialId, mt);
+            mt.set(ColorAttribute.createEmissive(r, g, b, 1f));
+        }
+
+        /** Put a lit material back to the emissive the model file gave it. */
+        void unglow(String materialId) {
+            if (rest == null) return;
+            Color was = rest.get(materialId);
+            if (was == null) return;
+            Material mt = instance.getMaterial(materialId);
+            if (mt != null) mt.set(ColorAttribute.createEmissive(was));
+        }
+
+        private void remember(String materialId, Material mt) {
+            if (rest == null) rest = new HashMap<>();
+            if (rest.containsKey(materialId)) return;
+            ColorAttribute a = (ColorAttribute) mt.get(ColorAttribute.Emissive);
+            rest.put(materialId, new Color(a == null ? Color.BLACK : a.color));
         }
     }
 

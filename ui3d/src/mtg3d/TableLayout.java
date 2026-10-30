@@ -849,6 +849,10 @@ abstract class TableLayout extends TableCamera {
         figures.clear();
         if (!FIGURES) return;
         java.util.Set<Integer> seen = new java.util.HashSet<>();
+        // Which of the paired cards each seat has out this frame, so a figure can be lit by
+        // what is standing next to it. Built once per frame rather than per figure.
+        java.util.Map<Object, java.util.Set<String>> pairsOut = pairsOnBattlefield();
+        pairGlowClock += frameDt;
         for (Drawn d : drawn) {
             if (d.card == null || d.seat == null || d.card.faceDown) continue;
             long key = figureKey(d.card.id, d.card.creature);
@@ -879,6 +883,7 @@ abstract class TableLayout extends TableCamera {
                 : (float) Math.toDegrees(-seatAngle(si, snap.seats.size())) + 180f;
             f.stand(at.x, at.y + CARD_THICK, at.z, face);
             f.update(frameDt);
+            applyPairGlow(f, d, pairsOut);
             figures.add(f);
             seen.add(d.card.id);
         }
@@ -889,6 +894,78 @@ abstract class TableLayout extends TableCamera {
             int id = (int) (k >>> 1);
             return !seen.contains(id) && !onTable(id);
         });
+    }
+
+    /**
+     * Figures that light part of themselves up while the card they belong with is on the
+     * battlefield beside them: { the card, the material on ITS OWN model to light, the card that
+     * has to be out with it }.
+     *
+     * The owner asked for Kratos's axe and Atreus's bow to glow when the two of them are out
+     * together (2026-10-30). A model file cannot do that by itself - it has no script, and its
+     * animations loop regardless of the game - so the model names a material and this table
+     * decides when it burns. Each model's glowing geometry is its own mesh part using a material
+     * nothing else in that file uses; see the note at the top of make-kratos.py.
+     *
+     * Both halves are listed because each lights its own model. Adding another pair is one more
+     * row here and one more named material in that card's script - nothing else changes, and a
+     * card with no model, or a model whose material has been renamed, simply does not light.
+     */
+    static final String[][] PAIR_GLOW = {
+        { "Kratos, Stoic Father",  "axeglow", "Atreus, Impulsive Son" },
+        { "Atreus, Impulsive Son", "bowglow", "Kratos, Stoic Father"  },
+    };
+
+    /** Seconds the paired glow has been running, for the colour cycle. */
+    private float pairGlowClock;
+
+    /**
+     * Per seat, the loose names of any PAIR_GLOW cards that seat has on the battlefield.
+     *
+     * Keyed by seat rather than globally: these are partner commanders, so "out together" means
+     * out together under one player. Two opponents each holding one half is not the pair.
+     */
+    private java.util.Map<Object, java.util.Set<String>> pairsOnBattlefield() {
+        java.util.Map<Object, java.util.Set<String>> out = new java.util.HashMap<>();
+        for (Drawn d : drawn) {
+            if (d.card == null || d.seat == null || d.card.faceDown || d.card.name == null) continue;
+            String loose = CardArt.loose(d.card.name);
+            for (String[] row : PAIR_GLOW) {
+                if (!CardArt.loose(row[0]).equals(loose)) continue;
+                out.computeIfAbsent(d.seat, k -> new java.util.HashSet<>()).add(loose);
+                break;
+            }
+        }
+        return out;
+    }
+
+    /**
+     * Light this figure's named material while its partner is out under the same seat, and put
+     * it back the moment it is not.
+     *
+     * The colour cycles rather than sitting on one hue - the owner asked for them to "glow with
+     * colour", and a steady tint reads as a material choice while a moving one reads as something
+     * the game is doing. Both weapons run off the same clock, so they pulse together and the eye
+     * joins them up across the table, which is the whole point of showing it at all.
+     */
+    private void applyPairGlow(Models.Figure f, Drawn d,
+                               java.util.Map<Object, java.util.Set<String>> pairsOut) {
+        if (d.card.name == null) return;
+        String loose = CardArt.loose(d.card.name);
+        for (String[] row : PAIR_GLOW) {
+            if (!CardArt.loose(row[0]).equals(loose)) continue;
+            java.util.Set<String> here = pairsOut.get(d.seat);
+            if (here != null && here.contains(CardArt.loose(row[2]))) {
+                float t = pairGlowClock * 0.8f;
+                f.glow(row[1],
+                    0.55f + 0.45f * (float) Math.sin(t),
+                    0.50f + 0.40f * (float) Math.sin(t + 2.0944f),
+                    0.55f + 0.45f * (float) Math.sin(t + 4.1888f));
+            } else {
+                f.unglow(row[1]);
+            }
+            return;
+        }
     }
 
     /** True while that card id is still drawn somewhere this frame. */
