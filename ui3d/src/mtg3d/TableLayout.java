@@ -1585,7 +1585,9 @@ abstract class TableLayout extends TableCamera {
         // 5.0 rather than 5.3: the mat's edge is a straight line between its near and far
         // corners, so at the exile tray - the nearest one in, where the mat is narrowest - the
         // wedge's own half-width is not the limit, the chord is. 5.0 clears it at every z.
-        return Math.min(5.0f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
+        // 6.1, was 5.0, moved with COMMAND_X so the pads keep the same clearance from the edge
+        // of a full row (0.47) that they had before the seats moved back.
+        return Math.min(6.1f, wedgeHalf(z) - ZONE_PAD_HALF - 0.08f);
     }
 
     /**

@@ -55,7 +55,10 @@ abstract class TableBase extends ApplicationAdapter {
     // 14, was 11: seated, the bottom of the view reached past the near edge to the dark floor -
     // a black band along the bottom of the screen (owner, 2026-10-21). Only the cloth and rails
     // reach further; nothing laid out on the table moves.
-    static final float TABLE_HALF = 14f;
+    // 15.6, was 14: the mats reach SEAT_DIST + 4.3 and their frames a little past that, so the
+    // cloth has to keep ahead of them - at 14 the far edge of a board would have sat within a
+    // hand's width of the floor once the seats moved back.
+    static final float TABLE_HALF = 15.6f;
 
     /**
      * How far a seat's rows sit from the middle of the table.
@@ -66,7 +69,13 @@ abstract class TableBase extends ApplicationAdapter {
      * is the one number that buys room in the middle, and it buys width as well - the wedge a
      * seat gets opens out with distance, so every board is wider for it too.
      */
-    static final float SEAT_DIST = 7.3f;
+    // 8.6, was 7.3 (owner, 2026-10-31: "a players wedge should move backwards and expand" - the
+    // creature rows were squeezing to strips in a four-player game, see the screenshot that came
+    // with it). Raising this is the whole move: every board steps back from the middle, and
+    // because the wedge opens out with distance each one is wider for it. The row caps and
+    // PUSH_MAX below were opened to match, or the extra width would have been bought and not
+    // spent.
+    static final float SEAT_DIST = 8.6f;
 
     Table3D.Supplier source;      // set once, by Table3D's constructor
 
@@ -552,7 +561,9 @@ abstract class TableBase extends ApplicationAdapter {
     static final float ROW_LANDS     = SEAT_DIST + 1.3f;
 
     /** Where a seat's command zone sits, in its own frame: the other side from library/gy/exile. */
-    static final float COMMAND_X = -5.3f, COMMAND_Z = SEAT_DIST + 0.3f;
+    // -6.4, was -5.3. ROW_MAX is measured from just inside this pad, so moving the seats back
+    // without moving this would have left every row capped where it already was.
+    static final float COMMAND_X = -6.4f, COMMAND_Z = SEAT_DIST + 0.3f;
 
     /**
      * Floating mana, drawn as beads in six trays along the near edge of each board - white, blue,
@@ -563,8 +574,9 @@ abstract class TableBase extends ApplicationAdapter {
      * opponent was holding two untapped Islands' worth of blue (the owner, 2026-10-22). Beads on
      * the board are the same thing you would push across a real table.
      *
-     * BEAD_Z sits in the gap between the seat frame (EDGE_NEAR 3.1) and the creature band (3.39),
-     * so the tray never lands on a card or on the frame itself.
+     * BEAD_Z sits in the gap between the seat frame (EDGE_NEAR) and the near edge of the creature
+     * band, so the tray never lands on a card or on the frame itself. It is written off SEAT_DIST
+     * so it keeps that gap wherever the seats are.
      */
     /**
      * How far back a full board is pushed, and how high its zone pads float as it goes.
@@ -587,7 +599,9 @@ abstract class TableBase extends ApplicationAdapter {
     static final float EDGE_INSET = 0.05f;
     static final float MAT_INSET = 0.30f;
 
-    static final float PUSH_MAX = 0.8f;
+    // 1.3, was 0.8: there is more felt behind a seat now, so a board that is still too wide at
+    // full width has somewhere further to go before it has to squeeze.
+    static final float PUSH_MAX = 1.3f;
     static final float ZONE_LIFT = 0.52f;
 
     /** How far each seat's rows have been pushed back this frame, by seat index. */
@@ -633,7 +647,13 @@ abstract class TableBase extends ApplicationAdapter {
     float[][] matShape = new float[0][];
 
     static final float BEAD_D = 0.19f;
-    static final float BEAD_Z = 3.26f;
+    // Was a flat 3.26, which was EDGE_NEAR - 0.22 at the SEAT_DIST of the day. Written out now:
+    // a fixed number here is exactly the mistake the EDGE_X comment above records, and when the
+    // seats moved back on 2026-10-31 it would have left the trays stranded on bare felt in the
+    // middle of the table.
+    // Written off SEAT_DIST rather than off EDGE_NEAR, which is the same point (EDGE_NEAR - 0.22)
+    // but is declared further down this file, and a static field cannot refer forward.
+    static final float BEAD_Z = SEAT_DIST - 4.04f;
     static final float BEAD_STEP = BEAD_D * 1.6f;        // between the six trays
     static final float BEAD_RISE = BEAD_D * 0.62f;       // one bead on top of another
     /** Past this the stack stops growing and a count is drawn over it instead (TableHud). */
@@ -653,15 +673,17 @@ abstract class TableBase extends ApplicationAdapter {
 
     /**
      * The rectangle framing one seat's territory, in that seat's own frame. Wide enough to take
-     * in the command pad on one side (x -5.92 at its edge) and the library/graveyard/exile pads
-     * on the other (x 5.74), and deep enough for the creature row through to the far zone pad,
-     * with clear air either end so the frame never lands on top of a band or a pad - the bands
-     * sit at z 3.39..5.21 and 6.79..8.61, the pads at x 4.86..5.74.
+     * in the command pad on one side (x -7.02 at its edge) and the library/graveyard/exile pads
+     * on the other (x 6.54), and deep enough for the creature row through to the far zone pad,
+     * with clear air either end so the frame never lands on top of a band or a pad.
      */
     // Tied to SEAT_DIST, not written out: the frame goes round the mat, and the mat is placed
     // from the rows, which are placed from SEAT_DIST. Fixed numbers here meant that opening the
     // middle of the table out left the frames behind, round nothing (2026-10-22).
-    static final float EDGE_X = 6.3f;
+    // 7.2, was 6.3. When the seats moved back on 2026-10-31 the command pad went out to -6.4
+    // and the zone pads to 6.1, so a frame at 6.3 would have been drawn straight through both -
+    // which is the very failure the paragraph above this one is about.
+    static final float EDGE_X = 7.2f;
 
     /**
      * How far a player's mat runs, from the middle of the table out to their own edge.
