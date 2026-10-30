@@ -72,3 +72,7 @@
 # Bug reports written before reportDir() learned where it was running from; the real ones live
 # in scratch/bug-reports.
 /forge-installer-2.0.15/scratch/
+
+# Python bytecode from the model scripts (ui3d\models\make-*.py)
+__pycache__/
+*.pyc
