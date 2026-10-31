@@ -383,6 +383,13 @@ public final class BugReport {
         w.write("## Decisions Forge still answered this game" + nn);
         w.write((fb.isEmpty() ? "_none - the 3D window handled everything asked of it_" : fb) + nn);
 
+        // Forge's alerts, split into the priority nudge and the genuine refusal. Here because
+        // the split is a judgement the 3D side makes (Gui3D, the alertUser case) and a judgement
+        // nobody can check is a judgement nobody should trust: if a real refusal ever does go
+        // missing, this is the line that will show it.
+        w.write("## Forge's alerts" + nn);
+        w.write(Gui3D.alertSplit() + nn);
+
         w.write("## Where to look\n\n");
         w.write("- console log: `" + System.getProperty("forge.playlog.dir", "scratch/play-logs")
             + "` (newest `console_*.log`)\n");
