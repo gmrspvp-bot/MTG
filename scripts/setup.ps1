@@ -14,6 +14,7 @@ param(
     [switch] $NoUi3d,      # launch Forge's own window instead of the 3D table
     [switch] $Strict,      # say on screen whenever Forge answers something the 3D table should own
     [switch] $NoForgeHelp, # same as -Strict, named for what it is about: not leaning on Forge's window
+    [switch] $BothWindows, # 3D table AND Forge's window side by side, logging every grab of attention
     [switch] $SystemJdk    # use the machine's own JDK rather than the one in tools\jdk
 )
 
@@ -244,6 +245,24 @@ Write-Host ""
 
 if ($NoUi3d) {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1')
+} elseif ($BothWindows) {
+    # Both windows up on one screen, for watching what pulls the eye off the 3D table.
+    #
+    # hideforge=false because the 3D table otherwise minimises Forge's window 1.5s into the
+    # game: with both deliberately on screen that fight would BE the attention theft, and half
+    # of what got flagged would have been us.
+    #
+    # strict=true names the cause on screen and in the console the moment Forge answers
+    # something, so a flag becomes "assignGenericAmount" rather than a timestamp.
+    #
+    # The attention log itself needs no switch - ForgeWindow watches its frame either way and
+    # prints a line for every raise, marked UNEXPLAINED when nothing we know about caused it.
+    Write-Host "  Both windows, and every grab of attention logged." -ForegroundColor Cyan
+    Write-Host "  Put them side by side. Flag with the bug key as usual; afterwards, run:" -ForegroundColor DarkGray
+    Write-Host "    scriptsttention-report.ps1" -ForegroundColor Gray
+    Write-Host ""
+    & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1') -Ui3d `
+        -JvmArgs "-Dforge.ui3d.strict=true -Dforge.ui3d.hideforge=false"
 } elseif ($Strict -or $NoForgeHelp) {
     # Forge's window still answers what the 3D table cannot - taking that away would hang the
     # game on the first unhandled decision. What this does is make every such hand-off VISIBLE,
