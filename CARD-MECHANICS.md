@@ -50,6 +50,22 @@ claim it in `CLAIMS.md` first.
 
 ## House rules (owner's call)
 
+- [x] **A player who concedes sits out until their next upkeep, then leaves** (owner,
+      2026-11-01; done by Stoneforge). Conceding no longer removes a player on the spot: their
+      seat passes priority, attacks and blocks with nothing, says no to every "may" and never
+      pays an "unless" cost, while choices the rules force (a sacrifice, a discard) are made for
+      them by the AI. Their permanents stay and can be attacked. At the start of their next
+      upkeep they leave as a normal concede. Whatever they were being asked when they conceded
+      is answered with nothing (blocks or attackers they had picked are taken back). A normal,
+      immediate concede still happens when no other human is playing (a game against the AI
+      just ends) or when only one player would be left; anyone sitting out then leaves too.
+      `scripts\tools\ConcedeHook.java` (agent hook on `PlayerControllerHuman.concede`, removal
+      from `CombatGuardHook`); SeatClaimHook never hands a sitting-out seat to someone joining.
+      `-Dforge.concede.sitout=false` turns it off. Test `scratch\probe\ConcedeProbe.java`
+      (a real four-player game): conceding on turn 3 -> out at the conceder's turn-4 upkeep;
+      conceding in their own main phase on turn 4 -> sits out turns 5-7, out at the turn-8
+      upkeep; with no other human -> out at once.
+
 - [x] **Ignored dice are still seen by "whenever you roll" cards** (owner, 2026-10-21; done by
       Stoneforge). A die that an "ignore the lowest" effect throws away (Wyll, Blade of
       Frontiers, or any card like it) still triggers every "whenever you roll" card (Mr. House,

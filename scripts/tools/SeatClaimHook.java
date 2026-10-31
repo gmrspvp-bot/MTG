@@ -126,6 +126,9 @@ public final class SeatClaimHook {
         for (Player p : game.getPlayers()) {
             if (p == null || p.hasLost()) continue;
             if (!(p.getController() instanceof PlayerControllerAi)) continue;
+            // Nor a seat sitting out after a concede (ConcedeHook$Passive, named because that
+            // class is in the default package and cannot be imported from here).
+            if (p.getController().getClass().getName().equals("ConcedeHook$Passive")) continue;
             // Never hand over a seat somebody is already parked against: that is their seat and
             // they are inside their reconnect window.
             if (parkedAlready(parked, p.getName())) continue;

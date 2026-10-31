@@ -45,6 +45,12 @@ public final class CombatGuardHook {
         } catch (Throwable t) {
             // the guard is not the place to fail over a seat hand-back
         }
+        // House rule: a player who conceded and sat out leaves at the start of their next upkeep.
+        try {
+            ConcedeHook.beforePhase(ph);
+        } catch (Throwable t) {
+            System.out.println("CONCEDE: failed at phase begin (" + t + ")");
+        }
         orig.invoke(ph);
     }
 }

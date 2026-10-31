@@ -20,6 +20,7 @@
 //   forge.game.ability.effects.RollDiceEffect.rollDiceForPlayer
 //     / rollAction, forge.game.trigger.TriggerRolledDie.performTest -> DiceIgnoreHook (house rule: ignored dice still seen)
 //   forge.game.ability.effects.VillainousChoiceEffect.resolve  -> VillainousChoiceHook (rule 701.55b: no impossible options)
+//   forge.player.PlayerControllerHuman.concede                  -> ConcedeHook (house rule: sit out until next upkeep)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -73,6 +74,8 @@ public class EvalCacheAgent {
         // Rule 701.55b: a villainous choice offers only the options that player can carry out.
         {"forge/game/ability/effects/VillainousChoiceEffect", "resolve", "(Lforge/game/spellability/SpellAbility;)V",
          "VillainousChoiceHook", "instance"},
+        // House rule: a player who concedes sits out until their next upkeep, then leaves.
+        {"forge/player/PlayerControllerHuman", "concede", "()V", "ConcedeHook", "instance"},
         // A seat the AI is holding can be taken by whoever joins next (SeatClaimHook). Two
         // halves: let the login in, then hand the live Player back to a human controller.
         {"forge/gamemodes/net/server/FServerManager$RegisterClientHandler", "channelRead",
