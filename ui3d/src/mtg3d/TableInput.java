@@ -895,6 +895,13 @@ abstract class TableInput extends TableHud {
                 if (clickedCard()) showStats = !showStats;
                 return;
             }
+            if (inRect(stealBtn, mx, my)) {
+                if (clickedCard()) {
+                    Attention.flag(snap);
+                    toast("Flagged - " + Attention.count() + " this session", mx, my - 30f);
+                }
+                return;
+            }
             if (showStats && inRect(statsPanel, mx, my)) {
                 clickedCard();                 // swallow it; the panel has nothing to click yet
                 return;

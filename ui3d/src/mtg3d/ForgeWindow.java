@@ -163,6 +163,7 @@ public final class ForgeWindow {
             boolean explained = !expectedWhy.isEmpty() && now - expectedAt < 2500;
             String why = explained ? expectedWhy : "UNEXPLAINED";
             if (explained) expectedWhy = "";
+            lastCameWhy = how + ": " + why;
             System.out.println("UI3D: ATTENTION Forge's window " + how + " - " + why
                 + "   prompt=\"" + oneLine(Gui3D.PROMPT.message) + "\""
                 + "   input=" + (Gui3D.PROMPT.inputName == null || Gui3D.PROMPT.inputName.isEmpty()
@@ -171,6 +172,20 @@ public final class ForgeWindow {
             // as above
         }
     }
+
+    /**
+     * What we last saw the window do, if it was recent - for the flag button.
+     *
+     * When the player says attention was stolen, the useful question is whether anything we
+     * watch moved at the same moment. Ten seconds is generous on purpose: the player presses the
+     * button after noticing, not at the instant it happened.
+     */
+    static String recentRaise() {
+        if (lastCame == 0 || System.currentTimeMillis() - lastCame > 10000) return "";
+        return lastCameWhy + " (" + ((System.currentTimeMillis() - lastCame) / 1000) + "s ago)";
+    }
+
+    private static volatile String lastCameWhy = "";
 
     /** Forge's prompts are four lines; the log wants one. */
     private static String oneLine(String s) {

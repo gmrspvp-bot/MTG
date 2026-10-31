@@ -136,6 +136,7 @@ abstract class TableHud extends TableScene {
         if (respondAge >= 0f) drawResponseBanner(w, h, flat);
         drawToast(w, flat);
         drawStatsButton(w, h, flat);
+        drawStealButton(w, h, flat);
         if (showStats) drawStatsPanel(w, h, flat);
         else statsPanel[2] = 0f;               // shut: it must stop swallowing clicks
         if (showLog) drawEventLog(w, h, flat);
@@ -390,6 +391,50 @@ abstract class TableHud extends TableScene {
         ui.begin();
         font.setColor(showStats || hot ? 0.86f : 0.58f, showStats || hot ? 0.94f : 0.72f, 1f, 1f);
         font.draw(ui, "Statistics", x, y + bh - 7f, bw, 1, false);
+        ui.end();
+    }
+
+    /**
+     * "Forge stole it" - one click, at the moment it happens.
+     *
+     * The ATTENTION lines ForgeWindow writes record when Forge's window came FORWARD, which is
+     * not the same question. It can come forward behind the 3D one and go unnoticed, and Forge
+     * can take the eye without the window moving at all - a dialog, a beep, the taskbar
+     * flashing. The only authority on whether attention was actually stolen is the person whose
+     * attention it was, so there is a button for saying so.
+     *
+     * A button and not only a key, deliberately: if Forge has just taken the focus then the 3D
+     * window does not have the keyboard, and a key press would go to Forge. A mouse click on
+     * this window both brings it back and registers the flag.
+     *
+     * It sits beside Statistics, it is red, and it says how many times it has been pressed, so
+     * at a glance you can see the session's tally without reading a log.
+     */
+    void drawStealButton(int w, int h, Matrix4 flat) {
+        float bw = 124f * PP_SCALE, bh = 24f * PP_SCALE;
+        float x = statsBtn[0] + statsBtn[2] + 6f, y = h - 14f - bh;
+        stealBtn[0] = x; stealBtn[1] = y; stealBtn[2] = bw; stealBtn[3] = bh;
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        boolean hot = inRect(stealBtn, mx, my);
+        // A moment of brighter red after a press, so a click that landed looks different from
+        // one that missed - there is nothing else on screen to say it worked.
+        boolean just = Attention.sinceLast() < 900;
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        if (just) shapes.setColor(0.78f, 0.26f, 0.20f, 0.98f);
+        else shapes.setColor(hot ? 0.40f : 0.22f, hot ? 0.12f : 0.07f, hot ? 0.10f : 0.07f, 0.92f);
+        shapes.rect(x, y, bw, bh);
+        shapes.setColor(0.86f, 0.30f, 0.24f, just || hot ? 1f : 0.60f);
+        shapes.rect(x, y + bh - 2f, bw, 2f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        int n = Attention.count();
+        font.setColor(just || hot ? 1f : 0.80f, just || hot ? 0.84f : 0.54f, just || hot ? 0.80f : 0.50f, 1f);
+        font.draw(ui, "Forge stole it" + (n > 0 ? "  " + n : ""), x, y + bh - 7f, bw, 1, false);
         ui.end();
     }
 

@@ -858,6 +858,9 @@ abstract class TableBase extends ApplicationAdapter {
     /** The open statistics panel, so a click on it is swallowed instead of reaching the board. */
     final float[] statsPanel = { 0f, 0f, 0f, 0f };
 
+    /** "Forge stole it" - the attention flag, next to Statistics. */
+    final float[] stealBtn = { 0f, 0f, 0f, 0f };
+
     boolean nextOn;
 
     static boolean inRect(float[] r, float mx, float my) {

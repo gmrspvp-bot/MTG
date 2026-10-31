@@ -83,6 +83,27 @@ if ($unexplained.Count -gt 0) {
     Write-Host ""
 }
 
+# What the PLAYER said, from the "Forge stole it" button. The machine's record is of the window
+# moving; this is of attention actually going. A flag with nothing logged beside it is the most
+# interesting row in the whole report - something took the eye that nothing here is watching.
+$flags = $lines | Where-Object { $_ -match 'UI3D: STOLEN #' }
+if ($flags) {
+    $blind = @($flags | Where-Object { $_ -match 'nothing logged in the last 10s' })
+    Write-Host ("  Flagged by hand: {0}, of which {1} with nothing logged beside them" -f `
+        $flags.Count, $blind.Count) -ForegroundColor Cyan
+    foreach ($f in $flags) {
+        $colour = 'Gray'
+        if ($f -match 'nothing logged in the last 10s') { $colour = 'Yellow' }
+        Write-Host ("    " + ($f -replace '^UI3D: ', '')) -ForegroundColor $colour
+    }
+    Write-Host ""
+    if ($blind.Count -gt 0) {
+        Write-Host "  The yellow ones are the lead: attention went somewhere and Forge's window" -ForegroundColor DarkGray
+        Write-Host "  never came forward, so it was a dialog, a sound, or the taskbar." -ForegroundColor DarkGray
+        Write-Host ""
+    }
+}
+
 # Decisions Forge answered, which -Strict prints. These are the ones with a known fix: take the
 # call over in Gui3D and it stops happening.
 $ans = $lines | Where-Object { $_ -match "UI3D: Forge answered '" } | ForEach-Object {
