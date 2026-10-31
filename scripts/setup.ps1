@@ -259,7 +259,7 @@ if ($NoUi3d) {
     # prints a line for every raise, marked UNEXPLAINED when nothing we know about caused it.
     Write-Host "  Both windows, and every grab of attention logged." -ForegroundColor Cyan
     Write-Host "  Put them side by side. Flag with the bug key as usual; afterwards, run:" -ForegroundColor DarkGray
-    Write-Host "    scriptsttention-report.ps1" -ForegroundColor Gray
+    Write-Host "    scripts\attention-report.ps1" -ForegroundColor Gray
     Write-Host ""
     & powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'play.ps1') -Ui3d `
         -JvmArgs "-Dforge.ui3d.strict=true -Dforge.ui3d.hideforge=false"
