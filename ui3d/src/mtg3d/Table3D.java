@@ -237,6 +237,7 @@ public final class Table3D extends TableInput {
         order = new OrderPanel(art);
         mulligan = new MulliganPanel(art);
         damage = new DamagePanel(art);
+        blocks = new BlockPanel(art);
         // libGDX only delivers the wheel through an InputProcessor; everything else this view
         // needs is polled, so this is the one handler.
         Gdx.input.setInputProcessor(new com.badlogic.gdx.InputAdapter() {
@@ -544,6 +545,7 @@ public final class Table3D extends TableInput {
         order.update(dt);
         mulligan.update(dt);
         damage.update(dt);
+        blocks.update(dt);
         if (!peeking) {
             options.render(ui, shapes, font, fontBig);
             numbers.render(ui, shapes, font, fontBig);
@@ -551,6 +553,7 @@ public final class Table3D extends TableInput {
             order.render(ui, shapes, font, fontBig);
             mulligan.render(ui, shapes, font, fontBig);
             damage.render(ui, shapes, font, fontBig);
+            blocks.render(ui, shapes, font, fontBig);
         }
         // The end screen opens by itself, once, when the game ends; ESC leaves the board to look at.
         if (snap.gameOver && !endShown) {

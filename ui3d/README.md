@@ -214,6 +214,19 @@ tree in this repo.
 
 ## TODO
 
+- [x] **Declaring blockers is a table, not arrows on the board** (2026-11-01, the owner: blocking
+  "aint working"; attacking is fine). `BlockPanel` opens on `InputBlock`: attackers down the
+  left, one row each, with what they are attacking and the blockers already in front of them;
+  your creatures down the right. Drag one onto a row to block, drag it off to take it back.
+  Power and toughness on every creature, and hovering a name pops the card out full size beside
+  the table. Attacking keeps the board drag, which works - the two are different shapes, one
+  arrow per attacker against several of yours onto one of several identical attackers.
+  The panel decides nothing: rows are rebuilt from the snapshot every frame and it calls back
+  into `TableInput.blockWith` / `unblockCard`, so Forge's two-click `InputBlock` model stays the
+  only thing that assigns a block and a block Forge refuses never appears. **V** puts it aside
+  and gives the board drag back. Visible in the demo (`block`), which was wired at the same time
+  so it can be looked at without a four-player game. **Not yet used in a real game.**
+
 Roughly in priority order. Claim anything bigger than a quick fix in the repo-root `CLAIMS.md`
 before you start, and push the claim before writing code.
 

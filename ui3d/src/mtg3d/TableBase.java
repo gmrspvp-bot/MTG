@@ -184,6 +184,12 @@ abstract class TableBase extends ApplicationAdapter {
     DamagePanel damage;
 
     /**
+     * Declaring blockers, as a table. Arrows on the board could not say which of your creatures
+     * had gone in front of which of several identical attackers; see BlockPanel.
+     */
+    BlockPanel blocks;
+
+    /**
      * Targeting mode (look only until wired to Forge's target selection): while set, legal
      * targets glow violet, everything else on the battlefield dims, an arc follows the mouse from
      * the source, and clicks pick targets instead of playing cards. Null when not targeting.
@@ -310,7 +316,8 @@ abstract class TableBase extends ApplicationAdapter {
         // answer it (the owner, 2026-10-21).
         return (search != null && search.isOpen()) || options.isOpen() || numbers.isOpen()
             || (order != null && order.isOpen()) || (mulligan != null && mulligan.isOpen()) || endScreen.isOpen()
-            || (damage != null && damage.isOpen()) || Gui3D.pendingAsk() != null
+            || (damage != null && damage.isOpen()) || (blocks != null && blocks.isOpen())
+            || Gui3D.pendingAsk() != null
             // Found by auditing every overlay against this list rather than waiting for the
             // next screenshot. TextPanel takes typed characters, so the board reacting
             // underneath it is the bug-report-typing leak all over again; the help card is a

@@ -323,10 +323,13 @@ abstract class TableInput extends TableHud {
                     cp.blockOn.clear();
                     for (Snapshot.CombatArc a : snap.combatArcs) for (int b : a.blockedBy) cp.blockOn.put(b, a.attackerId);
                 }
+                showBlockPanel(me);
             }
         } else if (combatPlan != null && combatPlan.wired) {
             combatPlan = null;
+            if (blocks != null) blocks.close();
         }
+        if (!block && blocks != null && blocks.isOpen()) blocks.close();
 
         // Paying mana: Forge offers the sources that can pay, or failing that, everything of
         // ours that could make mana.
@@ -443,13 +446,7 @@ abstract class TableInput extends TableHud {
                 } else {
                     // Dropped elsewhere, or clicked while already blocking the chosen attacker:
                     // take the block off (the same two clicks toggle it back).
-                    if (p.wired && was != null) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
-                    if (was != null) {
-                        String off = nameOf(id);
-                        if (off != null) toast(off + " is not blocking now",
-                            Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
-                    }
-                    p.blockOn.remove(id);
+                    unblockCard(id);
                 }
             } else {
                 int seat = -1;
@@ -681,6 +678,10 @@ abstract class TableInput extends TableHud {
                     cp.blockOn.put(snap.you().creatures.get(0).id, snap.seats.get(1).creatures.get(0).id);
                 }
                 combatPlan = cp;
+                // The demo opens the table too. Without Forge there are no combat arcs for
+                // showBlockPanel to read, and a panel that can only be seen in a live
+                // four-player game is a panel nobody will look at before shipping it.
+                demoBlockPanel(cp);
                 break;
             }
             case "mana": {
@@ -1446,6 +1447,112 @@ abstract class TableInput extends TableHud {
         if (who != null && what != null) {
             toast(who + " blocks " + what, Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
         }
+    }
+
+    /**
+     * Rebuild the blocking table from this frame's snapshot and hand it to BlockPanel.
+     *
+     * Every frame, from the snapshot, because Forge decides what a block actually is - a block
+     * it refuses simply never appears in the arcs and so never appears in the table. The panel
+     * holds no state of its own that the game could contradict.
+     *
+     * Only attackers aimed at US are listed. An attack on another player is not ours to block,
+     * and a table full of rows that cannot be used is worse than no table.
+     */
+    private void showBlockPanel(Snapshot.SeatV me) {
+        if (blocks == null || me == null) return;
+        int you = snap.seats.indexOf(me);
+        java.util.List<BlockPanel.Row> rows = new java.util.ArrayList<>();
+        for (Snapshot.CombatArc a : snap.combatArcs) {
+            boolean atUs = a.defenderSeat == you;
+            Snapshot.CardV defCard = null;
+            if (!atUs && a.defenderCardId >= 0) {
+                for (Snapshot.CardV c : me.others) if (c.id == a.defenderCardId) { defCard = c; atUs = true; break; }
+                if (!atUs) for (Snapshot.CardV c : me.creatures) if (c.id == a.defenderCardId) { defCard = c; atUs = true; break; }
+            }
+            if (!atUs) continue;
+            Snapshot.CardV atk = cardById(a.attackerId);
+            if (atk == null) continue;
+            BlockPanel.Row r = new BlockPanel.Row();
+            r.attacker = atk;
+            r.target = defCard != null ? defCard.name : "you";
+            for (int b : a.blockedBy) {
+                Snapshot.CardV bc = cardById(b);
+                if (bc != null) r.blockers.add(bc);
+            }
+            rows.add(r);
+        }
+        if (rows.isEmpty()) { blocks.close(); return; }
+        java.util.List<Snapshot.CardV> mine = new java.util.ArrayList<>();
+        for (Snapshot.CardV c : me.creatures) if (!c.phasedOut) mine.add(c);
+        blocks.show(rows, mine, new BlockPanel.Assign() {
+            @Override public void block(int blockerId, int attackerId) {
+                blockWith(blockerId, attackerId, combatPlan == null ? null : combatPlan.blockOn.get(blockerId));
+            }
+            @Override public void unblock(int blockerId) { unblockCard(blockerId); }
+            @Override public void done() { Gui3D.pressOk(); }
+        });
+    }
+
+    /** The same table as a real game's, fed from the demo's fake combat instead of the arcs. */
+    private void demoBlockPanel(CombatPlan cp) {
+        if (blocks == null) return;
+        java.util.List<BlockPanel.Row> rows = new java.util.ArrayList<>();
+        for (int id : cp.attackers) {
+            Snapshot.CardV atk = cardById(id);
+            if (atk == null) continue;
+            BlockPanel.Row r = new BlockPanel.Row();
+            r.attacker = atk;
+            r.target = "you";
+            for (java.util.Map.Entry<Integer, Integer> e : cp.blockOn.entrySet()) {
+                if (e.getValue() == id) {
+                    Snapshot.CardV b = cardById(e.getKey());
+                    if (b != null) r.blockers.add(b);
+                }
+            }
+            rows.add(r);
+        }
+        if (rows.isEmpty()) return;
+        blocks.show(rows, new java.util.ArrayList<>(snap.you().creatures), new BlockPanel.Assign() {
+            @Override public void block(int blockerId, int attackerId) {
+                cp.blockOn.put(blockerId, attackerId);
+                demoBlockPanel(cp);
+            }
+            @Override public void unblock(int blockerId) {
+                cp.blockOn.remove(blockerId);
+                demoBlockPanel(cp);
+            }
+            @Override public void done() {
+                System.out.println("UI3D: blocks " + cp.blockOn + " (demo)");
+                blocks.close();
+            }
+        });
+    }
+
+    /** A card anywhere on the battlefield, by id. */
+    private Snapshot.CardV cardById(int id) {
+        for (Snapshot.CardV c : allCards()) if (c.id == id) return c;
+        return null;
+    }
+
+    /**
+     * Take a blocker out of combat. The same two clicks that put it there toggle it back, which
+     * is Forge's model, so this is the exact inverse of blockWith.
+     *
+     * Shared by the board drag and by BlockPanel - two copies of a two-click sequence against
+     * someone else's input state is how they drift apart.
+     */
+    void unblockCard(int id) {
+        CombatPlan p = combatPlan;
+        if (p == null) return;
+        Integer was = p.blockOn.get(id);
+        if (was == null) return;
+        if (p.wired) { Gui3D.clickCard(was); Gui3D.clickCard(id); }
+        p.current = was;
+        p.blockOn.remove(id);
+        String off = nameOf(id);
+        if (off != null) toast(off + " is not blocking now",
+            Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
     }
 
     /** A card's name by id, or null when the snapshot has no such card on the battlefield. */
