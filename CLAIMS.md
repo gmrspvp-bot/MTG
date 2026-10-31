@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Concede house rule: a conceding player sits out (passes everything) until their next upkeep, then leaves (`ConcedeHook`) | Stoneforge | 2026-10-31 13:20 | scripts\tools: new hook on Player.concede, called from CombatGuardHook.onPhaseBegin |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
