@@ -706,6 +706,7 @@ public final class Gui3D implements InvocationHandler {
      * leave the key doing nothing instead of guessing.
      */
     public static boolean pressOk() {
+        clickSent();
         if (remote != null) return PROMPT.okEnabled && remoteClick(r -> r.selectButtonOk());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || !PROMPT.okEnabled || PROMPT.token == null) return false;
@@ -719,6 +720,7 @@ public final class Gui3D implements InvocationHandler {
      * picks are queued, so the enabled check is skipped. Still guarded by the prompt's token.
      */
     public static boolean pressOkQueued() {
+        clickSent();
         if (remote != null) return remoteClick(r -> r.selectButtonOk());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || PROMPT.token == null) return false;
@@ -728,6 +730,7 @@ public final class Gui3D implements InvocationHandler {
 
     /** Cancel, with the same guard. */
     public static boolean pressCancel() {
+        clickSent();
         if (remote != null) return PROMPT.cancelEnabled && remoteClick(r -> r.selectButtonCancel());
         forge.player.PlayerControllerHuman c = controller;
         if (c == null || !PROMPT.cancelEnabled || PROMPT.token == null) return false;
@@ -800,6 +803,7 @@ public final class Gui3D implements InvocationHandler {
     }
 
     public static boolean clickCard(int cardId) {
+        clickSent();
         if (remote != null) {
             CardView rc = selectableViews.get(cardId);
             if (rc == null) rc = known.get(cardId);
@@ -1580,17 +1584,59 @@ public final class Gui3D implements InvocationHandler {
                 // Forge's modal error box (SOptionPane.showErrorDialog): (message[, title]) - the
                 // same shape, and the same "read it, then carry on", as message().
                 return takeMessage(args);
-            case "alertUser":
             case "flashIncorrectAction":
-                // CPrompt.alert / CPrompt.remind: a flash on Forge's prompt, meant to draw the eye
-                // to Forge's window - the opposite of what is wanted while playing in 3D. But it
-                // was being thrown away, and it is Forge's ONLY way of saying "no, not that".
+                // Forge's explicit "incorrect action". Always a refusal, no judgement needed.
+                sayRefused();
+                return null;
+            case "alertUser":
+                // CPrompt.alert: a flash on Forge's prompt. It is Forge's only way of saying
+                // "no, not that" - the owner once tried to cast An Offer You Can't Refuse eight
+                // times with the mana to do it, Forge alerted him eight times, the 3D window
+                // discarded all eight, and from his side the card simply would not cast
+                // (2026-10-28). So it was wired to say so on the table.
                 //
-                // The owner tried to cast An Offer You Can't Refuse eight times with the mana to
-                // do it. Forge offered the cast, asked for a target, found nothing it would
-                // accept, and alerted him eight times - and the 3D window discarded all eight,
-                // so from his side the card simply would not cast (2026-10-28). The flash stays
-                // suppressed; what it MEANT now goes on the table.
+                // It is ALSO how Forge nudges you when priority arrives, and that is almost all
+                // it ever is. One game, 2026-10-31, 43 turns:
+                //
+                //     alertUser received                        483
+                //     "Forge will not accept that" shown        483
+                //     flashIncorrectAction (a real refusal)       0
+                //
+                // Every refusal message that game was false, and five of the fifteen times
+                // Forge's window took the eye came immediately after one.
+                //
+                // The two are told apart by the company they keep. All 483 arrived in exactly
+                // this burst, with no exceptions:
+                //
+                //     setWeaklySelectable -> showPromptMessage -> updateButtons -> alertUser
+                //
+                // which is Forge offering priority: mark what can be clicked, show the prompt,
+                // set the buttons, nudge. A genuine refusal changes none of those - the prompt
+                // is the same one you were already looking at, and only the flash happens. So a
+                // nudge arrives within milliseconds of the prompt being rewritten, and a refusal
+                // arrives however long you spent deciding what to click.
+                //
+                // Time, not event order, because a local game does not come down a protocol
+                // stream. -Dforge.ui3d.alertgap sets the window in ms.
+                // Two tests, and both must pass before a message is withheld.
+                //
+                // The first is the strong one: a refusal is always a refusal OF SOMETHING, so
+                // it cannot arrive unless the player has clicked since the prompt was last
+                // rewritten. If they have not, nothing has been refused. Checked against the
+                // 483 alerts of that game: all 483 had no click since the prompt changed, and
+                // not one had a click after it - so this rule loses no real refusal on the only
+                // evidence there is.
+                //
+                // The second is the timing, which catches the case where the prompt was
+                // rewritten long ago and nothing has been clicked since: an alert arriving in
+                // the middle of that is not part of any priority burst, so it is let through.
+                boolean nothingClickedSince = clickSentAt < promptTouchedAt;
+                boolean inTheBurst = System.nanoTime() - promptTouchedAt < ALERT_GAP_NS;
+                if (nothingClickedSince && inTheBurst) {
+                    alertsSuppressed++;
+                    return null;        // the priority nudge; the table already shows the prompt
+                }
+                alertsShown++;
                 sayRefused();
                 return null;
             case "showRevealedCards":
@@ -2632,7 +2678,37 @@ public final class Gui3D implements InvocationHandler {
     }
 
     /** Copies prompt, buttons and selectables into PROMPT for the 3D window to draw. */
+    /**
+     * When Forge last rewrote the prompt. See the alertUser case: an alert that lands within a
+     * few milliseconds of this is the nudge that comes with new priority, not a refusal.
+     */
+    private static volatile long promptTouchedAt;
+    /** When the player last sent Forge a click of any kind. See the alertUser case. */
+    private static volatile long clickSentAt;
+
+    /** Called by every path that sends Forge a click, so a refusal can be told from a nudge. */
+    private static void clickSent() {
+        clickSentAt = System.nanoTime();
+    }
+
+    private static final long ALERT_GAP_NS =
+        Long.getLong("forge.ui3d.alertgap", 250L) * 1_000_000L;
+    /** For the log line at the end of a game: how the alerts were split. */
+    private static int alertsSuppressed, alertsShown;
+
+    /** "suppressed 481, shown 2" - printed when a game ends, so the split can be checked. */
+    public static String alertSplit() {
+        return "alerts: " + alertsSuppressed + " priority nudges suppressed, "
+            + alertsShown + " shown as refusals";
+    }
+
     private void observe(String name, Object[] args) {
+        // Before anything else: these four are what Forge sends when it hands over priority,
+        // and the alertUser that follows them is a nudge rather than a refusal.
+        if ("showPromptMessage".equals(name) || "updateButtons".equals(name)
+                || "setSelectables".equals(name) || "setWeaklySelectable".equals(name)) {
+            promptTouchedAt = System.nanoTime();
+        }
         if (remoteMode) observeRemote(name, args);
         observeLocal(name, args);
         // A joined game has no Input to use as the click token: every new prompt gets a fresh
