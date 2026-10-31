@@ -23,6 +23,7 @@
 //   forge.player.PlayerControllerHuman.concede                  -> ConcedeHook (house rule: sit out until next upkeep)
 //   forge.gamemodes.match.input.InputSelectEntitiesFromList.onCancel -> MassSelectHook (proliferate "Mine" includes you)
 //   forge.player.PlayerControllerHuman.autoPassCancel           -> AutoPassHook (an open question is shown again)
+//   forge.gamemodes.match.input.InputQueue.setInput / removeInput -> PriorityViewHook (priority mark = who is being asked)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -66,6 +67,9 @@ public class EvalCacheAgent {
         {"forge/gamemodes/match/YieldController", "setAutoPassUntilEndOfTurn", "(Z)V", "AutoPassHook", "instance"},
         // Calling an auto-pass off blanked an open question (2026-11-01): show it again.
         {"forge/player/PlayerControllerHuman", "autoPassCancel", "()V", "AutoPassHook", "instance"},
+        // The "has priority" mark (yellow frame, "Waiting for X") follows whoever is being asked.
+        {"forge/gamemodes/match/input/InputQueue", "setInput", "(Lforge/gamemodes/match/input/InputSynchronized;)V", "PriorityViewHook", "instance"},
+        {"forge/gamemodes/match/input/InputQueue", "removeInput", "(Lforge/gamemodes/match/input/Input;)V", "PriorityViewHook", "instance"},
         // Joining someone else's game: lets the 3D table wrap the client's GUI (ClientHook).
         {"forge/GuiDesktop", "getNewGuiGame", "()Lforge/gui/interfaces/IGuiGame;", "ClientHook", "instance"},
         // House rule: a die an "ignore the lowest" effect throws away still triggers roll watchers (DiceIgnoreHook).

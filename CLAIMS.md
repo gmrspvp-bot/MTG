@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| Priority flag follows whoever is actually being asked (discards, picks, blocks) - fixes the yellow frame and Forge's "Waiting for" (`PriorityViewHook`) | Stoneforge | 2026-11-01 02:05 | scripts\tools only: hooks on InputQueue.setInput / removeInput |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

@@ -95,7 +95,9 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   then leaves; see `CARD-MECHANICS.md`), MassSelectHook (proliferate's "Mine" button also picks the
   player's own counters), AutoPassHook (logs who arms "auto-pass to end of turn", refuses Forge's
   menu shortcut while the 3D table runs, and when an auto-pass is called off with a question open,
-  shows that question again instead of Forge's blank prompt). Logs show
+  shows that question again instead of Forge's blank prompt), PriorityViewHook (the "has priority"
+  mark - the 3D table's yellow frame and Forge's "Waiting for X" - follows whoever has a prompt
+  open, e.g. a player discarding, instead of staying on the priority player). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.

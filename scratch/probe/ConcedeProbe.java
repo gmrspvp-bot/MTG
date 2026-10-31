@@ -53,6 +53,12 @@ public class ConcedeProbe {
                 Class<?> t = m.getReturnType();
                 if (t == boolean.class) return false;
                 if (t == int.class) return 0;
+                // A pick from a list (who goes first, in a four-player game): the first one.
+                if (args != null) for (Object o : args) {
+                    if (!(o instanceof List) || ((List<?>) o).isEmpty()) continue;
+                    if (t == List.class) return new ArrayList<>(((List<?>) o).subList(0, 1));
+                    if (t.isInstance(((List<?>) o).get(0)) || t == Object.class) return ((List<?>) o).get(0);
+                }
                 return null;
             });
         for (Player p : game.getPlayers())
@@ -85,6 +91,15 @@ public class ConcedeProbe {
                     }
                     if (p == seat1 && conceded) { System.out.println("PROBE !! seat 1 asked after conceding: " + in.getClass().getSimpleName()); }
                     int n = seen.merge(in, 1, Integer::sum);
+                    if (n == 1 && in instanceof forge.gamemodes.match.input.InputSelectEntitiesFromList) {
+                        // A pick that needs one (who goes first, in a four-player game): the first choice.
+                        forge.gamemodes.match.input.InputSelectEntitiesFromList<?> sel = (forge.gamemodes.match.input.InputSelectEntitiesFromList<?>) in;
+                        if (sel.getSelected().isEmpty() && !sel.getValidChoices().isEmpty()) {
+                            Object first = sel.getValidChoices().get(0);
+                            if (first instanceof Player) in.selectPlayer((Player) first, null);
+                            else if (first instanceof forge.game.card.Card) in.selectCard((forge.game.card.Card) first, null, null);
+                        }
+                    }
                     if (n == 1) in.selectButtonOK();
                     else if (n > 5) { q.onGameOver(false); q.removeInput(in); }
                 }
