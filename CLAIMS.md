@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| Proliferate "Mine" button skips the player's own counters (`MassSelectHook`), then the blank Yes/No prompt in the 3D table | Stoneforge | 2026-11-01 01:10 | scripts\tools new hook; then ui3d\src (Gui3D prompt handling) |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

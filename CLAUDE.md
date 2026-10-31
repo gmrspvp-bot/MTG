@@ -93,7 +93,9 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   VillainousChoiceHook (rule 701.55b: a villainous choice offers only options that player can do),
   ConcedeHook (house rule: a human who concedes sits out, passing everything, until their next upkeep,
   then leaves; see `CARD-MECHANICS.md`), MassSelectHook (proliferate's "Mine" button also picks the
-  player's own counters). Logs show
+  player's own counters), AutoPassHook (logs who arms "auto-pass to end of turn", refuses Forge's
+  menu shortcut while the 3D table runs, and when an auto-pass is called off with a question open,
+  shows that question again instead of Forge's blank prompt). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.

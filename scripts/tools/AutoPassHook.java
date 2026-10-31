@@ -71,6 +71,42 @@ public final class AutoPassHook {
         orig.invoke(self, on);
     }
 
+    /**
+     * PlayerControllerHuman.autoPassCancel(), routed here too (original renamed autoPassCancel$orig).
+     *
+     * Calling an auto-pass off made Forge blank the prompt and switch both buttons off, as if
+     * nothing were being asked - even when something was. In the owner's game of 2026-11-01 the
+     * auto-pass ran from combat to the end step, Dr. Eggman's "Search your hand?" came up, and
+     * the SPACE that should have answered it first called the auto-pass off (Gui3D.nextPhase):
+     * the question went blank in both windows with no Yes or No, and the game sat waiting on it.
+     * After Forge's own cancel, whatever is still waiting is shown again.
+     * -Dforge.autopassreshow=false turns that off.
+     */
+    private static volatile MethodHandle cancelOrig;
+
+    public static void autoPassCancel(forge.player.PlayerControllerHuman self) throws Throwable {
+        if (cancelOrig == null) {
+            cancelOrig = MethodHandles.privateLookupIn(forge.player.PlayerControllerHuman.class, MethodHandles.lookup())
+                .findVirtual(forge.player.PlayerControllerHuman.class, "autoPassCancel$orig", MethodType.methodType(void.class));
+        }
+        boolean wasOn = self.mayAutoPass();
+        cancelOrig.invoke(self);
+        if (!wasOn || "false".equals(System.getProperty("forge.autopassreshow"))) return;
+        try {
+            final forge.gamemodes.match.input.Input in = self.getInputQueue().getInput();
+            if (in == null || in instanceof forge.gamemodes.match.input.InputLockUI) return;
+            forge.gui.FThreads.invokeInEdtNowOrLater(() -> {
+                // Only if it is still the one waiting: by now it may have been answered.
+                if (self.getInputQueue().getInput() != in) return;
+                self.getGui().cancelAwaitNextInput();
+                in.showMessageInitial();
+                System.out.println("AUTOPASS: called off with " + in.getClass().getSimpleName() + " open - shown again");
+            });
+        } catch (Throwable t) {
+            System.out.println("AUTOPASS: could not show the open prompt again (" + t + ")");
+        }
+    }
+
     /** Did this come from a key press landing on Forge's menu rather than from a real choice? */
     private static boolean fromForgeMenuKey() {
         for (StackTraceElement e : new Throwable().getStackTrace()) {
