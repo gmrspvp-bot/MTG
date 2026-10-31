@@ -6,6 +6,19 @@ claim it in `CLAIMS.md` first.
 
 ## Fixed
 
+- [x] **Proliferate's "Mine" button skipped the player's own counters** (fixed 2026-11-01,
+      Stoneforge: `scripts\tools\MassSelectHook.java`, an agent hook on
+      `InputSelectEntitiesFromList.onCancel`). Forge 2.0.15 turns a proliferate prompt's Cancel
+      button into a mass-select button cycling Mine -> All -> Clear all, and "Mine" only took the
+      permanents you control - never you, so experience, poison, energy or rad counters on the
+      player were left out. In the owner's game of 2026-11-01 KDAWG proliferated with Patrolling
+      Peacemaker (Kratos and Atreus) and his experience counters did not grow. Now "Mine" adds the
+      player too when they have counters. Clicking yourself on the board still works as before
+      (in Forge's window: your picture; in the 3D table: your screen), and so does "All". Off with
+      `-Dforge.mine.self=false`. Test `scratch\probe\MassSelectProbe.java`: 2 experience, own
+      bear and opponent's bear with a +1/+1 counter each, press Mine then OK -> experience 3, own
+      bear 2, opponent's bear 1 (switch off: experience stays 2).
+
 - [x] **Villainous choice lets a player pick an impossible option** (fixed 2026-10-29,
       Stoneforge: `scripts\tools\VillainousChoiceHook.java`, an agent hook on
       `VillainousChoiceEffect.resolve` - Forge's own resolve, with each player offered only the

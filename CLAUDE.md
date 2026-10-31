@@ -92,7 +92,8 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   ImageScaleHook (no picture instead of an error when Forge scales one under 3x3),
   VillainousChoiceHook (rule 701.55b: a villainous choice offers only options that player can do),
   ConcedeHook (house rule: a human who concedes sits out, passing everything, until their next upkeep,
-  then leaves; see `CARD-MECHANICS.md`). Logs show
+  then leaves; see `CARD-MECHANICS.md`), MassSelectHook (proliferate's "Mine" button also picks the
+  player's own counters). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.

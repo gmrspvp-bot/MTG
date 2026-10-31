@@ -21,6 +21,7 @@
 //     / rollAction, forge.game.trigger.TriggerRolledDie.performTest -> DiceIgnoreHook (house rule: ignored dice still seen)
 //   forge.game.ability.effects.VillainousChoiceEffect.resolve  -> VillainousChoiceHook (rule 701.55b: no impossible options)
 //   forge.player.PlayerControllerHuman.concede                  -> ConcedeHook (house rule: sit out until next upkeep)
+//   forge.gamemodes.match.input.InputSelectEntitiesFromList.onCancel -> MassSelectHook (proliferate "Mine" includes you)
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
@@ -76,6 +77,8 @@ public class EvalCacheAgent {
          "VillainousChoiceHook", "instance"},
         // House rule: a player who concedes sits out until their next upkeep, then leaves.
         {"forge/player/PlayerControllerHuman", "concede", "()V", "ConcedeHook", "instance"},
+        // Proliferate's "Mine" button: include the player's own counters, not only their permanents.
+        {"forge/gamemodes/match/input/InputSelectEntitiesFromList", "onCancel", "()V", "MassSelectHook", "instance"},
         // A seat the AI is holding can be taken by whoever joins next (SeatClaimHook). Two
         // halves: let the login in, then hand the live Player back to a human controller.
         {"forge/gamemodes/net/server/FServerManager$RegisterClientHandler", "channelRead",
