@@ -73,9 +73,15 @@ public final class ForgeWindow {
 
     /** Bring it back, because Forge needs it after all. A no-op if we did not minimise it. */
     public static void restore(String why) {
+        // BEFORE the minimisedByUs check, not after it. Every caller of restore() is a place
+        // that is handing something to Forge's window, and that is worth recording whether or
+        // not we were the ones hiding it. With -Dforge.ui3d.hideforge=false - which is the whole
+        // point of "Play 3D (both windows).cmd" - minimisedByUs is never true, so with the
+        // expect() below the early return not one raise in the first session could be explained:
+        // the report said "0 explained, 15 UNEXPLAINED", and the 0 was this bug, not a finding.
+        expect(why);
         if (!minimisedByUs) return;
         minimisedByUs = false;
-        expect(why);                 // so the activation this causes is logged as explained
         Runnable r = () -> {
             try {
                 java.awt.Frame f = minimised != null && minimised.isDisplayable() ? minimised : frame();
