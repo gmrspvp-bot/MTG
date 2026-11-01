@@ -48,14 +48,43 @@ public final class ForgeWindow {
         w.setRepeats(false);
         w.start();
         if (!HIDE) return;
+        // ONCE, not once per call. This is reached from Bridge.openWindow, which Gui3D calls on
+        // openView AND on setGameView - and setGameView arrives whenever the host pushes a full
+        // state, which during a resync storm is over and over. Each call used to arm its own
+        // 1.5s timer, so the window was iconified again 1.5 seconds after every one of them.
+        //
+        // minimiseNow does nothing to a window that is already down, so the only time this bit
+        // was a player's clicks: they bring Forge's window up to read something, and a second
+        // and a half later it is slammed shut. Again. The counts say how often it happened -
+        // 20 setGameView and 13 minimises in one session, 10 and 8 in two others - and on
+        // 2026-11-01 a player on a bad connection watched his Forge window "flicker and freak
+        // out" and then dropped off the game entirely.
+        //
+        // A new game later in the same session still wants one, hence the cooldown rather than
+        // a flat once-ever.
+        long now = System.currentTimeMillis();
+        synchronized (ForgeWindow.class) {
+            if (pending || now - lastAutoMinimise < AUTO_COOLDOWN_MS) return;
+            pending = true;
+        }
         try {
-            javax.swing.Timer t = new javax.swing.Timer(1500, e -> minimiseNow());
+            javax.swing.Timer t = new javax.swing.Timer(1500, e -> {
+                synchronized (ForgeWindow.class) { pending = false; }
+                minimiseNow();
+            });
             t.setRepeats(false);
             t.start();
         } catch (Throwable ignored) {
+            synchronized (ForgeWindow.class) { pending = false; }
             // Forge's window just stays where it is
         }
     }
+
+    /** One auto-minimise armed at a time, and not another for a while after one lands. */
+    private static boolean pending;
+    private static volatile long lastAutoMinimise;
+    private static final long AUTO_COOLDOWN_MS =
+        Long.getLong("forge.ui3d.minimisecooldown", 30000L);
 
     static void minimiseNow() {
         try {
@@ -64,6 +93,7 @@ public final class ForgeWindow {
             f.setExtendedState(f.getExtendedState() | java.awt.Frame.ICONIFIED);
             minimised = f;
             minimisedByUs = true;
+            lastAutoMinimise = System.currentTimeMillis();
             watch();
             System.out.println("UI3D: Forge's window minimised while the 3D table runs (forge.ui3d.hideforge=false keeps it up)");
         } catch (Throwable ignored) {
@@ -80,6 +110,9 @@ public final class ForgeWindow {
         // expect() below the early return not one raise in the first session could be explained:
         // the report said "0 explained, 15 UNEXPLAINED", and the 0 was this bug, not a finding.
         expect(why);
+        // Giving the window back counts as a reason not to grab it again immediately: whoever
+        // asked for it is about to use it.
+        lastAutoMinimise = System.currentTimeMillis();
         if (!minimisedByUs) return;
         minimisedByUs = false;
         Runnable r = () -> {
