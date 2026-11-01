@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| AI: cast before combat, attack less often but harder, attack the leader (owner's 1-3 from human vs AI comparison) | Stoneforge | 2026-11-01 21:33 | AttackHook / AiPatches / new main-1 hook; behind switches |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
