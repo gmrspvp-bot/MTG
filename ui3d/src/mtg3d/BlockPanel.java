@@ -11,7 +11,12 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Matrix4;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Declaring blockers, as a table rather than as arrows on the board.
@@ -78,6 +83,28 @@ public final class BlockPanel {
 
     private float px, py, pw, ph;        // the panel, this frame
 
+    /**
+     * Blocks dragged but not yet confirmed by the game: blockerId -> attackerId, or UNBLOCK.
+     *
+     * "I can drag a blocker, but i have to press space to see if its actually blocking or who
+     * its blocking" (2026-11-01). The panel is rebuilt every frame from snap.combatArcs, which
+     * is Forge's view, and Forge's view of a block does not come back until the next state
+     * arrives - so a drag landed, nothing changed on screen, and the only way to find out
+     * whether it had taken was to confirm and see.
+     *
+     * So the drag is shown at once and reconciled afterwards. These entries are laid over
+     * Forge's rows in show(); each one is dropped the moment Forge's own view agrees with it,
+     * which is the normal case and usually within a frame or two. Forge stays the authority: an
+     * entry it has not taken up within PENDING_MS is dropped and said out loud, so the panel
+     * can never sit there showing a block the game does not have.
+     */
+    private static final int UNBLOCK = -1;
+    private static final long PENDING_MS = 4000L;
+    private final Map<Integer, Integer> pending = new LinkedHashMap<>();
+    private final Map<Integer, Long> pendingAt = new HashMap<>();
+    /** The ids currently drawn from `pending` rather than from Forge, so they can be marked. */
+    private final Set<Integer> unconfirmed = new HashSet<>();
+
     public BlockPanel(CardArt art) { this.art = art; }
 
     public boolean isOpen() { return open; }
@@ -85,6 +112,7 @@ public final class BlockPanel {
     public void close() {
         if (open) closing = true;
         held = null; pressed = false; pressedBtn = 0;
+        pending.clear(); pendingAt.clear(); unconfirmed.clear();
     }
 
     /**
@@ -98,7 +126,64 @@ public final class BlockPanel {
         if (attackers != null) rows.addAll(attackers);
         mine.clear();
         if (yours != null) mine.addAll(yours);
+        applyPending();
         if (!open) { open = true; closing = false; anim = 0f; }
+    }
+
+    /**
+     * Lay the dragged-but-unconfirmed blocks over Forge's rows, and retire each one as soon as
+     * Forge agrees. Called from show(), so everything that draws from `rows` or blocking() -
+     * the chips, the row colour, the "blocking X" line, the button label - updates together.
+     */
+    private void applyPending() {
+        unconfirmed.clear();
+        if (pending.isEmpty()) return;
+        long now = System.currentTimeMillis();
+        for (java.util.Iterator<Map.Entry<Integer, Integer>> it = pending.entrySet().iterator(); it.hasNext(); ) {
+            Map.Entry<Integer, Integer> e = it.next();
+            int blockerId = e.getKey(), want = e.getValue();
+            int forgeHas = blocking(blockerId);
+            boolean agreed = want == UNBLOCK ? forgeHas == Integer.MIN_VALUE : forgeHas == want;
+            if (agreed) { it.remove(); pendingAt.remove(blockerId); continue; }
+            Long at = pendingAt.get(blockerId);
+            if (at != null && now - at > PENDING_MS) {
+                // Forge never took it. Say so rather than keep drawing a block that is not there.
+                it.remove(); pendingAt.remove(blockerId);
+                System.out.println("UI3D: the game did not take that block (" + nameOf2(blockerId)
+                    + ") - drag it again");
+                continue;
+            }
+            Snapshot.CardV card = findCard(blockerId);
+            if (card == null) { it.remove(); pendingAt.remove(blockerId); continue; }
+            // Off whatever Forge thinks it is in front of, then onto what was asked for.
+            for (Row r : rows) r.blockers.removeIf(b -> b.id == blockerId);
+            if (want != UNBLOCK) {
+                for (Row r : rows) {
+                    if (r.attacker.id == want) { r.blockers.add(card); break; }
+                }
+            }
+            unconfirmed.add(blockerId);
+        }
+    }
+
+    /** Remember a drag so it shows at once; Forge is still asked, and still decides. */
+    private void expect(int blockerId, int attackerId) {
+        pending.put(blockerId, attackerId);
+        pendingAt.put(blockerId, System.currentTimeMillis());
+    }
+
+    private Snapshot.CardV findCard(int id) {
+        for (Snapshot.CardV c : mine) if (c.id == id) return c;
+        for (Row r : rows) {
+            if (r.attacker.id == id) return r.attacker;
+            for (Snapshot.CardV b : r.blockers) if (b.id == id) return b;
+        }
+        return null;
+    }
+
+    private String nameOf2(int id) {
+        Snapshot.CardV c = findCard(id);
+        return c == null ? "#" + id : c.name;
     }
 
     /**
@@ -187,7 +272,8 @@ public final class BlockPanel {
         font.draw(ui, "DECLARE BLOCKERS", px + 14f, py + ph - 16f);
         font.setColor(0.52f, 0.64f, 0.74f, t);
         font.draw(ui, "Drag one of your creatures onto an attacker to block it. Drag it off to take it back."
-            + "  Hover a name to see the card.  SPACE also confirms.", px + 180f, py + ph - 16f);
+            + "  Amber means dragged, green means the game has it.  Confirm or SPACE locks them in.",
+            px + 180f, py + ph - 16f);
         font.setColor(0.42f, 0.55f, 0.66f, t);
         font.draw(ui, "ATTACKING YOU", px + 14f, py + ph - 40f);
         font.draw(ui, "YOUR CREATURES", px + leftW + 16f, py + ph - 40f);
@@ -215,7 +301,10 @@ public final class BlockPanel {
                 cx -= gl.width + 16f;
                 if (cx < nx + 160f) { font.setColor(0.52f, 0.64f, 0.74f, t);
                     font.draw(ui, "+" + (b + 1) + " more", nx + 120f, ry + ROW_H - 12f); break; }
-                font.setColor(0.56f, 0.92f, 0.66f, t);
+                // Green once the game agrees, amber while it is still only ours. The block shows
+                // the instant it is dragged either way - the colour is the only difference.
+                if (unconfirmed.contains(bc.id)) font.setColor(0.95f, 0.78f, 0.36f, t);
+                else font.setColor(0.56f, 0.92f, 0.66f, t);
                 font.draw(ui, label, cx, ry + ROW_H - 16f);
                 if (mx >= cx && mx <= cx + gl.width && my >= ry && my < ry + ROW_H) {
                     hovered = bc;
@@ -237,7 +326,9 @@ public final class BlockPanel {
             boolean overName = mx >= nx && mx <= nx + gl.width && my >= ry && my < ry + ROW_H;
             if (overName) hovered = c;
             if (busy) {
-                font.setColor(0.38f, 0.62f, 0.46f, t);
+                boolean soon = unconfirmed.contains(c.id);
+                if (soon) font.setColor(0.72f, 0.60f, 0.30f, t);
+                else font.setColor(0.38f, 0.62f, 0.46f, t);
                 font.draw(ui, "blocking " + nameOf(on), nx, ry + 16f);
             } else if (c.tapped) {
                 font.setColor(0.62f, 0.42f, 0.36f, t);
@@ -297,10 +388,12 @@ public final class BlockPanel {
             held = null; pressed = false;
             if (dropRow >= 0) {
                 int onto = rows.get(dropRow).attacker.id;
-                if (onto != from && assign != null) assign.block(dropped.id, onto);
+                if (onto != from && assign != null) { expect(dropped.id, onto); assign.block(dropped.id, onto); }
             } else if (from != -1 && assign != null && !inPanel(mx, my)) {
+                expect(dropped.id, UNBLOCK);
                 assign.unblock(dropped.id);                  // dragged out of the window entirely
             } else if (from != -1 && mx > px + leftW && assign != null) {
+                expect(dropped.id, UNBLOCK);
                 assign.unblock(dropped.id);                  // dragged back to your own list
             }
         } else if (justUp && pressed) {
@@ -310,7 +403,9 @@ public final class BlockPanel {
             pressed = false; pressedBtn = 0;
             if (btn == 1 && doneHover && assign != null) assign.done();
             else if (btn == 2 && clearHover && assign != null) {
-                for (Row r : rows) for (Snapshot.CardV b : r.blockers) assign.unblock(b.id);
+                java.util.List<Integer> all = new ArrayList<>();
+                for (Row r : rows) for (Snapshot.CardV b : r.blockers) all.add(b.id);
+                for (int id : all) { expect(id, UNBLOCK); assign.unblock(id); }
             }
         }
         if (justUp) { pressed = false; pressedBtn = 0; }
