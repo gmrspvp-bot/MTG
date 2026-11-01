@@ -35,7 +35,13 @@ foreach ($f in $dckFiles) {
     foreach ($ln in [IO.File]::ReadLines($f.FullName)) {
         if ($ln -match '^\[commander\]') { $inCmd = $true; continue }
         if ($ln -match '^\[') { $inCmd = $false; continue }
-        if ($inCmd -and $ln -match '^\d+\s+(.+?)(\|.*)?$') { $cmdOf[$f.BaseName] = $matches[1].Trim(); break }
+        if ($inCmd -and $ln -match '^\d+\s+(.+?)(\|.*)?$') {
+            $cmdOf[$f.BaseName] = $matches[1].Trim()
+            # Decks are "<owner> - <deck>" since 2026-10-30; logs from before say just "<deck>".
+            $bare = $f.BaseName -replace '^[^-]+? - ', ''
+            if (-not $cmdOf.ContainsKey($bare)) { $cmdOf[$bare] = $matches[1].Trim() }
+            break
+        }
     }
 }
 function Get-Key([string] $deckName) {

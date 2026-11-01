@@ -192,7 +192,8 @@ public final class HumanHooks {
         int cmdrPower = 0;
         Card myCmdr = null;
         for (Card c : me.getCreaturesInPlay()) { if (c.isCommander() && c.getNetCombatDamage() > cmdrPower) { cmdrPower = c.getNetCombatDamage(); myCmdr = c; } }
-        for (Player opp : me.getOpponents()) {
+        if (PlayStyleHook.LEADER) target = PlayStyleHook.turnTarget(me);   // the life leader, as people pick
+        else for (Player opp : me.getOpponents()) {
             if (opp.hasLost()) continue;
             double s = threat(opp) + (hitMe.contains(opp) ? 10 : 0);
             if (myCmdr != null && opp.getCommanderDamage(myCmdr) > 0 && cmdrPower >= AiPatches.CaptainPolicy.commanderDamageLeft(myCmdr, opp)) s += 1000;
@@ -326,6 +327,8 @@ public final class HumanHooks {
         Player main = null;
         for (Card a : combat.getAttackers()) { Player d = combat.getDefenderPlayerByAttacker(a); if (d != null) { main = d; break; } }
         opps.sort((x, y) -> Integer.compare(x.getLife(), y.getLife()));
+        Player leader = PlayStyleHook.LEADER && main == null ? PlayStyleHook.turnTarget(me) : null;
+        if (leader != null) { opps.remove(leader); opps.add(0, leader); }
         if (main != null) { opps.remove(main); opps.add(0, main); }
         int added = 0;
         for (Card c : available(me)) {
@@ -400,6 +403,16 @@ public final class HumanHooks {
                 .append("): ").append(moved).append(" at ").append(leader.getName()).append(", ").append(home).append(" home");
         }
         return note.length() == 0 ? null : note.toString();
+    }
+
+    /** The players who attacked `me` in their most recent combat. */
+    static java.util.Set<Player> attackedMe(Player me) {
+        java.util.Set<Player> out = new java.util.HashSet<>();
+        synchronized (LAST_ATTACKED) {
+            Map<Player, java.util.Set<Player>> last = LAST_ATTACKED.get(me.getGame());
+            if (last != null) for (Map.Entry<Player, java.util.Set<Player>> e : last.entrySet()) { if (e.getValue().contains(me)) out.add(e.getKey()); }
+        }
+        return out;
     }
 
     /** Record whom this player attacked (called once per real combat). */

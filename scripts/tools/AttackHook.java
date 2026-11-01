@@ -5,7 +5,8 @@
 //    unless AiPatches.CaptainPolicy.attackReason says it pays off (or, in the aggro and
 //    pressure styles, added to every attack). Logged as "ATTACKAI ...".
 //  - "humanlike" AI patch: attackers are re-aimed at a human-like target for the turn
-//    (HumanHooks.retarget). Logged as "TARGETAI ...".
+//    (HumanHooks.retarget). Logged as "TARGETAI ...". Small pokes are taken back
+//    (PlayStyleHook.holdPokes), logged as "ATTACKAI ... held back a poke".
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -48,6 +49,9 @@ public final class AttackHook {
                 }
                 String note = kill != null ? null : HumanHooks.retarget(combat);
                 if (note != null) System.out.println("TARGETAI " + name + ": " + note);
+                // People don't chip in with 1-3 power; they build up and hit harder (PlayStyleHook).
+                String held = PlayStyleHook.holdPokes(combat);
+                if (held != null) System.out.println("ATTACKAI " + name + ": " + held);
                 // Last word on kills, whoever set them up: weigh the whole table first.
                 String spared = HumanHooks.spareKills(combat);
                 if (spared != null) System.out.println("TARGETAI " + name + ": " + spared);

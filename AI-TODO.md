@@ -67,7 +67,7 @@ deck from the people who play it. Routine, semi-automatic:
 
 Leads from the first run (2026-10-27, 61 recorded games vs ~7,200 sim player-games), unchecked -
 do not build until the owner says:
-- [ ] **All decks: the AI casts most spells after combat** (51-63% of own-turn spells in main 2;
+- [x] **All decks: the AI casts most spells after combat** (done 2026-11-02, Stoneforge, PlayStyleHook with no-pokes and attack-the-leader; 40 games on vs 60 off, Cap/House/Olivia/Angels: main-2 share 50-65% -> 1-19%, attacks on turns with creatures 51-88% -> 36-80%, attacks at the life leader 36-42% -> 52-67%, at the lowest life 40-50% -> 21-35%; no stalls once a big board counted against a target. Win rates moved (Angels 27 -> 53%, Cap 43 -> 23%) on too few games to call - needs a longer A/B) (51-63% of own-turn spells in main 2;
       people about 11-19%).
 - [ ] **Mr House:** people activate The Deck of Many Things 5.7 times a game it is out, the AI 0.8
       (Jan Jansen 1.5 vs 0.2, Treasure Chest 1.0 vs 0.3); the AI over-uses Vexing Puzzlebox (4.1

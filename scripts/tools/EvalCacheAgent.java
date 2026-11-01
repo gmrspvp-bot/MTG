@@ -8,6 +8,8 @@
 //   forge.ai.ComputerUtil.evaluateBoardPosition / aiLifeInDanger -> BoardEvalCache (speed)
 //   forge.ai.AiAttackController.declareAttackers                -> AttackHook (Captain America, human-like targets)
 //   forge.ai.ComputerUtil.wantMulligan                          -> HumanHooks (human-like mulligans)
+//   forge.ai.ComputerUtil.castPermanentInMain1,
+//     forge.ai.AiAttackController.choosePreferredDefenderPlayer -> PlayStyleHook (cast before combat, attack the leader)
 //   forge.ai.AiBlockController.assignBlockersForCombat          -> BlockHook (commanders not thrown away)
 //   forge.game.Match.startGame(Game, Runnable)                  -> PlayHook (desktop games: AI helpers + game log)
 //   forge.ai.ComputerUtil.choosePermanentsToSacrifice           -> SacrificeHook (tokens before real cards, commander last)
@@ -43,6 +45,9 @@ public class EvalCacheAgent {
         {"forge/ai/ComputerUtil", "aiLifeInDanger", "(Lforge/game/player/Player;ZI)Z", "BoardEvalCache", "static"},
         {"forge/ai/AiAttackController", "declareAttackers", "(Lforge/game/combat/Combat;)I", "AttackHook", "instance"},
         {"forge/ai/ComputerUtil", "wantMulligan", "(Lforge/game/player/Player;I)Z", "HumanHooks", "static"},
+        // People cast before combat and attack the life leader (PlayStyleHook, 2026-11-02).
+        {"forge/ai/ComputerUtil", "castPermanentInMain1", "(Lforge/game/player/Player;Lforge/game/spellability/SpellAbility;)Z", "PlayStyleHook", "static"},
+        {"forge/ai/AiAttackController", "choosePreferredDefenderPlayer", "(Lforge/game/player/Player;Z)Lforge/game/player/Player;", "PlayStyleHook", "static"},
         {"forge/ai/AiBlockController", "assignBlockersForCombat", "(Lforge/game/combat/Combat;)V", "BlockHook", "instance"},
         {"forge/game/Match", "startGame", "(Lforge/game/Game;Ljava/lang/Runnable;)V", "PlayHook", "instance"},
         {"forge/ai/ComputerUtil", "choosePermanentsToSacrifice",
