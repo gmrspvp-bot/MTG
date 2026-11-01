@@ -73,6 +73,8 @@ public final class BlockPanel {
     /** The card under the pointer, for the pop-out. */
     private Snapshot.CardV hovered;
     private boolean doneHover, clearHover;
+    /** Which button the mouse went DOWN on: 0 none, 1 confirm/no-blocks, 2 clear all. */
+    private int pressedBtn;
 
     private float px, py, pw, ph;        // the panel, this frame
 
@@ -82,7 +84,7 @@ public final class BlockPanel {
 
     public void close() {
         if (open) closing = true;
-        held = null; pressed = false;
+        held = null; pressed = false; pressedBtn = 0;
     }
 
     /**
@@ -97,6 +99,14 @@ public final class BlockPanel {
         mine.clear();
         if (yours != null) mine.addAll(yours);
         if (!open) { open = true; closing = false; anim = 0f; }
+    }
+
+    /**
+     * Confirm from outside the panel - the keyboard. Goes through the same Assign as the button,
+     * so the demo and a real game both behave as they do for a click.
+     */
+    public void confirm() {
+        if (open && !closing && assign != null) assign.done();
     }
 
     /** True while this creature is already in front of something. */
@@ -177,7 +187,7 @@ public final class BlockPanel {
         font.draw(ui, "DECLARE BLOCKERS", px + 14f, py + ph - 16f);
         font.setColor(0.52f, 0.64f, 0.74f, t);
         font.draw(ui, "Drag one of your creatures onto an attacker to block it. Drag it off to take it back."
-            + "  Hover a name to see the card.", px + 180f, py + ph - 16f);
+            + "  Hover a name to see the card.  SPACE also confirms.", px + 180f, py + ph - 16f);
         font.setColor(0.42f, 0.55f, 0.66f, t);
         font.draw(ui, "ATTACKING YOU", px + 14f, py + ph - 40f);
         font.draw(ui, "YOUR CREATURES", px + leftW + 16f, py + ph - 40f);
@@ -252,6 +262,20 @@ public final class BlockPanel {
         float dx = px + pw - bw - 14f, cx2 = dx - bw - 10f;
         doneHover = mx >= dx && mx <= dx + bw && my >= by && my <= by + bh;
         clearHover = mx >= cx2 && mx <= cx2 + bw && my >= by && my <= by + bh;
+        // A press that lands on a BUTTON has to arm the release, and nothing did that: `pressed`
+        // was only ever set by a mouse-down on a creature, for the drag (see the two places
+        // above). So `justUp && pressed` at the bottom of this method was false for every button
+        // click and BOTH buttons were dead from the day the panel shipped.
+        //
+        // With blocks assigned you can still get out, because releasing a dragged creature goes
+        // down the drop path instead. With none there is nothing to drag, so "No blocks" was the
+        // only way out of a panel that covers the table - "the new blocks system did not allow me
+        // to declare no blockers" (2026-11-01).
+        if (justDown && held == null && (doneHover || clearHover)) {
+            pressed = true;
+            pressedBtn = doneHover ? 1 : 2;
+            pressX = mx; pressY = my;
+        }
         ui.end();
         shapes.begin(ShapeRenderer.ShapeType.Filled);
         shapes.setColor(doneHover ? 0.24f : 0.15f, doneHover ? 0.62f : 0.40f, doneHover ? 0.38f : 0.26f, t);
@@ -280,11 +304,16 @@ public final class BlockPanel {
                 assign.unblock(dropped.id);                  // dragged back to your own list
             }
         } else if (justUp && pressed) {
-            pressed = false;
-            if (doneHover && assign != null) assign.done();
-            else if (clearHover && assign != null) for (Row r : rows) for (Snapshot.CardV b : r.blockers) assign.unblock(b.id);
+            // Press and release on the same button, so sliding off one cancels it rather than
+            // firing whichever happens to be under the pointer at the end.
+            int btn = pressedBtn;
+            pressed = false; pressedBtn = 0;
+            if (btn == 1 && doneHover && assign != null) assign.done();
+            else if (btn == 2 && clearHover && assign != null) {
+                for (Row r : rows) for (Snapshot.CardV b : r.blockers) assign.unblock(b.id);
+            }
         }
-        if (justUp) pressed = false;
+        if (justUp) { pressed = false; pressedBtn = 0; }
     }
 
     private boolean inPanel(float x, float y) {

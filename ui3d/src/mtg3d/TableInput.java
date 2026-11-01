@@ -766,6 +766,15 @@ abstract class TableInput extends TableHud {
         if (panelOpen()) {
             // H on a search shown in 3D: show it in Forge's window as well (Gui3D.mirrorOffTable).
             if (Keys3D.just(Input.Keys.H)) Gui3D.releaseSelectables();
+            // The block table has a confirm of its own, and this return swallowed the keys the
+            // player uses for that everywhere else - SPACE never reached nextPhase() below while
+            // it was up. Together with BlockPanel's dead buttons that left NO way to declare no
+            // blockers: nothing to drag, a button that did nothing, and a key that did nothing
+            // ("the new blocks system did not allow me to declare no blockers", 2026-11-01).
+            if (blocks != null && blocks.isOpen()
+                    && (Keys3D.just(Input.Keys.SPACE) || Keys3D.just(Input.Keys.ENTER))) {
+                blocks.confirm();
+            }
             return;
         }
         // The board modes own clicks and ESC while they are on: a click on a glowing card picks,
