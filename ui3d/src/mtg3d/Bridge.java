@@ -28,6 +28,7 @@ public final class Bridge {
         try {
             current = game;
             latest = StateReader.read(game);
+            Mem.start();
             game.subscribeToEvents(new Listener(game));
             // Step 1 of the input plan: wrap the local human's GUI so the 3D window can see
             // what the engine is asking. Forwards everything, so Forge is unaffected.
@@ -84,6 +85,7 @@ public final class Bridge {
     }
 
     static void openWindow() {
+        Mem.start();                     // idempotent; the memory line is wanted either way
         if (Boolean.getBoolean("forge.ui3d.nowindow")) return;     // tests: no window on screen
         start();
         ForgeWindow.minimiseSoon();

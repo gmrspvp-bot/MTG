@@ -52,6 +52,7 @@ and recorded games are kept.
 |---|---|
 | `play3d` | Set up if needed, then play in the 3D table |
 | `Update.cmd` | Update from GitHub (git clone or zip copy) and rebuild; close Forge first |
+| `scripts\collect-logs.ps1` | Bundle THIS machine's logs, a machine/JVM snapshot and the commit it is on into one zip to send. `scratch\play-logs` is gitignored, so this is the only way anyone else's logs reach whoever is debugging. Run it **while the game is up** for the memory numbers |
 | `play3d -Strict` | Also say on screen whenever Forge answers something the 3D table should own |
 | `Play 3D (both windows).cmd` | Both windows side by side, with every grab of attention logged. Turns the auto-minimise of Forge's window off, which is right for watching what steals focus and wrong for ordinary play - hence its own file. Afterwards: `scripts\attention-report.ps1` |
 | `Play Forge.cmd` | Forge's own window only |

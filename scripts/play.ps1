@@ -13,6 +13,8 @@ param(
     [string] $AiPatches = 'catch,counterall,threat,rampfirst,cmdrfirst,captain,humanlike,abilities,deploy,deathsave,dice,housestyle',
     [string] $AiProfile = 'Realistic',
     [int] $HeapMB = 4096,
+    # Off-heap buffers, which Netty would otherwise let grow to the size of the heap again.
+    [int] $DirectMB = 512,
     # Forge skin. 'Jarvis' is ours (scripts/make-jarvis-skin.ps1), built on first use.
     # -Skin Default restores Forge's own look; the skin can also be changed inside Forge.
     [string] $Skin = 'Jarvis',
@@ -298,7 +300,21 @@ if ($Ui3d) {
     $ui3dCp = ";$ui3dClasses;$mobileJar"
     $ui3dArg = '-Dforge.ui3d=true '
 }
-$argLine = "$JvmArgs -Xmx$($HeapMB)m -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
+# Memory. -Xmx caps the HEAP and nothing else, and the rest is where this process actually got
+# big: "it was using like 9gb on the host" (2026-11-01).
+#
+# Netty's ceiling for direct (off-heap) buffers defaults to whatever -Xmx is, so a 4 GB heap
+# quietly authorised a SECOND 4 GB outside it - and this protocol moves whole serialised game
+# views, 64 KB on average and 93 KB at the worst in a measured 43-turn game, several times a
+# turn, to every client. The pooled allocator holds those arenas once it has grown them. 4 + 4
+# plus metaspace, thread stacks, GPU textures and JVM overhead is 9 GB, which is the number.
+#
+# So the direct ceiling is set explicitly instead of inheriting the heap, and the pool is told
+# to keep fewer arenas. Both are overridable through -JvmArgs if a machine turns out to need
+# more, and neither changes a rule of the game.
+$mem = "-XX:MaxDirectMemorySize=$($DirectMB)m -Dio.netty.allocator.numDirectArenas=2 " +
+       "-Dio.netty.allocator.numHeapArenas=2 -Dio.netty.leakDetection.level=disabled"
+$argLine = "$JvmArgs -Xmx$($HeapMB)m $mem -Dio.netty.tryReflectionSetAccessible=true -Dfile.encoding=UTF-8 $($opens -join ' ') $agentArgs " +
            "$ui3dArg-Dforge.aipatches=$AiPatches -Dforge.playlog.dir=`"$logDir`" -cp `"$toolClasses;$jar$ui3dCp`" $launcher"
 $log = Join-Path $logDir ('console_' + (Get-Date -Format 'yyyy-MM-dd_HHmmss') + '.log')
 # PassThru so we can tell whether it actually got going. Java is started hidden with its output
