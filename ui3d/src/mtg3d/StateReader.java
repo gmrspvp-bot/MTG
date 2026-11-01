@@ -605,6 +605,7 @@ public final class StateReader {
             }
             v.commander = cv.isCommander();
             v.token = cv.isToken();
+            ringText(cv, v);
             try {
                 if (st != null && !v.faceDown) v.imageKey = st.getImageKey() == null ? "" : st.getImageKey();
             } catch (Throwable ignored) {
@@ -631,6 +632,52 @@ public final class StateReader {
             if (v.name == null || v.name.isEmpty()) v.name = "";
         }
         return v;
+    }
+
+    /**
+     * The Ring, and who is carrying it.
+     *
+     * "hovering over the ring doesnt show me any thing about it" (2026-11-01), and the table was
+     * right to show nothing: there was nothing on the card. Player.createTheRing builds a bare
+     * Card with a name, an image key and a set code and NOTHING else - no type line, no mana
+     * cost, no oracle text. The Ring's four abilities are not on the card at all; the engine
+     * applies them from the player's ring level, which the view carries as CardView.getRingLevel.
+     *
+     * So the text is written here from that level, with the abilities you have marked off from
+     * the ones still to come - which is the thing a player actually needs to know and cannot read
+     * anywhere on the table. Also marks the Ring-bearer, since a creature carrying it is
+     * legendary and unblockable by greater power and nothing said which creature it was.
+     *
+     * The four lines are the printed rules text of The Ring (LTR); Forge has no string for them
+     * (res\languages\en-US.properties has lblTheRing and lblChooseRingBearer and no more).
+     */
+    private static final String[] RING_LEVELS = {
+        "Your Ring-bearer is legendary and can't be blocked by creatures with greater power.",
+        "Whenever your Ring-bearer attacks, draw a card, then discard a card.",
+        "Whenever your Ring-bearer becomes blocked by a creature, that creature's controller "
+            + "sacrifices it at end of combat.",
+        "Whenever your Ring-bearer deals combat damage to a player, each opponent loses 3 life.",
+    };
+
+    private static void ringText(CardView cv, Snapshot.CardV v) {
+        try {
+            if (cv.isRingBearer()) {
+                // Appended, not replacing: this is a real creature with its own text.
+                v.counterText.add("Ring-bearer");
+            }
+            if (!"The Ring".equals(v.name)) return;
+            int level = cv.getRingLevel();
+            if (v.typeLine == null || v.typeLine.isEmpty()) v.typeLine = "The Ring";
+            StringBuilder b = new StringBuilder();
+            b.append("The Ring has tempted you ").append(level)
+             .append(level == 1 ? " time." : " times.");
+            for (int i = 0; i < RING_LEVELS.length; i++) {
+                b.append('\n').append(level > i ? "+ " : "- ").append(RING_LEVELS[i]);
+            }
+            v.text = b.toString();
+        } catch (Throwable ignored) {
+            // An older Forge without getRingLevel/isRingBearer: the card stays as it was.
+        }
     }
 
     /** MAIN1 -> "Main 1", DECLARE_ATTACKERS -> "Declare attackers". */

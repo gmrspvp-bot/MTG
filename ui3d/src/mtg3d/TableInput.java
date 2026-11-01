@@ -267,7 +267,25 @@ abstract class TableInput extends TableHud {
         List<Integer> sel = Gui3D.PROMPT.selectable;
 
         // Targets: InputSelectTargets puts the legal cards in the selectable set.
-        if ("InputSelectTargets".equals(in)) {
+        //
+        // InputSelectEntitiesFromList is the same shape and was not handled at all, so nothing
+        // glowed and no click counted - "his ring tempt doesnt give me the option to pick a
+        // ringbearer" (2026-11-01). The owner's log has the prompt in full:
+        //
+        //     UI3D: waiting on [InputSelectEntitiesFromList] Nazgul (25)
+        //     Choose your Ring-bearer   ok=OK cancel=End Turn
+        //
+        // Forge asks for a Ring-bearer through this input (RingTemptsYouEffect ->
+        // PlayerController.chooseSingleEntityForEffect -> InputSelectEntitiesFromList), and so
+        // does anything else that picks permanents or cards from a list. It was only ever
+        // answerable by handing it back to Forge's window with H, which nobody could have known.
+        //
+        // Note it does NOT always ask: PlayerControllerHuman short-circuits
+        //     if (!isOptional && optionList.size() == 1) return the only one;
+        // and RingTemptsYouEffect passes isOptional=false, so with exactly one creature the
+        // Ring-bearer is picked silently. That part is correct - there is no choice to make.
+        boolean selectList = "InputSelectEntitiesFromList".equals(in);
+        if ("InputSelectTargets".equals(in) || selectList) {
             if (targeting == null || !targeting.wired || changed) {
                 Targeting tg = new Targeting();
                 tg.wired = true;
@@ -277,7 +295,9 @@ abstract class TableInput extends TableHud {
             }
             targeting.legal.clear();
             targeting.legal.addAll(sel);
-            if (sel.isEmpty()) {
+            // A list choice always comes WITH its list, so the "let Forge judge" fallback below
+            // must not widen it: picking something off-list is a click Forge will only refuse.
+            if (sel.isEmpty() && !selectList) {
                 // No list from Forge: let every permanent be clickable and let Forge judge.
                 for (Snapshot.SeatV s : snap.seats) {
                     for (Snapshot.CardV c : s.creatures) targeting.legal.add(c.id);
@@ -290,7 +310,7 @@ abstract class TableInput extends TableHud {
             targeting = null;
         }
         // The target is remembered for the sacrifice that follows it, and forgotten after.
-        if (!"InputSelectTargets".equals(in) && !sacrificePrompt() && changed) lastTargetLabel = "";
+        if (!"InputSelectTargets".equals(in) && !selectList && !sacrificePrompt() && changed) lastTargetLabel = "";
 
         // Declare attackers / blockers.
         boolean attack = "InputAttack".equals(in), block = "InputBlock".equals(in);
