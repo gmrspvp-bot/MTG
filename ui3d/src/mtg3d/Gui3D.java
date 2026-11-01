@@ -2659,8 +2659,19 @@ public final class Gui3D implements InvocationHandler {
 
     private void disarmFocusTheft() {
         if (!STOP_FOCUS_THEFT || focusDisarmed) return;
+        // Attempted once, pass or fail. It used to leave the flag alone on failure, and it WAS
+        // failing every time (see below), so this ran reflection and threw an exception on every
+        // one of the hundreds of proxy calls a turn - for nothing (2026-11-01).
+        focusDisarmed = true;
         try {
-            Object cprompt = original.getClass().getMethod("getCPrompt").invoke(original);
+            // getDeclaredMethod, not getMethod: CMatchUI.getCPrompt() is package-private, and
+            // getMethod only finds public methods. So this threw NoSuchMethodException into the
+            // swallowing catch below and the line never printed - the defence was never armed in
+            // any game. The owner's log has the key-hook line and not this one, which is what
+            // gave it away.
+            java.lang.reflect.Method g = original.getClass().getDeclaredMethod("getCPrompt");
+            g.setAccessible(true);
+            Object cprompt = g.invoke(original);
             if (cprompt == null) return;
             Object view = cprompt.getClass().getMethod("getView").invoke(cprompt);
             if (view == null) return;
@@ -2670,10 +2681,18 @@ public final class Gui3D implements InvocationHandler {
                     ((javax.swing.JComponent) btn).setFocusable(false);
                 }
             }
-            focusDisarmed = true;
-            System.out.println("UI3D: Forge's prompt buttons will no longer grab focus");
+            // Honest about what this is worth. CMatchUI.updateButtons sets focusable BACK on both
+            // buttons every time it runs:
+            //     btnOK.setFocusable(enableOK && focus);
+            //     btnCancel.setFocusable(enableCancel && !focus);
+            //     if (toFocus != null) toFocus.requestFocus();
+            // so a one-shot setFocusable(false) is overwritten at the next prompt whatever we do.
+            // It holds only until the first updateButtons. The thing that actually stops the grab
+            // is FocusHook, which guards the WINDOW for the length of that call.
+            System.out.println("UI3D: Forge's prompt buttons disarmed until its next updateButtons "
+                + "(FocusHook is what holds it)");
         } catch (Throwable t) {
-            // Not fatal: the window just keeps raising itself, as it did before.
+            System.out.println("UI3D: could not disarm Forge's prompt buttons (" + t + ")");
         }
     }
 

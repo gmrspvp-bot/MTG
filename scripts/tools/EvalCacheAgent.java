@@ -70,6 +70,10 @@ public class EvalCacheAgent {
         // The "has priority" mark (yellow frame, "Waiting for X") follows whoever is being asked.
         {"forge/gamemodes/match/input/InputQueue", "setInput", "(Lforge/gamemodes/match/input/InputSynchronized;)V", "PriorityViewHook", "instance"},
         {"forge/gamemodes/match/input/InputQueue", "removeInput", "(Lforge/gamemodes/match/input/Input;)V", "PriorityViewHook", "instance"},
+        // Forge's window taking the screen every time priority came back at a new step: the
+        // focus grab at the end of updateButtons, guarded for the length of that call (FocusHook).
+        {"forge/screens/match/CMatchUI", "updateButtons",
+         "(Lforge/game/player/PlayerView;Ljava/lang/String;Ljava/lang/String;ZZZ)V", "FocusHook", "instance"},
         // Joining someone else's game: lets the 3D table wrap the client's GUI (ClientHook).
         {"forge/GuiDesktop", "getNewGuiGame", "()Lforge/gui/interfaces/IGuiGame;", "ClientHook", "instance"},
         // House rule: a die an "ignore the lowest" effect throws away still triggers roll watchers (DiceIgnoreHook).
