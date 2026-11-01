@@ -261,19 +261,33 @@ public final class ForgeWindow {
      * window that insistent has beaten us and the player should be told, not strobed at.
      */
     private static void pushBack(long now) {
-        if (!HIDE) return;                       // both windows on screen on purpose
         if (now - lastPush > 30000) pushStreak = 0;
         if (now - lastPush < 5000) return;
         if (pushStreak >= 3) {
             if (pushStreak == 3) {
                 pushStreak++;
                 System.out.println("UI3D: Forge's window keeps coming back and we have stopped "
-                    + "pushing it down - press J to send it away, H to hand it the decision");
+                    + (HIDE ? "pushing it down" : "taking the table back")
+                    + " - press J to send it away, H to hand it the decision");
             }
             return;
         }
         lastPush = now;
         pushStreak++;
+        if (!HIDE) {
+            // Both windows are on screen on purpose, so Forge's window must NOT be hidden - but
+            // that is no reason to let it keep the keyboard. This branch used to be a flat
+            // `return`, because the mode was written for two monitors, where a raise over there
+            // costs nothing. On ONE screen it costs the game: every single raise in the owner's
+            // 2026-11-01 game was input=InputPassPriority, so Forge took focus each time priority
+            // came back at a new step - eleven times in two turns.
+            //
+            // So: leave Forge's window exactly where it is and bring the table back to the front.
+            javax.swing.Timer t = new javax.swing.Timer(400, e -> Bridge.focusWindow());
+            t.setRepeats(false);
+            t.start();
+            return;
+        }
         javax.swing.Timer t = new javax.swing.Timer(600, e -> minimiseNow());
         t.setRepeats(false);
         t.start();
