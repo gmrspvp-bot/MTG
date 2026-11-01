@@ -1,7 +1,6 @@
 [metadata]
 Name=Alec - Edward Kenway
 [Main]
-1 Admiral Beckett Brass|LCC|[264]
 1 Admiral Brass, Unsinkable|LCC|[1]
 1 Adéwalé, Breaker of Chains|ACR|[44]
 1 An Offer You Can't Refuse|SLZ|[27]
@@ -32,6 +31,7 @@ Name=Alec - Edward Kenway
 1 Dire Fleet Ravager|OTC|[132]
 1 Don Andres, the Renegade|LCC|[6]
 1 Drowned Catacomb|FRC|[69]
+1 Edward Kenway|ACR|[53]
 1 Exotic Orchard|MBC|[79]
 1 Faithless Looting|SOC|[244]
 1 Fathom Fleet Captain|LCC|[197]
@@ -93,4 +93,4 @@ Name=Alec - Edward Kenway
 1 Vandalblast|SLZ|[69]
 1 Warkite Marauder|LCC|[179]
 [Commander]
-1 Edward Kenway|ACR|[143]
+1 Admiral Beckett Brass|SLD|[1561]
