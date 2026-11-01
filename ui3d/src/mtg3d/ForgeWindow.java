@@ -101,6 +101,25 @@ public final class ForgeWindow {
         }
     }
 
+    /**
+     * Put Forge's window down now, because the player said so (J on the table).
+     *
+     * There was no way to do this. H hands a decision back TO Forge; nothing sent its window
+     * away again, so once it had the screen the only way out was the taskbar. On one monitor
+     * that is the whole game covered up - "KDAWG has only one screen, and forge has taken his
+     * screen like 10 times now" (2026-11-01).
+     *
+     * Ignores the auto-minimise cooldown: that exists to stop US doing this unasked, and a key
+     * press is asked.
+     */
+    public static void hideNow() {
+        if (frame() == null) {
+            System.out.println("UI3D: no Forge window to hide");
+            return;
+        }
+        minimiseNow();
+    }
+
     /** Bring it back, because Forge needs it after all. A no-op if we did not minimise it. */
     public static void restore(String why) {
         // BEFORE the minimisedByUs check, not after it. Every caller of restore() is a place
@@ -207,6 +226,7 @@ public final class ForgeWindow {
                 + "   prompt=\"" + oneLine(Gui3D.PROMPT.message) + "\""
                 + "   input=" + (Gui3D.PROMPT.inputName == null || Gui3D.PROMPT.inputName.isEmpty()
                     ? "[none]" : Gui3D.PROMPT.inputName));
+            if (!explained) pushBack(now);
         } catch (Throwable ignored) {
             // as above
         }
@@ -225,6 +245,39 @@ public final class ForgeWindow {
     }
 
     private static volatile String lastCameWhy = "";
+
+    private static volatile long lastPush;
+    private static volatile int pushStreak;
+
+    /**
+     * Forge's window came up and nothing handed it anything. Put it back.
+     *
+     * An explained raise is left alone - Forge has something to show and covering it up would
+     * hang the game behind a window nobody can see. An UNEXPLAINED one is the window taking the
+     * screen for no reason we can name, and on a single monitor that is the game gone.
+     *
+     * Bounded, because fighting a window is how the flicker of 2026-11-01 happened: at most one
+     * push every five seconds, and after three in half a minute it gives up and says so. A
+     * window that insistent has beaten us and the player should be told, not strobed at.
+     */
+    private static void pushBack(long now) {
+        if (!HIDE) return;                       // both windows on screen on purpose
+        if (now - lastPush > 30000) pushStreak = 0;
+        if (now - lastPush < 5000) return;
+        if (pushStreak >= 3) {
+            if (pushStreak == 3) {
+                pushStreak++;
+                System.out.println("UI3D: Forge's window keeps coming back and we have stopped "
+                    + "pushing it down - press J to send it away, H to hand it the decision");
+            }
+            return;
+        }
+        lastPush = now;
+        pushStreak++;
+        javax.swing.Timer t = new javax.swing.Timer(600, e -> minimiseNow());
+        t.setRepeats(false);
+        t.start();
+    }
 
     /** Forge's prompts are four lines; the log wants one. */
     private static String oneLine(String s) {

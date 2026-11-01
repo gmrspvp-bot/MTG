@@ -48,7 +48,7 @@ abstract class TableInput extends TableHud {
         o.add(new OptionPanel.Option("Follow the turn: " + (followTurn ? "on" : "off"), "the camera walks to whoever's turn it is", null));
         o.add(new OptionPanel.Option("Undo", "takes back the last action Forge allows (tapping for mana, mostly)", null));
         o.add(new OptionPanel.Option("Concede", "asks first", null));
-        o.add(new OptionPanel.Option("Keys", "SPACE ok  X cancel  H hand back  TAB camera  arrows walk  wheel zoom", null));
+        o.add(new OptionPanel.Option("Keys", "SPACE ok  X cancel  H hand to Forge  J send Forge away  TAB camera  arrows walk", null));
         o.add(new OptionPanel.Option("Graphics: " + GraphicsQuality.label(), GraphicsQuality.detail(), null));
         options.open("Menu", "ESC closes", o, 1, 1, picked -> {
             if (picked.isEmpty()) return;
@@ -957,6 +957,13 @@ abstract class TableInput extends TableHud {
             Handoff.handBack();
             Gui3D.releaseSelectables();
             System.out.println("UI3D: handing the current decision back to Forge");
+        }
+        // J is H's opposite, and next to it: send Forge's window away again. There was no way
+        // to do this at all, which on a single screen means Forge keeps the whole game covered.
+        if (Keys3D.just(Input.Keys.J)) {
+            ForgeWindow.hideNow();
+            toast("Forge's window sent away - H brings it back",
+                Gdx.graphics.getWidth() / 2f, Gdx.graphics.getHeight() * 0.34f);
         }
         if (clickedFollowBox()) { followTurn = !followTurn; lastActiveSeat = activeSeat(); }
         // Keys for the three things that were click-only. Nothing should need a mouse: a

@@ -240,7 +240,7 @@ Write-Host "Starting Forge..." -ForegroundColor Cyan
 Write-Host ""
 Write-Host "  Play in the 3D table. Forge's own window minimises itself once the game starts -" -ForegroundColor DarkGray
 Write-Host "  the game runs inside it, so do not close it; it comes back if Forge needs it" -ForegroundColor DarkGray
-Write-Host "  (or press H). See ui3d\README.md for the controls." -ForegroundColor DarkGray
+Write-Host "  (or press H; J sends it away again). See ui3d\README.md for the controls." -ForegroundColor DarkGray
 Write-Host ""
 
 if ($NoUi3d) {
