@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| Card-choice analysis: what people target and when, per card, vs the AI (scripts\card-choices.ps1) | Stoneforge | 2026-11-02 10:10 | owner's request; analysis only, no AI change |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
