@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| AI gangs up on a runaway board (PlayStyleHook.turnTarget) | Stoneforge | 2026-11-02 04:20 | owner-approved; the clearly strongest board becomes the target when attacks can get through |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
