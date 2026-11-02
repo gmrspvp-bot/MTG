@@ -113,7 +113,10 @@ public final class HumanHooks {
      *   - commander damage: a commander that already has someone at 10+ of the 21.
      * Used by everything that calls threat(): who to attack (retarget), the kill-sparing rule,
      * Captain America's face throws, and the removal re-aim at the leader (ThreatRetarget).
-     * -Dforge.ai.danger=true turns it on (off until an A/B says it helps).
+     * On by default since 2026-11-02; -Dforge.ai.danger=false turns it off. Off on 2026-10-26
+     * (Angels won more with it), but with PlayStyleHook's leader targeting it's the other way:
+     * ~100 games a side, Angels 33% on / 43% off, Captain America 41% / 31% - the owner: "more
+     * what I would see from real games".
      */
     static double dangerExtras(Player p) {
         double s = 0;
@@ -146,7 +149,7 @@ public final class HumanHooks {
         return s;
     }
 
-    static final boolean DANGER = "true".equalsIgnoreCase(System.getProperty("forge.ai.danger", "false"));
+    static final boolean DANGER = !"false".equalsIgnoreCase(System.getProperty("forge.ai.danger", "true"));
     static final double LIFE_LEAD_WEIGHT = 0.8, ENGINE_WEIGHT = 8, RECURSION_WEIGHT = 10, COMMANDER_CLOSE = 15;
     /** Repeating value: a trigger or tap ability that makes tokens, drains, gains life, draws, or scales with a count. */
     static final java.util.regex.Pattern ENGINE = java.util.regex.Pattern.compile(

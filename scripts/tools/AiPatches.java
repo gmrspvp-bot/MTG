@@ -908,8 +908,8 @@ public final class AiPatches {
          * HumanHooks.threat() - with the danger switch on, that counts life lead, engines and
          * recursion - and it has to be clearly ahead of the chosen card's controller
          * (LEADER_RATIO). The replacement is the leader's most valuable permanent this spell can
-         * target and remove, worth at least LEADER_MIN_SHARE of the original. Only with
-         * -Dforge.ai.danger=true. Returns the new target or null.
+         * target and remove, worth at least LEADER_MIN_SHARE of the original. Off with
+         * -Dforge.ai.danger=false. Returns the new target or null.
          */
         static Card leaderSwap(Player ai, SpellAbility sa, Card chosen, java.util.function.Predicate<Card> canRemove) {
             if (!HumanHooks.DANGER || chosen == null || chosen.getController() == null) return null;
