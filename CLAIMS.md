@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| ui3d: "Resolve stack" button and key (pass until the stack clears, stops when something affects you) | Stoneforge | 2026-11-03 21:00 | owner's request; Gui3D/TableHud/TableInput, uses Forge's own stack yield |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
