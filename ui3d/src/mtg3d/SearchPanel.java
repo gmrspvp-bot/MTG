@@ -196,10 +196,16 @@ public final class SearchPanel {
             float[] r = slot(i, cols, px, gy, gh, w);
             if (r == null) continue;
             boolean sel = picked.contains(i);
+            // A card this client can actually play keeps a gold frame whether or not the mouse is
+            // on it, so "what can I cast out of here" is answered by looking rather than by
+            // clicking each one and watching Forge refuse (the owner, 2026-11-03).
+            boolean canPlay = items.get(i).playable && maxPick <= 0;
             if (sel) shapes.setColor(0.95f, 0.70f, 0.25f, t);
+            else if (canPlay && i == hoverIndex) shapes.setColor(1f, 0.90f, 0.45f, t);
+            else if (canPlay) shapes.setColor(0.86f, 0.66f, 0.20f, t);
             else if (i == hoverIndex) shapes.setColor(0.25f, 0.55f, 0.70f, t);
             else shapes.setColor(0.07f, 0.16f, 0.22f, t);
-            float m = sel || i == hoverIndex ? 4f : 2f;
+            float m = sel || canPlay || i == hoverIndex ? 4f : 2f;
             shapes.rect(r[0] - m, r[1] - m, CARD_W + m * 2, CARD_H + m * 2);
         }
         shapes.end();
@@ -264,6 +270,12 @@ public final class SearchPanel {
                 : minPick + "-" + maxPick) + " chosen";
             font.draw(ui, counter, px + 22f, py + 34f);
         }
+        int canPlay = playableCount();
+        if (canPlay > 0) {
+            font.setColor(1f, 0.86f, 0.42f, t);
+            font.draw(ui, canPlay + (canPlay == 1 ? " card here you can play" : " cards here you can play")
+                + " (gold frame)   -   click one to cast it", px + 22f, py + 34f);
+        }
         font.setColor(0.35f, 0.50f, 0.62f, t);
         font.draw(ui, items.size() + " cards   -   scroll to see more   -   ESC closes", px + 22f, py + 16f);
     }
@@ -323,6 +335,7 @@ public final class SearchPanel {
                 else if (top + CARD_H + PAD > scroll + gridH) scroll = top + CARD_H + PAD - gridH;
             }
             if (Keys3D.just(Input.Keys.ENTER) || Keys3D.just(Input.Keys.NUMPAD_ENTER)) {
+                if (maxPick <= 0 && playHighlighted()) return;               // browsing: ENTER casts
                 if (maxPick <= 0) { finish(false); return; }                 // browsing: ENTER closes
                 if (hoverIndex >= 0 && !picked.contains(hoverIndex) && picked.size() < maxPick) {
                     picked.add(hoverIndex);
@@ -350,6 +363,8 @@ public final class SearchPanel {
                 if (maxPick <= 0 || picked.size() >= minPick) finish(false);
             } else if (cancelHover) {
                 finish(true);
+            } else if (hoverIndex >= 0 && maxPick <= 0) {
+                playHighlighted();
             } else if (hoverIndex >= 0 && maxPick > 0) {
                 if (picked.contains(hoverIndex)) {
                     picked.remove(hoverIndex);
@@ -360,6 +375,33 @@ public final class SearchPanel {
                 }
             }
         }
+    }
+
+    /**
+     * Plays the highlighted card, when browsing a pile and the card is one this client can play.
+     *
+     * The click goes out through Gui3D exactly as a click on the table does, so Forge judges it:
+     * this only decides whether to send one at all. The panel then closes, because casting is
+     * almost always followed by another question - targets, modes, mana - and answering it behind
+     * an open pile browser is not something the table can do.
+     *
+     * Returns true if a card was sent, so the caller can tell "cast it" from "close me".
+     */
+    private boolean playHighlighted() {
+        if (maxPick > 0 || hoverIndex < 0 || hoverIndex >= items.size()) return false;
+        Snapshot.CardV c = items.get(hoverIndex);
+        if (!c.playable) return false;
+        Gui3D.clickCard(c.id);
+        finish(false);
+        return true;
+    }
+
+    /** How many of what is on show can be played from here - drives the footer hint. */
+    private int playableCount() {
+        if (maxPick > 0) return 0;
+        int n = 0;
+        for (Snapshot.CardV c : items) if (c.playable) n++;
+        return n;
     }
 
     /** Mouse wheel, forwarded by the owner since libGDX delivers it through an InputProcessor. */

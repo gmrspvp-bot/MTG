@@ -84,6 +84,13 @@ public final class Snapshot {
          * agent's animation work at the moment, so this is additive rather than a rename.
          */
         public final List<String> counterText = new ArrayList<>();
+        /**
+         * This client can play this card RIGHT NOW from the zone it is in - the rules engine's
+         * own answer, see Playable. Only ever set for cards in a graveyard, an exile pile or a
+         * command zone: the hand and the battlefield are clickable already. False on a joined
+         * client, which has no Card objects to ask.
+         */
+        public boolean playable;
 
         public CardV() {}
 
@@ -176,6 +183,9 @@ public final class Snapshot {
          */
         public final List<CardV> graveyard = new ArrayList<>();
         public final List<CardV> exile = new ArrayList<>();
+        /** True when at least one card in that pile is playable by this client - see CardV.playable. */
+        public boolean graveyardPlayable;
+        public boolean exilePlayable;
         /**
          * This player's hand, face up - only once the player at this client is out (the owner's list:
          * "when a player dies, make every remaining hand public knowledge to them"). A house rule,

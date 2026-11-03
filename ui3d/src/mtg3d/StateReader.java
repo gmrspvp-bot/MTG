@@ -111,6 +111,9 @@ public final class StateReader {
 
     /** The snapshot from a view, a viewer and the seat order; `game` is null for a joined game. */
     static Snapshot build(GameView gv, PlayerView viewer, List<PlayerView> order, Game game) {
+        // Asked once for the whole snapshot, not once per seat: it walks every graveyard, exile
+        // and command zone in the game. Empty unless it is this client's priority - see Playable.
+        final java.util.Set<Integer> playableIds = Playable.ids(game);
         Snapshot s = new Snapshot();
         try {
             PlayerView turn = gv.getPlayerTurn();
@@ -200,6 +203,15 @@ public final class StateReader {
                 // card most recently put there is what a player looks for first.
                 for (CardView cv : cards(pv, ZoneType.Graveyard)) seat.graveyard.add(0, card(cv, viewer, true));
                 for (CardView cv : cards(pv, ZoneType.Exile)) seat.exile.add(0, card(cv, viewer, true));
+                // What this client can actually cast or activate out of those piles, and out of
+                // the command zone, as the rules engine rules it. Marked here rather than in
+                // card() because it is a property of the ZONE a card is sitting in, not of the
+                // card: the same CardView on the battlefield is clicked directly.
+                for (Snapshot.CardV v : seat.graveyard) if (playableIds.contains(v.id)) v.playable = true;
+                for (Snapshot.CardV v : seat.exile) if (playableIds.contains(v.id)) v.playable = true;
+                for (Snapshot.CardV v : seat.command) if (playableIds.contains(v.id)) v.playable = true;
+                for (Snapshot.CardV v : seat.graveyard) if (v.playable) { seat.graveyardPlayable = true; break; }
+                for (Snapshot.CardV v : seat.exile) if (v.playable) { seat.exilePlayable = true; break; }
                 // Once the player at this client is out, everyone else's hand is shown to them
                 // (the owner's house rule - see SeatV.revealedHand). A card the view layer has no
                 // face for (a joined game: the host never sends hidden cards) is left as a back.
@@ -238,6 +250,9 @@ public final class StateReader {
             }
             if (game != null) readPassed(game, s);
             readLog(gv, s);
+            // Say it on the table the first time a card in a pile can be played, since a
+            // highlight only helps someone already looking at the pile.
+            if (!playableIds.isEmpty()) Playable.announce(s);
             Soak.read();
         } catch (Throwable t) {
             // A half-built snapshot is better than killing the game thread; the view shows less.

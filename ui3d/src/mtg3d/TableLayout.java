@@ -1510,6 +1510,19 @@ abstract class TableLayout extends TableCamera {
                 rim.transform.setToTranslation(w.x, lift + TRAY_LIP / 2f, w.z).rotate(Vector3.Y, yaw)
                     .scale((CARD_W * 0.88f + 0.26f) / (CARD_W + 0.24f), TRAY_LIP / 0.02f,
                            (CARD_H * 0.88f + 0.26f) / (CARD_H + 0.24f));
+                // The rim is the highlight: gold and breathing when there is something in this
+                // pile THIS client can play. Before it there was nothing to say that an exiled
+                // card was castable, so Ragavan's steal was unreachable - the pile was scenery
+                // (the owner, 2026-11-03). Only ever our own permission, never "someone could
+                // play this", so it cannot be read as another player's business.
+                boolean canPlay = k == 1 ? s.graveyardPlayable : k == 2 && s.exilePlayable;
+                if (canPlay) {
+                    float pulse = 0.72f + 0.28f * (float) Math.sin(clock * 3.4f);
+                    rim.materials.get(0).set(ColorAttribute.createDiffuse(
+                        1f * pulse, 0.80f * pulse, 0.28f * pulse, 1f));
+                    rim.materials.get(0).set(ColorAttribute.createEmissive(
+                        0.42f * pulse, 0.30f * pulse, 0.05f, 1f));
+                }
                 props.add(rim);
                 ModelInstance inst = inst(zoneModel);
                 inst.transform.setToTranslation(w.x, lift + TRAY_LIP - 0.025f, w.z).rotate(Vector3.Y, yaw);

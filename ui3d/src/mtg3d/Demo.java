@@ -336,6 +336,15 @@ public final class Demo {
         }
         s.seats.get(1).graveyard.add(card(gid++, "Boros Charm", "Instant", false, false, "{R}{W}", ""));
         s.seats.get(2).exile.add(card(gid++, "Ancient Bronze Dragon", "Creature - Dragon", true, false, "{5}{G}{G}", ""));
+        // One card in someone else's exile that we may play, which is the Ragavan case: the
+        // engine grants "until end of turn, you may cast that card" and the pile is the only
+        // route to it. Here so the gold rim, the "EXI 2 *" label and the gold frame in the pile
+        // browser can be seen without a live game - the demo is the only way to check them
+        // without interrupting one.
+        Snapshot.CardV stolen = card(gid++, "Wrenn's Resolve", "Sorcery", false, false, "{1}{R}", "");
+        stolen.playable = true;
+        s.seats.get(2).exile.add(stolen);
+        s.seats.get(2).exilePlayable = true;
         String[][] lines = {
             { "TURN", "Turn 7 (Xenil)" },
             { "LAND", "Xenil played Emeria, the Sky Ruin" },

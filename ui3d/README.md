@@ -44,6 +44,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `SPACE` | **In a game** - pass priority / confirm (guarded) |
 | `X` | **In a game** - cancel (guarded) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
+| click a graveyard or exile pad | Browse that pile (any seat's - both are public). A gold-framed card in there is one you can play: click it to cast it |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
 | `G` | Pick up the card in your hand under the pointer; `LEFT`/`RIGHT` (or the mouse) place it, `SPACE` drops it, `ESC` puts it back |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
@@ -603,6 +604,23 @@ to know before starting:
       off its top (`TableLayout.placeZones`, `pileTop`). **Also done:** each pile's pad shows as a
       rim in the owner's seat colour (`zoneLabelColour`, darkened), and the top card of a
       graveyard or exile pile lies face up on it (scenery - a click still browses the pile).
+- [x] **Playing out of a pile - done 2026-11-03.** The piles were read-only, so anything Forge let
+      you cast from one was simply unreachable: Ragavan exiled the top of an opponent's library,
+      the rules engine granted "until end of turn, you may cast that card", and there was no way
+      to click it (the owner, 2026-11-03). Now `Playable` asks the engine itself -
+      `Card.getAllPossibleAbilities(me, true)`, which is exactly what `InputPassPriority.`
+      `getActivateAction` calls, so the 3D side still judges no legality of its own - across every
+      seat's graveyard, exile and command zone, but only while an `InputPassPriority` is live and
+      at most once every 250 ms (the engine rebuilds each card's ability list; a late game has 150
+      cards in those zones). The answer rides in on `CardV.playable` /
+      `SeatV.graveyardPlayable` / `exilePlayable`. It shows three ways: the pad's rim turns gold
+      and breathes (`TableLayout.placeZones`), its label turns gold and gains a `*`
+      (`TableHud.drawZoneLabels`), and in the pile browser the card keeps a gold frame and a click
+      casts it (`SearchPanel.playHighlighted` -> `Gui3D.clickCard`, the same guarded route as a
+      click on the table). The first time a card in a pile becomes playable the table says so, in
+      case you are not looking at the pile - which is how the owner missed it. Empty on a joined
+      client, which has views and no `Card` objects to ask. Demo: Wrenn's Resolve sits playable in
+      Michael's exile, so `-Dforge.ui3d.openPile=2,exile` shows the lot without a game.
 - [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.

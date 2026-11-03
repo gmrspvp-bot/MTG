@@ -238,6 +238,15 @@ public final class Gui3D implements InvocationHandler {
 
     /** The local human's controller, for sending guarded clicks back. Null until installed. */
     private static volatile forge.player.PlayerControllerHuman controller;
+
+    /**
+     * The local human's controller, for asking the rules engine a question about the live game.
+     * Null on a joined client and before a game starts, which is why every caller treats null as
+     * "say nothing" rather than as an error (see Playable).
+     */
+    static forge.player.PlayerControllerHuman localController() {
+        return controller;
+    }
     /** The cards Forge says may be clicked, by id. Replaced wholesale, never mutated in place. */
     private static volatile java.util.Map<Integer, CardView> selectableViews =
         new java.util.LinkedHashMap<>();
@@ -606,6 +615,7 @@ public final class Gui3D implements InvocationHandler {
                 remote = null;                 // a local game: forget any earlier joined one
                 remoteGui = null;
                 ClickGuard.watch(pch);
+                Playable.reset();              // a new game must not inherit the last one's notes
                 checkTakenOver();
                 System.out.println("UI3D: input wrapper installed (forwarding everything)");
                 clearPhaseSkips();

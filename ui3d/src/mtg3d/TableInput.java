@@ -869,9 +869,8 @@ abstract class TableInput extends TableHud {
             pileOpened = true;
             String[] p = OPEN_PILE.split(",");
             Snapshot.SeatV s = snap.seats.get(Integer.parseInt(p[0].trim()) % snap.seats.size());
-            List<Snapshot.CardV> pile = p.length > 1 && p[1].trim().startsWith("e") ? s.exile : s.graveyard;
-            search.open(s.name + "'s " + (pile == s.exile ? "exile" : "graveyard") + " (" + pile.size() + ")",
-                "Most recent first. Close when you have read it.", new ArrayList<>(pile), 0, 0, chosen -> { });
+            boolean wantExile = p.length > 1 && p[1].trim().startsWith("e");
+            openPile(s, wantExile ? s.exile : s.graveyard, wantExile ? "exile" : "graveyard");
             return;
         }
         // -Dforge.ui3d.openPanel=modes|colour|player|x: opens a sample OptionPanel / NumberPicker
@@ -1088,6 +1087,25 @@ abstract class TableInput extends TableHud {
     }
 
     /**
+     * Opens one pile in the search panel, in browse mode.
+     *
+     * A pile is no longer read-only: anything the rules engine says this client may cast or
+     * activate from in there is drawn with a gold frame and is clickable, which is the only route
+     * to a card Ragavan exiled from an opponent's library (see Playable and SearchPanel). One
+     * helper so the screenshot flag opens exactly what a click opens - the two had already
+     * drifted apart by a prompt line.
+     */
+    private void openPile(Snapshot.SeatV s, List<Snapshot.CardV> pile, String what) {
+        int canPlay = 0;
+        for (Snapshot.CardV c : pile) if (c.playable) canPlay++;
+        String prompt = pile.isEmpty() ? "Nothing here."
+            : canPlay > 0 ? "Most recent first. Click a gold-framed card to play it."
+            : "Most recent first. Close when you have read it.";
+        search.open(s.name + "'s " + what + " (" + pile.size() + ")", prompt,
+            new ArrayList<>(pile), 0, 0, chosen -> { });
+    }
+
+    /**
      * If the mouse is over a graveyard or exile pad, opens that pile in the search panel in browse
      * mode (nothing to pick) and returns true. The pads are scenery, not cards, so this is a ray
      * hit on the table plane, turned into the seat's own frame and checked against the two pads
@@ -1109,9 +1127,7 @@ abstract class TableInput extends TableHud {
                 Snapshot.SeatV s = snap.seats.get(i);
                 List<Snapshot.CardV> pile = k == 1 ? s.graveyard : s.exile;
                 String what = k == 1 ? "graveyard" : "exile";
-                String title = s.name + "'s " + what + " (" + pile.size() + ")";
-                search.open(title, pile.isEmpty() ? "Nothing here." : "Most recent first. Close when you have read it.",
-                    new ArrayList<>(pile), 0, 0, chosen -> { });
+                openPile(s, pile, what);
                 return true;
             }
         }
