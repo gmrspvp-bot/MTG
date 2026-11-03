@@ -912,6 +912,9 @@ abstract class TableInput extends TableHud {
             if (!Gui3D.nextPhase()) toast("Nothing to pass right now", Gdx.input.getX(),
                 Gdx.graphics.getHeight() - Gdx.input.getY());
         }
+        // E: resolve the whole stack - keep passing until it is empty, stopping if something
+        // needs you. SPACE lets only the top item resolve.
+        if (Keys3D.just(Input.Keys.E) && Gui3D.active()) resolveStackPressed();
         // Left-click a card Forge says is playable right now. The click is only sent for cards
         // already in the selectable set, so the 3D side is choosing among Forge's own legal
         // options and can never offer a play the rules disallow.
@@ -944,7 +947,7 @@ abstract class TableInput extends TableHud {
                 if (clickedCard()) {
                     if (inRect(okBtn, mx, my)) Gui3D.pressOk();
                     else if (inRect(cancelBtn, mx, my)) cancelPressed();
-                    else Gui3D.nextPhase();
+                    else resolveStackPressed();
                 }
                 return;
             }
@@ -1241,6 +1244,13 @@ abstract class TableInput extends TableHud {
      */
     void autoPassOthersTurns() {
         if (!Gui3D.active()) return;
+        // A stack resolve (E) is called off the moment Forge asks us anything real, so its
+        // "Yielding until stack clears" can never cover a question again (Gui3D.questionWaiting);
+        // Forge's cancel shows the question afresh (AutoPassHook.autoPassCancel).
+        if (Gui3D.onlyStackYield() && Gui3D.questionWaiting()) {
+            System.out.println("UI3D: stack resolve called off - a question for you came up (" + Gui3D.liveInputName() + ")");
+            Gui3D.stopAutoPass();
+        }
         Snapshot.SeatV me = snap.you();
         // THE HARD SAFEGUARD. On your own turn nothing passes for you - not this toggle, and not
         // Forge either: any auto-pass it has armed is torn down every frame your turn is running.
@@ -1248,7 +1258,10 @@ abstract class TableInput extends TableHud {
         // go through their own phases by hand (2026-10-21). Checked before the toggle is even
         // read, so no setting can reach past it.
         if (me != null && me.active) {
-            if (!Gui3D.autoPassing().isEmpty()) Gui3D.stopAutoPass();
+            // Except a stack resolve the player asked for (E): Forge ends that the moment the
+            // stack is empty, so it cannot pass a step - only the spells the player chose to let
+            // resolve (Gui3D.resolveStack).
+            if (!Gui3D.autoPassing().isEmpty() && !Gui3D.onlyStackYield()) Gui3D.stopAutoPass();
             return;
         }
         if (askResponses || panelOpen() || Gui3D.pendingAsk() != null) return;
@@ -1700,6 +1713,14 @@ abstract class TableInput extends TableHud {
     }
 
     /** True on the frame the left button goes down on the responses tickbox. */
+    /** E or the "Resolve stack" button (Gui3D.resolveStack), with a word on screen either way. */
+    void resolveStackPressed() {
+        float tx = Gdx.graphics.getWidth() / 2f, ty = Gdx.graphics.getHeight() * 0.34f;
+        if (snap.stack.isEmpty()) { toast("The stack is empty - nothing to resolve", tx, ty); return; }
+        if (!Gui3D.resolveStack()) { toast("Answer the question first", tx, ty); return; }
+        toast("Resolving the stack - stops if something needs you", tx, ty);
+    }
+
     boolean clickedRespondBox() {
         boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
         boolean justDown = down && !leftWasDownRespond;

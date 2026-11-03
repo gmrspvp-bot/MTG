@@ -132,7 +132,9 @@ public final class Demo {
                   + nl2 + "Phase: Declare attackers" + nl2 + "Stack: " + s.stack.size() + " to resolve."
                 : "Priority: " + s.seats.get(active).name + nl2 + "Turn: " + (turn + 1)
                   + nl2 + "Phase: Main phase, precombat" + nl2 + "Stack: Empty";
-            s.okLabel = s.combat ? "Attack" : "OK";
+            // -Dforge.ui3d.demoPass=true: an ordinary pass while the stack is full, the moment the
+            // "Resolve stack" button is shown for.
+            s.okLabel = s.combat && !Boolean.getBoolean("forge.ui3d.demoPass") ? "Attack" : "OK";
             s.cancelLabel = "Cancel";
             s.okEnabled = true;
             s.cancelEnabled = s.combat;

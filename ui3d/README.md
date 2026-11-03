@@ -43,6 +43,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | middle-drag | Grab the table and move it; `DOWN` recentres |
 | `SPACE` | **In a game** - pass priority / confirm (guarded) |
 | `X` | **In a game** - cancel (guarded) |
+| `E` (or the "Resolve stack" button) | **In a game** - pass until the stack is empty; stops if an opponent casts a spell, something targets you or your permanents, a board wipe, attackers, or any question for you (Forge's own stack yield, `Gui3D.resolveStack`) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
 | click a graveyard or exile pad | Browse that pile (any seat's - both are public). A gold-framed card in there is one you can play: click it to cast it |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
@@ -435,6 +436,12 @@ Anything not yet taken over falls through to Forge's window, so the game stays p
       shown on the table (the revealed card + OK), and an auto-yield must never hide a pending
       `InputConfirm`. Log: `scratch\play-logs\console_2026-10-28_225524.log` from line ~3527
       (23:08:09); the game's thread dump showed `Game-0` parked in `PlayerControllerHuman.reveal`.
+- [ ] **Resolve stack (E), check in a real game** *(attended)*. Built 2026-11-04 (Stoneforge, the
+      owner's request): arms Forge's stack yield with interrupts on, then passes. Proven only on
+      demo frames (`-Dforge.ui3d.demoPass=true`). Check, hosted and joined: it resolves several
+      items in one press; it stops when an opponent responds; it works on your own turn and does
+      not pass the step once the stack is empty; a reveal or "may" during it brings the question
+      up (log `UI3D: stack resolve called off`) instead of leaving "Yielding until stack clears".
 - [ ] **Cancel on a client during a reveal does nothing, silently** *(attended)*. Alec's client
       sent ~20 `selectButtonCancel` while the table was stuck; an OK-only confirm ignores them
       with no message. A refused press should say what Forge is actually waiting for, and on whom.

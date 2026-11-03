@@ -1105,6 +1105,78 @@ public final class Gui3D implements InvocationHandler {
         return pressOk();
     }
 
+    /**
+     * Pass until the stack has resolved: what is on it now, and whatever triggers add as it goes
+     * (the owner, 2026-11-04: "we need to add an option to pass priority for the current stack").
+     *
+     * Forge's own stack yield - the one behind its stack panel's "Resolve entire stack" - armed
+     * the way InputPassPriority does it, with interrupts respected: it still stops and asks when
+     * an opponent casts a spell, something targets us or our permanents, a mass removal spell
+     * goes on the stack, or attackers come (the YIELD_INTERRUPT_* preferences). Then the pass
+     * that starts it.
+     *
+     * YieldController only passes while something is on the stack and clears the yield itself
+     * the moment it is empty, so this can never carry us past a step. That is why the own-turn
+     * safeguard (TableInput.autoPassOthersTurns) lets this one stand while tearing down an
+     * auto-pass to end of turn.
+     *
+     * Only for the ordinary pass of priority: false when a real question is up, so E can never
+     * answer one.
+     */
+    public static boolean resolveStack() {
+        if (!PROMPT.okEnabled || !"InputPassPriority".equals(PROMPT.inputName)
+                || !"OK".equalsIgnoreCase(PROMPT.okLabel)) return false;
+        try {
+            forge.player.PlayerControllerHuman c = controller;
+            if (c == null) {
+                // A joined game: the update arms the client's controller and tells the host,
+                // the same channel stopAutoPass uses to call one off.
+                final forge.interfaces.IGameController r = remote;
+                if (r == null) return false;
+                r.sendYieldUpdate(new forge.gamemodes.match.YieldUpdate.StackYield(remoteViewer, true, true));
+            } else {
+                c.getYieldController().setAutoPassUntilStackEmpty(true, true);
+                forge.game.player.PlayerView me = c.getLocalPlayerView();
+                if (me != null && c.getGui() != null) {
+                    c.getGui().applyYieldUpdate(new forge.gamemodes.match.YieldUpdate.StackYield(me, true, true));
+                }
+            }
+            System.out.println("UI3D: resolving the stack - passing until it is empty or something needs you");
+        } catch (Throwable t) {
+            System.out.println("UI3D: could not arm the stack resolve (" + t + ")");
+            return false;
+        }
+        return pressOk();
+    }
+
+    /** Is the auto-pass, if any, only until the stack is empty (the kind resolveStack arms)? */
+    public static boolean onlyStackYield() {
+        return "until the stack is empty".equals(autoPassing());
+    }
+
+    /**
+     * Is Forge waiting on us for something other than the ordinary pass - a reveal to OK, a
+     * choice, a target? A stack yield must not sit over one: on 2026-10-28 Forge's "Yielding
+     * until stack clears" covered a reveal confirm and the table stalled for 13 minutes
+     * (ui3d\README.md). On the host the live input says; a joined client only has the prompt
+     * text, where the ordinary pass is the one with "Phase:" and "Stack:" lines.
+     */
+    public static boolean questionWaiting() {
+        try {
+            if (controller != null) {
+                String live = liveInputName();
+                return !(live.equals("none") || live.equals("unknown") || live.equals("InputPassPriority")
+                    || live.equals("InputLockUI"));
+            }
+            if (remote == null || !(PROMPT.okEnabled || PROMPT.cancelEnabled)) return false;
+            String m = PROMPT.message == null ? "" : PROMPT.message.toLowerCase();
+            if (m.isEmpty() || m.contains("yielding")) return false;
+            return !(m.contains("phase:") && m.contains("stack:"));
+        } catch (Throwable t) {
+            return false;
+        }
+    }
+
     /** True once a game is running with the wrapper installed. */
     public static boolean active() {
         return controller != null || remote != null;

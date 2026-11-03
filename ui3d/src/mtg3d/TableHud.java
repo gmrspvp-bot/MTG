@@ -749,7 +749,8 @@ abstract class TableHud extends TableScene {
      * both and said nothing. Sits above the hand, where the eye already is.
      */
     void drawPromptBar(int w, int h) {
-        okBtn[2] = cancelBtn[2] = 0f;                      // nothing clickable unless drawn
+        okBtn[2] = cancelBtn[2] = nextBtn[2] = 0f;         // nothing clickable unless drawn
+        nextOn = false;
         // Drawn whenever the snapshot carries a prompt, so the demo can exercise it too;
         // only the buttons need a live game behind them.
         if (Gui3D.pendingAsk() != null) return;
@@ -825,7 +826,11 @@ abstract class TableHud extends TableScene {
         float btnW = 150f, btnH = 36f, gap = 10f;
 
         // Measure the text and size the box to it, so a one-line prompt gets a slim bar.
-        float textW = bw - 40f - (okOn ? btnW + 30f + gap : 0f) - (cancelOn ? btnW + gap : 0f);
+        // "Resolve stack" beside the main button while it would only let the top item resolve:
+        // ordinary priority with something on the stack, and with more than one item it is the
+        // difference between one pass and many (Gui3D.resolveStack).
+        boolean resolveOn = okOn && !named && !topOfStack.isEmpty();
+        float textW = bw - 40f - (okOn ? btnW + 30f + gap : 0f) - (cancelOn ? btnW + gap : 0f) - (resolveOn ? btnW + gap : 0f);
         com.badlogic.gdx.graphics.g2d.GlyphLayout gl = new com.badlogic.gdx.graphics.g2d.GlyphLayout();
         gl.setText(font, msg, com.badlogic.gdx.graphics.Color.WHITE, textW, com.badlogic.gdx.utils.Align.left, true);
         float bh = Math.max(btnH + 14f, gl.height + 22f);
@@ -866,6 +871,15 @@ abstract class TableHud extends TableScene {
             else shapes.setColor(hot ? 0.26f : 0.17f, hot ? 0.42f : 0.28f, hot ? 0.62f : 0.44f, 1f);
             shapes.rect(bx, by, okW, btnH);
         }
+        // Left of the main button, the far side from End turn: a slip lands on a single pass.
+        if (resolveOn) {
+            bx -= btnW + gap;
+            nextBtn[0] = bx; nextBtn[1] = by; nextBtn[2] = btnW; nextBtn[3] = btnH;
+            nextOn = true;
+            boolean hot = inRect(nextBtn, mx, my);
+            shapes.setColor(hot ? 0.22f : 0.14f, hot ? 0.36f : 0.24f, hot ? 0.56f : 0.40f, 1f);
+            shapes.rect(bx, by, btnW, btnH);
+        }
         // Hard left, past the prompt text - NOT beside the other buttons. It is a mode, not an
         // answer, and a mode button within a thumb's width of "End turn" is a turn waiting to be
         // lost (the owner, 2026-10-21).
@@ -886,6 +900,13 @@ abstract class TableHud extends TableScene {
             font.draw(ui, mainLabel, okBtn[0], okBtn[1] + 30f, okBtn[2], 1, false);
             font.setColor(named ? new Color(0.60f, 0.86f, 0.70f, 1f) : new Color(0.62f, 0.74f, 0.92f, 1f));
             font.draw(ui, mainHint, okBtn[0], okBtn[1] + 14f, okBtn[2], 1, false);
+        }
+        if (resolveOn) {
+            font.setColor(0.86f, 0.92f, 1f, 1f);
+            font.draw(ui, "Resolve stack", nextBtn[0], nextBtn[1] + 30f, btnW, 1, false);
+            font.setColor(0.60f, 0.72f, 0.90f, 1f);
+            font.draw(ui, "E - " + snap.stack.size() + (snap.stack.size() == 1 ? " item" : " items"),
+                nextBtn[0], nextBtn[1] + 14f, btnW, 1, false);
         }
         if (askResponses) {
             font.setColor(0.80f, 0.88f, 0.98f, 1f);
