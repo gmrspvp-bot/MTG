@@ -625,9 +625,22 @@ to know before starting:
       (`TableHud.drawZoneLabels`), and in the pile browser the card keeps a gold frame and a click
       casts it (`SearchPanel.playHighlighted` -> `Gui3D.clickCard`, the same guarded route as a
       click on the table). The first time a card in a pile becomes playable the table says so, in
-      case you are not looking at the pile - which is how the owner missed it. Empty on a joined
-      client, which has views and no `Card` objects to ask. Demo: Wrenn's Resolve sits playable in
-      Michael's exile, so `-Dforge.ui3d.openPile=2,exile` shows the lot without a game.
+      case you are not looking at the pile - which is how the owner missed it. Demo: Wrenn's
+      Resolve sits playable in Michael's exile, so `-Dforge.ui3d.openPile=2,exile` shows the lot
+      without a game.
+      **Fixed again 2026-11-04 for joined games**, which is where the owner actually was: a client
+      has views and no `Card` objects, so the engine query above found nothing and no pile ever
+      lit up. Forge pushes the answer anyway - `PlayerControllerHuman.pushActionableCards` walks
+      hand, battlefield, graveyard, exile and command and sends the result through
+      `IGuiGame.setWeaklySelectable` as priority is handed over, clearing it once the decision is
+      answered - and that crosses the wire like every other GUI call. `Gui3D` now keeps those ids
+      (`actionableIds`) and `Playable` prefers them over asking the engine, so local and joined
+      games take the same route and the local one no longer pays for the walk. Two caveats: the
+      push is gated by the HOST's `UI_SHOW_ACTIONABLE_HIGHLIGHTS` preference (on by default, and
+      on in this repo's `forge-data\preferences\forge.preferences`), and when it is off a joined
+      client cannot know - so the pile browser goes "blind" (`Playable.blind`) and lets you click
+      any card to try it, with the host judging, rather than showing a dead list. Probed without a
+      game by pushing a `setWeaklySelectable` through `installRemote`'s wrapper.
 - [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.

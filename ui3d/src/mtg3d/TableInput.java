@@ -1103,9 +1103,13 @@ abstract class TableInput extends TableHud {
         for (Snapshot.CardV c : pile) if (c.playable) canPlay++;
         String prompt = pile.isEmpty() ? "Nothing here."
             : canPlay > 0 ? "Most recent first. Click a gold-framed card to play it."
+            : Playable.blind() ? "Most recent first. Click a card to try to play it."
             : "Most recent first. Close when you have read it.";
         search.open(s.name + "'s " + what + " (" + pile.size() + ")", prompt,
             new ArrayList<>(pile), 0, 0, chosen -> { });
+        // A joined game whose host is not telling us what is playable: let the player try a card
+        // rather than hand them a dead list. The host judges it, as it judges every other click.
+        search.setBlindPlay(canPlay == 0 && Playable.blind());
     }
 
     /**

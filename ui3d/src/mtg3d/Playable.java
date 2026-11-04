@@ -81,6 +81,21 @@ public final class Playable {
      * means "no highlight", which is how the table behaved before this existed.
      */
     static Set<Integer> ids(Game game) {
+        // Forge's own answer first. PlayerControllerHuman.pushActionableCards walks hand,
+        // battlefield, graveyard, exile and command and pushes the result through
+        // IGuiGame.setWeaklySelectable as priority is handed over - which crosses the network,
+        // so it is the only answer a JOINED client can have, having no Card objects to ask. The
+        // owner's 2026-11-04 game was joined to someone else's host, so the engine query below
+        // found nothing and no pile lit up, even though these pushes were arriving all game.
+        Set<Integer> pushed = Gui3D.actionableIds();
+        if (!pushed.isEmpty()) {
+            lastCount = pushed.size();
+            return pushed;
+        }
+        // Nothing pushed. Either it is not our priority, or the host has Forge's
+        // UI_SHOW_ACTIONABLE_HIGHLIGHTS preference off - in which case a local game can still
+        // ask the engine directly, and a joined client cannot (see SearchPanel, which then lets
+        // the player try a card and have the host judge it).
         if (game == null) return Collections.emptySet();
         PlayerControllerHuman pch = Gui3D.localController();
         if (pch == null) return Collections.emptySet();
@@ -142,6 +157,19 @@ public final class Playable {
         if (name == null) return;
         Gui3D.note("You can play " + name + (extra > 0 ? " (and " + extra + " more)" : "")
             + " - click the pile to open it");
+    }
+
+    /**
+     * True when this client cannot know what it may play: a joined game (no Card objects to ask)
+     * where the host has pushed no actionable highlights either - its
+     * UI_SHOW_ACTIONABLE_HIGHLIGHTS preference is off, or it is simply not our priority.
+     *
+     * The pile browser uses this to let the player try a card anyway rather than show a dead
+     * list: the host judges it exactly as it judges a click on the table, so the worst case is
+     * nothing happening. Silence is the one outcome worth avoiding - it is what the owner got.
+     */
+    static boolean blind() {
+        return Gui3D.localController() == null && Gui3D.actionableIds().isEmpty();
     }
 
     /** A new game must not inherit the last one's announcements. */

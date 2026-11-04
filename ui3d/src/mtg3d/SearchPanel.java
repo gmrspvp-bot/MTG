@@ -54,6 +54,13 @@ public final class SearchPanel {
     private int minPick, maxPick;
     private Result result;
 
+    /**
+     * Browsing a pile when nothing can be known about what is playable - a joined game whose host
+     * is not pushing actionable highlights. Every card is then clickable and the host judges, see
+     * Playable.blind.
+     */
+    private boolean blindPlay;
+
     private float scroll;
     private int hoverIndex = -1;
     /** True while the arrow keys own the highlight; the mouse takes it back when it moves. */
@@ -86,7 +93,13 @@ public final class SearchPanel {
         this.open = true;
         this.closing = false;
         this.anim = 0f;
+        this.blindPlay = false;
         this.prevTouch = true;     // swallow the click that opened it
+    }
+
+    /** Set straight after open() for a pile we cannot judge - see the field. */
+    public void setBlindPlay(boolean blind) {
+        this.blindPlay = blind && maxPick <= 0;
     }
 
     public boolean isOpen() {
@@ -271,7 +284,11 @@ public final class SearchPanel {
             font.draw(ui, counter, px + 22f, py + 34f);
         }
         int canPlay = playableCount();
-        if (canPlay > 0) {
+        if (canPlay == 0 && blindPlay && !items.isEmpty()) {
+            font.setColor(0.80f, 0.74f, 0.52f, t);
+            font.draw(ui, "Joined game: the host has not said what you can play here"
+                + "   -   click a card to try it", px + 22f, py + 34f);
+        } else if (canPlay > 0) {
             font.setColor(1f, 0.86f, 0.42f, t);
             font.draw(ui, canPlay + (canPlay == 1 ? " card here you can play" : " cards here you can play")
                 + " (gold frame)   -   click one to cast it", px + 22f, py + 34f);
@@ -390,7 +407,7 @@ public final class SearchPanel {
     private boolean playHighlighted() {
         if (maxPick > 0 || hoverIndex < 0 || hoverIndex >= items.size()) return false;
         Snapshot.CardV c = items.get(hoverIndex);
-        if (!c.playable) return false;
+        if (!c.playable && !blindPlay) return false;
         Gui3D.clickCard(c.id);
         finish(false);
         return true;

@@ -251,6 +251,18 @@ public final class Gui3D implements InvocationHandler {
     private static volatile java.util.Map<Integer, CardView> selectableViews =
         new java.util.LinkedHashMap<>();
     /**
+     * The cards Forge says this player could ACT on right now - its own actionable highlights,
+     * see the setWeaklySelectable case. Different from selectableViews, which answers a specific
+     * question ("choose a card to discard"); this one is the standing "what could I play".
+     */
+    private static volatile java.util.Map<Integer, CardView> actionableViews =
+        new java.util.LinkedHashMap<>();
+
+    /** Ids of the cards Forge last said were actionable. Empty when nothing has been pushed. */
+    static java.util.Set<Integer> actionableIds() {
+        return new java.util.HashSet<>(actionableViews.keySet());
+    }
+    /**
      * Every CardView the snapshot has seen, by id, filled by StateReader on the game thread.
      *
      * Needed because Forge does NOT call setSelectables during ordinary priority - it outlines
@@ -816,12 +828,14 @@ public final class Gui3D implements InvocationHandler {
         clickSent();
         if (remote != null) {
             CardView rc = selectableViews.get(cardId);
+            if (rc == null) rc = actionableViews.get(cardId);
             if (rc == null) rc = known.get(cardId);
             final CardView target = rc;
             return target != null && remoteClick(r -> r.selectCard(target, java.util.Collections.emptyList(), null));
         }
         final forge.player.PlayerControllerHuman c = controller;
         CardView found = selectableViews.get(cardId);
+        if (found == null) found = actionableViews.get(cardId);
         if (found == null) found = known.get(cardId);
         final CardView cv = found;
         final Object seen = PROMPT.token;
@@ -2905,6 +2919,33 @@ public final class Gui3D implements InvocationHandler {
                 Peek p = peeking;
                 if (p != null && p.fromSelectables) peeking = null;
                 heldSelectables = null;
+                break;
+            }
+            // What Forge calls "actionable highlights": every card this player could act on right
+            // now, across hand, battlefield, graveyard, exile and command
+            // (PlayerControllerHuman.pushActionableCards, ACTIONABLE_PAYMENT_ZONES), pushed as
+            // priority is handed over and cleared once it is answered.
+            //
+            // This is the ONLY route to that answer on a joined client, which has views and no
+            // Card objects of its own - and a joined client is where the owner hit it: his
+            // 2026-11-04 game was on Alec's host, so the engine query added the day before found
+            // nothing and no pile ever lit up. It arrives over the wire exactly as it does
+            // locally, so reading it here fixes both.
+            case "setWeaklySelectable": {
+                java.util.Map<Integer, CardView> views = new java.util.LinkedHashMap<>();
+                if (args != null && args.length >= 1 && args[0] instanceof Iterable) {
+                    for (Object o : (Iterable<?>) args[0]) {
+                        if (!(o instanceof CardView)) continue;
+                        CardView cv = (CardView) o;
+                        views.put(cv.getId(), cv);
+                        remember(cv.getId(), cv);     // so a click can find the object again
+                    }
+                }
+                actionableViews = views;
+                break;
+            }
+            case "clearWeaklySelectable": {
+                actionableViews = new java.util.LinkedHashMap<>();
                 break;
             }
             case "openZones":
