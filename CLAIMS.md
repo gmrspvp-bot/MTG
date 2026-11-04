@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| Tax-trigger skip: skip all on big stacks, no prompt if a player can't pay (new TaxSkipHook, EvalCacheAgent table) | Stoneforge | 2026-11-05 | Host-side hook on payCostToPreventEffect; no ui3d change planned |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

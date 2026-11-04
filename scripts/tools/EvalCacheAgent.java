@@ -102,6 +102,11 @@ public class EvalCacheAgent {
          "forge/gamemodes/net/server/SeatClaimHook", "instance-object"},
         {"forge/gamemodes/net/server/RemoteClient", "swapChannel", "(Lio/netty/channel/Channel;)V",
          "forge/gamemodes/net/server/SeatClaimHook", "instance"},
+        // Tax triggers: no prompt for a player who cannot pay, one "skip all" on a big stack (TaxSkipHook).
+        {"forge/player/PlayerControllerHuman", "payCostToPreventEffect",
+         "(Lforge/game/cost/Cost;Lforge/game/spellability/SpellAbility;ZLforge/util/collect/FCollectionView;)Z",
+         "TaxSkipHook", "instance"},
+        {"forge/game/zone/MagicStack", "resolveStack", "()V", "TaxSkipHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {
