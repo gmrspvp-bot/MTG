@@ -40,7 +40,7 @@ public class LeaderDamageProbe {
     static void run() throws Exception {
         GuiBase.setInterface(new GuiDesktop());
         FModel.initialize(null, null);
-        HumanHooks.enabled = true;
+        HumanHooks.enabled = true;   // and run with -Dforge.ai.leaderdamage=true
         List<RegisteredPlayer> players = new ArrayList<>();
         for (String n : new String[] { "Me", "Low", "High" })
             players.add(new RegisteredPlayer(new Deck(n)).setPlayer(GamePlayerUtil.createAiPlayer(n)));
