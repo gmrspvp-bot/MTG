@@ -103,7 +103,7 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
     wins over the jar. build-tools.ps1 keeps both in sync.
 - `SimRunner` replaces Forge's sim loop and attaches `BoardRecorder`, which writes
   `Information: BOARD ...` snapshot lines that the analysis scripts read.
-- Each AI decision prints a tagged line: THROWAI, EQUIPAI, ATTACKAI, TARGETAI, BLOCKAI, COUNTERAI,
+- Each AI decision prints a tagged line: THROWAI, EQUIPAI, ATTACKAI, TARGETAI, DMGAI, BLOCKAI, COUNTERAI,
   SACAI, MULLAI. Decision lines print while a game runs; the game's event log prints after it
   ends, so match them per game, not by line distance.
 - Card-level AI fixes are custom card scripts in `forge-data\custom\cards\`. The rules text is

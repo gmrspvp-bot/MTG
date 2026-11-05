@@ -1967,7 +1967,46 @@ public final class AiPatches {
         return dmg + " damage at " + target.getName() + " on " + target.getLife() + " life - lethal";
     }
 
+    /**
+     * Damage at a face goes where the attacks go (the owner's go-ahead, 2026-11-06). People send
+     * this at the leader and the AI at the lowest life, because Forge picks getWeakestOpponent:
+     * Goblin Bombardment 95% at the life leader against 2%, Dragon Tempest and Rin and Seri the
+     * same way round (scripts\card-choices.ps1). Forge still decides whether to fire; once it has
+     * picked an opponent's face for a single-target shot that does not kill them, the shot moves
+     * to PlayStyleHook.turnTarget. Logged "DMGAI ...". -Dforge.ai.leaderdamage=false turns it off.
+     */
+    static final boolean LEADER_DAMAGE = !"false".equalsIgnoreCase(System.getProperty("forge.ai.leaderdamage", "true"));
+
+    static String leaderShot(Player ai, SpellAbility sa) {
+        if (!LEADER_DAMAGE || !HumanHooks.enabled || !PlayStyleHook.LEADER) return null;
+        if (CaptainPolicy.isThrow(sa) || !sa.usesTargeting() || sa.isDividedAsYouChoose() || sa.getTargets().size() != 1) return null;
+        Player chosen = null;
+        for (Player p : sa.getTargets().getTargetPlayers()) chosen = p;
+        if (chosen == null || !ai.isOpponentOf(chosen)) return null;
+        int dmg;
+        try { dmg = CaptainPolicy.totalDamage(sa); } catch (Throwable t) { return null; }
+        if (dmg >= chosen.getLife()) return null;
+        Player target = PlayStyleHook.turnTarget(ai);
+        if (target == null || target == chosen || !sa.canTarget(target)) return null;
+        sa.resetTargets();
+        sa.getTargets().add(target);
+        return dmg + " damage at " + target.getName() + " on " + target.getLife() + " life, not "
+            + chosen.getName() + " on " + chosen.getLife();
+    }
+
+    private static void aimAtLeader(Player ai, SpellAbility sa) {
+        String shot = leaderShot(ai, sa);
+        if (shot != null) System.out.println("DMGAI " + sa.getHostCard().getName() + ": " + shot);
+    }
+
     public static class ThrowAwareDamageAi extends forge.ai.ability.DamageDealAi {
+        @Override
+        protected forge.ai.AiAbilityDecision doTriggerNoCost(Player ai, SpellAbility sa, boolean mandatory) {
+            forge.ai.AiAbilityDecision d = super.doTriggerNoCost(ai, sa, mandatory);
+            if (d.willingToPlay()) aimAtLeader(ai, sa);
+            return d;
+        }
+
         @Override
         protected forge.ai.AiAbilityDecision canPlay(Player ai, SpellAbility sa) {
             forge.ai.AiAbilityDecision d = super.canPlay(ai, sa);
@@ -1986,6 +2025,7 @@ public final class AiPatches {
                         if (lead != null) ThreatRetarget.retargetTo(sa, chosen, lead);
                     }
                 }
+                if (d.willingToPlay()) aimAtLeader(ai, sa);
                 return d;
             }
             if (!CaptainPolicy.isThrow(sa)) {
@@ -1995,6 +2035,7 @@ public final class AiPatches {
                     return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
                 }
             }
+            if (d.willingToPlay()) aimAtLeader(ai, sa);
             if (!CaptainPolicy.enabled || !CaptainPolicy.isThrow(sa)) return d;
             boolean forgeWilling = d.willingToPlay();
             // Styles that pick their own targets may throw even when Forge's damage AI wouldn't;

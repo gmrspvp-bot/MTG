@@ -76,6 +76,7 @@ do not build until the owner says:
 - [ ] **Captain America:** people hold Swords to Plowshares / Path to Exile for 3-4 turns and
       cast them on opponents' turns; the AI fires them at once. People attack on 53% of turns
       with creatures, the AI 81%.
+- [ ] **Damage at the leader** (built 2026-11-06, Stoneforge, on by default; A/B running in `scratchleague-1106-runs.txt`). Non-lethal single-target damage at a face now follows the attack target, `PlayStyleHook.turnTarget`, instead of Forge's lowest-life pick: `AiPatches.leaderShot`, DMGAI log, `-Dforge.ai.leaderdamage=false`, test `scratchprobeLeaderDamageProbe.java`. Check with `scriptsrd-choices.ps1` that Goblin Bombardment, Dragon Tempest and Rin and Seri move, and with the A/B that nothing else does. Keep it only if it holds up.
 - [ ] **Angels:** people attack the life leader (53% vs AI 35%) more than the lowest-life player
       (33% vs AI 51%) and block rarely (10% vs 30%).
 - Decks with fewer than 3 human games (Baylen, Eivor, Frodo, Abzan Siege) are hints only; Alec
