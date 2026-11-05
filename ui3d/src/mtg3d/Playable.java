@@ -3,9 +3,9 @@ package mtg3d;
 import forge.game.Game;
 import forge.game.card.Card;
 import forge.game.zone.ZoneType;
-import forge.gamemodes.match.input.InputPassPriority;
 import forge.player.PlayerControllerHuman;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
@@ -30,10 +30,9 @@ import java.util.Set;
  * legality: a highlight means "Forge says there is something here", and the click that follows is
  * judged by Forge as every other click from this window is.
  *
- * Only asked while an {@link InputPassPriority} is live, which is the moment the question means
- * anything: it is this client's priority, so a click will be taken. That also keeps the cost off
- * every other snapshot - and the cost is real, because the engine builds each card's ability list
- * from scratch.
+ * Only asked while this client's player holds priority, which is the moment the question means
+ * anything: a click will be taken. That also keeps the cost off every other snapshot - and the
+ * cost is real, because the engine builds each card's ability list from scratch.
  *
  * Runs on the game thread, like the rest of StateReader - these are real Card objects, not views.
  */
@@ -41,10 +40,10 @@ public final class Playable {
     private Playable() {}
 
     /**
-     * Public zones only. The library is deliberately absent: cards that can be played from the top
-     * of it (Future Sight, Bolas's Citadel) are hidden information to everyone else, the table
-     * does not draw the library's contents, and a highlight on a face-down pile would say nothing
-     * useful. The hand and the battlefield are left out because they are already clickable.
+     * The zones asked about in full. The hand and the battlefield are left out because they are
+     * already clickable. Libraries are asked about too, but only their top card: that is the only
+     * one anything plays from (The Reality Chip, Future Sight, Bolas's Citadel), and the table only
+     * shows it to a player Forge lets see it.
      */
     private static final List<ZoneType> ZONES =
         Arrays.asList(ZoneType.Graveyard, ZoneType.Exile, ZoneType.Command);
@@ -76,47 +75,57 @@ public final class Playable {
 
     /**
      * The ids this client can act on right now, across every seat's graveyard, exile and command
-     * zone. Empty when it is not our priority, when there is no local game (a joined client reads
-     * views only and has no Card objects to ask), or when anything at all goes wrong: an empty set
-     * means "no highlight", which is how the table behaved before this existed.
+     * zone and the top of every library. Empty when it is not our priority, or when anything at
+     * all goes wrong: an empty set means "no highlight", which is how the table behaved before this
+     * existed.
      */
     static Set<Integer> ids(Game game) {
         // Forge's own answer first. PlayerControllerHuman.pushActionableCards walks hand,
-        // battlefield, graveyard, exile and command and pushes the result through
+        // battlefield and everything playable elsewhere and pushes the result through
         // IGuiGame.setWeaklySelectable as priority is handed over - which crosses the network,
         // so it is the only answer a JOINED client can have, having no Card objects to ask. The
         // owner's 2026-11-04 game was joined to someone else's host, so the engine query below
         // found nothing and no pile lit up, even though these pushes were arriving all game.
         Set<Integer> pushed = Gui3D.actionableIds();
-        if (!pushed.isEmpty()) {
-            lastCount = pushed.size();
-            return pushed;
-        }
-        // Nothing pushed. Either it is not our priority, or the host has Forge's
-        // UI_SHOW_ACTIONABLE_HIGHLIGHTS preference off - in which case a local game can still
-        // ask the engine directly, and a joined client cannot (see SearchPanel, which then lets
-        // the player try a card and have the host judge it).
-        if (game == null) return Collections.emptySet();
+        // It is not the whole answer, though. The push only lists what the AI's payment check
+        // thinks is affordable, which is not the rule: Dire Fleet Daredevil's "mana of any type"
+        // left a Bolt out with an Island untapped, while the engine still offered it. Trusting the
+        // push whenever it had anything in it - a land in hand was enough - took the gold frame,
+        // and so the click, off cards in other players' piles (the owner, 2026-11-05;
+        // scratch\probe\PileProbe.java). So a local game always asks the engine too.
+        if (game == null) return pushed;
         PlayerControllerHuman pch = Gui3D.localController();
-        if (pch == null) return Collections.emptySet();
-        if (!(ClickGuard.token(pch) instanceof InputPassPriority)) return Collections.emptySet();
+        if (pch == null) return pushed;
         long now = System.currentTimeMillis();
-        if (game == cachedGame && now - cachedAt < CACHE_MS) return cached;
+        Set<Integer> out = new HashSet<>(pushed);
+        if (game == cachedGame && now - cachedAt < CACHE_MS) {
+            out.addAll(cached);
+            return out;
+        }
         long start = now;
-        Set<Integer> out = new HashSet<>();
+        Set<Integer> engine = new HashSet<>();
         try {
             forge.game.player.Player me = pch.getPlayer();
-            if (me == null) return Collections.emptySet();
-            for (Card c : game.getCardsIn(ZONES)) {
+            // The rules state and not the live Input: snapshots are built on game events, and the
+            // one that hands over priority fires before Forge has installed the Input.
+            if (me == null || game.getPhaseHandler().getPriorityPlayer() != me) return pushed;
+            List<Card> candidates = new ArrayList<>();
+            for (Card c : game.getCardsIn(ZONES)) candidates.add(c);
+            for (forge.game.player.Player p : game.getPlayers()) {
+                forge.game.card.CardCollectionView library = p.getCardsIn(ZoneType.Library);
+                if (!library.isEmpty()) candidates.add(library.get(0));
+            }
+            for (Card c : candidates) {
                 try {
-                    if (!c.getAllPossibleAbilities(me, true).isEmpty()) out.add(c.getId());
+                    if (!c.getAllPossibleAbilities(me, true).isEmpty()) engine.add(c.getId());
                 } catch (Throwable t) {
                     // One card the engine cannot answer for must not cost the other ninety-nine.
                 }
             }
         } catch (Throwable t) {
-            return Collections.emptySet();
+            return pushed;
         }
+        out.addAll(engine);
         lastCount = out.size();
         lastMillis = System.currentTimeMillis() - start;
         if (lastMillis > 40L && !warnedSlow) {
@@ -127,7 +136,7 @@ public final class Playable {
         }
         cachedGame = game;
         cachedAt = System.currentTimeMillis();
-        cached = out;
+        cached = engine;
         return out;
     }
 
@@ -145,11 +154,11 @@ public final class Playable {
         String name = null;
         int extra = 0;
         for (Snapshot.SeatV seat : s.seats) {
-            for (int k = 0; k < 2; k++) {
-                for (Snapshot.CardV c : k == 0 ? seat.graveyard : seat.exile) {
+            for (int k = 0; k < 3; k++) {
+                for (Snapshot.CardV c : k == 0 ? seat.library : k == 1 ? seat.graveyard : seat.exile) {
                     if (!c.playable || c.name == null || c.name.isEmpty()) continue;
                     if (!announced.add(c.id)) continue;
-                    if (name == null) name = c.name + " in " + seat.name + "'s " + (k == 0 ? "graveyard" : "exile");
+                    if (name == null) name = c.name + " in " + seat.name + "'s " + (k == 0 ? "library" : k == 1 ? "graveyard" : "exile");
                     else extra++;
                 }
             }
@@ -160,16 +169,16 @@ public final class Playable {
     }
 
     /**
-     * True when this client cannot know what it may play: a joined game (no Card objects to ask)
-     * where the host has pushed no actionable highlights either - its
-     * UI_SHOW_ACTIONABLE_HIGHLIGHTS preference is off, or it is simply not our priority.
+     * True in a joined game, where this client cannot know all it may play: it has no Card objects
+     * to ask, and the host's push leaves out anything its AI thinks is unaffordable, or everything
+     * if its UI_SHOW_ACTIONABLE_HIGHLIGHTS preference is off.
      *
-     * The pile browser uses this to let the player try a card anyway rather than show a dead
-     * list: the host judges it exactly as it judges a click on the table, so the worst case is
-     * nothing happening. Silence is the one outcome worth avoiding - it is what the owner got.
+     * The pile browser uses this to let the player try any card rather than show a dead list: the
+     * host judges it exactly as it judges a click on the table, so the worst case is nothing
+     * happening. Silence is the one outcome worth avoiding - it is what the owner got.
      */
     static boolean blind() {
-        return Gui3D.localController() == null && Gui3D.actionableIds().isEmpty();
+        return Gui3D.localController() == null;
     }
 
     /** A new game must not inherit the last one's announcements. */

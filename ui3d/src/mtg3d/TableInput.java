@@ -864,13 +864,18 @@ abstract class TableInput extends TableHud {
             }
         }
         if (Keys3D.just(Input.Keys.S)) { openDemoSearch(); return; }
-        // -Dforge.ui3d.openPile=<seat>,graveyard|exile: opens that pile once, for screenshot checks.
+        // -Dforge.ui3d.padCheck=true: clicks every pad once, for checking the hit test without a mouse.
+        if (PAD_CHECK && !padsChecked && frameNo > 30 && snap.seats.size() > 0) {
+            padsChecked = true;
+            checkPads();
+        }
+        // -Dforge.ui3d.openPile=<seat>,library|graveyard|exile: opens that pile once, for screenshot checks.
         if (OPEN_PILE != null && !pileOpened && frameNo > 30 && snap.seats.size() > 0) {
             pileOpened = true;
             String[] p = OPEN_PILE.split(",");
             Snapshot.SeatV s = snap.seats.get(Integer.parseInt(p[0].trim()) % snap.seats.size());
-            boolean wantExile = p.length > 1 && p[1].trim().startsWith("e");
-            openPile(s, wantExile ? s.exile : s.graveyard, wantExile ? "exile" : "graveyard");
+            String what = p.length > 1 ? p[1].trim() : "graveyard";
+            openPad(s, what.startsWith("l") ? 0 : what.startsWith("e") ? 2 : 1);
             return;
         }
         // -Dforge.ui3d.openPanel=modes|colour|player|x: opens a sample OptionPanel / NumberPicker
@@ -953,8 +958,8 @@ abstract class TableInput extends TableHud {
             }
         }
         boolean boardClick = clickedCard();
-        // A click on an empty graveyard or exile pad browses that pile (any seat's: both are public).
-        if (boardClick && hovered == null && openPileUnderMouse()) return;
+        // A click on a library, graveyard or exile pad opens that pile, any seat's.
+        if (boardClick && openPileUnderMouse()) return;
         if (Keys3D.just(Input.Keys.L)) showLog = !showLog;
         if (Keys3D.just(Input.Keys.T)) showStats = !showStats;
         if (boardClick && Gui3D.active()) {
@@ -1097,48 +1102,107 @@ abstract class TableInput extends TableHud {
      * to a card Ragavan exiled from an opponent's library (see Playable and SearchPanel). One
      * helper so the screenshot flag opens exactly what a click opens - the two had already
      * drifted apart by a prompt line.
+     *
+     * A library shows only what this player may see of it (the top card under The Reality Chip or
+     * Future Sight, say), so its count comes from the zone rather than from that list.
      */
-    private void openPile(Snapshot.SeatV s, List<Snapshot.CardV> pile, String what) {
+    private void openPile(Snapshot.SeatV s, List<Snapshot.CardV> pile, String what, int count) {
         int canPlay = 0;
         for (Snapshot.CardV c : pile) if (c.playable) canPlay++;
-        String prompt = pile.isEmpty() ? "Nothing here."
-            : canPlay > 0 ? "Most recent first. Click a gold-framed card to play it."
-            : Playable.blind() ? "Most recent first. Click a card to try to play it."
-            : "Most recent first. Close when you have read it.";
-        search.open(s.name + "'s " + what + " (" + pile.size() + ")", prompt,
+        boolean library = "library".equals(what);
+        String order = library ? "Top card first." : "Most recent first.";
+        String prompt = pile.isEmpty()
+            ? (library && count > 0 ? "Face down. Nothing lets you look at these right now." : "Nothing here.")
+            : canPlay > 0 ? order + " Click a gold-framed card to play it."
+            : Playable.blind() ? order + " Click a card to try to play it."
+            : order + " Close when you have read it.";
+        search.open(s.name + "'s " + what + " (" + count + ")", prompt,
             new ArrayList<>(pile), 0, 0, chosen -> { });
-        // A joined game whose host is not telling us what is playable: let the player try a card
-        // rather than hand them a dead list. The host judges it, as it judges every other click.
-        search.setBlindPlay(canPlay == 0 && Playable.blind());
+        // A joined game cannot ask the rules engine, and the host's list leaves out cards its AI
+        // thinks are unaffordable (see Playable.blind). So any card may be tried, and the host
+        // judges it, as it judges every other click.
+        search.setBlindPlay(Playable.blind());
+    }
+
+    /** Opens pad k of a seat: 0 library, 1 graveyard, 2 exile (placeZones' k). */
+    private void openPad(Snapshot.SeatV s, int k) {
+        if (k == 0) openPile(s, s.library, "library", s.librarySize);
+        else if (k == 1) openPile(s, s.graveyard, "graveyard", s.graveyard.size());
+        else openPile(s, s.exile, "exile", s.exile.size());
     }
 
     /**
-     * If the mouse is over a graveyard or exile pad, opens that pile in the search panel in browse
-     * mode (nothing to pick) and returns true. The pads are scenery, not cards, so this is a ray
-     * hit on the table plane, turned into the seat's own frame and checked against the two pads
-     * placeZones() lays out (k = 1 graveyard, k = 2 exile; k = 0 is the library, which stays shut).
+     * If pick() left the pointer on a pad, opens that pile in the search panel in browse mode
+     * (nothing to pick) and returns true.
      */
     boolean openPileUnderMouse() {
-        if (search == null || snap.seats.isEmpty()) return false;
-        Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
-        if (Math.abs(ray.direction.y) < 1e-4f) return false;
-        float t = -ray.origin.y / ray.direction.y;
-        if (t <= 0f) return false;
-        float hx = ray.origin.x + ray.direction.x * t, hz = ray.origin.z + ray.direction.z * t;
+        if (search == null || hoveredPad < 0 || hoveredPadSeat >= snap.seats.size()) return false;
+        openPad(snap.seats.get(hoveredPadSeat), hoveredPad);
+        return true;
+    }
+
+    /**
+     * Which pad a ray hits, in hoveredPadSeat / hoveredPad, and how far away squared; MAX_VALUE
+     * when none.
+     *
+     * The pads are scenery, not cards, so nothing in `drawn` covers them. This used to be a point
+     * on the table plane checked against a fixed 5.3, which stopped being true twice over: zoneX
+     * moved the pads out to 6.1, which left only their inner edge clickable, and a crowded board
+     * floats them up on stands, so the point the pointer met on the table moved further still and
+     * the pad stopped answering at all (the owner, 2026-11-05). So each tray and its pile is a box
+     * where placeZones really drew it, tested in the seat's own frame.
+     */
+    float pickPad(Ray ray) {
+        hoveredPad = hoveredPadSeat = -1;
+        float best = Float.MAX_VALUE;
+        Vector3 hit = new Vector3();
+        Ray local = new Ray();
+        BoundingBox box = new BoundingBox();
         int n = snap.seats.size();
         for (int i = 0; i < n; i++) {
-            Vector3 local = rotateY(hx, hz, -seatAngle(i, n));    // into seat i's frame
-            for (int k = 1; k <= 2; k++) {
-                float cz = SEAT_DIST + 1.7f - k * 1.45f;
-                if (Math.abs(local.x - 5.3f) > CARD_W * 0.5f || Math.abs(local.z - cz) > CARD_H * 0.5f) continue;
-                Snapshot.SeatV s = snap.seats.get(i);
-                List<Snapshot.CardV> pile = k == 1 ? s.graveyard : s.exile;
-                String what = k == 1 ? "graveyard" : "exile";
-                openPile(s, pile, what);
-                return true;
+            float angle = -seatAngle(i, n);                       // into seat i's frame
+            Vector3 eye = rotateY(cam.position.x, cam.position.z, angle);
+            eye.y = cam.position.y;
+            Vector3 from = rotateY(ray.origin.x, ray.origin.z, angle);
+            from.y = ray.origin.y;
+            Vector3 dir = rotateY(ray.direction.x, ray.direction.z, angle);
+            dir.y = ray.direction.y;
+            local.set(from, dir);
+            for (int k = 0; k < 3; k++) {
+                float x = zoneX(k), z = SEAT_DIST + 1.7f - k * 1.45f;
+                box.set(new Vector3(x - PAD_PICK_W, FIELD_RAISE + zoneLift(i), z - PAD_PICK_H),
+                    new Vector3(x + PAD_PICK_W, pileTop(i, k) + 0.01f, z + PAD_PICK_H));
+                if (!com.badlogic.gdx.math.Intersector.intersectRayBounds(local, box, hit)) continue;
+                float dist = hit.dst2(eye);
+                if (dist < best) { best = dist; hoveredPadSeat = i; hoveredPad = k; }
             }
         }
-        return false;
+        return best;
+    }
+
+    /** Half the size of a tray with its rim (placeZones), which is what a click can land on. */
+    static final float PAD_PICK_W = CARD_W * 0.44f + 0.13f, PAD_PICK_H = CARD_H * 0.44f + 0.13f;
+
+    /** The -Dforge.ui3d.padCheck run: aims at the top of every pad and reports what it hit. */
+    private void checkPads() {
+        int n = snap.seats.size(), fails = 0, tried = 0;
+        for (int i = 0; i < n; i++) {
+            for (int k = 0; k < 3; k++) {
+                Vector3 w = rotateY(zoneX(k), SEAT_DIST + 1.7f - k * 1.45f, seatAngle(i, n));
+                Vector3 p = cam.project(new Vector3(w.x, pileTop(i, k), w.z));
+                if (p.z > 1f) continue;
+                float sx = p.x, sy = Gdx.graphics.getHeight() - p.y;
+                if (sx < 0f || sy < 0f || sx >= Gdx.graphics.getWidth() || sy >= Gdx.graphics.getHeight()) continue;
+                pickAt(sx, sy);
+                boolean ok = hovered == null && hoveredPadSeat == i && hoveredPad == k;
+                tried++;
+                if (!ok) fails++;
+                System.out.println("PADCHECK seat " + i + " pad " + k + " lift " + zoneLift(i) + ": "
+                    + (ok ? "ok" : "FAIL got seat " + hoveredPadSeat + " pad " + hoveredPad
+                        + (hovered != null ? " card " + hovered.card.name : "")));
+            }
+        }
+        System.out.println("PADCHECK done: " + tried + " tried, " + fails + " failed");
     }
 
     /**
@@ -1836,8 +1900,13 @@ abstract class TableInput extends TableHud {
      * The mouse is never taken away: moving it hands control straight back (see handleInput).
      */
     void pick() {
+        pickAt(Gdx.input.getX(), Gdx.input.getY());
+    }
+
+    void pickAt(float screenX, float screenY) {
         hovered = null;
         hoveredSeat = -1;
+        hoveredPad = hoveredPadSeat = -1;
         if (panelOpen()) return;
         if (padSelecting) {
             for (Drawn d : drawn) {
@@ -1845,7 +1914,7 @@ abstract class TableInput extends TableHud {
             }
             padSelectedId = -1;        // it has left the board; fall through to the mouse
         }
-        Ray ray = cam.getPickRay(Gdx.input.getX(), Gdx.input.getY());
+        Ray ray = cam.getPickRay(screenX, screenY);
         float best = Float.MAX_VALUE;
         Vector3 hit = new Vector3();
         for (Drawn d : drawn) {
@@ -1853,6 +1922,11 @@ abstract class TableInput extends TableHud {
             float dist = hit.dst2(cam.position);
             if (dist < best) { best = dist; hovered = d; }
         }
+        // Nearest wins, so a pad floating over a crowded board beats the card under it, and a
+        // card in the hand held up in front of a pad still beats the pad.
+        float pad = pickPad(ray);
+        if (pad < best) { best = pad; hovered = null; }
+        else hoveredPad = hoveredPadSeat = -1;
         // -Dforge.ui3d.hover=<card name>: with screenshot mode, checks the hover panel without
         // anyone moving a mouse over the window.
         if (hovered == null && FORCE_HOVER != null) {
@@ -1860,7 +1934,7 @@ abstract class TableInput extends TableHud {
         }
         // Seats are only considered when no card is under the cursor, so a card lying over a
         // monitor still wins - the card is the more specific thing the player meant.
-        if (hovered != null) return;
+        if (hovered != null || hoveredPad >= 0) return;
         for (int i = 0; i < seatPick.size(); i++) {
             if (!com.badlogic.gdx.math.Intersector.intersectRayBounds(ray, seatPick.get(i), hit)) continue;
             float dist = hit.dst2(cam.position);

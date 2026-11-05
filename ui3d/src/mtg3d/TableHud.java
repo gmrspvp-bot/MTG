@@ -1336,7 +1336,7 @@ abstract class TableHud extends TableScene {
                 // same gold as its rim. The rim alone is easy to miss from the seated view at the
                 // far side of the table, and this is the case the owner could not find at all:
                 // a card Ragavan exiled from an opponent's library, castable until end of turn.
-                boolean canPlay = k == 1 ? s.graveyardPlayable : k == 2 && s.exilePlayable;
+                boolean canPlay = k == 0 ? s.libraryPlayable : k == 1 ? s.graveyardPlayable : s.exilePlayable;
                 font.setColor(canPlay ? new Color(1f, 0.86f, 0.42f, 1f) : zc);
                 font.draw(ui, who, p.x - 20, p.y + 19);
                 font.draw(ui, canPlay ? names[k] + " *" : names[k], p.x - 20, p.y + 6);

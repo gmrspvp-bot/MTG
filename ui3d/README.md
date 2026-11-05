@@ -45,7 +45,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `X` | **In a game** - cancel (guarded) |
 | `E` (or the "Resolve stack" button) | **In a game** - pass until the stack is empty; stops if an opponent casts a spell, something targets you or your permanents, a board wipe, attackers, or any question for you (Forge's own stack yield, `Gui3D.resolveStack`) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
-| click a graveyard or exile pad | Browse that pile (any seat's - both are public). A gold-framed card in there is one you can play: click it to cast it |
+| click a library, graveyard or exile pad | Open that pile, any seat's. A library shows only what you may see of it (the top card under The Reality Chip or Future Sight). A gold-framed card in there is one you can play: click it to cast it |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
 | `G` | Pick up the card in your hand under the pointer; `LEFT`/`RIGHT` (or the mouse) place it, `SPACE` drops it, `ESC` puts it back |
 | `H` | Hand the decision the game is waiting on back to Forge's window |
@@ -641,6 +641,25 @@ to know before starting:
       client cannot know - so the pile browser goes "blind" (`Playable.blind`) and lets you click
       any card to try it, with the host judging, rather than showing a dead list. Probed without a
       game by pushing a `setWeaklySelectable` through `installRemote`'s wrapper.
+- [x] **Pads and piles, third pass - done 2026-11-05.** Three reports from the owner.
+      **Pads did not answer clicks:** `openPileUnderMouse` kept a flat point on the table against a
+      fixed x of 5.3 after `zoneX` moved the pads to 6.1, so the centre of every pad missed, on any
+      board, and only an inner edge worked; a crowded board lifting them moved the point further
+      still. `TableInput.pickPad` now tests a box where `placeZones` drew the tray and pile, and
+      `pick` takes whichever is nearer, pad or card. `-Dforge.ui3d.padCheck=true` aims at every pad
+      through `pickAt` and prints `PADCHECK` lines; try it with `-Dforge.ui3d.demoCrowd=24`.
+      **Enemy piles would not cast:** Forge's push only lists what the AI's payment check calls
+      affordable, and `Playable` skipped the engine whenever the push had anything in it. Dire
+      Fleet Daredevil's "mana of any type" is the proven case (`scratch\probe\PileProbe.java`: an
+      Island, the engine offers the Bolt, the push leaves it out). A local game now always adds the
+      engine's answer, and asks when the rules say this player holds priority rather than when
+      the Input is live, since a snapshot can be built just before the Input is installed. A
+      joined client still cannot ask, so `Playable.blind` is now true for every joined game and
+      any card in a pile can be tried, with the host judging. A stray click on a card while
+      reading a pile there closes the panel with a refusal note.
+      **Library pad:** opens like the others and shows what Forge lets you see (`SeatV.library`,
+      top first), with the top card face up on the pile, gold rim and `*` label when playable.
+      `Playable` asks about each library's top card only. Not yet seen in a live game.
 - [ ] *(original wording)* Library, graveyard and exile should be **stacks that grow** as cards arrive, not flat
       pads with a number. Counts are already in `SeatV.librarySize` / `graveyardSize` /
       `exileSize`; this is geometry, not new data.

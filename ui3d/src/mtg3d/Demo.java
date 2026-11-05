@@ -347,6 +347,11 @@ public final class Demo {
         stolen.playable = true;
         s.seats.get(2).exile.add(stolen);
         s.seats.get(2).exilePlayable = true;
+        // And the top of your own library, as The Reality Chip gives it.
+        Snapshot.CardV top = card(gid++, "Lightning Bolt", "Instant", false, false, "{R}", "");
+        top.playable = true;
+        s.seats.get(0).library.add(top);
+        s.seats.get(0).libraryPlayable = true;
         String[][] lines = {
             { "TURN", "Turn 7 (Xenil)" },
             { "LAND", "Xenil played Emeria, the Sky Ruin" },

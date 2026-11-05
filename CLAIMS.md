@@ -30,7 +30,6 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
-| ui3d piles: pad clicks on a raised board, playing from enemy piles, library pad | Stoneforge | 2026-11-05 05:14 | Owner's reports. TableInput, TableLayout, Playable, StateReader, SearchPanel |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about

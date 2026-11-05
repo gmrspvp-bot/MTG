@@ -203,13 +203,21 @@ public final class StateReader {
                 // card most recently put there is what a player looks for first.
                 for (CardView cv : cards(pv, ZoneType.Graveyard)) seat.graveyard.add(0, card(cv, viewer, true));
                 for (CardView cv : cards(pv, ZoneType.Exile)) seat.exile.add(0, card(cv, viewer, true));
+                // A library is hidden, so only what Forge lets this viewer see of it. Forge lists
+                // this one top first.
+                for (CardView cv : cards(pv, ZoneType.Library)) {
+                    Snapshot.CardV v = card(cv, viewer, false);
+                    if (!v.faceDown && v.name != null && !v.name.isEmpty()) seat.library.add(v);
+                }
                 // What this client can actually cast or activate out of those piles, and out of
                 // the command zone, as the rules engine rules it. Marked here rather than in
                 // card() because it is a property of the ZONE a card is sitting in, not of the
                 // card: the same CardView on the battlefield is clicked directly.
+                for (Snapshot.CardV v : seat.library) if (playableIds.contains(v.id)) v.playable = true;
                 for (Snapshot.CardV v : seat.graveyard) if (playableIds.contains(v.id)) v.playable = true;
                 for (Snapshot.CardV v : seat.exile) if (playableIds.contains(v.id)) v.playable = true;
                 for (Snapshot.CardV v : seat.command) if (playableIds.contains(v.id)) v.playable = true;
+                for (Snapshot.CardV v : seat.library) if (v.playable) { seat.libraryPlayable = true; break; }
                 for (Snapshot.CardV v : seat.graveyard) if (v.playable) { seat.graveyardPlayable = true; break; }
                 for (Snapshot.CardV v : seat.exile) if (v.playable) { seat.exilePlayable = true; break; }
                 // Once the player at this client is out, everyone else's hand is shown to them

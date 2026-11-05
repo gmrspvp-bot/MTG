@@ -1515,7 +1515,7 @@ abstract class TableLayout extends TableCamera {
                 // card was castable, so Ragavan's steal was unreachable - the pile was scenery
                 // (the owner, 2026-11-03). Only ever our own permission, never "someone could
                 // play this", so it cannot be read as another player's business.
-                boolean canPlay = k == 1 ? s.graveyardPlayable : k == 2 && s.exilePlayable;
+                boolean canPlay = k == 0 ? s.libraryPlayable : k == 1 ? s.graveyardPlayable : s.exilePlayable;
                 if (canPlay) {
                     float pulse = 0.72f + 0.28f * (float) Math.sin(clock * 3.4f);
                     rim.materials.get(0).set(ColorAttribute.createDiffuse(
@@ -1546,8 +1546,9 @@ abstract class TableLayout extends TableCamera {
                 // Graveyard and exile are public: their top card lies face up on the pile (the
                 // lists are most recent first). Scenery, not a card you can hover or click, so a
                 // click on the pile still opens it to browse. A face-down exile shows its back.
-                java.util.List<Snapshot.CardV> zone = k == 1 ? s.graveyard : k == 2 ? s.exile : null;
-                if (zone != null && !zone.isEmpty() && art != null) {
+                // A library shows its top card the same way when this client may see it.
+                java.util.List<Snapshot.CardV> zone = k == 0 ? s.library : k == 1 ? s.graveyard : s.exile;
+                if (!zone.isEmpty() && art != null) {
                     com.badlogic.gdx.graphics.Texture tex = art.get(zone.get(0));
                     if (tex != null) {
                         ModelInstance top = inst(faceModel);

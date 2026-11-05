@@ -183,7 +183,13 @@ public final class Snapshot {
          */
         public final List<CardV> graveyard = new ArrayList<>();
         public final List<CardV> exile = new ArrayList<>();
+        /**
+         * The cards of this library this client is allowed to see, top first: usually none, the
+         * top card under The Reality Chip or Future Sight. librarySize is the whole pile.
+         */
+        public final List<CardV> library = new ArrayList<>();
         /** True when at least one card in that pile is playable by this client - see CardV.playable. */
+        public boolean libraryPlayable;
         public boolean graveyardPlayable;
         public boolean exilePlayable;
         /**

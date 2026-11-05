@@ -286,7 +286,7 @@ public final class SearchPanel {
         int canPlay = playableCount();
         if (canPlay == 0 && blindPlay && !items.isEmpty()) {
             font.setColor(0.80f, 0.74f, 0.52f, t);
-            font.draw(ui, "Joined game: the host has not said what you can play here"
+            font.draw(ui, "Joined game: the host may not have listed everything you can play here"
                 + "   -   click a card to try it", px + 22f, py + 34f);
         } else if (canPlay > 0) {
             font.setColor(1f, 0.86f, 0.42f, t);

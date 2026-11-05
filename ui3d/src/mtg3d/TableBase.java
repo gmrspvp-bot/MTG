@@ -346,6 +346,9 @@ abstract class TableBase extends ApplicationAdapter {
 
     Drawn hovered;
 
+    /** The pad under the pointer: which seat's, and which (0 library, 1 graveyard, 2 exile). -1 for none. */
+    int hoveredPad = -1, hoveredPadSeat = -1;
+
     /**
      * The controller's selection: which card it is on, and whether it - rather than the mouse -
      * is deciding what `hovered` is. By id, because the board is rebuilt every frame.
@@ -818,6 +821,8 @@ abstract class TableBase extends ApplicationAdapter {
     static final String FORCE_HOVER = System.getProperty("forge.ui3d.hover");
 
     static final String OPEN_PILE = System.getProperty("forge.ui3d.openPile");
+    static final boolean PAD_CHECK = Boolean.getBoolean("forge.ui3d.padCheck");
+    boolean padsChecked;
 
     boolean pileOpened;
 
