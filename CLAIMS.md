@@ -30,6 +30,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
+| AI kills Alexios on sight, even on its own field | Stoneforge | 2026-11-06 13:45 | Owner's request. AiPatches removal paths, equip targeting, A/B on Alexios pods |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
