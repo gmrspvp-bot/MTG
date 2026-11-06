@@ -171,7 +171,7 @@ public final class AiPatches {
         @Override
         protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
             ManaHold.refresh(ai);   // equip costs mana too; keep counterspell mana open
-            forge.ai.AiAbilityDecision d = super.checkApiLogic(ai, sa);
+            forge.ai.AiAbilityDecision d = KillOnSight.noGear(ai, sa, super.checkApiLogic(ai, sa));
             if (sa.isEquip() && sa.getHostCard() != null && "Skullclamp".equals(sa.getHostCard().getName())) return steerSkullclamp(ai, sa);
             if (CaptainPolicy.enabled && sa.isEquip()) {
                 forge.ai.AiAbilityDecision loop = loopEquip(ai, sa);
@@ -979,15 +979,96 @@ public final class AiPatches {
         static final double LEADER_RATIO = 1.3, LEADER_MIN_SHARE = 0.8;
     }
 
+    /**
+     * Kill on sight (the owner's rule, 2026-11-06). Some cards are so dangerous to the whole table
+     * that everyone but their owner should spend removal on them at once, even a player holding
+     * them at the time. Alexios, Deimos of Kosmos moves to each player in their upkeep, so Forge's
+     * rule of only aiming removal at opponents' cards left him safe on the holder's own turn, and
+     * he won 53 of 80 games in league-1106. The same players do not put gear on him either.
+     * Logged "KOSAI ...". Off until its A/B: -Dforge.ai.killonsight=true.
+     */
+    static final class KillOnSight {
+        static final boolean ON = Boolean.getBoolean("forge.ai.killonsight");
+        static final java.util.Set<String> NAMES = java.util.Set.of("Alexios, Deimos of Kosmos");
+
+        static boolean listed(Player ai, Card c) {
+            return ON && c != null && NAMES.contains(c.getName()) && c.getOwner() != ai;
+        }
+
+        /** Something already on the stack aims removal at it: one answer is enough. */
+        static boolean answered(Player ai, Card c) {
+            for (forge.game.spellability.SpellAbilityStackInstance si : ai.getGame().getStack()) {
+                SpellAbility s = si.getSpellAbility();
+                if (s == null || s.getApi() == null || s.getTargets() == null) continue;
+                ApiType api = s.getApi();
+                if ((api == ApiType.Destroy || api == ApiType.ChangeZone || api == ApiType.DealDamage)
+                        && s.getTargets().getTargetCards().contains(c)) return true;
+            }
+            return false;
+        }
+
+        /** Exile that brings the card straight back is a blink, not removal. */
+        static boolean blink(SpellAbility sa) {
+            for (SpellAbility s = sa.getSubAbility(); s != null; s = s.getSubAbility()) {
+                if (s.getApi() == ApiType.ChangeZone && s.getParamOrDefault("Origin", "").contains("Exile")
+                        && s.getParamOrDefault("Destination", "").contains("Battlefield")) return true;
+            }
+            return false;
+        }
+
+        /** Aims a single-target shot at a listed card it can remove; null when there is none. */
+        static forge.ai.AiAbilityDecision aim(Player ai, SpellAbility sa, java.util.function.Predicate<Card> removes) {
+            if (!ON || !sa.usesTargeting() || sa.isDividedAsYouChoose() || blink(sa)) return null;
+            forge.game.spellability.TargetRestrictions tr = sa.getTargetRestrictions();
+            if (tr == null || tr.getMaxTargets(sa.getHostCard(), sa) != 1) return null;
+            if (sa.getApi() == ApiType.ChangeZone) {
+                if (!sa.getParamOrDefault("Origin", "").contains("Battlefield")
+                        || sa.getParamOrDefault("Destination", "").contains("Battlefield")) return null;
+            }
+            for (Card c : ai.getGame().getCardsIn(forge.game.zone.ZoneType.Battlefield)) {
+                if (!listed(ai, c) || !sa.canTarget(c) || !removes.test(c) || answered(ai, c)) continue;
+                sa.resetTargets();
+                sa.getTargets().add(c);
+                System.out.println("KOSAI " + sa.getHostCard().getName() + ": " + c.getName() + " held by "
+                    + c.getController().getName() + ", " + ai.getName() + " aims it");
+                return new forge.ai.AiAbilityDecision(100, forge.ai.AiPlayDecision.WillPlay);
+            }
+            return null;
+        }
+
+        /** Gear or a friendly aura going on a listed card moves to our next best creature, or waits. */
+        static forge.ai.AiAbilityDecision noGear(Player ai, SpellAbility sa, forge.ai.AiAbilityDecision d) {
+            if (!ON || d == null || !d.willingToPlay() || sa.isCurse() || !sa.usesTargeting() || sa.getTargets() == null) return d;
+            Card chosen = null;
+            for (Card c : sa.getTargets().getTargetCards()) if (listed(ai, c)) chosen = c;
+            if (chosen == null) return d;
+            List<Card> mine = new java.util.ArrayList<>();
+            for (Card c : ai.getCreaturesInPlay()) if (!listed(ai, c) && sa.canTarget(c)) mine.add(c);
+            Card next = mine.isEmpty() ? null : forge.ai.ComputerUtilCard.getBestCreatureAI(mine);
+            System.out.println("KOSAI " + sa.getHostCard().getName() + ": no gear on " + chosen.getName()
+                + (next == null ? ", waits" : ", goes on " + next.getName()));
+            sa.resetTargets();
+            if (next == null) return new forge.ai.AiAbilityDecision(0, forge.ai.AiPlayDecision.CantPlayAi);
+            sa.getTargets().add(next);
+            return d;
+        }
+    }
+
     public static class ThreatDestroyAi extends forge.ai.ability.DestroyAi {
+        static final java.util.function.Predicate<Card> DESTROYS = c -> !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE);
+
         @Override
         protected forge.ai.AiAbilityDecision checkApiLogic(Player ai, SpellAbility sa) {
+            forge.ai.AiAbilityDecision kos = KillOnSight.aim(ai, sa, DESTROYS);
+            if (kos != null) return kos;
             return ThreatRetarget.apply(ai, sa, super.checkApiLogic(ai, sa), false);
         }
 
         @Override
         protected forge.ai.AiAbilityDecision doTriggerNoCost(Player ai, SpellAbility sa, boolean mandatory) {
-            return ThreatRetarget.apply(ai, sa, super.doTriggerNoCost(ai, sa, mandatory), false);
+            forge.ai.AiAbilityDecision d = super.doTriggerNoCost(ai, sa, mandatory);
+            forge.ai.AiAbilityDecision kos = KillOnSight.aim(ai, sa, DESTROYS);
+            return kos != null ? kos : ThreatRetarget.apply(ai, sa, d, false);
         }
     }
 
@@ -998,6 +1079,8 @@ public final class AiPatches {
             if (ov != null) return ov;
             forge.ai.AiAbilityDecision sfm = putEquipmentFromHand(ai, sa);
             if (sfm != null) return sfm;
+            forge.ai.AiAbilityDecision kos = KillOnSight.aim(ai, sa, c -> true);
+            if (kos != null) return kos;
             return ThreatRetarget.apply(ai, sa, super.checkApiLogic(ai, sa), true);
         }
 
@@ -2004,13 +2087,25 @@ public final class AiPatches {
         @Override
         protected forge.ai.AiAbilityDecision doTriggerNoCost(Player ai, SpellAbility sa, boolean mandatory) {
             forge.ai.AiAbilityDecision d = super.doTriggerNoCost(ai, sa, mandatory);
+            forge.ai.AiAbilityDecision kos = killShot(ai, sa);
+            if (kos != null) return kos;
             if (d.willingToPlay()) aimAtLeader(ai, sa);
             return d;
+        }
+
+        /** Burn that kills a kill-on-sight card goes at it, whoever holds it. */
+        static forge.ai.AiAbilityDecision killShot(Player ai, SpellAbility sa) {
+            if (!KillOnSight.ON || CaptainPolicy.isThrow(sa)) return null;
+            int dmg;
+            try { dmg = CaptainPolicy.totalDamage(sa); } catch (Throwable t) { return null; }
+            return KillOnSight.aim(ai, sa, c -> !c.hasKeyword(forge.game.keyword.Keyword.INDESTRUCTIBLE) && dmg >= c.getNetToughness() - c.getDamage());
         }
 
         @Override
         protected forge.ai.AiAbilityDecision canPlay(Player ai, SpellAbility sa) {
             forge.ai.AiAbilityDecision d = super.canPlay(ai, sa);
+            forge.ai.AiAbilityDecision kos = killShot(ai, sa);
+            if (kos != null) return kos;
             if (!CaptainPolicy.isThrow(sa) && sa.isSpell() && !sa.isDividedAsYouChoose()) {
                 // Burn aimed at a token (Galvanic Blast on a Thopter): a real creature it kills instead.
                 int dmg = CaptainPolicy.totalDamage(sa);
