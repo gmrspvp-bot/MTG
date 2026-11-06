@@ -97,7 +97,7 @@ powershell -ExecutionPolicy Bypass -File scripts\run-sims.ps1 `
   menu shortcut while the 3D table runs, and when an auto-pass is called off with a question open,
   shows that question again instead of Forge's blank prompt), PriorityViewHook (the "has priority"
   mark - the 3D table's yellow frame and Forge's "Waiting for X" - follows whoever has a prompt
-  open, e.g. a player discarding, instead of staying on the priority player), TaxSkipHook (tax triggers such as Smothering Tithe: a human who cannot pay a mana-only cost is not asked, and with more than 5 triggers on the stack the payer gets one "Skip all / Ask each time" question that lasts until the stack empties; `forge.taxskip`, `forge.taxskip.triggers`), PlayStyleHook (the AI casts permanents before combat, holds back 1-3 power pokes, and aims its attack at the life leader, as people do; switches `forge.ai.main1`, `forge.ai.nopokes`, `forge.ai.leader`). Logs show
+  open, e.g. a player discarding, instead of staying on the priority player), TaxSkipHook (tax triggers such as Smothering Tithe: a human who cannot pay a mana-only cost is not asked, and with more than 5 triggers on the stack the payer gets one "Skip all / Ask each time" question that lasts until the stack empties; `forge.taxskip`, `forge.taxskip.triggers`), PlayStyleHook (the AI casts permanents before combat, holds back 1-3 power pokes, and aims its attack at the life leader, as people do; switches `forge.ai.main1`, `forge.ai.nopokes`, `forge.ai.leader`; non-lethal damage at a face follows the same target, `forge.ai.leaderdamage` in AiPatches). Logs show
   `EvalCacheAgent: hooks installed in <class>`.
   - **Pitfall:** `scripts\tools\classes` also holds `EvalCacheAgent*.class`, and the classpath copy
     wins over the jar. build-tools.ps1 keeps both in sync.
@@ -185,6 +185,8 @@ Don't use the GRID multiplayer layout: it crashes Forge with "Gap was not filled
 - PowerShell variable names are case-insensitive (`$l` and `$L` are the same variable).
 - Forge words commander-damage losses "has lost due to accumulation of 21 damage from generals".
   Match that as well as "has lost because".
+- The "turns" in `Game Outcome: Turn N`, games.csv and summary.txt are about half the real turn number
+  (2026-11-06: 19.5 reported, 38.6 from the `Turn:` lines; cause not traced). `BOARD` and `Turn:` lines are real.
 - Known Forge loops: Barbarian Class plus dice cards, and Mr House token doubling. run-sims has a
   watchdog (`-ClockSeconds`).
 - Test boards: `scratch\probe\*.java` (set up a board with `GameState`, then call AI code directly).

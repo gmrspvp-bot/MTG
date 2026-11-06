@@ -1973,9 +1973,10 @@ public final class AiPatches {
      * Goblin Bombardment 95% at the life leader against 2%, Dragon Tempest and Rin and Seri the
      * same way round (scripts\card-choices.ps1). Forge still decides whether to fire; once it has
      * picked an opponent's face for a single-target shot that does not kill them, the shot moves
-     * to PlayStyleHook.turnTarget. Logged "DMGAI ...". Off until its A/B: -Dforge.ai.leaderdamage=true.
+     * to PlayStyleHook.turnTarget. Logged "DMGAI ...". On since its A/B (league-1106, 440 games an arm:
+     * 58% of real shots at the highest-life opponent against 5%); -Dforge.ai.leaderdamage=false turns it off.
      */
-    static final boolean LEADER_DAMAGE = Boolean.getBoolean("forge.ai.leaderdamage");
+    static final boolean LEADER_DAMAGE = !"false".equalsIgnoreCase(System.getProperty("forge.ai.leaderdamage", "true"));
 
     static String leaderShot(Player ai, SpellAbility sa) {
         if (!LEADER_DAMAGE || !HumanHooks.enabled || !PlayStyleHook.LEADER) return null;
