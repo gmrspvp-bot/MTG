@@ -91,6 +91,14 @@ public final class Snapshot {
          * client, which has no Card objects to ask.
          */
         public boolean playable;
+        /**
+         * Everything this permanent can do RIGHT NOW - Forge's own CardStateView.getAbilityText,
+         * which is what its card detail pane shows, so abilities granted by Equipment and Auras
+         * are in here and the printed `text` above does not have them.
+         */
+        public String abilityText = "";
+        /** Current keywords, granted ones included (flying from a Sword, for instance). */
+        public final List<String> keywords = new ArrayList<>();
 
         public CardV() {}
 

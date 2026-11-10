@@ -636,6 +636,26 @@ public final class StateReader {
             }
             CardView host = cv.getAttachedTo();
             if (host != null) { v.attachedTo = host.getName(); v.attachedToId = host.getId(); }
+            // What the card can do as it stands, not as it was printed. getAbilityText is the
+            // text Forge's own detail pane shows, so a creature wearing a Sword reports the
+            // Sword's abilities as its own - which is the whole point of the inspect panel.
+            try {
+                if (st != null) {
+                    String ab = st.getAbilityText();
+                    if (ab != null) v.abilityText = ab.trim();
+                    forge.game.keyword.KeywordCollectionView kws = st.getKeywords();
+                    if (kws != null) {
+                        for (forge.game.keyword.KeywordView k : kws) {
+                            String title = k.title();
+                            if (title != null && !title.isEmpty() && !v.keywords.contains(title)) {
+                                v.keywords.add(title);
+                            }
+                        }
+                    }
+                }
+            } catch (Throwable ignored) {
+                // the panel falls back to the printed text
+            }
 
             try {
                 List<com.google.common.collect.Multiset.Entry<forge.game.card.CounterType>> cs =

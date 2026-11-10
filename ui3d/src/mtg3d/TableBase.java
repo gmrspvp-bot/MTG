@@ -821,6 +821,9 @@ abstract class TableBase extends ApplicationAdapter {
     static final String FORCE_HOVER = System.getProperty("forge.ui3d.hover");
 
     static final String OPEN_PILE = System.getProperty("forge.ui3d.openPile");
+
+    /** -Dforge.ui3d.inspect=<card name>: opens the inspect panel on it once, for screenshot checks. */
+    static final String FORCE_INSPECT = System.getProperty("forge.ui3d.inspect");
     static final boolean PAD_CHECK = Boolean.getBoolean("forge.ui3d.padCheck");
     boolean padsChecked;
 

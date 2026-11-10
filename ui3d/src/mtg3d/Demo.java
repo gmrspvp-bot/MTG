@@ -256,8 +256,20 @@ public final class Demo {
             e.artifact = true;
             e.attachedTo = lyra.name;
             e.attachedToId = lyra.id;
+            e.abilityText = eq.equals("Skullclamp")
+                ? "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards."
+                : "Equipped creature gets +2/+2 and has protection from red and from blue.\n"
+                  + "Whenever equipped creature deals combat damage to a player, this permanent"
+                  + " deals 2 damage to any target and you draw a card.";
             s.seats.get(0).others.add(e);
         }
+        // So the inspect panel has something real to show without a game: granted keywords and
+        // an ability list that is not just the printed text.
+        lyra.abilityText = "Flying, first strike, lifelink\nOther Angels you control get +1/+1 and have lifelink.";
+        lyra.keywords.add("Flying");
+        lyra.keywords.add("First strike");
+        lyra.keywords.add("Lifelink");
+        lyra.keywords.add("Protection from red");
         Snapshot.CardV aura = card(aid, "Pacifism", "Enchantment - Aura", false, false, "{1}{W}",
             "Enchant creature\nEnchanted creature can't attack or block.");
         aura.enchantment = true;

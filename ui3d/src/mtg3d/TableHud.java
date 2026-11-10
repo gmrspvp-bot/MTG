@@ -148,6 +148,7 @@ abstract class TableHud extends TableScene {
         if (hovered != null && (search == null || search.hoveredCard() == null)) {
             drawDetailPanel(w, h, flat);
         }
+        drawInspectPanel(w, h, flat);
         help.drawButton(shapes, w, h, flat);
         // Last of all, over everything. It used to be drawn before the seat names, the zone
         // labels and the life totals, all of which are printed on the board behind it - so the
@@ -955,6 +956,167 @@ abstract class TableHud extends TableScene {
      * game that appears to have frozen - the one failure the whole input plan is arranged to
      * avoid. It names the card, spells out both keys, and says H hands it back to Forge.
      */
+    // ---- inspect panel (right-click a card) ---------------------------------------------------
+
+    /**
+     * The card the player right-clicked, held BY ID rather than as an object.
+     *
+     * The board is rebuilt from a new Snapshot every time the game changes, so a held CardV goes
+     * stale the moment anything moves - the panel would freeze on the state the card was in when
+     * it was clicked, which for "what is attached to this and what does it do now" is exactly the
+     * wrong behaviour. Re-resolved from the live snapshot every frame instead.
+     */
+    int inspectId = -1;
+
+    /** Right-click opens this for a card, clicking the same card again shuts it. */
+    void inspect(Snapshot.CardV c) {
+        inspectId = (c == null || c.id == inspectId) ? -1 : c.id;
+    }
+
+    void closeInspect() {
+        inspectId = -1;
+    }
+
+    boolean inspecting() {
+        return inspectId >= 0;
+    }
+
+    /** That card in the CURRENT snapshot, anywhere it can be seen, or null if it has gone. */
+    private Snapshot.CardV inspectCard() {
+        if (inspectId < 0) return null;
+        for (Snapshot.SeatV s : snap.seats) {
+            for (java.util.List<Snapshot.CardV> zone : java.util.Arrays.asList(
+                    s.creatures, s.lands, s.others, s.command, s.graveyard, s.exile)) {
+                for (Snapshot.CardV c : zone) if (c.id == inspectId) return c;
+            }
+        }
+        for (Snapshot.CardV c : snap.stack) if (c.id == inspectId) return c;
+        for (Snapshot.CardV c : snap.hand) if (c.id == inspectId) return c;
+        return null;
+    }
+
+    /** Everything on the battlefield attached to this card: Equipment, Auras, Fortifications. */
+    private java.util.List<Snapshot.CardV> attachmentsOf(int id) {
+        java.util.List<Snapshot.CardV> out = new ArrayList<>();
+        for (Snapshot.SeatV s : snap.seats) {
+            for (java.util.List<Snapshot.CardV> zone : java.util.Arrays.asList(
+                    s.creatures, s.lands, s.others)) {
+                for (Snapshot.CardV c : zone) if (c.attachedToId == id) out.add(c);
+            }
+        }
+        return out;
+    }
+
+    /**
+     * What a card can do and what is bolted to it, on demand.
+     *
+     * The hover panel answers "what is this" in passing and, when Forge has the art cached, shows
+     * the picture instead of any text at all - so on a creature wearing three Equipment there was
+     * no way to read what it currently does, or even to list what was on it (the owner,
+     * 2026-11-10). This one is deliberate and stays up: right-click opens it, right-click again
+     * or ESC shuts it.
+     *
+     * The abilities come from Forge's own getAbilityText, so a creature holding a Sword lists the
+     * Sword's abilities as its own, and the keyword line carries granted keywords too.
+     */
+    void drawInspectPanel(int w, int h, Matrix4 flat) {
+        Snapshot.CardV c = inspectCard();
+        if (c == null) {
+            // It left the battlefield (or the zone we could see it in) - shut rather than hang on.
+            inspectId = -1;
+            return;
+        }
+        final float panelW = 390f, pad = 14f, lineH = 17f;
+        List<String> lines = new ArrayList<>();
+        lines.add(c.typeLine);
+        if (c.creature && !c.power.isEmpty()) {
+            lines.add("Power / toughness now:  " + c.power + " / " + c.toughness);
+        }
+        StringBuilder state = new StringBuilder();
+        if (c.tapped) state.append("tapped  ");
+        if (c.sick) state.append("summoning sick  ");
+        if (c.phasedOut) state.append("PHASED OUT  ");
+        if (c.attacking) state.append("attacking  ");
+        if (state.length() > 0) lines.add(state.toString().trim());
+        for (String ct : c.counterText) lines.add("  " + ct);
+        if (!c.attachedTo.isEmpty()) lines.add("Attached to: " + c.attachedTo);
+
+        if (!c.keywords.isEmpty()) {
+            lines.add("");
+            lines.addAll(wrap("KEYWORDS: " + String.join(", ", c.keywords), panelW - pad * 2));
+        }
+
+        String body = c.abilityText.isEmpty() ? c.text : c.abilityText;
+        if (!body.isEmpty()) {
+            lines.add("");
+            for (String para : body.split("\n")) {
+                if (para.trim().isEmpty()) continue;
+                lines.addAll(wrap(para.trim(), panelW - pad * 2));
+            }
+        }
+
+        List<Snapshot.CardV> att = attachmentsOf(c.id);
+        lines.add("");
+        if (att.isEmpty()) {
+            lines.add("ATTACHED: nothing");
+        } else {
+            lines.add("ATTACHED (" + att.size() + "):");
+            for (Snapshot.CardV a : att) {
+                lines.add("  " + a.name + (a.typeLine.isEmpty() ? "" : "  -  " + shortType(a.typeLine)));
+                String at = a.abilityText.isEmpty() ? a.text : a.abilityText;
+                for (String para : at.split("\n")) {
+                    if (para.trim().isEmpty()) continue;
+                    for (String l : wrap(para.trim(), panelW - pad * 2 - 16f)) lines.add("    " + l);
+                }
+            }
+        }
+        lines.add("");
+        lines.add("right-click again or ESC to close");
+
+        float panelH = Math.min(h - 40f, pad * 2 + lines.size() * lineH + 22f);
+        // Right-hand side: the left column is the phase strip and the priority list, and a panel
+        // centred over there buried both (screenshot, 2026-11-10). The game log lives top right,
+        // so this sits below it, vertically centred on the clear half of the screen.
+        float px = w - panelW - 18f, py = (h - panelH) / 2f - 40f;
+        if (py < 18f) py = 18f;
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0.02f, 0.09f, 0.14f, 0.96f);
+        shapes.rect(px, py, panelW, panelH);
+        shapes.setColor(0.95f, 0.78f, 0.36f, 1f);              // gold rule: this one was asked for
+        shapes.rect(px, py + panelH - 3f, panelW, 3f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        float y = py + panelH - pad;
+        fontBig.setColor(1f, 0.92f, 0.70f, 1f);
+        fontBig.draw(ui, c.name + (c.manaCost.isEmpty() ? "" : "   " + c.manaCost), px + pad, y);
+        y -= lineH + 9f;
+        for (String line : lines) {
+            if (y < py + pad) {
+                font.setColor(0.55f, 0.62f, 0.70f, 1f);
+                font.draw(ui, "...", px + pad, y);
+                break;
+            }
+            boolean head = line.startsWith("ATTACHED") || line.startsWith("KEYWORDS");
+            font.setColor(head ? new Color(0.95f, 0.78f, 0.36f, 1f)
+                               : new Color(0.72f, 0.82f, 0.90f, 1f));
+            font.draw(ui, line, px + pad, y);
+            y -= lineH;
+        }
+        ui.end();
+        font.setColor(1f, 1f, 1f, 1f);
+    }
+
+    /** "Legendary Artifact Equipment" -> "Equipment": enough to say what kind of thing it is. */
+    private static String shortType(String typeLine) {
+        String[] bits = typeLine.split("\s+");
+        return bits.length == 0 ? typeLine : bits[bits.length - 1];
+    }
+
     void drawPendingAsk(int w, int h) {
         Gui3D.Ask ask = Gui3D.pendingAsk();
         if (ask == null || peeking) return;      // put aside: the badge says it is still waiting

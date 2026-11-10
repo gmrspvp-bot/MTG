@@ -766,6 +766,9 @@ abstract class TableInput extends TableHud {
         // click, the same way the cog is, so it works whatever else is happening.
         if (clickedHelp()) { help.toggle(); return; }
         if (help.isOpen() && Keys3D.just(Input.Keys.ESCAPE)) { help.close(); return; }
+        // The inspect panel is passive - it never blocks a click on the board - so it only claims
+        // ESC, and only after the cog and help have had theirs.
+        if (inspecting() && Keys3D.just(Input.Keys.ESCAPE)) { closeInspect(); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         syncBoardModes();
@@ -864,6 +867,13 @@ abstract class TableInput extends TableHud {
             }
         }
         if (Keys3D.just(Input.Keys.S)) { openDemoSearch(); return; }
+        // -Dforge.ui3d.inspect=<card name>: opens the inspect panel once, for screenshot checks.
+        if (FORCE_INSPECT != null && !inspecting() && !inspectForced && frameNo > 30) {
+            inspectForced = true;
+            for (Drawn d : drawn) {
+                if (d.card != null && FORCE_INSPECT.equalsIgnoreCase(d.card.name)) { inspect(d.card); break; }
+            }
+        }
         // -Dforge.ui3d.padCheck=true: clicks every pad once, for checking the hit test without a mouse.
         if (PAD_CHECK && !padsChecked && frameNo > 30 && snap.seats.size() > 0) {
             padsChecked = true;
@@ -1069,14 +1079,30 @@ abstract class TableInput extends TableHud {
                 if (d > PAN_LIMIT) { panX *= PAN_LIMIT / d; panZ *= PAN_LIMIT / d; }
             }
         }
-        if (Gdx.input.isButtonPressed(Input.Buttons.RIGHT)) {
+        // Right button does two jobs, told apart by whether the mouse moved while it was down:
+        // a DRAG orbits the table (as it always has), a CLICK opens the inspect panel on the card
+        // under the pointer. Kept apart by distance rather than by time, because orbiting starts
+        // with a slow first pixel as often as a fast one, and a click that orbited the table by
+        // two degrees on the way to opening a panel would be worse than either.
+        boolean rightDown = Gdx.input.isButtonPressed(Input.Buttons.RIGHT);
+        if (rightDown) {
+            if (!rightWasDown) { rightDownX = Gdx.input.getX(); rightDownY = Gdx.input.getY(); rightDragged = false; }
+            if (Math.abs(Gdx.input.getX() - rightDownX) > 3 || Math.abs(Gdx.input.getY() - rightDownY) > 3) {
+                rightDragged = true;
+            }
             int dx = Gdx.input.getDeltaX();
             if (dx != 0) {
                 followTurn = false;
                 orbit -= dx * ORBIT_PER_PIXEL;
                 orbitTarget = orbit;
             }
+        } else if (rightWasDown && !rightDragged) {
+            // Released without moving: inspect whatever is under the pointer. On empty table it
+            // shuts the panel, which is what a right-click on nothing should mean.
+            pickAt(Gdx.input.getX(), Gdx.input.getY());
+            inspect(hovered == null ? null : hovered.card);
         }
+        rightWasDown = rightDown;
         // Walking round the table moved to A and D, and back to your seat to S, so the arrow
         // keys are free for the game itself - RIGHT is now "next phase", which is the thing you
         // press most (the owner, 2026-10-21). Seats are laid out anticlockwise, so stepping +1
@@ -1899,6 +1925,11 @@ abstract class TableInput extends TableHud {
      *
      * The mouse is never taken away: moving it hands control straight back (see handleInput).
      */
+    /** Right-button click detection: see handleInput. A drag orbits, a click inspects. */
+    private boolean rightWasDown, rightDragged;
+    private boolean inspectForced;
+    private int rightDownX, rightDownY;
+
     void pick() {
         pickAt(Gdx.input.getX(), Gdx.input.getY());
     }

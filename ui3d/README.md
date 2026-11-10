@@ -45,6 +45,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `X` | **In a game** - cancel (guarded) |
 | `E` (or the "Resolve stack" button) | **In a game** - pass until the stack is empty; stops if an opponent casts a spell, something targets you or your permanents, a board wipe, attackers, or any question for you (Forge's own stack yield, `Gui3D.resolveStack`) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
+| right-click a card | **Inspect**: everything it can do right now, granted abilities included, and every Equipment and Aura attached to it. Right-click again or `ESC` closes it. A right-*drag* still orbits the table |
 | click a library, graveyard or exile pad | Open that pile, any seat's. A library shows only what you may see of it (the top card under The Reality Chip or Future Sight). A gold-framed card in there is one you can play: click it to cast it |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
 | `G` | Pick up the card in your hand under the pointer; `LEFT`/`RIGHT` (or the mouse) place it, `SPACE` drops it, `ESC` puts it back |
@@ -611,6 +612,21 @@ to know before starting:
       off its top (`TableLayout.placeZones`, `pileTop`). **Also done:** each pile's pad shows as a
       rim in the owner's seat colour (`zoneLabelColour`, darkened), and the top card of a
       graveyard or exile pile lies face up on it (scenery - a click still browses the pile).
+- [x] **Inspect panel - done 2026-11-10.** The hover panel answers "what is this" in passing, and
+      when Forge has the art cached it shows the PICTURE instead of any text, so on a creature
+      wearing three Equipment there was no way to read what it currently does or even to list what
+      was on it (the owner, 2026-11-10). Right-click now opens a panel that stays up: name and cost,
+      type, current power and toughness, counters, status, a KEYWORDS line, the abilities, and an
+      ATTACHED list naming every Equipment and Aura on the card with its own text. The abilities come
+      from Forge's own `CardStateView.getAbilityText` and the keywords from `getKeywords`, so a
+      creature holding a Sword reports the Sword's abilities and granted keywords as its own - which
+      the printed oracle text in `CardV.text` does not. Held by card id and re-resolved from the live
+      snapshot every frame, so it tracks the card rather than freezing on the state it was in when it
+      was clicked, and closes itself if the card leaves. Right-drag still orbits: a drag and a click
+      are told apart by whether the mouse moved more than 3 px while the button was down. New:
+      `CardV.abilityText` / `CardV.keywords`, `TableHud.drawInspectPanel`, and
+      `-Dforge.ui3d.inspect=<card name>` for screenshot checks - the demo has Lyra Dawnbringer wearing
+      Skullclamp and Sword of Fire and Ice for exactly that.
 - [x] **Playing out of a pile - done 2026-11-03.** The piles were read-only, so anything Forge let
       you cast from one was simply unreachable: Ragavan exiled the top of an opponent's library,
       the rules engine granted "until end of turn, you may cast that card", and there was no way
