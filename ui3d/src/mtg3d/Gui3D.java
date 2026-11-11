@@ -2390,7 +2390,24 @@ public final class Gui3D implements InvocationHandler {
             // Taken when EVERYTHING has to be ordered - remainingMin and remainingMax both zero,
             // which is what simultaneous triggers ask for. When some items may be left behind
             // (sideboarding) the question is a different shape and stays with Forge.
-            if (args.length >= 8 && args[4] instanceof java.util.List && args[5] instanceof java.util.List) {
+            // args[5] is the already-placed list, and it is allowed to be NULL. Forge's own
+            // four-argument order(title, top, list, card) is a default method that delegates
+            // straight to this nine-argument one with aconst_null in that slot (javap of
+            // forge.gui.interfaces.IGuiGame, 2026-11-11), and "Select order for simultaneous
+            // abilities" is raised through exactly that path.
+            //
+            // Requiring a List there meant the whole two-list branch was skipped, the method fell
+            // through to the args.length != 4 guard, and every one of these went to Forge's
+            // window. In a LOCAL game it never showed: the proxy intercepts the four-argument
+            // default itself, so the four-argument branch below answered it. Only a JOINED client
+            // sees this shape, because the default methods run on the host and just the abstract
+            // nine-argument call crosses the wire - which is why Ardenn's "attach any number of
+            // Auras and Equipment" put the owner in Forge's window every game against the other
+            // host and never in his own (the owner, 2026-11-11; order (9 args) at 12:37:25 in
+            // scratch\play-logs\console_2026-11-10_122516.log, answered 5s later with no UI3D
+            // line against it).
+            if (args.length >= 8 && args[4] instanceof java.util.List
+                    && (args[5] == null || args[5] instanceof java.util.List)) {
                 int remainMin = args[2] instanceof Integer ? (Integer) args[2] : -1;
                 boolean sideboarding = args[7] instanceof Boolean && (Boolean) args[7];
                 // Taken whenever nothing HAS to be left behind (remainingMin 0): ordering all of
@@ -2400,7 +2417,8 @@ public final class Gui3D implements InvocationHandler {
                 // 2026-10-21) ask with remainingMax = n-1, meaning only the first must be chosen.
                 // Requiring max 0 sent every replacement choice to Forge's minimised window.
                 if (remainMin != 0 || sideboarding) return NOT_HANDLED;
-                java.util.List<Object> all = new ArrayList<>((java.util.List<?>) args[5]);   // already placed
+                java.util.List<Object> all = new ArrayList<>();                  // already placed
+                if (args[5] instanceof java.util.List) all.addAll((java.util.List<?>) args[5]);
                 for (Object o : (java.util.List<?>) args[4]) if (!all.contains(o)) all.add(o);
                 if (all.size() < 2) return NOT_HANDLED;
                 String title2 = args[0] instanceof String ? (String) args[0] : "Order";

@@ -45,7 +45,7 @@ declare-blockers, and the stack fills there too, so each part can be stopped on 
 | `X` | **In a game** - cancel (guarded) |
 | `E` (or the "Resolve stack" button) | **In a game** - pass until the stack is empty; stops if an opponent casts a spell, something targets you or your permanents, a board wipe, attackers, or any question for you (Forge's own stack yield, `Gui3D.resolveStack`) |
 | left-click | **In a game** - play the card under the cursor, if it is marked playable |
-| right-click a card | **Inspect**: everything it can do right now, granted abilities included, and every Equipment and Aura attached to it. Right-click again or `ESC` closes it. A right-*drag* still orbits the table |
+| right-click a card | **Inspect**: everything it can do right now, granted abilities included, and every Equipment and Aura attached to it. Hover an attachment's row for a pop-out of that card. The `x` top left, a second right-click, or `ESC` closes it. A right-*drag* still orbits the table |
 | click a library, graveyard or exile pad | Open that pile, any seat's. A library shows only what you may see of it (the top card under The Reality Chip or Future Sight). A gold-framed card in there is one you can play: click it to cast it |
 | red cog, top right | Report a bug - type what went wrong, ENTER saves it with the board state attached |
 | `G` | Pick up the card in your hand under the pointer; `LEFT`/`RIGHT` (or the mouse) place it, `SPACE` drops it, `ESC` puts it back |
@@ -612,6 +612,43 @@ to know before starting:
       off its top (`TableLayout.placeZones`, `pileTop`). **Also done:** each pile's pad shows as a
       rim in the owner's seat colour (`zoneLabelColour`, darkened), and the top card of a
       graveyard or exile pile lies face up on it (scenery - a click still browses the pile).
+- [x] **Ordering simultaneous triggers reached the table in a joined game - done 2026-11-11.**
+      The owner kept being thrown into Forge's window to order triggers, "especially with Ardenn",
+      whose "attach any number of Auras and Equipment" is one of two beginning-of-combat triggers
+      and so asks to be ordered every single turn. `takeOrder` already handled both shapes of
+      `order`, and in a local game it worked - so this looked like it could not be happening.
+      It was: the two-list branch required `args[5]`, the already-placed list, to be a `List`, and
+      Forge's own four-argument `order(title, top, list, card)` is a **default** method that
+      delegates to the abstract nine-argument one with `aconst_null` in that slot (`javap` of
+      `forge.gui.interfaces.IGuiGame`). The guard failed, the method fell through to the
+      `args.length != 4` check, and the question went to Forge.
+      It never showed locally because a `java.lang.reflect.Proxy` intercepts the four-argument
+      default itself, so the four-argument branch answered it. Only a **joined** client sees the
+      nine-argument shape, because the default methods run on the host and just the abstract call
+      crosses the wire - which is why this was every game against the other host and never in his
+      own. Evidence: `order (9 args)` at 12:37:25 in
+      `scratch\play-logs\console_2026-11-10_122516.log`, answered five seconds later with no
+      UI3D line against it, while the `getAbilityToPlay` immediately after it *was* taken by the
+      table. The guard now accepts a null, and the list is built defensively.
+      Still open, and separate: the per-attachment "Do you want to attach X to Y?" confirms come
+      through as prompt + `ok=Yes cancel=No`, which the table does show and SPACE can answer, but
+      Forge's window activates on each one (`ATTENTION Forge's window activated - UNEXPLAINED`).
+      That is a focus problem, not a missing handler.
+
+- [x] **Inspect panel: close box and a pop-out per attachment - done 2026-11-11.** Two things the
+      first cut got wrong, both reported by the owner after playing with it. The panel could only be
+      closed by a second right-click or `ESC`, neither of which is visible, so there is now an `x`
+      box top left with its own click edge, checked beside the cog and HELP so it works whatever
+      else is happening. And the attachment list said what each Equipment *does* without showing
+      what it *is* - on a creature wearing five pieces it was a wall of text - so hovering an
+      attachment's title row now opens that card beside the panel: the real picture when Forge has
+      it cached, with the live ability text, granted keywords and counters under it. The pop-out is
+      placed to the LEFT, because the panel sits on the right edge, and it shrinks or drops the
+      picture rather than run off a short window. `TableHud.drawAttachmentPopout`, the `AttHit`
+      rows recorded while the panel draws, `TableInput.clickedInspectClose`, and
+      `-Dforge.ui3d.inspectHover=<n>` to force the pop-out onto the nth attachment for screenshot
+      checks.
+
 - [x] **Inspect panel - done 2026-11-10.** The hover panel answers "what is this" in passing, and
       when Forge has the art cached it shows the PICTURE instead of any text, so on a creature
       wearing three Equipment there was no way to read what it currently does or even to list what

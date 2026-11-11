@@ -824,6 +824,12 @@ abstract class TableBase extends ApplicationAdapter {
 
     /** -Dforge.ui3d.inspect=<card name>: opens the inspect panel on it once, for screenshot checks. */
     static final String FORCE_INSPECT = System.getProperty("forge.ui3d.inspect");
+    /**
+     * -Dforge.ui3d.inspectHover=&lt;n&gt;: draw the inspect panel's hover pop-out for the nth
+     * attachment as though the mouse were on its row. Only so a screenshot can prove the pop-out
+     * without a mouse to move; it changes nothing in a real game, where it is unset.
+     */
+    static final String FORCE_ATT_HOVER = System.getProperty("forge.ui3d.inspectHover");
     static final boolean PAD_CHECK = Boolean.getBoolean("forge.ui3d.padCheck");
     boolean padsChecked;
 

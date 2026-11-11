@@ -1008,6 +1008,31 @@ abstract class TableHud extends TableScene {
     }
 
     /**
+     * The close box's screen rect, written while the panel draws and read by TableInput's click.
+     * Zero-width while the panel is shut, so a hit test can never pass when there is nothing there.
+     */
+    private float closeX, closeY, closeW, closeH;
+
+    /** One per ATTACHED title line: the row's rect and the card it names, for the hover pop-out. */
+    private static final class AttHit {
+        Snapshot.CardV card;
+        float x, y, w, h;
+    }
+
+    private final List<AttHit> attHits = new ArrayList<>();
+
+    /**
+     * True when the mouse is over the inspect panel's close box.
+     *
+     * Takes flat screen coordinates with y measured UP from the bottom, which is what the panel
+     * is drawn in - callers reading libGDX's top-down Gdx.input.getY() must flip it first.
+     */
+    boolean overInspectClose(float mx, float my) {
+        return closeW > 0f && inspecting()
+            && mx >= closeX && mx <= closeX + closeW && my >= closeY && my <= closeY + closeH;
+    }
+
+    /**
      * What a card can do and what is bolted to it, on demand.
      *
      * The hover panel answers "what is this" in passing and, when Forge has the art cached, shows
@@ -1024,6 +1049,8 @@ abstract class TableHud extends TableScene {
         if (c == null) {
             // It left the battlefield (or the zone we could see it in) - shut rather than hang on.
             inspectId = -1;
+            closeW = 0f;
+            attHits.clear();
             return;
         }
         final float panelW = 390f, pad = 14f, lineH = 17f;
@@ -1056,22 +1083,32 @@ abstract class TableHud extends TableScene {
         }
 
         List<Snapshot.CardV> att = attachmentsOf(c.id);
-        lines.add("");
+        // Which card each line NAMES, so the draw loop can turn the title rows into hover
+        // targets without re-deriving them from the text. Null on every other line.
+        List<Snapshot.CardV> lineOwner = new ArrayList<>();
+        while (lineOwner.size() < lines.size()) lineOwner.add(null);
+        lines.add(""); lineOwner.add(null);
         if (att.isEmpty()) {
-            lines.add("ATTACHED: nothing");
+            lines.add("ATTACHED: nothing"); lineOwner.add(null);
         } else {
-            lines.add("ATTACHED (" + att.size() + "):");
+            lines.add("ATTACHED (" + att.size() + "):"); lineOwner.add(null);
             for (Snapshot.CardV a : att) {
                 lines.add("  " + a.name + (a.typeLine.isEmpty() ? "" : "  -  " + shortType(a.typeLine)));
+                lineOwner.add(a);
                 String at = a.abilityText.isEmpty() ? a.text : a.abilityText;
                 for (String para : at.split("\n")) {
                     if (para.trim().isEmpty()) continue;
-                    for (String l : wrap(para.trim(), panelW - pad * 2 - 16f)) lines.add("    " + l);
+                    for (String l : wrap(para.trim(), panelW - pad * 2 - 16f)) {
+                        lines.add("    " + l); lineOwner.add(null);
+                    }
                 }
             }
         }
-        lines.add("");
-        lines.add("right-click again or ESC to close");
+        lines.add(""); lineOwner.add(null);
+        if (!att.isEmpty()) {
+            lines.add("hover an attachment above to see its card"); lineOwner.add(null);
+        }
+        lines.add("x, right-click again, or ESC to close"); lineOwner.add(null);
 
         float panelH = Math.min(h - 40f, pad * 2 + lines.size() * lineH + 22f);
         // Right-hand side: the left column is the phase strip and the priority list, and a panel
@@ -1087,24 +1124,143 @@ abstract class TableHud extends TableScene {
         shapes.rect(px, py, panelW, panelH);
         shapes.setColor(0.95f, 0.78f, 0.36f, 1f);              // gold rule: this one was asked for
         shapes.rect(px, py + panelH - 3f, panelW, 3f);
+        // The close box, top left. Right-click and ESC already shut the panel; this is the one a
+        // mouse finds without being told it exists (the owner, 2026-11-11).
+        float mx = Gdx.input.getX(), my = h - Gdx.input.getY();
+        closeX = px + 7f;
+        closeY = py + panelH - 26f;
+        closeW = 18f;
+        closeH = 18f;
+        boolean overClose = overInspectClose(mx, my);
+        shapes.setColor(overClose ? 0.62f : 0.20f, overClose ? 0.18f : 0.10f,
+                        overClose ? 0.18f : 0.12f, 1f);
+        shapes.rect(closeX, closeY, closeW, closeH);
         shapes.end();
 
         ui.setProjectionMatrix(flat);
         ui.begin();
         float y = py + panelH - pad;
+        // The title starts clear of the close box rather than running under it.
         fontBig.setColor(1f, 0.92f, 0.70f, 1f);
-        fontBig.draw(ui, c.name + (c.manaCost.isEmpty() ? "" : "   " + c.manaCost), px + pad, y);
+        fontBig.draw(ui, c.name + (c.manaCost.isEmpty() ? "" : "   " + c.manaCost),
+            px + pad + 20f, y);
+        font.setColor(overClose ? 1f : 0.78f, overClose ? 0.86f : 0.66f,
+                      overClose ? 0.86f : 0.66f, 1f);
+        font.draw(ui, "x", closeX + 6f, closeY + 14f);
         y -= lineH + 9f;
-        for (String line : lines) {
+        attHits.clear();
+        Snapshot.CardV popout = null;
+        float popoutY = 0f;
+        for (int i = 0; i < lines.size(); i++) {
+            String line = lines.get(i);
             if (y < py + pad) {
                 font.setColor(0.55f, 0.62f, 0.70f, 1f);
                 font.draw(ui, "...", px + pad, y);
                 break;
             }
+            Snapshot.CardV names = lineOwner.get(i);
+            boolean hot = false;
+            if (names != null) {
+                AttHit hit = new AttHit();
+                hit.card = names;
+                hit.x = px + pad;
+                hit.y = y - 5f;
+                hit.w = panelW - pad * 2;
+                hit.h = lineH;
+                attHits.add(hit);
+                hot = mx >= hit.x && mx <= hit.x + hit.w && my >= hit.y && my <= hit.y + hit.h;
+                if (hot) { popout = names; popoutY = y; }
+            }
             boolean head = line.startsWith("ATTACHED") || line.startsWith("KEYWORDS");
-            font.setColor(head ? new Color(0.95f, 0.78f, 0.36f, 1f)
-                               : new Color(0.72f, 0.82f, 0.90f, 1f));
+            font.setColor(hot ? new Color(1f, 0.95f, 0.72f, 1f)
+                              : head ? new Color(0.95f, 0.78f, 0.36f, 1f)
+                                     : new Color(0.72f, 0.82f, 0.90f, 1f));
             font.draw(ui, line, px + pad, y);
+            y -= lineH;
+        }
+        ui.end();
+        font.setColor(1f, 1f, 1f, 1f);
+        // Screenshot checks have no mouse to put on a row, so this stands in for one.
+        if (popout == null && FORCE_ATT_HOVER != null && !attHits.isEmpty()) {
+            try {
+                AttHit forced = attHits.get(Integer.parseInt(FORCE_ATT_HOVER.trim()) % attHits.size());
+                popout = forced.card;
+                popoutY = forced.y + 5f;
+            } catch (RuntimeException ignored) { /* a bad value just means no pop-out */ }
+        }
+        // Drawn last, in batches of its own, so it sits over the panel rather than under it.
+        if (popout != null) drawAttachmentPopout(popout, popoutY, px, w, h, flat);
+    }
+
+    /**
+     * The card for one attachment, beside the inspect panel, while the mouse is on its row.
+     *
+     * Listing a Sword's rules text inside the panel says what it does but not what it IS, and on a
+     * creature wearing five Equipment the panel is a wall of text with no way to look at any one
+     * of them (the owner, 2026-11-11). This shows the real picture when Forge has it cached, with
+     * the live ability text under it - Forge's own getAbilityText, so an Equipment something else
+     * has changed reads as it currently is rather than as it was printed.
+     *
+     * Placed to the LEFT of the panel, which lives on the right edge of the screen, and clamped
+     * into the window so a row near the top or the bottom still shows the whole card.
+     */
+    private void drawAttachmentPopout(Snapshot.CardV a, float rowY, float panelLeft,
+                                      int w, int h, Matrix4 flat) {
+        com.badlogic.gdx.graphics.Texture tex =
+            art == null || !art.hasPicture(a) ? null : art.get(a);
+        final float popW = 300f, pad = 11f, lineH = 16f;
+
+        List<String> lines = new ArrayList<>();
+        lines.add(a.typeLine);
+        if (a.creature && !a.power.isEmpty()) lines.add(a.power + " / " + a.toughness);
+        if (!a.counterText.isEmpty()) lines.add("Counters: " + String.join(", ", a.counterText));
+        if (!a.keywords.isEmpty()) {
+            lines.addAll(wrap("KEYWORDS: " + String.join(", ", a.keywords), popW - pad * 2));
+        }
+        String body = a.abilityText.isEmpty() ? a.text : a.abilityText;
+        for (String para : body.split("\n")) {
+            if (para.trim().isEmpty()) continue;
+            lines.addAll(wrap(para.trim(), popW - pad * 2));
+        }
+
+        float textH = pad * 2 + lines.size() * lineH + 22f;
+        // Magic card proportions. Shrunk, or dropped altogether, rather than let the pop-out run
+        // off the top and bottom of a small window.
+        float picH = tex == null ? 0f : popW * 1.39f;
+        if (picH > 0f && textH + picH > h - 16f) picH = Math.max(0f, h - 16f - textH);
+        if (picH < 80f) { picH = 0f; tex = null; }
+        float popH = picH + textH;
+
+        float ppx = panelLeft - popW - 12f;
+        if (ppx < 8f) ppx = 8f;
+        float ppy = Math.min(Math.max(rowY - popH + 26f, 8f), Math.max(8f, h - popH - 8f));
+
+        Gdx.gl.glEnable(GL20.GL_BLEND);
+        shapes.setProjectionMatrix(flat);
+        shapes.begin(ShapeRenderer.ShapeType.Filled);
+        shapes.setColor(0f, 0f, 0f, 0.55f);
+        shapes.rect(ppx + 6f, ppy - 6f, popW, popH);
+        shapes.setColor(0.03f, 0.07f, 0.11f, 0.98f);
+        shapes.rect(ppx, ppy, popW, popH);
+        shapes.setColor(0.95f, 0.78f, 0.36f, 1f);
+        shapes.rect(ppx, ppy + popH - 3f, popW, 3f);
+        shapes.end();
+
+        ui.setProjectionMatrix(flat);
+        ui.begin();
+        if (tex != null) {
+            ui.setColor(Color.WHITE);
+            ui.draw(tex, ppx, ppy + textH, popW, picH);
+        }
+        float y = ppy + textH - pad;
+        fontBig.setColor(1f, 0.92f, 0.70f, 1f);
+        fontBig.draw(ui, a.name + (a.manaCost.isEmpty() ? "" : "   " + a.manaCost), ppx + pad, y);
+        y -= lineH + 8f;
+        for (String l : lines) {
+            if (y < ppy + 6f) break;
+            font.setColor(l.startsWith("KEYWORDS") ? new Color(0.95f, 0.78f, 0.36f, 1f)
+                                                   : new Color(0.74f, 0.84f, 0.92f, 1f));
+            font.draw(ui, l, ppx + pad, y);
             y -= lineH;
         }
         ui.end();

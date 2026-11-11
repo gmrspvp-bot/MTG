@@ -769,6 +769,10 @@ abstract class TableInput extends TableHud {
         // The inspect panel is passive - it never blocks a click on the board - so it only claims
         // ESC, and only after the cog and help have had theirs.
         if (inspecting() && Keys3D.just(Input.Keys.ESCAPE)) { closeInspect(); return; }
+        // Its close box is the one exception: a left-click there shuts the panel instead of
+        // reaching the board underneath. Checked here, next to the cog and HELP, for the same
+        // reason they are - it has to work whatever else is going on.
+        if (clickedInspectClose()) { closeInspect(); clickedCard(); return; }
         // A search owns the keyboard and mouse while it is up, otherwise ESC would both close the
         // panel and release the camera, and a click meant for a card would also move the view.
         syncBoardModes();
@@ -1833,6 +1837,23 @@ abstract class TableInput extends TableHud {
         boolean justDown = down && !leftWasDownHelp;
         leftWasDownHelp = down;
         return justDown && help.overButton(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
+    }
+
+    /** Its own click edge, so the close box cannot share one with the board under it. */
+    private boolean leftWasDownInspect;
+
+    /**
+     * True on the frame the left button goes down on the inspect panel's close box.
+     *
+     * The panel is drawn in flat screen coordinates measured UP from the bottom, so libGDX's
+     * top-down getY() is flipped before the hit test, exactly as clickedHelp does it.
+     */
+    boolean clickedInspectClose() {
+        boolean down = Gdx.input.isButtonPressed(Input.Buttons.LEFT) || Pad.clickHeld();
+        boolean justDown = down && !leftWasDownInspect;
+        leftWasDownInspect = down;
+        return justDown && inspecting()
+            && overInspectClose(Gdx.input.getX(), Gdx.graphics.getHeight() - Gdx.input.getY());
     }
 
     /** Its own click edge, so the list cannot share one with the board under it. */
