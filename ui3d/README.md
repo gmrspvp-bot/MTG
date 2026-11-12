@@ -612,6 +612,29 @@ to know before starting:
       off its top (`TableLayout.placeZones`, `pileTop`). **Also done:** each pile's pad shows as a
       rim in the owner's seat colour (`zoneLabelColour`, darkened), and the top card of a
       graveyard or exile pile lies face up on it (scenery - a click still browses the pile).
+- [x] **Big stacks: one card per run, one click to order identical triggers - done 2026-11-12.**
+      The owner's Scute Swarm game put **280 identical landfall triggers** on the stack, and asked
+      him to order them on every land drop. Two separate things were broken by that.
+      The stack bar drew a card for every item. At `px + 200 + i * 146` that is forty thousand
+      pixels of card, so it was unreadable long before 280. Consecutive runs of the same thing
+      (same name, same stack text, same rules text, same ability-or-spell) are now drawn **once**
+      with `x280` and "280 the same" under them. Runs shorter than `STACK_COLLAPSE_FROM` (3) are
+      drawn in full, so ordinary play looks exactly as it did. Only the *drawing* folds:
+      `stackAt`, `stackLabelAt` and `stackGroupSize` all stay one entry per real stack item, every
+      folded item pointing at the card that stands for it, so target arcs still land on something
+      the player can see and nothing downstream had to change.
+      The ordering panel had the same arithmetic problem, and a worse one: ordering 280 identical
+      triggers has exactly one answer. When every item is alike it now draws one card with the
+      count and offers **"All 280 the same - resolve (ENTER)"**, which answers with Forge's own
+      order untouched - the same thing Confirm does, said out loud. The test is deliberately
+      strict: anything that differs at all and the ordinary drag panel opens, because being wrong
+      here would answer a real decision without asking.
+      Checked by screenshot with `-Dforge.ui3d.demoStorm=280 -Dforge.ui3d.demoPhase=COMBAT_DECLARE_BLOCKERS`:
+      284 on the stack, five cards drawn, "stack 284" and "284 to resolve" both still right.
+      **The one-click button itself is not screenshot-checked** - it needs a real `order` call -
+      so it wants a game. `TableBase.alike`/`stackGroupSize`, `TableLayout.placeStack`,
+      `TableHud.drawStackLabels`, `OrderPanel.open(..., sameLabel, ...)`, `Table3D.allAlike`.
+
 - [x] **Ordering simultaneous triggers reached the table in a joined game - done 2026-11-11.**
       The owner kept being thrown into Forge's window to order triggers, "especially with Ardenn",
       whose "attach any number of Auras and Equipment" is one of two beginning-of-combat triggers

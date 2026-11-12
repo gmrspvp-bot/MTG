@@ -199,6 +199,19 @@ public final class Demo {
                 if (i == 3) { v.id = find(s, "Resplendent Angel").id; v.typeLine = "Creature - Angel"; v.stackIsAbility = true; }
                 s.stack.add(v);
             }
+            // -Dforge.ui3d.demoStorm=<n>: n identical landfall triggers on top of the stack, so
+            // the run-collapsing can be looked at without a Scute Swarm game (the owner's, with
+            // 280 of them, 2026-11-12). Unset in a real game, where this code is not reached.
+            int storm = Integer.getInteger("forge.ui3d.demoStorm", 0);
+            if (onStack > 0 && storm > 0) {
+                for (int i = 0; i < storm; i++) {
+                    Snapshot.CardV v = card(4000 + i, "Scute Swarm", "Creature - Insect", false, false, "{2}{G}", "");
+                    v.controller = "Xenil";
+                    v.stackIsAbility = true;
+                    v.stackText = "Scute Swarm - Landfall: create a token that's a copy of Scute Swarm.";
+                    s.stack.add(v);
+                }
+            }
             // Priority round the table while spells are up: the seats it has already moved past
             // have passed, so the phase panel's priority block shows all three states.
             int prio = (active + onStack) % n;

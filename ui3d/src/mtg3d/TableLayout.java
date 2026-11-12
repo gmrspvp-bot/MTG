@@ -327,6 +327,7 @@ abstract class TableLayout extends TableCamera {
     void placeStack() {
         stackAt.clear();
         stackLabelAt.clear();
+        stackGroupSize.clear();
         flatStack = null;
         if (snap.stack.isEmpty()) return;
         // Seated, the stack stands upright in the air, facing you. In the overhead (TAB) view it
@@ -334,7 +335,41 @@ abstract class TableLayout extends TableCamera {
         // upright cards are edge-on and unreadable. `t` follows the camera's own lift, so the
         // cards lie down and stand up with the camera rather than snapping.
         float t = smooth(lift);
-        int n = snap.stack.size();
+        // Consecutive runs of the same thing become one drawn card. `rep` holds the stack index
+        // drawn for each slot, `member` says which slot every stack item belongs to.
+        int items = snap.stack.size();
+        java.util.List<Integer> rep = new ArrayList<>();
+        java.util.List<Integer> runOf = new ArrayList<>();
+        int[] member = new int[items];
+        for (int i = 0; i < items; i++) {
+            int last = rep.isEmpty() ? -1 : rep.get(rep.size() - 1);
+            if (last >= 0 && alike(snap.stack.get(last), snap.stack.get(i))) {
+                runOf.set(runOf.size() - 1, runOf.get(runOf.size() - 1) + 1);
+            } else {
+                rep.add(i);
+                runOf.add(1);
+            }
+            member[i] = rep.size() - 1;
+        }
+        // A run of one or two is left alone, so nothing about ordinary play changes. Undo the
+        // folding for those by giving each of their items its own slot again.
+        if (runOf.stream().noneMatch(v -> v >= STACK_COLLAPSE_FROM)) {
+            rep.clear(); runOf.clear();
+            for (int i = 0; i < items; i++) { rep.add(i); runOf.add(1); member[i] = i; }
+        } else {
+            java.util.List<Integer> rep2 = new ArrayList<>(), run2 = new ArrayList<>();
+            for (int k = 0; k < rep.size(); k++) {
+                if (runOf.get(k) >= STACK_COLLAPSE_FROM) { rep2.add(rep.get(k)); run2.add(runOf.get(k)); }
+                else for (int j = 0; j < runOf.get(k); j++) { rep2.add(rep.get(k) + j); run2.add(1); }
+            }
+            rep = rep2; runOf = run2;
+            for (int i = 0; i < items; i++) {
+                for (int k = rep.size() - 1; k >= 0; k--) if (rep.get(k) <= i) { member[i] = k; break; }
+            }
+        }
+        for (int i = 0; i < items; i++) stackGroupSize.add(0);
+        for (int k = 0; k < rep.size(); k++) stackGroupSize.set(rep.get(k), runOf.get(k));
+        int n = rep.size();
         float scale = STACK_SCALE + (FLAT_STACK_SCALE - STACK_SCALE) * t;
         float tilt = 90f * (1f - t);
         float baseY = STACK_Y + (FLAT_STACK_Y - STACK_Y) * t;
@@ -363,8 +398,9 @@ abstract class TableLayout extends TableCamera {
         flatStack = t < 0.5f ? null : new float[] { o.x, o.z, toViewer.x, toViewer.z,
             width / 2f + 0.45f, CARD_H * scale / 2f + 0.4f };
 
+        java.util.List<float[]> slotAt = new ArrayList<>(), slotLabelAt = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            Snapshot.CardV c = snap.stack.get(i);
+            Snapshot.CardV c = snap.stack.get(rep.get(i));
             boolean top = (i == n - 1);
             float along = -width / 2f + i * step + cardW / 2f;
             Vector3 w = rotateY(along, 0f, orbit);
@@ -375,11 +411,17 @@ abstract class TableLayout extends TableCamera {
             // Where a target arc starts: the bottom edge of the card. Kept per stack index,
             // because an ability shares its id with its source, so poses cannot tell them apart.
             float half = CARD_H * scale / 2f;
-            stackAt.add(new float[] { w.x + down.x * half, y + down.y * half, w.z + down.z * half });
+            slotAt.add(new float[] { w.x + down.x * half, y + down.y * half, w.z + down.z * half });
             // Where its "who cast it" label goes: low on the upright card (as it always was), and
             // just past the near edge of a flat one.
             float lab = 0.8f + (half + 0.25f - 0.8f) * t;
-            stackLabelAt.add(new float[] { w.x + down.x * lab, y + down.y * lab, w.z + down.z * lab });
+            slotLabelAt.add(new float[] { w.x + down.x * lab, y + down.y * lab, w.z + down.z * lab });
+        }
+        // One entry per REAL stack item, every folded item pointing at the card that stands for
+        // it, so an arc drawn to the twohundredth trigger lands on the card the player can see.
+        for (int i = 0; i < items; i++) {
+            stackAt.add(slotAt.get(member[i]));
+            stackLabelAt.add(slotLabelAt.get(member[i]));
         }
     }
 

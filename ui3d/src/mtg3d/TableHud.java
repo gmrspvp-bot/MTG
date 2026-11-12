@@ -676,15 +676,24 @@ abstract class TableHud extends TableScene {
         // flat. (It used to work out its own spacing, which no longer matched the cards' once the
         // stack was drawn larger: with three items the labels sat between the cards.)
         for (int i = 0; i < snap.stack.size() && i < stackLabelAt.size(); i++) {
+            // Folded into an earlier card by placeStack: its label would land on top of that
+            // card's, 280 times over.
+            int run = i < stackGroupSize.size() ? stackGroupSize.get(i) : 1;
+            if (run == 0) continue;
             Snapshot.CardV c = snap.stack.get(i);
-            boolean top = (i == snap.stack.size() - 1);
+            boolean top = (i + run >= snap.stack.size());
             float[] at = stackLabelAt.get(i);
             Vector3 p = cam.project(new Vector3(at[0], at[1], at[2]));
             if (p.z > 1f) continue;
             font.setColor(top ? new Color(1f, 0.85f, 0.35f, 1f) : new Color(0.68f, 0.78f, 0.88f, 1f));
-            font.draw(ui, c.controller, p.x - 30, p.y);
+            font.draw(ui, c.controller + (run > 1 ? "   x" + run : ""), p.x - 30, p.y);
             float y = p.y - 13;
             if (top) { font.draw(ui, "resolving next", p.x - 30, y); y -= 13; }
+            if (run > 1) {
+                font.setColor(new Color(1f, 0.80f, 0.40f, 1f));
+                font.draw(ui, run + " the same", p.x - 30, y);
+                y -= 13;
+            }
             // Owner's list 2026-10-20: say WHICH ability is on the stack - the card picture is the
             // same for every ability of a card, so without this two activations look identical.
             if (c.stackIsAbility && c.stackText != null && !c.stackText.isEmpty()) {

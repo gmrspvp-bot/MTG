@@ -41,6 +41,20 @@ public final class OrderPanel {
     private String[] numberWords = {};
     private Result result;
     private boolean prevTouch, okHover, cancelHover;
+    /**
+     * Set when every item being ordered is the same thing, so the order cannot matter: the label
+     * for the one-click answer, or null for an ordinary ordering.
+     *
+     * Scute Swarm copies itself on every landfall, and by the owner's game of 2026-11-12 there
+     * were 280 of them, so Forge asked him to order 280 identical landfall triggers each time a
+     * land entered. Two things were wrong with that. Any order is the same game state, so the
+     * question has one answer and should take one click. And the panel lays cards out at
+     * `px + 200 + i * 146`, which for 280 of them is forty thousand pixels of card - it could not
+     * have been used even if the order had mattered.
+     */
+    private String sameLabel;
+    private boolean sameHover;
+    private float sameX, sameW;
     // Dragging: which card, where it was picked up, and where the press started (to tell a click).
     private int dragRow = -1, dragIndex = -1;
     /** Where the keyboard highlight is, and the card it is carrying (null when not carrying). */
@@ -57,6 +71,19 @@ public final class OrderPanel {
      */
     public void open(String title, String prompt, List<List<Snapshot.CardV>> start,
                      String[] rowNames, String[] numberWords, Result result) {
+        open(title, prompt, start, rowNames, numberWords, null, result);
+    }
+
+    /**
+     * @param sameLabel when every item is identical, the caption for the one-click answer. The
+     *                  panel then draws ONE card with a count instead of all of them, and the
+     *                  answer it gives back is still the full list in the order Forge supplied -
+     *                  only the drawing is collapsed, never the answer.
+     */
+    public void open(String title, String prompt, List<List<Snapshot.CardV>> start,
+                     String[] rowNames, String[] numberWords, String sameLabel, Result result) {
+        this.sameLabel = sameLabel;
+        this.sameHover = false;
         this.title = title == null ? "" : title;
         this.prompt = prompt == null ? "" : prompt;
         rows.clear();
@@ -116,9 +143,12 @@ public final class OrderPanel {
 
     private void measure(BitmapFont font, int sh) {
         textH.clear();
-        for (List<Snapshot.CardV> row : rows) {
+        for (int r = 0; r < rows.size(); r++) {
+            List<Snapshot.CardV> row = rows.get(r);
             float tall = 0f;
-            for (Snapshot.CardV c : row) {
+            // Only the cards that will be drawn. Wrapping the text of 280 identical triggers
+            // every frame, to take the maximum of 280 equal numbers, is pure cost.
+            for (Snapshot.CardV c : row.subList(0, Math.min(shown(r), row.size()))) {
                 if (c.stackText == null || c.stackText.isEmpty()) continue;
                 tall = Math.max(tall, wrapped(font, c.stackText).height);
             }
@@ -163,7 +193,9 @@ public final class OrderPanel {
     }
 
     private void layout(int sw, int sh, float t) {
-        pw = Math.min(sw - 120f, Math.max(640f, 220f + rows.stream().mapToInt(List::size).sum() * (CARD_W + GAP)));
+        int drawn = 0;
+        for (int r = 0; r < rows.size(); r++) drawn += shown(r);
+        pw = Math.min(sw - 120f, Math.max(640f, 220f + drawn * (CARD_W + GAP)));
         float stack = 0f;
         for (int r = 0; r < rows.size(); r++) stack += rowHeight(r);
         ph = Math.min(sh - 40f, 110f + stack + 50f);
@@ -179,6 +211,12 @@ public final class OrderPanel {
     }
 
     private float slotX(int i) { return px + 200f + i * (CARD_W + GAP); }
+
+    /** How many of row r are drawn: one standing for all of them when they are all the same. */
+    private int shown(int r) {
+        int size = rows.get(r).size();
+        return sameLabel != null ? Math.min(1, size) : size;
+    }
 
     public void render(SpriteBatch ui, ShapeRenderer shapes, BitmapFont font, BitmapFont fontBig) {
         if (!open) return;
@@ -231,11 +269,15 @@ public final class OrderPanel {
             if (!nw.isEmpty()) font.draw(ui, "1 = " + nw, px + 26f, y + CARD_H - 24f);
             font.draw(ui, rows.get(r).size() + " card" + (rows.get(r).size() == 1 ? "" : "s"), px + 26f, y + 14f);
             List<Snapshot.CardV> row = rows.get(r);
-            for (int i = 0; i < row.size(); i++) {
+            int n = shown(r);
+            for (int i = 0; i < n; i++) {
                 if (r == dragRow && i == dragIndex && pressed && moved(mx, my)) continue;   // drawn at the mouse
                 drawCard(ui, font, row.get(i), slotX(i), y, t, r < textH.size() ? textH.get(r) : 0f);
                 font.setColor(1f, 0.86f, 0.42f, t);
-                font.draw(ui, String.valueOf(i + 1), slotX(i) + CARD_W / 2f - 4f, y + CARD_H + 16f);
+                // The position number means nothing when one card stands for all of them; the
+                // count does, so that is what goes there.
+                font.draw(ui, sameLabel != null ? "x" + row.size() : String.valueOf(i + 1),
+                    slotX(i) + CARD_W / 2f - 4f, y + CARD_H + 16f);
             }
         }
         if (dragRow >= 0 && pressed && moved(mx, my)) {
@@ -245,7 +287,27 @@ public final class OrderPanel {
         font.setColor(0.40f, 0.52f, 0.62f, t);
         // Short: the buttons sit at the right-hand end of this same line, and the long
         // version ran straight underneath them.
-        font.draw(ui, "drag, or arrows + SPACE", px + 22f, py + 24f);
+        font.draw(ui, sameLabel == null ? "drag, or arrows + SPACE" : "any order is the same",
+            px + 22f, py + 24f);
+        if (sameLabel != null) {
+            com.badlogic.gdx.graphics.g2d.GlyphLayout gl =
+                new com.badlogic.gdx.graphics.g2d.GlyphLayout(font, sameLabel);
+            sameW = gl.width + 20f;
+            sameX = px + pw - 200f - sameW;
+            if (sameX < px + 200f) sameX = px + 200f;
+            shapes.setProjectionMatrix(flat);
+            ui.end();
+            shapes.begin(ShapeRenderer.ShapeType.Filled);
+            shapes.setColor(sameHover ? 0.22f : 0.12f, sameHover ? 0.42f : 0.26f,
+                            sameHover ? 0.30f : 0.20f, t);
+            shapes.rect(sameX - 10f, py + 6f, sameW, 28f);
+            shapes.end();
+            ui.begin();
+            font.setColor(sameHover ? new Color(0.80f, 1f, 0.85f, t) : new Color(0.60f, 0.92f, 0.72f, t));
+            font.draw(ui, sameLabel, sameX, py + 24f);
+        } else {
+            sameW = 0f;
+        }
         font.setColor(okHover ? new Color(1f, 0.92f, 0.60f, t) : new Color(0.65f, 0.95f, 1f, t));
         font.draw(ui, "Confirm", px + pw - 100f, py + 24f);
         font.setColor(cancelHover ? new Color(1f, 0.80f, 0.70f, t) : new Color(0.55f, 0.68f, 0.78f, t));
@@ -289,6 +351,8 @@ public final class OrderPanel {
     private void handleInput(float mx, float my) {
         okHover = mx >= px + pw - 105f && mx <= px + pw - 30f && my >= py + 8f && my <= py + 32f;
         cancelHover = mx >= px + pw - 185f && mx <= px + pw - 115f && my >= py + 8f && my <= py + 32f;
+        sameHover = sameW > 0f && mx >= sameX - 10f && mx <= sameX - 10f + sameW
+            && my >= py + 6f && my <= py + 34f;
         if (Keys3D.just(Input.Keys.ESCAPE)) { finish(true); return; }
         if (Keys3D.just(Input.Keys.ENTER)) { finish(false); return; }
 
@@ -328,8 +392,13 @@ public final class OrderPanel {
         boolean down = touch && !prevTouch, up = !touch && prevTouch;
         prevTouch = touch;
         if (down) {
+            // Answering with the rows untouched, which is Forge's own order - the same thing
+            // Confirm does. The button exists to say out loud that there is nothing to decide.
+            if (sameHover) { finish(false); return; }
             if (okHover) { finish(false); return; }
             if (cancelHover) { finish(true); return; }
+            // Nothing to pick up when one card is standing for all of them.
+            if (sameLabel != null) return;
             for (int r = 0; r < rows.size(); r++) {
                 float y = rowY(r);
                 for (int i = 0; i < rows.get(r).size(); i++) {

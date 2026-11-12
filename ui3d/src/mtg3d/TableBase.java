@@ -527,6 +527,36 @@ abstract class TableBase extends ApplicationAdapter {
     final List<float[]> stackAt = new ArrayList<>();
 
     /**
+     * Per stack index: how many items the card drawn for it stands for, or 0 when it is folded
+     * into an earlier card and is not drawn at all.
+     *
+     * Runs of the same thing are drawn once with a count. Scute Swarm had 280 landfall triggers
+     * on the stack in the owner's game of 2026-11-12, every one of them the same, and the bar
+     * drew a card for each - unreadable, and a card every 146 pixels is wider than any screen.
+     * Only the DRAWING is folded: this list, stackAt and stackLabelAt all stay one entry per
+     * real stack item, so target arcs and everything else still find their own card.
+     */
+    final List<Integer> stackGroupSize = new ArrayList<>();
+
+    /** Runs shorter than this are drawn in full, so ordinary play looks exactly as it did. */
+    static final int STACK_COLLAPSE_FROM = 3;
+
+    /**
+     * Are these the same thing as far as a player is concerned - same name, same stack text,
+     * same rules text? Two triggers off two copies of Scute Swarm are different objects with
+     * different ids and identical everything else.
+     */
+    static boolean alike(Snapshot.CardV a, Snapshot.CardV b) {
+        if (a == null || b == null) return false;
+        return eqs(a.name, b.name) && eqs(a.stackText, b.stackText) && eqs(a.text, b.text)
+            && a.stackIsAbility == b.stackIsAbility;
+    }
+
+    private static boolean eqs(String a, String b) {
+        return a == null ? b == null : a.equals(b);
+    }
+
+    /**
      * Seats are laid out by rotating a point on the near edge around the table's centre.
      * angle 0 is the near edge (you); a four-player pod then goes anticlockwise at 90 degree steps.
      * Rotating local (x, z) by `angle` about Y:  wx = x*cos - z*sin,  wz = x*sin + z*cos.

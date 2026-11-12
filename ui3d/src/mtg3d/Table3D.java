@@ -354,8 +354,18 @@ public final class Table3D extends TableInput {
                 });
             } else {
                 rows.add(new ArrayList<>(items));
-                order.open(o.title, "Drag them into order, then Confirm.", rows,
-                    new String[] { o.caption.isEmpty() ? "Order" : o.caption }, new String[] { "first" }, r -> {
+                // All the same thing? Then the order cannot matter, and the panel says so and
+                // takes one click instead of asking for a drag it would not understand. Scute
+                // Swarm had the owner ordering 280 identical landfall triggers on every land
+                // drop (2026-11-12).
+                String same = allAlike(items)
+                    ? "All " + items.size() + " the same - resolve (ENTER)" : null;
+                order.open(o.title,
+                    same == null ? "Drag them into order, then Confirm."
+                                 : "Every one of these is the same, so any order gives the same result.",
+                    rows,
+                    new String[] { o.caption.isEmpty() ? "Order" : o.caption }, new String[] { "first" },
+                    same, r -> {
                         if (r == null) { Gui3D.answerOrder(null); return; }
                         List<Integer> idx = new ArrayList<>();
                         for (Snapshot.CardV v : r.get(0)) {
@@ -367,12 +377,30 @@ public final class Table3D extends TableInput {
         }
         if (o == null && shownOrder != null && order.isOpen()) { order.close(); shownOrder = null; }
 
+
         Gui3D.DamageAsk d = Gui3D.pendingDamage();
         if (d != null && d != shownDamage && !damage.isOpen()) {
             shownDamage = d;
             damage.open(d.attacker, d.damage, d.blockers, d.lethal, d.trample, (perBlocker, toPlayer) -> Gui3D.answerDamage(perBlocker, toPlayer));
         }
         if (d == null && shownDamage != null && damage.isOpen()) { damage.close(); shownDamage = null; }
+    }
+
+    /**
+     * Are these all the same thing, so that ordering them cannot change anything?
+     *
+     * Compared on what the player would read - the name and the stack text - because that is
+     * what "the same" means at the table. Two triggers off two copies of Scute Swarm are
+     * different objects with different ids and identical everything else.
+     *
+     * Deliberately strict: anything that differs at all, even one card in a hundred, and the
+     * ordinary panel opens. Being wrong here would answer a real decision without asking, so the
+     * test has to be the one that is easy to be sure about.
+     */
+    private static boolean allAlike(List<Snapshot.CardV> items) {
+        if (items == null || items.size() < 2) return false;
+        for (Snapshot.CardV c : items) if (!alike(c, items.get(0))) return false;
+        return true;
     }
 
     @Override
