@@ -15,7 +15,6 @@ Name=Dominic - Ardenn
 1 Azorius Chancery
 1 Azorius Signet
 1 Batterskull
-1 Blackblade Reforged
 1 Bribery
 1 Celestial Colonnade
 1 Colossus Hammer
@@ -35,7 +34,6 @@ Name=Dominic - Ardenn
 1 Generous Gift
 1 Gilded Drake
 1 Glacial Fortress
-1 Grafted Wargear
 1 Hall of Heliod's Generosity
 1 Hallowed Fountain
 1 Hanna, Ship's Navigator
@@ -43,7 +41,7 @@ Name=Dominic - Ardenn
 1 Hypnotic Siren
 1 Inventors' Fair
 1 Irrigated Farmland
-11 Island
+10 Island
 1 Kaldra Compleat
 1 Kor Spiritdancer
 1 Land Tax
@@ -59,7 +57,9 @@ Name=Dominic - Ardenn
 1 Prairie Stream
 1 Puresteel Paladin
 1 Rhystic Study
+1 River's Rebuke
 1 Robe of Stars
+1 Rogue's Passage
 1 Sea of Clouds
 1 Seachrome Coast
 1 Shadowspear
@@ -72,6 +72,7 @@ Name=Dominic - Ardenn
 1 Steelshaper's Gift
 1 Stoneforge Mystic
 1 Sun Titan
+1 Super State
 1 Swan Song
 1 Swiftfoot Boots
 1 Sword of Feast and Famine
