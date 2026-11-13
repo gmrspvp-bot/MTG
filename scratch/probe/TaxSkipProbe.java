@@ -23,7 +23,7 @@ import forge.player.PlayerControllerHuman;
  */
 public class TaxSkipProbe {
     static int fails = 0;
-    static volatile boolean answerSkip = true;
+    static volatile String answer = TaxSkipHook.SKIP_ALL;
     static volatile int asked = 0;
 
     static Card put(Game g, Player p, String name) {
@@ -101,10 +101,11 @@ public class TaxSkipProbe {
         Game game = match.createGame();
         Object stub = java.lang.reflect.Proxy.newProxyInstance(TaxSkipProbe.class.getClassLoader(),
             new Class<?>[] { forge.gui.interfaces.IGuiGame.class }, (x, m, args) -> {
-                if (m.getName().equals("confirm") && args.length == 4) {
+                if (m.getName().equals("getChoices")) {
                     asked++;
-                    System.out.println("PROBE asked: " + String.valueOf(args[1]).replace('\n', ' ') + " " + args[3]);
-                    return answerSkip;
+                    System.out.println("PROBE asked: " + args[0] + " " + args[3] + " -> " + answer);
+                    for (Object o : (List<?>) args[3]) if (String.valueOf(o).startsWith(answer)) return new ArrayList<>(List.of(o));
+                    return new ArrayList<>();
                 }
                 if (m.getName().equals("order")) {
                     List<Object> all = new ArrayList<>();
@@ -173,7 +174,7 @@ public class TaxSkipProbe {
         clear(game, opp); clear(game, me); tithe = put(game, me, "Smothering Tithe");
         for (int i = 0; i < 4; i++) put(game, opp, "Island");
         draw(game, opp, 7);
-        answerSkip = true; asked = 0;
+        answer = TaxSkipHook.SKIP_ALL; asked = 0;
         runStack(game);
         expect("A asked once", asked, 1);
         expect("A seven Treasures", tokens(me), 7);
@@ -196,13 +197,18 @@ public class TaxSkipProbe {
         expect("C not declined", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 0);
         expect("C not asked", asked, 0);
 
-        // D: the stack grows past the limit after that, and the player says Ask each time.
+        // D: the stack grows past the limit. "Pay" leaves it to Forge, "Don't pay this one" declines
+        // just this one, and the next trigger still offers "Skip all", which then holds without asking.
         draw(game, opp, 4);
-        answerSkip = false; asked = 0;
+        answer = TaxSkipHook.PAY; asked = 0;
         top = game.getStack().peekAbility();
-        expect("D not declined", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 0);
-        expect("D not declined again", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 0);
-        expect("D asked once", asked, 1);
+        expect("D pay: not declined", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 0);
+        answer = TaxSkipHook.NOT_THIS;
+        expect("D don't pay this one: declined", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 1);
+        answer = TaxSkipHook.SKIP_ALL;
+        expect("D skip all, offered again: declined", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 1);
+        expect("D then skipped without asking", TaxSkipHook.declines(oppH, two, top) ? 1 : 0, 1);
+        expect("D asked three times", asked, 3);
 
         // E: the same player goes broke mid-stack, so the rest clear on their own, and a new big
         // stack asks afresh: the answer did not outlive the stack.
@@ -210,7 +216,7 @@ public class TaxSkipProbe {
         runStack(game);
         for (int i = 0; i < 4; i++) put(game, opp, "Island");
         draw(game, opp, 7);
-        answerSkip = true; asked = 0;
+        answer = TaxSkipHook.SKIP_ALL; asked = 0;
         runStack(game);
         expect("E asked again on a new stack", asked, 1);
 

@@ -7,10 +7,12 @@
 // their own GUI, so a client needs no update. Two things happen before Forge asks:
 //   - A player who cannot pay a mana-only cost is not asked at all. Any other kind of cost (life,
 //     sacrifice, discard) still asks, and a failed check counts as "can pay".
-//   - When a tax trigger resolves with more than 5 triggers on the stack, its payer gets one
-//     question: skip them all, or ask each time. Skipping covers the tax cards named in that
-//     question until the stack empties, including new triggers from those cards. "Ask each time"
-//     holds until the stack empties too, so the player is only ever asked once per stack.
+//   - When a tax trigger resolves with more than 5 triggers on the stack, its payer is asked
+//     "Skip all / Don't pay this one / Pay". Skipping covers the tax cards named in that question
+//     until the stack empties, including new triggers from those cards. The other two answer only
+//     this trigger, so the next one asks again and "Skip all" is always one click away. (Until
+//     2026-11-13 the first answer held for the whole stack: the owner said "ask each time" with 6
+//     Tithe triggers, his draws then pushed it past 40, and he had to cancel about 210 payments.)
 //
 // Only triggers can be skipped: Mana Leak on your own spell always asks, and so do echo and
 // cumulative upkeep, where saying no costs you the permanent.
@@ -33,7 +35,6 @@ import java.util.WeakHashMap;
 import forge.ai.ComputerUtilCost;
 import forge.game.Game;
 import forge.game.GameLogEntryType;
-import forge.game.card.CardView;
 import forge.game.cost.Cost;
 import forge.game.cost.CostPart;
 import forge.game.cost.CostPartMana;
@@ -95,16 +96,25 @@ public final class TaxSkipHook {
         }
         if (!skippable(sa)) return false;
 
-        Set<String> answered = ANSWERED.get(p);
-        if (answered == null) {
-            answered = ask(self, sa, tax);
-            if (answered == null) return false;
-            ANSWERED.put(p, answered);
+        Set<String> skipping = ANSWERED.get(p);
+        if (skipping == null || !skipping.contains(tax)) {
+            Set<String> names = new LinkedHashSet<>();
+            String a = ask(self, sa, tax, cost, names);
+            if (a == null || a.startsWith(PAY)) return false;          // Forge's own payment prompt
+            if (a.equals(NOT_THIS)) {
+                say(g, p + " doesn't pay " + cost.toSimpleString() + " for " + tax);
+                return true;
+            }
+            synchronized (ANSWERED) {
+                Set<String> s = ANSWERED.computeIfAbsent(p, k -> new LinkedHashSet<>());
+                s.addAll(names);
+            }
         }
-        if (!answered.contains(tax)) return false;
         say(g, p + " skips " + cost.toSimpleString() + " for " + tax);
         return true;
     }
+
+    static final String SKIP_ALL = "Skip all until the stack clears", NOT_THIS = "Don't pay this one", PAY = "Pay ";
 
     /** Only a mana-only cost is judged: that is the one kind the check below can be trusted on. */
     static boolean canPay(Cost cost, SpellAbility sa, Player p) {
@@ -125,9 +135,11 @@ public final class TaxSkipHook {
         return root.isTrigger() && !root.isKeyword(Keyword.ECHO) && !root.isKeyword(Keyword.CUMULATIVE_UPKEEP);
     }
 
-    /** The question, on a big stack; null on a small one, so it can still be asked if the stack grows. */
-    private static Set<String> ask(PlayerControllerHuman self, SpellAbility sa, String tax) {
-        Set<String> names = new LinkedHashSet<>();
+    /**
+     * The question, on a big stack: the answer picked, with the tax cards a skip covers put in
+     * names. Null on a small stack (Forge asks as usual), so it can still be asked if the stack grows.
+     */
+    private static String ask(PlayerControllerHuman self, SpellAbility sa, String tax, Cost cost, Set<String> names) {
         names.add(tax);
         int triggers = 0;
         for (SpellAbilityStackInstance si : self.getGame().getStack()) {
@@ -137,13 +149,19 @@ public final class TaxSkipHook {
             if (hasTax(s) && skippable(s) && s.getHostCard() != null) names.add(s.getHostCard().getName());
         }
         if (triggers <= TRIGGERS) return null;
-        String q = triggers + " triggers on the stack. Skip paying for all of them until it clears?\n"
-            + String.join(", ", names);
-        boolean skip = self.getGui().confirm(CardView.get(sa.getHostCard()), q, false,
-            Arrays.asList("Skip all", "Ask each time"));
-        System.out.println("TAXSKIP " + self.getPlayer() + " on " + triggers + " triggers (" + names + "): "
-            + (skip ? "skip all" : "ask each time"));
-        return skip ? names : Collections.emptySet();
+        String price = cost.toSimpleString();
+        String q = tax + ": pay " + price + "? " + triggers + " triggers on the stack. Skip all covers "
+            + String.join(", ", names) + ".";
+        String a = null;
+        try {
+            // getChoices, not one(): it is the call the network protocol and the 3D table carry.
+            java.util.List<String> got = self.getGui().getChoices(q, 1, 1, Arrays.asList(SKIP_ALL, NOT_THIS, PAY + price));
+            a = got == null || got.isEmpty() ? null : got.get(0);
+        } catch (Throwable t) {
+            System.out.println("TAXSKIP question failed, Forge asks instead (" + t + ")");
+        }
+        System.out.println("TAXSKIP " + self.getPlayer() + " on " + triggers + " triggers (" + names + "): " + a);
+        return a;
     }
 
     private static boolean hasTax(SpellAbility sa) {
