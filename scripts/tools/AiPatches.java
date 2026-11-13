@@ -388,11 +388,50 @@ public final class AiPatches {
                 for (Player p : t.getTargetPlayers()) { if (p == ai) return "targets me"; }
                 for (SpellAbility ts : t.getTargetSpells()) { if (ts.getActivatingPlayer() == ai) return "targets my spell"; }
             }
+            if (BY_KIND) return kind(ai, top, host);
             if (host != null && host.getCMC() >= 4) return "mana value " + host.getCMC();
             // The player furthest ahead gets less room: their 3-drops are threats too.
             Player caster = top.getActivatingPlayer();
             if (host != null && host.getCMC() >= 3 && caster != null && caster == leader(ai)) return "leader's mana value " + host.getCMC();
             return null;
+        }
+
+        /**
+         * -Dforge.ai.counterkind=true (off until its A/B): judge by what the spell is, not only its
+         * mana value. The old rule countered any 4-drop, Wedding Ring included (owner, 2026-11-13:
+         * "not a card worth countering"; it even hands an opponent a copy). Creatures and
+         * planeswalkers keep the mana-value rule; Equipment always counts (Dom's Ardenn deck
+         * attaches it for free; owner: "any of the equipment from dom"); other spells only if
+         * they take extra turns, steal, are known engines (Super State...) or cost 6+.
+         */
+        static final boolean BY_KIND = Boolean.getBoolean("forge.ai.counterkind");
+        static final java.util.Set<String> ENGINES = new java.util.HashSet<>(Arrays.asList(
+            "Super State", "Rhystic Study", "Smothering Tithe", "Mystic Remora", "Doubling Season",
+            "Parallel Lives", "Anointed Procession", "Cathars' Crusade", "Necropotence", "Phyrexian Arena",
+            "Underworld Dreams", "Impact Tremors", "Purphoros, God of the Forge", "Black Market Connections",
+            "Esper Sentinel", "Dictate of Kruphix", "Forced Fruition"));
+        /** Spells that help the would-be counterer too: never worth a counter on their own. */
+        static final java.util.Set<String> HELPS = new java.util.HashSet<>(Arrays.asList("Wedding Ring"));
+
+        static String kind(Player ai, SpellAbility top, Card host) {
+            if (host == null) return null;
+            String name = host.getName();
+            if (HELPS.contains(name)) return null;
+            if (ENGINES.contains(name)) return "engine " + name;
+            int mv = host.getCMC();
+            if (host.isEquipment()) return "equipment " + name;
+            for (SpellAbility s = top; s != null; s = s.getSubAbility()) {
+                ApiType api = s.getApi();
+                if (api == ApiType.AddTurn) return "extra turn";
+                if (api == ApiType.GainControl || api == ApiType.ExchangeControl) return "steals";
+            }
+            if (host.isCreature() || host.isPlaneswalker()) {
+                if (mv >= 4) return "mana value " + mv;
+                Player caster = top.getActivatingPlayer();
+                if (mv >= 3 && caster != null && caster == leader(ai)) return "leader's mana value " + mv;
+                return null;
+            }
+            return mv >= 6 ? "mana value " + mv : null;
         }
 
         /** Opponent with the strongest board: total creature power + non-land permanents. */
