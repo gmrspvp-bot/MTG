@@ -31,6 +31,7 @@ Nothing here is enforced. It only works if both agents actually push the claim b
 | Item | Agent | Claimed (UTC) | Notes |
 |---|---|---|---|
 | AI kills Alexios on sight, even on its own field | Stoneforge | 2026-11-06 13:45 | Owner's request. AiPatches removal paths, equip targeting, A/B on Alexios pods |
+| Counterspell AI: counter by what a spell does, not mana value | Stoneforge | 2026-11-13 00:51 | Owner's request. AiPatches ThreatAwareCounterAi; Super State + equipment count; A/B after their game |
 <!-- new claim rows go directly under the separator above, not at the end of the file -->
 
 ## Not claimed, and worth knowing about
