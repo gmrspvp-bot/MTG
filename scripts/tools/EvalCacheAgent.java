@@ -107,6 +107,9 @@ public class EvalCacheAgent {
          "(Lforge/game/cost/Cost;Lforge/game/spellability/SpellAbility;ZLforge/util/collect/FCollectionView;)Z",
          "TaxSkipHook", "instance"},
         {"forge/game/zone/MagicStack", "resolveStack", "()V", "TaxSkipHook", "instance"},
+        {"forge/player/PlayerControllerHuman", "confirmPayment",
+         "(Lforge/game/cost/CostPart;Ljava/lang/String;Lforge/game/spellability/SpellAbility;)Z",
+         "TaxSkipHook", "instance"},
     };
 
     public static void premain(String args, Instrumentation inst) {

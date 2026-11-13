@@ -14,6 +14,13 @@
 //     2026-11-13 the first answer held for the whole stack: the owner said "ask each time" with 6
 //     Tithe triggers, his draws then pushed it past 40, and he had to cancel about 210 payments.)
 //
+// SPACE skips a tax (owner, 2026-11-13: "too easy to accidentally pay"). For a mana tax Forge
+// opened its payment screen straight away, where SPACE is "Auto" and pays. Now a tax trigger first
+// asks "Don't pay" / "Pay {2}", with "Don't pay" as the button SPACE, Enter and OK press (in
+// Forge's window and on the 3D table); only "Pay" opens the payment screen. For other tax costs
+// (life, sacrifice) EvalCacheAgent routes PlayerControllerHuman.confirmPayment here and Forge's
+// Yes/No becomes the same "Don't pay" / "Pay". -Dforge.taxskip.nodefault=false keeps Forge's way.
+//
 // Only triggers can be skipped: Mana Leak on your own spell always asks, and so do echo and
 // cumulative upkeep, where saying no costs you the permanent.
 //
@@ -43,6 +50,7 @@ import forge.game.player.Player;
 import forge.game.spellability.SpellAbility;
 import forge.game.spellability.SpellAbilityStackInstance;
 import forge.game.zone.MagicStack;
+import forge.gamemodes.match.input.InputConfirm;
 import forge.player.PlayerControllerHuman;
 import forge.util.collect.FCollectionView;
 
@@ -55,6 +63,12 @@ public final class TaxSkipHook {
 
     private static volatile MethodHandle origPay;
     private static volatile MethodHandle origResolve;
+    private static volatile MethodHandle origConfirm;
+
+    static final boolean DONT_PAY_DEFAULT = !"false".equalsIgnoreCase(System.getProperty("forge.taxskip.nodefault", "true"));
+    static final String DONT_PAY = "Don't pay";
+    /** The tax cost being asked about on this thread, while Forge's own payment prompt runs. */
+    private static final ThreadLocal<Cost> TAXING = new ThreadLocal<>();
 
     /** A player's answer for the current stack: a skip of these tax cards, or empty for "ask each". */
     private static final Map<Player, Set<String>> ANSWERED = Collections.synchronizedMap(new WeakHashMap<>());
@@ -67,8 +81,58 @@ public final class TaxSkipHook {
                     MethodType.methodType(boolean.class, Cost.class, SpellAbility.class, boolean.class,
                         FCollectionView.class));
         }
+        PAY_PICKED.remove();
         if (ENABLED && declines(self, cost, sa)) return false;
-        return (boolean) origPay.invoke(self, cost, sa, alreadyPaid, allPayers);
+        boolean tax = ENABLED && DONT_PAY_DEFAULT && sa != null && sa.getHostCard() != null && skippable(sa);
+        if (tax && manaOnly(cost)) {
+            // Forge has no yes/no for a mana tax: it opens the payment screen, where SPACE is "Auto".
+            if (PAY_PICKED.get() == null && !wantsToPay(self, sa, cost)) {
+                say(self.getGame(), self.getPlayer() + " doesn't pay " + cost.toSimpleString() + " for " + sa.getHostCard().getName());
+                return false;
+            }
+            tax = false;
+        }
+        Cost before = TAXING.get();
+        if (tax) TAXING.set(cost);
+        try {
+            return (boolean) origPay.invoke(self, cost, sa, alreadyPaid, allPayers);
+        } finally {
+            if (tax) { if (before == null) TAXING.remove(); else TAXING.set(before); }
+        }
+    }
+
+    /** "Don't pay" first, so SPACE / Enter / OK picks it, in Forge's window and on the 3D table. */
+    private static boolean wantsToPay(PlayerControllerHuman self, SpellAbility sa, Cost cost) {
+        String price = cost.toSimpleString();
+        String q = sa.getHostCard().getName() + ": pay " + price + "?";
+        boolean dontPay = InputConfirm.confirm(self, sa, q, true, Arrays.asList(DONT_PAY, PAY + price));
+        System.out.println("TAXSKIP " + self.getPlayer() + " asked to pay " + price + ": " + (dontPay ? "no" : "pays"));
+        return !dontPay;
+    }
+
+    private static boolean manaOnly(Cost cost) {
+        if (cost == null) return false;
+        for (CostPart part : cost.getCostParts()) if (!(part instanceof CostPartMana)) return false;
+        return true;
+    }
+
+    /** Set when the big-stack question was answered "Pay", so the player is not asked twice. */
+    private static final ThreadLocal<Boolean> PAY_PICKED = new ThreadLocal<>();
+
+    /** Forge's "Do you want to pay?" (life, sacrifice...) - inside a tax trigger, "Don't pay" is the default. */
+    public static boolean confirmPayment(PlayerControllerHuman self, CostPart part, String prompt, SpellAbility sa) throws Throwable {
+        if (origConfirm == null) {
+            origConfirm = MethodHandles.privateLookupIn(PlayerControllerHuman.class, MethodHandles.lookup())
+                .findVirtual(PlayerControllerHuman.class, "confirmPayment$orig",
+                    MethodType.methodType(boolean.class, CostPart.class, String.class, SpellAbility.class));
+        }
+        Cost cost = TAXING.get();
+        if (cost == null || sa == null) return (boolean) origConfirm.invoke(self, part, prompt, sa);
+        String price = part instanceof CostPartMana ? cost.toSimpleString() : String.valueOf(part);
+        // The first option is the button SPACE / Enter / OK picks, so it is "Don't pay"; the answer is flipped.
+        boolean dontPay = InputConfirm.confirm(self, sa, prompt, true, Arrays.asList(DONT_PAY, PAY + price));
+        System.out.println("TAXSKIP " + self.getPlayer() + " asked to pay " + price + ": " + (dontPay ? "no" : "pays"));
+        return !dontPay;
     }
 
     public static void resolveStack(MagicStack self) throws Throwable {
@@ -100,6 +164,7 @@ public final class TaxSkipHook {
         if (skipping == null || !skipping.contains(tax)) {
             Set<String> names = new LinkedHashSet<>();
             String a = ask(self, sa, tax, cost, names);
+            if (a != null && a.startsWith(PAY)) PAY_PICKED.set(Boolean.TRUE);
             if (a == null || a.startsWith(PAY)) return false;          // Forge's own payment prompt
             if (a.equals(NOT_THIS)) {
                 say(g, p + " doesn't pay " + cost.toSimpleString() + " for " + tax);

@@ -25,6 +25,8 @@ public class TaxSkipProbe {
     static int fails = 0;
     static volatile String answer = TaxSkipHook.SKIP_ALL;
     static volatile int asked = 0;
+    static volatile int confirmed = 0;
+    static volatile String confirmOptions = "";
 
     static Card put(Game g, Player p, String name) {
         Card c = Card.fromPaperCard(FModel.getMagicDb().getCommonCards().getCard(name), p);
@@ -106,6 +108,13 @@ public class TaxSkipProbe {
                     System.out.println("PROBE asked: " + args[0] + " " + args[3] + " -> " + answer);
                     for (Object o : (List<?>) args[3]) if (String.valueOf(o).startsWith(answer)) return new ArrayList<>(List.of(o));
                     return new ArrayList<>();
+                }
+                if (m.getName().equals("isLibgdxPort")) return true;
+                if (m.getName().equals("confirm") && args.length == 4) {
+                    confirmed++;
+                    confirmOptions = String.valueOf(args[3]);
+                    System.out.println("PROBE confirm: " + args[1] + " " + args[3] + " default=" + args[2] + " -> first button");
+                    return true;   // SPACE / Enter / OK = the first option
                 }
                 if (m.getName().equals("order")) {
                     List<Object> all = new ArrayList<>();
@@ -219,6 +228,18 @@ public class TaxSkipProbe {
         answer = TaxSkipHook.SKIP_ALL; asked = 0;
         runStack(game);
         expect("E asked again on a new stack", asked, 1);
+
+        // G: a small stack. Before Forge opens its payment screen the player is asked, and the first button (SPACE)
+        // is now "Don't pay": three triggers, three questions, three Treasures, no land tapped.
+        clear(game, opp); clear(game, me); tithe = put(game, me, "Smothering Tithe");
+        for (int i = 0; i < 4; i++) put(game, opp, "Island");
+        draw(game, opp, 3);
+        confirmed = 0; confirmOptions = "";
+        runStack(game);
+        expect("G asked each trigger", confirmed, 3);
+        expect("G first button is Don't pay", confirmOptions.startsWith("[" + TaxSkipHook.DONT_PAY + ", Pay") ? 1 : 0, 1);
+        expect("G three Treasures", tokens(me), 3);
+        expect("G no land tapped", tappedCount(opp), 0);
 
         // F: not a trigger (Mana Leak on your own spell). Never offered, never skipped.
         System.out.println("PROBE skippable trigger=" + top.getRootAbility().isTrigger());
